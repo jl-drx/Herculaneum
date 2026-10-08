@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "origin": "Reviewed local lab adapters; copied without modification",
+  "scripts": [
+    {
+      "path": "run_ink_baseline.py",
+      "sha256": "2cbdb280777e19794fc78857969f9c1d43965da17772f6a1659264e6f5a48a59"
+    },
+    {
+      "path": "run_ink_reference.py",
+      "sha256": "16bc6e9fb080eb5c2fcc1f20975481881e513b36b7533c1987bdb422340fea9f"
+    },
+    {
+      "path": "run_ink_large.py",
+      "sha256": "54170b298c716c4b8cb56da539bb74812a20cb8666888d02ddaf2984ddea3fbf"
+    },
+    {
+      "path": "fetch_ink_models.py",
+      "sha256": "a6bce55d6f3e97fbc9644529bb9a4532b2628b0e9efcc2c0eb6eb87d3d93ca3f"
+    }
+  ]
+}
