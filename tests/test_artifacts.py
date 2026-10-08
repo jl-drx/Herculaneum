@@ -6,6 +6,7 @@ import json
 import os
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -373,6 +374,83 @@ class ArtifactTests(unittest.TestCase):
             self.assertEqual(store.client.meta.endpoint_url, "https://" + "0" * 32 + ".r2.cloudflarestorage.com")
             self.assertEqual(store.client.meta.config.retries["total_max_attempts"], 3)
             store.client.close()
+
+    def _sign_r2_put_headers(self):
+        try:
+            from botocore.awsrequest import AWSRequest
+        except ImportError:
+            self.skipTest("Optional botocore SDK is not installed")
+        store = R2ArtifactStore.from_env()
+        try:
+            request = AWSRequest(
+                method="PUT",
+                url=f"{store.client.meta.endpoint_url}/{store.bucket}/offline-test.bin",
+                data=b"offline signing payload",
+            )
+            # Sign a real request locally without invoking the transport.
+            store.client._request_signer.sign("PutObject", request)
+            return {name.lower(): value for name, value in request.headers.items()}
+        finally:
+            store.client.close()
+
+    def test_r2_session_token_is_signed_and_changes_authorization(self):
+        try:
+            import botocore.auth  # noqa: F401
+        except ImportError:
+            self.skipTest("Optional botocore SDK is not installed")
+        environment = {
+            "R2_ACCOUNT_ID": "0" * 32,
+            "R2_BUCKET": "test-bucket",
+            "R2_ACCESS_KEY_ID": "dummy-r2-key",
+            "R2_SECRET_ACCESS_KEY": "dummy-r2-secret",
+            "R2_SESSION_TOKEN": "dummy-r2-session-token",
+            "AWS_SESSION_TOKEN": "unrelated-aws-session-token",
+            "AWS_PROFILE": "nonexistent-unrelated-aws-profile",
+            "AWS_DEFAULT_PROFILE": "also-nonexistent-aws-profile",
+        }
+        fixed_time = datetime(2026, 10, 8, 12, tzinfo=timezone.utc)
+        with patch.dict(os.environ, environment, clear=True), patch(
+            "socket.socket.connect", side_effect=AssertionError("Unexpected network connection")
+        ), patch("botocore.auth.get_current_datetime", return_value=fixed_time):
+            first = self._sign_r2_put_headers()
+            os.environ["R2_SESSION_TOKEN"] = "different-dummy-r2-session-token"
+            second = self._sign_r2_put_headers()
+        self.assertEqual(first["x-amz-security-token"], "dummy-r2-session-token")
+        self.assertEqual(second["x-amz-security-token"], "different-dummy-r2-session-token")
+        signed_headers = first["authorization"].split("SignedHeaders=", 1)[1].split(",", 1)[0].split(";")
+        self.assertIn("x-amz-security-token", signed_headers)
+        self.assertEqual(first["x-amz-date"], "20261008T120000Z")
+        other_headers = lambda headers: {
+            name: value for name, value in headers.items()
+            if name not in {"authorization", "x-amz-security-token"}
+        }
+        self.assertEqual(other_headers(first), other_headers(second))
+        self.assertNotEqual(first["authorization"], second["authorization"])
+        self.assertIn("Credential=dummy-r2-key/", first["authorization"])
+
+    def test_r2_long_lived_pair_ignores_unrelated_aws_session_token(self):
+        environment = {
+            "R2_ACCOUNT_ID": "0" * 32,
+            "R2_BUCKET": "test-bucket",
+            "R2_ACCESS_KEY_ID": "dummy-r2-key",
+            "R2_SECRET_ACCESS_KEY": "dummy-r2-secret",
+            "AWS_SESSION_TOKEN": "unrelated-aws-session-token",
+            "AWS_PROFILE": "nonexistent-unrelated-aws-profile",
+            "AWS_DEFAULT_PROFILE": "also-nonexistent-aws-profile",
+        }
+        for token in (None, ""):
+            with self.subTest(r2_session_token="unset" if token is None else "empty"):
+                values = dict(environment)
+                if token is not None:
+                    values["R2_SESSION_TOKEN"] = token
+                with patch.dict(os.environ, values, clear=True), patch(
+                    "socket.socket.connect", side_effect=AssertionError("Unexpected network connection")
+                ):
+                    headers = self._sign_r2_put_headers()
+                self.assertNotIn("x-amz-security-token", headers)
+                signed_headers = headers["authorization"].split("SignedHeaders=", 1)[1].split(",", 1)[0].split(";")
+                self.assertNotIn("x-amz-security-token", signed_headers)
+                self.assertIn("Credential=dummy-r2-key/", headers["authorization"])
 
 
 if __name__ == "__main__":

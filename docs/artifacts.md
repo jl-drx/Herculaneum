@@ -89,6 +89,15 @@ Inject these values through the runtime's secret/configuration mechanism:
 - `R2_ACCOUNT_ID`: 32-character Cloudflare account ID.
 - `R2_BUCKET`: existing private bucket name.
 - `R2_ACCESS_KEY_ID` and `R2_SECRET_ACCESS_KEY`: bucket-scoped R2 credentials.
+- `R2_SESSION_TOKEN`: also required when using temporary R2 credentials;
+  omit it for a permanent credential pair.
+
+The SDK receives the session token for SigV4 signing. These explicit credentials
+are captured when the client is constructed; this module does not renew them.
+Temporary credentials must remain valid through execution, artifact upload,
+read-back verification and bounded retries. Refresh an expiring credential set
+through its issuer before starting a later job, and construct a new client.
+Updating environment variables does not refresh an existing client.
 
 No AWS credential or profile fallback is used. Do not put credential values,
 presigned URLs or signed request details in Git, metadata or command-line
@@ -122,5 +131,7 @@ PYTHONPATH=src python -m unittest discover -s tests -p test_artifacts.py -v
 
 Tests use temporary local files and a fake R2 client. They cover interruption,
 exact resume, collisions, source truncation, stored corruption, publication
-order and credential isolation. The SDK initialization test uses dummy R2
-values and a network tripwire. There is no live-cloud integration claim.
+order and credential isolation. Real SDK initialization and SigV4 signing tests
+use dummy R2 values and a network tripwire. They verify temporary session-token
+signing and exclusion of unrelated AWS session tokens. These offline tests do
+not establish live-cloud integration.

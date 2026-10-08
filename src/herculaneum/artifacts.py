@@ -200,6 +200,8 @@ class R2ArtifactStore:
     def from_env(cls, *, prefix: str = "") -> R2ArtifactStore:
         """Build a client from R2_* variables, without AWS credential fallback.
 
+        Temporary credentials also require R2_SESSION_TOKEN. Credentials are
+        captured when the client is constructed and are not refreshed here.
         This creates no bucket and issues no storage request. Bucket privacy
         and appropriately scoped credentials must be configured separately.
         """
@@ -225,6 +227,7 @@ class R2ArtifactStore:
                 region_name="auto",
                 aws_access_key_id=values["R2_ACCESS_KEY_ID"],
                 aws_secret_access_key=values["R2_SECRET_ACCESS_KEY"],
+                aws_session_token=os.environ.get("R2_SESSION_TOKEN") or None,
                 config=Config(
                     signature_version="s3v4",
                     s3={"addressing_style": "path"},
