@@ -1,0 +1,55 @@
+usage: python -m vesuvius.ink_detection.inference.infer [-h] [--folder FOLDER]
+                                                        [--checkpoint-path CHECKPOINT_PATH]
+                                                        [--output-prefix OUTPUT_PREFIX]
+                                                        [--mask-path MASK_PATH]
+                                                        [--resolution RESOLUTION]
+                                                        [--num-workers NUM_WORKERS]
+                                                        [--prefetch-factor PREFETCH_FACTOR]
+                                                        [--overlap OVERLAP]
+                                                        [--stride STRIDE]
+                                                        [--blend-mode {auto,constant,gaussian,hann}]
+                                                        [--layer-start LAYER_START]
+                                                        [--layer-end LAYER_END]
+                                                        [--batch-size BATCH_SIZE]
+                                                        [--direction {forward,reverse,both}]
+                                                        [--amp-dtype {auto,default,fp16,bf16}]
+                                                        [--tta-mirror]
+                                                        [--tta-batch-size TTA_BATCH_SIZE]
+                                                        [--gpus GPUS]
+                                                        [--compile-mode COMPILE_MODE]
+                                                        [--no-compile]
+                                                        [input_zarr]
+                                                        [checkpoint]
+                                                        [output_tiff]
+
+Run ink inference on a flat surface-volume Zarr
+
+positional arguments:
+  input_zarr
+  checkpoint
+  output_tiff
+
+options:
+  -h, --help            show this help message and exit
+  --folder FOLDER
+  --checkpoint-path CHECKPOINT_PATH
+  --output-prefix OUTPUT_PREFIX
+  --mask-path MASK_PATH
+  --resolution RESOLUTION
+  --num-workers, --workers NUM_WORKERS
+  --prefetch-factor PREFETCH_FACTOR
+  --overlap OVERLAP     Sliding-window overlap fraction. Default: 0.5.
+  --stride STRIDE
+  --blend-mode {auto,constant,gaussian,hann}
+                        Overlap-add importance window. 'auto' selects constant
+                        without overlap, Hann otherwise.
+  --layer-start LAYER_START
+  --layer-end LAYER_END
+  --batch-size BATCH_SIZE
+  --direction {forward,reverse,both}
+  --amp-dtype {auto,default,fp16,bf16}
+  --tta-mirror
+  --tta-batch-size TTA_BATCH_SIZE
+  --gpus GPUS
+  --compile-mode COMPILE_MODE
+  --no-compile

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/herculaneum-lab/reports/fortysixth-experiment/render_surface.py", line 18, in <module>
+    t=time.monotonic();r=requests.get(BASE+'/'+key,timeout=90);r.raise_for_status()
+                                                               ~~~~~~~~~~~~~~~~~~^^
+  File "/workspace/.venvs/pherc343/lib/python3.14/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Unavailable for url: https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/.zgroup

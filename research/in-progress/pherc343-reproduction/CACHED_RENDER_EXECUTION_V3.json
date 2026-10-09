@@ -1,0 +1,101 @@
+{
+  "exit_code": -15,
+  "command": [
+    "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/squashfs-root/AppRun",
+    "vc_render_tifxyz",
+    "--volume",
+    "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/ct-cache-loopback",
+    "--remote-url",
+    "http://127.0.0.1:39671",
+    "--group-idx",
+    "0",
+    "--scale",
+    "1",
+    "--segmentation",
+    "/workspace/herculaneum-lab/reports/fortyfifth-experiment/ph343-mesh-replay/concat_w047-w048_R5B2_z9500-11000.tifxyz",
+    "--num-slices",
+    "66",
+    "--slice-step",
+    "1",
+    "--cache-gb",
+    "2",
+    "--zarr-output",
+    "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/concat_w047-w048_R5B2_z9500-11000_66.zarr",
+    "--resume"
+  ],
+  "seconds": 312.30846633200053,
+  "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr",
+  "transport": "loopback cache; upstream requests through inherited HTTPS proxy with TLS verification",
+  "fatal_source_errors": [
+    "meta.json",
+    "metadata.json",
+    {
+      "key": "0/zarr.json",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/41",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/31/37",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/39",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/41",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/41",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/38",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/76/29/40",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/41",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/38",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/76/29/40",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/38",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/76/29/40",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/37",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/29/40",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/30/37",
+      "status": "exhausted transient retries"
+    },
+    {
+      "key": "0/77/29/40",
+      "status": "exhausted transient retries"
+    }
+  ]
+}

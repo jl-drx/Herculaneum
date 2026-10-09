@@ -1,0 +1,74 @@
+Using Python 3.14.7 environment at: .venvs/pherc343
+Resolved 59 packages in 991ms
+Downloading numcodecs (8.7MiB)
+Downloading scipy (33.7MiB)
+Downloading botocore (15.2MiB)
+Downloading opencv-python-headless (58.4MiB)
+Downloading numpy (15.9MiB)
+Downloading timm (2.4MiB)
+Downloading edt (2.8MiB)
+ Downloaded timm
+Downloading aiohttp (1.8MiB)
+Downloading hf-xet (4.0MiB)
+ Downloaded edt
+ Downloaded aiohttp
+ Downloaded numcodecs
+ Downloaded hf-xet
+ Downloaded numpy
+ Downloaded botocore
+ Downloaded scipy
+ Downloaded opencv-python-headless
+Prepared 47 packages in 1.18s
+Uninstalled 1 package in 15ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 47 packages in 521ms
+ + aiobotocore==3.9.2
+ + aiohappyeyeballs==2.7.1
+ + aiohttp==3.14.4
+ + aioitertools==0.13.0
+ + aiosignal==1.4.0
+ + anyio==4.15.1
+ + attrs==26.1.0
+ + botocore==1.43.106
+ + cachetools==7.2.1
+ + certifi==2026.7.22
+ + charset-normalizer==3.5.2
+ + click==8.5.0
+ + donfig==0.8.1.post1
+ + dynamic-network-architectures==0.4.4
+ + edt==3.1.2
+ + einops==0.8.2
+ + frozenlist==1.8.0
+ + google-crc32c==1.9.0
+ + h11==0.16.0
+ + hf-xet==1.7.0
+ + httpcore2==2.13.1
+ + httpx2==2.13.1
+ + huggingface-hub==2.2.0
+ + idna==3.20
+ + jmespath==1.1.0
+ + multidict==6.9.1
+ + numcodecs==0.16.5
+ - numpy==2.5.2
+ + numpy==2.4.4
+ + opencv-python-headless==5.0.0.93
+ + packaging==26.3
+ + propcache==0.5.4
+ + pynrrd==1.1.3
+ + python-dateutil==2.9.0.post0
+ + pyyaml==6.0.3
+ + requests==2.34.2
+ + s3fs==2026.7.0
+ + safetensors==0.8.0
+ + scipy==1.18.1
+ + six==1.17.0
+ + tifffile==2026.7.14
+ + timm==1.0.22
+ + tqdm==4.70.1
+ + truststore==0.10.4
+ + urllib3==2.8.0
+ + wrapt==2.5.0
+ + yarl==1.25.1
+ + zarr==3.2.1

@@ -1,0 +1,10 @@
+/workspace/herculaneum-lab/reports/fortysixth-experiment/work/preprocessing-fixture/padded.zarr: 66 x 200 x 520
+written /workspace/herculaneum-lab/reports/fortysixth-experiment/work/preprocessing-fixture/hecate-plain.zarr (16, 144, 288) xy 8.6400 um -> scale 0.900000 z 8.6400 um -> step 1.111111 layers (= 9.6000 um) z 25.17..41.83
+written /workspace/herculaneum-lab/reports/fortysixth-experiment/work/preprocessing-fixture/hecate-padded.zarr (16, 180, 468) xy 8.6400 um -> scale 0.900000 z 8.6400 um -> step 1.111111 layers (= 9.6000 um) z 25.17..41.83
+Traceback (most recent call last):
+  File "/workspace/herculaneum-lab/reports/fortysixth-experiment/verify_preprocessing.py", line 17, in <module>
+    assert np.array_equal(a[:,72,144],expected),(a[:,72,144],expected)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (array([ 80,  82,  84,  86,  89,  91,  93,  95,  98, 100, 102, 104, 106,
+       109, 111, 113], dtype=uint8), array([ 80,  82,  84,  87,  89,  91,  93,  95,  98, 100, 102, 104, 107,
+       109, 111, 113], dtype=uint8))

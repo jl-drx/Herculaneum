@@ -2,6 +2,8 @@
 
 This directory preserves the research history through experiment 45. Start with the [experiment index](EXPERIMENTS.md), [latest results](lab/reports/fortyfifth-experiment/RESULTS.md), [critical strategy review](lab/reports/fortyfifth-experiment/STRATEGY_REVIEW.md), and [next experiment](lab/reports/fortyfifth-experiment/NEXT_STUDY_DRAFT.md).
 
+The approved [PHerc343 reproduction is now in progress](in-progress/pherc343-reproduction/STATUS.md). The original renderer binary was recovered and verified, and all four models passed strict synthetic CPU checks in a separate pinned runtime. Full CT streaming was interrupted by repeated cloud-tunnel HTTP503 errors; the partial render has not passed the published decoded hashes, and scientific ink inference has not started. The selected working snapshot is separate from the sealed45-study archive and does not add a completed experiment. No paid resources were launched.
+
 The current direction returns to the sealed scroll: reproduce the published PHerc343 native-coarse positive control, then transfer the fixed recipe to PHerc0800. PHerc0139's paired acquisitions provide the supporting learning benchmark. Further profilometry studies and the unsent Paris4 reference request are shelved. Experiment45 closes one native profilometry trajectory at8,192 updates, measures released-checkpoint variability on the reused eight-region panel, and measures sparse PHerc0800 mesh-to-M7 disagreement. A CPU AP gain is no longer a universal prerequisite for GPU work; experiment/data quality, measured runtime, artifact delivery and the £10 total cap govern admission. Older proposals below are historical context, superseded where inconsistent with this decision.
 
 Experiment 42 acquired six pairs of Paris4 CT blocks using 192 MiB of CT payload. Four local correspondence screens failed and two regions lacked the full frozen diagnostic window; no independent ink-positive/non-ink-papyrus reference was established. No learning arm was admitted or run. That study proposed a reference-first native/synthetic positive control, with real coarse learning conditional on verified correspondence. The paired-learning hypothesis remains open. Experiment 41's supervision control remains a tradeoff with no advancement. Seed42 remains the baseline and GPU work remains deferred. All six new regions are reference-review exposed; the existing eight evaluation regions remain reused development. No reading or translation is claimed.
@@ -16,7 +18,7 @@ From an existing clone with access to this private repository:
 
 ```bash
 git fetch origin
-git switch --track origin/codex/plinius-target-return
+git switch --track origin/codex/plinius-pherc343-reproduction
 ```
 
 For an existing local branch, switch to it and use `git pull --ff-only`. This branch includes the preceding research history, experiments 40–45, and the tested experiment-39 replay fixture. Check out this branch to obtain the complete selected export regardless of pull-request merge status.

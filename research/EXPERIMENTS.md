@@ -2,6 +2,8 @@
 
 Historical reports preserve their original conclusions and scope. Latest: [phase45 native continuation and target-return audit](lab/reports/fortyfifth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 45 independent held-out tests.
 
+In progress: [phase46 PHerc343 fixed-depth reproduction](in-progress/pherc343-reproduction/STATUS.md). Renderer identity and synthetic runtime/preprocessing checks passed; repeated outbound-tunnel503s blocked completion of the CT render. No scientific ink result yet; this is not another completed diagnostic study.
+
 | Experiment | Recorded outcome |
 | --- | --- |
 | [1: first-experiment](lab/reports/first-experiment/RESULTS.md) | completed with no authenticated reading |
