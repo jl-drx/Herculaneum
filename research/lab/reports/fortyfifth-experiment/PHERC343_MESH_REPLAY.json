@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "source_revision": "e8370f1f88a211166056df62ea6fcfffe4a1063e",
+  "files": [
+    {
+      "file": "x.tif",
+      "byte_identical": true,
+      "sha256": "8f31c8d7bc79ef79a39677274f0f80cbcc4066b5c92b8aa47e8b938b1f9d1fc4"
+    },
+    {
+      "file": "y.tif",
+      "byte_identical": true,
+      "sha256": "7d4161972cb7e90a0d6d8203040c2e515ce6fb29c172091b21facace315545fc"
+    },
+    {
+      "file": "z.tif",
+      "byte_identical": true,
+      "sha256": "04feacf27806f6653d85bb10b53068f0c37cecea209dc739a3b8b3b5c4363c65"
+    },
+    {
+      "file": "meta.json",
+      "byte_identical": true,
+      "sha256": "76dce1781a09108632d15711bc75f43ad963aeddf22b1426954b160638f87e7e"
+    }
+  ],
+  "scope": "Mesh concatenation only, no CT render or ink-map reproduction"
+}

@@ -1,0 +1,829 @@
+{
+ "name": "concat_w047-w048_R5B2_z9500-11000",
+ "nodes_hw": [
+  128,
+  336
+ ],
+ "valid_nodes": 27598,
+ "nodes": {
+  "w047_original": 12931,
+  "w047_resampled_in_transition_strip": 2461,
+  "w048_original": 12168,
+  "bridge": 38
+ },
+ "strip_count": {
+  "strip": 2461,
+  "extrapolated": 49,
+  "kept_original": 0
+ },
+ "seam_rows": [
+  {
+   "R": 1,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 26.16,
+   "vox_per_step": 26.16,
+   "bridged": true
+  },
+  {
+   "R": 2,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 26.87,
+   "vox_per_step": 26.87,
+   "bridged": true
+  },
+  {
+   "R": 3,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 27.63,
+   "vox_per_step": 27.63,
+   "bridged": true
+  },
+  {
+   "R": 4,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 26.94,
+   "vox_per_step": 26.94,
+   "bridged": true
+  },
+  {
+   "R": 5,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 28.21,
+   "vox_per_step": 28.21,
+   "bridged": true
+  },
+  {
+   "R": 6,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 48.71,
+   "vox_per_step": 24.35,
+   "bridged": true
+  },
+  {
+   "R": 7,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 31.14,
+   "vox_per_step": 31.14,
+   "bridged": true
+  },
+  {
+   "R": 8,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 32.91,
+   "vox_per_step": 32.91,
+   "bridged": true
+  },
+  {
+   "R": 9,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 36.49,
+   "vox_per_step": 36.49,
+   "bridged": true
+  },
+  {
+   "R": 10,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 39.32,
+   "vox_per_step": 39.32,
+   "bridged": true
+  },
+  {
+   "R": 11,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 57.6,
+   "vox_per_step": 28.8,
+   "bridged": true
+  },
+  {
+   "R": 12,
+   "C_L": 175,
+   "C_R": 176,
+   "steps": 1,
+   "d3_vox": 33.41,
+   "vox_per_step": 33.41,
+   "bridged": true
+  },
+  {
+   "R": 13,
+   "C_L": 175,
+   "C_R": 176,
+   "steps": 1,
+   "d3_vox": 24.66,
+   "vox_per_step": 24.66,
+   "bridged": true
+  },
+  {
+   "R": 14,
+   "C_L": 175,
+   "C_R": 176,
+   "steps": 1,
+   "d3_vox": 18.78,
+   "vox_per_step": 18.78,
+   "bridged": true
+  },
+  {
+   "R": 15,
+   "C_L": 175,
+   "C_R": 176,
+   "steps": 1,
+   "d3_vox": 18.82,
+   "vox_per_step": 18.82,
+   "bridged": true
+  },
+  {
+   "R": 16,
+   "C_L": 175,
+   "C_R": 176,
+   "steps": 1,
+   "d3_vox": 20.22,
+   "vox_per_step": 20.22,
+   "bridged": true
+  },
+  {
+   "R": 17,
+   "C_L": 175,
+   "C_R": 176,
+   "steps": 1,
+   "d3_vox": 23.87,
+   "vox_per_step": 23.87,
+   "bridged": true
+  },
+  {
+   "R": 18,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 20.67,
+   "vox_per_step": 20.67,
+   "bridged": true
+  },
+  {
+   "R": 19,
+   "C_L": 173,
+   "C_R": 174,
+   "steps": 1,
+   "d3_vox": 24.42,
+   "vox_per_step": 24.42,
+   "bridged": true
+  },
+  {
+   "R": 20,
+   "C_L": 173,
+   "C_R": 174,
+   "steps": 1,
+   "d3_vox": 26.87,
+   "vox_per_step": 26.87,
+   "bridged": true
+  },
+  {
+   "R": 21,
+   "C_L": 172,
+   "C_R": 173,
+   "steps": 1,
+   "d3_vox": 35.84,
+   "vox_per_step": 35.84,
+   "bridged": true
+  },
+  {
+   "R": 22,
+   "C_L": 173,
+   "C_R": 174,
+   "steps": 1,
+   "d3_vox": 35.42,
+   "vox_per_step": 35.42,
+   "bridged": true
+  },
+  {
+   "R": 23,
+   "C_L": 173,
+   "C_R": 174,
+   "steps": 1,
+   "d3_vox": 27.01,
+   "vox_per_step": 27.01,
+   "bridged": true
+  },
+  {
+   "R": 24,
+   "C_L": 173,
+   "C_R": 174,
+   "steps": 1,
+   "d3_vox": 20.12,
+   "vox_per_step": 20.12,
+   "bridged": true
+  },
+  {
+   "R": 25,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 18.25,
+   "vox_per_step": 18.25,
+   "bridged": true
+  },
+  {
+   "R": 26,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 19.47,
+   "vox_per_step": 19.47,
+   "bridged": true
+  },
+  {
+   "R": 27,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 19.39,
+   "vox_per_step": 19.39,
+   "bridged": true
+  },
+  {
+   "R": 28,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 19.53,
+   "vox_per_step": 19.53,
+   "bridged": true
+  },
+  {
+   "R": 29,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 19.0,
+   "vox_per_step": 19.0,
+   "bridged": true
+  },
+  {
+   "R": 30,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 19.15,
+   "vox_per_step": 19.15,
+   "bridged": true
+  },
+  {
+   "R": 31,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 19.73,
+   "vox_per_step": 19.73,
+   "bridged": true
+  },
+  {
+   "R": 32,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 39.42,
+   "vox_per_step": 19.71,
+   "bridged": true
+  },
+  {
+   "R": 33,
+   "C_L": 173,
+   "C_R": 174,
+   "steps": 1,
+   "d3_vox": 19.78,
+   "vox_per_step": 19.78,
+   "bridged": true
+  },
+  {
+   "R": 34,
+   "C_L": 172,
+   "C_R": 174,
+   "steps": 2,
+   "d3_vox": 40.1,
+   "vox_per_step": 20.05,
+   "bridged": true
+  },
+  {
+   "R": 35,
+   "C_L": 172,
+   "C_R": 174,
+   "steps": 2,
+   "d3_vox": 38.91,
+   "vox_per_step": 19.46,
+   "bridged": true
+  },
+  {
+   "R": 36,
+   "C_L": 171,
+   "C_R": 173,
+   "steps": 2,
+   "d3_vox": 39.53,
+   "vox_per_step": 19.76,
+   "bridged": true
+  },
+  {
+   "R": 37,
+   "C_L": 171,
+   "C_R": 173,
+   "steps": 2,
+   "d3_vox": 40.13,
+   "vox_per_step": 20.07,
+   "bridged": true
+  },
+  {
+   "R": 38,
+   "C_L": 172,
+   "C_R": 173,
+   "steps": 1,
+   "d3_vox": 20.85,
+   "vox_per_step": 20.85,
+   "bridged": true
+  },
+  {
+   "R": 39,
+   "C_L": 172,
+   "C_R": 174,
+   "steps": 2,
+   "d3_vox": 40.65,
+   "vox_per_step": 20.32,
+   "bridged": true
+  },
+  {
+   "R": 40,
+   "C_L": 173,
+   "C_R": 174,
+   "steps": 1,
+   "d3_vox": 20.17,
+   "vox_per_step": 20.17,
+   "bridged": true
+  },
+  {
+   "R": 41,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 39.48,
+   "vox_per_step": 19.74,
+   "bridged": true
+  },
+  {
+   "R": 42,
+   "C_L": 173,
+   "C_R": 174,
+   "steps": 1,
+   "d3_vox": 19.49,
+   "vox_per_step": 19.49,
+   "bridged": true
+  },
+  {
+   "R": 43,
+   "C_L": 173,
+   "C_R": 174,
+   "steps": 1,
+   "d3_vox": 19.52,
+   "vox_per_step": 19.52,
+   "bridged": true
+  },
+  {
+   "R": 44,
+   "C_L": 172,
+   "C_R": 174,
+   "steps": 2,
+   "d3_vox": 39.76,
+   "vox_per_step": 19.88,
+   "bridged": true
+  },
+  {
+   "R": 45,
+   "C_L": 172,
+   "C_R": 173,
+   "steps": 1,
+   "d3_vox": 20.51,
+   "vox_per_step": 20.51,
+   "bridged": true
+  },
+  {
+   "R": 46,
+   "C_L": 172,
+   "C_R": 173,
+   "steps": 1,
+   "d3_vox": 20.52,
+   "vox_per_step": 20.52,
+   "bridged": true
+  },
+  {
+   "R": 47,
+   "C_L": 171,
+   "C_R": 173,
+   "steps": 2,
+   "d3_vox": 40.49,
+   "vox_per_step": 20.24,
+   "bridged": true
+  },
+  {
+   "R": 48,
+   "C_L": 171,
+   "C_R": 172,
+   "steps": 1,
+   "d3_vox": 20.7,
+   "vox_per_step": 20.7,
+   "bridged": true
+  },
+  {
+   "R": 49,
+   "C_L": 171,
+   "C_R": 172,
+   "steps": 1,
+   "d3_vox": 20.38,
+   "vox_per_step": 20.38,
+   "bridged": true
+  },
+  {
+   "R": 50,
+   "C_L": 170,
+   "C_R": 172,
+   "steps": 2,
+   "d3_vox": 39.91,
+   "vox_per_step": 19.95,
+   "bridged": true
+  },
+  {
+   "R": 51,
+   "C_L": 170,
+   "C_R": 172,
+   "steps": 2,
+   "d3_vox": 39.76,
+   "vox_per_step": 19.88,
+   "bridged": true
+  },
+  {
+   "R": 52,
+   "C_L": 170,
+   "C_R": 171,
+   "steps": 1,
+   "d3_vox": 19.84,
+   "vox_per_step": 19.84,
+   "bridged": true
+  },
+  {
+   "R": 53,
+   "C_L": 170,
+   "C_R": 172,
+   "steps": 2,
+   "d3_vox": 39.58,
+   "vox_per_step": 19.79,
+   "bridged": true
+  },
+  {
+   "R": 54,
+   "C_L": 170,
+   "C_R": 171,
+   "steps": 1,
+   "d3_vox": 19.73,
+   "vox_per_step": 19.73,
+   "bridged": true
+  },
+  {
+   "R": 55,
+   "C_L": 170,
+   "C_R": 171,
+   "steps": 1,
+   "d3_vox": 19.62,
+   "vox_per_step": 19.62,
+   "bridged": true
+  },
+  {
+   "R": 56,
+   "C_L": 171,
+   "C_R": 172,
+   "steps": 1,
+   "d3_vox": 19.36,
+   "vox_per_step": 19.36,
+   "bridged": true
+  },
+  {
+   "R": 57,
+   "C_L": 171,
+   "C_R": 172,
+   "steps": 1,
+   "d3_vox": 19.07,
+   "vox_per_step": 19.07,
+   "bridged": true
+  },
+  {
+   "R": 58,
+   "C_L": 170,
+   "C_R": 172,
+   "steps": 2,
+   "d3_vox": 39.32,
+   "vox_per_step": 19.66,
+   "bridged": true
+  },
+  {
+   "R": 59,
+   "C_L": 170,
+   "C_R": 171,
+   "steps": 1,
+   "d3_vox": 19.47,
+   "vox_per_step": 19.47,
+   "bridged": true
+  },
+  {
+   "R": 60,
+   "C_L": 170,
+   "C_R": 171,
+   "steps": 1,
+   "d3_vox": 19.54,
+   "vox_per_step": 19.54,
+   "bridged": true
+  },
+  {
+   "R": 61,
+   "C_L": 170,
+   "C_R": 171,
+   "steps": 1,
+   "d3_vox": 20.02,
+   "vox_per_step": 20.02,
+   "bridged": true
+  },
+  {
+   "R": 62,
+   "C_L": 170,
+   "C_R": 171,
+   "steps": 1,
+   "d3_vox": 20.77,
+   "vox_per_step": 20.77,
+   "bridged": true
+  },
+  {
+   "R": 63,
+   "C_L": 170,
+   "C_R": 171,
+   "steps": 1,
+   "d3_vox": 21.47,
+   "vox_per_step": 21.47,
+   "bridged": true
+  },
+  {
+   "R": 64,
+   "C_L": 170,
+   "C_R": 171,
+   "steps": 1,
+   "d3_vox": 22.15,
+   "vox_per_step": 22.15,
+   "bridged": true
+  },
+  {
+   "R": 65,
+   "C_L": 171,
+   "C_R": 172,
+   "steps": 1,
+   "d3_vox": 21.84,
+   "vox_per_step": 21.84,
+   "bridged": true
+  },
+  {
+   "R": 66,
+   "C_L": 171,
+   "C_R": 172,
+   "steps": 1,
+   "d3_vox": 20.9,
+   "vox_per_step": 20.9,
+   "bridged": true
+  },
+  {
+   "R": 67,
+   "C_L": 171,
+   "C_R": 173,
+   "steps": 2,
+   "d3_vox": 39.44,
+   "vox_per_step": 19.72,
+   "bridged": true
+  },
+  {
+   "R": 68,
+   "C_L": 172,
+   "C_R": 174,
+   "steps": 2,
+   "d3_vox": 38.46,
+   "vox_per_step": 19.23,
+   "bridged": true
+  },
+  {
+   "R": 69,
+   "C_L": 172,
+   "C_R": 175,
+   "steps": 3,
+   "d3_vox": 57.28,
+   "vox_per_step": 19.09,
+   "bridged": true
+  },
+  {
+   "R": 70,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 37.98,
+   "vox_per_step": 18.99,
+   "bridged": true
+  },
+  {
+   "R": 71,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 38.94,
+   "vox_per_step": 19.47,
+   "bridged": true
+  },
+  {
+   "R": 72,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 38.96,
+   "vox_per_step": 19.48,
+   "bridged": true
+  },
+  {
+   "R": 73,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 39.16,
+   "vox_per_step": 19.58,
+   "bridged": true
+  },
+  {
+   "R": 74,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 38.88,
+   "vox_per_step": 19.44,
+   "bridged": true
+  },
+  {
+   "R": 75,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 38.9,
+   "vox_per_step": 19.45,
+   "bridged": true
+  },
+  {
+   "R": 76,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 38.86,
+   "vox_per_step": 19.43,
+   "bridged": true
+  },
+  {
+   "R": 77,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 38.93,
+   "vox_per_step": 19.47,
+   "bridged": true
+  },
+  {
+   "R": 78,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 39.5,
+   "vox_per_step": 19.75,
+   "bridged": true
+  },
+  {
+   "R": 79,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 39.82,
+   "vox_per_step": 19.91,
+   "bridged": true
+  },
+  {
+   "R": 80,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 40.49,
+   "vox_per_step": 20.24,
+   "bridged": true
+  },
+  {
+   "R": 81,
+   "C_L": 174,
+   "C_R": 176,
+   "steps": 2,
+   "d3_vox": 40.12,
+   "vox_per_step": 20.06,
+   "bridged": true
+  },
+  {
+   "R": 82,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 20.39,
+   "vox_per_step": 20.39,
+   "bridged": true
+  },
+  {
+   "R": 83,
+   "C_L": 174,
+   "C_R": 175,
+   "steps": 1,
+   "d3_vox": 19.32,
+   "vox_per_step": 19.32,
+   "bridged": true
+  },
+  {
+   "R": 84,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 38.53,
+   "vox_per_step": 19.27,
+   "bridged": true
+  },
+  {
+   "R": 85,
+   "C_L": 172,
+   "C_R": 174,
+   "steps": 2,
+   "d3_vox": 38.79,
+   "vox_per_step": 19.39,
+   "bridged": true
+  },
+  {
+   "R": 86,
+   "C_L": 172,
+   "C_R": 175,
+   "steps": 3,
+   "d3_vox": 58.7,
+   "vox_per_step": 19.57,
+   "bridged": true
+  },
+  {
+   "R": 87,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 39.0,
+   "vox_per_step": 19.5,
+   "bridged": true
+  },
+  {
+   "R": 88,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 39.68,
+   "vox_per_step": 19.84,
+   "bridged": true
+  },
+  {
+   "R": 89,
+   "C_L": 173,
+   "C_R": 175,
+   "steps": 2,
+   "d3_vox": 40.16,
+   "vox_per_step": 20.08,
+   "bridged": true
+  }
+ ],
+ "output_sha256": {
+  "meta.json": "76dce1781a09108632d15711bc75f43ad963aeddf22b1426954b160638f87e7e",
+  "x.tif": "8f31c8d7bc79ef79a39677274f0f80cbcc4066b5c92b8aa47e8b938b1f9d1fc4",
+  "y.tif": "7d4161972cb7e90a0d6d8203040c2e515ce6fb29c172091b21facace315545fc",
+  "z.tif": "04feacf27806f6653d85bb10b53068f0c37cecea209dc739a3b8b3b5c4363c65"
+ },
+ "seconds": 1.2
+}

@@ -1,0 +1,1319 @@
+{
+ "schema": "make_submission_image/1",
+ "scroll": "PHerc. 343",
+ "volume_id": "20250521140437",
+ "voxel_size_um": 8.64,
+ "mesh": {
+  "name": "concat_w047-w048_R5B2_z9500-11000.tifxyz",
+  "scale": 0.05,
+  "nodes_hw": [
+   128,
+   336
+  ],
+  "valid_nodes": 27598,
+  "geometry": [
+   {
+    "file": "x.tif",
+    "sha256": "8f31c8d7bc79ef79a39677274f0f80cbcc4066b5c92b8aa47e8b938b1f9d1fc4"
+   },
+   {
+    "file": "y.tif",
+    "sha256": "7d4161972cb7e90a0d6d8203040c2e515ce6fb29c172091b21facace315545fc"
+   },
+   {
+    "file": "z.tif",
+    "sha256": "04feacf27806f6653d85bb10b53068f0c37cecea209dc739a3b8b3b5c4363c65"
+   }
+  ],
+  "geometry_note": "the image depends only on these files and on the field \"scale\" of meta.json; the rest of meta.json and any other file in the mesh folder change no pixel",
+  "files": [
+   {
+    "file": "meta.json",
+    "sha256": "76dce1781a09108632d15711bc75f43ad963aeddf22b1426954b160638f87e7e"
+   },
+   {
+    "file": "x.tif",
+    "sha256": "8f31c8d7bc79ef79a39677274f0f80cbcc4066b5c92b8aa47e8b938b1f9d1fc4"
+   },
+   {
+    "file": "y.tif",
+    "sha256": "7d4161972cb7e90a0d6d8203040c2e515ce6fb29c172091b21facace315545fc"
+   },
+   {
+    "file": "z.tif",
+    "sha256": "04feacf27806f6653d85bb10b53068f0c37cecea209dc739a3b8b3b5c4363c65"
+   }
+  ],
+  "geometry_check": [
+   {
+    "list_sha256": "851deeb86046d87154a49c59ee38dd790280de21b5630fae9f32635b6f4dc2cd",
+    "list_lines": 4,
+    "files_matched": [
+     "x.tif",
+     "y.tif",
+     "z.tif"
+    ],
+    "result": "every geometry file matches"
+   }
+  ]
+ },
+ "orientation": {
+  "source": "measured from the mesh and the umbilicus",
+  "sign_dtheta_per_column": 1,
+  "sign_dz_per_row": 1,
+  "dtheta_deg_per_node_column": 1.21707,
+  "dz_voxels_per_node_row": 11.8936,
+  "flip_lr": true,
+  "flip_ud": true,
+  "normal_dot_outward_median": 0.8401,
+  "normal_outward_fraction": 0.9973,
+  "rule": "flip_lr = sign(dtheta/dcolumn) > 0, flip_ud = sign(dz/drow) > 0; the render normal is n = dP/dcolumn x dP/drow",
+  "umbilicus": {
+   "file": "umbilicus_PHerc0343.json",
+   "sha256": "e05a0a6237462de6f1930e7c7c2f468846869f3617a1798a528c69c047cd0ebe"
+  }
+ },
+ "area": {
+  "raw_render_px": {
+   "col0": 380,
+   "row0": 105,
+   "col1": 6021,
+   "row1": 2560
+  },
+  "reading_px": {
+   "x0": 699,
+   "y0": 0,
+   "x1": 6340,
+   "y1": 2455
+  },
+  "note": "x1/col1 and y1/row1 exclusive; reading = raw render mirrored as in \"orientation\"",
+  "given": {
+   "source": "command line",
+   "frame": "raw",
+   "values": [
+    380,
+    105,
+    6021,
+    2560
+   ]
+  },
+  "width_px": 5641,
+  "height_px": 2455,
+  "width_mm": 48.738,
+  "height_mm": 21.211,
+  "area_cm2": 10.338,
+  "limit_cm2": 12.0,
+  "within_limit": true,
+  "valid_fraction": 0.6418,
+  "papyrus_cm2_nominal": 6.6344,
+  "z_voxels": {
+   "min": 9515.2,
+   "max": 10998.0,
+   "note": "mesh z of the valid pixels (every 4th pixel)"
+  },
+  "theta_deg": {
+   "min": 135.34,
+   "max": 544.46,
+   "min_mod360": 135.34,
+   "max_mod360": 184.46,
+   "note": "angle around the umbilicus per node, unwrapped along the mesh columns (circular mean per column), bilinear per pixel (every 4th px)"
+  },
+  "papyrus_cm2_mesh3d": 6.4619,
+  "mesh_area_ratio_3d_to_flat": 0.974
+ },
+ "ct": {
+  "file": "concat_w047-w048_R5B2_z9500-11000_66.zarr",
+  "shape": [
+   66,
+   2560,
+   6720
+  ],
+  "layers": [
+   34
+  ],
+  "depths": [
+   1
+  ],
+  "depth_rule": "d = layer - 33; d = 0 is the layer just outside the mesh surface; positive d along the render normal (outward when orientation.normal_dot_outward_median > 0)",
+  "stretch": {
+   "lo": 26.0,
+   "hi": 164.0,
+   "source": "ink-stats: p1..p99.5 of the valid pixels of layers 18..48"
+  },
+  "valid_rule": "all 66 layers > 0",
+  "area_layers_sha256": {
+   "34": "df1a3e8d4e61de845eca0b94952dc207b73605c1f6093312e5283980b895f8f8"
+  },
+  "area_valid_mask_sha256": "f60549218edb9871e5acb8930e176a09fe1aaafef28c10a2261014f70a58dcbc",
+  "area_data_note": "sha256 of the decoded uint8 layers (raw orientation, area only, C order) and of np.packbits(valid mask)",
+  "tree_sha256": "c2894f23d170ac1e85bc5b3f2c3c1abcbecdfa73adca8bac66cfa96d4607c274",
+  "files": 1009,
+  "bytes": 945626701,
+  "tree_rule": "sha256 of the sorted lines \"<relative path>\\t<sha256>\\n\" of every file in the folder"
+ },
+ "ink": {
+  "maps": [
+   {
+    "file": "concat_w047-w048_R5B2_z9500-11000__dnative__L66s26_reverse.tif",
+    "model": "dnative",
+    "direction": "reverse",
+    "side": "reading",
+    "depth": 1,
+    "villa": true,
+    "sha256": "e95e10b8ab4d39f024a11f7214f0a9d478ffa80cbc2b4376d70088816c7d9520"
+   },
+   {
+    "file": "concat_w047-w048_R5B2_z9500-11000__hecate__L66zc33.50_reverse.png",
+    "model": "hecate",
+    "direction": "reverse",
+    "side": "reading",
+    "depth": 1,
+    "villa": false,
+    "sha256": "e3562577d270fb0b2b4ab99da1f46d29693b22a41236830e901ddc0143c24a97"
+   },
+   {
+    "file": "concat_w047-w048_R5B2_z9500-11000__hybrid_3d2d-seed42__L66s26_reverse.tif",
+    "model": "ink9-42",
+    "direction": "reverse",
+    "side": "reading",
+    "depth": 1,
+    "villa": true,
+    "sha256": "065c7a12af3f0d05fc906c70b96ca216bb6dac3698654075bac75cc1c36b953b"
+   },
+   {
+    "file": "concat_w047-w048_R5B2_z9500-11000__hybrid_3d2d-seed43__L66s26_reverse.tif",
+    "model": "ink9-43",
+    "direction": "reverse",
+    "side": "reading",
+    "depth": 1,
+    "villa": true,
+    "sha256": "a60d9c9bedd22cee16f5c94913a21b751c2664b32bb1aeeeb7c1c6d1d1d4ddc4"
+   }
+  ],
+  "normalisation": {
+   "mode": "ensemble",
+   "models": [
+    "dnative",
+    "hecate",
+    "ink9-42",
+    "ink9-43"
+   ],
+   "per_model": {
+    "dnative": {
+     "p1": 0.015625,
+     "p99_5": 0.9375,
+     "mean": 0.22715597794400577,
+     "sd": 0.16337432736628918,
+     "source": "ink-stats (reading side, pooled over depths -15..15)"
+    },
+    "hecate": {
+     "p1": 0.0,
+     "p99_5": 0.805145263671875,
+     "mean": 0.04464233632232741,
+     "sd": 0.11125896354922513,
+     "source": "ink-stats (reading side, pooled over depths -15..15)"
+    },
+    "ink9-42": {
+     "p1": 0.0,
+     "p99_5": 0.890625,
+     "mean": 0.10643720787168973,
+     "sd": 0.15902963900983327,
+     "source": "ink-stats (reading side, pooled over depths -15..15)"
+    },
+    "ink9-43": {
+     "p1": 0.0,
+     "p99_5": 0.8984375,
+     "mean": 0.10645249733596351,
+     "sd": 0.16307452747275916,
+     "source": "ink-stats (reading side, pooled over depths -15..15)"
+    }
+   },
+   "ensemble_stretch": {
+    "p1": -0.7182422280311584,
+    "p99_5": 3.862934286594383,
+    "source": "ink-stats (fixed grid, every 8th row and column, all depths of the reading side)"
+   },
+   "rule": "z = (map - mean) / sd per model; ensemble = mean of the z-scores; u = clip((ensemble - p1) / (p99_5 - p1), 0, 1), 8 bit",
+   "display_range": {
+    "lo": -0.7182422280311584,
+    "hi": 3.862934286594383
+   }
+  },
+  "stats_file": {
+   "file": "concat_w047-w048_R5B2_z9500-11000__stats.json",
+   "sha256": "3ed7b95f8faf7c65559d1b4c0a014116920f69d7d004fdae56a9653fe9cf341e"
+  }
+ },
+ "overlay": {
+  "style": "dimmed-ct",
+  "cmap": "mono:255,235,120",
+  "alpha": 0.9,
+  "threshold": 0.35,
+  "full": 0.75,
+  "blend": "alpha",
+  "ct_dim": 0.45,
+  "tint_floor": null,
+  "legend": {
+   "threshold_value": 0.8852,
+   "full_value": 2.7176,
+   "top_value": 3.8629
+  },
+  "rule": "u = the 8-bit ink image / 255; opacity = alpha * clip((u - threshold) / (full - threshold), 0, 1); pixel = CT grey * ct_dim * (1 - opacity) + colour * opacity, colour = cmap(u) (blend alpha) or cmap(u) * (tint_floor + (1 - tint_floor) * CT grey / 255) (blend tint); per pixel in float32, rounded to 8 bit; invalid pixels black"
+ },
+ "scale_bar": {
+  "length_px": 1157,
+  "px_per_cm": 1157.407,
+  "label": "1 cm"
+ },
+ "rows": {
+  "file": "concat_w047-w048_R5B2_z9500-11000_rows.json",
+  "sha256": "adfb7680a8b083d896b0c806a8df7dfa4f305439170c25c9d124405523c757bd",
+  "frame": "reading",
+  "rows_area_px": [
+   {
+    "label": "1",
+    "follows_letters": {},
+    "segments": [
+     [
+      [
+       579.0,
+       1859.0
+      ],
+      [
+       1019.0,
+       1859.0
+      ],
+      [
+       1033.0,
+       1857.7
+      ],
+      [
+       1091.0,
+       1847.2
+      ],
+      [
+       1201.0,
+       1846.8
+      ],
+      [
+       1209.0,
+       1844.3
+      ],
+      [
+       1217.0,
+       1838.8
+      ],
+      [
+       1267.0,
+       1789.8
+      ],
+      [
+       1275.0,
+       1785.5
+      ],
+      [
+       1283.0,
+       1784.0
+      ],
+      [
+       1425.0,
+       1784.4
+      ],
+      [
+       1437.0,
+       1789.8
+      ],
+      [
+       1457.0,
+       1807.2
+      ],
+      [
+       1463.0,
+       1809.9
+      ],
+      [
+       1469.0,
+       1811.0
+      ],
+      [
+       1879.0,
+       1811.0
+      ],
+      [
+       1895.0,
+       1813.0
+      ],
+      [
+       1899.0,
+       1815.0
+      ],
+      [
+       1901.0,
+       1813.9
+      ],
+      [
+       1907.0,
+       1815.0
+      ],
+      [
+       1913.0,
+       1814.0
+      ],
+      [
+       1915.0,
+       1810.4
+      ],
+      [
+       1933.0,
+       1796.5
+      ],
+      [
+       2005.0,
+       1745.1
+      ],
+      [
+       2015.0,
+       1739.9
+      ],
+      [
+       2023.0,
+       1738.1
+      ],
+      [
+       2571.0,
+       1737.7
+      ],
+      [
+       2583.0,
+       1734.7
+      ],
+      [
+       2607.0,
+       1724.5
+      ],
+      [
+       2609.0,
+       1726.0
+      ],
+      [
+       2615.0,
+       1720.9
+      ],
+      [
+       2625.0,
+       1715.1
+      ],
+      [
+       2649.0,
+       1703.0
+      ],
+      [
+       2735.0,
+       1662.1
+      ],
+      [
+       2747.0,
+       1658.5
+      ],
+      [
+       2959.0,
+       1658.0
+      ],
+      [
+       2973.0,
+       1661.2
+      ],
+      [
+       2977.0,
+       1664.0
+      ],
+      [
+       2987.0,
+       1665.0
+      ],
+      [
+       2989.0,
+       1661.9
+      ],
+      [
+       3001.0,
+       1658.4
+      ],
+      [
+       3035.0,
+       1658.0
+      ],
+      [
+       3041.0,
+       1656.9
+      ],
+      [
+       3047.0,
+       1654.2
+      ],
+      [
+       3055.0,
+       1648.0
+      ],
+      [
+       3141.0,
+       1562.1
+      ],
+      [
+       3149.0,
+       1556.3
+      ],
+      [
+       3157.0,
+       1553.4
+      ],
+      [
+       3391.0,
+       1553.0
+      ],
+      [
+       3397.0,
+       1551.9
+      ],
+      [
+       3403.0,
+       1549.2
+      ],
+      [
+       3411.0,
+       1543.0
+      ],
+      [
+       3549.0,
+       1405.0
+      ],
+      [
+       3557.0,
+       1398.8
+      ],
+      [
+       3565.0,
+       1395.5
+      ],
+      [
+       3587.0,
+       1394.2
+      ],
+      [
+       3605.0,
+       1389.0
+      ],
+      [
+       3621.0,
+       1393.9
+      ],
+      [
+       3633.0,
+       1395.0
+      ],
+      [
+       3999.0,
+       1395.2
+      ],
+      [
+       4007.0,
+       1397.7
+      ],
+      [
+       4013.0,
+       1401.5
+      ],
+      [
+       4047.0,
+       1434.8
+      ],
+      [
+       4059.0,
+       1441.9
+      ],
+      [
+       4065.0,
+       1443.0
+      ],
+      [
+       4241.0,
+       1443.5
+      ],
+      [
+       4249.0,
+       1446.8
+      ],
+      [
+       4255.0,
+       1451.2
+      ],
+      [
+       4289.0,
+       1484.0
+      ],
+      [
+       4295.0,
+       1478.2
+      ],
+      [
+       4309.0,
+       1468.8
+      ],
+      [
+       4311.0,
+       1469.0
+      ],
+      [
+       4313.0,
+       1465.9
+      ],
+      [
+       4333.0,
+       1448.1
+      ],
+      [
+       4341.0,
+       1444.1
+      ],
+      [
+       4355.0,
+       1441.2
+      ],
+      [
+       4361.0,
+       1437.9
+      ],
+      [
+       4389.0,
+       1412.5
+      ],
+      [
+       4397.0,
+       1409.4
+      ],
+      [
+       4407.0,
+       1410.8
+      ],
+      [
+       4409.0,
+       1413.0
+      ],
+      [
+       4413.0,
+       1414.0
+      ],
+      [
+       4417.0,
+       1412.0
+      ],
+      [
+       4419.0,
+       1408.6
+      ],
+      [
+       4443.0,
+       1386.1
+      ],
+      [
+       4455.0,
+       1378.5
+      ],
+      [
+       4463.0,
+       1377.0
+      ],
+      [
+       4627.0,
+       1376.5
+      ],
+      [
+       4633.0,
+       1374.3
+      ],
+      [
+       4641.0,
+       1368.8
+      ],
+      [
+       4685.0,
+       1325.0
+      ],
+      [
+       4697.0,
+       1316.8
+      ],
+      [
+       4705.0,
+       1315.0
+      ],
+      [
+       4783.0,
+       1315.0
+      ]
+     ],
+     [
+      [
+       5075.0,
+       1309.0
+      ],
+      [
+       5289.0,
+       1309.0
+      ]
+     ]
+    ],
+    "derived": {
+     "rule": "baseline_follows_letters: target <gap> px below the letter boxes of the row; cheapest path (cost |y - target| per px, + 1 per px of height change, slope <= 1) that keeps <clearance> px plus half the line width from every letter box and from visible ink, at most max_dip below / max_rise above the target; interrupted where no such path exists or it would cost more (break_start + break_cost per px); then a moving mean over 22 px where that stays clear, simplified to within 0.75 px",
+     "gap_px": 16.0,
+     "clearance_px": 3.0,
+     "line_px": 2,
+     "max_dip_px": 120.6,
+     "max_rise_px": 8.0,
+     "max_slope": 1.0,
+     "break_start": 2000.0,
+     "outlier_px": 206.8,
+     "break_cost": 40.0,
+     "ink_level_8bit": 90,
+     "median_box_height_px": 344.6,
+     "letters": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+     ],
+     "letters_without_target": [
+      "12"
+     ],
+     "letter_bottoms": [
+      {
+       "label": "1",
+       "box_bottom": 1876.0,
+       "extent_bottom": 1843.0
+      },
+      {
+       "label": "2",
+       "box_bottom": 1830.9,
+       "extent_bottom": 1830.9
+      },
+      {
+       "label": "3",
+       "box_bottom": 1768.3,
+       "extent_bottom": 1768.3
+      },
+      {
+       "label": "4",
+       "box_bottom": 1794.6,
+       "extent_bottom": 1794.6
+      },
+      {
+       "label": "5",
+       "box_bottom": 1752.4,
+       "extent_bottom": 1722.0
+      },
+      {
+       "label": "6",
+       "box_bottom": 1668.0,
+       "extent_bottom": 1642.0
+      },
+      {
+       "label": "7",
+       "box_bottom": 1605.4,
+       "extent_bottom": 1537.0
+      },
+      {
+       "label": "8",
+       "box_bottom": 1393.9,
+       "extent_bottom": 1379.0
+      },
+      {
+       "label": "9",
+       "box_bottom": 1427.9,
+       "extent_bottom": 1427.0
+      },
+      {
+       "label": "10",
+       "box_bottom": 1373.4,
+       "extent_bottom": 1361.0
+      },
+      {
+       "label": "11",
+       "box_bottom": 1298.8,
+       "extent_bottom": 1298.8
+      },
+      {
+       "label": "12",
+       "box_bottom": 1547.5,
+       "extent_bottom": 1547.5
+      },
+      {
+       "label": "13",
+       "box_bottom": 1314.7,
+       "extent_bottom": 1293.0
+      }
+     ],
+     "drawn_fraction": 0.9385,
+     "interruptions_x": [
+      [
+       4783.0,
+       5075.0
+      ]
+     ],
+     "below_target_px": {
+      "median": 0.0,
+      "max": 52.7
+     }
+    }
+   },
+   {
+    "label": "2",
+    "follows_letters": {},
+    "segments": [
+     [
+      [
+       2931.0,
+       917.0
+      ],
+      [
+       2955.0,
+       917.4
+      ],
+      [
+       2959.0,
+       919.0
+      ],
+      [
+       2963.0,
+       917.4
+      ],
+      [
+       2973.0,
+       917.0
+      ],
+      [
+       3203.0,
+       916.5
+      ],
+      [
+       3211.0,
+       913.2
+      ],
+      [
+       3219.0,
+       907.0
+      ],
+      [
+       3293.0,
+       833.2
+      ],
+      [
+       3303.0,
+       826.8
+      ],
+      [
+       3311.0,
+       825.0
+      ],
+      [
+       3393.0,
+       825.2
+      ],
+      [
+       3403.0,
+       828.6
+      ],
+      [
+       3407.0,
+       830.7
+      ],
+      [
+       3411.0,
+       835.0
+      ],
+      [
+       3417.0,
+       837.0
+      ],
+      [
+       3429.0,
+       836.5
+      ],
+      [
+       3433.0,
+       838.0
+      ],
+      [
+       3439.0,
+       832.2
+      ],
+      [
+       3449.0,
+       826.8
+      ],
+      [
+       3455.0,
+       825.2
+      ],
+      [
+       3555.0,
+       825.1
+      ],
+      [
+       3561.0,
+       826.5
+      ],
+      [
+       3569.0,
+       830.8
+      ],
+      [
+       3593.0,
+       853.0
+      ],
+      [
+       3625.0,
+       851.9
+      ],
+      [
+       3629.0,
+       853.0
+      ],
+      [
+       3633.0,
+       850.5
+      ],
+      [
+       3651.0,
+       847.0
+      ],
+      [
+       3921.0,
+       847.0
+      ],
+      [
+       3933.0,
+       844.6
+      ],
+      [
+       3955.0,
+       832.7
+      ],
+      [
+       3969.0,
+       829.1
+      ],
+      [
+       4143.0,
+       829.0
+      ]
+     ],
+     [
+      [
+       4151.0,
+       967.0
+      ],
+      [
+       4426.0,
+       967.0
+      ]
+     ]
+    ],
+    "derived": {
+     "rule": "baseline_follows_letters: target <gap> px below the letter boxes of the row; cheapest path (cost |y - target| per px, + 1 per px of height change, slope <= 1) that keeps <clearance> px plus half the line width from every letter box and from visible ink, at most max_dip below / max_rise above the target; interrupted where no such path exists or it would cost more (break_start + break_cost per px); then a moving mean over 22 px where that stays clear, simplified to within 0.75 px",
+     "gap_px": 16.0,
+     "clearance_px": 3.0,
+     "line_px": 2,
+     "max_dip_px": 95.7,
+     "max_rise_px": 8.0,
+     "max_slope": 1.0,
+     "break_start": 2000.0,
+     "outlier_px": 164.1,
+     "break_cost": 40.0,
+     "ink_level_8bit": 90,
+     "median_box_height_px": 273.5,
+     "letters": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+     ],
+     "letters_without_target": [],
+     "letter_bottoms": [
+      {
+       "label": "14",
+       "box_bottom": 901.0,
+       "extent_bottom": 901.0
+      },
+      {
+       "label": "15",
+       "box_bottom": 809.4,
+       "extent_bottom": 809.4
+      },
+      {
+       "label": "16",
+       "box_bottom": 830.9,
+       "extent_bottom": 830.9
+      },
+      {
+       "label": "17",
+       "box_bottom": 812.8,
+       "extent_bottom": 812.8
+      },
+      {
+       "label": "18",
+       "box_bottom": 964.3,
+       "extent_bottom": 951.0
+      }
+     ],
+     "drawn_fraction": 0.996,
+     "interruptions_x": [
+      [
+       4143.0,
+       4151.0
+      ]
+     ],
+     "below_target_px": {
+      "median": 0.0,
+      "max": 73.6
+     }
+    }
+   }
+  ],
+  "color_rgb": "0,255,255",
+  "thickness_px": 2,
+  "dash": "solid"
+ },
+ "letters": {
+  "file": "concat_w047-w048_R5B2_z9500-11000_letter_boxes.json",
+  "sha256": "d431a5db05dccc811d2fbf5205c1c068c9121a46d7a676ef1967f4c192d3aad1",
+  "frame": "raw",
+  "markers": "off",
+  "letters_area_px": [
+   {
+    "id": 1,
+    "label": "1",
+    "row": "1",
+    "box": [
+     579.3000000000002,
+     1505.2,
+     1028.5,
+     1876.0
+    ]
+   },
+   {
+    "id": 2,
+    "label": "2",
+    "row": "1",
+    "box": [
+     1086.3999999999996,
+     1491.5,
+     1217.0,
+     1830.9
+    ]
+   },
+   {
+    "id": 3,
+    "label": "3",
+    "row": "1",
+    "box": [
+     1198.6999999999998,
+     1423.7,
+     1457.1000000000004,
+     1768.3
+    ]
+   },
+   {
+    "id": 4,
+    "label": "4",
+    "row": "1",
+    "box": [
+     1450.5,
+     1354.4,
+     1914.6999999999998,
+     1794.6
+    ]
+   },
+   {
+    "id": 5,
+    "label": "5",
+    "row": "1",
+    "box": [
+     2014.1999999999998,
+     1330.3,
+     2577.9,
+     1752.4
+    ]
+   },
+   {
+    "id": 6,
+    "label": "6",
+    "row": "1",
+    "box": [
+     2742.6,
+     1258.2,
+     3053.2,
+     1668.0
+    ]
+   },
+   {
+    "id": 7,
+    "label": "7",
+    "row": "1",
+    "box": [
+     3100.2,
+     1224.2,
+     3410.8,
+     1605.4
+    ]
+   },
+   {
+    "id": 8,
+    "label": "8",
+    "row": "1",
+    "box": [
+     3536.1000000000004,
+     1164.2,
+     4011.2,
+     1393.9
+    ]
+   },
+   {
+    "id": 9,
+    "label": "9",
+    "row": "1",
+    "box": [
+     4050.3,
+     1098.9,
+     4366.2,
+     1427.9
+    ]
+   },
+   {
+    "id": 10,
+    "label": "10",
+    "row": "1",
+    "box": [
+     4398.1,
+     1075.0,
+     4642.2,
+     1373.4
+    ]
+   },
+   {
+    "id": 11,
+    "label": "11",
+    "row": "1",
+    "box": [
+     4644.5,
+     1052.4,
+     4866.0,
+     1298.8
+    ]
+   },
+   {
+    "id": 12,
+    "label": "12",
+    "row": "1",
+    "box": [
+     4789.1,
+     982.4000000000001,
+     5069.4,
+     1547.5
+    ]
+   },
+   {
+    "id": 13,
+    "label": "13",
+    "row": "1",
+    "box": [
+     5080.7,
+     1041.1,
+     5288.6,
+     1314.7
+    ]
+   },
+   {
+    "id": 14,
+    "label": "14",
+    "row": "2",
+    "box": [
+     2931.3,
+     665.9000000000001,
+     3218.3,
+     901.0
+    ]
+   },
+   {
+    "id": 15,
+    "label": "15",
+    "row": "2",
+    "box": [
+     3225.9,
+     578.4000000000001,
+     3623.2,
+     809.4000000000001
+    ]
+   },
+   {
+    "id": 16,
+    "label": "16",
+    "row": "2",
+    "box": [
+     3636.3999999999996,
+     557.4000000000001,
+     3932.5,
+     830.9000000000001
+    ]
+   },
+   {
+    "id": 17,
+    "label": "17",
+    "row": "2",
+    "box": [
+     3959.7,
+     534.8,
+     4167.6,
+     812.8
+    ]
+   },
+   {
+    "id": 18,
+    "label": "18",
+    "row": "2",
+    "box": [
+     4149.5,
+     537.0,
+     4425.2,
+     964.3
+    ]
+   }
+  ],
+  "marker_centres_area_px": [
+   [
+    803.9,
+    1479.2
+   ],
+   [
+    1151.7,
+    1465.5
+   ],
+   [
+    1327.9,
+    1397.7
+   ],
+   [
+    1682.6,
+    1328.4
+   ],
+   [
+    2296.1,
+    1304.3
+   ],
+   [
+    2897.9,
+    1232.2
+   ],
+   [
+    3255.5,
+    1198.2
+   ],
+   [
+    3773.7,
+    1138.2
+   ],
+   [
+    4208.2,
+    1072.9
+   ],
+   [
+    4520.1,
+    1049.0
+   ],
+   [
+    4755.2,
+    1026.4
+   ],
+   [
+    4929.2,
+    956.4
+   ],
+   [
+    5184.6,
+    1015.1
+   ],
+   [
+    3074.8,
+    639.9
+   ],
+   [
+    3424.6,
+    552.4
+   ],
+   [
+    3784.4,
+    531.4
+   ],
+   [
+    4063.7,
+    508.8
+   ],
+   [
+    4287.4,
+    511.0
+   ]
+  ]
+ },
+ "checks": {
+  "row_pixels": 18931,
+  "row_pixels_inside_letter_boxes": 5751,
+  "row_pixels_inside_letter_extents": 0,
+  "letter_extent_rule": "letter box with its bottom raised to the lowest box row with visible ink (see letter_extents in the rows); the derived row lines are checked against these",
+  "row_pixels_on_ink_above_threshold_fraction": 0.0,
+  "area_ink_above_threshold_fraction": 0.1485
+ },
+ "warnings": [],
+ "outputs": {
+  "image": {
+   "file": "concat_w047-w048_R5B2_z9500-11000.png",
+   "sha256": "59307c84ea65091de1bea14a3b75d44069bfe1fb498b3445f698ec3d1b8c1c78",
+   "width_px": 5854,
+   "height_px": 2881,
+   "data_panel": {
+    "x": 173,
+    "y": 182,
+    "width": 5641,
+    "height": 2455,
+    "note": "image pixels of the area; 1 image pixel = 1 render pixel"
+   }
+  },
+  "letter_sizes_csv": {
+   "file": "concat_w047-w048_R5B2_z9500-11000_letter_sizes.csv",
+   "sha256": "46ca63aaab5aec49659f47b9023a640924dd33155efbd963b2b56de6aaf0feab",
+   "note": "box coordinates in area pixels (reading orientation, origin at the top left of the area; x1, y1 exclusive)"
+  }
+ },
+ "software": {
+  "python": "3.14.6",
+  "numpy": "2.4.4",
+  "opencv": "5.0.0",
+  "zarr": "3.2.1",
+  "tifffile": "2026.7.14"
+ },
+ "command": "make_submission_image.py --mesh concat_w047-w048_R5B2_z9500-11000.tifxyz --umbilicus umbilicus_PHerc0343.json --ct concat_w047-w048_R5B2_z9500-11000_66.zarr --overlay-style dimmed-ct --caption compact --geometry-sums <sha256-list> --forbid-words <word-list> --area 380,105,6021,2560 --max-cm2 12 --ct-layer d+1 --ink concat_w047-w048_R5B2_z9500-11000__dnative__L66s26_reverse.tif concat_w047-w048_R5B2_z9500-11000__hecate__L66zc33.50_reverse.png concat_w047-w048_R5B2_z9500-11000__hybrid_3d2d-seed42__L66s26_reverse.tif concat_w047-w048_R5B2_z9500-11000__hybrid_3d2d-seed43__L66s26_reverse.tif --ensemble --ink-stats concat_w047-w048_R5B2_z9500-11000__stats.json --rows concat_w047-w048_R5B2_z9500-11000_rows.json --letters concat_w047-w048_R5B2_z9500-11000_letter_boxes.json --letter-markers off --sizes-csv concat_w047-w048_R5B2_z9500-11000_letter_sizes.csv --out-dir 09_update_01-10-2026 --force",
+ "command_note": "paths reduced to file names; the values of --geometry-sums and --forbid-words are not recorded",
+ "publication_check": {
+  "word_list_entries": 32,
+  "hits": 0,
+  "checked": "mesh folder name, text files of the mesh, input and output file names, captions, labels, warnings, the command and this sidecar"
+ }
+}

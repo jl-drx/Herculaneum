@@ -1,0 +1,63 @@
+{
+  "amendment": "First attempt stopped before model construction or forward: legacy helper accepts role seed42/seed43, not display seed42-75000. Pass canonical role to unchanged helper; analysis labels and actual artifacts unchanged. Original code, GO and log retained. No scientific outputs preceded correction.",
+  "created_at_utc": "2026-10-09T17:51:52.029086+00:00",
+  "new_forwards": 800,
+  "pins": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/PROTOCOL.md",
+      "sha256": "30699bdd462192c2cc3a5b122d57f62530a1c366426065666f12678d0f60243e",
+      "size_bytes": 1662
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/ACQUISITION_PLAN.json",
+      "sha256": "07f5172c009bfd09b60e0a1b43ab1bcb1b63856baa2c3bdcc6f9a31356f0e43d",
+      "size_bytes": 3307
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/ACQUISITION_RECEIPT.json",
+      "sha256": "c2e31b294dc1ceccb5c1b795723c089442649d8840fd02445e57cc07e7340e17",
+      "size_bytes": 595
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/run_evaluation.py",
+      "sha256": "9a6713db6b7846c105a67f5c8e38020ba5586401dc829bcbd7497268df61d32a",
+      "size_bytes": 4102
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/verify_evaluation.py",
+      "sha256": "17c4b1fa54a5d07901e8c70e844139f3812389a64e70a301f52cf89c923519ae",
+      "size_bytes": 6222
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/study_common.py",
+      "sha256": "bf30bbd692051dad052e46fb6a39d2415cd0479622c1902e9fbf5606f32ed658",
+      "size_bytes": 2580
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-step60000.pth",
+      "sha256": "63cad1fb689a575662b6cc367635ec968ec488b219af12aff0497781488070ab",
+      "size_bytes": 138360039
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+      "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+      "size_bytes": 138360039
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-step60000.pth",
+      "sha256": "bf229faf754da3f1fc3026a3f9a9649341aeb3feb7bc89099cad31c55525d270",
+      "size_bytes": 138360231
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+      "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f",
+      "size_bytes": 138360231
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint_panel_v2.py",
+      "sha256": "fcc65cb263ae162e51878033b851c9501e5236710d9a68043252281a675b466d",
+      "size_bytes": 4451
+    }
+  ],
+  "training_updates": 0
+}

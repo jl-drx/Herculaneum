@@ -1,0 +1,9 @@
+# Phase45: closing native-budget check and target-return audit
+
+User approved one fold0-native trajectory to 8,192 updates on 9 October 2026, and asked for a concurrent critical audit of power and new target-focused sources. No other training arm is authorized by this protocol.
+
+Replay phase44's seed 20261009 and exact input preparation, 29,937-parameter network, AdamW, weighted BCE and sampler from scratch. Require every model tensor to equal the retained fold0-native checkpoint at step 2,048 before continuing. Preserve AdamW moments/counts and both RNG states at steps 2,048, 4,096 and 8,192. Check serialized state readback. Both training papyri (250 and 500P2) are assessed at 512, 1,024, 2,048, 4,096 and 8,192. Original fit checks consume no stochastic state.
+
+Stop for changed pinned input/code, failed replay, or nonfinite optimization. Otherwise finish at 8,192 regardless of intermediate fit. AP >= 0.80 on both training papyri qualifies this single fold's fit only. If fit fails and both improve < 0.01 AP from 4,096 to 8,192, the budget explanation loses support for this setup. Continued growth below the fit threshold remains inconclusive about optimization budget and does not establish information loss. PHerc248 is already exposed development data: evaluate at the fixed endpoint only, never use it to choose training duration or claim untouched generalization.
+
+This closes the current profilometry branch; no automatic additional folds, teacher training or Paris4 request follows a positive result. The user's new target-return priorities supersede those expansions in the phase44 proposal. Public-source research and bounded CPU geometry/inference planning may proceed concurrently. No paid GPU resource, R2 write or external maintainer message is part of this run. The £10 total GPU pilot cap remains; the scientific CPU promotion rule itself is under review.

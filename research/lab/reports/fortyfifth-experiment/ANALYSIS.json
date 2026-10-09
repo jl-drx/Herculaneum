@@ -1,0 +1,343 @@
+{
+  "checkpoint_contrasts": {
+    "final_seed_difference": {
+      "Paris_equal_parent_delta": {
+        "average_precision": 0.07521597480622,
+        "roc_auc": -0.0386284818221414
+      },
+      "left": "seed43-75000",
+      "maximum_absolute_regional_AP": 0.21775848579635493,
+      "regions": [
+        {
+          "delta": {
+            "average_precision": 0.1949707152932713,
+            "roc_auc": 0.023752623847625665
+          },
+          "id": "frag3-context1",
+          "parent": "Paris1"
+        },
+        {
+          "delta": {
+            "average_precision": -0.05821996291111339,
+            "roc_auc": -0.23535237240385581
+          },
+          "id": "frag3-context2",
+          "parent": "Paris1"
+        },
+        {
+          "delta": {
+            "average_precision": 0.02511296859807219,
+            "roc_auc": 0.005163292848408607
+          },
+          "id": "frag1-context1",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": 0.21775848579635493,
+            "roc_auc": 0.029670282921258173
+          },
+          "id": "frag1-context2",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": -0.020410908313925835,
+            "roc_auc": -0.017283314892690083
+          },
+          "id": "frag2-context1",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": 0.10576574760494317,
+            "roc_auc": 0.09662138165835299
+          },
+          "id": "frag2-context2",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": -0.000129459282822042,
+            "roc_auc": -8.518886046593455e-05
+          },
+          "id": "pherc0814-46527-fresh-rank01",
+          "parent": "PHerc0814"
+        },
+        {
+          "delta": {
+            "average_precision": 0.0018977746198929335,
+            "roc_auc": 0.00040331219123712625
+          },
+          "id": "pherc0814-46527-fresh-rank14",
+          "parent": "PHerc0814"
+        }
+      ],
+      "regions_absolute_AP_above_001": 6,
+      "right": "seed42-75000"
+    },
+    "seed42_late_training": {
+      "Paris_equal_parent_delta": {
+        "average_precision": 0.025530952559429276,
+        "roc_auc": 0.047400248964897584
+      },
+      "left": "seed42-75000",
+      "maximum_absolute_regional_AP": 0.11707612896956675,
+      "regions": [
+        {
+          "delta": {
+            "average_precision": -0.0039417074812635455,
+            "roc_auc": 0.03669133582076178
+          },
+          "id": "frag3-context1",
+          "parent": "Paris1"
+        },
+        {
+          "delta": {
+            "average_precision": 0.11707612896956675,
+            "roc_auc": 0.19117474362200104
+          },
+          "id": "frag3-context2",
+          "parent": "Paris1"
+        },
+        {
+          "delta": {
+            "average_precision": -0.06990036405978234,
+            "roc_auc": -0.13935348590868524
+          },
+          "id": "frag1-context1",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": -0.0045155895178121686,
+            "roc_auc": 0.015432961412135127
+          },
+          "id": "frag1-context2",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": 0.018802918777678646,
+            "roc_auc": 0.02712001188460711
+          },
+          "id": "frag2-context1",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": 0.03359181229874375,
+            "roc_auc": 0.020270345445597915
+          },
+          "id": "frag2-context2",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": 9.617591272703674e-05,
+            "roc_auc": 6.580803901889976e-05
+          },
+          "id": "pherc0814-46527-fresh-rank01",
+          "parent": "PHerc0814"
+        },
+        {
+          "delta": {
+            "average_precision": -0.0012359251471020238,
+            "roc_auc": -0.0002177809831639399
+          },
+          "id": "pherc0814-46527-fresh-rank14",
+          "parent": "PHerc0814"
+        }
+      ],
+      "regions_absolute_AP_above_001": 4,
+      "right": "seed42-60000"
+    },
+    "seed43_late_training": {
+      "Paris_equal_parent_delta": {
+        "average_precision": 0.026434024083762275,
+        "roc_auc": 0.04011593672428204
+      },
+      "left": "seed43-75000",
+      "maximum_absolute_regional_AP": 0.16623508588166258,
+      "regions": [
+        {
+          "delta": {
+            "average_precision": -0.07078918832937303,
+            "roc_auc": -0.008524360135299225
+          },
+          "id": "frag3-context1",
+          "parent": "Paris1"
+        },
+        {
+          "delta": {
+            "average_precision": 0.04552778461020701,
+            "roc_auc": 0.047885683803722934
+          },
+          "id": "frag3-context2",
+          "parent": "Paris1"
+        },
+        {
+          "delta": {
+            "average_precision": 0.04959354978989425,
+            "roc_auc": 0.1134574358981239
+          },
+          "id": "frag1-context1",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": 0.16623508588166258,
+            "roc_auc": 0.04285804481664257
+          },
+          "id": "frag1-context2",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": 0.003897776546104431,
+            "roc_auc": 0.023400339398196135
+          },
+          "id": "frag2-context1",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": 0.04226858789076937,
+            "roc_auc": 0.06248902634444686
+          },
+          "id": "frag2-context2",
+          "parent": "Paris2"
+        },
+        {
+          "delta": {
+            "average_precision": 0.00019924125727754927,
+            "roc_auc": 0.00013388556008386843
+          },
+          "id": "pherc0814-46527-fresh-rank01",
+          "parent": "PHerc0814"
+        },
+        {
+          "delta": {
+            "average_precision": 0.0007578038904910711,
+            "roc_auc": 0.00026602897739824716
+          },
+          "id": "pherc0814-46527-fresh-rank14",
+          "parent": "PHerc0814"
+        }
+      ],
+      "regions_absolute_AP_above_001": 5,
+      "right": "seed43-60000"
+    }
+  },
+  "decision": "Close profilometry and prioritize PHerc343 positive-control reproduction, then fixed-recipe PHerc0800 transfer. Replace universal CPU AP GPU gate with experiment/data/runtime/cost readiness. No checkpoint promoted by this panel.",
+  "native": {
+    "AP_growth_4096_to8192": {
+      "250_090925_C": 0.18137786917244975,
+      "500P2_230925_N2": 0.07501130950697721
+    },
+    "budget_interpretation": "fit_failed_still_growing_budget_inconclusive",
+    "fit_pass": false,
+    "training_fit": {
+      "512": {
+        "250_090925_C": {
+          "ap": 0.16853058911800028,
+          "auroc": 0.6219052938840899,
+          "brier": 0.5557575042550521,
+          "dice_at_half": 0.21359878159591172,
+          "n": 2079045,
+          "positive": 248590,
+          "prevalence": 0.11956932149135781
+        },
+        "500P2_230925_N2": {
+          "ap": 0.3579256884355599,
+          "auroc": 0.6381272086438383,
+          "brier": 0.4669392653868686,
+          "dice_at_half": 0.44306563201450466,
+          "n": 2007691,
+          "positive": 571340,
+          "prevalence": 0.28457566428299974
+        }
+      },
+      "1024": {
+        "250_090925_C": {
+          "ap": 0.15521788605522369,
+          "auroc": 0.553560698548351,
+          "brier": 0.6006497075448798,
+          "dice_at_half": 0.21359878159591172,
+          "n": 2079045,
+          "positive": 248590,
+          "prevalence": 0.11956932149135781
+        },
+        "500P2_230925_N2": {
+          "ap": 0.4682114498296529,
+          "auroc": 0.7105320620468933,
+          "brier": 0.4936290696801847,
+          "dice_at_half": 0.44306563201450466,
+          "n": 2007691,
+          "positive": 571340,
+          "prevalence": 0.28457566428299974
+        }
+      },
+      "2048": {
+        "250_090925_C": {
+          "ap": 0.37216532130933766,
+          "auroc": 0.7880531035168261,
+          "brier": 0.5343498643622097,
+          "dice_at_half": 0.21359878159591172,
+          "n": 2079045,
+          "positive": 248590,
+          "prevalence": 0.11956932149135781
+        },
+        "500P2_230925_N2": {
+          "ap": 0.5279503203069121,
+          "auroc": 0.6981870992131534,
+          "brier": 0.4681707973319871,
+          "dice_at_half": 0.44306563201450466,
+          "n": 2007691,
+          "positive": 571340,
+          "prevalence": 0.28457566428299974
+        }
+      },
+      "4096": {
+        "250_090925_C": {
+          "ap": 0.3705337836812153,
+          "auroc": 0.7948936953471228,
+          "brier": 0.22710857373180737,
+          "dice_at_half": 0.3637909383438546,
+          "n": 2079045,
+          "positive": 248590,
+          "prevalence": 0.11956932149135781
+        },
+        "500P2_230925_N2": {
+          "ap": 0.5154407089429858,
+          "auroc": 0.7715799536489621,
+          "brier": 0.3173522438849469,
+          "dice_at_half": 0.5606544032938326,
+          "n": 2007691,
+          "positive": 571340,
+          "prevalence": 0.28457566428299974
+        }
+      },
+      "8192": {
+        "250_090925_C": {
+          "ap": 0.5519116528536651,
+          "auroc": 0.8560190795007279,
+          "brier": 0.17969108508047252,
+          "dice_at_half": 0.48179408538932755,
+          "n": 2079045,
+          "positive": 248590,
+          "prevalence": 0.11956932149135781
+        },
+        "500P2_230925_N2": {
+          "ap": 0.590452018449963,
+          "auroc": 0.8345542177393143,
+          "brier": 0.2795450854459512,
+          "dice_at_half": 0.6229031750961425,
+          "n": 2007691,
+          "positive": 571340,
+          "prevalence": 0.28457566428299974
+        }
+      }
+    }
+  }
+}
