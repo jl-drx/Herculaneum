@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "gpu-pilot",
+  "ready_for_gpu": false,
+  "scientific_blockers": ["Freeze and audit the exact experiment before selecting compute"],
+  "identities": {
+    "git_commit": null,
+    "image_digest": null,
+    "model_sha256": [],
+    "input_manifest_sha256": null,
+    "experiment_config_sha256": null
+  },
+  "budget": {
+    "currency": "GBP",
+    "cap_gbp": "10.00",
+    "prior_spend_gbp": "0.00",
+    "rate_gbp_per_hour": null,
+    "billing_quantum_seconds": null,
+    "billable_seconds": null,
+    "other_costs_gbp": null,
+    "tax_fraction": null,
+    "margin_gbp": null,
+    "quote_expires_at": null
+  },
+  "shutdown": {
+    "independent_verified": false,
+    "compute_timeout_seconds": null,
+    "hard_timeout_seconds": null
+  }
+}
