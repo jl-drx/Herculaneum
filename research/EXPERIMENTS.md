@@ -1,6 +1,6 @@
 # Experiment index
 
-Historical reports preserve their original conclusions and scope. Latest: [experiment 39](lab/reports/thirtyninth-experiment/RESULTS.md). These are reused development studies, not 39 independent held-out tests.
+Historical reports preserve their original conclusions and scope. Latest: [experiment 40](lab/reports/fortieth-experiment/RESULTS.md). These are reused development studies, not 40 independent held-out tests.
 
 | Experiment | Recorded outcome |
 | --- | --- |
@@ -43,3 +43,4 @@ Historical reports preserve their original conclusions and scope. Latest: [exper
 | [37: thirtyseventh-experiment](lab/reports/thirtyseventh-experiment/RESULTS.md) | completed_verified_no_endpoint_passed |
 | [38: thirtyeighth-experiment](lab/reports/thirtyeighth-experiment/RESULTS.md) | completed_verified_retention_pass_primary_gain_fail |
 | [39: thirtyninth-experiment](lab/reports/thirtyninth-experiment/RESULTS.md) | COMPLETED_NOT_PROMOTED |
+| [40: fortieth-experiment](lab/reports/fortieth-experiment/RESULTS.md) | COMPLETED_VERIFIED_RETENTION_PASS_GAIN_AND_STRICT_REPLICATION_FAIL |

@@ -1,0 +1,104 @@
+{
+  "GO": {
+    "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/GO.json",
+    "sha256": "152c151770dca05c26c161410cb6a6ccb258d3756e0973a84e155fd20c7116c8",
+    "size_bytes": 118346
+  },
+  "GPU_spend_GBP": 0,
+  "created_at_utc": "2026-10-09T14:06:09.393338+00:00",
+  "development_forwards": 200,
+  "elapsed_seconds": 615.5107721500008,
+  "network_requests": 0,
+  "optimizer_updates": 512,
+  "retries": 0,
+  "status": "PASS",
+  "teacher_forwards": 32,
+  "training_forwards": 705,
+  "workers": [
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortieth-experiment/run_teacher.py",
+        "--deadline",
+        "9121.346168077"
+      ],
+      "job": "teacher",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/teacher.log",
+        "sha256": "2102c8dd54cb95b838cb1976d7417f3d312b3b3274711537e17a644ad51929aa",
+        "size_bytes": 2155
+      },
+      "returncode": 0,
+      "wall_seconds": 15.746928802000184
+    },
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortieth-experiment/run_training.py",
+        "--deadline",
+        "9121.346168077"
+      ],
+      "job": "train-D_replication",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/train-D_replication.log",
+        "sha256": "b54c13fb0e3cd8e2da61948e3a3e253f8296cd5ccdb167acf138494a441804e7",
+        "size_bytes": 3417
+      },
+      "returncode": 0,
+      "wall_seconds": 557.617205218
+    },
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortieth-experiment/verify_training.py"
+      ],
+      "job": "verify-training",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/verify-training.log",
+        "sha256": "22c50cdace83080068ef61de50c0282fd32a1c05d9827a23605f7e0ffcda6c41",
+        "size_bytes": 311
+      },
+      "returncode": 0,
+      "wall_seconds": 3.0867545999999493
+    },
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortieth-experiment/run_evaluation.py",
+        "--arm",
+        "D_replication",
+        "--step",
+        "512",
+        "--deadline",
+        "9121.346168077"
+      ],
+      "job": "eval-D_replication-512",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512.log",
+        "sha256": "8b244c447978b274a639dadaa87b3a4a613fb2debc8a20af267b06c0b9deb6ee",
+        "size_bytes": 2167
+      },
+      "returncode": 0,
+      "wall_seconds": 37.78179907499998
+    },
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortieth-experiment/analyze.py"
+      ],
+      "job": "analyze",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/analyze.log",
+        "sha256": "48ed4f4535464b008279d5803fcf9bd381041b0c47508eddb6ee3a70a49926dc",
+        "size_bytes": 354
+      },
+      "returncode": 0,
+      "wall_seconds": 1.2675962270004675
+    }
+  ]
+}

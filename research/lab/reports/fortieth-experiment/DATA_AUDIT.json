@@ -1,0 +1,51 @@
+{
+  "accepted_bbox": [
+    2560,
+    640,
+    256,
+    256
+  ],
+  "accepted_case": "pherc1667-w013",
+  "accepted_parent": "PHerc1667",
+  "annotation_ancestry": "supplied manual-plus-iterative; incomplete human/teacher ancestry",
+  "independent_ink_accuracy": false,
+  "label_decode_exact": true,
+  "minimum_axis_gap_from_original": 256,
+  "new_model_forwards": 0,
+  "old_crop_used_in_replication": false,
+  "per_cycle_negative": 387868,
+  "per_cycle_positive": 230340,
+  "per_update_class_counts_matched": true,
+  "source": {
+    "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/COMPLETE.json",
+    "sha256": "8cbaf213d5fccb97181eed77859209b61767ceff11f585fd76308deb626559a4",
+    "size_bytes": 18690
+  },
+  "source_arrays": {
+    "inklabels": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/inklabels.npy",
+      "sha256": "b3b1766c32606fa2c42961f8efcfd2d4cdca8ab009d8433aeee7e628cba3da51",
+      "size_bytes": 65664
+    },
+    "supervision-mask": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/supervision-mask.npy",
+      "sha256": "2c7d05cadcee6f75e67e1b0d29ec3f9c26a87d6a6cdf5a5a8f236a8dacf8f2ef",
+      "size_bytes": 65664
+    },
+    "surface": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/surface.npy",
+      "sha256": "9e85aa9c0c3f050dda4abe8732b400d0c000f8277b1c768326b770f3069f02f7",
+      "size_bytes": 1376384
+    }
+  },
+  "source_pooling_exact": true,
+  "source_specific_original_exposure_matched": false,
+  "spatial_replication_within_same_surface": true,
+  "status": "PASS_OPERATIONAL_PUBLIC_REFERENCE_SUPERVISION",
+  "unique_manual_pixels_by_region": [
+    25967,
+    28734,
+    46020
+  ],
+  "validation_mask_promoted": false
+}

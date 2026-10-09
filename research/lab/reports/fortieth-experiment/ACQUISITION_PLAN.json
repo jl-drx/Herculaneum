@@ -1,0 +1,294 @@
+{
+  "candidates_xywh": [
+    [
+      4480,
+      1408,
+      256,
+      256
+    ],
+    [
+      4608,
+      1408,
+      256,
+      256
+    ],
+    [
+      4736,
+      1408,
+      256,
+      256
+    ],
+    [
+      4480,
+      1536,
+      256,
+      256
+    ],
+    [
+      4608,
+      1536,
+      256,
+      256
+    ],
+    [
+      4736,
+      1536,
+      256,
+      256
+    ],
+    [
+      4480,
+      1664,
+      256,
+      256
+    ],
+    [
+      4736,
+      1664,
+      256,
+      256
+    ]
+  ],
+  "case": "pherc1667-w013",
+  "inventory": {
+    "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/label-chunk-listing-page-0.json",
+    "sha256": "830f7b8cf74a7d051a0ef5b69b06abe9f3836e34f07434de6f4ce5997634ec14",
+    "size_bytes": 304348
+  },
+  "label_base": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink_9um/labels/aligned-scrollprizeorg-21slices/pherc1667-w013",
+  "metadata": [
+    {
+      "name": "inklabels.zattrs.json",
+      "prior": {
+        "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels.zattrs.json",
+        "sha256": "cb3cf48f7f288af5861554fad0c7de63bcb784edea2dcf4b0b6344edb2a4bd66",
+        "size_bytes": 1235
+      },
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink_9um/labels/aligned-scrollprizeorg-21slices/pherc1667-w013/pherc1667-w013_inklabels.zarr/.zattrs"
+    },
+    {
+      "name": "inklabels.level0.zarray.json",
+      "prior": {
+        "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels.level0.zarray.json",
+        "sha256": "5b1aa3ac9416ee2f3db51c06b85485139d9dea3f4a7c625ae7895fe3bed48fb2",
+        "size_bytes": 368
+      },
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink_9um/labels/aligned-scrollprizeorg-21slices/pherc1667-w013/pherc1667-w013_inklabels.zarr/0/.zarray"
+    },
+    {
+      "name": "supervision.zattrs.json",
+      "prior": {
+        "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/supervision.zattrs.json",
+        "sha256": "cb3cf48f7f288af5861554fad0c7de63bcb784edea2dcf4b0b6344edb2a4bd66",
+        "size_bytes": 1235
+      },
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink_9um/labels/aligned-scrollprizeorg-21slices/pherc1667-w013/pherc1667-w013_supervision_mask.zarr/.zattrs"
+    },
+    {
+      "name": "supervision.level0.zarray.json",
+      "prior": {
+        "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/supervision.level0.zarray.json",
+        "sha256": "5b1aa3ac9416ee2f3db51c06b85485139d9dea3f4a7c625ae7895fe3bed48fb2",
+        "size_bytes": 368
+      },
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink_9um/labels/aligned-scrollprizeorg-21slices/pherc1667-w013/pherc1667-w013_supervision_mask.zarr/0/.zarray"
+    },
+    {
+      "name": "surface.level2.zarray.json",
+      "prior": {
+        "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/surface.level2.zarray.json",
+        "sha256": "746b1818331ab29c1be9a84d121873338b061409194319973f2924a9748eb6c2",
+        "size_bytes": 232
+      },
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20240304141531-w013_20240304141531_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/2/.zarray"
+    },
+    {
+      "name": "surface.zattrs.json",
+      "prior": {
+        "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/surface.zattrs.json",
+        "sha256": "377f91ef8c5f43c66234e7699176698d34e0f945bccb47a88c916b115e408207",
+        "size_bytes": 3467
+      },
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20240304141531-w013_20240304141531_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/.zattrs"
+    }
+  ],
+  "minimum_axis_gap": 256,
+  "original_bbox": [
+    3968,
+    1408,
+    256,
+    256
+  ],
+  "replacement_requirements": [
+    {
+      "negative": 3651,
+      "positive": 357,
+      "step": 1
+    },
+    {
+      "negative": 9196,
+      "positive": 5472,
+      "step": 2
+    },
+    {
+      "negative": 3054,
+      "positive": 3796,
+      "step": 3
+    },
+    {
+      "negative": 4063,
+      "positive": 301,
+      "step": 4
+    },
+    {
+      "negative": 5207,
+      "positive": 9605,
+      "step": 5
+    },
+    {
+      "negative": 5363,
+      "positive": 1113,
+      "step": 6
+    },
+    {
+      "negative": 3054,
+      "positive": 3796,
+      "step": 7
+    },
+    {
+      "negative": 11279,
+      "positive": 1277,
+      "step": 8
+    },
+    {
+      "negative": 5159,
+      "positive": 4386,
+      "step": 9
+    },
+    {
+      "negative": 5363,
+      "positive": 1113,
+      "step": 10
+    },
+    {
+      "negative": 3651,
+      "positive": 357,
+      "step": 11
+    },
+    {
+      "negative": 5871,
+      "positive": 2115,
+      "step": 12
+    },
+    {
+      "negative": 5159,
+      "positive": 4386,
+      "step": 13
+    },
+    {
+      "negative": 9196,
+      "positive": 5472,
+      "step": 14
+    },
+    {
+      "negative": 3054,
+      "positive": 3796,
+      "step": 15
+    },
+    {
+      "negative": 11279,
+      "positive": 1277,
+      "step": 16
+    },
+    {
+      "negative": 5207,
+      "positive": 9605,
+      "step": 17
+    },
+    {
+      "negative": 4063,
+      "positive": 301,
+      "step": 18
+    },
+    {
+      "negative": 3651,
+      "positive": 357,
+      "step": 19
+    },
+    {
+      "negative": 10644,
+      "positive": 5276,
+      "step": 20
+    },
+    {
+      "negative": 5207,
+      "positive": 9605,
+      "step": 21
+    },
+    {
+      "negative": 5871,
+      "positive": 2115,
+      "step": 22
+    },
+    {
+      "negative": 5159,
+      "positive": 4386,
+      "step": 23
+    },
+    {
+      "negative": 9196,
+      "positive": 5472,
+      "step": 24
+    },
+    {
+      "negative": 3651,
+      "positive": 357,
+      "step": 25
+    },
+    {
+      "negative": 4063,
+      "positive": 301,
+      "step": 26
+    },
+    {
+      "negative": 4694,
+      "positive": 751,
+      "step": 27
+    },
+    {
+      "negative": 5363,
+      "positive": 1113,
+      "step": 28
+    },
+    {
+      "negative": 5159,
+      "positive": 4386,
+      "step": 29
+    },
+    {
+      "negative": 11279,
+      "positive": 1277,
+      "step": 30
+    },
+    {
+      "negative": 3054,
+      "positive": 3796,
+      "step": 31
+    },
+    {
+      "negative": 5363,
+      "positive": 1113,
+      "step": 32
+    }
+  ],
+  "replacement_schedule": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/data/schedule.json",
+    "sha256": "03fc968d0aba64b9d4e7ca68bebdb231d8095a80cce71e17010ee55058a95c51",
+    "size_bytes": 17942
+  },
+  "request_cap": 80,
+  "selection_rule": "First class-feasible crop in numeric Y/X inventory order; same w013 surface; 256px separation",
+  "surface_base": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20240304141531-w013_20240304141531_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr",
+  "wall_seconds": 600,
+  "wire_byte_cap": 33554432
+}

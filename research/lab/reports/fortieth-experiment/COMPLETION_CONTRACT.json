@@ -1,0 +1,157 @@
+{
+  "CPU_monetary_cap": null,
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "acquisition_requests": 68,
+  "admission_stages": 2,
+  "advancement_passed": false,
+  "all_evaluation_regions_reused_development": true,
+  "baseline_promoted": false,
+  "blended_score_pixels_verified": 1179648,
+  "decision": "Retain seed42, defer GPU, propose one control removing the new-crop BCE gradient on the same schedule",
+  "delivered_body_bytes": 10707142,
+  "descriptive_replication_passed": false,
+  "development_single_tile_forwards": 200,
+  "evidence": {
+    "ACQUISITION_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/ACQUISITION_GO.json",
+      "sha256": "1010aff1657e61c4059020d99ba458bc9490489428c8a95baf4e4cf55bc20e34",
+      "size_bytes": 2546
+    },
+    "ACQUISITION_PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/ACQUISITION_PROTOCOL.md",
+      "sha256": "d3820ca01faea56fbbdaaaa0126292fc6ff3c9a055c9260739f918b6869aa2c7",
+      "size_bytes": 2085
+    },
+    "ADMISSION_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/ADMISSION_VERIFICATION.json",
+      "sha256": "0d1c5e5086aa79ee7bf5fb308095150619b0d28f76d30301c44a381d4021c5de",
+      "size_bytes": 3744
+    },
+    "DATA_AUDIT.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/DATA_AUDIT.json",
+      "sha256": "2127f6f4a8690080e878a6698a5babacc7a9cba865901b26683a3b30b4219c9b",
+      "size_bytes": 1851
+    },
+    "DATA_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/DATA_VERIFICATION.json",
+      "sha256": "c8234819b288fc502a52b038b804a45363ecd6306bf7c4e317020f0ad2bf673e",
+      "size_bytes": 489
+    },
+    "EVALUATION_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/EVALUATION_VERIFICATION.json",
+      "sha256": "53de8db68ef4c9c49426bc3200b080b971010081a0bc791ab2c6d492f5bcda66",
+      "size_bytes": 667
+    },
+    "FIGURES.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/FIGURES.json",
+      "sha256": "7535e938f794655bcc08a99b5cf10b1c2c4868f05f6318fed8b61379f86c0c14",
+      "size_bytes": 348
+    },
+    "GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/GO.json",
+      "sha256": "152c151770dca05c26c161410cb6a6ccb258d3756e0973a84e155fd20c7116c8",
+      "size_bytes": 118346
+    },
+    "METRICS.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/METRICS.json",
+      "sha256": "d522d49b5554677589f453cc857847ebd858d227013ce4889641e0aec2aef4ff",
+      "size_bytes": 56376
+    },
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "86b87b8aa7ea4b67ed26d87695d8c70c9559d56f452dd915d568272ca94b38ec",
+      "size_bytes": 3760
+    },
+    "PLAN.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/PLAN.json",
+      "sha256": "99893a105a1bed0f9be614e8815b25cd0583ffc31f7758f185649772b50741eb",
+      "size_bytes": 139593
+    },
+    "PREFLIGHT_NOTES.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/PREFLIGHT_NOTES.md",
+      "sha256": "f3f53f6c93d085cf5e945e21a2e62d75a07b1c905112c84c3db679f554afd048",
+      "size_bytes": 509
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/PROTOCOL.md",
+      "sha256": "85d4811f95756ebdfa47641c55a06943a200de34a25a06e39b23c12acfcfa9ad",
+      "size_bytes": 6431
+    },
+    "REFERENCE_STATUS.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/REFERENCE_STATUS.json",
+      "sha256": "9b60d703d7c9907b7345080dda05d9f09d54c973f7f161355dcca882e5a5645a",
+      "size_bytes": 1734
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/RESULTS.md",
+      "sha256": "245cea73e9eb34f400d3df837ee00c48118dfe83a7ae35e023b12f5085b96d2a",
+      "size_bytes": 7806
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "64a1752d77777bb50d63d1000f474b3dfda64e898b200d1fbe1a30e2e28bd423",
+      "size_bytes": 625
+    },
+    "STARTUP_AFTER_FORTIETH.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/STARTUP_AFTER_FORTIETH.md",
+      "sha256": "a470bc91e171a332f5470454ec50674b6fa02998be244398a397b8fb912fc0fe",
+      "size_bytes": 3380
+    },
+    "TEST_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/TEST_RECEIPT.json",
+      "sha256": "ee0ed0892a4566fbbc9fb6a27754c13d8f1dd81940483a1a8bcc6acc73ed99f2",
+      "size_bytes": 139
+    },
+    "TRAINING_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/TRAINING_VERIFICATION.json",
+      "sha256": "f128a65bdb2bad3502f7f1a98a738fd558ca12b0c76ddb5d695f0e58ad256e5f",
+      "size_bytes": 775
+    },
+    "acquisition/FAILURE.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquisition/FAILURE.json",
+      "sha256": "012613ceab65671349b4c55cd890053d1b83d66ca85578a3bbf454cd5e197111",
+      "size_bytes": 171
+    },
+    "admission-stage2/ACQUISITION_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/ACQUISITION_GO.json",
+      "sha256": "0938371fce06e5ddbc192aca4c217a88910132f110bbb5924b4619fea0df97f9",
+      "size_bytes": 2601
+    },
+    "admission-stage2/PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/PROTOCOL.md",
+      "sha256": "7e16173c39db29cb34794fc704ed4ff68076b4db96fdabb4e2838c7fb921b2a7",
+      "size_bytes": 1421
+    },
+    "admission-stage2/acquisition/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/COMPLETE.json",
+      "sha256": "8cbaf213d5fccb97181eed77859209b61767ceff11f585fd76308deb626559a4",
+      "size_bytes": 18690
+    },
+    "run-v1/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/COMPLETE.json",
+      "sha256": "89d440ea851dc8ce0c8673c7ad2c4587c7b8603fbff84e46bfc59cdd32d4fb82",
+      "size_bytes": 3324
+    }
+  },
+  "fixtures_passed": 7,
+  "full_17_plane_contract_retained": true,
+  "independent_ink_accuracy": false,
+  "initial_admission_failed": true,
+  "new_CT_chunks": 4,
+  "new_artifacts_uploaded_to_R2": false,
+  "new_model_forwards": 937,
+  "optimizer_updates": 512,
+  "publication_scope": "Local science sealed here; authorized GitHub source/results publication recorded separately",
+  "rank_values_verified": 80,
+  "schema_version": 1,
+  "scientific_attempts": 1,
+  "scientific_retries": 0,
+  "status": "COMPLETED_VERIFIED_RETENTION_PASS_GAIN_AND_STRICT_REPLICATION_FAIL",
+  "student_batch_two_forwards": 705,
+  "teacher_batch_two_forwards": 32,
+  "training_loss_rows_verified": 768,
+  "training_scalar_values_verified": 4608,
+  "transcription": null,
+  "translation": null
+}

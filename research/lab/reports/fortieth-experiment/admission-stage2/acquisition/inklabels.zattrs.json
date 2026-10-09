@@ -1,0 +1,33 @@
+{
+    "annotation_center_channel": 10,
+    "annotation_source_results": "results-fixed",
+    "case": "pherc1667-w013",
+    "format": "aligned-public-level2-zmean4-21slice-v1",
+    "mapping_validity_policy": "relaxed >=128, additions gated to within 128 pooled px of strict (==255) supervision coverage, then cleaned (min_blob=16, max_hole_mask=512, max_hole_ink=16, min_island=1024)",
+    "online_validation": false,
+    "output_channels": 21,
+    "output_resolution_um_zyx": [
+        9.596,
+        9.596,
+        9.596
+    ],
+    "rebuilt_from": "/scratch/elian/new-ink-pipeline/data/aligned-public-21slice-v2/pherc1667-w013",
+    "source_manifest": "/scratch/elian/mask-align/open-data-training-manifest-v1.json",
+    "source_resolution_um_zyx": [
+        2.399,
+        9.596,
+        9.596
+    ],
+    "source_shape_zyx": [
+        109,
+        10400,
+        19900
+    ],
+    "source_surface_volume": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc1667/segments/20240304141531-w013_20240304141531_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr",
+    "source_surface_volume_level": 2,
+    "source_z_slice": [
+        13,
+        97
+    ],
+    "z_pool": "21 complete means of 4 source planes"
+}

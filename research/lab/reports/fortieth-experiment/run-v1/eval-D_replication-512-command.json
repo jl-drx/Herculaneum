@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/workspace/.venvs/herculaneum/bin/python",
+    "-B",
+    "/workspace/herculaneum-lab/reports/fortieth-experiment/run_evaluation.py",
+    "--arm",
+    "D_replication",
+    "--step",
+    "512",
+    "--deadline",
+    "9121.346168077"
+  ],
+  "job": "eval-D_replication-512",
+  "log": {
+    "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512.log",
+    "sha256": "8b244c447978b274a639dadaa87b3a4a613fb2debc8a20af267b06c0b9deb6ee",
+    "size_bytes": 2167
+  },
+  "returncode": 0,
+  "wall_seconds": 37.78179907499998
+}

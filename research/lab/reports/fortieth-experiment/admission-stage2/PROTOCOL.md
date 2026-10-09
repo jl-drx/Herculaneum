@@ -1,0 +1,7 @@
+# Second admission stage, before model execution
+
+Stage1 stopped after all eight fixed candidates lacked tiles meeting the unchanged 32 replacement class-count requirements. It made 38 requests / 10,491 delivered bytes, all metadata/labels; zero CT chunks, model calls or training. Preserve its code, GO, responses and failure receipt unchanged.
+
+This is a separately declared extension of the spatial label search, not a retry of training or relaxation of supervision. Reuse the first cached inventory page and fetch at most 15 following public label-inventory pages (1 MiB each, 10 MiB combined, 300 seconds). Require the inventory to end within that bound. Before any stage2 label bodies, freeze at most 64 new candidate crops in numeric Y/X order from the same geometry rule, excluding all eight failed stage1 candidates. Keep same-surface w013, 256-square crop, minimum 256-pixel axis gap, supplied training participation, and all exact per-patch class requirements.
+
+Select the first admissible candidate. Save every probe, then fix selection before reading its four CT chunks. No predictions or training metrics guide this continuation. Stage2 acquisition limits: 540 requests, 32 MiB delivered bodies, 1,800 seconds; all per-response/decoding limits from stage1 remain. No automatic retries or third-stage extension. If no candidate qualifies, retain the admission failure and do not train a weakened substitute.

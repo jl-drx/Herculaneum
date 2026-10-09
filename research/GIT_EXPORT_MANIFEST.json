@@ -1,6 +1,8 @@
 {
-  "bytes": 16006100,
-  "record_count": 1702,
+  "bytes": 21063933,
+  "previous_export_manifest_sha256": "f9b3b6f56e78a875076a7e8c2b587fb25c5671cb6bd565f4098c9883d4d57174",
+  "previous_records_preserved": 1702,
+  "record_count": 1791,
   "records": [
     {
       "path": "CHALLENGE_RESEARCH.md",
@@ -1527,16 +1529,16 @@
       "source": "/workspace/herculaneum-lab/reports/eleventh-experiment/visualization/plot_comparison_layout_v2.py"
     },
     {
-      "path": "reports/eleventh-experiment/visualization/results/numeric-results.csv",
-      "sha256": "1405a7225cd0c2f5a1ab63661596d0c87a5df7bcd9210626ad1e249312eae82f",
-      "size_bytes": 4242,
-      "source": "/workspace/herculaneum-lab/reports/eleventh-experiment/visualization/results/numeric-results.csv"
-    },
-    {
       "path": "reports/eleventh-experiment/visualization/results-v2/numeric-results.csv",
       "sha256": "1405a7225cd0c2f5a1ab63661596d0c87a5df7bcd9210626ad1e249312eae82f",
       "size_bytes": 4242,
       "source": "/workspace/herculaneum-lab/reports/eleventh-experiment/visualization/results-v2/numeric-results.csv"
+    },
+    {
+      "path": "reports/eleventh-experiment/visualization/results/numeric-results.csv",
+      "sha256": "1405a7225cd0c2f5a1ab63661596d0c87a5df7bcd9210626ad1e249312eae82f",
+      "size_bytes": 4242,
+      "source": "/workspace/herculaneum-lab/reports/eleventh-experiment/visualization/results/numeric-results.csv"
     },
     {
       "path": "reports/eleventh-experiment/write_report.py",
@@ -1791,18 +1793,6 @@
       "source": "/workspace/herculaneum-lab/reports/fifth-experiment/context-run/run_context.py"
     },
     {
-      "path": "reports/fifth-experiment/context-selection/REPORT.md",
-      "sha256": "726386317304069c1f5d7dcb10555d52b0373835e8f83ef52ee1f133c32b2682",
-      "size_bytes": 3970,
-      "source": "/workspace/herculaneum-lab/reports/fifth-experiment/context-selection/REPORT.md"
-    },
-    {
-      "path": "reports/fifth-experiment/context-selection/select_context.py",
-      "sha256": "2287207369c2daf54bf51601003dadf257703f09c60fa887089239273d86b8a3",
-      "size_bytes": 17559,
-      "source": "/workspace/herculaneum-lab/reports/fifth-experiment/context-selection/select_context.py"
-    },
-    {
       "path": "reports/fifth-experiment/context-selection-v2/REPORT.md",
       "sha256": "0a93bf436eac31c6e823dbea40ab8eafcffbe277d25deda893500a82d25d2d49",
       "size_bytes": 4552,
@@ -1813,6 +1803,18 @@
       "sha256": "f2780f3a3a938501682439fc2064358945b39c333f2e4f6ae15da753c4d79029",
       "size_bytes": 18541,
       "source": "/workspace/herculaneum-lab/reports/fifth-experiment/context-selection-v2/select_context_v2.py"
+    },
+    {
+      "path": "reports/fifth-experiment/context-selection/REPORT.md",
+      "sha256": "726386317304069c1f5d7dcb10555d52b0373835e8f83ef52ee1f133c32b2682",
+      "size_bytes": 3970,
+      "source": "/workspace/herculaneum-lab/reports/fifth-experiment/context-selection/REPORT.md"
+    },
+    {
+      "path": "reports/fifth-experiment/context-selection/select_context.py",
+      "sha256": "2287207369c2daf54bf51601003dadf257703f09c60fa887089239273d86b8a3",
+      "size_bytes": 17559,
+      "source": "/workspace/herculaneum-lab/reports/fifth-experiment/context-selection/select_context.py"
     },
     {
       "path": "reports/fifth-experiment/native-check/REVIEW.md",
@@ -1879,6 +1881,534 @@
       "sha256": "2e598291026a990bf03c6629a294a7593db08755c70e14c4e080e1d64ca0148e",
       "size_bytes": 3110,
       "source": "/workspace/herculaneum-lab/reports/first-experiment/visual-evidence-review.md"
+    },
+    {
+      "path": "reports/fortieth-experiment/ACQUISITION_GO.json",
+      "sha256": "1010aff1657e61c4059020d99ba458bc9490489428c8a95baf4e4cf55bc20e34",
+      "size_bytes": 2546,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/ACQUISITION_GO.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/ACQUISITION_PLAN.json",
+      "sha256": "3adf54b1030a8b6e11dcaba81388446d2d9711023004ca1c8cc8f2ffde1eb5b0",
+      "size_bytes": 7109,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/ACQUISITION_PLAN.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/ACQUISITION_PROTOCOL.md",
+      "sha256": "d3820ca01faea56fbbdaaaa0126292fc6ff3c9a055c9260739f918b6869aa2c7",
+      "size_bytes": 2085,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/ACQUISITION_PROTOCOL.md"
+    },
+    {
+      "path": "reports/fortieth-experiment/ADMISSION_VERIFICATION.json",
+      "sha256": "0d1c5e5086aa79ee7bf5fb308095150619b0d28f76d30301c44a381d4021c5de",
+      "size_bytes": 3744,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/ADMISSION_VERIFICATION.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/COMPLETION_CONTRACT.json",
+      "sha256": "898c27a1283eb64a915c3b224342575e0eb484d6cf1575daf247d21381a752d8",
+      "size_bytes": 7092,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/COMPLETION_CONTRACT.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/DATA_AUDIT.json",
+      "sha256": "2127f6f4a8690080e878a6698a5babacc7a9cba865901b26683a3b30b4219c9b",
+      "size_bytes": 1851,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/DATA_AUDIT.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/DATA_VERIFICATION.json",
+      "sha256": "c8234819b288fc502a52b038b804a45363ecd6306bf7c4e317020f0ad2bf673e",
+      "size_bytes": 489,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/DATA_VERIFICATION.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/EVALUATION_VERIFICATION.json",
+      "sha256": "53de8db68ef4c9c49426bc3200b080b971010081a0bc791ab2c6d492f5bcda66",
+      "size_bytes": 667,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/EVALUATION_VERIFICATION.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/FIGURES.json",
+      "sha256": "7535e938f794655bcc08a99b5cf10b1c2c4868f05f6318fed8b61379f86c0c14",
+      "size_bytes": 348,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/FIGURES.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/GO.json",
+      "sha256": "152c151770dca05c26c161410cb6a6ccb258d3756e0973a84e155fd20c7116c8",
+      "size_bytes": 118346,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/GO.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/METRICS.json",
+      "sha256": "d522d49b5554677589f453cc857847ebd858d227013ce4889641e0aec2aef4ff",
+      "size_bytes": 56376,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/METRICS.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "86b87b8aa7ea4b67ed26d87695d8c70c9559d56f452dd915d568272ca94b38ec",
+      "size_bytes": 3760,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/NEXT_STUDY_DRAFT.md"
+    },
+    {
+      "path": "reports/fortieth-experiment/PLAN.json",
+      "sha256": "99893a105a1bed0f9be614e8815b25cd0583ffc31f7758f185649772b50741eb",
+      "size_bytes": 139593,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/PLAN.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/PREFLIGHT_NOTES.md",
+      "sha256": "f3f53f6c93d085cf5e945e21a2e62d75a07b1c905112c84c3db679f554afd048",
+      "size_bytes": 509,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/PREFLIGHT_NOTES.md"
+    },
+    {
+      "path": "reports/fortieth-experiment/PROTOCOL.md",
+      "sha256": "85d4811f95756ebdfa47641c55a06943a200de34a25a06e39b23c12acfcfa9ad",
+      "size_bytes": 6431,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/PROTOCOL.md"
+    },
+    {
+      "path": "reports/fortieth-experiment/REFERENCE_STATUS.json",
+      "sha256": "9b60d703d7c9907b7345080dda05d9f09d54c973f7f161355dcca882e5a5645a",
+      "size_bytes": 1734,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/REFERENCE_STATUS.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/RESULTS.md",
+      "sha256": "245cea73e9eb34f400d3df837ee00c48118dfe83a7ae35e023b12f5085b96d2a",
+      "size_bytes": 7806,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/RESULTS.md"
+    },
+    {
+      "path": "reports/fortieth-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "64a1752d77777bb50d63d1000f474b3dfda64e898b200d1fbe1a30e2e28bd423",
+      "size_bytes": 625,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/ROOT_REPORT_REVIEW.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/TEST_RECEIPT.json",
+      "sha256": "ee0ed0892a4566fbbc9fb6a27754c13d8f1dd81940483a1a8bcc6acc73ed99f2",
+      "size_bytes": 139,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/TEST_RECEIPT.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/TRAINING_VERIFICATION.json",
+      "sha256": "f128a65bdb2bad3502f7f1a98a738fd558ca12b0c76ddb5d695f0e58ad256e5f",
+      "size_bytes": 775,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/TRAINING_VERIFICATION.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/acquire_crop.py",
+      "sha256": "f5520ff75b31975382a74ae29f31e96c6d80f147f5c0a1865807dea66264f00c",
+      "size_bytes": 7106,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquire_crop.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/acquisition/FAILURE.json",
+      "sha256": "012613ceab65671349b4c55cd890053d1b83d66ca85578a3bbf454cd5e197111",
+      "size_bytes": 171,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquisition/FAILURE.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/acquisition/inklabels.level0.zarray.json",
+      "sha256": "5b1aa3ac9416ee2f3db51c06b85485139d9dea3f4a7c625ae7895fe3bed48fb2",
+      "size_bytes": 368,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquisition/inklabels.level0.zarray.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/acquisition/inklabels.zattrs.json",
+      "sha256": "cb3cf48f7f288af5861554fad0c7de63bcb784edea2dcf4b0b6344edb2a4bd66",
+      "size_bytes": 1235,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquisition/inklabels.zattrs.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/acquisition/request-ledger.jsonl",
+      "sha256": "695377fdb6ee761ce2be217568417549d31f14528ca8172f0b9cdc39175efce7",
+      "size_bytes": 26844,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquisition/request-ledger.jsonl"
+    },
+    {
+      "path": "reports/fortieth-experiment/acquisition/supervision.level0.zarray.json",
+      "sha256": "5b1aa3ac9416ee2f3db51c06b85485139d9dea3f4a7c625ae7895fe3bed48fb2",
+      "size_bytes": 368,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquisition/supervision.level0.zarray.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/acquisition/supervision.zattrs.json",
+      "sha256": "cb3cf48f7f288af5861554fad0c7de63bcb784edea2dcf4b0b6344edb2a4bd66",
+      "size_bytes": 1235,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquisition/supervision.zattrs.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/acquisition/surface.level2.zarray.json",
+      "sha256": "746b1818331ab29c1be9a84d121873338b061409194319973f2924a9748eb6c2",
+      "size_bytes": 232,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquisition/surface.level2.zarray.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/acquisition/surface.zattrs.json",
+      "sha256": "377f91ef8c5f43c66234e7699176698d34e0f945bccb47a88c916b115e408207",
+      "size_bytes": 3467,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/acquisition/surface.zattrs.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/ACQUISITION_GO.json",
+      "sha256": "0938371fce06e5ddbc192aca4c217a88910132f110bbb5924b4619fea0df97f9",
+      "size_bytes": 2601,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/ACQUISITION_GO.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/ACQUISITION_PLAN.json",
+      "sha256": "e5ef31329a400d43989bcfcca692e53e71e1720a9ece760f54f6b86cd313a103",
+      "size_bytes": 10619,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/ACQUISITION_PLAN.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/INVENTORY_COMPLETE.json",
+      "sha256": "916f7d93f3bf53a65f38280c5e4e8c914032172ccc25be8d0cf816608695f786",
+      "size_bytes": 13692,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/INVENTORY_COMPLETE.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/INVENTORY_GO.json",
+      "sha256": "11c52867751281d134dfa94d37e1113e2bef61d44fec01ca0077725bffa24a0a",
+      "size_bytes": 1644,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/INVENTORY_GO.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/PROTOCOL.md",
+      "sha256": "7e16173c39db29cb34794fc704ed4ff68076b4db96fdabb4e2838c7fb921b2a7",
+      "size_bytes": 1421,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/PROTOCOL.md"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquire_crop.py",
+      "sha256": "4a05cd7d85b2a7f95e894079d0ec5bd7bd7a220b316bd8c8760e14e1c6e0073a",
+      "size_bytes": 7145,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquire_crop.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/COMPLETE.json",
+      "sha256": "8cbaf213d5fccb97181eed77859209b61767ceff11f585fd76308deb626559a4",
+      "size_bytes": 18690,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/COMPLETE.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/PROBES.json",
+      "sha256": "cd97e9d156cafd616d834415636bfb362373c744e13cf1a53acf2220a0f76a9e",
+      "size_bytes": 2778,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/PROBES.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/SELECTION.json",
+      "sha256": "811f6319ce04e3f333c74d48732148dcfbf029888f78ca82fff1d2e59d1fbd9c",
+      "size_bytes": 6226,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/SELECTION.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/inklabels.level0.zarray.json",
+      "sha256": "5b1aa3ac9416ee2f3db51c06b85485139d9dea3f4a7c625ae7895fe3bed48fb2",
+      "size_bytes": 368,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/inklabels.level0.zarray.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/inklabels.zattrs.json",
+      "sha256": "cb3cf48f7f288af5861554fad0c7de63bcb784edea2dcf4b0b6344edb2a4bd66",
+      "size_bytes": 1235,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/inklabels.zattrs.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/request-ledger.jsonl",
+      "sha256": "65aae676fe98f1b189bc9266e77644e8a7281c4513e09a5b55e59dc462ce7b67",
+      "size_bytes": 13507,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/request-ledger.jsonl"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/supervision.level0.zarray.json",
+      "sha256": "5b1aa3ac9416ee2f3db51c06b85485139d9dea3f4a7c625ae7895fe3bed48fb2",
+      "size_bytes": 368,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/supervision.level0.zarray.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/supervision.zattrs.json",
+      "sha256": "cb3cf48f7f288af5861554fad0c7de63bcb784edea2dcf4b0b6344edb2a4bd66",
+      "size_bytes": 1235,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/supervision.zattrs.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/surface.level2.zarray.json",
+      "sha256": "746b1818331ab29c1be9a84d121873338b061409194319973f2924a9748eb6c2",
+      "size_bytes": 232,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/surface.level2.zarray.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/acquisition/surface.zattrs.json",
+      "sha256": "377f91ef8c5f43c66234e7699176698d34e0f945bccb47a88c916b115e408207",
+      "size_bytes": 3467,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/acquisition/surface.zattrs.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/expand_inventory.py",
+      "sha256": "75cb5e2c2060c757d25681ec6f934bce96adc7ac166dd538ccf2b6a455d40120",
+      "size_bytes": 3564,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/expand_inventory.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-1.json",
+      "sha256": "c4de4091af2ed7da3398d3a45bde24cd8ab7ae5f3e970841051681e993879f15",
+      "size_bytes": 304409,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-1.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-10.json",
+      "sha256": "0be1091730a2be02e22c6cc3e0fe8070f80befa19ef806e5056935b26e1b9703",
+      "size_bytes": 304480,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-10.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-11.json",
+      "sha256": "43078cd1a3fc7622b2f9d2605858723d5e8c1569e1bee02a938b490b05786b86",
+      "size_bytes": 304535,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-11.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-12.json",
+      "sha256": "d89e6ba71c3f4969f4030dd95de4620cfd0b8dd78e63dcd4c2d42be77b23a3f8",
+      "size_bytes": 241214,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-12.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-2.json",
+      "sha256": "ffbe052b8fa89fc184a8c77069f058919bfc12167e37142cb1afe586fdaa01b1",
+      "size_bytes": 304611,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-2.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-3.json",
+      "sha256": "15eac910ffa30987257e2fc2f96686026ad2bcbdf245163ad81ed0f045abb409",
+      "size_bytes": 304410,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-3.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-4.json",
+      "sha256": "87398ac50f9def43700aec44518127a03321cd1a2e7ce21329d28270622ab2cb",
+      "size_bytes": 304557,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-4.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-5.json",
+      "sha256": "623d4dfaf7b8624a7971a3314f28b50f6b23ff5072fa4833c6734208659b73fb",
+      "size_bytes": 304502,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-5.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-6.json",
+      "sha256": "21e22db1a33beef8c4756974749e7bae54de65490716c1f86441b65791542d3b",
+      "size_bytes": 304566,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-6.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-7.json",
+      "sha256": "03c110ca11b4d14d04744af89e5cebfbf3b01ab6c809cd2f643cc98cf695671c",
+      "size_bytes": 304503,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-7.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-8.json",
+      "sha256": "e94c2acd948340ede1fd1e92b5174ae42f8831e3dfd8e10b9e741cff1b47b06e",
+      "size_bytes": 304417,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-8.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/admission-stage2/inventory-page-9.json",
+      "sha256": "ac1b69175ac3ce4d56b7116c6fd717c2bbc1812eb2a5c99b3a721d7b05b91cff",
+      "size_bytes": 304546,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/inventory-page-9.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/analyze.py",
+      "sha256": "ed12c04fca48fe1f6b010ab665136b90094307ec22cf4e8610dd0dd296951311",
+      "size_bytes": 2821,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/analyze.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/common.py",
+      "sha256": "87d5244bfad07d3bc91c12d8dd4ff45d4ad3a6b5ac0dd7e378b51e7a49a21299",
+      "size_bytes": 2930,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/common.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/comparison.png",
+      "sha256": "570a3cd6e8e1b7c403e559e9f2f0a63060e1bce7016aed8ed349be51239595b1",
+      "size_bytes": 142535,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/comparison.png"
+    },
+    {
+      "path": "reports/fortieth-experiment/data/schedule.json",
+      "sha256": "f026d8bbf57ea11fd4c160996941a93b3e25f1638ddd5250e88da4a49a2c9f2f",
+      "size_bytes": 17591,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/data/schedule.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/data_loader.py",
+      "sha256": "5272925e32780a29b17097499175e0ed4acc05e67a4932e7d6cfd8b4c46da827",
+      "size_bytes": 551,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/data_loader.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/finalize.py",
+      "sha256": "c74d31791ae3b1382911729af50dbbba1404255f1a0cbf636558641b57a37722",
+      "size_bytes": 6282,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/finalize.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/freeze.py",
+      "sha256": "0e0165a07e89b5ce7c89ffba219aa5d02321383e2c44d90f26ab6c122e4802aa",
+      "size_bytes": 3513,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/freeze.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/objective.py",
+      "sha256": "10120493667335af9739789f57c01fe74bd0f47aced6a4e703cb9d3e7df9af1a",
+      "size_bytes": 1223,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/objective.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/prepare_data.py",
+      "sha256": "b881a1930858b27d612998684093a67d3cef4a9499ddda269b7794e6e3fd2f93",
+      "size_bytes": 6944,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/prepare_data.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/COMPLETE.json",
+      "sha256": "89d440ea851dc8ce0c8673c7ad2c4587c7b8603fbff84e46bfc59cdd32d4fb82",
+      "size_bytes": 3324,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/COMPLETE.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/D_replication/COMPLETE.json",
+      "sha256": "0afbfca0a481d4a56a22b0f2b42ebb634fdef06a7b24f4406690b3f663bc3d7e",
+      "size_bytes": 277502,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/D_replication/COMPLETE.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/D_replication/steps.jsonl",
+      "sha256": "009f49c3035706f637fb336e28c6cad4616645124bfdaba56d0e71c3a51ad786",
+      "size_bytes": 227311,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/D_replication/steps.jsonl"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/analyze-command.json",
+      "sha256": "18b101f3037726219de6ef8973edb72249ca5a0ec47f8d25023bdb3b2eed3338",
+      "size_bytes": 439,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/analyze-command.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/eval-D_replication-512-command.json",
+      "sha256": "532b7873c0cc40e360f7764100c445c9521b82eab5c6a95246d0cdb0855bbc53",
+      "size_bytes": 575,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512-command.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/eval-D_replication-512/COMPLETE.json",
+      "sha256": "dc879e16a13e92db3f6c343ebbe1482a539f26145b714ea7930456cf2e50de36",
+      "size_bytes": 146840,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/COMPLETE.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/teacher-command.json",
+      "sha256": "13590ac50d04dcf08d797a0e8c26916249c9ab722e1a41264ed348acf9057f7b",
+      "size_bytes": 484,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/teacher-command.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/teacher/COMPLETE.json",
+      "sha256": "b5877a340976ceed62f718b2718976cae5e96c79c8d158bb7b7920e32b31c282",
+      "size_bytes": 1248,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/teacher/COMPLETE.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/train-D_replication-command.json",
+      "sha256": "7cf57b27314dc270b9de9f86e24e3a8b64685f13f50ae420ac5ebf7141cef530",
+      "size_bytes": 504,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/train-D_replication-command.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/run-v1/verify-training-command.json",
+      "sha256": "5a9201a7a1eb3992a424ac1952fd4e73677f1bc4733d28aab0eedde76d1bc12c",
+      "size_bytes": 463,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/verify-training-command.json"
+    },
+    {
+      "path": "reports/fortieth-experiment/run_evaluation.py",
+      "sha256": "d1fea7dca96bc37162b6dc137de926ab829f059be2ea1aee7ac56f37c4f4ee08",
+      "size_bytes": 4093,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run_evaluation.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/run_experiment.py",
+      "sha256": "70baa313962a283a641ac6bd2de9000a715a468536a054ebd8afb783cd08a9a4",
+      "size_bytes": 2166,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run_experiment.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/run_teacher.py",
+      "sha256": "daff1ed69bd0cc24bab62e19bf377809388fdeef0b5122bad72e8aa96db65f44",
+      "size_bytes": 2263,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run_teacher.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/run_training.py",
+      "sha256": "4bfd9dab022d54a1e6f3df30b6e49512134a853d6f21cab71c55b1b28606d9eb",
+      "size_bytes": 6929,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/run_training.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/test_study.py",
+      "sha256": "eef40ff915b87a244eda55e0189dc3046bd314a638ce8025aa5dbd78bfb4322f",
+      "size_bytes": 4271,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/test_study.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/verify_admission.py",
+      "sha256": "2e03134aaf92adac74178b3bd750b0874bdf5b0e3676dd7a4e068e178b0f0050",
+      "size_bytes": 3913,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/verify_admission.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/verify_data.py",
+      "sha256": "20f1a5a56659bb3f0f256e89117f318ccc029fe5d63765da4e51efe974573bca",
+      "size_bytes": 2959,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/verify_data.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/verify_evaluation.py",
+      "sha256": "3f9b23f816f67eb0762c8c9e54218bac9bdd5d8403e0bac04b94a87fd0134ccd",
+      "size_bytes": 6217,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/verify_evaluation.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/verify_retained_state.py",
+      "sha256": "456ca374ffec7d689e7f98211e16c5d6b63a454b9daf5cfd74f07ebf82f92fc1",
+      "size_bytes": 1530,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/verify_retained_state.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/verify_training.py",
+      "sha256": "e9d902af40110833fd85b5a08fffa6ab43c9cf242107e277b1218c8871816084",
+      "size_bytes": 3933,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/verify_training.py"
+    },
+    {
+      "path": "reports/fortieth-experiment/write_results.py",
+      "sha256": "0c51906d25f738216d4f3c0a4713444daabeaf28800f9ac77a4a2d7755575e65",
+      "size_bytes": 9945,
+      "source": "/workspace/herculaneum-lab/reports/fortieth-experiment/write_results.py"
     },
     {
       "path": "reports/fourteenth-experiment/CONTRACT_AUDIT.md",
@@ -3219,6 +3749,12 @@
       "source": "/workspace/herculaneum-lab/reports/research-register-v35.json"
     },
     {
+      "path": "reports/research-register-v36.json",
+      "sha256": "6976984e650c5bf10735a5df114c80da13f7f40ddf9e69e4ea4bd4c2f6c81d6d",
+      "size_bytes": 83941,
+      "source": "/workspace/herculaneum-lab/reports/research-register-v36.json"
+    },
+    {
       "path": "reports/research-register-v4.json",
       "sha256": "be25e7f5df261726e55ad98e7e0e068ed9a882106d3dea96ca959a52ca51267d",
       "size_bytes": 7377,
@@ -3963,6 +4499,18 @@
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/finalize_study.py"
     },
     {
+      "path": "reports/sixteenth-experiment/inference-execution-context.json",
+      "sha256": "abbd3f86999b228a26d2070aa8e650d1f8aa31a0be45607d46a24f3e0700e3a8",
+      "size_bytes": 1807,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference-execution-context.json"
+    },
+    {
+      "path": "reports/sixteenth-experiment/inference-preflight-receipt.json",
+      "sha256": "1731770758d6d0da0b31ee6e1d26c9e2a0d8c0f2159890e1c31a6764d2df36e6",
+      "size_bytes": 848,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference-preflight-receipt.json"
+    },
+    {
       "path": "reports/sixteenth-experiment/inference/IMPLEMENTATION_PROPOSAL.md",
       "sha256": "cec459e41ca3c70bdbf796f8b173b40509a55cd0224aaef013d9e05f206bf955",
       "size_bytes": 5105,
@@ -3997,18 +4545,6 @@
       "sha256": "1649bae1eabaf159de36b949cc6d49cb1de78dfd48f51d27c2f68fe99e3d2e4a",
       "size_bytes": 12750,
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run_comparison.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/inference-execution-context.json",
-      "sha256": "abbd3f86999b228a26d2070aa8e650d1f8aa31a0be45607d46a24f3e0700e3a8",
-      "size_bytes": 1807,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference-execution-context.json"
-    },
-    {
-      "path": "reports/sixteenth-experiment/inference-preflight-receipt.json",
-      "sha256": "1731770758d6d0da0b31ee6e1d26c9e2a0d8c0f2159890e1c31a6764d2df36e6",
-      "size_bytes": 848,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference-preflight-receipt.json"
     },
     {
       "path": "reports/sixteenth-experiment/numeric-review/PREPARATION_STATUS.md",
@@ -4089,6 +4625,42 @@
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/endian-v2/tiff_math_v2.py"
     },
     {
+      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/README.md",
+      "sha256": "3cb150f7001065654fd164cd0f0aeacd5520c75581532437b0659234e78b1fbe",
+      "size_bytes": 2635,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/README.md"
+    },
+    {
+      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/completed-review/REPORT.md",
+      "sha256": "4fa751fe0cacc40c64af98c35ccce531a0f6af01eebe6c3e3e94ba7c0ec5ee02",
+      "size_bytes": 1945,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/completed-review/REPORT.md"
+    },
+    {
+      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/context_synthetic_check.py",
+      "sha256": "e3e6b3379a53c20cdad62b66bb1e0ed08700df2651d2adf1729956b3b29d6415",
+      "size_bytes": 5864,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/context_synthetic_check.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/receipt_checks.py",
+      "sha256": "03c78a9d3638a3d3fa3c6879d7cec18b849d758dcc7c34e38daeea36ffb5e73f",
+      "size_bytes": 39716,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/receipt_checks.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/synthetic_check.py",
+      "sha256": "f4379ea4c0e2853b29cc08b89e327b3561437e40019ae8d520601f2941d04180",
+      "size_bytes": 10363,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/synthetic_check.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/verify_inference.py",
+      "sha256": "b42cdafdf0fe02cf3a8b925760520115fd02f7222bf097897d558966af79b9a8",
+      "size_bytes": 30727,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/verify_inference.py"
+    },
+    {
       "path": "reports/sixteenth-experiment/numeric-review/inference-verification/README.md",
       "sha256": "34bb1ac78b6196e14e858f9938ae00f86354c7da0f6b08e13fe7c8870181cac6",
       "size_bytes": 4041,
@@ -4129,42 +4701,6 @@
       "sha256": "1300dbe4e93a8fe7dd462c7592a9d213422935afb0f710b6db9aafc5c7e8af92",
       "size_bytes": 27977,
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification/verify_inference.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/README.md",
-      "sha256": "3cb150f7001065654fd164cd0f0aeacd5520c75581532437b0659234e78b1fbe",
-      "size_bytes": 2635,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/README.md"
-    },
-    {
-      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/completed-review/REPORT.md",
-      "sha256": "4fa751fe0cacc40c64af98c35ccce531a0f6af01eebe6c3e3e94ba7c0ec5ee02",
-      "size_bytes": 1945,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/completed-review/REPORT.md"
-    },
-    {
-      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/context_synthetic_check.py",
-      "sha256": "e3e6b3379a53c20cdad62b66bb1e0ed08700df2651d2adf1729956b3b29d6415",
-      "size_bytes": 5864,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/context_synthetic_check.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/receipt_checks.py",
-      "sha256": "03c78a9d3638a3d3fa3c6879d7cec18b849d758dcc7c34e38daeea36ffb5e73f",
-      "size_bytes": 39716,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/receipt_checks.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/synthetic_check.py",
-      "sha256": "f4379ea4c0e2853b29cc08b89e327b3561437e40019ae8d520601f2941d04180",
-      "size_bytes": 10363,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/synthetic_check.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/numeric-review/inference-verification-v2/verify_inference.py",
-      "sha256": "b42cdafdf0fe02cf3a8b925760520115fd02f7222bf097897d558966af79b9a8",
-      "size_bytes": 30727,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/verify_inference.py"
     },
     {
       "path": "reports/sixteenth-experiment/numeric-review/large-probe-verification/RESULTS.md",
@@ -4305,54 +4841,6 @@
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-acquisition/run_acquisition.py"
     },
     {
-      "path": "reports/sixteenth-experiment/production-pooling/README.md",
-      "sha256": "5f26ae2c6e25c79263d8bf6742662055e49118749ce5667155645511efe2399b",
-      "size_bytes": 1899,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/README.md"
-    },
-    {
-      "path": "reports/sixteenth-experiment/production-pooling/check_kernel_fixtures.py",
-      "sha256": "665cfb54d14a236736bdc253eb2015cbf438330fbc1304de6e4ce76c511fb4cc",
-      "size_bytes": 4126,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/check_kernel_fixtures.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/production-pooling/check_provenance_fixtures.py",
-      "sha256": "b32c888c386df63c25a14fc61ab56ca9a8968f8b97a4dac22dbbc7dce3760249",
-      "size_bytes": 6361,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/check_provenance_fixtures.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/production-pooling/pooling_common.py",
-      "sha256": "e0fa6f107130686a129a1ed1ec4984d983bfd22d49909f4f5bc6fc6b6453ffe8",
-      "size_bytes": 9904,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/pooling_common.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/production-pooling/pooling_kernels.py",
-      "sha256": "4e37c9280e8eafed0b58adf4457c5925ab8fbb3305ccd543821829e114f335db",
-      "size_bytes": 3665,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/pooling_kernels.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/production-pooling/pooling_provenance.py",
-      "sha256": "7a9be5e65f1fdb6f14f5299ef8cc39c2c4f4d5e7ef5b21560e60ef1fd947ec97",
-      "size_bytes": 9287,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/pooling_provenance.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/production-pooling/prepare_pooling_plan.py",
-      "sha256": "bd02bbfd85ca7077d4601ab10e96f6418a97ba9a4015736ee7298e9b9b67a986",
-      "size_bytes": 2244,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/prepare_pooling_plan.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/production-pooling/run_pooling.py",
-      "sha256": "c8f015137889df87c182a189df89f8b87d13deca25f8765d4858c21b3bb01ea4",
-      "size_bytes": 10735,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/run_pooling.py"
-    },
-    {
       "path": "reports/sixteenth-experiment/production-pooling-v2/README.md",
       "sha256": "cb415640a12b59fb82552672a42984c35852d37b0bc0d2e4191479fffc698d56",
       "size_bytes": 2511,
@@ -4407,6 +4895,54 @@
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling-v2/run_pooling.py"
     },
     {
+      "path": "reports/sixteenth-experiment/production-pooling/README.md",
+      "sha256": "5f26ae2c6e25c79263d8bf6742662055e49118749ce5667155645511efe2399b",
+      "size_bytes": 1899,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/README.md"
+    },
+    {
+      "path": "reports/sixteenth-experiment/production-pooling/check_kernel_fixtures.py",
+      "sha256": "665cfb54d14a236736bdc253eb2015cbf438330fbc1304de6e4ce76c511fb4cc",
+      "size_bytes": 4126,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/check_kernel_fixtures.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/production-pooling/check_provenance_fixtures.py",
+      "sha256": "b32c888c386df63c25a14fc61ab56ca9a8968f8b97a4dac22dbbc7dce3760249",
+      "size_bytes": 6361,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/check_provenance_fixtures.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/production-pooling/pooling_common.py",
+      "sha256": "e0fa6f107130686a129a1ed1ec4984d983bfd22d49909f4f5bc6fc6b6453ffe8",
+      "size_bytes": 9904,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/pooling_common.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/production-pooling/pooling_kernels.py",
+      "sha256": "4e37c9280e8eafed0b58adf4457c5925ab8fbb3305ccd543821829e114f335db",
+      "size_bytes": 3665,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/pooling_kernels.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/production-pooling/pooling_provenance.py",
+      "sha256": "7a9be5e65f1fdb6f14f5299ef8cc39c2c4f4d5e7ef5b21560e60ef1fd947ec97",
+      "size_bytes": 9287,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/pooling_provenance.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/production-pooling/prepare_pooling_plan.py",
+      "sha256": "bd02bbfd85ca7077d4601ab10e96f6418a97ba9a4015736ee7298e9b9b67a986",
+      "size_bytes": 2244,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/prepare_pooling_plan.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/production-pooling/run_pooling.py",
+      "sha256": "c8f015137889df87c182a189df89f8b87d13deca25f8765d4858c21b3bb01ea4",
+      "size_bytes": 10735,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/run_pooling.py"
+    },
+    {
       "path": "reports/sixteenth-experiment/reporting/README.md",
       "sha256": "5ea701f0ee32b348998e8b4f1d3b4d27ae38d80136c5865145cf472bdea74d6f",
       "size_bytes": 1808,
@@ -4447,42 +4983,6 @@
       "sha256": "307ab8fd32c1cf7c848dc242339447f57a9e6db08ac7f2b2ce0dbac1988d46b0",
       "size_bytes": 13553,
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/reporting/render_comparison.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/retrieval/README.md",
-      "sha256": "74c04804c683e890078e476480a6443f1e632045cd39b80059d0e5690398441b",
-      "size_bytes": 4541,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/README.md"
-    },
-    {
-      "path": "reports/sixteenth-experiment/retrieval/check_fixtures.py",
-      "sha256": "fd02af599013be58a7c239dfea8f867396965ecf02126e5793de1c5122f7b83d",
-      "size_bytes": 10550,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/check_fixtures.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/retrieval/prepare_probe_plan.py",
-      "sha256": "845751d59c28cdf3b3c172bc6dc83dec3ad02d2610ec449d2909085295694cc4",
-      "size_bytes": 8034,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/prepare_probe_plan.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/retrieval/probe_common.py",
-      "sha256": "3373b36536225c918ac50c63ff192d7084cc894e3865e0f9232fe52e6920a13a",
-      "size_bytes": 9630,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/probe_common.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/retrieval/range_http.py",
-      "sha256": "00f234015eaf331c6ffe0aba1f337a4dbbe33866affda1fe2a914d93c8385ee4",
-      "size_bytes": 8406,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/range_http.py"
-    },
-    {
-      "path": "reports/sixteenth-experiment/retrieval/run_probe.py",
-      "sha256": "f3241ac06e73948c4f64e7fc06873fb5ce0fa13710baea53e6cf3ba53167c102",
-      "size_bytes": 5748,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/run_probe.py"
     },
     {
       "path": "reports/sixteenth-experiment/retrieval-large/README.md",
@@ -4563,6 +5063,42 @@
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval-v2/run_probe.py"
     },
     {
+      "path": "reports/sixteenth-experiment/retrieval/README.md",
+      "sha256": "74c04804c683e890078e476480a6443f1e632045cd39b80059d0e5690398441b",
+      "size_bytes": 4541,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/README.md"
+    },
+    {
+      "path": "reports/sixteenth-experiment/retrieval/check_fixtures.py",
+      "sha256": "fd02af599013be58a7c239dfea8f867396965ecf02126e5793de1c5122f7b83d",
+      "size_bytes": 10550,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/check_fixtures.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/retrieval/prepare_probe_plan.py",
+      "sha256": "845751d59c28cdf3b3c172bc6dc83dec3ad02d2610ec449d2909085295694cc4",
+      "size_bytes": 8034,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/prepare_probe_plan.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/retrieval/probe_common.py",
+      "sha256": "3373b36536225c918ac50c63ff192d7084cc894e3865e0f9232fe52e6920a13a",
+      "size_bytes": 9630,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/probe_common.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/retrieval/range_http.py",
+      "sha256": "00f234015eaf331c6ffe0aba1f337a4dbbe33866affda1fe2a914d93c8385ee4",
+      "size_bytes": 8406,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/range_http.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/retrieval/run_probe.py",
+      "sha256": "f3241ac06e73948c4f64e7fc06873fb5ce0fa13710baea53e6cf3ba53167c102",
+      "size_bytes": 5748,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/run_probe.py"
+    },
+    {
       "path": "reports/sixteenth-experiment/review/TECHNICAL_REVIEW.md",
       "sha256": "0dd381f8efe8a1f73a9354330f24a36a0e87b93e23a8c9ed5da7dedb7a6cfbd2",
       "size_bytes": 3359,
@@ -4605,18 +5141,6 @@
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/review/production-acquisition/check_scheduler.py"
     },
     {
-      "path": "reports/sixteenth-experiment/review/production-pooling/TECHNICAL_REVIEW.md",
-      "sha256": "ed1d252c7861acc66c0738eb99cac083bab7a33369f718926dd99549872a7276",
-      "size_bytes": 2770,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/review/production-pooling/TECHNICAL_REVIEW.md"
-    },
-    {
-      "path": "reports/sixteenth-experiment/review/production-pooling/check_kernels.py",
-      "sha256": "fe261493363afc3bb6ded38917f702ce59257fbfe0b01055f5770e532a1376b6",
-      "size_bytes": 3594,
-      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/review/production-pooling/check_kernels.py"
-    },
-    {
       "path": "reports/sixteenth-experiment/review/production-pooling-v2/TECHNICAL_REVIEW.md",
       "sha256": "c85f95ce02d6528dcaef796510a3860c3178d92833244caae130fe6d6d069162",
       "size_bytes": 2182,
@@ -4627,6 +5151,18 @@
       "sha256": "aff5560e9017d2bbdda6d689d88d9e81e30a5dc20edd1f4d2328d0fb5736b1fd",
       "size_bytes": 3112,
       "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/review/production-pooling-v2/check_layout_roundtrip.py"
+    },
+    {
+      "path": "reports/sixteenth-experiment/review/production-pooling/TECHNICAL_REVIEW.md",
+      "sha256": "ed1d252c7861acc66c0738eb99cac083bab7a33369f718926dd99549872a7276",
+      "size_bytes": 2770,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/review/production-pooling/TECHNICAL_REVIEW.md"
+    },
+    {
+      "path": "reports/sixteenth-experiment/review/production-pooling/check_kernels.py",
+      "sha256": "fe261493363afc3bb6ded38917f702ce59257fbfe0b01055f5770e532a1376b6",
+      "size_bytes": 3594,
+      "source": "/workspace/herculaneum-lab/reports/sixteenth-experiment/review/production-pooling/check_kernels.py"
     },
     {
       "path": "reports/sixteenth-experiment/review/retrieval-large/TECHNICAL_REVIEW.md",
@@ -5289,36 +5825,6 @@
       "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/numeric-review/review_io.py"
     },
     {
-      "path": "reports/thirteenth-experiment/retention/RETENTION_DESIGN.md",
-      "sha256": "60d1f4f10e15e1789d0a777f97f512579937a2aab99690b5a1366e2be29f5083",
-      "size_bytes": 6549,
-      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/RETENTION_DESIGN.md"
-    },
-    {
-      "path": "reports/thirteenth-experiment/retention/analyze_retention.py",
-      "sha256": "041171817c0561532b501801402daeb7aaf430d675db9f946f02536bca4c7948",
-      "size_bytes": 8089,
-      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/analyze_retention.py"
-    },
-    {
-      "path": "reports/thirteenth-experiment/retention/prepare_retention.py",
-      "sha256": "ecdd49e062c7e3f2353c0e202ceaa4bbc6fc5d7a56132c1a4a3725877f29f747",
-      "size_bytes": 9017,
-      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/prepare_retention.py"
-    },
-    {
-      "path": "reports/thirteenth-experiment/retention/retention_common.py",
-      "sha256": "52de8e0fc69f0f45048d726776ee14525d2a4cd4bc322d7576fb129e2338ae60",
-      "size_bytes": 9842,
-      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/retention_common.py"
-    },
-    {
-      "path": "reports/thirteenth-experiment/retention/run_retention.py",
-      "sha256": "671bc799a945c097f724215a386a9f8282af5dea22953b23f1f8e9cd0ccf08af",
-      "size_bytes": 9435,
-      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/run_retention.py"
-    },
-    {
       "path": "reports/thirteenth-experiment/retention-review/README.md",
       "sha256": "9ced00e04340c506dbf46db5243cc33a9db3d82ab50044fccef64e41e37c9a5a",
       "size_bytes": 2881,
@@ -5353,6 +5859,36 @@
       "sha256": "2590c9ce7fb0b97b7155369200512ca7d26539fcfe4a70ebab398099751c787b",
       "size_bytes": 26606,
       "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention-review/verify_retention.py"
+    },
+    {
+      "path": "reports/thirteenth-experiment/retention/RETENTION_DESIGN.md",
+      "sha256": "60d1f4f10e15e1789d0a777f97f512579937a2aab99690b5a1366e2be29f5083",
+      "size_bytes": 6549,
+      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/RETENTION_DESIGN.md"
+    },
+    {
+      "path": "reports/thirteenth-experiment/retention/analyze_retention.py",
+      "sha256": "041171817c0561532b501801402daeb7aaf430d675db9f946f02536bca4c7948",
+      "size_bytes": 8089,
+      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/analyze_retention.py"
+    },
+    {
+      "path": "reports/thirteenth-experiment/retention/prepare_retention.py",
+      "sha256": "ecdd49e062c7e3f2353c0e202ceaa4bbc6fc5d7a56132c1a4a3725877f29f747",
+      "size_bytes": 9017,
+      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/prepare_retention.py"
+    },
+    {
+      "path": "reports/thirteenth-experiment/retention/retention_common.py",
+      "sha256": "52de8e0fc69f0f45048d726776ee14525d2a4cd4bc322d7576fb129e2338ae60",
+      "size_bytes": 9842,
+      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/retention_common.py"
+    },
+    {
+      "path": "reports/thirteenth-experiment/retention/run_retention.py",
+      "sha256": "671bc799a945c097f724215a386a9f8282af5dea22953b23f1f8e9cd0ccf08af",
+      "size_bytes": 9435,
+      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/run_retention.py"
     },
     {
       "path": "reports/thirteenth-experiment/review/ACCEPTANCE_CHECKLIST.md",
@@ -5409,12 +5945,6 @@
       "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/visualization/plot_frag4_retention.py"
     },
     {
-      "path": "reports/thirteenth-experiment/visualization/render/fixed-risk.csv",
-      "sha256": "cbd8099bb86818ad43ecbf9fc7dc47668124f9728a9db9368a536d839227b04d",
-      "size_bytes": 2317,
-      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/visualization/render/fixed-risk.csv"
-    },
-    {
       "path": "reports/thirteenth-experiment/visualization/render.v1/fixed-risk.csv",
       "sha256": "cbd8099bb86818ad43ecbf9fc7dc47668124f9728a9db9368a536d839227b04d",
       "size_bytes": 2317,
@@ -5425,6 +5955,12 @@
       "sha256": "664749ee465e3a4b4d955fb749042e5940a6f1e72fa8724d90d6e4b2eb73b257",
       "size_bytes": 5135,
       "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/visualization/render.v1/plot_fixed_risk.v1.py"
+    },
+    {
+      "path": "reports/thirteenth-experiment/visualization/render/fixed-risk.csv",
+      "sha256": "cbd8099bb86818ad43ecbf9fc7dc47668124f9728a9db9368a536d839227b04d",
+      "size_bytes": 2317,
+      "source": "/workspace/herculaneum-lab/reports/thirteenth-experiment/visualization/render/fixed-risk.csv"
     },
     {
       "path": "reports/thirteenth-experiment/visualization/retention-render/frag4-retention.csv",
@@ -8547,36 +9083,6 @@
       "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/fetch_text.py"
     },
     {
-      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/README.md",
-      "sha256": "5ec47484f488210c20ca1d5bf1c963b2d2da6b5a8c17dc68e148b1e806f7206c",
-      "size_bytes": 3957,
-      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/README.md"
-    },
-    {
-      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/bounded_transport.py",
-      "sha256": "367a84b6eaf251f4193274a47aad89d18a41044678475cafaf142c0f7a4a8694",
-      "size_bytes": 4741,
-      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/bounded_transport.py"
-    },
-    {
-      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/check_fixtures.py",
-      "sha256": "53468162831f3aabe1dbb2658aecc3a1de8fa4df75d290eab2de58632819b3dc",
-      "size_bytes": 9314,
-      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/check_fixtures.py"
-    },
-    {
-      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/geometry_kernels.py",
-      "sha256": "62cf2a9912a6e53c04594f45f5b37fb6d858a36e8713640ce1c6912c2d33c2ae",
-      "size_bytes": 7591,
-      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/geometry_kernels.py"
-    },
-    {
-      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/run_public_geometry.py",
-      "sha256": "5a4df4166b2e8a03eb5745182fe1f3e1c123ea4349cc5305c76f3f25175e86a4",
-      "size_bytes": 8473,
-      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/run_public_geometry.py"
-    },
-    {
       "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation-v2/README.md",
       "sha256": "37d9d475c54af8afeaa4ba1e4f6d9e754e9450047f5a24249d9bae70b98e488d",
       "size_bytes": 4618,
@@ -8611,6 +9117,36 @@
       "sha256": "5a4df4166b2e8a03eb5745182fe1f3e1c123ea4349cc5305c76f3f25175e86a4",
       "size_bytes": 8473,
       "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation-v2/run_public_geometry.py"
+    },
+    {
+      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/README.md",
+      "sha256": "5ec47484f488210c20ca1d5bf1c963b2d2da6b5a8c17dc68e148b1e806f7206c",
+      "size_bytes": 3957,
+      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/README.md"
+    },
+    {
+      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/bounded_transport.py",
+      "sha256": "367a84b6eaf251f4193274a47aad89d18a41044678475cafaf142c0f7a4a8694",
+      "size_bytes": 4741,
+      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/bounded_transport.py"
+    },
+    {
+      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/check_fixtures.py",
+      "sha256": "53468162831f3aabe1dbb2658aecc3a1de8fa4df75d290eab2de58632819b3dc",
+      "size_bytes": 9314,
+      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/check_fixtures.py"
+    },
+    {
+      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/geometry_kernels.py",
+      "sha256": "62cf2a9912a6e53c04594f45f5b37fb6d858a36e8713640ce1c6912c2d33c2ae",
+      "size_bytes": 7591,
+      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/geometry_kernels.py"
+    },
+    {
+      "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/run_public_geometry.py",
+      "sha256": "5a4df4166b2e8a03eb5745182fe1f3e1c123ea4349cc5305c76f3f25175e86a4",
+      "size_bytes": 8473,
+      "source": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation/run_public_geometry.py"
     },
     {
       "path": "reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-plan/RECONSTRUCTION_CONTRACT.md",
@@ -10216,5 +10752,5 @@
     }
   ],
   "schema_version": 1,
-  "scope": "Selected original research text/source plus phase39 figure; excludes bulk data, checkpoints, caches, startup histories and credentials"
+  "scope": "Selected original research source/evidence and figures through fortieth-experiment; excludes bulk arrays/checkpoints and full retention manifests"
 }
