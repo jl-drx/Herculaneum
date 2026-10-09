@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETED_REFERENCE_SEARCH_CT_NOT_ADMITTED_PROFILOMETRY_LEAD",
+  "created_at_utc": "2026-10-09T15:49:03.600731+00:00",
+  "reviewer": "root",
+  "report_reviewed": true,
+  "figures_reviewed": 0,
+  "decision": "Keep CT reference unadmitted; recommend bounded profilometry file/reference QC using relative degradation factors; prepare but do not send the specific Paris4 request",
+  "conclusion": "Two CT targets did not yield an admitted reference packet in the bounded search. Official profilometry metadata provides a concrete supporting dataset lead, but its physical sampling conflicts with the paper and its image/reference/split QC is unperformed.",
+  "report": {
+    "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/RESULTS.md",
+    "sha256": "0d0ea800be0a94973dd353b25d83ee33798e7c04a8f4638d134a88cb19f7e41d",
+    "size_bytes": 9055
+  },
+  "verification": {
+    "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/SOURCE_VERIFICATION.json",
+    "sha256": "c26ca0a779c8af246524d1c7e42c5e951ebd67a27b9ecaa7dcfdb0c64a122fd7",
+    "size_bytes": 1546
+  },
+  "cautions": [
+    "Finite search does not prove global public unavailability",
+    "Original ink/0500p2 exists and its contents remain uninspected",
+    "118-plane public CT surface not established equivalent to the paper 65-layer optical composite",
+    "Profilometry is a different observation modality with no verified CT mapping",
+    "Sampling discrepancy unresolved; no physical resolution cutoff",
+    "No image QC, training, GPU use or external outreach occurred"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "canvas_size": [
+    15060,
+    26440
+  ],
+  "chunk_size": [
+    118,
+    128,
+    128
+  ],
+  "multiscales": [
+    {
+      "axes": [
+        {
+          "name": "z",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "y",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "x",
+          "type": "space",
+          "unit": "micrometer"
+        }
+      ],
+      "datasets": [
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.215,
+                2.215,
+                2.215
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "0"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.215,
+                4.43,
+                4.43
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "1"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.215,
+                8.86,
+                8.86
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "2"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.215,
+                17.72,
+                17.72
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "3"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.215,
+                35.44,
+                35.44
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "4"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.215,
+                70.88,
+                70.88
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "5"
+        }
+      ],
+      "metadata": {
+        "downsampling_method": "mean"
+      },
+      "name": "render",
+      "version": "0.4"
+    }
+  ],
+  "note_axes_order": "ZYX (slice, row, col)",
+  "num_slices": 118,
+  "slice_step": 1.0,
+  "source_group": 0,
+  "source_zarr": "/volumes/esrf/20250506/2.215um_HEL_TA_0.4m_110keV_scroll-fragment_0500P2_TA_0001_masked.zarr/"
+}

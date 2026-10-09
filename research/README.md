@@ -1,8 +1,10 @@
 # Plinius research: continue on another machine
 
-This directory preserves the research history through experiment 42. Start with the [experiment index](EXPERIMENTS.md), [latest result](lab/reports/fortysecond-experiment/RESULTS.md), [paired CT review packet](lab/reports/fortysecond-experiment/REVIEW_PACKET.md), and [next study proposal](lab/reports/fortysecond-experiment/NEXT_STUDY_DRAFT.md).
+This directory preserves the research history through experiment 43. Start with the [experiment index](EXPERIMENTS.md), [latest reference findings](lab/reports/fortythird-experiment/RESULTS.md), [paired CT review packet](lab/reports/fortysecond-experiment/REVIEW_PACKET.md), and [next study proposal](lab/reports/fortythird-experiment/NEXT_STUDY_DRAFT.md).
 
 Experiment 42 acquired six pairs of Paris4 CT blocks using 192 MiB of CT payload. Four local correspondence screens failed and two regions lacked the full frozen diagnostic window; no independent ink-positive/non-ink-papyrus reference was established. No learning arm was admitted or run. The next task is a documented reference-first native/synthetic positive control, with real coarse learning conditional on verified correspondence. The paired-learning hypothesis remains open. Experiment 41's supervision control remains a tradeoff with no advancement. Seed42 remains the baseline and GPU work remains deferred. All six new regions are reference-review exposed; the existing eight evaluation regions remain reused development. No reading or translation is claimed.
+
+Experiment 43 completed a bounded search for Paris4/PHerc500P2 reference packets; neither CT reference qualified. It found an official profilometry release with paired-file metadata for 14 regions, plus an explicit unresolved sampling discrepancy: 0.68793625 µm/pixel in the release versus 0.34 µm in the paper. Actual image/reference QC is still needed. The proposed supporting CPU control uses relative degradation factors and makes no CT or physical-resolution-cutoff claim. A [specific Paris4 reference request](lab/reports/fortythird-experiment/REFERENCE_REQUEST_DRAFT.md) is prepared but unsent. No media or model execution occurred in phase43.
 
 ## Get the research branch
 
@@ -10,20 +12,22 @@ From an existing clone with access to this private repository:
 
 ```bash
 git fetch origin
-git switch --track origin/codex/plinius-paired-acquisition-admission
+git switch --track origin/codex/plinius-reference-admission
 ```
 
-For an existing local branch, switch to it and use `git pull --ff-only`. This branch includes the preceding research history, experiments 40–42, and the tested experiment-39 replay fixture. Check out this branch to obtain the complete selected export regardless of pull-request merge status.
+For an existing local branch, switch to it and use `git pull --ff-only`. This branch includes the preceding research history, experiments 40–43, and the tested experiment-39 replay fixture. Check out this branch to obtain the complete selected export regardless of pull-request merge status.
 
 ## What is portable
 
-`lab/` contains byte-identical selected scripts, protocols, reports, configuration records, source notices and the research register from the cloud lab. [GIT_EXPORT_MANIFEST.json](GIT_EXPORT_MANIFEST.json) identifies every exported original file. All 42 experiment reports are included. This is an archival source/evidence export, not an installation of every old experiment: historical scripts and pins retain original absolute paths and may require missing inputs, packages and checkpoints. Do not run their write-once workers against sealed evidence directories.
+`lab/` contains byte-identical selected scripts, protocols, reports, configuration records, source notices and the research register from the cloud lab. [GIT_EXPORT_MANIFEST.json](GIT_EXPORT_MANIFEST.json) identifies every exported original file. All 43 phase reports are included. This is an archival source/evidence export, not an installation of every old experiment: historical scripts and pins retain original absolute paths and may require missing inputs, packages and checkpoints. Do not run their write-once workers against sealed evidence directories.
 
 Experiment 39 has a 12 MB replay capsule, described by [CAPSULE.json](CAPSULE.json). It contains the 24 retained score maps, labels/masks, frozen comparison code and reference evidence needed to reproduce experiment 39. It has no scan volumes or model weights. This single bounded fixture is committed under `research/replay/` in the private research branch. Release-asset upload was rejected by this environment's authentication; the empty draft release was removed. R2 remains the intended store for larger outputs and checkpoints.
 
 Experiments 40–41's arrays, training logits and model checkpoints are **not** in the replay capsule or Git. Their versioned plans and receipts identify the retained inputs and outputs; reproducing training requires those separate artifacts.
 
 Experiment 42 includes six compact scientific review figures and acquisition/verification code and receipts. Its raw chunks, assembled volumes, score cubes, view arrays and original large figures remain local. The selected export is not a standalone replay of the CT diagnostic.
+
+Experiment 43 includes the source-search receipts, target catalog extracts, selected byte-identical release metadata, findings and an unsent request. No profilometry image data was acquired or bundled. Unexported raw responses remain identified by the request ledger; no complete remote source-audit replay is claimed.
 
 The full approximately 10.1 GB manifest-covered evidence chain is still in the original cloud workspace. It has **not** all been transferred to GitHub or R2. No bulk-backup or fresh-machine restoration claim follows from this export. Future training may need a separate transfer of retained inputs/checkpoints or verified reacquisition. R2 worker credential delivery remains unverified; do not paste credentials into chat or commit them.
 

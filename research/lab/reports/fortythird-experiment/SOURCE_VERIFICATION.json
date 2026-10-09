@@ -1,0 +1,43 @@
+{
+  "CT_chunks_checked": 0,
+  "GO": {
+    "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/GO.json",
+    "sha256": "ba9476b95e5e5d42d0d3643c6b94da0d6a4e3e54080cb58d44eae22fd01ea0b2",
+    "size_bytes": 2093
+  },
+  "Git_blob_checks": [
+    {
+      "git_blob_sha1": "ad749b1d713c68229be08b43bb0c777af1e87c44",
+      "path": "vesuvius/docs/guided_dinovol.md"
+    },
+    {
+      "git_blob_sha1": "75503b2a9d14467b1176a95c9709403d21d518cb",
+      "path": "vesuvius/src/vesuvius/models/configuration/single_task/ps128_guided_dinovol_ink.yaml"
+    },
+    {
+      "git_blob_sha1": "0c435d66114f6dcb5ecff6bf46d8796bae81d29f",
+      "path": "scrollprize.org/docs/02_data_fragments.md"
+    }
+  ],
+  "HF_text_blob_checks": 2,
+  "HTTP_retries": 0,
+  "analyzer": {
+    "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/analyze_references.py",
+    "sha256": "9d6807f4709ad0be93e5092e89d2f18c8c1fd16e26e3162fb9c85b72655e5baf",
+    "size_bytes": 9025
+  },
+  "bytes": 429661,
+  "complete_S3_prefix_pages": 9,
+  "created_at_utc": "2026-10-09T15:45:46.041344+00:00",
+  "derived_sampling_factors_checked": 9,
+  "exact_catalog_target_extractions": 2,
+  "failed_requests": 0,
+  "image_bodies_checked": 0,
+  "profilometry_manifest_rows_checked": 14,
+  "reference_truth_established": false,
+  "requests": 24,
+  "scope": "Metadata identity and arithmetic verification, not physical calibration, alignment, pixel-label QC or learning",
+  "seconds_since_first_request": 533.892961,
+  "status": "PASS",
+  "successful_complete_responses": 24
+}

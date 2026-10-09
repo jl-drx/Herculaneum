@@ -1,0 +1,3 @@
+# Post-run metadata audit correction
+
+The first metadata audit stopped before writing FINDINGS or SOURCE_VERIFICATION at its proposed pixel-center extent check: absolute error <=0.0001µm. The reported extents are not exact rounded products of the declared sampling. Preserve analyze_references-v1.py as the failed audit version. The corrected audit reports every signed residual and the count exceeding that check instead of replacing the tolerance. The maximum residual is only0.000175µm, far below a pixel; this overly strict arithmetic check is separate from the substantial paper/metadata sampling discrepancy. It supplies no instrument-calibration evidence. No network request, image read or scientific model run was repeated.
