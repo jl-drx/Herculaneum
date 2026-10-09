@@ -10,6 +10,11 @@ P=Path(__file__).resolve().parent;W=P/'work';OLD=P.parent/'fortyfifth-experiment
 BASE='https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr'
 cache=next(p for p in (W/'renderer-cache').glob('202505*.zarr-*') if p.is_dir())
 version=1+max([0]+[int(p.stem.rsplit('v',1)[1]) for p in W.glob('cached-transport-v*.jsonl')])
+observed_absent=set()
+for old in W.glob('cached-transport*.jsonl'):
+    for line in old.read_text().splitlines():
+        event=json.loads(line)
+        if event.get('status')==404:observed_absent.add(event['key'])
 ledger=(W/f'cached-transport-v{version}.jsonl').open('x');guard=threading.Lock();locks={};fatal=[]
 def record(v):
     with guard:ledger.write(json.dumps(v)+'\n');ledger.flush()
@@ -18,9 +23,12 @@ class Handler(BaseHTTPRequestHandler):
     def do_HEAD(self):self.do_GET()
     def do_GET(self):
         key=self.path.lstrip('/')
-        optional=key in ['.zmetadata','zarr.json'] or bool(re.fullmatch(r'[0-5]/(?:zarr.json|\.zattrs)',key))
+        optional=key in ['.zmetadata','zarr.json','meta.json','metadata.json'] or bool(re.fullmatch(r'[0-5]/(?:zarr.json|\.zattrs)',key))
         if not (optional or key in ['.zgroup','.zattrs'] or re.fullmatch(r'[0-5]/\.z(?:attrs|array)',key) or re.fullmatch(r'0/\d+/\d+/\d+',key)):
             self.send_error(400);fatal.append(key);return
+        if optional and key in observed_absent:
+            record(dict(key=key,status=404,source='previous observed optional-metadata404'))
+            self.send_error(404);return
         with guard:lock=locks.setdefault(key,threading.Lock())
         with lock:
             dest=cache/key

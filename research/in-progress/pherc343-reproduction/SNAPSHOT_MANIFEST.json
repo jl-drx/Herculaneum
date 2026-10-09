@@ -1,6 +1,6 @@
 {
   "scope": "Selected in-progress phase46 snapshot; does not seal mutable cloud work, complete the experiment, or back up bulk data",
-  "created_at_utc": "2026-10-09T19:01:13.884024+00:00",
+  "created_at_utc": "2026-10-09T19:10:06.632981+00:00",
   "files": [
     {
       "path": "CACHED_RENDER_EXECUTION.json",
@@ -21,10 +21,28 @@
       "sha256": "9b4da524025bb3f8e64648fa4ab2f0857df8741dd9357bd904cd6891bae1a0fd"
     },
     {
+      "path": "CACHED_RENDER_EXECUTION_V4.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/CACHED_RENDER_EXECUTION_V4.json",
+      "bytes": 1120,
+      "sha256": "6d487de2dbb0be7840b862792210aa39aed882a920f1cabb9d4602cb32212d17"
+    },
+    {
+      "path": "CACHED_RENDER_EXECUTION_V5.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/CACHED_RENDER_EXECUTION_V5.json",
+      "bytes": 1118,
+      "sha256": "e227e753cf0aa855cbc3ce1288ca15131c140915e654dd881f4800dcb90849db"
+    },
+    {
       "path": "FIXED_DISPLAY_STATS.json",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/FIXED_DISPLAY_STATS.json",
       "bytes": 2538,
       "sha256": "bbf3c7751bf9e7c54383ac293a41c5e6b302dd49a8374fce29e46a80e0e3d809"
+    },
+    {
+      "path": "FRESH_CLIENT_PROBE.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/FRESH_CLIENT_PROBE.json",
+      "bytes": 143,
+      "sha256": "cb59f412f832fc64c82e2efd749f37fffcfec32d1a28cb965e66ef92f560ce0a"
     },
     {
       "path": "HECATE_IDENTITY.json",
@@ -101,8 +119,8 @@
     {
       "path": "STATUS.md",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/STATUS.md",
-      "bytes": 6912,
-      "sha256": "fa9cfe2758927261b465c1a9ec8565b5d56d74a5808e9288e99e81cf3e231975"
+      "bytes": 7592,
+      "sha256": "dd295135709ca35fd4d4465e45e7983f04e53db0987d5c49319a9abaea910af3"
     },
     {
       "path": "TRANSPORT_STOP.json",
@@ -137,14 +155,14 @@
     {
       "path": "render_cached_transport.py",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/render_cached_transport.py",
-      "bytes": 4828,
-      "sha256": "c25903f2d4d72f92251f4e759b32de0ad6053ecbcfb214b8e314039c4bf61a19"
+      "bytes": 5252,
+      "sha256": "93448f943c3de4377da84593e9e15bd51d58fee6c882f7772217aee2ed22a20a"
     },
     {
       "path": "render_surface.py",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/render_surface.py",
-      "bytes": 2756,
-      "sha256": "be025bc67e5af00fc680c5531b61b7b7060d79fe74c045fafa3795b629a081f6"
+      "bytes": 2818,
+      "sha256": "f0000c018d7cb2bb7105b1e7dfda60006aeaae047cc0b0ca63108f5214ca9b85"
     },
     {
       "path": "requirements-runtime.lock",
@@ -219,6 +237,18 @@
       "sha256": "9ea7694a1ae2a1171f1093b7d5104d12d343b8786c49021d1cda40dee268e9f4"
     },
     {
+      "path": "work/cached-transport-v4.jsonl",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/cached-transport-v4.jsonl",
+      "bytes": 6859,
+      "sha256": "29b2bf0fe9d99c7387ecd90d1fcffeef59ccc85407761559530ab02137fb69bf"
+    },
+    {
+      "path": "work/cached-transport-v5.jsonl",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/cached-transport-v5.jsonl",
+      "bytes": 24388,
+      "sha256": "a57f59c7babf9b4c884dd2ec632789972ff4d3696b4959e8ce4f2f26a62b13fb"
+    },
+    {
       "path": "work/cached-transport.jsonl",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/cached-transport.jsonl",
       "bytes": 512,
@@ -285,6 +315,18 @@
       "sha256": "6902768c2637819497ca57fbd1b2a1d2b0e77af076646ef99728521c02f8f9d8"
     },
     {
+      "path": "work/render-cached-controller-v4.log",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render-cached-controller-v4.log",
+      "bytes": 1253,
+      "sha256": "52428fdb4aefce6e14a59bcbcf615b1059e5eb84e36ff32a38d8494b53c4b287"
+    },
+    {
+      "path": "work/render-cached-controller-v5.log",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render-cached-controller-v5.log",
+      "bytes": 1251,
+      "sha256": "3810b7a3724517f0c7eb102b687f6348df6064f029419b8a4e7757d307958866"
+    },
+    {
       "path": "work/render-cached-controller.log",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render-cached-controller.log",
       "bytes": 1254,
@@ -301,6 +343,18 @@
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render-cached-v3.log",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/render-cached-v4.log",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render-cached-v4.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/render-cached-v5.log",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render-cached-v5.log",
+      "bytes": 665,
+      "sha256": "6845f2ca8f94bd2db3be52224d21889d0252123f6ece2dc556ec29130d15bb4d"
     },
     {
       "path": "work/render-cached.log",
@@ -405,6 +459,6 @@
       "sha256": "d38b14c3ef9008d830831470a6fdfdc10868bdf46f9d9d075bc3d562daefc4e8"
     }
   ],
-  "file_count": 67,
-  "bytes": 1810568
+  "file_count": 76,
+  "bytes": 1848531
 }

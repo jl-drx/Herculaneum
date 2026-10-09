@@ -7,7 +7,7 @@ NAME='concat_w047-w048_R5B2_z9500-11000'
 cache=next(p for p in (W/'renderer-cache').glob('*.zarr-*') if p.is_dir())
 assert cache.is_dir()
 env=dict(os.environ,QT_QPA_PLATFORM='offscreen',VC3D_CONFIG_DIR=str(W/'vc3d-config'),OMP_NUM_THREADS='4')
-cmd=[str(W/'squashfs-root/AppRun'),'vc_render_tifxyz','--volume',str(W/'ct-cache'),'--remote-url',BASE,'--group-idx','0','--scale','1','--segmentation',str(OLD/'ph343-mesh-replay'/f'{NAME}.tifxyz'),'--num-slices','66','--slice-step','1','--cache-gb','2','--zarr-output',str(W/f'{NAME}_66.zarr'),'--resume']
+cmd=[str(W/'squashfs-root/AppRun'),'vc_render_tifxyz','--volume',str(W/'ct-cache'),'--remote-url',BASE,'--group-idx','0','--scale','1','--segmentation',str(OLD/'ph343-mesh-replay'/f'{NAME}.tifxyz'),'--num-slices','66','--slice-step','1','--cache-gb','2','--zarr-output',str(W/f'{NAME}_66.zarr'),'--resume','--timeout','15']
 events=json.loads((P/'RENDER_EXECUTION.json').read_text()) if (P/'RENDER_EXECUTION.json').exists() else []
 start=max(int(p.stem.removeprefix('render-v')) for p in W.glob('render-v*.log'))+1
 for attempt in range(start,start+4):
@@ -18,8 +18,9 @@ for attempt in range(start,start+4):
         t=time.monotonic();r=requests.get(BASE+'/'+key,timeout=90);r.raise_for_status()
         if re.fullmatch(r'0/\d+/\d+/\d+',key):
             assert len(r.content)==128**3
-            dest=cache/key;assert not dest.exists();dest.parent.mkdir(parents=True,exist_ok=True)
-            dest.with_suffix('.partial').write_bytes(r.content);dest.with_suffix('.partial').rename(dest)
+            dest=cache/key;dest.parent.mkdir(parents=True,exist_ok=True)
+            if dest.exists():assert dest.read_bytes()==r.content
+            else:dest.with_suffix('.partial').write_bytes(r.content);dest.with_suffix('.partial').rename(dest)
         else:
             assert r.json()==json.loads((cache/key).read_text())
         events.append(dict(repaired_key=key,status=r.status_code,bytes=len(r.content),sha256=hashlib.sha256(r.content).hexdigest(),seconds=time.monotonic()-t))
