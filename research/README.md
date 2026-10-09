@@ -13,7 +13,7 @@ git fetch origin
 git switch --track origin/codex/plinius-research-history
 ```
 
-For an existing local branch, switch to it and use `git pull --ff-only`. This branch includes the infrastructure commits from draft PR #1. The research PR is based on that branch so the research additions can be reviewed separately. Nothing has been merged into `main` by this task.
+For an existing local branch, switch to it and use `git pull --ff-only`. This branch includes the infrastructure now merged into `main`. The complete research follow-up targets `main` and contains the archived studies and tested replay fixture. Check out this research branch to obtain the complete state regardless of the follow-up's merge status.
 
 ## What is portable
 
