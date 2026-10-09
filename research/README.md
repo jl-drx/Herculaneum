@@ -1,8 +1,8 @@
 # Plinius research: continue on another machine
 
-This directory preserves the research history through experiment 41. Start with the [experiment index](EXPERIMENTS.md), [latest result](lab/reports/fortyfirst-experiment/RESULTS.md), [paired-acquisition assessment](lab/reports/fortyfirst-experiment/PAIRED_ACQUISITION_REVIEW.md), and [next study proposal](lab/reports/fortyfirst-experiment/NEXT_STUDY_DRAFT.md).
+This directory preserves the research history through experiment 42. Start with the [experiment index](EXPERIMENTS.md), [latest result](lab/reports/fortysecond-experiment/RESULTS.md), [paired CT review packet](lab/reports/fortysecond-experiment/REVIEW_PACKET.md), and [next study proposal](lab/reports/fortysecond-experiment/NEXT_STUDY_DRAFT.md).
 
-Experiment 41 removed only the new crop's supervised BCE gradient from the fixed 512-update phase40 recipe, preserving its inputs, original-source weighting and joint teacher KL. Paris AP fell from 0.317591 to 0.316034; worst AP retention improved while worst AUROC retention worsened. The prespecified mechanism result is a tradeoff, and advancement still fails. Seed42 remains the baseline and GPU work remains deferred. The main proposed direction is a native/synthetic-coarse/real-coarse acquisition comparison. Public Paris4 pair metadata, transforms and paired meshes are available; local registration and independent reference labels remain unverified. No paired learning has run. All current evaluation regions are reused development; no reading or translation is claimed.
+Experiment 42 acquired six pairs of Paris4 CT blocks using 192 MiB of CT payload. Four local correspondence screens failed and two regions lacked the full frozen diagnostic window; no independent ink-positive/non-ink-papyrus reference was established. No learning arm was admitted or run. The next task is a documented reference-first native/synthetic positive control, with real coarse learning conditional on verified correspondence. The paired-learning hypothesis remains open. Experiment 41's supervision control remains a tradeoff with no advancement. Seed42 remains the baseline and GPU work remains deferred. All six new regions are reference-review exposed; the existing eight evaluation regions remain reused development. No reading or translation is claimed.
 
 ## Get the research branch
 
@@ -10,20 +10,22 @@ From an existing clone with access to this private repository:
 
 ```bash
 git fetch origin
-git switch --track origin/codex/plinius-supervision-control
+git switch --track origin/codex/plinius-paired-acquisition-admission
 ```
 
-For an existing local branch, switch to it and use `git pull --ff-only`. This branch includes the preceding research history, experiments 40–41, and the tested experiment-39 replay fixture. Check out this branch to obtain the complete state regardless of pull-request merge status.
+For an existing local branch, switch to it and use `git pull --ff-only`. This branch includes the preceding research history, experiments 40–42, and the tested experiment-39 replay fixture. Check out this branch to obtain the complete selected export regardless of pull-request merge status.
 
 ## What is portable
 
-`lab/` contains byte-identical selected scripts, protocols, reports, configuration records, source notices and the research register from the cloud lab. [GIT_EXPORT_MANIFEST.json](GIT_EXPORT_MANIFEST.json) identifies every exported original file. All 41 experiment reports are included. This is an archival source/evidence export, not an installation of every old experiment: historical scripts and pins retain original absolute paths and may require missing inputs, packages and checkpoints. Do not run their write-once workers against sealed evidence directories.
+`lab/` contains byte-identical selected scripts, protocols, reports, configuration records, source notices and the research register from the cloud lab. [GIT_EXPORT_MANIFEST.json](GIT_EXPORT_MANIFEST.json) identifies every exported original file. All 42 experiment reports are included. This is an archival source/evidence export, not an installation of every old experiment: historical scripts and pins retain original absolute paths and may require missing inputs, packages and checkpoints. Do not run their write-once workers against sealed evidence directories.
 
 Experiment 39 has a 12 MB replay capsule, described by [CAPSULE.json](CAPSULE.json). It contains the 24 retained score maps, labels/masks, frozen comparison code and reference evidence needed to reproduce experiment 39. It has no scan volumes or model weights. This single bounded fixture is committed under `research/replay/` in the private research branch. Release-asset upload was rejected by this environment's authentication; the empty draft release was removed. R2 remains the intended store for larger outputs and checkpoints.
 
 Experiments 40–41's arrays, training logits and model checkpoints are **not** in the replay capsule or Git. Their versioned plans and receipts identify the retained inputs and outputs; reproducing training requires those separate artifacts.
 
-The full approximately 9.7 GB manifest-covered evidence chain is still in the original cloud workspace. It has **not** all been transferred to GitHub or R2. No bulk-backup or fresh-machine restoration claim follows from this export. Future training may need a separate transfer of retained inputs/checkpoints or verified reacquisition. R2 worker credential delivery remains unverified; do not paste credentials into chat or commit them.
+Experiment 42 includes six compact scientific review figures and acquisition/verification code and receipts. Its raw chunks, assembled volumes, score cubes, view arrays and original large figures remain local. The selected export is not a standalone replay of the CT diagnostic.
+
+The full approximately 10.1 GB manifest-covered evidence chain is still in the original cloud workspace. It has **not** all been transferred to GitHub or R2. No bulk-backup or fresh-machine restoration claim follows from this export. Future training may need a separate transfer of retained inputs/checkpoints or verified reacquisition. R2 worker credential delivery remains unverified; do not paste credentials into chat or commit them.
 
 ## Reproduce experiment 39
 

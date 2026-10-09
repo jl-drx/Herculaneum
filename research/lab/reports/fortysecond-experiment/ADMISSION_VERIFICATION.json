@@ -1,0 +1,30 @@
+{
+  "CT_chunks_byte_compared": 96,
+  "assembled_voxels_compared": 201326592,
+  "correlation_screen_rows_reproduced": [
+    "pair01",
+    "pair02",
+    "pair04",
+    "pair05"
+  ],
+  "coverage_rejections_reproduced": [
+    "pair03",
+    "pair06"
+  ],
+  "created_at_utc": "2026-10-09T15:13:23.887619+00:00",
+  "direct_Pearson_values_checked": 100,
+  "disjoint_blocks": 12,
+  "geometry_responses_verified": 18,
+  "maximum_direct_Pearson_error": 5.551115123125783e-16,
+  "new_model_calls": 0,
+  "pinned_inputs_verified": 77,
+  "reference_labels_created": 0,
+  "scope": "Independent implementation of audit arithmetic; same assistant and scientific libraries, not independent physical or expert validation",
+  "score_cubes_checked": 20,
+  "status": "PASS",
+  "verifier": {
+    "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/verify_admission.py",
+    "sha256": "922179a079fdb973f8df8f15ceef389d8fba95ac8ac849c3b49e04da66947f3a",
+    "size_bytes": 8439
+  }
+}

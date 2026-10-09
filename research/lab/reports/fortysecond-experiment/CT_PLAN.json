@@ -1,0 +1,1350 @@
+{
+  "admission_deadline_utc": "2026-10-09T15:41:01.866971+00:00",
+  "blocks": [
+    {
+      "center_zyx": [
+        12316.087890625,
+        3603.400390625,
+        2894.4384765625
+      ],
+      "chunk_ids": [
+        "old-95-27-22",
+        "old-95-27-23",
+        "old-95-28-22",
+        "old-95-28-23",
+        "old-96-27-22",
+        "old-96-27-23",
+        "old-96-28-22",
+        "old-96-28-23"
+      ],
+      "id": "pair01-old",
+      "nominal_role": "training",
+      "pair": "pair01",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        12160,
+        3456,
+        2816
+      ],
+      "volume": "old"
+    },
+    {
+      "center_zyx": [
+        69478.06096500624,
+        19560.718899016778,
+        18834.88304115209
+      ],
+      "chunk_ids": [
+        "new-542-152-146",
+        "new-542-152-147",
+        "new-542-153-146",
+        "new-542-153-147",
+        "new-543-152-146",
+        "new-543-152-147",
+        "new-543-153-146",
+        "new-543-153-147"
+      ],
+      "id": "pair01-new",
+      "nominal_role": "training",
+      "pair": "pair01",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        69376,
+        19456,
+        18688
+      ],
+      "volume": "new"
+    },
+    {
+      "center_zyx": [
+        12258.9345703125,
+        3837.222900390625,
+        3221.849609375
+      ],
+      "chunk_ids": [
+        "old-95-29-24",
+        "old-95-29-25",
+        "old-95-30-24",
+        "old-95-30-25",
+        "old-96-29-24",
+        "old-96-29-25",
+        "old-96-30-24",
+        "old-96-30-25"
+      ],
+      "id": "pair02-old",
+      "nominal_role": "training",
+      "pair": "pair02",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        12160,
+        3712,
+        3072
+      ],
+      "volume": "old"
+    },
+    {
+      "center_zyx": [
+        69289.30259564437,
+        19476.696406504903,
+        17528.12489338833
+      ],
+      "chunk_ids": [
+        "new-540-151-136",
+        "new-540-151-137",
+        "new-540-152-136",
+        "new-540-152-137",
+        "new-541-151-136",
+        "new-541-151-137",
+        "new-541-152-136",
+        "new-541-152-137"
+      ],
+      "id": "pair02-new",
+      "nominal_role": "training",
+      "pair": "pair02",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        69120,
+        19328,
+        17408
+      ],
+      "volume": "new"
+    },
+    {
+      "center_zyx": [
+        9530.9365234375,
+        2951.16552734375,
+        3294.625
+      ],
+      "chunk_ids": [
+        "old-73-22-25",
+        "old-73-22-26",
+        "old-73-23-25",
+        "old-73-23-26",
+        "old-74-22-25",
+        "old-74-22-26",
+        "old-74-23-25",
+        "old-74-23-26"
+      ],
+      "id": "pair03-old",
+      "nominal_role": "selection",
+      "pair": "pair03",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        9344,
+        2816,
+        3200
+      ],
+      "volume": "old"
+    },
+    {
+      "center_zyx": [
+        60432.75373842291,
+        16961.223006894743,
+        19186.53133774706
+      ],
+      "chunk_ids": [
+        "new-471-132-149",
+        "new-471-132-150",
+        "new-471-133-149",
+        "new-471-133-150",
+        "new-472-132-149",
+        "new-472-132-150",
+        "new-472-133-149",
+        "new-472-133-150"
+      ],
+      "id": "pair03-new",
+      "nominal_role": "selection",
+      "pair": "pair03",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        60288,
+        16896,
+        19072
+      ],
+      "volume": "new"
+    },
+    {
+      "center_zyx": [
+        9529.4228515625,
+        3236.220703125,
+        3597.963134765625
+      ],
+      "chunk_ids": [
+        "old-73-24-27",
+        "old-73-24-28",
+        "old-73-25-27",
+        "old-73-25-28",
+        "old-74-24-27",
+        "old-74-24-28",
+        "old-74-25-27",
+        "old-74-25-28"
+      ],
+      "id": "pair04-old",
+      "nominal_role": "selection",
+      "pair": "pair04",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        9344,
+        3072,
+        3456
+      ],
+      "volume": "old"
+    },
+    {
+      "center_zyx": [
+        60422.67552192918,
+        17058.623259173477,
+        17835.003729768498
+      ],
+      "chunk_ids": [
+        "new-471-132-138",
+        "new-471-132-139",
+        "new-471-133-138",
+        "new-471-133-139",
+        "new-472-132-138",
+        "new-472-132-139",
+        "new-472-133-138",
+        "new-472-133-139"
+      ],
+      "id": "pair04-new",
+      "nominal_role": "selection",
+      "pair": "pair04",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        60288,
+        16896,
+        17664
+      ],
+      "volume": "new"
+    },
+    {
+      "center_zyx": [
+        6786.330078125,
+        3097.53173828125,
+        3634.904296875
+      ],
+      "chunk_ids": [
+        "old-52-23-27",
+        "old-52-23-28",
+        "old-52-24-27",
+        "old-52-24-28",
+        "old-53-23-27",
+        "old-53-23-28",
+        "old-53-24-27",
+        "old-53-24-28"
+      ],
+      "id": "pair05-old",
+      "nominal_role": "comparison",
+      "pair": "pair05",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        6656,
+        2944,
+        3456
+      ],
+      "volume": "old"
+    },
+    {
+      "center_zyx": [
+        51483.91920904399,
+        16503.724492712732,
+        18050.70865982603
+      ],
+      "chunk_ids": [
+        "new-401-128-140",
+        "new-401-128-141",
+        "new-401-129-140",
+        "new-401-129-141",
+        "new-402-128-140",
+        "new-402-128-141",
+        "new-402-129-140",
+        "new-402-129-141"
+      ],
+      "id": "pair05-new",
+      "nominal_role": "comparison",
+      "pair": "pair05",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        51328,
+        16384,
+        17920
+      ],
+      "volume": "new"
+    },
+    {
+      "center_zyx": [
+        6869.5576171875,
+        3266.22607421875,
+        3990.412353515625
+      ],
+      "chunk_ids": [
+        "old-53-25-30",
+        "old-53-25-31",
+        "old-53-26-30",
+        "old-53-26-31",
+        "old-54-25-30",
+        "old-54-25-31",
+        "old-54-26-30",
+        "old-54-26-31"
+      ],
+      "id": "pair06-old",
+      "nominal_role": "comparison",
+      "pair": "pair06",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        6784,
+        3200,
+        3840
+      ],
+      "volume": "old"
+    },
+    {
+      "center_zyx": [
+        51756.42141165359,
+        16204.125428283001,
+        16805.307434404436
+      ],
+      "chunk_ids": [
+        "new-403-126-130",
+        "new-403-126-131",
+        "new-403-127-130",
+        "new-403-127-131",
+        "new-404-126-130",
+        "new-404-126-131",
+        "new-404-127-130",
+        "new-404-127-131"
+      ],
+      "id": "pair06-new",
+      "nominal_role": "comparison",
+      "pair": "pair06",
+      "shape": [
+        256,
+        256,
+        256
+      ],
+      "start_zyx": [
+        51584,
+        16128,
+        16640
+      ],
+      "volume": "new"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "new-401-128-140",
+      "index_zyx": [
+        401,
+        128,
+        140
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/401/128/140",
+      "volume": "new"
+    },
+    {
+      "id": "new-401-128-141",
+      "index_zyx": [
+        401,
+        128,
+        141
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/401/128/141",
+      "volume": "new"
+    },
+    {
+      "id": "new-401-129-140",
+      "index_zyx": [
+        401,
+        129,
+        140
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/401/129/140",
+      "volume": "new"
+    },
+    {
+      "id": "new-401-129-141",
+      "index_zyx": [
+        401,
+        129,
+        141
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/401/129/141",
+      "volume": "new"
+    },
+    {
+      "id": "new-402-128-140",
+      "index_zyx": [
+        402,
+        128,
+        140
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/402/128/140",
+      "volume": "new"
+    },
+    {
+      "id": "new-402-128-141",
+      "index_zyx": [
+        402,
+        128,
+        141
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/402/128/141",
+      "volume": "new"
+    },
+    {
+      "id": "new-402-129-140",
+      "index_zyx": [
+        402,
+        129,
+        140
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/402/129/140",
+      "volume": "new"
+    },
+    {
+      "id": "new-402-129-141",
+      "index_zyx": [
+        402,
+        129,
+        141
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/402/129/141",
+      "volume": "new"
+    },
+    {
+      "id": "new-403-126-130",
+      "index_zyx": [
+        403,
+        126,
+        130
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/403/126/130",
+      "volume": "new"
+    },
+    {
+      "id": "new-403-126-131",
+      "index_zyx": [
+        403,
+        126,
+        131
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/403/126/131",
+      "volume": "new"
+    },
+    {
+      "id": "new-403-127-130",
+      "index_zyx": [
+        403,
+        127,
+        130
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/403/127/130",
+      "volume": "new"
+    },
+    {
+      "id": "new-403-127-131",
+      "index_zyx": [
+        403,
+        127,
+        131
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/403/127/131",
+      "volume": "new"
+    },
+    {
+      "id": "new-404-126-130",
+      "index_zyx": [
+        404,
+        126,
+        130
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/404/126/130",
+      "volume": "new"
+    },
+    {
+      "id": "new-404-126-131",
+      "index_zyx": [
+        404,
+        126,
+        131
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/404/126/131",
+      "volume": "new"
+    },
+    {
+      "id": "new-404-127-130",
+      "index_zyx": [
+        404,
+        127,
+        130
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/404/127/130",
+      "volume": "new"
+    },
+    {
+      "id": "new-404-127-131",
+      "index_zyx": [
+        404,
+        127,
+        131
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/404/127/131",
+      "volume": "new"
+    },
+    {
+      "id": "new-471-132-138",
+      "index_zyx": [
+        471,
+        132,
+        138
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/471/132/138",
+      "volume": "new"
+    },
+    {
+      "id": "new-471-132-139",
+      "index_zyx": [
+        471,
+        132,
+        139
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/471/132/139",
+      "volume": "new"
+    },
+    {
+      "id": "new-471-132-149",
+      "index_zyx": [
+        471,
+        132,
+        149
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/471/132/149",
+      "volume": "new"
+    },
+    {
+      "id": "new-471-132-150",
+      "index_zyx": [
+        471,
+        132,
+        150
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/471/132/150",
+      "volume": "new"
+    },
+    {
+      "id": "new-471-133-138",
+      "index_zyx": [
+        471,
+        133,
+        138
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/471/133/138",
+      "volume": "new"
+    },
+    {
+      "id": "new-471-133-139",
+      "index_zyx": [
+        471,
+        133,
+        139
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/471/133/139",
+      "volume": "new"
+    },
+    {
+      "id": "new-471-133-149",
+      "index_zyx": [
+        471,
+        133,
+        149
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/471/133/149",
+      "volume": "new"
+    },
+    {
+      "id": "new-471-133-150",
+      "index_zyx": [
+        471,
+        133,
+        150
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/471/133/150",
+      "volume": "new"
+    },
+    {
+      "id": "new-472-132-138",
+      "index_zyx": [
+        472,
+        132,
+        138
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/472/132/138",
+      "volume": "new"
+    },
+    {
+      "id": "new-472-132-139",
+      "index_zyx": [
+        472,
+        132,
+        139
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/472/132/139",
+      "volume": "new"
+    },
+    {
+      "id": "new-472-132-149",
+      "index_zyx": [
+        472,
+        132,
+        149
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/472/132/149",
+      "volume": "new"
+    },
+    {
+      "id": "new-472-132-150",
+      "index_zyx": [
+        472,
+        132,
+        150
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/472/132/150",
+      "volume": "new"
+    },
+    {
+      "id": "new-472-133-138",
+      "index_zyx": [
+        472,
+        133,
+        138
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/472/133/138",
+      "volume": "new"
+    },
+    {
+      "id": "new-472-133-139",
+      "index_zyx": [
+        472,
+        133,
+        139
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/472/133/139",
+      "volume": "new"
+    },
+    {
+      "id": "new-472-133-149",
+      "index_zyx": [
+        472,
+        133,
+        149
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/472/133/149",
+      "volume": "new"
+    },
+    {
+      "id": "new-472-133-150",
+      "index_zyx": [
+        472,
+        133,
+        150
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/472/133/150",
+      "volume": "new"
+    },
+    {
+      "id": "new-540-151-136",
+      "index_zyx": [
+        540,
+        151,
+        136
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/540/151/136",
+      "volume": "new"
+    },
+    {
+      "id": "new-540-151-137",
+      "index_zyx": [
+        540,
+        151,
+        137
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/540/151/137",
+      "volume": "new"
+    },
+    {
+      "id": "new-540-152-136",
+      "index_zyx": [
+        540,
+        152,
+        136
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/540/152/136",
+      "volume": "new"
+    },
+    {
+      "id": "new-540-152-137",
+      "index_zyx": [
+        540,
+        152,
+        137
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/540/152/137",
+      "volume": "new"
+    },
+    {
+      "id": "new-541-151-136",
+      "index_zyx": [
+        541,
+        151,
+        136
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/541/151/136",
+      "volume": "new"
+    },
+    {
+      "id": "new-541-151-137",
+      "index_zyx": [
+        541,
+        151,
+        137
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/541/151/137",
+      "volume": "new"
+    },
+    {
+      "id": "new-541-152-136",
+      "index_zyx": [
+        541,
+        152,
+        136
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/541/152/136",
+      "volume": "new"
+    },
+    {
+      "id": "new-541-152-137",
+      "index_zyx": [
+        541,
+        152,
+        137
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/541/152/137",
+      "volume": "new"
+    },
+    {
+      "id": "new-542-152-146",
+      "index_zyx": [
+        542,
+        152,
+        146
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/542/152/146",
+      "volume": "new"
+    },
+    {
+      "id": "new-542-152-147",
+      "index_zyx": [
+        542,
+        152,
+        147
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/542/152/147",
+      "volume": "new"
+    },
+    {
+      "id": "new-542-153-146",
+      "index_zyx": [
+        542,
+        153,
+        146
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/542/153/146",
+      "volume": "new"
+    },
+    {
+      "id": "new-542-153-147",
+      "index_zyx": [
+        542,
+        153,
+        147
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/542/153/147",
+      "volume": "new"
+    },
+    {
+      "id": "new-543-152-146",
+      "index_zyx": [
+        543,
+        152,
+        146
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/543/152/146",
+      "volume": "new"
+    },
+    {
+      "id": "new-543-152-147",
+      "index_zyx": [
+        543,
+        152,
+        147
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/543/152/147",
+      "volume": "new"
+    },
+    {
+      "id": "new-543-153-146",
+      "index_zyx": [
+        543,
+        153,
+        146
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/543/153/146",
+      "volume": "new"
+    },
+    {
+      "id": "new-543-153-147",
+      "index_zyx": [
+        543,
+        153,
+        147
+      ],
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/543/153/147",
+      "volume": "new"
+    },
+    {
+      "id": "old-52-23-27",
+      "index_zyx": [
+        52,
+        23,
+        27
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/52/23/27",
+      "volume": "old"
+    },
+    {
+      "id": "old-52-23-28",
+      "index_zyx": [
+        52,
+        23,
+        28
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/52/23/28",
+      "volume": "old"
+    },
+    {
+      "id": "old-52-24-27",
+      "index_zyx": [
+        52,
+        24,
+        27
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/52/24/27",
+      "volume": "old"
+    },
+    {
+      "id": "old-52-24-28",
+      "index_zyx": [
+        52,
+        24,
+        28
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/52/24/28",
+      "volume": "old"
+    },
+    {
+      "id": "old-53-23-27",
+      "index_zyx": [
+        53,
+        23,
+        27
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/53/23/27",
+      "volume": "old"
+    },
+    {
+      "id": "old-53-23-28",
+      "index_zyx": [
+        53,
+        23,
+        28
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/53/23/28",
+      "volume": "old"
+    },
+    {
+      "id": "old-53-24-27",
+      "index_zyx": [
+        53,
+        24,
+        27
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/53/24/27",
+      "volume": "old"
+    },
+    {
+      "id": "old-53-24-28",
+      "index_zyx": [
+        53,
+        24,
+        28
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/53/24/28",
+      "volume": "old"
+    },
+    {
+      "id": "old-53-25-30",
+      "index_zyx": [
+        53,
+        25,
+        30
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/53/25/30",
+      "volume": "old"
+    },
+    {
+      "id": "old-53-25-31",
+      "index_zyx": [
+        53,
+        25,
+        31
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/53/25/31",
+      "volume": "old"
+    },
+    {
+      "id": "old-53-26-30",
+      "index_zyx": [
+        53,
+        26,
+        30
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/53/26/30",
+      "volume": "old"
+    },
+    {
+      "id": "old-53-26-31",
+      "index_zyx": [
+        53,
+        26,
+        31
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/53/26/31",
+      "volume": "old"
+    },
+    {
+      "id": "old-54-25-30",
+      "index_zyx": [
+        54,
+        25,
+        30
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/54/25/30",
+      "volume": "old"
+    },
+    {
+      "id": "old-54-25-31",
+      "index_zyx": [
+        54,
+        25,
+        31
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/54/25/31",
+      "volume": "old"
+    },
+    {
+      "id": "old-54-26-30",
+      "index_zyx": [
+        54,
+        26,
+        30
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/54/26/30",
+      "volume": "old"
+    },
+    {
+      "id": "old-54-26-31",
+      "index_zyx": [
+        54,
+        26,
+        31
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/54/26/31",
+      "volume": "old"
+    },
+    {
+      "id": "old-73-22-25",
+      "index_zyx": [
+        73,
+        22,
+        25
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/73/22/25",
+      "volume": "old"
+    },
+    {
+      "id": "old-73-22-26",
+      "index_zyx": [
+        73,
+        22,
+        26
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/73/22/26",
+      "volume": "old"
+    },
+    {
+      "id": "old-73-23-25",
+      "index_zyx": [
+        73,
+        23,
+        25
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/73/23/25",
+      "volume": "old"
+    },
+    {
+      "id": "old-73-23-26",
+      "index_zyx": [
+        73,
+        23,
+        26
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/73/23/26",
+      "volume": "old"
+    },
+    {
+      "id": "old-73-24-27",
+      "index_zyx": [
+        73,
+        24,
+        27
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/73/24/27",
+      "volume": "old"
+    },
+    {
+      "id": "old-73-24-28",
+      "index_zyx": [
+        73,
+        24,
+        28
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/73/24/28",
+      "volume": "old"
+    },
+    {
+      "id": "old-73-25-27",
+      "index_zyx": [
+        73,
+        25,
+        27
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/73/25/27",
+      "volume": "old"
+    },
+    {
+      "id": "old-73-25-28",
+      "index_zyx": [
+        73,
+        25,
+        28
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/73/25/28",
+      "volume": "old"
+    },
+    {
+      "id": "old-74-22-25",
+      "index_zyx": [
+        74,
+        22,
+        25
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/74/22/25",
+      "volume": "old"
+    },
+    {
+      "id": "old-74-22-26",
+      "index_zyx": [
+        74,
+        22,
+        26
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/74/22/26",
+      "volume": "old"
+    },
+    {
+      "id": "old-74-23-25",
+      "index_zyx": [
+        74,
+        23,
+        25
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/74/23/25",
+      "volume": "old"
+    },
+    {
+      "id": "old-74-23-26",
+      "index_zyx": [
+        74,
+        23,
+        26
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/74/23/26",
+      "volume": "old"
+    },
+    {
+      "id": "old-74-24-27",
+      "index_zyx": [
+        74,
+        24,
+        27
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/74/24/27",
+      "volume": "old"
+    },
+    {
+      "id": "old-74-24-28",
+      "index_zyx": [
+        74,
+        24,
+        28
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/74/24/28",
+      "volume": "old"
+    },
+    {
+      "id": "old-74-25-27",
+      "index_zyx": [
+        74,
+        25,
+        27
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/74/25/27",
+      "volume": "old"
+    },
+    {
+      "id": "old-74-25-28",
+      "index_zyx": [
+        74,
+        25,
+        28
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/74/25/28",
+      "volume": "old"
+    },
+    {
+      "id": "old-95-27-22",
+      "index_zyx": [
+        95,
+        27,
+        22
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/95/27/22",
+      "volume": "old"
+    },
+    {
+      "id": "old-95-27-23",
+      "index_zyx": [
+        95,
+        27,
+        23
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/95/27/23",
+      "volume": "old"
+    },
+    {
+      "id": "old-95-28-22",
+      "index_zyx": [
+        95,
+        28,
+        22
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/95/28/22",
+      "volume": "old"
+    },
+    {
+      "id": "old-95-28-23",
+      "index_zyx": [
+        95,
+        28,
+        23
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/95/28/23",
+      "volume": "old"
+    },
+    {
+      "id": "old-95-29-24",
+      "index_zyx": [
+        95,
+        29,
+        24
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/95/29/24",
+      "volume": "old"
+    },
+    {
+      "id": "old-95-29-25",
+      "index_zyx": [
+        95,
+        29,
+        25
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/95/29/25",
+      "volume": "old"
+    },
+    {
+      "id": "old-95-30-24",
+      "index_zyx": [
+        95,
+        30,
+        24
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/95/30/24",
+      "volume": "old"
+    },
+    {
+      "id": "old-95-30-25",
+      "index_zyx": [
+        95,
+        30,
+        25
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/95/30/25",
+      "volume": "old"
+    },
+    {
+      "id": "old-96-27-22",
+      "index_zyx": [
+        96,
+        27,
+        22
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/96/27/22",
+      "volume": "old"
+    },
+    {
+      "id": "old-96-27-23",
+      "index_zyx": [
+        96,
+        27,
+        23
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/96/27/23",
+      "volume": "old"
+    },
+    {
+      "id": "old-96-28-22",
+      "index_zyx": [
+        96,
+        28,
+        22
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/96/28/22",
+      "volume": "old"
+    },
+    {
+      "id": "old-96-28-23",
+      "index_zyx": [
+        96,
+        28,
+        23
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/96/28/23",
+      "volume": "old"
+    },
+    {
+      "id": "old-96-29-24",
+      "index_zyx": [
+        96,
+        29,
+        24
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/96/29/24",
+      "volume": "old"
+    },
+    {
+      "id": "old-96-29-25",
+      "index_zyx": [
+        96,
+        29,
+        25
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/96/29/25",
+      "volume": "old"
+    },
+    {
+      "id": "old-96-30-24",
+      "index_zyx": [
+        96,
+        30,
+        24
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/96/30/24",
+      "volume": "old"
+    },
+    {
+      "id": "old-96-30-25",
+      "index_zyx": [
+        96,
+        30,
+        25
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/96/30/25",
+      "volume": "old"
+    }
+  ],
+  "created_at_utc": "2026-10-09T14:58:14.617202+00:00",
+  "full_same_volume_block_overlaps": [],
+  "hard_CT_cap_bytes": 268435456,
+  "new_model_calls_allowed": 0,
+  "planned_decoded_CT_bytes": 201326592,
+  "selection": {
+    "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/geometry/SELECTION.json",
+    "sha256": "64f7ad025c2cd2da2718be2b65401ce19257cfcd0ca18ddde663aaa005f3d020",
+    "size_bytes": 5575
+  },
+  "status": "FROZEN_BEFORE_CT"
+}

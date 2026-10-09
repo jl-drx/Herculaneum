@@ -1,0 +1,7 @@
+# Diagnostic stopped at the third region's coverage guard
+
+The frozen alignment worker completed and retained all five score cubes for pair01 and pair02, then stopped before computing pair03 scores because the32³ mapped template lacked the required6-fine-voxel blur margin. Both completed numerical screens failed. The worker wrote its results JSON only at the end, so its aggregate receipt was not produced. Raw score cubes are retained unchanged.
+
+Complete the bounded panel using an explicit continuation, with unchanged templates, masks, search range and thresholds. Reconstruct pair01/02's reported numbers from retained score cubes with no repeated correlation search. Mark pair03 as not admitted for coverage. Before calculating any remaining region, apply the same coverage guard; mark any further coverage failures as not admitted and run the unchanged diagnostic once on each passing remaining region. No new CT or mesh requests, shifted centers, smaller margins, cropped masks or altered tolerances are allowed. All six outcomes stay in the report.
+
+This is an operational continuation after a fail-closed diagnostic guard, not a scientific training retry. It does not rescue the balanced panel, which has already failed its all-six admission requirement. The initial rendering attempt also ended before reading images because the aggregate alignment JSON was absent; its empty output directory can be reused after the explicit continuation.

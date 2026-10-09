@@ -1,0 +1,29 @@
+{
+  "cautions": [
+    "Correlation peak disagreement is not measured physical misregistration",
+    "Two coverage failures arise from fixed acquisition placement, not absent public volume data",
+    "Bright features are not identified as ink",
+    "All six regions are reference-review exposed",
+    "No bulk cloud backup or new GPU readiness claim"
+  ],
+  "compact_figure_visually_checked": "pair05",
+  "compact_figures_generated_from_same_retained_arrays": 6,
+  "conclusion": "Paired CT acquisition is viable within the budget. Four numerical correspondence screens fail and two regions lack the frozen diagnostic coverage. No independent ink-positive or non-ink-papyrus reference was established. No model call or training occurred; paired-learning hypothesis remains open.",
+  "created_at_utc": "2026-10-09T15:18:15.533833+00:00",
+  "decision": "Stop this six-center ink-learning panel; pursue a documented reference-first native/synthetic positive control",
+  "numerical_audit": {
+    "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/ADMISSION_VERIFICATION.json",
+    "sha256": "f04644f28335e3c4ebe9e40548499ffc19bcc9e4378f0ab7650b2b5c0057bb77",
+    "size_bytes": 971
+  },
+  "original_figures_reviewed": 6,
+  "report": {
+    "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/RESULTS.md",
+    "sha256": "693b139d72dc4bec04614bf4dbee97ef85900a75a7c46b9d4d5455a0397c810d",
+    "size_bytes": 6588
+  },
+  "report_reviewed": true,
+  "reviewer": "root",
+  "scope": "Root assistant review, not external expert validation",
+  "status": "COMPLETED_VERIFIED_ADMISSION_STOP_NO_LEARNING"
+}

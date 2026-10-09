@@ -1,0 +1,116 @@
+{
+  "GPU_spend_GBP": 0,
+  "created_at_utc": "2026-10-09T15:13:20.391949+00:00",
+  "detector_predictions_used": 0,
+  "independent_ink_positive_pixels": 0,
+  "independent_nonink_papyrus_pixels": 0,
+  "material_cautions": [
+    "Bright features are not identified as ink or a particular chemical inclusion",
+    "Air is not a negative ink label on a writing surface",
+    "Quiet-looking papyrus is not verified non-ink",
+    "No surface recentering is justified"
+  ],
+  "native_learning_admitted": false,
+  "new_model_calls": 0,
+  "next_task": "Reference-first positive-control packet: obtain documented ink-positive/non-ink support with known acquisition and physical coordinates before selecting another CT panel",
+  "physical_registration_established": false,
+  "public_label_bodies_read": 0,
+  "real_coarse_learning_admitted": false,
+  "reasons": [
+    "No defensible independent ink-positive and non-ink papyrus labels established in this panel",
+    "Four local correlation screens failed; two windows failed the frozen blur-coverage guard",
+    "Correlation peak disagreements are proxy uncertainty, not measured physical alignment errors"
+  ],
+  "reference_established": false,
+  "review_scope": "Six retained multi-plane figures; structural screening by the assistant, not expert annotation or volumetric ink ground truth",
+  "reviewer": "root",
+  "rows": [
+    {
+      "all_material_identity_ambiguous": true,
+      "exposure": "Native and coarse CT visually inspected for structure and possible reference evidence; not an untouched test",
+      "figure": {
+        "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/review/pair01.png",
+        "sha256": "a452d14508888f215af08d7110d171034e38f263c8f87428e076e151473555aa",
+        "size_bytes": 1046062
+      },
+      "id": "pair01",
+      "observation": "Broad sheet edge and compact bright features; several fine laminae in cross-section. Large structures have coarse counterparts, but local physical landmarks were not measured.",
+      "root_visually_reviewed": true,
+      "verified_ink_positive_pixels": 0,
+      "verified_nonink_papyrus_pixels": 0
+    },
+    {
+      "all_material_identity_ambiguous": true,
+      "exposure": "Native and coarse CT visually inspected for structure and possible reference evidence; not an untouched test",
+      "figure": {
+        "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/review/pair02.png",
+        "sha256": "89c3b8ee21435207156e4cee39feaf4ad879f1356974c70084e8a642ba92fafe",
+        "size_bytes": 1156333
+      },
+      "id": "pair02",
+      "observation": "Folded laminae and an air/sheet boundary near the nominal surface plane. Fine and coarse structure is visible; no stable set of independent local correspondences was established.",
+      "root_visually_reviewed": true,
+      "verified_ink_positive_pixels": 0,
+      "verified_nonink_papyrus_pixels": 0
+    },
+    {
+      "all_material_identity_ambiguous": true,
+      "exposure": "Native and coarse CT visually inspected for structure and possible reference evidence; not an untouched test",
+      "figure": {
+        "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/review/pair03.png",
+        "sha256": "5c659650dac1a94809ddbedddd1145e953e020e147f19a66ebdda930b63b9acf",
+        "size_bytes": 1028437
+      },
+      "id": "pair03",
+      "observation": "Bent laminar sheet with a curved crest. White wedges in the review are outside acquired coverage, not anatomical features. No registration fit was admitted.",
+      "root_visually_reviewed": true,
+      "verified_ink_positive_pixels": 0,
+      "verified_nonink_papyrus_pixels": 0
+    },
+    {
+      "all_material_identity_ambiguous": true,
+      "exposure": "Native and coarse CT visually inspected for structure and possible reference evidence; not an untouched test",
+      "figure": {
+        "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/review/pair04.png",
+        "sha256": "5d792ce11cb5e397381c2e7f4ae221e020f1ae90178ae6cd470f5805be577090",
+        "size_bytes": 1168628
+      },
+      "id": "pair04",
+      "observation": "Repeated laminae and compact bright features. The repeated layer pattern makes local correspondence ambiguous.",
+      "root_visually_reviewed": true,
+      "verified_ink_positive_pixels": 0,
+      "verified_nonink_papyrus_pixels": 0
+    },
+    {
+      "all_material_identity_ambiguous": true,
+      "exposure": "Native and coarse CT visually inspected for structure and possible reference evidence; not an untouched test",
+      "figure": {
+        "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/review/pair05.png",
+        "sha256": "ece8588f268ffcf765e80e4b8c7f46f20429866380106d7ffd6ffa81d15e0ada",
+        "size_bytes": 1076425
+      },
+      "id": "pair05",
+      "observation": "Separated sheet bands and folds, with a compact bright feature. Parts of the nominal plane pass through an air gap or sheet edge. Broad correspondence does not resolve local ambiguity.",
+      "root_visually_reviewed": true,
+      "verified_ink_positive_pixels": 0,
+      "verified_nonink_papyrus_pixels": 0
+    },
+    {
+      "all_material_identity_ambiguous": true,
+      "exposure": "Native and coarse CT visually inspected for structure and possible reference evidence; not an untouched test",
+      "figure": {
+        "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/review/pair06.png",
+        "sha256": "331d94a2311be5ff137fb5b7087f7198c6606dc738a9e176a813349614973e4d",
+        "size_bytes": 1094068
+      },
+      "id": "pair06",
+      "observation": "Many repeated thin laminae and a large bright feature. A small view-coverage wedge is missing data. No registration fit was admitted.",
+      "root_visually_reviewed": true,
+      "verified_ink_positive_pixels": 0,
+      "verified_nonink_papyrus_pixels": 0
+    }
+  ],
+  "seconds_since_acquisition_GO": 1038.524978,
+  "status": "STOP_LEARNING_FOR_THIS_PANEL",
+  "synthetic_coarse_learning_admitted": false
+}
