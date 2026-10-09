@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_VALIDATION_PASSED_REMOTE_CLONE_PENDING",
+  "status": "PASS",
   "created_at_utc": "2026-10-09T21:32:19.975736+00:00",
   "manifest_sha256": "b5b4904eda36f91ce243af24fbfcd6aebbd64072be7d3f88340dcdd3151109c9",
   "scope": "Portability of the indexed snapshot, not a completed PHerc343 reproduction or a replay of every historical experiment.",
@@ -289,8 +289,20 @@
     }
   ],
   "fresh_clone_download": {
-    "status": "PENDING",
-    "scope": "Will test the committed pointer with a fresh GitHub clone and a real selected-bundle download."
+    "status": "PASS",
+    "commit": "fb54739c39f7358ae2956a30e06c609e170685c6",
+    "source": "Fresh HTTPS clone from GitHub with GIT_LFS_SKIP_SMUDGE=1; empty independent LFS cache",
+    "group": "pherc343-reference",
+    "bundle": "pherc343-reference-001.tar.gz",
+    "download_bytes": 9780724,
+    "archive_sha256": "58eac58201435f29c5321d2793b74c4853fdceac263e6c6cc74ac7686263c232",
+    "verified_files": 18,
+    "expanded_bytes": 10662341,
+    "native_git_lfs_download": true,
+    "compressed_and_member_hash_checks": "PASS",
+    "separate_restored_file_readback": "PASS",
+    "drop_cache_confirmed": true,
+    "scope": "Same cloud host; real GitHub download of this one bundle, not all 29 and not a physical-device test."
   },
   "not_performed": [
     "A run on the user physical second device",
@@ -299,5 +311,6 @@
     "A full remote byte readback of all 11.29 GB",
     "R2 credential transfer or GPU launch"
   ],
-  "gpu_spend_GBP": 0
+  "gpu_spend_GBP": 0,
+  "updated_at_utc": "2026-10-09T21:33:10.866966+00:00"
 }
