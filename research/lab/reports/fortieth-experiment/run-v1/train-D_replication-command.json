@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/workspace/.venvs/herculaneum/bin/python",
+    "-B",
+    "/workspace/herculaneum-lab/reports/fortieth-experiment/run_training.py",
+    "--deadline",
+    "9121.346168077"
+  ],
+  "job": "train-D_replication",
+  "log": {
+    "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/train-D_replication.log",
+    "sha256": "b54c13fb0e3cd8e2da61948e3a3e253f8296cd5ccdb167acf138494a441804e7",
+    "size_bytes": 3417
+  },
+  "returncode": 0,
+  "wall_seconds": 557.617205218
+}

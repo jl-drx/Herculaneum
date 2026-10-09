@@ -1,0 +1,211 @@
+{
+  "acquisition_totals": {
+    "requests": 68,
+    "scan_chunks": 4,
+    "wire_bytes": 10707142
+  },
+  "expanded_candidate_order_verified": true,
+  "geometry_candidates": 184,
+  "inventory_objects": 12793,
+  "new_model_forwards": 0,
+  "stage1_probes_independently_reconstructed": [
+    {
+      "bbox": [
+        4480,
+        1408,
+        256,
+        256
+      ],
+      "failing_replacement_steps": [
+        20
+      ],
+      "maximum_tile_negative": 14309,
+      "maximum_tile_positive": 12684,
+      "negative": 37160,
+      "positive": 28376,
+      "unknown": 0
+    },
+    {
+      "bbox": [
+        4608,
+        1408,
+        256,
+        256
+      ],
+      "failing_replacement_steps": [
+        20
+      ],
+      "maximum_tile_negative": 14309,
+      "maximum_tile_positive": 12889,
+      "negative": 36451,
+      "positive": 24405,
+      "unknown": 4680
+    },
+    {
+      "bbox": [
+        4736,
+        1408,
+        256,
+        256
+      ],
+      "failing_replacement_steps": [
+        2,
+        5,
+        8,
+        14,
+        16,
+        17,
+        20,
+        21,
+        24,
+        30
+      ],
+      "maximum_tile_negative": 7610,
+      "maximum_tile_positive": 9349,
+      "negative": 13473,
+      "positive": 14615,
+      "unknown": 37448
+    },
+    {
+      "bbox": [
+        4480,
+        1536,
+        256,
+        256
+      ],
+      "failing_replacement_steps": [
+        20
+      ],
+      "maximum_tile_negative": 16266,
+      "maximum_tile_positive": 11084,
+      "negative": 33207,
+      "positive": 23039,
+      "unknown": 9290
+    },
+    {
+      "bbox": [
+        4608,
+        1536,
+        256,
+        256
+      ],
+      "failing_replacement_steps": [
+        20
+      ],
+      "maximum_tile_negative": 15939,
+      "maximum_tile_positive": 12483,
+      "negative": 31883,
+      "positive": 18967,
+      "unknown": 14686
+    },
+    {
+      "bbox": [
+        4736,
+        1536,
+        256,
+        256
+      ],
+      "failing_replacement_steps": [
+        2,
+        5,
+        8,
+        14,
+        16,
+        17,
+        20,
+        21,
+        24,
+        30
+      ],
+      "maximum_tile_negative": 7597,
+      "maximum_tile_positive": 8813,
+      "negative": 11367,
+      "positive": 11252,
+      "unknown": 42917
+    },
+    {
+      "bbox": [
+        4480,
+        1664,
+        256,
+        256
+      ],
+      "failing_replacement_steps": [
+        2,
+        5,
+        8,
+        9,
+        13,
+        14,
+        16,
+        17,
+        20,
+        21,
+        23,
+        24,
+        29,
+        30
+      ],
+      "maximum_tile_negative": 11847,
+      "maximum_tile_positive": 4240,
+      "negative": 19238,
+      "positive": 4240,
+      "unknown": 42058
+    },
+    {
+      "bbox": [
+        4736,
+        1664,
+        256,
+        256
+      ],
+      "failing_replacement_steps": [
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        31
+      ],
+      "maximum_tile_negative": 5504,
+      "maximum_tile_positive": 2439,
+      "negative": 5504,
+      "positive": 2439,
+      "unknown": 57593
+    }
+  ],
+  "stage2_first_candidate": {
+    "bbox": [
+      2560,
+      640,
+      256,
+      256
+    ],
+    "failing_replacement_steps": [],
+    "maximum_tile_negative": 15237,
+    "maximum_tile_positive": 10541,
+    "negative": 36927,
+    "positive": 16085,
+    "unknown": 12524
+  },
+  "status": "PASS",
+  "verifier": {
+    "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/verify_admission.py",
+    "sha256": "2e03134aaf92adac74178b3bd750b0874bdf5b0e3676dd7a4e068e178b0f0050",
+    "size_bytes": 3913
+  }
+}

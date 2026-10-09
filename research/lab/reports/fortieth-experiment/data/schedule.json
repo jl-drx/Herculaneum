@@ -1,0 +1,907 @@
+{
+  "rule": "Identical phase38 alternate-slot/least-use tile and crop-global SHA256 class selection",
+  "steps": [
+    {
+      "augmentation": 1,
+      "eligible_tiles": 19,
+      "negative": 3651,
+      "new_bbox": [
+        0,
+        32,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "571d10c58008cb6f9e581a717bbb067846dae6a2ee2d29bdf9eb141ca9a02ec3",
+      "original_patch": {
+        "augmentation": 1,
+        "bbox": [
+          192,
+          192,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 357,
+      "replaced_slot": 0,
+      "step": 1
+    },
+    {
+      "augmentation": 6,
+      "eligible_tiles": 4,
+      "negative": 9196,
+      "new_bbox": [
+        32,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "21b28109520408a6e442ec7908880d9559aa488af634357f07eef887f666c7e1",
+      "original_patch": {
+        "augmentation": 6,
+        "bbox": [
+          0,
+          64,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 5472,
+      "replaced_slot": 1,
+      "step": 2
+    },
+    {
+      "augmentation": 6,
+      "eligible_tiles": 13,
+      "negative": 3054,
+      "new_bbox": [
+        0,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "509548daf1af7958127b3525e64d2dedb0304375bb9fe196b0972bdbb970dc55",
+      "original_patch": {
+        "augmentation": 6,
+        "bbox": [
+          192,
+          256,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 3796,
+      "replaced_slot": 0,
+      "step": 3
+    },
+    {
+      "augmentation": 0,
+      "eligible_tiles": 19,
+      "negative": 4063,
+      "new_bbox": [
+        32,
+        32,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "9c7aa4f305c48f394f6734f9c2f2cd4aae3a20f45d52003ee3662fc58b476beb",
+      "original_patch": {
+        "augmentation": 0,
+        "bbox": [
+          64,
+          128,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 301,
+      "replaced_slot": 1,
+      "step": 4
+    },
+    {
+      "augmentation": 4,
+      "eligible_tiles": 3,
+      "negative": 5207,
+      "new_bbox": [
+        32,
+        128,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "f73dd1e1557cd7f21c21a8f31d7e64b0a1459b824059d2d30f8046119c272d25",
+      "original_patch": {
+        "augmentation": 4,
+        "bbox": [
+          256,
+          256,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 9605,
+      "replaced_slot": 0,
+      "step": 5
+    },
+    {
+      "augmentation": 0,
+      "eligible_tiles": 18,
+      "negative": 5363,
+      "new_bbox": [
+        64,
+        32,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "0769d3a6a15588d36b852722d151cd60903dc0cc74d60114d26f1d1e97b2f490",
+      "original_patch": {
+        "augmentation": 0,
+        "bbox": [
+          64,
+          64,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 1113,
+      "replaced_slot": 1,
+      "step": 6
+    },
+    {
+      "augmentation": 5,
+      "eligible_tiles": 13,
+      "negative": 3054,
+      "new_bbox": [
+        64,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "0c23964ce158f297ad1b035da1a54fadbb5b15d7498f469e098de2cbe1ae5063",
+      "original_patch": {
+        "augmentation": 5,
+        "bbox": [
+          192,
+          256,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 3796,
+      "replaced_slot": 0,
+      "step": 7
+    },
+    {
+      "augmentation": 3,
+      "eligible_tiles": 6,
+      "negative": 11279,
+      "new_bbox": [
+        96,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "b86f4258d2a6b93d95e81739702936d3fe003490572ca32221744c483484971a",
+      "original_patch": {
+        "augmentation": 3,
+        "bbox": [
+          0,
+          128,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 1277,
+      "replaced_slot": 1,
+      "step": 8
+    },
+    {
+      "augmentation": 3,
+      "eligible_tiles": 13,
+      "negative": 5159,
+      "new_bbox": [
+        0,
+        96,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "a96736f904855c6893e24dbd7a5c82014c24e4320d359e3be82cccf3eab524b1",
+      "original_patch": {
+        "augmentation": 3,
+        "bbox": [
+          256,
+          128,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 4386,
+      "replaced_slot": 0,
+      "step": 9
+    },
+    {
+      "augmentation": 2,
+      "eligible_tiles": 18,
+      "negative": 5363,
+      "new_bbox": [
+        128,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "db79a604a3f734332a073e451422295acad1582eb1d801dd314126bca1fbcc7d",
+      "original_patch": {
+        "augmentation": 2,
+        "bbox": [
+          64,
+          64,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 1113,
+      "replaced_slot": 1,
+      "step": 10
+    },
+    {
+      "augmentation": 0,
+      "eligible_tiles": 19,
+      "negative": 3651,
+      "new_bbox": [
+        96,
+        32,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "417227785764b1c73c1afad8c5bd3f1d60dc2857fe457b590de8b718a7a00ade",
+      "original_patch": {
+        "augmentation": 0,
+        "bbox": [
+          192,
+          192,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 357,
+      "replaced_slot": 0,
+      "step": 11
+    },
+    {
+      "augmentation": 0,
+      "eligible_tiles": 15,
+      "negative": 5871,
+      "new_bbox": [
+        32,
+        96,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "ca12a0c92509abdec696764b0f7cefb0fb1334bf5d6c2cdacbec368b4dd4cc24",
+      "original_patch": {
+        "augmentation": 0,
+        "bbox": [
+          64,
+          0,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 2115,
+      "replaced_slot": 1,
+      "step": 12
+    },
+    {
+      "augmentation": 7,
+      "eligible_tiles": 13,
+      "negative": 5159,
+      "new_bbox": [
+        64,
+        96,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "40aa3d56eb31204b348707219ac08f2de9ff69b4c1b5adc1b24e89e2a5103b95",
+      "original_patch": {
+        "augmentation": 7,
+        "bbox": [
+          256,
+          128,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 4386,
+      "replaced_slot": 0,
+      "step": 13
+    },
+    {
+      "augmentation": 4,
+      "eligible_tiles": 4,
+      "negative": 9196,
+      "new_bbox": [
+        96,
+        96,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "0d4bb7c357e2b4f7d44c9d439a3f8a7494955c25b633aa3821e18c978d6f0855",
+      "original_patch": {
+        "augmentation": 4,
+        "bbox": [
+          0,
+          64,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 5472,
+      "replaced_slot": 1,
+      "step": 14
+    },
+    {
+      "augmentation": 5,
+      "eligible_tiles": 13,
+      "negative": 3054,
+      "new_bbox": [
+        128,
+        96,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "9eb5a668f56b2a68f7b20807737a11bbfe4daf71fb249579c1d00475ed8cbea7",
+      "original_patch": {
+        "augmentation": 5,
+        "bbox": [
+          192,
+          256,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 3796,
+      "replaced_slot": 0,
+      "step": 15
+    },
+    {
+      "augmentation": 6,
+      "eligible_tiles": 6,
+      "negative": 11279,
+      "new_bbox": [
+        32,
+        32,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "bec8eec672aea793c0e17da468f931a38129ba61be0deadeecc7e55c0cfedba1",
+      "original_patch": {
+        "augmentation": 6,
+        "bbox": [
+          0,
+          128,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 1277,
+      "replaced_slot": 1,
+      "step": 16
+    },
+    {
+      "augmentation": 7,
+      "eligible_tiles": 3,
+      "negative": 5207,
+      "new_bbox": [
+        64,
+        128,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "1c3d5e2b9795e40d3c054930b22c1f207840836706f309d213ac9aed4c38c2ec",
+      "original_patch": {
+        "augmentation": 7,
+        "bbox": [
+          256,
+          256,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 9605,
+      "replaced_slot": 0,
+      "step": 17
+    },
+    {
+      "augmentation": 6,
+      "eligible_tiles": 19,
+      "negative": 4063,
+      "new_bbox": [
+        0,
+        128,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "3dacd8575fe5c7db2186a630482b940d0c02b9e8ce54b8ec910f916066064460",
+      "original_patch": {
+        "augmentation": 6,
+        "bbox": [
+          64,
+          128,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 301,
+      "replaced_slot": 1,
+      "step": 18
+    },
+    {
+      "augmentation": 7,
+      "eligible_tiles": 19,
+      "negative": 3651,
+      "new_bbox": [
+        96,
+        128,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "4495bfb55d6e3fd0c3fd2681cdb1ddbf9d2704440eaadbd5a951cd3f9e84468d",
+      "original_patch": {
+        "augmentation": 7,
+        "bbox": [
+          192,
+          192,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 357,
+      "replaced_slot": 0,
+      "step": 19
+    },
+    {
+      "augmentation": 5,
+      "eligible_tiles": 1,
+      "negative": 10644,
+      "new_bbox": [
+        32,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "26bd21d70f7864caf6512ed28aee035b4e15cdfef0b309b1490b527b60f07b96",
+      "original_patch": {
+        "augmentation": 5,
+        "bbox": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 5276,
+      "replaced_slot": 1,
+      "step": 20
+    },
+    {
+      "augmentation": 7,
+      "eligible_tiles": 3,
+      "negative": 5207,
+      "new_bbox": [
+        32,
+        128,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "bcb9d76033c110268e94479d825ffde76d6142d0922c1eca134db18990526f2a",
+      "original_patch": {
+        "augmentation": 7,
+        "bbox": [
+          256,
+          256,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 9605,
+      "replaced_slot": 0,
+      "step": 21
+    },
+    {
+      "augmentation": 5,
+      "eligible_tiles": 15,
+      "negative": 5871,
+      "new_bbox": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "6162c746f9018955e9a5d21366657568f24e75f757f8949d70a42799bf40974a",
+      "original_patch": {
+        "augmentation": 5,
+        "bbox": [
+          64,
+          0,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 2115,
+      "replaced_slot": 1,
+      "step": 22
+    },
+    {
+      "augmentation": 4,
+      "eligible_tiles": 13,
+      "negative": 5159,
+      "new_bbox": [
+        0,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "5aa6009eb7b69fd6b1d39f88ddb814581ec439ddb6e59755da77af46bf39390c",
+      "original_patch": {
+        "augmentation": 4,
+        "bbox": [
+          256,
+          128,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 4386,
+      "replaced_slot": 0,
+      "step": 23
+    },
+    {
+      "augmentation": 2,
+      "eligible_tiles": 4,
+      "negative": 9196,
+      "new_bbox": [
+        0,
+        96,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "6003f1dd6c3bc1881fb021067dd30970e4d4e615314cd788b01625bf064e61b6",
+      "original_patch": {
+        "augmentation": 2,
+        "bbox": [
+          0,
+          64,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 5472,
+      "replaced_slot": 1,
+      "step": 24
+    },
+    {
+      "augmentation": 3,
+      "eligible_tiles": 19,
+      "negative": 3651,
+      "new_bbox": [
+        0,
+        32,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "c457ba41792162d66d6ddc20cdbfa0094eefa716df2e3a3e94fca36db778594b",
+      "original_patch": {
+        "augmentation": 3,
+        "bbox": [
+          192,
+          192,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 357,
+      "replaced_slot": 0,
+      "step": 25
+    },
+    {
+      "augmentation": 3,
+      "eligible_tiles": 19,
+      "negative": 4063,
+      "new_bbox": [
+        64,
+        32,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "9ad2ac2fae517e64bc43f7921c982de4622b43e6f64e1affe5a92f4a437c09c9",
+      "original_patch": {
+        "augmentation": 3,
+        "bbox": [
+          64,
+          128,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 301,
+      "replaced_slot": 1,
+      "step": 26
+    },
+    {
+      "augmentation": 6,
+      "eligible_tiles": 18,
+      "negative": 4694,
+      "new_bbox": [
+        64,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "d3eddbbc0e9b48c91a76ef21146d115c61a071392b6a34398371a16642d89079",
+      "original_patch": {
+        "augmentation": 6,
+        "bbox": [
+          256,
+          64,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 751,
+      "replaced_slot": 0,
+      "step": 27
+    },
+    {
+      "augmentation": 2,
+      "eligible_tiles": 18,
+      "negative": 5363,
+      "new_bbox": [
+        96,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "286753a3867806007211b7acd673c2bf292c8de530edc5179328d563b5797e86",
+      "original_patch": {
+        "augmentation": 2,
+        "bbox": [
+          64,
+          64,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 1113,
+      "replaced_slot": 1,
+      "step": 28
+    },
+    {
+      "augmentation": 7,
+      "eligible_tiles": 13,
+      "negative": 5159,
+      "new_bbox": [
+        32,
+        96,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "0657c20ee4d9cbfe4e43a2a62822f26a6c2af3c612e004947fe70fbee00dede5",
+      "original_patch": {
+        "augmentation": 7,
+        "bbox": [
+          256,
+          128,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 4386,
+      "replaced_slot": 0,
+      "step": 29
+    },
+    {
+      "augmentation": 1,
+      "eligible_tiles": 6,
+      "negative": 11279,
+      "new_bbox": [
+        128,
+        96,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "9b6eb51a5656cf8fecfd96a6621f2518624b6b0360f93926b73d0e083ec1d897",
+      "original_patch": {
+        "augmentation": 1,
+        "bbox": [
+          0,
+          128,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 1277,
+      "replaced_slot": 1,
+      "step": 30
+    },
+    {
+      "augmentation": 4,
+      "eligible_tiles": 13,
+      "negative": 3054,
+      "new_bbox": [
+        64,
+        96,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "0815ae62c986555d63005d040e99623d4bdcface3343c0700e1cd36aff79ea99",
+      "original_patch": {
+        "augmentation": 4,
+        "bbox": [
+          192,
+          256,
+          128,
+          128
+        ],
+        "region": 0
+      },
+      "positive": 3796,
+      "replaced_slot": 0,
+      "step": 31
+    },
+    {
+      "augmentation": 6,
+      "eligible_tiles": 18,
+      "negative": 5363,
+      "new_bbox": [
+        128,
+        64,
+        128,
+        128
+      ],
+      "original_batch_fingerprint": "972a69bf65c31e2ae3ccc48c997a16e4079d2f522dc89d1408a6f42f011573c6",
+      "original_patch": {
+        "augmentation": 6,
+        "bbox": [
+          64,
+          64,
+          128,
+          128
+        ],
+        "region": 1
+      },
+      "positive": 1113,
+      "replaced_slot": 1,
+      "step": 32
+    }
+  ],
+  "tile_use": [
+    {
+      "count": 2,
+      "x": 0,
+      "y": 32
+    },
+    {
+      "count": 2,
+      "x": 0,
+      "y": 64
+    },
+    {
+      "count": 2,
+      "x": 0,
+      "y": 96
+    },
+    {
+      "count": 1,
+      "x": 0,
+      "y": 128
+    },
+    {
+      "count": 2,
+      "x": 32,
+      "y": 32
+    },
+    {
+      "count": 2,
+      "x": 32,
+      "y": 64
+    },
+    {
+      "count": 2,
+      "x": 32,
+      "y": 96
+    },
+    {
+      "count": 2,
+      "x": 32,
+      "y": 128
+    },
+    {
+      "count": 2,
+      "x": 64,
+      "y": 32
+    },
+    {
+      "count": 2,
+      "x": 64,
+      "y": 64
+    },
+    {
+      "count": 2,
+      "x": 64,
+      "y": 96
+    },
+    {
+      "count": 1,
+      "x": 64,
+      "y": 128
+    },
+    {
+      "count": 1,
+      "x": 96,
+      "y": 32
+    },
+    {
+      "count": 2,
+      "x": 96,
+      "y": 64
+    },
+    {
+      "count": 1,
+      "x": 96,
+      "y": 96
+    },
+    {
+      "count": 1,
+      "x": 96,
+      "y": 128
+    },
+    {
+      "count": 2,
+      "x": 128,
+      "y": 64
+    },
+    {
+      "count": 2,
+      "x": 128,
+      "y": 96
+    },
+    {
+      "count": 1,
+      "x": 128,
+      "y": 128
+    }
+  ],
+  "unique_manual_pixels_by_region": [
+    25967,
+    28734,
+    46020
+  ]
+}

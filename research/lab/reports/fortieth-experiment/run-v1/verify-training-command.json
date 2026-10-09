@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/workspace/.venvs/herculaneum/bin/python",
+    "-B",
+    "/workspace/herculaneum-lab/reports/fortieth-experiment/verify_training.py"
+  ],
+  "job": "verify-training",
+  "log": {
+    "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/verify-training.log",
+    "sha256": "22c50cdace83080068ef61de50c0282fd32a1c05d9827a23605f7e0ffcda6c41",
+    "size_bytes": 311
+  },
+  "returncode": 0,
+  "wall_seconds": 3.0867545999999493
+}

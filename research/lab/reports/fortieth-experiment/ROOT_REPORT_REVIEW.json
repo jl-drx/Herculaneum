@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETED_VERIFIED_RETENTION_PASS_GAIN_AND_STRICT_REPLICATION_FAIL",
+  "reviewer": "root",
+  "figures_visually_reviewed": true,
+  "report_reviewed": true,
+  "decision": "Retain seed42, defer GPU, propose one control removing the new-crop BCE gradient on the same schedule",
+  "conclusion": "Crop2 slightly exceeds A512 AP and retains all regions, but misses advancement and narrowly misses midpoint worst-AP comparison; supervised-gradient contribution remains unresolved",
+  "advancement_passed": false,
+  "descriptive_replication_passed": false,
+  "strict_replication_shortfall_AP": 0.00020600968559936203
+}

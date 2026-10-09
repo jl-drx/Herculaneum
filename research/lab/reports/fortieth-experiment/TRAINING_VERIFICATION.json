@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-10-09T14:05:30.286718+00:00",
+  "elapsed_seconds": 2.7500133029998324,
+  "loss_rows_checked": 768,
+  "maximum_differences": {
+    "dice_loss": 1.1930804211246482e-07,
+    "full": 1.2203473087613048e-07,
+    "hard_base": 6.347710307386123e-08,
+    "loss_D_M": 6.938893903907228e-18,
+    "loss_U": 1.2203473087613048e-07,
+    "probability_drift_manual": 2.0816681711721685e-17
+  },
+  "new_model_forwards": 0,
+  "optimizer_autograd_replayed": false,
+  "peak_RSS_bytes": 162840576,
+  "scalar_values_checked": 4608,
+  "status": "PASS",
+  "verifier": {
+    "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/verify_training.py",
+    "sha256": "e9d902af40110833fd85b5a08fffa6ab43c9cf242107e277b1218c8871816084",
+    "size_bytes": 3933
+  }
+}

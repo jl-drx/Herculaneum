@@ -1,0 +1,28 @@
+{
+  "checkpoint": {
+    "acquisition": "retained_verified_checkpoint",
+    "embedded_step": 74999,
+    "filename_step_label": 75000,
+    "label": "seed42",
+    "local_path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+    "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+    "repository": "scrollprize/ink_9um",
+    "repository_path": "hybrid_3d2d-seed42/step-075000.pth",
+    "revision": "7109667e2607db1b90c37c8b09cb876ea7fe7bb1",
+    "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+    "size_bytes": 138360039,
+    "source_url": "https://huggingface.co/scrollprize/ink_9um/resolve/7109667e2607db1b90c37c8b09cb876ea7fe7bb1/hybrid_3d2d-seed42/step-075000.pth"
+  },
+  "elapsed_seconds": 14.765172423999502,
+  "logits": {
+    "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/teacher/logits.npy",
+    "sha256": "d3769c2b45cf06fdf20591efcc88099cca2f4cde62a95fa11e17991ff38937bf",
+    "size_bytes": 4194432
+  },
+  "optimizer_updates": 0,
+  "peak_RSS_bytes": 685658112,
+  "retained_PHerc0139_logits_exact": 32,
+  "state_sha256": "21c186000b9b3093835e185342668acd0d86147a719c37513e937924b77ea228",
+  "status": "PASS",
+  "teacher_forwards": 32
+}

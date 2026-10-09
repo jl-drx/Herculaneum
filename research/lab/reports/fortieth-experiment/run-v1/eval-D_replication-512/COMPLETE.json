@@ -1,0 +1,4684 @@
+{
+  "arm": "D_replication",
+  "checkpoint": {
+    "file": {
+      "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/D_replication/state-512.pth",
+      "sha256": "eca002424b8eada6d7faa3d2b2bd42f1f7422488ab6b9549833d56475e3f7d79",
+      "size_bytes": 138351115
+    },
+    "state_sha256": "65d73593641cd54570f5d434bed96bea3db41561fe079dfeac8127a8853f3e58",
+    "storage": {
+      "alias_group_count": 244,
+      "alias_groups": [
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.0.convs.0.all_modules.0.bias",
+            "network.shared_decoder.stages.0.convs.0.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.0.convs.0.all_modules.0.weight",
+            "network.shared_decoder.stages.0.convs.0.conv.weight"
+          ],
+          "storage_bytes": 7372800
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.0.convs.0.all_modules.1.bias",
+            "network.shared_decoder.stages.0.convs.0.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.0.convs.0.all_modules.1.weight",
+            "network.shared_decoder.stages.0.convs.0.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.1.convs.0.all_modules.0.bias",
+            "network.shared_decoder.stages.1.convs.0.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.1.convs.0.all_modules.0.weight",
+            "network.shared_decoder.stages.1.convs.0.conv.weight"
+          ],
+          "storage_bytes": 4718592
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.1.convs.0.all_modules.1.bias",
+            "network.shared_decoder.stages.1.convs.0.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.1.convs.0.all_modules.1.weight",
+            "network.shared_decoder.stages.1.convs.0.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.2.convs.0.all_modules.0.bias",
+            "network.shared_decoder.stages.2.convs.0.conv.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.2.convs.0.all_modules.0.weight",
+            "network.shared_decoder.stages.2.convs.0.conv.weight"
+          ],
+          "storage_bytes": 1179648
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.2.convs.0.all_modules.1.bias",
+            "network.shared_decoder.stages.2.convs.0.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.2.convs.0.all_modules.1.weight",
+            "network.shared_decoder.stages.2.convs.0.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.3.convs.0.all_modules.0.bias",
+            "network.shared_decoder.stages.3.convs.0.conv.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.3.convs.0.all_modules.0.weight",
+            "network.shared_decoder.stages.3.convs.0.conv.weight"
+          ],
+          "storage_bytes": 294912
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.3.convs.0.all_modules.1.bias",
+            "network.shared_decoder.stages.3.convs.0.norm.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.3.convs.0.all_modules.1.weight",
+            "network.shared_decoder.stages.3.convs.0.norm.weight"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.4.convs.0.all_modules.0.bias",
+            "network.shared_decoder.stages.4.convs.0.conv.bias"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.4.convs.0.all_modules.0.weight",
+            "network.shared_decoder.stages.4.convs.0.conv.weight"
+          ],
+          "storage_bytes": 73728
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.4.convs.0.all_modules.1.bias",
+            "network.shared_decoder.stages.4.convs.0.norm.bias"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_decoder.stages.4.convs.0.all_modules.1.weight",
+            "network.shared_decoder.stages.4.convs.0.norm.weight"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.0.blocks.0.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.0.blocks.0.conv1.conv.bias"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.0.blocks.0.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.0.blocks.0.conv1.conv.weight"
+          ],
+          "storage_bytes": 36864
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.0.blocks.0.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.0.blocks.0.conv1.norm.bias"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.0.blocks.0.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.0.blocks.0.conv1.norm.weight"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.0.blocks.0.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.0.blocks.0.conv2.conv.bias"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.0.blocks.0.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.0.blocks.0.conv2.conv.weight"
+          ],
+          "storage_bytes": 36864
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.0.blocks.0.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.0.blocks.0.conv2.norm.bias"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.0.blocks.0.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.0.blocks.0.conv2.norm.weight"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.1.blocks.0.conv1.conv.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.1.blocks.0.conv1.conv.weight"
+          ],
+          "storage_bytes": 73728
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.1.blocks.0.conv1.norm.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.1.blocks.0.conv1.norm.weight"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.1.blocks.0.conv2.conv.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.1.blocks.0.conv2.conv.weight"
+          ],
+          "storage_bytes": 147456
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.1.blocks.0.conv2.norm.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.1.blocks.0.conv2.norm.weight"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.skip.1.all_modules.0.weight",
+            "network.shared_encoder.stages.1.blocks.0.skip.1.conv.weight"
+          ],
+          "storage_bytes": 8192
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.skip.1.all_modules.1.bias",
+            "network.shared_encoder.stages.1.blocks.0.skip.1.norm.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.0.skip.1.all_modules.1.weight",
+            "network.shared_encoder.stages.1.blocks.0.skip.1.norm.weight"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.1.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.1.blocks.1.conv1.conv.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.1.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.1.blocks.1.conv1.conv.weight"
+          ],
+          "storage_bytes": 147456
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.1.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.1.blocks.1.conv1.norm.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.1.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.1.blocks.1.conv1.norm.weight"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.1.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.1.blocks.1.conv2.conv.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.1.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.1.blocks.1.conv2.conv.weight"
+          ],
+          "storage_bytes": 147456
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.1.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.1.blocks.1.conv2.norm.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.1.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.1.blocks.1.conv2.norm.weight"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.2.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.1.blocks.2.conv1.conv.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.2.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.1.blocks.2.conv1.conv.weight"
+          ],
+          "storage_bytes": 147456
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.2.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.1.blocks.2.conv1.norm.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.2.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.1.blocks.2.conv1.norm.weight"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.2.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.1.blocks.2.conv2.conv.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.2.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.1.blocks.2.conv2.conv.weight"
+          ],
+          "storage_bytes": 147456
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.2.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.1.blocks.2.conv2.norm.bias"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.1.blocks.2.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.1.blocks.2.conv2.norm.weight"
+          ],
+          "storage_bytes": 256
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.2.blocks.0.conv1.conv.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.2.blocks.0.conv1.conv.weight"
+          ],
+          "storage_bytes": 294912
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.2.blocks.0.conv1.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.2.blocks.0.conv1.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.2.blocks.0.conv2.conv.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.2.blocks.0.conv2.conv.weight"
+          ],
+          "storage_bytes": 589824
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.2.blocks.0.conv2.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.2.blocks.0.conv2.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.skip.1.all_modules.0.weight",
+            "network.shared_encoder.stages.2.blocks.0.skip.1.conv.weight"
+          ],
+          "storage_bytes": 32768
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.skip.1.all_modules.1.bias",
+            "network.shared_encoder.stages.2.blocks.0.skip.1.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.0.skip.1.all_modules.1.weight",
+            "network.shared_encoder.stages.2.blocks.0.skip.1.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.1.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.2.blocks.1.conv1.conv.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.1.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.2.blocks.1.conv1.conv.weight"
+          ],
+          "storage_bytes": 589824
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.1.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.2.blocks.1.conv1.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.1.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.2.blocks.1.conv1.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.1.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.2.blocks.1.conv2.conv.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.1.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.2.blocks.1.conv2.conv.weight"
+          ],
+          "storage_bytes": 589824
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.1.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.2.blocks.1.conv2.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.1.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.2.blocks.1.conv2.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.2.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.2.blocks.2.conv1.conv.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.2.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.2.blocks.2.conv1.conv.weight"
+          ],
+          "storage_bytes": 589824
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.2.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.2.blocks.2.conv1.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.2.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.2.blocks.2.conv1.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.2.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.2.blocks.2.conv2.conv.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.2.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.2.blocks.2.conv2.conv.weight"
+          ],
+          "storage_bytes": 589824
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.2.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.2.blocks.2.conv2.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.2.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.2.blocks.2.conv2.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.3.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.2.blocks.3.conv1.conv.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.3.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.2.blocks.3.conv1.conv.weight"
+          ],
+          "storage_bytes": 589824
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.3.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.2.blocks.3.conv1.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.3.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.2.blocks.3.conv1.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.3.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.2.blocks.3.conv2.conv.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.3.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.2.blocks.3.conv2.conv.weight"
+          ],
+          "storage_bytes": 589824
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.3.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.2.blocks.3.conv2.norm.bias"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.2.blocks.3.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.2.blocks.3.conv2.norm.weight"
+          ],
+          "storage_bytes": 512
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.0.conv1.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.0.conv1.conv.weight"
+          ],
+          "storage_bytes": 1179648
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.0.conv1.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.0.conv1.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.0.conv2.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.0.conv2.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.0.conv2.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.0.conv2.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.skip.1.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.0.skip.1.conv.weight"
+          ],
+          "storage_bytes": 131072
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.skip.1.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.0.skip.1.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.0.skip.1.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.0.skip.1.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.1.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.1.conv1.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.1.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.1.conv1.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.1.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.1.conv1.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.1.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.1.conv1.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.1.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.1.conv2.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.1.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.1.conv2.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.1.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.1.conv2.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.1.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.1.conv2.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.2.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.2.conv1.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.2.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.2.conv1.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.2.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.2.conv1.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.2.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.2.conv1.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.2.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.2.conv2.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.2.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.2.conv2.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.2.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.2.conv2.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.2.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.2.conv2.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.3.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.3.conv1.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.3.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.3.conv1.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.3.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.3.conv1.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.3.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.3.conv1.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.3.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.3.conv2.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.3.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.3.conv2.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.3.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.3.conv2.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.3.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.3.conv2.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.4.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.4.conv1.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.4.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.4.conv1.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.4.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.4.conv1.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.4.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.4.conv1.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.4.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.4.conv2.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.4.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.4.conv2.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.4.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.4.conv2.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.4.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.4.conv2.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.5.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.5.conv1.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.5.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.5.conv1.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.5.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.5.conv1.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.5.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.5.conv1.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.5.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.3.blocks.5.conv2.conv.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.5.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.3.blocks.5.conv2.conv.weight"
+          ],
+          "storage_bytes": 2359296
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.5.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.3.blocks.5.conv2.norm.bias"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.3.blocks.5.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.3.blocks.5.conv2.norm.weight"
+          ],
+          "storage_bytes": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.0.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.0.conv1.conv.weight"
+          ],
+          "storage_bytes": 2949120
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.0.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.0.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.0.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.0.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.0.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.0.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.skip.1.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.0.skip.1.conv.weight"
+          ],
+          "storage_bytes": 327680
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.skip.1.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.0.skip.1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.0.skip.1.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.0.skip.1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.1.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.1.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.1.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.1.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.1.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.1.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.1.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.1.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.1.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.1.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.1.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.1.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.1.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.1.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.1.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.1.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.2.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.2.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.2.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.2.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.2.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.2.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.2.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.2.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.2.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.2.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.2.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.2.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.2.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.2.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.2.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.2.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.3.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.3.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.3.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.3.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.3.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.3.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.3.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.3.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.3.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.3.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.3.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.3.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.3.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.3.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.3.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.3.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.4.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.4.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.4.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.4.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.4.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.4.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.4.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.4.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.4.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.4.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.4.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.4.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.4.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.4.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.4.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.4.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.5.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.5.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.5.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.5.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.5.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.5.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.5.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.5.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.5.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.4.blocks.5.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.5.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.4.blocks.5.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.5.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.4.blocks.5.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.4.blocks.5.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.4.blocks.5.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.0.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.0.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.0.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.0.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.0.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.0.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.0.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.0.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.0.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.0.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.0.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.0.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.0.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.0.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.0.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.0.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.1.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.1.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.1.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.1.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.1.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.1.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.1.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.1.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.1.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.1.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.1.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.1.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.1.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.1.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.1.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.1.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.2.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.2.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.2.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.2.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.2.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.2.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.2.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.2.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.2.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.2.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.2.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.2.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.2.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.2.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.2.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.2.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.3.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.3.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.3.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.3.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.3.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.3.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.3.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.3.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.3.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.3.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.3.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.3.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.3.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.3.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.3.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.3.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.4.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.4.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.4.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.4.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.4.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.4.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.4.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.4.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.4.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.4.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.4.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.4.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.4.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.4.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.4.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.4.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.5.conv1.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.5.conv1.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.5.conv1.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.5.conv1.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.5.conv1.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.5.conv1.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.5.conv1.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.5.conv1.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.5.conv2.all_modules.0.bias",
+            "network.shared_encoder.stages.5.blocks.5.conv2.conv.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.5.conv2.all_modules.0.weight",
+            "network.shared_encoder.stages.5.blocks.5.conv2.conv.weight"
+          ],
+          "storage_bytes": 3686400
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.5.conv2.all_modules.1.bias",
+            "network.shared_encoder.stages.5.blocks.5.conv2.norm.bias"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stages.5.blocks.5.conv2.all_modules.1.weight",
+            "network.shared_encoder.stages.5.blocks.5.conv2.norm.weight"
+          ],
+          "storage_bytes": 1280
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stem.convs.0.all_modules.0.bias",
+            "network.shared_encoder.stem.convs.0.conv.bias"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stem.convs.0.all_modules.0.weight",
+            "network.shared_encoder.stem.convs.0.conv.weight"
+          ],
+          "storage_bytes": 36864
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stem.convs.0.all_modules.1.bias",
+            "network.shared_encoder.stem.convs.0.norm.bias"
+          ],
+          "storage_bytes": 128
+        },
+        {
+          "bitwise_equal": true,
+          "exact_same_view": true,
+          "keys": [
+            "network.shared_encoder.stem.convs.0.all_modules.1.weight",
+            "network.shared_encoder.stem.convs.0.norm.weight"
+          ],
+          "storage_bytes": 128
+        }
+      ],
+      "alias_partition_matches_factory": true,
+      "bitwise_alias_values_consistent": true,
+      "duplicate_named_bytes": 134515712,
+      "named_tensor_bytes": 272701704,
+      "tensor_count": 508,
+      "unique_storage_bytes": 138185992,
+      "unique_storage_cap_bytes": 167772160,
+      "unique_storage_count": 264
+    }
+  },
+  "contexts": [
+    {
+      "archived_input_hashes_checked": true,
+      "evaluated": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag3-context1/evaluated.npy",
+        "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+        "size_bytes": 147584
+      },
+      "id": "frag3-context1",
+      "inference": {
+        "evaluated_valid_pixel_count": 147456,
+        "inference_seconds": 4.0664184309998745,
+        "scored_tile_count": 25,
+        "skipped_tile_count": 0,
+        "tile_count": 25,
+        "tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.19876007800030493,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1649147610005457,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.17600922800011176,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16179929600002652,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15268773099978716,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15121186899978056,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1381501890000436,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16128616399964812,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16466919499998767,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15115723500002787,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1305239570001504,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12818409999999858,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.11949725100021169,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12119804600024509,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12256265199994232,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13298162699993554,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1543900050000957,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13695497600019735,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.18263350800043554,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16704676400058815,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1422261569996408,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14914446900002076,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1617221279993828,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1588450469998861,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16876031799984048,
+            "status": "scored"
+          }
+        ],
+        "valid_but_unscored_pixel_count": 0,
+        "valid_pixel_count": 147456
+      },
+      "input_hashes": [
+        "bfcddf5272b0b6bfba8ffb5ca725ae8df9da0e7577575bb11b46fd76281da99b",
+        "0a37035d78c6b6b8db72f7a5908754c645e3445662fb80e67ae63b5955681801",
+        "e88903551c8ec599de1d2be5ae7ce8a937b01b242a90dfd38566cc8cd1af08ac",
+        "518dff2136b9de90f8d115b0f27f9a8c1459073a78b396b4434d06a41b8c3cd5",
+        "65aa83ba7e2c3dc23b4dc7fad04ab2a593d8afd2037094a42d9b6497c612942d",
+        "c32d12279e6df638c16e134c109ee8edc64e4cc356939fcaae4062c5f4f95573",
+        "302d93f8c708fcd5e9825090a3785bdb9e517c32c1f3ff3311ac3df0912aa57b",
+        "12b512958d5ba53f4f7beb1837d97a746f566c6f1b99bd4ae63f0bde1613b531",
+        "28f728776927c7d95183cc92aeca67b6bf3711ce62637c48bcb6c3b9c4ab588a",
+        "e3c30c3a1bab7098b526bfb598e58514fc340e02943b18ae372a62866965c7f9",
+        "b5d354b0da4751df15ebf8a80d6a84f4809828e2f8dd149b42228834505ce179",
+        "8c4380bf5ea3513f88ffbf4f882cd94ccce685220ccf9d1210c360394f59902e",
+        "66fcf56e7e9a71f842db43c246666a87a8d736c9eef70b2f51c363bd49d833d5",
+        "ba74586b0e951153a2c78f13f636473d2848fbfc1d6edb681a5a644cc22ad0d6",
+        "d6269d69121f843e26aa92bd46828e241ad83beeca65a5a62d50dceded4f858f",
+        "a297ac867a87996b2f56f8251364c25491f6804fa544b3dc3c6a7b966e25a6fe",
+        "61480ca112c12bc436190d33f9eff485adb18e25d55ddb817c6fe1bf707b54e4",
+        "18b30b93420b7723d4c9b6ba730ebf85664e5766ed6d76eb769970962734ec3c",
+        "8275a08e0469c264d43304aee6b0229a6504fa2cbafab2be905353eb9fdaef1d",
+        "7e14ea2294999f8521070f8303a77cf7c67ce5e94b5f72794356d9dd96ce9a35",
+        "24784606c7a195cccb59453b5cbd6fed64642ff04315c2c5add1483e5b13eb69",
+        "88beaf7a3eb28228bbf042fad98ef96e80da68f8106a12a16c0488b8ded0838b",
+        "e08c1df1cab4b78f2ea3dcab679c8350a6a9e5234c983b1af35e48427e6dfdff",
+        "f2ae58ecc9e775a0bcde68ba7efb1b46c1c3827d4b78b8358513a689ed1ad908",
+        "1b6b064aad4641a443e983986618f0dc88fca7e32751ab18e3236ad126da2727"
+      ],
+      "logits": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag3-context1/logits.npy",
+        "sha256": "673928eefd142bedb173584415310b4e5e6c10d56a3f3b9da4ce8f7624e88296",
+        "size_bytes": 1638528
+      },
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag3-context1/scores.npy",
+        "sha256": "2ecc6751a5561f423b63b9ad1f237c13331d5dbb69816f48d56b1b66be5f7223",
+        "size_bytes": 589952
+      }
+    },
+    {
+      "archived_input_hashes_checked": true,
+      "evaluated": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag3-context2/evaluated.npy",
+        "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+        "size_bytes": 147584
+      },
+      "id": "frag3-context2",
+      "inference": {
+        "evaluated_valid_pixel_count": 147456,
+        "inference_seconds": 4.281337596999947,
+        "scored_tile_count": 25,
+        "skipped_tile_count": 0,
+        "tile_count": 25,
+        "tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16503200799979822,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15598220599986234,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16453742700014118,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14746225399994728,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1546337340005266,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.17733091700029036,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1672250689998691,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15141674499955116,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14963468899986765,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15884178699980112,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16553450999981578,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.19705538200014416,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.17281963599998562,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.17302285700043285,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16461618099947373,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.18549741600054404,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1496357900005023,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1447072009996191,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14379513699987,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14509966300011,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15500969100048678,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1524817899999107,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14950844800023333,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15801991799980897,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1626746550000462,
+            "status": "scored"
+          }
+        ],
+        "valid_but_unscored_pixel_count": 0,
+        "valid_pixel_count": 147456
+      },
+      "input_hashes": [
+        "943ec8fe9065391e04703a5be57c9ce275e26aac894cb6ff3f6616c8085a5d4c",
+        "960981f321461911806c8aa732d89adc10ea5e44d2284c62b0434eb6b0eaa709",
+        "d4806f2a349b402a37bd208b016ee556c126bc7a6b22539c2eaba533ec0858d9",
+        "f5b920d4128e68743300287299c6b45338f1c8868776673729a559a8ff186ddf",
+        "4e7b59ad269e17456864814c068c0fbbc29d79f54d8d92563e35d87ef8641979",
+        "1cb7bf86ab233f05facea41565cc6737a57d8574dfdae607a9f2b217fa003f6b",
+        "9017dc7565568f0b309a3a6c8b5e75d2316a7c2aba664047d68d8184146474dc",
+        "71af45a13689373fb3e7ea9f453572dcbc71fe782458c1c565ec358a415cc69c",
+        "6eecd92ca55ffb2cc692db943172fa862f54f9f9c053ce0113c520afde833d91",
+        "789c5870218525fed39d39618c0de9f660902cf9ceed1771dda351f23c0c6d5a",
+        "b54543de5d0af958e52bee2fd3f41bc1e2dd83bf792ddccaa200cc9b488d2e3e",
+        "16c6a523ced3f669866c0178e91f0c874e75a50f346929efd38f2624ee055939",
+        "e429df9ba5ed24c8ea8ebc3b560cf2f6551c3fcda91592d90cd651097db5b206",
+        "e369e497c5651d82956d4014940f0305ff19c1d269185f4a06aa9f3140f28020",
+        "d99a006a19c582a9f3a55241b009de70765a238f547ff5c253de285f414e7181",
+        "5fbef7982ec820fe379051c1155bcf8a807bda0c886d819871ab4b0dde779929",
+        "808b8212b8e92ee81f6d288bed0bf1f7a7b81d8ee4e7ac15ba0ae27be3c2f10d",
+        "1d0ca56d3bae99a7ac443705fb5e1fd35b724b2ef27997795fbef1392df999e1",
+        "1e546968bcfd7f6c8cab5cd30317d04249e914bf029b2ce8528653fd5bd61184",
+        "9425ae49e7660803f3d134da1ef008d3c4a180352b4624752ac04fb769526768",
+        "0c7d35005623dce7dc7a65a86a5e71d325404317ee9c433d5d68e4e83aaf733a",
+        "b5a9262de6dbd0d56d799457b48f5f0cbf1d14357382fa978a71ce35b5663d76",
+        "6339a22ae90ce5fcc7acb3ad2ee3eba08e59f5b68488cd41de00398c38bb4bdf",
+        "3cbc6f6465e8848df126c7d07621a4b52b3cb55d4d5d386fc84bc5957304414d",
+        "4ba6f2f77ce14f9394e891433b9f0d73170d8463ed503c17ec47a049bceb03f6"
+      ],
+      "logits": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag3-context2/logits.npy",
+        "sha256": "1df15ea9ba594ef60db8549872255ed35b4dd5ee163cf9287b6d549da9200079",
+        "size_bytes": 1638528
+      },
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag3-context2/scores.npy",
+        "sha256": "ea7dd8f9061fbe72fbfbdd2512683b8ebcf95c4c8e46621a70ccab962bb418af",
+        "size_bytes": 589952
+      }
+    },
+    {
+      "archived_input_hashes_checked": true,
+      "evaluated": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag1-context1/evaluated.npy",
+        "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+        "size_bytes": 147584
+      },
+      "id": "frag1-context1",
+      "inference": {
+        "evaluated_valid_pixel_count": 147456,
+        "inference_seconds": 4.178784603000167,
+        "scored_tile_count": 25,
+        "skipped_tile_count": 0,
+        "tile_count": 25,
+        "tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15068322399929457,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.147977630999776,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14784016400062683,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1495984690000114,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.147221336000257,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16954653599987068,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15625248899959843,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1562678219997906,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15877770600036456,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1562466300001688,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15681890300038503,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1552063619992623,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15642090300025302,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15472956400026305,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16462853299981361,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.18012023200026306,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16109287399922323,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15471264799998607,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16545338600008108,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15719229499973153,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.157032805000199,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.150800863000768,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15712892500050657,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15507182000055764,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16324198299935233,
+            "status": "scored"
+          }
+        ],
+        "valid_but_unscored_pixel_count": 0,
+        "valid_pixel_count": 147456
+      },
+      "input_hashes": [
+        "0af6a01aabf87a36f4ef9e159570d36c09f5420d8452946efdc462c9e1a1c58b",
+        "2240d4999446e3dc3d1d7f942fe91de5df3fbd4803c416a04e44e1fabf514779",
+        "2ed8cdaabc29bd6e4bee1a6d6089694f3623cff03d4e607bcac61e9900ce65b9",
+        "8366d284c6f687d0fdd9acc354d3fcfa5bdfde3aba142541e30c460cce986b46",
+        "439d4f0e2f0bd573f89c6c282d8eb56da52f8846972fd30db06de6c7548489b6",
+        "66795b6936633437711582145544e468cbf64df3d1ca680459e3ab582609fe6c",
+        "7f45eaa4fb49faf45617cd74292b4d4f48bc312f2e09e6f9d834888f01504fef",
+        "b9caa8cf83fcd2ef5a222df5de79fafa46a56af7a15b7c3bd2a8cc1adb39fdb5",
+        "94bb2cf78c050c5eb8bdb813a6924adb1d79af8b5741f3136ab1f4b3c131234d",
+        "fbdc8d607e9fb6de8d9fff96db3bd93983bd3936cd02ef8b679896def4e563fb",
+        "1294b6f55ae4a990f385ad9466d69c1249ce4e59e8fafbf172eb7ca35856a46d",
+        "738a017bd61406c4de7a4f670dd08160797032d2cdb8e015594ab3a22b1ff599",
+        "0fe4b5404c849e1e8cd003da9891760a0258ddb5a0ace3e4e3768e7441cb439e",
+        "a50a1c16e9e21d48c90b3f2fde026a1d474d1d5906610b75f2e468bbc3e187e3",
+        "bb4ff9f852a2dcd4628dfbfefb692ee6d92b1cb76d2e6f0768ad3ae087f73290",
+        "818e666ccc79c88656c4c4275708d9afdecaab045a7bc3b3451c798029f9be7f",
+        "3fb9c216b12f9099a9b81db40f598228d0c6777b84c68142b43f01d26954641f",
+        "40e48e018b141cdcbfd4e6a2afa9c0490a59c96471f7ba3dc1626827504454e8",
+        "665dde738fd333627303c6cdd7425ad9417452c0bcc1b4f97e62864760c2c20d",
+        "dc06968492ba976393319c00cc22c0ea6b6c8e7ed0538a86b96998bc64eb0679",
+        "1412a0e9b44e718f4200bd3880093bc3238cf1d7be257bba17a2057504155cbc",
+        "761ebcc04b727d1cceef34ebaa416d0864301dd514999bc41b81517cb4e79577",
+        "715b1310eec5319b25e520e089c657163a277f2d86ca2da3fc82cbb36e14c6cb",
+        "6cd8083c77861bb080c4573f8aa868390ff2de8150dc808591d9dfe5f8d06eec",
+        "a27dd1913d7d556ccbd40641fae712d1a1e025cd9a2dcb84d9862301b07db4a3"
+      ],
+      "logits": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag1-context1/logits.npy",
+        "sha256": "1745ee9893e6caf1ad8802d926fe7f8953ab9603c6bc4726d351d04379d1f8c8",
+        "size_bytes": 1638528
+      },
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag1-context1/scores.npy",
+        "sha256": "a4006df9c52a565906b69cda5b24d55cc8a275acadefa4f61140c9458602da34",
+        "size_bytes": 589952
+      }
+    },
+    {
+      "archived_input_hashes_checked": true,
+      "evaluated": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag1-context2/evaluated.npy",
+        "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+        "size_bytes": 147584
+      },
+      "id": "frag1-context2",
+      "inference": {
+        "evaluated_valid_pixel_count": 147456,
+        "inference_seconds": 3.82914129800065,
+        "scored_tile_count": 25,
+        "skipped_tile_count": 0,
+        "tile_count": 25,
+        "tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15302975099984906,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1269218279994675,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14654935500038846,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.11411007399965456,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1302109799999016,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1489480000000185,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13046467200001644,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12508416299988312,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1460794459999306,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14633138699991832,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14670992300034413,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15738758699990285,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14560224399974686,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1341289499996492,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13365741999950842,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16977622099966538,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14988864399947488,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15126019200033625,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1375298169996313,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14228364099926694,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15986188699935155,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14964899300048273,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14753702000052726,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14050757399945724,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1431078140003592,
+            "status": "scored"
+          }
+        ],
+        "valid_but_unscored_pixel_count": 0,
+        "valid_pixel_count": 147456
+      },
+      "input_hashes": [
+        "414436ece81cabb5933b2d6d48a9b5df9a6066cc30836351585d0f73a37bcd51",
+        "65888895b0dc7478abc25df0d8fcfe54c696b860ec6c74c98627b036dc7e8565",
+        "0251c06f9a097375820844ab0f955f5560a9813c33fbed5f24739d7abbb38f64",
+        "db8394b8a10c661ddc9aa9cfa8924d70ed864be7c50a36175967e14aacc5657f",
+        "01cbf662fce3ec8ef73688f81237f822628cde481b8c0e6c085935eb250b1968",
+        "20b600510b7a067a39e668ec7117761cb53e518f73d0a5433d3aa51bf94ef105",
+        "b53c03dc1a3ee8a7cb86f6ec2c774ba53d66d7282aee5f21bd37303394808218",
+        "c9b3f92faf9ea1c637485450a57ee8f59caf5386eca14adb0b7c7db35d40d8eb",
+        "c0e7fce5d084f55e722ab15869618e894726a800ed21386259c112c3bbb271a3",
+        "d42b2ae8d2db886bbf2819867b0f2222e2f137c9998828d5177d0d32dd13ef60",
+        "b599c73714d2373aa5f4e7c71e11f10b6fd75d18b1079320c4a9c12ae15c86bc",
+        "df9e55a5a82a253c0254d3aac45f374dc09c9e4d5adb31ef42818f9c77867671",
+        "23e43d8ed60d25fae6caf4e200b4e9c64235828baf66ad66461be63072762a76",
+        "3a2b9db2d674df04d96bb807fd7d4d366f4ae33844d085ee86770b3208c5552f",
+        "f9add38be3be36c2b8a75d419c6c3ce15bbbdfe3e64d739c63ea627d78cdfb78",
+        "8e93f458c67d49058b13ed3c6322c5efa1d03c48b8ecd1c056b4f6002173e168",
+        "b7cdc008327c8dc464e3e3ddbbb820a076af1e6c63da912c237e4fa75682bbfd",
+        "c5a89e494ce63296a82af92611309ba7a626b8388254cf5ea6f0e8e9c5bc9aca",
+        "8a5d4d93a0376a619d4a97b0493fa9d8d078aaa9707bc8bd1dbaac6d7bcfd9b4",
+        "43a6310a0beeabab0464573e4d0df9148848ad00dae9e85d94d361aec71a2968",
+        "89fdf14bdfcbe373b31fd6d3f3b0cefad414c4435db167e12118accecb5e0d60",
+        "644528a13f89db3ac21a2242792624eedbf39c0bd1f00cd45032b19c38ab2d7f",
+        "5730e57057ed70a93a5beccc12228fddded65a3376cff6abd9312c40edc44637",
+        "457e9d58d59b667718ee2469d54918b1eb6b6db5e34d45ebc520c0802c8c1888",
+        "bf599364f13722ab9aa81e7f94632b1aad482e77321cf3a7aed527e9742b4bc3"
+      ],
+      "logits": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag1-context2/logits.npy",
+        "sha256": "29b8b1b74dd95fda1397b28e86b2dd4d9277493ddd6b372bb757500d90cbbcbd",
+        "size_bytes": 1638528
+      },
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag1-context2/scores.npy",
+        "sha256": "1646f504a3bcc18185226a7f13b3a930a3b66812135cf7c9dcba7c19e06f41e0",
+        "size_bytes": 589952
+      }
+    },
+    {
+      "archived_input_hashes_checked": true,
+      "evaluated": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag2-context1/evaluated.npy",
+        "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+        "size_bytes": 147584
+      },
+      "id": "frag2-context1",
+      "inference": {
+        "evaluated_valid_pixel_count": 147456,
+        "inference_seconds": 4.128749256999981,
+        "scored_tile_count": 25,
+        "skipped_tile_count": 0,
+        "tile_count": 25,
+        "tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16099461900012102,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14854288599963184,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1492612989995905,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14698972499991214,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16297590199974366,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16801589599981526,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.17811653500029934,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1646445299993502,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.156262260999938,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1587436110003182,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16050732900021103,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.151456237000275,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1650266249998822,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16141140699983225,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15861966400007077,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16034553499957838,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16587438799979282,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16584317099932377,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1510069099995235,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14951614399979007,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13579245900018577,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1256298960006461,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1393461549996573,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1395124359996771,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1475159330002498,
+            "status": "scored"
+          }
+        ],
+        "valid_but_unscored_pixel_count": 0,
+        "valid_pixel_count": 147456
+      },
+      "input_hashes": [
+        "8e35bd02449c02863f60e908ae7514f726db0c97c2e4bebd059d7f71329eec87",
+        "6242fd932a75b11ee24b29ea0a2cd3b0403b4f8197f65c4e1dd990c00eb47625",
+        "f147d8aa0b9b54a5d5a879b534ba784304d4068bd55ad2f023911326a9099f42",
+        "fe404989226fed6ecbfa5d8e8a218c56280f44043cf45206c371783fa35117ba",
+        "2e8702c00adcf078b19269b0409d3f5384496a30a3ef8293dad9a0904f359f93",
+        "e64d361031c16a819651e1881006f0ff7f4ad62fe69320d97fe239ce5b991dd5",
+        "6c927ba4ba3d3ae89deb3eb3deb98f248f3ac3da14ea75807340468ec66a1863",
+        "6532867b2a140fdbf7140635b3f74c6859e84c00b4ab9be5611fa422021eba51",
+        "f3cfea3dbf14d01f8217ee7f59c56bc8d2ddf0314a8640d372677e89a0b8cdf2",
+        "6f60c3a928c1cd9932a890cc9718bbb6c3d8ecd30ba723e8846c202f22d1d3e1",
+        "deed0a049083c5656340693ff78c928721db5f9216987a3d6601f10a552ffbf8",
+        "e2a8d4eb680f6fd3e40da62cd3ceb50267fe7ba251313e969a1bd266d472373f",
+        "53e1375fbf2dc4500d5e6c359ee3439ba5fa620bc42f88bfb062c7bbc56864cd",
+        "4c130dc54fdc9aa845384e27e871ee3f1f1d44a4a27ae6cd5c2a70e97045b393",
+        "71b65cd63c9231a68309480d9349318933a239cd272cea3874bfced5523dbe82",
+        "08f2b07e4dac375f5ca277977ea2feec58b24b1d004cd99a13440ad79f2c0bca",
+        "f2b1f08434277bd678a38dc1c7222dc3cb672a7f3fb2454d8fb944756012572c",
+        "aadd0c8bf9fde759448d161d053712aab458d61a61b6376d6f7bdc4c2529f952",
+        "0115f7c1f3cfc3ff5690635c8a29423299408d3c216e745ac13e29e8a52e7223",
+        "a2132fcca72b2b8de6adf7c7b85692f85cd56fc33936095dde75a721971aae29",
+        "274e799d0fb939e50dfae88872a5d1ee0e4732dc473a94e4f7323f1cf4eca30e",
+        "3966d70eeccc0345122d6caf92ee83952f086471900d34be1a86e57262c5b7b5",
+        "91f29b70678241e40e0e41a64fceda4e345efa9cfd980c1496635d76e8c82099",
+        "0143d5384d9982801613fcee6b3b3a09532d4b1225b3a2245bff541c8a70f507",
+        "bb7ea933749c0869496e666914ef224c6ba71f02f60e07826f5cd8d9b0f27aa3"
+      ],
+      "logits": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag2-context1/logits.npy",
+        "sha256": "3b579255261ad194ba3790c06092b14581d4a98629c851492d5f486af45dabac",
+        "size_bytes": 1638528
+      },
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag2-context1/scores.npy",
+        "sha256": "3cc84099b5e89d7e9fbc82324685278204584c5dfddb685cb8321d9c80bd7806",
+        "size_bytes": 589952
+      }
+    },
+    {
+      "archived_input_hashes_checked": true,
+      "evaluated": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag2-context2/evaluated.npy",
+        "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+        "size_bytes": 147584
+      },
+      "id": "frag2-context2",
+      "inference": {
+        "evaluated_valid_pixel_count": 147456,
+        "inference_seconds": 3.7348520699997607,
+        "scored_tile_count": 25,
+        "skipped_tile_count": 0,
+        "tile_count": 25,
+        "tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12962518299991643,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1216023810002298,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1340861220005536,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1467498699994394,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15072188600061054,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13126485500015406,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15713726499961922,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12559842399969057,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12676952899983007,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13894966699990619,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16702064699984476,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16284146700036217,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1446070450001571,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14681659399957425,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15489808000074845,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14348421199974837,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15619838000020536,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1287658779992853,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14984590999938519,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12873047900029633,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13350743499995588,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13038642999981676,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.11719984499995917,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1174857570003951,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12656889699974272,
+            "status": "scored"
+          }
+        ],
+        "valid_but_unscored_pixel_count": 0,
+        "valid_pixel_count": 147456
+      },
+      "input_hashes": [
+        "f8668a9db3aec3afee6811d6d7ae12fdd92721047d9091ea8ae3c2d37a0ba200",
+        "240e49116835f4f6b419d0a588f5655307aee3e6dc2291ba8606aba2268d45b0",
+        "ca7ae754525c62cb870cc5f0911b001f5e453c97a8b437d70097f687a141e181",
+        "d4df28f77e34281aedd1c6c862e9a8579f1b4f38be7018ef083051079a34a975",
+        "82f6bcc673b6b00a54466765eb4f3a0ac26a6e166e6db7bf80163861a7071d85",
+        "fbeb56f3039cc9899f27785dcabb8b5f9e00c41e5ffe0d6a22354b23a83220ea",
+        "5b43d55032167665a9844ba1396a3e740651d751f3f2150cb0f7abecab395717",
+        "c7ce53776a96214acf39ec9e1724e4dee771b5a4d7542a8f7871d213226399f6",
+        "eb32d39703302ae5c5084a5c1ade33e11f84ec3b5cb7160ed3d4e85c3d65ed16",
+        "3116406e2900676ff7c3613e161a5c607082a7dd68569e994600d4c389ec7154",
+        "1af674e36de806b06f480dd008c93f509f58c5d449643fddc0e46b0bd4211d38",
+        "2e9d5c7033a160e457ddfb4a3b56319c9716064e820337b80be90e2d9793a40f",
+        "2b8d1f40ad3e1c6ea43ba4ca4bb436e94e4826be8f708c037a72435226e196c2",
+        "dde5715bca4fe42ef82e4249d2bc2caad687a153163e5ec0c5ab3151eb3cca0a",
+        "713257151492a7ec75838852170049288f025c15b87233815ebda5d186ccc0b4",
+        "4c1b33097ac06c34f1e9330fbead70cfdc5c184be64c28a01892906ad99ca310",
+        "ef04c6b17994a062f6356c3047e24e065928674d62e0e70fe431e564f71ef872",
+        "1750b20552d73da35a4a881acca366b9cc339c8b2a64b67f33e2f36cf371f63c",
+        "364a0284ab6a797dc626e657d80e33dc6cf08031c142f212132bbfa238f3267f",
+        "cb0aa4cf91d051e2aa9f4d2934d45bd788e27d4c45919e5d87252ae5b5ef901e",
+        "fd45e58692fc0fcd2859182c388bedc1229d76d71c4aa35c2da73e213622eb3c",
+        "f1a0b3eb00e08517fd54f9de8c3c75fb2d12d8d3cf2b13a8482441804e8ca689",
+        "45627815e373e3dd165eba9f291648a44cab04ae5f458b040f7add8b65d732f7",
+        "9c18a6c73d809b2c880462262b70fcf83753874e1e78eb713b1b7bcc1643f814",
+        "cd0e246cf1d8a5f162cbe6c51318ccbab59595b9e7ec43d60a5e9589e3618153"
+      ],
+      "logits": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag2-context2/logits.npy",
+        "sha256": "fe1690f8cb82f11ed6d4e9bb5d646dc243114c806d0267664b231c6288e4e5fd",
+        "size_bytes": 1638528
+      },
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/frag2-context2/scores.npy",
+        "sha256": "8df7b0673ff2a53acfce8e93d3f625ddf9b8cc41dbe6e869f7ebc87374e0cd11",
+        "size_bytes": 589952
+      }
+    },
+    {
+      "archived_input_hashes_checked": false,
+      "evaluated": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/pherc0814-46527-fresh-rank01/evaluated.npy",
+        "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+        "size_bytes": 147584
+      },
+      "id": "pherc0814-46527-fresh-rank01",
+      "inference": {
+        "evaluated_valid_pixel_count": 147456,
+        "inference_seconds": 3.8827841120000812,
+        "scored_tile_count": 25,
+        "skipped_tile_count": 0,
+        "tile_count": 25,
+        "tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13993078400017112,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.11671433999981673,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12458139799946366,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12707961300020543,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13430289100051596,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1511453059993073,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13507015699997282,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13194585800010827,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.11430322999967757,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.17458093200002622,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15020300800006225,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1715864279995003,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1586821710006916,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1484550590002982,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16570457400030136,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15601710900045873,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1564270929993654,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15203179900072428,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1568855289997373,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1527499000003445,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14739619300053164,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15370238200011954,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1608013539998865,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1264579179996872,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13513154400061467,
+            "status": "scored"
+          }
+        ],
+        "valid_but_unscored_pixel_count": 0,
+        "valid_pixel_count": 147456
+      },
+      "input_hashes": [
+        "0c896adecfeae515f41d08e88295cd4572ab19f1ad76ccacdaa32c1adc3dd9bf",
+        "9a6f7ae9e830181dc001a1e5e6234dde5817a5d221c7e37c256a555d315f9fda",
+        "c1bf91c2c5d26b260a1b1e4e047933cbbe034db2239bd2606dfb6245afe1cc2f",
+        "e342296d83bf57a4d9657c32aa1414961daa0f767109e955c387bc139b81cbd1",
+        "3f76ce55f78d0e8e910d27485a5a62b82b2bfc6c53a7fc5f61ce1ef44e66dab3",
+        "4b8817c7f6a5e89ec0dae2606d78433a6e27c847087ff1da29f1a571700c8c77",
+        "87cc09aeb73c5e21782cfc76ee8b544bf8ad46aa84ca7f543b7111d65d0d23b3",
+        "a38c9024e6a5da1fb363de5ed052cdc1aaf7e8f7c79de7507f6aeddacfe8ac5b",
+        "868bd0c85e2be0575ad724c6b26a5f538548bb302c8143f496fcd4a04ce719c5",
+        "52b15931cbf642efeade1471bdc85af46e4e7ee00e5f833ddb5f28b26b3c9d9e",
+        "637d43919cc1c6ae4f6b4d2e15da4a5ff38b879e8297043d4f7073437cde696a",
+        "3e0ee1340a7f7315df3a013cce4fb0c00cbcf0e0807fd05c91e69a95b2953bc9",
+        "0560ccacb0bcf9cd5dd964a03333141baedd96017069baf33aa61509b741c17f",
+        "77bb724099079b3a33d84383d0b2241de887a062704f694fd1573014d98407d4",
+        "75558e80537b6b2da6c7e75935d1aba2bca2c68c4678f36f56b71efc866daa98",
+        "e5491690f42b73fa2cdde6db1586375b6549c672e0311176ff8813a66f5649a3",
+        "332eece813b3e6b3e9528b900cd647ede0d718969ef63f21fadd1208a015e7cf",
+        "54056db48947e52ad8078f101fac99056ea5d01f9aee8d8fad8842ce4c641319",
+        "0f597b346c502f5ed45141ea1828a995a414b79fb7b19f21d1be9433bbe68fa1",
+        "6d2a8d1ec25a16624c4c09da162431f0ce0af128628ec2d102857783e2622d1f",
+        "4e7c6fd782f566c21db4f9ebd70221eec1dcbd0bbf7250aeded5dac2922e990c",
+        "4642e4d7fdea60beab1cc61b1b09744208baf0bd24761484881d3c721b155166",
+        "66d9b9c6db0ebd73b85a23b08925c83fa4100245d1f0a2366d4d5235d8a62c94",
+        "0cab2c4cf377590514d3373f7764b6631b1f8d433394ac15e761b75664edc804",
+        "54ded2f394459dbec08ce1c1ff7dcac777d8f80e5c0627e5138158c4e12b2245"
+      ],
+      "logits": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/pherc0814-46527-fresh-rank01/logits.npy",
+        "sha256": "440696e9d139fcdcb1c884ac4ed31b248c4de2390f4a4cc4cac4c605a921d0c8",
+        "size_bytes": 1638528
+      },
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/pherc0814-46527-fresh-rank01/scores.npy",
+        "sha256": "253c773b54d2e81179668f9c872eab38c413a1d139aa2594696dcb47bf30932d",
+        "size_bytes": 589952
+      }
+    },
+    {
+      "archived_input_hashes_checked": false,
+      "evaluated": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/pherc0814-46527-fresh-rank14/evaluated.npy",
+        "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+        "size_bytes": 147584
+      },
+      "id": "pherc0814-46527-fresh-rank14",
+      "inference": {
+        "evaluated_valid_pixel_count": 147456,
+        "inference_seconds": 3.772275589999481,
+        "scored_tile_count": 25,
+        "skipped_tile_count": 0,
+        "tile_count": 25,
+        "tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14140933999988192,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12881914599984157,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13069811799960007,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16112098099983996,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1422047689993633,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15032441499988636,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.17037836800045625,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1586899829999311,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.16013765499974397,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1632088329997714,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1571666619993266,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12882183999954577,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14556814800016582,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12434200899951975,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "forward_seconds": 0.11998368100012158,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.15194816199982597,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.11813867000000755,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14429263600050035,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13799591099996178,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12748844300040219,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1133017350002774,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.12888828900031513,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.1545788609992087,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.13061848599954828,
+            "status": "scored"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "forward_seconds": 0.14688211900011083,
+            "status": "scored"
+          }
+        ],
+        "valid_but_unscored_pixel_count": 0,
+        "valid_pixel_count": 147456
+      },
+      "input_hashes": [
+        "9cf0314d4ad2c23286f5cd928fdec05199538fb8ca195e95de7a6792d728f04c",
+        "afc1bcd9892416342042e9a2c9fcdfbfbcfa890eab5b0e84a2e5913d5abd1613",
+        "e470870673d2d46841d1ba1effa790a3d26bed7a12b59234cfc250c354f63a14",
+        "492b80582d9b153f481b6022c91dff58add166a95b3b6b3dba328ce5f9a3b5ce",
+        "7925cb3b18a297c6cfcb0f29847bc810b1b513596e8062160b0fa3b370013b09",
+        "53794fa2b02d96e815c4eb14a22e23f1b81d274af18350b5e4bd149f85de0638",
+        "3790748a5a0fc66fdf5c39a5a1588e463ec9b244e54488ddc54355a063b202c7",
+        "7694a26310134bec484e2200c2cd415c30a604806e252bea9b7595d8c566cc95",
+        "292eb1cad8518ade25ff7d913df5d750db627abeb4aab23f02d0745c56b1bcce",
+        "f888ac93ac9b9d0745614165c16d043c5a47541d39de250cfe74611521774263",
+        "d74163b63e93d080b5c43c2884ab3ef64c298d77e090acbb4b9a79884cf2bce4",
+        "aea199271f53359eeb33c26073458d24f0a110f1c5c07b7bd2decce1ec9d73e1",
+        "be51c2386afc806ff9ddb0f7f8fcad9e6781e40b4a3b6f6000375dba08e1f0ae",
+        "cc03a91f8a3ed79a36e6cf4a1f2257dec212914693e5b4be0021dad5a834d4a8",
+        "3459b4836a362ac4909880d813def2d2769e303134fa73ec026de770c411641b",
+        "6d079ed0c77eb317d3f95162a4c8ee828147c89bd338a70f11c31783f59708cd",
+        "d16ffdc7941bb09d5fb508cd06b95bd3dcd030ae5322c07b96a2a6b4f20bf1d1",
+        "88f43a754b423cc9f2562d0589ddad94f6196a3c671da5cee622f230fe5f5ffb",
+        "f1e57ab69599e9c591d32e694fa5a052c3c462a3fc931267e9402d92cfb846cb",
+        "f3057635783dc1f03c7899148c185500033dc8833f2c0465017fd96a72e76a8e",
+        "ac659e447003d0f6e406619e9cde4d0bcc808b1ce8ca6b3454e2a4dd26997d58",
+        "28d19bb901678addf4104db43b60a85f91884218b8993758fcb2bbb76199ab29",
+        "cee71727c1c0f37481d53024a0f1938433de1c51960a0006f5398854bd92db25",
+        "c1cf9de285ab4649c1c89472880abeb419b2cc4a2804c0f4af940e3a70035f45",
+        "d1c717771b5f62c58e11b89af2c04e4a0e8e827a3cce1d3092fb477590b6101a"
+      ],
+      "logits": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/pherc0814-46527-fresh-rank14/logits.npy",
+        "sha256": "79dadbb470ddeeaf6bfc4ebb1f2563e04bf7a338b2ca173b6f4e57142658e437",
+        "size_bytes": 1638528
+      },
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/run-v1/eval-D_replication-512/pherc0814-46527-fresh-rank14/scores.npy",
+        "sha256": "7a106e4943d0c3744ebe56fd7634f626724050f54e3968d40f70399165f05afc",
+        "size_bytes": 589952
+      }
+    }
+  ],
+  "elapsed_seconds": 36.89810398300051,
+  "model_state_unchanged": true,
+  "peak_RSS_bytes": 592982016,
+  "status": "PASS",
+  "step": 512,
+  "student_forwards": 200
+}

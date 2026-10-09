@@ -1,0 +1,339 @@
+{
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/fortieth-experiment/admission-stage2/ACQUISITION_PLAN.json",
+    "sha256": "e5ef31329a400d43989bcfcca692e53e71e1720a9ece760f54f6b86cd313a103",
+    "size_bytes": 10619
+  },
+  "probes": [
+    {
+      "all_32_replacements_feasible": true,
+      "bbox_source_xywh": [
+        2560,
+        640,
+        256,
+        256
+      ],
+      "negative": 36927,
+      "positive": 16085,
+      "tile_counts": [
+        {
+          "negative": 9348,
+          "positive": 271,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "negative": 9954,
+          "positive": 271,
+          "x": 32,
+          "y": 0
+        },
+        {
+          "negative": 10320,
+          "positive": 174,
+          "x": 64,
+          "y": 0
+        },
+        {
+          "negative": 10637,
+          "positive": 0,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "negative": 10765,
+          "positive": 0,
+          "x": 128,
+          "y": 0
+        },
+        {
+          "negative": 11030,
+          "positive": 2685,
+          "x": 0,
+          "y": 32
+        },
+        {
+          "negative": 11630,
+          "positive": 2691,
+          "x": 32,
+          "y": 32
+        },
+        {
+          "negative": 12805,
+          "positive": 1785,
+          "x": 64,
+          "y": 32
+        },
+        {
+          "negative": 14146,
+          "positive": 587,
+          "x": 96,
+          "y": 32
+        },
+        {
+          "negative": 14855,
+          "positive": 6,
+          "x": 128,
+          "y": 32
+        },
+        {
+          "negative": 11407,
+          "positive": 4944,
+          "x": 0,
+          "y": 64
+        },
+        {
+          "negative": 10801,
+          "positive": 5583,
+          "x": 32,
+          "y": 64
+        },
+        {
+          "negative": 11915,
+          "positive": 4469,
+          "x": 64,
+          "y": 64
+        },
+        {
+          "negative": 14112,
+          "positive": 2272,
+          "x": 96,
+          "y": 64
+        },
+        {
+          "negative": 15237,
+          "positive": 1147,
+          "x": 128,
+          "y": 64
+        },
+        {
+          "negative": 9933,
+          "positive": 6451,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "negative": 8270,
+          "positive": 8114,
+          "x": 32,
+          "y": 96
+        },
+        {
+          "negative": 8504,
+          "positive": 7880,
+          "x": 64,
+          "y": 96
+        },
+        {
+          "negative": 10507,
+          "positive": 5877,
+          "x": 96,
+          "y": 96
+        },
+        {
+          "negative": 11633,
+          "positive": 4751,
+          "x": 128,
+          "y": 96
+        },
+        {
+          "negative": 9277,
+          "positive": 6967,
+          "x": 0,
+          "y": 128
+        },
+        {
+          "negative": 6730,
+          "positive": 9654,
+          "x": 32,
+          "y": 128
+        },
+        {
+          "negative": 5843,
+          "positive": 10541,
+          "x": 64,
+          "y": 128
+        },
+        {
+          "negative": 6666,
+          "positive": 9718,
+          "x": 96,
+          "y": 128
+        },
+        {
+          "negative": 7537,
+          "positive": 8847,
+          "x": 128,
+          "y": 128
+        }
+      ],
+      "unknown": 12524
+    }
+  ],
+  "selected": {
+    "all_32_replacements_feasible": true,
+    "bbox_source_xywh": [
+      2560,
+      640,
+      256,
+      256
+    ],
+    "negative": 36927,
+    "positive": 16085,
+    "tile_counts": [
+      {
+        "negative": 9348,
+        "positive": 271,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "negative": 9954,
+        "positive": 271,
+        "x": 32,
+        "y": 0
+      },
+      {
+        "negative": 10320,
+        "positive": 174,
+        "x": 64,
+        "y": 0
+      },
+      {
+        "negative": 10637,
+        "positive": 0,
+        "x": 96,
+        "y": 0
+      },
+      {
+        "negative": 10765,
+        "positive": 0,
+        "x": 128,
+        "y": 0
+      },
+      {
+        "negative": 11030,
+        "positive": 2685,
+        "x": 0,
+        "y": 32
+      },
+      {
+        "negative": 11630,
+        "positive": 2691,
+        "x": 32,
+        "y": 32
+      },
+      {
+        "negative": 12805,
+        "positive": 1785,
+        "x": 64,
+        "y": 32
+      },
+      {
+        "negative": 14146,
+        "positive": 587,
+        "x": 96,
+        "y": 32
+      },
+      {
+        "negative": 14855,
+        "positive": 6,
+        "x": 128,
+        "y": 32
+      },
+      {
+        "negative": 11407,
+        "positive": 4944,
+        "x": 0,
+        "y": 64
+      },
+      {
+        "negative": 10801,
+        "positive": 5583,
+        "x": 32,
+        "y": 64
+      },
+      {
+        "negative": 11915,
+        "positive": 4469,
+        "x": 64,
+        "y": 64
+      },
+      {
+        "negative": 14112,
+        "positive": 2272,
+        "x": 96,
+        "y": 64
+      },
+      {
+        "negative": 15237,
+        "positive": 1147,
+        "x": 128,
+        "y": 64
+      },
+      {
+        "negative": 9933,
+        "positive": 6451,
+        "x": 0,
+        "y": 96
+      },
+      {
+        "negative": 8270,
+        "positive": 8114,
+        "x": 32,
+        "y": 96
+      },
+      {
+        "negative": 8504,
+        "positive": 7880,
+        "x": 64,
+        "y": 96
+      },
+      {
+        "negative": 10507,
+        "positive": 5877,
+        "x": 96,
+        "y": 96
+      },
+      {
+        "negative": 11633,
+        "positive": 4751,
+        "x": 128,
+        "y": 96
+      },
+      {
+        "negative": 9277,
+        "positive": 6967,
+        "x": 0,
+        "y": 128
+      },
+      {
+        "negative": 6730,
+        "positive": 9654,
+        "x": 32,
+        "y": 128
+      },
+      {
+        "negative": 5843,
+        "positive": 10541,
+        "x": 64,
+        "y": 128
+      },
+      {
+        "negative": 6666,
+        "positive": 9718,
+        "x": 96,
+        "y": 128
+      },
+      {
+        "negative": 7537,
+        "positive": 8847,
+        "x": 128,
+        "y": 128
+      }
+    ],
+    "unknown": 12524
+  },
+  "selection_before_model_calls": true,
+  "selection_before_surface_chunks": true
+}
