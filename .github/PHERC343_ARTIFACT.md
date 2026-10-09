@@ -8,7 +8,7 @@ gh workflow run package-pherc343-review.yml --repo jl-drx/Herculaneum --ref main
 
 The repository must remain private. The job uses only `contents: read`; every other repository-token permission is disabled. Official checkout/upload actions are pinned to full commit hashes. There are no schedules, push/PR triggers, deployments, package installations, caches, model loads or inference steps. A five-minute Ubuntu job uploads one artifact with **one-day retention**. Downloading requires repository access.
 
-The snapshot is pinned to `f85c6ab579da054d3ca94c3b7e4b58699f7c6a3a`, with its manifest independently pinned by SHA-256. Exactly three LFS objects are fetched (49,059,957 bytes total):
+The snapshot is pinned to `f85c6ab579da054d3ca94c3b7e4b58699f7c6a3a`, with its manifest independently pinned by SHA-256. The LFS batch API requests exactly three object IDs directly, without scanning the rest of the snapshot's Git tree. Exactly three LFS objects are fetched (49,059,957 bytes total):
 
 | LFS object | Bytes | Purpose |
 | --- | ---: | --- |

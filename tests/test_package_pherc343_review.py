@@ -3,6 +3,8 @@
 import hashlib
 import importlib.util
 import io
+import json
+import os
 from pathlib import Path
 import tarfile
 import tempfile
@@ -78,6 +80,36 @@ class PackagingTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "new directory"):
             PACKAGER.package(self.root, output, {}, self.record)
         self.assertEqual((output / "mine").read_text(), "keep")
+
+    def test_batch_requests_only_pinned_objects_and_limits_token_to_github(self):
+        bundles = {}
+        bodies = {}
+        for name in PACKAGER.SELECTED_BUNDLES:
+            body = name.encode(); oid = hashlib.sha256(body).hexdigest()
+            bundles[name] = {"name": name, "bytes": len(body), "sha256": oid}
+            bodies[oid] = body
+        calls = []
+
+        def response(url, headers, data=None):
+            calls.append((url, headers, data))
+            if data is not None:
+                batch = json.loads(data)
+                self.assertEqual({x["oid"] for x in batch["objects"]}, set(bodies))
+                objects = [{**item, "actions": {"download": {"href": "https://objects.example/" + item["oid"]}}}
+                           for item in batch["objects"]]
+                return io.BytesIO(json.dumps({"objects": objects}).encode())
+            self.assertNotIn("Authorization", headers)
+            return io.BytesIO(bodies[url.rsplit("/", 1)[1]])
+
+        with patch.object(PACKAGER, "git", return_value="https://github.com/jl-drx/Herculaneum"), \
+                patch.object(PACKAGER, "object_cache", return_value=self.root / "cache"), \
+                patch.object(PACKAGER, "request_lfs", side_effect=response), \
+                patch.dict(os.environ, {"GITHUB_TOKEN": "unit-test-placeholder"}):
+            PACKAGER.fetch(self.root, bundles)
+        self.assertEqual(len(calls), 4)
+        self.assertEqual(len(list((self.root / "cache").rglob("*.*"))), 0)
+        for record in bundles.values():
+            PACKAGER.verify_file(PACKAGER.object_path(self.root / "cache", record), record)
 
 
 if __name__ == "__main__":
