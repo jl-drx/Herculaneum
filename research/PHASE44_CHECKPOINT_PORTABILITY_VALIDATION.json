@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Post-seal portability tooling only; no scientific run changed",
+  "positive": {
+    "status": "PASS",
+    "arm": "fold0-native",
+    "tensors": 42,
+    "all_tensors_bit_identical": true,
+    "source_container_sha256_matches": true
+  },
+  "altered_tensor_rejected": true,
+  "all_six_source_checkpoint_file_digests_match_scientific_manifest": true,
+  "new_model_forwards": 0,
+  "new_optimizer_updates": 0,
+  "full_training_replay_performed": false
+}
