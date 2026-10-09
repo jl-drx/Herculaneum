@@ -1,0 +1,151 @@
+{
+  "status": "PASS_METADATA_ALGEBRA_ONLY",
+  "source": {
+    "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/research/pair-registration-metadata/PHercParis4-catalog.json",
+    "size_bytes": 657194,
+    "sha256": "6f7ec9d582325a4e160c7621573de2bb296797efeca4e479092709d9b2323b14"
+  },
+  "schema": {
+    "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/research/pair-final-metadata/catalog-schema.txt",
+    "size_bytes": 13520,
+    "sha256": "873c0eb4397e696a93899f71ae86576ad9e6eb62ae4c4bea4543ab3cf1d87376"
+  },
+  "old_volume_id": "20230205180739",
+  "new_volume_id": "20260411134726",
+  "nominal_voxel_um": [
+    7.91,
+    2.4
+  ],
+  "volume_metadata_public": true,
+  "coordinates": "XYZ level0 voxel units; array shapes ZYX",
+  "forward": {
+    "to_volume_id": "20260411134726",
+    "matrix": [
+      [
+        -2.5274817416353166,
+        -2.051741523969322,
+        -0.008938499986201654,
+        33653.857003323545
+      ],
+      [
+        -2.052282716480818,
+        2.525851082894605,
+        0.046946055615706896,
+        15821.08043253885
+      ],
+      [
+        0.023462117467507017,
+        -0.04300531554164876,
+        3.2611319165319705,
+        29400.729373358285
+      ]
+    ],
+    "derivation_path": "20230205180739-20260411134726\u207b\u00b9"
+  },
+  "inverse": {
+    "to_volume_id": "20230205180739",
+    "matrix": [
+      [
+        -0.23841071793061291,
+        -0.19362400462393486,
+        0.0021338753748049444,
+        11024.043667710986
+      ],
+      [
+        -0.19369582314244563,
+        0.23850010646891293,
+        -0.003964264465841007,
+        2861.834433287773
+      ],
+      [
+        -0.0008390736081137979,
+        0.004538179336261518,
+        0.30657436617414124,
+        -9057.070809768327
+      ]
+    ],
+    "derivation_path": "20260411134726-20230205180739"
+  },
+  "max_inverse_roundtrip_error": 9.094947017729282e-13,
+  "max_forward_roundtrip_error": 1.8189894035458565e-12,
+  "linear_determinant": -34.55864981358577,
+  "linear_singular_values": [
+    3.26154860786679,
+    3.2558454575566356,
+    3.254386493012141
+  ],
+  "old_shape_ZYX": [
+    14258,
+    7888,
+    8096
+  ],
+  "new_shape_ZYX": [
+    75784,
+    32693,
+    32693
+  ],
+  "native_chunks_ZYX": [
+    128,
+    128,
+    128
+  ],
+  "bytes_per_uncompressed_uint8_chunk": 2097152,
+  "segment_id": "20231016151002",
+  "paired_mesh_files_listed": true,
+  "mesh_metadata": {
+    "old": {
+      "bbox": [
+        [
+          2357.035888671875,
+          2305.150146484375,
+          5407.5810546875
+        ],
+        [
+          4400.376953125,
+          5338.80859375,
+          13693.27734375
+        ]
+      ],
+      "format": "tifxyz",
+      "scale": [
+        0.05,
+        0.05
+      ],
+      "type": "seg",
+      "uuid": "output_tifxyz"
+    },
+    "new": {
+      "area_vx2": 1387692371.9610007,
+      "bbox": [
+        [
+          14211.287109375,
+          13732.3427734375,
+          47001.9921875
+        ],
+        [
+          20522.046875,
+          24200.130859375,
+          73931.6171875
+        ]
+      ],
+      "format": "tifxyz",
+      "scale": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "type": "seg",
+      "uuid": "out"
+    }
+  },
+  "old_bbox_in_volume": true,
+  "new_bbox_in_volume": true,
+  "metadata_GET_requests": 19,
+  "metadata_delivered_bytes": 104487,
+  "additional_HEAD_requests": 1,
+  "scientific_image_or_mesh_payloads_read": 0,
+  "physical_registration_validated": false,
+  "held_out_landmark_error_measured": false,
+  "independent_reference_labels_established": false,
+  "legacy_seed42_parent_exposure": "Paris4 appears in the named seed42 training representations; do not call it upstream-unseen",
+  "scope": "Transforms, paired meshes and both public volume metadata are available. Algebra and in-bounds boxes are not landmark accuracy, surface equivalence or ink evidence."
+}

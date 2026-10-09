@@ -1,0 +1,81 @@
+{
+  "records": [
+    {
+      "tag": "sample",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4%2F&delimiter=%2F&max-keys=1000",
+      "bytes": 583,
+      "sha256": "01d2fbf58fb5913f821c1777ce4ee6313f5b107662d17176998ce0efd7d2b80d",
+      "retrieved_at_utc": "2026-10-09T14:26:33.215417+00:00"
+    },
+    {
+      "tag": "volumes",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4%2Fvolumes%2F&delimiter=%2F&max-keys=1000",
+      "bytes": 889,
+      "sha256": "0d4b38d5d32f539c3a57be213f7f75e8b6a9c006eda117f313fb8627ff74b1df",
+      "retrieved_at_utc": "2026-10-09T14:26:33.408055+00:00"
+    },
+    {
+      "tag": "segment",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4%2Fsegments%2F20231016151002%2F&delimiter=%2F&max-keys=1000",
+      "bytes": 811,
+      "sha256": "90eda14fb253711001b842f2ec5b74b6297d42fc81107ab4aba657ca10f7bf5e",
+      "retrieved_at_utc": "2026-10-09T14:26:33.675948+00:00"
+    },
+    {
+      "tag": "surface-volumes",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4%2Fsegments%2F20231016151002%2Fsurface-volumes%2F&delimiter=%2F&max-keys=1000",
+      "bytes": 632,
+      "sha256": "cf686ff819e8b4dbab82c84ce457fd84075698d622179e98325d450917b5a1b6",
+      "retrieved_at_utc": "2026-10-09T14:26:33.904353+00:00"
+    }
+  ],
+  "results": [
+    {
+      "prefix": "PHercParis4/",
+      "prefixes": [
+        "PHercParis4/photos/",
+        "PHercParis4/representations/",
+        "PHercParis4/segments/",
+        "PHercParis4/volumes/"
+      ],
+      "objects": [],
+      "truncated": "false"
+    },
+    {
+      "prefix": "PHercParis4/volumes/",
+      "prefixes": [
+        "PHercParis4/volumes/20260310170716-45.532um-11.0m-74keV-masked.zarr/",
+        "PHercParis4/volumes/20260310173927-45.532um-11.0m-110keV-masked.zarr/",
+        "PHercParis4/volumes/20260323153942-2.400um-0.2m-137keV-masked.zarr/",
+        "PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/",
+        "PHercParis4/volumes/20260608103018-1.129um-0.2m-78keV-masked.zarr/"
+      ],
+      "objects": [],
+      "truncated": "false"
+    },
+    {
+      "prefix": "PHercParis4/segments/20231016151002/",
+      "prefixes": [
+        "PHercParis4/segments/20231016151002/ink-detection/",
+        "PHercParis4/segments/20231016151002/ink-labels/",
+        "PHercParis4/segments/20231016151002/mesh/",
+        "PHercParis4/segments/20231016151002/surface-renders/",
+        "PHercParis4/segments/20231016151002/surface-volumes/"
+      ],
+      "objects": [],
+      "truncated": "false"
+    },
+    {
+      "prefix": "PHercParis4/segments/20231016151002/surface-volumes/",
+      "prefixes": [
+        "PHercParis4/segments/20231016151002/surface-volumes/2.4um-0.22m-78keV-volume-20260411134726.zarr/",
+        "PHercParis4/segments/20231016151002/surface-volumes/45.532um-11.0m-74keV-volume-20260310170716.zarr/"
+      ],
+      "objects": [],
+      "truncated": "false"
+    }
+  ],
+  "requests": 4,
+  "bytes": 2915,
+  "scientific_chunk_reads": 0
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/workspace/.venvs/herculaneum/bin/python",
+    "-B",
+    "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run_evaluation.py",
+    "--arm",
+    "E_no_new_BCE",
+    "--step",
+    "512",
+    "--deadline",
+    "10882.822332962"
+  ],
+  "job": "eval-E_no_new_BCE-512",
+  "log": {
+    "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run-v1/eval-E_no_new_BCE-512.log",
+    "sha256": "3522024b0a4b0b733f5842aa6d50ed25891ef865fe16f887dcaa1f7d6c002819",
+    "size_bytes": 2166
+  },
+  "returncode": 0,
+  "wall_seconds": 38.51339495399952
+}
