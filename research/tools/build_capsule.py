@@ -33,7 +33,7 @@ def main():
             info=tarfile.TarInfo(record['path']);info.size=record['size_bytes'];info.mode=0o644
             with source.open('rb') as stream:archive.addfile(info,stream)
         payload=(json.dumps(manifest,indent=2,sort_keys=True)+'\n').encode();info=tarfile.TarInfo('CAPSULE_MANIFEST.json');info.size=len(payload);info.mode=0o644;archive.addfile(info,io.BytesIO(payload))
-    descriptor=dict(schema_version=1,file=args.output.name,sha256=digest(args.output),size_bytes=args.output.stat().st_size,files=len(records),uncompressed_payload_bytes=sum(r['size_bytes'] for r in records),release_tag='plinius-phase39-replay',repository='jl-drx/Herculaneum',release_intent='private repository draft asset; metadata verified after upload',python='3.12',numpy='2.5.3',scope=manifest['scope'])
+    descriptor=dict(schema_version=1,file=args.output.name,sha256=digest(args.output),size_bytes=args.output.stat().st_size,files=len(records),uncompressed_payload_bytes=sum(r['size_bytes'] for r in records),git_path='research/replay/'+args.output.name,repository='jl-drx/Herculaneum',storage='One bounded replay fixture committed to private research branch; bulk data/checkpoints remain separate',python='3.12',numpy='2.5.3',scope=manifest['scope'])
     with args.descriptor.open('x') as stream:json.dump(descriptor,stream,indent=2,sort_keys=True);stream.write('\n')
     print(json.dumps(descriptor))
 

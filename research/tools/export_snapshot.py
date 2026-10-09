@@ -17,6 +17,7 @@ def select(root):
         if any(x in rel.parts for x in ['__pycache__','.git','.private','tools','plot-cache','cache','portability-phase39']):continue
         if any(s in str(rel).lower() for s in ['runpod-setup','credential','secret','oauth','setup-validation','r2-readiness']):continue
         if p.name.startswith('STARTUP') or p.name=='final-verification.json':continue
+        if 'startup-save-receipt' in p.name or p.name.startswith('fontlist-'):continue
         if p.suffix in {'.py','.md','.sh','.toml','.yaml','.yml'} or p.name in {'requirements.lock','requirements.pinned.txt'}:chosen.add(p)
         elif p.suffix=='.json' and p.stat().st_size<=500_000 and (len(rel.parts)<=3 or ('thirtyninth-experiment' in rel.parts and len(rel.parts)<=4)):chosen.add(p)
         elif p.suffix=='.csv' and p.stat().st_size<1_000_000:chosen.add(p)
