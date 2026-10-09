@@ -1,0 +1,106 @@
+{
+  "CPU_monetary_cap": null,
+  "CT_reference_admitted": false,
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "HTTP_retries": 0,
+  "decision": "Keep CT reference unadmitted; recommend bounded profilometry file/reference QC using relative degradation factors; prepare but do not send the specific Paris4 request",
+  "evidence": {
+    "AUDIT_CORRECTION.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/AUDIT_CORRECTION.md",
+      "sha256": "ee8e610e7b30fb8bf94471b9d79dad9ad0eb5e2bceb8daa86d316f82931af04f",
+      "size_bytes": 734
+    },
+    "EXTENT_ARITHMETIC.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/EXTENT_ARITHMETIC.json",
+      "sha256": "ae768dc7b669400d36c376a7d0062a6cb316e082ebc75d0fe5d6f7be208deaec",
+      "size_bytes": 5385
+    },
+    "FINDINGS.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/FINDINGS.json",
+      "sha256": "5cf89fc2a14f71860a678c957120f754c8922785d02bd51befdb1cb366ca6afa",
+      "size_bytes": 12365
+    },
+    "GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/GO.json",
+      "sha256": "ba9476b95e5e5d42d0d3643c6b94da0d6a4e3e54080cb58d44eae22fd01ea0b2",
+      "size_bytes": 2093
+    },
+    "LISTING_SUMMARY.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/LISTING_SUMMARY.json",
+      "sha256": "4a816bfa6c30c098bb60a36cf9931c393f4e42d191c14a5760aa6d22f4e0b90e",
+      "size_bytes": 3042
+    },
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "810f46bd0da909431785c6df0bd40ac287c86ecfcd6996a9ea90722fde873d96",
+      "size_bytes": 5661
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/PROTOCOL.md",
+      "sha256": "e8421508c3406d2880f2cd3c6c51a5e004288de7313c2b65aa612493b519d387",
+      "size_bytes": 3683
+    },
+    "REFERENCE_REQUEST_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/REFERENCE_REQUEST_DRAFT.md",
+      "sha256": "e124f6951bffbedd9182c1dcd63e573282eb8fa25e48012c3aad22420fbdf301",
+      "size_bytes": 3130
+    },
+    "REQUESTS.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/REQUESTS.json",
+      "sha256": "2ccdced65b3c262f436da2fee5ca06c4faf140ea02be13338f50a269124bd169",
+      "size_bytes": 18692
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/RESULTS.md",
+      "sha256": "0d0ea800be0a94973dd353b25d83ee33798e7c04a8f4638d134a88cb19f7e41d",
+      "size_bytes": 9055
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "0e3a0a82f1bb35c55c46d0584d4104e69363e8a32423597097bb7e15c6450054",
+      "size_bytes": 1582
+    },
+    "SOURCE_EXPORT_MAP.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/SOURCE_EXPORT_MAP.json",
+      "sha256": "0c2538d159a837ab216ccf79afc7600372cfd74f0d0743c59b47631a9a93b449",
+      "size_bytes": 3007
+    },
+    "SOURCE_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/SOURCE_VERIFICATION.json",
+      "sha256": "c26ca0a779c8af246524d1c7e42c5e951ebd67a27b9ecaa7dcfdb0c64a122fd7",
+      "size_bytes": 1546
+    },
+    "STARTUP_AFTER_FORTYTHIRD.md": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/STARTUP_AFTER_FORTYTHIRD.md",
+      "sha256": "af75be5e886552f84916ebe91cba2f6b123fb14e5def9b003cf002f695d1cde8",
+      "size_bytes": 2553
+    }
+  },
+  "external_messages_sent": 0,
+  "failed_HTTP_requests": 0,
+  "full_historical_depth_contract_retained": true,
+  "new_CT_chunks": 0,
+  "new_R2_objects": 0,
+  "new_label_arrays": 0,
+  "new_metadata_GET_requests": 24,
+  "new_metadata_bytes": 429661,
+  "new_model_calls": 0,
+  "new_optimizer_updates": 0,
+  "new_scientific_media_payload_requests": 0,
+  "previous_baseline_promoted": false,
+  "profilometry_image_bodies_inspected": false,
+  "profilometry_reference_admitted": false,
+  "profilometry_release_metadata_accessible": true,
+  "profilometry_sampling_calibration_resolved": false,
+  "reference_targets": [
+    "PHercParis4",
+    "PHerc0500P2"
+  ],
+  "request_status": "DRAFT_UNSENT",
+  "schema_version": 1,
+  "scope": "Reference-source search and supporting dataset discovery; no physical validation or learning",
+  "status": "COMPLETED_REFERENCE_SEARCH_CT_NOT_ADMITTED_PROFILOMETRY_LEAD",
+  "transcription": null,
+  "translation": null
+}

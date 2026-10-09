@@ -1,0 +1,100 @@
+[
+  {
+    "directories": [
+      "PHercParis4/photos/",
+      "PHercParis4/representations/",
+      "PHercParis4/segments/",
+      "PHercParis4/volumes/"
+    ],
+    "objects": [],
+    "prefix": "PHercParis4/",
+    "tag": "paris-root",
+    "truncated": false
+  },
+  {
+    "directories": [
+      "PHerc0500P2/photos/",
+      "PHerc0500P2/representations/",
+      "PHerc0500P2/segments/",
+      "PHerc0500P2/volumes/"
+    ],
+    "objects": [],
+    "prefix": "PHerc0500P2/",
+    "tag": "fragment-root",
+    "truncated": false
+  },
+  {
+    "directories": [],
+    "objects": [
+      {
+        "key": "PHerc0500P2/photos/PHerc0500P2_photo.jpg",
+        "size_bytes": 30897
+      }
+    ],
+    "prefix": "PHerc0500P2/photos/",
+    "tag": "fragment-photos",
+    "truncated": false
+  },
+  {
+    "directories": [
+      "PHerc0500P2/segments/20250628074500-500P2_front/ink-detection/",
+      "PHerc0500P2/segments/20250628074500-500P2_front/mesh/",
+      "PHerc0500P2/segments/20250628074500-500P2_front/surface-volumes/"
+    ],
+    "objects": [],
+    "prefix": "PHerc0500P2/segments/20250628074500-500P2_front/",
+    "tag": "front-root",
+    "truncated": false
+  },
+  {
+    "directories": [
+      "PHercParis4/representations/predictions/",
+      "PHercParis4/representations/umbilicus/"
+    ],
+    "objects": [],
+    "prefix": "PHercParis4/representations/",
+    "tag": "paris-representations",
+    "truncated": false
+  },
+  {
+    "directories": [
+      "PHerc0500P2/representations/predictions/"
+    ],
+    "objects": [],
+    "prefix": "PHerc0500P2/representations/",
+    "tag": "fragment-representations",
+    "truncated": false
+  },
+  {
+    "directories": [
+      "PHerc0500P2/segments/20250628074500-500P2_front/mesh/20250628074500-on-20250526151718-2.215um.tifxyz/",
+      "PHerc0500P2/segments/20250628074500-500P2_front/mesh/20250628074500-on-20250528085330-4.317um.tifxyz/",
+      "PHerc0500P2/segments/20250628074500-500P2_front/mesh/20250628074500-on-20250820143440-9.362um.tifxyz/",
+      "PHerc0500P2/segments/20250628074500-500P2_front/mesh/intermediate/"
+    ],
+    "objects": [],
+    "prefix": "PHerc0500P2/segments/20250628074500-500P2_front/mesh/",
+    "tag": "front-mesh",
+    "truncated": false
+  },
+  {
+    "directories": [
+      "PHerc0500P2/segments/20250628074500-500P2_front/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/",
+      "PHerc0500P2/segments/20250628074500-500P2_front/surface-volumes/4.317um-1.2m-111keV-volume-20250528085330.zarr/",
+      "PHerc0500P2/segments/20250628074500-500P2_front/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/"
+    ],
+    "objects": [],
+    "prefix": "PHerc0500P2/segments/20250628074500-500P2_front/surface-volumes/",
+    "tag": "front-surface",
+    "truncated": false
+  },
+  {
+    "directories": [
+      "PHercParis4/representations/predictions/ink-3d/20260411134726-ink3d-20260428123845-v3-78k-fullsup.zarr/"
+    ],
+    "objects": [],
+    "prefix": "PHercParis4/representations/predictions/ink-3d/",
+    "tag": "paris-ink3d",
+    "truncated": false
+  }
+]

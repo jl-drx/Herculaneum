@@ -1,0 +1,506 @@
+[
+  {
+    "bytes": 67375,
+    "complete": true,
+    "elapsed_seconds": 0.3391616379994957,
+    "headers": {
+      "Content-Encoding": "gzip",
+      "Content-Length": "67375",
+      "Content-Type": "application/json",
+      "ETag": "\"4a27c44954d9b70d713fc14e19d0703c\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/catalog.txt",
+      "sha256": "f6f1d6a7f917d60fa32edb9986a87a7aeafd2e47510f4d438de0b3142bc8a0f4",
+      "size_bytes": 67375
+    },
+    "started_at_utc": "2026-10-09T15:36:52.148370+00:00",
+    "status": 200,
+    "tag": "catalog",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/metadata.min.json"
+  },
+  {
+    "bytes": 3772,
+    "complete": true,
+    "elapsed_seconds": 0.3517009959996358,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "3772",
+      "Content-Type": "text/plain; charset=utf-8",
+      "ETag": "\"d28cd69fa3bf9abbad2048dd3db839e7c2e8616d4a380271236dd4827b783fa7\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/guided-dino.txt",
+      "sha256": "eca1be643ad5b9c39416c200bb98309eb9cbae62a22a9e15923f3606188076d9",
+      "size_bytes": 3772
+    },
+    "started_at_utc": "2026-10-09T15:36:52.496801+00:00",
+    "status": 200,
+    "tag": "guided-dino",
+    "url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/vesuvius/docs/guided_dinovol.md"
+  },
+  {
+    "bytes": 1314,
+    "complete": true,
+    "elapsed_seconds": 0.2648274010007299,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "1314",
+      "Content-Type": "text/plain; charset=utf-8",
+      "ETag": "\"e76febd48cd2461e024c3ffaec056223bf306018c54793ec723444981f152a85\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/guided-config.txt",
+      "sha256": "53dd4376f3c24d7055c67c5e97baa14e4887a1dc0e86d029e4039adffefcccd8",
+      "size_bytes": 1314
+    },
+    "started_at_utc": "2026-10-09T15:36:52.859573+00:00",
+    "status": 200,
+    "tag": "guided-config",
+    "url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/vesuvius/src/vesuvius/models/configuration/single_task/ps128_guided_dinovol_ink.yaml"
+  },
+  {
+    "bytes": 12882,
+    "complete": true,
+    "elapsed_seconds": 0.29894274300022516,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "12882",
+      "Content-Type": "text/plain; charset=utf-8",
+      "ETag": "\"4b15a4589c66adf4ef30bd7134d96c22cef3108b240637cff9f734b12219957b\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/fragments-doc.txt",
+      "sha256": "1c46c5565a6c458fdbbd6988459800f94251d38e9bf4aecf8b033e9eefd82749",
+      "size_bytes": 12882
+    },
+    "started_at_utc": "2026-10-09T15:36:53.132923+00:00",
+    "status": 200,
+    "tag": "fragments-doc",
+    "url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/scrollprize.org/docs/02_data_fragments.md"
+  },
+  {
+    "bytes": 583,
+    "complete": true,
+    "elapsed_seconds": 0.2669533970001794,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": null,
+      "Content-Type": "application/xml",
+      "ETag": null,
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/paris-root.txt",
+      "sha256": "01d2fbf58fb5913f821c1777ce4ee6313f5b107662d17176998ce0efd7d2b80d",
+      "size_bytes": 583
+    },
+    "started_at_utc": "2026-10-09T15:37:39.214543+00:00",
+    "status": 200,
+    "tag": "paris-root",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4%2F&delimiter=%2F&max-keys=1000"
+  },
+  {
+    "bytes": 583,
+    "complete": true,
+    "elapsed_seconds": 0.26550652400146646,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": null,
+      "Content-Type": "application/xml",
+      "ETag": null,
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/fragment-root.txt",
+      "sha256": "d9c01f6e6e5b6225716d094037af806edff1c4d162fbdb4fdc2a983758161644",
+      "size_bytes": 583
+    },
+    "started_at_utc": "2026-10-09T15:37:39.499132+00:00",
+    "status": 200,
+    "tag": "fragment-root",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHerc0500P2%2F&delimiter=%2F&max-keys=1000"
+  },
+  {
+    "bytes": 638,
+    "complete": true,
+    "elapsed_seconds": 0.25738550200003374,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": null,
+      "Content-Type": "application/xml",
+      "ETag": null,
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/fragment-photos.txt",
+      "sha256": "04e4fcf44770c39e1677a950cf8dca8590f2cd56015a3bd2fe8233f5aa8b76f5",
+      "size_bytes": 638
+    },
+    "started_at_utc": "2026-10-09T15:38:07.731002+00:00",
+    "status": 200,
+    "tag": "fragment-photos",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHerc0500P2%2Fphotos%2F&delimiter=%2F&max-keys=1000"
+  },
+  {
+    "bytes": 660,
+    "complete": true,
+    "elapsed_seconds": 0.2501809820005292,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": null,
+      "Content-Type": "application/xml",
+      "ETag": null,
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/front-root.txt",
+      "sha256": "520e9b5116336aa7cc37a3e0e7369c6bd864216eb366fa3de0c033809abdf059",
+      "size_bytes": 660
+    },
+    "started_at_utc": "2026-10-09T15:38:07.998329+00:00",
+    "status": 200,
+    "tag": "front-root",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHerc0500P2%2Fsegments%2F20250628074500-500P2_front%2F&delimiter=%2F&max-keys=1000"
+  },
+  {
+    "bytes": 489,
+    "complete": true,
+    "elapsed_seconds": 0.28097383600106696,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": null,
+      "Content-Type": "application/xml",
+      "ETag": null,
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/paris-representations.txt",
+      "sha256": "fc51ca34277338464abf79d9356754310f7dac777d2d918c520ec8e69b309a17",
+      "size_bytes": 489
+    },
+    "started_at_utc": "2026-10-09T15:38:08.257819+00:00",
+    "status": 200,
+    "tag": "paris-representations",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4%2Frepresentations%2F&delimiter=%2F&max-keys=1000"
+  },
+  {
+    "bytes": 401,
+    "complete": true,
+    "elapsed_seconds": 0.2257289250010217,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": null,
+      "Content-Type": "application/xml",
+      "ETag": null,
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/fragment-representations.txt",
+      "sha256": "82c2dd58e8c4603a94f16aca19787a4bf296601c6873504ac471efaba3b6439f",
+      "size_bytes": 401
+    },
+    "started_at_utc": "2026-10-09T15:38:08.547960+00:00",
+    "status": 200,
+    "tag": "fragment-representations",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHerc0500P2%2Frepresentations%2F&delimiter=%2F&max-keys=1000"
+  },
+  {
+    "bytes": 905,
+    "complete": true,
+    "elapsed_seconds": 0.22721857100077614,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": null,
+      "Content-Type": "application/xml",
+      "ETag": null,
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/front-mesh.txt",
+      "sha256": "837186ae7a41f17dc1b2c5ebaf6f3099f9fd00a0dd247b5b77581cf2e04d044a",
+      "size_bytes": 905
+    },
+    "started_at_utc": "2026-10-09T15:38:51.267618+00:00",
+    "status": 200,
+    "tag": "front-mesh",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHerc0500P2%2Fsegments%2F20250628074500-500P2_front%2Fmesh%2F&delimiter=%2F&max-keys=1000"
+  },
+  {
+    "bytes": 830,
+    "complete": true,
+    "elapsed_seconds": 0.2613448400006746,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": null,
+      "Content-Type": "application/xml",
+      "ETag": null,
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/front-surface.txt",
+      "sha256": "2309b564e4686664af613c99cd7e822a66a3f8a0a4570dd3b64d03401e66ae66",
+      "size_bytes": 830
+    },
+    "started_at_utc": "2026-10-09T15:38:51.505154+00:00",
+    "status": 200,
+    "tag": "front-surface",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHerc0500P2%2Fsegments%2F20250628074500-500P2_front%2Fsurface-volumes%2F&delimiter=%2F&max-keys=1000"
+  },
+  {
+    "bytes": 483,
+    "complete": true,
+    "elapsed_seconds": 0.23433380400092574,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": null,
+      "Content-Type": "application/xml",
+      "ETag": null,
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/paris-ink3d.txt",
+      "sha256": "03e0e72894cb2d9a215cb915389346c124637718b21f889d96f8f145620b0786",
+      "size_bytes": 483
+    },
+    "started_at_utc": "2026-10-09T15:38:51.775240+00:00",
+    "status": 200,
+    "tag": "paris-ink3d",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4%2Frepresentations%2Fpredictions%2Fink-3d%2F&delimiter=%2F&max-keys=1000"
+  },
+  {
+    "bytes": 417,
+    "complete": true,
+    "elapsed_seconds": 0.24793857199983904,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "417",
+      "Content-Type": "application/json",
+      "ETag": "\"0990d8fec97f318a74a12328a7fa10ea\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/front-mesh-meta.txt",
+      "sha256": "0e84d8e152ebe595175cc86497a6d15231f1d141b57dbf84c7c85d1940ffbc4c",
+      "size_bytes": 417
+    },
+    "started_at_utc": "2026-10-09T15:39:03.226242+00:00",
+    "status": 200,
+    "tag": "front-mesh-meta",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0500P2/segments/20250628074500-500P2_front/mesh/20250628074500-on-20250526151718-2.215um.tifxyz/meta.json"
+  },
+  {
+    "bytes": 3464,
+    "complete": true,
+    "elapsed_seconds": 0.3030660350013932,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "3464",
+      "Content-Type": "binary/octet-stream",
+      "ETag": "\"1aa8d9dc9b9dbca480773d31f330d5bd\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/front-surface-attrs.txt",
+      "sha256": "69a56fec351318f0452a0ad72a6dabee2ee87d5692d57febe097bb9ef978df0f",
+      "size_bytes": 3464
+    },
+    "started_at_utc": "2026-10-09T15:39:03.481695+00:00",
+    "status": 200,
+    "tag": "front-surface-attrs",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0500P2/segments/20250628074500-500P2_front/surface-volumes/2.215um-0.4m-111keV-volume-20250526151718.zarr/.zattrs"
+  },
+  {
+    "bytes": 3018,
+    "complete": true,
+    "elapsed_seconds": 0.27732368699980725,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "3018",
+      "Content-Type": "binary/octet-stream",
+      "ETag": "\"c792decadf526e26820c786d48dcddf0\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/paris-prediction-attrs.txt",
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+      "size_bytes": 3018
+    },
+    "started_at_utc": "2026-10-09T15:39:03.792798+00:00",
+    "status": 200,
+    "tag": "paris-prediction-attrs",
+    "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/representations/predictions/ink-3d/20260411134726-ink3d-20260428123845-v3-78k-fullsup.zarr/.zattrs"
+  },
+  {
+    "bytes": 1211,
+    "complete": true,
+    "elapsed_seconds": 0.2146750649990281,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "1211",
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "W/\"4bb-dXwhOCWvTONZqA5R8So3ETjw86I\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/hf-datasets.txt",
+      "sha256": "016e267c20ec0111b00713338f95f95036b255b715fe0ad2472564b795f9e436",
+      "size_bytes": 1211
+    },
+    "started_at_utc": "2026-10-09T15:39:27.197001+00:00",
+    "status": 200,
+    "tag": "hf-datasets",
+    "url": "https://huggingface.co/api/datasets?author=scrollprize&limit=100"
+  },
+  {
+    "bytes": 2129,
+    "complete": true,
+    "elapsed_seconds": 0.22857968200150935,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "2129",
+      "Content-Type": "text/plain; charset=utf-8",
+      "ETag": "\"968a521f60f92a76c6b4570790e31aa0e07d145f\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/profilometer-card.txt",
+      "sha256": "e3d8483f5caaa9f0373ea19f8b463b155d11b106b6965b12bc2f1acd40a72dda",
+      "size_bytes": 2129
+    },
+    "started_at_utc": "2026-10-09T15:40:00.735151+00:00",
+    "status": 200,
+    "tag": "profilometer-card",
+    "url": "https://huggingface.co/datasets/scrollprize/profilometer/raw/a806bead2f3b9100c20e19de37814fb285cfeefd/README.md"
+  },
+  {
+    "bytes": 674,
+    "complete": true,
+    "elapsed_seconds": 0.221356719999676,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "674",
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "W/\"2a2-xkfwtnMPC+fBWWfT1v3N5+Ana4E\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/profilometer-tree.txt",
+      "sha256": "bfd6ce7b07c0b8bf52c72d96535d064b12447e7f1c6304417066d6c543c276a9",
+      "size_bytes": 674
+    },
+    "started_at_utc": "2026-10-09T15:40:00.972710+00:00",
+    "status": 200,
+    "tag": "profilometer-tree",
+    "url": "https://huggingface.co/api/datasets/scrollprize/profilometer/tree/a806bead2f3b9100c20e19de37814fb285cfeefd?recursive=false&expand=false"
+  },
+  {
+    "bytes": 315116,
+    "complete": true,
+    "elapsed_seconds": 0.2423537419999775,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "315116",
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "W/\"4ceec-E5vcAVZ0MxshzXpWT7HOix2VH8c\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/ink-bucket.txt",
+      "sha256": "eaecef010d84b08924ec4d21ec185d79eb762ce52215b2014e09cf47d9e80052",
+      "size_bytes": 315116
+    },
+    "started_at_utc": "2026-10-09T15:40:01.202765+00:00",
+    "status": 200,
+    "tag": "ink-bucket",
+    "url": "https://huggingface.co/api/buckets/scrollprize/datasets/tree/ink"
+  },
+  {
+    "bytes": 3047,
+    "complete": true,
+    "elapsed_seconds": 0.21349644899964915,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "3047",
+      "Content-Type": "text/plain; charset=utf-8",
+      "ETag": "\"ca9a8e5dfcee36852f63d30137c1a72e10deb52c\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/profilometer-manifest.txt",
+      "sha256": "cfdadaca5e34f310f3c758dfbec6ac460179af6604888e08ff97f64ed41445af",
+      "size_bytes": 3047
+    },
+    "started_at_utc": "2026-10-09T15:40:32.276953+00:00",
+    "status": 200,
+    "tag": "profilometer-manifest",
+    "url": "https://huggingface.co/datasets/scrollprize/profilometer/raw/a806bead2f3b9100c20e19de37814fb285cfeefd/manifest.csv"
+  },
+  {
+    "bytes": 707,
+    "complete": true,
+    "elapsed_seconds": 0.17322403199977998,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "707",
+      "Content-Type": "text/plain; charset=utf-8",
+      "ETag": "\"9d45c2de234357ab75e21d482e8cdb99edcb10be\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/profilometer-sampling.txt",
+      "sha256": "3ebc6c41dd7bfa38f885543c46674ebfdc1e4ba350993c3b4d1722c56549efd3",
+      "size_bytes": 707
+    },
+    "started_at_utc": "2026-10-09T15:40:32.499072+00:00",
+    "status": 200,
+    "tag": "profilometer-sampling",
+    "url": "https://huggingface.co/datasets/scrollprize/profilometer/raw/a806bead2f3b9100c20e19de37814fb285cfeefd/configs/sampling.json"
+  },
+  {
+    "bytes": 8241,
+    "complete": true,
+    "elapsed_seconds": 0.24776595799994539,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "8241",
+      "Content-Type": "text/plain; charset=utf-8",
+      "ETag": "\"330d4c8b91b174d7e683f5c0421b0757a7d5cc58\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/profilometer-experiment.txt",
+      "sha256": "3c75128564e676981eb490df155c112d537984480cd5065f48854d034d6f76b7",
+      "size_bytes": 8241
+    },
+    "started_at_utc": "2026-10-09T15:40:32.682252+00:00",
+    "status": 200,
+    "tag": "profilometer-experiment",
+    "url": "https://huggingface.co/datasets/scrollprize/profilometer/raw/a806bead2f3b9100c20e19de37814fb285cfeefd/configs/experiment.json"
+  },
+  {
+    "bytes": 722,
+    "complete": true,
+    "elapsed_seconds": 0.14987949300120817,
+    "headers": {
+      "Content-Encoding": null,
+      "Content-Length": "722",
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "W/\"2d2-9aXqGffk74xqB1MzDHGG/WdDtzI\"",
+      "Location": null
+    },
+    "raw": {
+      "path": "/workspace/herculaneum-lab/reports/fortythird-experiment/sources/ink-bucket-directories.txt",
+      "sha256": "bee61cb9fd5690e6abca421b068598f6fc4273304de4f5a23cfa5fccef991c95",
+      "size_bytes": 722
+    },
+    "started_at_utc": "2026-10-09T15:40:51.597737+00:00",
+    "status": 200,
+    "tag": "ink-bucket-directories",
+    "url": "https://huggingface.co/api/buckets/scrollprize/datasets/tree/ink?recursive=false"
+  }
+]

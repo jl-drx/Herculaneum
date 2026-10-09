@@ -1,6 +1,6 @@
 # Experiment index
 
-Historical reports preserve their original conclusions and scope. Latest: [experiment 42](lab/reports/fortysecond-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 42 independent held-out tests.
+Historical reports preserve their original conclusions and scope. Latest: [phase43 reference search](lab/reports/fortythird-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 43 independent held-out tests.
 
 | Experiment | Recorded outcome |
 | --- | --- |
@@ -46,3 +46,4 @@ Historical reports preserve their original conclusions and scope. Latest: [exper
 | [40: fortieth-experiment](lab/reports/fortieth-experiment/RESULTS.md) | COMPLETED_VERIFIED_RETENTION_PASS_GAIN_AND_STRICT_REPLICATION_FAIL |
 | [41: fortyfirst-experiment](lab/reports/fortyfirst-experiment/RESULTS.md) | COMPLETED_CPU_CONTROL_NO_ADVANCEMENT; SUPERVISION_TRADEOFF |
 | [42: fortysecond-experiment](lab/reports/fortysecond-experiment/RESULTS.md) | COMPLETED_VERIFIED_ADMISSION_STOP_NO_LEARNING |
+| [43: fortythird-experiment](lab/reports/fortythird-experiment/RESULTS.md) | COMPLETED_REFERENCE_SEARCH_CT_NOT_ADMITTED_PROFILOMETRY_LEAD |

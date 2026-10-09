@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "dataset_version": "1.0.0",
+  "units": {
+    "lateral_sampling": "µm/pixel",
+    "vertical_sensitivity": "µm"
+  },
+  "native_lateral_sampling_um_per_pixel": 0.68793625,
+  "vertical_sensitivity_um": 0.008,
+  "resolution_factors": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    10,
+    16,
+    32
+  ],
+  "effective_lateral_sampling_um_per_pixel_exact": [
+    "0.68793625",
+    "1.37587250",
+    "2.06380875",
+    "2.75174500",
+    "4.12761750",
+    "5.50349000",
+    "6.87936250",
+    "11.00698000",
+    "22.01396000"
+  ],
+  "effective_lateral_sampling_um_per_pixel_display": [
+    0.69,
+    1.38,
+    2.06,
+    2.75,
+    4.13,
+    5.50,
+    6.88,
+    11.01,
+    22.01
+  ]
+}

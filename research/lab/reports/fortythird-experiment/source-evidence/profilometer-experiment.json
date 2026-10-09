@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0",
+  "dataset_version": "1.0.0",
+  "references": {
+    "case_manifest": "case_manifest.json",
+    "sampling": "sampling.json",
+    "folds": "../folds/splits_final.json",
+    "nnunet_dataset": "nnunet/dataset.json",
+    "nnunet_plans_directory": "nnunet/plans"
+  },
+  "preprocessing": {
+    "raw_height_import": {
+      "delimiter": "semicolon",
+      "decimal_separator": ".",
+      "coordinate_handling": "full_numeric_export_top_left_matched_to_label_shape",
+      "empty_rows_and_columns": "remove_fully_empty",
+      "trailing_nonfinite_rows_and_columns": "remove",
+      "shape_matching": {
+        "anchor": "top_left",
+        "excess_rows_and_columns": "crop_bottom_and_right",
+        "missing_rows_and_columns": "pad_bottom_and_right_with_nonfinite"
+      }
+    },
+    "nonfinite_inpainting": {
+      "method": "OpenCV Telea",
+      "radius_pixels": 3,
+      "temporary_image_dtype": "uint8",
+      "temporary_scaling": {
+        "method": "percentile_linear_scaling",
+        "lower_percentile": 0.5,
+        "upper_percentile": 99.5,
+        "output_range": [
+          0,
+          255
+        ],
+        "map_back_to_original_height_range": true
+      },
+      "restore_original_finite_measurements": true
+    },
+    "normalized_height_output": {
+      "method": "per_sample_normalization",
+      "normalized_range": [
+        0,
+        1
+      ],
+      "output_dtype": "uint16",
+      "output_range": [
+        0,
+        65535
+      ]
+    },
+    "labels": {
+      "foreground_rule": "nonzero_is_foreground",
+      "downsampling_interpolation": "nearest_neighbour"
+    },
+    "lateral_downsampling": {
+      "image_method": "nonoverlapping_block_mean",
+      "crop_to_factor_multiple": "bottom_and_right"
+    },
+    "isotropic_z_binning": {
+      "bin_width_um": "native_lateral_sampling_um_per_pixel multiplied by resolution_factor",
+      "quantization": "floor",
+      "formula": "floor(height_um / bin_width_um) multiplied by bin_width_um"
+    }
+  },
+  "experiments": {
+    "matched_resolution": {
+      "description": "Independent training and testing at each lateral resolution factor.",
+      "training_input": "continuous_height_at_training_factor",
+      "test_input": "continuous_height_at_training_factor",
+      "train_factors": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        10,
+        16,
+        32
+      ],
+      "test_factors": "same_as_training_factor",
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "fixed_native_model": {
+      "description": "The native-resolution model is evaluated on continuous-height inputs block-averaged at each test factor, bilinearly upsampled to the native grid, and then normalized per sample and converted to uint16.",
+      "evaluation_mode": "inference_only",
+      "train_factor": 1,
+      "model_training_input": "native_height_normalized_per_sample_to_uint16",
+      "test_source_representation": "inpainted_continuous_height_before_normalization",
+      "test_factors": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        10,
+        16,
+        32
+      ],
+      "downsampling": {
+        "method": "nonoverlapping_block_mean",
+        "factor_multiple_handling": "edge_pad_bottom_and_right"
+      },
+      "upsampling": {
+        "method": "bilinear_interpolation",
+        "target": "native_grid",
+        "final_crop": "bottom_and_right_to_original_shape"
+      },
+      "post_upsampling": {
+        "normalization": "per_sample_to_0_1",
+        "output_dtype": "uint16"
+      },
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "isotropic_z_binning": {
+      "description": "Height values are quantized at the physical bin width associated with each lateral resolution factor.",
+      "evaluation_mode": "inference_only",
+      "models": "matched_resolution_models_at_the_same_factor",
+      "model_training_input": "continuous_height",
+      "test_input": "z_binned_height",
+      "factors": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        10,
+        16,
+        32
+      ],
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "detrending": {
+      "description": "A least-squares plane is subtracted from each height map before the native-resolution pipeline.",
+      "method": "least_squares_plane_subtraction",
+      "resolution_factor": 1,
+      "training_input": "detrended_continuous_height",
+      "test_input": "detrended_continuous_height",
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "leave_one_papyrus_out": {
+      "description": "Each partition holds out all samples from one papyrus.",
+      "resolution_factor": 1,
+      "training_input": "continuous_height",
+      "test_input": "continuous_height",
+      "folds": [
+        5,
+        6,
+        7
+      ],
+      "held_out_papyri_by_fold": {
+        "5": "PHerc. 500P2",
+        "6": "PHerc. 250",
+        "7": "PHerc. 248"
+      }
+    }
+  },
+  "dataset_mappings": {
+    "continuous_height": [
+      {
+        "factor": 1,
+        "dataset_id": 701,
+        "dataset_name": "Dataset701_Profilometry2D"
+      },
+      {
+        "factor": 2,
+        "dataset_id": 702,
+        "dataset_name": "Dataset702_Profilometry2D"
+      },
+      {
+        "factor": 3,
+        "dataset_id": 703,
+        "dataset_name": "Dataset703_Profilometry2D"
+      },
+      {
+        "factor": 4,
+        "dataset_id": 704,
+        "dataset_name": "Dataset704_Profilometry2D"
+      },
+      {
+        "factor": 6,
+        "dataset_id": 706,
+        "dataset_name": "Dataset706_Profilometry2D"
+      },
+      {
+        "factor": 8,
+        "dataset_id": 708,
+        "dataset_name": "Dataset708_Profilometry2D"
+      },
+      {
+        "factor": 10,
+        "dataset_id": 710,
+        "dataset_name": "Dataset710_Profilometry2D"
+      },
+      {
+        "factor": 16,
+        "dataset_id": 716,
+        "dataset_name": "Dataset716_Profilometry2D"
+      },
+      {
+        "factor": 32,
+        "dataset_id": 732,
+        "dataset_name": "Dataset732_Profilometry2D"
+      }
+    ],
+    "isotropic_z_binned_height": [
+      {
+        "factor": 1,
+        "dataset_id": 801,
+        "dataset_name": "Dataset801_Profilometry2D_z0p68793625_ds1"
+      },
+      {
+        "factor": 2,
+        "dataset_id": 802,
+        "dataset_name": "Dataset802_Profilometry2D_z1p3758725_ds2"
+      },
+      {
+        "factor": 3,
+        "dataset_id": 803,
+        "dataset_name": "Dataset803_Profilometry2D_z2p06380875_ds3"
+      },
+      {
+        "factor": 4,
+        "dataset_id": 804,
+        "dataset_name": "Dataset804_Profilometry2D_z2p751745_ds4"
+      },
+      {
+        "factor": 6,
+        "dataset_id": 806,
+        "dataset_name": "Dataset806_Profilometry2D_z4p1276175_ds6"
+      },
+      {
+        "factor": 8,
+        "dataset_id": 808,
+        "dataset_name": "Dataset808_Profilometry2D_z5p50349_ds8"
+      },
+      {
+        "factor": 10,
+        "dataset_id": 810,
+        "dataset_name": "Dataset810_Profilometry2D_z6p8793625_ds10"
+      },
+      {
+        "factor": 16,
+        "dataset_id": 816,
+        "dataset_name": "Dataset816_Profilometry2D_z11p00698_ds16"
+      },
+      {
+        "factor": 32,
+        "dataset_id": 832,
+        "dataset_name": "Dataset832_Profilometry2D_z22p01396_ds32"
+      }
+    ]
+  },
+  "training": {
+    "framework": "nnUNetv2",
+    "trainer": "nnUNetTrainer",
+    "configuration": "2d",
+    "plans_identifier": "nnUNetResEncUNetPlans_24G",
+    "epochs": 1000,
+    "training_iterations_per_epoch": 250,
+    "validation_iterations_per_epoch": 50,
+    "early_stopping": false,
+    "checkpoint_for_inference": "checkpoint_best.pth",
+    "loss": "Dice plus cross-entropy",
+    "optimizer": {
+      "name": "SGD",
+      "nesterov": true,
+      "initial_learning_rate": 0.01,
+      "weight_decay": 0.00003,
+      "schedule": "polynomial_decay"
+    },
+    "foreground_oversampling_fraction": 0.33
+  },
+  "software": {
+    "python": "3.12.2",
+    "numpy": "1.26.4",
+    "opencv_python": "4.11.0.86",
+    "pytorch": "2.5.1",
+    "torchvision": "0.20.1",
+    "nnunetv2": "2.5.1",
+    "nnunet_git_commit": "834b80f"
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "CT_reads": 0,
+  "CT_reference_admitted": false,
+  "created_at_utc": "2026-10-09T15:45:46.040113+00:00",
+  "external_messages_sent": 0,
+  "front_segment": {
+    "canvas_yx": [
+      15060,
+      26440
+    ],
+    "id": "20250628074500",
+    "independent_reference": false,
+    "paper_figure_depth_planes": 65,
+    "released_depth_planes": 118,
+    "same_as_paper_projection_verified": false,
+    "suffix": "500P2_front",
+    "volume": "20250526151718",
+    "voxel_um": 2.215
+  },
+  "limitations": [
+    "Only the frozen two-target search was performed; global public unavailability is not established",
+    "Original ink/0500p2 bucket exists but its contents were not inspected within this request budget",
+    "HF recursive ink listing was one 1000-file page, not a complete bucket inventory",
+    "The profilometry discovery concerns the same named PHerc500P2 material but its measured regions are not registered to the CT front surface",
+    "Internal consistency of sampling metadata does not resolve conflict with the paper"
+  ],
+  "media_reads": 0,
+  "model_calls": 0,
+  "profilometry": {
+    "CT_mapping_provided_in_inspected_manifest": false,
+    "PHerc500P2_samples": [
+      {
+        "acquisition_date": "2025-09-23",
+        "brightfield_tif": "data/pherc0500p2/\u03b7_stack.tif",
+        "height_px": "3617",
+        "label_png": "data/pherc0500p2/\u03b7_label.png",
+        "lateral_sampling_x_um": "0.68793625",
+        "lateral_sampling_y_um": "0.68793625",
+        "normalized_height_tif": "data/pherc0500p2/\u03b7_z.tif",
+        "papyrus_dir": "pherc0500p2",
+        "papyrus_id": "PHerc. 500P2",
+        "pixel_count": "19419673",
+        "raw_height_txt": "data/pherc0500p2/\u03b7.txt",
+        "sample_id": "\u03b7",
+        "width_px": "5369",
+        "x_extent_um": "3692.8418",
+        "y_extent_um": "2487.5774"
+      },
+      {
+        "acquisition_date": "2025-09-23",
+        "brightfield_tif": "data/pherc0500p2/\u03b9\u03c4_stack.tif",
+        "height_px": "5352",
+        "label_png": "data/pherc0500p2/\u03b9\u03c4_label.png",
+        "lateral_sampling_x_um": "0.68793625",
+        "lateral_sampling_y_um": "0.68793625",
+        "normalized_height_tif": "data/pherc0500p2/\u03b9\u03c4_z.tif",
+        "papyrus_dir": "pherc0500p2",
+        "papyrus_id": "PHerc. 500P2",
+        "pixel_count": "38025960",
+        "raw_height_txt": "data/pherc0500p2/\u03b9\u03c4.txt",
+        "sample_id": "\u03b9\u03c4",
+        "width_px": "7105",
+        "x_extent_um": "4887.0991",
+        "y_extent_um": "3681.1470"
+      },
+      {
+        "acquisition_date": "2025-09-23",
+        "brightfield_tif": "data/pherc0500p2/\u03bd_stack.tif",
+        "height_px": "3622",
+        "label_png": "data/pherc0500p2/\u03bd_label.png",
+        "lateral_sampling_x_um": "0.68793625",
+        "lateral_sampling_y_um": "0.68793625",
+        "normalized_height_tif": "data/pherc0500p2/\u03bd_z.tif",
+        "papyrus_dir": "pherc0500p2",
+        "papyrus_id": "PHerc. 500P2",
+        "pixel_count": "19432030",
+        "raw_height_txt": "data/pherc0500p2/\u03bd.txt",
+        "sample_id": "\u03bd",
+        "width_px": "5365",
+        "x_extent_um": "3690.0901",
+        "y_extent_um": "2491.0171"
+      },
+      {
+        "acquisition_date": "2025-09-23",
+        "brightfield_tif": "data/pherc0500p2/\u03bd2_stack.tif",
+        "height_px": "3628",
+        "label_png": "data/pherc0500p2/\u03bd2_label.png",
+        "lateral_sampling_x_um": "0.68793625",
+        "lateral_sampling_y_um": "0.68793625",
+        "normalized_height_tif": "data/pherc0500p2/\u03bd2_z.tif",
+        "papyrus_dir": "pherc0500p2",
+        "papyrus_id": "PHerc. 500P2",
+        "pixel_count": "16322372",
+        "raw_height_txt": "data/pherc0500p2/\u03bd2.txt",
+        "sample_id": "\u03bd2",
+        "width_px": "4499",
+        "x_extent_um": "3094.3372",
+        "y_extent_um": "2495.1448"
+      }
+    ],
+    "actual_arrays_read": false,
+    "declared_factors": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      10,
+      16,
+      32
+    ],
+    "height_pixels_in_manifest": 321077891,
+    "maintainer_calibration_notice": true,
+    "manifest_regions": 14,
+    "maximum_extent_rounding_error_um": 0.000175,
+    "metadata_sampling_um": 0.68793625,
+    "metadata_to_paper_sampling_ratio": 2.023341911764706,
+    "paper_reported_sampling_um": 0.34,
+    "physical_sample_overlap_verified": false,
+    "possible_use": "Supporting relative-factor morphology control after file, annotation and split QC; no CT inference claim",
+    "regions_by_papyrus": {
+      "PHerc. 248": 5,
+      "PHerc. 250": 5,
+      "PHerc. 500P2": 4
+    },
+    "repo": "scrollprize/profilometer",
+    "revision": "a806bead2f3b9100c20e19de37814fb285cfeefd",
+    "scale_calibration_resolved": false
+  },
+  "public_label_entries": {
+    "PHerc0500P2": [
+      {
+        "origins": [
+          {
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ],
+            "path": "PHerc0500P2/segments/20250825181859--1/ink-labels/2.215um-volume-20250526151718/20260918/"
+          }
+        ],
+        "parameters": {
+          "label_set": "20260918",
+          "target_volume": "20250526151718"
+        },
+        "properties": {
+          "annotated_on": "unknown",
+          "arrays": [
+            "inklabels",
+            "supervision",
+            "validation"
+          ],
+          "labelled_px": 9642422,
+          "mapping_coverage": 0.9998087084663696,
+          "registration": "transferred",
+          "supervised_px": 45291573
+        },
+        "segment": "20250825181859",
+        "type": "ink-labels"
+      }
+    ],
+    "PHercParis4": [
+      {
+        "origins": [
+          {
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ],
+            "path": "PHercParis4/segments/20230702185753/ink-labels/2.4um-volume-20260411134726/20260918/"
+          }
+        ],
+        "parameters": {
+          "label_set": "20260918",
+          "target_volume": "20260411134726"
+        },
+        "properties": {
+          "annotated_on": "unknown",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 34241700,
+          "mapping_coverage": 0.9991131334188782,
+          "registration": "transferred",
+          "supervised_px": 131896825
+        },
+        "segment": "20230702185753",
+        "type": "ink-labels"
+      },
+      {
+        "origins": [
+          {
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ],
+            "path": "PHercParis4/segments/20231016151002/ink-labels/2.4um-volume-20260411134726/20260918/"
+          }
+        ],
+        "parameters": {
+          "label_set": "20260918",
+          "target_volume": "20260411134726"
+        },
+        "properties": {
+          "annotated_on": "unknown",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 21203233,
+          "mapping_coverage": 0.9958002765656145,
+          "registration": "transferred",
+          "supervised_px": 92520210
+        },
+        "segment": "20231016151002",
+        "type": "ink-labels"
+      },
+      {
+        "origins": [
+          {
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ],
+            "path": "PHercParis4/segments/20231106155351/ink-labels/2.4um-volume-20260411134726/20260918/"
+          }
+        ],
+        "parameters": {
+          "label_set": "20260918",
+          "target_volume": "20260411134726"
+        },
+        "properties": {
+          "annotated_on": "unknown",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 33782390,
+          "mapping_coverage": 0.9967227604255078,
+          "registration": "transferred",
+          "supervised_px": 98433046
+        },
+        "segment": "20231106155351",
+        "type": "ink-labels"
+      },
+      {
+        "origins": [
+          {
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ],
+            "path": "PHercParis4/segments/20231031143852/ink-labels/2.4um-volume-20260411134726/20260918/"
+          }
+        ],
+        "parameters": {
+          "label_set": "20260918",
+          "target_volume": "20260411134726"
+        },
+        "properties": {
+          "annotated_on": "unknown",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 17364519,
+          "mapping_coverage": 0.9965996208903412,
+          "registration": "transferred",
+          "supervised_px": 74136973
+        },
+        "segment": "20231031143852",
+        "type": "ink-labels"
+      },
+      {
+        "origins": [
+          {
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ],
+            "path": "PHercParis4/segments/20231210121321/ink-labels/2.4um-volume-20260411134726/20260918/"
+          }
+        ],
+        "parameters": {
+          "label_set": "20260918",
+          "target_volume": "20260411134726"
+        },
+        "properties": {
+          "annotated_on": "unknown",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 56131676,
+          "mapping_coverage": 0.9978044358568614,
+          "registration": "transferred",
+          "supervised_px": 176706369
+        },
+        "segment": "20231210121321",
+        "type": "ink-labels"
+      },
+      {
+        "origins": [
+          {
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ],
+            "path": "PHercParis4/segments/20231012184424/ink-labels/2.4um-volume-20260411134726/20260918/"
+          }
+        ],
+        "parameters": {
+          "label_set": "20260918",
+          "target_volume": "20260411134726"
+        },
+        "properties": {
+          "annotated_on": "unknown",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 106324324,
+          "mapping_coverage": 0.9998032838486893,
+          "registration": "transferred",
+          "supervised_px": 510354992
+        },
+        "segment": "20231012184424",
+        "type": "ink-labels"
+      },
+      {
+        "origins": [
+          {
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ],
+            "path": "PHercParis4/segments/20231007101619/ink-labels/2.4um-volume-20260411134726/20260918/"
+          }
+        ],
+        "parameters": {
+          "label_set": "20260918",
+          "target_volume": "20260411134726"
+        },
+        "properties": {
+          "annotated_on": "unknown",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 81046769,
+          "mapping_coverage": 0.9997381658008843,
+          "registration": "transferred",
+          "supervised_px": 255381165
+        },
+        "segment": "20231007101619",
+        "type": "ink-labels"
+      },
+      {
+        "origins": [
+          {
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ],
+            "path": "PHercParis4/segments/20230929220926/ink-labels/2.4um-volume-20260411134726/20260918/"
+          }
+        ],
+        "parameters": {
+          "label_set": "20260918",
+          "target_volume": "20260411134726"
+        },
+        "properties": {
+          "annotated_on": "unknown",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 23669885,
+          "mapping_coverage": 0.9950385734827516,
+          "registration": "transferred",
+          "supervised_px": 83594615
+        },
+        "segment": "20230929220926",
+        "type": "ink-labels"
+      }
+    ]
+  },
+  "status": "CT_REFERENCE_NOT_ADMITTED; PROFILOMETRY_METADATA_LEAD",
+  "targets": [
+    "PHercParis4",
+    "PHerc0500P2"
+  ]
+}
