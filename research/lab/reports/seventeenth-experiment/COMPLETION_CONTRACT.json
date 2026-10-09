@@ -1,0 +1,658 @@
+{
+  "adopted_baseline": "unchanged strict seed42",
+  "backward_calls": 0,
+  "conclusion": "No clear implementation/alignment/depth fault explains the weak CT regions; physical registration residual and exact ink depth remain unresolved.",
+  "created_at_utc": "2026-10-08T22:22:36.141507+00:00",
+  "evidence": {
+    "ct": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/ct-run/ct-diagnostics.json",
+      "sha256": "6e3930f01b2310f479c92d206cadd514e5b48fc7497ed7518b8634a670629fbf",
+      "size_bytes": 1175370
+    },
+    "design": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/RESEARCH_DESIGN.md",
+      "sha256": "08bc48f203d6722216c70d54b961d0d29ce59204359da49d2b6110661a9a9cc1",
+      "size_bytes": 8313
+    },
+    "header_acquisition": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/acquisition/header-run/result.json",
+      "sha256": "c2dd0d11e7321900426e77c6b43eab83ef1fb69a4c82b9dbaffa2e16f54b43c4",
+      "size_bytes": 22972
+    },
+    "independent_review": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/independent-review/verification.json",
+      "sha256": "b387a45228cb9c209510edfad70c05d1cfca17b61bc7432942a59c5f4d383347",
+      "size_bytes": 9365
+    },
+    "independent_seal": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/independent-review/retention-manifest.json",
+      "sha256": "99e64faed481499ab23bc94eb4a52546c887ce33cb148b5494bdcf242eedc8a5",
+      "size_bytes": 10679
+    },
+    "ir": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/ir-run/ir-diagnostics.json",
+      "sha256": "4083f0b3100eb35a512655252b0d3c37a2c0239ce683daf26ee9ddd5aead2b27",
+      "size_bytes": 16823
+    },
+    "next_study": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "85b7d9e2f12fecf2a3d93f3c1bfe142b8bae452a13786c7f440b2fd8cb8d1d83",
+      "size_bytes": 3208
+    },
+    "ppm": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/ppm-run/ppm-diagnostics.json",
+      "sha256": "2d75cc90265a8f64eb11a30c2283783e54225e399147e18039203a192df853a6",
+      "size_bytes": 9366356
+    },
+    "predecode_amendment": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/PPM_PREDECODE_AMENDMENT.md",
+      "sha256": "ed3096856274505990fb9b4069ce6fdbb657eaeb93ae52b6bfae2144de6d9f9e",
+      "size_bytes": 2900
+    },
+    "preexecution_clarifications": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/PREEXECUTION_CLARIFICATIONS.md",
+      "sha256": "22ed3e0749d56bd61113b6a2cd74f6ae7373082a34a1c090352ccba99eb2c643",
+      "size_bytes": 1090
+    },
+    "presentation": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/overview-v2/presentation-receipt.json",
+      "sha256": "bd097ba568a294fb3a310aacae14357380c184de2d3f3d5c90bb1d7ada823d25",
+      "size_bytes": 2058
+    },
+    "producer_runtime": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/runtime-supplement.json",
+      "sha256": "cbfdef57dfc512546eae9d372018a365562e665b3d8a39f31790813cd51a1040",
+      "size_bytes": 3833
+    },
+    "producer_seal": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/FINAL_RECEIPT.json",
+      "sha256": "edd966b415dd7529eee833ab9f93a34073939cfd8b0227fe68a194e723be37ee",
+      "size_bytes": 25835
+    },
+    "report": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/RESULTS.md",
+      "sha256": "12e0409ffe24d4504b29646f8f294d83c7c6e50bef80ce23622665684154ae72",
+      "size_bytes": 10875
+    },
+    "root_visual_review": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/ROOT_VISUAL_REVIEW.json",
+      "sha256": "28ef8091edad041cbbcc5076d9525d0cedef2fa856c3f7654328a343767988b4",
+      "size_bytes": 3971
+    },
+    "sample_acquisition": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/acquisition/sample-run/result.json",
+      "sha256": "d9b0d166a9b42154895d3ded1520d54e858bd678a1e7333727769353437b3526",
+      "size_bytes": 1281638
+    },
+    "source_fetch": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/source-review/PPM_SOURCE_RECEIPT.json",
+      "sha256": "a969428603c3f9832fc2a15e22822aebc8001edd0302580bcfc491ad021cae1c",
+      "size_bytes": 1073
+    },
+    "source_manifest": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/source-review/MANIFEST.json",
+      "sha256": "6cd9858bc6818cf1a5f53675c6ca0012af55b0e4cbaca5b2ec5783f6243c84f5",
+      "size_bytes": 3074
+    },
+    "summary": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/overview-v2/summary.json",
+      "sha256": "48d6a9e0d9747b27ead25697178da2d3730a54e9e684383a0b0da1123835aff1",
+      "size_bytes": 12823
+    },
+    "zero_mapping_clarification": {
+      "path": "/workspace/herculaneum-lab/reports/seventeenth-experiment/PPM_ZERO_MAPPING_CLARIFICATION.md",
+      "sha256": "114e3791f2a7549b2e1d82192ef454865224f3ea9506550a0513f4eaec591d1a",
+      "size_bytes": 1210
+    }
+  },
+  "failed_checker_attempts_preserved": 2,
+  "fixed_PPM_sampling": {
+    "flat_centers": 486,
+    "interpretation": "All six maps uniquely little-endian under fixed geometry invariants; not authenticated historical hardware",
+    "primary_result_centers": 409,
+    "result_centers": 486,
+    "unmapped_primary_result_centers": 0,
+    "unmapped_result_centers": 8,
+    "valid_result_centers": 478
+  },
+  "independent_checks": {
+    "coverage": {
+      "total_centers": 972,
+      "zero_centers": 8,
+      "zeros_inside_known": 0,
+      "zeros_inside_primary": 0,
+      "zeros_inside_surface": 0
+    },
+    "ct": {
+      "comparison_counts": {
+        "float_fields": 14688,
+        "integer_fields": 8160,
+        "null_fields": 0,
+        "profiles": 408,
+        "support_records": 1632
+      },
+      "max_float_difference": 0,
+      "native_values": 406093824,
+      "peak_rss_bytes": 125812736,
+      "pooled_voxels": 15040512,
+      "raw_batches": 1530,
+      "raw_body_bytes": 848908566,
+      "wall_seconds": 30.970717111999875
+    },
+    "ir": {
+      "maps": 18,
+      "max_map_difference": 1.580957587066223e-13,
+      "peak_rss_bytes": 284405760,
+      "ranking_atol": 1e-12,
+      "ranking_metric_pairs": 12,
+      "values": 2654208,
+      "wall_seconds": 2.8026693809997596
+    },
+    "ppm": {
+      "candidate_invariants_checked": 12,
+      "conditional_objects": 6,
+      "cross_map_comparisons": 486,
+      "geometry_points": 972,
+      "independent_ranges": 2916,
+      "max_float_difference": 1.8189894035458565e-12,
+      "sampled_records": 8748,
+      "scalar_comparisons": {
+        "boolean": 86532,
+        "float": 85604,
+        "integer": 408,
+        "null": 200,
+        "string": 486
+      },
+      "selected_interpretation": "little endian uniquely invariant-consistent in all six objects; historical hardware not authenticated",
+      "support_tables": 12,
+      "useful_ppm_bytes": 419904
+    }
+  },
+  "limitations": [
+    "Registered IR and traced labels share provenance; their agreement does not independently validate CT-to-IR alignment.",
+    "Sparse PPM geometry cannot certify the whole surface, native-volume frame or anatomical normal sign.",
+    "Current renderer midpoint is not a hash bridge to the historical sampling invocation.",
+    "Native depths7..57 only; profiles cannot locate authenticated ink or tissue outside the acquired extent.",
+    "Paris2 is one parent papyrus; labels were already inspected and upstream training exposure is incomplete.",
+    "Evaluation-informed method changes require fresh confirmatory material; no shifts/depths/crops/cutoffs fitted.",
+    "Retention and draft configuration are not backup or fresh-task restoration."
+  ],
+  "network": {
+    "IR_and_prefix_GETs": 9,
+    "IR_and_prefix_body_bytes": 41044172,
+    "automatic_retries": 0,
+    "full_PPM_downloads": 0,
+    "historical_reader_GETs": 1,
+    "historical_reader_body_bytes": 7494,
+    "new_CT_downloads": 0,
+    "public_GETs": 22,
+    "retained_response_body_bytes": 41827766,
+    "scope": "Response-body accounting; does not include wire/TLS/header overhead",
+    "sparse_GETs": 12,
+    "sparse_body_bytes": 776100,
+    "useful_PPM_bytes": 419904
+  },
+  "new_artifacts_uploaded_to_R2": false,
+  "new_checkpoints": 0,
+  "new_forwards": 0,
+  "numerical_execution": {
+    "CT": {
+      "checkpoint_reads": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "run_ct_diagnostic.py",
+        "--plan",
+        "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/ct-plan.json",
+        "--output-dir",
+        "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/ct-run"
+      ],
+      "cpu_seconds": 27.656155,
+      "gpu_seconds": 0,
+      "model_calls": 0,
+      "network_calls": 0,
+      "peak_rss_bytes": 911638528,
+      "runtime": {
+        "numpy": "2.3.5",
+        "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "threads": 4
+      },
+      "wall_seconds": 27.493516036000074
+    },
+    "IR": {
+      "checkpoint_reads": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "run_ir_diagnostic.py",
+        "--plan",
+        "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/ir-plan.json",
+        "--output-dir",
+        "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/ir-run"
+      ],
+      "cpu_seconds": 5.618942,
+      "gpu_seconds": 0,
+      "model_calls": 0,
+      "network_calls": 0,
+      "peak_rss_bytes": 626724864,
+      "runtime": {
+        "numpy": "2.3.5",
+        "pillow": "12.3.0",
+        "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "scipy": "1.17.0",
+        "threads": 4
+      },
+      "wall_seconds": 4.590371035999851
+    },
+    "PPM": {
+      "checkpoint_reads": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "run_ppm_diagnostic.py",
+        "--plan",
+        "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/ppm-plan.json",
+        "--output-dir",
+        "/workspace/herculaneum-lab/reports/seventeenth-experiment/implementation/ppm-run"
+      ],
+      "cpu_seconds": 0.707032,
+      "gpu_seconds": 0,
+      "model_calls": 0,
+      "network_calls": 0,
+      "peak_rss_bytes": 42053632,
+      "runtime": {
+        "numpy": "2.3.5",
+        "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "threads": 4
+      },
+      "wall_seconds": 0.33591276300012396
+    }
+  },
+  "numerical_producer_failures": 0,
+  "paid_GPU_spend_GBP": 0,
+  "per_case_summary": [
+    {
+      "IR_darkness": {
+        "auroc": 0.9770965937150953,
+        "average_precision": 0.9378635224468218,
+        "count": 88559,
+        "distinct_score_groups": 810,
+        "negative": 69159,
+        "positive": 19400
+      },
+      "IR_local_darkness": {
+        "auroc": 0.5540395514713369,
+        "average_precision": 0.23201455039179694,
+        "count": 88559,
+        "distinct_score_groups": 88559,
+        "negative": 69159,
+        "positive": 19400
+      },
+      "baseline_CT_AP": 0.18597311107421638,
+      "baseline_CT_AUROC": 0.44605186271050584,
+      "fixed_native32_positive_minus_negative_mean": -2.6368272447853442,
+      "id": "frag1-context1",
+      "role": "evaluation",
+      "sampled_result_PPM_geometry": {
+        "cross_product_area": {
+          "count": 81,
+          "maximum": 1.5719745742221407,
+          "median": 1.005009053880319,
+          "minimum": 0.9431371934999768
+        },
+        "du_norm": {
+          "count": 81,
+          "maximum": 1.4190388050816498,
+          "median": 0.9998712669549267,
+          "minimum": 0.9711336294173073
+        },
+        "dv_norm": {
+          "count": 81,
+          "maximum": 1.2682958900612151,
+          "median": 0.9832248764182322,
+          "minimum": 0.9710381187796588
+        },
+        "signed_normal_dot": {
+          "count": 81,
+          "maximum": -0.9904338773391729,
+          "median": -0.9989996487963527,
+          "minimum": -0.9999982484882168
+        },
+        "tangent_dot": {
+          "count": 81,
+          "maximum": 0.45629651673227245,
+          "median": 0.02932527960693988,
+          "minimum": -0.06091229314390597
+        }
+      },
+      "surface_native_SD_by_fixed_plane": {
+        "20": 39.563094280588366,
+        "32": 36.714645552128374,
+        "44": 6.006144045779079,
+        "56": 4.321805760162747,
+        "8": 38.57288794091785
+      },
+      "valid_result_PPM_centers": 81
+    },
+    {
+      "IR_darkness": {
+        "auroc": 0.9979526719282338,
+        "average_precision": 0.9925702771893874,
+        "count": 83314,
+        "distinct_score_groups": 1338,
+        "negative": 70681,
+        "positive": 12633
+      },
+      "IR_local_darkness": {
+        "auroc": 0.5845756521922936,
+        "average_precision": 0.16521727043638926,
+        "count": 83314,
+        "distinct_score_groups": 83314,
+        "negative": 70681,
+        "positive": 12633
+      },
+      "baseline_CT_AP": 0.5000955137941361,
+      "baseline_CT_AUROC": 0.9036776522813884,
+      "fixed_native32_positive_minus_negative_mean": -1.8393960303336285,
+      "id": "frag1-context2",
+      "role": "evaluation",
+      "sampled_result_PPM_geometry": {
+        "cross_product_area": {
+          "count": 76,
+          "maximum": 1.448907385803757,
+          "median": 0.9926804362123072,
+          "minimum": 0.9478875409075032
+        },
+        "du_norm": {
+          "count": 76,
+          "maximum": 1.4908539143178092,
+          "median": 1.0033533943303772,
+          "minimum": 0.9712098562830537
+        },
+        "dv_norm": {
+          "count": 76,
+          "maximum": 1.062695823733936,
+          "median": 0.9806547995574395,
+          "minimum": 0.9710375421223768
+        },
+        "signed_normal_dot": {
+          "count": 76,
+          "maximum": -0.9924608050078528,
+          "median": -0.9993313657151183,
+          "minimum": -0.9999988829116029
+        },
+        "tangent_dot": {
+          "count": 76,
+          "maximum": 0.10599404009213634,
+          "median": -0.0061429106142561725,
+          "minimum": -0.18817277374222335
+        }
+      },
+      "surface_native_SD_by_fixed_plane": {
+        "20": 36.01878173818851,
+        "32": 32.182389473245266,
+        "44": 6.679808331945212,
+        "56": 4.837270661285966,
+        "8": 32.056747907465834
+      },
+      "valid_result_PPM_centers": 76
+    },
+    {
+      "IR_darkness": {
+        "auroc": 0.9593248722965801,
+        "average_precision": 0.9234428783848545,
+        "count": 80709,
+        "distinct_score_groups": 1014,
+        "negative": 61660,
+        "positive": 19049
+      },
+      "IR_local_darkness": {
+        "auroc": 0.5936173746362196,
+        "average_precision": 0.3012605714423589,
+        "count": 80709,
+        "distinct_score_groups": 80709,
+        "negative": 61660,
+        "positive": 19049
+      },
+      "baseline_CT_AP": 0.2698386981536433,
+      "baseline_CT_AUROC": 0.5012979773367987,
+      "fixed_native32_positive_minus_negative_mean": 2.7978484746055297,
+      "id": "frag2-context1",
+      "role": "evaluation",
+      "sampled_result_PPM_geometry": {
+        "cross_product_area": {
+          "count": 81,
+          "maximum": 1.1197156397412291,
+          "median": 0.9769285031457454,
+          "minimum": 0.9506646980106835
+        },
+        "du_norm": {
+          "count": 81,
+          "maximum": 1.0101756653940792,
+          "median": 0.9773062355621202,
+          "minimum": 0.9746075890494058
+        },
+        "dv_norm": {
+          "count": 81,
+          "maximum": 1.1271834899486697,
+          "median": 0.9925063389228412,
+          "minimum": 0.9754333022365618
+        },
+        "signed_normal_dot": {
+          "count": 81,
+          "maximum": -0.9942824818656183,
+          "median": -0.9996136101501008,
+          "minimum": -0.9999970044160423
+        },
+        "tangent_dot": {
+          "count": 81,
+          "maximum": 0.023144068817063313,
+          "median": -0.009423451154265478,
+          "minimum": -0.11171109519136133
+        }
+      },
+      "surface_native_SD_by_fixed_plane": {
+        "20": 34.831120370096556,
+        "32": 34.160587254541085,
+        "44": 12.661732069660825,
+        "56": 6.076990591933221,
+        "8": 32.57327422468098
+      },
+      "valid_result_PPM_centers": 81
+    },
+    {
+      "IR_darkness": {
+        "auroc": 0.9897584136120412,
+        "average_precision": 0.9806282020782123,
+        "count": 86566,
+        "distinct_score_groups": 1263,
+        "negative": 66318,
+        "positive": 20248
+      },
+      "IR_local_darkness": {
+        "auroc": 0.610593101645033,
+        "average_precision": 0.279464194872436,
+        "count": 86566,
+        "distinct_score_groups": 86447,
+        "negative": 66318,
+        "positive": 20248
+      },
+      "baseline_CT_AP": 0.5812353686117849,
+      "baseline_CT_AUROC": 0.7795412587345845,
+      "fixed_native32_positive_minus_negative_mean": -6.410761039283311,
+      "id": "frag2-context2",
+      "role": "evaluation",
+      "sampled_result_PPM_geometry": {
+        "cross_product_area": {
+          "count": 79,
+          "maximum": 1.2786100193282839,
+          "median": 1.103863300611039,
+          "minimum": 0.9559284001019935
+        },
+        "du_norm": {
+          "count": 79,
+          "maximum": 1.3067065451559408,
+          "median": 1.126818930201176,
+          "minimum": 0.9751458584385502
+        },
+        "dv_norm": {
+          "count": 79,
+          "maximum": 1.020545394426684,
+          "median": 0.9786388345488235,
+          "minimum": 0.9746218442803032
+        },
+        "signed_normal_dot": {
+          "count": 79,
+          "maximum": -0.9920060966410634,
+          "median": -0.9996035808559665,
+          "minimum": -0.9999897419882094
+        },
+        "tangent_dot": {
+          "count": 79,
+          "maximum": 0.14113833414207586,
+          "median": 0.01940538009348577,
+          "minimum": -0.07866854962560817
+        }
+      },
+      "surface_native_SD_by_fixed_plane": {
+        "20": 25.645236653952182,
+        "32": 29.391405558654416,
+        "44": 10.148474507557133,
+        "56": 5.48142721351002,
+        "8": 24.238984001240475
+      },
+      "valid_result_PPM_centers": 79
+    },
+    {
+      "IR_darkness": {
+        "auroc": 0.9697332031397363,
+        "average_precision": 0.8399130050388789,
+        "count": 92385,
+        "distinct_score_groups": 763,
+        "negative": 82951,
+        "positive": 9434
+      },
+      "IR_local_darkness": {
+        "auroc": 0.5301135951367515,
+        "average_precision": 0.09846604123866147,
+        "count": 92385,
+        "distinct_score_groups": 92385,
+        "negative": 82951,
+        "positive": 9434
+      },
+      "baseline_CT_AP": 0.2980778906557112,
+      "baseline_CT_AUROC": 0.8700638058896089,
+      "fixed_native32_positive_minus_negative_mean": -3.0361254362617265,
+      "id": "frag3-context1",
+      "role": "calibration",
+      "sampled_result_PPM_geometry": {
+        "cross_product_area": {
+          "count": 81,
+          "maximum": 1.1205185044971153,
+          "median": 0.96263695424218,
+          "minimum": 0.9288691465333354
+        },
+        "du_norm": {
+          "count": 81,
+          "maximum": 1.037555562972439,
+          "median": 0.9866363643286142,
+          "minimum": 0.9636500237733081
+        },
+        "dv_norm": {
+          "count": 81,
+          "maximum": 1.1104539619759468,
+          "median": 0.9699152805650049,
+          "minimum": 0.9636039673005796
+        },
+        "signed_normal_dot": {
+          "count": 81,
+          "maximum": -0.9939752122543714,
+          "median": -0.9992689861178091,
+          "minimum": -0.9999892125431374
+        },
+        "tangent_dot": {
+          "count": 81,
+          "maximum": 0.07114091776048062,
+          "median": -0.0006324082449879508,
+          "minimum": -0.16750665262996917
+        }
+      },
+      "surface_native_SD_by_fixed_plane": {
+        "20": 29.991678912641518,
+        "32": 30.864937975580144,
+        "44": 5.909980575761495,
+        "56": 4.404332217420158,
+        "8": 27.985322624837714
+      },
+      "valid_result_PPM_centers": 81
+    },
+    {
+      "IR_darkness": {
+        "auroc": 0.9843550773307228,
+        "average_precision": 0.8789782108455063,
+        "count": 89261,
+        "distinct_score_groups": 1138,
+        "negative": 83490,
+        "positive": 5771
+      },
+      "IR_local_darkness": {
+        "auroc": 0.5657567868750537,
+        "average_precision": 0.0669873497652824,
+        "count": 89261,
+        "distinct_score_groups": 89261,
+        "negative": 83490,
+        "positive": 5771
+      },
+      "baseline_CT_AP": 0.18288743598535218,
+      "baseline_CT_AUROC": 0.6995116233984009,
+      "fixed_native32_positive_minus_negative_mean": -10.367192896916873,
+      "id": "frag3-context2",
+      "role": "calibration",
+      "sampled_result_PPM_geometry": {
+        "cross_product_area": {
+          "count": 80,
+          "maximum": 1.3864759024171185,
+          "median": 0.9746657616440662,
+          "minimum": 0.9287848333101416
+        },
+        "du_norm": {
+          "count": 80,
+          "maximum": 1.3269636053234897,
+          "median": 0.9927978544656659,
+          "minimum": 0.9638723698823792
+        },
+        "dv_norm": {
+          "count": 80,
+          "maximum": 1.112638707011685,
+          "median": 0.9743384296259059,
+          "minimum": 0.9635973222511145
+        },
+        "signed_normal_dot": {
+          "count": 80,
+          "maximum": -0.9892354574259371,
+          "median": -0.9992732009265077,
+          "minimum": -0.9999940885691225
+        },
+        "tangent_dot": {
+          "count": 80,
+          "maximum": 0.19088082514639063,
+          "median": 0.021056746871653518,
+          "minimum": -0.3437189693422685
+        }
+      },
+      "surface_native_SD_by_fixed_plane": {
+        "20": 29.52316120150163,
+        "32": 33.27127307383596,
+        "44": 6.276134946808077,
+        "56": 4.322286079883616,
+        "8": 27.58548664090078
+      },
+      "valid_result_PPM_centers": 80
+    }
+  ],
+  "promoted_model": null,
+  "publication": false,
+  "purpose": "Evaluation-informed regional alignment and depth diagnostic of all six fixed contexts",
+  "schema_version": 1,
+  "status": "completed_independently_verified",
+  "total_first_GPU_pilot_cap_GBP": 10,
+  "transcription": null,
+  "translation": null
+}

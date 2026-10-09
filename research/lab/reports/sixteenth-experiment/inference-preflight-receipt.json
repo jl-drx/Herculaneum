@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/workspace/.venvs/herculaneum/bin/python",
+    "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run_comparison.py",
+    "--plan",
+    "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/final-plan/comparison-plan.json",
+    "--preflight"
+  ],
+  "exit_code": 0,
+  "model_calls": 0,
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/final-plan/comparison-plan.json",
+    "sha256": "6ab47a1998a0dd5755db1f503cfb03f8301d91be19d11784ad2456f78df11018",
+    "size_bytes": 55952
+  },
+  "recorded_at_utc": "2026-10-08T21:33:29.693596+00:00",
+  "scope": "Root records the actual successful preflight tool output; no rerun. Six exact input/mask contracts validated before first model execution.",
+  "status": "PASS",
+  "tool_reported_wall_seconds": 0.306565982
+}

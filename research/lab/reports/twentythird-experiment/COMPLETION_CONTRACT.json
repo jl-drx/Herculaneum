@@ -1,0 +1,154 @@
+{
+  "Frag6_stage_C_authorized": false,
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "R2_worker_secret_delivery_verified": false,
+  "adopted_baseline": "unchanged strict seed42",
+  "automatic_retries": 0,
+  "conclusion": "Native improves Paris2 but regresses Paris1; not a consistent replacement under matched inputs.",
+  "context_direction_counts": {
+    "AP_improved": 4,
+    "AUC_improved": 3
+  },
+  "created_at_utc": "2026-10-09T05:39:35.029672+00:00",
+  "decision": "Retain seed42 baseline and native contrasting reference; next a fixed paired depth-direction diagnostic, no tuning/GPU scaling.",
+  "evidence": {
+    "independent_verification": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/independent-review/verification-v1.json",
+      "sha256": "b318016263d852d1de7843a6b5dfe1540a2feb779d044ca500df64ed0396bd3e",
+      "size_bytes": 25127
+    },
+    "input_contract": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/input-audit/INPUT_CONTRACT.json",
+      "sha256": "edb87179a3c8949bd43306f2c6e388c4de657ee9f52ea40f5e1192895c0ceafa",
+      "size_bytes": 96842
+    },
+    "input_verification": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/input-audit/verification.json",
+      "sha256": "479fc7b9239ae61916f508af6c39a6395b6f49618bda26de5e3ea4b288b93dfa",
+      "size_bytes": 54394
+    },
+    "metrics": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/implementation/analysis-v1/metrics.json",
+      "sha256": "67dba0d21bded05a6166969f597053b89399430de3dee29f2fbd31357f2c65a5",
+      "size_bytes": 38167
+    },
+    "native_result": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/implementation/run-v1/native/result.json",
+      "sha256": "c38ad03a287af2c20f365eb1a5edd63f40639b2a0c7dd61922a60abd1493ecf9",
+      "size_bytes": 106516
+    },
+    "next_study": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "550011403de4c66ed32d1dd764652e6dbda7d9b555b580b3ac5cf0df0ed3693a",
+      "size_bytes": 3697
+    },
+    "plan": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/implementation/PLAN.json",
+      "sha256": "5209c94c59c0746883ce6bc1d8da90a066955db0c2339c5a7ecd407902aa71a7",
+      "size_bytes": 6787
+    },
+    "plot_receipt": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/visuals/render-v1/PLOT_RECEIPT.json",
+      "sha256": "f3d8b7cce7093436f1e53c199b0b9b96e190f3c05a43ca77f00119d9e903b270",
+      "size_bytes": 11866
+    },
+    "protocol": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/PROTOCOL.md",
+      "sha256": "5a8fbf4762ed8dc03c3c13b0f5bcc7acaddaf146cce5987164463161eb76dc02",
+      "size_bytes": 7490
+    },
+    "recovery": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/INFRASTRUCTURE_RECOVERY.json",
+      "sha256": "97baab86b7ee6e669ef6a4e452bc088f21a73fff56b170c38ae40494d5a49a4f",
+      "size_bytes": 834
+    },
+    "report": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/RESULTS.md",
+      "sha256": "0f61c37ed4949b43a70b240fb50ea7e8509ca431751f607d3f9fa5f7cfa75a75",
+      "size_bytes": 9973
+    },
+    "root_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "543f42e413873130c6178a77f959e4246aa7d1ffb30b8fbb405dc58eef5b8a42",
+      "size_bytes": 2141
+    },
+    "visual_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/ROOT_VISUAL_REVIEW.json",
+      "sha256": "1dc13b4dd2a79328c64b3bf0da0c4856d2e15a42c6bf4720d4baf5a79518a301",
+      "size_bytes": 2164
+    }
+  },
+  "external_inference_seconds": 15.446818793003331,
+  "independent_confirmation_ready": false,
+  "model_constructions": 1,
+  "native_model_forwards": 150,
+  "network_requests": 0,
+  "network_response_body_bytes": 0,
+  "new_artifacts_uploaded_to_r2": false,
+  "new_candidate_scores": 0,
+  "parent_metrics": {
+    "Paris1": {
+      "context_ids": [
+        "frag3-context1",
+        "frag3-context2"
+      ],
+      "models": {
+        "native": {
+          "average_precision": 0.20358389033792545,
+          "roc_auc": 0.6303082426978869
+        },
+        "seed42": {
+          "average_precision": 0.2404826633205317,
+          "roc_auc": 0.7847877146440049
+        }
+      },
+      "native_minus_seed42": {
+        "average_precision": -0.03689877298260624,
+        "roc_auc": -0.154479471946118
+      },
+      "weighting": "equal context within named physical parent"
+    },
+    "Paris2": {
+      "context_ids": [
+        "frag1-context1",
+        "frag1-context2",
+        "frag2-context1",
+        "frag2-context2"
+      ],
+      "models": {
+        "native": {
+          "average_precision": 0.48760187644894387,
+          "roc_auc": 0.7054459415253924
+        },
+        "seed42": {
+          "average_precision": 0.3842856729084452,
+          "roc_auc": 0.6576421877658194
+        }
+      },
+      "native_minus_seed42": {
+        "average_precision": 0.1033162035404987,
+        "roc_auc": 0.04780375375957302
+      },
+      "weighting": "equal context within named physical parent"
+    }
+  },
+  "physical_parents": 2,
+  "primary_negative": 434259,
+  "primary_pixels": 520794,
+  "primary_positive": 86535,
+  "promoted_model": null,
+  "publication": null,
+  "reused_development_contexts": 6,
+  "scientific_model_forwards": 150,
+  "scientific_optimizer_updates": 0,
+  "scientific_performance_gate": null,
+  "seed42_model_forwards": 0,
+  "source_input_state_unchanged": true,
+  "status": "completed_execution_and_numerics_verified_mixed_development_transfer",
+  "strict_state_loads": 1,
+  "submission": null,
+  "threshold_fits": 0,
+  "transcription": null,
+  "translation": null
+}

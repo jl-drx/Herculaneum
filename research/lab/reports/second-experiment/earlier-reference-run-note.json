@@ -1,0 +1,8 @@
+{
+  "earlier_run_path": "/workspace/herculaneum-lab/reports/second-experiment/known-ink-forward/metadata.json",
+  "included_in_comparison": false,
+  "reason": "Source audit added provenance fields after the early inference run; scan bytes stayed identical. Comparison checksum guard rejected the changed sidecar. Repeat against the finalized immutable provenance snapshot.",
+  "source_unchanged": true,
+  "earlier_provenance_sha256": "923a6b42300ef3fc8493411c8296a1f386d3865227ea9206f6d51543c4fb6d54",
+  "final_frozen_provenance_sha256": "8948f985b45ec369e90df6829774c63138407b6ea839826d462765d793e94067"
+}

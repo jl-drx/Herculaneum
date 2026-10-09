@@ -1,0 +1,5 @@
+# Model-loading accounting clarification before execution
+
+The frozen research design's “six strict model loads” means six final-role worker initializations (three controls in each of two phases). The retained initializer implementation first constructs and strictly loads seed42 in each worker; each of the four A/B workers then strictly replaces that state with its named frozen candidate. Thus the actual implementation performs ten strict load_state_dict operations: six seed42 initializations plus four candidate replacements. No prediction occurs between initializer loading and candidate replacement in A/B workers.
+
+Record these counts separately in the plan/execution receipts. Do not report only six physical deserialization or load_state_dict calls. All final model identities, baseline/candidate loading checks, 450 tile forwards, zero backward passes, two-phase cutoff barrier, resource limits and scientific comparisons remain unchanged. This note corrects an accounting ambiguity before any new model execution; it does not change model selection or permit extra forwards.

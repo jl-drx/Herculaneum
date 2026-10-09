@@ -1,0 +1,54 @@
+{
+  "status": "pass_synthetic_mechanics_only",
+  "seed": 20261008,
+  "model_sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+  "strict_state_match": true,
+  "parameter_count": 34546498,
+  "input_shape": [
+    1,
+    1,
+    17,
+    128,
+    128
+  ],
+  "positive_pixels": 1920,
+  "negative_pixels": 4480,
+  "unknown_pixels": 9984,
+  "masked_bce": 0.9194310903549194,
+  "illustrative_balanced_anchor_bce": 1.0281827449798584,
+  "anchor_groups": [
+    {
+      "region": 0,
+      "target": 0.0,
+      "pixels": 1792
+    },
+    {
+      "region": 0,
+      "target": 1.0,
+      "pixels": 768
+    },
+    {
+      "region": 1,
+      "target": 0.0,
+      "pixels": 2688
+    },
+    {
+      "region": 1,
+      "target": 1.0,
+      "pixels": 1152
+    }
+  ],
+  "unknown_logits_gradients_exactly_zero": true,
+  "finite_gradient_tensors": 264,
+  "changed_parameter": "depth_fusion.features.1.weight",
+  "changed_elements": 16,
+  "optimizer": "SGD lr0.001 momentum0, one step",
+  "wall_seconds": 3.1227551769989077,
+  "peak_rss_kib": 799980,
+  "threads": 4,
+  "optimizer_steps": 1,
+  "real_data_used": false,
+  "network_requests": 0,
+  "weights_or_prediction_files_written": 0,
+  "limitation": "Synthetic forward/backward/step and masked-support mechanics only; no new method validation or production optimizer decision."
+}

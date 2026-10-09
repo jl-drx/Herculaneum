@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-10-09T13:06:14.160993+00:00",
+  "elapsed_seconds": 2.664296808000472,
+  "loss_rows_checked": 768,
+  "maximum_differences": {
+    "dice_loss": 1.122787711693718e-07,
+    "full": 1.0514931336746969e-07,
+    "hard_base": 7.928146666946745e-08,
+    "loss_D_M": 1.3877787807814457e-17,
+    "loss_U": 1.0514931336746969e-07,
+    "probability_drift_manual": 1.3877787807814457e-17
+  },
+  "new_model_forwards": 0,
+  "optimizer_autograd_replayed": false,
+  "peak_RSS_bytes": 162852864,
+  "scalar_values_checked": 4608,
+  "status": "PASS",
+  "verifier": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/verify_training_v2.py",
+    "sha256": "088c56cec5508ca2ecb0e885f1e20eec9d88a8d6415ccfb07cad6a1be7e5d26b",
+    "size_bytes": 3933
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "conclusions": [
+    "Source identities and PNG structure verified",
+    "187 tile counts and prospective selection recomputed separately",
+    "All four actual scoring cores contain both classes",
+    "65536 pooled labels checked with scalar implementation",
+    "Three assets acquired within budget; no candidate inference",
+    "Prior CT evidence retained; no independent optical truth or author assertion",
+    "Exact pending CPU job and practical margins bound before scores"
+  ],
+  "created_at_utc": "2026-10-09T09:21:18.297168+00:00",
+  "fixtures_passed": 4,
+  "limitations": [
+    "Generic classifier does not support L/RGB tRNS transparency; actual sources were explicitly checked and are unaffected",
+    "Qualitative optical review does not measure registration residual",
+    "No independent parent/model ancestry guarantee",
+    "Mixed boundaries excluded from future coarse scoring"
+  ],
+  "model_forwards_this_phase": 0,
+  "next_job_useful_CT_bytes": 74317824,
+  "numerical_verification": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/QC_VERIFICATION.json",
+    "sha256": "64fd802ba592f8254df9ba6bca37e1eea86834cba460595e9c1986127372714f",
+    "size_bytes": 2745
+  },
+  "repository_unchanged": true,
+  "reviewer": "root; no independent agent",
+  "scalar_pooled_label_checks": 65536,
+  "status": "PASS_FOR_OBSERVED_ASSETS_AND_FIXED_LABEL_CONTRACT"
+}

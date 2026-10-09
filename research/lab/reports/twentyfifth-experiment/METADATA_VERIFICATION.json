@@ -1,0 +1,161 @@
+{
+  "assertions": 1847,
+  "benchmark_admission": false,
+  "encoding_discrepancy": "PSD header depth 8 versus EXIF BitsPerSample 16; do not use embedded EXIF to override current PSD storage.",
+  "exif_first_directory_tags": {
+    "256": {
+      "count": 1,
+      "type": 3,
+      "value_or_offset": 6205
+    },
+    "257": {
+      "count": 1,
+      "type": 3,
+      "value_or_offset": 8853
+    },
+    "258": {
+      "count": 1,
+      "type": 3,
+      "value_or_offset": 16
+    },
+    "259": {
+      "count": 1,
+      "type": 3,
+      "value_or_offset": 5
+    },
+    "262": {
+      "count": 1,
+      "type": 3,
+      "value_or_offset": 1
+    },
+    "274": {
+      "count": 1,
+      "type": 3,
+      "value_or_offset": 1
+    },
+    "277": {
+      "count": 1,
+      "type": 3,
+      "value_or_offset": 1
+    },
+    "282": {
+      "count": 1,
+      "type": 5,
+      "value_or_offset": 182
+    },
+    "283": {
+      "count": 1,
+      "type": 5,
+      "value_or_offset": 190
+    },
+    "284": {
+      "count": 1,
+      "type": 3,
+      "value_or_offset": 1
+    },
+    "296": {
+      "count": 1,
+      "type": 3,
+      "value_or_offset": 2
+    },
+    "305": {
+      "count": 33,
+      "type": 2,
+      "value_or_offset": 198
+    },
+    "306": {
+      "count": 20,
+      "type": 2,
+      "value_or_offset": 231
+    },
+    "34665": {
+      "count": 1,
+      "type": 4,
+      "value_or_offset": 252
+    }
+  },
+  "exif_selected_text": {
+    "305": "Adobe Photoshop 25.2 (Macintosh)",
+    "306": "2023:12:05 12:20:03"
+  },
+  "inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/metadata-run-v1/PSD_METADATA.json",
+      "sha256": "c1cdcd5a99cbb485b3f020b0dcad12034c86cf0d6d932954ad812545b495f2e5",
+      "size_bytes": 21332
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/metadata-run-v1/request-ledger.json",
+      "sha256": "310c87643a4e18525356b2dfc8d2c125a4d28055981171c915b5fb6fe2a99bbb",
+      "size_bytes": 53155
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/exif-run-v1/EXIF_METADATA.json",
+      "sha256": "885ca1686be8f6f6bf712ae0d2051f98c1599f62009336a823de4002f534b32d",
+      "size_bytes": 2413
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/exif-run-v1/request-ledger.json",
+      "sha256": "d0ebd5c15549e59554655e215980271e8bf3a05fe4c7feb707c0692bc8d6d52b",
+      "size_bytes": 5234
+    }
+  ],
+  "iptc_resource_present": false,
+  "network_calls_by_verifier": 0,
+  "psd_resources_enumerated": 26,
+  "requests": 61,
+  "reserved_body_bytes": 15654,
+  "resource_payloads_unread": "All PSD resources except XMP and the bounded EXIF first-directory/text ranges. No thumbnail/layer/composite data decoded or candidate evaluation.",
+  "returned_body_bytes": 15594,
+  "review": "Root offline second-pass audit; not an independent agent review",
+  "stage_C_open": false,
+  "status": "PASS",
+  "xmp_fields": {
+    "dc:creator": [],
+    "dc:description": [],
+    "mm:DocumentID": [
+      "adobe:docid:photoshop:cc66aed4-e025-8147-bce4-b5ebc9ff33eb"
+    ],
+    "mm:OriginalDocumentID": [
+      "xmp.did:a9afc308-3230-4011-bd20-fd8566cf1fbb"
+    ],
+    "xmp:CreateDate": [
+      "2023-12-01T15:37:48-05:00"
+    ],
+    "xmp:CreatorTool": [
+      "Adobe Photoshop 25.2 (Macintosh)"
+    ],
+    "xmp:MetadataDate": [
+      "2023-12-05T12:20:03-05:00"
+    ],
+    "xmp:ModifyDate": [
+      "2023-12-05T12:20:03-05:00"
+    ]
+  },
+  "xmp_history": [
+    {
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}action": "created",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}instanceID": "xmp.iid:a9afc308-3230-4011-bd20-fd8566cf1fbb",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}softwareAgent": "Adobe Photoshop 25.2 (Macintosh)",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}when": "2023-12-01T15:37:48-05:00"
+    },
+    {
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}action": "converted",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}parameters": "from image/tiff to application/vnd.adobe.photoshop"
+    },
+    {
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}action": "saved",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}changed": "/",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}instanceID": "xmp.iid:03973e75-dc30-44a8-9f2a-4999152c66e5",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}softwareAgent": "Adobe Photoshop 25.2 (Macintosh)",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}when": "2023-12-04T16:48:04-05:00"
+    },
+    {
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}action": "saved",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}changed": "/",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}instanceID": "xmp.iid:8586674b-bc50-42ba-9901-24a3ba13f54e",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}softwareAgent": "Adobe Photoshop 25.2 (Macintosh)",
+      "{http://ns.adobe.com/xap/1.0/sType/ResourceEvent#}when": "2023-12-05T12:20:03-05:00"
+    }
+  ]
+}

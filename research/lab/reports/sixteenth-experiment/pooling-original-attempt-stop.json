@@ -1,0 +1,46 @@
+{
+  "code_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/code-freeze.json",
+    "sha256": "f2f4d73466c51c55c666b80bbeaeb70cd99cd82d02f6c3f53d9e2d943a5e04c4",
+    "size_bytes": 4024
+  },
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "120s",
+    "/workspace/.venvs/herculaneum/bin/python",
+    "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/run_pooling.py",
+    "--plan",
+    "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/final-pooling-plan/pooling-plan.json",
+    "--output-dir",
+    "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/pooling-run"
+  ],
+  "failure_message": "Raw metadata reconstruction differs from per-file layout",
+  "failure_type": "ValueError",
+  "model_calls": 0,
+  "network_calls": 0,
+  "numeric_CT_decode_started": false,
+  "output_files_at_inspection": [],
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling/final-pooling-plan/pooling-plan.json",
+    "sha256": "7a4797adffb982dd5991bc2642d8f5a7a4277ea5799da93e637ad5da7bba1c55",
+    "size_bytes": 5253
+  },
+  "raw_provenance": {
+    "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-acquisition/pixel-run/raw-provenance.json",
+    "sha256": "c9cc64e4c39ee063bbc67bcddf547fabd51c71af36143a1527c4130867e0185c",
+    "size_bytes": 1490658
+  },
+  "recorded_at_utc": "2026-10-08T21:27:51.632306+00:00",
+  "returncode": 1,
+  "scope": "Failure location and absence of output checked against pinned source; not a separate execution trace recorder. Preserve this attempt and all frozen sources; any correction requires a separate reviewed version.",
+  "source_go": {
+    "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/review/production-pooling/code-go.json",
+    "sha256": "36359db9388d7a20a7c18fd538c48002fbd2764479e436555b0cabffe7c11a26",
+    "size_bytes": 3988
+  },
+  "status": "STOP",
+  "tool_reported_wall_seconds": 0.675998402,
+  "trace_location": "run_pooling.py:61"
+}

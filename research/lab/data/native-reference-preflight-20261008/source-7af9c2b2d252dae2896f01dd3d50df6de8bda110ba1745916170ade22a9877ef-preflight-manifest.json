@@ -1,0 +1,691 @@
+{
+  "acquisition_layout": {
+    "actual_chunk_http_access_verified": false,
+    "aligned_crop_xy": [
+      1024,
+      1024
+    ],
+    "compressed_exact_wire_bytes_verified": false,
+    "compressed_surfaces_count": 1,
+    "decoded_bytes_per_chunk": 1785856,
+    "decoded_bytes_per_crop": 114294784,
+    "four_crop_decoded_bytes": 457179136,
+    "full_depth_planes": 109,
+    "http_range_support_verified": false,
+    "mesh_or_geometry_acquired": false,
+    "regions_selected": null,
+    "uncompressed_surfaces_count": 18,
+    "xy_chunk_count_per_crop": 64
+  },
+  "additional_alias_source_checks": [
+    {
+      "result": "l_2/l_5 paper aliases and label filename, no public segment-ID mapping",
+      "url": "https://arxiv.org/html/2606.29085v1#Sx13.T2"
+    },
+    {
+      "result": "Extended Data Figure 7 is the pseudo-labeling ablation figure, no physical segment-ID mapping",
+      "url": "https://arxiv.org/html/2606.29085v1#Sx12.F7"
+    },
+    {
+      "response_sha256": "0157928450f895df16ecdbff9e5176c36ea8b989606ab95ac52f23f41da88cc4",
+      "result": "w013/w018/w023/w028/w029/w031 folders; no l_2/l_5 identity mapping",
+      "url": "https://huggingface.co/api/buckets/scrollprize/datasets/tree/ink/1667?recursive=false&limit=100"
+    },
+    {
+      "result": "No l_2/l_5 native source mapping. l2_0_crop is PHerc0139 and is not l_2.",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/metadata.json"
+    }
+  ],
+  "created_at": "2026-10-08T09:54:03.404578+00:00",
+  "decision": {
+    "acquisition_ready": false,
+    "ready_for_gpu": false,
+    "reason": "Paper l_2/l_5 aliases, source version, 62-plane selection/orientation, and label alignment are not verified against a public native surface."
+  },
+  "depth_contract": {
+    "current_slice_step_native_voxels": 1.0,
+    "current_surface_planes": 109,
+    "model_input_planes": 62,
+    "paper_input_quantization_equivalence_verified": false,
+    "renderer_sampling_code_at_current_commits_inspected": false,
+    "signed_depth_orientation_verified": false,
+    "verified_source_indices": null
+  },
+  "experiment_id": "pherc1667-native-reference-v1",
+  "kind": "source-identity-and-bounded-acquisition-preflight",
+  "limitations": [
+    "Inspected sources do not verify paper alias identity; absence here is not a claim that no mapping exists anywhere.",
+    "109 planes and 2.399 micrometer metadata cannot establish original 62-plane source selection or byte equality.",
+    "Current renderer commit identifiers are retained but exact sampling implementation has not been inspected in this preflight.",
+    "No mesh validity or original aligned l_2 labels have been acquired.",
+    "No regions selected; no detector or glyph-based selection; no predictions, training, scan chunk download, cloud account actions, or spending."
+  ],
+  "metadata_manifest": {
+    "path": "/workspace/herculaneum-lab/data/native-reference-preflight-20261008/source-3edb00b5544a20658ab6d98069fbc841d773cd4df74768477371f77390a4e607-metadata-manifest.json",
+    "sha256": "3edb00b5544a20658ab6d98069fbc841d773cd4df74768477371f77390a4e607"
+  },
+  "native_volume": {
+    "creation_process": "mask_layers_zarr_export",
+    "dtype": "|u1",
+    "id": "20251217075048",
+    "scan_id": "20251204164204",
+    "shape_zyx": [
+      37076,
+      15229,
+      15229
+    ],
+    "voxel_size_um": 2.399,
+    "window_f32": [
+      -0.03,
+      0.21
+    ],
+    "window_u16": [
+      7396,
+      45012
+    ]
+  },
+  "network_accounting": {
+    "alias_audit_limit_note": "One early response count was not retained precisely; charged its 100001-byte per-response cap. All remaining counts bounded. No scan chunks or weights.",
+    "alias_audit_requests": 12,
+    "alias_audit_response_body_upper_bound_bytes": 196087,
+    "authorized_cap_bytes": 20971520,
+    "count_excludes_transport_overhead": true,
+    "metadata_exact_response_body_bytes": 73110,
+    "metadata_requests": 42,
+    "total_requests": 54,
+    "total_response_body_upper_bound_bytes": 269197
+  },
+  "paper_alias_mapping": {
+    "l_2": null,
+    "l_5": null
+  },
+  "public_snapshot": {
+    "archive_sha256": "7ec8dcaa3000b9716724c26a1991ee416491d8a6b3615238ca90ae11540abdd3",
+    "conditional_get_status": 304,
+    "etag": "\"b4788ae14c64e13e57346c07c3f0b8a5\"",
+    "last_modified": "Mon, 05 Oct 2026 15:58:43 GMT",
+    "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/metadata.json"
+  },
+  "public_surface_inventory": [
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20251212185248-w029_20251212185248662_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20251212185248-w029_20251212185248662_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w029",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:34.176972Z",
+      "segment_id": "20251212185248",
+      "shape_zyx": [
+        109,
+        38000,
+        31320
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260119120000-w036_2026011912_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260119120000-w036_2026011912_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w036",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:35.181883Z",
+      "segment_id": "20260119120000",
+      "shape_zyx": [
+        109,
+        39900,
+        33160
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260205070000-w041_2026020507_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260205070000-w041_2026020507_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w041",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-18T17:51:30.790006Z",
+      "segment_id": "20260205070000",
+      "shape_zyx": [
+        109,
+        34200,
+        30540
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20251208130119-w028_20251208130119156_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20251208130119-w028_20251208130119156_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w028",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:35.995545Z",
+      "segment_id": "20251208130119",
+      "shape_zyx": [
+        109,
+        37420,
+        30340
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20251223230000-w031_2025122323_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20251223230000-w031_2025122323_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w031",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:38.091426Z",
+      "segment_id": "20251223230000",
+      "shape_zyx": [
+        109,
+        37480,
+        32180
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260116230000-w035_2026011623_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260116230000-w035_2026011623_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w035",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:36.956423Z",
+      "segment_id": "20260116230000",
+      "shape_zyx": [
+        109,
+        36680,
+        32560
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20251206103305-w012_20251206103305555_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20251206103305-w012_20251206103305555_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w012",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:39.762355Z",
+      "segment_id": "20251206103305",
+      "shape_zyx": [
+        109,
+        39380,
+        15700
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20240304144031-w018_20240304144031_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20240304144031-w018_20240304144031_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w018",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:43.528389Z",
+      "segment_id": "20240304144031",
+      "shape_zyx": [
+        109,
+        42380,
+        98100
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260123230000-w037_2026012323_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260123230000-w037_2026012323_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w037",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-18T18:21:30.870354Z",
+      "segment_id": "20260123230000",
+      "shape_zyx": [
+        109,
+        34260,
+        31780
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260130150000-w039_2026013015_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260130150000-w039_2026013015_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w039",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-18T18:17:44.015870Z",
+      "segment_id": "20260130150000",
+      "shape_zyx": [
+        109,
+        36100,
+        33280
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20251220020000-w030_2025122002_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20251220020000-w030_2025122002_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w030",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:37.771957Z",
+      "segment_id": "20251220020000",
+      "shape_zyx": [
+        109,
+        37800,
+        31720
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260115160000-w034_2026011516_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260115160000-w034_2026011516_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w034",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-18T18:21:05.765708Z",
+      "segment_id": "20260115160000",
+      "shape_zyx": [
+        109,
+        35900,
+        32440
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260110010000-w033_2026011001_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260110010000-w033_2026011001_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w033",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-18T18:20:39.109078Z",
+      "segment_id": "20260110010000",
+      "shape_zyx": [
+        109,
+        36100,
+        31580
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260128140000-w038_2026012814_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260128140000-w038_2026012814_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w038",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-18T18:10:47.020788Z",
+      "segment_id": "20260128140000",
+      "shape_zyx": [
+        109,
+        35180,
+        32900
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": {
+        "clevel": 3,
+        "id": "blosc"
+      },
+      "dimension_separator": ".",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20240304141531-w013_20240304141531_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20240304141531-w013_20240304141531_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w013",
+      "render_commit": "ae2ecce9dded502b0cc24127e9fceabd04e1257d",
+      "render_date": "2026-06-17T17:47:47.435591Z",
+      "segment_id": "20240304141531",
+      "shape_zyx": [
+        109,
+        41600,
+        79600
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260203210000-w040_2026020321_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260203210000-w040_2026020321_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w040",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-18T18:06:26.534951Z",
+      "segment_id": "20260203210000",
+      "shape_zyx": [
+        109,
+        35120,
+        31520
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260105050000-w032_2026010505_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260105050000-w032_2026010505_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w032",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:41.685925Z",
+      "segment_id": "20260105050000",
+      "shape_zyx": [
+        109,
+        38060,
+        32820
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20260108140509-w011_20260108140509268_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20260108140509-w011_20260108140509268_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w011",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:42.329405Z",
+      "segment_id": "20260108140509",
+      "shape_zyx": [
+        109,
+        39500,
+        14720
+      ]
+    },
+    {
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "compressor": null,
+      "dimension_separator": "/",
+      "dtype": "|u1",
+      "flip_normals": "true",
+      "long_id": "20240304161941-w023_20240304161941_flatboi",
+      "native_scale_um_zyx": [
+        2.399,
+        2.399,
+        2.399
+      ],
+      "native_zarr_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc1667/segments/20240304161941-w023_20240304161941_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20251217075048.zarr/",
+      "paper_alias": null,
+      "public_name": "w023",
+      "render_commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+      "render_date": "2026-06-19T09:24:43.154308Z",
+      "segment_id": "20240304161941",
+      "shape_zyx": [
+        109,
+        41860,
+        102360
+      ]
+    }
+  ],
+  "retained_local_source_records": [
+    {
+      "byte_length": 445383,
+      "path": "/workspace/herculaneum-lab/data/methods-review/paper.html",
+      "sha256": "d89ffcdb282ad5fab451593e618ff07738d687f79df8dbb93950e909d786f062",
+      "source_url": "https://arxiv.org/html/2606.29085v1"
+    },
+    {
+      "byte_length": 8532,
+      "path": "/workspace/herculaneum-lab/data/methods-review/iteration-0-README.md",
+      "sha256": "b7f406cdc51a7874ca3f786961f744286221c890f307e043255c41577e962a78",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/README.md"
+    },
+    {
+      "byte_length": 713,
+      "path": "/workspace/herculaneum-lab/data/methods-review/iteration-0-config.json",
+      "sha256": "8fdb5c7903cc3dce2c37a93b028028582fef9134b6a826870e3bfab544f5be79",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/config.json"
+    },
+    {
+      "byte_length": 8362,
+      "path": "/workspace/herculaneum-lab/data/methods-review/iteration-5-README.md",
+      "sha256": "197fb980175f5d52408d719e700d41e39a17fa819ebf4839b3445d357657b396",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/README.md"
+    },
+    {
+      "byte_length": 648,
+      "path": "/workspace/herculaneum-lab/data/methods-review/iteration-5-config.json",
+      "sha256": "941f69c2487b51bc9eb9fc638cc6c4b4af2d30e25ccd45044751ce7eaabcd35e",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/config.json"
+    },
+    {
+      "byte_length": 18328,
+      "path": "/workspace/Herculaneum/experiments/pherc1667-reference.json",
+      "sha256": "8ac0651871d83e805008051b76b1d832206fa92d974e51a40f9ab5624bb237d7",
+      "source_url": null
+    },
+    {
+      "byte_length": 10339,
+      "path": "/workspace/herculaneum-lab/reports/second-experiment/reference-source-audit.md",
+      "sha256": "ef225d9ea0f831e9b3324f3d23b08c04adee8163c3c92836c6c70a15e0c8b880",
+      "source_url": null
+    }
+  ],
+  "schema_version": 1
+}

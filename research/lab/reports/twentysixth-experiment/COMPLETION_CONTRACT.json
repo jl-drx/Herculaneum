@@ -1,0 +1,109 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "benchmark_admitted": false,
+  "created_at_utc": "2026-10-09T06:37:57.886850+00:00",
+  "decision": "Retain offline prototype; next bind real storage metadata and validate a storage adapter. Preserve source/annotation/registration/exposure gates and existing model baseline.",
+  "elapsed_seconds": 2.361804307,
+  "evidence": {
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "0f1cb4a8bdf8187c81ed15846c6e7742be1c939d367c7163abf8f6d79ace9da3",
+      "size_bytes": 4308
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/PROTOCOL.md",
+      "sha256": "371ec78c841508dc3759ed9a53c90bdfa34ae2badfc1c60ba60b278ce991b778",
+      "size_bytes": 5333
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/RESULTS.md",
+      "sha256": "d2c9aafb5827fee1c8c9dcac63cb3e232fe4e8195ddedb7cce4973aa4265df61",
+      "size_bytes": 8498
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "5db905a6afa108bdf3f9b366118936913d2d643413cc72148b6c056e1519a16c",
+      "size_bytes": 1657
+    },
+    "SAVED_RESULT_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/SAVED_RESULT_VERIFICATION.json",
+      "sha256": "48bc7d2f8a6b140769f126e5f602e7f223e963813717e8c043fdfac780a2e804",
+      "size_bytes": 1097
+    },
+    "SOURCE_FREEZE.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/SOURCE_FREEZE.json",
+      "sha256": "53c0dc2aca6a570d1077024e761fde5001cae0d259363f9b9b3c3911a441ccc1",
+      "size_bytes": 1250
+    },
+    "run-v1/RUN_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/run-v1/RUN_RECEIPT.json",
+      "sha256": "396d515345258e2e4560482c6694c7188ac76e46c074459f488f36654f275a4f",
+      "size_bytes": 1481
+    },
+    "run-v1/SPARSE_GEOMETRY_DRY_PLAN.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/run-v1/SPARSE_GEOMETRY_DRY_PLAN.json",
+      "sha256": "5055e6ac9f7b9ed72286165942c40d592951afa8c96b336a2224f65133d08aaa",
+      "size_bytes": 14828
+    },
+    "run-v1/SYNTHETIC_DIAGNOSTICS.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/run-v1/SYNTHETIC_DIAGNOSTICS.json",
+      "sha256": "e001a193804aad9154737a54f7aaf96ad302b772ffc4031620b66402cd460dac",
+      "size_bytes": 1983
+    },
+    "run-v1/TESTS.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/run-v1/TESTS.json",
+      "sha256": "31bc3c5aa39a47bd4bcfd338caed867aa9e717219af1296e81f8cf116bf5003e",
+      "size_bytes": 339
+    },
+    "run-v1/synthetic-controls.png": {
+      "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/run-v1/synthetic-controls.png",
+      "sha256": "5c38440398dc84a442fa2552ab16e05ffe662ff948f153c23894c8118df6f579",
+      "size_bytes": 132319
+    }
+  },
+  "execution_attempts": 1,
+  "hypothetical_chunks": 78,
+  "hypothetical_uncompressed_bytes": 40894464,
+  "independent_agent_review": false,
+  "independent_confirmation_ready": false,
+  "maintainer_request_status": "User intends to submit; not confirmed sent",
+  "max_rss_bytes": 71790592,
+  "network_requests": 0,
+  "network_response_body_bytes": 0,
+  "new_artifacts_uploaded_to_r2": false,
+  "new_candidate_image_pixels": 0,
+  "new_candidate_scores": 0,
+  "publication": null,
+  "real_storage_layout_verified": false,
+  "retained_geometry_records": 729,
+  "retained_invalid_records": 171,
+  "retained_mapped_records": 558,
+  "scientific_model_forwards": 0,
+  "scientific_optimizer_updates": 0,
+  "stage_C_open": false,
+  "status": "completed_offline_mechanics_verified_no_benchmark_admission",
+  "submission": null,
+  "synthetic_registration_check_max_pixels": 4.999999999999997,
+  "synthetic_registration_fit_max_pixels": 6.358389842764979e-15,
+  "synthetic_sampling": {
+    "correct": {
+      "maximum_absolute_error": 2.2737367544323206e-13,
+      "mean_absolute_error": 5.4511950509095186e-14
+    },
+    "half_voxel_shift": {
+      "maximum_absolute_error": 61.78521249388973,
+      "mean_absolute_error": 59.83311912491365
+    },
+    "swapped_xz": {
+      "maximum_absolute_error": 549.6989462410354,
+      "mean_absolute_error": 189.54205597306458
+    }
+  },
+  "synthetic_test_errors": 0,
+  "synthetic_test_failures": 0,
+  "synthetic_test_skips": 0,
+  "synthetic_tests": 37,
+  "transcription": null,
+  "translation": null
+}

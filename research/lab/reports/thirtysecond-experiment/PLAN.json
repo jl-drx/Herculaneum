@@ -1,0 +1,216 @@
+{
+  "CPU_panel": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/CPU_PANEL.json",
+    "sha256": "a542fff41b81b6c783d141a68d4a0c2051a978c2ee883d0ed10e60f2d1d78ef0",
+    "size_bytes": 5153
+  },
+  "contexts": [
+    {
+      "core64": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r544-c4128-core64.npy",
+        "sha256": "e872142a6e70cc8dc01c1029660b220b3a86e32ae677188a7eca55584942667d",
+        "size_bytes": 4224
+      },
+      "core_both_classes": true,
+      "core_counts_negative_positive_unknown": [
+        1088,
+        2920,
+        88
+      ],
+      "discarded_mixed_or_unknown_3x3_blocks": 268,
+      "id": "r544-c4128",
+      "labels128": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r544-c4128-labels128.npy",
+        "sha256": "2b44ee183f7dac47da3256568bf47e2c4c2837b643455c3037ac2c61ebbc22bc",
+        "size_bytes": 16512
+      },
+      "parent": "PHerc51",
+      "source_bbox_yxhw": [
+        608,
+        4192,
+        384,
+        384
+      ],
+      "source_score_bbox_yxhw": [
+        704,
+        4288,
+        192,
+        192
+      ]
+    },
+    {
+      "core64": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r2080-c3616-core64.npy",
+        "sha256": "3ba11d55b1bc45877d813e18eb91b0fa99a853be0613a615d38430d3181dee97",
+        "size_bytes": 4224
+      },
+      "core_both_classes": true,
+      "core_counts_negative_positive_unknown": [
+        549,
+        3485,
+        62
+      ],
+      "discarded_mixed_or_unknown_3x3_blocks": 244,
+      "id": "r2080-c3616",
+      "labels128": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r2080-c3616-labels128.npy",
+        "sha256": "859f0ca90eaf4c0100a13caddcefe16b10ffbf907c9356508f3db0cd0a50a3c0",
+        "size_bytes": 16512
+      },
+      "parent": "PHerc51",
+      "source_bbox_yxhw": [
+        2144,
+        3680,
+        384,
+        384
+      ],
+      "source_score_bbox_yxhw": [
+        2240,
+        3776,
+        192,
+        192
+      ]
+    },
+    {
+      "core64": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r4640-c1056-core64.npy",
+        "sha256": "7efd9ad7346780a06aeb8c50b4bccb231758c244b52b309d9293b3af72edf443",
+        "size_bytes": 4224
+      },
+      "core_both_classes": true,
+      "core_counts_negative_positive_unknown": [
+        3942,
+        129,
+        25
+      ],
+      "discarded_mixed_or_unknown_3x3_blocks": 66,
+      "id": "r4640-c1056",
+      "labels128": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r4640-c1056-labels128.npy",
+        "sha256": "8be41d0db4cb4aa918d87f5dca431871fdc18eb4aa8248c3b228cd882400fde3",
+        "size_bytes": 16512
+      },
+      "parent": "PHerc51",
+      "source_bbox_yxhw": [
+        4704,
+        1120,
+        384,
+        384
+      ],
+      "source_score_bbox_yxhw": [
+        4800,
+        1216,
+        192,
+        192
+      ]
+    },
+    {
+      "core64": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r6688-c1568-core64.npy",
+        "sha256": "e826d12fff81cee03a28553eb72aba9ec5e3c59a21b41920db1fe946cb183157",
+        "size_bytes": 4224
+      },
+      "core_both_classes": true,
+      "core_counts_negative_positive_unknown": [
+        3652,
+        388,
+        56
+      ],
+      "discarded_mixed_or_unknown_3x3_blocks": 142,
+      "id": "r6688-c1568",
+      "labels128": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r6688-c1568-labels128.npy",
+        "sha256": "6cfca2a389afffef98c7898425921c4c87d67cc1aae8abe17bd37f5f616e7777",
+        "size_bytes": 16512
+      },
+      "parent": "PHerc51",
+      "source_bbox_yxhw": [
+        6752,
+        1632,
+        384,
+        384
+      ],
+      "source_score_bbox_yxhw": [
+        6848,
+        1728,
+        192,
+        192
+      ]
+    }
+  ],
+  "created_at_utc": "2026-10-09T09:49:58.863499+00:00",
+  "limits": {
+    "RSS_bytes": 2147483648,
+    "acquisition_seconds": 600,
+    "disk_bytes": 1073741824,
+    "requests": 800,
+    "reserved_body_bytes": 201326592
+  },
+  "model_forwards_allowed_in_acquisition": 0,
+  "schema_version": 1,
+  "urls": [
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/01.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/02.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/03.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/04.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/05.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/06.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/07.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/08.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/09.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/10.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/11.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/12.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/13.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/14.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/15.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/16.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/17.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/18.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/19.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/20.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/21.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/22.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/23.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/24.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/25.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/26.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/27.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/28.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/29.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/30.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/31.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/32.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/33.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/34.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/35.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/36.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/37.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/38.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/39.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/40.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/41.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/42.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/43.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/44.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/45.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/46.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/47.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/48.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/49.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/50.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/51.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/52.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/53.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/54.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/55.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/56.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/57.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/58.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/59.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/60.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/61.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/62.tif",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/63.tif"
+  ]
+}

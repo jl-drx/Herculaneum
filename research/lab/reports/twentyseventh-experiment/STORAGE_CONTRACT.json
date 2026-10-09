@@ -1,0 +1,52 @@
+{
+  "array_metadata": {
+    "chunks": [
+      128,
+      128,
+      128
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 3,
+      "cname": "zstd",
+      "id": "blosc",
+      "shuffle": 0
+    },
+    "dimension_separator": "/",
+    "dtype": "<u2",
+    "fill_value": 0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      8855,
+      2260,
+      6300
+    ],
+    "zarr_format": 2
+  },
+  "array_path": "0",
+  "axes_zyx": [
+    "z",
+    "y",
+    "x"
+  ],
+  "candidate_chunks_read": 0,
+  "cross_object_snapshot_verified": false,
+  "full_physical_chunk_bytes": 4194304,
+  "historical_source_frame_verified": false,
+  "live_pixel_transport_verified": false,
+  "optional_array_attributes": "404 header observed; body refused; unavailable",
+  "physical_pitch_um": null,
+  "requests": 4,
+  "reserved_body_bytes": 102404,
+  "retries": 0,
+  "returned_metadata_body_bytes": 3443,
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "sharding": false,
+  "status": "PARTIAL_ACQUISITION_THREE_VERIFIED_OBJECTS",
+  "units": null
+}

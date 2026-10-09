@@ -1,0 +1,13 @@
+This checker reconstructs the six frozen CT inputs from retained HTTP response bytes. It imports no producer module. The TIFF, multipart and pooling kernels come from previously sealed independent packages, with exact source hashes checked on import. No model, Torch, checkpoint or network operation is available.
+
+The root must supply exact SHA256 pins for completed metadata, raw provenance and the canonical pooled descriptor. Before a real pass, the independent code seal must exist and match its source files. Synthetic preparation does not open future production files.
+
+For every source plane, the checker decodes the TIFF header and IFD, validates the per-file byte order, single-strip layout, raster orientation and source canvas, and matches each metadata byte range to its request config, terminal receipt and isolated HTTP ledger. Plane07 retains the completed probe provenance; the other150 files account for450 new metadata requests.
+
+For every context and native plane07–57, it derives cropped row byte offsets independently from the declared strip/canvas and the literal frozen1152-square bbox. The1530 logical batches cover each of the352512 native context rows exactly once. Both256-row and128-row multipart responses are parsed by binary payload length, preserving physical part offsets and routing by absolute native row rather than returned part order. Body hashes, ETags, If-Match, ranges, accounting and terminal chains are verified against saved receipts.
+
+One native uint16[51,1152,1152] context is held at a time. Each17-layer output uses27 explicit uint32 residue-class additions, one float64 division by6939, then native float32. The six supplied outputs must have identical uint32 views of all float32 values. This is a bitwise CT pooling claim; no corresponding bitwise model-score claim is made. Literal labels and all three mask roles retain the exact fifteenth file identities and canonical array encodings.
+
+The final receipt uses canonical descriptor identity `{path,size_bytes,sha256}`, `status: PASS` and `all_CT_arrays_exact: true` only after the real saved-output comparison passes. Source fixtures cannot satisfy this gate. All observed input files are rehashed at the end. The checker records elapsed time and peak RSS, accepts at most3GiB RSS/12GiB address space and runs under an external420-second timeout. It retains failures without changing producer outputs or repeating scientific acquisition.
+
+HTTP/TLS, concurrency and producer scheduling are assessed through source and recorded receipts, without replaying requests. Exact input reconstruction neither validates supplied optical annotations nor establishes model performance.

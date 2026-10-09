@@ -1,0 +1,19 @@
+{
+  "active_controller": "run_experiment_v2.py",
+  "changed_fields": [
+    "arms",
+    "evaluation_updates",
+    "new_model_forwards_allowed",
+    "new_optimizer_updates_allowed",
+    "success"
+  ],
+  "new_active_GO": "GO-V2.json",
+  "new_active_plan": "PLAN-V2.json",
+  "original_files_preserved": true,
+  "reason": "Copied phase37 plan retained descriptive two-arm counts and evaluation endpoints. Actual phase38 workers and protocol already specify one coverage arm and final-only development evaluation.",
+  "scientific_model_calls_before_correction": 0,
+  "scientific_recipe_changed": false,
+  "scientific_run_attempts_before_correction": 0,
+  "status": "PRELAUNCH_METADATA_CORRECTION",
+  "tolerances_changed": false
+}

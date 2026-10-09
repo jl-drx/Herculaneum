@@ -1,0 +1,7 @@
+The single authorized independent large-probe verification passed. All768 raw row payloads (256 per fragment) match comparator extraction exactly. Independently parsed part ranges, headers, byte offsets and lengths match the recorded physical part metadata. Literal source/role/crop and validated per-object identity/layout bindings agree with the sealed small-probe proof.
+
+Six successful recorded HTTP206 requests retained12,644,692 response bytes under13,157,891 reserved bytes. Useful cropped-row payload is1,769,472 bytes. The independent pass completed in0.081515 seconds with peak RSS28,196,864 bytes. Input byte pins remained unchanged. No scientific or verification retry occurred.
+
+Receipt: completed-review/verification.json, SHA256 `19723712f38850385689c2ce8c1173f84ed74353e9f570455696cd53ed45d401`. Source and synthetic preflight were frozen before actual large-probe reads. The original eight-part parser and prior evidence remain unchanged; this verifier uses the additive128/256-part parser with512-byte part headers and framing768*n+1024.
+
+No production body, array, numeric CT sample, checkpoint, Torch or model operation was accessed; no network call occurred. This confirms observed256-part byte-serving behavior for three plane07 objects. It does not verify the other150 source layouts, production row coverage, pooled CT inputs or model results. Production decoding remains separately gated on its frozen source/schema and explicit root authorization.

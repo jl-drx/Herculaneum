@@ -1,0 +1,88 @@
+{
+  "created_at_utc": "2026-10-09T05:15:09.040500+00:00",
+  "exact_cross_factory_counts": {
+    "logits": 180224,
+    "probabilities": 180224,
+    "raw_score": 167936
+  },
+  "metadata_interpretation": "Exact complete packages omit mapping validity and linked provenance; no claim of global absence. Preserved v1 failure plus explicit revised proxy transport.",
+  "next_design": "Fixed native-reference comparison on reused development; no training/tuning or independent-confirmation claim",
+  "next_study": {
+    "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/NEXT_STUDY_DRAFT.md",
+    "sha256": "43a904c4a44cbef309b5edb20f79809158ba9ecba3d9bfc046701c6c4d989956",
+    "size_bytes": 5502
+  },
+  "report": {
+    "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/RESULTS.md",
+    "sha256": "6282359f9e37309daab1a4b01a9791ca2ac7b548e864080216eb2e4f0f3b2cde",
+    "size_bytes": 10397
+  },
+  "scientific_interpretation": "Strict loading and named synthetic CPU compatibility only. No accuracy, CUDA equivalence, teacher independence or promotion.",
+  "status": "PASS",
+  "subdirectory_seals": [
+    {
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-inventory/retention-manifest.json",
+        "sha256": "03c6fa6a8710004a6e16482cc72e5a5b51f0b19fc01f30545ac2676d276bf211",
+        "size_bytes": 2597
+      },
+      "records_verified": 10
+    },
+    {
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-metadata/retention-manifest.json",
+        "sha256": "19b71304ca855785fe8c11929c067aa50cc7b40b6fb43bea9d49689ead30f1a8",
+        "size_bytes": 3279
+      },
+      "records_verified": 13
+    },
+    {
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-metadata/v2/retention-manifest.json",
+        "sha256": "c66f7173e137911ecb35abbc655278cfb364078f2083ec96df40bfd77e131c2a",
+        "size_bytes": 6880
+      },
+      "records_verified": 26
+    },
+    {
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/native-input-contract/RETENTION_MANIFEST.json",
+        "sha256": "9bd47e62228cbb46dd12fbff2348408121a36a2e4bd816ecd607fd9faf1cea7a",
+        "size_bytes": 7275
+      },
+      "records_verified": 29
+    },
+    {
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/checkpoint-qualification/RETENTION_MANIFEST.json",
+        "sha256": "af9f06ea04a87dfc27a7583854af5196a8215836ea44ce895fe607c378a131eb",
+        "size_bytes": 2399
+      },
+      "records_verified": 12
+    },
+    {
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/checkpoint-review/RETENTION_MANIFEST.json",
+        "sha256": "4d862b49f9c4e456d8044ef26563ef55e1672ba42e767ec0c64fdca79dad71b9",
+        "size_bytes": 3605
+      },
+      "records_verified": 14
+    },
+    {
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/model-parity/RETENTION_MANIFEST.json",
+        "sha256": "ec50b335503feaea3897308120b32b58cd4f0a3e6461179f66a2947b09aded6b",
+        "size_bytes": 62426
+      },
+      "records_verified": 238
+    },
+    {
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/parity-review/RETENTION_MANIFEST.json",
+        "sha256": "7171e64dc17ff4c1969cecf8d022e88eefa9fa3c2fb1e4bdd024c2f41fb3bce9",
+        "size_bytes": 2651
+      },
+      "records_verified": 11
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "actual_backbone_observations": {
+    "explicit_depth": {
+      "adapter_final_state_sha256": "38b6e9200ebf92df8d64b364297b0d56308f5d576408eb5c70bccb50d9e4ddf9",
+      "all_backbone_modules_eval": true,
+      "backbone_gradients_absent": true,
+      "exact_initial_feature_identity": true,
+      "exact_initial_logit_identity": true,
+      "first_stem_gradient_norm": 0.0,
+      "fixed_synthetic_loss_after_one_step": 0.7120082378387451,
+      "fixed_synthetic_loss_before": 0.810276210308075,
+      "parameter_count": 5296,
+      "projection_gradient_norm": 9.449870616240576,
+      "second_stem_gradient_norm": 0.19559141601149804,
+      "unchanged_backbone_state": true
+    },
+    "raw_control": {
+      "adapter_final_state_sha256": "9e4eaf34d782439a93837a7dfa4e035e5e0f9ab96638dc27d74c543c43d75ee5",
+      "all_backbone_modules_eval": true,
+      "backbone_gradients_absent": true,
+      "exact_initial_feature_identity": true,
+      "exact_initial_logit_identity": true,
+      "first_stem_gradient_norm": 0.0,
+      "fixed_synthetic_loss_after_one_step": 0.7061049938201904,
+      "fixed_synthetic_loss_before": 0.810276210308075,
+      "parameter_count": 5296,
+      "projection_gradient_norm": 9.75268557363313,
+      "second_stem_gradient_norm": 0.21811304902685716,
+      "unchanged_backbone_state": true
+    }
+  },
+  "actual_backbone_resources": {
+    "controller_wall_seconds": 5.099661111000387,
+    "peak_sampled_rss_bytes": 704802816,
+    "worker": {
+      "interop_threads": 1,
+      "peak_rss_bytes": 704192512,
+      "threads": 4,
+      "wall_seconds": 4.354812695000874
+    }
+  },
+  "actual_backbone_synthetic_calls": {
+    "adapter_forwards": 4,
+    "backwards": 4,
+    "original_2d_network": 5,
+    "original_depth_fusion": 2,
+    "original_full_model": 1,
+    "synthetic_optimizer_steps": 2
+  },
+  "adopted_baseline": "unchanged strict seed42",
+  "conclusion": "Three candidates remain conditional source-contract reserves; 5,296-parameter matched fusion adapters pass actual seed42 synthetic integration.",
+  "created_at_utc": "2026-10-08T23:32:03.788882+00:00",
+  "decision": "Proceed next with a separately implemented bounded developmental comparison; prioritize Frag6 source-contract completion; no independent confirmation or paid scaling claim.",
+  "evidence": {
+    "author_synthetic_checks": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-prototype/synthetic-results-v1.json",
+      "sha256": "91b69ef9a4e699f8a982e160ea885348a0b6ddadfa106e4194856b207ed38e76",
+      "size_bytes": 5137
+    },
+    "author_targeted_checks": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-prototype/synthetic-results-v2.json",
+      "sha256": "546b3cfca710b1e6bdda85c0f60ea8ee2775913986505013e255683b81cde4f7",
+      "size_bytes": 1403
+    },
+    "controller": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/actual-backbone-smoke/controller-result.json",
+      "sha256": "2d8534b59fb01c8c3aad1ae439db111d055130370127bf7b4be2f1d360346018",
+      "size_bytes": 250
+    },
+    "data_roles": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/DATA_ROLES.json",
+      "sha256": "88042974e60a1f29248c579aec35029300e56aea86f2f7969402042056b1e712",
+      "size_bytes": 5582
+    },
+    "final_technical_review_seal": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-review/retention-manifest-v2.json",
+      "sha256": "819b108723cbe8ac8f1e930c856edee21ff9198c823e6d2c2a19ccf6e3703093",
+      "size_bytes": 2654
+    },
+    "independent_synthetic_checks": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-review/independent-toy-results-v1.json",
+      "sha256": "0dd289828f37754dffb2623081f1b43057472d6f3039ed50f557b522a0680362",
+      "size_bytes": 5079
+    },
+    "network_accounting": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/NETWORK_SUMMARY.json",
+      "sha256": "fcd1d87d671e8c4eb9922620cf54a06985142f274f77c55a724d3bb15b4d8221",
+      "size_bytes": 1363
+    },
+    "next_study": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/NEXT_STUDY_DESIGN.md",
+      "sha256": "9b5d5ea88ce18e710e9aa7f4ddde333ec133de88c3883bc0af63feb84ce96dfc",
+      "size_bytes": 6898
+    },
+    "optical_audit": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/optical-audit/OPTICAL_CANDIDATE_AUDIT.md",
+      "sha256": "9abe0d2b861a513982714b79faa1c687fa8cf66061c0229f9383de41de554f9c",
+      "size_bytes": 9198
+    },
+    "optical_contract": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/optical-audit/CANDIDATE_CONTRACT.json",
+      "sha256": "466ba6ddb348a817572bd52b0237c811b351afa8368aed3c4d43e38ffc7b9e33",
+      "size_bytes": 6637
+    },
+    "prototype": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-prototype/fusion_adapter.py",
+      "sha256": "a7004b8d06f163b8a20bfad87cd00dfb3d015d36c6be0833362255ee68a53d24",
+      "size_bytes": 5400
+    },
+    "prototype_source_seal": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-prototype/source-manifest.json",
+      "sha256": "e2ed8f515c6428b7da2c00d0d838fd04a7c98a0e48a995e348b2624af627a122",
+      "size_bytes": 2583
+    },
+    "report": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/RESULTS.md",
+      "sha256": "1c030d5d9310675b1cd06e6163df8b74959f07bf5a94e935efc2c1e944b0be44",
+      "size_bytes": 8513
+    },
+    "root_GO": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/ROOT_EXECUTION_GO.json",
+      "sha256": "f4508bf8b4144b173a9303102f6af845aac01d4777e8d15b5918e1d4a6082fb1",
+      "size_bytes": 1355
+    },
+    "runtime_receipt_review": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-review/runtime-receipt-review-v1.json",
+      "sha256": "2f3c99b15b1403674e9940021abec6453f974b001782be5afe7ca12a30976655",
+      "size_bytes": 12534
+    },
+    "scope": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/SCOPE.md",
+      "sha256": "1ba13d801bdfeb9c8a6b400b2c5ec8647400824109798b1a4c71f34beb7f321c",
+      "size_bytes": 3599
+    },
+    "scroll_audit": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/scroll-audit/RESULTS.md",
+      "sha256": "32317d74f9a90542c90256434c4d3730f16f48c43376c47ca80b1e15bfc1360a",
+      "size_bytes": 12150
+    },
+    "scroll_contract": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/scroll-audit/eligibility-matrix.json",
+      "sha256": "f56653dbb5b0968c05cfe1d9afecef0b46e826d3ae2e58fa5ca8d9345dbc3749",
+      "size_bytes": 32155
+    },
+    "smoke_plan": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-prototype/smoke-plan.json",
+      "sha256": "7130f486072df98df6a723d2afcb85089b11e7ff91b66afdfb05299228fda331",
+      "size_bytes": 11088
+    },
+    "technical_GO": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-review/TECHNICAL_GO.json",
+      "sha256": "d0202e843a2997ab4f91a770d4f96e54d7ad018745df9d1c9fa52340d6cfcfed",
+      "size_bytes": 6586
+    },
+    "upstream_exposure": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/exposure-audit/AUDIT.md",
+      "sha256": "d8f92c56bb5a5613de13ccfb8d66017db36893955e29650b68bd23122456c028",
+      "size_bytes": 13290
+    },
+    "worker": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/actual-backbone-smoke/worker-result.json",
+      "sha256": "698a7f804e6d7653fc1f9ced9ac866909b4fb1e8ad5315aba18a8b85766d7cc2",
+      "size_bytes": 3482
+    }
+  },
+  "independent_confirmation_ready": false,
+  "limitations": [
+    "A synthetic MSE mechanics check does not measure ink-detection efficacy or full scientific-training runtime.",
+    "Unknown ancestry proves neither candidate contamination nor upstream independence.",
+    "Paper R50 and production canonical R152 training histories must remain separate.",
+    "Candidate public-package and rendered-surface gaps prevent freezing a defensible new scientific acquisition plan.",
+    "Locally unscored candidates may support qualified supplied-reference agreement after geometry/support closure.",
+    "All six Paris contexts are reused development; Paris2 remains excluded from fitting across aliases.",
+    "The fusion branch changes capacity versus phase18; only within-study raw/depth arms are capacity matched.",
+    "Local retention and draft saving are not external backup or fresh-task restoration."
+  ],
+  "new_artifacts_uploaded_to_R2": false,
+  "new_candidate_scores": 0,
+  "paid_GPU_spend_GBP": 0,
+  "promoted_model": null,
+  "prototype_parameters_per_arm": 5296,
+  "publication": false,
+  "purpose": "Resolve fresh-parent eligibility and validate matched feature-fusion adapter mechanics",
+  "retained_checkpoint_loads": 1,
+  "retries": 0,
+  "saved_model_checkpoints": 0,
+  "schema_version": 1,
+  "scientific_payload_reads": 0,
+  "scientific_training_updates": 0,
+  "seed42_exposure_summary": "No configured pretrained backbone; candidate parents absent from 29 declared roots; original annotation/teacher ancestry unresolved.",
+  "source_audit_requests": {
+    "automatic_retries": 0,
+    "by_audit": [
+      {
+        "audit": "scroll-audit",
+        "ledger": {
+          "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/scroll-audit/request-ledger.json",
+          "sha256": "49180c7895b89232059ff37d09ee8c7ce69fbcb50da595fbfdd68eca95ec3618",
+          "size_bytes": 22724
+        },
+        "requests": 24,
+        "response_body_bytes": 1748669
+      },
+      {
+        "audit": "optical-audit",
+        "ledger": {
+          "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/optical-audit/request-ledger.json",
+          "sha256": "ad32e1595c963577acbcb7b407d7934902a3c4278bcb7dc811997e977c1191f2",
+          "size_bytes": 14507
+        },
+        "requests": 18,
+        "response_body_bytes": 1794098
+      },
+      {
+        "audit": "exposure-audit",
+        "ledger": {
+          "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/exposure-audit/request-ledger.json",
+          "sha256": "699903c0fe1c393b846825e9d71bb3eaabfd83375feebb0da56139cef41ab6ed",
+          "size_bytes": 7900
+        },
+        "requests": 8,
+        "response_body_bytes": 89068
+      }
+    ],
+    "checkpoint_downloads": 0,
+    "external_uploads": 0,
+    "requests": 50,
+    "response_body_bytes": 3631835,
+    "scientific_payload_requests": 0,
+    "scope": "Public text/metadata response bodies only; excludes wire/TLS/header overhead",
+    "status": "PASS"
+  },
+  "status": "completed_audit_and_synthetic_integration_verified",
+  "total_first_GPU_pilot_cap_GBP": 10,
+  "transcription": null,
+  "translation": null
+}

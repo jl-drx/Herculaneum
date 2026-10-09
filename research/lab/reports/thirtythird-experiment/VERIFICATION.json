@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-10-09T10:26:06.133494+00:00",
+  "diagnostic": {
+    "path": "/workspace/herculaneum-lab/reports/thirtythird-experiment/run-v1/COMPLETE.json",
+    "sha256": "f826d756e328de32c3670c91ea5ed7ae39d593f1209153848aa8dbe447374365",
+    "size_bytes": 166468
+  },
+  "direct_lattice_band_pixels": 16384,
+  "elapsed_seconds": 1.4581065870002021,
+  "independent_agent_review": false,
+  "independent_ink_truth": false,
+  "maximum_metric_difference": 4.440892098500626e-16,
+  "metric_records": 276,
+  "new_model_forwards": 0,
+  "new_source_requests": 0,
+  "old_primary_unchanged": true,
+  "original_CT_metric_records_preserved": 8,
+  "peak_RSS_bytes": 251703296,
+  "scalar_label_indices": 147456,
+  "scalar_optical_core_groups": 16384,
+  "scalar_rank_metrics": 552,
+  "status": "PASS",
+  "verifier": {
+    "path": "/workspace/herculaneum-lab/reports/thirtythird-experiment/verify_diagnostic.py",
+    "sha256": "d4d2d49c073eed302c1882b3be4138c5af205466e68951927faf3c33d9b7d839",
+    "size_bytes": 8646
+  }
+}

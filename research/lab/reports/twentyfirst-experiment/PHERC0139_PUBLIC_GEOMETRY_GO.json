@@ -1,0 +1,41 @@
+{
+  "authorized_action": "acquire_and_reconstruct_public_geometry",
+  "code_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation-v2/CODE_FREEZE.json",
+    "sha256": "b86b5faff357757e06f6fc9bc16ae29f6d60535885e9393419d6cb5a28c8d1aa",
+    "size_bytes": 4513
+  },
+  "created_at_utc": "2026-10-09T00:59:59.057987+00:00",
+  "does_not_change_allocation_masks": true,
+  "external_timeout_seconds": 240,
+  "forced_kill_grace_seconds": 5,
+  "interpretation": "Conservative current public computational geometry and declared coordinate bounds only; not historical private or tissue validity",
+  "maximum_RSS_bytes": 536870912,
+  "maximum_output_bytes": 33554432,
+  "no_native_CT_labels_models": true,
+  "no_retries": true,
+  "numerical_checker_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-runtime-review/CHECKER_FREEZE.json",
+    "sha256": "fc7d6c6ff7c038da25aef4e729fecaa1b98c5ae0dd395b771002cccd910ff1d7",
+    "size_bytes": 2792
+  },
+  "numerical_preflight": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-runtime-review/preflight.json",
+    "sha256": "264022b71c7a56f1b7c859ec702c4be7bac06c53f66e18c72223f42da2187260",
+    "size_bytes": 2250
+  },
+  "paid_GPU_spend_GBP": 0,
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-plan/COORDINATE_QUERY_PLAN.json",
+    "sha256": "4f180f4507e77c8460c5b3a57c0683e818c8b29957c1a6d75c70dc9d53f6623d",
+    "size_bytes": 18098
+  },
+  "requests": 6,
+  "reserved_body_bytes": 2739750,
+  "status": "GO",
+  "technical_GO": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-implementation-review/GO.json",
+    "sha256": "5bac0f885cfa3b736a4138dead5c0a98d9d7fd79e1d41e9e20271de0f6afbf8d",
+    "size_bytes": 2493
+  }
+}

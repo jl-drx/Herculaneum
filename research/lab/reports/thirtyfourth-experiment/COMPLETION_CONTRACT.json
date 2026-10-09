@@ -1,0 +1,122 @@
+{
+  "CPU_peak_RSS_bytes": 92049408,
+  "CPU_seconds": 2.329476452999984,
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "created_at_utc": "2026-10-09T11:12:11.030031+00:00",
+  "decision": "Retain baseline; stop feature/depth sweeps and prepare a concrete geometry/reference review packet",
+  "evidence": {
+    "COMPLETE": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/run-v1/COMPLETE.json",
+      "sha256": "1473c7594fa15a89eced235a2bdd80b12c2c910454b616c3be64b7a89b3488ab",
+      "size_bytes": 1729
+    },
+    "GO": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/GO.json",
+      "sha256": "31c86ae260b1c4bcc65b3df6f20117ad1b3307a3d3f3bfeab34fba0e08b4dbde",
+      "size_bytes": 7082
+    },
+    "NEXT_STUDY_DRAFT": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "05ca88914d35c391724b3eab8ef92f4496b0864ab7e7e65a3c395745845edb9a",
+      "size_bytes": 4132
+    },
+    "PLAN": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/PLAN.json",
+      "sha256": "6b1ac67d2938dd6a62588adfe379cb7b888ab6bde4e69a2e60453b43bcf1f669",
+      "size_bytes": 6116
+    },
+    "PROTOCOL": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/PROTOCOL.md",
+      "sha256": "60b8cf1f6ba17b086b7eb3f0b16a35e7b4b3e28f8cbc7f62b4e2d6a502362112",
+      "size_bytes": 5400
+    },
+    "REFERENCE_STATUS": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/REFERENCE_STATUS.json",
+      "sha256": "2f2a9a6d412d355127f58637a548542286a63c453c1586bf6c8ee3f5e70cb557",
+      "size_bytes": 648
+    },
+    "RESULTS": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/RESULTS.md",
+      "sha256": "2e5bb2e3133d748a22f9560bb9048d7f7e1825de96ab74d06998d1d2fd06cb2f",
+      "size_bytes": 9224
+    },
+    "ROOT_REPORT_REVIEW": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "391bb153d6ee293cafeb1580e194b2c52a515e248f43b3e0b75132fc158557db",
+      "size_bytes": 2450
+    },
+    "SETUP_RECEIPT": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/SETUP_RECEIPT.json",
+      "sha256": "6f4becab1a6dff9ccbd41c10f0e86b8491241d446644f2cfc58c225f4ce40522",
+      "size_bytes": 542
+    },
+    "STARTUP_AFTER_THIRTYFOURTH": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/STARTUP_AFTER_THIRTYFOURTH.md",
+      "sha256": "b8af23929806cbf630e1e699d582c483f5bda785712834190b27cb794dcd2d3b",
+      "size_bytes": 6764
+    },
+    "TEST_RECEIPT": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/TEST_RECEIPT.json",
+      "sha256": "fadc1b38a6d5b8ab948a28399941391d557bf623fa03fe6ef7a2b1dfa62434db",
+      "size_bytes": 139
+    },
+    "VERIFICATION": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/VERIFICATION.json",
+      "sha256": "44033298f70aefc0b23cde80bded26f6061f9703110b34ac28ab4e9a3894da7f",
+      "size_bytes": 1104
+    },
+    "all-class-distributions": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/all-class-distributions.csv",
+      "sha256": "28fd25f772e023341d944a9b89169ff6faafa28fecea273a0867ac002a1ff0e3",
+      "size_bytes": 333569
+    },
+    "all-metrics": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/all-metrics.csv",
+      "sha256": "2a48317b0f60ff21fd0e4d9a1b5ee71b575623db1804f3669a00c7bc5eca9d5d",
+      "size_bytes": 359802
+    },
+    "all-profile-summaries": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/all-profile-summaries.csv",
+      "sha256": "2ec1e02dec3f2ad1c25d6d99c144a723525fa98270cdc84dea612f90882a4dd8",
+      "size_bytes": 12186
+    }
+  },
+  "fixtures_errors": 0,
+  "fixtures_failed": 0,
+  "fixtures_passed": 7,
+  "fixtures_skipped": 0,
+  "independent_agent_review": false,
+  "independent_ink_accuracy_established": false,
+  "maintainer_status": "NOT SENT; no new reply supplied",
+  "maximum_distribution_difference": 1.4551915228366852e-11,
+  "maximum_rank_difference": 2.220446049250313e-16,
+  "metric_records": 2688,
+  "network_requests": 0,
+  "new_artifacts_uploaded_to_r2": false,
+  "original_primary_unchanged": true,
+  "parent_count": 1,
+  "posthoc_development": true,
+  "publication": false,
+  "schema_version": 1,
+  "scientific_model_forwards": 0,
+  "scientific_optimizer_updates": 0,
+  "scientific_run_attempts": 1,
+  "status": "completed_verified_cached_CT_feature_audit_inconclusive_for_representation",
+  "submission": false,
+  "transcription": null,
+  "translation": null,
+  "undefined_metric_records": 0,
+  "verification_peak_RSS_bytes": 97697792,
+  "verification_seconds": 1.750892809999982,
+  "verified_counts": {
+    "distribution_records": 1344,
+    "distribution_values": 10752,
+    "feature_numerators": 2752512,
+    "metric_records": 2688,
+    "pooled_FP32_values": 1376256,
+    "profile_summaries": 64,
+    "scalar_rank_metrics": 5376,
+    "scalar_spatial_depth_groups": 1680
+  }
+}

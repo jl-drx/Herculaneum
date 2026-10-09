@@ -1,0 +1,5182 @@
+{
+  "cached_native_chunks_reused": 0,
+  "contexts": [
+    {
+      "id": "r544-c4128",
+      "raw": {
+        "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/raw-v2/r544-c4128.npy",
+        "sha256": "fe4a56c2ffe35446f4fb4bbf4c16a1879a059e30ad66d358a7b962fb01447e1c",
+        "size_bytes": 18579584
+      },
+      "source_bbox_yxhw": [
+        608,
+        4192,
+        384,
+        384
+      ]
+    },
+    {
+      "id": "r2080-c3616",
+      "raw": {
+        "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/raw-v2/r2080-c3616.npy",
+        "sha256": "4c75cd1a2ab74256173666be4bf3354966e62306d47fd1ae97a0758aabb53118",
+        "size_bytes": 18579584
+      },
+      "source_bbox_yxhw": [
+        2144,
+        3680,
+        384,
+        384
+      ]
+    },
+    {
+      "id": "r4640-c1056",
+      "raw": {
+        "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/raw-v2/r4640-c1056.npy",
+        "sha256": "d9872b3bc19266d702a054f5cbb53f13a93d206f91da475f8be596565927760a",
+        "size_bytes": 18579584
+      },
+      "source_bbox_yxhw": [
+        4704,
+        1120,
+        384,
+        384
+      ]
+    },
+    {
+      "id": "r6688-c1568",
+      "raw": {
+        "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/raw-v2/r6688-c1568.npy",
+        "sha256": "4003e84963499dfb55e7487de853f1a8e67601158dca44bcf57a5bf5ee64e0d3",
+        "size_bytes": 18579584
+      },
+      "source_bbox_yxhw": [
+        6752,
+        1632,
+        384,
+        384
+      ]
+    }
+  ],
+  "criterion": "Every rounded historical value exactly equals cached published target",
+  "exact_urls": [
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/.zattrs",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/.zgroup",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/.zarray",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/17/2/15",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/17/2/16",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/17/2/18",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/19/2/15",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/19/2/16",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/19/2/18",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/19/3/16",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/20/3/15",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/20/3/16",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/20/3/18",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/32/2/11",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/32/2/13",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/32/2/14",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/34/2/11",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/34/2/12",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/34/2/13",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/34/2/14",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/34/3/12",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/35/3/11",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/35/3/12",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/35/3/14",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/50/10/29",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/50/10/31",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/50/10/32",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/51/10/32",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/52/10/29",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/52/10/31",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/52/10/32",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/53/9/32",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/53/10/29",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/53/10/31",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/62/9/33",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/62/9/34",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/62/9/36",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/63/10/33",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/63/10/34",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/63/10/36",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/64/10/33",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/64/10/34",
+    "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/64/10/36"
+  ],
+  "expected_pairs": 284,
+  "keys_zyx": [
+    [
+      17,
+      2,
+      15
+    ],
+    [
+      17,
+      2,
+      16
+    ],
+    [
+      17,
+      2,
+      18
+    ],
+    [
+      19,
+      2,
+      15
+    ],
+    [
+      19,
+      2,
+      16
+    ],
+    [
+      19,
+      2,
+      18
+    ],
+    [
+      19,
+      3,
+      16
+    ],
+    [
+      20,
+      3,
+      15
+    ],
+    [
+      20,
+      3,
+      16
+    ],
+    [
+      20,
+      3,
+      18
+    ],
+    [
+      32,
+      2,
+      11
+    ],
+    [
+      32,
+      2,
+      13
+    ],
+    [
+      32,
+      2,
+      14
+    ],
+    [
+      34,
+      2,
+      11
+    ],
+    [
+      34,
+      2,
+      12
+    ],
+    [
+      34,
+      2,
+      13
+    ],
+    [
+      34,
+      2,
+      14
+    ],
+    [
+      34,
+      3,
+      12
+    ],
+    [
+      35,
+      3,
+      11
+    ],
+    [
+      35,
+      3,
+      12
+    ],
+    [
+      35,
+      3,
+      14
+    ],
+    [
+      50,
+      10,
+      29
+    ],
+    [
+      50,
+      10,
+      31
+    ],
+    [
+      50,
+      10,
+      32
+    ],
+    [
+      51,
+      10,
+      32
+    ],
+    [
+      52,
+      10,
+      29
+    ],
+    [
+      52,
+      10,
+      31
+    ],
+    [
+      52,
+      10,
+      32
+    ],
+    [
+      53,
+      9,
+      32
+    ],
+    [
+      53,
+      10,
+      29
+    ],
+    [
+      53,
+      10,
+      31
+    ],
+    [
+      62,
+      9,
+      33
+    ],
+    [
+      62,
+      9,
+      34
+    ],
+    [
+      62,
+      9,
+      36
+    ],
+    [
+      63,
+      10,
+      33
+    ],
+    [
+      63,
+      10,
+      34
+    ],
+    [
+      63,
+      10,
+      36
+    ],
+    [
+      64,
+      10,
+      33
+    ],
+    [
+      64,
+      10,
+      34
+    ],
+    [
+      64,
+      10,
+      36
+    ]
+  ],
+  "layers": [],
+  "limits": {
+    "max_phase_bytes": 268435456,
+    "max_requests": 43,
+    "max_reserved_bytes": 176160768,
+    "max_rss_bytes": 536870912,
+    "request_seconds": 30,
+    "total_seconds": 240
+  },
+  "metadata": [
+    {
+      "body": {
+        "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/metadata-run-v1/01-metadata.body",
+        "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+        "size_bytes": 3018
+      },
+      "etag": "\"67b62241-bca\"",
+      "name": ".zattrs",
+      "url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/.zattrs"
+    },
+    {
+      "body": {
+        "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/metadata-run-v1/02-metadata.body",
+        "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        "size_bytes": 24
+      },
+      "etag": "\"67b62241-18\"",
+      "name": ".zgroup",
+      "url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/.zgroup"
+    },
+    {
+      "body": {
+        "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/metadata-run-v1/03-metadata.body",
+        "sha256": "f576d6251eed7c99d05e750347ea83af97b20c8bc28d5c5d923ec929a42fe154",
+        "size_bytes": 401
+      },
+      "etag": "\"67b62241-191\"",
+      "name": "0/.zarray",
+      "url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/.zarray"
+    }
+  ],
+  "native_base_url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/",
+  "points": [
+    {
+      "XYZ": [
+        4265.2442413311155,
+        1382.6259547803668,
+        8313.30785818686
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        609,
+        4193
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        4445.112339226715,
+        1372.714928371342,
+        8315.50063112456
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        609,
+        4385
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4621.56191822728,
+        1371.754123765242,
+        8317.071652775303
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        609,
+        4574
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        4267.999969741384,
+        1352.9974482012262,
+        8136.146145452847
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4193
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        4454.58762950097,
+        1340.9376138137297,
+        8125.030184031247
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 1,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4454.434949489676,
+        1340.0800663792606,
+        8125.5214082283155
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 2,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4454.282269478382,
+        1339.2225189447913,
+        8126.012632425385
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 3,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4454.129589467088,
+        1338.364971510322,
+        8126.503856622455
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 4,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4453.976909455794,
+        1337.507424075853,
+        8126.9950808195235
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 5,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4453.8242294445,
+        1336.6498766413836,
+        8127.486305016593
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 6,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4453.671549433206,
+        1335.7923292069145,
+        8127.977529213663
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 7,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4453.518869421911,
+        1334.9347817724451,
+        8128.4687534107325
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 8,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4453.366189410618,
+        1334.0772343379758,
+        8128.959977607801
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 9,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4453.213509399324,
+        1333.2196869035067,
+        8129.451201804871
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 10,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4453.06082938803,
+        1332.3621394690374,
+        8129.9424260019405
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 11,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4452.908149376735,
+        1331.504592034568,
+        8130.433650199009
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 12,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4452.755469365441,
+        1330.647044600099,
+        8130.924874396079
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 13,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4452.602789354147,
+        1329.7894971656297,
+        8131.4160985931485
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 14,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4452.4501093428535,
+        1328.9319497311606,
+        8131.907322790218
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 15,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4452.297429331559,
+        1328.0744022966912,
+        8132.398546987287
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 16,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4452.144749320265,
+        1327.216854862222,
+        8132.8897711843565
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 17,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4451.992069308971,
+        1326.3593074277528,
+        8133.380995381426
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 18,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4451.8393892976765,
+        1325.5017599932835,
+        8133.872219578496
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 19,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4451.686709286383,
+        1324.6442125588142,
+        8134.3634437755645
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 20,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4451.534029275089,
+        1323.786665124345,
+        8134.854667972634
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 21,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4451.381349263795,
+        1322.9291176898757,
+        8135.345892169704
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 22,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4451.2286692525,
+        1322.0715702554066,
+        8135.8371163667725
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 23,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4451.075989241206,
+        1321.2140228209373,
+        8136.328340563842
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 24,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4450.923309229913,
+        1320.356475386468,
+        8136.819564760912
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 25,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4450.7706292186185,
+        1319.498927951999,
+        8137.3107889579815
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 26,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4450.617949207324,
+        1318.6413805175296,
+        8137.80201315505
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 27,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4450.46526919603,
+        1317.7838330830602,
+        8138.29323735212
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 28,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4450.312589184736,
+        1316.9262856485911,
+        8138.7844615491895
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 29,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4450.159909173442,
+        1316.0687382141218,
+        8139.275685746259
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 30,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4450.007229162148,
+        1315.2111907796527,
+        8139.766909943328
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 31,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4449.854549150854,
+        1314.3536433451834,
+        8140.2581341403975
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4449.70186913956,
+        1313.496095910714,
+        8140.749358337467
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 33,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4449.549189128265,
+        1312.638548476245,
+        8141.240582534536
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 34,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4449.396509116972,
+        1311.7810010417757,
+        8141.7318067316055
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 35,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4449.243829105678,
+        1310.9234536073066,
+        8142.223030928675
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 36,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4449.091149094384,
+        1310.0659061728372,
+        8142.714255125745
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 37,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4448.938469083089,
+        1309.208358738368,
+        8143.2054793228135
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 38,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4448.785789071795,
+        1308.3508113038988,
+        8143.696703519883
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 39,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4448.633109060502,
+        1307.4932638694295,
+        8144.187927716953
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 40,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4448.4804290492075,
+        1306.6357164349602,
+        8144.679151914022
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 41,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4448.327749037913,
+        1305.778169000491,
+        8145.170376111091
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 42,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4448.175069026619,
+        1304.9206215660217,
+        8145.661600308161
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 43,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4448.022389015325,
+        1304.0630741315526,
+        8146.1528245052305
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 44,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4447.869709004031,
+        1303.2055266970833,
+        8146.644048702299
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 45,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4447.717028992737,
+        1302.347979262614,
+        8147.135272899369
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 46,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4447.564348981443,
+        1301.490431828145,
+        8147.6264970964385
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 47,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4447.411668970149,
+        1300.6328843936756,
+        8148.117721293508
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 48,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4447.258988958854,
+        1299.7753369592062,
+        8148.608945490577
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 49,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4447.106308947561,
+        1298.9177895247371,
+        8149.1001696876465
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 50,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4446.953628936267,
+        1298.0602420902678,
+        8149.591393884716
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 51,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4446.8009489249725,
+        1297.2026946557987,
+        8150.082618081786
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 52,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4446.648268913678,
+        1296.3451472213294,
+        8150.5738422788545
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 53,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4446.495588902384,
+        1295.48759978686,
+        8151.065066475924
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 54,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4446.34290889109,
+        1294.630052352391,
+        8151.556290672994
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 55,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4446.190228879796,
+        1293.7725049179217,
+        8152.0475148700625
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 56,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4446.037548868502,
+        1292.9149574834523,
+        8152.538739067132
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 57,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4445.884868857208,
+        1292.0574100489832,
+        8153.029963264202
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 58,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4445.732188845914,
+        1291.199862614514,
+        8153.521187461271
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 59,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4445.579508834619,
+        1290.3423151800448,
+        8154.01241165834
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 60,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4445.426828823326,
+        1289.4847677455755,
+        8154.50363585541
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 61,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4445.274148812032,
+        1288.6272203111062,
+        8154.994860052479
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 62,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4445.121468800738,
+        1287.769672876637,
+        8155.486084249548
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4385
+      ],
+      "layer": 63,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4627.796584191821,
+        1291.8057217931405,
+        8143.271074640474
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        801,
+        4574
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        4274.8210199209,
+        1264.4076375645313,
+        7965.721847519786
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        990,
+        4193
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        4457.004796479019,
+        1221.0022738057394,
+        7970.151886160522
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        990,
+        4385
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4634.244495852704,
+        1208.6130448881759,
+        7972.486273316446
+      ],
+      "context": "r544-c4128",
+      "global_yx": [
+        990,
+        4574
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        3796.0120273604034,
+        1340.2422605778452,
+        6878.930786464189
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2145,
+        3681
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        3978.548913820993,
+        1291.729460115334,
+        6883.701978083959
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2145,
+        3873
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4157.139083551325,
+        1259.8068173271377,
+        6887.341106290874
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2145,
+        4062
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        3794.8400715900384,
+        1367.4243905861008,
+        6697.974387856042
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3681
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        3983.8949541036177,
+        1354.3961119353035,
+        6706.125515593306
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 1,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3983.672441471938,
+        1353.4287037537872,
+        6706.004645667027
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 2,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3983.4499288402585,
+        1352.461295572271,
+        6705.883775740749
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 3,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3983.2274162085787,
+        1351.4938873907547,
+        6705.762905814471
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 4,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3983.0049035768993,
+        1350.5264792092387,
+        6705.642035888192
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 5,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3982.7823909452195,
+        1349.5590710277224,
+        6705.521165961914
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 6,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3982.5598783135397,
+        1348.5916628462062,
+        6705.400296035636
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 7,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3982.3373656818603,
+        1347.62425466469,
+        6705.279426109358
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 8,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3982.1148530501805,
+        1346.6568464831737,
+        6705.15855618308
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 9,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3981.892340418501,
+        1345.6894383016577,
+        6705.037686256801
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 10,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3981.6698277868213,
+        1344.7220301201414,
+        6704.916816330523
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 11,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3981.447315155142,
+        1343.7546219386252,
+        6704.795946404244
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 12,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3981.224802523462,
+        1342.787213757109,
+        6704.675076477966
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 13,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3981.0022898917823,
+        1341.8198055755927,
+        6704.5542065516875
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 14,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3980.779777260103,
+        1340.8523973940767,
+        6704.4333366254095
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 15,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3980.557264628423,
+        1339.8849892125604,
+        6704.312466699132
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 16,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3980.3347519967438,
+        1338.9175810310442,
+        6704.191596772853
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 17,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3980.112239365064,
+        1337.950172849528,
+        6704.070726846575
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 18,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3979.8897267333846,
+        1336.9827646680117,
+        6703.949856920296
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 19,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3979.6672141017048,
+        1336.0153564864956,
+        6703.828986994018
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 20,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3979.444701470025,
+        1335.0479483049794,
+        6703.70811706774
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 21,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3979.2221888383456,
+        1334.0805401234632,
+        6703.587247141461
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 22,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3978.9996762066658,
+        1333.113131941947,
+        6703.4663772151835
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 23,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3978.7771635749864,
+        1332.1457237604307,
+        6703.345507288905
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 24,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3978.5546509433066,
+        1331.1783155789146,
+        6703.224637362627
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 25,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3978.3321383116267,
+        1330.2109073973984,
+        6703.103767436348
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 26,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3978.1096256799474,
+        1329.2434992158821,
+        6702.98289751007
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 27,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3977.8871130482676,
+        1328.276091034366,
+        6702.862027583792
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 28,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3977.664600416588,
+        1327.3086828528496,
+        6702.741157657513
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 29,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3977.4420877849084,
+        1326.3412746713336,
+        6702.620287731235
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 30,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3977.219575153229,
+        1325.3738664898174,
+        6702.4994178049565
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 31,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3976.997062521549,
+        1324.4064583083011,
+        6702.378547878679
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3976.7745498898694,
+        1323.4390501267849,
+        6702.257677952401
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 33,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3976.55203725819,
+        1322.4716419452686,
+        6702.136808026122
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 34,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3976.32952462651,
+        1321.5042337637526,
+        6702.015938099844
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 35,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3976.107011994831,
+        1320.5368255822364,
+        6701.895068173565
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 36,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3975.884499363151,
+        1319.56941740072,
+        6701.774198247287
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 37,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3975.6619867314716,
+        1318.6020092192039,
+        6701.653328321009
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 38,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3975.439474099792,
+        1317.6346010376876,
+        6701.53245839473
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 39,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3975.216961468112,
+        1316.6671928561716,
+        6701.4115884684525
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 40,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3974.9944488364326,
+        1315.6997846746553,
+        6701.290718542174
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 41,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3974.771936204753,
+        1314.732376493139,
+        6701.169848615896
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 42,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3974.5494235730735,
+        1313.7649683116229,
+        6701.048978689617
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 43,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3974.3269109413936,
+        1312.7975601301066,
+        6700.928108763339
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 44,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3974.104398309714,
+        1311.8301519485906,
+        6700.807238837061
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 45,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3973.8818856780345,
+        1310.8627437670743,
+        6700.686368910782
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 46,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3973.6593730463546,
+        1309.895335585558,
+        6700.565498984504
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 47,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3973.4368604146753,
+        1308.9279274040418,
+        6700.4446290582255
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 48,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3973.2143477829954,
+        1307.9605192225256,
+        6700.323759131948
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 49,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3972.991835151316,
+        1306.9931110410096,
+        6700.20288920567
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 50,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3972.7693225196363,
+        1306.0257028594933,
+        6700.082019279391
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 51,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3972.5468098879564,
+        1305.058294677977,
+        6699.961149353113
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 52,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3972.324297256277,
+        1304.0908864964608,
+        6699.840279426834
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 53,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3972.1017846245973,
+        1303.1234783149446,
+        6699.719409500556
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 54,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3971.879271992918,
+        1302.1560701334286,
+        6699.598539574277
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 55,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3971.656759361238,
+        1301.1886619519123,
+        6699.477669647999
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 56,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3971.4342467295587,
+        1300.221253770396,
+        6699.3567997217215
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 57,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3971.211734097879,
+        1299.2538455888798,
+        6699.235929795443
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 58,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3970.989221466199,
+        1298.2864374073636,
+        6699.115059869165
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 59,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3970.7667088345197,
+        1297.3190292258475,
+        6698.994189942886
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 60,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3970.54419620284,
+        1296.3516210443313,
+        6698.873320016608
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 61,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3970.3216835711605,
+        1295.384212862815,
+        6698.75245009033
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 62,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        3970.0991709394807,
+        1294.4168046812988,
+        6698.631580164051
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        3873
+      ],
+      "layer": 63,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4155.680597603841,
+        1291.133364507191,
+        6706.10787992224
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2337,
+        4062
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        3794.870391090015,
+        1377.0567676447558,
+        6520.989305348761
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2526,
+        3681
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        3975.7734779757607,
+        1352.1754990556083,
+        6524.182020725863
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2526,
+        3873
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        4154.34955552932,
+        1320.4566877101938,
+        6527.807533941942
+      ],
+      "context": "r2080-c3616",
+      "global_yx": [
+        2526,
+        4062
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        1481.9934940357298,
+        390.5883557867267,
+        4533.409623461868
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4705,
+        1121
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        1659.0637298446397,
+        421.1460429805972,
+        4532.8992748526525
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4705,
+        1313
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1835.3255277504552,
+        422.90133341705115,
+        4534.288874007363
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4705,
+        1502
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        1484.8716323874337,
+        359.18929272246675,
+        4356.366175653
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1121
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        1657.6322248246538,
+        391.6559813503135,
+        4352.013638787175
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 1,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1657.83350287329,
+        390.693901437965,
+        4352.197729496861
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 2,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1658.034780921926,
+        389.73182152561645,
+        4352.381820206548
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 3,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1658.2360589705622,
+        388.76974161326797,
+        4352.565910916233
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 4,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1658.4373370191981,
+        387.8076617009195,
+        4352.75000162592
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 5,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1658.6386150678343,
+        386.845581788571,
+        4352.934092335606
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 6,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1658.8398931164704,
+        385.88350187622245,
+        4353.1181830452915
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 7,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1659.0411711651066,
+        384.92142196387397,
+        4353.302273754978
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 8,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1659.2424492137427,
+        383.9593420515255,
+        4353.486364464664
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 9,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1659.4437272623786,
+        382.997262139177,
+        4353.6704551743505
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 10,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1659.6450053110148,
+        382.03518222682845,
+        4353.854545884036
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 11,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1659.846283359651,
+        381.07310231447997,
+        4354.038636593723
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 12,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1660.047561408287,
+        380.1110224021315,
+        4354.222727303409
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 13,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1660.248839456923,
+        379.148942489783,
+        4354.406818013095
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 14,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1660.450117505559,
+        378.18686257743445,
+        4354.590908722781
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 15,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1660.6513955541952,
+        377.22478266508597,
+        4354.774999432468
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 16,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1660.8526736028314,
+        376.2627027527375,
+        4354.959090142153
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 17,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1661.0539516514673,
+        375.300622840389,
+        4355.14318085184
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 18,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1661.2552297001034,
+        374.33854292804045,
+        4355.327271561526
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 19,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1661.4565077487396,
+        373.37646301569197,
+        4355.5113622712115
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 20,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1661.6577857973757,
+        372.4143831033435,
+        4355.695452980898
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 21,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1661.8590638460116,
+        371.452303190995,
+        4355.879543690584
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 22,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1662.0603418946478,
+        370.49022327864645,
+        4356.0636344002705
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 23,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1662.261619943284,
+        369.52814336629797,
+        4356.247725109956
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 24,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1662.46289799192,
+        368.5660634539495,
+        4356.431815819643
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 25,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1662.664176040556,
+        367.603983541601,
+        4356.615906529329
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 26,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1662.865454089192,
+        366.64190362925245,
+        4356.799997239015
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 27,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1663.0667321378282,
+        365.67982371690397,
+        4356.984087948701
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 28,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1663.2680101864644,
+        364.7177438045555,
+        4357.168178658388
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 29,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1663.4692882351003,
+        363.755663892207,
+        4357.352269368073
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 30,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1663.6705662837364,
+        362.79358397985845,
+        4357.53636007776
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 31,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1663.8718443323726,
+        361.83150406750997,
+        4357.720450787446
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1664.0731223810087,
+        360.8694241551615,
+        4357.9045414971315
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 33,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1664.2744004296449,
+        359.90734424281294,
+        4358.088632206818
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 34,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1664.4756784782808,
+        358.94526433046445,
+        4358.272722916504
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 35,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1664.676956526917,
+        357.98318441811597,
+        4358.4568136261905
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 36,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1664.878234575553,
+        357.0211045057675,
+        4358.640904335876
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 37,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1665.0795126241892,
+        356.05902459341894,
+        4358.824995045563
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 38,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1665.280790672825,
+        355.09694468107045,
+        4359.009085755249
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 39,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1665.4820687214612,
+        354.13486476872197,
+        4359.193176464935
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 40,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1665.6833467700974,
+        353.1727848563735,
+        4359.377267174621
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 41,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1665.8846248187335,
+        352.21070494402494,
+        4359.561357884308
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 42,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1666.0859028673694,
+        351.24862503167645,
+        4359.745448593993
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 43,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1666.2871809160056,
+        350.28654511932797,
+        4359.92953930368
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 44,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1666.4884589646417,
+        349.3244652069795,
+        4360.113630013366
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 45,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1666.6897370132779,
+        348.36238529463094,
+        4360.2977207230515
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 46,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1666.8910150619138,
+        347.40030538228245,
+        4360.481811432738
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 47,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1667.09229311055,
+        346.43822546993397,
+        4360.665902142424
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 48,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1667.293571159186,
+        345.4761455575855,
+        4360.8499928521105
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 49,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1667.4948492078222,
+        344.51406564523694,
+        4361.034083561796
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 50,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1667.696127256458,
+        343.55198573288845,
+        4361.218174271483
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 51,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1667.8974053050943,
+        342.58990582053997,
+        4361.402264981169
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 52,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1668.0986833537304,
+        341.6278259081915,
+        4361.586355690855
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 53,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1668.2999614023665,
+        340.66574599584294,
+        4361.770446400541
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 54,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1668.5012394510024,
+        339.70366608349445,
+        4361.954537110228
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 55,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1668.7025174996386,
+        338.74158617114597,
+        4362.138627819913
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 56,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1668.9037955482747,
+        337.7795062587975,
+        4362.3227185296
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 57,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1669.1050735969109,
+        336.81742634644894,
+        4362.506809239286
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 58,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1669.306351645547,
+        335.85534643410045,
+        4362.6908999489715
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 59,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1669.507629694183,
+        334.89326652175197,
+        4362.874990658658
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 60,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1669.708907742819,
+        333.9311866094035,
+        4363.059081368344
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 61,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1669.9101857914552,
+        332.96910669705494,
+        4363.2431720780305
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 62,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1670.1114638400913,
+        332.00702678470645,
+        4363.427262787716
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1313
+      ],
+      "layer": 63,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1840.0453461610762,
+        364.8639227347999,
+        4359.024743725783
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        4897,
+        1502
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        1488.3637153051372,
+        318.7501837777972,
+        4182.725635154882
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        5086,
+        1121
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        1666.5919175951665,
+        332.55886318136913,
+        4183.334042241526
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        5086,
+        1313
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        1842.509376383248,
+        339.2947283231072,
+        4184.390962207716
+      ],
+      "context": "r4640-c1056",
+      "global_yx": [
+        5086,
+        1502
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        1964.7617166997386,
+        428.159649565481,
+        2624.147307374125
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6753,
+        1633
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        2144.481859621699,
+        420.3886669716449,
+        2626.1971353542717
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6753,
+        1825
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2322.0658100226633,
+        403.02013750288717,
+        2628.864116591158
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6753,
+        2014
+      ],
+      "layer": 32,
+      "local_yx": [
+        1,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        1968.9960624046557,
+        377.14419181743096,
+        2448.4141433480063
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1633
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        2146.072021630193,
+        420.25347180138715,
+        2433.5065518470656
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 1,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.103861667957,
+        419.38537197487227,
+        2434.001919289678
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 2,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.135701705721,
+        418.5172721483574,
+        2434.49728673229
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 3,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.1675417434853,
+        417.64917232184257,
+        2434.992654174902
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 4,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.1993817812495,
+        416.7810724953277,
+        2435.488021617514
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 5,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.2312218190136,
+        415.9129726688128,
+        2435.9833890601262
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 6,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.2630618567778,
+        415.04487284229793,
+        2436.478756502738
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 7,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.294901894542,
+        414.17677301578306,
+        2436.97412394535
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 8,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.326741932306,
+        413.3086731892682,
+        2437.4694913879625
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 9,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.35858197007,
+        412.4405733627533,
+        2437.9648588305745
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 10,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.3904220078343,
+        411.5724735362385,
+        2438.4602262731864
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 11,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.4222620455985,
+        410.7043737097236,
+        2438.9555937157984
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 12,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.4541020833626,
+        409.8362738832087,
+        2439.450961158411
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 13,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.4859421211268,
+        408.96817405669384,
+        2439.9463286010227
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 14,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.517782158891,
+        408.10007423017896,
+        2440.4416960436347
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 15,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.549622196655,
+        407.2319744036641,
+        2440.937063486247
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 16,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.581462234419,
+        406.36387457714926,
+        2441.432430928859
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 17,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.6133022721833,
+        405.4957747506344,
+        2441.927798371471
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 18,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.645142309948,
+        404.6276749241195,
+        2442.423165814083
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 19,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.676982347712,
+        403.7595750976046,
+        2442.9185332566954
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 20,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.708822385476,
+        402.89147527108975,
+        2443.4139006993073
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 21,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.7406624232403,
+        402.02337544457487,
+        2443.9092681419193
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 22,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.7725024610045,
+        401.15527561806005,
+        2444.404635584531
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 23,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.8043424987686,
+        400.28717579154517,
+        2444.9000030271436
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 24,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.8361825365328,
+        399.4190759650303,
+        2445.3953704697556
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 25,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.868022574297,
+        398.5509761385154,
+        2445.8907379123675
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 26,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.899862612061,
+        397.68287631200053,
+        2446.38610535498
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 27,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.931702649825,
+        396.81477648548565,
+        2446.881472797592
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 28,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.9635426875893,
+        395.94667665897083,
+        2447.376840240204
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 29,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2146.9953827253535,
+        395.07857683245595,
+        2447.8722076828158
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 30,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.0272227631176,
+        394.2104770059411,
+        2448.367575125428
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 31,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.0590628008817,
+        393.3423771794262,
+        2448.86294256804
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.090902838646,
+        392.4742773529113,
+        2449.358310010652
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 33,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.12274287641,
+        391.60617752639644,
+        2449.8536774532645
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 34,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.154582914174,
+        390.73807769988156,
+        2450.3490448958764
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 35,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.1864229519383,
+        389.86997787336674,
+        2450.8444123384884
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 36,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.2182629897025,
+        389.00187804685186,
+        2451.3397797811003
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 37,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.2501030274666,
+        388.133778220337,
+        2451.8351472237127
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 38,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.2819430652307,
+        387.2656783938221,
+        2452.3305146663247
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 39,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.313783102995,
+        386.3975785673072,
+        2452.8258821089366
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 40,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.345623140759,
+        385.52947874079234,
+        2453.321249551549
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 41,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.377463178523,
+        384.6613789142775,
+        2453.816616994161
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 42,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.4093032162873,
+        383.79327908776264,
+        2454.311984436773
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 43,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.4411432540514,
+        382.92517926124776,
+        2454.807351879385
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 44,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.4729832918156,
+        382.0570794347329,
+        2455.3027193219973
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 45,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.50482332958,
+        381.188979608218,
+        2455.7980867646093
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 46,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.5366633673443,
+        380.3208797817031,
+        2456.293454207221
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 47,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.5685034051085,
+        379.4527799551883,
+        2456.788821649833
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 48,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.6003434428726,
+        378.5846801286734,
+        2457.2841890924456
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 49,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.6321834806367,
+        377.71658030215855,
+        2457.7795565350575
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 50,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.664023518401,
+        376.84848047564367,
+        2458.2749239776695
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 51,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.695863556165,
+        375.9803806491288,
+        2458.770291420282
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 52,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.727703593929,
+        375.1122808226139,
+        2459.265658862894
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 53,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.7595436316933,
+        374.2441809960991,
+        2459.7610263055058
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 54,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.7913836694574,
+        373.3760811695842,
+        2460.2563937481177
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 55,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.8232237072216,
+        372.50798134306933,
+        2460.75176119073
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 56,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.8550637449857,
+        371.63988151655445,
+        2461.247128633342
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 57,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.88690378275,
+        370.7717816900396,
+        2461.742496075954
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 58,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.918743820514,
+        369.9036818635247,
+        2462.2378635185664
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 59,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.950583858278,
+        369.0355820370098,
+        2462.7332309611784
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 60,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2147.9824238960423,
+        368.167482210495,
+        2463.2285984037903
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 61,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2148.0142639338064,
+        367.2993823839801,
+        2463.7239658464023
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 62,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2148.0461039715706,
+        366.43128255746524,
+        2464.2193332890147
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        1825
+      ],
+      "layer": 63,
+      "local_yx": [
+        193,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2325.491415435409,
+        363.70242547957844,
+        2452.3495976440718
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        6945,
+        2014
+      ],
+      "layer": 32,
+      "local_yx": [
+        193,
+        382
+      ]
+    },
+    {
+      "XYZ": [
+        1973.2130063540656,
+        326.22057985400033,
+        2275.4739188099347
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        7134,
+        1633
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        1
+      ]
+    },
+    {
+      "XYZ": [
+        2151.5579914391965,
+        338.34009469467344,
+        2276.195154220481
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        7134,
+        1825
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        193
+      ]
+    },
+    {
+      "XYZ": [
+        2327.870176035624,
+        339.36658417932756,
+        2277.633433883684
+      ],
+      "context": "r6688-c1568",
+      "global_yx": [
+        7134,
+        2014
+      ],
+      "layer": 32,
+      "local_yx": [
+        382,
+        382
+      ]
+    }
+  ]
+}

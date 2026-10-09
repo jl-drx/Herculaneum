@@ -1,0 +1,96 @@
+{
+  "sample_id": "PHerc0800",
+  "target_volume_id": "20250521135224",
+  "segment_id": "20251028222030",
+  "surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+  "bbox_source_xywh": [
+    512,
+    512,
+    1536,
+    1536
+  ],
+  "maximum_chunk_payload_bytes": 73138176,
+  "array_metadata_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/surface.level0.zarray.json",
+  "attrs_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/surface.zattrs.json",
+  "geometry_mask_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-valid-mask.npy",
+  "coordinate_map_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-ct-coordinates.xyz.npy",
+  "render_provenance": {
+    "commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+    "parameters": {
+      "repo": "https://github.com/ScrollPrize/villa",
+      "commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+      "subdir": "volume-cartographer",
+      "dockerfile": "Dockerfile",
+      "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+      "build-platform": "linux/arm64",
+      "binary-path": "vc_render_tifxyz",
+      "volume-path": "s3://scrollprize-volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/",
+      "scale": "1",
+      "segmentation-path": "s3://vesuvius-challenge/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz/",
+      "output": "s3://vesuvius-challenge/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+      "render-mode": "zarr",
+      "group-idx": "0",
+      "zarr-compressor": "none",
+      "zarr-compression-level": "",
+      "zarr-separator": "/",
+      "num-parts": "",
+      "target-duration-per-partition": "1800",
+      "max-parts": "20",
+      "auto-render-rate": "460",
+      "accum-type": "max",
+      "composite": "false",
+      "composite-start": "",
+      "composite-end": "",
+      "scale-segmentation": "",
+      "affine-transform": "",
+      "affines": "",
+      "affine-invert": "",
+      "rotate": "0",
+      "flip": "-1",
+      "flip-normals": "true",
+      "num-slices": "31",
+      "affine-matrix": "",
+      "crop-x": "0",
+      "crop-y": "0",
+      "crop-width": "0",
+      "crop-height": "0",
+      "voxel-size": "8.64",
+      "voxel-unit": "micrometer",
+      "memory": "15Gi",
+      "cache-gb": "8",
+      "render-threads": "8",
+      "cpu-requests": "8"
+    }
+  },
+  "verified_inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/third-experiment/geometry-selection.json",
+      "sha256": "1a2e44b6b11321aa49ccce0a2effcffd65d757c6c333733d1ba8ae024e2d7ff4"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-valid-mask.npy",
+      "sha256": "d7e70bff345925045b78039773dc40669922d723f423f446cec597b2bd9032bd"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "fc5e87c8bbfcfe9c85c446c3a6bceba8e7c80bed97d3a30aaf36bfbb65f4567c"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/surface.level0.zarray.json",
+      "sha256": "e7d03a00d38bde138994e2d238a1b846735812b338d8f334277676cde9a8b423"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/surface.zattrs.json",
+      "sha256": "4b2e6c71817ab030baf0ae55dad10420586293f367e5d26a12cecee168c46879"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/source-render-export-metadata.json",
+      "sha256": "76bbb4802040b281559b16c51a17b23bfc7b5682ed3da7ff0a3b2627b961fd9b"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/third-experiment/PREDECLARED_METHOD.md",
+      "sha256": "0ca3fba923c85fb9ba604892394d472dd3a7625b10bd46136ff2253d9bae49da"
+    }
+  ],
+  "selection_interpretation": "Geometry-selected broader spatial context; segment identity alone does not establish a new physical surface."
+}

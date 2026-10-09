@@ -1,0 +1,70 @@
+{
+  "created_at_utc": "2026-10-08T09:45:01.865210+00:00",
+  "initial_manifest_sha256": "f32b6247acf8b28c2ff696bc81181df55e575950c4c33cd50ec19d1fd0c540be",
+  "network_payload_cap_bytes": 20971520,
+  "network_payload_bytes_this_extension": 151300,
+  "network_payload_bytes_total": 516459,
+  "albumentations_reference_version": "1.3.1",
+  "albumentations_reference_commit": "e3b47b3a127f92541cfeb16abbb44a6f8bf79cc8",
+  "original_ablation_runtime_version_verified": false,
+  "sources": [
+    {
+      "local_file": "albumentations-1.3.1-commit.json",
+      "source_url": "https://api.github.com/repos/albumentations-team/albumentations/commits/1.3.1",
+      "size_bytes": 5849,
+      "sha256": "ac2f48a3a3eb6f746b4820674a93d25828000ef6aff8232113a3448ade2adfd2",
+      "retrieved_at_utc": "2026-10-08T09:45:01.196236+00:00",
+      "evidence_scope": "Reference library-version semantics; not proof that the original ablation used this release"
+    },
+    {
+      "local_file": "paper-ink-detection__metadata.json",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/metadata.json",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/metadata.json",
+      "size_bytes": 5032,
+      "sha256": "6cfaf7c64cd286da9e9f302df663e86d36573ec17b25a89dd64ff3c2644deaf8",
+      "git_blob_sha1": "d3cace43d35d34840d6815d7c36169cd71bcf088",
+      "expected_git_blob_sha1": "d3cace43d35d34840d6815d7c36169cd71bcf088",
+      "retrieved_at_utc": "2026-10-08T09:45:01.645142+00:00"
+    },
+    {
+      "local_file": "paper-ink-detection__requirements.txt",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/requirements.txt",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/requirements.txt",
+      "size_bytes": 290,
+      "sha256": "2373bf33efedc359e73b43bd0d4e6bf272689083667158dcb82f4229c5b08a33",
+      "git_blob_sha1": "b1c60ef14a14bdbd89b065fe3a17c212f55e4410",
+      "expected_git_blob_sha1": "b1c60ef14a14bdbd89b065fe3a17c212f55e4410",
+      "retrieved_at_utc": "2026-10-08T09:45:01.530071+00:00"
+    },
+    {
+      "local_file": "albumentations-1.3.1-albumentations__augmentations__transforms.py",
+      "source_url": "https://raw.githubusercontent.com/albumentations-team/albumentations/e3b47b3a127f92541cfeb16abbb44a6f8bf79cc8/albumentations/augmentations/transforms.py",
+      "final_url": "https://raw.githubusercontent.com/albumentations-team/albumentations/e3b47b3a127f92541cfeb16abbb44a6f8bf79cc8/albumentations/augmentations/transforms.py",
+      "size_bytes": 96172,
+      "sha256": "d18161352a57e503056558469d4dd0f32ebd2bd0e9db08f5349ba77ebfdc2b11",
+      "git_blob_sha1": "c125fe0ecda2c27d3b45960d0029ba38b197c380",
+      "expected_git_blob_sha1": null,
+      "retrieved_at_utc": "2026-10-08T09:45:01.625717+00:00"
+    },
+    {
+      "local_file": "albumentations-1.3.1-albumentations__augmentations__functional.py",
+      "source_url": "https://raw.githubusercontent.com/albumentations-team/albumentations/e3b47b3a127f92541cfeb16abbb44a6f8bf79cc8/albumentations/augmentations/functional.py",
+      "final_url": "https://raw.githubusercontent.com/albumentations-team/albumentations/e3b47b3a127f92541cfeb16abbb44a6f8bf79cc8/albumentations/augmentations/functional.py",
+      "size_bytes": 39752,
+      "sha256": "635b6781c0b05f874b9d5c2187e0ec3a30965d07da7c9cdb32c5dde1606f9cde",
+      "git_blob_sha1": "f0de82c6cc22de32221f5683b94a84e2ab67a856",
+      "expected_git_blob_sha1": null,
+      "retrieved_at_utc": "2026-10-08T09:45:01.538699+00:00"
+    },
+    {
+      "local_file": "albumentations-1.3.1-albumentations__pytorch__transforms.py",
+      "source_url": "https://raw.githubusercontent.com/albumentations-team/albumentations/e3b47b3a127f92541cfeb16abbb44a6f8bf79cc8/albumentations/pytorch/transforms.py",
+      "final_url": "https://raw.githubusercontent.com/albumentations-team/albumentations/e3b47b3a127f92541cfeb16abbb44a6f8bf79cc8/albumentations/pytorch/transforms.py",
+      "size_bytes": 4205,
+      "sha256": "bbb04b8d377321c12ebcf5649f5d829623d5fbea598bb368af84ab6be2e75b76",
+      "git_blob_sha1": "8bc204b359cc514320a836b71615ad67c045f58d",
+      "expected_git_blob_sha1": null,
+      "retrieved_at_utc": "2026-10-08T09:45:01.864757+00:00"
+    }
+  ]
+}

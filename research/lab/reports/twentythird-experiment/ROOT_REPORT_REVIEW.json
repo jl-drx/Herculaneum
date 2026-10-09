@@ -1,0 +1,58 @@
+{
+  "context_direction_counts": {
+    "AP_improved": 4,
+    "AUC_improved": 3
+  },
+  "created_at_utc": "2026-10-09T05:39:35.029672+00:00",
+  "interpretation": "Mixed descriptive development result, no performance gate/promotion/independence claim; all6 contexts reported and all panels viewed.",
+  "next_study": {
+    "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/NEXT_STUDY_DRAFT.md",
+    "sha256": "550011403de4c66ed32d1dd764652e6dbda7d9b555b580b3ac5cf0df0ed3693a",
+    "size_bytes": 3697
+  },
+  "report": {
+    "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/RESULTS.md",
+    "sha256": "0f61c37ed4949b43a70b240fb50ea7e8509ca431751f607d3f9fa5f7cfa75a75",
+    "size_bytes": 9973
+  },
+  "seals": [
+    {
+      "count": 9,
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/input-audit/RETENTION_MANIFEST.json",
+        "sha256": "a5efffb3dd741ba1fd9d20218f6ba95147cb679e8f63fdc9af7a29f817588b8c",
+        "size_bytes": 2231
+      }
+    },
+    {
+      "count": 90,
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/implementation/RETENTION_MANIFEST.json",
+        "sha256": "0d59cd5fb90d1c2f5c1cf488dabf4040f72798e63c3fb18c772e5607ef3ad726",
+        "size_bytes": 23843
+      }
+    },
+    {
+      "count": 16,
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/independent-review/RETENTION_MANIFEST.json",
+        "sha256": "66f81d2c341063af67cac9b54c5f2d234fefff589014a03faa7fe139219bb883",
+        "size_bytes": 3913
+      }
+    },
+    {
+      "count": 10,
+      "manifest": {
+        "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/visuals/RETENTION_MANIFEST.json",
+        "sha256": "07c392e5ce2273a6d67d0192bc79cc6cc719954740bd5621115c74cc7a5f827f",
+        "size_bytes": 2500
+      }
+    }
+  ],
+  "status": "PASS",
+  "visual_review": {
+    "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/ROOT_VISUAL_REVIEW.json",
+    "sha256": "1dc13b4dd2a79328c64b3bf0da0c4856d2e15a42c6bf4720d4baf5a79518a301",
+    "size_bytes": 2164
+  }
+}

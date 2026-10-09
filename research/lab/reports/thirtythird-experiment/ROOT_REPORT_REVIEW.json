@@ -1,0 +1,40 @@
+{
+  "all_four_contexts_inspected": true,
+  "all_nine_shifts_retained": true,
+  "caveats": [
+    "Common support eliminates most changeable labels; no alignment proof",
+    "Moving support confounds displacement and coverage",
+    "Interior AP depends on changed prevalence; only 37 and 167 ink pixels in weak interiors",
+    "Optical-label agreement can be circular",
+    "Simple model failure does not establish absent CT signal",
+    "Same four contexts, one parent, post hoc development; no independent benchmark claim"
+  ],
+  "decision": "Retain baseline; one cached CT observability audit before a representation hypothesis and disjoint development replication",
+  "figures": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtythird-experiment/figures-v2/all-context-panels.png",
+      "sha256": "5b1c9b02dfcae6a844ba228f4c90d5908add41fd3fecd773342b39e586aa8273",
+      "size_bytes": 201244
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtythird-experiment/figures-v2/common-shift-ap.png",
+      "sha256": "b320979056d228a34d20c3103f6d2f47d659e12801b03585fbada2182695d518",
+      "size_bytes": 306169
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtythird-experiment/figures-v2/moving_support-shift-ap.png",
+      "sha256": "2213b620ac163c6b3b5f9cfd2446e0fd129e7828592ac07b05cc8d3a853da136",
+      "size_bytes": 389529
+    }
+  ],
+  "independent_agent": false,
+  "layout_revision": "Separate figures-v2 generated with fixed subplot margins; first renders and script retained",
+  "numerical": {
+    "path": "/workspace/herculaneum-lab/reports/thirtythird-experiment/VERIFICATION.json",
+    "sha256": "c10d3c4ef6e0043a778aaca3d07789847242ededc75563118b10d99fe1f77a97",
+    "size_bytes": 1020
+  },
+  "original_scores_preserved": true,
+  "reviewer": "root",
+  "status": "PASS_WITH_SCIENTIFIC_LIMITATIONS"
+}

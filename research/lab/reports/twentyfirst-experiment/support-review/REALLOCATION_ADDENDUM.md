@@ -1,0 +1,11 @@
+# Independent review of the root's narrower reallocation proposal
+
+After the participation audit established that supervision S and retired validation V do not overlap, the root proposed a separate synthetic comparison. Acquired supervision alone adds nothing to M = O ∩ S ∩ ¬V. An explicitly named retired-reference stratum R = O ∩ V can add participation without claiming geometric validity or using its ink-label values.
+
+The two proposed objectives are A = mean BCE_M + 2 mean KL_M and B = mean BCE_M + mean KL_M + mean KL_R. BCE uses only the unchanged manual hard targets with 0.5 smoothing; every KL is Bernoulli KL(teacher || student). M and R must be nonempty and disjoint. An empty R is a stop, not a zero term or a silently renormalized objective. Each step averages over that batch's complete stratum across both regions, rather than averaging region means or pooling all 32 batches.
+
+The sums of KL group coefficients both equal two. B reallocates one coefficient unit from manual to retired-reference support. It therefore halves the manual KL derivative while adding `(p-q)/|R|` on R. It does not test support expansion with unchanged manual protection. B's equal group weights are not a uniform mean over the union when group sizes differ. This is a clearly identifiable comparison of preservation-budget allocation provided all other initialization, input, optimization and evaluation choices are held fixed. It does not isolate geometry, annotation correctness or effects of every possible support expansion.
+
+Synthetic fixtures use the already frozen float64 algebra tolerance 1e-12 and central-difference step 1e-5 / error bound 2e-9. They verify both derivative formulas, unchanged manual BCE, ignored nonmanual targets, zero derivatives outside M ∪ R, doubled reference coefficient, halved manual KL coefficient, exact constant-KL group-weight matching, unequal-group versus uniform-union differences and empty/overlap rejection. The scientific counts are used only to describe participation and reduction factors; no teacher or student logits are read.
+
+This is mathematical review and an explicitly named participation contract, not an executable training protocol. Full geometry-valid preservation remains blocked. The root must separately freeze all scientific choices and decide whether the narrower hypothesis warrants execution.

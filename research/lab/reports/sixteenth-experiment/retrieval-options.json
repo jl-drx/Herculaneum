@@ -1,0 +1,66 @@
+{
+  "status": "PLANNING_ONLY_NOT_AN_EXECUTION_BUDGET",
+  "created_at_utc": "2026-10-08T20:31:08.807997+00:00",
+  "assumptions": [
+    "All153TIFFplanes have matching validated single-strip layout; not yet observed",
+    "Multipart responses contain exact requested rowparts; support not yet observed",
+    "Four requests in flight is hypothetical; no concurrent calls authorized by this note",
+    "250ms latency is an illustration, not a measurement",
+    "Framing/network overhead and partial failure charges must be added in the production budget",
+    "07header receipts may be reused only with exact stableobject validators verified onlaterpixelresponses"
+  ],
+  "full_width_pixel_bytes": 4955143680,
+  "narrow_crop_pixel_bytes": 812187648,
+  "options": [
+    {
+      "maximum_row_parts_per_request": 8,
+      "crop_pixel_requests": 44064,
+      "new_header_IFD_requests_if_07_reused": 450,
+      "useful_crop_payload_bytes": 812187648,
+      "max_useful_payload_per_multipart_bytes": 18432,
+      "Range_value_conservative_9digit_offsets_bytes": 166,
+      "hypothetical_pixel_request_wall_at_250ms_serial_seconds": 11016.0,
+      "hypothetical_pixel_request_wall_at_250ms_four_inflight_seconds": 2754.0
+    },
+    {
+      "maximum_row_parts_per_request": 32,
+      "crop_pixel_requests": 11016,
+      "new_header_IFD_requests_if_07_reused": 450,
+      "useful_crop_payload_bytes": 812187648,
+      "max_useful_payload_per_multipart_bytes": 73728,
+      "Range_value_conservative_9digit_offsets_bytes": 646,
+      "hypothetical_pixel_request_wall_at_250ms_serial_seconds": 2754.0,
+      "hypothetical_pixel_request_wall_at_250ms_four_inflight_seconds": 688.5
+    },
+    {
+      "maximum_row_parts_per_request": 64,
+      "crop_pixel_requests": 5508,
+      "new_header_IFD_requests_if_07_reused": 450,
+      "useful_crop_payload_bytes": 812187648,
+      "max_useful_payload_per_multipart_bytes": 147456,
+      "Range_value_conservative_9digit_offsets_bytes": 1286,
+      "hypothetical_pixel_request_wall_at_250ms_serial_seconds": 1377.0,
+      "hypothetical_pixel_request_wall_at_250ms_four_inflight_seconds": 344.25
+    },
+    {
+      "maximum_row_parts_per_request": 128,
+      "crop_pixel_requests": 2754,
+      "new_header_IFD_requests_if_07_reused": 450,
+      "useful_crop_payload_bytes": 812187648,
+      "max_useful_payload_per_multipart_bytes": 294912,
+      "Range_value_conservative_9digit_offsets_bytes": 2566,
+      "hypothetical_pixel_request_wall_at_250ms_serial_seconds": 688.5,
+      "hypothetical_pixel_request_wall_at_250ms_four_inflight_seconds": 172.125
+    },
+    {
+      "maximum_row_parts_per_request": 256,
+      "crop_pixel_requests": 1530,
+      "new_header_IFD_requests_if_07_reused": 450,
+      "useful_crop_payload_bytes": 812187648,
+      "max_useful_payload_per_multipart_bytes": 589824,
+      "Range_value_conservative_9digit_offsets_bytes": 5126,
+      "hypothetical_pixel_request_wall_at_250ms_serial_seconds": 382.5,
+      "hypothetical_pixel_request_wall_at_250ms_four_inflight_seconds": 95.625
+    }
+  ]
+}

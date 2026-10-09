@@ -1,0 +1,23 @@
+# Fixed Frag6 depth-window comparison
+
+Continue phase31 CPU_STUDY_SPEC.md without changing contexts, core masks, model, pooling, five windows, three displacement comparisons or the 0.01 practical margins. The current restored state passed the external phase31 retention anchor. The actual claim is supplied-reference agreement on four annotation-selected contexts of one PHerc51 parent, not independent accuracy or a frontier model result.
+
+## Transport and source binding
+
+Exact official surface_volume URLs 01.tif through63.tif. First acquire each8-byte header,2-byte IFD count, complete bounded IFD and27-byte Software value. Verify uncompressed single-strip uint16 shape8853×6205, byte order, orientation, offsets, extents and historical Software. Require strong ETags and consistent object lengths for every request. Freeze actual object/layout identities and all crop byte ranges in PIXEL_GO.json before pixels.
+
+The four384×384crops and their source origins come exclusively from phase31 cpu-panel-v1/CPU_PANEL.json.1536rows per layer are grouped into six batches of256 independent row ranges, including groups that cross a crop boundary. The validated phase16 TIFF and binary multipart parsers are reused unchanged. Its older HTTP URL guard permitted only07..57; a separate new transport binds the exact01..63 whitelist and permanently reserves each full response cap, including framing and one overflow byte. No reserve refund, redirects, retries, coalesced/full-object fallback or credential use.
+
+Maximum800requests,192MiB cumulative reserved bodies,512KiB per response,30seconds/request,600seconds aggregate active acquisition time across metadata and pixel stages,2GiBRSS,1GiB total phase disk. Planning/review time between stages does not consume acquisition time; actual network-stage time and wall timestamps remain recorded. Expected252metadata+378pixel=630requests,74,317,824usefulCTbytes. Source bytes and multipart offsets/checksums remain retained, followed by reconstructed arrays. Publish COMPLETE.json only after all96,768crop rows arrive once and all resources pass. Failures leave explicit receipts and no completed scientific artifact.
+
+## Verification before model execution
+
+From retained multipart bodies, independently reconstruct all four crops using physical TIFF byte addresses rather than producer local-row metadata. Check every uint16sample against saved arrays. Pool each triplet using the retained exact sum/division kernel and independently verify all output values by adding27strided source views. Keep pooled arrays, hashes and a completion manifest. Checkpoint/source pins and normalization input arrays are bound before model calls. No second render-kernel ablation is introduced.
+
+## CPU job
+
+Use the existing verified model-source loader and weights_only checkpoint loader. CPUFP32eval, four intraop threads and one interop thread; deterministic algorithms, no optimizer/training/network. Preserve a semantic model-state hash before and after. Normalize each full17×128×128patch with the retained robust-MAD routine. Store all20normalized inputs before the first forward. Run exactly one forward for each context/window start0..4; retain original logits and sigmoid probabilities without a redundant single-tile Hann multiplication/division. This direct single-patch route preserves the model and normalization, and avoids introducing a blending rounding operation where no overlap exists. Verify input tensors are unchanged.20forwards maximum,600seconds external process deadline,4GiBRSS. No automatic retry after a partial inference failure.
+
+Calculate candidate averages in float64 from retained FP32probabilities, equally weighted; baseline is the corresponding retained FP32map promoted to float64. Use identical core64labels and phase29 exact tie-aware AP/AUROC. Report all context/displacement outcomes, coverage, prevalence, clean and robust means. Recompute AP and AUROC from distinct threshold-group and positive/negative pair-count formulations on retained scores, without additional model forwards. Freeze source/runtime/normalized-input hashes in MODEL_GO.json before inference.
+
+Average displacement AP within context, then contexts within the sole parent. Candidate promising only if robust mean AP gain≥0.01 and mean clean AP loss≤0.01; otherwise retain the unchanged baseline for this experiment. Either result remains descriptive. No threshold fitting, confidence interval, parent generalization, translation or novelty claim. Existing teacher/annotation ancestry and registration qualifications persist. Keep all failures, reserves and original evidence. No paid resources, R2 upload or outreach; spend£0 and £10total GPU cap unchanged.

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "retrieved_at_utc": "2026-10-07T22:02:54.039844+00:00",
+  "source_repository": "https://github.com/ScrollPrize/villa",
+  "source_commit": "e0bbb8b40a2db58b1d71864f286eb85717e59e64",
+  "terms": {
+    "website_source_license": "MIT, upstream license retained as UPSTREAM-WEBSITE-LICENSE.txt",
+    "dataset_license": "CC-BY-NC 4.0 by default unless asset-specific terms differ; this does not imply every illustration has separately documented dataset metadata",
+    "data_license_source": "https://scrollprize.org/data#licenses",
+    "publication_status": "Existing public illustrations only; private novel findings require separate review under current prize rules"
+  },
+  "assets": [
+    {
+      "id": "ink-label-reference",
+      "local_path": "data/official-ink-label.webp",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e0bbb8b40a2db58b1d71864f286eb85717e59e64/scrollprize.org/static/img/firstletters/ink-label.webp",
+      "sha256": "75156a23694f1789521066610ed13a75357f15e065ef175db435f06e1e1b50ae",
+      "description": "Published texture-and-ink-label illustration; lossy display composite, not an independent training mask or raw CT input.",
+      "context_url": "https://scrollprize.org/data_datasets#ink-labels-2026-07",
+      "scroll_id": null,
+      "pixel_size_um": null
+    },
+    {
+      "id": "published-scroll-reference",
+      "local_path": "data/official-banner-full.webp",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e0bbb8b40a2db58b1d71864f286eb85717e59e64/scrollprize.org/static/img/firstscroll/banner-full.webp",
+      "sha256": "5e47ec5613608287ea6d8a67a4eec6ec3bb4967f72e9ae5f9013648470d210cd",
+      "description": "Already-published recovered text panorama of PHerc. 1667, for workflow review only; no new reading or prize claim.",
+      "context_url": "https://scrollprize.org/firstscroll",
+      "scroll_id": "PHerc1667",
+      "pixel_size_um": null,
+      "review_crop_xywh": [
+        4000,
+        0,
+        1800,
+        924
+      ]
+    }
+  ]
+}

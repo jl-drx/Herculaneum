@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "scope": "Synthetic scheduling coverage and strict-checkpoint synthetic forward only; no target arrays read or scored",
+  "coverage_checks": [
+    {
+      "shape_yx": [
+        128,
+        128
+      ],
+      "scheduled_tiles": 1,
+      "last_xy": [
+        0,
+        0
+      ],
+      "complete_coverage": true
+    },
+    {
+      "shape_yx": [
+        129,
+        140
+      ],
+      "scheduled_tiles": 4,
+      "last_xy": [
+        12,
+        1
+      ],
+      "complete_coverage": true
+    },
+    {
+      "shape_yx": [
+        256,
+        256
+      ],
+      "scheduled_tiles": 9,
+      "last_xy": [
+        128,
+        128
+      ],
+      "complete_coverage": true
+    },
+    {
+      "shape_yx": [
+        980,
+        980
+      ],
+      "scheduled_tiles": 225,
+      "last_xy": [
+        852,
+        852
+      ],
+      "complete_coverage": true
+    },
+    {
+      "shape_yx": [
+        1024,
+        1024
+      ],
+      "scheduled_tiles": 225,
+      "last_xy": [
+        896,
+        896
+      ],
+      "complete_coverage": true
+    }
+  ],
+  "strict_state_match": true,
+  "synthetic_logits_shape": [
+    1,
+    1,
+    128,
+    128
+  ],
+  "current_adapter_sha256": "95bed19cdcb8417d978b827f60b937bcacf996f451582a419f3bfe9dc3009e42",
+  "original_roi256_adapter_sha256": "3df9720c825337760c9899bd780a52cc9b6115dadf9a3d923880c9bade385a0a"
+}

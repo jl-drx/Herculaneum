@@ -1,0 +1,93 @@
+{
+  "architecture": {
+    "activation": {
+      "name": "LeakyReLU",
+      "negative_slope": 0.01
+    },
+    "backbone_mode": "strict seed42 loaded/frozen/eval; original fusion detached; U-Net input autograd retained",
+    "depth_coordinate_scope": "signed nominal stack index; not authenticated anatomical distance",
+    "depth_reduction": [
+      "mean",
+      "maximum"
+    ],
+    "explicit_depth": "center normalized slice, centered axial difference with full one-sided endpoints, (j-8)/8",
+    "head": {
+      "bias": true,
+      "in_channels": 16,
+      "initial_bias": 0,
+      "initial_weight": 0,
+      "kernel_size": 3,
+      "out_channels": 32,
+      "padding": 1
+    },
+    "input_shape": [
+      2,
+      1,
+      17,
+      128,
+      128
+    ],
+    "insertion": "add adapter residual to original 32-channel depth_fusion output before original 2D U-Net",
+    "name": "frozen-seed42-fusion-plus-5296-parameter-adapter",
+    "raw_control": "previous, center, next normalized slices; clamped endpoint source indices",
+    "representation_channels": 3,
+    "source": "nineteenth-experiment/fusion-prototype/fusion_adapter.py",
+    "source_sha256": "a7004b8d06f163b8a20bfad87cd00dfb3d015d36c6be0833362255ee68a53d24",
+    "stem": {
+      "bias": true,
+      "in_channels": 3,
+      "kernel_size": 3,
+      "out_channels": 8,
+      "padding": 1
+    },
+    "trainable_parameters": 5296
+  },
+  "gates": {
+    "automatic_GPU_launch": false,
+    "automatic_model_promotion": false,
+    "candidate_vs_control_full_loss_improvement_min": 0.0001,
+    "fixed_threshold": 0.7558947205543518,
+    "maximum_per_case_rank_loss_vs_baseline": 0.02,
+    "paris2_ap_improvement_min": 0.005,
+    "paris2_auc_improvement_min": 0.005,
+    "scope": "predeclared computational development screen; no significance or confirmatory claim",
+    "training_improvement_min": 0.0001
+  },
+  "limits": {
+    "address_space_bytes": 12884901888,
+    "development_controller_wall_seconds": 660,
+    "development_cpu_seconds": 900,
+    "development_wall_seconds": 300,
+    "output_bytes": 1073741824,
+    "retries": 0,
+    "rss_bytes": 4294967296,
+    "threads": 4,
+    "training_controller_wall_seconds": 1380,
+    "training_cpu_seconds": 1800,
+    "training_wall_seconds": 600
+  },
+  "training": {
+    "batch_size": 2,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "fixed_updates": [
+      1,
+      8,
+      16,
+      32
+    ],
+    "foreach": false,
+    "fused": false,
+    "gradient_clip_norm": 1.0,
+    "kl_coefficient": 1.0,
+    "learning_rate": 0.001,
+    "loss_smoothing": 0.5,
+    "optimizer": "AdamW",
+    "seed": 20261008,
+    "steps": 32,
+    "weight_decay": 0
+  }
+}

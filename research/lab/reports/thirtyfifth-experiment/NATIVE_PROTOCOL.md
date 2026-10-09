@@ -1,0 +1,17 @@
+# Fixed regional native-source correspondence extension
+
+Freeze before downloading any new native CT chunks or computing source-to-render residuals. All targets are already cached published TIFF values; this is a regional replication of the phase30 historical rendering explanation, not fresh ink accuracy or blinded confirmation.
+
+Use the verified36PPMsites from StageB. At the four local centers[193,193], compare every cached layer1..63. At the other32sites, compare only layer32. Exactly284target points, no replacement/selection. Source points are XYZ+(layer−32)*normal in the existing named53keV native coordinate convention. Require in-bounds contributing corners.
+
+Primary recipe: the version2.26.0 source-derived historical interpolation (the c10 term reuses I100 instead of I110), followed by nearest-even uint16 rounding as already tested in phase30. Every284target value must match exactly; preserve a failed result if any differs. Standard trilinear is a descriptive paired reference, not a competing recipe to select. No shift/sign/offset fitting, tolerance relaxation, label/model access or intensity normalization. Record distance to half-integer rounding boundaries and every residual.
+
+The geometry-only planner requires40unique128³uint16chunks (160MiBdecoded work). None intersect the14previously cached native chunks. Before acquisition, bind each exact source URL and all source metadata identities. Re-fetch three small metadata objects under pinned ETags and exact body hashes, then download only the40planned chunks. Max43requests,168MiBreserved body bytes including excess probes,30seconds per request,240seconds acquisition,512MiBRSS and256MiBaggregate phase disk including earlier packet artifacts. No redirects, automatic retries or full-scan download. Persist reservation/response accounting and partial failures. Source identity and all-or-nothing completion are required before comparison.
+
+Decode each native chunk once in the primary run using the previously qualified strict local Zarr2/Blosc adapter, gathering only needed corners. Independently verify by reading/decompressing the retained bytes and using a separate scalar nested interpolation formula; one additional decode per chunk is allowed, no repeat download. Verify all284coordinates/targets from the frozen PPM records and raw TIFF crops, every gathered corner and all rounded predictions. Separate numerical implementation validation from the exact scientific correspondence criterion.
+
+Compatibility fixtures must distinguish standard versus historical c10 interpolation on an asymmetric cell, preserve constants, reproduce true trilinear ramps and specify nearest-even ties. Do not patch the correct general sampler or any repository source. Exact historical reproduction does not make the defect a preferred future rendering method.
+
+These local checks cannot establish optical alignment, anatomical direction, physical ink placement, exact upstream invocation/build or global correspondence beyond284points. Report local raster scale variability separately; do not claim unit physical pixels. Agent structural review proceeds separately with no label/model scores, and root will review any suggested landmark.
+
+£0GPUspend; £10totalpilotcap preserved. No model training/inference, R2upload, outreach, publication or submission. No further native acquisition under this extension after one completed attempt.

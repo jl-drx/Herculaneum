@@ -1,0 +1,113 @@
+{
+  "snapshot_commit": "e0bbb8b40a2db58b1d71864f286eb85717e59e64",
+  "retrieved_date": "2026-10-07",
+  "bundled_index_updated": "2026-06-15",
+  "target_status": "provisional; live segment inventory required",
+  "prize": "first-letters-2027",
+  "eligible_volume_id": "20250521135224",
+  "sample": {
+    "id": "PHerc0800",
+    "type": "scroll",
+    "desc": "",
+    "legacy": null,
+    "n_scans": 1,
+    "n_volumes": 1,
+    "n_segments": 6,
+    "min_px": 8.64,
+    "scans": [
+      {
+        "px": 8.64,
+        "energy": 116,
+        "loc": "ESRF Grenoble",
+        "name": "20250510225703-8.640um-1.2m-116keV",
+        "id": "20250510225703",
+        "volumes": [
+          {
+            "id": "20250521135224",
+            "zarr": "s3://vesuvius-challenge-open-data/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/"
+          }
+        ],
+        "volume": "s3://vesuvius-challenge-open-data/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/"
+      }
+    ],
+    "hasS3": true,
+    "licenses": [
+      {
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "ctVolumes": [
+      {
+        "id": "20250521135224",
+        "px": 8.64,
+        "energy": 116,
+        "zarr": "s3://vesuvius-challenge-open-data/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/"
+      }
+    ],
+    "display": "PHerc0800",
+    "label": "PHerc. 800",
+    "repository": "Biblioteca Nazionale di Napoli ‘Vittorio Emanuele III’ (Officina dei Papiri Ercolanesi)",
+    "note": "",
+    "photo": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0800/photos/PHerc0800_photo.jpg",
+    "bucketUrl": "https://vesuvius-challenge-open-data.s3.amazonaws.com/index.html#PHerc0800/",
+    "content": null,
+    "progress": {
+      "patches": null,
+      "textFound": "Scanned",
+      "textRank": 0,
+      "unrolledPct": 0,
+      "score": 1.4
+    },
+    "stages": {
+      "scanned": true,
+      "segmented": false,
+      "unrolled": false,
+      "ink": false,
+      "text": false,
+      "furthest": 0,
+      "unrolledPct": 0
+    },
+    "readings": null,
+    "legalNotice": null,
+    "licenseScope": null,
+    "volume": null,
+    "mesh": {
+      "file": "PHerc0800.ply",
+      "kind": "mesh",
+      "n": 20002,
+      "src": "PHerc0800.ply (scaled-meshes-15072026)"
+    },
+    "inkSegments": [],
+    "predictions": [
+      {
+        "purpose": "surface-prediction",
+        "baseVolume": "20250521135224",
+        "px": 8.64,
+        "energy": 116,
+        "model": "20260413222639",
+        "level": 0,
+        "threshold": 0.2,
+        "zarr": "s3://vesuvius-challenge-open-data/PHerc0800/representations/predictions/surfaces/20250521135224-surface-20260413222639-surface-m7-L0-th0.2.zarr/",
+        "baseZarr": "s3://vesuvius-challenge-open-data/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/"
+      },
+      {
+        "purpose": "lasagna",
+        "baseVolume": "20250521135224",
+        "px": 8.64,
+        "energy": 116,
+        "model": "20260419180421",
+        "level": 0,
+        "threshold": null,
+        "zarr": "s3://vesuvius-challenge-open-data/PHerc0800/representations/predictions/lasagna/20250521135224-lasagna-20260419180421/",
+        "baseZarr": "s3://vesuvius-challenge-open-data/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/"
+      }
+    ],
+    "hasSurfacePred": true,
+    "hasInk3d": false,
+    "n_predictions": 2,
+    "n_inkSegments": 0,
+    "n_alpha": 0,
+    "alphaHero": null
+  }
+}

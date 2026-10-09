@@ -1,0 +1,92 @@
+{
+  "helper": {
+    "path": "/workspace/herculaneum-lab/reports/sixth-experiment/model-contract/model_contract_v2.py",
+    "sha256": "f391fde6495b2abdb68a77b6af22766fd3b8cdb2c2c9b597abf5c33cc2b693fd",
+    "size_bytes": 16749
+  },
+  "illustrative_anchor_loss": "Equal mean across2regions\u00d72classes; computedonly, notstepped orvalidated asresearchmethod",
+  "input_shape": [
+    1,
+    1,
+    17,
+    128,
+    128
+  ],
+  "interpretation": "Syntheticmechanics only. Retainedseed42commoninit is provisional, notselectedfromseventhmodelranking. No realdata/teacher/split/regionanchor contract/GPUreadiness.",
+  "kind": "synthetic-cpu-mechanics-v1",
+  "limits": {
+    "address_space_bytes": 8589934592,
+    "checkpoint_outputs": 0,
+    "cpu_seconds": 120,
+    "network_requests": 0,
+    "new_dependencies": 0,
+    "prediction_outputs": 0,
+    "rss_acceptance_bytes": 3221225472,
+    "threads": 4,
+    "wall_seconds": 60
+  },
+  "model": {
+    "acquisition": "retained_verified_checkpoint",
+    "embedded_step": 74999,
+    "filename_step_label": 75000,
+    "label": "seed42",
+    "local_path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+    "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+    "repository": "scrollprize/ink_9um",
+    "repository_path": "hybrid_3d2d-seed42/step-075000.pth",
+    "revision": "7109667e2607db1b90c37c8b09cb876ea7fe7bb1",
+    "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+    "size_bytes": 138360039,
+    "source_url": "https://huggingface.co/scrollprize/ink_9um/resolve/7109667e2607db1b90c37c8b09cb876ea7fe7bb1/hybrid_3d2d-seed42/step-075000.pth"
+  },
+  "optimizer": {
+    "kind": "SGD",
+    "learning_rate": 0.001,
+    "momentum": 0.0,
+    "step_loss": "plain unsmoothed masked BCE",
+    "steps": 1
+  },
+  "real_training_authorized": false,
+  "root_executes": true,
+  "schema_version": 1,
+  "synthetic_known_mask": "Y[16:96),X[16:96); positiveY[16:40), negativeY[40:96); outsideunknown(-1), never included inloss",
+  "synthetic_regions": "X<48 versusX>=48; each withpositive+negative known anchors",
+  "synthetic_seed": 20261008,
+  "verified_inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/training-prototype-readiness/check_synthetic_step.py",
+      "sha256": "cd0873ed3f44607dd19824f90a7a80382287bc37d0875dec54be26ee72bec809",
+      "size_bytes": 6951
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/training-prototype-readiness/TRAINING_CONTRACT_DRAFT.md",
+      "sha256": "6cb2ac7cdb2acd5e3d207054eecc719d6c6536c301df7529bbb3a4f7c84db518",
+      "size_bytes": 4234
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/sixth-experiment/benchmark/comparison-plan.json",
+      "sha256": "984bf0114ffc0f53fa451d2e24e67cb2daae55c2a7db59f35aa12be4351664bf",
+      "size_bytes": 39398
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/sixth-experiment/model-contract/model_contract_v2.py",
+      "sha256": "f391fde6495b2abdb68a77b6af22766fd3b8cdb2c2c9b597abf5c33cc2b693fd",
+      "size_bytes": 16749
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/sixth-experiment/model-contract/audit-v2/model-contract.json",
+      "sha256": "6cbd873f6c41a01414351424d6d3e487b15f934597b838858e965faaab3714b5",
+      "size_bytes": 935610
+    },
+    {
+      "path": "/workspace/herculaneum-lab/run_ink_reference.py",
+      "sha256": "16bc6e9fb080eb5c2fcc1f20975481881e513b36b7533c1987bdb422340fea9f",
+      "size_bytes": 23637
+    },
+    {
+      "path": "/workspace/herculaneum-lab/vendor/villa-ink-baseline/source-manifest.json",
+      "sha256": "2165b5def9d0dede136dde8202993be800b121cb2feb13cf98e98cd0629d75df",
+      "size_bytes": 10514
+    }
+  ]
+}

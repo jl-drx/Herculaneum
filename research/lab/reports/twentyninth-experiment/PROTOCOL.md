@@ -1,0 +1,17 @@
+# Phase29: audit and qualify public fragment-benchmark components
+
+User authorized the recommended audit/adaptation of kartoun/vesuvius-fragment-ink-depth. Preserve repository HEAD49fabf3e890d5b880f391b27d581f1e7a1ebdbcc and pre-existing untracked.codex/, all28sealed phases and public-source audit. Prior literal retention anchor594ab84d0efc41522dfa6e5b5397bf5e56ee7bfc0e10ae39eeaf14019888c78b must pass before new work.
+
+## Source acquisition
+
+Use ONLY the already retained complete repository tree191126e0e677b4cf17131a1f7bbaefb1fa8f92e1. This is a tree identity, not a commit claim. Fetch exact Git blobs for common.py,score_3d.py,step4_train_compare.py,step5_lofo.py,export_predictions.py,predict_fragment.py,step1_ink_depth_profile.py,step2_surface_aligned_profile.py,requirements.txt andLICENSE. At most12public HTTPS requests,131072response bytes each,2MiBtotal reserved,20seconds absolute/request. No redirect/retry/credentials. Verify JSON base64, decoded length and Git blobSHA1 plus saved SHA256. Existing README/downloader/label-builder text is reused read-only without refetching. No images, arrays, labels, PPM, weights or generated figures from the public benchmark may be acquired. No copied code executes during acquisition.
+
+## Audit and qualification
+
+Read scorer/preprocessing/fold source before importing any selected functions. Trace shape/axis/unit assumptions, mask/negative/unknown support, threshold selection, ties/invalid inputs, confidence intervals, normalization scope, training/evaluation overlap and checkpoint use. Distinguish identifiable code behavior from unverified author results, original label provenance and ink accuracy. Scorer/splits may support a descriptive research baseline without independent physical truth. A public label recipe does not establish original annotation completeness or optical registration. Do not inherit six-independent-parent claims; compare against our physical grouping.
+
+After inspection freeze a separate synthetic test contract for findings and any small local reusable adapter. Synthetic source arrays and fixed predicted values only; no model construction, training, weights, candidate pixel reads, full source CLI, downloader or network-enabled execution. Import only reviewed safe definitions or extract selected functions structurally with documented provenance. Preserve upstream bytes; make adaptations outside checkouts in a new file. Use exact mathematical/scalar oracles and targeted pathological cases, not implementation-mirroring tests. Preserve original failure demonstrations alongside corrected behavior, without claiming upstream changes were submitted.
+
+Use installed dependencies only; do not assume requirements.txt is a reproducible lock. Offline commands120second limit; phase artifacts32MiB total including final manifest. Scientific score acceptance rules and tests are frozen after source inspection but before execution; do not change them to make a failure pass. Report execution/test scope, findings, reference eligibility and a concrete next experiment. Root owns review; no independent agent claim.
+
+No candidate predictions/local scores or model promotion. Public aggregate benchmark results were already seen in phase28; do not claim complete blindness. No outreach, publication, R2upload, paidjob or GPU; spend£0/£10TOTALcap unchanged. Maintainer request confirmed NOT SENT. Finalize additive registerv25/integrity seal and tested saved startup; no new worktree/install/service needed.

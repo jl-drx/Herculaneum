@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "draft_id": "52435fe3-1c43-4ba2-a954-75bdfc8fa1c2~cecfgdraft_6ac81096b89881a2833e8463ad1f4ca2",
+  "revision": 31,
+  "requires_publish": true,
+  "expected_start_chars": 128717,
+  "actual_start_chars": 128717,
+  "exact_start_readback": true,
+  "prior_startup_history_preserved": true,
+  "unrelated_fields_preserved": true,
+  "unrelated_fields_checked": [
+    "draft_id",
+    "base_version_id",
+    "repositories",
+    "install_script",
+    "network_policy",
+    "secrets",
+    "runtime_requirements",
+    "pending_runtime_requirements"
+  ],
+  "current_time": "2026-10-08 22:24:08 UTC",
+  "scope": "Configuration draft/backend readback and subsequent read-only local retention verification; no publish/backup/restoration claim",
+  "retention_verification": {
+    "status": "PASS",
+    "manifest_sha256": "10e52cd18b3d743ce6c7500ab38aaf10a55185ada0294eb1eb85719816ef1f7a",
+    "records": 16828,
+    "retained_bytes": 5449091222,
+    "failures": []
+  },
+  "note": "Stored outside the sealed phase17 directory because this draft binds that directory's final manifest."
+}

@@ -1,0 +1,2489 @@
+{
+  "retrieved_at_utc": "2026-10-07T22:31:42.535358+00:00",
+  "sample_id": "PHerc0800",
+  "eligible_volume_id": "20250521135224",
+  "scan_id": "20250510225703",
+  "voxel_size_um": 8.64,
+  "energy_keV": 116,
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+  },
+  "inventory_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/metadata.min.json",
+  "inventory_wire_sha256": "f6f1d6a7f917d60fa32edb9986a87a7aeafd2e47510f4d438de0b3142bc8a0f4",
+  "inventory_wire_bytes": 67375,
+  "inventory_wire_encoding": "gzip",
+  "eligibility_source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e0bbb8b40a2db58b1d71864f286eb85717e59e64/scrollprize.org/src/data/prizeEligibility.json",
+  "eligibility_source_sha256": "d549d8e8e0e20a6b4a7f7548287c6d0631d825c8a4063c78ac0bd86bdc9e30a7",
+  "eligibility_source_commit": "e0bbb8b40a2db58b1d71864f286eb85717e59e64",
+  "eligibility_first_letters": true,
+  "eligibility_grand_prize": true,
+  "segments": [
+    {
+      "segment_id": "20251028213516",
+      "long_id": "20251028213516-auto_grown_20251028213516907",
+      "surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+      "mesh_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/",
+      "surface_target_volume": "20250521135224",
+      "mesh_target_volume": "20250521135224",
+      "native_surface_metadata": {
+        "segment_id": "20251028213516",
+        "kind": "surface_0/.zarray",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:12 GMT",
+          "etag": "\"6d71030bc630ccd3d932f496429da4f9\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "204"
+        },
+        "wire_bytes": 204,
+        "sha256": "e2b97b9bb72f6f40ba0009b434f4a5a127eb134a419d2ae8e7936af9b98def62",
+        "metadata": {
+          "zarr_format": 2,
+          "shape": [
+            31,
+            2160,
+            2240
+          ],
+          "chunks": [
+            31,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "compressor": null,
+          "fill_value": 0,
+          "order": "C",
+          "filters": null,
+          "dimension_separator": "/"
+        }
+      },
+      "surface_attributes": {
+        "segment_id": "20251028213516",
+        "kind": "surface_.zattrs",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:12 GMT",
+          "etag": "\"3bdab0a3f14c77534a710f1fa3db54e8\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "3464"
+        },
+        "wire_bytes": 3464,
+        "sha256": "6b1b931f280819e1ab742b3d4985dd842a041b2ac67879535a59ff9b72866f29",
+        "metadata": {
+          "canvas_size": [
+            2240,
+            2160
+          ],
+          "chunk_size": [
+            31,
+            128,
+            128
+          ],
+          "multiscales": [
+            {
+              "axes": [
+                {
+                  "name": "z",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "y",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "x",
+                  "type": "space",
+                  "unit": "micrometer"
+                }
+              ],
+              "datasets": [
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        8.64,
+                        8.64
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "0"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        17.28,
+                        17.28
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "1"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        34.56,
+                        34.56
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "2"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        69.12,
+                        69.12
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "3"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        138.24,
+                        138.24
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "4"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        276.48,
+                        276.48
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "5"
+                }
+              ],
+              "metadata": {
+                "downsampling_method": "mean"
+              },
+              "name": "render",
+              "version": "0.4"
+            }
+          ],
+          "note_axes_order": "ZYX (slice, row, col)",
+          "num_slices": 31,
+          "slice_step": 1.0,
+          "source_group": 0,
+          "source_zarr": "/volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/"
+        }
+      },
+      "transformed_mesh_metadata": {
+        "segment_id": "20251028213516",
+        "kind": "mesh_meta",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/meta.json",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:09:39 GMT",
+          "etag": "\"e946752a284725960f4bd45d05be85e7\"",
+          "content-type": "application/json",
+          "content-length": "285"
+        },
+        "wire_bytes": 285,
+        "sha256": "fd8b3e2e2cd4241a58044af00bd802734159e4188d5613b8e5339483d7c63e61",
+        "metadata": {
+          "bbox": [
+            [
+              2963.6953125,
+              5306.8388671875,
+              11083.4970703125
+            ],
+            [
+              4250.04638671875,
+              6947.79052734375,
+              13077.0224609375
+            ]
+          ],
+          "format": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "type": "seg",
+          "uuid": "output_tifxyz"
+        }
+      },
+      "mesh_x_shape_yx": [
+        108,
+        112
+      ],
+      "mesh_x_header_probe": {
+        "segment_id": "20251028213516",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/x.tif",
+        "kind": "mesh_x_tiff_dimensions",
+        "ifd_offset": 48392,
+        "status": 206,
+        "content_range": "bytes 48392-48517/48518",
+        "tiff_tags": {
+          "256": {
+            "type": 3,
+            "count": 1,
+            "value": 112
+          },
+          "257": {
+            "type": 3,
+            "count": 1,
+            "value": 108
+          },
+          "258": {
+            "type": 3,
+            "count": 1,
+            "value": 32
+          },
+          "259": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "277": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "339": {
+            "type": 3,
+            "count": 1,
+            "value": 3
+          }
+        },
+        "bytes_read": 134
+      },
+      "head_probes": [
+        {
+          "segment_id": "20251028213516",
+          "kind": "mesh_x",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/x.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:40 GMT",
+            "etag": "\"cf853b049f3e5b4e3ebd194df9c9322b\"",
+            "accept-ranges": "bytes",
+            "content-length": "48518",
+            "content-type": "image/tiff"
+          }
+        },
+        {
+          "segment_id": "20251028213516",
+          "kind": "mesh_y",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/y.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:41 GMT",
+            "etag": "\"aecaee483bc1ad7dafb2321d51242d73\"",
+            "accept-ranges": "bytes",
+            "content-length": "48518",
+            "content-type": "image/tiff"
+          }
+        },
+        {
+          "segment_id": "20251028213516",
+          "kind": "mesh_z",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/z.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:42 GMT",
+            "etag": "\"662a7f282cec704c12034f8667b8f7e4\"",
+            "accept-ranges": "bytes",
+            "content-type": "image/tiff",
+            "content-length": "48518"
+          }
+        },
+        {
+          "segment_id": "20251028213516",
+          "kind": "native_center_chunk",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/8/8",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:12:13 GMT",
+            "etag": "\"396f2dad6f02b8fcfeb0d10a44bf6673\"",
+            "accept-ranges": "bytes",
+            "content-length": "507904",
+            "content-type": "binary/octet-stream"
+          }
+        }
+      ],
+      "logical_native_bytes": 149990400
+    },
+    {
+      "segment_id": "20251028220042",
+      "long_id": "20251028220042-auto_grown_20251028220042762",
+      "surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+      "mesh_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/mesh/20251028220042-on-20250521135224-8.64um.tifxyz/",
+      "surface_target_volume": "20250521135224",
+      "mesh_target_volume": "20250521135224",
+      "native_surface_metadata": {
+        "segment_id": "20251028220042",
+        "kind": "surface_0/.zarray",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:39 GMT",
+          "etag": "\"e555d8360048a6bcc2b4d0dd041564d0\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "204"
+        },
+        "wire_bytes": 204,
+        "sha256": "f5c65c302343400e362418d6a6e53214c98973442da897f503a5e3542cffed63",
+        "metadata": {
+          "zarr_format": 2,
+          "shape": [
+            31,
+            2040,
+            2000
+          ],
+          "chunks": [
+            31,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "compressor": null,
+          "fill_value": 0,
+          "order": "C",
+          "filters": null,
+          "dimension_separator": "/"
+        }
+      },
+      "surface_attributes": {
+        "segment_id": "20251028220042",
+        "kind": "surface_.zattrs",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:39 GMT",
+          "etag": "\"f30131fd743b9c88687d8a9b8575dc72\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "3464"
+        },
+        "wire_bytes": 3464,
+        "sha256": "f71f705f939b51a334d55ab9d7d164fd7682cf31b13a27c2d65fccc0ca01d124",
+        "metadata": {
+          "canvas_size": [
+            2000,
+            2040
+          ],
+          "chunk_size": [
+            31,
+            128,
+            128
+          ],
+          "multiscales": [
+            {
+              "axes": [
+                {
+                  "name": "z",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "y",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "x",
+                  "type": "space",
+                  "unit": "micrometer"
+                }
+              ],
+              "datasets": [
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        8.64,
+                        8.64
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "0"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        17.28,
+                        17.28
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "1"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        34.56,
+                        34.56
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "2"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        69.12,
+                        69.12
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "3"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        138.24,
+                        138.24
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "4"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        276.48,
+                        276.48
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "5"
+                }
+              ],
+              "metadata": {
+                "downsampling_method": "mean"
+              },
+              "name": "render",
+              "version": "0.4"
+            }
+          ],
+          "note_axes_order": "ZYX (slice, row, col)",
+          "num_slices": 31,
+          "slice_step": 1.0,
+          "source_group": 0,
+          "source_zarr": "/volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/"
+        }
+      },
+      "transformed_mesh_metadata": {
+        "segment_id": "20251028220042",
+        "kind": "mesh_meta",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/mesh/20251028220042-on-20250521135224-8.64um.tifxyz/meta.json",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:09:40 GMT",
+          "etag": "\"21ebac10348549a9eb6207bbf36e9f1a\"",
+          "content-type": "application/json",
+          "content-length": "288"
+        },
+        "wire_bytes": 288,
+        "sha256": "a11639703aaa4d0ff24f8331b4a84ea95f923ae81e19f886c0d6de8177427309",
+        "metadata": {
+          "bbox": [
+            [
+              2956.458740234375,
+              5488.59423828125,
+              11151.9619140625
+            ],
+            [
+              4280.96826171875,
+              6844.96484375,
+              13034.0966796875
+            ]
+          ],
+          "format": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "type": "seg",
+          "uuid": "output_tifxyz"
+        }
+      },
+      "mesh_x_shape_yx": [
+        102,
+        100
+      ],
+      "mesh_x_header_probe": {
+        "segment_id": "20251028220042",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/mesh/20251028220042-on-20250521135224-8.64um.tifxyz/x.tif",
+        "kind": "mesh_x_tiff_dimensions",
+        "ifd_offset": 40808,
+        "status": 206,
+        "content_range": "bytes 40808-40933/40934",
+        "tiff_tags": {
+          "256": {
+            "type": 3,
+            "count": 1,
+            "value": 100
+          },
+          "257": {
+            "type": 3,
+            "count": 1,
+            "value": 102
+          },
+          "258": {
+            "type": 3,
+            "count": 1,
+            "value": 32
+          },
+          "259": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "277": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "339": {
+            "type": 3,
+            "count": 1,
+            "value": 3
+          }
+        },
+        "bytes_read": 134
+      },
+      "head_probes": [
+        {
+          "segment_id": "20251028220042",
+          "kind": "mesh_x",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/mesh/20251028220042-on-20250521135224-8.64um.tifxyz/x.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:41 GMT",
+            "etag": "\"16ed8a0f5fb7ef063cd79d3969e9a5dc\"",
+            "accept-ranges": "bytes",
+            "content-length": "40934",
+            "content-type": "image/tiff"
+          }
+        },
+        {
+          "segment_id": "20251028220042",
+          "kind": "mesh_y",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/mesh/20251028220042-on-20250521135224-8.64um.tifxyz/y.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:42 GMT",
+            "etag": "\"55c2c5ed71986addd374d65db1d4c990\"",
+            "accept-ranges": "bytes",
+            "content-type": "image/tiff",
+            "content-length": "40934"
+          }
+        },
+        {
+          "segment_id": "20251028220042",
+          "kind": "mesh_z",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/mesh/20251028220042-on-20250521135224-8.64um.tifxyz/z.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:43 GMT",
+            "etag": "\"e9e37b120b81607e445ade45f2606bb3\"",
+            "accept-ranges": "bytes",
+            "content-length": "40934",
+            "content-type": "image/tiff"
+          }
+        },
+        {
+          "segment_id": "20251028220042",
+          "kind": "native_center_chunk",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/7/7",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:12:40 GMT",
+            "etag": "\"4cc590a18aad5b7da39b587c778b5163\"",
+            "accept-ranges": "bytes",
+            "content-length": "507904",
+            "content-type": "binary/octet-stream"
+          }
+        }
+      ],
+      "logical_native_bytes": 126480000
+    },
+    {
+      "segment_id": "20251028220955",
+      "long_id": "20251028220955-auto_grown_20251028220955262",
+      "surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+      "mesh_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/mesh/20251028220955-on-20250521135224-8.64um.tifxyz/",
+      "surface_target_volume": "20250521135224",
+      "mesh_target_volume": "20250521135224",
+      "native_surface_metadata": {
+        "segment_id": "20251028220955",
+        "kind": "surface_0/.zarray",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+        "status": 200,
+        "headers": {
+          "content-length": "204",
+          "last-modified": "Mon, 07 Sep 2026 09:12:40 GMT",
+          "etag": "\"6539cef695950022fd4a5096983938fd\"",
+          "content-type": "binary/octet-stream"
+        },
+        "wire_bytes": 204,
+        "sha256": "dee750ebe5a952e9c83246836193d2586d0706fde981e30f80f1151fea11acfa",
+        "metadata": {
+          "zarr_format": 2,
+          "shape": [
+            31,
+            2100,
+            2100
+          ],
+          "chunks": [
+            31,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "compressor": null,
+          "fill_value": 0,
+          "order": "C",
+          "filters": null,
+          "dimension_separator": "/"
+        }
+      },
+      "surface_attributes": {
+        "segment_id": "20251028220955",
+        "kind": "surface_.zattrs",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:39 GMT",
+          "etag": "\"23756f41c69ad3658b96dd3fdc106bf4\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "3464"
+        },
+        "wire_bytes": 3464,
+        "sha256": "c9f9d8c78488d4bc807366b7e0c621a7d9ac1ac1236fabdb4456d00a499b04e9",
+        "metadata": {
+          "canvas_size": [
+            2100,
+            2100
+          ],
+          "chunk_size": [
+            31,
+            128,
+            128
+          ],
+          "multiscales": [
+            {
+              "axes": [
+                {
+                  "name": "z",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "y",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "x",
+                  "type": "space",
+                  "unit": "micrometer"
+                }
+              ],
+              "datasets": [
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        8.64,
+                        8.64
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "0"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        17.28,
+                        17.28
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "1"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        34.56,
+                        34.56
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "2"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        69.12,
+                        69.12
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "3"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        138.24,
+                        138.24
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "4"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        276.48,
+                        276.48
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "5"
+                }
+              ],
+              "metadata": {
+                "downsampling_method": "mean"
+              },
+              "name": "render",
+              "version": "0.4"
+            }
+          ],
+          "note_axes_order": "ZYX (slice, row, col)",
+          "num_slices": 31,
+          "slice_step": 1.0,
+          "source_group": 0,
+          "source_zarr": "/volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/"
+        }
+      },
+      "transformed_mesh_metadata": {
+        "segment_id": "20251028220955",
+        "kind": "mesh_meta",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/mesh/20251028220955-on-20250521135224-8.64um.tifxyz/meta.json",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:10:09 GMT",
+          "etag": "\"ef47d37e7d237c9d248881c248acd6b8\"",
+          "content-type": "application/json",
+          "content-length": "286"
+        },
+        "wire_bytes": 286,
+        "sha256": "1dd2bafe483b52ec1fc9c5317b4b1b61fdd6022288b78eec762a74dfbc514fb5",
+        "metadata": {
+          "bbox": [
+            [
+              3083.927001953125,
+              5391.02587890625,
+              10986.3974609375
+            ],
+            [
+              4314.04833984375,
+              6913.109375,
+              12902.7060546875
+            ]
+          ],
+          "format": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "type": "seg",
+          "uuid": "output_tifxyz"
+        }
+      },
+      "mesh_x_shape_yx": [
+        105,
+        105
+      ],
+      "mesh_x_header_probe": {
+        "segment_id": "20251028220955",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/mesh/20251028220955-on-20250521135224-8.64um.tifxyz/x.tif",
+        "kind": "mesh_x_tiff_dimensions",
+        "ifd_offset": 44108,
+        "status": 206,
+        "content_range": "bytes 44108-44233/44234",
+        "tiff_tags": {
+          "256": {
+            "type": 3,
+            "count": 1,
+            "value": 105
+          },
+          "257": {
+            "type": 3,
+            "count": 1,
+            "value": 105
+          },
+          "258": {
+            "type": 3,
+            "count": 1,
+            "value": 32
+          },
+          "259": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "277": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "339": {
+            "type": 3,
+            "count": 1,
+            "value": 3
+          }
+        },
+        "bytes_read": 134
+      },
+      "head_probes": [
+        {
+          "segment_id": "20251028220955",
+          "kind": "mesh_x",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/mesh/20251028220955-on-20250521135224-8.64um.tifxyz/x.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:10:10 GMT",
+            "etag": "\"ebf0444753383a0ec462e2e4cd42d0fd\"",
+            "accept-ranges": "bytes",
+            "content-type": "image/tiff",
+            "content-length": "44234"
+          }
+        },
+        {
+          "segment_id": "20251028220955",
+          "kind": "mesh_y",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/mesh/20251028220955-on-20250521135224-8.64um.tifxyz/y.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:10:11 GMT",
+            "etag": "\"9ad259be0fab64a580a83aea56b23515\"",
+            "accept-ranges": "bytes",
+            "content-type": "image/tiff",
+            "content-length": "44234"
+          }
+        },
+        {
+          "segment_id": "20251028220955",
+          "kind": "mesh_z",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/mesh/20251028220955-on-20250521135224-8.64um.tifxyz/z.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:10:12 GMT",
+            "etag": "\"66133d5b0c58f5bef9cdd73660e0217e\"",
+            "accept-ranges": "bytes",
+            "content-length": "44234",
+            "content-type": "image/tiff"
+          }
+        },
+        {
+          "segment_id": "20251028220955",
+          "kind": "native_center_chunk",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/8/8",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:12:41 GMT",
+            "etag": "\"d325dd7f0605445d9bd9959515ef98c7\"",
+            "accept-ranges": "bytes",
+            "content-length": "507904",
+            "content-type": "binary/octet-stream"
+          }
+        }
+      ],
+      "logical_native_bytes": 136710000
+    },
+    {
+      "segment_id": "20251028222030",
+      "long_id": "20251028222030-auto_grown_20251028222030940",
+      "surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+      "mesh_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz/",
+      "surface_target_volume": "20250521135224",
+      "mesh_target_volume": "20250521135224",
+      "native_surface_metadata": {
+        "segment_id": "20251028222030",
+        "kind": "surface_0/.zarray",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:12 GMT",
+          "etag": "\"9dcd5560c9cc05b19ca849ea4427fd5e\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "204"
+        },
+        "wire_bytes": 204,
+        "sha256": "e7d03a00d38bde138994e2d238a1b846735812b338d8f334277676cde9a8b423",
+        "metadata": {
+          "zarr_format": 2,
+          "shape": [
+            31,
+            2580,
+            2580
+          ],
+          "chunks": [
+            31,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "compressor": null,
+          "fill_value": 0,
+          "order": "C",
+          "filters": null,
+          "dimension_separator": "/"
+        }
+      },
+      "surface_attributes": {
+        "segment_id": "20251028222030",
+        "kind": "surface_.zattrs",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:12 GMT",
+          "etag": "\"06d376f8cbf00fe12ddbda233bf4fce6\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "3464"
+        },
+        "wire_bytes": 3464,
+        "sha256": "4b2e6c71817ab030baf0ae55dad10420586293f367e5d26a12cecee168c46879",
+        "metadata": {
+          "canvas_size": [
+            2580,
+            2580
+          ],
+          "chunk_size": [
+            31,
+            128,
+            128
+          ],
+          "multiscales": [
+            {
+              "axes": [
+                {
+                  "name": "z",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "y",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "x",
+                  "type": "space",
+                  "unit": "micrometer"
+                }
+              ],
+              "datasets": [
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        8.64,
+                        8.64
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "0"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        17.28,
+                        17.28
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "1"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        34.56,
+                        34.56
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "2"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        69.12,
+                        69.12
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "3"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        138.24,
+                        138.24
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "4"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        276.48,
+                        276.48
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "5"
+                }
+              ],
+              "metadata": {
+                "downsampling_method": "mean"
+              },
+              "name": "render",
+              "version": "0.4"
+            }
+          ],
+          "note_axes_order": "ZYX (slice, row, col)",
+          "num_slices": 31,
+          "slice_step": 1.0,
+          "source_group": 0,
+          "source_zarr": "/volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/"
+        }
+      },
+      "transformed_mesh_metadata": {
+        "segment_id": "20251028222030",
+        "kind": "mesh_meta",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz/meta.json",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:09:39 GMT",
+          "etag": "\"c3f540a28db915952d3e0a97e79af49c\"",
+          "content-type": "application/json",
+          "content-length": "289"
+        },
+        "wire_bytes": 289,
+        "sha256": "f7c101ec939bc37cc888e3c4990e85cac4fbfebeba51b2c18b0ded523b1138ef",
+        "metadata": {
+          "bbox": [
+            [
+              2926.172607421875,
+              5152.0693359375,
+              10860.3330078125
+            ],
+            [
+              4423.8154296875,
+              7032.79833984375,
+              13188.8330078125
+            ]
+          ],
+          "format": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "type": "seg",
+          "uuid": "output_tifxyz"
+        }
+      },
+      "mesh_x_shape_yx": [
+        129,
+        129
+      ],
+      "mesh_x_header_probe": {
+        "segment_id": "20251028222030",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz/x.tif",
+        "kind": "mesh_x_tiff_dimensions",
+        "ifd_offset": 66572,
+        "status": 206,
+        "content_range": "bytes 66572-66697/66698",
+        "tiff_tags": {
+          "256": {
+            "type": 3,
+            "count": 1,
+            "value": 129
+          },
+          "257": {
+            "type": 3,
+            "count": 1,
+            "value": 129
+          },
+          "258": {
+            "type": 3,
+            "count": 1,
+            "value": 32
+          },
+          "259": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "277": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "339": {
+            "type": 3,
+            "count": 1,
+            "value": 3
+          }
+        },
+        "bytes_read": 134
+      },
+      "head_probes": [
+        {
+          "segment_id": "20251028222030",
+          "kind": "mesh_x",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz/x.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:40 GMT",
+            "etag": "\"c3619756102c550ba3372ac5aa7b9d31\"",
+            "accept-ranges": "bytes",
+            "content-type": "image/tiff",
+            "content-length": "66698"
+          }
+        },
+        {
+          "segment_id": "20251028222030",
+          "kind": "mesh_y",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz/y.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:41 GMT",
+            "etag": "\"f7adca5cf6f8291251bff330755fbff7\"",
+            "accept-ranges": "bytes",
+            "content-length": "66698",
+            "content-type": "image/tiff"
+          }
+        },
+        {
+          "segment_id": "20251028222030",
+          "kind": "mesh_z",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz/z.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:43 GMT",
+            "etag": "\"a05468591f50e1110607886658f09912\"",
+            "accept-ranges": "bytes",
+            "content-length": "66698",
+            "content-type": "image/tiff"
+          }
+        },
+        {
+          "segment_id": "20251028222030",
+          "kind": "native_center_chunk",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/10/10",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:12:12 GMT",
+            "etag": "\"e75f0b4965683b666a7de039ebf2eb3c\"",
+            "accept-ranges": "bytes",
+            "content-length": "507904",
+            "content-type": "binary/octet-stream"
+          }
+        }
+      ],
+      "logical_native_bytes": 206348400
+    },
+    {
+      "segment_id": "20251028225813",
+      "long_id": "20251028225813-auto_grown_20251028225813045",
+      "surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+      "mesh_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz/",
+      "surface_target_volume": "20250521135224",
+      "mesh_target_volume": "20250521135224",
+      "native_surface_metadata": {
+        "segment_id": "20251028225813",
+        "kind": "surface_0/.zarray",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:12 GMT",
+          "etag": "\"2dac495aab9a3bab0d072a9104ee1654\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "204"
+        },
+        "wire_bytes": 204,
+        "sha256": "57b9680d3df5cb714ed31b58b75a6c279a99beded15bf994963970db2b97b345",
+        "metadata": {
+          "zarr_format": 2,
+          "shape": [
+            31,
+            2300,
+            2260
+          ],
+          "chunks": [
+            31,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "compressor": null,
+          "fill_value": 0,
+          "order": "C",
+          "filters": null,
+          "dimension_separator": "/"
+        }
+      },
+      "surface_attributes": {
+        "segment_id": "20251028225813",
+        "kind": "surface_.zattrs",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:12 GMT",
+          "etag": "\"68fd35fdded4553f5c2498eb74002e32\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "3464"
+        },
+        "wire_bytes": 3464,
+        "sha256": "a14b455e6e12a21e15bab5e6b2dbcb98b32b7963ae8abb3f10538f95b3071bf3",
+        "metadata": {
+          "canvas_size": [
+            2260,
+            2300
+          ],
+          "chunk_size": [
+            31,
+            128,
+            128
+          ],
+          "multiscales": [
+            {
+              "axes": [
+                {
+                  "name": "z",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "y",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "x",
+                  "type": "space",
+                  "unit": "micrometer"
+                }
+              ],
+              "datasets": [
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        8.64,
+                        8.64
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "0"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        17.28,
+                        17.28
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "1"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        34.56,
+                        34.56
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "2"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        69.12,
+                        69.12
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "3"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        138.24,
+                        138.24
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "4"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        276.48,
+                        276.48
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "5"
+                }
+              ],
+              "metadata": {
+                "downsampling_method": "mean"
+              },
+              "name": "render",
+              "version": "0.4"
+            }
+          ],
+          "note_axes_order": "ZYX (slice, row, col)",
+          "num_slices": 31,
+          "slice_step": 1.0,
+          "source_group": 0,
+          "source_zarr": "/volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/"
+        }
+      },
+      "transformed_mesh_metadata": {
+        "segment_id": "20251028225813",
+        "kind": "mesh_meta",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz/meta.json",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:10:07 GMT",
+          "etag": "\"4cb9288255be73cef2ae5c5b536e87d0\"",
+          "content-type": "application/json",
+          "content-length": "285"
+        },
+        "wire_bytes": 285,
+        "sha256": "09580efea0064ad67c8a7fa272c55e9bde069cc613ff11ffeb11b0597e978f66",
+        "metadata": {
+          "bbox": [
+            [
+              2891.698974609375,
+              5364.5576171875,
+              11106.2578125
+            ],
+            [
+              4252.9833984375,
+              6975.5068359375,
+              13243.2177734375
+            ]
+          ],
+          "format": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "type": "seg",
+          "uuid": "output_tifxyz"
+        }
+      },
+      "mesh_x_shape_yx": [
+        115,
+        113
+      ],
+      "mesh_x_header_probe": {
+        "segment_id": "20251028225813",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz/x.tif",
+        "kind": "mesh_x_tiff_dimensions",
+        "ifd_offset": 51988,
+        "status": 206,
+        "content_range": "bytes 51988-52113/52114",
+        "tiff_tags": {
+          "256": {
+            "type": 3,
+            "count": 1,
+            "value": 113
+          },
+          "257": {
+            "type": 3,
+            "count": 1,
+            "value": 115
+          },
+          "258": {
+            "type": 3,
+            "count": 1,
+            "value": 32
+          },
+          "259": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "277": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "339": {
+            "type": 3,
+            "count": 1,
+            "value": 3
+          }
+        },
+        "bytes_read": 134
+      },
+      "head_probes": [
+        {
+          "segment_id": "20251028225813",
+          "kind": "mesh_x",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz/x.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:10:08 GMT",
+            "etag": "\"23adb54d75bdc6573db2e81c7eb004e4\"",
+            "accept-ranges": "bytes",
+            "content-type": "image/tiff",
+            "content-length": "52114"
+          }
+        },
+        {
+          "segment_id": "20251028225813",
+          "kind": "mesh_y",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz/y.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:10:09 GMT",
+            "etag": "\"a85e3cf0c9ea30c9b3f94308bf37b6b7\"",
+            "accept-ranges": "bytes",
+            "content-type": "image/tiff",
+            "content-length": "52114"
+          }
+        },
+        {
+          "segment_id": "20251028225813",
+          "kind": "mesh_z",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz/z.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:10:11 GMT",
+            "etag": "\"e68b4899ed74ef762a5a53c663d2c2bc\"",
+            "accept-ranges": "bytes",
+            "content-length": "52114",
+            "content-type": "image/tiff"
+          }
+        },
+        {
+          "segment_id": "20251028225813",
+          "kind": "native_center_chunk",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/8/8",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:12:13 GMT",
+            "etag": "\"4ecff52509ee1fb06bc83df6b6db220c\"",
+            "accept-ranges": "bytes",
+            "content-length": "507904",
+            "content-type": "binary/octet-stream"
+          }
+        }
+      ],
+      "logical_native_bytes": 161138000
+    },
+    {
+      "segment_id": "20251029010146",
+      "long_id": "20251029010146-auto_grown_20251029010146642",
+      "surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+      "mesh_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz/",
+      "surface_target_volume": "20250521135224",
+      "mesh_target_volume": "20250521135224",
+      "native_surface_metadata": {
+        "segment_id": "20251029010146",
+        "kind": "surface_0/.zarray",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+        "status": 200,
+        "headers": {
+          "content-length": "202",
+          "last-modified": "Mon, 07 Sep 2026 09:12:13 GMT",
+          "etag": "\"e2bfaf58010150c00c8496a5f17a72d7\"",
+          "content-type": "binary/octet-stream"
+        },
+        "wire_bytes": 202,
+        "sha256": "e1ca99979c50aacc35b29a4de165bcf5a364c5a9c634a5c4264b80de20e2affc",
+        "metadata": {
+          "zarr_format": 2,
+          "shape": [
+            31,
+            980,
+            980
+          ],
+          "chunks": [
+            31,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "compressor": null,
+          "fill_value": 0,
+          "order": "C",
+          "filters": null,
+          "dimension_separator": "/"
+        }
+      },
+      "surface_attributes": {
+        "segment_id": "20251029010146",
+        "kind": "surface_.zattrs",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:12:13 GMT",
+          "etag": "\"c7dbe12bbe741284eb1d2d4df85af3d8\"",
+          "content-type": "binary/octet-stream",
+          "content-length": "3462"
+        },
+        "wire_bytes": 3462,
+        "sha256": "5f15caad0c53b2164405f3792ee7eda3b69a1f6b002976cb54f621a3c7ccc8dc",
+        "metadata": {
+          "canvas_size": [
+            980,
+            980
+          ],
+          "chunk_size": [
+            31,
+            128,
+            128
+          ],
+          "multiscales": [
+            {
+              "axes": [
+                {
+                  "name": "z",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "y",
+                  "type": "space",
+                  "unit": "micrometer"
+                },
+                {
+                  "name": "x",
+                  "type": "space",
+                  "unit": "micrometer"
+                }
+              ],
+              "datasets": [
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        8.64,
+                        8.64
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "0"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        17.28,
+                        17.28
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "1"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        34.56,
+                        34.56
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "2"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        69.12,
+                        69.12
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "3"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        138.24,
+                        138.24
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "4"
+                },
+                {
+                  "coordinateTransformations": [
+                    {
+                      "scale": [
+                        8.64,
+                        276.48,
+                        276.48
+                      ],
+                      "type": "scale"
+                    },
+                    {
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "type": "translation"
+                    }
+                  ],
+                  "path": "5"
+                }
+              ],
+              "metadata": {
+                "downsampling_method": "mean"
+              },
+              "name": "render",
+              "version": "0.4"
+            }
+          ],
+          "note_axes_order": "ZYX (slice, row, col)",
+          "num_slices": 31,
+          "slice_step": 1.0,
+          "source_group": 0,
+          "source_zarr": "/volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/"
+        }
+      },
+      "transformed_mesh_metadata": {
+        "segment_id": "20251029010146",
+        "kind": "mesh_meta",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz/meta.json",
+        "status": 200,
+        "headers": {
+          "last-modified": "Mon, 07 Sep 2026 09:09:45 GMT",
+          "etag": "\"98868cf35aaaee9f30ffdc08096031b1\"",
+          "content-type": "application/json",
+          "content-length": "283"
+        },
+        "wire_bytes": 283,
+        "sha256": "ebdbef59fd5dd1dbe581b06e1cb8dc918ef5a544fe24fa446be078a3802f5dbd",
+        "metadata": {
+          "bbox": [
+            [
+              3089.978515625,
+              5907.083984375,
+              11617.8837890625
+            ],
+            [
+              3703.01904296875,
+              6614.24560546875,
+              12497.9765625
+            ]
+          ],
+          "format": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "type": "seg",
+          "uuid": "output_tifxyz"
+        }
+      },
+      "mesh_x_shape_yx": [
+        49,
+        49
+      ],
+      "mesh_x_header_probe": {
+        "segment_id": "20251029010146",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz/x.tif",
+        "kind": "mesh_x_tiff_dimensions",
+        "ifd_offset": 9612,
+        "status": 206,
+        "content_range": "bytes 9612-9737/9738",
+        "tiff_tags": {
+          "256": {
+            "type": 3,
+            "count": 1,
+            "value": 49
+          },
+          "257": {
+            "type": 3,
+            "count": 1,
+            "value": 49
+          },
+          "258": {
+            "type": 3,
+            "count": 1,
+            "value": 32
+          },
+          "259": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "277": {
+            "type": 3,
+            "count": 1,
+            "value": 1
+          },
+          "339": {
+            "type": 3,
+            "count": 1,
+            "value": 3
+          }
+        },
+        "bytes_read": 134
+      },
+      "head_probes": [
+        {
+          "segment_id": "20251029010146",
+          "kind": "mesh_x",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz/x.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:46 GMT",
+            "etag": "\"0b8217bd8c887a9ffd04e9fd6608c5cc\"",
+            "accept-ranges": "bytes",
+            "content-length": "9738",
+            "content-type": "image/tiff"
+          }
+        },
+        {
+          "segment_id": "20251029010146",
+          "kind": "mesh_y",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz/y.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:47 GMT",
+            "etag": "\"9a9665735204239b230e77b6e64e235a\"",
+            "accept-ranges": "bytes",
+            "content-type": "image/tiff",
+            "content-length": "9738"
+          }
+        },
+        {
+          "segment_id": "20251029010146",
+          "kind": "mesh_z",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz/z.tif",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:09:48 GMT",
+            "etag": "\"92fd69ba4e9b7a8f9cc757d0b315b85b\"",
+            "accept-ranges": "bytes",
+            "content-type": "image/tiff",
+            "content-length": "9738"
+          }
+        },
+        {
+          "segment_id": "20251029010146",
+          "kind": "native_center_chunk",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/3",
+          "method": "HEAD",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:12:14 GMT",
+            "etag": "\"7ad7ccde4ce272c39dc81d77833a9be4\"",
+            "accept-ranges": "bytes",
+            "content-type": "binary/octet-stream",
+            "content-length": "507904"
+          }
+        },
+        {
+          "segment_id": "20251029010146",
+          "kind": "surface_3/.zarray",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/3/.zarray",
+          "method": "GET",
+          "status": 200,
+          "headers": {
+            "last-modified": "Mon, 07 Sep 2026 09:12:14 GMT",
+            "etag": "\"29f68d274a88bd04c5ff34138d9d5887\"",
+            "accept-ranges": "bytes",
+            "content-type": "binary/octet-stream",
+            "content-length": "202"
+          },
+          "metadata": {
+            "zarr_format": 2,
+            "shape": [
+              31,
+              123,
+              123
+            ],
+            "chunks": [
+              31,
+              123,
+              123
+            ],
+            "dtype": "|u1",
+            "compressor": null,
+            "fill_value": 0,
+            "order": "C",
+            "filters": null,
+            "dimension_separator": "/"
+          }
+        }
+      ],
+      "logical_native_bytes": 29772400
+    }
+  ],
+  "volume_metadata": [
+    {
+      "segment_id": "volume",
+      "kind": "volume_.zattrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/.zattrs",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "last-modified": "Tue, 27 Jan 2026 09:51:55 GMT",
+        "etag": "\"c792decadf526e26820c786d48dcddf0\"",
+        "accept-ranges": "bytes",
+        "content-type": "binary/octet-stream",
+        "content-length": "3018"
+      },
+      "metadata": {
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space"
+              },
+              {
+                "name": "y",
+                "type": "space"
+              },
+              {
+                "name": "x",
+                "type": "space"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      2.0,
+                      2.0,
+                      2.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      4.0,
+                      4.0,
+                      4.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.0,
+                      8.0,
+                      8.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      16.0,
+                      16.0,
+                      16.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      32.0,
+                      32.0,
+                      32.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "name": "/",
+            "version": "0.4"
+          }
+        ]
+      }
+    },
+    {
+      "segment_id": "volume",
+      "kind": "volume_0/.zarray",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/0/.zarray",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "last-modified": "Tue, 27 Jan 2026 09:51:55 GMT",
+        "etag": "\"8c5d4ee5dde890bcc735ef7ce7329eaa\"",
+        "accept-ranges": "bytes",
+        "content-type": "binary/octet-stream",
+        "content-length": "239"
+      },
+      "metadata": {
+        "shape": [
+          24298,
+          9867,
+          9867
+        ],
+        "chunks": [
+          128,
+          128,
+          128
+        ],
+        "fill_value": 0,
+        "order": "C",
+        "filters": null,
+        "dimension_separator": "/",
+        "compressor": null,
+        "zarr_format": 2,
+        "dtype": "|u1"
+      }
+    }
+  ],
+  "small_segment_coarse_metadata": [
+    {
+      "segment_id": "20251029010146",
+      "kind": "surface_3/.zarray",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/3/.zarray",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "last-modified": "Mon, 07 Sep 2026 09:12:14 GMT",
+        "etag": "\"29f68d274a88bd04c5ff34138d9d5887\"",
+        "accept-ranges": "bytes",
+        "content-type": "binary/octet-stream",
+        "content-length": "202"
+      },
+      "metadata": {
+        "zarr_format": 2,
+        "shape": [
+          31,
+          123,
+          123
+        ],
+        "chunks": [
+          31,
+          123,
+          123
+        ],
+        "dtype": "|u1",
+        "compressor": null,
+        "fill_value": 0,
+        "order": "C",
+        "filters": null,
+        "dimension_separator": "/"
+      }
+    }
+  ],
+  "extra_head_probes": [
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/3/0/0/0",
+      "status": 200,
+      "kind": "3/0/0/0",
+      "headers": {
+        "last-modified": "Mon, 07 Sep 2026 09:12:13 GMT",
+        "etag": "\"818d509d4e62e1fdcf6eba34df2ebbf9\"",
+        "content-type": "binary/octet-stream",
+        "content-length": "468999"
+      }
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zgroup",
+      "status": 200,
+      "kind": ".zgroup",
+      "headers": {
+        "last-modified": "Mon, 07 Sep 2026 09:12:13 GMT",
+        "etag": "\"f4fb82a0cd013b6fc098d426d09aa67b\"",
+        "content-type": "binary/octet-stream",
+        "content-length": "19"
+      }
+    }
+  ],
+  "recommended_first_roi": {
+    "segment_id": "20251029010146",
+    "surface_level": 0,
+    "roi_zyx": [
+      [
+        0,
+        31
+      ],
+      [
+        384,
+        512
+      ],
+      [
+        384,
+        512
+      ]
+    ],
+    "native_center_chunk_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/3",
+    "chunk_wire_bytes": 507904,
+    "depth_index_for_initial_inspection": 15,
+    "nominal_planar_extent_mm": [
+      1.10592,
+      1.10592
+    ],
+    "mesh_coordinate_file_urls": [
+      "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz/x.tif",
+      "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz/y.tif",
+      "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz/z.tif"
+    ],
+    "mesh_coordinate_file_total_bytes": 29214,
+    "coarse_overview_chunk_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251029010146-auto_grown_20251029010146642/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/3/0/0/0",
+    "coarse_overview_shape_zyx": [
+      31,
+      123,
+      123
+    ],
+    "coarse_overview_wire_bytes": 468999,
+    "interpretation": "Read and inspect papyrus geometry only; center has not been checked for valid mesh or visible fibers and no ink/text inference has been made."
+  }
+}

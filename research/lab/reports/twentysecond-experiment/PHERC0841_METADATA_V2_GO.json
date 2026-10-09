@@ -1,0 +1,24 @@
+{
+  "absolute_seconds_per_request": 30,
+  "automatic_retries": 0,
+  "created_at_utc": "2026-10-09T05:11:51.428625+00:00",
+  "external_wall_seconds": 210,
+  "max_attempts_both_revisions": 7,
+  "max_attempts_this_revision": 6,
+  "max_body_bytes_both_revisions": 294912,
+  "prior_attempt": {
+    "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-metadata/retention-manifest.json",
+    "sha256": "19b71304ca855785fe8c11929c067aa50cc7b40b6fb43bea9d49689ead30f1a8",
+    "size_bytes": 3279
+  },
+  "proposal": {
+    "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-inventory/METADATA_QUERY_PROPOSAL.json",
+    "sha256": "6087fb9c5e82b5418d6113fa17575d58d865cedc7d8b0a1ec76e3829c492201a",
+    "size_bytes": 4838
+  },
+  "reason": "V1 disabled the existing configured HTTPS proxy. Root authorizes one revised attempt using supported default proxy transport after34 frozen fixture checks; v1 remains immutable. Underlying v1 URLError cause was not recorded.",
+  "redirects": 0,
+  "scope": "Exactly the six frozen public metadata requests; no arrays or model outputs",
+  "source_freeze_sha256": "e62850af8e3cfa74d2ff52b445e67485755b320b8eca0ae857cd800ffec63f7a",
+  "status": "GO"
+}

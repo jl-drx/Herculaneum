@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "kind": "frozen-geometry-only-methodology",
+  "frozen_at_utc": "2026-10-08T10:53:06.282740+00:00",
+  "sample_id": "PHerc0800",
+  "target_volume_id": "20250521135224",
+  "selector_sha256": "a56235b71382c4ece05b01482b9e7b856e10555f01ef489c578874eecd874033",
+  "geometry_selection_path": "/workspace/herculaneum-lab/reports/third-experiment/geometry-selection.json",
+  "source_records_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/source-records.json",
+  "frozen_metadata_inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/third-experiment/geometry-selection.json",
+      "sha256": "1a2e44b6b11321aa49ccce0a2effcffd65d757c6c333733d1ba8ae024e2d7ff4",
+      "size_bytes": 2349048
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/source-records.json",
+      "sha256": "2e5b38fdaa59dc4f93f7bde2b7f20d05d0f82845263a2881da2486f6e0322175",
+      "size_bytes": 43393
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface-geometry/full-surface-geometry-summary.json",
+      "sha256": "c9d791aa64c499fdd03edface7252bd0b3c8f51ac30a88b64d6e216232ce818d",
+      "size_bytes": 5658
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface980/provenance.json",
+      "sha256": "b939d230a906341a1ce678957db62b379ddcdf45f723e54ca5b0f7d2007b8e58",
+      "size_bytes": 56969
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger1536/provenance.json",
+      "sha256": "537f42b286d37bd98c889fa8196fdceee10b714f79a69e2f321513b5a87feb49",
+      "size_bytes": 145766
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/inference-plan.json",
+      "sha256": "f0bfd83b50246af1077d61ea38a23e4eb9ed307e6edf59ac121442198871f725",
+      "size_bytes": 2687
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/acquire_screen.py",
+      "sha256": "5fbbba95107b3c06b5945b8c52ae3768248313ee0683d94643a8bdecca9a5374",
+      "size_bytes": 9296
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/run_screen.py",
+      "sha256": "62ef69ea385e517929cadabd5081d8c261ac99304ea5a6814290fd386c6e56bc",
+      "size_bytes": 3860
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028213516/source-render-export-metadata.json",
+      "sha256": "8a9fe2be7c1e1601f53316d2de98fc0af383139d0b7bf64ee4951052e0be7591",
+      "size_bytes": 3680
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220042/source-render-export-metadata.json",
+      "sha256": "21779996818f0b66ab518e1febf667755b762b8d925e19d639237592c2b1aae0",
+      "size_bytes": 3680
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/source-render-export-metadata.json",
+      "sha256": "5b09b36149f71d379415fc526162d70fd2612b5f720a6e9e26abb1f33b863e84",
+      "size_bytes": 3680
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/source-render-export-metadata.json",
+      "sha256": "76bbb4802040b281559b16c51a17b23bfc7b5682ed3da7ff0a3b2627b961fd9b",
+      "size_bytes": 3680
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028225813/source-render-export-metadata.json",
+      "sha256": "5d2e61d9de648fb7e6a99d448c1c8a28e809157ded0627b85709e0b7fede514c",
+      "size_bytes": 3680
+    }
+  ],
+  "candidate_segments": [
+    "20251028213516",
+    "20251028220042",
+    "20251028220955",
+    "20251028222030",
+    "20251028225813"
+  ],
+  "crop_size_yx": [
+    384,
+    384
+  ],
+  "chunk_alignment_pixels": 128,
+  "origins": "Enumerate native X/Y origins from zero at multiples of128, fitting the original canvas; no padding.",
+  "fully_valid_geometry_required": true,
+  "same_source_exclusion": "Exclude any positive-area overlap with acquired extents on the same target volume/segment. Prior980 covers[0,0,980,980]; prior1536 covers[512,512,1536,1536]; derivative crops are subsets.",
+  "prior_tree": "All geometry-valid acquired native CT XYZ centers from both full retained acquisition extents, without intensity/evaluated-mask filtering, subsampling or duplicate removal.",
+  "coordinate_metric": "Euclidean distance in common native CT voxel XYZ coordinates; float32 retained coordinates cast exactly to float64; cKDTree k1 p2 eps0 workers4.",
+  "candidate_score": "Minimum over ALL384x384 centers of their exact nearest distance to ALL prior acquired geometry-valid centers.",
+  "minimum_nearest_base_coordinate_distance_voxels_strictly_greater_than": 40.0,
+  "ranking": [
+    "Maximum minimum nearest prior base-CT distance",
+    "Segment ID ascending",
+    "Source Y ascending",
+    "Source X ascending"
+  ],
+  "query_reuse": "Query each unique pixel in the union of eligible crop footprints once, then reduce each entire crop. Equivalent to querying every crop independently; no approximate query or shortlist.",
+  "stop_if_no_candidate_passes": true,
+  "threshold_relaxation_permitted": false,
+  "selection_does_not_use": [
+    "Source intensities",
+    "Observed detector maps",
+    "Model scores",
+    "Text labels or readings"
+  ],
+  "diagnostics_not_selection_filters": [
+    "Selected horizontal/vertical neighboring XYZ jump quantiles and maxima",
+    "Finite-difference tangent cross-product norm and degeneracy <=1e-8 native voxel squared",
+    "Euclidean distance to invalid original-global geometry, padded with one invalid border"
+  ],
+  "renderer_normals_reconstructed": false,
+  "predeclared_model_controls": {
+    "input_shape_zyx": [
+      31,
+      384,
+      384
+    ],
+    "patch_shape_zyx": [
+      17,
+      128,
+      128
+    ],
+    "stride_yx": [
+      64,
+      64
+    ],
+    "threads": 4,
+    "max_scheduled_checkpoint_tiles": 125,
+    "conditions": [
+      {
+        "name": "center-forward",
+        "seeds": [
+          42,
+          43
+        ],
+        "layers_start_stop": [
+          7,
+          24
+        ],
+        "direction": "forward"
+      },
+      {
+        "name": "minus2-forward",
+        "seeds": [
+          42
+        ],
+        "layers_start_stop": [
+          5,
+          22
+        ],
+        "direction": "forward"
+      },
+      {
+        "name": "plus2-forward",
+        "seeds": [
+          42
+        ],
+        "layers_start_stop": [
+          9,
+          26
+        ],
+        "direction": "forward"
+      },
+      {
+        "name": "center-reverse",
+        "seeds": [
+          42
+        ],
+        "layers_start_stop": [
+          7,
+          24
+        ],
+        "direction": "reverse"
+      }
+    ],
+    "analysis": "Report full common support and64-pixel crop interior margins; intersect valid/evaluated/observed support across compared windows. Any midpoint summaries are score behavior only."
+  },
+  "acquisition_contract": {
+    "new_remote_reads_here": 0,
+    "maximum_all_remote_payload_and_metadata_bytes": 6291456,
+    "automatic_retries": 0,
+    "performed_by_root_after_independent_review": true
+  },
+  "limitations": [
+    "Base-coordinate separation >40 voxels is a conservative descriptive diagnostic; it does not establish independent physical papyrus layers or observations.",
+    "Through-depth support overlap remains unresolved without exact renderer normals, sample profiles and interpolation/accumulation support reconstruction.",
+    "Coordinate geometry validity does not authenticate papyrus, recto placement, source data coverage or ink.",
+    "384 pixels span3.31776mm nominally and cannot establish text-line context.",
+    "No target labels, accuracy, transcription or translation are established."
+  ]
+}

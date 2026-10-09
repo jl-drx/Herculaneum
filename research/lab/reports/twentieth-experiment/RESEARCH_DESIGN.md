@@ -1,0 +1,59 @@
+# Plinius phase 20: matched depth-feature fusion study
+
+This protocol is fixed before new scientific model execution. The user authorized the study in phase 19's NEXT_STUDY_DESIGN.md. All first-nineteenth evidence and tracked repository files remain immutable. This is a bounded CPU DEVELOPMENT experiment, not independent confirmation. GPU spend is GBP 0 and the first paid pilot retains its GBP 10 TOTAL cap. No model publication, uploads, outreach, new terms or credential action is included.
+
+The phase 19 retention anchor `4933ed5fd41e9c6deddbc45af9319027c4c790a8183790474a6c12274e359d65` passed verification before this work: 17,115 records, 5,625,891,960 bytes, no failures.
+
+## Question and matched intervention
+
+Does the explicit nominal-depth/axial-change feature bundle improve adaptation relative to raw neighboring slices when its residual enters seed42's 32-channel fusion representation before the frozen 2D U-Net? Phase 18's output-only residual failed its improvement screen. The existing backbone already has 3D filters and learned depth attention; this is a controlled representation experiment, not a claim to introduce depth awareness or frontier performance.
+
+Use the exact phase 19 adapter source, independently reviewed and exercised on synthetic inputs. Both arms have 5,296 trainable parameters: Conv3d(3→8, kernel 3, padding 1, bias), LeakyReLU(0.01), concatenate depth mean/max, then Conv2d(16→32, kernel 3, padding 1, bias). Final projection weights and biases are exactly zero at initialization. Both initial tensors must match from the forked CPU RNG seed 20261008. No phase 18 or synthetic-smoke learned state is reused.
+
+For the same normalized FP32 X with shape B×1×17×128×128, raw-control features are previous/center/next planes, clamping missing endpoint neighbors. Explicit-depth features are center intensity, D and r: centered interior difference `(X[j+1]−X[j−1])/2`, full one-sided differences at 0 and 16, and `(j−8)/8`. Form them after the unchanged XY augmentations. No depth reversal, shift, additional planes, window search, resampling or new normalization is introduced. Coordinates and derivatives form one jointly changed bundle. The coordinate is a nominal stack index, not physical ink depth or authenticated normal direction.
+
+Compute F = original depth_fusion(X) with the original stem frozen under no_grad, preserving ordinary detached tensors. The adapted logits are original U-Net(F + adapter(features(X))). Keep every original parameter frozen and every module in eval mode. The U-Net must retain autograd with respect to its input; only the original stem is outside that graph. All original parameters and buffers must remain bitwise unchanged, with no parameter gradients or optimizer membership. Decoder input-gradient backwards are real new computation and must not be reported as zero backbone execution. Loss support applies to output-logit gradients, not the receptive-field support of hidden-feature gradients.
+
+Within this experiment capacity and initialization are matched. Against phase 18, both insertion and capacity change; no cross-phase causal claim isolates either. No intermediate checkpoint, learning rate or metric is selected from outcomes.
+
+## Fixed training data and reference binding
+
+Reuse the exact two PHerc0139 contexts, literal manual masks/hard targets and 32 ordered batch-two 128×128 patches with retained D4 transforms from phase 18's pinned schedule. Input planes remain [2:19] from the retained 21-plane surfaces, with the established robust whole-patch normalization. Every input, target and mask fingerprint must match the prior plans. Manual participation excludes retired validation. Historical pseudo arrays may be read only for exact historical combined-batch identity, never for targets, loss, teacher construction or gradients.
+
+Use the original strict seed42 checkpoint at revision `7109667e2607db1b90c37c8b09cb876ea7fe7bb1`, SHA256 `e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab`, via the existing safe loader. Its 34,546,498 unique parameters are frozen. There is no configured pretrained backbone in its embedded recipe. The three reserved candidate parents are absent from its 29 declared representations; original annotation/teacher ancestry remains unresolved. Neither clean upstream independence nor contamination is inferred.
+
+Before any optimizer update in each arm, run the original model on all 32 scheduled inputs and require exact FP32 bit identity with their pinned cached seed42 teacher logits. Capture each original fused tensor during that same full-model call. Run the zero adapter through the frozen U-Net for all 32 batches and require exact initial identity with the original/reference logits. Record input/state/mode/dtype/shape/cache hashes. A mismatch is a preserved STOP requiring diagnosis, not permission to relax comparison or replace cached predictions. Both historical teacher caches must also match each other. Fused caches cannot be keyed only by batch number without source identities.
+
+Training geometry remains nominal 9.596 µm; the optical development preparation has nominal 9.72 µm spacing. These established contracts remain separate. Derived differences are per-index rather than per-micrometre. No anatomical surface placement is inferred.
+
+## Objective, updates and retained measurements
+
+Use exactly 32 updates per arm, batch size two. The objective is the phase 18 FP32 smoothed manual BCE (hard 0/1 → 0.25/0.75) plus unit-weight temperature-one FP64 KL(seed42 teacher || student), each reduced over the same manual pixels. Unsupported/pseudo-only outputs contribute exactly zero logit gradient. Preserve hard-label BCE and probability drift as secondary diagnostics.
+
+Use a fresh AdamW for only the adapter: learning rate 0.001, betas (0.9, 0.999), epsilon 1e-8, weight decay 0, foreach=False, fused=False; global gradient clipping at norm 1 with nonfinite failure. No scheduler, seed sweep, rate sweep or metric-based early stop.
+
+Retain pre-update and immediate post-update logits at every step, and all 32 scheduled-batch logits at completed updates 1, 8, 16 and 32. Equal-batch risk uses math.fsum and preserves repeated/overlapping exposures; it is empirical training risk, not a population estimate. Current-batch fixed measurement must exactly reproduce its immediate post-update output. No-grad measurements must preserve adapter/backbone/optimizer/gradient/mode/RNG state.
+
+Retain raw manual logit gradients and ordered 5,296-element parameter/gradient/first-moment/second-moment traces before and after all 32 updates, sufficient for independent loss-derivative, clipping and AdamW verification. Record fused-cache and feature-residual hashes/norms plus decoder-input gradient sentinels. Do not save every 32-channel residual or duplicate backbone checkpoint. One-channel `logit_differences`, if retained, mean saved student minus teacher; they are diagnostics, not an additive-output-residual implementation or proof of hidden computation.
+
+Save only each final adapter, with compact finite FP32 tensors and weights_only strict reload. Retain all failures and unfavorable outcomes; no best-iteration choice or implicit retry. The first hidden gradient is expected to be zero due to zero projection; projection gradients must be finite/nonzero and hidden gradients must become active after projection updates.
+
+Per training arm: 32 original full-model calls capture 32 fused caches, followed by 32 zero-adapter checks and 192 update/measurement forwards. Expected overlapping hook counts are full-model 32, original fusion 32, original U-Net 256, adapter 224; 32 backwards/updates, including 32 decoder input-gradient backwards. Full-model calls already contain their submodule calls and must not be summed as extra independent forwards. Retain exact observed counts and distinguish original parameter updates (zero).
+
+## Final development comparison
+
+After both training arms complete and independent training verification passes, evaluate BOTH final states on ALL six fixed Paris1/Paris2 contexts, even if training improvements fail the feature screen. Each has 25 retained tiles. Run original seed42 on every tile and verify exact binding to the retained baseline logits, then use the same captured fused features for the final adapter. Preserve raw adapted tile logits, exact inputs/placements, sigmoid/Hann probability blending, coverage and final maps. Expected per-arm counts: full-model 150, original fusion 150, original U-Net 300, adapter 150; no backwards or updates. Four isolated stage/arm workers each load the retained backbone once; final adapter reloads are separate from backbone loads.
+
+The original baseline remains the third reference. Use literal cutoff 0.7558947205543518 for every model; fit no new threshold. Report per-context AUROC/AP and cutoff metrics, equal-context fragment means, then equal-fragment Paris2 means. The two Paris1 contexts are reported separately. These six regions are reused DEVELOPMENT, not new holdouts. Paris2 and all aliases remain excluded from gradients, teacher inputs and cutoff fitting. No independent-pixel confidence interval or significance claim is appropriate.
+
+The unchanged 17-component practical screen requires: candidate base/full training improvements each ≥1e-4; final full risk at least 1e-4 below raw control; Paris2 macro AUROC and AP each at least 0.005 above raw control; and candidate AUROC/AP loss versus baseline no greater than 0.02 in each of six contexts. Report all components and boundary distances. Passing does not automatically promote a model or authorize GPU scaling. Compare with the original baseline explicitly so beating a damaged raw control is not mistaken for general improvement.
+
+## Execution and independent review
+
+Use /workspace/.venvs/herculaneum/bin/python, Python 3.12.14, NumPy 2.5.3, Torch 2.12.0+cpu, deterministic algorithms, four intraop and one interop thread. No installation or model-worker network access. Each training worker: 600 s wall / 1800 s CPU; each development worker: 300 s wall / 900 s CPU. All workers: 4 GiB RSS, 12 GiB address space. Sequential controller bounds: training 1380 s, development 660 s. New phase outputs, including both adapters/traces, must remain below 1 GiB. Failures are retained and diagnosed without automatic retry; any justified correction needs separate source/plan identity without changing scientific choices.
+
+Freeze code, input plans, runtime and configuration before execution. Root issues code/plan GO after independent technical review and synthetic fixtures. Independent numerical review uses separately implemented NumPy feature/data/loss/gradient/optimizer/blending/rank arithmetic and a pre-output numerical contract. It does not load checkpoints or replay training. Preserve phase 18 tolerances unless a different comparison is explicitly specified before new outputs. Convolutional autograd and hidden-feature-to-logit execution remain source-reviewed claims supplemented by pinned traces, not independently replayed proofs.
+
+In parallel, a separate Frag6 geometry task may prepare a bounded acquisition/verification plan using retained source metadata and at most eight public HEAD metadata requests. It reads no scientific payload bodies, labels or predictions and does not enter this experiment's inputs or decisions. PHerc0009B, PHerc0500P2 and all Frag6 parent/scan aliases remain reserved; no new scientific acquisition or confirmation claim is made.
+
+No text interpretation, translation, model promotion, GPU rental, external upload or prize submission is part of this execution. Preserve EduceLab/source attribution and use restrictions. Root owns scientific interpretation, additive evidence retention and startup configuration. Saved drafts are not publication, external backup or verified fresh-task restoration.

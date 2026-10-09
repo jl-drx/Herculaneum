@@ -1,0 +1,13 @@
+# Offline production pooling technical review
+
+GO for the exact sealed package bound by code-go.json. The mathematical adapter and final provenance guards conform to the frozen production contract. This receipt does not claim that real CT reconstruction or inference has executed.
+
+The driver verifies the complete153-object/1530-batch inventory and hashes all encoded bodies before the first sample decode. Every object's TIFF is reconstructed from its own header/count/IFD using the pinned mixed-endian parser. The exact reviewed producer seal, ready metadata/pixel plan lineage, source/schema/benchmark pins, successful global request/terminal sets and each batch's terminal→request-config→transport→body/range/validator linkage are checked before decoding. The draft's hash-only terminal/plan checks and producer-seal field-name mismatch were corrected before freeze.
+
+Rows are routed by absolute native Y and exact source-byte span, with explicit per-file unsigned16 byte order, payload hashes and overlap/gap rejection. Values become native uint32 before a contiguous3×3×3 sum. The only floating conversion is float64 division by6939 followed by one native float32 cast. Depth groups07..09 through55..57 and the six fixed XY boxes are unchanged. Unknown or missing rows cannot become zero fill.
+
+The descriptor preserves literal fifteenth labels/masks and roles, and the sealed inference preprocessing contract. Network calls are disabled. All required producer plans/runs and pooling outputs are included in deduplicated storage accounting. Shared1500second epoch checks run before, during and after pooling; the separate120second wall/RSS/CPU/address-space/output limits remain. Result/descriptor bytes are staged, final actual storage/resource checks run, then the canonical descriptor is published last. Independent bitwise reconstruction PASS remains mandatory before inference readiness.
+
+Validation:19 independent NumPy/scalar synthetic cases PASS, including mixed byte orders within a depth triplet, shuffled physical rows, asymmetric axes, maximal samples, subinteger values and invalid input rejection. Final24 author provenance fixtures independently re-executed PASS, including wrong terminal/body/plan/validator, failed/missing/duplicate global receipts, missing storage roots and expired/nonfinite timing. The retained final author kernel receipt contains22 passing cases. Every final source/fixture record was verified against the sealed manifest; the independent kernel receipt binds the same kernel SHA. Earlier fixture-only setup failures remain preserved by the author.
+
+No real CT body/array, checkpoint, model or network operation was performed in this review. Root owns the completed-input execution and independent numeric verifier.

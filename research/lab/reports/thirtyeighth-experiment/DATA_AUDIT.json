@@ -1,0 +1,155 @@
+{
+  "accepted_bbox": [
+    3968,
+    1408,
+    256,
+    256
+  ],
+  "accepted_case": "pherc1667-w013",
+  "accepted_parent": "PHerc1667",
+  "annotation_ancestry": "manual-plus-iterative public reference; not authenticated human-only truth",
+  "cached_w029_rejected_no_supervision": true,
+  "created_at_utc": "2026-10-09T12:49:14.083804+00:00",
+  "inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/provenance.frozen.json",
+      "sha256": "8948f985b45ec369e90df6829774c63138407b6ea839826d462765d793e94067",
+      "size_bytes": 105068
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels.zattrs.json",
+      "sha256": "cb3cf48f7f288af5861554fad0c7de63bcb784edea2dcf4b0b6344edb2a4bd66",
+      "size_bytes": 1235
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/supervision.zattrs.json",
+      "sha256": "cb3cf48f7f288af5861554fad0c7de63bcb784edea2dcf4b0b6344edb2a4bd66",
+      "size_bytes": 1235
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels.level0.zarray.json",
+      "sha256": "5b1aa3ac9416ee2f3db51c06b85485139d9dea3f4a7c625ae7895fe3bed48fb2",
+      "size_bytes": 368
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/supervision.level0.zarray.json",
+      "sha256": "5b1aa3ac9416ee2f3db51c06b85485139d9dea3f4a7c625ae7895fe3bed48fb2",
+      "size_bytes": 368
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/surface.level2.zarray.json",
+      "sha256": "746b1818331ab29c1be9a84d121873338b061409194319973f2924a9748eb6c2",
+      "size_bytes": 232
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/surface.zattrs.json",
+      "sha256": "377f91ef8c5f43c66234e7699176698d34e0f945bccb47a88c916b115e408207",
+      "size_bytes": 3467
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/surface.npy",
+      "sha256": "47c741b4b2f12764c83ae34f98935e7b4cf93bad1f2dff0e4e78135cd374574c",
+      "size_bytes": 1376384
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels.npy",
+      "sha256": "b79711215419a724d61c8a075d8314f942ba886a5ef0ed1c230c8247842b1c61",
+      "size_bytes": 65664
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/supervision-mask.npy",
+      "sha256": "8876b9c90ac76ee46dee87c3a62d74aabeb413c986967499ad54694b58669d42",
+      "size_bytes": 65664
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/upstream-dataset-README.md",
+      "sha256": "c9a88ff970594fcef3788eb588bb75dbbd0e6436f4812f89074e26c0d9fef7a5",
+      "size_bytes": 10739
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/sixth-experiment/data-contract/selection-v2/supervision-mask.npy",
+      "sha256": "4b5c57251f3db11193a255076fa9f87cdd798eeb947864c7263ac25a754a81f1",
+      "size_bytes": 65664
+    }
+  ],
+  "label_decode_exact": true,
+  "network_requests": 0,
+  "new_model_forwards": 0,
+  "new_parent_negative": 39172,
+  "new_parent_positive": 26364,
+  "no_new_geometry_or_optical_registration_claim": true,
+  "per_cycle_negative": 387868,
+  "per_cycle_positive": 230340,
+  "raw_source_records": [
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/surface-chunk-0-11-31.bin",
+      "sha256": "8784c0fc8e641619b50a9e0baf09b8b231ccc97aea9f942b7f36ed2d6d891b1e",
+      "size_bytes": 1785769
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels-chunk-0-11-31.bin",
+      "sha256": "1f070c6e3cf61250486c32cc7ce2f4fcf255fb3c36c3443a8422dd8df015ac29",
+      "size_bytes": 297
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/supervision-chunk-0-11-31.bin",
+      "sha256": "5667b2d4b5d048ee5260be348b8c538796365cef3dd1934da1d8534d7a3d83d6",
+      "size_bytes": 86
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/surface-chunk-0-11-32.bin",
+      "sha256": "459e7eb880021b9aa3ae294cb0d8613d875069c148abdbd7739b14cb25b246c1",
+      "size_bytes": 1784272
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels-chunk-0-11-32.bin",
+      "sha256": "0336a3e1436ae5d6cd20513ef17ad9d1f1295833c5162435e8fee2bddee7c3fd",
+      "size_bytes": 113
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/supervision-chunk-0-11-32.bin",
+      "sha256": "5667b2d4b5d048ee5260be348b8c538796365cef3dd1934da1d8534d7a3d83d6",
+      "size_bytes": 86
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/surface-chunk-0-12-31.bin",
+      "sha256": "63db3e30b45f074209c3137d5db49a37029a7890f2784a02afd73f447017c169",
+      "size_bytes": 1779448
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels-chunk-0-12-31.bin",
+      "sha256": "fed89325a57dec6e95c4501cdce89361983285b2c7cc86420f47253908da215f",
+      "size_bytes": 221
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/supervision-chunk-0-12-31.bin",
+      "sha256": "5667b2d4b5d048ee5260be348b8c538796365cef3dd1934da1d8534d7a3d83d6",
+      "size_bytes": 86
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/surface-chunk-0-12-32.bin",
+      "sha256": "e6360912c3b9f4257e1d4366fb190d78396a2fd810e90fa1018b41147e701fff",
+      "size_bytes": 1770110
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels-chunk-0-12-32.bin",
+      "sha256": "e7b165f6d91df201cfb2ca301bc2750e4f0b553b1451f0cb782a291c88f0f371",
+      "size_bytes": 258
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/supervision-chunk-0-12-32.bin",
+      "sha256": "5667b2d4b5d048ee5260be348b8c538796365cef3dd1934da1d8534d7a3d83d6",
+      "size_bytes": 86
+    }
+  ],
+  "source_chunks_delivered": 4,
+  "source_pooling_exact": true,
+  "status": "PASS_OPERATIONAL_PUBLIC_REFERENCE_SUPERVISION",
+  "supervision_per_step_class_counts_matched": true,
+  "unique_manual_pixels_by_region": [
+    25967,
+    28734,
+    55313
+  ],
+  "validation_policy": "w013 online_validation=false; no public validation array by dataset contract; w016 validation remains excluded"
+}

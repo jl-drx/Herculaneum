@@ -1,0 +1,39 @@
+{
+  "status": "saved_and_exact_readback_verified",
+  "draft_id": "52435fe3-1c43-4ba2-a954-75bdfc8fa1c2~cecfgdraft_6ac81096b89881a2833e8463ad1f4ca2",
+  "revision": 35,
+  "previous_revision": 34,
+  "requires_publish": true,
+  "fields_saved": [
+    "start_skill"
+  ],
+  "start_skill_chars": 152208,
+  "prior_startup_chars": 143145,
+  "prior_history_verbatim": true,
+  "unrelated_fields_unchanged": [
+    "draft_id",
+    "base_version_id",
+    "repositories",
+    "install_script",
+    "network_policy",
+    "secrets",
+    "runtime_requirements",
+    "pending_runtime_requirements"
+  ],
+  "final_manifest": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/final-verification.json",
+    "sha256": "1d053f6c7002d71ef4aa97874d907c778eb7fdbe3e1d454d91a01661ab25c828",
+    "size_bytes": 4904537
+  },
+  "final_readonly_verification": {
+    "status": "PASS",
+    "records": 18179,
+    "retained_bytes": 6057494611,
+    "failures": []
+  },
+  "completion_contract_sha256": "a9dc939545251e5f16ff3d6677868c8b55e1c18c978d3f723e22c07f10c2c54e",
+  "register_v17_sha256": "3af78e067cf92884c3d9ac4d5bed4c491e2df6e1c22ec676448fd9d4d6a3ae8c",
+  "paid_GPU_spend_GBP": 0,
+  "total_first_GPU_pilot_cap_GBP": 10,
+  "scope": "Draft persistence only; no publication, snapshot, external backup or fresh-task restoration claim."
+}

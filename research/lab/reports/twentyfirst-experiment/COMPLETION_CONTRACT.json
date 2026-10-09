@@ -1,0 +1,529 @@
+{
+  "Frag6_stage_C_authorized": false,
+  "Paris1_equal_context": {
+    "frozen_seed42": {
+      "ap": 0.2404826633205317,
+      "auc": 0.7847877146440049,
+      "balanced_accuracy": 0.5032822842657404,
+      "f1": 0.03913861022794808,
+      "precision": 0.274339153467755,
+      "sensitivity": 0.023020918486417893,
+      "specificity": 0.983543650045063
+    },
+    "manual_double": {
+      "ap": 0.2295686198860859,
+      "auc": 0.7958030296534871,
+      "balanced_accuracy": 0.5012858396602089,
+      "f1": 0.033536480729841056,
+      "precision": 0.21336286787222383,
+      "sensitivity": 0.01890342915148873,
+      "specificity": 0.9836682501689291
+    },
+    "manual_retired": {
+      "ap": 0.23933263050316803,
+      "auc": 0.7992130912112041,
+      "balanced_accuracy": 0.5018297716027575,
+      "f1": 0.02613415715462758,
+      "precision": 0.4627868168544014,
+      "sensitivity": 0.01629949657640288,
+      "specificity": 0.9873600466291123
+    }
+  },
+  "Paris2_equal_fragment": {
+    "frozen_seed42": {
+      "ap": 0.3842856729084452,
+      "auc": 0.6576421877658194,
+      "balanced_accuracy": 0.5055501296193632,
+      "f1": 0.049115885407920994,
+      "precision": 0.4752064027607512,
+      "sensitivity": 0.025980527515369004,
+      "specificity": 0.9851197317233575
+    },
+    "manual_double": {
+      "ap": 0.36636404347957197,
+      "auc": 0.6682161475002897,
+      "balanced_accuracy": 0.5048382886663322,
+      "f1": 0.04653639062233529,
+      "precision": 0.510944605310871,
+      "sensitivity": 0.02444817801980974,
+      "specificity": 0.9852283993128546
+    },
+    "manual_retired": {
+      "ap": 0.36445057469770126,
+      "auc": 0.6407270327643089,
+      "balanced_accuracy": 0.5075400550254506,
+      "f1": 0.052120546603831044,
+      "precision": 0.43861857047218855,
+      "sensitivity": 0.02777573214850312,
+      "specificity": 0.9873043779023981
+    }
+  },
+  "R2_worker_secret_delivery_verified": false,
+  "actual_calls": {
+    "adapter_forwards": 748,
+    "backwards": 64,
+    "decoder_input_backwards": 64,
+    "optimizer_steps": 64,
+    "original_2d_network": 1112,
+    "original_depth_fusion": 364,
+    "original_full_model": 364
+  },
+  "adopted_baseline": "unchanged strict seed42",
+  "calls_overlap": true,
+  "conclusion": "All five training mechanism criteria pass; development passes 9/14 and fails five. Retain seed42.",
+  "controller_wall_seconds": {
+    "development": 53.8378524109994,
+    "training": 56.93857727000068
+  },
+  "created_at_utc": "2026-10-09T01:03:06.972388+00:00",
+  "decision": "No promotion or GPU scaling; prioritize independent evaluation and source-compatible inputs before further tuning.",
+  "evidence": {
+    "Frag6_A_contract": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-stage-a/run-v1/acquisition/STRUCTURAL_CONTRACT.json",
+      "sha256": "73ac68ce326c4a0435564bf7afbc6d24a390ae9e5ae648188b376a1ba0401a62",
+      "size_bytes": 17564
+    },
+    "Frag6_B": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-stage-b/run-v1/acquisition/SPARSE_GEOMETRY.json",
+      "sha256": "584ad931220ebd6394937c40833af9e337bc727b266985322d9b4e49bc59db50",
+      "size_bytes": 397616
+    },
+    "Frag6_B_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-b-runtime-review/verification.json",
+      "sha256": "15f1ad4da8052b85d192df6e7f8150b6802300ae180578c93fca8820dc0710b0",
+      "size_bytes": 517556
+    },
+    "PHerc0139_geometry": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-geometry/public-geometry-implementation-v2/run/result.json",
+      "sha256": "fcd516e1ea41a13cf5e6760fa898538a9aba2e25262ad8d4a1b5d342516f1a73",
+      "size_bytes": 6306
+    },
+    "PHerc0139_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/pherc0139-runtime-review/verification.json",
+      "sha256": "f2fc41b1f3a49003a672ff90b225770290f3a3fc0af9969e56308449aaaccc06",
+      "size_bytes": 1748
+    },
+    "allocation_metrics": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-analysis/metrics.json",
+      "sha256": "75ec95d6f03185d78088fd787512b2e5aabf9e23d845db195a9eef4a0986558c",
+      "size_bytes": 51584
+    },
+    "allocation_plan": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-implementation/final-plan/experiment-plan.json",
+      "sha256": "2e1cc8c46d5f7aaade31916cdc0304cd6cb8268e49d8aea73927c730dd535f74",
+      "size_bytes": 29080
+    },
+    "allocation_protocol": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/PRESERVATION_ALLOCATION_PROTOCOL.md",
+      "sha256": "498bf89ca0944ca26f596bdc8041951a82365667ccddf4eb88a8a1f0b33998b1",
+      "size_bytes": 10816
+    },
+    "allocation_report": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/ALLOCATION_RESULTS.md",
+      "sha256": "cc421763ae00a547fa24bc580e2bc81d5e779c22e997181e49fb24efa209803a",
+      "size_bytes": 7735
+    },
+    "allocation_review_seal": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-review/retention-manifest.json",
+      "sha256": "edf32350f99edaba91d61438660123063d06bbe30e623d2c600b157ad8220ad1",
+      "size_bytes": 4276
+    },
+    "allocation_verification": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-review/verification.json",
+      "sha256": "dcd7029592f5b163dd2ee3896fa58cf672132c9fabd77c872f21bed3fe3ed730",
+      "size_bytes": 3293
+    },
+    "native_header": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/native-checkpoint-contract/query-run/result.json",
+      "sha256": "c274c8e530d58a0c7a0743adfdc3b046b1cfef6dbfa0b319ca9b1a27f4434472",
+      "size_bytes": 7390
+    },
+    "native_header_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/native-header-review/verification.json",
+      "sha256": "6b2216456fc899734fac5e21df972fe8f4b277de99ec6204ad7a3905d461037f",
+      "size_bytes": 337564
+    },
+    "next_study": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "f6dacbf2696be2e87d084e886f16b43cf8a94d0cc0536113ae28c507a3501e4b",
+      "size_bytes": 3832
+    },
+    "report": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/RESULTS.md",
+      "sha256": "ca53e9b7751eeb4da565b43a7dbba0f815f15f838bf059ef4584e8355611a7ea",
+      "size_bytes": 8704
+    },
+    "root_report_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "2c4d923e53de5537145887dd020af96f39f06a7ee696b165ded33d813c1dc94b",
+      "size_bytes": 784
+    },
+    "root_visual_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/ROOT_VISUAL_REVIEW.json",
+      "sha256": "c13590b57a59b2775255ba82ecad77ba34026fd9a56e54ad4ac0cb31e42dd72b",
+      "size_bytes": 635
+    },
+    "source_correction": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/research-context/EVIDENCE.md",
+      "sha256": "9080fdf42eb8d25340588ef27c97aebc330492afde9f29a3695a7f379e9f5e93",
+      "size_bytes": 9958
+    },
+    "support_contract": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/preservation-support/audit-v2/support-contract.json",
+      "sha256": "762cb1e7ae7649d042358f80fea52712ce6471ebd5d4c4aaafc8f7a547694a8f",
+      "size_bytes": 66609
+    },
+    "support_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/support-review/RESULTS.md",
+      "sha256": "4a72e5adc2349f83d67a0a8ae61c5ffc8494b299d6ea028175ff9dc99f0a51f3",
+      "size_bytes": 8257
+    }
+  },
+  "final_adapter_checkpoints": {
+    "manual_double": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-implementation/run/training/manual_double/final-adapter.pth",
+      "sha256": "9ab0b4dda45ed07d36bc19db775a3ec1834c7448f7398383b276879f70d192c7",
+      "size_bytes": 23705
+    },
+    "manual_retired": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-implementation/run/training/manual_retired/final-adapter.pth",
+      "sha256": "e74c3b52896170edbb2273975ffc3e64630c72af44f759dc53146bc3b09c0c39",
+      "size_bytes": 23705
+    }
+  },
+  "historical_private_geometry_validity_authenticated": false,
+  "independent_confirmation_ready": false,
+  "limitations": [
+    "All six Paris contexts are reused development, not independent confirmation.",
+    "Paris2 and its aliases remain excluded from gradients, teachers and threshold fitting.",
+    "One initialization and 32 updates per arm do not establish population or converged-training behavior.",
+    "Preservation targets do not authenticate ink or the supplied-reference labels.",
+    "Geometry bounds are not native observed coverage, material support or authenticated historical private masks.",
+    "Native header schema does not verify full-file SHA, finite tensor values, alias-value equality or strict load.",
+    "Local retention and draft saving do not establish external backup or fresh-task restoration."
+  ],
+  "mechanism_screen": {
+    "candidate_manual_BCE_excess_margin": {
+      "margin": 0.0009858159571886072,
+      "passed": true,
+      "required_minimum": 0.0,
+      "value": 0.0009858159571886072
+    },
+    "candidate_manual_BCE_improvement": {
+      "margin": 0.003181483426690102,
+      "passed": true,
+      "required_minimum": 0.0001,
+      "value": 0.0032814834266901016
+    },
+    "candidate_retired_KL_reduction_vs_control": {
+      "margin": 0.0005437284612827358,
+      "passed": true,
+      "required_minimum": 0.0001,
+      "value": 0.0006437284612827358
+    },
+    "manual_double_own_full_improvement": {
+      "margin": 0.00020905013115734016,
+      "passed": true,
+      "required_minimum": 0.0001,
+      "value": 0.00030905013115734015
+    },
+    "manual_retired_own_full_improvement": {
+      "margin": 0.0017171722473352414,
+      "passed": true,
+      "required_minimum": 0.0001,
+      "value": 0.0018171722473352414
+    }
+  },
+  "mechanism_screen_passed": true,
+  "native_checkpoint_strict_load_verified": false,
+  "native_checkpoint_values_verified": false,
+  "network": {
+    "Frag6_A": {
+      "attempts": 10,
+      "observed_body_bytes": 1504
+    },
+    "Frag6_B": {
+      "attempts": 1,
+      "observed_body_bytes": 64747
+    },
+    "PHerc0139_coordinates": {
+      "attempts": 6,
+      "observed_body_bytes": 2739744
+    },
+    "PHerc0139_structure": {
+      "attempts": 9,
+      "observed_body_bytes": 402
+    },
+    "PHerc0139_text": {
+      "attempts": 10,
+      "observed_body_bytes": 270825
+    },
+    "native_checkpoint_header": {
+      "attempts": 3,
+      "observed_body_bytes": 67306
+    }
+  },
+  "network_totals": {
+    "accounting": "Response bodies only, including hash-only native redirect body; not full wire traffic",
+    "attempts": 39,
+    "automatic_retries": 0,
+    "external_uploads": 0,
+    "observed_response_body_bytes": 3144528,
+    "scientific_worker_requests": 0
+  },
+  "new_artifacts_uploaded_to_R2": false,
+  "paid_GPU_spend_GBP": 0,
+  "practical_screen": {
+    "Paris2_candidate_ap_gain_vs_seed42": {
+      "margin": -0.02483509821074392,
+      "passed": false,
+      "required_minimum": 0.005,
+      "value": -0.019835098210743918
+    },
+    "Paris2_candidate_auc_gain_vs_seed42": {
+      "margin": -0.02191515500151053,
+      "passed": false,
+      "required_minimum": 0.005,
+      "value": -0.01691515500151053
+    },
+    "frag1-context1_ap_retention": {
+      "margin": 0.01310427202795959,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": -0.006895727972040411
+    },
+    "frag1-context1_auc_retention": {
+      "margin": -0.001065923019463639,
+      "passed": false,
+      "required_minimum": -0.02,
+      "value": -0.02106592301946364
+    },
+    "frag1-context2_ap_retention": {
+      "margin": -0.10805345068077767,
+      "passed": false,
+      "required_minimum": -0.02,
+      "value": -0.12805345068077767
+    },
+    "frag1-context2_auc_retention": {
+      "margin": -0.06621151467898824,
+      "passed": false,
+      "required_minimum": -0.02,
+      "value": -0.08621151467898824
+    },
+    "frag2-context1_ap_retention": {
+      "margin": 0.04357523143978219,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.023575231439782185
+    },
+    "frag2-context1_auc_retention": {
+      "margin": 0.07644490861584129,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.05644490861584128
+    },
+    "frag2-context2_ap_retention": {
+      "margin": 0.05203355437006006,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.03203355437006006
+    },
+    "frag2-context2_auc_retention": {
+      "margin": 0.0031719090765683737,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": -0.016828090923431627
+    },
+    "frag3-context1_ap_retention": {
+      "margin": 0.01924421826823001,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": -0.0007557817317699889
+    },
+    "frag3-context1_auc_retention": {
+      "margin": 0.021829870536119383,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.0018298705361193823
+    },
+    "frag3-context2_ap_retention": {
+      "margin": 0.018455716097042645,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": -0.0015442839029573552
+    },
+    "frag3-context2_auc_retention": {
+      "margin": 0.047020882598278954,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.02702088259827895
+    }
+  },
+  "practical_screen_passed": false,
+  "promoted_model": null,
+  "publication": false,
+  "purpose": "Matched output-preservation allocation study and separately bounded geometry/source audits",
+  "retained_backbone_loads": 4,
+  "saved_backbone_checkpoints": 0,
+  "schema_version": 1,
+  "scientific_optimizer_updates": 64,
+  "scientific_worker_retries": 0,
+  "status": "completed_verified_training_mechanism_passed_development_screen_failed",
+  "threshold": 0.7558947205543518,
+  "threshold_fits": 0,
+  "total_first_GPU_pilot_cap_GBP": 10,
+  "training": {
+    "manual_double": {
+      "final": {
+        "base": 0.5937815066426992,
+        "full": 0.5967681239810434,
+        "hard_bce": 0.32057489920407534,
+        "kl_manual": 0.0014933086691720845,
+        "kl_retired": 0.0012055920111736758,
+        "objective_A": 0.5967681239810434,
+        "objective_B": 0.596480407323045,
+        "probability_drift_manual": 0.01007561112517518,
+        "probability_drift_retired": 0.009569570538326513
+      },
+      "final_adapter_state_sha256": "817e32bb65ecd9201d7a72eb539cc0ff1d1dbdff37debb2c6d48d9e2e6c47e10",
+      "fixed_updates": {
+        "1": {
+          "base": 0.5963107775896788,
+          "full": 0.596728759861384,
+          "hard_bce": 0.3243032842874527,
+          "kl_manual": 0.00020899113585259833,
+          "kl_retired": 0.0005004720050739455,
+          "objective_A": 0.596728759861384,
+          "objective_B": 0.5970202407306053,
+          "probability_drift_manual": 0.004008885806179553,
+          "probability_drift_retired": 0.005750645378939901
+        },
+        "16": {
+          "base": 0.5960878264158964,
+          "full": 0.5985276385240598,
+          "hard_bce": 0.32350929733365774,
+          "kl_manual": 0.0012199060540817,
+          "kl_retired": 0.001439168285839734,
+          "objective_A": 0.5985276385240598,
+          "objective_B": 0.5987469007558178,
+          "probability_drift_manual": 0.009202508991371998,
+          "probability_drift_retired": 0.010264954027739035
+        },
+        "32": {
+          "base": 0.5937815066426992,
+          "full": 0.5967681239810434,
+          "hard_bce": 0.32057489920407534,
+          "kl_manual": 0.0014933086691720845,
+          "kl_retired": 0.0012055920111736758,
+          "objective_A": 0.5967681239810434,
+          "objective_B": 0.596480407323045,
+          "probability_drift_manual": 0.01007561112517518,
+          "probability_drift_retired": 0.009569570538326513
+        },
+        "8": {
+          "base": 0.5956220403313637,
+          "full": 0.5976538066040067,
+          "hard_bce": 0.32241722010076046,
+          "kl_manual": 0.0010158831363214873,
+          "kl_retired": 0.002234249225220747,
+          "objective_A": 0.5976538066040067,
+          "objective_B": 0.5988721726929059,
+          "probability_drift_manual": 0.008764476416037862,
+          "probability_drift_retired": 0.01295960854396431
+        }
+      },
+      "improvement": {
+        "base": 0.0032956674695014954,
+        "full": 0.00030905013115734015
+      },
+      "initial": {
+        "base": 0.5970771741122007,
+        "full": 0.5970771741122007,
+        "hard_bce": 0.325393246486783,
+        "kl_manual": 0.0,
+        "kl_retired": 0.0,
+        "objective_A": 0.5970771741122007,
+        "objective_B": 0.5970771741122007,
+        "probability_drift_manual": 0.0,
+        "probability_drift_retired": 0.0
+      }
+    },
+    "manual_retired": {
+      "final": {
+        "base": 0.5937956906855106,
+        "full": 0.5952600018648655,
+        "hard_bce": 0.32020418159663677,
+        "kl_manual": 0.000902447629463882,
+        "kl_retired": 0.00056186354989094,
+        "objective_A": 0.5956005859444384,
+        "objective_B": 0.5952600018648655,
+        "probability_drift_manual": 0.007516071126244586,
+        "probability_drift_retired": 0.006543241101060464
+      },
+      "final_adapter_state_sha256": "e06d0b10dcb3182ce6c64a3acfe4c5f679651b8f6b769571b5524946c7166783",
+      "fixed_updates": {
+        "1": {
+          "base": 0.5963107775896788,
+          "full": 0.5970202407306053,
+          "hard_bce": 0.3243032842874527,
+          "kl_manual": 0.00020899113585259833,
+          "kl_retired": 0.0005004720050739455,
+          "objective_A": 0.596728759861384,
+          "objective_B": 0.5970202407306053,
+          "probability_drift_manual": 0.004008885806179553,
+          "probability_drift_retired": 0.005750645378939901
+        },
+        "16": {
+          "base": 0.5956135671585798,
+          "full": 0.5973350690252637,
+          "hard_bce": 0.3230675430968404,
+          "kl_manual": 0.0008598160848491458,
+          "kl_retired": 0.00086168578183476,
+          "objective_A": 0.5973331993282781,
+          "objective_B": 0.5973350690252637,
+          "probability_drift_manual": 0.008001688673453916,
+          "probability_drift_retired": 0.008210746924333137
+        },
+        "32": {
+          "base": 0.5937956906855106,
+          "full": 0.5952600018648655,
+          "hard_bce": 0.32020418159663677,
+          "kl_manual": 0.000902447629463882,
+          "kl_retired": 0.00056186354989094,
+          "objective_A": 0.5956005859444384,
+          "objective_B": 0.5952600018648655,
+          "probability_drift_manual": 0.007516071126244586,
+          "probability_drift_retired": 0.006543241101060464
+        },
+        "8": {
+          "base": 0.5957256834954023,
+          "full": 0.5981180612879735,
+          "hard_bce": 0.3231136314570904,
+          "kl_manual": 0.0007834085443128956,
+          "kl_retired": 0.0016089692482583226,
+          "objective_A": 0.5972925005840282,
+          "objective_B": 0.5981180612879735,
+          "probability_drift_manual": 0.0075515023461044505,
+          "probability_drift_retired": 0.010191211120908723
+        }
+      },
+      "improvement": {
+        "base": 0.0032814834266901016,
+        "full": 0.0018171722473352414
+      },
+      "initial": {
+        "base": 0.5970771741122007,
+        "full": 0.5970771741122007,
+        "hard_bce": 0.325393246486783,
+        "kl_manual": 0.0,
+        "kl_retired": 0.0,
+        "objective_A": 0.5970771741122007,
+        "objective_B": 0.5970771741122007,
+        "probability_drift_manual": 0.0,
+        "probability_drift_retired": 0.0
+      }
+    }
+  },
+  "transcription": null,
+  "translation": null
+}

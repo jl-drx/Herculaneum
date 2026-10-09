@@ -1,0 +1,18 @@
+# Phase 21: structural geometry and preservation-support prerequisites
+
+The user authorized continued CPU work and research for later review. Root verified the phase20 external retention anchor `82e454f83859f17fbcb95eede2be546471f13d3094adf491452eb325e862c9bf`: PASS, 17,291 records / 5,820,201,885 bytes, no failures. All first-twentieth evidence and tracked repository files stay immutable. New work is additive under this phase; seed42 remains the baseline. No paid resources, uploads, publication, outreach, credentials or new terms acceptance are included. The £10 TOTAL first paid GPU pilot cap persists; spend remains £0.
+
+## Current work
+
+1. Implement and independently review **Frag6 Stage A only**, following the sealed phase20 proposal. Before live requests require root written GO binding reviewed code, plan and synthetic fixtures. Stage A is at most 13 sequential range requests / 202,301 reserved response-body bytes, no retry/redirect/full-object fallback, exact prior object validators and lengths. No numeric PPM records, CT pixels, labels or model calls. Incidental image bytes in structural buffers remain uninterpreted. Limits: 256 MiB measured RSS, 1 GiB address space, 32 MiB outputs and 1,800 s external wall time, with per-request limits. Stage B/C do not automatically follow.
+2. Audit only the two retained PHerc0139 training contexts and exact 32-batch schedule for manual participation, source acquisition coverage, retired validation, padding and authenticated geometry validity. Support must be defined from source/data evidence, never score or label appearance. A nonzero-intensity mask is diagnostic occupancy; an HTTP-success mask is acquisition support. Neither is automatically valid mapped papyrus. If broad valid support is unestablished, report that blocker rather than fabricate it.
+3. Independently check synthetic BCE/KL masking, gradients and reductions for the proposed support comparison. No real scientific optimization is authorized by this scope alone: root must resolve prerequisites and freeze any subsequent scientific design, code and numerical contract first. No Paris data enters these preparatory arrays, objectives or support selection.
+4. Synthesize the retained prior experiments and source papers to prevent duplicating already answered questions. Distinguish former full-backbone pseudo-supervision experiments from a preservation-support intervention in the feature adapter. No new literature claim is based only on an award announcement or a secondary summary.
+
+## Decisions and interpretation
+
+Root owns scientific judgment; delegated agents implement or perform narrow source, numerical and technical review. Preserve failure receipts and unfavorable observations. No changed gate, unsupported support mask or source substitution may be hidden as a routine retry. Routine implementation corrections before real acquisition/training are allowed and recorded; they do not require waking the user.
+
+All six Paris regions remain reused DEVELOPMENT, with Paris2 and its aliases excluded from fitting, teacher use and cutoff fitting. Frag6/PHerc0051 and other reserved parents remain outside fitting. Source geometry, label lineage and upstream exposure still limit independent-confirmation claims. Do not select a crop, depth, model or source because it resembles writing. No transcription or translation is anticipated from this prerequisite phase.
+
+The current environment is Python 3.12.14, NumPy 2.5.3, Torch 2.12.0+cpu via /workspace/.venvs/herculaneum/bin/python. No install or repository-source change is needed. Local artifact retention and saved configuration drafts are not external backups or verified fresh-task restoration.

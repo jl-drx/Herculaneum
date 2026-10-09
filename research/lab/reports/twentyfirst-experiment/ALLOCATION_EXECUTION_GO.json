@@ -1,0 +1,39 @@
+{
+  "GPU_spend_GBP": 0,
+  "automatic_retries": false,
+  "checker_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-review/CHECKER_FREEZE.json",
+    "sha256": "70374c27d245a9560530558ac7582d0624924b1efed6fbde04ed99675530aaf1",
+    "size_bytes": 3130
+  },
+  "code_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-implementation/code-freeze.json",
+    "sha256": "ec33e3ecfce683e163999e0a1ee40dd1490bbf8add626342d1078c15b1141ba6",
+    "size_bytes": 3400
+  },
+  "created_at_utc": "2026-10-09T00:29:57.617480+00:00",
+  "numerical_preflight": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-review/preflight-v1/verification.json",
+    "sha256": "7128c4c35ce34ef2456fa924362bc6a9a4206792d1b5157212b2ce6dcfdda53a",
+    "size_bytes": 15455
+  },
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-implementation/final-plan/experiment-plan.json",
+    "sha256": "2e1cc8c46d5f7aaade31916cdc0304cd6cb8268e49d8aea73927c730dd535f74",
+    "size_bytes": 29080
+  },
+  "protocol": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/PRESERVATION_ALLOCATION_PROTOCOL.md",
+    "sha256": "498bf89ca0944ca26f596bdc8041951a82365667ccddf4eb88a8a1f0b33998b1",
+    "size_bytes": 10816
+  },
+  "scientific_decision": "Explicit retired supplied-reference role; no geometry-valid support claim, no V-label targets, no promotion or paid work.",
+  "scope": "Exactly two frozen CPU allocation arms; independent training PASS before both final development arms in all six reused regions irrespective of mechanism outcome.",
+  "status": "GO",
+  "technical_review": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/allocation-technical-review/TECHNICAL_GO.json",
+    "sha256": "89ee750fa053229f565c3999e72f7f3c245ad12945eae27629dce69ff2c60906",
+    "size_bytes": 7993
+  },
+  "total_first_GPU_pilot_cap_GBP": 10
+}

@@ -1,0 +1,46 @@
+# William Stevens patch-based unwrapping: source audit
+
+Audit date: 2026-10-08. Source inspection only; no scans, weights, dependencies, builds or pipeline execution. All new network reads used the shared bounded `fetch_source.py` helper with `--subdir william`. Retained response bodies total **507,588 bytes across 34 requests**, below this subtask's 3 MiB limit. Every body has its URL, HTTP metadata and SHA-256 in an adjacent metadata file. One early `commits/main` response was truncated at 65,536 bytes and was not used as an authoritative commit record; complete Git ref/commit/tree responses supersede it.
+
+## Identity and chronology
+
+The official pinned winners markdown, `source-evidence/official-contributions/15_winners.md`, separates two awards:
+
+- August 2026: **$20,000**, “Patch-based unwrapping,” William Stevens; overlapping patches with incompatible 3D locations are removed and the remainder joined into flattened components, with **around 365 cm² on PHerc1667**.
+- July 2026: **$2,500**, “Optimising patch connectivity,” links `pipeline9`; problem areas causing sheet switching are removed, leaving a scaffolding of patches, reportedly run across Scroll 4.
+
+Repository: [WillStevens/scrollreading](https://github.com/WillStevens/scrollreading), default branch `main`. Complete ref and commit records pin this audit to **62cbc21bdafbe0313fee11d781d729256a14262e**, committed **2026-08-30 00:13:11 UTC**, message “Multi-component annealing.” The July/August awards link mutable branch URLs; an exact award-version commit is not identified by the official entry. `report12.pdf` was added on 2026-08-01; its pinned tree size is 11,006,888 bytes, so it was not downloaded. There are **no GitHub releases**. The sole returned tag is `report10`, pointing to `ccceb5aa39fa38dab1318780a2e7cd50f05640f5`, dated 2026-01-01. This older tag does not identify the August implementation.
+
+The complete recursive tree is not truncated. All 24 fetched files at the pinned raw source URL match the corresponding Git blob SHA-1 and size; response SHA-256 values are retained separately. The repository metadata and full `LICENSE` identify **GPL-3.0**. The code license does not establish rights to third-party input scans or surface predictions.
+
+## Pipeline and actual score
+
+[pipeline9/readme.md](https://github.com/WillStevens/scrollreading/blob/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/readme.md) describes local full-resolution **3D surface prediction OME Zarr `/0`** and quarter-resolution CT **OME Zarr `/2`** inputs. These are different inputs from our retained 2D flattened intensity stacks. Patch growth computes/caches a vector field from surface predictions; it does not require a separately downloaded vector-field volume. The stock parameters target **PHerc0139**, with 9 µm voxels, four native voxels per quad step, fixed seed axes and Windows-style paths.
+
+Outputs include patch binaries, `rel.csv` affine relationships/variances, `badpatches.csv`, `badpatchscores.csv`, patch centers, visit/alignment order, spring-refined 2D positions, annealing state/stats and flattened patch binaries. `c` checks alignment paths of lengths 2 through 5. Binary patch records are packed **five float32 values**: local quad X/Y and native CT X/Y/Z, 20 bytes per record. `nm <components> <iterations> <T0>` is the current multi-component annealing command. The documentation retains older names and omits some newer multi-component commands, so command behavior must be pinned from `simpaper10.cpp`.
+
+Material code details:
+
+- `badpatchfinder.cpp` compares overlapping 2D cells using the larger of two absolute normal projections of their 3D disagreement. The default conflict cutoff is **10 native voxels**. It greedily removes patches involved in the most conflict pairs; that is a consistency heuristic, not layer ground truth.
+- `scoreplacement.cpp::ScorePlacementAreaAndIncon` rewards occupied coarse 2D cells and subtracts maximum normal-projected disagreement divided by its threshold. It samples on a **fixed five-quad grid**, despite accepting a `stepSize` argument. `EvaluateStateAll` supplies a threshold of **30 native voxels**, refines positions for 50 spring steps, and sums scores over components. This score is not a sheet-switch error rate, independently verified physical area, or a 3D-deduplicated coverage measure.
+- A comment says the current score ignores normals, but `GetMaxDistance` actually uses normal dot products. Missing normals become zero; two missing normals can hide disagreement. Report normal availability and degeneracy separately.
+- `ScorePlacement` uses a denser interpolated map for output and records incompatible contributions, but still writes weighted average coordinates. Inspect conflict masks separately from the resulting mesh; a flattened output alone does not certify sheet correctness.
+- `convert2tifxyz.sh` converts using `--step 1 1` and then changes mesh metadata scale from `[1,1]` to `[0.25,0.25]`, encoding the four-voxel quad spacing. This explicit unit conversion must survive any native renderer bridge.
+
+The 365 cm² and whole-Scroll-4 statements are official reported results. No `.bin`, `.csv`, `.tif`, `.zarr` or model-weight outputs occur in the complete repository tree, and no release assets provide the award run's patches, exclusion lists, configurations or benchmark labels. This audit therefore does **not reproduce or independently validate those results**.
+
+## PHerc0800 compatibility and blockers
+
+The core connectivity/flattening stages operate on geometry and can run on CPU. The makefile uses g++, OpenMP, blosc2 and libtiff; the CUDA prototype is not in the principal build target. The README suggests at least 16 GB RAM for a whole scroll and 32 GB for larger scrolls; no bounded timing/peak-memory benchmark is supplied. Our current CPU environment is adequate for a small geometry-only prototype, subject to dependency/build review, without GPU rental.
+
+For native 8.64 µm PHerc0800, record native coordinates and `VOXEL_SIZE=8.64`; four-voxel quad spacing becomes 34.56 µm. The default 10/30 voxel disagreement scales become 86.4/259.2 µm. Copying 9 µm physical-area calculations would be incorrect. Full growth also needs registered 3D surface predictions and volume metadata, rather than substituting our flattened images. The stock surface reader is generated for uint8, **192³ chunks and Blosc/Zstd**, with fixed cache arrays; it does not discover arbitrary Zarr contracts at runtime. Missing local chunk files are treated as zeros, and decompression failures are weakly checked. Explicit observation/support accounting is needed for a credible bounded input bridge.
+
+Annealing initializes `mt19937` from **`random_device`**, so `RANDOM_SEED=124` does not make it reproducible. Freeze an explicit seed adapter or retain all generated seeds/states; document that change. Also pin compiler/library versions, thread count, manual bad/good relations, patch/coordinate conventions and conversion settings. The fixed bad-patch raster is 1000², plus a 2000² distance array; assert transform extents before allowing a patch input. No exact native written-surface, recto or wrap assignment follows from geometry continuity or successful CT render recovery.
+
+## Concrete bounded reproduction candidate
+
+Start with a **three-patch CPU connectivity benchmark**, using only already retained PHerc0800 XYZ geometry. Sample every fourth native pixel from two 256² extents inside the verified fourth 384² geometry field: A `[1024,384,256,256]`, B `[1152,512,256,256]`, on segment `20251028220955`. Each is 64² quad samples; their 128² native overlap has a known source-coordinate relation. Make C a clearly labelled synthetic copy of B shifted **40 native voxels** along a frozen valid reference normal, and inject its explicit incorrect 2D relationship. Keep A/B as the compatible control and C as the known incompatible control. This is a fault-injection geometry benchmark, not evidence that any observed papyrus layer is correct.
+
+Freeze source/input hashes, float32 serialization, local/global coordinate transformations, the injected relation and 10-voxel rejection cutoff before execution. Cap at **3 × 4096 records = 245,760 bytes**, four CPU threads, **2 GiB memory and 60 seconds wall time**. Run only connectivity/conflict scoring and export round-trip checks; do not grow patches, acquire volume data or infer ink. Report compatible-control disagreement, synthetic-conflict detection, removed patch IDs, normal availability, surviving unique source support, and native physical units. Stop on missing/degenerate normals, inconsistent units, compatible-control rejection, failure to flag the injected conflict or resource-limit breach. Do not tune the cutoff after viewing results.
+
+A pass validates a bounded source/data bridge and conflict behavior. A subsequent natural cross-segment comparison would require a separately frozen geometry-selected overlap and independent native CT/written-surface review. Adopt a new surface model or whole-scroll pipeline only after a measured geometry error explains the target bottleneck; current weak ink responses and successful render recovery do not establish that explanation.

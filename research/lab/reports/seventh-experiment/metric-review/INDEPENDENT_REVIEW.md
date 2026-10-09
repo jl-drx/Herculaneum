@@ -1,0 +1,24 @@
+# Independent numerical panel review
+
+**PASS.** Independently reconstructed primary/secondary common masks and all per-context AUC, average precision, midpoint confusion counts, development-locked operating points, exact95% specificity transfer flags, occupancy strata, matched-pair metric differences and equal-context/equal-specimen summaries agree with the completed benchmark. The largest absolute numerical difference is2.220446049250313e-16. All421 unique input/output receipts were unchanged before and after review, including the raw checkpoints, source arrays, model/output metadata, masks and analysis outputs. All16 model/context workers completed exactly once.
+
+The verifier uses the immutable sixth-stage independent ranking method (`e3cad20abca6f4daa82c34f25c3237ba4626fbda43c90cd36e0735f4923c0452`): ascending tied-score groups count positive/negative concordant pairs with half-credit for ties, while average precision uses complete-group suffix positive/total counts. No benchmark metric implementation was imported. No inference, network request or original-file mutation occurred. A second agent reviewed this verifier's schema, cutoff reconstruction, mask and aggregation arithmetic without reading scores or rerunning verification and found no blocker.
+
+The actual threshold lock SHA256 is `3bb59b4a15caaa6c0fe433635535edf549719d35f25a644a9e218c2927236ff1`. Its four thresholds were reconstructed independently from the retained PHerc1667/w029 development-negative vectors: partition selects the first negative-score boundary crossing floor9378/20=468 allowed false positives, then a positive float32 bit increment excludes the whole boundary tie. All locked thresholds, ties and development confusion counts match; each produces468 development false positives and specificity0.9500959692898272. The review never fits a threshold to reserved labels or scores. Reserved transfer is checked by the exact integer inequality20×TN≥19×negative_count rather than rounded decimal specificity.
+
+| Model | Equal-specimen primary AUC | AP | Locked sensitivity | Locked specificity | Primary contexts meeting95% specificity |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Russo ex01675k |0.903846|0.747519|0.193243|0.980275|3/4|
+| Matched control75k |0.828220|0.641845|0.227031|0.985842|4/4|
+| Seed42 |0.791627|0.633767|0.121788|0.999913|4/4|
+| Seed43 |0.893778|0.743273|0.337280|0.958693|3/4|
+
+These means first weight the two contexts within each specimen equally, then weight PHerc0139 and PHerc0814 equally. They do not pool pixels or estimate uncertainty from individual pixels.
+
+Ex016 exceeds its matched control in primary AUC on three of four contexts and AP on all four. The equal-specimen differences are AUC+0.075626130538202 and AP+0.105673369407996. Operating-point performance differs: ex016's macro locked sensitivity is lower by0.033788151239215. On PHerc0814 rank01, ex016 specificity is0.9229950495049505, below the development95% target, while control specificity is0.9593069306930693. Seed43 also fails transfer there at0.857029702970297. On PHerc0139 rank02, ex016 and control both have zero primary sensitivity at their locked thresholds despite AUC0.9513865960049259 and0.8652876665433942. Reporting only ranking means or mean specificity would hide these failures.
+
+All rows and both fixed domains were retained. Full-validation secondary comparisons and occupancy strata also agree numerically; primary agreement does not license adapting the mask, reporting only favorable contexts, or replacing the locked thresholds. No observed zero-profile pixel is in a primary domain, but whole-context zero profiles remain in the source arrays and diagnostic strata.
+
+The interpretation is descriptive public reference-annotation agreement in four annotation-selected contexts from two different physical specimens, reserved only from our current tuning. Complete historical training/pixel exposure, teacher ancestry and independent human/optical ink truth remain unresolved. Within-specimen neighboring XY contexts are correlated, and physical3D independence/geometry is unverified. Existing seeds are models from the same training setup rather than independent biological data. No pixel confidence interval, significance test, calibrated ink probability, universal detection improvement, native acquisition-domain causal claim or text reading follows from this review. The separately audited coarse native candidate was not tested here.
+
+Evidence: `result/independent-verification.json`, SHA256 `06f35b0835a0b189938bdeb8b743119d0ebbf1ba2e560568b320ba93e91fd8c0`; implementation: `review_panel_metrics.py`. Final plan SHA256: `b6d507d03b276f91e5b65b3cf22ac0ee543e24de37819430483d8156716fd91f`. Benchmark metrics SHA256: `b58b21192240ec89bd6821613b26a53e06201a0b76c3aa27f7f8229bb7254dc8`; final integrity SHA256: `bb8f6f6279e7149750e0fa2340a1ac2698b046ac28042441a2b30a01cfb1eeca`. Original evidence remains unchanged.

@@ -1,0 +1,33 @@
+{
+  "contexts": [
+    {
+      "name": "PHerc1667 supplied-label control",
+      "role": "training-exposed reference",
+      "run_dir": "/workspace/herculaneum-lab/reports/second-experiment/known-ink-forward",
+      "labels_path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/inklabels.npy",
+      "labels_sha256": "b79711215419a724d61c8a075d8314f942ba886a5ef0ed1c230c8247842b1c61",
+      "supervision_path": "/workspace/herculaneum-lab/data/experiments/known-ink-control/annotation-valid-mask.npy",
+      "supervision_sha256": "72bf42bd9c376d68820d774b6ce353f9fd4f71523379d25ad5aca0af4510e04e"
+    },
+    {
+      "name": "PHerc0800 original hotspot",
+      "role": "post hoc selected target",
+      "run_dir": "/workspace/herculaneum-lab/reports/first-experiment/ink9um-candidate-forward"
+    },
+    {
+      "name": "PHerc0800 geometry context 1",
+      "role": "frozen geometry/data selection on previously scored field",
+      "run_dir": "/workspace/herculaneum-lab/reports/second-experiment/independent-01"
+    },
+    {
+      "name": "PHerc0800 geometry context 2",
+      "role": "frozen geometry/data selection on previously scored field",
+      "run_dir": "/workspace/herculaneum-lab/reports/second-experiment/independent-02"
+    },
+    {
+      "name": "PHerc0800 geometry context 3",
+      "role": "frozen geometry/data selection on previously scored field",
+      "run_dir": "/workspace/herculaneum-lab/reports/second-experiment/independent-03"
+    }
+  ]
+}

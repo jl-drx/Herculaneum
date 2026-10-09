@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-10-09T05:56:11.163586+00:00",
+  "figures": {
+    "native-paris1": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/visuals/render-v1/native-paris1-depth-reversal.png",
+      "sha256": "b8dd4accce52d9f4e93c7692f41e448ce675366ec2875e307ef26e554fbd08c3",
+      "size_bytes": 652906
+    },
+    "native-paris2": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/visuals/render-v1/native-paris2-depth-reversal.png",
+      "sha256": "8b25d4b48f27ddac5ef83d5770aff19c5eccacde9bfdcaf20334fb7b6af9358f",
+      "size_bytes": 1182060
+    },
+    "seed42-paris1": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/visuals/render-v1/seed42-paris1-depth-reversal.png",
+      "sha256": "492484392d00cd92a206b2dad7551aba7b886403fb46071b4e25c337cb8d58d2",
+      "size_bytes": 744358
+    },
+    "seed42-paris2": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/visuals/render-v1/seed42-paris2-depth-reversal.png",
+      "sha256": "4ced765e15f330e5a0caaa441e8c810282faebbe3032b14070b72cbdc97bf0e8",
+      "size_bytes": 1330926
+    }
+  },
+  "layout": "All six contexts for each model; labels/forward/reverse/difference; unchanged primary masks, fixed scales 0..1 and -1..1; no crop selection or rerender.",
+  "limitations": "Visual review supports descriptive interpretation only; no transcription, translation, physical-normal diagnosis or independent accuracy claim.",
+  "observations": {
+    "native-paris1": "Context1 loses much of its upper stroke contrast. Context2 reduces broad upper background responses, consistent with its ranking improvement, but still lacks a clear general recovery of the supplied lower strokes. This exception is retained without selecting its direction.",
+    "native-paris2": "All four contexts are retained. Reversal removes strong forward stroke contrast in frag1-context2 and markedly lowers scores in frag2-context2; frag2-context1 gains substantial broad off-stroke response. No panel supports treating reversal as a uniform correction.",
+    "seed42-paris1": "Both contexts lose responses on supplied strokes. In context1, the upper central stroke response falls while a region near the right stroke brightens; context2 loses lower stroke contrast and has increased upper-right background response.",
+    "seed42-paris2": "All four contexts are retained. Reversal suppresses the weak context1 stroke region, loses the tall stroke in frag1-context2, changes broad background patterns in frag2-context1, and suppresses much of frag2-context2."
+  },
+  "reviewer": "root",
+  "status": "all_four_figures_reviewed",
+  "view": "Whole figures displayed by view_image; tool resized 2496x1352 to 2048x1109 and 2496x2424 to 1600x1553. No pixel-level reading claimed."
+}

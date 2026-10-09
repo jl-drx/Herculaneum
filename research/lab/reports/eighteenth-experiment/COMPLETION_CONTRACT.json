@@ -1,0 +1,359 @@
+{
+  "Paris1_equal_context": {
+    "explicit_depth": {
+      "ap": 0.24138198168677377,
+      "auc": 0.7854830884590398,
+      "balanced_accuracy": 0.5027323344679455,
+      "f1": 0.036456815546645094,
+      "precision": 0.2695684676262678,
+      "sensitivity": 0.02137888017500087,
+      "specificity": 0.9840857887608903
+    },
+    "frozen_seed42": {
+      "ap": 0.2404826633205317,
+      "auc": 0.7847877146440049,
+      "balanced_accuracy": 0.5032822842657404,
+      "f1": 0.03913861022794808,
+      "precision": 0.274339153467755,
+      "sensitivity": 0.023020918486417893,
+      "specificity": 0.983543650045063
+    },
+    "raw_control": {
+      "ap": 0.2405150958062443,
+      "auc": 0.7847615176279081,
+      "balanced_accuracy": 0.49891580886397213,
+      "f1": 0.01804414257272657,
+      "precision": 0.259847813600602,
+      "sensitivity": 0.010161981531938714,
+      "specificity": 0.9876696361960056
+    }
+  },
+  "Paris2_equal_fragment": {
+    "explicit_depth": {
+      "ap": 0.38405142982892143,
+      "auc": 0.657107342944394,
+      "balanced_accuracy": 0.5052469390456962,
+      "f1": 0.04737979225504531,
+      "precision": 0.4761670417483552,
+      "sensitivity": 0.025016609365057268,
+      "specificity": 0.9854772687263351
+    },
+    "frozen_seed42": {
+      "ap": 0.3842856729084452,
+      "auc": 0.6576421877658194,
+      "balanced_accuracy": 0.5055501296193632,
+      "f1": 0.049115885407920994,
+      "precision": 0.4752064027607512,
+      "sensitivity": 0.025980527515369004,
+      "specificity": 0.9851197317233575
+    },
+    "raw_control": {
+      "ap": 0.3828448891931041,
+      "auc": 0.6552916121766763,
+      "balanced_accuracy": 0.5055821433300776,
+      "f1": 0.04265390849886458,
+      "precision": 0.5038344830640241,
+      "sensitivity": 0.022372136911504747,
+      "specificity": 0.9887921497486505
+    }
+  },
+  "adopted_baseline": "unchanged strict seed42",
+  "conclusion": "Explicit depth better preserves the initializer than the raw control but fails three predeclared superiority margins; Paris2 ranking remains slightly below unchanged seed42.",
+  "created_at_utc": "2026-10-08T22:53:09.993967+00:00",
+  "decision": "Retain both final adapters as research evidence; keep seed42 as reference; do not scale this recipe to GPU on these results.",
+  "evaluation_scope": "All six reused contexts are DEVELOPMENT only; no fresh confirmatory set was ready.",
+  "evidence": {
+    "architecture_audit": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/architecture-audit/code-review/TECHNICAL_GO.json",
+      "sha256": "302ec13e3fd49e765a9886540bde8bf1af890c5fce67a39f09088b7e0d59a3c7",
+      "size_bytes": 6184
+    },
+    "code_freeze": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/implementation/code-freeze.json",
+      "sha256": "fd7f5bd5e13227eafd87e1f0e99a192df3824a1fc43e8f06e46b94ac6fcbf550",
+      "size_bytes": 2300
+    },
+    "configuration": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/EXPERIMENT_CONFIG.json",
+      "sha256": "03b98f44ad8ff001078831be1c634abd46706bd72c2a232ec15a40a9e0f6277f",
+      "size_bytes": 2131
+    },
+    "data_audit": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/data-audit/DATA_AUDIT.md",
+      "sha256": "a92e45c86537b2f40e527b0a30befa5cd89fa3a8ccb6e5ae22f1e17c98633893",
+      "size_bytes": 10482
+    },
+    "design": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/RESEARCH_DESIGN.md",
+      "sha256": "00a0e9a0860848153a7b1faa857a5210c8ff4abdb463a1ff691f40e3a7925f61",
+      "size_bytes": 11682
+    },
+    "development": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/implementation/run/development-results.json",
+      "sha256": "6330407aeb9337fe7aeb47abf0640288bb88f6d9cbc48c5c851d7ad55aeb2f40",
+      "size_bytes": 3829
+    },
+    "execution_GO": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/EXECUTION_GO.json",
+      "sha256": "fc5a4780765d3329fce82b7659559485c8c8e35b0e1767c9dc52f9928fa67a7d",
+      "size_bytes": 2102
+    },
+    "independent_development": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/independent-review/development-v1/verification.json",
+      "sha256": "dd1f50de6355dc428bccd5bb772fba3e5af5110f79df1b739a8332db54feee05",
+      "size_bytes": 60570
+    },
+    "independent_report_arithmetic": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/independent-review/publication-review/comparison-v1/comparison.json",
+      "sha256": "398b9e7dd2f0e4c308af4e0318d2df9040e552e065b6d98fad7c7dffdfa8548a",
+      "size_bytes": 1217
+    },
+    "independent_review": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/independent-review/verification.json",
+      "sha256": "622e81c5abd9a061c6bbdfc64e737ccad7efbf2f5d2b5749a2f867a77b36fc96",
+      "size_bytes": 4473
+    },
+    "independent_seal": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/independent-review/retention-manifest.json",
+      "sha256": "a1491a8b74ae859aa259135b62a4c62c69ae3804227b6831e2d0b1d750f6ed10",
+      "size_bytes": 6468
+    },
+    "independent_training": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/independent-review/training-v2/verification.json",
+      "sha256": "a8a69222639c2e7a883731f977cfc15c19d22d2401f6e9d3fe39749e78887a5f",
+      "size_bytes": 214872
+    },
+    "metrics": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/analysis/metrics.json",
+      "sha256": "d2995ff521a87255ad0cb2d991ebc15f0134f4cd7b84e1278361c3d13dffd662",
+      "size_bytes": 45141
+    },
+    "next_study": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "563ba1e3fc8a697f1e32a752aaaf65453ffb0cfd72d18896da6166bdcdebb6cb",
+      "size_bytes": 3024
+    },
+    "plan": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/implementation/final-plan/experiment-plan.json",
+      "sha256": "56ca740a723de5c6702165d8a2ed409b53f0e19849587c051bbcbb6368e98035",
+      "size_bytes": 24662
+    },
+    "presentation": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/figures/presentation-receipt.json",
+      "sha256": "edbffba30a69b1a3aa1d7df99cf3239e22be24c531593ba086038305062d0112",
+      "size_bytes": 961
+    },
+    "report": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/RESULTS.md",
+      "sha256": "6d79f94b2aa8956b3cb8921e5a5ee72f624c1f8f4adeb71c0a777d0978159767",
+      "size_bytes": 9731
+    },
+    "root_visual_review": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/ROOT_VISUAL_REVIEW.json",
+      "sha256": "b26f434b22810147a76f197411801cd470a2f96a6cfa4bf82e660c128955afd0",
+      "size_bytes": 770
+    },
+    "runtime": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/runtime-preflight.json",
+      "sha256": "2cf3aa3e3af38d2df84a30ab7e27e735ca899dd9054c5e3ce11ed5837d99bcc3",
+      "size_bytes": 253
+    },
+    "training": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/implementation/run/training-results.json",
+      "sha256": "c2cb84984f3cd7fc2ba0656da901f8d433e22e3119acaafa6c75c5e74ea9f4a5",
+      "size_bytes": 2661
+    }
+  },
+  "feature_screen": {
+    "component_count": 17,
+    "failed_components": {
+      "Paris2_development_ap_advantage": {
+        "margin": -0.0037934593641826787,
+        "passed": false,
+        "required_minimum": 0.005,
+        "value": 0.0012065406358173214
+      },
+      "Paris2_development_auc_advantage": {
+        "margin": -0.0031842692322823175,
+        "passed": false,
+        "required_minimum": 0.005,
+        "value": 0.0018157307677176826
+      },
+      "full_risk_advantage_vs_raw_control": {
+        "margin": -1.3730481507112562e-05,
+        "passed": false,
+        "required_minimum": 0.0001,
+        "value": 8.626951849288744e-05
+      }
+    },
+    "failed_count": 3,
+    "independent_boundary_ambiguities": [],
+    "passed": false,
+    "passed_count": 14
+  },
+  "final_adapter_checkpoints": {
+    "explicit_depth": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/implementation/run/training/explicit_depth/final-adapter.pth",
+      "sha256": "81634e04f7500c3f7b04de5fad87e35f142d47c97608431fa8f85313f1d3db83",
+      "size_bytes": 5721
+    },
+    "raw_control": {
+      "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/implementation/run/training/raw_control/final-adapter.pth",
+      "sha256": "1184ab74bc27cbc2e2576acee13e3eafe40719f77858f768578b497b30e04183",
+      "size_bytes": 5721
+    }
+  },
+  "limitations": [
+    "The joint coordinate/axial-difference feature bundle does not isolate either feature individually.",
+    "Nominal stack indices do not authenticate anatomical depth, physical normal sign or ink location.",
+    "Paris2 is one parent with two fragments; all six inspected contexts are reused development evidence.",
+    "Upstream backbone and teacher training exposure remains incompletely known.",
+    "Manual PHerc0139 targets supplied the objective; historical pseudo arrays supplied identity checks only.",
+    "No conclusion about all depth-aware architectures follows from this 801-parameter, 32-update output-head pilot.",
+    "Independent arithmetic checks do not independently replay convolutional autograd or prove execution history.",
+    "Local retention and a saved draft do not establish backup or fresh-task restoration."
+  ],
+  "new_artifacts_uploaded_to_R2": false,
+  "numerical_execution": {
+    "GPU_seconds": 0,
+    "development_calls": {
+      "adapter_forwards": 300,
+      "backbone_forwards": 0,
+      "backwards": 0,
+      "optimizer_steps": 0,
+      "threshold_fits": 0
+    },
+    "development_controller_wall_seconds": 14.371212883001135,
+    "development_retries": 0,
+    "independent_training_checker_schema_stops": 1,
+    "network_calls": 0,
+    "new_backbone_backwards": 0,
+    "new_backbone_forwards": 0,
+    "new_backbone_loads": 0,
+    "new_backbone_updates": 0,
+    "training_calls": {
+      "adapter_forwards": 384,
+      "backbone_forwards": 0,
+      "backwards": 64,
+      "optimizer_steps": 64,
+      "threshold_fits": 0
+    },
+    "training_controller_wall_seconds": 15.341607665999618,
+    "training_peak_rss_bytes": 744738816,
+    "training_retries": 0
+  },
+  "paid_GPU_spend_GBP": 0,
+  "promoted_model": null,
+  "publication": false,
+  "purpose": "Matched explicit-depth versus raw-neighbor output-residual experiment on frozen cached seed42 logits",
+  "schema_version": 1,
+  "status": "completed_independently_verified",
+  "threshold": 0.7558947205543518,
+  "total_first_GPU_pilot_cap_GBP": 10,
+  "training_metrics": {
+    "explicit_depth": {
+      "final": {
+        "base": 0.596571646630764,
+        "full": 0.5966640335314319,
+        "hard_bce": 0.32448238087818027,
+        "kl": 9.238690066798658e-05,
+        "probability_drift_manual": 0.0042580025501939515
+      },
+      "final_adapter_state_sha256": "0c35f9ff162dc90742d1f2ef2714b595b4cad2d71379be0ab04221d8881b37e3",
+      "fixed_updates": {
+        "1": {
+          "base": 0.5965956170111895,
+          "full": 0.5967281705653344,
+          "hard_bce": 0.3236488192342222,
+          "kl": 0.00013255355414504275,
+          "probability_drift_manual": 0.005351790054444219
+        },
+        "16": {
+          "base": 0.5963072385638952,
+          "full": 0.5969694380634322,
+          "hard_bce": 0.3212432377040386,
+          "kl": 0.0006621994995369352,
+          "probability_drift_manual": 0.012505268107581664
+        },
+        "32": {
+          "base": 0.596571646630764,
+          "full": 0.5966640335314319,
+          "hard_bce": 0.32448238087818027,
+          "kl": 9.238690066798658e-05,
+          "probability_drift_manual": 0.0042580025501939515
+        },
+        "8": {
+          "base": 0.5968625582754612,
+          "full": 0.5970187562703602,
+          "hard_bce": 0.3272960870526731,
+          "kl": 0.00015619799489895484,
+          "probability_drift_manual": 0.0059197229640412215
+        }
+      },
+      "improvement": {
+        "base": 0.0005055274814367294,
+        "full": 0.00041314058076880045
+      },
+      "initial": {
+        "base": 0.5970771741122007,
+        "full": 0.5970771741122007,
+        "hard_bce": 0.325393246486783,
+        "kl": 0.0,
+        "probability_drift_manual": 0.0
+      }
+    },
+    "raw_control": {
+      "final": {
+        "base": 0.5961142741143703,
+        "full": 0.5967503030499248,
+        "hard_bce": 0.3221653182990849,
+        "kl": 0.0006360289355544296,
+        "probability_drift_manual": 0.01220103929360015
+      },
+      "final_adapter_state_sha256": "1fdddaeaa29906b839a2fa5dff9777c02a5d58495e395988e95b8c213b8a2731",
+      "fixed_updates": {
+        "1": {
+          "base": 0.5965570379048586,
+          "full": 0.597930607034674,
+          "hard_bce": 0.3189816097728908,
+          "kl": 0.0013735691298154221,
+          "probability_drift_manual": 0.019024926982467327
+        },
+        "16": {
+          "base": 0.5963136702775955,
+          "full": 0.596711790261717,
+          "hard_bce": 0.3222063072025776,
+          "kl": 0.0003981199841214515,
+          "probability_drift_manual": 0.010017249400644645
+        },
+        "32": {
+          "base": 0.5961142741143703,
+          "full": 0.5967503030499248,
+          "hard_bce": 0.3221653182990849,
+          "kl": 0.0006360289355544296,
+          "probability_drift_manual": 0.01220103929360015
+        },
+        "8": {
+          "base": 0.5967560224235058,
+          "full": 0.5967949702840303,
+          "hard_bce": 0.3252600743435323,
+          "kl": 3.894786052446952e-05,
+          "probability_drift_manual": 0.002750800333285519
+        }
+      },
+      "improvement": {
+        "base": 0.0009628999978303909,
+        "full": 0.000326871062275913
+      },
+      "initial": {
+        "base": 0.5970771741122007,
+        "full": 0.5970771741122007,
+        "hard_bce": 0.325393246486783,
+        "kl": 0.0,
+        "probability_drift_manual": 0.0
+      }
+    }
+  },
+  "transcription": null,
+  "translation": null
+}

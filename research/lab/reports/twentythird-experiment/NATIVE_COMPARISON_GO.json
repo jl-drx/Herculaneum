@@ -1,0 +1,27 @@
+{
+  "GPU_spend_GBP": 0,
+  "checker_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/independent-review/CHECKER_FREEZE.json",
+    "sha256": "232d50c316645231d610255f6a9a059bf5870aeacb0104e2a669f2d68df4fdca",
+    "size_bytes": 3365
+  },
+  "code_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/implementation/CODE_FREEZE.json",
+    "sha256": "d11886594a4a2bdb9354c5e72c7eed93727fc372f567495e002b7a70b4273561",
+    "size_bytes": 2100
+  },
+  "created_at_utc": "2026-10-09T05:33:36.417434+00:00",
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/implementation/PLAN.json",
+    "sha256": "5209c94c59c0746883ce6bc1d8da90a066955db0c2339c5a7ecd407902aa71a7",
+    "size_bytes": 6787
+  },
+  "scope": "One strict native load and150fixed CPU forwards; frozen saved-output analysis; seed42 reuse accepted from exact input audit; no training/network/GPU/automatic retry",
+  "status": "GO",
+  "technical_review": {
+    "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/independent-review/TECHNICAL_GO.json",
+    "sha256": "76109034be84bfc78e7fb54a3498f510aa8557113dc432f801d1c0bcb47d1b93",
+    "size_bytes": 1003
+  },
+  "total_first_GPU_pilot_cap_GBP": 10
+}

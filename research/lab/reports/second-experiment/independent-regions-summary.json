@@ -1,0 +1,310 @@
+{
+  "selection_plan_sha256": "32741ba9d330940f077129e07e1d6e33f844824fa9d1b589de15592643ff01c2",
+  "selection_plan_frozen_at_utc": "2026-10-08T06:18:53.361870+00:00",
+  "summary_domain": "central128 AND geometry-valid AND both seeds evaluated AND any observed raw selected-depth data",
+  "raw_midpoint_threshold": 0.5,
+  "threshold_is_not_accuracy_or_authenticity": true,
+  "shared_source_display_limits": {
+    "lower": 0.0,
+    "upper": 155.0,
+    "derivation": "global1/99percentiles of geometry-valid full-field pixels in layers11,15,19"
+  },
+  "model_display": "clip((p-.25)/.5,0,1), same[0,1]scale in every model panel; all summaries use raw unscaled scores",
+  "contexts": [
+    {
+      "id": "independent-01",
+      "bbox_source_xywh": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "selection_geometry_valid_fraction": 1.0,
+      "selection_observed_fraction_among_geometry_valid": 1.0,
+      "central_source_xywh": [
+        320,
+        576,
+        128,
+        128
+      ],
+      "central_common_pixel_count": 16384,
+      "central_possible_pixel_count": 16384,
+      "seed_summaries": {
+        "seed42": {
+          "count": 16384,
+          "minimum": 0.25099825859069824,
+          "maximum": 0.4146419167518616,
+          "mean": 0.30302074551582336,
+          "std": 0.03016575239598751,
+          "percentiles_1_50_99": [
+            0.26207521885633467,
+            0.2935311198234558,
+            0.384236533343792
+          ],
+          "above_midpoint_count": 0,
+          "above_midpoint_fraction": 0.0
+        },
+        "seed43": {
+          "count": 16384,
+          "minimum": 0.22676561772823334,
+          "maximum": 0.32296818494796753,
+          "mean": 0.2671547532081604,
+          "std": 0.010316052474081516,
+          "percentiles_1_50_99": [
+            0.24816294610500336,
+            0.2653326243162155,
+            0.30166576385498045
+          ],
+          "above_midpoint_count": 0,
+          "above_midpoint_fraction": 0.0
+        }
+      },
+      "context_consistency_vs_full_field": {
+        "seed42": {
+          "pixel_count": 16384,
+          "maximum_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0,
+          "bitwise_equal_on_common_pixels": true
+        },
+        "seed43": {
+          "pixel_count": 16384,
+          "maximum_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0,
+          "bitwise_equal_on_common_pixels": true
+        }
+      },
+      "inference_seconds_by_seed": {
+        "seed42": 1.4743161920014245,
+        "seed43": 1.4017983009980526
+      },
+      "minimum_seed_score_summary": {
+        "count": 16384,
+        "minimum": 0.22676561772823334,
+        "maximum": 0.3182789087295532,
+        "mean": 0.2662543058395386,
+        "std": 0.009000072255730629,
+        "percentiles_1_50_99": [
+          0.24816294610500336,
+          0.2650248408317566,
+          0.29587823450565337
+        ],
+        "above_midpoint_count": 0,
+        "above_midpoint_fraction": 0.0
+      },
+      "absolute_seed_difference": {
+        "count": 16384,
+        "minimum": 4.6193599700927734e-06,
+        "maximum": 0.15309913456439972,
+        "mean": 0.03766690194606781,
+        "std": 0.028803633525967598,
+        "percentiles_1_50_99": [
+          0.0007555139064788818,
+          0.029772639274597168,
+          0.11712879061698914
+        ],
+        "above_midpoint_count": 0,
+        "above_midpoint_fraction": 0.0
+      },
+      "central_geometry_valid_pixels": 16384,
+      "central_geometry_observed_pixels": 16384,
+      "pearson_seed_score_correlation": 0.08727739213326724
+    },
+    {
+      "id": "independent-02",
+      "bbox_source_xywh": [
+        512,
+        192,
+        256,
+        256
+      ],
+      "selection_geometry_valid_fraction": 0.9892578125,
+      "selection_observed_fraction_among_geometry_valid": 0.9922877591312932,
+      "central_source_xywh": [
+        576,
+        256,
+        128,
+        128
+      ],
+      "central_common_pixel_count": 16384,
+      "central_possible_pixel_count": 16384,
+      "seed_summaries": {
+        "seed42": {
+          "count": 16384,
+          "minimum": 0.23747949302196503,
+          "maximum": 0.3989908993244171,
+          "mean": 0.2737058401107788,
+          "std": 0.025541143491864204,
+          "percentiles_1_50_99": [
+            0.24636035472154616,
+            0.2663881480693817,
+            0.37230219185352326
+          ],
+          "above_midpoint_count": 0,
+          "above_midpoint_fraction": 0.0
+        },
+        "seed43": {
+          "count": 16384,
+          "minimum": 0.19910775125026703,
+          "maximum": 0.34877926111221313,
+          "mean": 0.26074373722076416,
+          "std": 0.015440328046679497,
+          "percentiles_1_50_99": [
+            0.23089618757367134,
+            0.2586929351091385,
+            0.30693835735321046
+          ],
+          "above_midpoint_count": 0,
+          "above_midpoint_fraction": 0.0
+        }
+      },
+      "context_consistency_vs_full_field": {
+        "seed42": {
+          "pixel_count": 16384,
+          "maximum_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0,
+          "bitwise_equal_on_common_pixels": true
+        },
+        "seed43": {
+          "pixel_count": 16384,
+          "maximum_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0,
+          "bitwise_equal_on_common_pixels": true
+        }
+      },
+      "inference_seconds_by_seed": {
+        "seed42": 1.7338269089996174,
+        "seed43": 1.528565863998665
+      },
+      "minimum_seed_score_summary": {
+        "count": 16384,
+        "minimum": 0.19910775125026703,
+        "maximum": 0.34877926111221313,
+        "mean": 0.2575938105583191,
+        "std": 0.012881600297987461,
+        "percentiles_1_50_99": [
+          0.23089618757367134,
+          0.25644174218177795,
+          0.2976953816413879
+        ],
+        "above_midpoint_count": 0,
+        "above_midpoint_fraction": 0.0
+      },
+      "absolute_seed_difference": {
+        "count": 16384,
+        "minimum": 1.4901161193847656e-07,
+        "maximum": 0.12251734733581543,
+        "mean": 0.0192619226872921,
+        "std": 0.018203774467110634,
+        "percentiles_1_50_99": [
+          0.00023975402116775517,
+          0.013183429837226868,
+          0.0829960259795189
+        ],
+        "above_midpoint_count": 0,
+        "above_midpoint_fraction": 0.0
+      },
+      "central_geometry_valid_pixels": 16384,
+      "central_geometry_observed_pixels": 16384,
+      "pearson_seed_score_correlation": 0.45183135760090476
+    },
+    {
+      "id": "independent-03",
+      "bbox_source_xywh": [
+        0,
+        320,
+        256,
+        256
+      ],
+      "selection_geometry_valid_fraction": 0.666748046875,
+      "selection_observed_fraction_among_geometry_valid": 0.9551446356645917,
+      "central_source_xywh": [
+        64,
+        384,
+        128,
+        128
+      ],
+      "central_common_pixel_count": 12796,
+      "central_possible_pixel_count": 16384,
+      "seed_summaries": {
+        "seed42": {
+          "count": 12796,
+          "minimum": 0.24103906750679016,
+          "maximum": 0.6390771269798279,
+          "mean": 0.3288390338420868,
+          "std": 0.07719576358795166,
+          "percentiles_1_50_99": [
+            0.2578460559248924,
+            0.3035980761051178,
+            0.5870030015707016
+          ],
+          "above_midpoint_count": 830,
+          "above_midpoint_fraction": 0.06486402000625195
+        },
+        "seed43": {
+          "count": 12796,
+          "minimum": 0.22282521426677704,
+          "maximum": 0.7085149884223938,
+          "mean": 0.44606027007102966,
+          "std": 0.14561240375041962,
+          "percentiles_1_50_99": [
+            0.2355918437242508,
+            0.4376753717660904,
+            0.6878393232822418
+          ],
+          "above_midpoint_count": 5203,
+          "above_midpoint_fraction": 0.40661144107533603
+        }
+      },
+      "context_consistency_vs_full_field": {
+        "seed42": {
+          "pixel_count": 12796,
+          "maximum_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0,
+          "bitwise_equal_on_common_pixels": true
+        },
+        "seed43": {
+          "pixel_count": 12796,
+          "maximum_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0,
+          "bitwise_equal_on_common_pixels": true
+        }
+      },
+      "inference_seconds_by_seed": {
+        "seed42": 1.8070677719988453,
+        "seed43": 1.4167861530004302
+      },
+      "minimum_seed_score_summary": {
+        "count": 12796,
+        "minimum": 0.22282521426677704,
+        "maximum": 0.6345220804214478,
+        "mean": 0.3216511607170105,
+        "std": 0.0796605721116066,
+        "percentiles_1_50_99": [
+          0.2355918437242508,
+          0.2973678410053253,
+          0.5855024933815002
+        ],
+        "above_midpoint_count": 830,
+        "above_midpoint_fraction": 0.06486402000625195
+      },
+      "absolute_seed_difference": {
+        "count": 12796,
+        "minimum": 5.8710575103759766e-06,
+        "maximum": 0.4368577003479004,
+        "mean": 0.13159698247909546,
+        "std": 0.12130778282880783,
+        "percentiles_1_50_99": [
+          0.0011338591575622559,
+          0.08877398073673248,
+          0.42031469941139216
+        ],
+        "above_midpoint_count": 0,
+        "above_midpoint_fraction": 0.0
+      },
+      "central_geometry_valid_pixels": 13632,
+      "central_geometry_observed_pixels": 12796,
+      "pearson_seed_score_correlation": 0.3945332593877487
+    }
+  ],
+  "analysis_code_sha256": "8c737ac2b7ccdac163d4e2ad6b3b2a8513bb0a5aec9827143ad94231e1c482b6"
+}

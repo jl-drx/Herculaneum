@@ -1,0 +1,20 @@
+{
+  "after_report": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/RESULTS.md",
+    "sha256": "30ab4d34d3d9f350643d3ee9212598d61dc62ba1c76bcd87d224c1b3a66ddf7c",
+    "size_bytes": 10167
+  },
+  "before_report": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/RESULTS.md",
+    "sha256": "8f3115e65cc089c5725f411e9e7dd26bfe66aae65c5655de20cda95d890d7c0a",
+    "size_bytes": 10111
+  },
+  "corrections": [
+    "Bound loss error by 9.81e-8 rather than 9.80e-8; exact error 9.802064326880355e-8",
+    "Specify zero-initialized projections; stems randomly initialized"
+  ],
+  "mode": "Read-only root report consistency review; no new numerical/model tests",
+  "reviewer": "fusion_numerical_review",
+  "root_bindings_refreshed_before_seal": true,
+  "status": "PASS"
+}

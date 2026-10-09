@@ -1,0 +1,268 @@
+{
+  "GO": {
+    "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/CENSOR_STRESS_GO.json",
+    "sha256": "a34688b0d690274237fb45f80d25f99dca778f1c3c41ba1913a5d2e786f7409a",
+    "size_bytes": 2805
+  },
+  "advisory_accepts_outside_search": 0,
+  "analytic_cases_verified": 22,
+  "cases": [
+    {
+      "absolute_error": 4.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 5.5,
+      "reverse": false,
+      "search_censored": true,
+      "split": 1,
+      "true_boundary": 1.5
+    },
+    {
+      "absolute_error": 4.0,
+      "accepted": false,
+      "advisory_usable": false,
+      "candidate": 5.5,
+      "reverse": true,
+      "search_censored": false,
+      "split": 1,
+      "true_boundary": 1.5
+    },
+    {
+      "absolute_error": 2.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 5.5,
+      "reverse": false,
+      "search_censored": true,
+      "split": 3,
+      "true_boundary": 3.5
+    },
+    {
+      "absolute_error": 2.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 5.5,
+      "reverse": true,
+      "search_censored": true,
+      "split": 3,
+      "true_boundary": 3.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 5.5,
+      "reverse": false,
+      "search_censored": true,
+      "split": 5,
+      "true_boundary": 5.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 5.5,
+      "reverse": true,
+      "search_censored": true,
+      "split": 5,
+      "true_boundary": 5.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 6.5,
+      "reverse": false,
+      "search_censored": false,
+      "split": 6,
+      "true_boundary": 6.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 6.5,
+      "reverse": true,
+      "search_censored": false,
+      "split": 6,
+      "true_boundary": 6.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 16.5,
+      "reverse": false,
+      "search_censored": false,
+      "split": 16,
+      "true_boundary": 16.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 16.5,
+      "reverse": true,
+      "search_censored": false,
+      "split": 16,
+      "true_boundary": 16.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 32.5,
+      "reverse": false,
+      "search_censored": false,
+      "split": 32,
+      "true_boundary": 32.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 32.5,
+      "reverse": true,
+      "search_censored": false,
+      "split": 32,
+      "true_boundary": 32.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 47.5,
+      "reverse": false,
+      "search_censored": false,
+      "split": 47,
+      "true_boundary": 47.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 47.5,
+      "reverse": true,
+      "search_censored": false,
+      "split": 47,
+      "true_boundary": 47.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 57.5,
+      "reverse": false,
+      "search_censored": false,
+      "split": 57,
+      "true_boundary": 57.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": true,
+      "candidate": 57.5,
+      "reverse": true,
+      "search_censored": false,
+      "split": 57,
+      "true_boundary": 57.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 58.5,
+      "reverse": false,
+      "search_censored": true,
+      "split": 58,
+      "true_boundary": 58.5
+    },
+    {
+      "absolute_error": 0.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 58.5,
+      "reverse": true,
+      "search_censored": true,
+      "split": 58,
+      "true_boundary": 58.5
+    },
+    {
+      "absolute_error": 2.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 58.5,
+      "reverse": false,
+      "search_censored": true,
+      "split": 60,
+      "true_boundary": 60.5
+    },
+    {
+      "absolute_error": 2.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 58.5,
+      "reverse": true,
+      "search_censored": true,
+      "split": 60,
+      "true_boundary": 60.5
+    },
+    {
+      "absolute_error": 4.0,
+      "accepted": false,
+      "advisory_usable": false,
+      "candidate": 58.5,
+      "reverse": false,
+      "search_censored": false,
+      "split": 62,
+      "true_boundary": 62.5
+    },
+    {
+      "absolute_error": 4.0,
+      "accepted": true,
+      "advisory_usable": false,
+      "candidate": 58.5,
+      "reverse": true,
+      "search_censored": true,
+      "split": 62,
+      "true_boundary": 62.5
+    }
+  ],
+  "created_at_utc": "2026-10-09T11:43:06.081257+00:00",
+  "elapsed_seconds": 0.08789793400001145,
+  "no_physical_surface_truth": true,
+  "original_accepts_outside_search": 6,
+  "original_maps_unchanged": true,
+  "peak_RSS_bytes": 49221632,
+  "real_baseline_counts": [
+    {
+      "censored": 841,
+      "context": "r544-c4128",
+      "nonendpoint_accepted": 6849,
+      "original_accepted": 7690,
+      "original_support": 14400
+    },
+    {
+      "censored": 622,
+      "context": "r2080-c3616",
+      "nonendpoint_accepted": 6298,
+      "original_accepted": 6920,
+      "original_support": 14400
+    },
+    {
+      "censored": 491,
+      "context": "r4640-c1056",
+      "nonendpoint_accepted": 6991,
+      "original_accepted": 7482,
+      "original_support": 14400
+    },
+    {
+      "censored": 592,
+      "context": "r6688-c1568",
+      "nonendpoint_accepted": 6841,
+      "original_accepted": 7433,
+      "original_support": 14400
+    }
+  ],
+  "status": "COMPLETED_LIMITATION_CONFIRMED"
+}

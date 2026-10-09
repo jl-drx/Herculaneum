@@ -1,0 +1,146 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "all_evaluation_regions_reused_development": true,
+  "baseline_promoted": false,
+  "blended_score_pixels_verified": 2359296,
+  "combined_scientific_wall_seconds": 591.1435889229997,
+  "completed_training_arms": 1,
+  "created_at_utc": "2026-10-09T13:12:05.787858+00:00",
+  "decision": "Preserve seed42/full input; no promotion, extension or GPU; fixed reduced-prediction-change comparator proposed before source-region replication",
+  "development_single_tile_forwards": 200,
+  "evidence": {
+    "DATA_AUDIT.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/DATA_AUDIT.json",
+      "sha256": "26e41b98c1e6e37ffe94065eded9cb028228ce2345e13886b8120c210352747b",
+      "size_bytes": 6502
+    },
+    "DATA_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/DATA_VERIFICATION.json",
+      "sha256": "f3670a6cf54236af142e7f0c1cbbb368b2a2b00a18688dee49ac55c5a0775096",
+      "size_bytes": 493
+    },
+    "EVALUATION_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/EVALUATION_VERIFICATION.json",
+      "sha256": "21b2321cb3baa3883c9f957e1a878dc2c83518103bd6882965ceda8c2f85f203",
+      "size_bytes": 872
+    },
+    "FIGURES.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/FIGURES.json",
+      "sha256": "ded4993b601d4e80ed195b49426bab8914b0cae39fc8e8f9c64048a3094dd323",
+      "size_bytes": 699
+    },
+    "GO-V2.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/GO-V2.json",
+      "sha256": "c966fa26f95220d2a87d527ccea9e55515536de67ce257abb56780ffbc2f221c",
+      "size_bytes": 96987
+    },
+    "GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/GO.json",
+      "sha256": "ea7b44c0e8375769de64080484bb5469919af78b2cf83d7f25b2383cf5588c17",
+      "size_bytes": 93928
+    },
+    "METRICS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/METRICS.json",
+      "sha256": "6e8624d3cb9b58e03f13f6b0072d788aef0d6430f34b77f73aaaecbfa1c93d48",
+      "size_bytes": 33095
+    },
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "41d269b6b52a25223f1c1263db9b6b6439c99cdd685ae6c494ea4e3e74d1dc73",
+      "size_bytes": 3033
+    },
+    "PLAN-V2.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/PLAN-V2.json",
+      "sha256": "07329f32572c5e876f1b76adc53753bf677ade5bcdb3839aac266081144c2ee1",
+      "size_bytes": 138679
+    },
+    "PLAN.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/PLAN.json",
+      "sha256": "aeec3e8bfa0b26436b7eb71d5cd40a11fa0ac566428e639041932e2083fc9470",
+      "size_bytes": 138653
+    },
+    "PREFLIGHT_CORRECTION.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/PREFLIGHT_CORRECTION.json",
+      "sha256": "5996d8cf2fab56a01afab75b5a5dc3cc5f78f6f987a02748948ba0c42deb5e05",
+      "size_bytes": 724
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/PROTOCOL.md",
+      "sha256": "55037992c921845ba5b357e0ea538830dacdeee92577d6f791167edaea6c349d",
+      "size_bytes": 8070
+    },
+    "REFERENCE_STATUS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/REFERENCE_STATUS.json",
+      "sha256": "dd95678aa642cd5c6c0b76ad45bd8ef79aa69c3b9268dfbd2e9d4245e422543d",
+      "size_bytes": 1143
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/RESULTS.md",
+      "sha256": "f0ae5310da746e9fbce31af11608b2e4ba6cc94d3a679222727460b77014f7f9",
+      "size_bytes": 10766
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "e2fbba42e248bf725145b987786503176f18467f57b80a986c27cd9fb1d1e2b4",
+      "size_bytes": 2304
+    },
+    "STARTUP_AFTER_THIRTYEIGHTH.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/STARTUP_AFTER_THIRTYEIGHTH.md",
+      "sha256": "fb42259880e4a8a9325de3b32bb4ea4eb07c5eb2bd9c0c3f46dcba5b4efd37a0",
+      "size_bytes": 4583
+    },
+    "TEST_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/TEST_RECEIPT.json",
+      "sha256": "ee0ed0892a4566fbbc9fb6a27754c13d8f1dd81940483a1a8bcc6acc73ed99f2",
+      "size_bytes": 139
+    },
+    "TRAINING_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/TRAINING_VERIFICATION.json",
+      "sha256": "9de2709cbae938184ea800048552d45e0460bc9183fae5d708269c8e8734d17f",
+      "size_bytes": 781
+    },
+    "run-v1/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/run-v1/COMPLETE.json",
+      "sha256": "f5c48bed62e87a1a170d8ca32ca248f2df146d1ba603a917ab17830c2b195f69",
+      "size_bytes": 3372
+    },
+    "run-v1/teacher/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/run-v1/teacher/COMPLETE.json",
+      "sha256": "c8fc0ad79f67734386341162258cc8679b0869b4ea4cd2c19e6b7c8660315be6",
+      "size_bytes": 1252
+    }
+  },
+  "fixtures_errors": 0,
+  "fixtures_failed": 0,
+  "fixtures_passed": 7,
+  "fixtures_skipped": 0,
+  "full_17_plane_contract_retained": true,
+  "independent_ink_accuracy_established": false,
+  "network_requests": 0,
+  "new_artifacts_uploaded_to_r2": false,
+  "optimizer_updates": 512,
+  "outreach": false,
+  "per_update_positive_and_negative_exposures_exactly_matched": true,
+  "prelaunch_metadata_correction": true,
+  "publication": false,
+  "rank_values_verified": 48,
+  "retention_scope": "Local bytes; no external backup or restoration proof",
+  "reused_control": "phase37 A_control-512",
+  "schema_version": 1,
+  "scientific_model_forwards": 937,
+  "scientific_retries": 0,
+  "scientific_run_attempts": 1,
+  "screen_passed": false,
+  "status": "completed_verified_retention_pass_primary_gain_fail",
+  "submission": false,
+  "teacher_batch_two_forwards": 32,
+  "training_batch_two_forwards": 705,
+  "training_scalar_values_verified": 4608,
+  "transcription": null,
+  "translation": null,
+  "unique_training_pixels_after": 110014,
+  "unique_training_pixels_before": 54701,
+  "wall_cap_seconds": 1800,
+  "worker_RSS_cap_bytes": 4294967296
+}
