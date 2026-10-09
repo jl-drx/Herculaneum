@@ -1,0 +1,221 @@
+{
+  "revision": "e8370f1f88a211166056df62ea6fcfffe4a1063e",
+  "files": [
+    {
+      "path": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "278af0bc7807e480367a353aea9c9f863aba39d732b70850c01addd9e7c83016"
+    },
+    {
+      "path": "README.md",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/README.md",
+      "size_bytes": 3868,
+      "sha256": "2be15c8d1cf6d3db49d051454687360f522a5673052cd40ae3ad93ccdc7c6299"
+    },
+    {
+      "path": "ink/Dockerfile",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/Dockerfile",
+      "size_bytes": 4857,
+      "sha256": "274f063d9cd3591d48b4039a8816894b0eeb8640e5164768846d65053c246e03"
+    },
+    {
+      "path": "ink/models.tsv",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/models.tsv",
+      "size_bytes": 1384,
+      "sha256": "76107f057837b7b90f3fb8b2bd84aed07d67bb77a4d297eea8bf0eed6e4351e4"
+    },
+    {
+      "path": "ink/scripts/ensemble_maps.py",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/scripts/ensemble_maps.py",
+      "size_bytes": 10912,
+      "sha256": "eb5b8b48f5b51605b8896842c8b45018a29772f83ce06482b74e7586b9e24930"
+    },
+    {
+      "path": "ink/scripts/fetch_checkpoints.sh",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/scripts/fetch_checkpoints.sh",
+      "size_bytes": 2702,
+      "sha256": "5d518d662e9b6e344ce860b48259c5ed577abe7e4bb8e11d95860f412e02e203"
+    },
+    {
+      "path": "ink/scripts/hecate_prep.py",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/scripts/hecate_prep.py",
+      "size_bytes": 4789,
+      "sha256": "8249994e6da8d29a1c4005c518450456f570642da03531f10a874ee97f2e4a5a"
+    },
+    {
+      "path": "ink/scripts/make_submission_image.py",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/scripts/make_submission_image.py",
+      "size_bytes": 166287,
+      "sha256": "bec774b007c6c108be0fe14b96cd763f7fe2b5f8c469d3660ae47d4fa068fa5c"
+    },
+    {
+      "path": "ink/scripts/merge_tile_phase.py",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/scripts/merge_tile_phase.py",
+      "size_bytes": 3702,
+      "sha256": "6eda2605df10dd9e066350f4c9bac8083671f153aa54f2b7bee8f759b043dc20"
+    },
+    {
+      "path": "ink/scripts/pad_render.py",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/scripts/pad_render.py",
+      "size_bytes": 2637,
+      "sha256": "962c9f7b01b8f5fb99d3aefc75fe56a78bba31f7632747544f0816f5e37d6271"
+    },
+    {
+      "path": "ink/scripts/rebuild_dense_native_pth.py",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/scripts/rebuild_dense_native_pth.py",
+      "size_bytes": 1348,
+      "sha256": "39e64f57be76706c19a8cdcfc04c47131077e4c9dc1bb10e07e3449642de4db9"
+    },
+    {
+      "path": "ink/scripts/run_depth_sweep.sh",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/scripts/run_depth_sweep.sh",
+      "size_bytes": 2590,
+      "sha256": "ba0dd7c5cd1db44fbc8256b354d2c07795f2c2ad98ee351d47254f4cd3372ad0"
+    },
+    {
+      "path": "ink/scripts/run_ink.sh",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/ink/scripts/run_ink.sh",
+      "size_bytes": 4888,
+      "sha256": "c9bb53912f54786ba1bcfa40d16e811bb5a52054cfb12926dc52b700fc51d034"
+    },
+    {
+      "path": "inputs/concat_w047-w048_R5B2_z9500-11000_letter_boxes.json",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/inputs/concat_w047-w048_R5B2_z9500-11000_letter_boxes.json",
+      "size_bytes": 2461,
+      "sha256": "d431a5db05dccc811d2fbf5205c1c068c9121a46d7a676ef1967f4c192d3aad1"
+    },
+    {
+      "path": "inputs/concat_w047-w048_R5B2_z9500-11000_rows.json",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/inputs/concat_w047-w048_R5B2_z9500-11000_rows.json",
+      "size_bytes": 323,
+      "sha256": "adfb7680a8b083d896b0c806a8df7dfa4f305439170c25c9d124405523c757bd"
+    },
+    {
+      "path": "inputs/umbilicus_PHerc0343.json",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/inputs/umbilicus_PHerc0343.json",
+      "size_bytes": 7736,
+      "sha256": "e05a0a6237462de6f1930e7c7c2f468846869f3617a1798a528c69c047cd0ebe"
+    },
+    {
+      "path": "mesh/README.md",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/mesh/README.md",
+      "size_bytes": 2110,
+      "sha256": "292071f29162673d6180afd670b3f72810126f018f229f8cb97b2dd95d85e900"
+    },
+    {
+      "path": "mesh/build_concat.py",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/mesh/build_concat.py",
+      "size_bytes": 22120,
+      "sha256": "9e5eb5cd2ba925046bf4fc7b19136668a682c44baa1263c90364657da894448d"
+    },
+    {
+      "path": "mesh/fit_spiral_shell_optional.patch",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/mesh/fit_spiral_shell_optional.patch",
+      "size_bytes": 795,
+      "sha256": "a5d9699d4ab48171007600a3f77c109754b6852557d3a9d37672175975468a09"
+    },
+    {
+      "path": "mesh/render_66_layers.sh",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/mesh/render_66_layers.sh",
+      "size_bytes": 1574,
+      "sha256": "ae3a76b6ada4deced5d7149c14c15d9c0e13c746d236b856841098d5b9427294"
+    },
+    {
+      "path": "mesh/snap_meshes.py",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/mesh/snap_meshes.py",
+      "size_bytes": 10740,
+      "sha256": "253e48b31072be8c95b890715b80e90e4efbb34b5b0687a63b7d4a0a7a87857d"
+    },
+    {
+      "path": "outputs/SHA256SUMS",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/SHA256SUMS",
+      "size_bytes": 1689,
+      "sha256": "d35da893e3a4865f5544e476c5ba590bfc42f6e54a2d9a586b9a0def5e641969"
+    },
+    {
+      "path": "outputs/concat_w047-w048_R5B2_z9500-11000.json",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/concat_w047-w048_R5B2_z9500-11000.json",
+      "size_bytes": 24111,
+      "sha256": "73c52113726e667b3fdf99546a24c9cb31ddb5709d2739d731fa549910bb9684"
+    },
+    {
+      "path": "outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/meta.json",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/meta.json",
+      "size_bytes": 4639,
+      "sha256": "76dce1781a09108632d15711bc75f43ad963aeddf22b1426954b160638f87e7e"
+    },
+    {
+      "path": "outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/x.tif",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/x.tif",
+      "size_bytes": 172304,
+      "sha256": "8f31c8d7bc79ef79a39677274f0f80cbcc4066b5c92b8aa47e8b938b1f9d1fc4"
+    },
+    {
+      "path": "outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/y.tif",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/y.tif",
+      "size_bytes": 172304,
+      "sha256": "7d4161972cb7e90a0d6d8203040c2e515ce6fb29c172091b21facace315545fc"
+    },
+    {
+      "path": "outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/z.tif",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/z.tif",
+      "size_bytes": 172304,
+      "sha256": "04feacf27806f6653d85bb10b53068f0c37cecea209dc739a3b8b3b5c4363c65"
+    },
+    {
+      "path": "outputs/w047_R5B2_z9500-11000.tifxyz/meta.json",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/w047_R5B2_z9500-11000.tifxyz/meta.json",
+      "size_bytes": 4547,
+      "sha256": "2cfc8dbc5356131721545d63b9d0e460c23501589a79c1b5a4f5755cb4e86643"
+    },
+    {
+      "path": "outputs/w047_R5B2_z9500-11000.tifxyz/x.tif",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/w047_R5B2_z9500-11000.tifxyz/x.tif",
+      "size_bytes": 132752,
+      "sha256": "29117616a3174eaf58bf84c0e36df27089d743d5ede184fcba1d1d9c73034e66"
+    },
+    {
+      "path": "outputs/w047_R5B2_z9500-11000.tifxyz/y.tif",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/w047_R5B2_z9500-11000.tifxyz/y.tif",
+      "size_bytes": 132752,
+      "sha256": "505bea6a149b0a9f3b0a291b1544aade93d50883cfd86c9ec5153ed2b9666a8e"
+    },
+    {
+      "path": "outputs/w047_R5B2_z9500-11000.tifxyz/z.tif",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/w047_R5B2_z9500-11000.tifxyz/z.tif",
+      "size_bytes": 132752,
+      "sha256": "0a9ef23fc0c2a24717aa099ec20659f21444f5153096d04fb295789f64ffa141"
+    },
+    {
+      "path": "outputs/w048_R5B2_z9500-11000.tifxyz/meta.json",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/w048_R5B2_z9500-11000.tifxyz/meta.json",
+      "size_bytes": 4552,
+      "sha256": "e8cf5c663b185e6db7941eeedb894cdf205ce4ed51a5ce369d677b3dc9ca87d9"
+    },
+    {
+      "path": "outputs/w048_R5B2_z9500-11000.tifxyz/x.tif",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/w048_R5B2_z9500-11000.tifxyz/x.tif",
+      "size_bytes": 139508,
+      "sha256": "4beb95abe7014146aebb58aca9c1e0a7e41a3d5fcd5c30dfd1a1d11b2b1413ec"
+    },
+    {
+      "path": "outputs/w048_R5B2_z9500-11000.tifxyz/y.tif",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/w048_R5B2_z9500-11000.tifxyz/y.tif",
+      "size_bytes": 139508,
+      "sha256": "306f3374db29c41793d5d77bbd28a3e3bf78bf6c3f5f7c09b14d0efdb75722cb"
+    },
+    {
+      "path": "outputs/w048_R5B2_z9500-11000.tifxyz/z.tif",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/outputs/w048_R5B2_z9500-11000.tifxyz/z.tif",
+      "size_bytes": 139508,
+      "sha256": "173d5040e20ae8c0106a152d70b7aa005463df54a4ce2b7d2abfea93d1719cec"
+    },
+    {
+      "path": "reproduce.sh",
+      "source_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/reproduce.sh",
+      "size_bytes": 3210,
+      "sha256": "f77234f4c9865df79edc21730305908f3bdfea3c1f50bbcd63468117f9fb5d72"
+    }
+  ]
+}

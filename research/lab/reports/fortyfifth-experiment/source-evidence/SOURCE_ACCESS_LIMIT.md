@@ -1,0 +1,3 @@
+# Source-access limitation
+
+The official homepage links to https://scrollprize.substack.com/p/first-letters-found-in-new-scroll. A request through the inherited HTTPS proxy on 9 October 2026 was rejected at CONNECT with HTTP403; no page body was obtained, and no alternate network path was attempted. The linked author repository establishes the PHerc343 recipe and claims no model was trained on that volume. The user reports papyrologist readings; an independent official review record was not verified in this turn. These distinctions do not prevent treating the public recipe as a reported positive control for reproduction.

@@ -1,0 +1,1855 @@
+{
+  "elapsed_seconds": 1777.477960258002,
+  "interpretation": "Descriptive checkpoint variability on reused development regions; two seeds do not estimate a reliable training-noise distribution. Temporal checkpoints are correlated, not extra seeds.",
+  "new_forwards": 800,
+  "results": [
+    {
+      "Paris_equal_parent": {
+        "average_precision": 0.28685321555505916,
+        "roc_auc": 0.6738147022400146
+      },
+      "checkpoint": {
+        "embedded_step": 59999,
+        "filename_step_label": 60000,
+        "label": "seed42-60000",
+        "local_path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-step60000.pth",
+        "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-step60000.pth",
+        "repository": "scrollprize/ink_9um",
+        "repository_path": "hybrid_3d2d-seed42/step-060000.pth",
+        "revision": "7109667e2607db1b90c37c8b09cb876ea7fe7bb1",
+        "seed": 42,
+        "sha256": "63cad1fb689a575662b6cc367635ec968ec488b219af12aff0497781488070ab",
+        "size_bytes": 138360039,
+        "source_url": "https://huggingface.co/scrollprize/ink_9um/resolve/7109667e2607db1b90c37c8b09cb876ea7fe7bb1/hybrid_3d2d-seed42/step-060000.pth",
+        "step": 60000
+      },
+      "new_forwards": 200,
+      "parents": {
+        "PHerc0814": {
+          "average_precision": 0.9990796997001763,
+          "roc_auc": 0.999683919432097
+        },
+        "Paris1": {
+          "average_precision": 0.18391545257638012,
+          "roc_auc": 0.6708546749226235
+        },
+        "Paris2": {
+          "average_precision": 0.38979097853373823,
+          "roc_auc": 0.6767747295574057
+        }
+      },
+      "regions": [
+        {
+          "baseline_metrics": {
+            "average_precision": 0.2980778906557112,
+            "roc_auc": 0.870063805889609
+          },
+          "delta": {
+            "average_precision": 0.0039417074812635455,
+            "roc_auc": -0.03669133582076178
+          },
+          "id": "frag3-context1",
+          "input_hashes": [
+            "bfcddf5272b0b6bfba8ffb5ca725ae8df9da0e7577575bb11b46fd76281da99b",
+            "0a37035d78c6b6b8db72f7a5908754c645e3445662fb80e67ae63b5955681801",
+            "e88903551c8ec599de1d2be5ae7ce8a937b01b242a90dfd38566cc8cd1af08ac",
+            "518dff2136b9de90f8d115b0f27f9a8c1459073a78b396b4434d06a41b8c3cd5",
+            "65aa83ba7e2c3dc23b4dc7fad04ab2a593d8afd2037094a42d9b6497c612942d",
+            "c32d12279e6df638c16e134c109ee8edc64e4cc356939fcaae4062c5f4f95573",
+            "302d93f8c708fcd5e9825090a3785bdb9e517c32c1f3ff3311ac3df0912aa57b",
+            "12b512958d5ba53f4f7beb1837d97a746f566c6f1b99bd4ae63f0bde1613b531",
+            "28f728776927c7d95183cc92aeca67b6bf3711ce62637c48bcb6c3b9c4ab588a",
+            "e3c30c3a1bab7098b526bfb598e58514fc340e02943b18ae372a62866965c7f9",
+            "b5d354b0da4751df15ebf8a80d6a84f4809828e2f8dd149b42228834505ce179",
+            "8c4380bf5ea3513f88ffbf4f882cd94ccce685220ccf9d1210c360394f59902e",
+            "66fcf56e7e9a71f842db43c246666a87a8d736c9eef70b2f51c363bd49d833d5",
+            "ba74586b0e951153a2c78f13f636473d2848fbfc1d6edb681a5a644cc22ad0d6",
+            "d6269d69121f843e26aa92bd46828e241ad83beeca65a5a62d50dceded4f858f",
+            "a297ac867a87996b2f56f8251364c25491f6804fa544b3dc3c6a7b966e25a6fe",
+            "61480ca112c12bc436190d33f9eff485adb18e25d55ddb817c6fe1bf707b54e4",
+            "18b30b93420b7723d4c9b6ba730ebf85664e5766ed6d76eb769970962734ec3c",
+            "8275a08e0469c264d43304aee6b0229a6504fa2cbafab2be905353eb9fdaef1d",
+            "7e14ea2294999f8521070f8303a77cf7c67ce5e94b5f72794356d9dd96ce9a35",
+            "24784606c7a195cccb59453b5cbd6fed64642ff04315c2c5add1483e5b13eb69",
+            "88beaf7a3eb28228bbf042fad98ef96e80da68f8106a12a16c0488b8ded0838b",
+            "e08c1df1cab4b78f2ea3dcab679c8350a6a9e5234c983b1af35e48427e6dfdff",
+            "f2ae58ecc9e775a0bcde68ba7efb1b46c1c3827d4b78b8358513a689ed1ad908",
+            "1b6b064aad4641a443e983986618f0dc88fca7e32751ab18e3236ad126da2727"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag3-context1-logits.npy",
+            "sha256": "8ee63ff8613bd46bb927b7ff35fdc3d822a04cdf7d3d385544f1e59b69729284",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.30201959813697477,
+            "roc_auc": 0.8333724700688472
+          },
+          "parent": "Paris1",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag3-context1-scores.npy",
+            "sha256": "4258f9147ef5d31dbf36a372381289829144bbd361279b5ddc90e456185647bb",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.1828874359853522,
+            "roc_auc": 0.6995116233984009
+          },
+          "delta": {
+            "average_precision": -0.11707612896956675,
+            "roc_auc": -0.19117474362200104
+          },
+          "id": "frag3-context2",
+          "input_hashes": [
+            "943ec8fe9065391e04703a5be57c9ce275e26aac894cb6ff3f6616c8085a5d4c",
+            "960981f321461911806c8aa732d89adc10ea5e44d2284c62b0434eb6b0eaa709",
+            "d4806f2a349b402a37bd208b016ee556c126bc7a6b22539c2eaba533ec0858d9",
+            "f5b920d4128e68743300287299c6b45338f1c8868776673729a559a8ff186ddf",
+            "4e7b59ad269e17456864814c068c0fbbc29d79f54d8d92563e35d87ef8641979",
+            "1cb7bf86ab233f05facea41565cc6737a57d8574dfdae607a9f2b217fa003f6b",
+            "9017dc7565568f0b309a3a6c8b5e75d2316a7c2aba664047d68d8184146474dc",
+            "71af45a13689373fb3e7ea9f453572dcbc71fe782458c1c565ec358a415cc69c",
+            "6eecd92ca55ffb2cc692db943172fa862f54f9f9c053ce0113c520afde833d91",
+            "789c5870218525fed39d39618c0de9f660902cf9ceed1771dda351f23c0c6d5a",
+            "b54543de5d0af958e52bee2fd3f41bc1e2dd83bf792ddccaa200cc9b488d2e3e",
+            "16c6a523ced3f669866c0178e91f0c874e75a50f346929efd38f2624ee055939",
+            "e429df9ba5ed24c8ea8ebc3b560cf2f6551c3fcda91592d90cd651097db5b206",
+            "e369e497c5651d82956d4014940f0305ff19c1d269185f4a06aa9f3140f28020",
+            "d99a006a19c582a9f3a55241b009de70765a238f547ff5c253de285f414e7181",
+            "5fbef7982ec820fe379051c1155bcf8a807bda0c886d819871ab4b0dde779929",
+            "808b8212b8e92ee81f6d288bed0bf1f7a7b81d8ee4e7ac15ba0ae27be3c2f10d",
+            "1d0ca56d3bae99a7ac443705fb5e1fd35b724b2ef27997795fbef1392df999e1",
+            "1e546968bcfd7f6c8cab5cd30317d04249e914bf029b2ce8528653fd5bd61184",
+            "9425ae49e7660803f3d134da1ef008d3c4a180352b4624752ac04fb769526768",
+            "0c7d35005623dce7dc7a65a86a5e71d325404317ee9c433d5d68e4e83aaf733a",
+            "b5a9262de6dbd0d56d799457b48f5f0cbf1d14357382fa978a71ce35b5663d76",
+            "6339a22ae90ce5fcc7acb3ad2ee3eba08e59f5b68488cd41de00398c38bb4bdf",
+            "3cbc6f6465e8848df126c7d07621a4b52b3cb55d4d5d386fc84bc5957304414d",
+            "4ba6f2f77ce14f9394e891433b9f0d73170d8463ed503c17ec47a049bceb03f6"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag3-context2-logits.npy",
+            "sha256": "58e909e897041be47370bfb08755d3342b0e83c8192271ad4aaf45e27a1df238",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.06581130701578546,
+            "roc_auc": 0.5083368797763999
+          },
+          "parent": "Paris1",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag3-context2-scores.npy",
+            "sha256": "96f552d868b1e1363f8507bfc9bb714bd00a56906dc8f642af71f2469c3f9fa8",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.18597311107421638,
+            "roc_auc": 0.4460518627105059
+          },
+          "delta": {
+            "average_precision": 0.06990036405978234,
+            "roc_auc": 0.13935348590868524
+          },
+          "id": "frag1-context1",
+          "input_hashes": [
+            "0af6a01aabf87a36f4ef9e159570d36c09f5420d8452946efdc462c9e1a1c58b",
+            "2240d4999446e3dc3d1d7f942fe91de5df3fbd4803c416a04e44e1fabf514779",
+            "2ed8cdaabc29bd6e4bee1a6d6089694f3623cff03d4e607bcac61e9900ce65b9",
+            "8366d284c6f687d0fdd9acc354d3fcfa5bdfde3aba142541e30c460cce986b46",
+            "439d4f0e2f0bd573f89c6c282d8eb56da52f8846972fd30db06de6c7548489b6",
+            "66795b6936633437711582145544e468cbf64df3d1ca680459e3ab582609fe6c",
+            "7f45eaa4fb49faf45617cd74292b4d4f48bc312f2e09e6f9d834888f01504fef",
+            "b9caa8cf83fcd2ef5a222df5de79fafa46a56af7a15b7c3bd2a8cc1adb39fdb5",
+            "94bb2cf78c050c5eb8bdb813a6924adb1d79af8b5741f3136ab1f4b3c131234d",
+            "fbdc8d607e9fb6de8d9fff96db3bd93983bd3936cd02ef8b679896def4e563fb",
+            "1294b6f55ae4a990f385ad9466d69c1249ce4e59e8fafbf172eb7ca35856a46d",
+            "738a017bd61406c4de7a4f670dd08160797032d2cdb8e015594ab3a22b1ff599",
+            "0fe4b5404c849e1e8cd003da9891760a0258ddb5a0ace3e4e3768e7441cb439e",
+            "a50a1c16e9e21d48c90b3f2fde026a1d474d1d5906610b75f2e468bbc3e187e3",
+            "bb4ff9f852a2dcd4628dfbfefb692ee6d92b1cb76d2e6f0768ad3ae087f73290",
+            "818e666ccc79c88656c4c4275708d9afdecaab045a7bc3b3451c798029f9be7f",
+            "3fb9c216b12f9099a9b81db40f598228d0c6777b84c68142b43f01d26954641f",
+            "40e48e018b141cdcbfd4e6a2afa9c0490a59c96471f7ba3dc1626827504454e8",
+            "665dde738fd333627303c6cdd7425ad9417452c0bcc1b4f97e62864760c2c20d",
+            "dc06968492ba976393319c00cc22c0ea6b6c8e7ed0538a86b96998bc64eb0679",
+            "1412a0e9b44e718f4200bd3880093bc3238cf1d7be257bba17a2057504155cbc",
+            "761ebcc04b727d1cceef34ebaa416d0864301dd514999bc41b81517cb4e79577",
+            "715b1310eec5319b25e520e089c657163a277f2d86ca2da3fc82cbb36e14c6cb",
+            "6cd8083c77861bb080c4573f8aa868390ff2de8150dc808591d9dfe5f8d06eec",
+            "a27dd1913d7d556ccbd40641fae712d1a1e025cd9a2dcb84d9862301b07db4a3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag1-context1-logits.npy",
+            "sha256": "c29d646fff05105a36b1e0ced14cebc339b320b54c6e9c3319f370d0a525e822",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.2558734751339987,
+            "roc_auc": 0.5854053486191911
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag1-context1-scores.npy",
+            "sha256": "ca62e504e527f5ff938bbc09eddb5ea5ee9fb1c919bd0ff49f4bd5fd42d2fda2",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.5000955137941361,
+            "roc_auc": 0.9036776522813884
+          },
+          "delta": {
+            "average_precision": 0.0045155895178121686,
+            "roc_auc": -0.015432961412135127
+          },
+          "id": "frag1-context2",
+          "input_hashes": [
+            "414436ece81cabb5933b2d6d48a9b5df9a6066cc30836351585d0f73a37bcd51",
+            "65888895b0dc7478abc25df0d8fcfe54c696b860ec6c74c98627b036dc7e8565",
+            "0251c06f9a097375820844ab0f955f5560a9813c33fbed5f24739d7abbb38f64",
+            "db8394b8a10c661ddc9aa9cfa8924d70ed864be7c50a36175967e14aacc5657f",
+            "01cbf662fce3ec8ef73688f81237f822628cde481b8c0e6c085935eb250b1968",
+            "20b600510b7a067a39e668ec7117761cb53e518f73d0a5433d3aa51bf94ef105",
+            "b53c03dc1a3ee8a7cb86f6ec2c774ba53d66d7282aee5f21bd37303394808218",
+            "c9b3f92faf9ea1c637485450a57ee8f59caf5386eca14adb0b7c7db35d40d8eb",
+            "c0e7fce5d084f55e722ab15869618e894726a800ed21386259c112c3bbb271a3",
+            "d42b2ae8d2db886bbf2819867b0f2222e2f137c9998828d5177d0d32dd13ef60",
+            "b599c73714d2373aa5f4e7c71e11f10b6fd75d18b1079320c4a9c12ae15c86bc",
+            "df9e55a5a82a253c0254d3aac45f374dc09c9e4d5adb31ef42818f9c77867671",
+            "23e43d8ed60d25fae6caf4e200b4e9c64235828baf66ad66461be63072762a76",
+            "3a2b9db2d674df04d96bb807fd7d4d366f4ae33844d085ee86770b3208c5552f",
+            "f9add38be3be36c2b8a75d419c6c3ce15bbbdfe3e64d739c63ea627d78cdfb78",
+            "8e93f458c67d49058b13ed3c6322c5efa1d03c48b8ecd1c056b4f6002173e168",
+            "b7cdc008327c8dc464e3e3ddbbb820a076af1e6c63da912c237e4fa75682bbfd",
+            "c5a89e494ce63296a82af92611309ba7a626b8388254cf5ea6f0e8e9c5bc9aca",
+            "8a5d4d93a0376a619d4a97b0493fa9d8d078aaa9707bc8bd1dbaac6d7bcfd9b4",
+            "43a6310a0beeabab0464573e4d0df9148848ad00dae9e85d94d361aec71a2968",
+            "89fdf14bdfcbe373b31fd6d3f3b0cefad414c4435db167e12118accecb5e0d60",
+            "644528a13f89db3ac21a2242792624eedbf39c0bd1f00cd45032b19c38ab2d7f",
+            "5730e57057ed70a93a5beccc12228fddded65a3376cff6abd9312c40edc44637",
+            "457e9d58d59b667718ee2469d54918b1eb6b6db5e34d45ebc520c0802c8c1888",
+            "bf599364f13722ab9aa81e7f94632b1aad482e77321cf3a7aed527e9742b4bc3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag1-context2-logits.npy",
+            "sha256": "d9d421ed69553a778e4686c262a0c56d467c30350678876fc41ae431b4602361",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.5046111033119483,
+            "roc_auc": 0.8882446908692533
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag1-context2-scores.npy",
+            "sha256": "8e1cb3653cfccceb80e0285e4ba02f6e8af3ebd4106305657c5b7b102db09fe0",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.2698386981536433,
+            "roc_auc": 0.5012979773367988
+          },
+          "delta": {
+            "average_precision": -0.018802918777678646,
+            "roc_auc": -0.02712001188460711
+          },
+          "id": "frag2-context1",
+          "input_hashes": [
+            "8e35bd02449c02863f60e908ae7514f726db0c97c2e4bebd059d7f71329eec87",
+            "6242fd932a75b11ee24b29ea0a2cd3b0403b4f8197f65c4e1dd990c00eb47625",
+            "f147d8aa0b9b54a5d5a879b534ba784304d4068bd55ad2f023911326a9099f42",
+            "fe404989226fed6ecbfa5d8e8a218c56280f44043cf45206c371783fa35117ba",
+            "2e8702c00adcf078b19269b0409d3f5384496a30a3ef8293dad9a0904f359f93",
+            "e64d361031c16a819651e1881006f0ff7f4ad62fe69320d97fe239ce5b991dd5",
+            "6c927ba4ba3d3ae89deb3eb3deb98f248f3ac3da14ea75807340468ec66a1863",
+            "6532867b2a140fdbf7140635b3f74c6859e84c00b4ab9be5611fa422021eba51",
+            "f3cfea3dbf14d01f8217ee7f59c56bc8d2ddf0314a8640d372677e89a0b8cdf2",
+            "6f60c3a928c1cd9932a890cc9718bbb6c3d8ecd30ba723e8846c202f22d1d3e1",
+            "deed0a049083c5656340693ff78c928721db5f9216987a3d6601f10a552ffbf8",
+            "e2a8d4eb680f6fd3e40da62cd3ceb50267fe7ba251313e969a1bd266d472373f",
+            "53e1375fbf2dc4500d5e6c359ee3439ba5fa620bc42f88bfb062c7bbc56864cd",
+            "4c130dc54fdc9aa845384e27e871ee3f1f1d44a4a27ae6cd5c2a70e97045b393",
+            "71b65cd63c9231a68309480d9349318933a239cd272cea3874bfced5523dbe82",
+            "08f2b07e4dac375f5ca277977ea2feec58b24b1d004cd99a13440ad79f2c0bca",
+            "f2b1f08434277bd678a38dc1c7222dc3cb672a7f3fb2454d8fb944756012572c",
+            "aadd0c8bf9fde759448d161d053712aab458d61a61b6376d6f7bdc4c2529f952",
+            "0115f7c1f3cfc3ff5690635c8a29423299408d3c216e745ac13e29e8a52e7223",
+            "a2132fcca72b2b8de6adf7c7b85692f85cd56fc33936095dde75a721971aae29",
+            "274e799d0fb939e50dfae88872a5d1ee0e4732dc473a94e4f7323f1cf4eca30e",
+            "3966d70eeccc0345122d6caf92ee83952f086471900d34be1a86e57262c5b7b5",
+            "91f29b70678241e40e0e41a64fceda4e345efa9cfd980c1496635d76e8c82099",
+            "0143d5384d9982801613fcee6b3b3a09532d4b1225b3a2245bff541c8a70f507",
+            "bb7ea933749c0869496e666914ef224c6ba71f02f60e07826f5cd8d9b0f27aa3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag2-context1-logits.npy",
+            "sha256": "0b5138ae41f9ba4039e93dd640112431e324944db40f49b57e33426de518e961",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.25103577937596466,
+            "roc_auc": 0.4741779654521917
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag2-context1-scores.npy",
+            "sha256": "bd7035e43e61371abec809a0371256d130b167bc64c0783d6ccec7f765db87de",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.5812353686117849,
+            "roc_auc": 0.7795412587345845
+          },
+          "delta": {
+            "average_precision": -0.03359181229874375,
+            "roc_auc": -0.020270345445597915
+          },
+          "id": "frag2-context2",
+          "input_hashes": [
+            "f8668a9db3aec3afee6811d6d7ae12fdd92721047d9091ea8ae3c2d37a0ba200",
+            "240e49116835f4f6b419d0a588f5655307aee3e6dc2291ba8606aba2268d45b0",
+            "ca7ae754525c62cb870cc5f0911b001f5e453c97a8b437d70097f687a141e181",
+            "d4df28f77e34281aedd1c6c862e9a8579f1b4f38be7018ef083051079a34a975",
+            "82f6bcc673b6b00a54466765eb4f3a0ac26a6e166e6db7bf80163861a7071d85",
+            "fbeb56f3039cc9899f27785dcabb8b5f9e00c41e5ffe0d6a22354b23a83220ea",
+            "5b43d55032167665a9844ba1396a3e740651d751f3f2150cb0f7abecab395717",
+            "c7ce53776a96214acf39ec9e1724e4dee771b5a4d7542a8f7871d213226399f6",
+            "eb32d39703302ae5c5084a5c1ade33e11f84ec3b5cb7160ed3d4e85c3d65ed16",
+            "3116406e2900676ff7c3613e161a5c607082a7dd68569e994600d4c389ec7154",
+            "1af674e36de806b06f480dd008c93f509f58c5d449643fddc0e46b0bd4211d38",
+            "2e9d5c7033a160e457ddfb4a3b56319c9716064e820337b80be90e2d9793a40f",
+            "2b8d1f40ad3e1c6ea43ba4ca4bb436e94e4826be8f708c037a72435226e196c2",
+            "dde5715bca4fe42ef82e4249d2bc2caad687a153163e5ec0c5ab3151eb3cca0a",
+            "713257151492a7ec75838852170049288f025c15b87233815ebda5d186ccc0b4",
+            "4c1b33097ac06c34f1e9330fbead70cfdc5c184be64c28a01892906ad99ca310",
+            "ef04c6b17994a062f6356c3047e24e065928674d62e0e70fe431e564f71ef872",
+            "1750b20552d73da35a4a881acca366b9cc339c8b2a64b67f33e2f36cf371f63c",
+            "364a0284ab6a797dc626e657d80e33dc6cf08031c142f212132bbfa238f3267f",
+            "cb0aa4cf91d051e2aa9f4d2934d45bd788e27d4c45919e5d87252ae5b5ef901e",
+            "fd45e58692fc0fcd2859182c388bedc1229d76d71c4aa35c2da73e213622eb3c",
+            "f1a0b3eb00e08517fd54f9de8c3c75fb2d12d8d3cf2b13a8482441804e8ca689",
+            "45627815e373e3dd165eba9f291648a44cab04ae5f458b040f7add8b65d732f7",
+            "9c18a6c73d809b2c880462262b70fcf83753874e1e78eb713b1b7bcc1643f814",
+            "cd0e246cf1d8a5f162cbe6c51318ccbab59595b9e7ec43d60a5e9589e3618153"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag2-context2-logits.npy",
+            "sha256": "0303540b9d4c62e151b68b29bebfb8dbd0dd60ada72ec7d05ac0a5b731ca84b2",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.5476435563130412,
+            "roc_auc": 0.7592709132889865
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/frag2-context2-scores.npy",
+            "sha256": "821f7222d69b00d7cc70fb4962deb79102fb4f40b132f580aabb3b16d62e5b81",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.9998236854284919,
+            "roc_auc": 0.999881964377599
+          },
+          "delta": {
+            "average_precision": -9.617591272703674e-05,
+            "roc_auc": -6.580803901889976e-05
+          },
+          "id": "pherc0814-46527-fresh-rank01",
+          "input_hashes": [
+            "0c896adecfeae515f41d08e88295cd4572ab19f1ad76ccacdaa32c1adc3dd9bf",
+            "9a6f7ae9e830181dc001a1e5e6234dde5817a5d221c7e37c256a555d315f9fda",
+            "c1bf91c2c5d26b260a1b1e4e047933cbbe034db2239bd2606dfb6245afe1cc2f",
+            "e342296d83bf57a4d9657c32aa1414961daa0f767109e955c387bc139b81cbd1",
+            "3f76ce55f78d0e8e910d27485a5a62b82b2bfc6c53a7fc5f61ce1ef44e66dab3",
+            "4b8817c7f6a5e89ec0dae2606d78433a6e27c847087ff1da29f1a571700c8c77",
+            "87cc09aeb73c5e21782cfc76ee8b544bf8ad46aa84ca7f543b7111d65d0d23b3",
+            "a38c9024e6a5da1fb363de5ed052cdc1aaf7e8f7c79de7507f6aeddacfe8ac5b",
+            "868bd0c85e2be0575ad724c6b26a5f538548bb302c8143f496fcd4a04ce719c5",
+            "52b15931cbf642efeade1471bdc85af46e4e7ee00e5f833ddb5f28b26b3c9d9e",
+            "637d43919cc1c6ae4f6b4d2e15da4a5ff38b879e8297043d4f7073437cde696a",
+            "3e0ee1340a7f7315df3a013cce4fb0c00cbcf0e0807fd05c91e69a95b2953bc9",
+            "0560ccacb0bcf9cd5dd964a03333141baedd96017069baf33aa61509b741c17f",
+            "77bb724099079b3a33d84383d0b2241de887a062704f694fd1573014d98407d4",
+            "75558e80537b6b2da6c7e75935d1aba2bca2c68c4678f36f56b71efc866daa98",
+            "e5491690f42b73fa2cdde6db1586375b6549c672e0311176ff8813a66f5649a3",
+            "332eece813b3e6b3e9528b900cd647ede0d718969ef63f21fadd1208a015e7cf",
+            "54056db48947e52ad8078f101fac99056ea5d01f9aee8d8fad8842ce4c641319",
+            "0f597b346c502f5ed45141ea1828a995a414b79fb7b19f21d1be9433bbe68fa1",
+            "6d2a8d1ec25a16624c4c09da162431f0ce0af128628ec2d102857783e2622d1f",
+            "4e7c6fd782f566c21db4f9ebd70221eec1dcbd0bbf7250aeded5dac2922e990c",
+            "4642e4d7fdea60beab1cc61b1b09744208baf0bd24761484881d3c721b155166",
+            "66d9b9c6db0ebd73b85a23b08925c83fa4100245d1f0a2366d4d5235d8a62c94",
+            "0cab2c4cf377590514d3373f7764b6631b1f8d433394ac15e761b75664edc804",
+            "54ded2f394459dbec08ce1c1ff7dcac777d8f80e5c0627e5138158c4e12b2245"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/pherc0814-46527-fresh-rank01-logits.npy",
+            "sha256": "d67840e2acf1dd8cd73a4d685d087372fbdb073287b2eb73f8e8b37987c001b6",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.9997275095157648,
+            "roc_auc": 0.9998161563385801
+          },
+          "parent": "PHerc0814",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/pherc0814-46527-fresh-rank01-scores.npy",
+            "sha256": "e201fcf3d7748b3275456aecfeb939b0926eafd2606fa6d5ab597afab1b3d422",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.9971959647374858,
+            "roc_auc": 0.9993339015424499
+          },
+          "delta": {
+            "average_precision": 0.0012359251471020238,
+            "roc_auc": 0.0002177809831639399
+          },
+          "id": "pherc0814-46527-fresh-rank14",
+          "input_hashes": [
+            "9cf0314d4ad2c23286f5cd928fdec05199538fb8ca195e95de7a6792d728f04c",
+            "afc1bcd9892416342042e9a2c9fcdfbfbcfa890eab5b0e84a2e5913d5abd1613",
+            "e470870673d2d46841d1ba1effa790a3d26bed7a12b59234cfc250c354f63a14",
+            "492b80582d9b153f481b6022c91dff58add166a95b3b6b3dba328ce5f9a3b5ce",
+            "7925cb3b18a297c6cfcb0f29847bc810b1b513596e8062160b0fa3b370013b09",
+            "53794fa2b02d96e815c4eb14a22e23f1b81d274af18350b5e4bd149f85de0638",
+            "3790748a5a0fc66fdf5c39a5a1588e463ec9b244e54488ddc54355a063b202c7",
+            "7694a26310134bec484e2200c2cd415c30a604806e252bea9b7595d8c566cc95",
+            "292eb1cad8518ade25ff7d913df5d750db627abeb4aab23f02d0745c56b1bcce",
+            "f888ac93ac9b9d0745614165c16d043c5a47541d39de250cfe74611521774263",
+            "d74163b63e93d080b5c43c2884ab3ef64c298d77e090acbb4b9a79884cf2bce4",
+            "aea199271f53359eeb33c26073458d24f0a110f1c5c07b7bd2decce1ec9d73e1",
+            "be51c2386afc806ff9ddb0f7f8fcad9e6781e40b4a3b6f6000375dba08e1f0ae",
+            "cc03a91f8a3ed79a36e6cf4a1f2257dec212914693e5b4be0021dad5a834d4a8",
+            "3459b4836a362ac4909880d813def2d2769e303134fa73ec026de770c411641b",
+            "6d079ed0c77eb317d3f95162a4c8ee828147c89bd338a70f11c31783f59708cd",
+            "d16ffdc7941bb09d5fb508cd06b95bd3dcd030ae5322c07b96a2a6b4f20bf1d1",
+            "88f43a754b423cc9f2562d0589ddad94f6196a3c671da5cee622f230fe5f5ffb",
+            "f1e57ab69599e9c591d32e694fa5a052c3c462a3fc931267e9402d92cfb846cb",
+            "f3057635783dc1f03c7899148c185500033dc8833f2c0465017fd96a72e76a8e",
+            "ac659e447003d0f6e406619e9cde4d0bcc808b1ce8ca6b3454e2a4dd26997d58",
+            "28d19bb901678addf4104db43b60a85f91884218b8993758fcb2bbb76199ab29",
+            "cee71727c1c0f37481d53024a0f1938433de1c51960a0006f5398854bd92db25",
+            "c1cf9de285ab4649c1c89472880abeb419b2cc4a2804c0f4af940e3a70035f45",
+            "d1c717771b5f62c58e11b89af2c04e4a0e8e827a3cce1d3092fb477590b6101a"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/pherc0814-46527-fresh-rank14-logits.npy",
+            "sha256": "da9c293296706f376745b4ff1545abb9f8fa6e16141cad4a461fc78a95aab7d8",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.9984318898845879,
+            "roc_auc": 0.9995516825256139
+          },
+          "parent": "PHerc0814",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-60000/pherc0814-46527-fresh-rank14-scores.npy",
+            "sha256": "23a154b5fe12538562bb8ae554991fa1dec085d83421a18e0395fc19a60f18fe",
+            "size_bytes": 589952
+          }
+        }
+      ]
+    },
+    {
+      "Paris_equal_parent": {
+        "average_precision": 0.31238416811448844,
+        "roc_auc": 0.7212149512049122
+      },
+      "checkpoint": {
+        "embedded_step": 74999,
+        "filename_step_label": 75000,
+        "label": "seed42-75000",
+        "local_path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+        "repository": "scrollprize/ink_9um",
+        "repository_path": "hybrid_3d2d-seed42/step-075000.pth",
+        "revision": "7109667e2607db1b90c37c8b09cb876ea7fe7bb1",
+        "seed": 42,
+        "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+        "size_bytes": 138360039,
+        "source_url": "https://huggingface.co/scrollprize/ink_9um/resolve/7109667e2607db1b90c37c8b09cb876ea7fe7bb1/hybrid_3d2d-seed42/step-075000.pth",
+        "step": 75000
+      },
+      "new_forwards": 200,
+      "parents": {
+        "PHerc0814": {
+          "average_precision": 0.9985098250829889,
+          "roc_auc": 0.9996079329600245
+        },
+        "Paris1": {
+          "average_precision": 0.2404826633205317,
+          "roc_auc": 0.784787714644005
+        },
+        "Paris2": {
+          "average_precision": 0.3842856729084452,
+          "roc_auc": 0.6576421877658194
+        }
+      },
+      "regions": [
+        {
+          "baseline_metrics": {
+            "average_precision": 0.2980778906557112,
+            "roc_auc": 0.870063805889609
+          },
+          "delta": {
+            "average_precision": 0.0,
+            "roc_auc": 0.0
+          },
+          "id": "frag3-context1",
+          "input_hashes": [
+            "bfcddf5272b0b6bfba8ffb5ca725ae8df9da0e7577575bb11b46fd76281da99b",
+            "0a37035d78c6b6b8db72f7a5908754c645e3445662fb80e67ae63b5955681801",
+            "e88903551c8ec599de1d2be5ae7ce8a937b01b242a90dfd38566cc8cd1af08ac",
+            "518dff2136b9de90f8d115b0f27f9a8c1459073a78b396b4434d06a41b8c3cd5",
+            "65aa83ba7e2c3dc23b4dc7fad04ab2a593d8afd2037094a42d9b6497c612942d",
+            "c32d12279e6df638c16e134c109ee8edc64e4cc356939fcaae4062c5f4f95573",
+            "302d93f8c708fcd5e9825090a3785bdb9e517c32c1f3ff3311ac3df0912aa57b",
+            "12b512958d5ba53f4f7beb1837d97a746f566c6f1b99bd4ae63f0bde1613b531",
+            "28f728776927c7d95183cc92aeca67b6bf3711ce62637c48bcb6c3b9c4ab588a",
+            "e3c30c3a1bab7098b526bfb598e58514fc340e02943b18ae372a62866965c7f9",
+            "b5d354b0da4751df15ebf8a80d6a84f4809828e2f8dd149b42228834505ce179",
+            "8c4380bf5ea3513f88ffbf4f882cd94ccce685220ccf9d1210c360394f59902e",
+            "66fcf56e7e9a71f842db43c246666a87a8d736c9eef70b2f51c363bd49d833d5",
+            "ba74586b0e951153a2c78f13f636473d2848fbfc1d6edb681a5a644cc22ad0d6",
+            "d6269d69121f843e26aa92bd46828e241ad83beeca65a5a62d50dceded4f858f",
+            "a297ac867a87996b2f56f8251364c25491f6804fa544b3dc3c6a7b966e25a6fe",
+            "61480ca112c12bc436190d33f9eff485adb18e25d55ddb817c6fe1bf707b54e4",
+            "18b30b93420b7723d4c9b6ba730ebf85664e5766ed6d76eb769970962734ec3c",
+            "8275a08e0469c264d43304aee6b0229a6504fa2cbafab2be905353eb9fdaef1d",
+            "7e14ea2294999f8521070f8303a77cf7c67ce5e94b5f72794356d9dd96ce9a35",
+            "24784606c7a195cccb59453b5cbd6fed64642ff04315c2c5add1483e5b13eb69",
+            "88beaf7a3eb28228bbf042fad98ef96e80da68f8106a12a16c0488b8ded0838b",
+            "e08c1df1cab4b78f2ea3dcab679c8350a6a9e5234c983b1af35e48427e6dfdff",
+            "f2ae58ecc9e775a0bcde68ba7efb1b46c1c3827d4b78b8358513a689ed1ad908",
+            "1b6b064aad4641a443e983986618f0dc88fca7e32751ab18e3236ad126da2727"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag3-context1-logits.npy",
+            "sha256": "dca9cc8f665a020f9fdd563baa7eadc262c5db056f0e07899480b01bb9f9f83f",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.2980778906557112,
+            "roc_auc": 0.870063805889609
+          },
+          "parent": "Paris1",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag3-context1-scores.npy",
+            "sha256": "8d3cb6bbefcc52cb6395a3b78f8ec294a2d28c2b0841127e9b5c1dfcf7fab5b2",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.1828874359853522,
+            "roc_auc": 0.6995116233984009
+          },
+          "delta": {
+            "average_precision": 0.0,
+            "roc_auc": 0.0
+          },
+          "id": "frag3-context2",
+          "input_hashes": [
+            "943ec8fe9065391e04703a5be57c9ce275e26aac894cb6ff3f6616c8085a5d4c",
+            "960981f321461911806c8aa732d89adc10ea5e44d2284c62b0434eb6b0eaa709",
+            "d4806f2a349b402a37bd208b016ee556c126bc7a6b22539c2eaba533ec0858d9",
+            "f5b920d4128e68743300287299c6b45338f1c8868776673729a559a8ff186ddf",
+            "4e7b59ad269e17456864814c068c0fbbc29d79f54d8d92563e35d87ef8641979",
+            "1cb7bf86ab233f05facea41565cc6737a57d8574dfdae607a9f2b217fa003f6b",
+            "9017dc7565568f0b309a3a6c8b5e75d2316a7c2aba664047d68d8184146474dc",
+            "71af45a13689373fb3e7ea9f453572dcbc71fe782458c1c565ec358a415cc69c",
+            "6eecd92ca55ffb2cc692db943172fa862f54f9f9c053ce0113c520afde833d91",
+            "789c5870218525fed39d39618c0de9f660902cf9ceed1771dda351f23c0c6d5a",
+            "b54543de5d0af958e52bee2fd3f41bc1e2dd83bf792ddccaa200cc9b488d2e3e",
+            "16c6a523ced3f669866c0178e91f0c874e75a50f346929efd38f2624ee055939",
+            "e429df9ba5ed24c8ea8ebc3b560cf2f6551c3fcda91592d90cd651097db5b206",
+            "e369e497c5651d82956d4014940f0305ff19c1d269185f4a06aa9f3140f28020",
+            "d99a006a19c582a9f3a55241b009de70765a238f547ff5c253de285f414e7181",
+            "5fbef7982ec820fe379051c1155bcf8a807bda0c886d819871ab4b0dde779929",
+            "808b8212b8e92ee81f6d288bed0bf1f7a7b81d8ee4e7ac15ba0ae27be3c2f10d",
+            "1d0ca56d3bae99a7ac443705fb5e1fd35b724b2ef27997795fbef1392df999e1",
+            "1e546968bcfd7f6c8cab5cd30317d04249e914bf029b2ce8528653fd5bd61184",
+            "9425ae49e7660803f3d134da1ef008d3c4a180352b4624752ac04fb769526768",
+            "0c7d35005623dce7dc7a65a86a5e71d325404317ee9c433d5d68e4e83aaf733a",
+            "b5a9262de6dbd0d56d799457b48f5f0cbf1d14357382fa978a71ce35b5663d76",
+            "6339a22ae90ce5fcc7acb3ad2ee3eba08e59f5b68488cd41de00398c38bb4bdf",
+            "3cbc6f6465e8848df126c7d07621a4b52b3cb55d4d5d386fc84bc5957304414d",
+            "4ba6f2f77ce14f9394e891433b9f0d73170d8463ed503c17ec47a049bceb03f6"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag3-context2-logits.npy",
+            "sha256": "1cffb9af8e33811227792573974df6eeabf3d591d2bb8c54afe9d791b2b77e4d",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.1828874359853522,
+            "roc_auc": 0.6995116233984009
+          },
+          "parent": "Paris1",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag3-context2-scores.npy",
+            "sha256": "c219975a89137bf758b3b8d6dd6141a73f7655593e82ed46c5ffe3506d6cb5e4",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.18597311107421638,
+            "roc_auc": 0.4460518627105059
+          },
+          "delta": {
+            "average_precision": 0.0,
+            "roc_auc": 0.0
+          },
+          "id": "frag1-context1",
+          "input_hashes": [
+            "0af6a01aabf87a36f4ef9e159570d36c09f5420d8452946efdc462c9e1a1c58b",
+            "2240d4999446e3dc3d1d7f942fe91de5df3fbd4803c416a04e44e1fabf514779",
+            "2ed8cdaabc29bd6e4bee1a6d6089694f3623cff03d4e607bcac61e9900ce65b9",
+            "8366d284c6f687d0fdd9acc354d3fcfa5bdfde3aba142541e30c460cce986b46",
+            "439d4f0e2f0bd573f89c6c282d8eb56da52f8846972fd30db06de6c7548489b6",
+            "66795b6936633437711582145544e468cbf64df3d1ca680459e3ab582609fe6c",
+            "7f45eaa4fb49faf45617cd74292b4d4f48bc312f2e09e6f9d834888f01504fef",
+            "b9caa8cf83fcd2ef5a222df5de79fafa46a56af7a15b7c3bd2a8cc1adb39fdb5",
+            "94bb2cf78c050c5eb8bdb813a6924adb1d79af8b5741f3136ab1f4b3c131234d",
+            "fbdc8d607e9fb6de8d9fff96db3bd93983bd3936cd02ef8b679896def4e563fb",
+            "1294b6f55ae4a990f385ad9466d69c1249ce4e59e8fafbf172eb7ca35856a46d",
+            "738a017bd61406c4de7a4f670dd08160797032d2cdb8e015594ab3a22b1ff599",
+            "0fe4b5404c849e1e8cd003da9891760a0258ddb5a0ace3e4e3768e7441cb439e",
+            "a50a1c16e9e21d48c90b3f2fde026a1d474d1d5906610b75f2e468bbc3e187e3",
+            "bb4ff9f852a2dcd4628dfbfefb692ee6d92b1cb76d2e6f0768ad3ae087f73290",
+            "818e666ccc79c88656c4c4275708d9afdecaab045a7bc3b3451c798029f9be7f",
+            "3fb9c216b12f9099a9b81db40f598228d0c6777b84c68142b43f01d26954641f",
+            "40e48e018b141cdcbfd4e6a2afa9c0490a59c96471f7ba3dc1626827504454e8",
+            "665dde738fd333627303c6cdd7425ad9417452c0bcc1b4f97e62864760c2c20d",
+            "dc06968492ba976393319c00cc22c0ea6b6c8e7ed0538a86b96998bc64eb0679",
+            "1412a0e9b44e718f4200bd3880093bc3238cf1d7be257bba17a2057504155cbc",
+            "761ebcc04b727d1cceef34ebaa416d0864301dd514999bc41b81517cb4e79577",
+            "715b1310eec5319b25e520e089c657163a277f2d86ca2da3fc82cbb36e14c6cb",
+            "6cd8083c77861bb080c4573f8aa868390ff2de8150dc808591d9dfe5f8d06eec",
+            "a27dd1913d7d556ccbd40641fae712d1a1e025cd9a2dcb84d9862301b07db4a3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag1-context1-logits.npy",
+            "sha256": "090050e3adf2781491e098371af105d986bd43dc15b770b2c92f109728158823",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.18597311107421638,
+            "roc_auc": 0.4460518627105059
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag1-context1-scores.npy",
+            "sha256": "ba9127758867f1739c8381ddec34e8d96995b3a73b855b6b1df8adbc771a340d",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.5000955137941361,
+            "roc_auc": 0.9036776522813884
+          },
+          "delta": {
+            "average_precision": 0.0,
+            "roc_auc": 0.0
+          },
+          "id": "frag1-context2",
+          "input_hashes": [
+            "414436ece81cabb5933b2d6d48a9b5df9a6066cc30836351585d0f73a37bcd51",
+            "65888895b0dc7478abc25df0d8fcfe54c696b860ec6c74c98627b036dc7e8565",
+            "0251c06f9a097375820844ab0f955f5560a9813c33fbed5f24739d7abbb38f64",
+            "db8394b8a10c661ddc9aa9cfa8924d70ed864be7c50a36175967e14aacc5657f",
+            "01cbf662fce3ec8ef73688f81237f822628cde481b8c0e6c085935eb250b1968",
+            "20b600510b7a067a39e668ec7117761cb53e518f73d0a5433d3aa51bf94ef105",
+            "b53c03dc1a3ee8a7cb86f6ec2c774ba53d66d7282aee5f21bd37303394808218",
+            "c9b3f92faf9ea1c637485450a57ee8f59caf5386eca14adb0b7c7db35d40d8eb",
+            "c0e7fce5d084f55e722ab15869618e894726a800ed21386259c112c3bbb271a3",
+            "d42b2ae8d2db886bbf2819867b0f2222e2f137c9998828d5177d0d32dd13ef60",
+            "b599c73714d2373aa5f4e7c71e11f10b6fd75d18b1079320c4a9c12ae15c86bc",
+            "df9e55a5a82a253c0254d3aac45f374dc09c9e4d5adb31ef42818f9c77867671",
+            "23e43d8ed60d25fae6caf4e200b4e9c64235828baf66ad66461be63072762a76",
+            "3a2b9db2d674df04d96bb807fd7d4d366f4ae33844d085ee86770b3208c5552f",
+            "f9add38be3be36c2b8a75d419c6c3ce15bbbdfe3e64d739c63ea627d78cdfb78",
+            "8e93f458c67d49058b13ed3c6322c5efa1d03c48b8ecd1c056b4f6002173e168",
+            "b7cdc008327c8dc464e3e3ddbbb820a076af1e6c63da912c237e4fa75682bbfd",
+            "c5a89e494ce63296a82af92611309ba7a626b8388254cf5ea6f0e8e9c5bc9aca",
+            "8a5d4d93a0376a619d4a97b0493fa9d8d078aaa9707bc8bd1dbaac6d7bcfd9b4",
+            "43a6310a0beeabab0464573e4d0df9148848ad00dae9e85d94d361aec71a2968",
+            "89fdf14bdfcbe373b31fd6d3f3b0cefad414c4435db167e12118accecb5e0d60",
+            "644528a13f89db3ac21a2242792624eedbf39c0bd1f00cd45032b19c38ab2d7f",
+            "5730e57057ed70a93a5beccc12228fddded65a3376cff6abd9312c40edc44637",
+            "457e9d58d59b667718ee2469d54918b1eb6b6db5e34d45ebc520c0802c8c1888",
+            "bf599364f13722ab9aa81e7f94632b1aad482e77321cf3a7aed527e9742b4bc3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag1-context2-logits.npy",
+            "sha256": "6a61bf74fe2db3d0129f14257839c293b677e49533a0d435d07a4b417c137901",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.5000955137941361,
+            "roc_auc": 0.9036776522813884
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag1-context2-scores.npy",
+            "sha256": "ae884e22c9613e79593be0cd79a7a3a0c9a8795022c58e9b1c442a4d9b13d08a",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.2698386981536433,
+            "roc_auc": 0.5012979773367988
+          },
+          "delta": {
+            "average_precision": 0.0,
+            "roc_auc": 0.0
+          },
+          "id": "frag2-context1",
+          "input_hashes": [
+            "8e35bd02449c02863f60e908ae7514f726db0c97c2e4bebd059d7f71329eec87",
+            "6242fd932a75b11ee24b29ea0a2cd3b0403b4f8197f65c4e1dd990c00eb47625",
+            "f147d8aa0b9b54a5d5a879b534ba784304d4068bd55ad2f023911326a9099f42",
+            "fe404989226fed6ecbfa5d8e8a218c56280f44043cf45206c371783fa35117ba",
+            "2e8702c00adcf078b19269b0409d3f5384496a30a3ef8293dad9a0904f359f93",
+            "e64d361031c16a819651e1881006f0ff7f4ad62fe69320d97fe239ce5b991dd5",
+            "6c927ba4ba3d3ae89deb3eb3deb98f248f3ac3da14ea75807340468ec66a1863",
+            "6532867b2a140fdbf7140635b3f74c6859e84c00b4ab9be5611fa422021eba51",
+            "f3cfea3dbf14d01f8217ee7f59c56bc8d2ddf0314a8640d372677e89a0b8cdf2",
+            "6f60c3a928c1cd9932a890cc9718bbb6c3d8ecd30ba723e8846c202f22d1d3e1",
+            "deed0a049083c5656340693ff78c928721db5f9216987a3d6601f10a552ffbf8",
+            "e2a8d4eb680f6fd3e40da62cd3ceb50267fe7ba251313e969a1bd266d472373f",
+            "53e1375fbf2dc4500d5e6c359ee3439ba5fa620bc42f88bfb062c7bbc56864cd",
+            "4c130dc54fdc9aa845384e27e871ee3f1f1d44a4a27ae6cd5c2a70e97045b393",
+            "71b65cd63c9231a68309480d9349318933a239cd272cea3874bfced5523dbe82",
+            "08f2b07e4dac375f5ca277977ea2feec58b24b1d004cd99a13440ad79f2c0bca",
+            "f2b1f08434277bd678a38dc1c7222dc3cb672a7f3fb2454d8fb944756012572c",
+            "aadd0c8bf9fde759448d161d053712aab458d61a61b6376d6f7bdc4c2529f952",
+            "0115f7c1f3cfc3ff5690635c8a29423299408d3c216e745ac13e29e8a52e7223",
+            "a2132fcca72b2b8de6adf7c7b85692f85cd56fc33936095dde75a721971aae29",
+            "274e799d0fb939e50dfae88872a5d1ee0e4732dc473a94e4f7323f1cf4eca30e",
+            "3966d70eeccc0345122d6caf92ee83952f086471900d34be1a86e57262c5b7b5",
+            "91f29b70678241e40e0e41a64fceda4e345efa9cfd980c1496635d76e8c82099",
+            "0143d5384d9982801613fcee6b3b3a09532d4b1225b3a2245bff541c8a70f507",
+            "bb7ea933749c0869496e666914ef224c6ba71f02f60e07826f5cd8d9b0f27aa3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag2-context1-logits.npy",
+            "sha256": "1b4329fb2d719ab32b1f798c25b372c40894032b959078108c95e3ffb4eb77ed",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.2698386981536433,
+            "roc_auc": 0.5012979773367988
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag2-context1-scores.npy",
+            "sha256": "5a386f7db1b725b2fae18edb0e2a9aa6eee0ee237f129b100820edb2d601e5e1",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.5812353686117849,
+            "roc_auc": 0.7795412587345845
+          },
+          "delta": {
+            "average_precision": 0.0,
+            "roc_auc": 0.0
+          },
+          "id": "frag2-context2",
+          "input_hashes": [
+            "f8668a9db3aec3afee6811d6d7ae12fdd92721047d9091ea8ae3c2d37a0ba200",
+            "240e49116835f4f6b419d0a588f5655307aee3e6dc2291ba8606aba2268d45b0",
+            "ca7ae754525c62cb870cc5f0911b001f5e453c97a8b437d70097f687a141e181",
+            "d4df28f77e34281aedd1c6c862e9a8579f1b4f38be7018ef083051079a34a975",
+            "82f6bcc673b6b00a54466765eb4f3a0ac26a6e166e6db7bf80163861a7071d85",
+            "fbeb56f3039cc9899f27785dcabb8b5f9e00c41e5ffe0d6a22354b23a83220ea",
+            "5b43d55032167665a9844ba1396a3e740651d751f3f2150cb0f7abecab395717",
+            "c7ce53776a96214acf39ec9e1724e4dee771b5a4d7542a8f7871d213226399f6",
+            "eb32d39703302ae5c5084a5c1ade33e11f84ec3b5cb7160ed3d4e85c3d65ed16",
+            "3116406e2900676ff7c3613e161a5c607082a7dd68569e994600d4c389ec7154",
+            "1af674e36de806b06f480dd008c93f509f58c5d449643fddc0e46b0bd4211d38",
+            "2e9d5c7033a160e457ddfb4a3b56319c9716064e820337b80be90e2d9793a40f",
+            "2b8d1f40ad3e1c6ea43ba4ca4bb436e94e4826be8f708c037a72435226e196c2",
+            "dde5715bca4fe42ef82e4249d2bc2caad687a153163e5ec0c5ab3151eb3cca0a",
+            "713257151492a7ec75838852170049288f025c15b87233815ebda5d186ccc0b4",
+            "4c1b33097ac06c34f1e9330fbead70cfdc5c184be64c28a01892906ad99ca310",
+            "ef04c6b17994a062f6356c3047e24e065928674d62e0e70fe431e564f71ef872",
+            "1750b20552d73da35a4a881acca366b9cc339c8b2a64b67f33e2f36cf371f63c",
+            "364a0284ab6a797dc626e657d80e33dc6cf08031c142f212132bbfa238f3267f",
+            "cb0aa4cf91d051e2aa9f4d2934d45bd788e27d4c45919e5d87252ae5b5ef901e",
+            "fd45e58692fc0fcd2859182c388bedc1229d76d71c4aa35c2da73e213622eb3c",
+            "f1a0b3eb00e08517fd54f9de8c3c75fb2d12d8d3cf2b13a8482441804e8ca689",
+            "45627815e373e3dd165eba9f291648a44cab04ae5f458b040f7add8b65d732f7",
+            "9c18a6c73d809b2c880462262b70fcf83753874e1e78eb713b1b7bcc1643f814",
+            "cd0e246cf1d8a5f162cbe6c51318ccbab59595b9e7ec43d60a5e9589e3618153"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag2-context2-logits.npy",
+            "sha256": "d0d3b5ef180e2b8da4e51a9b81e4873ec86c25145369dc1771856b609e202534",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.5812353686117849,
+            "roc_auc": 0.7795412587345845
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/frag2-context2-scores.npy",
+            "sha256": "985bd8d7c9c341a0936392f8812ba71c132f5eb0cc90eb46b539a28b36487663",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.9998236854284919,
+            "roc_auc": 0.999881964377599
+          },
+          "delta": {
+            "average_precision": 0.0,
+            "roc_auc": 0.0
+          },
+          "id": "pherc0814-46527-fresh-rank01",
+          "input_hashes": [
+            "0c896adecfeae515f41d08e88295cd4572ab19f1ad76ccacdaa32c1adc3dd9bf",
+            "9a6f7ae9e830181dc001a1e5e6234dde5817a5d221c7e37c256a555d315f9fda",
+            "c1bf91c2c5d26b260a1b1e4e047933cbbe034db2239bd2606dfb6245afe1cc2f",
+            "e342296d83bf57a4d9657c32aa1414961daa0f767109e955c387bc139b81cbd1",
+            "3f76ce55f78d0e8e910d27485a5a62b82b2bfc6c53a7fc5f61ce1ef44e66dab3",
+            "4b8817c7f6a5e89ec0dae2606d78433a6e27c847087ff1da29f1a571700c8c77",
+            "87cc09aeb73c5e21782cfc76ee8b544bf8ad46aa84ca7f543b7111d65d0d23b3",
+            "a38c9024e6a5da1fb363de5ed052cdc1aaf7e8f7c79de7507f6aeddacfe8ac5b",
+            "868bd0c85e2be0575ad724c6b26a5f538548bb302c8143f496fcd4a04ce719c5",
+            "52b15931cbf642efeade1471bdc85af46e4e7ee00e5f833ddb5f28b26b3c9d9e",
+            "637d43919cc1c6ae4f6b4d2e15da4a5ff38b879e8297043d4f7073437cde696a",
+            "3e0ee1340a7f7315df3a013cce4fb0c00cbcf0e0807fd05c91e69a95b2953bc9",
+            "0560ccacb0bcf9cd5dd964a03333141baedd96017069baf33aa61509b741c17f",
+            "77bb724099079b3a33d84383d0b2241de887a062704f694fd1573014d98407d4",
+            "75558e80537b6b2da6c7e75935d1aba2bca2c68c4678f36f56b71efc866daa98",
+            "e5491690f42b73fa2cdde6db1586375b6549c672e0311176ff8813a66f5649a3",
+            "332eece813b3e6b3e9528b900cd647ede0d718969ef63f21fadd1208a015e7cf",
+            "54056db48947e52ad8078f101fac99056ea5d01f9aee8d8fad8842ce4c641319",
+            "0f597b346c502f5ed45141ea1828a995a414b79fb7b19f21d1be9433bbe68fa1",
+            "6d2a8d1ec25a16624c4c09da162431f0ce0af128628ec2d102857783e2622d1f",
+            "4e7c6fd782f566c21db4f9ebd70221eec1dcbd0bbf7250aeded5dac2922e990c",
+            "4642e4d7fdea60beab1cc61b1b09744208baf0bd24761484881d3c721b155166",
+            "66d9b9c6db0ebd73b85a23b08925c83fa4100245d1f0a2366d4d5235d8a62c94",
+            "0cab2c4cf377590514d3373f7764b6631b1f8d433394ac15e761b75664edc804",
+            "54ded2f394459dbec08ce1c1ff7dcac777d8f80e5c0627e5138158c4e12b2245"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/pherc0814-46527-fresh-rank01-logits.npy",
+            "sha256": "73a1310be394be6a8bb69fd21e984235bce7ad1229bcec02bf5c15c09fa0322e",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.9998236854284919,
+            "roc_auc": 0.999881964377599
+          },
+          "parent": "PHerc0814",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/pherc0814-46527-fresh-rank01-scores.npy",
+            "sha256": "c10d2ca18f6a31f16f219f8220afbbb9cb4d1ba6692fe44f14ed2c3c03727f8a",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.9971959647374858,
+            "roc_auc": 0.9993339015424499
+          },
+          "delta": {
+            "average_precision": 0.0,
+            "roc_auc": 0.0
+          },
+          "id": "pherc0814-46527-fresh-rank14",
+          "input_hashes": [
+            "9cf0314d4ad2c23286f5cd928fdec05199538fb8ca195e95de7a6792d728f04c",
+            "afc1bcd9892416342042e9a2c9fcdfbfbcfa890eab5b0e84a2e5913d5abd1613",
+            "e470870673d2d46841d1ba1effa790a3d26bed7a12b59234cfc250c354f63a14",
+            "492b80582d9b153f481b6022c91dff58add166a95b3b6b3dba328ce5f9a3b5ce",
+            "7925cb3b18a297c6cfcb0f29847bc810b1b513596e8062160b0fa3b370013b09",
+            "53794fa2b02d96e815c4eb14a22e23f1b81d274af18350b5e4bd149f85de0638",
+            "3790748a5a0fc66fdf5c39a5a1588e463ec9b244e54488ddc54355a063b202c7",
+            "7694a26310134bec484e2200c2cd415c30a604806e252bea9b7595d8c566cc95",
+            "292eb1cad8518ade25ff7d913df5d750db627abeb4aab23f02d0745c56b1bcce",
+            "f888ac93ac9b9d0745614165c16d043c5a47541d39de250cfe74611521774263",
+            "d74163b63e93d080b5c43c2884ab3ef64c298d77e090acbb4b9a79884cf2bce4",
+            "aea199271f53359eeb33c26073458d24f0a110f1c5c07b7bd2decce1ec9d73e1",
+            "be51c2386afc806ff9ddb0f7f8fcad9e6781e40b4a3b6f6000375dba08e1f0ae",
+            "cc03a91f8a3ed79a36e6cf4a1f2257dec212914693e5b4be0021dad5a834d4a8",
+            "3459b4836a362ac4909880d813def2d2769e303134fa73ec026de770c411641b",
+            "6d079ed0c77eb317d3f95162a4c8ee828147c89bd338a70f11c31783f59708cd",
+            "d16ffdc7941bb09d5fb508cd06b95bd3dcd030ae5322c07b96a2a6b4f20bf1d1",
+            "88f43a754b423cc9f2562d0589ddad94f6196a3c671da5cee622f230fe5f5ffb",
+            "f1e57ab69599e9c591d32e694fa5a052c3c462a3fc931267e9402d92cfb846cb",
+            "f3057635783dc1f03c7899148c185500033dc8833f2c0465017fd96a72e76a8e",
+            "ac659e447003d0f6e406619e9cde4d0bcc808b1ce8ca6b3454e2a4dd26997d58",
+            "28d19bb901678addf4104db43b60a85f91884218b8993758fcb2bbb76199ab29",
+            "cee71727c1c0f37481d53024a0f1938433de1c51960a0006f5398854bd92db25",
+            "c1cf9de285ab4649c1c89472880abeb419b2cc4a2804c0f4af940e3a70035f45",
+            "d1c717771b5f62c58e11b89af2c04e4a0e8e827a3cce1d3092fb477590b6101a"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/pherc0814-46527-fresh-rank14-logits.npy",
+            "sha256": "2488475fac32018a6dc3d8e969826ecf1a08e58bb2841d517bc3f8974b8dafab",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.9971959647374858,
+            "roc_auc": 0.9993339015424499
+          },
+          "parent": "PHerc0814",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed42-75000/pherc0814-46527-fresh-rank14-scores.npy",
+            "sha256": "b473fb8e86827936fc5c9907cc6cd0a53fc21566a4d33f0207c5e2f4fe79f6c4",
+            "size_bytes": 589952
+          }
+        }
+      ]
+    },
+    {
+      "Paris_equal_parent": {
+        "average_precision": 0.36116611883694616,
+        "roc_auc": 0.6424705326584887
+      },
+      "checkpoint": {
+        "embedded_step": 59999,
+        "filename_step_label": 60000,
+        "label": "seed43-60000",
+        "local_path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-step60000.pth",
+        "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-step60000.pth",
+        "repository": "scrollprize/ink_9um",
+        "repository_path": "hybrid_3d2d-seed43/step-060000.pth",
+        "revision": "7109667e2607db1b90c37c8b09cb876ea7fe7bb1",
+        "seed": 43,
+        "sha256": "bf229faf754da3f1fc3026a3f9a9649341aeb3feb7bc89099cad31c55525d270",
+        "size_bytes": 138360231,
+        "source_url": "https://huggingface.co/scrollprize/ink_9um/resolve/7109667e2607db1b90c37c8b09cb876ea7fe7bb1/hybrid_3d2d-seed43/step-060000.pth",
+        "step": 60000
+      },
+      "new_forwards": 200,
+      "parents": {
+        "PHerc0814": {
+          "average_precision": 0.99891546017764,
+          "roc_auc": 0.999567037356669
+        },
+        "Paris1": {
+          "average_precision": 0.32148874137119365,
+          "roc_auc": 0.659307178531678
+        },
+        "Paris2": {
+          "average_precision": 0.4008434963026986,
+          "roc_auc": 0.6256338867852994
+        }
+      },
+      "regions": [
+        {
+          "baseline_metrics": {
+            "average_precision": 0.2980778906557112,
+            "roc_auc": 0.870063805889609
+          },
+          "delta": {
+            "average_precision": 0.26575990362264434,
+            "roc_auc": 0.03227698398292489
+          },
+          "id": "frag3-context1",
+          "input_hashes": [
+            "bfcddf5272b0b6bfba8ffb5ca725ae8df9da0e7577575bb11b46fd76281da99b",
+            "0a37035d78c6b6b8db72f7a5908754c645e3445662fb80e67ae63b5955681801",
+            "e88903551c8ec599de1d2be5ae7ce8a937b01b242a90dfd38566cc8cd1af08ac",
+            "518dff2136b9de90f8d115b0f27f9a8c1459073a78b396b4434d06a41b8c3cd5",
+            "65aa83ba7e2c3dc23b4dc7fad04ab2a593d8afd2037094a42d9b6497c612942d",
+            "c32d12279e6df638c16e134c109ee8edc64e4cc356939fcaae4062c5f4f95573",
+            "302d93f8c708fcd5e9825090a3785bdb9e517c32c1f3ff3311ac3df0912aa57b",
+            "12b512958d5ba53f4f7beb1837d97a746f566c6f1b99bd4ae63f0bde1613b531",
+            "28f728776927c7d95183cc92aeca67b6bf3711ce62637c48bcb6c3b9c4ab588a",
+            "e3c30c3a1bab7098b526bfb598e58514fc340e02943b18ae372a62866965c7f9",
+            "b5d354b0da4751df15ebf8a80d6a84f4809828e2f8dd149b42228834505ce179",
+            "8c4380bf5ea3513f88ffbf4f882cd94ccce685220ccf9d1210c360394f59902e",
+            "66fcf56e7e9a71f842db43c246666a87a8d736c9eef70b2f51c363bd49d833d5",
+            "ba74586b0e951153a2c78f13f636473d2848fbfc1d6edb681a5a644cc22ad0d6",
+            "d6269d69121f843e26aa92bd46828e241ad83beeca65a5a62d50dceded4f858f",
+            "a297ac867a87996b2f56f8251364c25491f6804fa544b3dc3c6a7b966e25a6fe",
+            "61480ca112c12bc436190d33f9eff485adb18e25d55ddb817c6fe1bf707b54e4",
+            "18b30b93420b7723d4c9b6ba730ebf85664e5766ed6d76eb769970962734ec3c",
+            "8275a08e0469c264d43304aee6b0229a6504fa2cbafab2be905353eb9fdaef1d",
+            "7e14ea2294999f8521070f8303a77cf7c67ce5e94b5f72794356d9dd96ce9a35",
+            "24784606c7a195cccb59453b5cbd6fed64642ff04315c2c5add1483e5b13eb69",
+            "88beaf7a3eb28228bbf042fad98ef96e80da68f8106a12a16c0488b8ded0838b",
+            "e08c1df1cab4b78f2ea3dcab679c8350a6a9e5234c983b1af35e48427e6dfdff",
+            "f2ae58ecc9e775a0bcde68ba7efb1b46c1c3827d4b78b8358513a689ed1ad908",
+            "1b6b064aad4641a443e983986618f0dc88fca7e32751ab18e3236ad126da2727"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag3-context1-logits.npy",
+            "sha256": "f91d9414fe184954f176609769f0db4dc2fc99f3a97c5e603353735aead579c6",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.5638377942783556,
+            "roc_auc": 0.9023407898725339
+          },
+          "parent": "Paris1",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag3-context1-scores.npy",
+            "sha256": "21212e3d6c53d26e9bde7a60a13c9fd1f5ddc4e4743e36bea7e1962122c5d5f6",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.1828874359853522,
+            "roc_auc": 0.6995116233984009
+          },
+          "delta": {
+            "average_precision": -0.1037477475213204,
+            "roc_auc": -0.28323805620757875
+          },
+          "id": "frag3-context2",
+          "input_hashes": [
+            "943ec8fe9065391e04703a5be57c9ce275e26aac894cb6ff3f6616c8085a5d4c",
+            "960981f321461911806c8aa732d89adc10ea5e44d2284c62b0434eb6b0eaa709",
+            "d4806f2a349b402a37bd208b016ee556c126bc7a6b22539c2eaba533ec0858d9",
+            "f5b920d4128e68743300287299c6b45338f1c8868776673729a559a8ff186ddf",
+            "4e7b59ad269e17456864814c068c0fbbc29d79f54d8d92563e35d87ef8641979",
+            "1cb7bf86ab233f05facea41565cc6737a57d8574dfdae607a9f2b217fa003f6b",
+            "9017dc7565568f0b309a3a6c8b5e75d2316a7c2aba664047d68d8184146474dc",
+            "71af45a13689373fb3e7ea9f453572dcbc71fe782458c1c565ec358a415cc69c",
+            "6eecd92ca55ffb2cc692db943172fa862f54f9f9c053ce0113c520afde833d91",
+            "789c5870218525fed39d39618c0de9f660902cf9ceed1771dda351f23c0c6d5a",
+            "b54543de5d0af958e52bee2fd3f41bc1e2dd83bf792ddccaa200cc9b488d2e3e",
+            "16c6a523ced3f669866c0178e91f0c874e75a50f346929efd38f2624ee055939",
+            "e429df9ba5ed24c8ea8ebc3b560cf2f6551c3fcda91592d90cd651097db5b206",
+            "e369e497c5651d82956d4014940f0305ff19c1d269185f4a06aa9f3140f28020",
+            "d99a006a19c582a9f3a55241b009de70765a238f547ff5c253de285f414e7181",
+            "5fbef7982ec820fe379051c1155bcf8a807bda0c886d819871ab4b0dde779929",
+            "808b8212b8e92ee81f6d288bed0bf1f7a7b81d8ee4e7ac15ba0ae27be3c2f10d",
+            "1d0ca56d3bae99a7ac443705fb5e1fd35b724b2ef27997795fbef1392df999e1",
+            "1e546968bcfd7f6c8cab5cd30317d04249e914bf029b2ce8528653fd5bd61184",
+            "9425ae49e7660803f3d134da1ef008d3c4a180352b4624752ac04fb769526768",
+            "0c7d35005623dce7dc7a65a86a5e71d325404317ee9c433d5d68e4e83aaf733a",
+            "b5a9262de6dbd0d56d799457b48f5f0cbf1d14357382fa978a71ce35b5663d76",
+            "6339a22ae90ce5fcc7acb3ad2ee3eba08e59f5b68488cd41de00398c38bb4bdf",
+            "3cbc6f6465e8848df126c7d07621a4b52b3cb55d4d5d386fc84bc5957304414d",
+            "4ba6f2f77ce14f9394e891433b9f0d73170d8463ed503c17ec47a049bceb03f6"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag3-context2-logits.npy",
+            "sha256": "28dce271cccdf070267d56431cf8d8f8ecb8f01e5da240c9a03fac3ecb4dba88",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.0791396884640318,
+            "roc_auc": 0.41627356719082215
+          },
+          "parent": "Paris1",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag3-context2-scores.npy",
+            "sha256": "146e337650fc1b0fb1180bd3e3d689d671bd7d157b6972209fad5f4d3f7e5e45",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.18597311107421638,
+            "roc_auc": 0.4460518627105059
+          },
+          "delta": {
+            "average_precision": -0.02448058119182206,
+            "roc_auc": -0.1082941430497153
+          },
+          "id": "frag1-context1",
+          "input_hashes": [
+            "0af6a01aabf87a36f4ef9e159570d36c09f5420d8452946efdc462c9e1a1c58b",
+            "2240d4999446e3dc3d1d7f942fe91de5df3fbd4803c416a04e44e1fabf514779",
+            "2ed8cdaabc29bd6e4bee1a6d6089694f3623cff03d4e607bcac61e9900ce65b9",
+            "8366d284c6f687d0fdd9acc354d3fcfa5bdfde3aba142541e30c460cce986b46",
+            "439d4f0e2f0bd573f89c6c282d8eb56da52f8846972fd30db06de6c7548489b6",
+            "66795b6936633437711582145544e468cbf64df3d1ca680459e3ab582609fe6c",
+            "7f45eaa4fb49faf45617cd74292b4d4f48bc312f2e09e6f9d834888f01504fef",
+            "b9caa8cf83fcd2ef5a222df5de79fafa46a56af7a15b7c3bd2a8cc1adb39fdb5",
+            "94bb2cf78c050c5eb8bdb813a6924adb1d79af8b5741f3136ab1f4b3c131234d",
+            "fbdc8d607e9fb6de8d9fff96db3bd93983bd3936cd02ef8b679896def4e563fb",
+            "1294b6f55ae4a990f385ad9466d69c1249ce4e59e8fafbf172eb7ca35856a46d",
+            "738a017bd61406c4de7a4f670dd08160797032d2cdb8e015594ab3a22b1ff599",
+            "0fe4b5404c849e1e8cd003da9891760a0258ddb5a0ace3e4e3768e7441cb439e",
+            "a50a1c16e9e21d48c90b3f2fde026a1d474d1d5906610b75f2e468bbc3e187e3",
+            "bb4ff9f852a2dcd4628dfbfefb692ee6d92b1cb76d2e6f0768ad3ae087f73290",
+            "818e666ccc79c88656c4c4275708d9afdecaab045a7bc3b3451c798029f9be7f",
+            "3fb9c216b12f9099a9b81db40f598228d0c6777b84c68142b43f01d26954641f",
+            "40e48e018b141cdcbfd4e6a2afa9c0490a59c96471f7ba3dc1626827504454e8",
+            "665dde738fd333627303c6cdd7425ad9417452c0bcc1b4f97e62864760c2c20d",
+            "dc06968492ba976393319c00cc22c0ea6b6c8e7ed0538a86b96998bc64eb0679",
+            "1412a0e9b44e718f4200bd3880093bc3238cf1d7be257bba17a2057504155cbc",
+            "761ebcc04b727d1cceef34ebaa416d0864301dd514999bc41b81517cb4e79577",
+            "715b1310eec5319b25e520e089c657163a277f2d86ca2da3fc82cbb36e14c6cb",
+            "6cd8083c77861bb080c4573f8aa868390ff2de8150dc808591d9dfe5f8d06eec",
+            "a27dd1913d7d556ccbd40641fae712d1a1e025cd9a2dcb84d9862301b07db4a3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag1-context1-logits.npy",
+            "sha256": "5b95a6926157660a220c13eb640c25a0a4005853d83a8253d8c1dc6c94fc5b40",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.16149252988239432,
+            "roc_auc": 0.3377577196607906
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag1-context1-scores.npy",
+            "sha256": "908cf6879f3381e13f31519ceea0576a1c2bfead7f950e801f152001a2ae75dc",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.5000955137941361,
+            "roc_auc": 0.9036776522813884
+          },
+          "delta": {
+            "average_precision": 0.05152339991469235,
+            "roc_auc": -0.013187761895384398
+          },
+          "id": "frag1-context2",
+          "input_hashes": [
+            "414436ece81cabb5933b2d6d48a9b5df9a6066cc30836351585d0f73a37bcd51",
+            "65888895b0dc7478abc25df0d8fcfe54c696b860ec6c74c98627b036dc7e8565",
+            "0251c06f9a097375820844ab0f955f5560a9813c33fbed5f24739d7abbb38f64",
+            "db8394b8a10c661ddc9aa9cfa8924d70ed864be7c50a36175967e14aacc5657f",
+            "01cbf662fce3ec8ef73688f81237f822628cde481b8c0e6c085935eb250b1968",
+            "20b600510b7a067a39e668ec7117761cb53e518f73d0a5433d3aa51bf94ef105",
+            "b53c03dc1a3ee8a7cb86f6ec2c774ba53d66d7282aee5f21bd37303394808218",
+            "c9b3f92faf9ea1c637485450a57ee8f59caf5386eca14adb0b7c7db35d40d8eb",
+            "c0e7fce5d084f55e722ab15869618e894726a800ed21386259c112c3bbb271a3",
+            "d42b2ae8d2db886bbf2819867b0f2222e2f137c9998828d5177d0d32dd13ef60",
+            "b599c73714d2373aa5f4e7c71e11f10b6fd75d18b1079320c4a9c12ae15c86bc",
+            "df9e55a5a82a253c0254d3aac45f374dc09c9e4d5adb31ef42818f9c77867671",
+            "23e43d8ed60d25fae6caf4e200b4e9c64235828baf66ad66461be63072762a76",
+            "3a2b9db2d674df04d96bb807fd7d4d366f4ae33844d085ee86770b3208c5552f",
+            "f9add38be3be36c2b8a75d419c6c3ce15bbbdfe3e64d739c63ea627d78cdfb78",
+            "8e93f458c67d49058b13ed3c6322c5efa1d03c48b8ecd1c056b4f6002173e168",
+            "b7cdc008327c8dc464e3e3ddbbb820a076af1e6c63da912c237e4fa75682bbfd",
+            "c5a89e494ce63296a82af92611309ba7a626b8388254cf5ea6f0e8e9c5bc9aca",
+            "8a5d4d93a0376a619d4a97b0493fa9d8d078aaa9707bc8bd1dbaac6d7bcfd9b4",
+            "43a6310a0beeabab0464573e4d0df9148848ad00dae9e85d94d361aec71a2968",
+            "89fdf14bdfcbe373b31fd6d3f3b0cefad414c4435db167e12118accecb5e0d60",
+            "644528a13f89db3ac21a2242792624eedbf39c0bd1f00cd45032b19c38ab2d7f",
+            "5730e57057ed70a93a5beccc12228fddded65a3376cff6abd9312c40edc44637",
+            "457e9d58d59b667718ee2469d54918b1eb6b6db5e34d45ebc520c0802c8c1888",
+            "bf599364f13722ab9aa81e7f94632b1aad482e77321cf3a7aed527e9742b4bc3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag1-context2-logits.npy",
+            "sha256": "b19d1cc224fb0c3215c751a81e7e438a44141983c8ed114b5c1d62adcfc354aa",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.5516189137088284,
+            "roc_auc": 0.890489890386004
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag1-context2-scores.npy",
+            "sha256": "92aeae0e14ec8a157fbb84b7c21dd0ed5c796ebeb373f198172c6297da0919e9",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.2698386981536433,
+            "roc_auc": 0.5012979773367988
+          },
+          "delta": {
+            "average_precision": -0.024308684860030266,
+            "roc_auc": -0.04068365429088622
+          },
+          "id": "frag2-context1",
+          "input_hashes": [
+            "8e35bd02449c02863f60e908ae7514f726db0c97c2e4bebd059d7f71329eec87",
+            "6242fd932a75b11ee24b29ea0a2cd3b0403b4f8197f65c4e1dd990c00eb47625",
+            "f147d8aa0b9b54a5d5a879b534ba784304d4068bd55ad2f023911326a9099f42",
+            "fe404989226fed6ecbfa5d8e8a218c56280f44043cf45206c371783fa35117ba",
+            "2e8702c00adcf078b19269b0409d3f5384496a30a3ef8293dad9a0904f359f93",
+            "e64d361031c16a819651e1881006f0ff7f4ad62fe69320d97fe239ce5b991dd5",
+            "6c927ba4ba3d3ae89deb3eb3deb98f248f3ac3da14ea75807340468ec66a1863",
+            "6532867b2a140fdbf7140635b3f74c6859e84c00b4ab9be5611fa422021eba51",
+            "f3cfea3dbf14d01f8217ee7f59c56bc8d2ddf0314a8640d372677e89a0b8cdf2",
+            "6f60c3a928c1cd9932a890cc9718bbb6c3d8ecd30ba723e8846c202f22d1d3e1",
+            "deed0a049083c5656340693ff78c928721db5f9216987a3d6601f10a552ffbf8",
+            "e2a8d4eb680f6fd3e40da62cd3ceb50267fe7ba251313e969a1bd266d472373f",
+            "53e1375fbf2dc4500d5e6c359ee3439ba5fa620bc42f88bfb062c7bbc56864cd",
+            "4c130dc54fdc9aa845384e27e871ee3f1f1d44a4a27ae6cd5c2a70e97045b393",
+            "71b65cd63c9231a68309480d9349318933a239cd272cea3874bfced5523dbe82",
+            "08f2b07e4dac375f5ca277977ea2feec58b24b1d004cd99a13440ad79f2c0bca",
+            "f2b1f08434277bd678a38dc1c7222dc3cb672a7f3fb2454d8fb944756012572c",
+            "aadd0c8bf9fde759448d161d053712aab458d61a61b6376d6f7bdc4c2529f952",
+            "0115f7c1f3cfc3ff5690635c8a29423299408d3c216e745ac13e29e8a52e7223",
+            "a2132fcca72b2b8de6adf7c7b85692f85cd56fc33936095dde75a721971aae29",
+            "274e799d0fb939e50dfae88872a5d1ee0e4732dc473a94e4f7323f1cf4eca30e",
+            "3966d70eeccc0345122d6caf92ee83952f086471900d34be1a86e57262c5b7b5",
+            "91f29b70678241e40e0e41a64fceda4e345efa9cfd980c1496635d76e8c82099",
+            "0143d5384d9982801613fcee6b3b3a09532d4b1225b3a2245bff541c8a70f507",
+            "bb7ea933749c0869496e666914ef224c6ba71f02f60e07826f5cd8d9b0f27aa3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag2-context1-logits.npy",
+            "sha256": "657b6bae6105124521495e9f92676a249ce28990eb93ea7d0d4bfac9c27cb5ed",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.24553001329361304,
+            "roc_auc": 0.4606143230459126
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag2-context1-scores.npy",
+            "sha256": "3b37492413b74720538e5b5d13a61e3c4dd0f64bae261fb353ccbfe6f7bc1109",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.5812353686117849,
+            "roc_auc": 0.7795412587345845
+          },
+          "delta": {
+            "average_precision": 0.0634971597141738,
+            "roc_auc": 0.034132355313906126
+          },
+          "id": "frag2-context2",
+          "input_hashes": [
+            "f8668a9db3aec3afee6811d6d7ae12fdd92721047d9091ea8ae3c2d37a0ba200",
+            "240e49116835f4f6b419d0a588f5655307aee3e6dc2291ba8606aba2268d45b0",
+            "ca7ae754525c62cb870cc5f0911b001f5e453c97a8b437d70097f687a141e181",
+            "d4df28f77e34281aedd1c6c862e9a8579f1b4f38be7018ef083051079a34a975",
+            "82f6bcc673b6b00a54466765eb4f3a0ac26a6e166e6db7bf80163861a7071d85",
+            "fbeb56f3039cc9899f27785dcabb8b5f9e00c41e5ffe0d6a22354b23a83220ea",
+            "5b43d55032167665a9844ba1396a3e740651d751f3f2150cb0f7abecab395717",
+            "c7ce53776a96214acf39ec9e1724e4dee771b5a4d7542a8f7871d213226399f6",
+            "eb32d39703302ae5c5084a5c1ade33e11f84ec3b5cb7160ed3d4e85c3d65ed16",
+            "3116406e2900676ff7c3613e161a5c607082a7dd68569e994600d4c389ec7154",
+            "1af674e36de806b06f480dd008c93f509f58c5d449643fddc0e46b0bd4211d38",
+            "2e9d5c7033a160e457ddfb4a3b56319c9716064e820337b80be90e2d9793a40f",
+            "2b8d1f40ad3e1c6ea43ba4ca4bb436e94e4826be8f708c037a72435226e196c2",
+            "dde5715bca4fe42ef82e4249d2bc2caad687a153163e5ec0c5ab3151eb3cca0a",
+            "713257151492a7ec75838852170049288f025c15b87233815ebda5d186ccc0b4",
+            "4c1b33097ac06c34f1e9330fbead70cfdc5c184be64c28a01892906ad99ca310",
+            "ef04c6b17994a062f6356c3047e24e065928674d62e0e70fe431e564f71ef872",
+            "1750b20552d73da35a4a881acca366b9cc339c8b2a64b67f33e2f36cf371f63c",
+            "364a0284ab6a797dc626e657d80e33dc6cf08031c142f212132bbfa238f3267f",
+            "cb0aa4cf91d051e2aa9f4d2934d45bd788e27d4c45919e5d87252ae5b5ef901e",
+            "fd45e58692fc0fcd2859182c388bedc1229d76d71c4aa35c2da73e213622eb3c",
+            "f1a0b3eb00e08517fd54f9de8c3c75fb2d12d8d3cf2b13a8482441804e8ca689",
+            "45627815e373e3dd165eba9f291648a44cab04ae5f458b040f7add8b65d732f7",
+            "9c18a6c73d809b2c880462262b70fcf83753874e1e78eb713b1b7bcc1643f814",
+            "cd0e246cf1d8a5f162cbe6c51318ccbab59595b9e7ec43d60a5e9589e3618153"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag2-context2-logits.npy",
+            "sha256": "07e062a8120a394d61cd94ce208289da7997be0f53d7738756bc2f4f95cc0c74",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.6447325283259587,
+            "roc_auc": 0.8136736140484906
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/frag2-context2-scores.npy",
+            "sha256": "d81f4aab5debeb8a30656c3431bb23f996ee42215e1442b30af26a829536049b",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.9998236854284919,
+            "roc_auc": 0.999881964377599
+          },
+          "delta": {
+            "average_precision": -0.00032870054009959127,
+            "roc_auc": -0.00021907442054980297
+          },
+          "id": "pherc0814-46527-fresh-rank01",
+          "input_hashes": [
+            "0c896adecfeae515f41d08e88295cd4572ab19f1ad76ccacdaa32c1adc3dd9bf",
+            "9a6f7ae9e830181dc001a1e5e6234dde5817a5d221c7e37c256a555d315f9fda",
+            "c1bf91c2c5d26b260a1b1e4e047933cbbe034db2239bd2606dfb6245afe1cc2f",
+            "e342296d83bf57a4d9657c32aa1414961daa0f767109e955c387bc139b81cbd1",
+            "3f76ce55f78d0e8e910d27485a5a62b82b2bfc6c53a7fc5f61ce1ef44e66dab3",
+            "4b8817c7f6a5e89ec0dae2606d78433a6e27c847087ff1da29f1a571700c8c77",
+            "87cc09aeb73c5e21782cfc76ee8b544bf8ad46aa84ca7f543b7111d65d0d23b3",
+            "a38c9024e6a5da1fb363de5ed052cdc1aaf7e8f7c79de7507f6aeddacfe8ac5b",
+            "868bd0c85e2be0575ad724c6b26a5f538548bb302c8143f496fcd4a04ce719c5",
+            "52b15931cbf642efeade1471bdc85af46e4e7ee00e5f833ddb5f28b26b3c9d9e",
+            "637d43919cc1c6ae4f6b4d2e15da4a5ff38b879e8297043d4f7073437cde696a",
+            "3e0ee1340a7f7315df3a013cce4fb0c00cbcf0e0807fd05c91e69a95b2953bc9",
+            "0560ccacb0bcf9cd5dd964a03333141baedd96017069baf33aa61509b741c17f",
+            "77bb724099079b3a33d84383d0b2241de887a062704f694fd1573014d98407d4",
+            "75558e80537b6b2da6c7e75935d1aba2bca2c68c4678f36f56b71efc866daa98",
+            "e5491690f42b73fa2cdde6db1586375b6549c672e0311176ff8813a66f5649a3",
+            "332eece813b3e6b3e9528b900cd647ede0d718969ef63f21fadd1208a015e7cf",
+            "54056db48947e52ad8078f101fac99056ea5d01f9aee8d8fad8842ce4c641319",
+            "0f597b346c502f5ed45141ea1828a995a414b79fb7b19f21d1be9433bbe68fa1",
+            "6d2a8d1ec25a16624c4c09da162431f0ce0af128628ec2d102857783e2622d1f",
+            "4e7c6fd782f566c21db4f9ebd70221eec1dcbd0bbf7250aeded5dac2922e990c",
+            "4642e4d7fdea60beab1cc61b1b09744208baf0bd24761484881d3c721b155166",
+            "66d9b9c6db0ebd73b85a23b08925c83fa4100245d1f0a2366d4d5235d8a62c94",
+            "0cab2c4cf377590514d3373f7764b6631b1f8d433394ac15e761b75664edc804",
+            "54ded2f394459dbec08ce1c1ff7dcac777d8f80e5c0627e5138158c4e12b2245"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/pherc0814-46527-fresh-rank01-logits.npy",
+            "sha256": "e21b11ebab4307b85b926206c6b0b948971e64bf01771cb25cca25f6071ff93e",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.9994949848883923,
+            "roc_auc": 0.9996628899570492
+          },
+          "parent": "PHerc0814",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/pherc0814-46527-fresh-rank01-scores.npy",
+            "sha256": "14b61b0cba9b11f675cc9fb930713c9e9b762156a233aaf5a8a84eff9255314f",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.9971959647374858,
+            "roc_auc": 0.9993339015424499
+          },
+          "delta": {
+            "average_precision": 0.0011399707294018624,
+            "roc_auc": 0.0001372832138388791
+          },
+          "id": "pherc0814-46527-fresh-rank14",
+          "input_hashes": [
+            "9cf0314d4ad2c23286f5cd928fdec05199538fb8ca195e95de7a6792d728f04c",
+            "afc1bcd9892416342042e9a2c9fcdfbfbcfa890eab5b0e84a2e5913d5abd1613",
+            "e470870673d2d46841d1ba1effa790a3d26bed7a12b59234cfc250c354f63a14",
+            "492b80582d9b153f481b6022c91dff58add166a95b3b6b3dba328ce5f9a3b5ce",
+            "7925cb3b18a297c6cfcb0f29847bc810b1b513596e8062160b0fa3b370013b09",
+            "53794fa2b02d96e815c4eb14a22e23f1b81d274af18350b5e4bd149f85de0638",
+            "3790748a5a0fc66fdf5c39a5a1588e463ec9b244e54488ddc54355a063b202c7",
+            "7694a26310134bec484e2200c2cd415c30a604806e252bea9b7595d8c566cc95",
+            "292eb1cad8518ade25ff7d913df5d750db627abeb4aab23f02d0745c56b1bcce",
+            "f888ac93ac9b9d0745614165c16d043c5a47541d39de250cfe74611521774263",
+            "d74163b63e93d080b5c43c2884ab3ef64c298d77e090acbb4b9a79884cf2bce4",
+            "aea199271f53359eeb33c26073458d24f0a110f1c5c07b7bd2decce1ec9d73e1",
+            "be51c2386afc806ff9ddb0f7f8fcad9e6781e40b4a3b6f6000375dba08e1f0ae",
+            "cc03a91f8a3ed79a36e6cf4a1f2257dec212914693e5b4be0021dad5a834d4a8",
+            "3459b4836a362ac4909880d813def2d2769e303134fa73ec026de770c411641b",
+            "6d079ed0c77eb317d3f95162a4c8ee828147c89bd338a70f11c31783f59708cd",
+            "d16ffdc7941bb09d5fb508cd06b95bd3dcd030ae5322c07b96a2a6b4f20bf1d1",
+            "88f43a754b423cc9f2562d0589ddad94f6196a3c671da5cee622f230fe5f5ffb",
+            "f1e57ab69599e9c591d32e694fa5a052c3c462a3fc931267e9402d92cfb846cb",
+            "f3057635783dc1f03c7899148c185500033dc8833f2c0465017fd96a72e76a8e",
+            "ac659e447003d0f6e406619e9cde4d0bcc808b1ce8ca6b3454e2a4dd26997d58",
+            "28d19bb901678addf4104db43b60a85f91884218b8993758fcb2bbb76199ab29",
+            "cee71727c1c0f37481d53024a0f1938433de1c51960a0006f5398854bd92db25",
+            "c1cf9de285ab4649c1c89472880abeb419b2cc4a2804c0f4af940e3a70035f45",
+            "d1c717771b5f62c58e11b89af2c04e4a0e8e827a3cce1d3092fb477590b6101a"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/pherc0814-46527-fresh-rank14-logits.npy",
+            "sha256": "4731210dd88bafd3cb1e447ca45a9cd7a6856368ec6cbb19433d41b91228d1ec",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.9983359354668877,
+            "roc_auc": 0.9994711847562888
+          },
+          "parent": "PHerc0814",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-60000/pherc0814-46527-fresh-rank14-scores.npy",
+            "sha256": "4e04edfe4d64f57034da9730c0b647d553fd81f9b7a8395ba2dc6fed0587b045",
+            "size_bytes": 589952
+          }
+        }
+      ]
+    },
+    {
+      "Paris_equal_parent": {
+        "average_precision": 0.38760014292070843,
+        "roc_auc": 0.6825864693827708
+      },
+      "checkpoint": {
+        "embedded_step": 74999,
+        "filename_step_label": 75000,
+        "label": "seed43-75000",
+        "local_path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+        "repository": "scrollprize/ink_9um",
+        "repository_path": "hybrid_3d2d-seed43/step-075000.pth",
+        "revision": "7109667e2607db1b90c37c8b09cb876ea7fe7bb1",
+        "seed": 43,
+        "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f",
+        "size_bytes": 138360231,
+        "source_url": "https://huggingface.co/scrollprize/ink_9um/resolve/7109667e2607db1b90c37c8b09cb876ea7fe7bb1/hybrid_3d2d-seed43/step-075000.pth",
+        "step": 75000
+      },
+      "new_forwards": 200,
+      "parents": {
+        "PHerc0814": {
+          "average_precision": 0.9993939827515244,
+          "roc_auc": 0.9997669946254101
+        },
+        "Paris1": {
+          "average_precision": 0.30885803951161067,
+          "roc_auc": 0.6789878403658899
+        },
+        "Paris2": {
+          "average_precision": 0.46634224632980625,
+          "roc_auc": 0.6861850983996518
+        }
+      },
+      "regions": [
+        {
+          "baseline_metrics": {
+            "average_precision": 0.2980778906557112,
+            "roc_auc": 0.870063805889609
+          },
+          "delta": {
+            "average_precision": 0.1949707152932713,
+            "roc_auc": 0.023752623847625665
+          },
+          "id": "frag3-context1",
+          "input_hashes": [
+            "bfcddf5272b0b6bfba8ffb5ca725ae8df9da0e7577575bb11b46fd76281da99b",
+            "0a37035d78c6b6b8db72f7a5908754c645e3445662fb80e67ae63b5955681801",
+            "e88903551c8ec599de1d2be5ae7ce8a937b01b242a90dfd38566cc8cd1af08ac",
+            "518dff2136b9de90f8d115b0f27f9a8c1459073a78b396b4434d06a41b8c3cd5",
+            "65aa83ba7e2c3dc23b4dc7fad04ab2a593d8afd2037094a42d9b6497c612942d",
+            "c32d12279e6df638c16e134c109ee8edc64e4cc356939fcaae4062c5f4f95573",
+            "302d93f8c708fcd5e9825090a3785bdb9e517c32c1f3ff3311ac3df0912aa57b",
+            "12b512958d5ba53f4f7beb1837d97a746f566c6f1b99bd4ae63f0bde1613b531",
+            "28f728776927c7d95183cc92aeca67b6bf3711ce62637c48bcb6c3b9c4ab588a",
+            "e3c30c3a1bab7098b526bfb598e58514fc340e02943b18ae372a62866965c7f9",
+            "b5d354b0da4751df15ebf8a80d6a84f4809828e2f8dd149b42228834505ce179",
+            "8c4380bf5ea3513f88ffbf4f882cd94ccce685220ccf9d1210c360394f59902e",
+            "66fcf56e7e9a71f842db43c246666a87a8d736c9eef70b2f51c363bd49d833d5",
+            "ba74586b0e951153a2c78f13f636473d2848fbfc1d6edb681a5a644cc22ad0d6",
+            "d6269d69121f843e26aa92bd46828e241ad83beeca65a5a62d50dceded4f858f",
+            "a297ac867a87996b2f56f8251364c25491f6804fa544b3dc3c6a7b966e25a6fe",
+            "61480ca112c12bc436190d33f9eff485adb18e25d55ddb817c6fe1bf707b54e4",
+            "18b30b93420b7723d4c9b6ba730ebf85664e5766ed6d76eb769970962734ec3c",
+            "8275a08e0469c264d43304aee6b0229a6504fa2cbafab2be905353eb9fdaef1d",
+            "7e14ea2294999f8521070f8303a77cf7c67ce5e94b5f72794356d9dd96ce9a35",
+            "24784606c7a195cccb59453b5cbd6fed64642ff04315c2c5add1483e5b13eb69",
+            "88beaf7a3eb28228bbf042fad98ef96e80da68f8106a12a16c0488b8ded0838b",
+            "e08c1df1cab4b78f2ea3dcab679c8350a6a9e5234c983b1af35e48427e6dfdff",
+            "f2ae58ecc9e775a0bcde68ba7efb1b46c1c3827d4b78b8358513a689ed1ad908",
+            "1b6b064aad4641a443e983986618f0dc88fca7e32751ab18e3236ad126da2727"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag3-context1-logits.npy",
+            "sha256": "785c54c0383a4d12449b117c2d5b5fb4a94934fabcbf8e6583dc322acd4da1e9",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.49304860594898253,
+            "roc_auc": 0.8938164297372346
+          },
+          "parent": "Paris1",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag3-context1-scores.npy",
+            "sha256": "2af9e279a04ee9ab2b185c90fdda14eed9f5a2266a2a30dca26553b875540b65",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.1828874359853522,
+            "roc_auc": 0.6995116233984009
+          },
+          "delta": {
+            "average_precision": -0.05821996291111339,
+            "roc_auc": -0.23535237240385581
+          },
+          "id": "frag3-context2",
+          "input_hashes": [
+            "943ec8fe9065391e04703a5be57c9ce275e26aac894cb6ff3f6616c8085a5d4c",
+            "960981f321461911806c8aa732d89adc10ea5e44d2284c62b0434eb6b0eaa709",
+            "d4806f2a349b402a37bd208b016ee556c126bc7a6b22539c2eaba533ec0858d9",
+            "f5b920d4128e68743300287299c6b45338f1c8868776673729a559a8ff186ddf",
+            "4e7b59ad269e17456864814c068c0fbbc29d79f54d8d92563e35d87ef8641979",
+            "1cb7bf86ab233f05facea41565cc6737a57d8574dfdae607a9f2b217fa003f6b",
+            "9017dc7565568f0b309a3a6c8b5e75d2316a7c2aba664047d68d8184146474dc",
+            "71af45a13689373fb3e7ea9f453572dcbc71fe782458c1c565ec358a415cc69c",
+            "6eecd92ca55ffb2cc692db943172fa862f54f9f9c053ce0113c520afde833d91",
+            "789c5870218525fed39d39618c0de9f660902cf9ceed1771dda351f23c0c6d5a",
+            "b54543de5d0af958e52bee2fd3f41bc1e2dd83bf792ddccaa200cc9b488d2e3e",
+            "16c6a523ced3f669866c0178e91f0c874e75a50f346929efd38f2624ee055939",
+            "e429df9ba5ed24c8ea8ebc3b560cf2f6551c3fcda91592d90cd651097db5b206",
+            "e369e497c5651d82956d4014940f0305ff19c1d269185f4a06aa9f3140f28020",
+            "d99a006a19c582a9f3a55241b009de70765a238f547ff5c253de285f414e7181",
+            "5fbef7982ec820fe379051c1155bcf8a807bda0c886d819871ab4b0dde779929",
+            "808b8212b8e92ee81f6d288bed0bf1f7a7b81d8ee4e7ac15ba0ae27be3c2f10d",
+            "1d0ca56d3bae99a7ac443705fb5e1fd35b724b2ef27997795fbef1392df999e1",
+            "1e546968bcfd7f6c8cab5cd30317d04249e914bf029b2ce8528653fd5bd61184",
+            "9425ae49e7660803f3d134da1ef008d3c4a180352b4624752ac04fb769526768",
+            "0c7d35005623dce7dc7a65a86a5e71d325404317ee9c433d5d68e4e83aaf733a",
+            "b5a9262de6dbd0d56d799457b48f5f0cbf1d14357382fa978a71ce35b5663d76",
+            "6339a22ae90ce5fcc7acb3ad2ee3eba08e59f5b68488cd41de00398c38bb4bdf",
+            "3cbc6f6465e8848df126c7d07621a4b52b3cb55d4d5d386fc84bc5957304414d",
+            "4ba6f2f77ce14f9394e891433b9f0d73170d8463ed503c17ec47a049bceb03f6"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag3-context2-logits.npy",
+            "sha256": "c66710d02c220b64f211849afe57df16d0a61ee115e7d17d281e95424e07eda7",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.12466747307423881,
+            "roc_auc": 0.4641592509945451
+          },
+          "parent": "Paris1",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag3-context2-scores.npy",
+            "sha256": "370627148a7d6b59797d5de8be738ee351873409cf3a0076ad472b9fda6d9e42",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.18597311107421638,
+            "roc_auc": 0.4460518627105059
+          },
+          "delta": {
+            "average_precision": 0.02511296859807219,
+            "roc_auc": 0.005163292848408607
+          },
+          "id": "frag1-context1",
+          "input_hashes": [
+            "0af6a01aabf87a36f4ef9e159570d36c09f5420d8452946efdc462c9e1a1c58b",
+            "2240d4999446e3dc3d1d7f942fe91de5df3fbd4803c416a04e44e1fabf514779",
+            "2ed8cdaabc29bd6e4bee1a6d6089694f3623cff03d4e607bcac61e9900ce65b9",
+            "8366d284c6f687d0fdd9acc354d3fcfa5bdfde3aba142541e30c460cce986b46",
+            "439d4f0e2f0bd573f89c6c282d8eb56da52f8846972fd30db06de6c7548489b6",
+            "66795b6936633437711582145544e468cbf64df3d1ca680459e3ab582609fe6c",
+            "7f45eaa4fb49faf45617cd74292b4d4f48bc312f2e09e6f9d834888f01504fef",
+            "b9caa8cf83fcd2ef5a222df5de79fafa46a56af7a15b7c3bd2a8cc1adb39fdb5",
+            "94bb2cf78c050c5eb8bdb813a6924adb1d79af8b5741f3136ab1f4b3c131234d",
+            "fbdc8d607e9fb6de8d9fff96db3bd93983bd3936cd02ef8b679896def4e563fb",
+            "1294b6f55ae4a990f385ad9466d69c1249ce4e59e8fafbf172eb7ca35856a46d",
+            "738a017bd61406c4de7a4f670dd08160797032d2cdb8e015594ab3a22b1ff599",
+            "0fe4b5404c849e1e8cd003da9891760a0258ddb5a0ace3e4e3768e7441cb439e",
+            "a50a1c16e9e21d48c90b3f2fde026a1d474d1d5906610b75f2e468bbc3e187e3",
+            "bb4ff9f852a2dcd4628dfbfefb692ee6d92b1cb76d2e6f0768ad3ae087f73290",
+            "818e666ccc79c88656c4c4275708d9afdecaab045a7bc3b3451c798029f9be7f",
+            "3fb9c216b12f9099a9b81db40f598228d0c6777b84c68142b43f01d26954641f",
+            "40e48e018b141cdcbfd4e6a2afa9c0490a59c96471f7ba3dc1626827504454e8",
+            "665dde738fd333627303c6cdd7425ad9417452c0bcc1b4f97e62864760c2c20d",
+            "dc06968492ba976393319c00cc22c0ea6b6c8e7ed0538a86b96998bc64eb0679",
+            "1412a0e9b44e718f4200bd3880093bc3238cf1d7be257bba17a2057504155cbc",
+            "761ebcc04b727d1cceef34ebaa416d0864301dd514999bc41b81517cb4e79577",
+            "715b1310eec5319b25e520e089c657163a277f2d86ca2da3fc82cbb36e14c6cb",
+            "6cd8083c77861bb080c4573f8aa868390ff2de8150dc808591d9dfe5f8d06eec",
+            "a27dd1913d7d556ccbd40641fae712d1a1e025cd9a2dcb84d9862301b07db4a3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag1-context1-logits.npy",
+            "sha256": "6c08567f9d7ebe3010e70d66325dbeea5e767a7f8210c819ff88593f62ae8d84",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.21108607967228857,
+            "roc_auc": 0.4512151555589145
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag1-context1-scores.npy",
+            "sha256": "f2ea15c7345d79b921a7a8a23fd112fcdb4ab85bed04da38a27125b16a0c0809",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.5000955137941361,
+            "roc_auc": 0.9036776522813884
+          },
+          "delta": {
+            "average_precision": 0.21775848579635493,
+            "roc_auc": 0.029670282921258173
+          },
+          "id": "frag1-context2",
+          "input_hashes": [
+            "414436ece81cabb5933b2d6d48a9b5df9a6066cc30836351585d0f73a37bcd51",
+            "65888895b0dc7478abc25df0d8fcfe54c696b860ec6c74c98627b036dc7e8565",
+            "0251c06f9a097375820844ab0f955f5560a9813c33fbed5f24739d7abbb38f64",
+            "db8394b8a10c661ddc9aa9cfa8924d70ed864be7c50a36175967e14aacc5657f",
+            "01cbf662fce3ec8ef73688f81237f822628cde481b8c0e6c085935eb250b1968",
+            "20b600510b7a067a39e668ec7117761cb53e518f73d0a5433d3aa51bf94ef105",
+            "b53c03dc1a3ee8a7cb86f6ec2c774ba53d66d7282aee5f21bd37303394808218",
+            "c9b3f92faf9ea1c637485450a57ee8f59caf5386eca14adb0b7c7db35d40d8eb",
+            "c0e7fce5d084f55e722ab15869618e894726a800ed21386259c112c3bbb271a3",
+            "d42b2ae8d2db886bbf2819867b0f2222e2f137c9998828d5177d0d32dd13ef60",
+            "b599c73714d2373aa5f4e7c71e11f10b6fd75d18b1079320c4a9c12ae15c86bc",
+            "df9e55a5a82a253c0254d3aac45f374dc09c9e4d5adb31ef42818f9c77867671",
+            "23e43d8ed60d25fae6caf4e200b4e9c64235828baf66ad66461be63072762a76",
+            "3a2b9db2d674df04d96bb807fd7d4d366f4ae33844d085ee86770b3208c5552f",
+            "f9add38be3be36c2b8a75d419c6c3ce15bbbdfe3e64d739c63ea627d78cdfb78",
+            "8e93f458c67d49058b13ed3c6322c5efa1d03c48b8ecd1c056b4f6002173e168",
+            "b7cdc008327c8dc464e3e3ddbbb820a076af1e6c63da912c237e4fa75682bbfd",
+            "c5a89e494ce63296a82af92611309ba7a626b8388254cf5ea6f0e8e9c5bc9aca",
+            "8a5d4d93a0376a619d4a97b0493fa9d8d078aaa9707bc8bd1dbaac6d7bcfd9b4",
+            "43a6310a0beeabab0464573e4d0df9148848ad00dae9e85d94d361aec71a2968",
+            "89fdf14bdfcbe373b31fd6d3f3b0cefad414c4435db167e12118accecb5e0d60",
+            "644528a13f89db3ac21a2242792624eedbf39c0bd1f00cd45032b19c38ab2d7f",
+            "5730e57057ed70a93a5beccc12228fddded65a3376cff6abd9312c40edc44637",
+            "457e9d58d59b667718ee2469d54918b1eb6b6db5e34d45ebc520c0802c8c1888",
+            "bf599364f13722ab9aa81e7f94632b1aad482e77321cf3a7aed527e9742b4bc3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag1-context2-logits.npy",
+            "sha256": "a1904936261b67844c8d553355ecfeffeda003778eaa5957824f9af1ec38caaf",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.717853999590491,
+            "roc_auc": 0.9333479352026466
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag1-context2-scores.npy",
+            "sha256": "2999dcd494d7618c07866178dfeba8b35edb26a4734bd91d6a72031a7cdd28fb",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.2698386981536433,
+            "roc_auc": 0.5012979773367988
+          },
+          "delta": {
+            "average_precision": -0.020410908313925835,
+            "roc_auc": -0.017283314892690083
+          },
+          "id": "frag2-context1",
+          "input_hashes": [
+            "8e35bd02449c02863f60e908ae7514f726db0c97c2e4bebd059d7f71329eec87",
+            "6242fd932a75b11ee24b29ea0a2cd3b0403b4f8197f65c4e1dd990c00eb47625",
+            "f147d8aa0b9b54a5d5a879b534ba784304d4068bd55ad2f023911326a9099f42",
+            "fe404989226fed6ecbfa5d8e8a218c56280f44043cf45206c371783fa35117ba",
+            "2e8702c00adcf078b19269b0409d3f5384496a30a3ef8293dad9a0904f359f93",
+            "e64d361031c16a819651e1881006f0ff7f4ad62fe69320d97fe239ce5b991dd5",
+            "6c927ba4ba3d3ae89deb3eb3deb98f248f3ac3da14ea75807340468ec66a1863",
+            "6532867b2a140fdbf7140635b3f74c6859e84c00b4ab9be5611fa422021eba51",
+            "f3cfea3dbf14d01f8217ee7f59c56bc8d2ddf0314a8640d372677e89a0b8cdf2",
+            "6f60c3a928c1cd9932a890cc9718bbb6c3d8ecd30ba723e8846c202f22d1d3e1",
+            "deed0a049083c5656340693ff78c928721db5f9216987a3d6601f10a552ffbf8",
+            "e2a8d4eb680f6fd3e40da62cd3ceb50267fe7ba251313e969a1bd266d472373f",
+            "53e1375fbf2dc4500d5e6c359ee3439ba5fa620bc42f88bfb062c7bbc56864cd",
+            "4c130dc54fdc9aa845384e27e871ee3f1f1d44a4a27ae6cd5c2a70e97045b393",
+            "71b65cd63c9231a68309480d9349318933a239cd272cea3874bfced5523dbe82",
+            "08f2b07e4dac375f5ca277977ea2feec58b24b1d004cd99a13440ad79f2c0bca",
+            "f2b1f08434277bd678a38dc1c7222dc3cb672a7f3fb2454d8fb944756012572c",
+            "aadd0c8bf9fde759448d161d053712aab458d61a61b6376d6f7bdc4c2529f952",
+            "0115f7c1f3cfc3ff5690635c8a29423299408d3c216e745ac13e29e8a52e7223",
+            "a2132fcca72b2b8de6adf7c7b85692f85cd56fc33936095dde75a721971aae29",
+            "274e799d0fb939e50dfae88872a5d1ee0e4732dc473a94e4f7323f1cf4eca30e",
+            "3966d70eeccc0345122d6caf92ee83952f086471900d34be1a86e57262c5b7b5",
+            "91f29b70678241e40e0e41a64fceda4e345efa9cfd980c1496635d76e8c82099",
+            "0143d5384d9982801613fcee6b3b3a09532d4b1225b3a2245bff541c8a70f507",
+            "bb7ea933749c0869496e666914ef224c6ba71f02f60e07826f5cd8d9b0f27aa3"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag2-context1-logits.npy",
+            "sha256": "e4c631e24f2c62ecf8959f033e205d001b70d7ddd04413ca0d1de4e82014a4b6",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.24942778983971747,
+            "roc_auc": 0.48401466244410873
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag2-context1-scores.npy",
+            "sha256": "1aef53d9e14f9a7b0db1d4499f46438206cc6d5db0202bc330209dfc88e50e44",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.5812353686117849,
+            "roc_auc": 0.7795412587345845
+          },
+          "delta": {
+            "average_precision": 0.10576574760494317,
+            "roc_auc": 0.09662138165835299
+          },
+          "id": "frag2-context2",
+          "input_hashes": [
+            "f8668a9db3aec3afee6811d6d7ae12fdd92721047d9091ea8ae3c2d37a0ba200",
+            "240e49116835f4f6b419d0a588f5655307aee3e6dc2291ba8606aba2268d45b0",
+            "ca7ae754525c62cb870cc5f0911b001f5e453c97a8b437d70097f687a141e181",
+            "d4df28f77e34281aedd1c6c862e9a8579f1b4f38be7018ef083051079a34a975",
+            "82f6bcc673b6b00a54466765eb4f3a0ac26a6e166e6db7bf80163861a7071d85",
+            "fbeb56f3039cc9899f27785dcabb8b5f9e00c41e5ffe0d6a22354b23a83220ea",
+            "5b43d55032167665a9844ba1396a3e740651d751f3f2150cb0f7abecab395717",
+            "c7ce53776a96214acf39ec9e1724e4dee771b5a4d7542a8f7871d213226399f6",
+            "eb32d39703302ae5c5084a5c1ade33e11f84ec3b5cb7160ed3d4e85c3d65ed16",
+            "3116406e2900676ff7c3613e161a5c607082a7dd68569e994600d4c389ec7154",
+            "1af674e36de806b06f480dd008c93f509f58c5d449643fddc0e46b0bd4211d38",
+            "2e9d5c7033a160e457ddfb4a3b56319c9716064e820337b80be90e2d9793a40f",
+            "2b8d1f40ad3e1c6ea43ba4ca4bb436e94e4826be8f708c037a72435226e196c2",
+            "dde5715bca4fe42ef82e4249d2bc2caad687a153163e5ec0c5ab3151eb3cca0a",
+            "713257151492a7ec75838852170049288f025c15b87233815ebda5d186ccc0b4",
+            "4c1b33097ac06c34f1e9330fbead70cfdc5c184be64c28a01892906ad99ca310",
+            "ef04c6b17994a062f6356c3047e24e065928674d62e0e70fe431e564f71ef872",
+            "1750b20552d73da35a4a881acca366b9cc339c8b2a64b67f33e2f36cf371f63c",
+            "364a0284ab6a797dc626e657d80e33dc6cf08031c142f212132bbfa238f3267f",
+            "cb0aa4cf91d051e2aa9f4d2934d45bd788e27d4c45919e5d87252ae5b5ef901e",
+            "fd45e58692fc0fcd2859182c388bedc1229d76d71c4aa35c2da73e213622eb3c",
+            "f1a0b3eb00e08517fd54f9de8c3c75fb2d12d8d3cf2b13a8482441804e8ca689",
+            "45627815e373e3dd165eba9f291648a44cab04ae5f458b040f7add8b65d732f7",
+            "9c18a6c73d809b2c880462262b70fcf83753874e1e78eb713b1b7bcc1643f814",
+            "cd0e246cf1d8a5f162cbe6c51318ccbab59595b9e7ec43d60a5e9589e3618153"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag2-context2-logits.npy",
+            "sha256": "b1767e618c474a99845113424dcc3dc571489b11687ae31641b7b0ac6e115e7d",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.6870011162167281,
+            "roc_auc": 0.8761626403929375
+          },
+          "parent": "Paris2",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/frag2-context2-scores.npy",
+            "sha256": "93368c175361f37c9a9c3802812b823d389932973ee9e7da8f5c33ab3e22f948",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.9998236854284919,
+            "roc_auc": 0.999881964377599
+          },
+          "delta": {
+            "average_precision": -0.000129459282822042,
+            "roc_auc": -8.518886046593455e-05
+          },
+          "id": "pherc0814-46527-fresh-rank01",
+          "input_hashes": [
+            "0c896adecfeae515f41d08e88295cd4572ab19f1ad76ccacdaa32c1adc3dd9bf",
+            "9a6f7ae9e830181dc001a1e5e6234dde5817a5d221c7e37c256a555d315f9fda",
+            "c1bf91c2c5d26b260a1b1e4e047933cbbe034db2239bd2606dfb6245afe1cc2f",
+            "e342296d83bf57a4d9657c32aa1414961daa0f767109e955c387bc139b81cbd1",
+            "3f76ce55f78d0e8e910d27485a5a62b82b2bfc6c53a7fc5f61ce1ef44e66dab3",
+            "4b8817c7f6a5e89ec0dae2606d78433a6e27c847087ff1da29f1a571700c8c77",
+            "87cc09aeb73c5e21782cfc76ee8b544bf8ad46aa84ca7f543b7111d65d0d23b3",
+            "a38c9024e6a5da1fb363de5ed052cdc1aaf7e8f7c79de7507f6aeddacfe8ac5b",
+            "868bd0c85e2be0575ad724c6b26a5f538548bb302c8143f496fcd4a04ce719c5",
+            "52b15931cbf642efeade1471bdc85af46e4e7ee00e5f833ddb5f28b26b3c9d9e",
+            "637d43919cc1c6ae4f6b4d2e15da4a5ff38b879e8297043d4f7073437cde696a",
+            "3e0ee1340a7f7315df3a013cce4fb0c00cbcf0e0807fd05c91e69a95b2953bc9",
+            "0560ccacb0bcf9cd5dd964a03333141baedd96017069baf33aa61509b741c17f",
+            "77bb724099079b3a33d84383d0b2241de887a062704f694fd1573014d98407d4",
+            "75558e80537b6b2da6c7e75935d1aba2bca2c68c4678f36f56b71efc866daa98",
+            "e5491690f42b73fa2cdde6db1586375b6549c672e0311176ff8813a66f5649a3",
+            "332eece813b3e6b3e9528b900cd647ede0d718969ef63f21fadd1208a015e7cf",
+            "54056db48947e52ad8078f101fac99056ea5d01f9aee8d8fad8842ce4c641319",
+            "0f597b346c502f5ed45141ea1828a995a414b79fb7b19f21d1be9433bbe68fa1",
+            "6d2a8d1ec25a16624c4c09da162431f0ce0af128628ec2d102857783e2622d1f",
+            "4e7c6fd782f566c21db4f9ebd70221eec1dcbd0bbf7250aeded5dac2922e990c",
+            "4642e4d7fdea60beab1cc61b1b09744208baf0bd24761484881d3c721b155166",
+            "66d9b9c6db0ebd73b85a23b08925c83fa4100245d1f0a2366d4d5235d8a62c94",
+            "0cab2c4cf377590514d3373f7764b6631b1f8d433394ac15e761b75664edc804",
+            "54ded2f394459dbec08ce1c1ff7dcac777d8f80e5c0627e5138158c4e12b2245"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/pherc0814-46527-fresh-rank01-logits.npy",
+            "sha256": "de0698d543defb4d6d7fd6a1a9e39cbbb82dc33294dd520570a3e6cc195a1c2e",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.9996942261456698,
+            "roc_auc": 0.9997967755171331
+          },
+          "parent": "PHerc0814",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/pherc0814-46527-fresh-rank01-scores.npy",
+            "sha256": "85d24bf140c101a9931b8cb325e15841a31bff986c09a6b612efe51a6170b4b9",
+            "size_bytes": 589952
+          }
+        },
+        {
+          "baseline_metrics": {
+            "average_precision": 0.9971959647374858,
+            "roc_auc": 0.9993339015424499
+          },
+          "delta": {
+            "average_precision": 0.0018977746198929335,
+            "roc_auc": 0.00040331219123712625
+          },
+          "id": "pherc0814-46527-fresh-rank14",
+          "input_hashes": [
+            "9cf0314d4ad2c23286f5cd928fdec05199538fb8ca195e95de7a6792d728f04c",
+            "afc1bcd9892416342042e9a2c9fcdfbfbcfa890eab5b0e84a2e5913d5abd1613",
+            "e470870673d2d46841d1ba1effa790a3d26bed7a12b59234cfc250c354f63a14",
+            "492b80582d9b153f481b6022c91dff58add166a95b3b6b3dba328ce5f9a3b5ce",
+            "7925cb3b18a297c6cfcb0f29847bc810b1b513596e8062160b0fa3b370013b09",
+            "53794fa2b02d96e815c4eb14a22e23f1b81d274af18350b5e4bd149f85de0638",
+            "3790748a5a0fc66fdf5c39a5a1588e463ec9b244e54488ddc54355a063b202c7",
+            "7694a26310134bec484e2200c2cd415c30a604806e252bea9b7595d8c566cc95",
+            "292eb1cad8518ade25ff7d913df5d750db627abeb4aab23f02d0745c56b1bcce",
+            "f888ac93ac9b9d0745614165c16d043c5a47541d39de250cfe74611521774263",
+            "d74163b63e93d080b5c43c2884ab3ef64c298d77e090acbb4b9a79884cf2bce4",
+            "aea199271f53359eeb33c26073458d24f0a110f1c5c07b7bd2decce1ec9d73e1",
+            "be51c2386afc806ff9ddb0f7f8fcad9e6781e40b4a3b6f6000375dba08e1f0ae",
+            "cc03a91f8a3ed79a36e6cf4a1f2257dec212914693e5b4be0021dad5a834d4a8",
+            "3459b4836a362ac4909880d813def2d2769e303134fa73ec026de770c411641b",
+            "6d079ed0c77eb317d3f95162a4c8ee828147c89bd338a70f11c31783f59708cd",
+            "d16ffdc7941bb09d5fb508cd06b95bd3dcd030ae5322c07b96a2a6b4f20bf1d1",
+            "88f43a754b423cc9f2562d0589ddad94f6196a3c671da5cee622f230fe5f5ffb",
+            "f1e57ab69599e9c591d32e694fa5a052c3c462a3fc931267e9402d92cfb846cb",
+            "f3057635783dc1f03c7899148c185500033dc8833f2c0465017fd96a72e76a8e",
+            "ac659e447003d0f6e406619e9cde4d0bcc808b1ce8ca6b3454e2a4dd26997d58",
+            "28d19bb901678addf4104db43b60a85f91884218b8993758fcb2bbb76199ab29",
+            "cee71727c1c0f37481d53024a0f1938433de1c51960a0006f5398854bd92db25",
+            "c1cf9de285ab4649c1c89472880abeb419b2cc4a2804c0f4af940e3a70035f45",
+            "d1c717771b5f62c58e11b89af2c04e4a0e8e827a3cce1d3092fb477590b6101a"
+          ],
+          "logits": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/pherc0814-46527-fresh-rank14-logits.npy",
+            "sha256": "cafe973ff474ef8bd83af5a2913c6b22ed1cb562be45f22823b0d7a27467ecb5",
+            "size_bytes": 1638528
+          },
+          "metrics": {
+            "average_precision": 0.9990937393573788,
+            "roc_auc": 0.9997372137336871
+          },
+          "parent": "PHerc0814",
+          "scores": {
+            "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/checkpoint-panel/seed43-75000/pherc0814-46527-fresh-rank14-scores.npy",
+            "sha256": "52c35fc2b8cc3fc626a2aa64f8e65fdff61365b82c8285f345238f2408a98b96",
+            "size_bytes": 589952
+          }
+        }
+      ]
+    }
+  ]
+}

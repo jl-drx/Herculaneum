@@ -17,7 +17,7 @@ def main():
     for p in phase.rglob('*'):
         if not p.is_file() or any(k in p.parts for k in ['__pycache__','plot-cache']):continue
         if p.name=='final-verification.json' or p.name.startswith('STARTUP'):continue
-        if p.suffix in {'.py','.md','.json','.jsonl','.csv','.png'} and p.stat().st_size<=1_000_000:candidates.append(p)
+        if p.suffix in {'.py','.sh','.md','.json','.jsonl','.csv','.tsv','.png'} and p.stat().st_size<=1_000_000:candidates.append(p)
     candidates.append(lab/'reports'/args.register);scan([p for p in candidates if p.suffix!='.png'])
     target_manifest=root/'GIT_EXPORT_MANIFEST.json';old_bytes=target_manifest.read_bytes();manifest=json.loads(old_bytes);records={r['path']:r for r in manifest['records']};previous=dict(records)
     for p in sorted(candidates):

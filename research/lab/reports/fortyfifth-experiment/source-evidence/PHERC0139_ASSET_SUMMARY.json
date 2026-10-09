@@ -1,0 +1,298 @@
+[
+  {
+    "segment": "20260422000000-title_2026042222_zmid_flatboi",
+    "original_volume": "20260102150214",
+    "data": [
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/mesh/20260422000000-on-20260102150214-2.399um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260102150214"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "parameters": {
+          "target_volume": "20260102150214"
+        }
+      },
+      {
+        "type": "ink-detection",
+        "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/ink-detection/PHerc0139-20260422000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "parameters": {
+          "target_volume": "20260102150214",
+          "model_id": "20260417190342"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/mesh/20260422000000-on-20260319133050-2.403um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260319133050"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/mesh/20260422000000-on-20250822062710-2.403um.tifxyz/",
+        "parameters": {
+          "target_volume": "20250822062710"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/mesh/20260422000000-on-20250728140407-9.362um.tifxyz/",
+        "parameters": {
+          "target_volume": "20250728140407"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "parameters": {
+          "target_volume": "20250728140407"
+        }
+      }
+    ]
+  },
+  {
+    "segment": "20260215000000-w024_2026021572",
+    "original_volume": "20260102150214",
+    "data": [
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260102150214-2.399um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260102150214"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "parameters": {
+          "target_volume": "20260102150214"
+        }
+      },
+      {
+        "type": "ink-detection",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/ink-detection/PHerc0139-20260215000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "parameters": {
+          "target_volume": "20260102150214",
+          "model_id": "20260417190342"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20250820105138-2.403um.tifxyz/",
+        "parameters": {
+          "target_volume": "20250820105138"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20250728140407-9.362um.tifxyz/",
+        "parameters": {
+          "target_volume": "20250728140407"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260413113053-1.129um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260413113053"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260319133554-2.403um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260319133554"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "parameters": {
+          "target_volume": "20250728140407"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/1.129um-0.22m-59keV-volume-20260413113053-L1.zarr/",
+        "parameters": {
+          "target_volume": "20260413113053",
+          "render_level": "1"
+        }
+      },
+      {
+        "type": "ink-detection",
+        "path": "PHerc0139/segments/20260215000000-w024_2026021572/ink-detection/PHerc0139-20260215000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+        "parameters": {
+          "target_volume": "20260413113053",
+          "model_id": "20260709123958",
+          "render_level": "1"
+        }
+      }
+    ]
+  },
+  {
+    "segment": "20260206000001-w047_2026020613",
+    "original_volume": "20260102150214",
+    "data": [
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/mesh/20260206000001-on-20260102150214-2.399um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260102150214"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "parameters": {
+          "target_volume": "20260102150214"
+        }
+      },
+      {
+        "type": "ink-detection",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/ink-detection/PHerc0139-20260206000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "parameters": {
+          "target_volume": "20260102150214",
+          "model_id": "20260417190342"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/mesh/20260206000001-on-20250820105138-2.403um.tifxyz/",
+        "parameters": {
+          "target_volume": "20250820105138"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/mesh/20260206000001-on-20250728140407-9.362um.tifxyz/",
+        "parameters": {
+          "target_volume": "20250728140407"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/mesh/20260206000001-on-20260413113053-1.129um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260413113053"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/mesh/20260206000001-on-20260319133554-2.403um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260319133554"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "parameters": {
+          "target_volume": "20250728140407"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/surface-volumes/1.129um-0.22m-59keV-volume-20260413113053-L1.zarr/",
+        "parameters": {
+          "target_volume": "20260413113053",
+          "render_level": "1"
+        }
+      },
+      {
+        "type": "ink-detection",
+        "path": "PHerc0139/segments/20260206000001-w047_2026020613/ink-detection/PHerc0139-20260206000001-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+        "parameters": {
+          "target_volume": "20260413113053",
+          "model_id": "20260709123958",
+          "render_level": "1"
+        }
+      }
+    ]
+  },
+  {
+    "segment": "20260220000000-w053_2026022021",
+    "original_volume": "20260102150214",
+    "data": [
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20260102150214-2.399um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260102150214"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "parameters": {
+          "target_volume": "20260102150214"
+        }
+      },
+      {
+        "type": "ink-detection",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/ink-detection/PHerc0139-20260220000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "parameters": {
+          "target_volume": "20260102150214",
+          "model_id": "20260417190342"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20250820105138-2.403um.tifxyz/",
+        "parameters": {
+          "target_volume": "20250820105138"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20250728140407-9.362um.tifxyz/",
+        "parameters": {
+          "target_volume": "20250728140407"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20260413113053-1.129um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260413113053"
+        }
+      },
+      {
+        "type": "tifxyz-transformed",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20260319133554-2.403um.tifxyz/",
+        "parameters": {
+          "target_volume": "20260319133554"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "parameters": {
+          "target_volume": "20250728140407"
+        }
+      },
+      {
+        "type": "layers-zarr",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/1.129um-0.22m-59keV-volume-20260413113053-L1.zarr/",
+        "parameters": {
+          "target_volume": "20260413113053",
+          "render_level": "1"
+        }
+      },
+      {
+        "type": "ink-detection",
+        "path": "PHerc0139/segments/20260220000000-w053_2026022021/ink-detection/PHerc0139-20260220000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+        "parameters": {
+          "target_volume": "20260413113053",
+          "model_id": "20260709123958",
+          "render_level": "1"
+        }
+      }
+    ]
+  }
+]
