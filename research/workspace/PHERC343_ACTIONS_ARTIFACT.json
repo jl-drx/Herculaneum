@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "run_url": "https://github.com/jl-drx/Herculaneum/actions/runs/38001566111",
+  "run_id": 38001566111,
+  "workflow_commit": "ea47f877c00b565be868497e6fb6e2cd5197decf",
+  "artifact_id": 11649901752,
+  "artifact_name": "pherc343-review-38001566111",
+  "artifact_bytes": 64556469,
+  "artifact_sha256": "b1410446f5eabaa0942837252c3e86cf6b807e7845f629c29e734e7eb0d7f5cb",
+  "expires_at_london": "2026-10-10T23:53:05+01:00",
+  "verified_files": [
+    "PROVENANCE.json",
+    "SHA256SUMS",
+    "pherc343-reference-001.tar.gz",
+    "pherc343-results-001.tar.gz",
+    "valid.npy"
+  ],
+  "downloaded_archive_digest": "PASS",
+  "payload_checksums": "PASS",
+  "source_manifest_comparison": "PASS",
+  "lfs_bytes": 49059957,
+  "successful_job_seconds": 13,
+  "first_attempt": {
+    "run_id": 38000942158,
+    "conclusion": "cancelled",
+    "elapsed_job_seconds": 317,
+    "artifact_count": 0
+  },
+  "billing": "Remaining allowances and actual charges unavailable to integration; current rates checked before dispatch.",
+  "inference_run": false,
+  "hecate_process_accessed": false,
+  "lfs_objects_requested": 3,
+  "verified_at_utc": "2026-10-09T22:55:18.731659+00:00",
+  "repository_private_at_verification": true,
+  "permissions_observed": {
+    "contents": "read",
+    "metadata": "read"
+  },
+  "retention_days": 1,
+  "unit_tests_passed": 7,
+  "run_timing_api": {
+    "successful_run_duration_ms": 18000,
+    "first_run_duration_ms": 323000,
+    "reported_billable_ubuntu_ms_for_both": 0,
+    "scope": "Timing endpoint output, not an account invoice or a guarantee that allowance/storage/bandwidth costs are zero."
+  },
+  "pricing_preflight": {
+    "standard_linux_usd_per_minute": 0.006,
+    "artifact_usd_per_gb_month": 0.25,
+    "lfs_download_usd_per_gib": 0.0875,
+    "sources": [
+      "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+      "https://docs.github.com/en/billing/reference/actions-runner-pricing",
+      "https://github.com/pricing/calculator"
+    ]
+  }
+}
