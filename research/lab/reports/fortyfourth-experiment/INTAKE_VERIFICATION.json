@@ -1,0 +1,109 @@
+{
+  "cases": [
+    {
+      "case": "248_090925_PI",
+      "coordinate_rows": 1536,
+      "label_LFS_verified": true,
+      "missing_values": 16720,
+      "raw_values_reconstructed": 2359296,
+      "source_identity": [
+        {
+          "full_file_digest_checked": false,
+          "kind": "brightfield_tif",
+          "resolver_responses": 1
+        },
+        {
+          "full_file_digest_checked": true,
+          "kind": "label_png",
+          "resolver_responses": 1
+        },
+        {
+          "full_file_digest_checked": false,
+          "kind": "normalized_height_tif",
+          "resolver_responses": 1
+        },
+        {
+          "full_file_digest_checked": false,
+          "kind": "raw_height_txt",
+          "resolver_responses": 5
+        }
+      ]
+    },
+    {
+      "case": "250_090925_C",
+      "coordinate_rows": 1536,
+      "label_LFS_verified": true,
+      "missing_values": 15493,
+      "raw_values_reconstructed": 2359296,
+      "source_identity": [
+        {
+          "full_file_digest_checked": false,
+          "kind": "brightfield_tif",
+          "resolver_responses": 1
+        },
+        {
+          "full_file_digest_checked": true,
+          "kind": "label_png",
+          "resolver_responses": 1
+        },
+        {
+          "full_file_digest_checked": false,
+          "kind": "normalized_height_tif",
+          "resolver_responses": 1
+        },
+        {
+          "full_file_digest_checked": false,
+          "kind": "raw_height_txt",
+          "resolver_responses": 5
+        }
+      ]
+    },
+    {
+      "case": "500P2_230925_N2",
+      "coordinate_rows": 1536,
+      "label_LFS_verified": true,
+      "missing_values": 47734,
+      "raw_values_reconstructed": 2359296,
+      "source_identity": [
+        {
+          "full_file_digest_checked": false,
+          "kind": "brightfield_tif",
+          "resolver_responses": 1
+        },
+        {
+          "full_file_digest_checked": true,
+          "kind": "label_png",
+          "resolver_responses": 1
+        },
+        {
+          "full_file_digest_checked": false,
+          "kind": "normalized_height_tif",
+          "resolver_responses": 1
+        },
+        {
+          "full_file_digest_checked": false,
+          "kind": "raw_height_txt",
+          "resolver_responses": 5
+        }
+      ]
+    }
+  ],
+  "created_at_utc": "2026-10-09T16:33:06.626129+00:00",
+  "full_raw_height_files_downloaded": false,
+  "ledger_totals": {
+    "HEADER_REQUESTS.json": {
+      "bytes": 1207830,
+      "failed": 0,
+      "responses": 46
+    },
+    "PIXEL_REQUESTS.json": {
+      "bytes": 275999039,
+      "failed": 0,
+      "responses": 48
+    }
+  },
+  "network_retries": 0,
+  "range_hash_scope": "Retained range bodies verified; only label whole-object digests verified",
+  "source_TIFFs_modified": false,
+  "status": "PASS"
+}

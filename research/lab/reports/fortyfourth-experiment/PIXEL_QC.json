@@ -1,0 +1,168 @@
+{
+  "cases": [
+    {
+      "case": "248_090925_PI",
+      "common_support_fraction": 0.9490852355957031,
+      "crop_xy": [
+        1280,
+        1024
+      ],
+      "finite_height_fraction": 0.9929131401909722,
+      "height_quantiles": [
+        -450.17620849609375,
+        -197.33767700195312,
+        -117.07240295410156,
+        -12.517800331115723,
+        35.847900390625
+      ],
+      "missing_negative_fraction": 0.0064983182618319445,
+      "missing_positive_fraction": 0.014983104289005261,
+      "numeric_support_admitted": true,
+      "parent": "PHerc. 248",
+      "pixels": 2359296,
+      "raw_vs_normalized": {
+        "intercept": 32153.498990668733,
+        "median_abs_residual": 0.2504562785325106,
+        "p99_abs_residual": 0.49482719267951325,
+        "sample_pixels": 63313,
+        "slope": 69.94736199702275,
+        "spearman": 0.9999999905793411
+      },
+      "rgb_channel_quantiles": [
+        [
+          0.0,
+          0.0,
+          84.0,
+          255.0,
+          255.0
+        ],
+        [
+          0.0,
+          0.0,
+          84.0,
+          255.0,
+          255.0
+        ],
+        [
+          0.0,
+          0.0,
+          84.0,
+          255.0,
+          255.0
+        ]
+      ],
+      "supported_annotation_negative": 2119263,
+      "supported_positive": 119910
+    },
+    {
+      "case": "250_090925_C",
+      "common_support_fraction": 0.9541685316297743,
+      "crop_xy": [
+        768,
+        1536
+      ],
+      "finite_height_fraction": 0.9934332105848525,
+      "height_quantiles": [
+        -386.5080871582031,
+        -75.49559585571289,
+        -28.57469940185547,
+        76.16790008544922,
+        539.8975219726562
+      ],
+      "missing_negative_fraction": 0.006779169792806771,
+      "missing_positive_fraction": 0.005293938055589313,
+      "numeric_support_admitted": true,
+      "parent": "PHerc. 250",
+      "pixels": 2359296,
+      "raw_vs_normalized": {
+        "intercept": 27195.962451738244,
+        "median_abs_residual": 0.24978771735550254,
+        "p99_abs_residual": 0.4949165561834525,
+        "sample_pixels": 63347,
+        "slope": 69.85930712956612,
+        "spearman": 0.9999999857743264
+      },
+      "rgb_channel_quantiles": [
+        [
+          0.0,
+          0.0,
+          65.0,
+          255.0,
+          255.0
+        ],
+        [
+          0.0,
+          0.0,
+          65.0,
+          255.0,
+          255.0
+        ],
+        [
+          0.0,
+          0.0,
+          65.0,
+          255.0,
+          255.0
+        ]
+      ],
+      "supported_annotation_negative": 1947854,
+      "supported_positive": 303312
+    },
+    {
+      "case": "500P2_230925_N2",
+      "common_support_fraction": 0.9323844909667969,
+      "crop_xy": [
+        1536,
+        1024
+      ],
+      "finite_height_fraction": 0.9797676934136285,
+      "height_quantiles": [
+        -453.0553894042969,
+        -418.6807019042969,
+        -258.8905029296875,
+        -143.75916671752876,
+        421.8472900390625
+      ],
+      "missing_negative_fraction": 0.022642975244320795,
+      "missing_positive_fraction": 0.0144437172208783,
+      "numeric_support_admitted": true,
+      "parent": "PHerc. 500P2",
+      "pixels": 2359296,
+      "raw_vs_normalized": {
+        "intercept": 34157.046247916536,
+        "median_abs_residual": 0.25154351433957345,
+        "p99_abs_residual": 0.4953141551012232,
+        "sample_pixels": 62475,
+        "slope": 69.0690860516399,
+        "spearman": 0.9999999923335492
+      },
+      "rgb_channel_quantiles": [
+        [
+          0.0,
+          0.0,
+          41.0,
+          255.0,
+          255.0
+        ],
+        [
+          0.0,
+          0.0,
+          41.0,
+          255.0,
+          255.0
+        ],
+        [
+          0.0,
+          0.0,
+          41.0,
+          255.0,
+          255.0
+        ]
+      ],
+      "supported_annotation_negative": 1559015,
+      "supported_positive": 640756
+    }
+  ],
+  "created_at_utc": "2026-10-09T16:25:55.926439+00:00",
+  "visual_review_pending": true
+}

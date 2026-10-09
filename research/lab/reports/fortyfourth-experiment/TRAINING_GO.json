@@ -1,0 +1,136 @@
+{
+  "GPU_spend_GBP": 0,
+  "arms": 6,
+  "created_at_utc": "2026-10-09T16:32:07.577052+00:00",
+  "held_out_parent_tuning": false,
+  "pins": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/TRAINING_PROTOCOL.md",
+      "sha256": "cfb2cfddf1f86265b7755efc04aa2b4c1afe6c075b7f6e6d6051a60082e1ecc0",
+      "size_bytes": 4601
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/learn_resolution.py",
+      "sha256": "55b7e092962ba6ff8583f1a64e6fd9d9c3683a22b1a73ad629795b44683ae560",
+      "size_bytes": 9907
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/test_learning_contract.py",
+      "sha256": "dad33442f9cc6c8a52a580e47bc20c9419694eec267504885bb9ccafa03c9d14",
+      "size_bytes": 3396
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/LEARNING_FIXTURES.json",
+      "sha256": "740c894378ee7c200234588ca9eef4dc9b402a92e77a5b25420936a12d3fe32a",
+      "size_bytes": 456
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/REFERENCE_ADMISSION.json",
+      "sha256": "3325dd131a306568b9884962306ef30c5736a372cfd438a1f1cb3c4a63884caf",
+      "size_bytes": 2362
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/PIXEL_QC.json",
+      "sha256": "f822c77b4590f8e79e847cbddef62bad617e7a1112cd57f15d6aa4d8c4b05659",
+      "size_bytes": 4005
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/CROP_SELECTION.json",
+      "sha256": "94c5a060e6779317688aaa30014909108b945beec422368a9fb5eb5c05653a8c",
+      "size_bytes": 4963
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/HEADER_SELECTION.json",
+      "sha256": "380c6ab0665896e990532d4e9e167f1cf774f8c2586de5830eed3eff42ed26a7",
+      "size_bytes": 8031
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/pixel_http.py",
+      "sha256": "757f93c88cd189295706fc20b8251353d55b9d61d2926353caafba6c645219db",
+      "size_bytes": 4322
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/freeze_training.py",
+      "sha256": "59b88cb58eb545775835c9adfc79c6b76cd3b014b2c27a844c71fb1ca1873b6f",
+      "size_bytes": 792
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/248_090925_PI-common-support.npy",
+      "sha256": "811d152133c71ebb3e5b177a7ff0cc40fa53bb4fac9d0b942dab682a9af5b812",
+      "size_bytes": 2359424
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/248_090925_PI-height.npy",
+      "sha256": "b42a0bab6ca76ff28622b4e916ce360f1ff2ea1a9a5f1f766d928a404119a7af",
+      "size_bytes": 9437312
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/248_090925_PI-label.npy",
+      "sha256": "6fa35fc581b6ff2050ed6361f5b3ad78e0923de7d2da0c58b5987fb67fae0694",
+      "size_bytes": 2359424
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/248_090925_PI-normalized.npy",
+      "sha256": "d2b3ca93aec1b33e39182d1b7e711e98c930faaf745b149646e71023a13fa33f",
+      "size_bytes": 4718720
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/248_090925_PI-rgb.npy",
+      "sha256": "f77eac6a909f6e1e1c038b4fcc5c5c015117d0ddb96fac9033a8837cff9605dc",
+      "size_bytes": 7078016
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/250_090925_C-common-support.npy",
+      "sha256": "86c92da27fd880016aecc62bbda90c1a0cc382e2e576268e305dc90e9cc730d5",
+      "size_bytes": 2359424
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/250_090925_C-height.npy",
+      "sha256": "a2ae8cb991df9edb745425c8ad5490185c2001a22eb8e6c1660dc7872e25c179",
+      "size_bytes": 9437312
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/250_090925_C-label.npy",
+      "sha256": "0af27cf48eab6d46b2301bcbaf92b4297b0e323fe1cc5156dfd8fcf8afbd4d59",
+      "size_bytes": 2359424
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/250_090925_C-normalized.npy",
+      "sha256": "8690d0231ac8dbcdbabeed720fa8585c77c8a250ea0c8a09077d00122dc725ff",
+      "size_bytes": 4718720
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/250_090925_C-rgb.npy",
+      "sha256": "c005b0913161b1b041dd14bd27d572e9efcc5c93b0278d993a1b7ee5d53443af",
+      "size_bytes": 7078016
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/500P2_230925_N2-common-support.npy",
+      "sha256": "f3d8050f14a79c8a03a26587c4e2667dc5d2da7f1d49c2f12d0d2abbab9d9f71",
+      "size_bytes": 2359424
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/500P2_230925_N2-height.npy",
+      "sha256": "6de7e9c62f486e221c60cb4a93f9da5e7f347c21dee205fa5d446306feeb8b42",
+      "size_bytes": 9437312
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/500P2_230925_N2-label.npy",
+      "sha256": "939a889fed752e221b47afe758ecf165f1ef0eba8d25d3e972933a8f6e36e1a1",
+      "size_bytes": 2359424
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/500P2_230925_N2-normalized.npy",
+      "sha256": "3d889a8230cdbcf2911473d922b1d31973d87f03eb42ab1a54fd5464ac3357a0",
+      "size_bytes": 4718720
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfourth-experiment/crops/500P2_230925_N2-rgb.npy",
+      "sha256": "f5f02355edc7f789b14c8dbd6d5bdbb174f6b766487d231e01709027931f8ee9",
+      "size_bytes": 7078016
+    }
+  ],
+  "seed": 20261009,
+  "status": "GO_CPU_ONLY_FOR_ANNOTATION_AGREEMENT",
+  "updates_per_arm": 2048
+}

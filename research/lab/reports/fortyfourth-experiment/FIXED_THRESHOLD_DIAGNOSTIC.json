@@ -1,0 +1,161 @@
+{
+  "rows": [
+    {
+      "arm": "fold0-native",
+      "mean_sigmoid": 0.8253538608551025,
+      "predicted_positive_fraction_at_half": 0.9999980765013868,
+      "score_quantiles": [
+        0.4986981749534607,
+        0.69148093521595,
+        0.8231653571128845,
+        0.9501041173934937,
+        0.9539732336997986
+      ],
+      "test_quality": "native"
+    },
+    {
+      "arm": "fold0-native",
+      "mean_sigmoid": 0.8264850378036499,
+      "predicted_positive_fraction_at_half": 1.0,
+      "score_quantiles": [
+        0.5173205733299255,
+        0.6917438513040542,
+        0.825002908706665,
+        0.9503360986709595,
+        0.9533567428588867
+      ],
+      "test_quality": "coarse4"
+    },
+    {
+      "arm": "fold0-coarse4",
+      "mean_sigmoid": 0.7744226455688477,
+      "predicted_positive_fraction_at_half": 0.9056216170468141,
+      "score_quantiles": [
+        0.0010174453491345048,
+        0.23895764350891113,
+        0.8097443878650665,
+        0.9491584300994873,
+        0.9746583104133606
+      ],
+      "test_quality": "native"
+    },
+    {
+      "arm": "fold0-coarse4",
+      "mean_sigmoid": 0.7792631387710571,
+      "predicted_positive_fraction_at_half": 0.9140460600977907,
+      "score_quantiles": [
+        0.00044781056931242347,
+        0.23821384593844414,
+        0.8121589422225952,
+        0.9493676334619522,
+        0.9745308756828308
+      ],
+      "test_quality": "coarse4"
+    },
+    {
+      "arm": "fold1-native",
+      "mean_sigmoid": 0.3953552842140198,
+      "predicted_positive_fraction_at_half": 0.24662236748122335,
+      "score_quantiles": [
+        0.07671218365430832,
+        0.13763643741607667,
+        0.3797716200351715,
+        0.9303510785102844,
+        0.9691599011421204
+      ],
+      "test_quality": "native"
+    },
+    {
+      "arm": "fold1-native",
+      "mean_sigmoid": 0.39704227447509766,
+      "predicted_positive_fraction_at_half": 0.25286177066874455,
+      "score_quantiles": [
+        0.1182018592953682,
+        0.13771400809288026,
+        0.3792652189731598,
+        0.9312927794456483,
+        0.968650221824646
+      ],
+      "test_quality": "coarse4"
+    },
+    {
+      "arm": "fold1-coarse4",
+      "mean_sigmoid": 0.4774235785007477,
+      "predicted_positive_fraction_at_half": 0.5146738045593049,
+      "score_quantiles": [
+        0.0022850262466818094,
+        0.14342470467090607,
+        0.5095214247703552,
+        0.9234416055679322,
+        0.9496078491210938
+      ],
+      "test_quality": "native"
+    },
+    {
+      "arm": "fold1-coarse4",
+      "mean_sigmoid": 0.4784175753593445,
+      "predicted_positive_fraction_at_half": 0.5113612259474903,
+      "score_quantiles": [
+        0.0018745940178632736,
+        0.1439617896080017,
+        0.5073871612548828,
+        0.9238351774215698,
+        0.9496484994888306
+      ],
+      "test_quality": "coarse4"
+    },
+    {
+      "arm": "fold2-native",
+      "mean_sigmoid": 0.617315411567688,
+      "predicted_positive_fraction_at_half": 0.6084820821530803,
+      "score_quantiles": [
+        0.10357639193534851,
+        0.15389880985021592,
+        0.6950268149375916,
+        0.9638083040714265,
+        0.9964421391487122
+      ],
+      "test_quality": "native"
+    },
+    {
+      "arm": "fold2-native",
+      "mean_sigmoid": 0.6281556487083435,
+      "predicted_positive_fraction_at_half": 0.6233887585290764,
+      "score_quantiles": [
+        0.10557457059621811,
+        0.15266649276018143,
+        0.7050527334213257,
+        0.964205288887024,
+        0.9964697360992432
+      ],
+      "test_quality": "coarse4"
+    },
+    {
+      "arm": "fold2-coarse4",
+      "mean_sigmoid": 0.6941224336624146,
+      "predicted_positive_fraction_at_half": 0.6395057805210065,
+      "score_quantiles": [
+        0.002219893503934145,
+        0.2880110740661621,
+        0.9052053093910217,
+        0.9464540302753449,
+        0.9998158812522888
+      ],
+      "test_quality": "native"
+    },
+    {
+      "arm": "fold2-coarse4",
+      "mean_sigmoid": 0.7098230123519897,
+      "predicted_positive_fraction_at_half": 0.6633207002471994,
+      "score_quantiles": [
+        0.005227467976510525,
+        0.28915088176727294,
+        0.9097923040390015,
+        0.946843844652176,
+        0.9989721775054932
+      ],
+      "test_quality": "coarse4"
+    }
+  ],
+  "scope": "Descriptive post-output check; threshold and advancement decision unchanged"
+}

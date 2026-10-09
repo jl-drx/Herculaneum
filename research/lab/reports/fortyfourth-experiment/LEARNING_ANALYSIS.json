@@ -1,0 +1,526 @@
+{
+  "CT_transfer_established": false,
+  "GPU_spend_GBP": 0,
+  "control_macro_ap": {
+    "coarse4": {
+      "constant": 0.14564399379497792,
+      "hole_density": 0.14277492615362636,
+      "mean_height": 0.12441565994202868
+    },
+    "native": {
+      "constant": 0.14564399379497792,
+      "hole_density": 0.14277492615362636,
+      "mean_height": 0.1242546380925764
+    }
+  },
+  "created_at_utc": "2026-10-09T17:18:27.423602+00:00",
+  "decision": "NATIVE_POSITIVE_CONTROL_NOT_FIT__RESOLUTION_CONCLUSION_INCONCLUSIVE",
+  "gates": {
+    "matched_quality_priority": false,
+    "matched_training_coarse_AP_gain": 0.0032885347790423403,
+    "matched_vs_cross_quality_min_regional_AP_AUROC_delta": -0.011741582089870528,
+    "native_budget_still_improving": true,
+    "native_fit": false,
+    "native_macro_controls_margin": false,
+    "native_matched_quality_AP_gap": -0.011434936049360661,
+    "native_transfer": false,
+    "native_vs_matched_min_regional_AP_AUROC_delta": -0.1620759995465672,
+    "no_parent_loses_to_control": false,
+    "teacher_hypothesis": false
+  },
+  "independent_ink_truth": false,
+  "macro": {
+    "coarse_coarse": {
+      "ap": 0.17907685145582722,
+      "auroc": 0.5670414745958403,
+      "brier": 0.43362838388608876,
+      "dice_at_half": 0.2419271542664121
+    },
+    "coarse_native": {
+      "ap": 0.17497054615481553,
+      "auroc": 0.557287122331103,
+      "brier": 0.43134151607334453,
+      "dice_at_half": 0.234352422756296
+    },
+    "native_coarse": {
+      "ap": 0.17578831667678488,
+      "auroc": 0.5028176254699411,
+      "brier": 0.42108227010848637,
+      "dice_at_half": 0.22212659288678627
+    },
+    "native_native": {
+      "ap": 0.16764191540646656,
+      "auroc": 0.49464081916956665,
+      "brier": 0.4214224103268857,
+      "dice_at_half": 0.21684271521840137
+    }
+  },
+  "model_promoted": false,
+  "optimizer_updates": 12288,
+  "parents": [
+    {
+      "coarse_coarse": {
+        "ap": 0.054633114274423675,
+        "auroc": 0.6571113360999215,
+        "brier": 0.6124208204077134,
+        "dice_at_half": 0.06918197788602327,
+        "n": 2079544,
+        "positive": 68182,
+        "prevalence": 0.032786995610576165
+      },
+      "coarse_native": {
+        "ap": 0.05439394378847651,
+        "auroc": 0.6566973575426529,
+        "brier": 0.6064397130142635,
+        "dice_at_half": 0.06980305022593317,
+        "n": 2079544,
+        "positive": 68182,
+        "prevalence": 0.032786995610576165
+      },
+      "controls": [
+        {
+          "metrics": {
+            "ap": 0.037265287490200916,
+            "auroc": 0.5360584338091123,
+            "brier": 0.059478397950385356,
+            "dice_at_half": 0.0,
+            "n": 2079544,
+            "positive": 68182,
+            "prevalence": 0.032786995610576165
+          },
+          "name": "mean_height",
+          "quality": "native"
+        },
+        {
+          "metrics": {
+            "ap": 0.032485716847952026,
+            "auroc": 0.49466865521242404,
+            "brier": 0.059702452997004135,
+            "dice_at_half": 0.0,
+            "n": 2079544,
+            "positive": 68182,
+            "prevalence": 0.032786995610576165
+          },
+          "name": "hole_density",
+          "quality": "native"
+        },
+        {
+          "metrics": {
+            "ap": 0.032786995610576165,
+            "auroc": 0.5,
+            "brier": 0.059883951016347,
+            "dice_at_half": 0.0,
+            "n": 2079544,
+            "positive": 68182,
+            "prevalence": 0.032786995610576165
+          },
+          "name": "constant",
+          "quality": "native",
+          "training_prevalence": 0.2006319910287857
+        },
+        {
+          "metrics": {
+            "ap": 0.0376325095137197,
+            "auroc": 0.5408213038907044,
+            "brier": 0.05951369334375638,
+            "dice_at_half": 0.0,
+            "n": 2079544,
+            "positive": 68182,
+            "prevalence": 0.032786995610576165
+          },
+          "name": "mean_height",
+          "quality": "coarse4"
+        },
+        {
+          "metrics": {
+            "ap": 0.032485716847952026,
+            "auroc": 0.49466865521242404,
+            "brier": 0.059702452997004135,
+            "dice_at_half": 0.0,
+            "n": 2079544,
+            "positive": 68182,
+            "prevalence": 0.032786995610576165
+          },
+          "name": "hole_density",
+          "quality": "coarse4"
+        },
+        {
+          "metrics": {
+            "ap": 0.032786995610576165,
+            "auroc": 0.5,
+            "brier": 0.059883951016347,
+            "dice_at_half": 0.0,
+            "n": 2079544,
+            "positive": 68182,
+            "prevalence": 0.032786995610576165
+          },
+          "name": "constant",
+          "quality": "coarse4",
+          "training_prevalence": 0.2006319910287857
+        }
+      ],
+      "held_out": "248_090925_PI",
+      "native_coarse": {
+        "ap": 0.04026231201108593,
+        "auroc": 0.49466925972456927,
+        "brier": 0.6674942548021765,
+        "dice_at_half": 0.06349227042928195,
+        "n": 2079544,
+        "positive": 68182,
+        "prevalence": 0.032786995610576165
+      },
+      "native_native": {
+        "ap": 0.04188886729472646,
+        "auroc": 0.49503533655335424,
+        "brier": 0.6657643984158637,
+        "dice_at_half": 0.0634923886797267,
+        "n": 2079544,
+        "positive": 68182,
+        "prevalence": 0.032786995610576165
+      }
+    },
+    {
+      "coarse_coarse": {
+        "ap": 0.09428791984529562,
+        "auroc": 0.37785870510564057,
+        "brier": 0.29475032037886933,
+        "dice_at_half": 0.128876836978257,
+        "n": 2079045,
+        "positive": 248590,
+        "prevalence": 0.11956932149135781
+      },
+      "coarse_native": {
+        "ap": 0.09436687043648079,
+        "auroc": 0.3776209760309647,
+        "brier": 0.29373966593774076,
+        "dice_at_half": 0.1278366777388482,
+        "n": 2079045,
+        "positive": 248590,
+        "prevalence": 0.11956932149135781
+      },
+      "controls": [
+        {
+          "metrics": {
+            "ap": 0.08766744060528159,
+            "auroc": 0.34078990278574495,
+            "brier": 0.12757963474885556,
+            "dice_at_half": 0.0,
+            "n": 2079045,
+            "positive": 248590,
+            "prevalence": 0.11956932149135781
+          },
+          "name": "mean_height",
+          "quality": "native"
+        },
+        {
+          "metrics": {
+            "ap": 0.11762353366442066,
+            "auroc": 0.49137635054521317,
+            "brier": 0.10714346335731918,
+            "dice_at_half": 0.0,
+            "n": 2079045,
+            "positive": 248590,
+            "prevalence": 0.11956932149135781
+          },
+          "name": "hole_density",
+          "quality": "native"
+        },
+        {
+          "metrics": {
+            "ap": 0.11956932149135781,
+            "auroc": 0.5,
+            "brier": 0.10663402041680742,
+            "dice_at_half": 0.0,
+            "n": 2079045,
+            "positive": 248590,
+            "prevalence": 0.11956932149135781
+          },
+          "name": "constant",
+          "quality": "native",
+          "training_prevalence": 0.15646812319755554
+        },
+        {
+          "metrics": {
+            "ap": 0.08759950009315287,
+            "auroc": 0.340201717002149,
+            "brier": 0.1274947252525256,
+            "dice_at_half": 0.0,
+            "n": 2079045,
+            "positive": 248590,
+            "prevalence": 0.11956932149135781
+          },
+          "name": "mean_height",
+          "quality": "coarse4"
+        },
+        {
+          "metrics": {
+            "ap": 0.11762353366442066,
+            "auroc": 0.49137635054521317,
+            "brier": 0.10714346335731918,
+            "dice_at_half": 0.0,
+            "n": 2079045,
+            "positive": 248590,
+            "prevalence": 0.11956932149135781
+          },
+          "name": "hole_density",
+          "quality": "coarse4"
+        },
+        {
+          "metrics": {
+            "ap": 0.11956932149135781,
+            "auroc": 0.5,
+            "brier": 0.10663402041680742,
+            "dice_at_half": 0.0,
+            "n": 2079045,
+            "positive": 248590,
+            "prevalence": 0.11956932149135781
+          },
+          "name": "constant",
+          "quality": "coarse4",
+          "training_prevalence": 0.15646812319755554
+        }
+      ],
+      "held_out": "250_090925_C",
+      "native_coarse": {
+        "ap": 0.10487558222690221,
+        "auroc": 0.3896002871955111,
+        "brier": 0.22649159314563735,
+        "dice_at_half": 0.15304900807308786,
+        "n": 2079045,
+        "positive": 248590,
+        "prevalence": 0.11956932149135781
+      },
+      "native_native": {
+        "ap": 0.10532139006121116,
+        "auroc": 0.3911751873130237,
+        "brier": 0.22449457760970853,
+        "dice_at_half": 0.15551489566271612,
+        "n": 2079045,
+        "positive": 248590,
+        "prevalence": 0.11956932149135781
+      }
+    },
+    {
+      "coarse_coarse": {
+        "ap": 0.3883095202477624,
+        "auroc": 0.6661543825819589,
+        "brier": 0.3937140108716835,
+        "dice_at_half": 0.527722647934956,
+        "n": 2007691,
+        "positive": 571340,
+        "prevalence": 0.28457566428299974
+      },
+      "coarse_native": {
+        "ap": 0.3761508242394892,
+        "auroc": 0.6375430334196915,
+        "brier": 0.3938451692680294,
+        "dice_at_half": 0.5054175403041067,
+        "n": 2007691,
+        "positive": 571340,
+        "prevalence": 0.28457566428299974
+      },
+      "controls": [
+        {
+          "metrics": {
+            "ap": 0.2478311861822467,
+            "auroc": 0.40155358598024815,
+            "brier": 0.25469721586544736,
+            "dice_at_half": 0.0,
+            "n": 2007691,
+            "positive": 571340,
+            "prevalence": 0.28457566428299974
+          },
+          "name": "mean_height",
+          "quality": "native"
+        },
+        {
+          "metrics": {
+            "ap": 0.2782155279485064,
+            "auroc": 0.48406170953273964,
+            "brier": 0.24711193179162205,
+            "dice_at_half": 0.0,
+            "n": 2007691,
+            "positive": 571340,
+            "prevalence": 0.28457566428299974
+          },
+          "name": "hole_density",
+          "quality": "native"
+        },
+        {
+          "metrics": {
+            "ap": 0.28457566428299974,
+            "auroc": 0.5,
+            "brier": 0.2470240446780929,
+            "dice_at_half": 0.0,
+            "n": 2007691,
+            "positive": 571340,
+            "prevalence": 0.28457566428299974
+          },
+          "name": "constant",
+          "quality": "native",
+          "training_prevalence": 0.07617295533418655
+        },
+        {
+          "metrics": {
+            "ap": 0.24801497021921343,
+            "auroc": 0.40191807385084183,
+            "brier": 0.25473121179031677,
+            "dice_at_half": 0.0,
+            "n": 2007691,
+            "positive": 571340,
+            "prevalence": 0.28457566428299974
+          },
+          "name": "mean_height",
+          "quality": "coarse4"
+        },
+        {
+          "metrics": {
+            "ap": 0.2782155279485064,
+            "auroc": 0.48406170953273964,
+            "brier": 0.24711193179162205,
+            "dice_at_half": 0.0,
+            "n": 2007691,
+            "positive": 571340,
+            "prevalence": 0.28457566428299974
+          },
+          "name": "hole_density",
+          "quality": "coarse4"
+        },
+        {
+          "metrics": {
+            "ap": 0.28457566428299974,
+            "auroc": 0.5,
+            "brier": 0.2470240446780929,
+            "dice_at_half": 0.0,
+            "n": 2007691,
+            "positive": 571340,
+            "prevalence": 0.28457566428299974
+          },
+          "name": "constant",
+          "quality": "coarse4",
+          "training_prevalence": 0.07617295533418655
+        }
+      ],
+      "held_out": "500P2_230925_N2",
+      "native_coarse": {
+        "ap": 0.3822270557923665,
+        "auroc": 0.6241833294897431,
+        "brier": 0.3692609623776451,
+        "dice_at_half": 0.449838500157989,
+        "n": 2007691,
+        "positive": 571340,
+        "prevalence": 0.28457566428299974
+      },
+      "native_native": {
+        "ap": 0.35571548886346205,
+        "auroc": 0.597711933642322,
+        "brier": 0.3740082549550849,
+        "dice_at_half": 0.4315208613127613,
+        "n": 2007691,
+        "positive": 571340,
+        "prevalence": 0.28457566428299974
+      }
+    }
+  ],
+  "physical_groups": 3,
+  "pixel_counts_not_independent_samples": true,
+  "status": "COMPLETED_CPU_COMPARISON_NOT_PROMOTED",
+  "training_fit": [
+    {
+      "ap": 0.37216532130933766,
+      "ap_change_last_half": 0.21694743525411397,
+      "arm": "fold0-native",
+      "budget_still_improving": true,
+      "case": "250_090925_C",
+      "native_arm": true
+    },
+    {
+      "ap": 0.5279503203069121,
+      "ap_change_last_half": 0.05973887047725923,
+      "arm": "fold0-native",
+      "budget_still_improving": true,
+      "case": "500P2_230925_N2",
+      "native_arm": true
+    },
+    {
+      "ap": 0.27057984200977225,
+      "ap_change_last_half": 0.08328812845675221,
+      "arm": "fold0-coarse4",
+      "budget_still_improving": true,
+      "case": "250_090925_C",
+      "native_arm": false
+    },
+    {
+      "ap": 0.4847785503782749,
+      "ap_change_last_half": 0.04819731186125931,
+      "arm": "fold0-coarse4",
+      "budget_still_improving": true,
+      "case": "500P2_230925_N2",
+      "native_arm": false
+    },
+    {
+      "ap": 0.13050656992942844,
+      "ap_change_last_half": 0.01493853538336791,
+      "arm": "fold1-native",
+      "budget_still_improving": true,
+      "case": "248_090925_PI",
+      "native_arm": true
+    },
+    {
+      "ap": 0.5229197163143111,
+      "ap_change_last_half": 0.04347876063512646,
+      "arm": "fold1-native",
+      "budget_still_improving": true,
+      "case": "500P2_230925_N2",
+      "native_arm": true
+    },
+    {
+      "ap": 0.16792507663082665,
+      "ap_change_last_half": 0.025773351300636932,
+      "arm": "fold1-coarse4",
+      "budget_still_improving": true,
+      "case": "248_090925_PI",
+      "native_arm": false
+    },
+    {
+      "ap": 0.5256323600419668,
+      "ap_change_last_half": 0.054762638305537126,
+      "arm": "fold1-coarse4",
+      "budget_still_improving": true,
+      "case": "500P2_230925_N2",
+      "native_arm": false
+    },
+    {
+      "ap": 0.08320695969428525,
+      "ap_change_last_half": 0.04863637245312598,
+      "arm": "fold2-native",
+      "budget_still_improving": true,
+      "case": "248_090925_PI",
+      "native_arm": true
+    },
+    {
+      "ap": 0.22327326574336476,
+      "ap_change_last_half": 0.05974922228154078,
+      "arm": "fold2-native",
+      "budget_still_improving": true,
+      "case": "250_090925_C",
+      "native_arm": true
+    },
+    {
+      "ap": 0.04996598315743181,
+      "ap_change_last_half": 0.006178599723565423,
+      "arm": "fold2-coarse4",
+      "budget_still_improving": false,
+      "case": "248_090925_PI",
+      "native_arm": false
+    },
+    {
+      "ap": 0.1597040582032696,
+      "ap_change_last_half": 0.023222888065440317,
+      "arm": "fold2-coarse4",
+      "budget_still_improving": true,
+      "case": "250_090925_C",
+      "native_arm": false
+    }
+  ]
+}
