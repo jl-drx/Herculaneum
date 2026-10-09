@@ -1,4 +1,4 @@
-# PHerc343 reproduction: in progress, blocked at CT streaming
+# PHerc343 reproduction: rendering qualified, full CPU inference running
 
 9 October 2026. This is the approved phase46 experiment, still open. It is not a new completed scientific result, a negative ink result, or permission to infer over incomplete CT. The last sealed experiment remains45 and registerv41 is unchanged.
 
@@ -13,28 +13,29 @@
 - A channels-last Hecate benchmark made eight additional synthetic tile forwards. It reduced the measured batch4 time from6.54s to5.13–5.49s with maximum probability difference5.29e-6. This is a candidate runtime optimization only; the scientific runner retains the original layout pending a real-tile comparison. No optimization benefit is claimed for ink recovery.
 - Fixed ensemble statistics were transcribed from the public sidecar without refitting. The Villa display transformation `clip((v-64)/128,0,1)` is preserved even though the inference TIFF encodes `trunc(255*p)`. These display values are not calibrated probabilities.
 
-## Current blocker and retained state
+## Recovery and qualified inputs — 9 October 2026
 
-The renderer streamed more than2GB of observed source chunks and wrote a partial66-layer surface before repeated HTTP503 errors interrupted the cloud environment's outbound tunnel. The same `envoy://cloudflare_https_tunnel/` transport error affected S3, GitHub and PyPI; intermittent200 responses allowed dependency installation to finish, but sustained streaming did not recover.
+The environment restart restored sustained public S3 access. All five fresh metadata/chunk probes returned200. Direct renderer attempt7 resumed the original cached render and completed. The complete published-area layer34 SHA256 and the all66-layers-positive mask SHA256 both match the author exactly. `RENDER_VERIFICATION.json` isPASS. The directory has1009 files and945,626,675 bytes,26 fewer than the published tree; its whole-directory hash differs. No byte-identical directory or independent equality of every decoded layer is claimed. The two preregistered decoded fidelity gates passed.
 
-Initial retries preserved logs and reused completed chunks. A loopback read-through cache then served retained bytes and retried only transient upstream errors, retaining the existing HTTPS proxy and TLS verification. Optional absent Zarr metadata remains observed404; missing required chunks never become invented zero CT. One five-minute attempt recorded143 HTTP503s and11 successful upstream200 responses. The renderer itself retried exhausted requests, so that attempt was stopped explicitly to avoid an unbounded transport loop. A later successful Git push and two successful CT-chunk probes justified another bounded attempt. It still failed on required chunk `0/77/29/41`, after102 further503 responses and9 upstream200 responses; it exited after142 seconds, before the15-minute timeout. The helper also needed support for optional `meta.json`/`metadata.json` probes, which is now included but has not passed an end-to-end rerun. All workers are stopped. See `TRANSPORT_STOP.json`, `CACHED_RENDER_EXECUTION_V5.json` and retained transport ledgers. Intermittent success does not establish sustained streaming readiness.
+The original preparation scripts produced the plain/padded inputs. An independent full-extent readback verifies that every native padded plane equals the original after removing40 rows/200 columns, with zero padding. The Hecate prepared interiors are also byte-identical after removing36 rows/180 columns. Both input phases retain the full published field and source tiling origins.
 
-**The complete decoded layer34 and valid-mask hashes have not been checked.** There are no scientific ink forwards, completed maps, image comparison or reproduced reading. The partial render must not pass into inference.
+All four models passed strict real-input qualification at the predefined debugging coordinates. Twenty real tile forwards checked single-versus-batch4; the worst saved-output difference was9.39e-6, below1e-4. See `INFERENCE_QUALIFICATION.json` and `REAL_INPUT_VERIFICATION.json`. These checks establish runtime/batching behavior, not ink accuracy.
 
-CPU batch4 times on the synthetic probe were about0.55s dense_native,0.38s seed42,0.41s seed43 and6.54s Hecate. Full-field Hecate inference is an hours-scale CPU job. This is a measured runtime consideration, not a reinstated CPU-AP gate. No paid job was created; GPU spend remains£0 and the first-pilot total cap remains£10.
+## Active computation
 
-## Resume on this machine
+The supervised CPU pipeline started at19:34:31 UTC on9 October2026. It runs `run_fixed_depth.py`, then `compose_and_compare.py` only if inference succeeds. Source scripts, protocol, display statistics and qualification receipts are frozen in `work/pipeline-20261009T193431Z/INPUTS.json`; a lock prevents duplicate supervisors. The wrapper writes a heartbeat and exits on any failed stage. The current-instance live state is `PIPELINE_STATUS.json`; Git contains only a dated observation and must not be used as evidence that a process remains alive.
 
-Use `/workspace/.venvs/pherc343/bin/python`, with `PYTHONDONTWRITEBYTECODE=1` /`-B`, four Torch threads, and this existing checkout. Do not create a worktree. First recheck representative S3 metadata/chunk and GitHub requests through the existing proxy. No new user credentials are needed for these public assets. Do not repeatedly launch against a confirmed tunnel outage.
+Three Villa models each schedule2797 plain and2870 padded tiles. Hecate has13,348 plain and14,162 padded tile origins before blank skipping. The one-batch real-input timing gives a conservative scheduling estimate of16.83 hours for all eight maps, almost entirely Hecate; skipped blank tiles reduce work and sustained throughput may differ. This is not a promised completion time. CPUfp32/eager execution and the public rebuilt dense_native container remain explicit differences from the published run. No scientific reproduction outcome, reading, or translation is claimed while maps are incomplete. GPU spend is£0.
 
-From `/workspace/herculaneum-lab/reports/fortysixth-experiment`:
+## Continue or recover
 
-1. Prefer `python -B render_surface.py` once sustained access recovers; it uses the original remote URL and cache directly. `python -B render_cached_transport.py` is the retrying loopback alternative, with observed optional-metadata404 caching. Both resume the original renderer, then invoke `verify_render.py`, and retain separate logs with a15-minute renderer timeout. The latest recovery changes remain untested end to end. Both published decoded hashes must pass. Render metadata/tree encoding may differ; report that separately.
-2. Only after `RENDER_VERIFICATION.json` saysPASS: `python -B prepare_and_qualify.py`. This builds the author tile phases and Hecate inputs, then checks fixed real tiles and measures full schedules. It is **unexecuted** because CT is incomplete. Its qualification reader was corrected to convert the upstream H/W/Z array to Z/Y/X before normalization.
-3. Only after real-input qualification passes: `python -B run_fixed_depth.py`. The runner uses unchanged upstream tiling/blending, strict weights, fp32 CPU, eager execution, batch4 and no data-loader workers. Those device/compilation differences from the published GPU recipe remain explicit. It preserves individual reading-side maps on both tile phases. No new depth/checkpoint selection.
-4. After all eight maps complete: `python -B compose_and_compare.py` merges original ownership, runs the author's display recipe and records descriptive image differences. This stage is **unexecuted**, as is full inference. Visual assessment and independent output verification remain required before claiming reproduction.
+Use `/workspace/.venvs/pherc343/bin/python` with `-B` and the existing checkout; do not create a worktree. Inspect `PIPELINE_STATUS.json`, its heartbeat, exact process command lines and the current stage log before taking action. A saved PID or RUNNING flag alone is insufficient. Do not launch another worker while the current one is alive, change executing scripts/inputs, or rerun rendering/preparation unnecessarily.
 
-Do not treat syntax checks or the synthetic smoke test as end-to-end validation of steps2–4. Any correction should be additive and recorded before scientific outputs are interpreted. The exact CT and reference hashes remain the gate.
+- The renderer and real-input qualification stages have passed. Their earlier interrupted logs remain preserved; the transport error was not a negative ink result.
+- If the supervisor has finished, inspect its stage exit codes and output receipts. `COMPUTE_COMPLETE_AWAITING_REVIEW` means image computation finished; independent output checks and visual scientific review are still required before sealing phase46.
+- If it failed, inspect the retained error and partial outputs first. `run_fixed_depth.py` resumes complete maps by receipt, but does not checkpoint within a map. An interrupted Hecate map may need recomputation. Never silently reuse unreceipted maps.
+- If the environment is restored, live processes may be gone. Validate completed map receipts against actual files and frozen inputs before resuming. The original composition worker expects a fresh `work/maps` directory; inspect partial composition output before any rerun.
+- `execute_pipeline.py` is a process supervisor, not a paid-resource launcher, a scientific validator, or a durable scheduler across environment shutdown. It leaves scientific review pending and does not promote a model or start PHerc0800 inference.
 
 ## Persistence
 

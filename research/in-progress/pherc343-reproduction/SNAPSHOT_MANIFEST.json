@@ -1,6 +1,6 @@
 {
-  "scope": "Selected in-progress phase46 snapshot; does not seal mutable cloud work, complete the experiment, or back up bulk data",
-  "created_at_utc": "2026-10-09T19:10:06.632981+00:00",
+  "scope": "Selected in-progress phase46 snapshot; does not seal mutable cloud work, complete the experiment, back up bulk data, or preserve running processes",
+  "created_at_utc": "2026-10-09T19:37:02.137430+00:00",
   "files": [
     {
       "path": "CACHED_RENDER_EXECUTION.json",
@@ -57,6 +57,12 @@
       "sha256": "23a2313612859b40835a1ea5fb44493359d85f7425891cd08ea01da7fd858be9"
     },
     {
+      "path": "INFERENCE_QUALIFICATION.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/INFERENCE_QUALIFICATION.json",
+      "bytes": 3280,
+      "sha256": "4757fa5460b18d3575a59f464894235622500a0ddcc694fef08cdb038bdbdd85"
+    },
+    {
       "path": "NETWORK_DIAGNOSIS.json",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/NETWORK_DIAGNOSIS.json",
       "bytes": 1331,
@@ -67,6 +73,18 @@
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/PARTIAL_DATA_STATUS.json",
       "bytes": 556,
       "sha256": "cc4f1d9a01369f80d98b992cb886eb9ca61d593e4e2ffbb2f735a2040760c39a"
+    },
+    {
+      "path": "PIPELINE_LAUNCH.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/PIPELINE_LAUNCH.json",
+      "bytes": 323,
+      "sha256": "dbcc2d26449d909bd8544becb3b3aeea35ecf94280afb0604972088a797f07bd"
+    },
+    {
+      "path": "PIPELINE_OBSERVATION.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/PIPELINE_OBSERVATION.json",
+      "bytes": 1836,
+      "sha256": "a54cd9ec99315bf89fe8d2ce831cc8181338bf494979a4186edf1dea262bdf89"
     },
     {
       "path": "PREPROCESSING_VERIFICATION.json",
@@ -87,6 +105,12 @@
       "sha256": "0118ccce63027f7d3694d2eea27e957e1e2c7e7e7107b2d29d1b5ffe6e65de7f"
     },
     {
+      "path": "REAL_INPUT_VERIFICATION.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/REAL_INPUT_VERIFICATION.json",
+      "bytes": 2016,
+      "sha256": "338005c42d9b173ccf659833c75da88479ebce35d1b180fc2e1c500860b38d1d"
+    },
+    {
       "path": "RENDERER_IDENTITY.json",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/RENDERER_IDENTITY.json",
       "bytes": 359,
@@ -95,8 +119,20 @@
     {
       "path": "RENDER_EXECUTION.json",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/RENDER_EXECUTION.json",
-      "bytes": 4580,
-      "sha256": "dc8c0c4f46fd8d48ed90fdfd0c5edc3b1489920c36e91c3ddffa1d94e3b8c68e"
+      "bytes": 5760,
+      "sha256": "4bfeda81d73d05cfe6085533895d33c620f72d838550cadc4a7723ada9e7fdd5"
+    },
+    {
+      "path": "RENDER_VERIFICATION.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/RENDER_VERIFICATION.json",
+      "bytes": 147856,
+      "sha256": "caf02972b4af92ff58cbabde8b1f82756d4380a4fe479428b212f68ffe2b4476"
+    },
+    {
+      "path": "RESTART_SOURCE_PROBES.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/RESTART_SOURCE_PROBES.json",
+      "bytes": 1006,
+      "sha256": "dd63916014cee1a230228424b9e04160c6f1baa9780e8f04a1fb60bbf9f5a846"
     },
     {
       "path": "RUNTIME_SMOKE.json",
@@ -119,8 +155,8 @@
     {
       "path": "STATUS.md",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/STATUS.md",
-      "bytes": 7592,
-      "sha256": "dd295135709ca35fd4d4465e45e7983f04e53db0987d5c49319a9abaea910af3"
+      "bytes": 7408,
+      "sha256": "d899f61ee0b96ef0ec4badd04ef4757e943b2ba8dc44ca0ced9c9f4eefef4071"
     },
     {
       "path": "TRANSPORT_STOP.json",
@@ -145,6 +181,12 @@
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/compose_and_compare.py",
       "bytes": 3373,
       "sha256": "a9a0ac592697d9286c7ddb24abed38cdcfc9d4b440d369fcac515aa612094184"
+    },
+    {
+      "path": "execute_pipeline.py",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/execute_pipeline.py",
+      "bytes": 3868,
+      "sha256": "f10a30b050239403db79d5722fb02e180e62ed4ee61274ca4cb3b6815068f445"
     },
     {
       "path": "prepare_and_qualify.py",
@@ -291,6 +333,18 @@
       "sha256": "11857fffa603276176295ef9f88581447800b636fd6d5f8fa99a67aee14580ed"
     },
     {
+      "path": "work/pipeline-20261009T193431Z/INPUTS.json",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261009T193431Z/INPUTS.json",
+      "bytes": 1599,
+      "sha256": "7527df5a3abc4be19bcc914ced378d8bda6d53d9132c99189a144a2185921ebc"
+    },
+    {
+      "path": "work/prepare-qualify-v1.log",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/prepare-qualify-v1.log",
+      "bytes": 9692,
+      "sha256": "359dae61ae0cfb0e94647c88891a1a3163d51ea24a5f5ba503f0b6a546470c8c"
+    },
+    {
       "path": "work/preprocessing-verification-v2.log",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/preprocessing-verification-v2.log",
       "bytes": 650,
@@ -393,6 +447,12 @@
       "sha256": "f616f41830b4befffc492d2aa9ec923f361eb6b7c20cae164549089b11dfe6d9"
     },
     {
+      "path": "work/render-controller-v7.log",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render-controller-v7.log",
+      "bytes": 801,
+      "sha256": "3e83030c4b27ca6065d2d2a630b375b5b181f98924f822ac4eed76ee3b0c95ee"
+    },
+    {
       "path": "work/render-controller.log",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render-controller.log",
       "bytes": 207,
@@ -429,6 +489,12 @@
       "sha256": "3c9e2551dd8fd27bea26952229536a914b14c2ef5fad04e029080b4535640132"
     },
     {
+      "path": "work/render-v7.log",
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render-v7.log",
+      "bytes": 1373,
+      "sha256": "c376b67b9cdfd4cbfd2faa8e1e1309d1bd7a8eef2dce7eaf13d71b3c582fa187"
+    },
+    {
       "path": "work/render.log",
       "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/render.log",
       "bytes": 107,
@@ -459,6 +525,6 @@
       "sha256": "d38b14c3ef9008d830831470a6fdfdc10868bdf46f9d9d075bc3d562daefc4e8"
     }
   ],
-  "file_count": 76,
-  "bytes": 1848531
+  "total_files": 87,
+  "total_bytes": 2023177
 }

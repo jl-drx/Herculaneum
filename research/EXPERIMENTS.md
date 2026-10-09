@@ -2,7 +2,7 @@
 
 Historical reports preserve their original conclusions and scope. Latest: [phase45 native continuation and target-return audit](lab/reports/fortyfifth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 45 independent held-out tests.
 
-In progress: [phase46 PHerc343 fixed-depth reproduction](in-progress/pherc343-reproduction/STATUS.md). Renderer identity and synthetic runtime/preprocessing checks passed; repeated outbound-tunnel503s blocked completion of the CT render. No scientific ink result yet; this is not another completed diagnostic study.
+In progress: [phase46 PHerc343 fixed-depth reproduction](in-progress/pherc343-reproduction/STATUS.md). The original render passed both published decoded checksums, all four models passed real-input qualification, and full CPU inference is running. No scientific ink reproduction outcome yet; this is not another completed diagnostic study.
 
 | Experiment | Recorded outcome |
 | --- | --- |

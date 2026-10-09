@@ -138,5 +138,42 @@
     ],
     "exit_code": 1,
     "elapsed_seconds": 16.13411343199914
+  },
+  {
+    "repaired_key": "0/77/30/41",
+    "status": 200,
+    "bytes": 2097152,
+    "sha256": "c9f0146c456d499bade9877139870c8eae62b4cd954f4d3971e92650582ebdfd",
+    "seconds": 0.6212672610000709
+  },
+  {
+    "attempt": 7,
+    "command": [
+      "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/squashfs-root/AppRun",
+      "vc_render_tifxyz",
+      "--volume",
+      "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/ct-cache",
+      "--remote-url",
+      "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr",
+      "--group-idx",
+      "0",
+      "--scale",
+      "1",
+      "--segmentation",
+      "/workspace/herculaneum-lab/reports/fortyfifth-experiment/ph343-mesh-replay/concat_w047-w048_R5B2_z9500-11000.tifxyz",
+      "--num-slices",
+      "66",
+      "--slice-step",
+      "1",
+      "--cache-gb",
+      "2",
+      "--zarr-output",
+      "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/concat_w047-w048_R5B2_z9500-11000_66.zarr",
+      "--resume",
+      "--timeout",
+      "15"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 128.86930137000002
   }
 ]
