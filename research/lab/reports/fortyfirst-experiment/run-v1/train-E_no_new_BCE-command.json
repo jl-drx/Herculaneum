@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/workspace/.venvs/herculaneum/bin/python",
+    "-B",
+    "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run_training.py",
+    "--deadline",
+    "10882.822332962"
+  ],
+  "job": "train-E_no_new_BCE",
+  "log": {
+    "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run-v1/train-E_no_new_BCE.log",
+    "sha256": "0424e4842dfaa02b1e11c8b1387c1f3acd5e3b33b32ac195e4c4abc24ba61b49",
+    "size_bytes": 3958
+  },
+  "returncode": 0,
+  "wall_seconds": 556.1505516790003
+}

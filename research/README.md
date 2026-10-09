@@ -1,8 +1,8 @@
 # Plinius research: continue on another machine
 
-This directory preserves the research history through experiment 40. Start with the [experiment index](EXPERIMENTS.md), [latest result](lab/reports/fortieth-experiment/RESULTS.md), and [next study proposal](lab/reports/fortieth-experiment/NEXT_STUDY_DRAFT.md).
+This directory preserves the research history through experiment 41. Start with the [experiment index](EXPERIMENTS.md), [latest result](lab/reports/fortyfirst-experiment/RESULTS.md), [paired-acquisition assessment](lab/reports/fortyfirst-experiment/PAIRED_ACQUISITION_REVIEW.md), and [next study proposal](lab/reports/fortyfirst-experiment/NEXT_STUDY_DRAFT.md).
 
-Experiment 40 completed the second disjoint PHerc1667 crop replication. Paris AP reached 0.317591 versus A512's 0.317344, with all regional retention floors passed; the required +0.01 gains still failed. The midpoint comparison narrowly missed worst-AP retention by 0.000206. Seed42 remains the baseline and GPU work remains deferred. The next proposal isolates the new crop's supervised-loss gradient on the same fixed schedule. All evaluation regions are reused development; no reading or translation is claimed.
+Experiment 41 removed only the new crop's supervised BCE gradient from the fixed 512-update phase40 recipe, preserving its inputs, original-source weighting and joint teacher KL. Paris AP fell from 0.317591 to 0.316034; worst AP retention improved while worst AUROC retention worsened. The prespecified mechanism result is a tradeoff, and advancement still fails. Seed42 remains the baseline and GPU work remains deferred. The main proposed direction is a native/synthetic-coarse/real-coarse acquisition comparison. Public Paris4 pair metadata, transforms and paired meshes are available; local registration and independent reference labels remain unverified. No paired learning has run. All current evaluation regions are reused development; no reading or translation is claimed.
 
 ## Get the research branch
 
@@ -10,20 +10,20 @@ From an existing clone with access to this private repository:
 
 ```bash
 git fetch origin
-git switch --track origin/codex/plinius-crop-replication
+git switch --track origin/codex/plinius-supervision-control
 ```
 
-For an existing local branch, switch to it and use `git pull --ff-only`. This branch includes the preceding research history, experiment 40, and the tested experiment-39 replay fixture. Check out this branch to obtain the complete state regardless of pull-request merge status.
+For an existing local branch, switch to it and use `git pull --ff-only`. This branch includes the preceding research history, experiments 40–41, and the tested experiment-39 replay fixture. Check out this branch to obtain the complete state regardless of pull-request merge status.
 
 ## What is portable
 
-`lab/` contains byte-identical selected scripts, protocols, reports, configuration records, source notices and the research register from the cloud lab. [GIT_EXPORT_MANIFEST.json](GIT_EXPORT_MANIFEST.json) identifies every exported original file. All 40 experiment reports are included. This is an archival source/evidence export, not an installation of every old experiment: historical scripts and pins retain original absolute paths and may require missing inputs, packages and checkpoints. Do not run their write-once workers against sealed evidence directories.
+`lab/` contains byte-identical selected scripts, protocols, reports, configuration records, source notices and the research register from the cloud lab. [GIT_EXPORT_MANIFEST.json](GIT_EXPORT_MANIFEST.json) identifies every exported original file. All 41 experiment reports are included. This is an archival source/evidence export, not an installation of every old experiment: historical scripts and pins retain original absolute paths and may require missing inputs, packages and checkpoints. Do not run their write-once workers against sealed evidence directories.
 
 Experiment 39 has a 12 MB replay capsule, described by [CAPSULE.json](CAPSULE.json). It contains the 24 retained score maps, labels/masks, frozen comparison code and reference evidence needed to reproduce experiment 39. It has no scan volumes or model weights. This single bounded fixture is committed under `research/replay/` in the private research branch. Release-asset upload was rejected by this environment's authentication; the empty draft release was removed. R2 remains the intended store for larger outputs and checkpoints.
 
-Experiment 40's arrays, training logits and model checkpoints are **not** in the replay capsule or Git. Its versioned plans and receipts identify the retained inputs and outputs; reproducing training requires those separate artifacts.
+Experiments 40–41's arrays, training logits and model checkpoints are **not** in the replay capsule or Git. Their versioned plans and receipts identify the retained inputs and outputs; reproducing training requires those separate artifacts.
 
-The full approximately 9.3 GB manifest-covered evidence chain is still in the original cloud workspace. It has **not** all been transferred to GitHub or R2. No bulk-backup or fresh-machine restoration claim follows from this export. Future training may need a separate transfer of retained inputs/checkpoints or verified reacquisition. R2 worker credential delivery remains unverified; do not paste credentials into chat or commit them.
+The full approximately 9.7 GB manifest-covered evidence chain is still in the original cloud workspace. It has **not** all been transferred to GitHub or R2. No bulk-backup or fresh-machine restoration claim follows from this export. Future training may need a separate transfer of retained inputs/checkpoints or verified reacquisition. R2 worker credential delivery remains unverified; do not paste credentials into chat or commit them.
 
 ## Reproduce experiment 39
 

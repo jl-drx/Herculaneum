@@ -1,0 +1,103 @@
+{
+  "GO": {
+    "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/GO.json",
+    "sha256": "94a2c1acaa99926a975005ceb8fad73d1d32123e59459538d2291f6cf99199f2",
+    "size_bytes": 130885
+  },
+  "GPU_spend_GBP": 0,
+  "created_at_utc": "2026-10-09T14:35:18.510582+00:00",
+  "development_forwards": 200,
+  "elapsed_seconds": 603.1518573480007,
+  "network_requests": 0,
+  "optimizer_updates": 512,
+  "retries": 0,
+  "reused_teacher_batches": 32,
+  "status": "PASS",
+  "teacher_forwards": 0,
+  "training_forwards": 705,
+  "workers": [
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run_training.py",
+        "--deadline",
+        "10882.822332962"
+      ],
+      "job": "train-E_no_new_BCE",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run-v1/train-E_no_new_BCE.log",
+        "sha256": "0424e4842dfaa02b1e11c8b1387c1f3acd5e3b33b32ac195e4c4abc24ba61b49",
+        "size_bytes": 3958
+      },
+      "returncode": 0,
+      "wall_seconds": 556.1505516790003
+    },
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortyfirst-experiment/verify_training.py"
+      ],
+      "job": "verify-training",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run-v1/verify-training.log",
+        "sha256": "1bdb502e56c3a29cb2eb7f2f416ccc21221455c1083b0952c98ec12cdd731aa5",
+        "size_bytes": 427
+      },
+      "returncode": 0,
+      "wall_seconds": 3.736418036000032
+    },
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run_evaluation.py",
+        "--arm",
+        "E_no_new_BCE",
+        "--step",
+        "512",
+        "--deadline",
+        "10882.822332962"
+      ],
+      "job": "eval-E_no_new_BCE-512",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run-v1/eval-E_no_new_BCE-512.log",
+        "sha256": "3522024b0a4b0b733f5842aa6d50ed25891ef865fe16f887dcaa1f7d6c002819",
+        "size_bytes": 2166
+      },
+      "returncode": 0,
+      "wall_seconds": 38.51339495399952
+    },
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortyfirst-experiment/analyze.py"
+      ],
+      "job": "analyze",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run-v1/analyze.log",
+        "sha256": "a7be47b84266536c410cd2fbff2f762ccbb3770286d1d45f2800c5e6404a8e0b",
+        "size_bytes": 455
+      },
+      "returncode": 0,
+      "wall_seconds": 1.4689410539995151
+    },
+    {
+      "command": [
+        "/workspace/.venvs/herculaneum/bin/python",
+        "-B",
+        "/workspace/herculaneum-lab/reports/fortyfirst-experiment/verify_evaluation.py"
+      ],
+      "job": "verify-evaluation",
+      "log": {
+        "path": "/workspace/herculaneum-lab/reports/fortyfirst-experiment/run-v1/verify-evaluation.log",
+        "sha256": "5307000546aa1b6ebd9350244b00f531e9582de1f751501d68d7554383204a10",
+        "size_bytes": 624
+      },
+      "returncode": 0,
+      "wall_seconds": 3.2738394450007036
+    }
+  ]
+}

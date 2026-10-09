@@ -1,0 +1,24 @@
+{
+  "reviewer": "root",
+  "status": "COMPLETED_CPU_CONTROL_NO_ADVANCEMENT",
+  "decision": "Keep seed42; supervision-gradient result is a tradeoff; prioritize paired acquisition learnability. No GPU.",
+  "conclusion": "Removing new-crop BCE lowers Paris AP by 0.001556856 and worsens worst AUROC retention by 0.008139835 but improves worst AP retention by 0.006896297. No three-way winner; both full and control fail the advancement gains. Public Paris4 pair metadata and transforms are available; physical registration and independent reference admission are unverified.",
+  "report_reviewed": true,
+  "figures_visually_reviewed": true,
+  "checks": [
+    "Eight pre-GO fixtures passed, including exact old-slot gradient preservation.",
+    "Independent 6912 loss scalars,96 ranking values,8 masks,1179648 blended pixels passed.",
+    "538 GO pins bound the single512-update attempt; no scientific retries or teacher forwards.",
+    "Reduced optimized objective kept separate from unchanged full objective.",
+    "Partial memo retrieval identified explicitly; no independent replay claim in this turn.",
+    "Public transformation algebra checked; no physical alignment or label authenticity inferred.",
+    "Paris4's seed42 pretraining exposure explicitly qualifies proposed evaluation.",
+    "Blank-slot removal of KL is distinguished from the approved BCE-only control."
+  ],
+  "remaining_limitations": [
+    "Eight reused development regions; no significance or authenticated ink accuracy.",
+    "Reduced PHerc0139 exposure and new-input KL are not separately eliminated.",
+    "No paired model or scientific image/geometry acquisition in this turn.",
+    "Full arrays/checkpoints remain local; worker credentials unresolved."
+  ]
+}

@@ -1,0 +1,1811 @@
+{
+  "records": [
+    {
+      "tag": "old-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/segments/20231016151002/mesh/20231016151002-on-20230205180739-7.91um.tifxyz/meta.json",
+      "bytes": 284,
+      "sha256": "72d560cc64b2109f8eaf344a66e5b2fbc924ecae9fae8b911c9dd93956ad4676",
+      "retrieved_at_utc": "2026-10-09T14:28:25.450859+00:00"
+    },
+    {
+      "tag": "new-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/segments/20231016151002/mesh/20231016151002-on-20260411134726-2.4um.tifxyz/meta.json",
+      "bytes": 408,
+      "sha256": "6bd22e7e7a87b29075e9d2897c7171b72c30ba4b0864405f590d752dc0a6e58d",
+      "retrieved_at_utc": "2026-10-09T14:28:25.666497+00:00"
+    },
+    {
+      "tag": "old-native-attrs",
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/.zattrs",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+      "retrieved_at_utc": "2026-10-09T14:28:26.183115+00:00"
+    },
+    {
+      "tag": "old-native-array",
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/.zarray",
+      "bytes": 239,
+      "sha256": "9f7222d69a9d0aa0fcc91dce21ec154ab61001a6ad4b9ba2cc87a0336f1330bb",
+      "retrieved_at_utc": "2026-10-09T14:28:26.613901+00:00"
+    },
+    {
+      "tag": "new-native-array",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/0/.zarray",
+      "bytes": 241,
+      "sha256": "145e04cb3317367f9b3d0d3fb5c8541518137e643964119638543e4ddf4445db",
+      "retrieved_at_utc": "2026-10-09T14:28:26.794917+00:00"
+    },
+    {
+      "tag": "catalog-schema",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/metadata.schema.json",
+      "bytes": 13520,
+      "sha256": "873c0eb4397e696a93899f71ae86576ad9e6eb62ae4c4bea4543ab3cf1d87376",
+      "retrieved_at_utc": "2026-10-09T14:28:26.984762+00:00"
+    }
+  ],
+  "results": [
+    {
+      "tag": "old-mesh-meta",
+      "status": "PASS",
+      "metadata": {
+        "bbox": [
+          [
+            2357.035888671875,
+            2305.150146484375,
+            5407.5810546875
+          ],
+          [
+            4400.376953125,
+            5338.80859375,
+            13693.27734375
+          ]
+        ],
+        "format": "tifxyz",
+        "scale": [
+          0.05,
+          0.05
+        ],
+        "type": "seg",
+        "uuid": "output_tifxyz"
+      }
+    },
+    {
+      "tag": "new-mesh-meta",
+      "status": "PASS",
+      "metadata": {
+        "area_vx2": 1387692371.9610007,
+        "bbox": [
+          [
+            14211.287109375,
+            13732.3427734375,
+            47001.9921875
+          ],
+          [
+            20522.046875,
+            24200.130859375,
+            73931.6171875
+          ]
+        ],
+        "format": "tifxyz",
+        "scale": [
+          0.05000000074505806,
+          0.05000000074505806
+        ],
+        "type": "seg",
+        "uuid": "out"
+      }
+    },
+    {
+      "tag": "old-native-attrs",
+      "status": "PASS",
+      "metadata": {
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space"
+              },
+              {
+                "name": "y",
+                "type": "space"
+              },
+              {
+                "name": "x",
+                "type": "space"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      2.0,
+                      2.0,
+                      2.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      4.0,
+                      4.0,
+                      4.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.0,
+                      8.0,
+                      8.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      16.0,
+                      16.0,
+                      16.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      32.0,
+                      32.0,
+                      32.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "name": "/",
+            "version": "0.4"
+          }
+        ]
+      }
+    },
+    {
+      "tag": "old-native-array",
+      "status": "PASS",
+      "metadata": {
+        "shape": [
+          14258,
+          7888,
+          8096
+        ],
+        "chunks": [
+          128,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "fill_value": 0,
+        "order": "C",
+        "filters": null,
+        "dimension_separator": "/",
+        "compressor": null,
+        "zarr_format": 2
+      }
+    },
+    {
+      "tag": "new-native-array",
+      "status": "PASS",
+      "metadata": {
+        "shape": [
+          75784,
+          32693,
+          32693
+        ],
+        "chunks": [
+          128,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "fill_value": 0,
+        "order": "C",
+        "filters": null,
+        "dimension_separator": "/",
+        "compressor": null,
+        "zarr_format": 2
+      }
+    },
+    {
+      "tag": "catalog-schema",
+      "status": "PASS",
+      "metadata": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/metadata.schema.json",
+        "title": "Vesuvius Atlas published metadata",
+        "description": "Metadata index of the Vesuvius Challenge open data (`s3://vesuvius-challenge-open-data/metadata.json`). It is generated by the vesuvius-atlas repository (`vesuvius-atlas export secondary-metadata`) from the atlas, filtered to the data that is publicly readable.\n\nThe file is a tree of samples (scrolls and fragments). Each sample holds its scans, volumes (3D reconstructions) and segments (surfaces traced in a volume). A separate `models` map holds the ML models referenced by predictions. Every entity carries a `data` list of artifacts (data entries). Each data entry names an artifact `type`, where to find it (`origins`), the parameters that make it unique among artifacts of the same type, and provenance.\n\nGeneral conventions:\n\n* **Ids.** Short ids are the UTC creation time `YYYYMMDDhhmmss` of the item. They are the keys of every map and are used for all cross-references. A `long_id` adds human-readable details and is used to build paths. Treat it as a display and path string and read numbers from the numeric properties instead: long ids and paths are lossy, e.g. a distance of 220 mm and one of 225 mm both render as `0.2m`.\n* **References may not resolve within this file.** The file is filtered to published data, but cross-references are not rewritten. Transform lists, coverage maps, `original_volume_id`, `derived_from` and parameters such as `target_volume` can name volumes whose data is not public (e.g. license-restricted) or not published yet.\n* **Coordinates.** Points (transforms, bounding boxes, landmarks, tifxyz/obj vertices) are `[x, y, z]` in voxel units of the level-0 (full-resolution) array of the volume they refer to. Exceptions are noted where they occur, e.g. segment coordinates when `original_volume_downscale` != 1. Array shapes follow array order `[z, y, x]`. Level N of an OME-Zarr pyramid is a 2^N downsample, so its voxel size is `pixel_size_um * 2^N`.\n* **URLs.** An artifact's location is `access_root.url + '/' + origin.path`. A path ending in `/` is a directory/prefix artifact (zarr, tifxyz, bundles); otherwise it is a single file.\n* **Absent and null.** Optional fields may be either missing or `null`; the two mean the same thing.\n* **Opaque provenance.** `creation.metadata`, `creation_info` and `copy_info` record where something came from. Their content depends on the ingestion or derivation process and is not fixed by this schema. Do not rely on their inner structure.",
+        "$comment": "Hand-maintained. Validated against a fresh export by tests/test_metadata_schema.py. The fixed parts mirror the pydantic models in src/vesuvius_atlas/models.py and the export in src/vesuvius_atlas/export.py (export_filtered_by_target); data types and their parameters mirror atlas_config.yaml. See ScrollPrize/vesuvius-atlas#16.",
+        "type": "object",
+        "required": [
+          "samples",
+          "models"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "$schema": {
+            "type": "string",
+            "description": "URL of this schema."
+          },
+          "samples": {
+            "type": "object",
+            "description": "Published samples keyed by sample id (e.g. `PHercParis4`, `PHerc0332`). A sample is included when at least one of its entities has published data.",
+            "additionalProperties": {
+              "$ref": "#/$defs/SampleTree"
+            }
+          },
+          "models": {
+            "type": "object",
+            "description": "All ML models known to the atlas, keyed by model id (`parameters.model_id` of predictions refers to these keys). Model weights are not part of the open data, so models carry no `data`.",
+            "additionalProperties": {
+              "$ref": "#/$defs/Model"
+            }
+          }
+        },
+        "$defs": {
+          "Id": {
+            "type": "string",
+            "pattern": "^[0-9]{14}$",
+            "description": "Short id: timestamp `YYYYMMDDhhmmss` of when the item was created, intended as UTC (e.g. a volume's id is its export time, not the scan time). Ids are assigned once and never renumbered. Treat them as opaque handles rather than exact creation times: collisions are resolved manually by counting up the last digits, and for some segments the timestamp source (file modification time) was off by a timezone offset."
+          },
+          "NullableNumber": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "Point3": {
+            "type": "array",
+            "description": "A point `[x, y, z]` in voxel coordinates.",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "Matrix3x4": {
+            "type": "array",
+            "description": "Affine transform as 3 rows of 4 numbers `[R | t]`, applied to column vectors `[x, y, z, 1]`: `p' = R @ p + t`. Input and output are level-0 voxel coordinates `[x, y, z]` of the source and target volume respectively; `t` is in target voxels. Scaling between volumes of different voxel size is part of `R`.",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 4,
+              "maxItems": 4
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "OpaqueObject": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "description": "Free-form object whose content depends on the process that produced the item. Informational only; not stabilized by this schema."
+          },
+          "Creation": {
+            "type": "object",
+            "description": "How and when the entity came into existence.",
+            "required": [
+              "date",
+              "process"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "date": {
+                "type": "string",
+                "description": "ISO-8601 timestamp (usually UTC; scan dates may carry the facility's local offset) of when the item was produced upstream (scan acquisition, volume export, segment creation). It is not the time the item entered the atlas or was published. When an artifact was copied to a location is in `origins[].copy_info.date`."
+              },
+              "process": {
+                "type": "string",
+                "description": "Name of the producing process, e.g. `xray tomography` (scans), `mask_layers_zarr_export` / `reconstruction` (volumes), `surface_tracing` (segments), `model_training` (models)."
+              },
+              "metadata": {
+                "$ref": "#/$defs/OpaqueObject",
+                "description": "Process-specific metadata captured at ingestion. Examples: the beamline acquisition summary for scans; the intensity window used for 8-bit export for volumes; a copy of the tifxyz `meta.json` (`bbox`, `scale`, `uuid`, ...) for segments. Opaque: the keys vary between facilities and ingestion paths."
+              },
+              "derived_from": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "description": "The entity this one was produced from, by short id: a volume's scan (or the volume it was re-exported from), a segment's volume.",
+                "required": [
+                  "type",
+                  "id"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "scan",
+                      "volume"
+                    ]
+                  },
+                  "id": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "License": {
+            "type": "object",
+            "description": "License of the volume's voxel data. Derived artifacts follow the license of the volume they were computed from; for segment renders this is the volume they were rendered against.",
+            "required": [
+              "name",
+              "url"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "`CC BY-NC 4.0` (ESRF scans and all data hosted in the open-data bucket) or `EduceLab Data License` (the 2023 DLS scans of PHercParis4, PHerc0332, PHerc1667, ...). EduceLab-licensed volumes are not copied to the open-data bucket. They are listed here with their canonical-channel location under `https://data.aws.ash2txt.org`.",
+                "examples": [
+                  "CC BY-NC 4.0",
+                  "EduceLab Data License"
+                ]
+              },
+              "url": {
+                "type": "string",
+                "description": "Link to the license text."
+              }
+            }
+          },
+          "AccessRoot": {
+            "type": "object",
+            "description": "Base location (bucket or web root) under which `origin.path` resolves.",
+            "required": [
+              "type",
+              "url",
+              "usage"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "URL scheme of `url`.",
+                "enum": [
+                  "s3",
+                  "https",
+                  "http",
+                  "hf"
+                ]
+              },
+              "url": {
+                "type": "string",
+                "description": "Root URL without trailing slash, e.g. `s3://vesuvius-challenge-open-data` or `https://data.aws.ash2txt.org`. The open-data bucket is also reachable over HTTPS as `https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com`."
+              },
+              "usage": {
+                "type": "string",
+                "description": "Access class of the root. The published file contains only `public-read` (anonymously readable). That covers two channels: the open-data bucket (CC-licensed data only) and the canonical bucket `s3://vesuvius-challenge`, served at `https://data.aws.ash2txt.org/samples/`. The canonical bucket also holds EduceLab-licensed data; directory listings are disabled there, but objects are public. The other values exist only in the internal atlas.",
+                "enum": [
+                  "public-read",
+                  "standard",
+                  "private-s3",
+                  "private",
+                  "private-internet",
+                  "cluster-private"
+                ]
+              }
+            }
+          },
+          "DataOrigin": {
+            "type": "object",
+            "description": "One location of an artifact. When an entry has several origins, they are alternative locations holding the same content.",
+            "required": [
+              "path",
+              "access_roots"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "path": {
+                "type": "string",
+                "description": "Path relative to the access root, without leading slash. A trailing `/` marks a directory/prefix artifact (zarr, tifxyz, bundles); otherwise it is a single file. Paths follow the bucket layout `<sample>/volumes/...`, `<sample>/segments/<segment long_id>/...`, `<sample>/representations/...`, `<sample>/photos/...`. Under `https://data.aws.ash2txt.org` the path is prefixed with `samples/`."
+              },
+              "access_roots": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/AccessRoot"
+                },
+                "minItems": 1
+              },
+              "copy_info": {
+                "$ref": "#/$defs/OpaqueObject",
+                "description": "Set when this location was populated by copying from another location (the usual case for the open-data bucket). Currently `{source_path, date, workflow_execution}`, where `date` is when the copy was made, i.e. when the artifact was published at this location. Informational."
+              }
+            }
+          },
+          "DataEntry": {
+            "type": "object",
+            "description": "An artifact attached to an entity. Within one entity, an artifact is identified by `type` plus `parameters`. There is one entry per parameter combination, e.g. one `layers-zarr` per target volume or one `ink-detection` per (target volume, model). The order of entries in `data` is not significant. `parameters` is the stable, config-defined identity; `properties` holds facts about the artifact; `creation_info` is free-form provenance.",
+            "required": [
+              "type",
+              "origins"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Optional entry identifier. Only used where parameters alone do not name the artifact (fiberlet bundles)."
+              },
+              "type": {
+                "type": "string",
+                "description": "Artifact type. Consumers dispatch on the exact string. The known types are documented in the conditional subschemas below. New types are added over time, so unknown types should be ignored rather than rejected."
+              },
+              "origins": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/DataOrigin"
+                },
+                "minItems": 1
+              },
+              "properties": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "description": "Facts about the artifact itself (dimensions, statistics), where recorded. Per-type keys are documented in the type-specific subschemas."
+              },
+              "parameters": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "description": "The parameters that distinguish this artifact from others of the same type on the same entity. They correspond one-to-one to parameters of the producing pipeline step and are reflected in the artifact path. Parameters with a default value may be omitted; e.g. `render_level` is absent when it is 0. Values that reference other entities are short ids."
+              },
+              "creation_info": {
+                "$ref": "#/$defs/OpaqueObject",
+                "description": "Provenance of the artifact. For artifacts derived by the atlas pipeline this typically holds `{process, workflow, workflow_execution, date, derived_from: {data_type, source_path}, provenance: {...container images, workflow parameters, code revisions...}}`. For ingested artifacts it holds the producer's own sidecar metadata (e.g. inference settings or `provenance.json`). Opaque: its shape changes with the producing tool."
+              }
+            },
+            "allOf": [
+              {
+                "$ref": "#/$defs/DataTypes"
+              }
+            ]
+          },
+          "DataTypes": {
+            "description": "Per-type documentation and parameter constraints. Each branch applies only when `type` matches. Parameters listed here are typed; additional parameters may appear.",
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "photo"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Sample: photograph of the physical object (`<sample>/photos/<sample>_photo.jpg`)."
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "photo-mask"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Sample: binary PNG mask of the object in `photo` (`<sample>/photos/<sample>_mask.png`). Not every sample has one."
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "ome-zarr"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Volume: the reconstructed CT volume, `<sample>/volumes/<volume long_id>/`. OME-Zarr (zarr v2) multiscale pyramid with levels `0`..`5`; each level is a 2x downsample of the previous one. Arrays are `[z, y, x]`, usually `uint8` (masked and windowed from the 16/32-bit reconstruction), with 128^3 chunks. Level 0 voxel size is `volume.properties.pixel_size_um`."
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "surface-prediction-zarr"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Volume: ML surface (papyrus sheet) prediction, `<sample>/representations/predictions/surfaces/<volume_id>-surface-<model long_id>-L<level>-th<threshold>.zarr/`. OME-Zarr pyramid on the grid of the source volume's pyramid level `level`, i.e. with voxel size `pixel_size_um * 2^level`. To overlay it on level 0 of the source volume, scale by `2^level`.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "model_id"
+                      ],
+                      "properties": {
+                        "model_id": {
+                          "$ref": "#/$defs/ModelRef"
+                        },
+                        "level": {
+                          "$ref": "#/$defs/PyramidLevel",
+                          "description": "Pyramid level of the source volume the inference ran on. Missing on a legacy entry, whose level is unknown."
+                        },
+                        "threshold_value": {
+                          "type": "number",
+                          "description": "Threshold applied to the raw model output (e.g. 0.2, 0.45)."
+                        },
+                        "tta": {
+                          "type": "string",
+                          "description": "Test-time augmentation used: `none` or the augmentation type (e.g. `mirroring`)."
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "normal-grids"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Volume: sparse surface-normal traces extracted from a surface prediction, stored next to it as `...surfaces/<volume_id>-surface-<model long_id>-L<level>-th<threshold>.normal-grids/`. A directory of `.grid` files plus `metadata.json`, not a zarr. Its parameters equal those of the surface prediction it was computed from.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "model_id",
+                        "level",
+                        "threshold_value"
+                      ],
+                      "properties": {
+                        "model_id": {
+                          "$ref": "#/$defs/ModelRef"
+                        },
+                        "level": {
+                          "$ref": "#/$defs/PyramidLevel"
+                        },
+                        "threshold_value": {
+                          "type": "number"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "lasagna"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Volume: surface-orientation (\"Lasagna\") prediction bundle, `<sample>/representations/predictions/lasagna/<volume_id>-lasagna-<model_id>[-L<level>]/`. A folder of several OME-Zarr product pyramids plus one `*.lasagna.json` manifest describing channel decoding and the mapping to the source volume. It is handled as one artifact. Unlike surface predictions, the bundle is expressed in the source volume's level-0 frame regardless of `level`.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "model_id",
+                        "level"
+                      ],
+                      "properties": {
+                        "model_id": {
+                          "$ref": "#/$defs/ModelRef"
+                        },
+                        "level": {
+                          "$ref": "#/$defs/PyramidLevel",
+                          "description": "Source pyramid level the inference ran on."
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "fiberlets"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Volume: fiber-trace bundle derived from fiber and normal predictions, `<sample>/representations/fiberlets/<volume_id>-fiberlets-<id>/` containing `fiberlets.zarr/{anchors,prefix,routes}`. Identified by the entry `id` together with its parameters (input models, levels and fingerprints)."
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "ink-detection-3d-zarr"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Volume: volumetric ink probability prediction, `<sample>/representations/predictions/ink-3d/<volume_id>-ink3d-<model long_id>.zarr/`, on the volume's level-0 grid.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "model_id"
+                      ],
+                      "properties": {
+                        "model_id": {
+                          "$ref": "#/$defs/ModelRef"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "umbilicus"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Volume: hand-annotated scroll axis (umbilicus), `<sample>/representations/umbilicus/<volume_id>-umbilicus-<revision>.json`. A VC3D umbilicus JSON with `control_points` `[{x, y, z}]` in the volume's level-0 voxel grid. A new annotation is a new revision.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "revision"
+                      ],
+                      "properties": {
+                        "revision": {
+                          "type": "string",
+                          "pattern": "^[0-9]{14}$",
+                          "description": "Timestamp of the annotation."
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "tifxyz"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: the segment surface as ingested, `.../mesh/intermediate/tifxyz_original/`. `x.tif`, `y.tif` and `z.tif` hold the `[x, y, z]` coordinate of each grid point of a quad mesh; invalid points are `-1`. `meta.json` records `scale`, the grid decimation (0.05 = one grid point per 20 surface pixels). Coordinates are in the frame of `original_volume_id`, at its pyramid level `log2(original_volume_downscale)`. Prefer `tifxyz-transformed` for a mesh in level-0 coordinates of a specific volume."
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "tifxyz-flattened"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: an ingested, already flattened tifxyz (`.../mesh/intermediate/tifxyz_flattened/`). Flattened but not orientation-normalized."
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "tifxyz-normalized"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: intermediate tifxyz rasterized from `obj-normalized` (`.../mesh/intermediate/tifxyz_normalized/`), in the original volume's frame. Input to `tifxyz-transformed`."
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "tifxyz-transformed"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: the canonical segment mesh, flattened and orientation-normalized, with coordinates in level-0 voxels of `target_volume`: `<sample>/segments/<segment long_id>/mesh/<segment_id>-on-<target_volume>-<px>um.tifxyz/`. One exists for the original volume (a copy, or a `diag(original_volume_downscale)` lift) and for every other volume that sufficiently covers the segment (geometry transformed with the sample's volume transform). Renders against a volume use this mesh; no transform is applied at render time.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "target_volume"
+                      ],
+                      "properties": {
+                        "target_volume": {
+                          "$ref": "#/$defs/VolumeRef"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "obj"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: Wavefront OBJ mesh of the original surface (`.../mesh/intermediate/<segment long_id>_original.obj`). Vertices are in the original volume's frame (see `tifxyz`). UVs are grid-index based. `properties.width/height` give the UV extent in pixels, where recorded.",
+                  "properties": {
+                    "properties": {
+                      "$ref": "#/$defs/MeshSizeProperties"
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "obj-legacy-units"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: legacy OBJ whose UVs are normalized per mesh to [0, 1) and must be multiplied by the segment width/height to get pixel coordinates (`..._legacy_units.obj`). Source material only."
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "obj-flattened"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: OBJ with UVs from flattening the surface, e.g. with SLIM (`..._flattened.obj`). 3D vertices are unchanged.",
+                  "properties": {
+                    "properties": {
+                      "$ref": "#/$defs/MeshSizeProperties"
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "obj-normalized"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: flattened OBJ with UVs rotated/mirrored into reading orientation (`..._normalized.obj`): u runs along the text lines, v increases from the top to the bottom of the sheet, and the text is not mirrored. Derived from the original volume's orientation properties (`z_direction_is_top_to_bottom`, `left_handed_coordinates`, and `text_side` for fragments). Only produced when those are known.",
+                  "properties": {
+                    "properties": {
+                      "$ref": "#/$defs/MeshSizeProperties"
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "layers-zarr"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: surface volume rendered from `target_volume` along the `tifxyz-transformed` mesh, `<sample>/segments/<segment long_id>/surface-volumes/<px>um-[<dist>m-]<keV>keV-volume-<target_volume>[-L<render_level>].zarr/`. OME-Zarr `[z, y, x]` where z is the layer along the surface normal. The stack covers about 260 \u00b5m of depth at the effective voxel size. Layer 0 is the outermost surface.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "target_volume"
+                      ],
+                      "properties": {
+                        "target_volume": {
+                          "$ref": "#/$defs/VolumeRef"
+                        },
+                        "render_level": {
+                          "$ref": "#/$defs/RenderLevel"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "layers-tif"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: legacy surface volume as a TIFF stack `00.tif`..`NN.tif` (`.../surface-volumes/...tifs/`). Same layer conventions as `layers-zarr`.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "target_volume"
+                      ],
+                      "properties": {
+                        "target_volume": {
+                          "$ref": "#/$defs/VolumeRef"
+                        },
+                        "render_level": {
+                          "$ref": "#/$defs/RenderLevel"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "alpha-render"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: 2D composite render of `target_volume` along the segment, blending the volume's 3D ink prediction over the surface (`.../surface-renders/<px>um-...-volume-<target_volume>-<composite_mode>.tif`).",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "target_volume",
+                        "composite_mode"
+                      ],
+                      "properties": {
+                        "target_volume": {
+                          "$ref": "#/$defs/VolumeRef"
+                        },
+                        "composite_mode": {
+                          "type": "string",
+                          "description": "Compositing mode, e.g. `alpha-overlay-combined`."
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "alpha-render-downsampled"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: downsampled preview of an `alpha-render` (`.../surface-renders/downsampled/...-ds<downscale>.<format>`). Carries the parameters of its parent plus `downscale` and `format`.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "target_volume",
+                        "composite_mode",
+                        "downscale",
+                        "format"
+                      ],
+                      "properties": {
+                        "target_volume": {
+                          "$ref": "#/$defs/VolumeRef"
+                        },
+                        "composite_mode": {
+                          "type": "string"
+                        },
+                        "downscale": {
+                          "$ref": "#/$defs/Downscale"
+                        },
+                        "format": {
+                          "$ref": "#/$defs/ImageFormat"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "ink-detection"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: 2D ink probability image predicted by `model_id` from the `layers-zarr` of the same `target_volume`/`render_level` (`.../ink-detection/<sample>-<segment_id>-<px>um-...-volume-<target_volume>[-L<render_level>]-<model long_id>-tile<N>-stride<M>.tif`). Pixel grid as the layers. Probability baselines differ between models: some models do not map no-ink to 0.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "target_volume",
+                        "model_id"
+                      ],
+                      "properties": {
+                        "target_volume": {
+                          "$ref": "#/$defs/VolumeRef"
+                        },
+                        "model_id": {
+                          "$ref": "#/$defs/ModelRef"
+                        },
+                        "render_level": {
+                          "$ref": "#/$defs/RenderLevel"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "ink-detection-downsampled"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: downsampled preview of an `ink-detection` image (`.../ink-detection/downsampled/...-ds<downscale>.<format>`). Carries the parameters of its parent plus `downscale` and `format`.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "target_volume",
+                        "model_id",
+                        "downscale",
+                        "format"
+                      ],
+                      "properties": {
+                        "target_volume": {
+                          "$ref": "#/$defs/VolumeRef"
+                        },
+                        "model_id": {
+                          "$ref": "#/$defs/ModelRef"
+                        },
+                        "render_level": {
+                          "$ref": "#/$defs/RenderLevel"
+                        },
+                        "downscale": {
+                          "$ref": "#/$defs/Downscale"
+                        },
+                        "format": {
+                          "$ref": "#/$defs/ImageFormat"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "3d-ink-prediction"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: maximum projection of the target volume's 3D ink prediction (`ink-detection-3d-zarr`) over a band of about \u00b148 \u00b5m around the surface (`.../ink-detection/<sample>-<segment_id>-...-volume-<target_volume>-L<render_level>-3d-ink-max.zarr/`). Sharded zarr v3, rank-2 `[y, x]`, on the render grid at `render_level`. Here `render_level` is chosen as the coarsest level with an effective voxel size of at most 10 \u00b5m.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "target_volume"
+                      ],
+                      "properties": {
+                        "target_volume": {
+                          "$ref": "#/$defs/VolumeRef"
+                        },
+                        "render_level": {
+                          "$ref": "#/$defs/RenderLevel"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "ink-labels"
+                    }
+                  }
+                },
+                "then": {
+                  "description": "Segment: ink annotations registered to the render of the segment on `target_volume`, `.../ink-labels/<px>um-volume-<target_volume>/<label_set>/`. Contains `inklabels.zarr`, `supervision.zarr` and optionally `validation.zarr` (zarr v3 / OME-Zarr 0.5, rank-2 `[y, x]` on the render pixel grid). The labels may have been drawn on that render or transferred from another one; see `properties.registration`. Use `supervision > 0` as the mask of pixels the labels make a statement about. The meaning of `validation` is not uniform across label sets.",
+                  "properties": {
+                    "parameters": {
+                      "type": "object",
+                      "required": [
+                        "target_volume",
+                        "label_set"
+                      ],
+                      "properties": {
+                        "target_volume": {
+                          "$ref": "#/$defs/VolumeRef"
+                        },
+                        "label_set": {
+                          "type": "string",
+                          "description": "Identity/revision of the annotation set (currently the release date, e.g. `20260918`)."
+                        }
+                      }
+                    },
+                    "properties": {
+                      "type": "object",
+                      "description": "Summary lifted from the label set's provenance.",
+                      "properties": {
+                        "label_set": {
+                          "type": "string"
+                        },
+                        "supersedes": {
+                          "type": [
+                            "string",
+                            "null"
+                          ],
+                          "description": "`label_set` this set replaces, if any."
+                        },
+                        "arrays": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Arrays present, e.g. `inklabels`, `supervision`, `validation`."
+                        },
+                        "registration": {
+                          "type": "string",
+                          "enum": [
+                            "native",
+                            "transferred"
+                          ],
+                          "description": "`native`: annotated on this render; `transferred`: annotated elsewhere and mapped onto this render."
+                        },
+                        "annotated_on": {
+                          "type": "string",
+                          "description": "Volume id of the render the annotation was drawn on, or `unknown`."
+                        },
+                        "mapping_coverage": {
+                          "type": [
+                            "number",
+                            "null"
+                          ],
+                          "description": "Transferred sets only: fraction of the source labels that could be mapped onto this render."
+                        },
+                        "labelled_px": {
+                          "type": "integer",
+                          "description": "Number of pixels labelled as ink."
+                        },
+                        "supervised_px": {
+                          "type": "integer",
+                          "description": "Number of supervised pixels."
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "VolumeRef": {
+            "type": "string",
+            "pattern": "^[0-9]{14}$",
+            "description": "Short id of a volume of the same sample. The volume may not be part of this file."
+          },
+          "ModelRef": {
+            "type": "string",
+            "pattern": "^[0-9]{14}$",
+            "description": "Key into the top-level `models` map."
+          },
+          "PyramidLevel": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "OME-Zarr pyramid level of the source volume. The grid voxel size is `pixel_size_um * 2^level`."
+          },
+          "RenderLevel": {
+            "type": "string",
+            "pattern": "^[0-9]+$",
+            "description": "Pyramid level of `target_volume` that the render was computed from, as a decimal string. Present when non-zero; absent means level 0. The effective pixel size of the render is `target_volume.pixel_size_um * 2^render_level`."
+          },
+          "Downscale": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Downsampling factor relative to the parent artifact."
+          },
+          "ImageFormat": {
+            "type": "string",
+            "description": "Image file format of the preview, e.g. `jpg`."
+          },
+          "MeshSizeProperties": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "width": {
+                "type": "integer",
+                "description": "UV extent in pixels."
+              },
+              "height": {
+                "type": "integer",
+                "description": "UV extent in pixels."
+              }
+            }
+          },
+          "SampleTree": {
+            "type": "object",
+            "description": "Everything published about one sample. Entities are keyed by their short id.",
+            "required": [
+              "sample",
+              "scans",
+              "volumes",
+              "segments"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "sample": {
+                "$ref": "#/$defs/Sample"
+              },
+              "scans": {
+                "type": "object",
+                "additionalProperties": {
+                  "$ref": "#/$defs/Scan"
+                }
+              },
+              "volumes": {
+                "type": "object",
+                "additionalProperties": {
+                  "$ref": "#/$defs/Volume"
+                }
+              },
+              "segments": {
+                "type": "object",
+                "additionalProperties": {
+                  "$ref": "#/$defs/Segment"
+                }
+              }
+            }
+          },
+          "Sample": {
+            "type": "object",
+            "description": "A physical object: a rolled scroll or a detached fragment.",
+            "required": [
+              "id",
+              "data"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Sample id derived from the collection inventory number, e.g. `PHerc0332`, `PHercParis4`, `PHerc1667Cr1Fr3`. Community names: Scroll 1 = PHercParis4, Scroll 2 = PHercParis3, Scroll 3 = PHerc0332, Scroll 4 = PHerc1667, Scroll 5 = PHerc0172."
+              },
+              "description": {
+                "type": "string",
+                "description": "Markdown description of the sample."
+              },
+              "canonical_volume_id": {
+                "$ref": "#/$defs/VolumeRef",
+                "description": "Legacy, informational. Set on a single sample to name the volume frame its segments live in; not used by the atlas pipeline."
+              },
+              "properties": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "type": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "enum": [
+                      "scroll",
+                      "fragment",
+                      null
+                    ],
+                    "description": "`scroll`: a rolled (intact) scroll. `fragment`: a flat detached piece. Fragments need the extra orientation property `text_side` on their volumes."
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "Short display name, e.g. `PHerc. Paris 1 Fr 39`."
+                  },
+                  "legacy_data_url": {
+                    "type": "string",
+                    "description": "Location of the older (pre-atlas) data release of this sample, e.g. a `.volpkg` directory on `dl.ash2txt.org`."
+                  },
+                  "volume_transforms": {
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "description": "Affine transforms between all pairs of this sample's volumes that are connected by registrations: the inverse and transitive closure of the per-volume `transforms`. Use this list to map coordinates from any volume to any other. Entries are grouped by source volume. Each listed matrix maps from `from_volume_id` to `to_volume_id`; inverse directions are listed as their own entries. Chained transforms accumulate registration error, so precision is not uniform.",
+                    "items": {
+                      "$ref": "#/$defs/VolumeTransforms"
+                    }
+                  },
+                  "public_access_mappings": {
+                    "type": "array",
+                    "description": "Internal: how locations in the canonical bucket map to the public `https://data.aws.ash2txt.org` channel. Already applied to the origins in this file."
+                  }
+                }
+              },
+              "data": {
+                "type": "array",
+                "description": "Sample-level artifacts: `photo`, `photo-mask`.",
+                "items": {
+                  "$ref": "#/$defs/DataEntry"
+                }
+              }
+            }
+          },
+          "VolumeTransforms": {
+            "type": "object",
+            "required": [
+              "from_volume_id",
+              "transforms"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "from_volume_id": {
+                "$ref": "#/$defs/VolumeRef"
+              },
+              "transforms": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/TransformTo"
+                }
+              }
+            }
+          },
+          "TransformTo": {
+            "type": "object",
+            "required": [
+              "to_volume_id",
+              "matrix"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "to_volume_id": {
+                "$ref": "#/$defs/VolumeRef"
+              },
+              "matrix": {
+                "$ref": "#/$defs/Matrix3x4",
+                "description": "Maps level-0 voxel `[x, y, z]` of `from_volume_id` to level-0 voxel `[x, y, z]` of `to_volume_id`."
+              },
+              "derivation_path": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "How the matrix was obtained from the directly registered transforms stored in `volume.properties.transforms`. Each step names the pair it maps, from-to. `A-B` is the registered transform stored on volume A towards B. `A-B\u207b\u00b9` (U+207B U+00B9) also maps A to B, obtained by inverting the transform registered on B towards A. `.` joins steps in application order: `A-B.B-C` first maps A to B, then B to C (matrix product `M_BC @ M_AB`).",
+                "examples": [
+                  "20250820105138-20250728140407",
+                  "20250728140407-20250820105138\u207b\u00b9",
+                  "20231027191953-20231117143551.20231117143551-20251211183505\u207b\u00b9"
+                ]
+              }
+            }
+          },
+          "AffineTransform": {
+            "type": "object",
+            "description": "A directly registered transform from this volume (the moving volume) to `to_volume_id` (the fixed volume), with the landmark correspondences it was fitted to.",
+            "required": [
+              "to_volume_id",
+              "transformation_matrix"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "to_volume_id": {
+                "$ref": "#/$defs/VolumeRef"
+              },
+              "transformation_matrix": {
+                "$ref": "#/$defs/Matrix3x4",
+                "description": "Maps level-0 voxel `[x, y, z]` of this volume to level-0 voxel `[x, y, z]` of `to_volume_id`."
+              },
+              "from_landmarks": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "description": "Landmarks in this volume, level-0 voxel `[x, y, z]`.",
+                "items": {
+                  "$ref": "#/$defs/Point3"
+                }
+              },
+              "to_landmarks": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "description": "The corresponding landmarks in `to_volume_id`, in the same order.",
+                "items": {
+                  "$ref": "#/$defs/Point3"
+                }
+              }
+            }
+          },
+          "SupersededBy": {
+            "type": "object",
+            "description": "Marks a volume as replaced by a better reconstruction or masking of the same acquisition in the identical voxel frame (e.g. a remask). Coordinates, transforms and segments carry over unchanged. Artifacts already computed against this volume remain valid and are not recomputed for the successor; new renders target the successor. A volume made redundant by a different acquisition is not superseded.",
+            "required": [
+              "volume_id",
+              "date",
+              "reason"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "volume_id": {
+                "$ref": "#/$defs/VolumeRef",
+                "description": "The successor volume."
+              },
+              "date": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              }
+            }
+          },
+          "Scan": {
+            "type": "object",
+            "description": "An X-ray CT acquisition. Raw scan data is not part of the open data. A scan is listed when one of its volumes is published.",
+            "required": [
+              "id",
+              "sample_id",
+              "creation"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/Id",
+                "description": "Acquisition time (UTC)."
+              },
+              "sample_id": {
+                "type": "string"
+              },
+              "long_id": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "`<id>-<pixel size>um-<distance>m-<energy>keV`, e.g. `20250720235903-2.403um-0.2m-77keV`."
+              },
+              "creation": {
+                "$ref": "#/$defs/Creation",
+                "description": "`creation.metadata` holds facility-specific acquisition metadata; `location` names the facility/beamline."
+              },
+              "properties": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "energy_keV": {
+                    "$ref": "#/$defs/NullableNumber",
+                    "description": "X-ray energy in keV."
+                  },
+                  "detector_distance_mm": {
+                    "$ref": "#/$defs/NullableNumber",
+                    "description": "Sample-to-detector distance (propagation distance) in mm."
+                  },
+                  "pixel_size_um": {
+                    "$ref": "#/$defs/NullableNumber",
+                    "description": "Effective pixel size at the sample in \u00b5m."
+                  }
+                }
+              }
+            }
+          },
+          "Volume": {
+            "type": "object",
+            "description": "A 3D reconstruction of a scan, published as an OME-Zarr. Several volumes of one scan or sample (different resolutions, energies, remasks) are related through transforms.",
+            "required": [
+              "id",
+              "sample_id",
+              "scan_id",
+              "creation",
+              "data"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/Id"
+              },
+              "sample_id": {
+                "type": "string"
+              },
+              "scan_id": {
+                "type": "string",
+                "description": "Short id of the scan this volume was reconstructed from."
+              },
+              "long_id": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "`<id>-<pixel size>um[-<distance>m]-<energy>keV-<suffix>`, e.g. `20260319133050-2.403um-0.2m-77keV-masked.zarr`; also the volume's directory name."
+              },
+              "suffix": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Variant/format suffix, e.g. `masked.zarr`."
+              },
+              "creation": {
+                "$ref": "#/$defs/Creation",
+                "description": "`creation.metadata` typically records the intensity window used for the 8-bit export (`window_u16_min/max`, `target_window_f32_min/max`) and export workflow details."
+              },
+              "properties": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "required": [
+                  "license"
+                ],
+                "properties": {
+                  "pixel_size_um": {
+                    "$ref": "#/$defs/NullableNumber",
+                    "description": "Level-0 voxel size in \u00b5m (physical position = voxel index * pixel_size_um). This is the best known value and can differ from the rounded figure in the id/path."
+                  },
+                  "energy_keV": {
+                    "$ref": "#/$defs/NullableNumber",
+                    "description": "X-ray energy in keV."
+                  },
+                  "detector_distance_mm": {
+                    "$ref": "#/$defs/NullableNumber",
+                    "description": "Propagation distance in mm."
+                  },
+                  "data_format": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "description": "Voxel data type, e.g. `uint8`."
+                  },
+                  "shape": {
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "description": "Level-0 array shape `[z, y, x]`. Recorded at ingestion; read the zarr metadata for authoritative values.",
+                    "items": {
+                      "type": "integer"
+                    },
+                    "minItems": 3,
+                    "maxItems": 3
+                  },
+                  "transforms": {
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "description": "Directly registered transforms from this volume to other volumes. The sample's `volume_transforms` contains the complete derived set, including inverses and chains.",
+                    "items": {
+                      "$ref": "#/$defs/AffineTransform"
+                    }
+                  },
+                  "left_handed_coordinates": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ],
+                    "description": "Handedness of the volume's `(x, y, z)` voxel frame relative to physical space. `false` = right-handed. It follows how slices were numbered at reconstruction, not the facility: ESRF volumes are right-handed, while the 2023 DLS scans are mixed. It can be checked against other volumes: a registered transform between frames of opposite handedness has a negative determinant. It matters for anything that depends on surface normal direction or reading orientation; renders flip normals accordingly so layer 0 is always the outer side."
+                  },
+                  "z_direction_is_top_to_bottom": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ],
+                    "description": "`true`: slice z=0 is the top of the object (the top of the text lines) and z increases downward. `false`: z=0 is the bottom. Assumes the object's vertical axis is roughly along z. For scrolls it is determined from the winding direction seen in an axial slice, taking handedness into account. Scrolls are rolled with the start of the text outside and the text facing the umbilicus. Viewing slice z=0 in image orientation (x to the right, y down) in a right-handed frame: a spiral that runs clockwise when traced outward means z=0 is the bottom (`false`); counter-clockwise means `true`. See the orientation section of the vesuvius-atlas README. `null`: not determined; segments of such volumes are not orientation-normalized.",
+                    "$comment": "The boolean encoding hinges on subtle conventions; a vector-based definition is under discussion (ScrollPrize/vesuvius-atlas#17)."
+                  },
+                  "text_side": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "enum": [
+                      "+y",
+                      "-y",
+                      null
+                    ],
+                    "description": "Fragments only. Fragments are flat, so winding does not tell which face is the recto. This records which way the outward normal of the text-bearing (recto) surface points in this volume's frame: `+y` = towards increasing y, `-y` = towards y=0. Frame-specific, hence per volume. Never set for scrolls."
+                  },
+                  "superseded_by": {
+                    "oneOf": [
+                      {
+                        "$ref": "#/$defs/SupersededBy"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "license": {
+                    "$ref": "#/$defs/License"
+                  },
+                  "render_level": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "Pyramid level that segments are rendered from for this volume (0 if absent). Used for very high resolution volumes; e.g. 1 for the 1.129 \u00b5m volumes, giving 2.26 \u00b5m renders. Shows up as the `render_level` parameter of render artifacts."
+                  },
+                  "render_segments": {
+                    "type": "boolean",
+                    "description": "Internal pipeline flag. `false` means segments are no longer rendered against this volume (experimental, ROI or redundant volumes). Existing renders may still be listed."
+                  }
+                }
+              },
+              "data": {
+                "type": "array",
+                "description": "Volume-level artifacts: the `ome-zarr` itself and volume-wide predictions (`surface-prediction-zarr`, `normal-grids`, `lasagna`, `ink-detection-3d-zarr`, `fiberlets`, `umbilicus`).",
+                "items": {
+                  "$ref": "#/$defs/DataEntry"
+                }
+              }
+            }
+          },
+          "VolumeCoverage": {
+            "type": "object",
+            "description": "How much of the segment lies inside a volume.",
+            "required": [
+              "bbox_transformed",
+              "overlap_ratio"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "bbox_transformed": {
+                "type": "array",
+                "description": "`[[xmin, ymin, zmin], [xmax, ymax, zmax]]` of the segment's mesh vertices mapped into the volume's level-0 voxel frame. Can extend beyond the volume.",
+                "items": {
+                  "$ref": "#/$defs/Point3"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "overlap_ratio": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1,
+                "description": "Fraction of valid mesh vertices that fall inside the volume's level-0 array bounds. It only checks geometry against array bounds, so it says nothing about whether those voxels contain data (e.g. masked or empty regions) or about registration quality. Derived renders on volumes other than the original require a ratio above a threshold (currently 0.3)."
+              },
+              "computed_at": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "UTC timestamp of the computation."
+              }
+            }
+          },
+          "Segment": {
+            "type": "object",
+            "description": "A surface (a piece of papyrus sheet) traced in the volume `original_volume_id`, plus everything derived from it: meshes, renders on other volumes, ink predictions and labels.",
+            "required": [
+              "id",
+              "sample_id",
+              "original_volume_id",
+              "creation",
+              "properties",
+              "data"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/Id"
+              },
+              "sample_id": {
+                "type": "string"
+              },
+              "long_id": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "`<id>-<suffix>`; the segment's directory name under `<sample>/segments/`."
+              },
+              "suffix": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Usually the name or uuid of the segment in the tool that created it (e.g. `w023_202603112281`, `auto_grown_...`)."
+              },
+              "original_volume_id": {
+                "$ref": "#/$defs/VolumeRef",
+                "description": "The volume the segment was traced in. It defines the frame of the segment's original coordinates (`tifxyz`, `obj*`)."
+              },
+              "creation": {
+                "$ref": "#/$defs/Creation",
+                "description": "`creation.metadata` usually holds a copy of the source tifxyz `meta.json` (`bbox`, `scale`, `uuid`, ...). Its `bbox` is in the frame of the original coordinates, i.e. not lifted by `original_volume_downscale`."
+              },
+              "properties": {
+                "type": "object",
+                "required": [
+                  "width",
+                  "height"
+                ],
+                "properties": {
+                  "width": {
+                    "type": "integer",
+                    "description": "Width of the flattened surface in pixels (u extent), at the voxel size of the frame of the original coordinates (`pixel_size_um * original_volume_downscale` of the original volume). For tifxyz segments, the tifxyz grid size divided by its `scale`. Renders on other volumes have their own pixel grids."
+                  },
+                  "height": {
+                    "type": "integer",
+                    "description": "Height of the flattened surface in pixels (v extent); see `width`."
+                  },
+                  "original_volume_downscale": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Power-of-two factor between the segment's original coordinates and level 0 of `original_volume_id`. 1: coordinates are level-0 voxels. N: coordinates are on pyramid level log2(N) and must be multiplied by N to get level-0 voxels; this happens before applying any volume transform. All coverage values and `tifxyz-transformed` meshes already include this factor."
+                  },
+                  "volume_coverage": {
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "description": "Coverage of the segment by its original volume and by every volume reachable through the sample's transforms, keyed by volume id.",
+                    "additionalProperties": {
+                      "$ref": "#/$defs/VolumeCoverage"
+                    }
+                  }
+                }
+              },
+              "data": {
+                "type": "array",
+                "description": "Segment artifacts: meshes (`tifxyz*`, `obj*`), renders (`layers-zarr`, `layers-tif`, `alpha-render*`), predictions (`ink-detection*`, `3d-ink-prediction`) and `ink-labels`. Render-like artifacts exist per `target_volume`.",
+                "items": {
+                  "$ref": "#/$defs/DataEntry"
+                }
+              }
+            }
+          },
+          "Model": {
+            "type": "object",
+            "description": "An ML model used to produce predictions.",
+            "required": [
+              "id",
+              "creation",
+              "properties"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/Id"
+              },
+              "long_id": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "`<id>-<suffix>`; used in prediction file names."
+              },
+              "suffix": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Human-readable model name."
+              },
+              "creation": {
+                "$ref": "#/$defs/Creation"
+              },
+              "properties": {
+                "type": "object",
+                "required": [
+                  "architecture",
+                  "task"
+                ],
+                "description": "Model description. Beyond the keys below, models carry free-form training and inference metadata.",
+                "properties": {
+                  "architecture": {
+                    "type": "string",
+                    "description": "Network architecture, e.g. `resnet3d-152`, `timesformer`, `nnunet`."
+                  },
+                  "task": {
+                    "type": "string",
+                    "description": "What the model predicts. Determines which artifact types reference it: `ink-detection`, `ink-detection-3d`, `surface-prediction`, `lasagna`.",
+                    "examples": [
+                      "ink-detection",
+                      "ink-detection-3d",
+                      "surface-prediction",
+                      "lasagna"
+                    ]
+                  },
+                  "compatible_samples": {
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "If non-empty, the samples the model is applied to."
+                  },
+                  "excluded_samples": {
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Samples the model is not applied to."
+                  },
+                  "target_resolution_um_min": {
+                    "type": "number",
+                    "description": "Ink detection: smallest volume voxel size (\u00b5m) the model is applied to."
+                  },
+                  "target_resolution_um_max": {
+                    "type": "number",
+                    "description": "Ink detection: largest volume voxel size (\u00b5m) the model is applied to."
+                  },
+                  "required_render_level": {
+                    "type": "integer",
+                    "description": "Ink detection: the model is applied only to renders at this `render_level` (default 0)."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "requests_attempted": 6,
+  "requests": 6,
+  "bytes": 17710,
+  "scientific_chunk_reads": 0
+}

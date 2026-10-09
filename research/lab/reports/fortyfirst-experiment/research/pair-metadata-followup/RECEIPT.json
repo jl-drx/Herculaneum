@@ -1,0 +1,413 @@
+{
+  "records": [
+    {
+      "tag": "root",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=&delimiter=%2F&max-keys=1000",
+      "bytes": 4596,
+      "sha256": "611d98eda48a71a042f04f6de3225050541d4eec2d811c3415b2e73d90ec5188",
+      "retrieved_at_utc": "2026-10-09T14:26:56.150844+00:00"
+    },
+    {
+      "tag": "legacy-scroll1",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=full-scrolls%2FScroll1%2F&delimiter=%2F&max-keys=1000",
+      "bytes": 304,
+      "sha256": "e0ca001e0983fda5f6bbb194e79ce574e82e364cfc458a705db63419915f9367",
+      "retrieved_at_utc": "2026-10-09T14:26:56.393444+00:00"
+    },
+    {
+      "tag": "mesh",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4%2Fsegments%2F20231016151002%2Fmesh%2F&delimiter=%2F&max-keys=1000",
+      "bytes": 843,
+      "sha256": "631ee313cd8a965e894012e83ef37bc1c5e833f2e0419bbe5242b40d95b042b8",
+      "retrieved_at_utc": "2026-10-09T14:26:56.569216+00:00"
+    },
+    {
+      "tag": "labels",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&prefix=PHercParis4%2Fsegments%2F20231016151002%2Fink-labels%2F&delimiter=%2F&max-keys=1000",
+      "bytes": 455,
+      "sha256": "8be00aa4280189151446ba6482be58c6d19674ee41ce008b45255c5c6435e6db",
+      "retrieved_at_utc": "2026-10-09T14:26:56.778593+00:00"
+    },
+    {
+      "tag": "surface-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/segments/20231016151002/surface-volumes/2.4um-0.22m-78keV-volume-20260411134726.zarr/.zattrs",
+      "bytes": 3399,
+      "sha256": "cc8823194a641db0a487a201b2b333013f325aa49382bb597c43b06d20d45225",
+      "retrieved_at_utc": "2026-10-09T14:26:57.072678+00:00"
+    },
+    {
+      "tag": "native-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr/.zattrs",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+      "retrieved_at_utc": "2026-10-09T14:26:57.264512+00:00"
+    }
+  ],
+  "results": [
+    {
+      "prefix": "",
+      "prefixes": [
+        "PHerc0009B/",
+        "PHerc0125/",
+        "PHerc0139/",
+        "PHerc0172/",
+        "PHerc0175A/",
+        "PHerc0175B/",
+        "PHerc0191/",
+        "PHerc0211/",
+        "PHerc0257/",
+        "PHerc0268/",
+        "PHerc0306B/",
+        "PHerc0332/",
+        "PHerc0343/",
+        "PHerc0343P/",
+        "PHerc0358/",
+        "PHerc0483A/",
+        "PHerc0483B/",
+        "PHerc0490A/",
+        "PHerc0490B/",
+        "PHerc0500P2/",
+        "PHerc0800/",
+        "PHerc0813/",
+        "PHerc0814/",
+        "PHerc0826/",
+        "PHerc0841/",
+        "PHerc0846A/",
+        "PHerc0846B/",
+        "PHerc1203/",
+        "PHerc1218/",
+        "PHerc1299/",
+        "PHerc1447/",
+        "PHerc1451/",
+        "PHerc1545/",
+        "PHerc1667/",
+        "PHerc1667Cr1Fr3/",
+        "PHerc51Cr4Fr8/",
+        "PHercMAN5/",
+        "PHercMANB/",
+        "PHercMANBp/",
+        "PHercParis1Fr34/",
+        "PHercParis1Fr39/",
+        "PHercParis2Fr143/",
+        "PHercParis2Fr47/",
+        "PHercParis3/",
+        "PHercParis4/",
+        "_thumbnails/"
+      ],
+      "objects": [
+        "LICENSE.txt",
+        "index.html",
+        "metadata.json",
+        "metadata.min.json",
+        "metadata.schema.json"
+      ],
+      "truncated": "false"
+    },
+    {
+      "prefix": "full-scrolls/Scroll1/",
+      "prefixes": [],
+      "objects": [],
+      "truncated": "false"
+    },
+    {
+      "prefix": "PHercParis4/segments/20231016151002/mesh/",
+      "prefixes": [
+        "PHercParis4/segments/20231016151002/mesh/20231016151002-on-20230205180739-7.91um.tifxyz/",
+        "PHercParis4/segments/20231016151002/mesh/20231016151002-on-20260310170716-45.532um.tifxyz/",
+        "PHercParis4/segments/20231016151002/mesh/20231016151002-on-20260411134726-2.4um.tifxyz/",
+        "PHercParis4/segments/20231016151002/mesh/intermediate/"
+      ],
+      "objects": [],
+      "truncated": "false"
+    },
+    {
+      "prefix": "PHercParis4/segments/20231016151002/ink-labels/",
+      "prefixes": [
+        "PHercParis4/segments/20231016151002/ink-labels/2.4um-volume-20260411134726/"
+      ],
+      "objects": [],
+      "truncated": "false"
+    },
+    {
+      "tag": "surface-attrs",
+      "metadata": {
+        "canvas_size": [
+          51960,
+          31960
+        ],
+        "chunk_size": [
+          109,
+          128,
+          128
+        ],
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "y",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "x",
+                "type": "space",
+                "unit": "micrometer"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      2.4,
+                      2.4,
+                      2.4
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      2.4,
+                      4.8,
+                      4.8
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      2.4,
+                      9.6,
+                      9.6
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      2.4,
+                      19.2,
+                      19.2
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      2.4,
+                      38.4,
+                      38.4
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      2.4,
+                      76.8,
+                      76.8
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "metadata": {
+              "downsampling_method": "mean"
+            },
+            "name": "render",
+            "version": "0.4"
+          }
+        ],
+        "note_axes_order": "ZYX (slice, row, col)",
+        "num_slices": 109,
+        "slice_step": 1.0,
+        "source_group": 0,
+        "source_zarr": "/volumes/esrf/20260311/2.4um_PHerc-Paris4_masked.zarr/"
+      }
+    },
+    {
+      "tag": "native-attrs",
+      "metadata": {
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space"
+              },
+              {
+                "name": "y",
+                "type": "space"
+              },
+              {
+                "name": "x",
+                "type": "space"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      2.0,
+                      2.0,
+                      2.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      4.0,
+                      4.0,
+                      4.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.0,
+                      8.0,
+                      8.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      16.0,
+                      16.0,
+                      16.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      32.0,
+                      32.0,
+                      32.0
+                    ],
+                    "type": "scale"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "name": "/",
+            "version": "0.4"
+          }
+        ]
+      }
+    }
+  ],
+  "requests": 6,
+  "bytes": 12615,
+  "scientific_chunk_reads": 0
+}
