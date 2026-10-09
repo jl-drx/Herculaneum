@@ -1,0 +1,14 @@
+{
+  "cause": "Root GO preparation asserted preflight.status == PASS, but the frozen metadata-only preflight reports READY. No GO file was written. The following CLI invocation was rejected by load_plan due to missing GO before run-directory creation.",
+  "checkpoint_loads": 0,
+  "correction": "Accept exact documented READY preflight status plus its pinned mathematical fixture receipts; no producer/checker/protocol/tolerance edits.",
+  "model_forwards": 0,
+  "observed_root_error": "AssertionError at preparation preflight status check",
+  "observed_runner_error": "FileNotFoundError: EXECUTION_GO.json in load_plan",
+  "recorded_at_utc": "2026-10-08T23:46:45.495234+00:00",
+  "run_directory_exists": false,
+  "scientific_array_reads": 0,
+  "scientific_retries": 0,
+  "status": "STOP_BEFORE_WORKER",
+  "worker_starts": 0
+}

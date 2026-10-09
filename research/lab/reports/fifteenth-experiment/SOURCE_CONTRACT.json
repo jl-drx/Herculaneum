@@ -1,0 +1,399 @@
+{
+  "catalog": {
+    "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-native-ct-consistency/metadata.full.json.gz",
+    "sha256": "7ec8dcaa3000b9716724c26a1991ee416491d8a6b3615238ca90ae11540abdd3",
+    "size_bytes": 1391330
+  },
+  "deferred_candidates": [
+    {
+      "claim": "Not declared absent or universally unusable; outside this benchmark until the specific source gaps close.",
+      "id": "PHerc1667Cr1Fr3",
+      "legacy_alias": "Frag5",
+      "reason": "Shares PHerc1667 already used in upstream/local development; current labels/IR/mask and 65-TIFF listing exist, but inspected evidence does not establish this release annotation-depth/optical provenance contract.",
+      "role": "deferred"
+    },
+    {
+      "claim": "Not declared absent or universally unusable; outside this benchmark until the specific source gaps close.",
+      "id": "PHerc51Cr4Fr8",
+      "legacy_alias": "Frag6",
+      "reason": "Additional parent group and current labels/IR/mask and 65-TIFF listing exist; inspected evidence does not establish annotation provenance or exact render depth/spacing. 65 filenames alone do not establish the depth convention.",
+      "role": "deferred"
+    }
+  ],
+  "eligible_candidates": [
+    {
+      "base_url": "https://dl.ash2txt.org/fragments/Frag1/PHercParis2Fr47.volpkg/",
+      "ct_layout_and_range_support": "Not probed; future header/IFD/range validation required before CT reads",
+      "declared_energy_keV": 54,
+      "depth_convention": {
+        "evidence": "Published EduceLab-Scrolls A.6 protocol plus matching current vc_layers metadata; historical executable/argv not reproduced",
+        "normal_step_native_voxels": 1,
+        "surface_plane_zero_based": 32
+      },
+      "eligibility": "Qualified supplied-reference candidate; pending label-only quality/selection gates",
+      "exposed_surface_url": "https://dl.ash2txt.org/fragments/Frag1/PHercParis2Fr47.volpkg/working/54keV_exposed_surface/",
+      "id": "PHercParis2Fr47",
+      "labels_url": "https://dl.ash2txt.org/fragments/Frag1/PHercParis2Fr47.volpkg/working/54keV_exposed_surface/inklabels.png",
+      "legacy_alias": "Frag1",
+      "local_preexisting_scientific_exposure": "No Frag1/2/3 use found in retained first-fourteenth records; labels not yet acquired in this phase",
+      "mask_url": "https://dl.ash2txt.org/fragments/Frag1/PHercParis2Fr47.volpkg/working/54keV_exposed_surface/mask.png",
+      "nominal_native_spacing_um": 3.24,
+      "parent_papyrus": "Paris2",
+      "reference_contract": "Published manually registered 1000nm optical images and manually traced ink; actual encoding/canvas checks pending",
+      "registration_residual": "unmeasured",
+      "role": "evaluation",
+      "shape_yx": [
+        8181,
+        6330
+      ],
+      "slice_count": 65,
+      "surface_metadata": {
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-surface-meta.json",
+        "sha256": "6a33b57ae1f93dd52f93af3fc508d6969d4ddd013c81c8f87f769260994cd60f",
+        "size_bytes": 215
+      },
+      "surface_uuid": "20230205211313",
+      "surface_volume_url": "https://dl.ash2txt.org/fragments/Frag1/PHercParis2Fr47.volpkg/working/54keV_exposed_surface/surface_volume/",
+      "upstream_exposure": "Absent from examined 29 explicit roots; complete teacher/pretraining exposure unknown"
+    },
+    {
+      "base_url": "https://dl.ash2txt.org/fragments/Frag2/PHercParis2Fr143.volpkg/",
+      "ct_layout_and_range_support": "Not probed; future header/IFD/range validation required before CT reads",
+      "declared_energy_keV": 54,
+      "depth_convention": {
+        "evidence": "Published EduceLab-Scrolls A.6 protocol plus matching current vc_layers metadata; historical executable/argv not reproduced",
+        "normal_step_native_voxels": 1,
+        "surface_plane_zero_based": 32
+      },
+      "eligibility": "Qualified supplied-reference candidate; pending label-only quality/selection gates",
+      "exposed_surface_url": "https://dl.ash2txt.org/fragments/Frag2/PHercParis2Fr143.volpkg/working/54keV_exposed_surface/",
+      "id": "PHercParis2Fr143",
+      "labels_url": "https://dl.ash2txt.org/fragments/Frag2/PHercParis2Fr143.volpkg/working/54keV_exposed_surface/inklabels.png",
+      "legacy_alias": "Frag2",
+      "local_preexisting_scientific_exposure": "No Frag1/2/3 use found in retained first-fourteenth records; labels not yet acquired in this phase",
+      "mask_url": "https://dl.ash2txt.org/fragments/Frag2/PHercParis2Fr143.volpkg/working/54keV_exposed_surface/mask.png",
+      "nominal_native_spacing_um": 3.24,
+      "parent_papyrus": "Paris2",
+      "reference_contract": "Published manually registered 1000nm optical images and manually traced ink; actual encoding/canvas checks pending",
+      "registration_residual": "unmeasured",
+      "role": "evaluation",
+      "shape_yx": [
+        14830,
+        9506
+      ],
+      "slice_count": 65,
+      "surface_metadata": {
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-surface-meta.json",
+        "sha256": "f6f7ab358a2513305437fd78b9e51de0d9a271565abf69e5165f0d6a44b0eca8",
+        "size_bytes": 217
+      },
+      "surface_uuid": "20230301213755",
+      "surface_volume_url": "https://dl.ash2txt.org/fragments/Frag2/PHercParis2Fr143.volpkg/working/54keV_exposed_surface/surface_volume/",
+      "upstream_exposure": "Absent from examined 29 explicit roots; complete teacher/pretraining exposure unknown"
+    },
+    {
+      "base_url": "https://dl.ash2txt.org/fragments/Frag3/PHercParis1Fr34.volpkg/",
+      "ct_layout_and_range_support": "Not probed; future header/IFD/range validation required before CT reads",
+      "declared_energy_keV": 54,
+      "depth_convention": {
+        "evidence": "Published EduceLab-Scrolls A.6 protocol plus matching current vc_layers metadata; historical executable/argv not reproduced",
+        "normal_step_native_voxels": 1,
+        "surface_plane_zero_based": 32
+      },
+      "eligibility": "Qualified supplied-reference candidate; pending label-only quality/selection gates",
+      "exposed_surface_url": "https://dl.ash2txt.org/fragments/Frag3/PHercParis1Fr34.volpkg/working/54keV_exposed_surface/",
+      "id": "PHercParis1Fr34",
+      "labels_url": "https://dl.ash2txt.org/fragments/Frag3/PHercParis1Fr34.volpkg/working/54keV_exposed_surface/inklabels.png",
+      "legacy_alias": "Frag3",
+      "local_preexisting_scientific_exposure": "No Frag1/2/3 use found in retained first-fourteenth records; labels not yet acquired in this phase",
+      "mask_url": "https://dl.ash2txt.org/fragments/Frag3/PHercParis1Fr34.volpkg/working/54keV_exposed_surface/mask.png",
+      "nominal_native_spacing_um": 3.24,
+      "parent_papyrus": "Paris1",
+      "reference_contract": "Published manually registered 1000nm optical images and manually traced ink; actual encoding/canvas checks pending",
+      "registration_residual": "unmeasured",
+      "role": "calibration",
+      "shape_yx": [
+        7606,
+        5249
+      ],
+      "slice_count": 65,
+      "surface_metadata": {
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-surface-meta.json",
+        "sha256": "4ee01953fb2e683703fbd0c2f976f39f80560a36a4070a05ab5d536ba8543559",
+        "size_bytes": 215
+      },
+      "surface_uuid": "20230301213423",
+      "surface_volume_url": "https://dl.ash2txt.org/fragments/Frag3/PHercParis1Fr34.volpkg/working/54keV_exposed_surface/surface_volume/",
+      "upstream_exposure": "Absent from examined 29 explicit roots; complete teacher/pretraining exposure unknown"
+    }
+  ],
+  "existing_model_exposure": {
+    "path": "/workspace/herculaneum-lab/reports/seventh-experiment/model-exposure-ledger.json",
+    "sha256": "7773e56feb2add2eeb98ce06e63621c2ca47818eb54f5d5828c97893631f7320",
+    "size_bytes": 32223
+  },
+  "existing_seen_diagnostic": {
+    "alias": "Frag4",
+    "id": "PHercParis1Fr39",
+    "parent_papyrus": "Paris1",
+    "role": "Seen diagnostic only; excluded from calibration/training across aliases"
+  },
+  "historical_loader": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/optical-reference/annotation-provenance/inkid-dataset.py",
+    "sha256": "45298ac8171b00999b16c17c8e46b15dba7184f6c284fb1c40353539ea2104ce",
+    "size_bytes": 30276
+  },
+  "independence": "Three new physical fragments, two parent papyri; evaluation fragments share one evaluation parent, with a separate calibration parent. No independent-parent statistical claim.",
+  "license": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/legacy-LICENSE.current.txt",
+    "sha256": "9dc08a92194617d4ae68fb96d4fd0da99d1c7207f821f2a3750b0034eac8d154",
+    "size_bytes": 2429
+  },
+  "metadata_requests": {
+    "all_http_200_complete": true,
+    "attempts": 42,
+    "images_or_array_payloads": 0,
+    "ledger": {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/request-ledger.json",
+      "sha256": "b3371c73d213ab0cc4ed9e993fd9b787c211344e14471dfe7f8446229d805138",
+      "size_bytes": 32877
+    },
+    "redirects": 0,
+    "response_body_bytes": 116634,
+    "retries": 0
+  },
+  "model_calls": 0,
+  "network_source_files": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/bounded_lookup.py",
+      "sha256": "e356dfa2bd89a24b3da24938fe9f4e9d048be3e434519682c26f9cb83b909b79",
+      "size_bytes": 5240
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-config.json",
+      "sha256": "67e299273ec458b31978cb0a2bc5521af68dacba880ce843a4688bc1d607a865",
+      "size_bytes": 65
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-exposed-index.html",
+      "sha256": "1c4f77a24148d416db99317b551e79b7d4ee9df770f1312969b28c13e315631a",
+      "size_bytes": 4194
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-package-index.html",
+      "sha256": "84fd5b7bcafe05bdb13980f0e82b18a1d7ebc0a2da89a07e2c9d3c58291f807b",
+      "size_bytes": 2065
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-paths-index.html",
+      "sha256": "455ed059d8df93cdc2084d553a06adc9005408595a8be28bb5d88c922cb5e103",
+      "size_bytes": 1013
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-reference-index.html",
+      "sha256": "f61aee8bd308268f083b0c50f2fa24b5868219417726c6201da68d530c168b6c",
+      "size_bytes": 1293
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-renders-index.html",
+      "sha256": "c5fe4951829074c04afe10210dc6e1b9255473cf404b254e8a176ebe61bfd322",
+      "size_bytes": 1017
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-surface-index.html",
+      "sha256": "9660a054c55835ebc76020e93837066286edf8a1cf95a62b14fc6640c48e69b2",
+      "size_bytes": 10459
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-surface-meta.json",
+      "sha256": "6a33b57ae1f93dd52f93af3fc508d6969d4ddd013c81c8f87f769260994cd60f",
+      "size_bytes": 215
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag1-working-index.html",
+      "sha256": "9fd1299942411beefb786b444ee3f457ee770d26914e21718e4389c975ff6aed",
+      "size_bytes": 1592
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-config.json",
+      "sha256": "986fd5c617e3c007377a2060d7fbe829cfb953713f781f43e976f415bb771b16",
+      "size_bytes": 66
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-exposed-index.html",
+      "sha256": "45f57efa7ac6131fa02c7ef2da99f0c04e5e2c37e911b2aff25953c7dc01f930",
+      "size_bytes": 4390
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-package-index.html",
+      "sha256": "0fa711a8dc0d16cbecd31174dc5cfd86f8c697a8052278042d0f16be6fafb769",
+      "size_bytes": 2067
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-paths-index.html",
+      "sha256": "a4a0ddaa516c8195fa7b384259c488ce0ec04afed59eaa4bc9aea8d78917b4af",
+      "size_bytes": 2808
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-reference-index.html",
+      "sha256": "4f7c5d24895e63f31c061b91fa35ff35ba9acd80b2b5843bc693ab10750950c5",
+      "size_bytes": 1687
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-renders-index.html",
+      "sha256": "4064fe006b40102cc563d84d71d94a7759e2a0e66ce835bf9bc339d65d7a863a",
+      "size_bytes": 1019
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-surface-index.html",
+      "sha256": "c6d019181a2c3211f0d6c3fa939a6f4719f1a62c322fa3ea5e684acc8fc1351a",
+      "size_bytes": 10526
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-surface-meta.json",
+      "sha256": "f6f7ab358a2513305437fd78b9e51de0d9a271565abf69e5165f0d6a44b0eca8",
+      "size_bytes": 217
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag2-working-index.html",
+      "sha256": "b9a3a1400951a6bca5acfe9723a7b40050bab49587345fe9abae25ad7b5c3769",
+      "size_bytes": 1594
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-config.json",
+      "sha256": "1996d9d62eed12ea32801ed1e77cc9cbe11f0be1f4700dd12a2813ddfcbefd19",
+      "size_bytes": 65
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-exposed-index.html",
+      "sha256": "81fc4afe0430f900f3cde87f6d1e745a66b0ba519effd90557e70a2e6a38a4d5",
+      "size_bytes": 4193
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-package-index.html",
+      "sha256": "3c1a835979650e6cd19e367bcaea020acbbbb3b86b2595a1b5ece62eb8eb4d10",
+      "size_bytes": 2065
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-paths-index.html",
+      "sha256": "6ae73bf7c57de8a4804bfec8cfbf0dc141a4cfc05f5b4ecac0bd921345e2e80f",
+      "size_bytes": 1991
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-reference-index.html",
+      "sha256": "8e9103444421c47ebc047020b551dc19bb5c51853bf9592cad8dc419f82e0ff5",
+      "size_bytes": 1626
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-renders-index.html",
+      "sha256": "8fc0d0a9d171c803482cedc86f185f753a98a288c3586a539f0aed588ecaa256",
+      "size_bytes": 1017
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-surface-index.html",
+      "sha256": "03400acd0ae9ad910bc26c792dbdf69cbc2a5901961fcc92f6f54ca44f5da968",
+      "size_bytes": 10459
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-surface-meta.json",
+      "sha256": "4ee01953fb2e683703fbd0c2f976f39f80560a36a4070a05ab5d536ba8543559",
+      "size_bytes": 215
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag3-working-index.html",
+      "sha256": "20a24c5585635b35a8a50ad1200ef160e7c6ec4b70c0ecef99f4c37b4bc28192",
+      "size_bytes": 1591
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag5-config.json",
+      "sha256": "c5af019a89405302753a0298f4d2f2f36ae2ff769ca3e7edad5adf3008fef183",
+      "size_bytes": 65
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag5-metadata-index.html",
+      "sha256": "6ed01c1a1235e56041c5af616c5d949a69410e72738c1e953c6d62b83539ee84",
+      "size_bytes": 2724
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag5-package-index.html",
+      "sha256": "ddeb3471c79040678599fba788dcd9cf63f7a3f51a7515a0888ab11026fe558b",
+      "size_bytes": 2065
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag5-surface-index.html",
+      "sha256": "bc1d5bb8bf2ec6a52c8c43645e439378e3b9b01fe1a29545df9479583c3b8484",
+      "size_bytes": 10365
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag5-surface-processing-index.html",
+      "sha256": "852c01f75d9e2ef7a2b74025529bd6e0896bbbb0cfc30455ada34ad58f8710e6",
+      "size_bytes": 3550
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag5-working-index.html",
+      "sha256": "6e9d8bb7ef5bf11c46ff638e86d17c4f81c6f8fee09635a5841d2ccd81fbbbb0",
+      "size_bytes": 1297
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag5-working70-index.html",
+      "sha256": "2b56ab61b1170292280717009ddcb904cd707e74fcc5a50e9dde5b6abdaa6b7b",
+      "size_bytes": 1907
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag6-config.json",
+      "sha256": "bff6ba33207ba952d041f2421b8c6959a4348d636d469b20d6aff232f733f02f",
+      "size_bytes": 63
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag6-metadata-index.html",
+      "sha256": "5bcf05c16478981e27b7a25a526e48781c1648464b88d0f432a296ba03460284",
+      "size_bytes": 3004
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag6-package-index.html",
+      "sha256": "a399d41195dea2cf27d83ac379847b45b0cc0f13d788f944bd3e438ab0428e31",
+      "size_bytes": 2061
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag6-surface-index.html",
+      "sha256": "5089c8489f89325a189277f5f619b142630d1e87494992b96dcd289871a22158",
+      "size_bytes": 10426
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag6-surface-processing-index.html",
+      "sha256": "c78583e6809360382b00454de5efbbc60d1ecc276712e17879281b4280e037fd",
+      "size_bytes": 3548
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag6-working-index.html",
+      "sha256": "86991be47fcd8f876192669bd7ea3894832eb405e8d9736932c20791e1149fe7",
+      "size_bytes": 1715
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/frag6-working53-index.html",
+      "sha256": "bee884b2e61a0d34fe462355bd0e2eaad30caaedc8df83399b1ec8dea43492aa",
+      "size_bytes": 1906
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/legacy-LICENSE.current.txt",
+      "sha256": "9dc08a92194617d4ae68fb96d4fd0da99d1c7207f821f2a3750b0034eac8d154",
+      "size_bytes": 2429
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/request-ledger.json",
+      "sha256": "b3371c73d213ab0cc4ed9e993fd9b787c211344e14471dfe7f8446229d805138",
+      "size_bytes": 32877
+    }
+  ],
+  "paper": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/optical-reference/annotation-provenance/educelab-arxiv-v4-complete.html",
+    "sha256": "db692cf31f8ea02e935e6df97840278046bc4f0f82205355b48176a71a952e54",
+    "size_bytes": 341140
+  },
+  "published_excerpts": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/optical-reference/annotation-provenance/paragraph-excerpts.json",
+    "sha256": "fe7b54e8c572cc542fb985602afa3d3d7c97edf958e9aacf4a482ffe7631ce24",
+    "size_bytes": 17666
+  },
+  "schema_version": 1
+}

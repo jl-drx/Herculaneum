@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-08T11:30:26.508676+00:00",
+  "allow_context_acquisition": true,
+  "allow_paid_compute": false,
+  "context_plan": {
+    "path": "/workspace/herculaneum-lab/reports/fifth-experiment/context-selection-v2/result/acquisition-plan.json",
+    "sha256": "e27d2fe30e14221cfd27a7507cd709a1d9600c6a081b777424dab1a859df1f3b",
+    "size_bytes": 50874
+  },
+  "technical_mapping": {
+    "path": "/workspace/herculaneum-lab/reports/fifth-experiment/native-check/offline-revalidation.json",
+    "sha256": "111958d1227c825d30e252ee9da3caf67043b5fc782c44521535a3a4052ece38",
+    "size_bytes": 391633,
+    "passed": true
+  },
+  "visual_review": {
+    "path": "/workspace/herculaneum-lab/reports/fifth-experiment/NATIVE_REVIEW.md",
+    "sha256": "aff22621dd09d144b00feb9d1f62b1bad971e75de633fd6d34284135e58df8f7",
+    "size_bytes": 4516,
+    "passed_for_diagnostic_context": true
+  },
+  "recovery_manifest": {
+    "path": "/workspace/herculaneum-lab/reports/fifth-experiment/native-check/recovery-manifest.json",
+    "sha256": "23b969f1b30a077297c6fde288c6d06573e112bdbc4f9c383896a582375c086a",
+    "size_bytes": 5380
+  },
+  "geometry_review": {
+    "path": "/workspace/herculaneum-lab/reports/fifth-experiment/context-selection-v2/INDEPENDENT_REVIEW.json",
+    "sha256": "5f40bf49e68523f9044658659b9e5035e6e2f9629249762f2e4dc7a0460c0b95",
+    "size_bytes": 3069
+  },
+  "acquisition_contract": {
+    "new_chunk_gets": 27,
+    "metadata_gets": 2,
+    "cache_validation_heads": 9,
+    "maximum_total_requests": 38,
+    "max_new_payload_bytes": 13713408,
+    "max_response_body_bytes": 13844480
+  },
+  "request_contract_note": "V2 selection allowed29payload/metadataGETs. This separate frozen execution decision adds9conditionalHEADs for retained cache validation, for38total requests; selection plan bytes stay unchanged.",
+  "scientific_scope": "Post hoc surrounding-context diagnostic only; no independent ink, layer, accuracy or transcription claim.",
+  "letter": null,
+  "transcription": null,
+  "translation": null
+}

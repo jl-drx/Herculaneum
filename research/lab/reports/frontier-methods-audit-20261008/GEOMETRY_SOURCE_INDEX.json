@@ -1,0 +1,601 @@
+{
+  "audit_date": "2026-10-08",
+  "role": "Geometry and surfaces source audit; original metadata retained in network-ledger.json",
+  "maximum_response_body_bytes": 10485760,
+  "actual_response_body_bytes": 2678882,
+  "request_count": 74,
+  "sources": [
+    {
+      "url": "https://scrollprize.org/contributions",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/official/official-contributions-2dae8dac8b9f.body",
+      "sha256": "fbb89f8beea5d646ef03db6a8d5630367fedfb3360d341861c35699dc1e1a6da",
+      "size_bytes": 15337,
+      "http_status": 404,
+      "complete_body": true
+    },
+    {
+      "url": "https://scrollprize.org/",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/official/official-home-f87aaf0f2c67.body",
+      "sha256": "3b04417e7e28757f1e283979afcaa79799a17afe34e303abdb876fb4c029bcbb",
+      "size_bytes": 76452,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://scrollprize.org/winners",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/official/official-winners-fa00a096151d.body",
+      "sha256": "520b2e8612076b08971f30f210f0cc32ddcbce5a65f8fc8d202a7f355e4fbfee",
+      "size_bytes": 152482,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/repo-metadata-2c02cfd60c78.body",
+      "sha256": "5cec90b30ca0a2cd41bd5a719e1d90a48cded4439b74ccdadda2a785f85a62a0",
+      "size_bytes": 5627,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/scrollfiesta_public",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-repo-8aa1e7170385.body",
+      "sha256": "5fa7fad426ea852cd1b1486324f5a8406cd0945bbfe4ec39407ae797e2f0b1d5",
+      "size_bytes": 5834,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading/commits/main",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/main-commit-025601735eef.body",
+      "sha256": "29da1fc89cd74b530c8c699ffb6a200632c624c51089b4418c300f0b46bae6fe",
+      "size_bytes": 65536,
+      "http_status": 200,
+      "complete_body": false
+    },
+    {
+      "url": "https://huggingface.co/api/models?author=scrollprize&limit=100",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/hf-scrollprize-models-146d3c92b42e.body",
+      "sha256": "d86f4b8ec2eda35fd45ec007cfa32ec9e6d3847f5e36d6a858ae95fd4630008c",
+      "size_bytes": 15724,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=socratic+vesuvius",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/github-socratic-search-e68cb18ff853.body",
+      "sha256": "123a1f411c5d845d1c95703d2c857067abbfcdd9d2f638019b46a3b7938b7aa5",
+      "size_bytes": 6152,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading/git/ref/heads/main",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/main-ref-142b62343e18.body",
+      "sha256": "0e16e293e351bd7fb99d76261a7769be8a962d72c18a17574e9593d06c0dd09a",
+      "size_bytes": 348,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading/git/commits/62cbc21bdafbe0313fee11d781d729256a14262e",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pinned-git-commit-8d3d4525a1fe.body",
+      "sha256": "0bb63997c666c6eb706dfb7c663692859fccf07a16734f4c6ca007c853ba76a8",
+      "size_bytes": 2208,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading/git/trees/62cbc21bdafbe0313fee11d781d729256a14262e?recursive=1",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pinned-tree-d4a412f3e734.body",
+      "sha256": "d6cf2ebb46cb2f043d4685bdfab361125ac9a294e0ff56054ecf67b354a917c6",
+      "size_bytes": 112672,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/scrollfiesta_public/commits/main",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-main-commit-b33018b73310.body",
+      "sha256": "56bf928c6bfcf2b13eb8525fc0571a96de87735e3664f1ba67d9cefacfefeaf8",
+      "size_bytes": 10299,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/yupengtang/vesuvius-scroll-inference/commits/main",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-lead-main-commit-c10dd93111d0.body",
+      "sha256": "455e824c7733cf78e6726cbd0665ce77ea027f44b0b3604e5eef2b1917871e4c",
+      "size_bytes": 78746,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=%22Socratic%22+%22surface%22",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/github-socratic-surface-search-d3a02f7f07a7.body",
+      "sha256": "192758c6e9d1982d1afb034114e642bff83ebd95184d4654341738448ebc4b53",
+      "size_bytes": 57444,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/scrollfiesta_public/git/trees/bce8a65f97652316efb084171a17d2f1f8d3ae1a?recursive=1",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-tree-40b263cf3af7.body",
+      "sha256": "25a62a30578466865e915d4f25c67d876f1d996716a755c6ba2343e39ac3c01a",
+      "size_bytes": 1048576,
+      "http_status": 200,
+      "complete_body": false
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/scrollfiesta_public/releases?per_page=10",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-releases-9231f6215e0c.body",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size_bytes": 2,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/yupengtang/vesuvius-scroll-inference/893a075ef59b0e62f546b0f34ed6f6b7a27950af/README.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-lead-readme-6eb51c69d337.body",
+      "sha256": "34df5222ed3dd58bbb3366b5c458edffbb29fd4c4af784288d79132a96df938a",
+      "size_bytes": 10571,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/README.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/readme-root-80d74b76fdd4.body",
+      "sha256": "4a44e61d4697394acbadd26c495f34af00022930729ed5b889d9bf6b85ede4c3",
+      "size_bytes": 3486,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/readme.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-readme-65f88640a831.body",
+      "sha256": "287a467867863193054e98162353636d99ca8957ea43d1561996a24c25b4d055",
+      "size_bytes": 5829,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/parameters.json",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-parameters-a0920bbf9eb4.body",
+      "sha256": "519c321956cb6b342aa4941165883217ee571ec8bf47fc127ba0edfe9dd9c20d",
+      "size_bytes": 2997,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/makefile",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-makefile-dbf640d48fde.body",
+      "sha256": "395409e37fefb560610e068da972d223ca23a63beca4419454d82ed5a265f682",
+      "size_bytes": 3233,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/build_pipeline.sh",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-build-fed689ac06d7.body",
+      "sha256": "77371b26dda66b311bf8bd95ab418dd6eaa317afa3f6857b8df0a0d9b99aba4d",
+      "size_bytes": 1840,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/badpatchfinder.cpp",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-badpatchfinder-a2fe014ec28a.body",
+      "sha256": "0fcfc6520bf2cc987742be05d1eaac2170e78cab40b5dadccf70e7dc051336ac",
+      "size_bytes": 13862,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/scoreplacement.cpp",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-scoreplacement-d29871a0105b.body",
+      "sha256": "b465bb807e1cfa860ce61b36dab2ebdde315703df9684defd65386bb973f5ab4",
+      "size_bytes": 13057,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/anneal.cpp",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-anneal-7169dc62e8cd.body",
+      "sha256": "58ebd030a33316eb5f23899bd3f4707742b1b95a6c12261c9a5d04f06983ae0a",
+      "size_bytes": 26609,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/simpaper10.cpp",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-simpaper10-d0859b30a86f.body",
+      "sha256": "ea0660b97dd2d02b186e5e026f6d9d12f4826333716393c4c5ff1d4d20fbf91f",
+      "size_bytes": 42798,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/common_types.cpp",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-common-types-5e53939d180f.body",
+      "sha256": "d5fc5313433fa187f7f07cdbdf1312defc1316718cb427dbbcbd96847140bf73",
+      "size_bytes": 22641,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/bin2tifxyz.cpp",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-bin2tifxyz-a7464b3c76ff.body",
+      "sha256": "84a8b426377d6b3148e9b7fc724baa9aae9dbdab13d5f2e44d29e8866819b951",
+      "size_bytes": 13561,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/cuda_patch_generator.cu",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-cuda-patches-8443197214b4.body",
+      "sha256": "7691f56cf966ec33ff29e428dc756c14483aa4e5f77b1b7dd312f5b071984db3",
+      "size_bytes": 6821,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/LICENSE",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/license-8ec94cea84ab.body",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "size_bytes": 35149,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/socratic_method",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-repo-feec9d9182b1.body",
+      "sha256": "98ea8017339c0d4d556f3079ed741cca96185ffc63018937e8bc1e042f2564fc",
+      "size_bytes": 5713,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/socratic_method/commits/main",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-main-commit-f3815a1f5258.body",
+      "sha256": "6bba1f1e767fba91cd4d6003a926a738f2a35e4bd62f4c6162e9b20c5418e2dd",
+      "size_bytes": 10156,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/scrollfiesta_public/bce8a65f97652316efb084171a17d2f1f8d3ae1a/README.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-readme-21809b0d10f3.body",
+      "sha256": "c548965fed8e2e346709fbc395c61331b3928a3fb67c1fa9db3be181e5d6e60d",
+      "size_bytes": 11361,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/scrollfiesta_public/bce8a65f97652316efb084171a17d2f1f8d3ae1a/LICENSE",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-license-948f268ff22c.body",
+      "sha256": "58237894e2528e7d718d09467b6b88322592feac5494ed1202fc25bae3e2fc4e",
+      "size_bytes": 1500,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/scrollfiesta_public/git/trees/bce8a65f97652316efb084171a17d2f1f8d3ae1a",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-top-tree-486ebe980a47.body",
+      "sha256": "222353884512b25da3f754e74c07697122395746cea68e540c4db7cda8544609",
+      "size_bytes": 28203,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading/releases?per_page=10",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/releases-fc45c2043920.body",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size_bytes": 2,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading/tags?per_page=20",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/tags-62c051cd62a1.body",
+      "sha256": "a6139f7df903a4593e2e2ad61e3e71027cefcab3390baec002899109920b09ed",
+      "size_bytes": 441,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading/commits?path=pipeline9&per_page=15",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-history-9b8fd19dbb9e.body",
+      "sha256": "3cdae8e133ab96febe4ae17725f30a941752d7eba2b9629678ad54e25eb2f453",
+      "size_bytes": 66272,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/README.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-readme-08b115728d6d.body",
+      "sha256": "664ffef2fb507e678c5c52a3f0c4a61ea68ee87f2c0fd7922c59c076cc8e2aac",
+      "size_bytes": 16713,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/LICENSE",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-license-542b41eb41f6.body",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_bytes": 11358,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/socratic_method/git/trees/7f86cbf8d38155b37fdd39449c6775ec50344b6c?recursive=1",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-tree-8dd84e4f76b5.body",
+      "sha256": "12fa19d50695f6fa5e28197d6ee59528b18ce9564891123a2ebe8012ce4d03b4",
+      "size_bytes": 270624,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/socratic_method/releases?per_page=10",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-releases-e1bad4686020.body",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "size_bytes": 2,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/scrollfiesta_public/bce8a65f97652316efb084171a17d2f1f8d3ae1a/THIRD_PARTY_LICENSES.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-thirdparty-cf379b4bd212.body",
+      "sha256": "c9f8b4a2c77e2d415373cc2dfbda86d0012b418f039ed5bafd63c8e2a40c4958",
+      "size_bytes": 3941,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/scrollfiesta_public/bce8a65f97652316efb084171a17d2f1f8d3ae1a/submission_update/release/README.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-releasecheck-559f478319f6.body",
+      "sha256": "b61f76aabc00c0e01384b4e586aa73c65051bdf1a3a3989a404835c226f4d415",
+      "size_bytes": 2776,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/CURRENT_MODEL.json",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-current-model-cb6e0fd6e598.body",
+      "sha256": "76dbc01cfff712ba91269ebabc6497f3ee814f49633d358cfc0245547c0e7880",
+      "size_bytes": 2856,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/docs/predict.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-predict-doc-7ef2b157d0fd.body",
+      "sha256": "425daf0d6a6b1543673a9560936d9b51d72a502e4e5d5c30b9e8973ae5c59a8f",
+      "size_bytes": 10223,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/recipes/f0/recipe.json",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-f0-recipe-38637e386640.body",
+      "sha256": "f44b186e5dc05eba0494e27f0d92344a74770ce11ed745f307fc518e709b3364",
+      "size_bytes": 15909,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/recipes/f0/scrolls.json",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-scroll-registry-9cd780bd7633.body",
+      "sha256": "53bcc53e149b3e0811a02a9c17c045bdf4455640d8cca59c8e7001a151eda848",
+      "size_bytes": 26077,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/recipes/f0/environment.lock.txt",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-environment-6b5e36f0cc18.body",
+      "sha256": "ad7e70fda76945ce9b037661af9b0923d2e19735a50a2abc96f247b2a832347b",
+      "size_bytes": 716,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/huggingface/f0/README.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-model-card-template-2547de67a6ee.body",
+      "sha256": "fc6be3e87752931c9a6df574cc6f61d5a1a932ff5deeebd950952d4e300be46a",
+      "size_bytes": 6634,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/src/crossres_pred/policy.py",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-runtime-policy-433d3b2f80b3.body",
+      "sha256": "5e478d91ea324ebb26801f684332ab914f37b2a33ca407a16341c27c8ce0c81f",
+      "size_bytes": 4953,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/src/socratic_method/predict.py",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-predict-code-c5eac7132e3f.body",
+      "sha256": "33cac3399e7dbf2e67e34fe4796e77b6289e1a03e7078772094eff5f392fb9ed",
+      "size_bytes": 74198,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/recipes/f0_benchmark_20260924/README.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-benchmark-504195347fc0.body",
+      "sha256": "ecb22b4a3562c99c7f6451ff0fc153f94e63a7536974d80eadca047cd11fb752",
+      "size_bytes": 21133,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/common_types.h",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/source-common_types-h-c77ac9f264c9.body",
+      "sha256": "d1ca5c08e6084d821ada05ae7bb37dab177a4dfd18c62d936d06898c87fe3b04",
+      "size_bytes": 4281,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/parameters.h",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/source-parameters-h-6239e1eac7cc.body",
+      "sha256": "d5cd3e32752c2f5f1d0c80b6932c457669dd1e6995bed4b65ffc572caf08088a",
+      "size_bytes": 2509,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/align_patches.cpp",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/source-align_patches-cpp-df6ef1b32f71.body",
+      "sha256": "cfd1a5645a0b744ce16d3a211904c086281d493881e66cd676b369b9a3f711f1",
+      "size_bytes": 14813,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/patch_generator.cpp",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/source-patch_generator-cpp-a9e523279481.body",
+      "sha256": "215f41335997f89724edadfbae7897256a2349be909b4912dc2ea91ba250eca1",
+      "size_bytes": 17124,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/zarr_1.c",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/source-zarr_1-c-57ba931bdf61.body",
+      "sha256": "3266b5f75a1e4af02e3e653fd22e655d0513dcef80e2fc25427cd40ab8d22f55",
+      "size_bytes": 5781,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/zarr_meta_1.json",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/source-zarr_meta_1-json-3d7fc5b276f6.body",
+      "sha256": "daa828d26db36f691f9784c7a197241ef656aed5a14dae9852de67d1cdf7ea60",
+      "size_bytes": 310,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/zarr_meta_4.json",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/source-zarr_meta_4-json-edebabb70d97.body",
+      "sha256": "a81d3b75669db8456128ca7643805143a682663369b946a5d18699a6e9abbc36",
+      "size_bytes": 185,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/calcvectorfield.cpp",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/source-calcvectorfield-cpp-e1f600b9bdd2.body",
+      "sha256": "4a90b984fd354f518172edc0a98a168655fc605d0811fa59c9e1749f9869eecc",
+      "size_bytes": 7110,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/parse_parameters.py",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/source-parse_parameters-py-1bb160828115.body",
+      "sha256": "6efd93c849dd6fa111597f318ec50b68ba42e979617b3bea65d43d18dfe2d0ee",
+      "size_bytes": 889,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/src/crossres_pred/voxel/resources.py",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-device-resources-dac6f2aa044c.body",
+      "sha256": "5fcfbd92ed8180f0e24d33b94ce3a38fe92cebda1fcdc062167466165271880d",
+      "size_bytes": 3271,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/src/crossres_pred/voxel/model.py",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-model-code-c1c26f80c9ad.body",
+      "sha256": "e762773c8bc485b95cbc476fa1ec71ca84984926034ab72186541e94b133602d",
+      "size_bytes": 7704,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/socratic_method/7f86cbf8d38155b37fdd39449c6775ec50344b6c/pyproject.toml",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-pyproject-4568c12cc28e.body",
+      "sha256": "0bb9edcb3517bc5d113ecef5d69714ff025934da7a496e5abf5a08ae139802c7",
+      "size_bytes": 1742,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/socratic_method/git/blobs/8ddd803d91c032af865748a3a3cb8e2f855962c2",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/socratic/socratic-checkpoint-lfs-pointer-efe7864fed6d.body",
+      "sha256": "524355754ab6bb0fddb95380b626c663b700b38b998a5411e891d7aab9b953ef",
+      "size_bytes": 478,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/scrollfiesta_public/bce8a65f97652316efb084171a17d2f1f8d3ae1a/docs/SHEET_ASSEMBLY.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-assembly-doc-39f6730b6403.body",
+      "sha256": "c3f544d5c8865440c9d57e0b7657d1520b2bac8ec83694161b3a841fd8068bde",
+      "size_bytes": 10302,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/scrollfiesta_public/bce8a65f97652316efb084171a17d2f1f8d3ae1a/submission_update/gallery/README.md",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-gallery-ledger-897c2efefbbd.body",
+      "sha256": "9fbd632a20ef39f10596df32712d2f587a6e0df1df3c009bb4937c334889690a",
+      "size_bytes": 3142,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Hob3rMallow/scrollfiesta_public/bce8a65f97652316efb084171a17d2f1f8d3ae1a/configs/default.json",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-default-config-decddad8163f.body",
+      "sha256": "e31cb0e20e4c7c6529a352a9f3668c462823ccb7eeeb6479a7e73d77d90fe2b5",
+      "size_bytes": 1652,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/Hob3rMallow/scrollfiesta_public/git/trees/db5a01be56d5c2a74697a78b0ef16c245dca21b4?recursive=1",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/scrollfiesta/scrollfiesta-src-tree-d289476f1edf.body",
+      "sha256": "4c36c19d5b938a36d27bd3eb2e48914529a5654544856d65d9f7acb69a4943f7",
+      "size_bytes": 140338,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading/git/commits/ccceb5aa39fa38dab1318780a2e7cd50f05640f5",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/tag-report10-commit-4f44939f6243.body",
+      "sha256": "256e72cc0866863e445d4566ea626c98e556ebee5935c63d39274da0955818ab",
+      "size_bytes": 2198,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://api.github.com/repos/WillStevens/scrollreading/commits?path=report12.pdf&per_page=1",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/report12-history-0d9342bd79d6.body",
+      "sha256": "d14e23d75e0167b4ef8f018c6b0f3294e71b9bab289e8f06b8dde14210720d90",
+      "size_bytes": 4392,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/badpatchfinder.h",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-badpatchfinder-h-269156a5a7e5.body",
+      "sha256": "d68f7286240cd3f9d82883c0f4dd8b5a4dcfe1ca2ecaf0560953e4528cb63e2a",
+      "size_bytes": 1805,
+      "http_status": 200,
+      "complete_body": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/WillStevens/scrollreading/62cbc21bdafbe0313fee11d781d729256a14262e/pipeline9/convert2tifxyz.sh",
+      "path": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/raw-sources/william/pipeline9-convert2tifxyz-30eef18e9d26.body",
+      "sha256": "63696b8a4833014328800161732b1f14f80bed7248f9685dc55b9dd1bc43d2cd",
+      "size_bytes": 1202,
+      "http_status": 200,
+      "complete_body": true
+    }
+  ]
+}

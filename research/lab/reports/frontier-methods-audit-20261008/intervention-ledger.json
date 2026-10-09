@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "initialized_at_utc": "2026-10-08T11:55:36.422326+00:00",
+  "scope": "Prospective human-intervention accounting for any future frozen prize pipeline; not retroactive Grand Prize compliance.",
+  "prior_work": {
+    "status": "research and setup before a submission pipeline was selected",
+    "human_input_duration_seconds": null,
+    "classification": "unmeasured; cannot claim zero or infer an eight-hour total from automated execution logs"
+  },
+  "entries": [],
+  "required_entry_fields": [
+    "utc_start",
+    "utc_end",
+    "actor_type",
+    "action",
+    "artifact_or_region",
+    "purpose",
+    "pipeline_stage",
+    "duration_seconds",
+    "category",
+    "classification_basis",
+    "protocol_revision"
+  ],
+  "suggested_categories": [
+    "unrolling_pipeline_input",
+    "generic_ml_dataset_creation",
+    "papyrological_assessment",
+    "research_or_software_development",
+    "uncertain"
+  ],
+  "rules_note": "Preserve actual descriptions even when category is uncertain; the organizer determines submission compliance."
+}

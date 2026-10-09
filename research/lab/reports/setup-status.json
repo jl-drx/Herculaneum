@@ -1,0 +1,54 @@
+{
+  "verified_at_utc": "2026-10-08T07:22:50.441999+00:00",
+  "local_workflow": "Real public CT/surface inspection plus strict-state CPU ink-model inference",
+  "functional_checks": "9 passed",
+  "notebook": "2 code cells executed without errors; HTML exported",
+  "setup_repeatability": "hash-pinned sync and retained-reference verification rerun successfully",
+  "configuration_saved": [
+    "install_script",
+    "start_skill"
+  ],
+  "network_custom_domains": [
+    "scrollprize.org",
+    "www.scrollprize.org",
+    "dl.ash2txt.org",
+    "vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com",
+    "huggingface.co",
+    "scrollprize.substack.com"
+  ],
+  "runtime_network_changes_applied": true,
+  "publication_verified": false,
+  "fresh_task_validation_verified": false,
+  "remaining_blocker": null,
+  "novel_text_recovery": "No authenticated text recovered or claimed",
+  "live_scan_read_verified": true,
+  "live_public_model_download_verified": true,
+  "model_inference": "Two verified checkpoints scored 173 tiles each on the full bounded 980\u00d7980 canvas; depth/orientation controls completed",
+  "new_transcription_or_translation": false,
+  "scientific_limit": "No coherent target letterforms supported; reference annotation agreement does not establish cross-scroll accuracy.",
+  "native_ct_consistency": "93/93 tested local surface values reproduced exactly",
+  "configuration_publication_pending": true,
+  "network_mode": "unrestricted (current saved configuration)",
+  "second_experiment": {
+    "reference": "Source-derived PHerc1667/w013 scan with labels and supervision; training-overlapped region",
+    "reference_current_annotation_agreement": "Seed42 precision/recall 97.43%/96.64%, seed43 97.05%/98.95%; descriptive, not held-out accuracy",
+    "target_controls": "Three geometry/data-selected contexts; shared midpoint counts 0, 0, 830 with third boundary-associated",
+    "transcription_or_translation": false,
+    "source_output_hash_verification": true,
+    "report": "reports/second-experiment/RESULTS.md"
+  },
+  "third_experiment": {
+    "source": "Frozen PHerc0800 segment20251028222030 ROI1536 at512,512",
+    "geometry_valid_fraction": 0.9308539496527778,
+    "main_scored_tiles": 1046,
+    "main_skipped_tiles": 12,
+    "control_scored_tiles": 900,
+    "strict_shared_midpoint_pixels": 1356,
+    "strict_shared_components": 6,
+    "new_reading_or_translation": false,
+    "native_local_check": "92/93 exact; all93 withinone count; residual unresolved",
+    "report": "reports/third-experiment/RESULTS.md"
+  },
+  "june_methods_audit": "Primary paper reviewed; later9\u00b5m baseline distinguished from2.4\u00b5m ResNet3D adaptation, geometry and papyrological pipeline.",
+  "higher_resolution_eligible_alternative_verified": false
+}

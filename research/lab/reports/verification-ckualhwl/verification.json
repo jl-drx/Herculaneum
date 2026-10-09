@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "checks": [
+    "Verified original SHA-256: official-ink-label.webp",
+    "Generated previews and provenance without changing source: official-ink-label.webp",
+    "Verified original SHA-256: official-banner-full.webp",
+    "Generated previews and provenance without changing source: official-banner-full.webp",
+    "TIFF LZW encode/decode exactly preserves reference pixels",
+    "Chunked local Zarr write/read exactly preserves reference pixels",
+    "SciPy processes a real reference array with finite, shape-preserving output",
+    "Incorrect checksum rejected before writing outputs",
+    "Out-of-bounds crop rejected before writing outputs"
+  ],
+  "check_count": 9,
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.11.2",
+    "tifffile": "2026.9.20",
+    "scikit-image": "0.26.0",
+    "zarr": "3.4.0",
+    "fsspec": "2026.9.0",
+    "s3fs": "2026.9.0",
+    "imagecodecs": "2026.8.16",
+    "jupyterlab": "4.6.4"
+  },
+  "run_directory": "/workspace/herculaneum-lab/reports/verification-ckualhwl",
+  "scope": "Published reference-image inspection and local data I/O only",
+  "unverified": [
+    "Remote CT access",
+    "GPU inference",
+    "Ink detection accuracy",
+    "New transcription or translation",
+    "Prize eligibility"
+  ]
+}

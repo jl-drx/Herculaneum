@@ -1,0 +1,125 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "actual_array_declaration_verified": true,
+  "batch_count": 13,
+  "benchmark_admitted": false,
+  "candidate_chunk_framing_verified": false,
+  "created_at_utc": "2026-10-09T07:00:25.686082+00:00",
+  "decision": "Retain corrected storage budget and synthetic adapter; next qualify decode-once chunk accumulation offline.",
+  "elapsed_seconds": 1.3610358119999546,
+  "evidence": {
+    "METADATA_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/METADATA_GO.json",
+      "sha256": "fbe69a90750f792130943c2eb12562a06fb82ecafe00dbd4f639d5955eae0d88",
+      "size_bytes": 1306
+    },
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "dab936445c55a4e908fdb5aab8d23049896d320dc1677853b7f76eae01b1843d",
+      "size_bytes": 3640
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/PROTOCOL.md",
+      "sha256": "166943483cb861bf236d2b3503f2034dd22436b8dbb7f6a94abfb76f0673ae76",
+      "size_bytes": 4576
+    },
+    "READER_CONTRACT.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/READER_CONTRACT.md",
+      "sha256": "418ff802ad00be068390613a9469689776c75e907ce87859c55fe4ca9bcd0081",
+      "size_bytes": 3907
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/RESULTS.md",
+      "sha256": "5c01d6a9099d1be1c325e2c2e7129f21b448bbaaa286f8ff52e291025cf3d8a2",
+      "size_bytes": 7797
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "5a652420946ab9084f9528df0c08e429c35a42fa47a62530a53bdb3e0597a42a",
+      "size_bytes": 1016
+    },
+    "SAVED_RESULT_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/SAVED_RESULT_VERIFICATION.json",
+      "sha256": "dfa8eff063f6b2a9633cc45dfe0a6cb8e79dc7a361a0691b8eae23a6d8eec697",
+      "size_bytes": 538
+    },
+    "SOURCE_FREEZE.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/SOURCE_FREEZE.json",
+      "sha256": "2f77cd69c0b4265d3bda61626b7c2425390bef973b48d8644d30aa7a9d6380e1",
+      "size_bytes": 2548
+    },
+    "STORAGE_CONTRACT.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/STORAGE_CONTRACT.json",
+      "sha256": "7e5ff869e96c01b36100298dcdab5f40797bfccac59a281c8018eadf50c409a3",
+      "size_bytes": 1024
+    },
+    "metadata-run-v1/STOP.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/metadata-run-v1/STOP.json",
+      "sha256": "9d2de335c989d86c9b50370fd5345b8670623d710d7f45749487f2b0bbe06bcb",
+      "size_bytes": 79
+    },
+    "metadata-run-v1/request-ledger.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/metadata-run-v1/request-ledger.json",
+      "sha256": "461555e39feb0fed1e97c1a3474403851ba7131abcddcf13bacee62f49d56547",
+      "size_bytes": 3657
+    },
+    "run-v1/ACTUAL_LAYOUT_DRY_PLAN.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/run-v1/ACTUAL_LAYOUT_DRY_PLAN.json",
+      "sha256": "257918116cdd2f271d2a4f2dbb5ddfbc585c44144bffbe1abf21f4133c30420d",
+      "size_bytes": 54533
+    },
+    "run-v1/NATIVE_SIZE_SYNTHETIC_RESULT.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/run-v1/NATIVE_SIZE_SYNTHETIC_RESULT.json",
+      "sha256": "7ec6e319a930ae7ca7bad06f20df746ffb375a12e986e36979b9dfde59319e2d",
+      "size_bytes": 3261
+    },
+    "run-v1/RUN_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/run-v1/RUN_RECEIPT.json",
+      "sha256": "58bb7aa042c5d095ca47d71f8c792bee669498a2fb5039bc2b1cf7f74724f62d",
+      "size_bytes": 1456
+    }
+  },
+  "fetcher_fixture_tests": 9,
+  "independent_agent_review": false,
+  "independent_confirmation_ready": false,
+  "live_transport_verified": false,
+  "maintainer_request_status": "User intends to submit; not confirmed sent",
+  "max_rss_bytes": 122720256,
+  "metadata_acquisition_status": "STOP_ON_CHUNKED_404_REQUEST4",
+  "native_size_fixture_all_voxels_exact": true,
+  "native_size_fixture_chunks": 8,
+  "native_size_fixture_voxels": 2146689,
+  "network_requests": 4,
+  "network_reserved_body_bytes": 102404,
+  "network_response_body_bytes": 3443,
+  "network_retries": 0,
+  "new_artifacts_uploaded_to_r2": false,
+  "new_candidate_image_pixels": 0,
+  "new_candidate_scores": 0,
+  "output_point_slots": 2187,
+  "physical_units_declared": false,
+  "publication": null,
+  "retained_geometry_records": 729,
+  "retained_invalid_records": 171,
+  "retained_mapped_records": 558,
+  "scientific_model_forwards": 0,
+  "scientific_optimizer_updates": 0,
+  "source_frame_confirmed": false,
+  "stage_C_open": false,
+  "status": "completed_partial_metadata_offline_reader_qualified",
+  "submission": null,
+  "synthetic_sampling_max_error": 2.2737367544323206e-13,
+  "synthetic_test_errors": 0,
+  "synthetic_test_failures": 0,
+  "synthetic_test_skips": 0,
+  "synthetic_tests": 20,
+  "total_chunk_uses": 200,
+  "total_decoded_work_bytes": 838860800,
+  "transcription": null,
+  "translation": null,
+  "unique_chunks": 70,
+  "unique_decoded_bytes": 293601280,
+  "verified_metadata_objects": 3,
+  "whole_batch_rejected": true
+}

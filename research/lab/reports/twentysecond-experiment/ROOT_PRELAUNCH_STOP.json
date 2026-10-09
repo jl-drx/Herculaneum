@@ -1,0 +1,13 @@
+{
+  "status": "PRELAUNCH_STOP",
+  "created_at_utc": "2026-10-09T05:02:15.218859+00:00",
+  "reason": "Root assertion expected shortened technical-review status; actual verified status is GO_FOR_ROOT_AUTHORIZATION_STAGE1_ONLY. Root GO was not written; dependent CLI reported FileNotFoundError before execution.",
+  "source_changes": 0,
+  "model_calls": 0,
+  "network_requests": 0,
+  "root_go_existed": false,
+  "scientific_retry": false,
+  "correction": "Accept exact stage1-only review enum, write pinned root GO, then launch only after success.",
+  "technical_review_sha256": "b920b83742a46cb2aa2f040e39523d84572bd24a69fc0ee4bc5f463f3a2315f9",
+  "attempted_output_path_existed_after_stop": false
+}

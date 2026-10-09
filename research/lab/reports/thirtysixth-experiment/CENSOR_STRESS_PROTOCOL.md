@@ -1,0 +1,7 @@
+# Prospective extension after real-map inspection
+
+The original maps contain accepted estimates at the earliest searchable boundary, layer5.5. This extension tests the hypothesis that the rule clips transitions lying outside the searchable interval. It is prompted by the real outputs and is explicitly posthoc development, not part of the original synthetic gate. Original code, maps and gate remain unchanged.
+
+Before execution freeze22 noiseless scalar-energy fixtures: constant100 energy on one side of a boundary at splits [1,3,5,6,16,32,47,57,58,60,62], zero on the other, both orientations. True boundary is split+0.5. Report the original candidate, acceptance and error for every case, including in-range and out-of-range cases. Separately evaluate one conservative advisory flag: accepted candidates at either search endpoint5.5 or58.5 are censored and unusable for automatic recentering. The flag intentionally rejects true transitions exactly at those endpoints too. It does not establish that other candidates are physical surfaces.
+
+For original real maps, count this flag only; do not replace maps, rerun the estimator or score labels. No threshold tuning or model promotion follows. Limits: no network/model calls, ≤30seconds, ≤128MiB RSS and ≤1MiB new outputs. An analytic step-energy calculation (intersection length of5-layer windows with the known high-energy region) independently checks all22 outputs.

@@ -1,0 +1,37 @@
+{
+  "controller_argv": [
+    "/workspace/.venvs/herculaneum/bin/python",
+    "inference/run_comparison.py",
+    "--plan",
+    "inference/final-plan/comparison-plan.json",
+    "--output-dir",
+    "inference/run"
+  ],
+  "cwd": "/workspace/herculaneum-lab/reports/sixteenth-experiment",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "external_timeout_kill_after_seconds": 5,
+  "external_timeout_seconds": 600,
+  "limitations": "Retrospective root record of tool invocation context, not a new launch-time trace or independent authentication of model execution. No command, output, cutoff, weight or scientific result is changed.",
+  "metrics": {
+    "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/analysis/metrics.json",
+    "sha256": "c911803a07ac44741eb9724b2e4b78dbfd8cb32f92848378960960f17d1ee175",
+    "size_bytes": 86092
+  },
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/final-plan/comparison-plan.json",
+    "sha256": "6ab47a1998a0dd5755db1f503cfb03f8301d91be19d11784ad2456f78df11018",
+    "size_bytes": 55952
+  },
+  "purpose": "Resolve only relative worker --output-dir arguments retained by the sealed controller; require their canonical paths to equal the exact saved role/phase result directories.",
+  "recorded_at_utc": "2026-10-08T21:38:23.309275+00:00",
+  "results": {
+    "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/results.json",
+    "sha256": "4908f7146108e559c0e80c5febaffcd834d00207ea3fdc784aa591960ff0c695",
+    "size_bytes": 12018
+  },
+  "retrospective": true,
+  "source_of_context": "Exact root exec_command command and workdir specified for the completed successful controller call in this conversation.",
+  "status": "ROOT_EXECUTION_CONTEXT_RECORDED"
+}

@@ -1,0 +1,34 @@
+{
+  "created_at_utc": "2026-10-09T06:37:57.886850+00:00",
+  "figure": {
+    "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/run-v1/synthetic-controls.png",
+    "sha256": "5c38440398dc84a442fa2552ab16e05ffe662ff948f153c23894c8118df6f579",
+    "size_bytes": 132319
+  },
+  "report": {
+    "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/RESULTS.md",
+    "sha256": "d2c9aafb5827fee1c8c9dcac63cb3e232fe4e8195ddedb7cce4973aa4265df61",
+    "size_bytes": 8498
+  },
+  "reviewer": "root",
+  "run": {
+    "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/run-v1/RUN_RECEIPT.json",
+    "sha256": "396d515345258e2e4560482c6694c7188ac76e46c074459f488f36654f275a4f",
+    "size_bytes": 1481
+  },
+  "scope_checks": [
+    "Analytic error reported in synthetic intensity units",
+    "39MiB explicitly conditional on hypothetical64cubed uint16 layout",
+    "No real storage/geometry/optical registration claimed",
+    "Current registration utility not an invertibility/image-warp validator",
+    "No benchmark/model promotion or GPU launch",
+    "Maintainer request status remains user intends to submit; not confirmed sent"
+  ],
+  "second_pass": {
+    "path": "/workspace/herculaneum-lab/reports/twentysixth-experiment/SAVED_RESULT_VERIFICATION.json",
+    "sha256": "48bc7d2f8a6b140769f126e5f602e7f223e963813717e8c043fdfac780a2e804",
+    "size_bytes": 1097
+  },
+  "status": "PASS",
+  "visual_review": "Viewed whole synthetic figure at tool-resized2048x614 from2100x630. Truth/sample profile agreement, coordinate negative-control errors and excluded five-pixel landmark displacement are visible. No candidate imagery."
+}

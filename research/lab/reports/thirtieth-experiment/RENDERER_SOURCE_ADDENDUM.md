@@ -1,0 +1,7 @@
+# Source-informed renderer follow-up
+
+All three pinned Software-tag payloads say `volume-cartographer 2.26.0`. This is an embedded producer claim, not proof of build provenance or invocation. Inspect the corresponding public educelab/volume-cartographer release source to identify its actual sampling implementation. No downloaded code executes and no new sampling hypothesis is scored in this follow-up. Preserve the six-recipe failed comparison unchanged.
+
+Bounded API acquisition: only https://api.github.com/repos/educelab/volume-cartographer/ ; exact matching refs for tagv2.26.0 or2.26.0, any returned annotated tag/commit/tree objects, then selected relevant Git blobs from that tree. At most14additional requests,1MiBbody each plus one-byte excess allowance,20seconds absolute/request, no retry/redirect, UTF-8 source only, exact decoded blob size/Git SHA1/SHA256 verification. The combined phase stays below100requests,160MiBreservedbodybytes and192MiBartifactbytes. Discovery may stop earlier. A missing record cannot establish historical absence.
+
+Inspect renderer/layer generation, volume subvoxel interpolation and image-type conversion. Distinguish the tagged implementation from an authenticated historical binary or command. A source-based explanation may justify a prospectively frozen replication later; it must not erase the exposed check set or change acceptance thresholds retrospectively.

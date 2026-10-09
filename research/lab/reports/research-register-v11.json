@@ -1,0 +1,621 @@
+{
+  "created_at_utc": "2026-10-08T20:18:28.996334+00:00",
+  "experiments": [
+    {
+      "held_out_accuracy_established": false,
+      "id": "first-experiment",
+      "inference_scope": "Exploratory target inference; no authentic target labels",
+      "letter": null,
+      "new_artifacts_uploaded_to_r2": false,
+      "purpose": "Initial native PHerc0800 surface screen",
+      "result_path": "/workspace/herculaneum-lab/reports/first-experiment/RESULTS.md",
+      "result_sha256": "9931991b7e57317d6a383f9dc46b404a6b72b49ab6e8287f722381281b175483",
+      "status": "completed with no authenticated reading",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "held_out_accuracy_established": false,
+      "id": "second-experiment",
+      "inference_scope": "Reference overlaps baseline training; possible pseudo-label supervision; not held-out accuracy",
+      "letter": null,
+      "new_artifacts_uploaded_to_r2": false,
+      "purpose": "Published reference and target controls",
+      "result_path": "/workspace/herculaneum-lab/reports/second-experiment/RESULTS.md",
+      "result_sha256": "815a0431cd0482868a7c8c9cf9c6e801e8eba83c62e4c66d684b58be62e13338",
+      "status": "completed with no authenticated reading",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "held_out_accuracy_established": false,
+      "id": "third-experiment",
+      "inference_scope": "Unlabeled target diagnostics; CT agreement does not establish a correct written surface",
+      "letter": null,
+      "new_artifacts_uploaded_to_r2": false,
+      "purpose": "Larger geometry-selected context and June-method comparison",
+      "result_path": "/workspace/herculaneum-lab/reports/third-experiment/RESULTS.md",
+      "result_sha256": "0afb454ba590e8c4d0b812506e5e616570145ca8d3ee5805c619b50293f5eaef",
+      "status": "completed with no authenticated reading",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "held_out_accuracy_established": false,
+      "id": "fourth-experiment",
+      "inference_scope": "Base-coordinate distance checked; full CT sampling-support independence unresolved",
+      "letter": null,
+      "new_artifacts_uploaded_to_r2": false,
+      "purpose": "Geometry-selected separate source extent",
+      "result_path": "/workspace/herculaneum-lab/reports/fourth-experiment/RESULTS.md",
+      "result_sha256": "04b0642ca2c01f6129554270ddfd35bf7bfac84519431a816d6cba13a17a730d",
+      "status": "completed with no authenticated reading",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "held_out_accuracy_established": false,
+      "id": "fifth-experiment",
+      "inference_scope": "Post hoc to fourth peaks; original native run stopped for integrity; separate offline recovery passed",
+      "letter": null,
+      "new_artifacts_uploaded_to_r2": false,
+      "purpose": "Native response-location checks and surrounding context",
+      "result_path": "/workspace/herculaneum-lab/reports/fifth-experiment/RESULTS.md",
+      "result_sha256": "ae00dc9ccbb57b053d91a12e602288925be93d56a618a3f7c266999952b8bf9f",
+      "status": "completed with no authenticated reading",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "held_out_accuracy_established": false,
+      "id": "sixth-experiment",
+      "inference_scope": "Corrected PHerc1667/w029 label-selected crop; historical training/teacher/physical independence unresolved",
+      "letter": null,
+      "new_artifacts_uploaded_to_r2": false,
+      "purpose": "Fixed Russo dense/control and official two-seed developmental reference comparison",
+      "result_path": "/workspace/herculaneum-lab/reports/sixth-experiment/RESULTS.md",
+      "result_sha256": "514e16f121fb38db6309800f72c18e45c1b65e7181eff87dc09b91570902c5d6",
+      "status": "completed; all source/model/integrity and independent numerical reviews passed",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "held_out_accuracy_established": false,
+      "id": "seventh-experiment",
+      "inference_scope": "Four contexts from PHerc0139/PHerc0814; reserved from our tuning, within recorded model-development corpus. Dense gains AUC3/4 and AP4/4, but weaker threshold transfer. Pooled fine only.",
+      "letter": null,
+      "new_artifacts_uploaded_to_r2": false,
+      "purpose": "Four-model fixed pooled-fine reference panel on two additional specimens with development-locked thresholds",
+      "result_path": "/workspace/herculaneum-lab/reports/seventh-experiment/RESULTS.md",
+      "result_sha256": "3ad1518d7db407ae7ff5a52cec6f335b3fbf972d6de1e6567387cbe019456224",
+      "status": "completed; independent data and metric reconstruction passed",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "actual_updates": 96,
+      "adopted_baseline": "unchanged strict seed42",
+      "baseline_promoted": false,
+      "held_out_accuracy_established": false,
+      "id": "eighth-experiment",
+      "inference_scope": "Two fresh supplied-supervision contexts on PHerc0814, excluded from current gradient updates/calibration; known historical model-development corpus and incomplete annotation lineage. All continuations reduced ranking and sensitivity relative to frozen seed42.",
+      "letter": null,
+      "new_artifacts_uploaded_to_r2": false,
+      "paid_gpu_spend_gbp": 0,
+      "purpose": "Matched 32-step manual/pseudo/balanced-anchor continuation with unchanged-initializer and conservative-calibration controls",
+      "result_path": "/workspace/herculaneum-lab/reports/eighth-experiment/RESULTS.md",
+      "result_sha256": "a7120108c8e84f578cb88c5dd35e3b0e122ee411a8cbe4438426251205cb1519",
+      "status": "completed; candidate failed all predeclared improvement screens; independent data, code, checkpoint, training-receipt and numerical checks passed",
+      "trained_final_checkpoints": 3,
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "actual_new_updates": 64,
+      "adopted_baseline": "unchanged strict seed42",
+      "baseline_promoted": false,
+      "held_out_accuracy_established": false,
+      "historical_paired_updates_reused": 64,
+      "id": "ninth-experiment",
+      "independent_verification": {
+        "path": "/workspace/herculaneum-lab/reports/ninth-experiment/review/result/independent-verification.json",
+        "sha256": "0cb4bf51046ea300d080bdd242526939c40604b34900f09960bb027798cd7a39",
+        "size_bytes": 190913
+      },
+      "inference_scope": "Two reused PHerc0814 supplied-supervision development retention diagnostics; same historical development corpus and unresolved annotation/exposure lineage. Mean AUC/AP improved, threshold sensitivity mixed and below frozen.",
+      "letter": null,
+      "metrics": {
+        "path": "/workspace/herculaneum-lab/reports/ninth-experiment/implementation/analysis/metrics.json",
+        "sha256": "5b70146072474d00998bd82dc164c0cf0e6cedf4a570418dedaeb5066f11cad0",
+        "size_bytes": 53292
+      },
+      "new_artifacts_uploaded_to_r2": false,
+      "paid_gpu_spend_gbp": 0,
+      "plan": {
+        "path": "/workspace/herculaneum-lab/reports/ninth-experiment/implementation/final-plan/control-plan.json",
+        "sha256": "9d72d3177d5aa68cd5d59db6f316ed1a5c335f442b6c5c2439f45bfdaebe29cd",
+        "size_bytes": 94225
+      },
+      "purpose": "Paired BCE-smoothing control reusing immutable eighth manual/pseudo continuations and frozen baseline",
+      "result_path": "/workspace/herculaneum-lab/reports/ninth-experiment/RESULTS.md",
+      "result_sha256": "f2d30014154de06d7743a5a9fb49f869e43a923c6a56a14c7ecef3045517308d",
+      "status": "completed; both mitigation screens and both baseline-retention margins failed; independent code/checkpoint/training-receipt/numeric review passed",
+      "trained_final_checkpoints": 2,
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "actual_new_updates": 64,
+      "adopted_baseline": "unchanged strict seed42",
+      "baseline_promoted": false,
+      "candidate_reservation": {
+        "path": "/workspace/herculaneum-lab/reports/tenth-experiment/reference-audit/candidate-reservation-spec.json",
+        "sha256": "4fca20445a5ea7036da7371c80ea47c2807e658915d0105847f7f5ad7aae0cb1",
+        "size_bytes": 18679
+      },
+      "frozen_teacher_batch_forwards": 64,
+      "held_out_accuracy_established": false,
+      "historical_paired_updates_reused": 64,
+      "id": "tenth-experiment",
+      "independent_verification": {
+        "path": "/workspace/herculaneum-lab/reports/tenth-experiment/review/result/independent-verification.json",
+        "sha256": "2ce60e94d8c907af6abea24a87e6ae21199f098894d892349f1e0462580e0505",
+        "size_bytes": 1278099
+      },
+      "inference_scope": "Two reused PHerc0814 development retention contexts, historical exposure and supplied annotation lineage unresolved; no independent accuracy. Original online target losses remain worse than same-input initializer.",
+      "letter": null,
+      "metrics": {
+        "path": "/workspace/herculaneum-lab/reports/tenth-experiment/implementation/analysis/metrics.json",
+        "sha256": "ff8e549c93ae1430373ff956a5448b5e10abf7202ede858828b0f8192362b751",
+        "size_bytes": 57942
+      },
+      "new_artifacts_uploaded_to_r2": false,
+      "paid_gpu_spend_gbp": 0,
+      "plan": {
+        "path": "/workspace/herculaneum-lab/reports/tenth-experiment/implementation/final-plan/control-plan.json",
+        "sha256": "9e2c9f4f778c3f794e103191fd413937b521fa0d0b72cab0e3905778ce3e3a55",
+        "size_bytes": 109068
+      },
+      "purpose": "Matched manual/pseudo continuations with fixed seed42 prediction-preservation KL on unchanged training support",
+      "reference_lineage": {
+        "path": "/workspace/herculaneum-lab/reports/tenth-experiment/reference-audit/LINEAGE.md",
+        "sha256": "004b120a18eb654dc63b59277c12edab5ea8e1ccf226a85f220409eeab3f5710",
+        "size_bytes": 10970
+      },
+      "result_path": "/workspace/herculaneum-lab/reports/tenth-experiment/RESULTS.md",
+      "result_sha256": "7b61247f04222aa7f5cb09f0ce64021311cc4973bb76e6cdde8bb38ccfbe498a",
+      "status": "completed mixed result; manual-only mitigation passes, pseudo mitigation and both frozen-baseline margins fail; independent raw-loss/checkpoint/metric review passed",
+      "trained_final_checkpoints": 2,
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "CT_range_response_bytes": 1425096672,
+      "controller_wall_seconds": 62.20209331899969,
+      "forward_primary_macro": {
+        "A_preserve": {
+          "ap": 0.1291206519525803,
+          "auc": 0.5647884380481394,
+          "primary_sensitivity": 0.061427851453019,
+          "primary_specificity": 0.8605853057034653,
+          "secondary_sensitivity": 0.061427851453019,
+          "secondary_specificity": 0.8605853057034653
+        },
+        "A_smooth": {
+          "ap": 0.12099315114269077,
+          "auc": 0.5681811318017138,
+          "primary_sensitivity": 0.08936101880240148,
+          "primary_specificity": 0.8667260408792368,
+          "secondary_sensitivity": 0.08936101880240148,
+          "secondary_specificity": 0.8667260408792368
+        },
+        "B_preserve": {
+          "ap": 0.134257434451721,
+          "auc": 0.6262982872258707,
+          "primary_sensitivity": 0.13197079014927426,
+          "primary_specificity": 0.8511278549266812,
+          "secondary_sensitivity": 0.13197079014927426,
+          "secondary_specificity": 0.8511278549266812
+        },
+        "B_smooth": {
+          "ap": 0.1423144285116822,
+          "auc": 0.6422707853537253,
+          "primary_sensitivity": 0.22162664615290775,
+          "primary_specificity": 0.8422700654292421,
+          "secondary_sensitivity": 0.22536008296175158,
+          "secondary_specificity": 0.8402422445164892
+        },
+        "frozen_seed42": {
+          "ap": 0.18611798076511282,
+          "auc": 0.7348088937871333,
+          "primary_sensitivity": 0.030251440544787848,
+          "primary_specificity": 0.9516122450443765,
+          "secondary_sensitivity": 0.030251440544787848,
+          "secondary_specificity": 0.9516122450443765
+        }
+      },
+      "held_out_accuracy_established": false,
+      "historical_exposure": "Absent from29 explicit initialization representations; upstream ancestry/exposure unresolved. Now seen diagnostic evidence.",
+      "id": "eleventh-experiment",
+      "independent_review": {
+        "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/result-verification/final-review/independent-verification.json",
+        "sha256": "d586796714ee14b51838da1a03d1eb83b771bf5477ab9ff5608d1a43b90760ea",
+        "size_bytes": 157931
+      },
+      "inference_scope": "Five states x two contexts x two directions;500 CPUtileforwards; no training/calibration; forwardprimary",
+      "input_dtype": "float32",
+      "input_shape": [
+        17,
+        384,
+        384
+      ],
+      "letter": null,
+      "maximum_worker_rss_bytes": 616030208,
+      "metrics": {
+        "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/comparison/analysis/metrics.json",
+        "sha256": "ea510202c8c95cdea09377213e0103fb6d0a57818b6b57f6699d20289d83d3f7",
+        "size_bytes": 166792
+      },
+      "new_artifacts_uploaded_to_r2": false,
+      "nominal_spacing_um": 9.72,
+      "paid_GPU_spend_GBP": 0,
+      "plan": {
+        "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/comparison/final-plan/comparison-plan.json",
+        "sha256": "61e82ef922db9e33d5a0c5cc3c69a6bd7d8a0e1bc836d3418f2bd63d8680f45f",
+        "size_bytes": 28259
+      },
+      "primary_pixels": 169295,
+      "purpose": "Fixed five-state transfer comparison against supplied optical-derived Frag4 reference",
+      "reference": "PHercParis1Fr39/legacy Frag4; manual IR protocol, supplied negatives, unmeasured optical registration error",
+      "result_path": "/workspace/herculaneum-lab/reports/eleventh-experiment/RESULTS.md",
+      "result_sha256": "6536919a163d394750c06f93c7cc3a1494ae34f89ed407d2b915a2cc3aa0e145",
+      "reverse_primary_macro": {
+        "A_preserve": {
+          "ap": 0.08078524618390666,
+          "auc": 0.2505731910056984,
+          "primary_sensitivity": 0.0,
+          "primary_specificity": 0.9232465398436567,
+          "secondary_sensitivity": 0.0,
+          "secondary_specificity": 0.9232465398436567
+        },
+        "A_smooth": {
+          "ap": 0.08503040211860761,
+          "auc": 0.3484843570242414,
+          "primary_sensitivity": 0.0018334206390780514,
+          "primary_specificity": 0.9180019898397629,
+          "secondary_sensitivity": 0.0018334206390780514,
+          "secondary_specificity": 0.9180019898397629
+        },
+        "B_preserve": {
+          "ap": 0.09489807501261044,
+          "auc": 0.3237528945348591,
+          "primary_sensitivity": 0.025045895620246526,
+          "primary_specificity": 0.9285942642414181,
+          "secondary_sensitivity": 0.025045895620246526,
+          "secondary_specificity": 0.9285942642414181
+        },
+        "B_smooth": {
+          "ap": 0.0977301531376728,
+          "auc": 0.40438020807743186,
+          "primary_sensitivity": 0.022554419092578024,
+          "primary_specificity": 0.9317549900143346,
+          "secondary_sensitivity": 0.023734592184631524,
+          "secondary_specificity": 0.9298813478163299
+        },
+        "frozen_seed42": {
+          "ap": 0.10635700569282022,
+          "auc": 0.4576001140182777,
+          "primary_sensitivity": 0.0,
+          "primary_specificity": 0.9976916564162367,
+          "secondary_sensitivity": 0.0,
+          "secondary_specificity": 0.9976916564162367
+        }
+      },
+      "status": "completed; baseline leads macro AUC/AP, no consistent continuation benefit; independently verified",
+      "technical_review": {
+        "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/review/comparison/completed-comparison-verification.json",
+        "sha256": "299967b698ed0b6db808901d46cd6df6a53d943dedd0989bcdeec9b51c104c6a",
+        "size_bytes": 1390
+      },
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "GPU_spend_GBP": 0,
+      "checkpoint_outputs": 0,
+      "held_out_accuracy_established": false,
+      "id": "twelfth-experiment",
+      "independent_objective_review": {
+        "path": "/workspace/herculaneum-lab/reports/twelfth-experiment/numeric-review/completed-review-v2/independent-verification.json",
+        "sha256": "46a7f1855ae9ab0b19b2209eda4322abaa8f028dc5da06eda392c91a15df7b2b",
+        "size_bytes": 28943
+      },
+      "independent_probe_review": {
+        "path": "/workspace/herculaneum-lab/reports/twelfth-experiment/loss-review/output-verification-corrected/verification.json",
+        "sha256": "3e4d4c78da97cd4266075de495cf75aba44492dba110a16329a6585bb169a65e",
+        "size_bytes": 3409
+      },
+      "inference_scope": "Two A/B first-batch workers; 8 model forwards, 2 backwards, 6 independent fresh AdamW updates; no holdout inference",
+      "letter": null,
+      "new_artifacts_uploaded_to_r2": false,
+      "offline_audit_scope": {
+        "input_contexts": 7,
+        "input_tiles": 159,
+        "normalizer_calls": 209,
+        "preupdate_batches": 64,
+        "region_class_strata": 512
+      },
+      "probe_plan": {
+        "path": "/workspace/herculaneum-lab/reports/twelfth-experiment/step-probe/plan.ready.json",
+        "sha256": "d57d1a9d17bc11d8dd6630de58deb73338674e91530dc522ff28184a7afc599d",
+        "size_bytes": 34048
+      },
+      "probe_results": {
+        "path": "/workspace/herculaneum-lab/reports/twelfth-experiment/step-probe/run/run-results.json",
+        "sha256": "afae91cf22d96ab305e6f74505a9fc0848fd33bfc482c6e0a6494bacc5f2ee4c",
+        "size_bytes": 1379
+      },
+      "promoted_model": null,
+      "purpose": "Audit continuation objective/input contracts and isolate finite first-step effects",
+      "result_path": "/workspace/herculaneum-lab/reports/twelfth-experiment/RESULTS.md",
+      "result_sha256": "a81bf8f6f633c93b0c7c643a9534d799d2ac32cfa21d7c562c1bbc46423c96fb",
+      "selected_learning_rate": null,
+      "status": "completed; historical first-step overshoot demonstrated on exact first batch; no promoted model",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "GPU_spend_GBP": 0,
+      "baseline_policy": "Keep the original seed42 baseline; retain both new states as research candidates",
+      "calibration_fit_in_this_study": false,
+      "candidate_checkpoints": {
+        "A_preserve": {
+          "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/implementation/run/A_preserve/final-state.pth",
+          "sha256": "f91cef62694c51eab240fe6501cc6f49d1a41db6fa24be3307a5e705900f5bdb",
+          "size_bytes": 138351655
+        },
+        "B_preserve": {
+          "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/implementation/run/B_preserve/final-state.pth",
+          "sha256": "3b28cc5c7d511142afc557599e74a65f46e7d1992c94db4dc9f3a3355a35cdcb",
+          "size_bytes": 138351655
+        }
+      },
+      "common_baseline_cutoff": 0.7558947205543518,
+      "design": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/RESEARCH_DESIGN.md",
+        "sha256": "59bee53d3f1a662b37aec43fde31698ce0a9946ea0dd0de7027c01c3cf254f36",
+        "size_bytes": 8387
+      },
+      "held_out_accuracy_established": false,
+      "id": "thirteenth-experiment",
+      "independent_blend_review": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/review/retention-map-verification/verification.json",
+        "sha256": "6dfe19dbeb6991bfecf3fe4d47fba868c061757bd06281545178f1851a62cda9",
+        "size_bytes": 20047
+      },
+      "independent_retention_review": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention-review/completed-review/verification.json",
+        "sha256": "3507916bd4d8ec83cd9a5759ab383b9f862b9de82b7caec8654e1757cc0e7836",
+        "size_bytes": 70034
+      },
+      "independent_training_review": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/numeric-review/completed-review/independent-verification.json",
+        "sha256": "8ae053a9095b2d546f2401dcaa8779ed5d5a2cece954d5decaad3edb1b469bf8",
+        "size_bytes": 340084
+      },
+      "interpretation": "Improved fixed adaptation risk and descriptive ranking retention; operating-cutoff transfer remains unresolved",
+      "label_evidence_roles": "PHerc0139 adaptation; reused PHerc0814 development diagnostics and Frag4 diagnostics; no reserved prospective evidence",
+      "learning_rate_tested": 1e-06,
+      "letter": null,
+      "model_execution": {
+        "backwards": 64,
+        "baseline_rerun_forwards": 0,
+        "optimizer_updates": 64,
+        "retention_single_tile_forwards": 200,
+        "scientific_retries": 0,
+        "teacher_forwards": 0,
+        "training_batch_two_forwards": 384
+      },
+      "new_artifacts_uploaded_to_r2": false,
+      "promoted_model": null,
+      "purpose": "Matched conservative continuation with fixed-risk gates and conditional reference-ranking retention",
+      "research_series_working_name": "Plinius",
+      "result_path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/RESULTS.md",
+      "result_sha256": "d34d3c4876770d5253e8e3c8fd1255d10b63e4df40ec69ae78f33bfd59ab136a",
+      "retention_decision": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/RETENTION_DECISION.md",
+        "sha256": "eff0374a1a2ca1a95a6f41fdc46c231537059c7927be842a0733859c09ddb44f",
+        "size_bytes": 3264
+      },
+      "retention_plan": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/final-plan/retention-plan.json",
+        "sha256": "eb75f743a99d9707219689db1893df40947a7467b98d8c326b527c9f5b51f47a",
+        "size_bytes": 199788
+      },
+      "retention_results": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/analysis/metrics.json",
+        "sha256": "4f1d8df047dc034cfaed3ddce397191d152674921baca6c7e97acd1c692737c3",
+        "size_bytes": 48318
+      },
+      "selected_optimal_learning_rate": null,
+      "status": "completed; stable continuation and ranking screen passed; fixed-cutoff sensitivity declined; neither candidate promoted",
+      "training_gate": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/implementation/analysis/retention-gate.json",
+        "sha256": "0e07252f2705e7905979a7c29dc90a7717133783d334ac3cd269711cf5351b7d",
+        "size_bytes": 2705
+      },
+      "training_plan": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/implementation/final-plan/training-plan.json",
+        "sha256": "3151f0c5ef26bc0ef3c61266ab6ee45051506037773b8aa62f42a50d925748ac",
+        "size_bytes": 78596
+      },
+      "training_results": {
+        "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/implementation/analysis/risk-summary.json",
+        "sha256": "9b48a9f187d68dc9ebf57b88cef295547d553b5a5d0a1f181c218d9371ae7284",
+        "size_bytes": 12243
+      },
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "GPU_spend_GBP": 0,
+      "baseline_policy": "Keep original seed42 baseline and both thirteenth states as research controls",
+      "both_specimen_screens_passed": {
+        "A_preserve": false,
+        "B_preserve": false
+      },
+      "contract_audit": {
+        "path": "/workspace/herculaneum-lab/reports/fourteenth-experiment/CONTRACT_AUDIT.md",
+        "sha256": "abc19559a3550323ade1c48e7c373e16813aa9553751fb58116be4c05b78ab0d",
+        "size_bytes": 3155
+      },
+      "design": {
+        "path": "/workspace/herculaneum-lab/reports/fourteenth-experiment/RESEARCH_DESIGN.md",
+        "sha256": "96ed37ff57dbcff80bb9cbd6e984a2bb27ee0f6bf2d7de079dac42adf0b0dc45",
+        "size_bytes": 7919
+      },
+      "held_out_accuracy_established": false,
+      "id": "fourteenth-experiment",
+      "independent_verification": {
+        "path": "/workspace/herculaneum-lab/reports/fourteenth-experiment/numeric-review/completed-review/independent-verification.json",
+        "sha256": "a3da13aae862380353528a2c8e57fa34411e5780b126678b8d508bce8ce8399b",
+        "size_bytes": 212692
+      },
+      "interpretation": "Development calibration largely restores PHerc0814 sensitivity; both candidates still fail Frag4 sensitivity recovery although every candidate context satisfies specificity >=95%. Different achieved specificity prevents matched-specificity superiority claims.",
+      "letter": null,
+      "locks_ready": {
+        "path": "/workspace/herculaneum-lab/reports/fourteenth-experiment/implementation/run/locks-ready.json",
+        "sha256": "bdb9219ac818f2ac8ef76339b9595b689b679dd09be566e24c8395bc8f9c3ec2",
+        "size_bytes": 1919
+      },
+      "metrics": {
+        "path": "/workspace/herculaneum-lab/reports/fourteenth-experiment/implementation/analysis/metrics.json",
+        "sha256": "7c9e12f7bbbe683fdaa1fff467b919768c67500255f6501fc63c593e8d9a58f0",
+        "size_bytes": 58954
+      },
+      "model_execution": {
+        "backwards": 0,
+        "baseline_forwards": 0,
+        "calibration_tile_forwards": 118,
+        "diagnostic_forwards": 0,
+        "new_checkpoints": 0,
+        "optimizer_updates": 0,
+        "scientific_retries": 0
+      },
+      "new_artifacts_uploaded_to_r2": false,
+      "plan": {
+        "path": "/workspace/herculaneum-lab/reports/fourteenth-experiment/implementation/final-plan/calibration-plan.json",
+        "sha256": "ca36e87f03ca3ac91caf8c3adc81c821d0fa67b2e3a2c711ece62a9fac190bb2",
+        "size_bytes": 395362
+      },
+      "primary_cutoffs": {
+        "A_preserve": 0.7450202703475952,
+        "B_preserve": 0.7422624826431274,
+        "frozen_seed42": 0.7558947205543518
+      },
+      "primary_screens": {
+        "A_preserve": {
+          "PHerc0814": false,
+          "PHercParis1Fr39": false
+        },
+        "B_preserve": {
+          "PHerc0814": true,
+          "PHercParis1Fr39": false
+        }
+      },
+      "promoted_model": null,
+      "purpose": "Calibration-only operating-point transfer with fixed weights and diagnostic maps",
+      "ranking_maps_unchanged": true,
+      "reporting_receipt": {
+        "path": "/workspace/herculaneum-lab/reports/fourteenth-experiment/reporting/REPORTING_RECEIPTS.json",
+        "sha256": "c9a7ef11ff6393dd00ede68493e15c742bff1076e1a0c5f244ed86fbda93ac29",
+        "size_bytes": 6903
+      },
+      "research_series_working_name": "Plinius",
+      "result_path": "/workspace/herculaneum-lab/reports/fourteenth-experiment/RESULTS.md",
+      "result_sha256": "56dbffc5762468fb9b0780fc59cb97b00c5c83c9870aa530326e652ded862c6d",
+      "source_freeze": {
+        "path": "/workspace/herculaneum-lab/reports/fourteenth-experiment/implementation/code-freeze.json",
+        "sha256": "3db9c9812fcd8f39c8893f1f728e3b77e0453feda469d6fe1ea82747bf046ba0",
+        "size_bytes": 3368
+      },
+      "status": "completed; PHerc0814 operating recovery near baseline, Frag4 recovery failed; no promoted model",
+      "transcription": null,
+      "translation": null
+    },
+    {
+      "CT_bytes": 0,
+      "CT_ready": false,
+      "GPU_pilot_total_cap_GBP": 10,
+      "GPU_spend_GBP": 0,
+      "backward_calls": 0,
+      "benchmark_contract": {
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/BENCHMARK_CONTRACT.json",
+        "sha256": "a4026cce7ca55d5aaeeaa0736061ab6b7c8aa13875155682d24e74c139fe5735",
+        "size_bytes": 26127
+      },
+      "encoded_label_png_bytes": 652579,
+      "evaluation_parent_papyri": 1,
+      "id": "fifteenth-experiment",
+      "independent_verification": {
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/numeric-review/completed-review/independent-verification.json",
+        "sha256": "839391e588f4e2f7a246dc3958f9f55cf9b6799f0d6e91cb1be36872690734d4",
+        "size_bytes": 116483
+      },
+      "label_png_requests": 6,
+      "metadata_requests": {
+        "all_http_200_complete": true,
+        "attempts": 42,
+        "images_or_array_payloads": 0,
+        "ledger": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/request-ledger.json",
+          "sha256": "b3371c73d213ab0cc4ed9e993fd9b787c211344e14471dfe7f8446229d805138",
+          "size_bytes": 32877
+        },
+        "redirects": 0,
+        "response_body_bytes": 116634,
+        "retries": 0
+      },
+      "model_calls": 0,
+      "new_checkpoints": 0,
+      "parent_papyri": 2,
+      "physical_fragments": 3,
+      "promoted_model": null,
+      "purpose": "Separate calibration/evaluation by parent papyrus before later predictions",
+      "report": {
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/RESULTS.md",
+        "sha256": "b027366cde69152b29d6bc861fdbc3d15c61950bae27ade5dded400d6f968bf8",
+        "size_bytes": 4064
+      },
+      "scientific_retries": 0,
+      "selected_arrays": 24,
+      "selected_contexts": 6,
+      "status": "completed: expanded label-supported benchmark; no model execution",
+      "transcription": null,
+      "translation": null,
+      "upstream_independent": false
+    }
+  ],
+  "next_study": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/NEXT_STUDY_DRAFT.md",
+    "sha256": "9eea3523c93bf0ccf3620c992e66a50b4438c24c5ad02998103ee1c9563732c9",
+    "size_bytes": 5325,
+    "status": "Draft future CT reader and fixed-weight comparison; not executed"
+  },
+  "previous_register": {
+    "path": "/workspace/herculaneum-lab/reports/research-register-v10.json",
+    "sha256": "64424ea62364a17ca5772d64fbdb4a3f44ea51f595365ff337c794c860bbe450",
+    "size_bytes": 28800
+  },
+  "readiness_check": {
+    "CPU_research": "Current-instance label-only construction and independent reconstruction passed; next CT layout/transfer audit remains unfrozen and unexecuted",
+    "GPU_launch": "Not ready: no frozen useful paid experiment; worker secret delivery unverified; efficient CT input acquisition precedes GPU work",
+    "GPU_pilot_total_cap_GBP": 10,
+    "GPU_spend_GBP": 0,
+    "configuration_save": "Configuration-draft persistence is tracked separately by the platform receipt; no backup, publication or fresh-task restoration claim.",
+    "publication": "none",
+    "tracked_repository_commit": "49fabf3e890d5b880f391b27d581f1e7a1ebdbcc"
+  },
+  "schema_version": 1,
+  "scope": "Additive register after fifteenth label-only benchmark construction; every prior study unchanged"
+}

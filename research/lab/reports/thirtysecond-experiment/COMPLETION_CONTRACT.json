@@ -1,0 +1,175 @@
+{
+  "CPU_peak_RSS_bytes": 582586368,
+  "CPU_supervisor_seconds": 7.509213645000045,
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "candidate_now_model_scored": true,
+  "created_at_utc": "2026-10-09T10:12:16.069990+00:00",
+  "cumulative_active_acquisition_seconds": 649.6089722510001,
+  "decision": "Retain unchanged baseline; diagnose sparse-ink reference sensitivity from cached data before proposing a new model or paid run",
+  "evidence": {
+    "ACQUISITION_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/ACQUISITION_GO.json",
+      "sha256": "33501827e04e251d32925673f27b156a23c886ef9d07e775f956606c366e1428",
+      "size_bytes": 2406
+    },
+    "CPU_SUPERVISOR.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/CPU_SUPERVISOR.json",
+      "sha256": "f765a4f059cd20b329d172b86ad0c2366c66d31380d434b847e0535d399c347a",
+      "size_bytes": 907
+    },
+    "MODEL_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/MODEL_GO.json",
+      "sha256": "0c9bfc4d2d54dca04920ef2fb1e257aeb74f3dc317e2816d35121b44da49977b",
+      "size_bytes": 10582
+    },
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "0f60edd0771a68c444d8e20d0b0bc989a1e7f86fe486ed76cc20d4a5acb2458c",
+      "size_bytes": 3686
+    },
+    "OUTPUT_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/OUTPUT_VERIFICATION.json",
+      "sha256": "0f921e80751bce7a0b756192de22ea52ef95714cbbdd0f37c896fa52c112b402",
+      "size_bytes": 1383
+    },
+    "PIXEL_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/PIXEL_GO.json",
+      "sha256": "35a4e178e2da91f36fd652e97e9aef8c06696610be7c57280effa1f2e222f030",
+      "size_bytes": 1466
+    },
+    "POOL_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/POOL_GO.json",
+      "sha256": "10984db9d331bc5499562241ab8cf747361608056b4b7fea49b592928957defb",
+      "size_bytes": 2551
+    },
+    "POOL_V2_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/POOL_V2_GO.json",
+      "sha256": "446f44c42a9211bf0b6955113d58005fb599406d35054c790dd8c94ceba49d97",
+      "size_bytes": 1080
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/PROTOCOL.md",
+      "sha256": "e48ca82b73fca714e69aef7b8fba21fb5792525060f76ec7b070bc098b66285a",
+      "size_bytes": 4712
+    },
+    "RECOVERY_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/RECOVERY_GO.json",
+      "sha256": "8553af6acf1afc7bcabfff402376f5452fd0203c537307cc1e2973484d6ae4a1",
+      "size_bytes": 2674
+    },
+    "RECOVERY_PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/RECOVERY_PROTOCOL.md",
+      "sha256": "1a23e27ab80f52b54a6da19ea1f62a930d432c3e90041d8f3caeb51e88919665",
+      "size_bytes": 2615
+    },
+    "REFERENCE_STATUS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/REFERENCE_STATUS.json",
+      "sha256": "c322db6774389f3d52e31c5586053c10445dd8803c6b022597893ee39578bf8b",
+      "size_bytes": 1444
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/RESULTS.md",
+      "sha256": "a5c67c7cf697540b43f5fb8f853e3b8d4c7ca38892790cd200cced90881b4608",
+      "size_bytes": 7566
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "2b3a0b89250a40251fbde05b16065d05b5d962ed37bb8150fdad1101e7ef0a5c",
+      "size_bytes": 1518
+    },
+    "SCORE_TEST_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/SCORE_TEST_RECEIPT.json",
+      "sha256": "ae7039da9dbf5676efa767eb9e630a40252a595e42aa87ebb6c809ebf63f4b3a",
+      "size_bytes": 136
+    },
+    "TEST_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/TEST_RECEIPT.json",
+      "sha256": "44a7aed97f4d71e52356f1126da9ec7d640b988dcfe37ab82e35070b8c5bbb87",
+      "size_bytes": 140
+    },
+    "figures-v1/FIGURE_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/figures-v1/FIGURE_RECEIPT.json",
+      "sha256": "3c22c6fa616ea9c9a0d1debebd071b7473c11075271a1a9a89f4420227119777",
+      "size_bytes": 753
+    },
+    "inference-v1/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/inference-v1/COMPLETE.json",
+      "sha256": "bff48cfe85f2d31c4e4b39c3614e09494a75a603ffa5a9a1dd6434b0592e8db5",
+      "size_bytes": 43099
+    },
+    "normalized-v1/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/normalized-v1/COMPLETE.json",
+      "sha256": "8be127fe602bc11d9ce025f04c2e7488837ce1a90471c13a2867ff8aead5da5b",
+      "size_bytes": 14663
+    },
+    "pixels-FAILURE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/pixels-FAILURE.json",
+      "sha256": "355f5f89900a8efa84a68a81bba51f261c3e79f860908ab2e99eb81afce77fd8",
+      "size_bytes": 130
+    },
+    "pixels-v2/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/pixels-v2/COMPLETE.json",
+      "sha256": "d5baa2a3ffc79b57a87e01b31178c7c3d90bc468831a0aba17635e9770b188f8",
+      "size_bytes": 2192
+    },
+    "pooled-v1/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/pooled-v1/COMPLETE.json",
+      "sha256": "e1bdddc63c53bb00b78076dcedb16910a4c9c50bb1fd82a0ab65b21b44577d53",
+      "size_bytes": 3919
+    },
+    "scores-v1/RESULTS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/scores-v1/RESULTS.json",
+      "sha256": "e171a50e506877f8d060d64f6fda284fcb476842629c447b107b28eafadde8da",
+      "size_bytes": 15726
+    }
+  },
+  "explicit_failed_request_replays": 1,
+  "fixtures_errors": 0,
+  "fixtures_failed": 0,
+  "fixtures_passed": 9,
+  "fixtures_skipped": 0,
+  "independent_agent_review": false,
+  "independent_ink_accuracy_established": false,
+  "independent_rank_scalar_values": 48,
+  "maintainer_status": "User confirmed NOT SENT; no outreach",
+  "maximum_rank_difference": 2.220446049250313e-16,
+  "maximum_sigmoid_difference": 7.634287002566964e-08,
+  "network_requests": 631,
+  "network_reserved_body_bytes": 149429372,
+  "network_response_body_bytes": 84575721,
+  "new_artifacts_uploaded_to_r2": false,
+  "normalized_inputs_frozen_before_inference": 20,
+  "original_acquisition_seconds": 600.752588045,
+  "original_acquisition_status": "FAILED600SECOND_LIMIT",
+  "parent_count": 1,
+  "pooled_FP32_values_verified": 1376256,
+  "primary_decision": {
+    "independent_accuracy": false,
+    "maximum_clean_loss": 0.01,
+    "mean_clean_AP_delta": -0.003748920549594255,
+    "mean_clean_AP_loss": 0.003748920549594255,
+    "mean_robust_AP_delta": -0.0022608797375323203,
+    "minimum_robust_gain": 0.01,
+    "model_promotion": false,
+    "parent_count": 1,
+    "promising_for_replication": false
+  },
+  "publication": null,
+  "recovery_parent_peak_RSS_verified": false,
+  "recovery_seconds": 48.85638420600003,
+  "recovery_status": "PASS",
+  "schema_version": 1,
+  "scientific_model_forwards": 20,
+  "scientific_optimizer_updates": 0,
+  "scored_negative": 9231,
+  "scored_positive": 6922,
+  "source_uint16_values_verified": 37158912,
+  "status": "completed_fixed_Frag6_CPU_comparison_screen_failed",
+  "submission": null,
+  "successful_source_requests": 630,
+  "transcription": null,
+  "translation": null,
+  "unknown_core_pixels": 231,
+  "useful_CT_bytes": 74317824
+}

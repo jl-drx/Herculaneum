@@ -1,0 +1,39 @@
+{
+  "arms": {
+    "A_control": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/run-v1/A_control/COMPLETE.json",
+      "sha256": "4a3ad6811626f2dd5ca89af51f56ad86f9fc93589f1fe30a2839b0b74d9ef97f",
+      "size_bytes": 307636
+    },
+    "B_dice": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/run-v1/B_dice/COMPLETE.json",
+      "sha256": "b43950aa1ce1000c23087ce5331e9c40cdd8bff46c9fa128cae3e85be3378cc4",
+      "size_bytes": 307804
+    }
+  },
+  "checkpoint_tensor_decode_repeated": false,
+  "created_at_utc": "2026-10-09T12:30:07.427564+00:00",
+  "elapsed_seconds": 3.6511488370001643,
+  "historical_control32_verified_by_worker": true,
+  "loss_rows_checked": 1408,
+  "maximum_differences": {
+    "base": 1.197034763533722e-07,
+    "control_objective": 1.197034763533722e-07,
+    "dice_loss": 1.3523409403415343e-07,
+    "full": 1.773932146731383e-07,
+    "hard_base": 5.763880811526789e-08,
+    "loss_D_M": 1.3877787807814457e-17,
+    "loss_U": 1.197034763533722e-07,
+    "probability_drift_manual": 2.7755575615628914e-17
+  },
+  "new_model_forwards": 0,
+  "optimizer_autograd_replayed": false,
+  "peak_RSS_bytes": 152473600,
+  "scalar_values_checked": 11264,
+  "status": "PASS",
+  "verifier": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/verify_training.py",
+    "sha256": "7f0af683b2a050b261c9c4bb47361cf1542cb3ea24fe3b5795d47ac7abc18d3c",
+    "size_bytes": 4012
+  }
+}

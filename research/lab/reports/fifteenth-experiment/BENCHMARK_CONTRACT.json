@@ -1,0 +1,815 @@
+{
+  "CT_ready": false,
+  "accuracy_measured": false,
+  "acquisition": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/acquisition/provenance.json",
+    "sha256": "a55aaf6df36caccd826f8a20ff55b9d447f08adbcb3c50f71344ab9b6317d0f9",
+    "size_bytes": 3649
+  },
+  "created_at_utc": "2026-10-08T20:18:28.994772+00:00",
+  "deferred": [
+    {
+      "claim": "Not declared absent or universally unusable; outside this benchmark until the specific source gaps close.",
+      "id": "PHerc1667Cr1Fr3",
+      "legacy_alias": "Frag5",
+      "reason": "Shares PHerc1667 already used in upstream/local development; current labels/IR/mask and 65-TIFF listing exist, but inspected evidence does not establish this release annotation-depth/optical provenance contract.",
+      "role": "deferred"
+    },
+    {
+      "claim": "Not declared absent or universally unusable; outside this benchmark until the specific source gaps close.",
+      "id": "PHerc51Cr4Fr8",
+      "legacy_alias": "Frag6",
+      "reason": "Additional parent group and current labels/IR/mask and 65-TIFF listing exist; inspected evidence does not establish annotation provenance or exact render depth/spacing. 65 filenames alone do not establish the depth convention.",
+      "role": "deferred"
+    }
+  ],
+  "design": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/BENCHMARK_DESIGN.md",
+    "sha256": "9bf490e33e039ccacfdfbf99ab89b207d373ad1a08f0975afc9c0893f87d42e4",
+    "size_bytes": 9614
+  },
+  "execution": {
+    "CT_bytes": 0,
+    "GPU_pilot_total_cap_GBP": 10,
+    "GPU_spend_GBP": 0,
+    "backward_calls": 0,
+    "encoded_label_png_bytes": 652579,
+    "label_png_requests": 6,
+    "metadata_requests": {
+      "all_http_200_complete": true,
+      "attempts": 42,
+      "images_or_array_payloads": 0,
+      "ledger": {
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/request-ledger.json",
+        "sha256": "b3371c73d213ab0cc4ed9e993fd9b787c211344e14471dfe7f8446229d805138",
+        "size_bytes": 32877
+      },
+      "redirects": 0,
+      "response_body_bytes": 116634,
+      "retries": 0
+    },
+    "model_calls": 0,
+    "new_checkpoints": 0,
+    "scientific_retries": 0
+  },
+  "exposure": {
+    "complete_teacher_pretraining_history": "unknown",
+    "evaluation_labels_blinded": false,
+    "local_previous_Frag1_to_3_scientific_use": "None found in retained first-fourteenth records",
+    "upstream_independent": false
+  },
+  "fragments": [
+    {
+      "aliases": [
+        "Frag1"
+      ],
+      "id": "PHercParis2Fr47",
+      "parent_papyrus": "Paris2",
+      "prohibited_uses": [
+        "gradient training",
+        "teacher targets",
+        "cutoff fitting",
+        "normalization parameter fitting",
+        "crop/depth/orientation search",
+        "model selection"
+      ],
+      "quality": {
+        "label_positive_inside_surface": 5339364,
+        "label_positive_outside_surface": 0,
+        "labels": {
+          "canonicalization": "raw nonzero -> uint8 1; no polarity inversion",
+          "encoded_bytes": 88875,
+          "mode": "P",
+          "png_bit_depth": 1,
+          "png_color_type": 3,
+          "raw_dtype": "uint8",
+          "raw_value_counts": {
+            "0": 46446366,
+            "1": 5339364
+          },
+          "sha256": "bc36bd54e84b423faa44d3b62ca0d3a3c28403cb714b154acb382f94241d39b6",
+          "shape_yx": [
+            8181,
+            6330
+          ],
+          "used_palette_rgb": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1": [
+              255,
+              255,
+              255
+            ]
+          }
+        },
+        "mask": {
+          "canonicalization": "raw nonzero -> uint8 1; no polarity inversion",
+          "encoded_bytes": 61652,
+          "mode": "P",
+          "png_bit_depth": 1,
+          "png_color_type": 3,
+          "raw_dtype": "uint8",
+          "raw_value_counts": {
+            "0": 22642890,
+            "1": 29142840
+          },
+          "sha256": "1fdc13f7dc149dc4e00272af597ba236b650e54bb2dca38865f211207cee069f",
+          "shape_yx": [
+            8181,
+            6330
+          ],
+          "used_palette_rgb": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1": [
+              255,
+              255,
+              255
+            ]
+          }
+        },
+        "outside_labels_policy": "record and exclude; outside-positive count is not an eligibility gate"
+      },
+      "role": "evaluation",
+      "role_scope": "Whole physical fragment, aliases and all scan versions",
+      "selection_result": {
+        "bytes": 21907,
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/selection-result.json",
+        "sha256": "e94d72c8d57ea4ce4508319056d32af2a45e13b930a08176d1dd59d55d2c4b79"
+      }
+    },
+    {
+      "aliases": [
+        "Frag2"
+      ],
+      "id": "PHercParis2Fr143",
+      "parent_papyrus": "Paris2",
+      "prohibited_uses": [
+        "gradient training",
+        "teacher targets",
+        "cutoff fitting",
+        "normalization parameter fitting",
+        "crop/depth/orientation search",
+        "model selection"
+      ],
+      "quality": {
+        "label_positive_inside_surface": 16897757,
+        "label_positive_outside_surface": 15460,
+        "labels": {
+          "canonicalization": "raw nonzero -> uint8 1; no polarity inversion",
+          "encoded_bytes": 291637,
+          "mode": "P",
+          "png_bit_depth": 1,
+          "png_color_type": 3,
+          "raw_dtype": "uint8",
+          "raw_value_counts": {
+            "0": 124060763,
+            "1": 16913217
+          },
+          "sha256": "8b19f2409c9b46c78fbcf74b989e1fc8078dabfa61fddbd6590c09dfc844dfb1",
+          "shape_yx": [
+            14830,
+            9506
+          ],
+          "used_palette_rgb": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1": [
+              255,
+              255,
+              255
+            ]
+          }
+        },
+        "mask": {
+          "canonicalization": "raw nonzero -> uint8 1; no polarity inversion",
+          "encoded_bytes": 106025,
+          "mode": "P",
+          "png_bit_depth": 1,
+          "png_color_type": 3,
+          "raw_dtype": "uint8",
+          "raw_value_counts": {
+            "0": 42980479,
+            "1": 97993501
+          },
+          "sha256": "babde5508f7c314a8a34cfbe372ca163873ca3d3d435c1414943f25171736bc6",
+          "shape_yx": [
+            14830,
+            9506
+          ],
+          "used_palette_rgb": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1": [
+              255,
+              255,
+              255
+            ]
+          }
+        },
+        "outside_labels_policy": "record and exclude; outside-positive count is not an eligibility gate"
+      },
+      "role": "evaluation",
+      "role_scope": "Whole physical fragment, aliases and all scan versions",
+      "selection_result": {
+        "bytes": 42578,
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/selection-result.json",
+        "sha256": "b4da18c030c96995db44faf8bf63f8418a361222f082c8f1684c79bc5aea4f79"
+      }
+    },
+    {
+      "aliases": [
+        "Frag3"
+      ],
+      "id": "PHercParis1Fr34",
+      "parent_papyrus": "Paris1",
+      "prohibited_uses": [],
+      "quality": {
+        "label_positive_inside_surface": 3172435,
+        "label_positive_outside_surface": 48,
+        "labels": {
+          "canonicalization": "raw nonzero -> uint8 1; no polarity inversion",
+          "encoded_bytes": 63677,
+          "mode": "P",
+          "png_bit_depth": 1,
+          "png_color_type": 3,
+          "raw_dtype": "uint8",
+          "raw_value_counts": {
+            "0": 36751411,
+            "1": 3172483
+          },
+          "sha256": "c2e716a716a9f9208fc4c26e4ecf25fb10a30824fce7709771658068af472d95",
+          "shape_yx": [
+            7606,
+            5249
+          ],
+          "used_palette_rgb": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1": [
+              255,
+              255,
+              255
+            ]
+          }
+        },
+        "mask": {
+          "canonicalization": "raw nonzero -> uint8 1; no polarity inversion",
+          "encoded_bytes": 40713,
+          "mode": "P",
+          "png_bit_depth": 1,
+          "png_color_type": 3,
+          "raw_dtype": "uint8",
+          "raw_value_counts": {
+            "0": 14858402,
+            "1": 25065492
+          },
+          "sha256": "f77c33cef758ffb17f63af0624aac5b04e93020a71e5103fa8370347427a87d8",
+          "shape_yx": [
+            7606,
+            5249
+          ],
+          "used_palette_rgb": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1": [
+              255,
+              255,
+              255
+            ]
+          }
+        },
+        "outside_labels_policy": "record and exclude; outside-positive count is not an eligibility gate"
+      },
+      "role": "calibration",
+      "role_scope": "Whole physical fragment, aliases and all scan versions",
+      "selection_result": {
+        "bytes": 18206,
+        "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/selection-result.json",
+        "sha256": "0c017b924b8cdcfe401fdd131bb563a98bc805b1e30b31c1e23a34dc23494ff5"
+      }
+    }
+  ],
+  "independent_verification": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/numeric-review/completed-review/independent-verification.json",
+    "sha256": "839391e588f4e2f7a246dc3958f9f55cf9b6799f0d6e91cb1be36872690734d4",
+    "size_bytes": 116483
+  },
+  "license": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/source-audit/legacy-LICENSE.current.txt",
+    "sha256": "9dc08a92194617d4ae68fb96d4fd0da99d1c7207f821f2a3750b0034eac8d154",
+    "size_bytes": 2429
+  },
+  "limitations": [
+    "Optical registration residual unmeasured",
+    "Historical publication-to-current-PNG hash bridge unavailable",
+    "Conservative33-square support is not an exact paper FIND_EDGES reproduction",
+    "Source-canvas contexts are disjoint; native3D disjointness unmeasured"
+  ],
+  "next_study": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/NEXT_STUDY_DRAFT.md",
+    "sha256": "9eea3523c93bf0ccf3620c992e66a50b4438c24c5ad02998103ee1c9563732c9",
+    "size_bytes": 5325
+  },
+  "panel": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/panel-provenance.json",
+    "sha256": "212667cf09b08408d3b8af2000aa669eea368dd5849339f8f98f55459d66dfbf",
+    "size_bytes": 17941
+  },
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/final-plan/label-plan.json",
+    "sha256": "8be9f82c1234a9e5fab4f7f1271fdc450e9f467713efbe2df2d1936139d6ca71",
+    "size_bytes": 27014
+  },
+  "promoted_model": null,
+  "research_series_working_name": "Plinius",
+  "sampling": "Deterministic label-supported regions, not random whole-fragment prevalence/performance sampling",
+  "schema_version": 1,
+  "selected_contexts": [
+    {
+      "bbox_source_xywh": [
+        2304,
+        1152,
+        1152,
+        1152
+      ],
+      "case_id": "frag1-context1",
+      "coarse_known_count": 127300,
+      "coarse_surface_count": 147456,
+      "eligible": true,
+      "files": {
+        "known-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context1/known-mask.npy",
+          "sha256": "b9111d1cdd4f8795b723fa373b77d6f60f0cfee4064b7d5bdfce5e2674cacb0b",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "labels.npy": {
+          "bytes": 147584,
+          "dtype": "uint8",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context1/labels.npy",
+          "sha256": "41834ee0dd9915132d8aa2bb95e6b351a84a766e37b6f7988043d2c239ce39eb",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "primary-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context1/primary-mask.npy",
+          "sha256": "f6ce69406ae2f253f40389d038613f1378fbfd820407e6b65f7b15678d2818ce",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "surface-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context1/surface-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "shape_yx": [
+            384,
+            384
+          ]
+        }
+      },
+      "fragment": "PHercParis2Fr47",
+      "native_area": 1327104,
+      "native_bbox_yxhw": [
+        1152,
+        2304,
+        1152,
+        1152
+      ],
+      "native_inside_count": 1327104,
+      "parent_papyrus": "Paris2",
+      "primary_count": 88559,
+      "primary_negative": 69159,
+      "primary_positive": 19400,
+      "role": "evaluation",
+      "source_pixel_center_mapping": {
+        "x": "2304+1+3*x_coarse",
+        "y": "1152+1+3*y_coarse"
+      },
+      "surface_fraction": 1.0,
+      "x": 2304,
+      "y": 1152
+    },
+    {
+      "bbox_source_xywh": [
+        0,
+        6912,
+        1152,
+        1152
+      ],
+      "case_id": "frag1-context2",
+      "coarse_known_count": 110890,
+      "coarse_surface_count": 132935,
+      "eligible": true,
+      "files": {
+        "known-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context2/known-mask.npy",
+          "sha256": "259a6f408621475c30a172518c01a53bf47687d81782d9c51202a936bbcfbf57",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "labels.npy": {
+          "bytes": 147584,
+          "dtype": "uint8",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context2/labels.npy",
+          "sha256": "148b3ea1ad68966521cfbfba0e315d3c0ba8fcab1745d6c1e2d1f40733b833a7",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "primary-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context2/primary-mask.npy",
+          "sha256": "65837cef6d5947c23fd24238c4f85a96dcbe57a34bf4c1925117389ce3743c02",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "surface-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context2/surface-mask.npy",
+          "sha256": "58b12b55a20aec9e2f03daaaed7eaeeff21215f450916359790510e1c677221c",
+          "shape_yx": [
+            384,
+            384
+          ]
+        }
+      },
+      "fragment": "PHercParis2Fr47",
+      "native_area": 1327104,
+      "native_bbox_yxhw": [
+        6912,
+        0,
+        1152,
+        1152
+      ],
+      "native_inside_count": 1196357,
+      "parent_papyrus": "Paris2",
+      "primary_count": 83314,
+      "primary_negative": 70681,
+      "primary_positive": 12633,
+      "role": "evaluation",
+      "source_pixel_center_mapping": {
+        "x": "0+1+3*x_coarse",
+        "y": "6912+1+3*y_coarse"
+      },
+      "surface_fraction": 0.9014794620466821,
+      "x": 0,
+      "y": 6912
+    },
+    {
+      "bbox_source_xywh": [
+        1152,
+        1152,
+        1152,
+        1152
+      ],
+      "case_id": "frag2-context1",
+      "coarse_known_count": 121451,
+      "coarse_surface_count": 147456,
+      "eligible": true,
+      "files": {
+        "known-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context1/known-mask.npy",
+          "sha256": "bb36dd0c7a3c2ebbcd16770232a95a8a0b7a46b6d52412105e685a2c4f2a27d0",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "labels.npy": {
+          "bytes": 147584,
+          "dtype": "uint8",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context1/labels.npy",
+          "sha256": "3a06aee942494f41de81644bd2bf2a430019c050282c9e86f7c42f571eacecdb",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "primary-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context1/primary-mask.npy",
+          "sha256": "3aacd7a7e44599d57cf9e06d903fe7edc03165b559e24df1191c9f718222f878",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "surface-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context1/surface-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "shape_yx": [
+            384,
+            384
+          ]
+        }
+      },
+      "fragment": "PHercParis2Fr143",
+      "native_area": 1327104,
+      "native_bbox_yxhw": [
+        1152,
+        1152,
+        1152,
+        1152
+      ],
+      "native_inside_count": 1327104,
+      "parent_papyrus": "Paris2",
+      "primary_count": 80709,
+      "primary_negative": 61660,
+      "primary_positive": 19049,
+      "role": "evaluation",
+      "source_pixel_center_mapping": {
+        "x": "1152+1+3*x_coarse",
+        "y": "1152+1+3*y_coarse"
+      },
+      "surface_fraction": 1.0,
+      "x": 1152,
+      "y": 1152
+    },
+    {
+      "bbox_source_xywh": [
+        8064,
+        12672,
+        1152,
+        1152
+      ],
+      "case_id": "frag2-context2",
+      "coarse_known_count": 123995,
+      "coarse_surface_count": 143618,
+      "eligible": true,
+      "files": {
+        "known-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context2/known-mask.npy",
+          "sha256": "c163c319044a0ffc21122697b309f90a5522e7c632ae75204df89b40864b9676",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "labels.npy": {
+          "bytes": 147584,
+          "dtype": "uint8",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context2/labels.npy",
+          "sha256": "9ea206a7571866c0882a7a43983a782555af3afddd106d81d1a41a7379623c76",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "primary-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context2/primary-mask.npy",
+          "sha256": "64b6774cdf97c3547b6919be3042217a4a13901f3759a7bcdf7c72c7c63f914f",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "surface-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context2/surface-mask.npy",
+          "sha256": "947864dc9db265e4edeca594b857c9b65d9e3d1b570aeaf4a1e6b4a9b3d33ff0",
+          "shape_yx": [
+            384,
+            384
+          ]
+        }
+      },
+      "fragment": "PHercParis2Fr143",
+      "native_area": 1327104,
+      "native_bbox_yxhw": [
+        12672,
+        8064,
+        1152,
+        1152
+      ],
+      "native_inside_count": 1292562,
+      "parent_papyrus": "Paris2",
+      "primary_count": 86566,
+      "primary_negative": 66318,
+      "primary_positive": 20248,
+      "role": "evaluation",
+      "source_pixel_center_mapping": {
+        "x": "8064+1+3*x_coarse",
+        "y": "12672+1+3*y_coarse"
+      },
+      "surface_fraction": 0.9739718967013888,
+      "x": 8064,
+      "y": 12672
+    },
+    {
+      "bbox_source_xywh": [
+        2304,
+        1152,
+        1152,
+        1152
+      ],
+      "case_id": "frag3-context1",
+      "coarse_known_count": 133788,
+      "coarse_surface_count": 147456,
+      "eligible": true,
+      "files": {
+        "known-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context1/known-mask.npy",
+          "sha256": "61c91f3c5b28b1377360dfe3e3691deb01a9da87fc7f08c55725708c0b70279d",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "labels.npy": {
+          "bytes": 147584,
+          "dtype": "uint8",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context1/labels.npy",
+          "sha256": "d594eed03420a86ba54e30b844ed1e100a5a7ccb848a800a3c3096e7421cd6d8",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "primary-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context1/primary-mask.npy",
+          "sha256": "68a29779cddabebdafa62a123b694fcf555e7d11e9e5bcf908eeb65a3b2bbdbd",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "surface-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context1/surface-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "shape_yx": [
+            384,
+            384
+          ]
+        }
+      },
+      "fragment": "PHercParis1Fr34",
+      "native_area": 1327104,
+      "native_bbox_yxhw": [
+        1152,
+        2304,
+        1152,
+        1152
+      ],
+      "native_inside_count": 1327104,
+      "parent_papyrus": "Paris1",
+      "primary_count": 92385,
+      "primary_negative": 82951,
+      "primary_positive": 9434,
+      "role": "calibration",
+      "source_pixel_center_mapping": {
+        "x": "2304+1+3*x_coarse",
+        "y": "1152+1+3*y_coarse"
+      },
+      "surface_fraction": 1.0,
+      "x": 2304,
+      "y": 1152
+    },
+    {
+      "bbox_source_xywh": [
+        3456,
+        5760,
+        1152,
+        1152
+      ],
+      "case_id": "frag3-context2",
+      "coarse_known_count": 126066,
+      "coarse_surface_count": 142578,
+      "eligible": true,
+      "files": {
+        "known-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context2/known-mask.npy",
+          "sha256": "34a420d79fc344454f6fe31e7b835970800a75666405ef03474776072165fe2e",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "labels.npy": {
+          "bytes": 147584,
+          "dtype": "uint8",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context2/labels.npy",
+          "sha256": "d2cd6b04bd57b417346ef28baa45e926d292b9c0367648709ad07fb4f7ea6200",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "primary-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context2/primary-mask.npy",
+          "sha256": "0a9dfb654d7c2fb338a8b7bae7d3e64e9ecde96dad48f5c2f507e036deaf4580",
+          "shape_yx": [
+            384,
+            384
+          ]
+        },
+        "surface-mask.npy": {
+          "bytes": 147584,
+          "dtype": "bool",
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context2/surface-mask.npy",
+          "sha256": "99d50dae69492a4a5a71fd508693b258f6cde3b7525e87b94a652de3ef044cc6",
+          "shape_yx": [
+            384,
+            384
+          ]
+        }
+      },
+      "fragment": "PHercParis1Fr34",
+      "native_area": 1327104,
+      "native_bbox_yxhw": [
+        5760,
+        3456,
+        1152,
+        1152
+      ],
+      "native_inside_count": 1283224,
+      "parent_papyrus": "Paris1",
+      "primary_count": 89261,
+      "primary_negative": 83490,
+      "primary_positive": 5771,
+      "role": "calibration",
+      "source_pixel_center_mapping": {
+        "x": "3456+1+3*x_coarse",
+        "y": "5760+1+3*y_coarse"
+      },
+      "surface_fraction": 0.9669355227623457,
+      "x": 3456,
+      "y": 5760
+    }
+  ],
+  "source_contract": {
+    "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/SOURCE_CONTRACT.json",
+    "sha256": "53ff9fd5cccb2604ebcd8b116b69b1f3c4ba25ed79fa624aaedf21bdaa709890",
+    "size_bytes": 20033
+  },
+  "statistical_units": {
+    "calibration_parent": "Paris1",
+    "evaluation_fragments": 2,
+    "evaluation_parent": "Paris2",
+    "evaluation_parent_papyri": 1,
+    "existing_seen_diagnostic": "Frag4 / PHercParis1Fr39 / Paris1",
+    "parent_papyri": 2,
+    "physical_fragments": 3
+  },
+  "status": "PASS: label-supported benchmark constructed and independently verified",
+  "transcription": null,
+  "translation": null
+}

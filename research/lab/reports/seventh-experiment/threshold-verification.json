@@ -1,0 +1,47 @@
+{
+  "status": "PASS_independent_real_development_threshold_check",
+  "threshold_lock_sha256": "3bb59b4a15caaa6c0fe433635535edf549719d35f25a644a9e218c2927236ff1",
+  "method": "Direct raw-array counts at threshold and immediately previous float32 value; no operating_point module imported; no model or reserved data used.",
+  "models": {
+    "russo_control75k": {
+      "threshold": 0.7311767339706421,
+      "false_positives": 468,
+      "negative_count": 9378,
+      "true_positives": 5192,
+      "positive_count": 7006,
+      "specificity": 0.9500959692898272,
+      "sensitivity": 0.7410790750785041,
+      "previous_float32_threshold_fails_bound": true
+    },
+    "russo_ex01675k": {
+      "threshold": 0.7234724164009094,
+      "false_positives": 468,
+      "negative_count": 9378,
+      "true_positives": 3985,
+      "positive_count": 7006,
+      "specificity": 0.9500959692898272,
+      "sensitivity": 0.568798172994576,
+      "previous_float32_threshold_fails_bound": true
+    },
+    "seed42": {
+      "threshold": 0.7558947205543518,
+      "false_positives": 468,
+      "negative_count": 9378,
+      "true_positives": 4102,
+      "positive_count": 7006,
+      "specificity": 0.9500959692898272,
+      "sensitivity": 0.5854981444476163,
+      "previous_float32_threshold_fails_bound": true
+    },
+    "seed43": {
+      "threshold": 0.661196231842041,
+      "false_positives": 468,
+      "negative_count": 9378,
+      "true_positives": 4675,
+      "positive_count": 7006,
+      "specificity": 0.9500959692898272,
+      "sensitivity": 0.6672851841278904,
+      "previous_float32_threshold_fails_bound": true
+    }
+  }
+}

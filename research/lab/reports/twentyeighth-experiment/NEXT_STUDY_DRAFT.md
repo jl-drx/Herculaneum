@@ -1,0 +1,17 @@
+# Updated priority after public-source audit
+
+Read PUBLIC_EVIDENCE_ADDENDUM.md first. The user confirmed the request is not sent. Audit the newly found public fragment-depth benchmark (scorer, shared preprocessing and fold code) before new reference construction or a broad maintainer request. Preserve its pinned source identities and qualify contributor claims. The earlier plan below remains a fallback; no scientific scoring release exists.
+
+# Next: qualify the reference and execute one fixed scientific comparison
+
+The current local chunk reader/scheduler is sufficiently qualified for its bounded synthetic scope. Do not add another generic mechanics phase before advancing the reference work. Preserve all28completed phases and read PLINIUS_DEPTH_STUDY.md, DEPTH_STUDY_CONTRACT.json and REFERENCE_CONSTRUCTION_PLAN.md.
+
+First incorporate any maintainer-request status/reply supplied by the user. No submission/reply has yet been confirmed in the saved report. If records are available, bind exact source/render/annotation/registration artifacts and assess their scope against phase25 EVIDENCE_GAPS.json. If not, prepare the bounded new-reference route: select exact exposed-fragment CT/optical objects, establish frame correspondence, render a newly documented depth panel and register/annotate it using evidence independent of predictions. The user approved this research direction; proceed autonomously with concrete reversible preparation and ask only for information or review that is actually unavailable.
+
+Do not infer source-frame identity from matching dimensions or the name of a scan. Do not call supplied/model-reviewed labels independent optical truth. Unknown teacher history can support qualified descriptive research once the essential input/label contract is usable; it does not establish upstream-independent generalization. Preserve the candidate's scoring reserve while defining selection and reference roles.
+
+Before pixel acquisition or scoring freeze the exact allowed objects/byte/storage budget, validity support, selection rule, signed physical depth/XY pooling, annotation/registration uncertainty, five-window input identities, model/code/environment, practical effect margins and compute limit. DEPTH_STUDY_CONTRACT.json currently contains null values for these items and has no model-execution release. No GPU job is ready.
+
+The proposed two-arm comparison is fixed: forward seed42 center-window probabilities against the arithmetic mean of three forward neighboring-window probabilities. Evaluate prescribed displacements[-1,0,+1]effective planes using five unique17plane windows from21effective planes. Baseline checkpoint file and backbone-state hashes are distinct and retained in the contract. Keep raw probability-space averaging, identical support, per-window standard normalization, and exact physical sampling conventions. No reverse-depth arm, new checkpoint, tuned weight, per-region direction selection or novelty claim. Initial evidence is descriptive feasibility on the qualified reference; use separate physical support for confirmation.
+
+A CPU execution remains preferable if the small frozen panel fits measured resources. The£10GPUtotalcap is unchanged and covers retries/overheads; usefulworkload,pinnedCUDA,currentpricing,independentshutdown and actual bucket-scopedworkercredentialdelivery remain prerequisites. No broad training programme is promised within that cap. Phase28 changed no model and did not improve measured ink accuracy.

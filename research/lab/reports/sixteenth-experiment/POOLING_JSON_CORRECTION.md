@@ -1,0 +1,11 @@
+# Corrected metadata comparison before numeric CT decoding
+
+The original root-run pooling attempt stopped at `run_pooling.py:61` before any CT sample decoding, pooled array, prediction or model execution. The empty output directory and failure are retained in `pooling-original-attempt-stop.json`, SHA256 `aa9f152809ca09c4c80598bdb7abf952ef186105607aacd04711809a249947d1`. Keep the original plan, exact source freeze, technical GO and all downloaded bytes unchanged.
+
+The author and independent source reviewer identified the same concrete representation mismatch: the TIFF parser returns integer keys for its `tags` dictionary; the saved JSON contract contains string keys. All 153 source objects match in every other layout field, and their complete tag maps match after projecting only reconstructed tag keys with `str(k)`. This projection does not alter tag values, type/count/offset fields, byte order, crop bounds or any pixel value.
+
+Create a separate `production-pooling-v2` source package with that sole semantic correction, and the necessary package-local source/freeze paths. Freeze a new technical GO after both-endian saved-JSON roundtrip checks and tampered-tag rejection fixtures. Retain the metadata-only all-153 comparison as diagnosis. The original package stays sealed.
+
+Root may then perform one fresh offline pooling execution with the same immutable production bytes and fifteenth labels, exact uint32/float64/float32 arithmetic, six regions, source layers, storage and resource caps from `PRODUCTION_INPUT_DESIGN.md`. The shared production start remains epoch `1791494180.823582`; the cumulative M/P/C deadline remains 1500 seconds from that instant. Record both pooling attempts separately. No additional source request, source substitution, crop/depth/orientation search, cutoff change or model fitting is authorized by this correction.
+
+Require independent bitwise reconstruction of all six completed arrays and exact descriptor binding before the already frozen inference plan becomes ready. The 450-forward model comparison has not started; its no-retry and all-three-calibration-lock requirements remain unchanged. GPU spending remains GBP 0 and the GBP 10 total first-pilot cap is unchanged.

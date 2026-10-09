@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-08T13:47:13.033786+00:00",
+  "scope": "Additive register after seventh fixed CPU panel and separate synthetic training-readiness check. Historical reports/registers remain unchanged; no retroactive preregistration.",
+  "experiments": [
+    {
+      "id": "first-experiment",
+      "purpose": "Initial native PHerc0800 surface screen",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/first-experiment/RESULTS.md",
+      "result_sha256": "9931991b7e57317d6a383f9dc46b404a6b72b49ab6e8287f722381281b175483",
+      "inference_scope": "Exploratory target inference; no authentic target labels",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "second-experiment",
+      "purpose": "Published reference and target controls",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/second-experiment/RESULTS.md",
+      "result_sha256": "815a0431cd0482868a7c8c9cf9c6e801e8eba83c62e4c66d684b58be62e13338",
+      "inference_scope": "Reference overlaps baseline training; possible pseudo-label supervision; not held-out accuracy",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "third-experiment",
+      "purpose": "Larger geometry-selected context and June-method comparison",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/third-experiment/RESULTS.md",
+      "result_sha256": "0afb454ba590e8c4d0b812506e5e616570145ca8d3ee5805c619b50293f5eaef",
+      "inference_scope": "Unlabeled target diagnostics; CT agreement does not establish a correct written surface",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "fourth-experiment",
+      "purpose": "Geometry-selected separate source extent",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/fourth-experiment/RESULTS.md",
+      "result_sha256": "04b0642ca2c01f6129554270ddfd35bf7bfac84519431a816d6cba13a17a730d",
+      "inference_scope": "Base-coordinate distance checked; full CT sampling-support independence unresolved",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "fifth-experiment",
+      "purpose": "Native response-location checks and surrounding context",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/fifth-experiment/RESULTS.md",
+      "result_sha256": "ae00dc9ccbb57b053d91a12e602288925be93d56a618a3f7c266999952b8bf9f",
+      "inference_scope": "Post hoc to fourth peaks; original native run stopped for integrity; separate offline recovery passed",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "sixth-experiment",
+      "purpose": "Fixed Russo dense/control and official two-seed developmental reference comparison",
+      "status": "completed; all source/model/integrity and independent numerical reviews passed",
+      "result_path": "/workspace/herculaneum-lab/reports/sixth-experiment/RESULTS.md",
+      "result_sha256": "514e16f121fb38db6309800f72c18e45c1b65e7181eff87dc09b91570902c5d6",
+      "inference_scope": "Corrected PHerc1667/w029 label-selected crop; historical training/teacher/physical independence unresolved",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "seventh-experiment",
+      "purpose": "Four-model fixed pooled-fine reference panel on two additional specimens with development-locked thresholds",
+      "status": "completed; independent data and metric reconstruction passed",
+      "result_path": "/workspace/herculaneum-lab/reports/seventh-experiment/RESULTS.md",
+      "result_sha256": "3ad1518d7db407ae7ff5a52cec6f335b3fbf972d6de1e6567387cbe019456224",
+      "inference_scope": "Four contexts from PHerc0139/PHerc0814; reserved from our tuning, within recorded model-development corpus. Dense gains AUC3/4 and AP4/4, but weaker threshold transfer. Pooled fine only.",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    }
+  ],
+  "next_study": {
+    "status": "draft training contract; actual training inputs and settings not frozen",
+    "priority": "Controlled three-arm supervision continuation plus frozen-model calibration baseline; fresh physical reserve from our adaptation",
+    "contract": "/workspace/herculaneum-lab/reports/training-prototype-readiness/TRAINING_CONTRACT_DRAFT.md",
+    "research_charter": "/workspace/herculaneum-lab/RESEARCH_CHARTER.md",
+    "prize_status": "Optional downstream consequence; no eligibility or frontier-performance claim",
+    "paid_launch_ready": false,
+    "total_pilot_budget_gbp": 10,
+    "paid_gpu_spend_this_work_gbp": 0
+  },
+  "previous_register": {
+    "path": "/workspace/herculaneum-lab/reports/research-register-v2.json",
+    "size_bytes": 4953,
+    "sha256": "02f75220ae139611bdce9f78b1afccd4d35be76835e246a4da94ce235c10453b"
+  },
+  "readiness_check": {
+    "purpose": "Synthetic CPU forward/backward/update only; not a scientific experiment",
+    "result": {
+      "path": "/workspace/herculaneum-lab/reports/training-prototype-readiness/synthetic-result.json",
+      "size_bytes": 1333,
+      "sha256": "f337233474325030f6d1303c78971862e9844849dd34887ee6985f2d04d98355"
+    },
+    "real_training_performed": false,
+    "updated_checkpoint_saved": false
+  }
+}

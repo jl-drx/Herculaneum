@@ -1,0 +1,4500 @@
+{
+  "arms": [
+    "C_coverage"
+  ],
+  "batch_arrays": {
+    "mixed": {
+      "inputs": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/data/mixed-inputs.npy",
+        "sha256": "0c7caef2812c9714d506ce31750dca8dcdc1071bc5556cca4467eb45e83cc872",
+        "size_bytes": 71303296
+      },
+      "mask": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/data/mixed-mask.npy",
+        "sha256": "00213dc7ee06e8b8f4d7c5c5eb834db0a8a2c4a0446eae90913697ad4370c940",
+        "size_bytes": 1048704
+      },
+      "target": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/data/mixed-target.npy",
+        "sha256": "ea73d3c8e24ad278681685905758bd71e6c37a1d3c469ed2c126c006fc18f440",
+        "size_bytes": 4194432
+      }
+    },
+    "original": {
+      "inputs": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/data/original-inputs.npy",
+        "sha256": "1c863019e9dcc79ad48fd645b9e5b3a1e72d924fa8d8a916d3285923fa3782c2",
+        "size_bytes": 71303296
+      },
+      "mask": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/data/original-mask.npy",
+        "sha256": "3446e01829e4480c52e990e24426a23eba49efb76f415d49e8b3e62ee8fdfba0",
+        "size_bytes": 1048704
+      },
+      "target": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/data/original-target.npy",
+        "sha256": "0c59e8b0eb9948af6da9750c1ae5500c1bfa0bed9014509877d4fc1cba749b55",
+        "size_bytes": 4194432
+      }
+    }
+  },
+  "cases": [
+    {
+      "arrays": {
+        "known_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context1/known-mask.npy",
+          "sha256": "61c91f3c5b28b1377360dfe3e3691deb01a9da87fc7f08c55725708c0b70279d",
+          "size_bytes": 147584
+        },
+        "labels": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context1/labels.npy",
+          "sha256": "d594eed03420a86ba54e30b844ed1e100a5a7ccb848a800a3c3096e7421cd6d8",
+          "size_bytes": 147584
+        },
+        "primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context1/primary-mask.npy",
+          "sha256": "68a29779cddabebdafa62a123b694fcf555e7d11e9e5bcf908eeb65a3b2bbdbd",
+          "size_bytes": 147584
+        },
+        "surface": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling-v2/pooling-run/frag3-context1/surface.npy",
+          "sha256": "a9bc0f987511d25d3bcc4c3bb8e2b8bc6a2822022eabef0c7aa4622ef5ab7972",
+          "size_bytes": 10027136
+        },
+        "surface_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context1/surface-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        }
+      },
+      "baseline_metadata": {
+        "adapter_direction": "forward",
+        "adapter_layer_start": 0,
+        "captured_tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "bfcddf5272b0b6bfba8ffb5ca725ae8df9da0e7577575bb11b46fd76281da99b"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "0a37035d78c6b6b8db72f7a5908754c645e3445662fb80e67ae63b5955681801"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "e88903551c8ec599de1d2be5ae7ce8a937b01b242a90dfd38566cc8cd1af08ac"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "518dff2136b9de90f8d115b0f27f9a8c1459073a78b396b4434d06a41b8c3cd5"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "65aa83ba7e2c3dc23b4dc7fad04ab2a593d8afd2037094a42d9b6497c612942d"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "c32d12279e6df638c16e134c109ee8edc64e4cc356939fcaae4062c5f4f95573"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "302d93f8c708fcd5e9825090a3785bdb9e517c32c1f3ff3311ac3df0912aa57b"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "12b512958d5ba53f4f7beb1837d97a746f566c6f1b99bd4ae63f0bde1613b531"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "28f728776927c7d95183cc92aeca67b6bf3711ce62637c48bcb6c3b9c4ab588a"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "e3c30c3a1bab7098b526bfb598e58514fc340e02943b18ae372a62866965c7f9"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "b5d354b0da4751df15ebf8a80d6a84f4809828e2f8dd149b42228834505ce179"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "8c4380bf5ea3513f88ffbf4f882cd94ccce685220ccf9d1210c360394f59902e"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "66fcf56e7e9a71f842db43c246666a87a8d736c9eef70b2f51c363bd49d833d5"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "ba74586b0e951153a2c78f13f636473d2848fbfc1d6edb681a5a644cc22ad0d6"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "d6269d69121f843e26aa92bd46828e241ad83beeca65a5a62d50dceded4f858f"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "a297ac867a87996b2f56f8251364c25491f6804fa544b3dc3c6a7b966e25a6fe"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "61480ca112c12bc436190d33f9eff485adb18e25d55ddb817c6fe1bf707b54e4"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "18b30b93420b7723d4c9b6ba730ebf85664e5766ed6d76eb769970962734ec3c"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "8275a08e0469c264d43304aee6b0229a6504fa2cbafab2be905353eb9fdaef1d"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "7e14ea2294999f8521070f8303a77cf7c67ce5e94b5f72794356d9dd96ce9a35"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "24784606c7a195cccb59453b5cbd6fed64642ff04315c2c5add1483e5b13eb69"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "88beaf7a3eb28228bbf042fad98ef96e80da68f8106a12a16c0488b8ded0838b"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "e08c1df1cab4b78f2ea3dcab679c8350a6a9e5234c983b1af35e48427e6dfdff"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "f2ae58ecc9e775a0bcde68ba7efb1b46c1c3827d4b78b8358513a689ed1ad908"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "1b6b064aad4641a443e983986618f0dc88fca7e32751ab18e3236ad126da2727"
+          }
+        ],
+        "evaluated": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/frag3-context1/evaluated-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        },
+        "fixed_primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context1/primary-mask.npy",
+          "sha256": "68a29779cddabebdafa62a123b694fcf555e7d11e9e5bcf908eeb65a3b2bbdbd",
+          "size_bytes": 147584
+        },
+        "inference": {
+          "evaluated_valid_pixel_count": 147456,
+          "inference_seconds": 1.7836895919999733,
+          "scored_tile_count": 25,
+          "skipped_tile_count": 0,
+          "tile_count": 25,
+          "tiles": [
+            {
+              "bbox_roi_xywh": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.2139781360001507,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.060799402999691665,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.058385178000207816,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05636692000007315,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05746103599994967,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05649193600038416,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05893524499970226,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05823590599993622,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05790241500017146,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.057208151999475376,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0576450640000985,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05707872099992528,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.057852057000673085,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0586378819998572,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05708563100051833,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0572083630004272,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.058896586000628304,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0632267379996847,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05691442500028643,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05769987899930129,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06311239900060173,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05761838299986266,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05734733900044375,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059318383000572794,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05770894300076179,
+              "status": "scored"
+            }
+          ],
+          "valid_but_unscored_pixel_count": 0,
+          "valid_pixel_count": 147456
+        },
+        "input_fingerprint_before_model_call": true,
+        "logits": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/frag3-context1/tile-logits.npy",
+          "sha256": "dca9cc8f665a020f9fdd563baa7eadc262c5db056f0e07899480b01bb9f9f83f",
+          "size_bytes": 1638528
+        },
+        "model_input_tensor_unchanged": true,
+        "normalization": "unchanged robust_mad1/99 over full17x128x128 patch",
+        "raw_logits_semantics": "FP32 pre-sigmoid scored-tile logits in row-major schedule; no blended logit mosaic",
+        "scores": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/frag3-context1/scores.npy",
+          "sha256": "8d3cb6bbefcc52cb6395a3b78f8ec294a2d28c2b0841127e9b5c1dfcf7fab5b2",
+          "size_bytes": 589952
+        }
+      },
+      "baseline_result": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/result.json",
+        "sha256": "c5ee461efe9eb51123fc703524bf63f1789d2fe9827595078a9398f30f978a3a",
+        "size_bytes": 233229
+      },
+      "baseline_source": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/frag3-context1/metadata.json",
+        "sha256": "30aea8c75442e3295114635c4bbacb9d5b9d4adca15bb4e79fb798a975adc5e2",
+        "size_bytes": 11066
+      },
+      "family": "paris17",
+      "id": "frag3-context1",
+      "layer_start": 0,
+      "negative": 82951,
+      "parent": "Paris1",
+      "positive": 9434
+    },
+    {
+      "arrays": {
+        "known_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context2/known-mask.npy",
+          "sha256": "34a420d79fc344454f6fe31e7b835970800a75666405ef03474776072165fe2e",
+          "size_bytes": 147584
+        },
+        "labels": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context2/labels.npy",
+          "sha256": "d2cd6b04bd57b417346ef28baa45e926d292b9c0367648709ad07fb4f7ea6200",
+          "size_bytes": 147584
+        },
+        "primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context2/primary-mask.npy",
+          "sha256": "0a9dfb654d7c2fb338a8b7bae7d3e64e9ecde96dad48f5c2f507e036deaf4580",
+          "size_bytes": 147584
+        },
+        "surface": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling-v2/pooling-run/frag3-context2/surface.npy",
+          "sha256": "9cba6ba1c65900832aa6e67b7f215b5f86bf91d3dfdc91ed9fab9828f0d24ab1",
+          "size_bytes": 10027136
+        },
+        "surface_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context2/surface-mask.npy",
+          "sha256": "99d50dae69492a4a5a71fd508693b258f6cde3b7525e87b94a652de3ef044cc6",
+          "size_bytes": 147584
+        }
+      },
+      "baseline_metadata": {
+        "adapter_direction": "forward",
+        "adapter_layer_start": 0,
+        "captured_tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "943ec8fe9065391e04703a5be57c9ce275e26aac894cb6ff3f6616c8085a5d4c"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "960981f321461911806c8aa732d89adc10ea5e44d2284c62b0434eb6b0eaa709"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "d4806f2a349b402a37bd208b016ee556c126bc7a6b22539c2eaba533ec0858d9"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "f5b920d4128e68743300287299c6b45338f1c8868776673729a559a8ff186ddf"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "4e7b59ad269e17456864814c068c0fbbc29d79f54d8d92563e35d87ef8641979"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "1cb7bf86ab233f05facea41565cc6737a57d8574dfdae607a9f2b217fa003f6b"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "9017dc7565568f0b309a3a6c8b5e75d2316a7c2aba664047d68d8184146474dc"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "71af45a13689373fb3e7ea9f453572dcbc71fe782458c1c565ec358a415cc69c"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "6eecd92ca55ffb2cc692db943172fa862f54f9f9c053ce0113c520afde833d91"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "789c5870218525fed39d39618c0de9f660902cf9ceed1771dda351f23c0c6d5a"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "b54543de5d0af958e52bee2fd3f41bc1e2dd83bf792ddccaa200cc9b488d2e3e"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "16c6a523ced3f669866c0178e91f0c874e75a50f346929efd38f2624ee055939"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "e429df9ba5ed24c8ea8ebc3b560cf2f6551c3fcda91592d90cd651097db5b206"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "e369e497c5651d82956d4014940f0305ff19c1d269185f4a06aa9f3140f28020"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "d99a006a19c582a9f3a55241b009de70765a238f547ff5c253de285f414e7181"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "5fbef7982ec820fe379051c1155bcf8a807bda0c886d819871ab4b0dde779929"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "808b8212b8e92ee81f6d288bed0bf1f7a7b81d8ee4e7ac15ba0ae27be3c2f10d"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "1d0ca56d3bae99a7ac443705fb5e1fd35b724b2ef27997795fbef1392df999e1"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "1e546968bcfd7f6c8cab5cd30317d04249e914bf029b2ce8528653fd5bd61184"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "9425ae49e7660803f3d134da1ef008d3c4a180352b4624752ac04fb769526768"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "0c7d35005623dce7dc7a65a86a5e71d325404317ee9c433d5d68e4e83aaf733a"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "b5a9262de6dbd0d56d799457b48f5f0cbf1d14357382fa978a71ce35b5663d76"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "6339a22ae90ce5fcc7acb3ad2ee3eba08e59f5b68488cd41de00398c38bb4bdf"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "3cbc6f6465e8848df126c7d07621a4b52b3cb55d4d5d386fc84bc5957304414d"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "4ba6f2f77ce14f9394e891433b9f0d73170d8463ed503c17ec47a049bceb03f6"
+          }
+        ],
+        "evaluated": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/frag3-context2/evaluated-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        },
+        "fixed_primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag3/frag3-context2/primary-mask.npy",
+          "sha256": "0a9dfb654d7c2fb338a8b7bae7d3e64e9ecde96dad48f5c2f507e036deaf4580",
+          "size_bytes": 147584
+        },
+        "inference": {
+          "evaluated_valid_pixel_count": 147456,
+          "inference_seconds": 1.9122650250001243,
+          "scored_tile_count": 25,
+          "skipped_tile_count": 0,
+          "tile_count": 25,
+          "tiles": [
+            {
+              "bbox_roi_xywh": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05735198699949251,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06056324400015001,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059094833999552066,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059042443000180356,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06170157999986259,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06235202500010928,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05990468799973314,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05864140799985762,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05959131899999193,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.08485209100035718,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.061561882000205514,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.07580716199936433,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.12955930899988743,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05962307400022837,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06044686199948046,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.060165152000081434,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.07226464199993643,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06082832500032964,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059249582999655104,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05729536899980303,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05686900699947728,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.07383110399950965,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.13280938300067646,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.09931693899943639,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06017873300061183,
+              "status": "scored"
+            }
+          ],
+          "valid_but_unscored_pixel_count": 0,
+          "valid_pixel_count": 147456
+        },
+        "input_fingerprint_before_model_call": true,
+        "logits": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/frag3-context2/tile-logits.npy",
+          "sha256": "1cffb9af8e33811227792573974df6eeabf3d591d2bb8c54afe9d791b2b77e4d",
+          "size_bytes": 1638528
+        },
+        "model_input_tensor_unchanged": true,
+        "normalization": "unchanged robust_mad1/99 over full17x128x128 patch",
+        "raw_logits_semantics": "FP32 pre-sigmoid scored-tile logits in row-major schedule; no blended logit mosaic",
+        "scores": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/frag3-context2/scores.npy",
+          "sha256": "c219975a89137bf758b3b8d6dd6141a73f7655593e82ed46c5ffe3506d6cb5e4",
+          "size_bytes": 589952
+        }
+      },
+      "baseline_result": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/result.json",
+        "sha256": "c5ee461efe9eb51123fc703524bf63f1789d2fe9827595078a9398f30f978a3a",
+        "size_bytes": 233229
+      },
+      "baseline_source": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/calibration/frozen_seed42/frag3-context2/metadata.json",
+        "sha256": "3349ea485cc65cd64f12f4a4fa10a462d99734d879b2dc4109c9311ed64349f0",
+        "size_bytes": 11070
+      },
+      "family": "paris17",
+      "id": "frag3-context2",
+      "layer_start": 0,
+      "negative": 83490,
+      "parent": "Paris1",
+      "positive": 5771
+    },
+    {
+      "arrays": {
+        "known_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context1/known-mask.npy",
+          "sha256": "b9111d1cdd4f8795b723fa373b77d6f60f0cfee4064b7d5bdfce5e2674cacb0b",
+          "size_bytes": 147584
+        },
+        "labels": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context1/labels.npy",
+          "sha256": "41834ee0dd9915132d8aa2bb95e6b351a84a766e37b6f7988043d2c239ce39eb",
+          "size_bytes": 147584
+        },
+        "primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context1/primary-mask.npy",
+          "sha256": "f6ce69406ae2f253f40389d038613f1378fbfd820407e6b65f7b15678d2818ce",
+          "size_bytes": 147584
+        },
+        "surface": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling-v2/pooling-run/frag1-context1/surface.npy",
+          "sha256": "426f348fcb493229e0a99c6d4e386447cbbf13c2a9ea9782cc593f3338c85b27",
+          "size_bytes": 10027136
+        },
+        "surface_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context1/surface-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        }
+      },
+      "baseline_metadata": {
+        "adapter_direction": "forward",
+        "adapter_layer_start": 0,
+        "captured_tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "0af6a01aabf87a36f4ef9e159570d36c09f5420d8452946efdc462c9e1a1c58b"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "2240d4999446e3dc3d1d7f942fe91de5df3fbd4803c416a04e44e1fabf514779"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "2ed8cdaabc29bd6e4bee1a6d6089694f3623cff03d4e607bcac61e9900ce65b9"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "8366d284c6f687d0fdd9acc354d3fcfa5bdfde3aba142541e30c460cce986b46"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "439d4f0e2f0bd573f89c6c282d8eb56da52f8846972fd30db06de6c7548489b6"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "66795b6936633437711582145544e468cbf64df3d1ca680459e3ab582609fe6c"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "7f45eaa4fb49faf45617cd74292b4d4f48bc312f2e09e6f9d834888f01504fef"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "b9caa8cf83fcd2ef5a222df5de79fafa46a56af7a15b7c3bd2a8cc1adb39fdb5"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "94bb2cf78c050c5eb8bdb813a6924adb1d79af8b5741f3136ab1f4b3c131234d"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "fbdc8d607e9fb6de8d9fff96db3bd93983bd3936cd02ef8b679896def4e563fb"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "1294b6f55ae4a990f385ad9466d69c1249ce4e59e8fafbf172eb7ca35856a46d"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "738a017bd61406c4de7a4f670dd08160797032d2cdb8e015594ab3a22b1ff599"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "0fe4b5404c849e1e8cd003da9891760a0258ddb5a0ace3e4e3768e7441cb439e"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "a50a1c16e9e21d48c90b3f2fde026a1d474d1d5906610b75f2e468bbc3e187e3"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "bb4ff9f852a2dcd4628dfbfefb692ee6d92b1cb76d2e6f0768ad3ae087f73290"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "818e666ccc79c88656c4c4275708d9afdecaab045a7bc3b3451c798029f9be7f"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "3fb9c216b12f9099a9b81db40f598228d0c6777b84c68142b43f01d26954641f"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "40e48e018b141cdcbfd4e6a2afa9c0490a59c96471f7ba3dc1626827504454e8"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "665dde738fd333627303c6cdd7425ad9417452c0bcc1b4f97e62864760c2c20d"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "dc06968492ba976393319c00cc22c0ea6b6c8e7ed0538a86b96998bc64eb0679"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "1412a0e9b44e718f4200bd3880093bc3238cf1d7be257bba17a2057504155cbc"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "761ebcc04b727d1cceef34ebaa416d0864301dd514999bc41b81517cb4e79577"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "715b1310eec5319b25e520e089c657163a277f2d86ca2da3fc82cbb36e14c6cb"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "6cd8083c77861bb080c4573f8aa868390ff2de8150dc808591d9dfe5f8d06eec"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "a27dd1913d7d556ccbd40641fae712d1a1e025cd9a2dcb84d9862301b07db4a3"
+          }
+        ],
+        "evaluated": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag1-context1/evaluated-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        },
+        "fixed_primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context1/primary-mask.npy",
+          "sha256": "f6ce69406ae2f253f40389d038613f1378fbfd820407e6b65f7b15678d2818ce",
+          "size_bytes": 147584
+        },
+        "inference": {
+          "evaluated_valid_pixel_count": 147456,
+          "inference_seconds": 1.712451451000561,
+          "scored_tile_count": 25,
+          "skipped_tile_count": 0,
+          "tile_count": 25,
+          "tiles": [
+            {
+              "bbox_roi_xywh": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.14443715300058102,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.056404220999866084,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.056546643999354274,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.055458455000007234,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.056748377999610966,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0563974810002037,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059850175000065065,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05652207000002818,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05679590300042037,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.055943264000234194,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.060914430999218894,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05956982199950289,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05975766899973678,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.061076981999576674,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05873563000022841,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05885395899986179,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06078674799937289,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05930241300029593,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06205450099969312,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059263052999995125,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05945507100022951,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.060107610000159184,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06019462099993689,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05915849600023648,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059116954000273836,
+              "status": "scored"
+            }
+          ],
+          "valid_but_unscored_pixel_count": 0,
+          "valid_pixel_count": 147456
+        },
+        "input_fingerprint_before_model_call": true,
+        "logits": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag1-context1/tile-logits.npy",
+          "sha256": "090050e3adf2781491e098371af105d986bd43dc15b770b2c92f109728158823",
+          "size_bytes": 1638528
+        },
+        "model_input_tensor_unchanged": true,
+        "normalization": "unchanged robust_mad1/99 over full17x128x128 patch",
+        "raw_logits_semantics": "FP32 pre-sigmoid scored-tile logits in row-major schedule; no blended logit mosaic",
+        "scores": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag1-context1/scores.npy",
+          "sha256": "ba9127758867f1739c8381ddec34e8d96995b3a73b855b6b1df8adbc771a340d",
+          "size_bytes": 589952
+        }
+      },
+      "baseline_result": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/result.json",
+        "sha256": "aa9687c44b9b5fd57be3baf173f69ac03db31b5f43c2f3c6c442c1b3a93cf124",
+        "size_bytes": 259496
+      },
+      "baseline_source": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag1-context1/metadata.json",
+        "sha256": "aab18b5d22b63d96fe6bf3c0d74a4eebb42dec2318a79f1a1f33aa19d600e29e",
+        "size_bytes": 11071
+      },
+      "family": "paris17",
+      "id": "frag1-context1",
+      "layer_start": 0,
+      "negative": 69159,
+      "parent": "Paris2",
+      "positive": 19400
+    },
+    {
+      "arrays": {
+        "known_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context2/known-mask.npy",
+          "sha256": "259a6f408621475c30a172518c01a53bf47687d81782d9c51202a936bbcfbf57",
+          "size_bytes": 147584
+        },
+        "labels": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context2/labels.npy",
+          "sha256": "148b3ea1ad68966521cfbfba0e315d3c0ba8fcab1745d6c1e2d1f40733b833a7",
+          "size_bytes": 147584
+        },
+        "primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context2/primary-mask.npy",
+          "sha256": "65837cef6d5947c23fd24238c4f85a96dcbe57a34bf4c1925117389ce3743c02",
+          "size_bytes": 147584
+        },
+        "surface": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling-v2/pooling-run/frag1-context2/surface.npy",
+          "sha256": "ae9d27418dd728aa52671901129ed5429e915fc9b229b9a80b8207242ce1481f",
+          "size_bytes": 10027136
+        },
+        "surface_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context2/surface-mask.npy",
+          "sha256": "58b12b55a20aec9e2f03daaaed7eaeeff21215f450916359790510e1c677221c",
+          "size_bytes": 147584
+        }
+      },
+      "baseline_metadata": {
+        "adapter_direction": "forward",
+        "adapter_layer_start": 0,
+        "captured_tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "414436ece81cabb5933b2d6d48a9b5df9a6066cc30836351585d0f73a37bcd51"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "65888895b0dc7478abc25df0d8fcfe54c696b860ec6c74c98627b036dc7e8565"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "0251c06f9a097375820844ab0f955f5560a9813c33fbed5f24739d7abbb38f64"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "db8394b8a10c661ddc9aa9cfa8924d70ed864be7c50a36175967e14aacc5657f"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "01cbf662fce3ec8ef73688f81237f822628cde481b8c0e6c085935eb250b1968"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "20b600510b7a067a39e668ec7117761cb53e518f73d0a5433d3aa51bf94ef105"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "b53c03dc1a3ee8a7cb86f6ec2c774ba53d66d7282aee5f21bd37303394808218"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "c9b3f92faf9ea1c637485450a57ee8f59caf5386eca14adb0b7c7db35d40d8eb"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "c0e7fce5d084f55e722ab15869618e894726a800ed21386259c112c3bbb271a3"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "d42b2ae8d2db886bbf2819867b0f2222e2f137c9998828d5177d0d32dd13ef60"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "b599c73714d2373aa5f4e7c71e11f10b6fd75d18b1079320c4a9c12ae15c86bc"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "df9e55a5a82a253c0254d3aac45f374dc09c9e4d5adb31ef42818f9c77867671"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "23e43d8ed60d25fae6caf4e200b4e9c64235828baf66ad66461be63072762a76"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "3a2b9db2d674df04d96bb807fd7d4d366f4ae33844d085ee86770b3208c5552f"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "f9add38be3be36c2b8a75d419c6c3ce15bbbdfe3e64d739c63ea627d78cdfb78"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "8e93f458c67d49058b13ed3c6322c5efa1d03c48b8ecd1c056b4f6002173e168"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "b7cdc008327c8dc464e3e3ddbbb820a076af1e6c63da912c237e4fa75682bbfd"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "c5a89e494ce63296a82af92611309ba7a626b8388254cf5ea6f0e8e9c5bc9aca"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "8a5d4d93a0376a619d4a97b0493fa9d8d078aaa9707bc8bd1dbaac6d7bcfd9b4"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "43a6310a0beeabab0464573e4d0df9148848ad00dae9e85d94d361aec71a2968"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "89fdf14bdfcbe373b31fd6d3f3b0cefad414c4435db167e12118accecb5e0d60"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "644528a13f89db3ac21a2242792624eedbf39c0bd1f00cd45032b19c38ab2d7f"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "5730e57057ed70a93a5beccc12228fddded65a3376cff6abd9312c40edc44637"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "457e9d58d59b667718ee2469d54918b1eb6b6db5e34d45ebc520c0802c8c1888"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "bf599364f13722ab9aa81e7f94632b1aad482e77321cf3a7aed527e9742b4bc3"
+          }
+        ],
+        "evaluated": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag1-context2/evaluated-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        },
+        "fixed_primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag1/frag1-context2/primary-mask.npy",
+          "sha256": "65837cef6d5947c23fd24238c4f85a96dcbe57a34bf4c1925117389ce3743c02",
+          "size_bytes": 147584
+        },
+        "inference": {
+          "evaluated_valid_pixel_count": 147456,
+          "inference_seconds": 1.6444031760001963,
+          "scored_tile_count": 25,
+          "skipped_tile_count": 0,
+          "tile_count": 25,
+          "tiles": [
+            {
+              "bbox_roi_xywh": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05903918700005306,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06197493099989515,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06019615300010628,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.060654580000118585,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06576019799922506,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06017898700065416,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05713756499972078,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05811714399987977,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05668005900042772,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06359861700002511,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05770940300044458,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05925843600016378,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05799507099982293,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05774315399958141,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06046286300079373,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06015721400035545,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05804551700020966,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059165637000660354,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05726924199916539,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.060355440999956045,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05994146099965292,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05670797000038874,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.057948711999415536,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05935338899962517,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05802237299940316,
+              "status": "scored"
+            }
+          ],
+          "valid_but_unscored_pixel_count": 0,
+          "valid_pixel_count": 147456
+        },
+        "input_fingerprint_before_model_call": true,
+        "logits": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag1-context2/tile-logits.npy",
+          "sha256": "6a61bf74fe2db3d0129f14257839c293b677e49533a0d435d07a4b417c137901",
+          "size_bytes": 1638528
+        },
+        "model_input_tensor_unchanged": true,
+        "normalization": "unchanged robust_mad1/99 over full17x128x128 patch",
+        "raw_logits_semantics": "FP32 pre-sigmoid scored-tile logits in row-major schedule; no blended logit mosaic",
+        "scores": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag1-context2/scores.npy",
+          "sha256": "ae884e22c9613e79593be0cd79a7a3a0c9a8795022c58e9b1c442a4d9b13d08a",
+          "size_bytes": 589952
+        }
+      },
+      "baseline_result": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/result.json",
+        "sha256": "aa9687c44b9b5fd57be3baf173f69ac03db31b5f43c2f3c6c442c1b3a93cf124",
+        "size_bytes": 259496
+      },
+      "baseline_source": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag1-context2/metadata.json",
+        "sha256": "151693b6cc46045888bec45c8753817361af8e40a3c8403943fc4573dbb7791a",
+        "size_bytes": 11066
+      },
+      "family": "paris17",
+      "id": "frag1-context2",
+      "layer_start": 0,
+      "negative": 70681,
+      "parent": "Paris2",
+      "positive": 12633
+    },
+    {
+      "arrays": {
+        "known_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context1/known-mask.npy",
+          "sha256": "bb36dd0c7a3c2ebbcd16770232a95a8a0b7a46b6d52412105e685a2c4f2a27d0",
+          "size_bytes": 147584
+        },
+        "labels": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context1/labels.npy",
+          "sha256": "3a06aee942494f41de81644bd2bf2a430019c050282c9e86f7c42f571eacecdb",
+          "size_bytes": 147584
+        },
+        "primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context1/primary-mask.npy",
+          "sha256": "3aacd7a7e44599d57cf9e06d903fe7edc03165b559e24df1191c9f718222f878",
+          "size_bytes": 147584
+        },
+        "surface": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling-v2/pooling-run/frag2-context1/surface.npy",
+          "sha256": "4ea0afc50e5332685dbc894dd3a89ac5e365aff4649dfdea2ae9ce6ba191f2f4",
+          "size_bytes": 10027136
+        },
+        "surface_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context1/surface-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        }
+      },
+      "baseline_metadata": {
+        "adapter_direction": "forward",
+        "adapter_layer_start": 0,
+        "captured_tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "8e35bd02449c02863f60e908ae7514f726db0c97c2e4bebd059d7f71329eec87"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "6242fd932a75b11ee24b29ea0a2cd3b0403b4f8197f65c4e1dd990c00eb47625"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "f147d8aa0b9b54a5d5a879b534ba784304d4068bd55ad2f023911326a9099f42"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "fe404989226fed6ecbfa5d8e8a218c56280f44043cf45206c371783fa35117ba"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "2e8702c00adcf078b19269b0409d3f5384496a30a3ef8293dad9a0904f359f93"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "e64d361031c16a819651e1881006f0ff7f4ad62fe69320d97fe239ce5b991dd5"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "6c927ba4ba3d3ae89deb3eb3deb98f248f3ac3da14ea75807340468ec66a1863"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "6532867b2a140fdbf7140635b3f74c6859e84c00b4ab9be5611fa422021eba51"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "f3cfea3dbf14d01f8217ee7f59c56bc8d2ddf0314a8640d372677e89a0b8cdf2"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "6f60c3a928c1cd9932a890cc9718bbb6c3d8ecd30ba723e8846c202f22d1d3e1"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "deed0a049083c5656340693ff78c928721db5f9216987a3d6601f10a552ffbf8"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "e2a8d4eb680f6fd3e40da62cd3ceb50267fe7ba251313e969a1bd266d472373f"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "53e1375fbf2dc4500d5e6c359ee3439ba5fa620bc42f88bfb062c7bbc56864cd"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "4c130dc54fdc9aa845384e27e871ee3f1f1d44a4a27ae6cd5c2a70e97045b393"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "71b65cd63c9231a68309480d9349318933a239cd272cea3874bfced5523dbe82"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "08f2b07e4dac375f5ca277977ea2feec58b24b1d004cd99a13440ad79f2c0bca"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "f2b1f08434277bd678a38dc1c7222dc3cb672a7f3fb2454d8fb944756012572c"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "aadd0c8bf9fde759448d161d053712aab458d61a61b6376d6f7bdc4c2529f952"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "0115f7c1f3cfc3ff5690635c8a29423299408d3c216e745ac13e29e8a52e7223"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "a2132fcca72b2b8de6adf7c7b85692f85cd56fc33936095dde75a721971aae29"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "274e799d0fb939e50dfae88872a5d1ee0e4732dc473a94e4f7323f1cf4eca30e"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "3966d70eeccc0345122d6caf92ee83952f086471900d34be1a86e57262c5b7b5"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "91f29b70678241e40e0e41a64fceda4e345efa9cfd980c1496635d76e8c82099"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "0143d5384d9982801613fcee6b3b3a09532d4b1225b3a2245bff541c8a70f507"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "bb7ea933749c0869496e666914ef224c6ba71f02f60e07826f5cd8d9b0f27aa3"
+          }
+        ],
+        "evaluated": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag2-context1/evaluated-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        },
+        "fixed_primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context1/primary-mask.npy",
+          "sha256": "3aacd7a7e44599d57cf9e06d903fe7edc03165b559e24df1191c9f718222f878",
+          "size_bytes": 147584
+        },
+        "inference": {
+          "evaluated_valid_pixel_count": 147456,
+          "inference_seconds": 1.851123350999842,
+          "scored_tile_count": 25,
+          "skipped_tile_count": 0,
+          "tile_count": 25,
+          "tiles": [
+            {
+              "bbox_roi_xywh": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.057880970000042,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.058037665000483685,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06077387900040776,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0983263079997414,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06285442100033833,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05911126499995589,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.14727409799979796,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06660906300021452,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06298897199940257,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.058369653999761795,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.07660275200032629,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06006067999987863,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05761170599998877,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06745615199997701,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05719663399941055,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06200533599985647,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.060227961000236974,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06119861600018339,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.07275730400033353,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.07558869199965557,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05886135099990497,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06484229200032132,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059580439000455954,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06048523600020417,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06133919799958676,
+              "status": "scored"
+            }
+          ],
+          "valid_but_unscored_pixel_count": 0,
+          "valid_pixel_count": 147456
+        },
+        "input_fingerprint_before_model_call": true,
+        "logits": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag2-context1/tile-logits.npy",
+          "sha256": "1b4329fb2d719ab32b1f798c25b372c40894032b959078108c95e3ffb4eb77ed",
+          "size_bytes": 1638528
+        },
+        "model_input_tensor_unchanged": true,
+        "normalization": "unchanged robust_mad1/99 over full17x128x128 patch",
+        "raw_logits_semantics": "FP32 pre-sigmoid scored-tile logits in row-major schedule; no blended logit mosaic",
+        "scores": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag2-context1/scores.npy",
+          "sha256": "5a386f7db1b725b2fae18edb0e2a9aa6eee0ee237f129b100820edb2d601e5e1",
+          "size_bytes": 589952
+        }
+      },
+      "baseline_result": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/result.json",
+        "sha256": "aa9687c44b9b5fd57be3baf173f69ac03db31b5f43c2f3c6c442c1b3a93cf124",
+        "size_bytes": 259496
+      },
+      "baseline_source": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag2-context1/metadata.json",
+        "sha256": "f2a6cd1b4b7edeb7b92f31dc637967520945e37d907b4d8e14fa2942954352ae",
+        "size_bytes": 11062
+      },
+      "family": "paris17",
+      "id": "frag2-context1",
+      "layer_start": 0,
+      "negative": 61660,
+      "parent": "Paris2",
+      "positive": 19049
+    },
+    {
+      "arrays": {
+        "known_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context2/known-mask.npy",
+          "sha256": "c163c319044a0ffc21122697b309f90a5522e7c632ae75204df89b40864b9676",
+          "size_bytes": 147584
+        },
+        "labels": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context2/labels.npy",
+          "sha256": "9ea206a7571866c0882a7a43983a782555af3afddd106d81d1a41a7379623c76",
+          "size_bytes": 147584
+        },
+        "primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context2/primary-mask.npy",
+          "sha256": "64b6774cdf97c3547b6919be3042217a4a13901f3759a7bcdf7c72c7c63f914f",
+          "size_bytes": 147584
+        },
+        "surface": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling-v2/pooling-run/frag2-context2/surface.npy",
+          "sha256": "90c47859b75219198afe445ace6aaf573078afc744b15e70130af2920d0ab3df",
+          "size_bytes": 10027136
+        },
+        "surface_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context2/surface-mask.npy",
+          "sha256": "947864dc9db265e4edeca594b857c9b65d9e3d1b570aeaf4a1e6b4a9b3d33ff0",
+          "size_bytes": 147584
+        }
+      },
+      "baseline_metadata": {
+        "adapter_direction": "forward",
+        "adapter_layer_start": 0,
+        "captured_tiles": [
+          {
+            "bbox_roi_xywh": [
+              0,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "f8668a9db3aec3afee6811d6d7ae12fdd92721047d9091ea8ae3c2d37a0ba200"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "240e49116835f4f6b419d0a588f5655307aee3e6dc2291ba8606aba2268d45b0"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "ca7ae754525c62cb870cc5f0911b001f5e453c97a8b437d70097f687a141e181"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "d4df28f77e34281aedd1c6c862e9a8579f1b4f38be7018ef083051079a34a975"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              0,
+              128,
+              128
+            ],
+            "input_sha256": "82f6bcc673b6b00a54466765eb4f3a0ac26a6e166e6db7bf80163861a7071d85"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "fbeb56f3039cc9899f27785dcabb8b5f9e00c41e5ffe0d6a22354b23a83220ea"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "5b43d55032167665a9844ba1396a3e740651d751f3f2150cb0f7abecab395717"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "c7ce53776a96214acf39ec9e1724e4dee771b5a4d7542a8f7871d213226399f6"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "eb32d39703302ae5c5084a5c1ade33e11f84ec3b5cb7160ed3d4e85c3d65ed16"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              64,
+              128,
+              128
+            ],
+            "input_sha256": "3116406e2900676ff7c3613e161a5c607082a7dd68569e994600d4c389ec7154"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "1af674e36de806b06f480dd008c93f509f58c5d449643fddc0e46b0bd4211d38"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "2e9d5c7033a160e457ddfb4a3b56319c9716064e820337b80be90e2d9793a40f"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "2b8d1f40ad3e1c6ea43ba4ca4bb436e94e4826be8f708c037a72435226e196c2"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "dde5715bca4fe42ef82e4249d2bc2caad687a153163e5ec0c5ab3151eb3cca0a"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              128,
+              128,
+              128
+            ],
+            "input_sha256": "713257151492a7ec75838852170049288f025c15b87233815ebda5d186ccc0b4"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "4c1b33097ac06c34f1e9330fbead70cfdc5c184be64c28a01892906ad99ca310"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "ef04c6b17994a062f6356c3047e24e065928674d62e0e70fe431e564f71ef872"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "1750b20552d73da35a4a881acca366b9cc339c8b2a64b67f33e2f36cf371f63c"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "364a0284ab6a797dc626e657d80e33dc6cf08031c142f212132bbfa238f3267f"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              192,
+              128,
+              128
+            ],
+            "input_sha256": "cb0aa4cf91d051e2aa9f4d2934d45bd788e27d4c45919e5d87252ae5b5ef901e"
+          },
+          {
+            "bbox_roi_xywh": [
+              0,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "fd45e58692fc0fcd2859182c388bedc1229d76d71c4aa35c2da73e213622eb3c"
+          },
+          {
+            "bbox_roi_xywh": [
+              64,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "f1a0b3eb00e08517fd54f9de8c3c75fb2d12d8d3cf2b13a8482441804e8ca689"
+          },
+          {
+            "bbox_roi_xywh": [
+              128,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "45627815e373e3dd165eba9f291648a44cab04ae5f458b040f7add8b65d732f7"
+          },
+          {
+            "bbox_roi_xywh": [
+              192,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "9c18a6c73d809b2c880462262b70fcf83753874e1e78eb713b1b7bcc1643f814"
+          },
+          {
+            "bbox_roi_xywh": [
+              256,
+              256,
+              128,
+              128
+            ],
+            "input_sha256": "cd0e246cf1d8a5f162cbe6c51318ccbab59595b9e7ec43d60a5e9589e3618153"
+          }
+        ],
+        "evaluated": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag2-context2/evaluated-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        },
+        "fixed_primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/implementation/selection/frag2/frag2-context2/primary-mask.npy",
+          "sha256": "64b6774cdf97c3547b6919be3042217a4a13901f3759a7bcdf7c72c7c63f914f",
+          "size_bytes": 147584
+        },
+        "inference": {
+          "evaluated_valid_pixel_count": 147456,
+          "inference_seconds": 1.691565112999342,
+          "scored_tile_count": 25,
+          "skipped_tile_count": 0,
+          "tile_count": 25,
+          "tiles": [
+            {
+              "bbox_roi_xywh": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.060223262999898,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06011164600022312,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06230998399951204,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059450174000630795,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06688266299988754,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.061760239000250294,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06222695900032704,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06119858700003533,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05939761500030727,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059653317999618594,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06335081499946682,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05976023899984284,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0626069190002454,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05931549199976871,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06024772499949904,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05964374500035774,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05905399499988562,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05905962399992859,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06133027299983951,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.059565802999713924,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05901063300007081,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05980356500003836,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06003075099943089,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05958372799977951,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.05929238800035819,
+              "status": "scored"
+            }
+          ],
+          "valid_but_unscored_pixel_count": 0,
+          "valid_pixel_count": 147456
+        },
+        "input_fingerprint_before_model_call": true,
+        "logits": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag2-context2/tile-logits.npy",
+          "sha256": "d0d3b5ef180e2b8da4e51a9b81e4873ec86c25145369dc1771856b609e202534",
+          "size_bytes": 1638528
+        },
+        "model_input_tensor_unchanged": true,
+        "normalization": "unchanged robust_mad1/99 over full17x128x128 patch",
+        "raw_logits_semantics": "FP32 pre-sigmoid scored-tile logits in row-major schedule; no blended logit mosaic",
+        "scores": {
+          "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag2-context2/scores.npy",
+          "sha256": "985bd8d7c9c341a0936392f8812ba71c132f5eb0cc90eb46b539a28b36487663",
+          "size_bytes": 589952
+        }
+      },
+      "baseline_result": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/result.json",
+        "sha256": "aa9687c44b9b5fd57be3baf173f69ac03db31b5f43c2f3c6c442c1b3a93cf124",
+        "size_bytes": 259496
+      },
+      "baseline_source": {
+        "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/evaluation/frozen_seed42/frag2-context2/metadata.json",
+        "sha256": "84d02b14555ed5a2e9cd6d1123ba2611d449791b4c8276697f60b4a6121ac8fe",
+        "size_bytes": 11062
+      },
+      "family": "paris17",
+      "id": "frag2-context2",
+      "layer_start": 0,
+      "negative": 66318,
+      "parent": "Paris2",
+      "positive": 20248
+    },
+    {
+      "baseline_metadata": {
+        "evaluated": {
+          "path": "/workspace/herculaneum-lab/reports/eighth-experiment/implementation/run/frozen_seed42/fresh/pherc0814-46527-fresh-rank01/evaluated-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        },
+        "inference": {
+          "evaluated_valid_pixel_count": 147456,
+          "inference_seconds": 2.098729265999282,
+          "scored_tile_count": 25,
+          "skipped_tile_count": 0,
+          "tile_count": 25,
+          "tiles": [
+            {
+              "bbox_roi_xywh": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.15126035399953253,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06131204899975273,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.10269299900028273,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.09536104799917666,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.08104326099964965,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06751782300125342,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06703964099870063,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.10446602000047278,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06580656400001317,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.11400017199957801,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0656514629990852,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06352981300005922,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06485158099894761,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06223496399979922,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.08741405999899143,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.07454814599987003,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06970257699867943,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06905168800039974,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0664691310012131,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06662790799964569,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06498135400033789,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06869454600018798,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06745530999978655,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06921126499946695,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06798995700046362,
+              "status": "scored"
+            }
+          ],
+          "valid_but_unscored_pixel_count": 0,
+          "valid_pixel_count": 147456
+        },
+        "scores": {
+          "path": "/workspace/herculaneum-lab/reports/eighth-experiment/implementation/run/frozen_seed42/fresh/pherc0814-46527-fresh-rank01/scores.npy",
+          "sha256": "c10d2ca18f6a31f16f219f8220afbbb9cb4d1ba6692fe44f14ed2c3c03727f8a",
+          "size_bytes": 589952
+        }
+      },
+      "family": "pooled21",
+      "id": "pherc0814-46527-fresh-rank01",
+      "layer_start": 2,
+      "legacy_case": {
+        "data": {
+          "annotation_center_layer": 10,
+          "arrays": {
+            "acquisition_observed_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/acquisition-observed-mask.npy",
+              "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "current_loader_label_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank01/current-loader-label-mask.npy",
+              "sha256": "d3ddd9d4c17256d70fe907f44e260813ae0475f66cfa16370a9cc876f068d43d",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "evaluation_participation_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/evaluation-participation-mask.npy",
+              "sha256": "d3ddd9d4c17256d70fe907f44e260813ae0475f66cfa16370a9cc876f068d43d",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "inklabels": {
+              "byte_length": 147584,
+              "dtype": "uint8",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank01/inklabels.npy",
+              "sha256": "7ceb6dc04cfa898f565c7a5a15dda8aa9d5a91a973368ee28990be94c9e97ca2",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "primary_annotation_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/primary-annotation-mask.npy",
+              "sha256": "2b5f06b093652a88844f0db312908bbaa3a0c264bb35c8988884427648eb405c",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "source_observed_nonzero_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/source-observed-nonzero-mask.npy",
+              "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "supervision_mask": {
+              "byte_length": 147584,
+              "dtype": "uint8",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank01/supervision_mask.npy",
+              "sha256": "c718b422314d9230a3b0ff1c27d4534847edf10f08f512696a3f7b6b4f35d317",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "supervision_membership": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank01/supervision-membership.npy",
+              "sha256": "d3ddd9d4c17256d70fe907f44e260813ae0475f66cfa16370a9cc876f068d43d",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "surface": {
+              "byte_length": 3096704,
+              "dtype": "uint8",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/surface.npy",
+              "sha256": "d9f9946a5ee0bac74aaa93dc78385dd5a50ec962d4ba7cee69ea54640e20b00d",
+              "shape": [
+                21,
+                384,
+                384
+              ]
+            },
+            "validation_mask": {
+              "byte_length": 147584,
+              "dtype": "uint8",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank01/validation_mask.npy",
+              "sha256": "bc7412de79acb06ecca560558be61ea0da170b8926b53c842240da7fbdc8c708",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "validation_membership": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank01/validation-membership.npy",
+              "sha256": "2b841f67fc5499e98dd9ecf9eb309909e0cc54373ada7e4218b5fb960faf7570",
+              "shape": [
+                384,
+                384
+              ]
+            }
+          },
+          "bbox_source_xywh": [
+            1152,
+            1152,
+            384,
+            384
+          ],
+          "counts": {
+            "acquisition_observed_pixels": 147456,
+            "conditional_current_loader_training_pixels": 84357,
+            "primary_annotation_pixels": 49033,
+            "primary_negative": 29488,
+            "primary_observed_zero_profile_pixels": 0,
+            "primary_positive": 19545,
+            "raw_supervision_validation_overlap": 0,
+            "source_observed_nonzero_pixels_selected17": 147456,
+            "supervision": 84357,
+            "whole_evaluation_participation": 84357,
+            "whole_validation": 0,
+            "whole_validation_negative": 0,
+            "whole_validation_positive": 0
+          },
+          "evaluation_participation": "supervision_mask",
+          "evaluation_participation_role": "supplied_supervision",
+          "id": "pherc0814-46527-fresh-rank01",
+          "model_layer_slice": [
+            2,
+            19
+          ],
+          "physical_group": "PHerc0814",
+          "pixel_spacing_um": 9.596,
+          "provenance_record": {
+            "byte_length": 16541,
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/provenance.json",
+            "sha256": "fdff60638e20362212885d18b9d4b607b0a2b50eb972354f081dcf66f45cf037"
+          },
+          "public_segment": "20260226000000-46527_2um_try2",
+          "role": "reserved_from_new_adaptation",
+          "shape_zyx": [
+            21,
+            384,
+            384
+          ],
+          "source_depth_slice": [
+            13,
+            97
+          ],
+          "source_surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0814/segments/20260226000000-46527_2um_try2/surface-volumes/2.399um-0.22m-78keV-volume-20260309142202.zarr"
+        },
+        "evaluation_participation_role": "supplied_supervision",
+        "id": "pherc0814-46527-fresh-rank01",
+        "inputs": {
+          "acquisition_observed_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/acquisition-observed-mask.npy",
+            "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+            "size_bytes": 147584
+          },
+          "evaluation_participation_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/evaluation-participation-mask.npy",
+            "sha256": "d3ddd9d4c17256d70fe907f44e260813ae0475f66cfa16370a9cc876f068d43d",
+            "size_bytes": 147584
+          },
+          "inklabels": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank01/inklabels.npy",
+            "sha256": "7ceb6dc04cfa898f565c7a5a15dda8aa9d5a91a973368ee28990be94c9e97ca2",
+            "size_bytes": 147584
+          },
+          "source_observed_nonzero_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/source-observed-nonzero-mask.npy",
+            "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+            "size_bytes": 147584
+          },
+          "supervision_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank01/supervision_mask.npy",
+            "sha256": "c718b422314d9230a3b0ff1c27d4534847edf10f08f512696a3f7b6b4f35d317",
+            "size_bytes": 147584
+          },
+          "surface": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/surface.npy",
+            "sha256": "d9f9946a5ee0bac74aaa93dc78385dd5a50ec962d4ba7cee69ea54640e20b00d",
+            "size_bytes": 3096704
+          },
+          "validation_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank01/validation_mask.npy",
+            "sha256": "bc7412de79acb06ecca560558be61ea0da170b8926b53c842240da7fbdc8c708",
+            "size_bytes": 147584
+          }
+        },
+        "physical_group": "PHerc0814",
+        "provenance": {
+          "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/provenance.json",
+          "sha256": "fdff60638e20362212885d18b9d4b607b0a2b50eb972354f081dcf66f45cf037",
+          "size_bytes": 16541
+        }
+      },
+      "negative": 29488,
+      "parent": "PHerc0814",
+      "positive": 19545,
+      "primary_mask": {
+        "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank01/primary-annotation-mask.npy",
+        "sha256": "2b5f06b093652a88844f0db312908bbaa3a0c264bb35c8988884427648eb405c",
+        "size_bytes": 147584
+      }
+    },
+    {
+      "baseline_metadata": {
+        "evaluated": {
+          "path": "/workspace/herculaneum-lab/reports/eighth-experiment/implementation/run/frozen_seed42/fresh/pherc0814-46527-fresh-rank14/evaluated-mask.npy",
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+          "size_bytes": 147584
+        },
+        "inference": {
+          "evaluated_valid_pixel_count": 147456,
+          "inference_seconds": 1.8072042769999825,
+          "scored_tile_count": 25,
+          "skipped_tile_count": 0,
+          "tile_count": 25,
+          "tiles": [
+            {
+              "bbox_roi_xywh": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06970542199996999,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06644665800013172,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06552114899932349,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06695269199917675,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                0,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06738237100034894,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06536633799987612,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06553655300012906,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06552665699928184,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06624794199888129,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                64,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06639703299879329,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06631096499950218,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0658655520001048,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06586485099978745,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06612455799950112,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                128,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06618458699995244,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06398795499990229,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06544683900028758,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0662077209999552,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06555768299949705,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                192,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06485940399943502,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                0,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.0649090979986795,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                64,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06755637000060233,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                128,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06350579700119852,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                192,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06542400500075018,
+              "status": "scored"
+            },
+            {
+              "bbox_roi_xywh": [
+                256,
+                256,
+                128,
+                128
+              ],
+              "forward_seconds": 0.06585256300058973,
+              "status": "scored"
+            }
+          ],
+          "valid_but_unscored_pixel_count": 0,
+          "valid_pixel_count": 147456
+        },
+        "scores": {
+          "path": "/workspace/herculaneum-lab/reports/eighth-experiment/implementation/run/frozen_seed42/fresh/pherc0814-46527-fresh-rank14/scores.npy",
+          "sha256": "b473fb8e86827936fc5c9907cc6cd0a53fc21566a4d33f0207c5e2f4fe79f6c4",
+          "size_bytes": 589952
+        }
+      },
+      "family": "pooled21",
+      "id": "pherc0814-46527-fresh-rank14",
+      "layer_start": 2,
+      "legacy_case": {
+        "data": {
+          "annotation_center_layer": 10,
+          "arrays": {
+            "acquisition_observed_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/acquisition-observed-mask.npy",
+              "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "current_loader_label_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank14/current-loader-label-mask.npy",
+              "sha256": "424f455ffb34c6f9ba05b8e9e4c6ffccc8ed82943468a745c47da2d1b1932a33",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "evaluation_participation_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/evaluation-participation-mask.npy",
+              "sha256": "424f455ffb34c6f9ba05b8e9e4c6ffccc8ed82943468a745c47da2d1b1932a33",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "inklabels": {
+              "byte_length": 147584,
+              "dtype": "uint8",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank14/inklabels.npy",
+              "sha256": "350ad9ccc2f54268f04de8f4277b0523e62fd2e74ec081bed3b6afaa589b6f27",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "primary_annotation_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/primary-annotation-mask.npy",
+              "sha256": "3ed764716b7351df4b1edffe026c500b0262569efed644ce90f95c6e29eebee5",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "source_observed_nonzero_mask": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/source-observed-nonzero-mask.npy",
+              "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "supervision_mask": {
+              "byte_length": 147584,
+              "dtype": "uint8",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank14/supervision_mask.npy",
+              "sha256": "6aff7507848551a2955b60a17e40cb8868b1fdd11681b13e6aaee0d8d5f4aa11",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "supervision_membership": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank14/supervision-membership.npy",
+              "sha256": "424f455ffb34c6f9ba05b8e9e4c6ffccc8ed82943468a745c47da2d1b1932a33",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "surface": {
+              "byte_length": 3096704,
+              "dtype": "uint8",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/surface.npy",
+              "sha256": "1e0c0f4313f893413507ee42e8190cc8e98592955a48352ec030c655a259a8a9",
+              "shape": [
+                21,
+                384,
+                384
+              ]
+            },
+            "validation_mask": {
+              "byte_length": 147584,
+              "dtype": "uint8",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank14/validation_mask.npy",
+              "sha256": "bc7412de79acb06ecca560558be61ea0da170b8926b53c842240da7fbdc8c708",
+              "shape": [
+                384,
+                384
+              ]
+            },
+            "validation_membership": {
+              "byte_length": 147584,
+              "dtype": "bool",
+              "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank14/validation-membership.npy",
+              "sha256": "2b841f67fc5499e98dd9ecf9eb309909e0cc54373ada7e4218b5fb960faf7570",
+              "shape": [
+                384,
+                384
+              ]
+            }
+          },
+          "bbox_source_xywh": [
+            128,
+            1152,
+            384,
+            384
+          ],
+          "counts": {
+            "acquisition_observed_pixels": 147456,
+            "conditional_current_loader_training_pixels": 46890,
+            "primary_annotation_pixels": 21328,
+            "primary_negative": 16561,
+            "primary_observed_zero_profile_pixels": 0,
+            "primary_positive": 4767,
+            "raw_supervision_validation_overlap": 0,
+            "source_observed_nonzero_pixels_selected17": 147456,
+            "supervision": 46890,
+            "whole_evaluation_participation": 46890,
+            "whole_validation": 0,
+            "whole_validation_negative": 0,
+            "whole_validation_positive": 0
+          },
+          "evaluation_participation": "supervision_mask",
+          "evaluation_participation_role": "supplied_supervision",
+          "id": "pherc0814-46527-fresh-rank14",
+          "model_layer_slice": [
+            2,
+            19
+          ],
+          "physical_group": "PHerc0814",
+          "pixel_spacing_um": 9.596,
+          "provenance_record": {
+            "byte_length": 16521,
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/provenance.json",
+            "sha256": "83ca2737d5bdce5ffa86cbac30de083348dab91a6b507b22d2e6500919720a35"
+          },
+          "public_segment": "20260226000000-46527_2um_try2",
+          "role": "reserved_from_new_adaptation",
+          "shape_zyx": [
+            21,
+            384,
+            384
+          ],
+          "source_depth_slice": [
+            13,
+            97
+          ],
+          "source_surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0814/segments/20260226000000-46527_2um_try2/surface-volumes/2.399um-0.22m-78keV-volume-20260309142202.zarr"
+        },
+        "evaluation_participation_role": "supplied_supervision",
+        "id": "pherc0814-46527-fresh-rank14",
+        "inputs": {
+          "acquisition_observed_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/acquisition-observed-mask.npy",
+            "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+            "size_bytes": 147584
+          },
+          "evaluation_participation_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/evaluation-participation-mask.npy",
+            "sha256": "424f455ffb34c6f9ba05b8e9e4c6ffccc8ed82943468a745c47da2d1b1932a33",
+            "size_bytes": 147584
+          },
+          "inklabels": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank14/inklabels.npy",
+            "sha256": "350ad9ccc2f54268f04de8f4277b0523e62fd2e74ec081bed3b6afaa589b6f27",
+            "size_bytes": 147584
+          },
+          "source_observed_nonzero_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/source-observed-nonzero-mask.npy",
+            "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260",
+            "size_bytes": 147584
+          },
+          "supervision_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank14/supervision_mask.npy",
+            "sha256": "6aff7507848551a2955b60a17e40cb8868b1fdd11681b13e6aaee0d8d5f4aa11",
+            "size_bytes": 147584
+          },
+          "surface": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/surface.npy",
+            "sha256": "1e0c0f4313f893413507ee42e8190cc8e98592955a48352ec030c655a259a8a9",
+            "size_bytes": 3096704
+          },
+          "validation_mask": {
+            "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/selection/pherc0814-46527-fresh-rank14/validation_mask.npy",
+            "sha256": "bc7412de79acb06ecca560558be61ea0da170b8926b53c842240da7fbdc8c708",
+            "size_bytes": 147584
+          }
+        },
+        "physical_group": "PHerc0814",
+        "provenance": {
+          "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/provenance.json",
+          "sha256": "83ca2737d5bdce5ffa86cbac30de083348dab91a6b507b22d2e6500919720a35",
+          "size_bytes": 16521
+        }
+      },
+      "negative": 16561,
+      "parent": "PHerc0814",
+      "positive": 4767,
+      "primary_mask": {
+        "path": "/workspace/herculaneum-lab/reports/eighth-experiment/data-design/acquisition/pherc0814-46527-fresh-rank14/primary-annotation-mask.npy",
+        "sha256": "3ed764716b7351df4b1edffe026c500b0262569efed644ce90f95c6e29eebee5",
+        "size_bytes": 147584
+      }
+    }
+  ],
+  "control_evaluation": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/run-v1/eval-A_control-512/COMPLETE.json",
+    "sha256": "0a1aca2451e4ec46fe5ee4255f30d164159549d0c50696a50ae9923ba34c7e56",
+    "size_bytes": 146892
+  },
+  "control_training": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/run-v1/A_control/COMPLETE.json",
+    "sha256": "4a3ad6811626f2dd5ca89af51f56ad86f9fc93589f1fe30a2839b0b74d9ef97f",
+    "size_bytes": 307636
+  },
+  "cutoff": 0.7558947205543518,
+  "data_audit": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/DATA_AUDIT.json",
+    "sha256": "26e41b98c1e6e37ffe94065eded9cb028228ce2345e13886b8120c210352747b",
+    "size_bytes": 6502
+  },
+  "data_verification": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/DATA_VERIFICATION.json",
+    "sha256": "f3670a6cf54236af142e7f0c1cbbb368b2a2b00a18688dee49ac55c5a0775096",
+    "size_bytes": 493
+  },
+  "development_endpoints": [
+    512
+  ],
+  "evaluation_updates": [
+    512
+  ],
+  "fixed_risk_updates": [
+    32,
+    128,
+    256,
+    384,
+    512
+  ],
+  "gate": {
+    "Paris_AP_gain_vs_A512": 0.01,
+    "Paris_AP_gain_vs_seed42": 0.01,
+    "regional_AP_AUROC_min_vs_seed42": -0.02
+  },
+  "historical_control32": {
+    "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/implementation/run/A_preserve/result.json",
+    "sha256": "c6b0211afd8cb939a8fb2785c51b024bb7e27c48ae960102a94d6fcb95cd02f1",
+    "size_bytes": 421118
+  },
+  "limits": {
+    "phase_bytes": 2147483648,
+    "wall_seconds": 1800,
+    "worker_rss_bytes": 4294967296
+  },
+  "max_updates": 512,
+  "metrics": {
+    "path": "/workspace/herculaneum-lab/reports/sixth-experiment/benchmark/binary_metrics.py",
+    "sha256": "8fe2848e0b66aa0c9dcd6a05e33db0c1380e4b9781a115262585ca551891923f",
+    "size_bytes": 5698
+  },
+  "new_model_forwards_allowed": 937,
+  "new_optimizer_updates_allowed": 512,
+  "paris_plan": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/implementation/final-plan/experiment-plan.json",
+    "sha256": "58bb5c64ad64db19995c87c84d1e6a1ce6585d380afeaa7ef347ac82b138d78a",
+    "size_bytes": 26679
+  },
+  "pooled_shared": {
+    "path": "/workspace/herculaneum-lab/reports/eighth-experiment/implementation/experiment_common.py",
+    "sha256": "8d933dae02248d7b5fbbd26370c95fca53191bcff4e1dc51e984c40d8095b8cf",
+    "size_bytes": 6599
+  },
+  "prior_metrics": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/METRICS.json",
+    "sha256": "39fba70a537d606befb23cf7e7b589ae6a4c4fa6b4e8969e7308d2ceae87ae61",
+    "size_bytes": 57973
+  },
+  "protocol": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/PROTOCOL.md",
+    "sha256": "55037992c921845ba5b357e0ea538830dacdeee92577d6f791167edaea6c349d",
+    "size_bytes": 8070
+  },
+  "retention_plan": {
+    "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/retention/final-plan/retention-plan.json",
+    "sha256": "eb75f743a99d9707219689db1893df40947a7467b98d8c326b527c9f5b51f47a",
+    "size_bytes": 199788
+  },
+  "schedule38": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/data/schedule.json",
+    "sha256": "03fc968d0aba64b9d4e7ca68bebdb231d8095a80cce71e17010ee55058a95c51",
+    "size_bytes": 17942
+  },
+  "study": "phase38-class-exposure-matched-training-coverage",
+  "success": {
+    "Paris_AP_gain_vs_A512": 0.01,
+    "Paris_AP_gain_vs_seed42": 0.01,
+    "regional_AP_AUROC_min_vs_seed42": -0.02
+  },
+  "training_plan": {
+    "path": "/workspace/herculaneum-lab/reports/thirteenth-experiment/implementation/final-plan/training-plan.json",
+    "sha256": "3151f0c5ef26bc0ef3c61266ab6ee45051506037773b8aa62f42a50d925748ac",
+    "size_bytes": 78596
+  },
+  "updates": 512
+}

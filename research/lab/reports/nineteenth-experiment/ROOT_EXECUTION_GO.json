@@ -1,0 +1,28 @@
+{
+  "GPU_spend_GBP": 0,
+  "allowed_runs": 1,
+  "independent_fixture": {
+    "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-review/independent-toy-results-v1.json",
+    "sha256": "0dd289828f37754dffb2623081f1b43057472d6f3039ed50f557b522a0680362",
+    "size_bytes": 5079
+  },
+  "independent_review": "fusion_technical_review communicated final pinned technical GO before execution; formal report retained separately",
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-prototype/smoke-plan.json",
+    "sha256": "7130f486072df98df6a723d2afcb85089b11e7ff91b66afdfb05299228fda331",
+    "size_bytes": 11088
+  },
+  "recorded_at_utc": "2026-10-08T23:27:57.096041+00:00",
+  "retries": 0,
+  "reviewer": "root",
+  "scientific_training": false,
+  "scope": "One pinned actual-seed42 integration run on deterministic synthetic inputs only; no scientific data/evaluation or paid resources",
+  "source_manifest": {
+    "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/fusion-prototype/source-manifest.json",
+    "sha256": "e2ed8f515c6428b7da2c00d0d838fd04a7c98a0e48a995e348b2624af627a122",
+    "size_bytes": 2583
+  },
+  "source_review": "Root inspected wrapper, actual smoke, strict loader, fixed schedule and resource controller",
+  "status": "GO",
+  "total_first_GPU_pilot_cap_GBP": 10
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-08T11:50:23.682476+00:00",
+  "scope": "Private register created during the current literature audit; references original retained experiment reports. Not a retroactive preregistration.",
+  "experiments": [
+    {
+      "id": "first-experiment",
+      "purpose": "Initial native PHerc0800 surface screen",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/first-experiment/RESULTS.md",
+      "result_sha256": "9931991b7e57317d6a383f9dc46b404a6b72b49ab6e8287f722381281b175483",
+      "inference_scope": "Exploratory target inference; no authentic target labels",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "second-experiment",
+      "purpose": "Published reference and target controls",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/second-experiment/RESULTS.md",
+      "result_sha256": "815a0431cd0482868a7c8c9cf9c6e801e8eba83c62e4c66d684b58be62e13338",
+      "inference_scope": "Reference overlaps baseline training; possible pseudo-label supervision; not held-out accuracy",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "third-experiment",
+      "purpose": "Larger geometry-selected context and June-method comparison",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/third-experiment/RESULTS.md",
+      "result_sha256": "0afb454ba590e8c4d0b812506e5e616570145ca8d3ee5805c619b50293f5eaef",
+      "inference_scope": "Unlabeled target diagnostics; CT agreement does not establish a correct written surface",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "fourth-experiment",
+      "purpose": "Geometry-selected separate source extent",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/fourth-experiment/RESULTS.md",
+      "result_sha256": "04b0642ca2c01f6129554270ddfd35bf7bfac84519431a816d6cba13a17a730d",
+      "inference_scope": "Base-coordinate distance checked; full CT sampling-support independence unresolved",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    },
+    {
+      "id": "fifth-experiment",
+      "purpose": "Native response-location checks and surrounding context",
+      "status": "completed with no authenticated reading",
+      "result_path": "/workspace/herculaneum-lab/reports/fifth-experiment/RESULTS.md",
+      "result_sha256": "ae00dc9ccbb57b053d91a12e602288925be93d56a618a3f7c266999952b8bf9f",
+      "inference_scope": "Post hoc to fourth peaks; original native run stopped for integrity; separate offline recovery passed",
+      "held_out_accuracy_established": false,
+      "letter": null,
+      "transcription": null,
+      "translation": null,
+      "new_artifacts_uploaded_to_r2": false
+    }
+  ],
+  "next_study": {
+    "status": "design and contract audit; not frozen or executed",
+    "priority": "Newer checkpoint compatibility, supervision provenance and physical-overlap ledger before fixed inference comparison",
+    "research_program": "/workspace/herculaneum-lab/reports/frontier-methods-audit-20261008/RESEARCH_PROGRAM.md",
+    "paid_launch_ready": false,
+    "total_pilot_budget_gbp": 10,
+    "paid_gpu_spend_this_work_gbp": 0
+  }
+}

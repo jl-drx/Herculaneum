@@ -1,0 +1,163 @@
+{
+  "Frag6_stage_C_authorized": false,
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "R2_worker_secret_delivery_verified": false,
+  "actual_factory_groups": 264,
+  "adopted_baseline": "unchanged strict seed42",
+  "alias_pairs": 244,
+  "all_six_Paris_contexts": "reused development",
+  "automatic_retries": 0,
+  "checkpoint_bytes": 272767904,
+  "checkpoint_sha256": "d3d95dc41dcb24ed76b84b5e12ca5dae25d7fb34edf1dfbb93e0186f91e6fc6d",
+  "conclusion": "Full native integrity, strict loading and frozen nine-case CPU compatibility PASS; no independent accuracy reserve established.",
+  "created_at_utc": "2026-10-09T05:15:09.040500+00:00",
+  "cross_factory_bitwise_identical": true,
+  "cross_factory_counts": {
+    "logits": 180224,
+    "probabilities": 180224,
+    "raw_score": 167936
+  },
+  "decision": "One fixed native-reference comparison on existing development inputs next; no further tuning or GPU scaling yet.",
+  "evidence": {
+    "checkpoint_author": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/checkpoint-qualification/run-v1/qualification.json",
+      "sha256": "5a5257ba4d49112ab691ab8369d3985e372f61092e0cd470b84d54bc7a3274d6",
+      "size_bytes": 173977
+    },
+    "checkpoint_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/checkpoint-review/verification-v1.json",
+      "sha256": "53753ffa126635b6f92731f58eb06c9a9612251f409e9f8569f710258f6306e5",
+      "size_bytes": 241424
+    },
+    "input_contract": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/native-input-contract/INPUT_CONTRACT.json",
+      "sha256": "29f9283bb5704551b8fd17e56288439e08c6dea1c37b0631e2533a31b521d798",
+      "size_bytes": 9464
+    },
+    "inventory": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-inventory/ELIGIBILITY_MATRIX.json",
+      "sha256": "eff0517cc2e52fe1694f4da8dc7de1b8c54824cfb5753fc13524e538b9ba184d",
+      "size_bytes": 13527
+    },
+    "metadata": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-metadata/v2/PACKAGE_FINDINGS.json",
+      "sha256": "08703b546f55c1f7ecf4a58fc209cbaba6ea4c898954fa1c2a215a935ac583fb",
+      "size_bytes": 4748
+    },
+    "next_study": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "43a904c4a44cbef309b5edb20f79809158ba9ecba3d9bfc046701c6c4d989956",
+      "size_bytes": 5502
+    },
+    "parity_controller": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/model-parity/run-v1/controller-result.json",
+      "sha256": "02aca7ad957e99f7713ac4df20b4d087e80548c3a652d9d5094117ecd60fb716",
+      "size_bytes": 1040
+    },
+    "parity_plan": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/model-parity/PLAN.json",
+      "sha256": "4892d7ac6f27a3ddbd2978c1eea83f20f39f5ff999dcb4b031dba8ac36806bdd",
+      "size_bytes": 7948
+    },
+    "parity_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/parity-review/verification-v1.json",
+      "sha256": "973cf4f841e7c46dff30c03398a44fe21eb91a63825951ac5867870737677da4",
+      "size_bytes": 42849
+    },
+    "report": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/RESULTS.md",
+      "sha256": "6282359f9e37309daab1a4b01a9791ca2ac7b548e864080216eb2e4f0f3b2cde",
+      "size_bytes": 10397
+    },
+    "root_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "19b8d2a836dbc0d72ce6b4d3861fc067be0d2cb03a52c0de4f864dfba6d5d5a3",
+      "size_bytes": 3576
+    },
+    "source_closure": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/native-input-contract/HISTORICAL_FACTORY_CLOSURE.json",
+      "sha256": "d7250544daa1e74a6bef7cde882c6df415cd6714311793f12abdec9280a060c5",
+      "size_bytes": 8395
+    }
+  },
+  "explicit_revised_acquisition": "One metadata transport correction after preserved zero-body failure; separate root GO",
+  "model_constructions": 2,
+  "named_elements": 68175426,
+  "named_state_tensors": 508,
+  "network_requests": 26,
+  "network_response_body_bytes": 273128944,
+  "network_stages": [
+    {
+      "name": "historical-source",
+      "observed_response_body_bytes": 295999,
+      "receipt": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/native-input-contract/source/request-ledger.json",
+        "sha256": "fa96729a81ed4501678303098002ba6979b89acf4bed7cc71d9946d67d1ac5d3",
+        "size_bytes": 16347
+      },
+      "requests": 16
+    },
+    {
+      "name": "historical-activation",
+      "observed_response_body_bytes": 4158,
+      "receipt": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/native-input-contract/activation-source/receipt.json",
+        "sha256": "e6f814a20f0c1e7d6bca186e631c7102e3cd6451eceaf04cc609c4315cf4f8c6",
+        "size_bytes": 1112
+      },
+      "requests": 1
+    },
+    {
+      "name": "native-checkpoint",
+      "observed_response_body_bytes": 272769016,
+      "receipt": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/checkpoint-qualification/run-v1/ledger.json",
+        "sha256": "b92e708035130273d229b29e0c09b68c746332c929ecc596de6cd4b275f78373",
+        "size_bytes": 1883
+      },
+      "requests": 2
+    },
+    {
+      "name": "metadata-direct-failure",
+      "observed_response_body_bytes": 0,
+      "receipt": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-metadata/run-v1/request-ledger.json",
+        "sha256": "a3ab6374ca6895b79055fe28a752bed82f6be080c84554a1476e469d68ca845d",
+        "size_bytes": 1401
+      },
+      "requests": 1
+    },
+    {
+      "name": "metadata-proxy-correction",
+      "observed_response_body_bytes": 59771,
+      "receipt": {
+        "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-metadata/v2/run-v1/request-ledger.json",
+        "sha256": "510c380a8ea2aabe6d613406d637df1f8320750b83e9b6cc04815f9f6dec5d98",
+        "size_bytes": 6074
+      },
+      "requests": 6
+    }
+  ],
+  "new_artifacts_uploaded_to_r2": false,
+  "new_candidate_scores": 0,
+  "new_independent_accuracy_reserve": false,
+  "promoted_model": null,
+  "publication": null,
+  "reserved_unscored_parents": [
+    "PHerc0009B",
+    "PHerc0500P2",
+    "PHerc0841",
+    "PHerc0051 / Frag6"
+  ],
+  "scientific_model_forwards": 0,
+  "scientific_optimizer_updates": 0,
+  "stage2_controller_wall_seconds": 8.465005710997502,
+  "status": "completed_verified_native_checkpoint_and_synthetic_cpu_compatibility",
+  "strict_state_loads": 2,
+  "submission": null,
+  "synthetic_model_forwards": 22,
+  "transcription": null,
+  "translation": null,
+  "unique_parameters": 34546498
+}

@@ -1,0 +1,7 @@
+# Bounded EXIF follow-up
+
+The completed PSD image-resource directory exposes resource 1058 (EXIF data), a 390-byte payload at object offset 22104. XMP did not name an author. This is a new metadata lead, not a retry or a changed model outcome. Preserve the completed PSD run and its source freeze unchanged.
+
+Use its exact strong ETag and 86,107,922-byte object identity for at most 12 additional conditional ranges and 4,096 reserved body bytes. No second HEAD or whole-PSD read is needed. Parse only the EXIF TIFF header, first IFD framing and selected provenance strings: ImageDescription, Software, DateTime, Artist, Copyright and XPAuthor. Skip thumbnail, strip, image, maker-note, GPS and subordinate-IFD payloads. Do not follow the next-IFD pointer. Require the entire directory and every requested string extent inside the known EXIF resource; strings may not overlap header/directory. ASCII strings are at most 256 bytes and XPAuthor at most 256 bytes. Root reviews synthetic poison-thumbnail and invalid-extent cases before freezing.
+
+Retain all directory entries as tag/type/count/raw-value metadata, with uninterpreted offset values for skipped payloads. Matching dimensions or software timestamps do not prove annotation accuracy. Maximum external execution time is 180 seconds; base transport TLS, ETag, range validation, 30-second deadline, no retries and partial retention remain in force. This adds no image decoding, model calls, candidate evaluation, GPU spend or outreach.

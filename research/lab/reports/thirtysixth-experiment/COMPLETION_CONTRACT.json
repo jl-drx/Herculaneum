@@ -1,0 +1,133 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "additional_analytic_stress_cases": 22,
+  "automatic_recentering_qualified": false,
+  "baseline_accepted": 29525,
+  "baseline_support": 57600,
+  "completed_real_map_runs": 1,
+  "created_at_utc": "2026-10-09T11:45:38.627241+00:00",
+  "decision": "Preserve baseline/full depth; diagnostic auxiliary proposals only; counterfactual-test before model ablation",
+  "evidence": {
+    "CENSOR_STRESS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/CENSOR_STRESS.json",
+      "sha256": "d778ba54753cfa530ee2ff7e60186ac154895765cf39f3a06e800600f51f2a3a",
+      "size_bytes": 6220
+    },
+    "CENSOR_STRESS_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/CENSOR_STRESS_GO.json",
+      "sha256": "a34688b0d690274237fb45f80d25f99dca778f1c3c41ba1913a5d2e786f7409a",
+      "size_bytes": 2805
+    },
+    "CENSOR_STRESS_PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/CENSOR_STRESS_PROTOCOL.md",
+      "sha256": "d703cd6df51bd68e270c1c5689adca22d3e08ff6dfb7fc141f4c8f0a2e29946c",
+      "size_bytes": 1429
+    },
+    "FIGURES.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/FIGURES.json",
+      "sha256": "89987c8bba0784609682761c08187ffa791f3e2dab6d31d728774c9f67b0d64c",
+      "size_bytes": 461
+    },
+    "GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/GO.json",
+      "sha256": "390e43f0c955d383304b137123703dec2e9225e191c54c772a3df7df1060f35b",
+      "size_bytes": 3688
+    },
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "2304df97fd42dd09f4bbf86d750d2efe2e48b923e248eb8c8492342f61cafd3a",
+      "size_bytes": 2194
+    },
+    "PLAN.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/PLAN.json",
+      "sha256": "df0df82039752e719970236e5d4dd25d7c27f07d7cb9c1d037f4579f9fda0382",
+      "size_bytes": 1470
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/PROTOCOL.md",
+      "sha256": "7ea0bf6a3893e761a5006aad0995499cb480483670d1ec44b3dda841942a8041",
+      "size_bytes": 3383
+    },
+    "RECOVERY_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/RECOVERY_GO.json",
+      "sha256": "87d3edd4a9150065b9d433ecf433fc3b5e24e1ca4a70e7fc358ebdc44f55b9aa",
+      "size_bytes": 4620
+    },
+    "REFERENCE_STATUS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/REFERENCE_STATUS.json",
+      "sha256": "423eee432800540ba81ff6ce6d7e94ff2ffcdbf68d8005621f5ad57315ce3fb8",
+      "size_bytes": 903
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/RESULTS.md",
+      "sha256": "9f735cb9f837fbcfa241bd5fe359a27d405690524873140afadd0142e0cd096e",
+      "size_bytes": 7004
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "47263e8074e2d33a0760e6166d91d8c0bdb0c445c32041875574bfcea0e2b95f",
+      "size_bytes": 854
+    },
+    "SEARCH_EDGE_DIAGNOSTIC.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/SEARCH_EDGE_DIAGNOSTIC.json",
+      "sha256": "66c4ceef966cb36da18f781ab027030c176795188110687a5d75497f73c8774e",
+      "size_bytes": 2346
+    },
+    "SETUP_FAILURE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/SETUP_FAILURE.json",
+      "sha256": "8338036f1916b3cdc6ae32b108733712d9f2f7f2c8dd37bf63017a9bd4edaf00",
+      "size_bytes": 575
+    },
+    "STARTUP_AFTER_THIRTYSIXTH.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/STARTUP_AFTER_THIRTYSIXTH.md",
+      "sha256": "c02d20721bc689464fcc73f70cec75590b05cc06a105b366942e19882346c15b",
+      "size_bytes": 3040
+    },
+    "TEST_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/TEST_RECEIPT.json",
+      "sha256": "d8d29233cb20696af2d675337c860b0955548ef2484454dd7da358362b60d095",
+      "size_bytes": 129
+    },
+    "VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/VERIFICATION.json",
+      "sha256": "cbdcd3563e8ae734e12dfbfbf86a28039e9b23fa894d62809ece16ecb1260020",
+      "size_bytes": 1137
+    },
+    "run-v2/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/run-v2/COMPLETE.json",
+      "sha256": "7edbda771ef96762dc7d20fb5632456987b9e7e15556d01b14bbfa8e000c1d3d",
+      "size_bytes": 13907
+    },
+    "run-v2/SYNTHETIC_GATE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtysixth-experiment/run-v2/SYNTHETIC_GATE.json",
+      "sha256": "4cf89fa7aa53b174554fd13f818bc1d89257faa53f3fb81637a31d3613445685",
+      "size_bytes": 7698
+    }
+  },
+  "failed_attempt": "Synthetic result serialization; no real-map evaluation",
+  "fixtures_errors": 0,
+  "fixtures_failed": 0,
+  "fixtures_passed": 7,
+  "fixtures_skipped": 0,
+  "independent_ink_accuracy_established": false,
+  "maintainer_status": "NOT SENT; no reply supplied",
+  "network_requests": 0,
+  "new_artifacts_uploaded_to_r2": false,
+  "original_false_out_of_search_acceptances": 6,
+  "parent_count": 1,
+  "posthoc_development": true,
+  "posthoc_endpoint_flags": 2546,
+  "publication": false,
+  "schema_version": 1,
+  "scientific_model_forwards": 0,
+  "scientific_optimizer_updates": 0,
+  "scientific_run_attempts": 2,
+  "status": "completed_verified_texture_proxy_not_qualified_for_recentering",
+  "submission": false,
+  "synthetic_gate_failed": 0,
+  "synthetic_gate_passed": 41,
+  "transcription": null,
+  "translation": null,
+  "verified_energy_values": 7257600
+}

@@ -1,0 +1,48 @@
+{
+  "agent_review_of_this_phase": false,
+  "conclusion": "More optimization improved fitting but did not meet the development improvement/retention screen; Dice improved fitting without aggregate transfer",
+  "decision": "Preserve seed42 and full input contract; no trajectory extension or GPU; next consider defensible training coverage at fixed compute",
+  "figures": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/figures/all-regional-deltas.png",
+      "sha256": "5524f0285a7a15305d2b7393ca2af5a902050c71bf06bb58d4707fa022e967aa",
+      "size_bytes": 129324
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/figures/learning-curves.png",
+      "sha256": "d5a94672fbd9bff4f61c45a3ae3872d3f844362ea6b06f227822daee425b645d",
+      "size_bytes": 244649
+    }
+  ],
+  "figures_visually_reviewed": true,
+  "limitations": [
+    "All eight evaluation regions were reused development",
+    "One initializer, two training regions of one parent, fixed optimizer and Dice weight",
+    "No convergence certificate or diagnosis of representation weakness",
+    "Unresolved annotation/teacher ancestry and optical registration",
+    "Independent numeric checks do not replay autograd or optimizer updates"
+  ],
+  "new_experiment_launched": false,
+  "numerical": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/TRAINING_VERIFICATION.json",
+      "sha256": "e3230abee9491373a8dbe4351fd0bdfee7f85791691e23bf380d412691f2882f",
+      "size_bytes": 1461
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/EVALUATION_VERIFICATION.json",
+      "sha256": "869097246c23efaa9a6acb8e33e17dea1d36b0c5accf518e7795b2d5e3f1a2ef",
+      "size_bytes": 874
+    }
+  ],
+  "report": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/RESULTS.md",
+    "sha256": "fa73ff6713054d0c88e01f393508fef80b0cdbdc7e69723e5dbbc0e4ebb67451",
+    "size_bytes": 11981
+  },
+  "report_reviewed": true,
+  "reviewer": "root",
+  "scientific_code_reviewed": true,
+  "status": "completed_verified_no_endpoint_passed",
+  "unchanged_baseline": true
+}

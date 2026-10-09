@@ -1,0 +1,17 @@
+# Tenth study: independent completed-output verification
+
+**PASS for implementation and numerical verification.** All 64 scheduled losses were reconstructed directly from retained FP32 student/teacher logits, independently rebuilt source masks/targets and normalized-input fingerprints. Both final checkpoints passed bounded safe loading, full schema/alias/finite-state verification, semantic hashes and measured parameter-change checks. Historical files and checkpoints were reused unchanged.
+
+The final receipt is `result/independent-verification.json`, SHA256 `2ce60e94d8c907af6abea24a87e6ae21199f098894d892349f1e0462580e0505`, bound to executed plan `9e2c9f4f778c3f794e103191fd413937b521fa0d0b72cab0e3905778ce3e3a55`. It verifies 312 unique source/output records before and after review. Maximum complete-objective reconstruction difference is 1.2468925736364156e-7; maximum KL difference is 2.7755575615628914e-17; maximum metric/summary difference is 2.220446049250313e-16.
+
+The independent reconstruction confirms first-batch identities and preserved historical hard/smoothed losses and parameter-gradient norm receipts. Teacher logits match bitwise between the two new arms over all32scheduled batches. Teacher isolation/RNG/unchanged-state receipts match the pinned worker guards; no new model calls were used to regenerate or compare predictions. Calibration thresholds, diagnostic masks, AUC/AP, primary/secondary confusion counts, equal-context summaries, paired contrasts, descriptive screens, saved online curves and last-eight adaptation costs agree with their recorded outputs.
+
+The verified descriptive outcome is mixed: A_preserve passes the mitigation screen versus A_smooth, with mean primary sensitivity gain0.0330982; B_preserve fails versus B_smooth, with mean change−0.0274780. Both fail the initializer-retention margins. Each new arm's last-eight original supported objective remains above the frozen teacher's on those same inputs: +0.00591335 for A and +0.00365850 for B. Those are evolving preupdate training diagnostics, not final-model accuracy or a causal explanation. Root owns the scientific interpretation; shared mitigation is false under the predeclared rule.
+
+## Preserved reviewer correction
+
+The first verification attempt stopped after loss and metric reconstruction, before any checkpoint load or factory construction, because the reviewer expected a last-eight endpoint pair `[25,32]`. The final analyzer correctly records the explicit steps `[25,26,27,28,29,30,31,32]`. The preserved `review_control-v1.py` and `reviewer-correction.json` document that reviewer-only schema mistake. The corrected reviewer requires exactly all eight steps; no scientific threshold, mathematical formula, experimental source or result changed. The completed read-only verification then passed. No experiment was retrained or re-evaluated.
+
+Across verification attempts there were exactly three safe checkpoint deserializations (initializer plus two new finals) and one pinned factory construction solely for canonical schema/name inspection. There were zero model forward/backward/inference calls, optimizer steps, historical-final deserializations or network requests. Artificial-logit preparation is separately recorded in the pre-run fixture. Prior studies and frozen tenth execution files remain unchanged.
+
+These are reused supplied-annotation development diagnostics. This verification does not establish a fresh holdout, independent ink accuracy, an authentic reading, significance or novelty.

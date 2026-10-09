@@ -1,0 +1,15 @@
+# Fifteenth label-only stage: technical acceptance
+
+GO for the exact six source files and frozen scientific/source contracts in code-go.json. This accepts only root execution of six bounded label/mask downloads followed by three sequential offline selectors. It does not authorize CT, IR, models, calibration fitting, new roles, retries or scientific substitutions.
+
+Source/contract review verifies 54 retained metadata/source hash-and-size references, 42 complete HTTP200 source metadata responses totalling116,634 body bytes, the three literal canvases and54keV/3.24µm/65-plane metadata, six PNG URLs, and fixed Paris1 calibration/Paris2 evaluation roles. Publication/ancestry/registration qualifications are retained. Frag5/6 assets exist but their contracts remain deferred.
+
+Transport uses verified TLS, exact plan URLs/order, no redirects or retries, a512KiB per-object and2MiB aggregate body ceiling, and6 attempts. Partial IncompleteRead bytes are retained and hashed. Failed attempts conservatively charge the entire reserved cap; successful bodies charge their actual retained size. These are response-body accounts, not wire-traffic measurements. Structural CRC/canvas checks precede decoding; all six objects must complete and hash-match before selection. Current code fixes the review finding that failed reads could omit consumed partial bytes.
+
+PNG decoding is restricted to1/L/P, canonical binary encodings, used0-black/nonzero-white palette entries and no transparency. Verification occurs before palette lookup; palette lookup is on the reopened/loaded image, resolving the other pre-execution finding. No inversion is inferred. Positives outside support are recorded and excluded.
+
+Selection implements full native33-square surface support and label homogeneity with zero-padded exterior, complete1152-grid contexts, native3i+1 sampling, coarse32-pixel border, exact integer90% support and512/8192 class gates. It selects the first eligible row-major context and last eligible context with y>=first.y+2304, without relaxation. All24 output arrays retain separate labels/surface/known/primary masks. Network guards, sequential execution, source rechecks and fixed resource/output limits are present; RSS is an acceptance check rather than a hard physical-memory limit. The root should retain its external180s acquisition and420s selection command timeouts to bound whole commands including initial validation.
+
+Independent reviewer fixtures:27 PASS, including all five binary encodings, malformed PNG/palette cases, brute-force padded33-square reconstruction, exact support/class boundaries, incomplete-grid exclusion, centered sampling and first/last placement. Author fixtures were independently re-executed:20 PASS including mocked complete/unknown-length/truncated/opaque-failure/redirect/CRC transport cases. All arrays/images were synthetic. Zero real scientific image reads, network, checkpoints or model calls occurred in this review.
+
+Independent actual-output reconstruction remains a separate required stage owned by the numeric reviewer. GO makes no claim that real fragments satisfy eligibility or that upstream ancestry is independent.

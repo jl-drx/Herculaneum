@@ -1,0 +1,15 @@
+{
+  "status": "GO",
+  "purpose": "Close the exact active historical factory dependency before synthetic model parity",
+  "url": "https://raw.githubusercontent.com/ScrollPrize/villa/3ea17f54a9b3d5fd1aaf73e1d2c8386dbaa9f30e/vesuvius/src/vesuvius/models/build/activations.py",
+  "expected_git_blob_sha1": "08210f4b3d1c6dd3d3fc87e8c81bd68e193846ce",
+  "maximum_attempts": 1,
+  "maximum_response_body_bytes": 65536,
+  "absolute_request_timeout_seconds": 30,
+  "external_wall_seconds": 60,
+  "new_stage_separate_from_completed_source_pass": true,
+  "redirects_or_retries": false,
+  "tensor_reads_or_model_calls": false,
+  "requirements": "Verified TLS, exact pinned URL; retain request/source hashes and failures; verify Git blob identity before any future import; no installation or edits to prior evidence.",
+  "paid_GPU_spend_GBP": 0
+}

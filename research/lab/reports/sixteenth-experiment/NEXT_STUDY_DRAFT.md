@@ -1,0 +1,9 @@
+# Draft next study: explain regional failure before GPU training
+
+This is a recommended follow-up, not an executed or GPU-ready experiment. The sixteenth result is retained unchanged: all three Paris1-calibrated cutoffs fail one Paris2 region, sensitivity is low, and baseline ranking varies markedly within fragments.
+
+Use the existing six regions and saved raw bytes, labels, scores and source metadata for a bounded CPU source/alignment/depth audit. Check the declared optical-label transform, raster orientation and exposed-surface/depth provenance against independent source evidence. Summarize fixed depth/intensity and prediction-support diagnostics for every region; do not discard difficult regions. Where provenance is unavailable, retain that uncertainty explicitly.
+
+Do not choose a new flip, depth window, crop, score inversion or operating cutoff because it improves the Paris2 results. Any physically justified adapter correction requires its own documented evidence, frozen contract and new result alongside the original. Any exploratory regional analysis must be labelled evaluation-informed. Keep Paris2 fragments and aliases excluded from gradient/teacher/cutoff fitting; secure fresh parent-level evaluation material before claiming a future method generalizes.
+
+After this audit, select a concrete research hypothesis about depth/geometry-aware representation or nuisance robustness. Compare it with the unchanged seed42 baseline under an explicit training budget and success criteria. A useful GPU pilot needs a frozen experiment, pinned CUDA image/environment, current price, independent shutdown and verified bucket-scoped worker credentials. Preserve the GBP 10 TOTAL cap including failures, retries and attributable overheads. No paid resource is authorized by this draft. Further source requests need their own explicit bounded acquisition plan; no new terms, publication or upload is included.

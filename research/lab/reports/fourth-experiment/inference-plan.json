@@ -1,0 +1,93 @@
+{
+  "frozen_at_utc": "2026-10-08T10:50:02.394498+00:00",
+  "status": "Frozen before new source acquisition or inference",
+  "conditions": [
+    {
+      "name": "center",
+      "layer_start": 7,
+      "direction": "forward",
+      "seeds": [
+        "seed42",
+        "seed43"
+      ]
+    },
+    {
+      "name": "minus2",
+      "layer_start": 5,
+      "direction": "forward",
+      "seeds": [
+        "seed42"
+      ]
+    },
+    {
+      "name": "plus2",
+      "layer_start": 9,
+      "direction": "forward",
+      "seeds": [
+        "seed42"
+      ]
+    },
+    {
+      "name": "reverse",
+      "layer_start": 7,
+      "direction": "reverse",
+      "seeds": [
+        "seed42"
+      ]
+    }
+  ],
+  "verified_inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/run_ink_baseline.py",
+      "sha256": "2cbdb280777e19794fc78857969f9c1d43965da17772f6a1659264e6f5a48a59",
+      "size_bytes": 23419
+    },
+    {
+      "path": "/workspace/herculaneum-lab/vendor/villa-ink-baseline/source-manifest.json",
+      "sha256": "2165b5def9d0dede136dde8202993be800b121cb2feb13cf98e98cd0629d75df",
+      "size_bytes": 10514
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+      "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+      "size_bytes": 138360039
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+      "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f",
+      "size_bytes": 138360231
+    },
+    {
+      "path": "/workspace/herculaneum-lab/requirements.lock",
+      "sha256": "4bc5983d698c2bec4a38c367f9c0f5960f71a723b8ca14257f82ac0d8a46702f",
+      "size_bytes": 245926
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/run_screen.py",
+      "sha256": "62ef69ea385e517929cadabd5081d8c261ac99304ea5a6814290fd386c6e56bc",
+      "size_bytes": 3860
+    }
+  ],
+  "device": "cpu",
+  "threads": 4,
+  "maximum_scheduled_tiles": 125,
+  "automatic_retries": 0,
+  "per_condition_timeout_seconds": 120,
+  "analysis": {
+    "crop_margin_pixels": 64,
+    "common_domain": "Geometry-valid, source-observed, all conditions evaluated and nonzero selected-depth profiles",
+    "strict_domain": "Exclude full support of any scored tile containing invalid, unobserved, or all-zero selected-depth profiles in any condition",
+    "score_midpoint": 0.5,
+    "score_display_limits": [
+      0.25,
+      0.75
+    ],
+    "source_display_limits": [
+      0,
+      255
+    ],
+    "interpretation": "Descriptive model behavior only; no target labels or calibrated ink confidence"
+  },
+  "transcription": null,
+  "translation": null
+}

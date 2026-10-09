@@ -1,0 +1,270 @@
+{
+  "created_at_utc": "2026-10-08T09:42:24.144825+00:00",
+  "purpose": "Read-only scientific preflight; pinned source identity, preprocessing and conventions, not model inference or authenticated account work",
+  "network_payload_cap_bytes": 20971520,
+  "network_payload_bytes": 365159,
+  "downloaded_weights_or_scan_payloads": false,
+  "source_plan_sha256": "8ac0651871d83e805008051b76b1d832206fa92d974e51a40f9ab5624bb237d7",
+  "paper_code_commit": "e583fb67468f483fadd73d52e06f0ab0fe5ba813",
+  "sources": [
+    {
+      "local_file": "scientific-plan.snapshot.json",
+      "acquisition": "retained local plan snapshot",
+      "original_path": "/workspace/Herculaneum/experiments/pherc1667-reference.json",
+      "size_bytes": 18328,
+      "sha256": "8ac0651871d83e805008051b76b1d832206fa92d974e51a40f9ab5624bb237d7"
+    },
+    {
+      "local_file": "iteration-0.hf-manifest.json",
+      "acquisition": "retained local API response",
+      "original_path": "/workspace/herculaneum-lab/data/methods-review/pherc1667-iteration-0.hf-manifest.json",
+      "size_bytes": 2509,
+      "sha256": "704559d4f1da63ed7e49c49ef3574f3bffd48c55b5be12b746e07d7087d00ada",
+      "source_url": "https://huggingface.co/api/models/scrollprize/PHerc.1667-iteration-0?blobs=true"
+    },
+    {
+      "local_file": "iteration-0-README.md",
+      "acquisition": "verified retained local source",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/README.md",
+      "size_bytes": 8532,
+      "sha256": "b7f406cdc51a7874ca3f786961f744286221c890f307e043255c41577e962a78",
+      "git_blob_sha1": "e93d75d66639aed95a2a8956bf641b2936f6ac92",
+      "expected_git_blob_sha1": "e93d75d66639aed95a2a8956bf641b2936f6ac92",
+      "hf_revision": "06c306449b39df42c745608ceade243498d24243"
+    },
+    {
+      "local_file": "iteration-0-config.json",
+      "acquisition": "verified retained local source",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/config.json",
+      "size_bytes": 713,
+      "sha256": "8fdb5c7903cc3dce2c37a93b028028582fef9134b6a826870e3bfab544f5be79",
+      "git_blob_sha1": "32accd0facbc9424458e5d268460de0f07e6bd7d",
+      "expected_git_blob_sha1": "32accd0facbc9424458e5d268460de0f07e6bd7d",
+      "hf_revision": "06c306449b39df42c745608ceade243498d24243"
+    },
+    {
+      "local_file": "iteration-0-modeling_inkdetection.py",
+      "acquisition": "verified retained local source",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/modeling_inkdetection.py",
+      "size_bytes": 9564,
+      "sha256": "2264e9882f4a9b695f10e74d0dcd031ce58fc88f253d14bee8f89d328851ec16",
+      "git_blob_sha1": "c75143f25652f1e5fe9f7f7dc7b5183f00d37fb5",
+      "expected_git_blob_sha1": "c75143f25652f1e5fe9f7f7dc7b5183f00d37fb5",
+      "hf_revision": "06c306449b39df42c745608ceade243498d24243"
+    },
+    {
+      "local_file": "iteration-5.hf-manifest.json",
+      "acquisition": "retained local API response",
+      "original_path": "/workspace/herculaneum-lab/data/methods-review/pherc1667-iteration-5.hf-manifest.json",
+      "size_bytes": 2824,
+      "sha256": "62e3a2db46019eec470c6dafbc4a5db9a384eecebc476368955596a7f02e9ceb",
+      "source_url": "https://huggingface.co/api/models/scrollprize/PHerc.1667-iteration-5?blobs=true"
+    },
+    {
+      "local_file": "iteration-5-README.md",
+      "acquisition": "verified retained local source",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/README.md",
+      "size_bytes": 8362,
+      "sha256": "197fb980175f5d52408d719e700d41e39a17fa819ebf4839b3445d357657b396",
+      "git_blob_sha1": "f1ad6dd8312b455a79ff75d7edb9a15624255d35",
+      "expected_git_blob_sha1": "f1ad6dd8312b455a79ff75d7edb9a15624255d35",
+      "hf_revision": "6288ba60115ce827018926bcb0ea8e5696f33d3b"
+    },
+    {
+      "local_file": "iteration-5-config.json",
+      "acquisition": "verified retained local source",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/config.json",
+      "size_bytes": 648,
+      "sha256": "941f69c2487b51bc9eb9fc638cc6c4b4af2d30e25ccd45044751ce7eaabcd35e",
+      "git_blob_sha1": "2863b62ebc4c5448f386e7779e850cff6c083b8f",
+      "expected_git_blob_sha1": "2863b62ebc4c5448f386e7779e850cff6c083b8f",
+      "hf_revision": "6288ba60115ce827018926bcb0ea8e5696f33d3b"
+    },
+    {
+      "local_file": "iteration-5-modeling_inkdetection.py",
+      "acquisition": "verified retained local source",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/modeling_inkdetection.py",
+      "size_bytes": 9564,
+      "sha256": "2264e9882f4a9b695f10e74d0dcd031ce58fc88f253d14bee8f89d328851ec16",
+      "git_blob_sha1": "c75143f25652f1e5fe9f7f7dc7b5183f00d37fb5",
+      "expected_git_blob_sha1": "c75143f25652f1e5fe9f7f7dc7b5183f00d37fb5",
+      "hf_revision": "6288ba60115ce827018926bcb0ea8e5696f33d3b"
+    },
+    {
+      "local_file": "iteration-0-configuration_inkdetection.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/configuration_inkdetection.py",
+      "final_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/configuration_inkdetection.py",
+      "retrieved_at_utc": "2026-10-08T09:42:22.849934+00:00",
+      "size_bytes": 1742,
+      "sha256": "e9d8efd18c1ee7d9cda59eda0aa1c2b6e9eab31f3e715f3e351fa0fd0f0c0990",
+      "git_blob_sha1": "24ac6d12668bfb5cf4b448c8f61723e97264ee25",
+      "expected_git_blob_sha1": "24ac6d12668bfb5cf4b448c8f61723e97264ee25"
+    },
+    {
+      "local_file": "iteration-5-configuration_inkdetection.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/configuration_inkdetection.py",
+      "final_url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/configuration_inkdetection.py",
+      "retrieved_at_utc": "2026-10-08T09:42:22.857627+00:00",
+      "size_bytes": 1742,
+      "sha256": "e9d8efd18c1ee7d9cda59eda0aa1c2b6e9eab31f3e715f3e351fa0fd0f0c0990",
+      "git_blob_sha1": "24ac6d12668bfb5cf4b448c8f61723e97264ee25",
+      "expected_git_blob_sha1": "24ac6d12668bfb5cf4b448c8f61723e97264ee25"
+    },
+    {
+      "local_file": "paper-ink-detection__train_resnet3d.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d.py",
+      "retrieved_at_utc": "2026-10-08T09:42:22.921110+00:00",
+      "size_bytes": 3049,
+      "sha256": "d7c90a2ba4acf2871f726a1f48afb2c1285bbfae9856896e440abd419a70bd7e",
+      "git_blob_sha1": "778285fab37062208abc117ca5e19e6c22b03c54",
+      "expected_git_blob_sha1": "778285fab37062208abc117ca5e19e6c22b03c54"
+    },
+    {
+      "local_file": "paper-ink-detection__train_resnet3d_lib__config.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/config.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/config.py",
+      "retrieved_at_utc": "2026-10-08T09:42:23.019882+00:00",
+      "size_bytes": 37547,
+      "sha256": "a33411204eb5918aa8dfbd3ca54d87748b81141a726cca7896d59027979fe82b",
+      "git_blob_sha1": "1b753a72f8d5742fa73b5ce9704f6a09c375ff06",
+      "expected_git_blob_sha1": "1b753a72f8d5742fa73b5ce9704f6a09c375ff06"
+    },
+    {
+      "local_file": "paper-ink-detection__train_resnet3d_lib__data_ops.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/data_ops.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/data_ops.py",
+      "retrieved_at_utc": "2026-10-08T09:42:23.377478+00:00",
+      "size_bytes": 50921,
+      "sha256": "89deefebfadd4374e6335e4687e7e32b1d202d403ea6316293738e91a9b09119",
+      "git_blob_sha1": "1c25db893c30f1bf48582be24ecb671e18a44ed6",
+      "expected_git_blob_sha1": "1c25db893c30f1bf48582be24ecb671e18a44ed6"
+    },
+    {
+      "local_file": "paper-ink-detection__train_resnet3d_lib__datasets_builder.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/datasets_builder.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/datasets_builder.py",
+      "retrieved_at_utc": "2026-10-08T09:42:23.389475+00:00",
+      "size_bytes": 41857,
+      "sha256": "7ce8765147b1f0e0cda92b3915b9cc9a4c179a4cbd81b843ebbeef7c4c4dfed7",
+      "git_blob_sha1": "fbd3fae0eae0e1a75c21ba228f5359eca1509007",
+      "expected_git_blob_sha1": "fbd3fae0eae0e1a75c21ba228f5359eca1509007"
+    },
+    {
+      "local_file": "paper-ink-detection__train_resnet3d_lib__orchestration.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/orchestration.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/orchestration.py",
+      "retrieved_at_utc": "2026-10-08T09:42:23.415789+00:00",
+      "size_bytes": 19435,
+      "sha256": "7d5cf5df9bd33db151b53f5b4234457d48bdadcf8113803d22ba801941842d82",
+      "git_blob_sha1": "5df798e2565c6896b2a97db966b409e2530b4bba",
+      "expected_git_blob_sha1": "5df798e2565c6896b2a97db966b409e2530b4bba"
+    },
+    {
+      "local_file": "paper-ink-detection__train_resnet3d_lib__model.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/model.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/model.py",
+      "retrieved_at_utc": "2026-10-08T09:42:23.568599+00:00",
+      "size_bytes": 96542,
+      "sha256": "a752373f0e77a708eb3342d3d6f40c781c7894ecd72f0ab107d8946ee6a86d1f",
+      "git_blob_sha1": "c30866a0f1dfa48b5c19801a41f2d9a47ebba46a",
+      "expected_git_blob_sha1": "c30866a0f1dfa48b5c19801a41f2d9a47ebba46a"
+    },
+    {
+      "local_file": "paper-ink-detection__train_resnet3d_lib__training.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/training.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/train_resnet3d_lib/training.py",
+      "retrieved_at_utc": "2026-10-08T09:42:23.709599+00:00",
+      "size_bytes": 6664,
+      "sha256": "77975be4256b8fb63f6b64efafc7f713873f78c1e23cbb035f4775c9288d5f71",
+      "git_blob_sha1": "76500e87f2e0ae9dfec47147c96bd2cbb27610ac",
+      "expected_git_blob_sha1": "76500e87f2e0ae9dfec47147c96bd2cbb27610ac"
+    },
+    {
+      "local_file": "paper-ink-detection__inference_resnet3d.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/inference_resnet3d.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/inference_resnet3d.py",
+      "retrieved_at_utc": "2026-10-08T09:42:23.730863+00:00",
+      "size_bytes": 24229,
+      "sha256": "aad96d2fa2b6b7032629a40960e42f94c226e9846f259650a6f33d5bbaa4ddfc",
+      "git_blob_sha1": "a9773cd0a05c1461e7bf5845c9daa72d1bc4eecb",
+      "expected_git_blob_sha1": "a9773cd0a05c1461e7bf5845c9daa72d1bc4eecb"
+    },
+    {
+      "local_file": "paper-ink-detection__infer_resnet3d_vesuvius.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/infer_resnet3d_vesuvius.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/infer_resnet3d_vesuvius.py",
+      "retrieved_at_utc": "2026-10-08T09:42:23.841028+00:00",
+      "size_bytes": 15172,
+      "sha256": "b64ac89b14279c8f50a1773832348a22134fcd718b36fae8bd40cd82e518506e",
+      "git_blob_sha1": "fd71a810ee991ed62880d770ab62c7524a4ef0e1",
+      "expected_git_blob_sha1": "fd71a810ee991ed62880d770ab62c7524a4ef0e1"
+    },
+    {
+      "local_file": "paper-ink-detection__optimized_inference__inference.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/optimized_inference/inference.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/optimized_inference/inference.py",
+      "retrieved_at_utc": "2026-10-08T09:42:23.852684+00:00",
+      "size_bytes": 25047,
+      "sha256": "af165d3a3afb84b0272ec94d7ec883b90cd750b83a6e54bee6874f9a04f022dc",
+      "git_blob_sha1": "9b80c8534b6bde3e68c82e85a6db35f67a1d5246",
+      "expected_git_blob_sha1": "9b80c8534b6bde3e68c82e85a6db35f67a1d5246"
+    },
+    {
+      "local_file": "paper-ink-detection__optimized_inference__processing.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/optimized_inference/processing.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/optimized_inference/processing.py",
+      "retrieved_at_utc": "2026-10-08T09:42:24.137787+00:00",
+      "size_bytes": 31979,
+      "sha256": "63bf641bf4f687c4ccfe16b91df3cceee5b4138dbab6e4265b0209233b81fc75",
+      "git_blob_sha1": "4cbe9d5350b89f37e022823e71a726dad99a8f06",
+      "expected_git_blob_sha1": "4cbe9d5350b89f37e022823e71a726dad99a8f06"
+    },
+    {
+      "local_file": "paper-ink-detection__optimized_inference__requirements.txt",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/optimized_inference/requirements.txt",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/optimized_inference/requirements.txt",
+      "retrieved_at_utc": "2026-10-08T09:42:24.050053+00:00",
+      "size_bytes": 552,
+      "sha256": "16521356582d75e1501b23722ecc8f5350e0f30cb9c6d2e8826ad5928b1c60c6",
+      "git_blob_sha1": "82db3962fc94fdabc9c50826b161cae3987d7f83",
+      "expected_git_blob_sha1": "82db3962fc94fdabc9c50826b161cae3987d7f83"
+    },
+    {
+      "local_file": "paper-ink-detection__optimized_inference__runtime_contracts.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/optimized_inference/runtime_contracts.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/optimized_inference/runtime_contracts.py",
+      "retrieved_at_utc": "2026-10-08T09:42:24.142799+00:00",
+      "size_bytes": 826,
+      "sha256": "51619ff8cebfd038009712ac28478865eac2b9eeb943e26ed3d11870aeaf22ed",
+      "git_blob_sha1": "ff3d7912b425d3dc404a3574e61d6c7157d91e08",
+      "expected_git_blob_sha1": "ff3d7912b425d3dc404a3574e61d6c7157d91e08"
+    },
+    {
+      "local_file": "paper-ink-detection__models__resnetall.py",
+      "acquisition": "verified HTTPS pinned source",
+      "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/models/resnetall.py",
+      "final_url": "https://raw.githubusercontent.com/ScrollPrize/villa/e583fb67468f483fadd73d52e06f0ab0fe5ba813/ink-detection/models/resnetall.py",
+      "retrieved_at_utc": "2026-10-08T09:42:24.140790+00:00",
+      "size_bytes": 7855,
+      "sha256": "2b49ac430d77bae189cf002ed9c2748f940a6cd92b809a23db6f7dba381afbf6",
+      "git_blob_sha1": "bf38f32642eff9fbd5fa38f4158ee26228f657fa",
+      "expected_git_blob_sha1": "bf38f32642eff9fbd5fa38f4158ee26228f657fa"
+    }
+  ]
+}

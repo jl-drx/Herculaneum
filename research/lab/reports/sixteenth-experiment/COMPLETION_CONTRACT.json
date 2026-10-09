@@ -1,0 +1,317 @@
+{
+  "adopted_baseline": "unchanged strict seed42",
+  "created_at_utc": "2026-10-08T21:49:55.239762+00:00",
+  "evidence": {
+    "benchmark": {
+      "path": "/workspace/herculaneum-lab/reports/fifteenth-experiment/BENCHMARK_CONTRACT.json",
+      "sha256": "a4026cce7ca55d5aaeeaa0736061ab6b7c8aa13875155682d24e74c139fe5735",
+      "size_bytes": 26127
+    },
+    "cutoff_barrier": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/locks-ready.json",
+      "sha256": "b0ca20dc442d02a7dbd8bcc5e56bf45668663b53fba75e9223e12a8091391b61",
+      "size_bytes": 6145
+    },
+    "independent_CT": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/production-verification/completed-review/verification.json",
+      "sha256": "a772b9eabbf85ddabdc7f47e5ec6eb472bfdae11861c95ee4ba7a08b49002a28",
+      "size_bytes": 3748980
+    },
+    "independent_inference": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification-v2/completed-review/verification.json",
+      "sha256": "e9f4c377f67ff25b7824a943da41c825ca35f5dbd2a85c3a150cee2c1bc8d8a4",
+      "size_bytes": 82236
+    },
+    "inference_plan": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/final-plan/comparison-plan.json",
+      "sha256": "6ab47a1998a0dd5755db1f503cfb03f8301d91be19d11784ad2456f78df11018",
+      "size_bytes": 55952
+    },
+    "inference_run": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/run/results.json",
+      "sha256": "4908f7146108e559c0e80c5febaffcd834d00207ea3fdc784aa591960ff0c695",
+      "size_bytes": 12018
+    },
+    "load_accounting": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/LOAD_ACCOUNTING_CLARIFICATION.md",
+      "sha256": "7d263c32041bca7edb99462f8205e73b641c0ba4620fb68ff02b58154271f14b",
+      "size_bytes": 1092
+    },
+    "metadata_result": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-acquisition/metadata-run/result.json",
+      "sha256": "cca881ade43b0ba1e46d2d3e2c65654fa91d5333171b086af4399a2494dc629b",
+      "size_bytes": 751784
+    },
+    "metrics": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference/analysis/metrics.json",
+      "sha256": "c911803a07ac44741eb9724b2e4b78dbfd8cb32f92848378960960f17d1ee175",
+      "size_bytes": 86092
+    },
+    "original_header_STOP": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/retrieval/header-run/result.json",
+      "sha256": "09b907d2803486d53fda88a7091bd8860123bcd575c59585bfac9307a5d4a545",
+      "size_bytes": 3266
+    },
+    "original_inference_review_STOP": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/numeric-review/inference-verification/completed-review/FAILURE_RECEIPT.json",
+      "sha256": "81115497e403b06583f316bb26c841ab9bb27a7787b7f2921fb4db95687b370b",
+      "size_bytes": 3407
+    },
+    "original_pooling_STOP": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/pooling-original-attempt-stop.json",
+      "sha256": "aa9f152809ca09c4c80598bdb7abf952ef186105607aacd04711809a249947d1",
+      "size_bytes": 2101
+    },
+    "pixel_result": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-acquisition/pixel-run/result.json",
+      "sha256": "c9cc64e4c39ee063bbc67bcddf547fabd51c71af36143a1527c4130867e0185c",
+      "size_bytes": 1490658
+    },
+    "pooled_descriptor": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling-v2/pooling-run/pooled-descriptor.json",
+      "sha256": "fef036010df97b465830da24a69a6ee583f61d0ac7831898f30b4e6e351d6e07",
+      "size_bytes": 15081
+    },
+    "pooling_correction": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/POOLING_JSON_CORRECTION.md",
+      "sha256": "fab8bc5d5ec205b97d47f8c05c78e05dd31006744c8119c52e9e52501cc23625",
+      "size_bytes": 2222
+    },
+    "pooling_result": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-pooling-v2/pooling-run/result.json",
+      "sha256": "36ca7d9284cab89edead60436a86215922cf2f5baf3df2178d2b542b5b97628d",
+      "size_bytes": 12673
+    },
+    "presentation": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/reporting/completed-results/presentation-receipt.json",
+      "sha256": "5d5f5db2cd7a5b8466bde3ac817e7ead3a441159087b94b81ab8cdc1b025238c",
+      "size_bytes": 1884
+    },
+    "production_design": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/PRODUCTION_INPUT_DESIGN.md",
+      "sha256": "5c942839223b69b8667da841db82babc15dbf62eaed0bf37005d76130e5315d8",
+      "size_bytes": 8761
+    },
+    "raw_provenance": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/production-acquisition/pixel-run/raw-provenance.json",
+      "sha256": "c9cc64e4c39ee063bbc67bcddf547fabd51c71af36143a1527c4130867e0185c",
+      "size_bytes": 1490658
+    },
+    "research_design": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/RESEARCH_DESIGN.md",
+      "sha256": "34fd5a0312240a1e27fc5fafa2727c1205e9b2283148fbe27d9a4d70b63f6778",
+      "size_bytes": 9856
+    },
+    "retrospective_execution_context": {
+      "path": "/workspace/herculaneum-lab/reports/sixteenth-experiment/inference-execution-context.json",
+      "sha256": "abbd3f86999b228a26d2070aa8e650d1f8aa31a0be45607d46a24f3e0700e3a8",
+      "size_bytes": 1807
+    }
+  },
+  "input_execution": {
+    "all_phase_GETs": 2001,
+    "all_phase_retained_response_body_bytes": 861973578,
+    "automatic_network_retries": 0,
+    "bitwise_independent_CT_PASS": true,
+    "combined_production_bytes": 1372187238,
+    "combined_production_cap_bytes": 2147483648,
+    "contexts": 6,
+    "corrected_pooling_wall_seconds": 22.560626480999872,
+    "earlier_probe_GETs": 21,
+    "objects": 153,
+    "original_pooling_STOP_before_numeric_CT_decode": true,
+    "pooling_attempts": 2,
+    "production_metadata_GETs": 450,
+    "production_pixel_GETs": 1530,
+    "production_pixel_response_body_bytes": 848908566,
+    "shape": [
+      17,
+      384,
+      384
+    ],
+    "useful_source_sample_bytes": 812187648,
+    "whole_M_P_C_elapsed_seconds": 931.0766229629517,
+    "whole_M_P_C_wall_cap_seconds": 1500
+  },
+  "interpretation": "All three new Paris1 cutoff rules fail the all-four Paris2 specificity check; sensitivity remains low. Ranking varies strongly by region; candidates have slightly higher mean AUC but lower mean AP and sensitivity than baseline.",
+  "limitations": [
+    "One evaluation parent papyrus, Paris2, with two fragments and four contexts.",
+    "Labels were inspected for support gates; evaluation is not label-blind.",
+    "Complete upstream teacher/pretraining exposure is unknown.",
+    "Exact CT bytes do not establish optical annotation or anatomical registration correctness.",
+    "No independent-pixel uncertainty estimates, significance test, model promotion or authentic reading.",
+    "Future method decisions informed by these results need fresh evaluation material for confirmation.",
+    "Saved-output arithmetic and source/receipt review do not independently authenticate weight execution."
+  ],
+  "model_execution": {
+    "backward_calls": 0,
+    "calibration_forwards": 150,
+    "candidate_raw_state_strict_loads": 4,
+    "evaluation_forwards": 300,
+    "final_role_worker_constructions": 6,
+    "initializer_strict_loads": 6,
+    "model_execution_attempts": 1,
+    "model_execution_retries": 0,
+    "new_checkpoints": 0,
+    "optimizer_updates": 0,
+    "tile_forwards": 450,
+    "total_load_state_dict_calls": 10,
+    "wall_seconds": 58.634292568999626
+  },
+  "new_artifacts_uploaded_to_R2": false,
+  "paid_GPU_spend_GBP": 0,
+  "paris2_equal_fragment": {
+    "A_preserve": {
+      "ap": 0.38035337959517573,
+      "auc": 0.6616619542326944,
+      "operating": {
+        "frag3_only": {
+          "balanced_accuracy": 0.5067426384242429,
+          "f1": 0.07121361738909049,
+          "precision": 0.4007191339148597,
+          "predicted_positive_fraction": 0.02837183938721141,
+          "sensitivity": 0.039184690495851694,
+          "specificity": 0.9743005863526343
+        },
+        "retained_fourteenth": {
+          "balanced_accuracy": 0.5027485727178844,
+          "f1": 0.03831605406835653,
+          "precision": 0.4651913592232657,
+          "predicted_positive_fraction": 0.01591204018926097,
+          "sensitivity": 0.02000897494925171,
+          "specificity": 0.985488170486517
+        }
+      },
+      "supplied_positive_prevalence": 0.2101543494685743
+    },
+    "B_preserve": {
+      "ap": 0.37871106432545526,
+      "auc": 0.6629908775848192,
+      "operating": {
+        "frag3_only": {
+          "balanced_accuracy": 0.5059990211740208,
+          "f1": 0.06912325052919836,
+          "precision": 0.3919428830832224,
+          "predicted_positive_fraction": 0.02835550285102926,
+          "sensitivity": 0.037998700187376305,
+          "specificity": 0.9739993421606652
+        },
+        "retained_fourteenth": {
+          "balanced_accuracy": 0.5017875440063242,
+          "f1": 0.033932756643079945,
+          "precision": 0.4501027942822699,
+          "predicted_positive_fraction": 0.015060967951400021,
+          "sensitivity": 0.01764478090239701,
+          "specificity": 0.9859303071102514
+        }
+      },
+      "supplied_positive_prevalence": 0.2101543494685743
+    },
+    "frozen_seed42": {
+      "ap": 0.3842856729084452,
+      "auc": 0.6576421877658194,
+      "operating": {
+        "frag3_only": {
+          "balanced_accuracy": 0.510013161614217,
+          "f1": 0.08168757376158972,
+          "precision": 0.4170488842010411,
+          "predicted_positive_fraction": 0.029466547220910883,
+          "sensitivity": 0.04546837633119688,
+          "specificity": 0.9745579468972372
+        },
+        "retained_fourteenth": {
+          "balanced_accuracy": 0.5055501296193632,
+          "f1": 0.049115885407920994,
+          "precision": 0.4752064027607512,
+          "predicted_positive_fraction": 0.01745477054006366,
+          "sensitivity": 0.025980527515369004,
+          "specificity": 0.9851197317233575
+        }
+      },
+      "supplied_positive_prevalence": 0.2101543494685743
+    }
+  },
+  "promoted_model": null,
+  "publication": false,
+  "schema_version": 1,
+  "specificity_transfer_checks": {
+    "A_preserve": {
+      "frag3_only": {
+        "all_four": false,
+        "per_context": {
+          "frag1-context1": false,
+          "frag1-context2": true,
+          "frag2-context1": true,
+          "frag2-context2": true
+        }
+      },
+      "retained_fourteenth": {
+        "all_four": true,
+        "per_context": {
+          "frag1-context1": true,
+          "frag1-context2": true,
+          "frag2-context1": true,
+          "frag2-context2": true
+        }
+      }
+    },
+    "B_preserve": {
+      "frag3_only": {
+        "all_four": false,
+        "per_context": {
+          "frag1-context1": false,
+          "frag1-context2": true,
+          "frag2-context1": true,
+          "frag2-context2": true
+        }
+      },
+      "retained_fourteenth": {
+        "all_four": true,
+        "per_context": {
+          "frag1-context1": true,
+          "frag1-context2": true,
+          "frag2-context1": true,
+          "frag2-context2": true
+        }
+      }
+    },
+    "frozen_seed42": {
+      "frag3_only": {
+        "all_four": false,
+        "per_context": {
+          "frag1-context1": false,
+          "frag1-context2": true,
+          "frag2-context1": true,
+          "frag2-context2": true
+        }
+      },
+      "retained_fourteenth": {
+        "all_four": true,
+        "per_context": {
+          "frag1-context1": true,
+          "frag1-context2": true,
+          "frag2-context1": true,
+          "frag2-context2": true
+        }
+      }
+    }
+  },
+  "status": "completed_independently_verified",
+  "thresholds": {
+    "A_preserve": {
+      "frag3_only": 0.7076279520988464,
+      "retained_fourteenth": 0.7450202703475952
+    },
+    "B_preserve": {
+      "frag3_only": 0.7000159621238708,
+      "retained_fourteenth": 0.7422624826431274
+    },
+    "frozen_seed42": {
+      "frag3_only": 0.726689338684082,
+      "retained_fourteenth": 0.7558947205543518
+    }
+  },
+  "total_first_GPU_pilot_cap_GBP": 10,
+  "transcription": null,
+  "translation": null
+}

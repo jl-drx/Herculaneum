@@ -1,0 +1,13 @@
+# Next direction for discussion: training coverage at fixed compute
+
+Phase37 is complete. No endpoint passed. More updates alone gave a modest control improvement with a regional failure; the Dice recipe improved training fit without useful aggregate Paris transfer. Do not run another extension of those trajectories or treat this as evidence that a new representation is required.
+
+Recommend one next CPU comparison: keep the original full-network control objective, initializer, 17-plane input, optimizer and 512-update budget; change only how broadly defensible manual training examples are sampled. The old two-region schedule is the narrow-coverage control. A second arm would distribute the same total updates across additional eligible regions, preferably another training parent. More diverse examples, not more repeated compute, are the hypothesis.
+
+This is a candidate direction, not a frozen executable protocol. First identify available manual training material and audit physical parent, overlap, label/support semantics, rendering contract and known teacher ancestry. No claim is made here that a second eligible parent is already available. Unknown pixels remain excluded. No Paris or PHerc0814 evaluation labels may enter training. Do not use Frag6's unqualified optical registration as new truth or consume PHerc0009B, PHerc0500P2 or PHerc0841. If eligible data cannot be established, report that constraint rather than silently relaxing eligibility.
+
+The unchanged seed42 and the completed phase37 A512 are the reference states. Reusing A512 without another control training run is valid only if the exact original runtime, inputs and training recipe remain identical; any required change needs a newly matched control and a revised budget. Any new eligible training material must be selected without ranking its candidate performance on the evaluation panel.
+
+Before a new run, freeze the candidate source manifest, deterministic sampling, participation masks and resources. A reasonable proposed decision gate is at least +0.01 equal-parent Paris AP over seed42 and over A512, with no region losing more than 0.02 AP or AUROC against seed42. These would remain development comparisons on the same eight inspected regions; success would require prospective replication before GPU work or accuracy claims. Use the fixed 512-update cap and stop on integrity, nonfinite or resource failure; no extension or best-checkpoint selection from results.
+
+This direction tests whether broader supervised exposure improves transfer under the existing representation. It will not by itself establish optical alignment or identify the architecture as the limiting factor. No acquisition, training, model evaluation or paid work for this candidate has begun.

@@ -1,0 +1,60 @@
+{
+  "GPU_spend_GBP": 0,
+  "code_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/implementation/code-freeze.json",
+    "sha256": "f96dbe6d96a37a507f2b17bfeb32caf2039ceceea045fbc9a9c2b3d6dbc69ab4",
+    "size_bytes": 3003
+  },
+  "configuration": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/EXPERIMENT_CONFIG.json",
+    "sha256": "8bbf9a4a4f6a298d054551550bb9badf9bd6a37e2fb63b214f97b2d2c42c0b40",
+    "size_bytes": 2671
+  },
+  "created_at_utc": "2026-10-08T23:46:45.495618+00:00",
+  "independent_checker_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/independent-review/CHECKER_FREEZE.json",
+    "sha256": "40002d914082d5519554282a3256e912631bf66044a3e25967591a7a4061d0c2",
+    "size_bytes": 2516
+  },
+  "independent_preflight": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/independent-review/preflight-v1/verification.json",
+    "sha256": "22a0a16d499b9c5f77fdc6a0bbf7478c945083f1f9d525f0d9570652fad05031",
+    "size_bytes": 11494
+  },
+  "numerical_contract": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/independent-review/NUMERICAL_CONTRACT.md",
+    "sha256": "5e4dbc5c60ee0ba4e53c052a23f4dffabe37a64a6b36d08006aaf4fd47d280fc",
+    "size_bytes": 5490
+  },
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/implementation/final-plan/experiment-plan.json",
+    "sha256": "58bb5c64ad64db19995c87c84d1e6a1ce6585d380afeaa7ef347ac82b138d78a",
+    "size_bytes": 26679
+  },
+  "preserved_prelaunch_stop": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/ROOT_PRELAUNCH_STOP.json",
+    "sha256": "16b2ac5fd49b304f4c545652c94f464d523835a4866a7b2309cc7e285e29e7f5",
+    "size_bytes": 826
+  },
+  "protocol": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/RESEARCH_DESIGN.md",
+    "sha256": "0c06563607d26d43e8e3e8e83c9debf5bf15bf2dc11722b1d66a2d7028bbb4a1",
+    "size_bytes": 11882
+  },
+  "retries": 0,
+  "reviewer": "root",
+  "runtime": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/runtime-preflight.json",
+    "sha256": "2c3c061360c0f7cfa17649f27cb3097648b96c7f305943eaa75776a457247a7a",
+    "size_bytes": 386
+  },
+  "scientific_decision": "Execute fixed developmental comparison with no tuning or automatic promotion",
+  "scope": "One matched CPU scientific training pair, then both final development arms after independent training PASS; no paid resources",
+  "status": "GO",
+  "technical_review": {
+    "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/technical-review/TECHNICAL_GO.json",
+    "sha256": "a2c562dee20af2f930d4d5d5ec1586867f56cb29799dc57fc07403dd41fb1f61",
+    "size_bytes": 7027
+  },
+  "total_first_GPU_pilot_cap_GBP": 10
+}

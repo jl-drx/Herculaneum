@@ -1,0 +1,15 @@
+# Proposed next comparison: fixed reduction of prediction change
+
+Phase38 is complete. The coverage arm passes all eight regional retention limits against seed42, but fails the AP improvement gate and is 0.001147 below phase37 A512. Its original-source fitting is weaker. Preserve seed42; do not promote the mixture, extend its training or rent a GPU.
+
+Before another trained mixture, compare against one cheap control constructed from retained score maps: S_half = 0.5*S_seed42 + 0.5*S_A512, calculated in float64 from the retained FP32 scores. The coefficient is fixed here before any such combined map or metric has been computed. Do not fit it, sweep alternatives, choose it separately by region or tune thresholds. This is a prediction comparator, not a new trained checkpoint, a depth/fusion adapter, or proof of equivalence to fewer updates. The scores are not claimed to be calibrated probabilities.
+
+The question is whether the apparent retention benefit of the mixed data can be matched by simply reducing the original control's prediction change. The mixture retains all original unique pixels but only half the PHerc0139 patches at each schedule cycle. Source-specific exposure therefore changed despite exact total positive/negative matching; we have not isolated a pure diversity mechanism.
+
+Use all eight unchanged development regions and masks, with the same exact-tie AP/AUROC and equal-parent Paris aggregation. Reuse seed42, A512 and coverage512 as fixed references. Report every regional delta, worst AP and worst AUROC losses against seed42, and aggregate AP. Retain the existing +0.01 versus seed42/A512 and no region below -0.02 advancement gate; do not change it to make a cheap comparator pass.
+
+As a separate descriptive comparison, check whether S_half has at least coverage512's equal-parent Paris AP while its worst AP and worst AUROC losses against seed42 are no worse. Passing that relation would weaken the case that this particular mixture provides something unavailable from reduced prediction movement. Failing it would show only that this one fixed midpoint does not match the same tradeoff; it would not rule out all reduced-update or preservation controls.
+
+This should require no new neural forwards, training, source acquisition, teacher generation or GPU. Before execution, bind both input score sets, code, full support, exact arithmetic and a short CPU/output budget. Independently reconstruct the combined scores and ranking metrics. Mark the analysis post-result with respect to phase38, while freezing its coefficient and decision rules before its own outputs. Keep the original phase38 result unchanged.
+
+Only if the mixture has a distinct advantage over this control should a preselected, disjoint second PHerc1667 crop become the next trained source-region replication. This is a proposal, not an executed analysis. No combined score maps or ranking metrics for it have been produced. All existing evaluation contexts remain reused development, and reserved parents remain untouched.

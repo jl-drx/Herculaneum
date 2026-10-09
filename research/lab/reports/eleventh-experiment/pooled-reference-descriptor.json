@@ -1,0 +1,221 @@
+{
+  "status": "pooled_reference_complete_no_inference",
+  "preprocessing": {
+    "source_planes_inclusive": [
+      7,
+      57
+    ],
+    "depth_group_size": 3,
+    "xy_group_size": 3,
+    "sum_dtype": "uint32",
+    "division_dtype": "float64",
+    "output_dtype": "float32",
+    "scale_divisor": 257,
+    "formula": "float32(uint32_sum_of_27_source_uint16_values / float64(27*257))",
+    "source_group_centers": [
+      8,
+      11,
+      14,
+      17,
+      20,
+      23,
+      26,
+      29,
+      32,
+      35,
+      38,
+      41,
+      44,
+      47,
+      50,
+      53,
+      56
+    ],
+    "center_source_plane": 32,
+    "pixel_spacing_um": 9.72,
+    "integer_quantization": false
+  },
+  "cases": [
+    {
+      "id": "frag4-context1",
+      "native_bbox_yxhw": [
+        0,
+        1152,
+        1152,
+        1152
+      ],
+      "arrays": {
+        "surface": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/ct-acquisition/run/frag4-context1/surface.npy",
+          "sha256": "a4141ddf97a70e795b05358c50dbb379037ad5aa64b99ffd44fd9f3507fab361",
+          "bytes": 10027136
+        },
+        "labels": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/reference-selection/frag4-context1/labels.npy",
+          "bytes": 147584,
+          "sha256": "74f2691ebdd25ad99d029fdab32879606ce8a1988ae5c70b1e61b216d928dc32"
+        },
+        "primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/reference-selection/frag4-context1/primary-mask.npy",
+          "bytes": 147584,
+          "sha256": "aac2ee54889e2713a170045165fc6dea2ee9be2261f3efc2abf649b3efdf7396"
+        },
+        "known_mask": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/reference-selection/frag4-context1/known-mask.npy",
+          "bytes": 147584,
+          "sha256": "930794d3997c9d7dd3d8464bd1a55955d06062768fd6d52aee96e0e9546dd147"
+        },
+        "surface_mask": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/reference-selection/frag4-context1/surface-mask.npy",
+          "bytes": 147584,
+          "sha256": "dbaff2f0b3c276dea0e0b9ba0d12a87c07c0abbb62c3e1dd03c3680b2ff5a79f"
+        }
+      }
+    },
+    {
+      "id": "frag4-context2",
+      "native_bbox_yxhw": [
+        8064,
+        3456,
+        1152,
+        1152
+      ],
+      "arrays": {
+        "surface": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/ct-acquisition/run/frag4-context2/surface.npy",
+          "sha256": "e665f6ee52775980234d956ccfe615bbcf41b26d5ef7b0893125be79c2dec547",
+          "bytes": 10027136
+        },
+        "labels": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/reference-selection/frag4-context2/labels.npy",
+          "bytes": 147584,
+          "sha256": "875eecd014f52b90db6df1b4f9a5f21c3318f82928509903bb33f31fc7c3a57b"
+        },
+        "primary_mask": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/reference-selection/frag4-context2/primary-mask.npy",
+          "bytes": 147584,
+          "sha256": "497e3be78f814ad2a630642ab82c633eb15cf3838d94bd19a0bb9c860a6d64f6"
+        },
+        "known_mask": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/reference-selection/frag4-context2/known-mask.npy",
+          "bytes": 147584,
+          "sha256": "697bcd333ee119ef6b9de0ec9de670de505bcb75f28db150485311aa02aefef2"
+        },
+        "surface_mask": {
+          "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/reference-selection/frag4-context2/surface-mask.npy",
+          "bytes": 147584,
+          "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260"
+        }
+      }
+    }
+  ],
+  "CT_acquisition": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/ct-acquisition/run/provenance.json",
+    "bytes": 293133,
+    "sha256": "8ecc378ef0355d5dd379d56320a4b5eaeba0221af471d626ece1f6b36589cb35"
+  },
+  "CT_ledger": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/ct-acquisition/run/request-ledger.json",
+    "sha256": "8f33bf3374c431154632fc087368c054b204a95e28dd286b7da7be9684c29bfa",
+    "bytes": 276770
+  },
+  "CT_plan": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/ct-acquisition/acquisition-plan.json",
+    "sha256": "6b3388d078d0856fd21d2e40805b1282202566bb42b1ad5fdc477c863045e41b",
+    "bytes": 14413
+  },
+  "independent_CT_review": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/review/comparison/retained-ct-verification.json",
+    "bytes": 1483,
+    "sha256": "0a084b5f94f452b77fb6b27c2cd18d233654fdc8308c63647e9d61698eb0d611"
+  },
+  "selection": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/reference-selection/selection-result.json",
+    "bytes": 12384,
+    "sha256": "c18634b2f64856c514ca7018763ba7fe0aa515640d81043b6d34d0f2dc37b5aa"
+  },
+  "research_design": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/RESEARCH_DESIGN.md",
+    "bytes": 7961,
+    "sha256": "5c20b5ffc3e00f6b5342c6ec38090e7236109e9535b493028c3fe1ac205a8d4c"
+  },
+  "descriptor_builder": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/make_pooled_descriptor.py",
+    "bytes": 3563,
+    "sha256": "229b08e4f4d0244b31083347950e63bda0d8dc3bfe9f2ba88773ee69f5c81aca"
+  },
+  "comparison_code_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/comparison/code-freeze.json",
+    "bytes": 1580,
+    "sha256": "5f4f8d1af25c52034c9c9b9ae9c013bfbc0d9a456ba080e22e59e0f097a2d7b9"
+  },
+  "source_protocol": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/optical-reference/annotation-provenance/ANNOTATION_AND_DEPTH_ADDENDUM.md",
+    "bytes": 10512,
+    "sha256": "c4cd143939781edd6f004ac84439598dc232eb5e4b54a5d5a087f8e178f31904"
+  },
+  "reserved_specimen": "PHercParis1Fr39/Frag4; no current training, teacher targets or calibration",
+  "claim": "Conditional agreement with supplied optical-derived labels; no complete historical holdout or registration accuracy claim",
+  "runtime": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/runtime-receipt.json",
+    "bytes": 3491,
+    "sha256": "d61d62b747c346b294414f3b2dd7a5f7ca1358ea9072b861e5a0103183a536a0"
+  },
+  "package_metadata": [
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/numpy-2.5.3.dist-info/METADATA",
+      "bytes": 6635,
+      "sha256": "451a9b8028000588e66b0b415587b6aef0bbc51a96d8e8a0cba0dc23acf64f99"
+    },
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/scipy-1.18.1.dist-info/METADATA",
+      "bytes": 62353,
+      "sha256": "6d1ebfbce110009e25e8249fea05e21c0449735144e9bd8df1a52931f957c1ea"
+    },
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/torch-2.12.0+cpu.dist-info/METADATA",
+      "bytes": 31354,
+      "sha256": "4dea4f71028daacd7f5b67b9992c243a2cefabbadb8566316a8c2e5af0c86228"
+    },
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/pillow-12.3.0.dist-info/METADATA",
+      "bytes": 9093,
+      "sha256": "8fc07146cab33ef7582361dab6eac596d340b03ec648f18217da7894f73838c8"
+    },
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/requests-2.34.2.dist-info/METADATA",
+      "bytes": 4806,
+      "sha256": "8c384ba3e979480faae2859d3c5e6c1276dd2c3616e322e124d52c8cfc556f27"
+    },
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/zarr-3.4.0.dist-info/METADATA",
+      "bytes": 5819,
+      "sha256": "771c1d0961d674af66f257d5634564813cb8b312f2db6534d82ccd4645a57fd3"
+    },
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/numcodecs-0.17.0.dist-info/METADATA",
+      "bytes": 3153,
+      "sha256": "e586225a01f7f96355ef7f08d2b0fff72fdc3c3f9ae95f9582dc33bfaf805462"
+    },
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/google_crc32c-1.9.0.dist-info/METADATA",
+      "bytes": 2178,
+      "sha256": "553d7ec13e2e6e6520d577f3f9af4ee53f5425e1432ff30b9a20a3305546b758"
+    },
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/tifffile-2026.9.20.dist-info/METADATA",
+      "bytes": 34160,
+      "sha256": "da889ad3506d62e27b7ac5a51bc1fef6962c4e540d7643504afa7e1c2afc46ab"
+    },
+    {
+      "path": "/workspace/.venvs/herculaneum/lib/python3.12/site-packages/matplotlib-3.11.2.dist-info/METADATA",
+      "bytes": 80264,
+      "sha256": "e5f532226d1025af2dd15ff951df27391f66d46403b8244ea61e6b8eb3e4d806"
+    }
+  ],
+  "root_inference_review": {
+    "path": "/workspace/herculaneum-lab/reports/eleventh-experiment/INFERENCE_REVIEW.md",
+    "bytes": 2403,
+    "sha256": "6f5107e311eb279f4998468ff53591ac83ab6723c35897437e3b02edc3b817f4"
+  }
+}

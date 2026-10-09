@@ -1,0 +1,43 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "code_freeze": {
+    "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/implementation/code-freeze.json",
+    "sha256": "fd7f5bd5e13227eafd87e1f0e99a192df3824a1fc43e8f06e46b94ac6fcbf550",
+    "size_bytes": 2300
+  },
+  "configuration": {
+    "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/EXPERIMENT_CONFIG.json",
+    "sha256": "03b98f44ad8ff001078831be1c634abd46706bd72c2a232ec15a40a9e0f6277f",
+    "size_bytes": 2131
+  },
+  "issued_at_utc": "2026-10-08T22:42:02.890157+00:00",
+  "numerical_contract": {
+    "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/independent-review/NUMERICAL_CONTRACT.md",
+    "sha256": "9a4f3c8840d3a5b3e16f2291ed875029f27381c56baa19c037d7b2b777729296",
+    "size_bytes": 4420
+  },
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/implementation/final-plan/experiment-plan.json",
+    "sha256": "56ca740a723de5c6702165d8a2ed409b53f0e19849587c051bbcbb6368e98035",
+    "size_bytes": 24662
+  },
+  "protocol": {
+    "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/RESEARCH_DESIGN.md",
+    "sha256": "00a0e9a0860848153a7b1faa857a5210c8ff4abdb463a1ff691f40e3a7925f61",
+    "size_bytes": 11682
+  },
+  "root_review": "Source and fixed configuration reviewed; independent technical41 checks passed; original17 evidence verified unchanged.",
+  "runtime": {
+    "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/runtime-preflight.json",
+    "sha256": "2cf3aa3e3af38d2df84a30ab7e27e735ca899dd9054c5e3ce11ed5837d99bcc3",
+    "size_bytes": 253
+  },
+  "scope": "One bounded CPU matched training comparison, then both final adapters on all six DEVELOPMENT cases after independent training verification. No paid GPU/network/threshold fit.",
+  "status": "GO",
+  "technical_review": {
+    "path": "/workspace/herculaneum-lab/reports/eighteenth-experiment/architecture-audit/code-review/TECHNICAL_GO.json",
+    "sha256": "302ec13e3fd49e765a9886540bde8bf1af890c5fce67a39f09088b7e0d59a3c7",
+    "size_bytes": 6184
+  }
+}

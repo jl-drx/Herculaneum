@@ -1,0 +1,122 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "all_evaluation_regions_reused_development": true,
+  "baseline_promoted": false,
+  "baseline_screen_passing_endpoints": [],
+  "blended_score_pixels_verified": 4718592,
+  "combined_scientific_wall_seconds": 1195.120093132,
+  "completed_training_arms": 2,
+  "created_at_utc": "2026-10-09T12:35:14.512224+00:00",
+  "decision": "Preserve seed42 and full input contract; no trajectory extension or GPU; next consider defensible training coverage at fixed compute",
+  "development_single_tile_forwards": 800,
+  "evidence": {
+    "EVALUATION_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/EVALUATION_VERIFICATION.json",
+      "sha256": "869097246c23efaa9a6acb8e33e17dea1d36b0c5accf518e7795b2d5e3f1a2ef",
+      "size_bytes": 874
+    },
+    "FIGURES.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/FIGURES.json",
+      "sha256": "171b5f47f293ee2f2e74da4470af1f07b21bfb71017d4cfae979cc4514925b66",
+      "size_bytes": 702
+    },
+    "GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/GO.json",
+      "sha256": "4acaee482b6694db2e09458e1cb6ec27c19c411812d4bd9c27351e380dea1a15",
+      "size_bytes": 75750
+    },
+    "METRICS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/METRICS.json",
+      "sha256": "39fba70a537d606befb23cf7e7b589ae6a4c4fa6b4e8969e7308d2ceae87ae61",
+      "size_bytes": 57973
+    },
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "d663e2a0c84c95e6543aa5b28bba4c2e5ae15ba1d91288b50c141f98eeb7bce6",
+      "size_bytes": 2764
+    },
+    "PLAN.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/PLAN.json",
+      "sha256": "27c7d89df739463994ef881c6a78723c8f370afa2ad60ddf1da1ea69f002cc67",
+      "size_bytes": 135264
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/PROTOCOL.md",
+      "sha256": "8859ee133455b7510ae3ae01009c6e039f30bf79483a2a8c93d5a5ef584008d6",
+      "size_bytes": 7245
+    },
+    "REFERENCE_STATUS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/REFERENCE_STATUS.json",
+      "sha256": "9165b87be9869b489e573195023067a93e905b929178aa8adb29f9de3e725ec1",
+      "size_bytes": 872
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/RESULTS.md",
+      "sha256": "fa73ff6713054d0c88e01f393508fef80b0cdbdc7e69723e5dbbc0e4ebb67451",
+      "size_bytes": 11981
+    },
+    "REVIEW_FREEZE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/REVIEW_FREEZE.json",
+      "sha256": "54c9179c73b4209461916394532a2bca1aaea00bef6a73a68dcfb3af04ebcd0c",
+      "size_bytes": 600
+    },
+    "REVIEW_FREEZE_V2.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/REVIEW_FREEZE_V2.json",
+      "sha256": "be4a33ddd5f6e08800b8453e79d243afc21bc4c883c6f1c99d78908f2f69079b",
+      "size_bytes": 572
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "a62a9e24a412dd14b5346e23d2f9f479e2df9b7bc27b0f058ab15ea4054370d9",
+      "size_bytes": 2163
+    },
+    "STARTUP_AFTER_THIRTYSEVENTH.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/STARTUP_AFTER_THIRTYSEVENTH.md",
+      "sha256": "410e9e26a620daf398727c683d09940aea993bab1cae19a8200bd7b5f6a63a90",
+      "size_bytes": 3565
+    },
+    "TEST_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/TEST_RECEIPT.json",
+      "sha256": "030735243db2348441f1b1af82f575d89012f60a678a1adb51513efb1037f929",
+      "size_bytes": 144
+    },
+    "TRAINING_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/TRAINING_VERIFICATION.json",
+      "sha256": "e3230abee9491373a8dbe4351fd0bdfee7f85791691e23bf380d412691f2882f",
+      "size_bytes": 1461
+    },
+    "run-v1/COMPLETE.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/run-v1/COMPLETE.json",
+      "sha256": "18de599ac15d565ebd414a52ab444322ab44205e9d2fb16f5f12b9fab8f1d9a8",
+      "size_bytes": 5390
+    }
+  },
+  "fixtures_errors": 0,
+  "fixtures_failed": 0,
+  "fixtures_passed": 7,
+  "fixtures_skipped": 0,
+  "full_17_plane_contract_retained": true,
+  "historical_control32_exact": true,
+  "independent_ink_accuracy_established": false,
+  "network_requests": 0,
+  "new_artifacts_uploaded_to_r2": false,
+  "optimizer_updates": 1024,
+  "outreach": false,
+  "publication": false,
+  "rank_values_verified": 80,
+  "retention_scope": "Local bytes; no external backup or restoration proof",
+  "schema_version": 1,
+  "scientific_model_forwards": 2146,
+  "scientific_retries": 0,
+  "scientific_run_attempts": 1,
+  "status": "completed_verified_no_endpoint_passed",
+  "submission": false,
+  "teacher_forwards": 0,
+  "training_batch_two_forwards": 1346,
+  "training_scalar_values_verified": 11264,
+  "transcription": null,
+  "translation": null,
+  "wall_cap_seconds": 1800,
+  "worker_RSS_cap_bytes": 4294967296
+}

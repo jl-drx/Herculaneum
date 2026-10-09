@@ -1,0 +1,22 @@
+{
+  "allow_live_requests": true,
+  "created_at_utc": "2026-10-09T00:18:55.706762+00:00",
+  "gpu_spend_GBP": 0,
+  "maximum_requests": 13,
+  "maximum_reserved_response_body_bytes": 202301,
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-stage-a/execution-plan.json",
+    "sha256": "ae44baaed05f7faf85ee7fa592b88cc9d2931cf3a76667a914c2fa4b738bedeb",
+    "size_bytes": 8530
+  },
+  "plan_sha256": "ae44baaed05f7faf85ee7fa592b88cc9d2931cf3a76667a914c2fa4b738bedeb",
+  "scope": "Exact bounded Stage A only. Stop after structural result, no automatic Stage B/C, no numerical image/PPM decode, labels, model or paid resources.",
+  "stage": "A_headers",
+  "status": "GO",
+  "technical_review": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-review/TECHNICAL_GO.json",
+    "sha256": "7d8ebb1686fde1aad4377d867ba153c43846972d7f3d1ade3241ba86236ba232",
+    "size_bytes": 5159
+  },
+  "user_authorization": "Continue CPU research as recommended while user is away"
+}

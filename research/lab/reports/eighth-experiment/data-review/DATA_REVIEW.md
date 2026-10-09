@@ -1,0 +1,20 @@
+# Independent eighth fresh-reference source review
+
+**PASS.** One independent offline run reconstructed both selected fresh contexts exactly from retained raw source and annotation objects. It decoded the54 selected Blosc label objects, checked binary0/1 encoding and annotation plane10, reconstructed all21 pooled uint8 planes, and compared every supplied/derived annotation and support array. All178 unique input receipts remained unchanged before and after review. No acquisition or inference implementation was imported; no network, model call, original-file mutation or rerun occurred.
+
+Pooling was implemented with explicit uint16 sums of source[13:97] in four-plane groups. Integer quotient/remainder arithmetic rounds upward for remainder3 or a remainder2 tie with an odd quotient, then converts to uint8. This independently reproduces nearest-even rounding without calling the assembler's float32 mean/rint expression. Its arithmetic matched independent Python round for all1,021 possible four-uint8 sums; every actual reconstructed source byte matched the retained array.
+
+| Fresh context | Source XYWH | Whole supplied supervision | Primary supervised reference pixels | Positive | Negative |
+| --- | --- | ---: | ---: | ---: | ---: |
+| PHerc0814 fresh-rank01 |1152,1152,384,384|84,357|49,033|19,545|29,488|
+| PHerc0814 fresh-rank14 |128,1152,384,384|46,890|21,328|4,767|16,561|
+
+Evaluation membership is supplied supervision, preserved separately from historical public validation. Both actual validation arrays are entirely zero; neither fresh domain is relabeled public validation. Primary masks are supervision∩HTTP200-acquired source∩local[64:320,64:320]. Both crops have147,456 observed pixels and147,456 nonzero selected17 profiles, with zero primary all-zero profiles. No annotation zero outside supervision is treated as a supplied negative. Current-loader conditional S∩¬V masks, raw annotation arrays, evaluation masks and fresh-descriptor identities all agree.
+
+Source-XY L-infinity rectangle gaps from fresh-rank01 to old0814 ranks01/07 are512/128 pixels, and fresh-rank14 has128/128 pixels. The fresh-to-fresh gap is640 pixels. All exceed the frozen128-pixel minimum and use whole384×384 contexts. These are canvas separation statements; native3D coincidence remains unverified.
+
+The18 unique source chunks contain32,145,408 bytes. Four before/after metadata reads match the frozen source metadata hashes. The completed source ledger contains22 successful HTTP200 requests and32,152,754 measured body bytes, below40MiB. The label ledger records186 attempts,93 verified retained objects and101,459 measured body bytes, below2MiB; all retained payload hash/size receipts were verified, while selected54 objects were decoded for reconstruction. There are no failed requests or automatic retries in these completed ledgers. Failed partial HTTP reads can be undercounted by the inherited helper; these measured completed-response-body totals are not total wire-byte claims.
+
+The two fresh contexts are withheld from our new PHerc0139 gradient adaptation, cutoff calibration and outcome-driven choices. They belong to one PHerc0814 specimen and use supplied-supervision reference labels with incomplete human/teacher lineage. Both the initializer and teacher historically include this specimen in their recorded training/development universe. This establishes correct source assembly and fixed evaluation arithmetic, not pretrained independence, ink authentication, geometry validity or accuracy against optical ground truth. Model evaluation still must intersect these fixed masks with common finite/evaluated output support.
+
+Frozen source plan SHA256: `b5d7a995fe1baeed8ea9cd8d12e5fa6df6949a3bb3804b53fa823ad90607a89c`; selection: `134b320b2caa36dbbbbe2b6a24226622da88f901b5a098740cea011adc47b90c`; completed panel provenance: `0bca80740395f614541aa875bc33cbef592a55749b83c24d1315e6b0aa97155e`. Independent implementation: `verify_reserve_data.py`; machine receipt: `result/DATA_VERIFICATION.json`, SHA256 `1cff53f9267c87d84fdefaea19ca8a4a1027857f0499f0ce38e7d6fbdd523752`. All original files are preserved.

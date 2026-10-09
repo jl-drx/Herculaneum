@@ -1,0 +1,92 @@
+{
+  "decoded_cached_chunks": 3,
+  "decoded_source_work_bytes": 12582912,
+  "predictions": [
+    {
+      "byte_range": [
+        54936594,
+        54936595
+      ],
+      "correct_trilinear_uint16": 31556,
+      "correct_trilinear_unrounded": 31555.556365616445,
+      "distance_to_half_integer": 0.34641566652499023,
+      "historical_uint16": 31274,
+      "historical_unrounded": 31274.153584333475,
+      "native_xyz": [
+        5037.3516036624005,
+        882.7135482911877,
+        4796.62736372543
+      ],
+      "raster_yx": [
+        4426,
+        4963
+      ]
+    },
+    {
+      "byte_range": [
+        87877698,
+        87877699
+      ],
+      "correct_trilinear_uint16": 13189,
+      "correct_trilinear_unrounded": 13188.927970078674,
+      "distance_to_half_integer": 0.43533360893161444,
+      "historical_uint16": 13069,
+      "historical_unrounded": 13069.064666391068,
+      "native_xyz": [
+        1611.396210856703,
+        354.1095751235592,
+        2315.2358476705085
+      ],
+      "raster_yx": [
+        7081,
+        1240
+      ]
+    },
+    {
+      "byte_range": [
+        87881422,
+        87881423
+      ],
+      "correct_trilinear_uint16": 44466,
+      "correct_trilinear_unrounded": 44466.44503104042,
+      "distance_to_half_integer": 0.2878812087656115,
+      "historical_uint16": 44471,
+      "historical_unrounded": 44470.787881208766,
+      "native_xyz": [
+        3314.754260511033,
+        674.0265133737374,
+        2317.5940853748034
+      ],
+      "raster_yx": [
+        7081,
+        3102
+      ]
+    }
+  ],
+  "reference_manifest": {
+    "path": "/workspace/herculaneum-lab/reports/thirtieth-experiment/run-v1/SOURCE_MANIFEST.json",
+    "sha256": "2e210ecaee3717099a069f795182f297a5badeb119a588ff16feb4bd93948d5e",
+    "size_bytes": 2372
+  },
+  "source_algorithm": "correct trilinear + dx*dy*(1-dz)*(I100-I110), rounded nearest-even",
+  "source_chunks": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtieth-experiment/run-v1/source/0/18/2/12",
+      "sha256": "7230984da77e2185f539590ca8b599f7324b5104f00d124ef3741065457ba5a9",
+      "size_bytes": 3883586
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtieth-experiment/run-v1/source/0/18/5/25",
+      "sha256": "8b6745365af6d56e2df5e6541ac4cec6d1254bbab15045c939faa68cec9f2996",
+      "size_bytes": 4194320
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtieth-experiment/run-v1/source/0/37/6/39",
+      "sha256": "28a1c8b0574aa154bfa750a736628b120468aaafe1b677b2cf19832ba556c527",
+      "size_bytes": 3949495
+    }
+  ],
+  "status": "PREDICTIONS_FROZEN_BEFORE_TARGET_READ",
+  "target_layer": 16,
+  "target_layer_bytes_read": 0
+}

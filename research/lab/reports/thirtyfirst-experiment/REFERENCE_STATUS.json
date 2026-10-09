@@ -1,0 +1,58 @@
+{
+  "CPU_panel": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/CPU_PANEL.json",
+    "sha256": "a542fff41b81b6c783d141a68d4a0c2051a978c2ee883d0ed10e60f2d1d78ef0",
+    "size_bytes": 5153
+  },
+  "CPU_specification": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/CPU_STUDY_SPEC.md",
+    "sha256": "8153f0de8e823a9a4e7ec70e88a6f15cefae1f2d15e37e7f595f040130019353",
+    "size_bytes": 5382
+  },
+  "CT_correspondence": "Phase30 historical-kernel behavior confirmed at sampled sites; not a full-canvas proof",
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "annotation_author_known": false,
+  "annotation_support_inspected": true,
+  "candidate": "Frag6 / PHerc51",
+  "candidate_CT_inspected": true,
+  "core_counts_negative_positive_unknown": [
+    9231,
+    6922,
+    231
+  ],
+  "full_model_execution_released": false,
+  "historical_model_teacher_ancestry_known": false,
+  "independent_optical_truth": false,
+  "local_exposure": {
+    "ink_model_scores": 0,
+    "label_pixels": 54932865,
+    "mask_pixels": 54932865,
+    "new_CT_pixels_this_phase": 0,
+    "optical_pixels": 54932865
+  },
+  "model_scores_inspected": false,
+  "negative_exhaustiveness_known": false,
+  "optical_pixels_inspected": true,
+  "optical_registration_qualified": false,
+  "panel": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/qc-v1/PANEL.json",
+    "sha256": "933fce0c1469e51ae7928b2ec7f2af8dd2bed07202fec6449da509dc94c9e0ae",
+    "size_bytes": 3715
+  },
+  "parent_count": 1,
+  "remaining_execution_prerequisites": [
+    "per-TIFF metadata/identity",
+    "bounded multipart acquisition implementation and freeze",
+    "source payload verification",
+    "model input and runtime freeze"
+  ],
+  "selected_contexts": 4,
+  "status": "SUPPLIED_REFERENCE_SUPPORT_BOUND_CPU_INPUT_ACQUISITION_PENDING",
+  "supplied_reference_convention_usable": true,
+  "unchanged_reserves": [
+    "PHerc0009B",
+    "PHerc0500P2",
+    "PHerc0841"
+  ]
+}

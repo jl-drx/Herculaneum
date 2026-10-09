@@ -1,0 +1,479 @@
+{
+  "sample_id": "PHerc0800",
+  "target_volume_id": "20250521135224",
+  "segment_id": "20251028220955",
+  "bbox_source_xywh": [
+    1024,
+    384,
+    384,
+    384
+  ],
+  "surface_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr",
+  "render_provenance": {
+    "metadata": {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/source-render-export-metadata.json",
+      "sha256": "5b09b36149f71d379415fc526162d70fd2612b5f720a6e9e26abb1f33b863e84",
+      "size_bytes": 3680,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    "commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+    "parameters": {
+      "repo": "https://github.com/ScrollPrize/villa",
+      "commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+      "subdir": "volume-cartographer",
+      "dockerfile": "Dockerfile",
+      "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+      "build-platform": "linux/arm64",
+      "binary-path": "vc_render_tifxyz",
+      "volume-path": "s3://scrollprize-volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/",
+      "scale": "1",
+      "segmentation-path": "s3://vesuvius-challenge/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/mesh/20251028220955-on-20250521135224-8.64um.tifxyz/",
+      "output": "s3://vesuvius-challenge/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+      "render-mode": "zarr",
+      "group-idx": "0",
+      "zarr-compressor": "none",
+      "zarr-compression-level": "",
+      "zarr-separator": "/",
+      "num-parts": "",
+      "target-duration-per-partition": "1800",
+      "max-parts": "20",
+      "auto-render-rate": "460",
+      "accum-type": "max",
+      "composite": "false",
+      "composite-start": "",
+      "composite-end": "",
+      "scale-segmentation": "",
+      "affine-transform": "",
+      "affines": "",
+      "affine-invert": "",
+      "rotate": "0",
+      "flip": "-1",
+      "flip-normals": "true",
+      "num-slices": "31",
+      "affine-matrix": "",
+      "crop-x": "0",
+      "crop-y": "0",
+      "crop-width": "0",
+      "crop-height": "0",
+      "voxel-size": "8.64",
+      "voxel-unit": "micrometer",
+      "memory": "15Gi",
+      "cache-gb": "8",
+      "render-threads": "8",
+      "cpu-requests": "8"
+    }
+  },
+  "selected_plan_path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/selected-plan.json",
+  "selected_plan_sha256": "f7ae57e533af2b0411d874d1ab931ab33ffcd16494f59b869f1e5fd15fbe8d3a",
+  "maximum_chunk_payload_bytes": 4571136,
+  "array_metadata_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/surface.level0.zarray.json",
+  "attrs_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/surface.zattrs.json",
+  "geometry_mask_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/full-surface-valid-mask.npy",
+  "coordinate_map_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/full-surface-ct-coordinates.xyz.npy",
+  "verified_inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/third-experiment/geometry-selection.json",
+      "sha256": "1a2e44b6b11321aa49ccce0a2effcffd65d757c6c333733d1ba8ae024e2d7ff4",
+      "size_bytes": 2349048,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/source-records.json",
+      "sha256": "2e5b38fdaa59dc4f93f7bde2b7f20d05d0f82845263a2881da2486f6e0322175",
+      "size_bytes": 43393,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface-geometry/full-surface-geometry-summary.json",
+      "sha256": "c9d791aa64c499fdd03edface7252bd0b3c8f51ac30a88b64d6e216232ce818d",
+      "size_bytes": 5658,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface980/provenance.json",
+      "sha256": "b939d230a906341a1ce678957db62b379ddcdf45f723e54ca5b0f7d2007b8e58",
+      "size_bytes": 56969,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger1536/provenance.json",
+      "sha256": "537f42b286d37bd98c889fa8196fdceee10b714f79a69e2f321513b5a87feb49",
+      "size_bytes": 145766,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/inference-plan.json",
+      "sha256": "f0bfd83b50246af1077d61ea38a23e4eb9ed307e6edf59ac121442198871f725",
+      "size_bytes": 2687,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/acquire_screen.py",
+      "sha256": "5fbbba95107b3c06b5945b8c52ae3768248313ee0683d94643a8bdecca9a5374",
+      "size_bytes": 9296,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/run_screen.py",
+      "sha256": "62ef69ea385e517929cadabd5081d8c261ac99304ea5a6814290fd386c6e56bc",
+      "size_bytes": 3860,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028213516/source-render-export-metadata.json",
+      "sha256": "8a9fe2be7c1e1601f53316d2de98fc0af383139d0b7bf64ee4951052e0be7591",
+      "size_bytes": 3680,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220042/source-render-export-metadata.json",
+      "sha256": "21779996818f0b66ab518e1febf667755b762b8d925e19d639237592c2b1aae0",
+      "size_bytes": 3680,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/source-render-export-metadata.json",
+      "sha256": "5b09b36149f71d379415fc526162d70fd2612b5f720a6e9e26abb1f33b863e84",
+      "size_bytes": 3680,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/source-render-export-metadata.json",
+      "sha256": "76bbb4802040b281559b16c51a17b23bfc7b5682ed3da7ff0a3b2627b961fd9b",
+      "size_bytes": 3680,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028225813/source-render-export-metadata.json",
+      "sha256": "5d2e61d9de648fb7e6a99d448c1c8a28e809157ded0627b85709e0b7fede514c",
+      "size_bytes": 3680,
+      "role": "Frozen provenance/metadata snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface-geometry/full-surface-valid-mask.npy",
+      "sha256": "a5ec3b003135871f517528f789cf62f112a79b4ac99f5e5324bb4162faea41f8",
+      "size_bytes": 960528,
+      "role": "Prior acquired geometry"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface-geometry/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "639805f7062e5ce2351efaf77d43e226a0dca3151af8428c21fe3e70bff51c90",
+      "size_bytes": 11524928,
+      "role": "Prior acquired geometry"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger1536/geometry-mask.npy",
+      "sha256": "a57b5566feb21f2052274e1dea8d474b1f35e59b40d8557480364a4b933cbdef",
+      "size_bytes": 2359424,
+      "role": "Prior acquired geometry"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger1536/ct-coordinates.xyz.npy",
+      "sha256": "63b27f31c7d014c00981fcc32f8d9ee8df86f276e0125f9f157583102769bb8b",
+      "size_bytes": 28311680,
+      "role": "Prior acquired geometry"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028213516/surface.level0.zarray.json",
+      "sha256": "e2b97b9bb72f6f40ba0009b434f4a5a127eb134a419d2ae8e7936af9b98def62",
+      "size_bytes": 204,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+      "source_etag": "\"6d71030bc630ccd3d932f496429da4f9\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:12 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028213516/surface.zattrs.json",
+      "sha256": "6b1b931f280819e1ab742b3d4985dd842a041b2ac67879535a59ff9b72866f29",
+      "size_bytes": 3464,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+      "source_etag": "\"3bdab0a3f14c77534a710f1fa3db54e8\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:12 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028213516/mesh.meta.json",
+      "sha256": "fd8b3e2e2cd4241a58044af00bd802734159e4188d5613b8e5339483d7c63e61",
+      "size_bytes": 285,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz/meta.json",
+      "source_etag": "\"e946752a284725960f4bd45d05be85e7\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:09:39 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028213516/full-surface-valid-mask.npy",
+      "sha256": "96ea5dc233378931303f28aaf249bee109ae579310ce23c799f53488281f6cc4",
+      "size_bytes": 4838528,
+      "role": "Candidate global geometry mask"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028213516/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "c195146c5279e6f45d9a19f99ec7ad56e47fee2c552434225413eae8a60a76d5",
+      "size_bytes": 58060928,
+      "role": "Candidate global base CT coordinates"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220042/surface.level0.zarray.json",
+      "sha256": "f5c65c302343400e362418d6a6e53214c98973442da897f503a5e3542cffed63",
+      "size_bytes": 204,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+      "source_etag": "\"e555d8360048a6bcc2b4d0dd041564d0\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:39 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220042/surface.zattrs.json",
+      "sha256": "f71f705f939b51a334d55ab9d7d164fd7682cf31b13a27c2d65fccc0ca01d124",
+      "size_bytes": 3464,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+      "source_etag": "\"f30131fd743b9c88687d8a9b8575dc72\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:39 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220042/mesh.meta.json",
+      "sha256": "a11639703aaa4d0ff24f8331b4a84ea95f923ae81e19f886c0d6de8177427309",
+      "size_bytes": 288,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220042-auto_grown_20251028220042762/mesh/20251028220042-on-20250521135224-8.64um.tifxyz/meta.json",
+      "source_etag": "\"21ebac10348549a9eb6207bbf36e9f1a\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:09:40 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220042/full-surface-valid-mask.npy",
+      "sha256": "cb971cf002404c366f05209dfde0b7a345e8e924b2ba87243665332211f9f337",
+      "size_bytes": 4080128,
+      "role": "Candidate global geometry mask"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220042/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "e44e010c2b45544e00ad38b8dba47fa20a763f701fc2e62388a9a3eb3785125b",
+      "size_bytes": 48960128,
+      "role": "Candidate global base CT coordinates"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/surface.level0.zarray.json",
+      "sha256": "dee750ebe5a952e9c83246836193d2586d0706fde981e30f80f1151fea11acfa",
+      "size_bytes": 204,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+      "source_etag": "\"6539cef695950022fd4a5096983938fd\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:40 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/surface.zattrs.json",
+      "sha256": "c9f9d8c78488d4bc807366b7e0c621a7d9ac1ac1236fabdb4456d00a499b04e9",
+      "size_bytes": 3464,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+      "source_etag": "\"23756f41c69ad3658b96dd3fdc106bf4\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:39 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/mesh.meta.json",
+      "sha256": "1dd2bafe483b52ec1fc9c5317b4b1b61fdd6022288b78eec762a74dfbc514fb5",
+      "size_bytes": 286,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028220955-auto_grown_20251028220955262/mesh/20251028220955-on-20250521135224-8.64um.tifxyz/meta.json",
+      "source_etag": "\"ef47d37e7d237c9d248881c248acd6b8\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:10:09 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/full-surface-valid-mask.npy",
+      "sha256": "773dec911ebfd795dc5d40808f66c495ef262a4e979d162983cb099efe9a0ddd",
+      "size_bytes": 4410128,
+      "role": "Candidate global geometry mask"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "8638b05a5449abfc3b2e7a801ed05f04fa76cb1cf839570ce49e5bcaad8af255",
+      "size_bytes": 52920128,
+      "role": "Candidate global base CT coordinates"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/surface.level0.zarray.json",
+      "sha256": "e7d03a00d38bde138994e2d238a1b846735812b338d8f334277676cde9a8b423",
+      "size_bytes": 204,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+      "source_etag": "\"9dcd5560c9cc05b19ca849ea4427fd5e\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:12 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/surface.zattrs.json",
+      "sha256": "4b2e6c71817ab030baf0ae55dad10420586293f367e5d26a12cecee168c46879",
+      "size_bytes": 3464,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+      "source_etag": "\"06d376f8cbf00fe12ddbda233bf4fce6\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:12 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.meta.json",
+      "sha256": "f7c101ec939bc37cc888e3c4990e85cac4fbfebeba51b2c18b0ded523b1138ef",
+      "size_bytes": 289,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz/meta.json",
+      "source_etag": "\"c3f540a28db915952d3e0a97e79af49c\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:09:39 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-valid-mask.npy",
+      "sha256": "d7e70bff345925045b78039773dc40669922d723f423f446cec597b2bd9032bd",
+      "size_bytes": 6656528,
+      "role": "Candidate global geometry mask"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "fc5e87c8bbfcfe9c85c446c3a6bceba8e7c80bed97d3a30aaf36bfbb65f4567c",
+      "size_bytes": 79876928,
+      "role": "Candidate global base CT coordinates"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028225813/surface.level0.zarray.json",
+      "sha256": "57b9680d3df5cb714ed31b58b75a6c279a99beded15bf994963970db2b97b345",
+      "size_bytes": 204,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/.zarray",
+      "source_etag": "\"2dac495aab9a3bab0d072a9104ee1654\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:12 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028225813/surface.zattrs.json",
+      "sha256": "a14b455e6e12a21e15bab5e6b2dbcb98b32b7963ae8abb3f10538f95b3071bf3",
+      "size_bytes": 3464,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/.zattrs",
+      "source_etag": "\"68fd35fdded4553f5c2498eb74002e32\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:12:12 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028225813/mesh.meta.json",
+      "sha256": "09580efea0064ad67c8a7fa272c55e9bde069cc613ff11ffeb11b0597e978f66",
+      "size_bytes": 285,
+      "role": "Recorded remote metadata",
+      "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz/meta.json",
+      "source_etag": "\"4cb9288255be73cef2ae5c5b536e87d0\"",
+      "source_last_modified": "Mon, 07 Sep 2026 09:10:07 GMT"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028225813/full-surface-valid-mask.npy",
+      "sha256": "874fb421e95bc233bb2281a2b1c5699dc8a11bc37b079415333e6ed3bd5f3153",
+      "size_bytes": 5198128,
+      "role": "Candidate global geometry mask"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028225813/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "488be2d5be7a8c32d8e64f15f161d91e1a06ce55bedec166ea5794998ba4ca7f",
+      "size_bytes": 62376128,
+      "role": "Candidate global base CT coordinates"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/selected-plan.json",
+      "sha256": "f7ae57e533af2b0411d874d1ab931ab33ffcd16494f59b869f1e5fd15fbe8d3a"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/outcome.json",
+      "sha256": "30b6fb96d937f709c85eb1ad1e193c69b780921dc2b11d49af2b713675c8b317"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/artifact-manifest.json",
+      "sha256": "1517e65c9068f6ad8f5b57075b717d639e98d0df081666106aae4cd183182baa"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/selected-geometry-diagnostics.json",
+      "sha256": "73d945b4b5cf2a0a3eef7c09a57cbeab81b471040d94b88ab89548d947a8bbdf"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/selected-geometry-mask.npy",
+      "sha256": "b72ed0084d6ba14f372c29db8e669805a285f71a0eb6aa5d3c3ccc5f62598260"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/selected-ct-coordinates.xyz.npy",
+      "sha256": "6059b596416df87e744871648ee0384d0f198d2e5757830ef6912eda644e8ede"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/candidate-scores.json",
+      "sha256": "e54abadabe69fc5e4ec3962b7147be92d95cf496edc734b4846ab6ae0e98117b"
+    }
+  ],
+  "selection": {
+    "methodology": {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/methodology.json",
+      "sha256": "5986365a56b1a49fb007257a5bbaa699f7e65a0b21705896b86dc2c77d2c4860",
+      "size_bytes": 7815
+    },
+    "selector": {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/select_geometry.py",
+      "sha256": "a56235b71382c4ece05b01482b9e7b856e10555f01ef489c578874eecd874033",
+      "size_bytes": 23292
+    },
+    "candidate_scores": {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/candidate-scores.json",
+      "sha256": "e54abadabe69fc5e4ec3962b7147be92d95cf496edc734b4846ab6ae0e98117b",
+      "size_bytes": 351308
+    },
+    "prior_inventory": {
+      "path": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/prior-acquisition-inventory.json",
+      "sha256": "b3ad7480d657688a52495ca2a1112a9d2823fbd3328466f0ce21b80761e3aac0",
+      "size_bytes": 2851
+    },
+    "criterion": {
+      "segment_id": "20251028220955",
+      "bbox_source_xywh": [
+        1024,
+        384,
+        384,
+        384
+      ],
+      "geometry_valid_pixels": 147456,
+      "minimum_nearest_prior_base_distance_voxels": 52.89808653091241,
+      "status": "passes_distance_rule",
+      "maximum_nearest_prior_base_distance_voxels": 86.85607646732106,
+      "median_nearest_prior_base_distance_voxels": 71.03649220607865
+    },
+    "distance_summary_voxels": {
+      "count": 147456,
+      "finite_count": 147456,
+      "min": 52.89808653091241,
+      "max": 86.85607646732106,
+      "quantiles_0_1_50_95_99_100": [
+        52.89808653091241,
+        54.88722718273346,
+        71.03649220607865,
+        81.88363785096101,
+        84.42027581722573,
+        86.85607646732106
+      ]
+    },
+    "nearest_witness": {
+      "candidate_source_xy": [
+        1024,
+        660
+      ],
+      "candidate_base_ct_xyz_voxels": [
+        3389.440185546875,
+        6379.5439453125,
+        12293.6572265625
+      ],
+      "prior_tree_index": 1128415,
+      "prior_base_ct_xyz_voxels": [
+        3350.068115234375,
+        6404.5244140625,
+        12268.6767578125
+      ],
+      "distance_voxels": 52.89808653091241
+    },
+    "prior_tree_point_count": 2693760,
+    "query": {
+      "algorithm": "scipy.spatial.cKDTree",
+      "k": 1,
+      "eps": 0,
+      "p": 2,
+      "workers": 4,
+      "prior_subsampling": false,
+      "candidate_subsampling": false
+    }
+  },
+  "physical_independence": "Unresolved; exact base-coordinate distance does not reconstruct full normal/depth/interpolation sampling support"
+}

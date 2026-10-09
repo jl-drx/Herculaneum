@@ -1,0 +1,137 @@
+{
+  "created_at_utc": "2026-10-08T09:49:28.868334+00:00",
+  "status": "Source preflight completed; native-reference execution remains not ready",
+  "ready_for_gpu": false,
+  "scientific_plan_snapshot_sha256": "8ac0651871d83e805008051b76b1d832206fa92d974e51a40f9ab5624bb237d7",
+  "source_manifests": {
+    "initial": {
+      "path": "/workspace/herculaneum-lab/data/native-reference-preflight-20261008/source-manifest.json",
+      "sha256": "f32b6247acf8b28c2ff696bc81181df55e575950c4c33cd50ec19d1fd0c540be"
+    },
+    "supplemental": {
+      "path": "/workspace/herculaneum-lab/data/native-reference-preflight-20261008/supplemental-source-manifest.json",
+      "sha256": "ecaa07a06193810a9289af08390c41d8bb3530e397c95db76499d09aad6768bc"
+    }
+  },
+  "verified_source_records": 31,
+  "downloaded_source_payload_bytes": 516459,
+  "network_payload_cap_bytes": 20971520,
+  "configuration_source": {
+    "size_bytes": 1742,
+    "git_blob_sha1": "24ac6d12668bfb5cf4b448c8f61723e97264ee25",
+    "sha256": "e9d8efd18c1ee7d9cda59eda0aa1c2b6e9eab31f3e715f3e351fa0fd0f0c0990",
+    "identical_between_iterations0_and5": true
+  },
+  "reviewed_architecture": {
+    "model_type": "inkdetection_resnet3d",
+    "in_channels": 1,
+    "input_depth": 62,
+    "input_size": 256,
+    "backbone_depth": 50,
+    "backbone_channels": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "num_classes": 1,
+    "decoder_upscale": 1,
+    "torch_dtype": "float32",
+    "transformers_version": "4.57.6"
+  },
+  "source_model_files_identical": true,
+  "model_weight_payload_verified": false,
+  "scan_or_label_payloads_acquired": false,
+  "model_inference_performed": false,
+  "training_performed": false,
+  "configuration_source_parse_passed": true,
+  "installed_runtime_packages": {
+    "torch": "2.12.0+cpu",
+    "torchvision": "0.27.0+cpu",
+    "safetensors": "0.8.0",
+    "transformers": null,
+    "albumentations": null,
+    "numpy": "2.5.3"
+  },
+  "runtime_probe": {
+    "path": "/workspace/herculaneum-lab/reports/native-reference-preflight-20261008/runtime-probe.json",
+    "sha256": "ebec32b4c03b5480e0d1358e1769ed993329b79b14d5430b907d6cbeafe5096c"
+  },
+  "blockers": [
+    {
+      "id": "native-source-identity",
+      "status": "open",
+      "resolved": [],
+      "remaining": [
+        "Exact original PHerc1667 l_2/l_5 public asset identities, source versions, spacings, layer encodings, geometry masks and render correspondence. The paper-pinned general metadata lacks these aliases; l2_0_crop belongs to a PHerc139 example."
+      ]
+    },
+    {
+      "id": "source-depth-convention",
+      "status": "partially-resolved",
+      "resolved": [
+        "Current source uses half-open integer layer ranges and center-crops longer ranges to62; read direction is an explicit per-segment flag. range1:63 selects1..62; range1:108 selects23..84.",
+        "Iteration0 card specifically documents reverse_layers=True for l_2."
+      ],
+      "remaining": [
+        "Exact paper layer names mapped onto original native render, plus direction for every checkpoint/segment pair (especially l_5 and iteration5). No109-plane substitute assumed."
+      ]
+    },
+    {
+      "id": "normalization",
+      "status": "partially-resolved",
+      "resolved": [
+        "Pinned training source clips native uint8 values to0..200 and uses A.Normalize(mean0,std1); reference Albumentations1.3.1 implementation scales this by255 without image-statistics centering.",
+        "Pinned zarr branch maps uint16 to uint8 via >>8 before clipping. HF model wrapper implements no input preprocessing.",
+        "Separate optimized inference uses clip0..200 then ToFloat(max_value200), a distinct /200 recipe; raw-float card tiling examples omit both operations."
+      ],
+      "remaining": [
+        "Original ablation run-to-source/segment linkage, exact source quantization and historical Albumentations/runtime version remain unproved. Do not choose between conflicting paths by favorable detector output."
+      ]
+    },
+    {
+      "id": "configuration-source-and-runtime",
+      "status": "partially-resolved",
+      "resolved": [
+        "Both pinned configuration source files verified by exact size, HF Git blob SHA1 and SHA256; identical source and architecture settings. Both model source files verified by HF blobs, reviewed and syntax parsed.",
+        "Installed torch2.12.0+cpu omitted bilinear align_corners equals explicitFalse exactly in a synthetic probe; installed source inspected.",
+        "Static output convention is raw64x64 logits at decoder_upscale1, followed by single sigmoid and4x bilinear upsampling. Card stitching uniformly averages accepted tiles."
+      ],
+      "remaining": [
+        "Native wrapper runtime missing transformers; original/future package lock and image digest unpinned; no strict-load adapter audited or weights downloaded/hashed.",
+        "Original inference wrapper may use different tiling/blending and runtime; matching final output provenance still unproved."
+      ]
+    },
+    {
+      "id": "frozen-acquisition",
+      "status": "open",
+      "resolved": [],
+      "remaining": [
+        "Source geometry/coverage, physical overlap, frozen crop coordinates, source/mask hashes and bounded object request plan remain unresolved. No scan payload acquired."
+      ]
+    },
+    {
+      "id": "sanity-label-lineage",
+      "status": "open",
+      "resolved": [],
+      "remaining": [
+        "Exact l_2_inklabels5.png payload, public version and alignment. No labels acquired."
+      ]
+    },
+    {
+      "id": "operational-budget-and-shutdown",
+      "status": "outside-this-audit-open",
+      "resolved": [],
+      "remaining": [
+        "No provider/account/GPU actions; aggregate spending/commitments, quote, bounded runtime and independent shutdown evidence remain the operational contract responsibilities."
+      ]
+    }
+  ],
+  "overall_blocker_ids_fully_closed": [],
+  "closed_subtasks": [
+    "Pinnedconfiguration-sourceidentityandstaticreview",
+    "Pinnedmodel-sourceidentityandstaticreview",
+    "InstalledCPUbilinear-defaultbehavior"
+  ],
+  "original_tracked_plan_or_lab_sources_modified": false
+}

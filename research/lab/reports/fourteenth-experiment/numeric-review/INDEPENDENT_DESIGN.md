@@ -1,0 +1,15 @@
+# Independent calibration verification
+
+Source and synthetic preparation only; scientific arrays will be evaluated once after root authorizes the completed run and analysis. This checker imports no author selector, scorer, inference adapter or normalizer. Its own NumPy/stdlib helpers reconstruct the numerical and data contracts independently.
+
+Canonical development masks use the original public validation, acquisition support and 64-pixel margin. They preserve exactly 9,378, 40,400 and 14,644 negatives. No occupancy, positive score, diagnostic prediction or coverage-dependent mask shrinking participates in threshold choice. Diagnostic masks are independently rebuilt from the original PHerc0814 supplied-supervision or Frag4 known-surface masks and their frozen margins, with all four exact class-count witnesses retained.
+
+The threshold verifier groups unique float32 negative scores and finds the first descending multiplicity group crossing floor(N/20), independently of the author's sorted-array index implementation. It verifies the excluded tie, false-positive count, next float32 value toward infinity, exact cutoff bits, primary maximum and fixed w029 secondary. Finite thresholds above one remain valid. The frozen seed42 lock is reconstructed for provenance and retained literally.
+
+AUC uses integer twice-concordance with half credit for ties. AP uses grouped precision mass. Exact confusion counts classify promoted float64 scores against each primary, secondary and common cutoff. The recovery screens use integer specificity and reduced rational sensitivity comparisons, including equal-context mean and -1/50 individual limits. All failure outcomes remain visible. Reused diagnostic maps and masks must retain their original pins and unchanged thirteenth AUC/AP within 1e-12.
+
+The sealed [blend helper](blending/blend_verifier.py) reconstructs all six maps from 118 raw logits, with mathematical float64 sigmoid/Hann rounded into FP32 accumulation. Evaluated masks match exactly; maximum score error may not exceed the predeclared 2e-6. It also independently reconstructs every normalized input hash from the original pooled uint8 surfaces. This is numerical tolerance, not a bitwise cross-library score claim.
+
+Main preparation fixtures pass 27 numerical and three mask cases; the separate sealed blend package passes 48 cases. They include crossing ties, finite above-one/subnormal cutoff bits, exact decimal-rational sensitivity boundaries, integer specificity at N=19/20, equal-context versus pooled sensitivity, both canvas grids and normalization/fingerprint failures. No actual retained arrays, Torch, models, weights or network were used in preparation.
+
+The completed-output checker will run once in a fresh owned directory and preserve a STOPPED receipt on failure. It validates model/schema/storage/no-gradient consistency as pinned metadata and worker receipts without reading checkpoint bytes or executing those checks again. Root owns scientific interpretation, and passing checks cannot promote a model or establish independent performance or reading.

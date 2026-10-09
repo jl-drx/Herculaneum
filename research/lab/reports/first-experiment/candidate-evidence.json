@@ -1,0 +1,34 @@
+{
+  "sample_id": "PHerc0800",
+  "volume_id": "20250521135224",
+  "segment_id": "20251029010146",
+  "candidate_source_xy": [
+    652,
+    563
+  ],
+  "candidate_native_ct_xyz": [
+    3466.529052734375,
+    6424.37890625,
+    12004.220703125
+  ],
+  "context_bbox_xywh": [
+    512,
+    448,
+    256,
+    256
+  ],
+  "selection": "post hoc minimum-of-two-seed score screen; not independent held-out evaluation",
+  "ink_status": "unresolved",
+  "reading_status": "unread",
+  "language": null,
+  "diplomatic_text": null,
+  "restored_text": null,
+  "translation": null,
+  "evidence_review": "Diffuse model hotspot; no coherent letterform supported by independent panel review",
+  "controls_record": "candidate-depth-controls.json",
+  "retained_model_scores": "ink9um-full-center-forward/metadata.json",
+  "native_ct_consistency": "93/93 tested uint8 values reproduced exactly at hotspot and2neighborprofiles; no fitted transforms",
+  "native_ct_report": "native-ct-consistency.json",
+  "render_export_commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+  "native_ct_validation_scope": "Three local31-layerprofiles only; no authenticated ink/reading"
+}
