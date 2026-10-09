@@ -1,0 +1,296 @@
+{
+  "all_valid_old_samples": 325507,
+  "candidates": [
+    {
+      "id": "pair01",
+      "new_grid_normalized_sample_xyz": [
+        18833.8515625,
+        19571.51953125,
+        69489.1875
+      ],
+      "new_xyz_published_transform": [
+        18834.88304115209,
+        19560.718899016778,
+        69478.06096500624
+      ],
+      "nominal_role": "training",
+      "normalized_grid_discrepancy_new_voxels": 15.5408296372622,
+      "normalized_target_xy": [
+        0.3,
+        0.2
+      ],
+      "old_grid_yx": [
+        98,
+        239
+      ],
+      "old_xyz": [
+        2894.4384765625,
+        3603.400390625,
+        12316.087890625
+      ]
+    },
+    {
+      "id": "pair02",
+      "new_grid_normalized_sample_xyz": [
+        17521.365234375,
+        19483.31640625,
+        69301.125
+      ],
+      "new_xyz_published_transform": [
+        17528.12489338833,
+        19476.696406504903,
+        69289.30259564437
+      ],
+      "nominal_role": "training",
+      "normalized_grid_discrepancy_new_voxels": 15.142213555140323,
+      "normalized_target_xy": [
+        0.7,
+        0.2
+      ],
+      "old_grid_yx": [
+        98,
+        558
+      ],
+      "old_xyz": [
+        3221.849609375,
+        3837.222900390625,
+        12258.9345703125
+      ]
+    },
+    {
+      "id": "pair03",
+      "new_grid_normalized_sample_xyz": [
+        19188.7578125,
+        16964.6953125,
+        60429.6796875
+      ],
+      "new_xyz_published_transform": [
+        19186.53133774706,
+        16961.223006894743,
+        60432.75373842291
+      ],
+      "nominal_role": "selection",
+      "normalized_grid_discrepancy_new_voxels": 5.14430608716171,
+      "normalized_target_xy": [
+        0.3,
+        0.5
+      ],
+      "old_grid_yx": [
+        244,
+        239
+      ],
+      "old_xyz": [
+        3294.625,
+        2951.16552734375,
+        9530.9365234375
+      ]
+    },
+    {
+      "id": "pair04",
+      "new_grid_normalized_sample_xyz": [
+        17830.61328125,
+        17058.95703125,
+        60420.49609375
+      ],
+      "new_xyz_published_transform": [
+        17835.003729768498,
+        17058.623259173477,
+        60422.67552192918
+      ],
+      "nominal_role": "selection",
+      "normalized_grid_discrepancy_new_voxels": 4.912977628775806,
+      "normalized_target_xy": [
+        0.7,
+        0.5
+      ],
+      "old_grid_yx": [
+        244,
+        558
+      ],
+      "old_xyz": [
+        3597.963134765625,
+        3236.220703125,
+        9529.4228515625
+      ]
+    },
+    {
+      "id": "pair05",
+      "new_grid_normalized_sample_xyz": [
+        18058.287109375,
+        16492.1484375,
+        51478.3125
+      ],
+      "new_xyz_published_transform": [
+        18050.70865982603,
+        16503.724492712732,
+        51483.91920904399
+      ],
+      "nominal_role": "comparison",
+      "normalized_grid_discrepancy_new_voxels": 14.928936270159753,
+      "normalized_target_xy": [
+        0.3,
+        0.8
+      ],
+      "old_grid_yx": [
+        391,
+        239
+      ],
+      "old_xyz": [
+        3634.904296875,
+        3097.53173828125,
+        6786.330078125
+      ]
+    },
+    {
+      "id": "pair06",
+      "new_grid_normalized_sample_xyz": [
+        16803.056640625,
+        16195.2607421875,
+        51745.515625
+      ],
+      "new_xyz_published_transform": [
+        16805.307434404436,
+        16204.125428283001,
+        51756.42141165359
+      ],
+      "nominal_role": "comparison",
+      "normalized_grid_discrepancy_new_voxels": 14.23323275798215,
+      "normalized_target_xy": [
+        0.7,
+        0.8
+      ],
+      "old_grid_yx": [
+        391,
+        558
+      ],
+      "old_xyz": [
+        3990.412353515625,
+        3266.22607421875,
+        6869.5576171875
+      ]
+    }
+  ],
+  "geometry_bytes": 3672730,
+  "new_layout": [
+    {
+      "axis": "x",
+      "compression": 1,
+      "dtype": "float32",
+      "rowsperstrip": 1598,
+      "sample_yx": [
+        [
+          320,
+          779
+        ],
+        [
+          320,
+          1818
+        ],
+        [
+          797,
+          779
+        ],
+        [
+          797,
+          1818
+        ],
+        [
+          1277,
+          779
+        ],
+        [
+          1277,
+          1818
+        ]
+      ],
+      "shape": [
+        1598,
+        2598
+      ],
+      "strip_count": 1
+    },
+    {
+      "axis": "y",
+      "compression": 1,
+      "dtype": "float32",
+      "rowsperstrip": 1598,
+      "sample_yx": [
+        [
+          320,
+          779
+        ],
+        [
+          320,
+          1818
+        ],
+        [
+          797,
+          779
+        ],
+        [
+          797,
+          1818
+        ],
+        [
+          1277,
+          779
+        ],
+        [
+          1277,
+          1818
+        ]
+      ],
+      "shape": [
+        1598,
+        2598
+      ],
+      "strip_count": 1
+    },
+    {
+      "axis": "z",
+      "compression": 1,
+      "dtype": "float32",
+      "rowsperstrip": 1598,
+      "sample_yx": [
+        [
+          320,
+          779
+        ],
+        [
+          320,
+          1818
+        ],
+        [
+          797,
+          779
+        ],
+        [
+          797,
+          1818
+        ],
+        [
+          1277,
+          779
+        ],
+        [
+          1277,
+          1818
+        ]
+      ],
+      "shape": [
+        1598,
+        2598
+      ],
+      "strip_count": 1
+    }
+  ],
+  "normalized_grid_relation": "diagnostic only; not used to choose centers",
+  "old_shape": [
+    490,
+    798,
+    3
+  ],
+  "physical_alignment_established": false,
+  "selection_before_CT_and_labels": true,
+  "status": "GEOMETRY_CENTERS_SELECTED"
+}

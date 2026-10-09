@@ -1,0 +1,27 @@
+"""Seal phase42 admission evidence and append the register without historical edits."""
+from copy import deepcopy
+from common import *
+prior=REPORTS/'fortyfirst-experiment/final-verification.json'
+need(pin(prior)['sha256']=='a53990be1cf21e501283ae9dfc1c5d4a4a950aae1d254377de297b5144667536','Prior manifest anchor')
+old_manifest=json.loads(prior.read_text());records={}
+for item in old_manifest['records']:verify(item);records[item['path']]=item
+review=json.loads((HERE/'ROOT_REPORT_REVIEW.json').read_text());v=json.loads((HERE/'ADMISSION_VERIFICATION.json').read_text());ref=json.loads((HERE/'REFERENCE_REVIEW.json').read_text());ct=json.loads((HERE/'ct/COMPLETE.json').read_text());geom=json.loads((HERE/'geometry/COMPLETE.json').read_text())
+need(review['report_reviewed'] and review['original_figures_reviewed']==6 and v['status']=='PASS','Completed root and numerical review')
+need(ref['status']=='STOP_LEARNING_FOR_THIS_PANEL' and ref['seconds_since_acquisition_GO']<=2700,'Frozen admission stop')
+for go in ['GEOMETRY_GO.json','CT_GO.json','ALIGNMENT_GO.json','ALIGNMENT_CONTINUATION_GO.json']:
+ for item in json.loads((HERE/go).read_text())['pins']:verify(item)
+evidence=['PROTOCOL.md','GEOMETRY_GO.json','CT_PLAN.json','CT_GO.json','ACQUISITION_TESTS.json','ALIGNMENT_PROTOCOL.md','ALIGNMENT_GO.json','ALIGNMENT_TESTS.json','ALIGNMENT_INTERRUPTION.md','ALIGNMENT_CONTINUATION_GO.json','geometry/COMPLETE.json','geometry/SELECTION.json','ct/COMPLETE.json','alignment/RESULTS.json','REFERENCE_REVIEW.json','ADMISSION_VERIFICATION.json','ROOT_REPORT_REVIEW.json','review/FIGURES.json','review-compact/FIGURES.json','RESULTS.md','REVIEW_PACKET.md','NEXT_STUDY_DRAFT.md','STARTUP_AFTER_FORTYSECOND.md']
+contract=dict(schema_version=1,status=review['status'],decision=review['decision'],evidence={f:pin(HERE/f) for f in evidence},scientific_payload_acquisition_requests=geom['requests']+ct['requests'],geometry_requests=geom['requests'],CT_requests=ct['requests'],delivered_scientific_bytes=geom['delivered_bytes']+ct['delivered_bytes'],CT_network_retries=0,structural_regions_correlated_once=4,structural_regions_coverage_rejected=2,diagnostic_continuations=1,correlation_regions_repeated=0,pre_run_fixtures_passed=6,score_cubes_verified=20,direct_Pearson_values_verified=v['direct_Pearson_values_checked'],optimizer_updates=0,new_model_forwards=0,public_label_bodies_read=0,physical_registration_established=False,independent_ink_reference_established=False,native_learning_admitted=False,synthetic_coarse_learning_admitted=False,real_coarse_learning_admitted=False,all_six_candidate_regions_reference_review_exposed=True,baseline_promoted=False,full_historical_depth_contract_retained=True,CPU_monetary_cap=None,GPU_spend_GBP=0,GPU_pilot_total_cap_GBP=10,new_artifacts_uploaded_to_R2=False,publication_scope='Local evidence sealed; selected GitHub source/report/figure publication recorded separately; no bulk-backup claim',transcription=None,translation=None)
+save(HERE/'COMPLETION_CONTRACT.json',contract)
+old_register=REPORTS/'research-register-v37.json';need(pin(old_register)['sha256']=='213e86b5dc7788f849186668d2d4c18d594cc0e833d70bbea64e920b6994a72d','Prior register anchor')
+old=json.loads(old_register.read_text());new=deepcopy(old)
+new.update(created_at_utc=now(),scope='Additive phase42 register; all41 prior entries unchanged',previous_register=pin(old_register),next_study=pin(HERE/'NEXT_STUDY_DRAFT.md'),readiness_check=dict(script=str(HERE/'verify_retained_state.py'),external_manifest_anchor='Saved phase42 startup prefix'))
+new['experiments'].append(dict(id='fortysecond-experiment',purpose='Bounded Paris4 paired CT acquisition, structural correspondence and independent reference admission',status=review['status'],decision=review['decision'],conclusion=review['conclusion'],report=pin(HERE/'RESULTS.md'),completion_contract=pin(HERE/'COMPLETION_CONTRACT.json'),numerical_verification=[pin(HERE/'ADMISSION_VERIFICATION.json')],all_six_candidate_regions_reference_review_exposed=True,independent_ink_accuracy_established=False,scientific_optimizer_updates=0,scientific_model_forwards=0,new_scientific_payload_acquisition_requests=114,new_scientific_payload_bytes=204999322,GPU_spend_GBP=0,GPU_pilot_total_cap_GBP=10,transcription=None,translation=None))
+need(new['experiments'][:-1]==old['experiments'] and len(new['experiments'])==42,'All prior register entries preserved')
+register=REPORTS/'research-register-v38.json';save(register,new)
+for path in [prior,register,*[p for p in HERE.rglob('*') if p.is_file() and '__pycache__' not in p.parts]]:
+ item=pin(path);need(item['path'] not in records or records[item['path']]==item,'Historical mutation');records[item['path']]=item
+ordered=[records[k] for k in sorted(records)];phase_bytes=sum(p.stat().st_size for p in HERE.rglob('*') if p.is_file())
+manifest=dict(schema_version=1,status='PASS',created_at_utc=now(),prior_manifest=pin(prior),prior_records_preserved=len(old_manifest['records']),records=ordered,record_count=len(ordered),retained_bytes=sum(r['size_bytes'] for r in ordered),phase_bytes_before_final_manifest=phase_bytes,scope='Local byte integrity; selected GitHub publication tracked separately; full archive not remotely backed up',gpu_spend_GBP=0,total_first_GPU_pilot_cap_GBP=10)
+dest=HERE/'final-verification.json';save(dest,manifest);need(phase_bytes+dest.stat().st_size<512*1024**2,'Phase local footprint bound')
+print(json.dumps(dict(manifest=pin(dest),register=pin(register),records=len(ordered),retained_bytes=manifest['retained_bytes'])))

@@ -1,0 +1,33 @@
+# Phase42: bounded Paris4 paired-acquisition admission
+
+User approval: proceed with the phase41 recommendation, 9 October 2026. The intended research comparison is native fine CT, deliberately degraded fine CT and registered real coarse CT, with matched-quality training and cross-quality testing. This admission gate must establish usable physical correspondence and reference support first. No model training is permitted by the acquisition GO alone.
+
+Use Paris4 segment20231016151002, old volume20230205180739 at7.91µm and modern volume20260411134726 at2.4µm. Pin phase41's public metadata, forward/inverse transformations and native array metadata. Coordinates are XYZ level0 voxel units; arrays are ZYX. Keep the published reflection and calibration. Do not replace the transformation with a nominal scale ratio.
+
+## Fixed selection before image inspection
+
+Read the old coordinate triplet in full (about2.8MB) and only headers/selected ranges of the modern coordinate triplet. Geometry/reference delivered-byte cap32MiB. Full modern triplet is approximately49.8MB and is not allowed. Modern TIFF samples must be decoded from documented uncompressed strips or an independently checked supported ranged method; an unsupported layout stops that route rather than silently exceeding the cap.
+
+Six candidate centers are fixed at normalized old coordinate-grid positions (X,Y): (.30,.20),(.70,.20),(.30,.50),(.70,.50),(.30,.80),(.70,.80), in that order. Select the nearest valid old geometry sample within8% of each grid dimension, by squared normalized distance then row/column. A valid point is finite, nonzero, within volume bounds and has a fully valid5×5 geometry neighborhood. All choices use geometry alone, before CT or label bodies. Require each selected center to be at least1mm from other selected centers in physical old-volume coordinates. Do not search a seventh region based on image or model appearance.
+
+For each center, compute its modern coordinate from the published transform. Acquire one256³ array-aligned block per acquisition, formed from2×2×2 native128³ chunks. Start at `(round(center/128)-1)*128` in each axis (NumPy nearest-even), so the center has at least64 native voxels of context. There are at most96 unique chunks across six pairs,192MiB delivered CT. The hard approved CT cap remains256MiB; no unplanned extra CT is acquired to rescue a negative admission. Out-of-volume blocks or malformed/missing chunks stop that pair. Do not treat absent chunks as zero without documented fill semantics and observed coverage. Retain all requests, raw bodies, hashes and failures; no automatic scientific retry.
+
+Assign nominal roles before CT: candidates1–2 training,3–4 protocol selection,5–6 locked comparison. This assignment is provisional: no region becomes an untouched test merely because of that name. Admission inspection of non-ink structure does not select candidate models, but any region whose ink is inspected or used in labels is documented as reference-review exposed. Require non-overlap of full native-volume block footprints and future model/sampling guard bands before any learning split is approved. Paris4 is already present in seed42's upstream training representations, so a cleanly initialized primary learner is required for within-parent learnability claims.
+
+## Geometry and alignment
+
+First measure whether sampled old/new coordinate grids agree under the published transform. This is a representation-consistency check; transformed coordinates can be algebraically derived and are not independent scan landmarks.
+
+Render comparable views of raw native intensities under the published transformation. Perform a bounded translation-only structural registration diagnostic, using disjoint spatial supports for fitting and checking. Freeze the algorithm/search range and masks before its output. Do not align using ink labels or detector outputs. Report initial correspondence, fitted displacement, held-out local residuals, ambiguity and overlap coverage. A high correlation alone cannot verify ink-scale alignment or wrap identity.
+
+For real-scan learning admission, require at least three spatially separated structural correspondences per region, including held-out evidence not used by a local correction fit. Tangential residual median must be <=half a coarse pixel (3.955µm) and maximum <=one coarse pixel (7.91µm). Normal uncertainty must not cross a neighboring papyrus wrap and must be bounded relative to observed wrap separation and retained depth support. Missing, ambiguous or unresolved correspondence fails admission; absence of a measured error is not zero error. This tolerance is frozen before CT outputs. If the published mapping is too inaccurate, a single training-structure-derived translation correction may be evaluated; no affine/deformable sweep or prediction-driven tuning.
+
+## Reference gate and bounded stopping
+
+Independently review native CT for directly visible deposits and defensible non-ink substrate; uncertain material stays unknown. Do not make low detector probability a negative label. Public dense Paris4 labels have incomplete ancestry and model-derived components and cannot alone be test truth for descendant methods. Derived prediction images may be inspected only after center selection and must be separately marked as contextual, not independent verification. Geometry or structural-registration quality does not establish ink identity.
+
+If usable reference support and physical splits qualify, freeze a separate training protocol, fixtures and GO for the conventional native/synthetic comparison; include real coarse only if registration also qualifies. No model calls may occur before that GO. Use a training-only fit check and one adequate CPU budget per admitted observation quality, with no checkpoint search on comparison blocks.
+
+Complete this one admission exercise within45minutes of first scientific acquisition,256MiB CT and32MiB geometry/reference bodies. If real pairing fails, stop that arm and assess native/synthetic admissibility. If independent positives and negatives cannot be established, stop the ink-learning comparison for this candidate panel and record exactly what evidence is absent; do not generate proxy truth or repeat open-ended provenance queries. A different documented material pair or a specifically reviewed annotation packet becomes the next concrete task.
+
+All existing eight evaluation regions remain reused development and are not repurposed as untouched tests. Preserve all historical evidence. CPU monetary spend is unrestricted. GPU remains deferred under the £10 total pilot cap. No Runpod resources, credentials or R2 writes are needed.

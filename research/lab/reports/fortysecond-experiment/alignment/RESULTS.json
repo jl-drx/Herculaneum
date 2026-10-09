@@ -1,0 +1,832 @@
+{
+  "all_six_numerical_screens_pass": false,
+  "completed_before_guard": 2,
+  "correlation_regions_repeated": 0,
+  "created_at_utc": "2026-10-09T15:05:11.703920+00:00",
+  "elapsed_seconds": 1.6923895479994826,
+  "new_model_calls": 0,
+  "physical_registration_established": false,
+  "remaining_regions_computed_once": 2,
+  "rows": [
+    {
+      "checks": [
+        {
+          "NCC": 0.715710585860936,
+          "boundary": false,
+          "corner_zyx": [
+            0,
+            0,
+            1
+          ],
+          "far_competitor_NCC": 0.5032444416879521,
+          "integer_shift_zyx": [
+            1,
+            0,
+            3
+          ],
+          "margin": 0.21246614417298393,
+          "normal_residual_coarse_voxels": -0.8504094152100157,
+          "refined_shift_zyx": [
+            0.8978894682442795,
+            -0.10247280487868796,
+            2.5612887156753885
+          ],
+          "residual_xyz": [
+            0.5335156767223808,
+            -1.1536558677837665,
+            -0.14637955021830784
+          ],
+          "tangential_residual_coarse_voxels": 0.9559244755079122
+        },
+        {
+          "NCC": 0.36001959658635074,
+          "boundary": false,
+          "corner_zyx": [
+            0,
+            1,
+            0
+          ],
+          "far_competitor_NCC": 0.3439724535977601,
+          "integer_shift_zyx": [
+            -1,
+            -6,
+            2
+          ],
+          "margin": 0.016047142988590668,
+          "normal_residual_coarse_voxels": -4.780008914252386,
+          "refined_shift_zyx": [
+            -0.9833849322410354,
+            -5.800076312503199,
+            2.1089894153875517
+          ],
+          "residual_xyz": [
+            0.08121637643454394,
+            -6.851259375408278,
+            -2.027653950703623
+          ],
+          "tangential_residual_coarse_voxels": 5.311237647498167
+        },
+        {
+          "NCC": 0.6042580010872945,
+          "boundary": false,
+          "corner_zyx": [
+            1,
+            0,
+            0
+          ],
+          "far_competitor_NCC": 0.48480330807693517,
+          "integer_shift_zyx": [
+            2,
+            0,
+            2
+          ],
+          "margin": 0.11945469301035938,
+          "normal_residual_coarse_voxels": -0.9497721844320236,
+          "refined_shift_zyx": [
+            1.751235850335232,
+            0.32873766762635803,
+            2.300033870304521
+          ],
+          "residual_xyz": [
+            0.27226083135151313,
+            -0.7224453952787204,
+            0.7069668318726448
+          ],
+          "tangential_residual_coarse_voxels": 0.44021377182116894
+        },
+        {
+          "NCC": 0.419251469169677,
+          "boundary": false,
+          "corner_zyx": [
+            1,
+            1,
+            1
+          ],
+          "far_competitor_NCC": 0.38688638307182494,
+          "integer_shift_zyx": [
+            -5,
+            -4,
+            6
+          ],
+          "margin": 0.03236508609785205,
+          "normal_residual_coarse_voxels": -0.6439545018614837,
+          "refined_shift_zyx": [
+            -4.840538426547283,
+            -3.7431511468692173,
+            5.92105636196806
+          ],
+          "residual_xyz": [
+            3.8932833230150523,
+            -4.794334209774296,
+            -5.884807445009871
+          ],
+          "tangential_residual_coarse_voxels": 8.506443251595535
+        }
+      ],
+      "fit": {
+        "NCC": 0.5510114749317175,
+        "boundary": false,
+        "far_competitor_NCC": 0.42155242353235695,
+        "integer_shift_zyx": [
+          1,
+          1,
+          2
+        ],
+        "margin": 0.1294590513993606,
+        "refined_shift_zyx": [
+          1.0442690184625874,
+          1.0511830629050785,
+          2.0277730389530078
+        ]
+      },
+      "geometry_basis_old_xyz": [
+        [
+          0.9878722429275513,
+          -0.030305981636047363,
+          0.15228252112865448
+        ],
+        [
+          0.11402706801891327,
+          -0.5240773558616638,
+          -0.8440027832984924
+        ],
+        [
+          0.1053861528635025,
+          0.85113126039505,
+          -0.514265775680542
+        ]
+      ],
+      "id": "pair01",
+      "independent_landmarks_verified": false,
+      "nominal_role": "training",
+      "numerical_screen_passes": false,
+      "physical_registration_admitted": false,
+      "public_mapping_fit_NCC": 0.3001213415041976,
+      "score_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair01-fit-ncc.npy",
+          "sha256": "5a9e95783a5399a94aaa7a74503c52b0772ddb1b97b3083c76255ece277908d0",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair01-check0-ncc.npy",
+          "sha256": "423885db6d9a203cf91e3c2e51aeab00c8c198c4d4d408b105a79dc5834a2143",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair01-check1-ncc.npy",
+          "sha256": "ea326d3f666c6d65accfcb2e62f6874111e1e28da5669559923ef988a3ea94a1",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair01-check2-ncc.npy",
+          "sha256": "6478f5acb6ce6d03021c9d02ef12537c815284d50389948d7a1ad00a28a0cfe2",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair01-check3-ncc.npy",
+          "sha256": "36a2212d0b6f5dc7a4d242c965ab734311d4cf9278977caee7a2054dd467bfab",
+          "size_bytes": 39432
+        }
+      ],
+      "status": "COMPLETED_RETAINED",
+      "wrap_identity_verified": false
+    },
+    {
+      "checks": [
+        {
+          "NCC": 0.4383378956969483,
+          "boundary": true,
+          "corner_zyx": [
+            0,
+            0,
+            1
+          ],
+          "far_competitor_NCC": 0.37070060101446745,
+          "integer_shift_zyx": [
+            5,
+            0,
+            -8
+          ],
+          "margin": 0.06763729468248086,
+          "normal_residual_coarse_voxels": 8.827796229613227,
+          "refined_shift_zyx": [
+            5.0,
+            0.0,
+            -8.0
+          ],
+          "residual_xyz": [
+            -10.872320718529634,
+            -0.7868807244644644,
+            5.015283535031488
+          ],
+          "tangential_residual_coarse_voxels": 8.127090948474764
+        },
+        {
+          "NCC": 0.5267069333030161,
+          "boundary": false,
+          "corner_zyx": [
+            0,
+            1,
+            0
+          ],
+          "far_competitor_NCC": 0.46991953567493455,
+          "integer_shift_zyx": [
+            0,
+            1,
+            2
+          ],
+          "margin": 0.05678739762808155,
+          "normal_residual_coarse_voxels": 0.49608253923659495,
+          "refined_shift_zyx": [
+            0.07396230735910866,
+            1.0587606959651397,
+            2.4050893897210632
+          ],
+          "residual_xyz": [
+            -0.46723132880857143,
+            0.2718799715006752,
+            0.08924584239059645
+          ],
+          "tangential_residual_coarse_voxels": 0.23257412260073818
+        },
+        {
+          "NCC": 0.5759325808966972,
+          "boundary": true,
+          "corner_zyx": [
+            1,
+            0,
+            0
+          ],
+          "far_competitor_NCC": 0.5696147648312054,
+          "integer_shift_zyx": [
+            -1,
+            8,
+            7
+          ],
+          "margin": 0.006317816065491755,
+          "normal_residual_coarse_voxels": -1.5183797986384224,
+          "refined_shift_zyx": [
+            -1.0,
+            8.0,
+            7.0
+          ],
+          "residual_xyz": [
+            4.127679281470366,
+            7.213119275535536,
+            -0.9847164649685122
+          ],
+          "tangential_residual_coarse_voxels": 8.2298854675761
+        },
+        {
+          "NCC": 0.5222890824952877,
+          "boundary": true,
+          "corner_zyx": [
+            1,
+            1,
+            1
+          ],
+          "far_competitor_NCC": 0.5083690927591826,
+          "integer_shift_zyx": [
+            -5,
+            -8,
+            -5
+          ],
+          "margin": 0.013919989736105087,
+          "normal_residual_coarse_voxels": 5.821116337073248,
+          "refined_shift_zyx": [
+            -5.0,
+            -8.0,
+            -5.0
+          ],
+          "residual_xyz": [
+            -7.872320718529634,
+            -8.786880724464464,
+            -4.984716464968512
+          ],
+          "tangential_residual_coarse_voxels": 11.408098128067335
+        }
+      ],
+      "fit": {
+        "NCC": 0.41826540043874466,
+        "boundary": false,
+        "far_competitor_NCC": 0.2751309562487397,
+        "integer_shift_zyx": [
+          0,
+          1,
+          3
+        ],
+        "margin": 0.14313444419000498,
+        "refined_shift_zyx": [
+          -0.015283535031487782,
+          0.7868807244644644,
+          2.8723207185296347
+        ]
+      },
+      "geometry_basis_old_xyz": [
+        [
+          0.35217079520225525,
+          0.8737857937812805,
+          -0.3353714346885681
+        ],
+        [
+          0.08827148377895355,
+          -0.3877390921115875,
+          -0.9175328016281128
+        ],
+        [
+          -0.931763768196106,
+          0.29352450370788574,
+          -0.21368074417114258
+        ]
+      ],
+      "id": "pair02",
+      "independent_landmarks_verified": false,
+      "nominal_role": "training",
+      "numerical_screen_passes": false,
+      "physical_registration_admitted": false,
+      "public_mapping_fit_NCC": -0.09997698366318697,
+      "score_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair02-fit-ncc.npy",
+          "sha256": "28dceb70dd3ab0f8af72b495be281e6fa005c8939ccc074e881cb9a94ee5a529",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair02-check0-ncc.npy",
+          "sha256": "0de89acfe950b793e81ddad9906de53b52b96b8c5174d11f35ce1228ece1268e",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair02-check1-ncc.npy",
+          "sha256": "8d00e092766b90a5c7f49e62edbb7e14925537919483054f51b2657be005c41b",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair02-check2-ncc.npy",
+          "sha256": "f2d61de60133e7b9b0040e0d9265942c67596e2f18e7c45f3d1b212f985948c4",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair02-check3-ncc.npy",
+          "sha256": "2b58beef7fcf20ea0246f3fb2d5b8fa4c6b14ceff0542502a6d6ee03f38f2d68",
+          "size_bytes": 39432
+        }
+      ],
+      "status": "COMPLETED_RETAINED",
+      "wrap_identity_verified": false
+    },
+    {
+      "fit": null,
+      "geometry_basis_old_xyz": [
+        [
+          0.9843391180038452,
+          -0.144093856215477,
+          0.1015549898147583
+        ],
+        [
+          0.13102112710475922,
+          0.21258029341697693,
+          -0.9683197736740112
+        ],
+        [
+          0.11794033646583557,
+          0.9664608836174011,
+          0.22813044488430023
+        ]
+      ],
+      "id": "pair03",
+      "nominal_role": "selection",
+      "numerical_screen_passes": false,
+      "physical_registration_admitted": false,
+      "required_bounds": [
+        6,
+        249
+      ],
+      "sample_bounds_zyx": [
+        [
+          91.55515414578986,
+          -6.725988068632432,
+          45.708911263202026
+        ],
+        [
+          194.71073398157023,
+          136.65148743609097,
+          187.94192599651433
+        ]
+      ],
+      "status": "NOT_ADMITTED_COVERAGE"
+    },
+    {
+      "checks": [
+        {
+          "NCC": 0.5650474640287477,
+          "boundary": false,
+          "corner_zyx": [
+            0,
+            0,
+            1
+          ],
+          "far_competitor_NCC": 0.5160987595737848,
+          "integer_shift_zyx": [
+            -5,
+            7,
+            5
+          ],
+          "margin": 0.04894870445496291,
+          "normal_residual_coarse_voxels": 0.7497350764124117,
+          "refined_shift_zyx": [
+            -5.380209020559596,
+            7.181276656579328,
+            4.916786297158005
+          ],
+          "residual_xyz": [
+            3.7883389030762267,
+            6.225197362554606,
+            -5.5903986188772965
+          ],
+          "tangential_residual_coarse_voxels": 9.153963513009211
+        },
+        {
+          "NCC": 0.5633956835913003,
+          "boundary": false,
+          "corner_zyx": [
+            0,
+            1,
+            0
+          ],
+          "far_competitor_NCC": 0.5380316794275984,
+          "integer_shift_zyx": [
+            -5,
+            3,
+            -5
+          ],
+          "margin": 0.02536400416370188,
+          "normal_residual_coarse_voxels": 7.612411626759513,
+          "refined_shift_zyx": [
+            -5.257913928430179,
+            2.896253458126896,
+            -4.83880489274201
+          ],
+          "residual_xyz": [
+            -5.967252286823788,
+            1.9401741641021748,
+            -5.46810352674788
+          ],
+          "tangential_residual_coarse_voxels": 3.3650754987216605
+        },
+        {
+          "NCC": 0.7041130104983092,
+          "boundary": false,
+          "corner_zyx": [
+            1,
+            0,
+            0
+          ],
+          "far_competitor_NCC": 0.686073193951545,
+          "integer_shift_zyx": [
+            -4,
+            -1,
+            1
+          ],
+          "margin": 0.01803981654676423,
+          "normal_residual_coarse_voxels": 0.8357462968103301,
+          "refined_shift_zyx": [
+            -4.146257117957737,
+            -0.6110179304485824,
+            1.0063821360457874
+          ],
+          "residual_xyz": [
+            -0.12206525803599111,
+            -1.567097224473304,
+            -4.356446716275438
+          ],
+          "tangential_residual_coarse_voxels": 4.555310077560694
+        },
+        {
+          "NCC": 0.7115544590331164,
+          "boundary": true,
+          "corner_zyx": [
+            1,
+            1,
+            1
+          ],
+          "far_competitor_NCC": 0.7089604965488504,
+          "integer_shift_zyx": [
+            -7,
+            -8,
+            -3
+          ],
+          "margin": 0.0025939624842660214,
+          "normal_residual_coarse_voxels": 2.4006365284078464,
+          "refined_shift_zyx": [
+            -7.0,
+            -8.0,
+            -3.0
+          ],
+          "residual_xyz": [
+            -4.128447394081778,
+            -8.956079294024722,
+            -7.210189598317701
+          ],
+          "tangential_residual_coarse_voxels": 11.978280916255816
+        }
+      ],
+      "fit": {
+        "NCC": 0.5538302504213121,
+        "boundary": false,
+        "far_competitor_NCC": 0.41910335252366404,
+        "integer_shift_zyx": [
+          0,
+          1,
+          1
+        ],
+        "margin": 0.13472689789764802,
+        "refined_shift_zyx": [
+          0.21018959831770112,
+          0.9560792940247214,
+          1.1284473940817785
+        ]
+      },
+      "geometry_basis_old_xyz": [
+        [
+          0.41854149103164673,
+          0.905220627784729,
+          -0.07347637414932251
+        ],
+        [
+          0.24715971946716309,
+          -0.19137971103191376,
+          -0.9498873353004456
+        ],
+        [
+          -0.8739194869995117,
+          0.3794068694114685,
+          -0.3038344383239746
+        ]
+      ],
+      "id": "pair04",
+      "independent_landmarks_verified": false,
+      "nominal_role": "selection",
+      "numerical_screen_passes": false,
+      "physical_registration_admitted": false,
+      "public_mapping_fit_NCC": 0.4601372207436154,
+      "score_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair04-fit-ncc.npy",
+          "sha256": "f388287e6c459dfc9fd2f2f042172f576bd6260ffd0fb73d0350d31f344733fb",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair04-check0-ncc.npy",
+          "sha256": "f29c670b1ab7bb39160592644e266921c3e74daad9dd69f2f805ec07e7848313",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair04-check1-ncc.npy",
+          "sha256": "c3bbbfa9848f310d186f41c933bee2d56ac7a43ec237f3ca9dc3413d3d97e999",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair04-check2-ncc.npy",
+          "sha256": "85bf34d69fb4f1847f3bf1ffefd423665b4bbfd1dd2984846eb15022178ff98c",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair04-check3-ncc.npy",
+          "sha256": "18a0b27f5fa84466bf9304cc0128a489fb5f5d1c48154f64185d75e902ac91cd",
+          "size_bytes": 39432
+        }
+      ],
+      "status": "COMPLETED_ONCE",
+      "wrap_identity_verified": false
+    },
+    {
+      "checks": [
+        {
+          "NCC": 0.7115500002538966,
+          "boundary": false,
+          "corner_zyx": [
+            0,
+            0,
+            1
+          ],
+          "far_competitor_NCC": 0.7008585119996524,
+          "integer_shift_zyx": [
+            -1,
+            0,
+            -5
+          ],
+          "margin": 0.010691488254244153,
+          "normal_residual_coarse_voxels": 0.7687512771385778,
+          "refined_shift_zyx": [
+            -0.8998037909531729,
+            0.07270351549030449,
+            -4.772552577484801
+          ],
+          "residual_xyz": [
+            -3.9257501121561997,
+            0.3008362934628457,
+            -0.7410992006384285
+          ],
+          "tangential_residual_coarse_voxels": 3.931954468539592
+        },
+        {
+          "NCC": 0.7893422998582295,
+          "boundary": false,
+          "corner_zyx": [
+            0,
+            1,
+            0
+          ],
+          "far_competitor_NCC": 0.6616260371395813,
+          "integer_shift_zyx": [
+            0,
+            -1,
+            2
+          ],
+          "margin": 0.1277162627186481,
+          "normal_residual_coarse_voxels": -0.38104792018146094,
+          "refined_shift_zyx": [
+            0.014078785178449474,
+            -0.752529547382982,
+            1.5287993745144488
+          ],
+          "residual_xyz": [
+            2.3756018398430503,
+            -0.5243967694104408,
+            0.1727833754931939
+          ],
+          "tangential_residual_coarse_voxels": 2.4089692104205804
+        },
+        {
+          "NCC": 0.8419543842718232,
+          "boundary": false,
+          "corner_zyx": [
+            1,
+            0,
+            0
+          ],
+          "far_competitor_NCC": 0.8403113557997121,
+          "integer_shift_zyx": [
+            -1,
+            0,
+            -5
+          ],
+          "margin": 0.0016430284721111743,
+          "normal_residual_coarse_voxels": 0.6166033890944479,
+          "refined_shift_zyx": [
+            -0.9118993423068789,
+            -0.2725443508487354,
+            -5.033560416677301
+          ],
+          "residual_xyz": [
+            -4.186757951348699,
+            -0.04441157287619424,
+            -0.7531947519921345
+          ],
+          "tangential_residual_coarse_voxels": 4.20927750832279
+        },
+        {
+          "NCC": 0.6310250616842418,
+          "boundary": false,
+          "corner_zyx": [
+            1,
+            1,
+            1
+          ],
+          "far_competitor_NCC": 0.5637009190710833,
+          "integer_shift_zyx": [
+            -1,
+            0,
+            1
+          ],
+          "margin": 0.06732414261315844,
+          "normal_residual_coarse_voxels": 0.2888606853498163,
+          "refined_shift_zyx": [
+            -0.5434389287290287,
+            -0.3696372347965323,
+            1.2638041117311771
+          ],
+          "residual_xyz": [
+            2.1106065770597784,
+            -0.14150445682399115,
+            -0.3847343384142843
+          ],
+          "tangential_residual_coarse_voxels": 2.130554776009439
+        }
+      ],
+      "fit": {
+        "NCC": 0.6490826134376461,
+        "boundary": false,
+        "far_competitor_NCC": 0.5766394030011385,
+        "integer_shift_zyx": [
+          0,
+          0,
+          -1
+        ],
+        "margin": 0.07244321043650759,
+        "refined_shift_zyx": [
+          -0.1587045903147444,
+          -0.22813277797254117,
+          -0.8468024653286015
+        ]
+      },
+      "geometry_basis_old_xyz": [
+        [
+          0.9314959049224854,
+          0.3187023103237152,
+          0.17534025013446808
+        ],
+        [
+          0.36368632316589355,
+          -0.825130820274353,
+          -0.4323093891143799
+        ],
+        [
+          0.0069006383419036865,
+          0.46646326780319214,
+          -0.8845136761665344
+        ]
+      ],
+      "id": "pair05",
+      "independent_landmarks_verified": false,
+      "nominal_role": "comparison",
+      "numerical_screen_passes": false,
+      "physical_registration_admitted": false,
+      "public_mapping_fit_NCC": 0.639652629883665,
+      "score_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair05-fit-ncc.npy",
+          "sha256": "69cb4279f59d70705e7fd6983c93d4d800845c0826c1777290bb21e835a36c51",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair05-check0-ncc.npy",
+          "sha256": "08f2bca3af830d99aa6d1a20cb271b9f6d24a0bdd681fa8b9160544f6cd89547",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair05-check1-ncc.npy",
+          "sha256": "db9af8df75d4846738ecbd58c897866769ecf9539bb180d1d7117ad277b91402",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair05-check2-ncc.npy",
+          "sha256": "c040c9bc8b99cf1bb9b45e5c4ce1e205c34421d53e75de56b8a77ef9bc72d633",
+          "size_bytes": 39432
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fortysecond-experiment/alignment/pair05-check3-ncc.npy",
+          "sha256": "9df0deab111575e558f4088c1d7fcc6ca372ada320d368e04f538b1cd6ef3ccd",
+          "size_bytes": 39432
+        }
+      ],
+      "status": "COMPLETED_ONCE",
+      "wrap_identity_verified": false
+    },
+    {
+      "fit": null,
+      "geometry_basis_old_xyz": [
+        [
+          0.9489133954048157,
+          0.30916571617126465,
+          0.0630858838558197
+        ],
+        [
+          0.24220582842826843,
+          -0.5855372548103333,
+          -0.7736165523529053
+        ],
+        [
+          -0.2022365927696228,
+          0.7493748664855957,
+          -0.6305058598518372
+        ]
+      ],
+      "id": "pair06",
+      "nominal_role": "comparison",
+      "numerical_screen_passes": false,
+      "physical_registration_admitted": false,
+      "required_bounds": [
+        6,
+        249
+      ],
+      "sample_bounds_zyx": [
+        [
+          119.22282737647765,
+          4.176433319622447,
+          96.48500792057166
+        ],
+        [
+          222.37840721225075,
+          147.55390882434767,
+          238.71802265388396
+        ]
+      ],
+      "status": "NOT_ADMITTED_COVERAGE"
+    }
+  ],
+  "source_reference_labels_established": false,
+  "status": "COMPLETED_WITH_COVERAGE_REJECTIONS"
+}
