@@ -1,0 +1,30 @@
+{
+  "HTTP_failures": 0,
+  "label_polarity_review": "Crop-only ambiguity resolved by documented source rule and already-acquired full letter annotation context; no crop reselection",
+  "nonfatal_warnings": [
+    "Matplotlib/Fontconfig default cache location read-only; figures completed; later figure workers explicitly set writable /tmp caches"
+  ],
+  "observed_failures": [
+    {
+      "count": 6,
+      "error": "IndexError: TIFF directory outside retained head range",
+      "resolution": "Read pinned tail ranges; all directories then decoded",
+      "stage": "TIFF head-only metadata parse"
+    },
+    {
+      "count": 1,
+      "error": "ValueError converting empty trailing semicolon field to float",
+      "resolution": "Remove exactly one empty terminal field; preserve interior nan and coordinates; reuse existing tails without repeat HTTP calls",
+      "stage": "First raw matrix tail parse"
+    },
+    {
+      "count": 1,
+      "error": "ModuleNotFoundError: No module named sklearn",
+      "resolution": "Remove optional dependency before training freeze; use tie-aware NumPy metrics tested against independent threshold and all-pairs arithmetic",
+      "stage": "Pre-GO learning fixture import"
+    }
+  ],
+  "scientific_training_restarts": 0,
+  "scope": "Observed diagnostic history; failures were pre-training and retained, not successful scientific runs",
+  "source_TIFF_metadata_issue": "RGB TIFF BitsPerSample=[8,8,8] and SampleFormat=[IEEEFP,IEEEFP,IEEEFP]; original bytes retained; explicit RGB8 display interpretation"
+}

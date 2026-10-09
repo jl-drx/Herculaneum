@@ -1,0 +1,54 @@
+{
+  "conclusion": "Positive-centered sampling and natural-prevalence BCE weighting both emphasize foreground. Raw sigmoid values are not calibrated natural-prevalence posteriors; fixed0.5 Dice and Brier must be read with this limitation. No threshold or loss changed after outputs.",
+  "created_at_utc": "2026-10-09T16:41:13.250943+00:00",
+  "optimizer_updates": 0,
+  "results": [
+    {
+      "fixed_pos_weight": 3.9842499935941165,
+      "held_out": "248_090925_PI",
+      "label_support_sequence_sha256": "183781a7b1fe8f37b52f4b235c22555eb0795d5db11d32161b1900526057fe96",
+      "mean_batch_sampled_prevalence": 0.5492732894223702,
+      "natural_support_prevalence": 0.2006319910287857,
+      "optimal_constant_for_sampled_weighted_BCE": 0.8292164151097015,
+      "positive_presentations": 137927825,
+      "training_cases": [
+        "250_090925_C",
+        "500P2_230925_N2"
+      ],
+      "updates_replayed": 2048,
+      "valid_pixel_presentations": 251268018
+    },
+    {
+      "fixed_pos_weight": 5.3910781286575995,
+      "held_out": "250_090925_C",
+      "label_support_sequence_sha256": "20026a65e822a1c2fbf2f52ef8a0911a904e2f134e5036e820737e5039c48ea7",
+      "mean_batch_sampled_prevalence": 0.46200719392687095,
+      "natural_support_prevalence": 0.15646812319755554,
+      "optimal_constant_for_sampled_weighted_BCE": 0.8223689748739416,
+      "positive_presentations": 114676697,
+      "training_cases": [
+        "248_090925_PI",
+        "500P2_230925_N2"
+      ],
+      "updates_replayed": 2048,
+      "valid_pixel_presentations": 248744408
+    },
+    {
+      "fixed_pos_weight": 12.128018935497415,
+      "held_out": "500P2_230925_N2",
+      "label_support_sequence_sha256": "76bfb25751c0a167f7a48d4faaa1e8fddc6bc864984331010f4d3d870917a2a9",
+      "mean_batch_sampled_prevalence": 0.39599518695232744,
+      "natural_support_prevalence": 0.07617295533418655,
+      "optimal_constant_for_sampled_weighted_BCE": 0.888284665437835,
+      "positive_presentations": 98597168,
+      "training_cases": [
+        "248_090925_PI",
+        "250_090925_C"
+      ],
+      "updates_replayed": 2048,
+      "valid_pixel_presentations": 250012720
+    }
+  ],
+  "scientific_model_forwards": 0,
+  "status": "DIAGNOSTIC_ONLY_NO_PROTOCOL_CHANGE"
+}

@@ -1,6 +1,6 @@
 # Experiment index
 
-Historical reports preserve their original conclusions and scope. Latest: [phase43 reference search](lab/reports/fortythird-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 43 independent held-out tests.
+Historical reports preserve their original conclusions and scope. Latest: [phase44 CPU resolution control](lab/reports/fortyfourth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 44 independent held-out tests.
 
 | Experiment | Recorded outcome |
 | --- | --- |
@@ -47,3 +47,4 @@ Historical reports preserve their original conclusions and scope. Latest: [phase
 | [41: fortyfirst-experiment](lab/reports/fortyfirst-experiment/RESULTS.md) | COMPLETED_CPU_CONTROL_NO_ADVANCEMENT; SUPERVISION_TRADEOFF |
 | [42: fortysecond-experiment](lab/reports/fortysecond-experiment/RESULTS.md) | COMPLETED_VERIFIED_ADMISSION_STOP_NO_LEARNING |
 | [43: fortythird-experiment](lab/reports/fortythird-experiment/RESULTS.md) | COMPLETED_REFERENCE_SEARCH_CT_NOT_ADMITTED_PROFILOMETRY_LEAD |
+| [44: fortyfourth-experiment](lab/reports/fortyfourth-experiment/RESULTS.md) | COMPLETED_CPU_COMPARISON_NATIVE_FIT_NOT_QUALIFIED |

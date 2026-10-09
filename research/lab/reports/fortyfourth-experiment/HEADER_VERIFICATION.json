@@ -1,0 +1,92 @@
+{
+  "brightfield_issue": "All three RGB TIFFs specify eight-bit IEEEFP; display interpretation must be explicit",
+  "bytes": 1207830,
+  "expected_files": 56,
+  "folds": [
+    {
+      "fold": 0,
+      "held_out_parents": [
+        "PHerc. 248",
+        "PHerc. 250",
+        "PHerc. 500P2"
+      ],
+      "parent_disjoint": false,
+      "train": 11,
+      "validation": 3
+    },
+    {
+      "fold": 1,
+      "held_out_parents": [
+        "PHerc. 248",
+        "PHerc. 250",
+        "PHerc. 500P2"
+      ],
+      "parent_disjoint": false,
+      "train": 11,
+      "validation": 3
+    },
+    {
+      "fold": 2,
+      "held_out_parents": [
+        "PHerc. 250",
+        "PHerc. 500P2"
+      ],
+      "parent_disjoint": false,
+      "train": 11,
+      "validation": 3
+    },
+    {
+      "fold": 3,
+      "held_out_parents": [
+        "PHerc. 248",
+        "PHerc. 250"
+      ],
+      "parent_disjoint": false,
+      "train": 11,
+      "validation": 3
+    },
+    {
+      "fold": 4,
+      "held_out_parents": [
+        "PHerc. 248",
+        "PHerc. 250"
+      ],
+      "parent_disjoint": false,
+      "train": 12,
+      "validation": 2
+    },
+    {
+      "fold": 5,
+      "held_out_parents": [
+        "PHerc. 500P2"
+      ],
+      "parent_disjoint": true,
+      "train": 10,
+      "validation": 4
+    },
+    {
+      "fold": 6,
+      "held_out_parents": [
+        "PHerc. 250"
+      ],
+      "parent_disjoint": true,
+      "train": 9,
+      "validation": 5
+    },
+    {
+      "fold": 7,
+      "held_out_parents": [
+        "PHerc. 248"
+      ],
+      "parent_disjoint": true,
+      "train": 9,
+      "validation": 5
+    }
+  ],
+  "header_failures": [
+    "Six TIFF head-only seeks exceeded available range; resolved with retained tail ranges",
+    "First raw row parser rejected final empty field; one documented trailing delimiter removed in corrected parser"
+  ],
+  "responses": 46,
+  "status": "PASS"
+}

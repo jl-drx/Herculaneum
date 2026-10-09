@@ -1,0 +1,20 @@
+{
+  "GPU_spend_GBP": 0,
+  "conclusion": "The three-parent CPU comparison completed, but native training fit did not qualify and all native training APs still improved by at least0.01 over the last half. Resolution loss, teacher benefit and CT transfer remain unestablished. Propose one bounded native-only budget continuation; no model promoted.",
+  "created_at_utc": "2026-10-09T17:22:31.139127+00:00",
+  "decision": "NATIVE_POSITIVE_CONTROL_NOT_FIT__RESOLUTION_CONCLUSION_INCONCLUSIVE",
+  "figures_visually_reviewed": true,
+  "next_study_started": false,
+  "report_reviewed": true,
+  "reviewer": "Root agent; separate numerical implementations, not an independent human or second agent",
+  "scope_notes": [
+    "Qualified source optical annotation agreement only",
+    "Three physical groups, one selected crop each",
+    "Sampler/weighted-loss probability bias documented; no post-output calibration",
+    "No source-data reselection or changes to frozen training code",
+    "Six arms completed2048 updates each; no scientific restart",
+    "Paper calibration discrepancy remains unresolved",
+    "Exact cached input reconstruction tested; no fresh-machine full replay"
+  ],
+  "status": "COMPLETED_CPU_COMPARISON_NATIVE_FIT_NOT_QUALIFIED"
+}

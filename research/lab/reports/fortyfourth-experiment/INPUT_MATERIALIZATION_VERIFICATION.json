@@ -1,0 +1,68 @@
+{
+  "fresh_machine_tested": false,
+  "receipt": {
+    "attribution": "Vesuvius Challenge (2026). Optical profilometry of opened Herculaneum papyri. https://doi.org/10.1038/s41598-026-58467-1.",
+    "license": "CC-BY-NC-4.0",
+    "logical_public_range_requests": 0,
+    "network_replay_tested": false,
+    "plan_sha256": "2fad0cc8938f8f8296630990e9a344e3a6f74bb3c054422940b107e76c071469",
+    "records": [
+      {
+        "path": "crops/248_090925_PI-height.npy",
+        "sha256": "b42a0bab6ca76ff28622b4e916ce360f1ff2ea1a9a5f1f766d928a404119a7af",
+        "size_bytes": 9437312
+      },
+      {
+        "path": "crops/248_090925_PI-label.npy",
+        "sha256": "6fa35fc581b6ff2050ed6361f5b3ad78e0923de7d2da0c58b5987fb67fae0694",
+        "size_bytes": 2359424
+      },
+      {
+        "path": "crops/248_090925_PI-common-support.npy",
+        "sha256": "811d152133c71ebb3e5b177a7ff0cc40fa53bb4fac9d0b942dab682a9af5b812",
+        "size_bytes": 2359424
+      },
+      {
+        "path": "crops/250_090925_C-height.npy",
+        "sha256": "a2ae8cb991df9edb745425c8ad5490185c2001a22eb8e6c1660dc7872e25c179",
+        "size_bytes": 9437312
+      },
+      {
+        "path": "crops/250_090925_C-label.npy",
+        "sha256": "0af27cf48eab6d46b2301bcbaf92b4297b0e323fe1cc5156dfd8fcf8afbd4d59",
+        "size_bytes": 2359424
+      },
+      {
+        "path": "crops/250_090925_C-common-support.npy",
+        "sha256": "86c92da27fd880016aecc62bbda90c1a0cc382e2e576268e305dc90e9cc730d5",
+        "size_bytes": 2359424
+      },
+      {
+        "path": "crops/500P2_230925_N2-height.npy",
+        "sha256": "6de7e9c62f486e221c60cb4a93f9da5e7f347c21dee205fa5d446306feeb8b42",
+        "size_bytes": 9437312
+      },
+      {
+        "path": "crops/500P2_230925_N2-label.npy",
+        "sha256": "939a889fed752e221b47afe758ecf165f1ef0eba8d25d3e972933a8f6e36e1a1",
+        "size_bytes": 2359424
+      },
+      {
+        "path": "crops/500P2_230925_N2-common-support.npy",
+        "sha256": "f3d8050f14a79c8a03a26587c4e2667dc5d2da7f1d49c2f12d0d2abbab9d9f71",
+        "size_bytes": 2359424
+      }
+    ],
+    "source_mode": "offline retained ranges",
+    "status": "PASS",
+    "training_started": false
+  },
+  "sanitized_network_exception_fixture": true,
+  "scope": "Nine arrays reconstructed byte-identically with final tool in a fresh local directory; synthetic network exception sanitized; no new HTTP or training",
+  "status": "PASS",
+  "tool": {
+    "path": "/workspace/Herculaneum/research/tools/materialize_phase44.py",
+    "sha256": "77ffe220dbf941bf0a4dec3b790ecbcdd6d3902d73caa6ecd973502c775f9ecd",
+    "size_bytes": 4196
+  }
+}
