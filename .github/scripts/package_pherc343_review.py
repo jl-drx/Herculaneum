@@ -11,6 +11,9 @@ import shutil
 import subprocess
 import tarfile
 import tempfile
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlsplit
+from urllib.request import Request, urlopen
 
 
 REPOSITORY = "jl-drx/Herculaneum"
@@ -89,6 +92,16 @@ def object_path(cache, record):
     return cache / oid[:2] / oid[2:4] / oid
 
 
+def request_lfs(url, headers, data=None):
+    try:
+        return urlopen(Request(url, data=data, headers=headers), timeout=30)
+    except HTTPError as exc:
+        # Signed download URLs and authorization headers must not reach logs.
+        raise RuntimeError(f"LFS request returned HTTP {exc.code}") from None
+    except (URLError, TimeoutError):
+        raise RuntimeError("LFS request failed or timed out") from None
+
+
 def fetch(snapshot, bundles):
     remote = git(snapshot, "remote", "get-url", "origin")
     if remote.removesuffix(".git") != f"https://github.com/{REPOSITORY}":
@@ -96,23 +109,54 @@ def fetch(snapshot, bundles):
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         raise ValueError("A read-only GITHUB_TOKEN is required for the private LFS fetch")
-    env = os.environ.copy()
     encoded = base64.b64encode(f"x-access-token:{token}".encode()).decode()
-    env.update({
-        "GIT_CONFIG_COUNT": "1",
-        "GIT_CONFIG_KEY_0": "http.https://github.com/.extraheader",
-        "GIT_CONFIG_VALUE_0": f"AUTHORIZATION: basic {encoded}",
-        "GIT_TERMINAL_PROMPT": "0",
-        "GIT_TRACE": "0",
-        "GIT_CURL_VERBOSE": "0",
-        "GIT_LFS_SKIP_SMUDGE": "1",
-    })
-    include = ",".join(f"{BUNDLE_PATH}/{name}" for name in SELECTED_BUNDLES)
-    git(snapshot, "-c", "lfs.fetchrecentalways=false", "lfs", "fetch",
-        "origin", SNAPSHOT_SHA, f"--include={include}", "--exclude=", env=env)
+    batch = {"operation": "download", "transfers": ["basic"],
+             "objects": [{"oid": b["sha256"], "size": b["bytes"]}
+                         for b in bundles.values()]}
+    headers = {"Authorization": f"Basic {encoded}",
+               "Accept": "application/vnd.git-lfs+json",
+               "Content-Type": "application/vnd.git-lfs+json"}
+    endpoint = f"https://github.com/{REPOSITORY}.git/info/lfs/objects/batch"
+    with request_lfs(endpoint, headers, json.dumps(batch).encode()) as response:
+        raw = response.read(1024 * 1024 + 1)
+    if len(raw) > 1024 * 1024:
+        raise ValueError("Unexpectedly large LFS batch response")
+    objects = json.loads(raw)["objects"]
+    expected = {b["sha256"]: b for b in bundles.values()}
+    if len(objects) != len(expected) or {o["oid"] for o in objects} != set(expected):
+        raise ValueError("LFS response does not match the three requested objects")
     cache = object_cache(snapshot)
-    for record in bundles.values():
-        verify_file(object_path(cache, record), record)
+    for item in objects:
+        record = expected[item["oid"]]
+        if "error" in item or item["size"] != record["bytes"]:
+            raise RuntimeError(f"LFS object unavailable or mismatched: {record['name']}")
+        action = item.get("actions", {}).get("download")
+        if not action or urlsplit(action["href"]).scheme != "https":
+            raise ValueError("LFS response lacks an HTTPS download action")
+        destination = object_path(cache, record)
+        if not destination.exists():
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            partial = destination.with_suffix(".download-partial")
+            created = False
+            try:
+                # Only the storage service's supplied headers accompany this URL.
+                # The repository token is confined to the batch request above.
+                with request_lfs(action["href"], action.get("header", {})) as source:
+                    with partial.open("xb") as target:
+                        created = True
+                        size = 0
+                        while chunk := source.read(1024 * 1024):
+                            size += len(chunk)
+                            if size > record["bytes"]:
+                                raise ValueError("LFS download exceeds its pinned size")
+                            target.write(chunk)
+                verify_file(partial, record)
+                partial.rename(destination)
+            finally:
+                if created:
+                    partial.unlink(missing_ok=True)
+        verify_file(destination, record)
+        print(json.dumps({"verified_object": record["name"], "bytes": record["bytes"]}), flush=True)
     print(json.dumps({"status": "PASS", "operation": "selective LFS fetch",
                       "objects": len(bundles),
                       "bytes": sum(b["bytes"] for b in bundles.values())}))
