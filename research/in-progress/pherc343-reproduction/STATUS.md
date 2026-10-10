@@ -1,4 +1,16 @@
-# PHerc343 reproduction: rendering qualified, full CPU inference running
+# PHerc343 reproduction: completed and reviewed
+
+**Current status,10 October2026:** all eight maps and original composition finished
+at14:51:20 BST. Integrity, independent component checks and all18-region review
+passed. See the [completion record and selective completed-results download](completion-20261010/README.md)
+and [follow-up assessment](../../reviews/sam-pherc343-followup-20261010/README.md).
+The earlier notes below are retained history, including their then-pending status.
+The producer receipt is unchanged; no worker remains to finish or restart. The
+published-image positive control qualifies for target-transfer planning, with
+ink accuracy/authentication still unestablished. Cumulative archival sealing is
+separate; the original working snapshot manifest remains unchanged.
+
+## Historical setup and execution record
 
 9 October 2026. This is the approved phase46 experiment, still open. It is not a new completed scientific result, a negative ink result, or permission to infer over incomplete CT. The last sealed experiment remains45 and registerv41 is unchanged.
 

@@ -1,0 +1,597 @@
+{
+  "schema": 1,
+  "created_at_utc": "2026-10-10T15:07:59.751680+00:00",
+  "scope": "Completed eight raw maps, four ownership merges, fixed composition and components, published reference, valid mask, receipts, frozen recipes, checkpoint metadata. No model weights, CT volumes or credential values.",
+  "bundle": {
+    "file": "pherc343-completed-20261010-001.tar.gz",
+    "bytes": 90304265,
+    "sha256": "a581f5cd8ab38b8e31e12e93d2b699305fefdd7372498278f1e2ac4c64a60e27"
+  },
+  "members": [
+    {
+      "path": "reports/fortyfifth-experiment/ph343-mesh-replay/concat_w047-w048_R5B2_z9500-11000_node_source.npz",
+      "bytes": 1766,
+      "sha256": "1aafffec612e4f5c57f7b4320b0cc2820337450cc6baaa8420312094d9e7a63a"
+    },
+    {
+      "path": "reports/fortyfifth-experiment/source-evidence/concat_w047-w048_R5B2_z9500-11000.png",
+      "bytes": 8801558,
+      "sha256": "59307c84ea65091de1bea14a3b75d44069bfe1fb498b3445f698ec3d1b8c1c78"
+    },
+    {
+      "path": "reports/fortyfifth-experiment/source-evidence/pherc343/outputs/concat_w047-w048_R5B2_z9500-11000.json",
+      "bytes": 24111,
+      "sha256": "73c52113726e667b3fdf99546a24c9cb31ddb5709d2739d731fa549910bb9684"
+    },
+    {
+      "path": "reports/fortysixth-experiment/FIXED_DEPTH_INFERENCE.json",
+      "bytes": 7763,
+      "sha256": "387aa61adae88c008767e461cc5f242ed90dac1c96587e468200eb505c5a5cd2"
+    },
+    {
+      "path": "reports/fortysixth-experiment/FIXED_DISPLAY_STATS.json",
+      "bytes": 2538,
+      "sha256": "bbf3c7751bf9e7c54383ac293a41c5e6b302dd49a8374fce29e46a80e0e3d809"
+    },
+    {
+      "path": "reports/fortysixth-experiment/IMAGE_COMPARISON.json",
+      "bytes": 2836,
+      "sha256": "42d9b003f90866453afba4ebca4e48b4edd41caa9fa8ba6a207e94e5a0c7c9f5"
+    },
+    {
+      "path": "reports/fortysixth-experiment/INFERENCE_QUALIFICATION.json",
+      "bytes": 3280,
+      "sha256": "4757fa5460b18d3575a59f464894235622500a0ddcc694fef08cdb038bdbdd85"
+    },
+    {
+      "path": "reports/fortysixth-experiment/PIPELINE_STATUS.json",
+      "bytes": 1656,
+      "sha256": "1f9a29a08a4171a0602e84dc71fe019962f465a130b811601035bda0ecffc1af"
+    },
+    {
+      "path": "reports/fortysixth-experiment/PROTOCOL.md",
+      "bytes": 3172,
+      "sha256": "0118ccce63027f7d3694d2eea27e957e1e2c7e7e7107b2d29d1b5ffe6e65de7f"
+    },
+    {
+      "path": "reports/fortysixth-experiment/REAL_INPUT_VERIFICATION.json",
+      "bytes": 2016,
+      "sha256": "338005c42d9b173ccf659833c75da88479ebce35d1b180fc2e1c500860b38d1d"
+    },
+    {
+      "path": "reports/fortysixth-experiment/RENDER_VERIFICATION.json",
+      "bytes": 147856,
+      "sha256": "caf02972b4af92ff58cbabde8b1f82756d4380a4fe479428b212f68ffe2b4476"
+    },
+    {
+      "path": "reports/fortysixth-experiment/completion-check-20261010/VERIFICATION.json",
+      "bytes": 12216,
+      "sha256": "c0d9d313a9fedc92a219ad909280b079b896faf3359c93c654b88cecef99e486"
+    },
+    {
+      "path": "reports/fortysixth-experiment/completion-check-20261010/verify.py",
+      "bytes": 5765,
+      "sha256": "bb44f30ca11d111188b0c4042a007c80730d931442b734e665fd1d17340c10dd"
+    },
+    {
+      "path": "reports/fortysixth-experiment/compose_and_compare.py",
+      "bytes": 3373,
+      "sha256": "a9a0ac592697d9286c7ddb24abed38cdcfc9d4b440d369fcac515aa612094184"
+    },
+    {
+      "path": "reports/fortysixth-experiment/execute_pipeline.py",
+      "bytes": 3868,
+      "sha256": "f10a30b050239403db79d5722fb02e180e62ed4ee61274ca4cb3b6815068f445"
+    },
+    {
+      "path": "reports/fortysixth-experiment/execute_resume.py",
+      "bytes": 3925,
+      "sha256": "4f2f78e80ef3dbb1bae6f02ed47ad803a8ef038df070986a68088b5c00422cbb"
+    },
+    {
+      "path": "reports/fortysixth-experiment/prepare_and_qualify.py",
+      "bytes": 5831,
+      "sha256": "0902306e98a031d956d81a4fafc5c5b32c3ba855458f2c99963db13ada8ac45e"
+    },
+    {
+      "path": "reports/fortysixth-experiment/run_fixed_depth.py",
+      "bytes": 4524,
+      "sha256": "317f086b9244b55c9472073b27c0dda52c5dea3fdedc5a9cf6854827525f9ddf"
+    },
+    {
+      "path": "reports/fortysixth-experiment/run_fixed_depth_resume.py",
+      "bytes": 4564,
+      "sha256": "102620e87ece702dcb8caf958731ae18b5e3bca94c0cf05cb4f4d5264529a3cb"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/BINDING.json",
+      "bytes": 31989,
+      "sha256": "a3a5b5cd57754a1a0b414d757b81a5c4e658b1f5e8938ca2224282c44bdc51ff"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/LATEST.json",
+      "bytes": 441,
+      "sha256": "3d84fdcb67c0db37ce583e193b9ed8c1fd9ee034b955fad0852b3709e5fc57d1"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/WATCHER_STATUS.json",
+      "bytes": 95,
+      "sha256": "63267255f0be7e04e138164d40231286c076889abba78a96e5811ab733de2c7b"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00128/MANIFEST.json",
+      "bytes": 405,
+      "sha256": "ed1adf6d02eba63a72becd6795ffb9f504ec6adf7ddb0208fe2b9ec6bc008496"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00160/MANIFEST.json",
+      "bytes": 406,
+      "sha256": "81f05e18693224b8c0bceebf9472a5cfaf60177415353e5615ea9d22f82bb6f0"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00192/MANIFEST.json",
+      "bytes": 406,
+      "sha256": "8647e5d743e64f7445cac0ece7bf7444eae943c91312e41d15208059b72bb6a3"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00224/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "70501b96887774db94576081b8281755a4d2aacd66fe0754b2fa30001bc606ce"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00256/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "8b81d56d7d94a154c382cf0bcb000fc7b1fdaa70a8baf2be0cfbbec7ad8a3e87"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00288/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "07c740e3ca0be279d6da7d94b2f2542605a2aa3084bda7df9b2af67ff4f7f823"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00320/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "f708dbedd9b9a9a98c8ae001059560e4710c437f10e0766353f005ca94785bc7"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00352/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "0d0050b60d58acf61d93820e1ac5422abddc234287523081ec05c56c66d8a2af"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00384/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "ed42850907ff6f08d41c6bed42bfd6b79358f3a3667aa520f04fbbbb7db53b37"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00416/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "d3f65d0a9c478161da199e51c68ed0931f1d5ff80f9e51739473386ad1aa0919"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00448/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "c766a760ac28cd98e22740893fe05ba5da6594095d36e3a73820036d5d5ecf53"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00480/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "44fca3d5807bdc7e935255c8f3277fd7d59e9bc64c8412a6a5ee54aa455b76ff"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00512/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "b500a2368e3d9432c394c6d0cccc0075f589acf90d9ab6b95e9efa9300a3cfaa"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00544/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "ac9e3bd5f902957e9c9c58e3232f6d293320f8881d230fadc41a6d28612d3b1c"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00576/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "c399373765404fed7f201a6641ab3f26b924b255da6cb75277f6a2e7d4bd918e"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00608/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "f74f731c5d7f951b74fa9ae4bf5e8d71a7e3e309b9af50486eb610afd534805e"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00640/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "41ce0cd2209916c7db4ae9b6b8bc31d9ce028db0bcd8e67efddebf10c8a13a69"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00672/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "caeb85c6aae4f1b804786d8448b30827696ba88dbf0c92fe46dc1a1a93e8d6c9"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00704/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "dd4906b86cc2a08fe1463663e5d666dd81f703e4a96be580f3784cbbd95acad3"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00736/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "c59e13243d101dcd4317008b0c8eaac8eb705769115cfe7b3b286bc16b13ded6"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00768/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "fde49b07153dea399c37bc9ec26111708f2305c80dd0f9ff5d1c2e458bf28ed6"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00800/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "5b50ff7430bd70721fbbcb2ffd25c85248ef78e6da9df2acc8967413138b5a66"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00832/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "db43696661c1c59fc4274c4e21f1321f86ae97aae5941241737a5dd07324b7de"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00864/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "ca1846b37cfc41ec384b0b35f8b8da68262c753e25667f7390a02eb4fdfa7b2a"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00896/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "439e0ca583a198cf6f25a191ef4e80811e66fc29b80281d5ac6125e1ed9f1876"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00928/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "79f5ef7ffccb8dab9020894177ad8b3536f2c96fc9c013679afaf49cbe362d75"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00960/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "ef8e22bd9376c19ff35458a7f89ca2479d41172306ff0a943e5fbba9e7a6153d"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-00992/MANIFEST.json",
+      "bytes": 407,
+      "sha256": "be0ba1c4ccb6590bf1361953c7e748cc38a1f0f7e7692975a5ba2303055c464b"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01024/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "328dd7de7d72288124b9981349fb41b767194fc21a9ba0a596639629a5593a1c"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01056/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "13d4c2f7397525a4b5abee147f9645e0db5d4f6b980617f5ba8ace81ae941dfa"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01088/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "43a514960f5a6e6374a5f83c5d550cbb800b9a1715acc6e6d34d4511949fc665"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01120/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "16d005de64f08c1a845b60965a7fd1b8d286095f50b06cd10f15adec8b90c973"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01152/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "c22e549af0148d4cb7575aced850460b3f812f084f6c857869b79477301983c5"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01184/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "e04a34dd195462410e40035b627848d173c47395772f36a3d638ca8c2a0f9721"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01216/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "729c3f941726f91beae11653fd14eef833ba50d5a48ae0b42f382c305cb0a91d"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01248/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "fd4472853f1a71a8d3f46174af67821ac8317568fe6d61e670a5c7fa3c1c9ed3"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01280/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "2fa7fccccd77d4b98d1215e71fad34b07e6ef8e10a070be6434523112a190eb4"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01312/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "3cf03a57b31f7f23f7aa25fc38362e094e859f0580310ef69b2525fe949ee0d4"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01344/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "902d7664d1ee9a46af99f39d90feaf44e9b05dbc9249aa7c38aa2e026c5c7633"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01376/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "cec6d5f49ed7d75c2293768f900dd11a4b1adc9a521a7d15c3d7fd93d2f98f80"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01408/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "87bd9e72420e550791723a58b6d507d620a2701c1adac0b31b904737923d25cc"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01440/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "fb21204a0375ba2cc05c9860af5fc76781230ea6e1b4badcc95bef2d179fa362"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01472/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "40e469d8dc749ca551783e0eea36535c60f8f13179932476d1c8500b983958f5"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01504/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "b8e5c3227376d5a2b82a024ed1921a5f8fa771ec306ed9f3b47c4217f4cf0e84"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01536/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "3ad20fd82d97d1e60dc6d1a345b5bbb686d6ca06a653aa4137b8656c37a09f9a"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01568/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "fec6b399c169408a3f4c83aa665fdc1d49a3a8b67f6c7f406c29d469d00f3b2f"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01600/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "48f24837c08d3b74f85ce2df5be380e35af225f9e99a3a0e04061b3325d8d0d1"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01632/MANIFEST.json",
+      "bytes": 409,
+      "sha256": "a7a8645d24623696c3d125454a917e7477e4e5149146ccfcd22e6acb712193ec"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01664/MANIFEST.json",
+      "bytes": 410,
+      "sha256": "3494395540814923f41fd8a5e3b513f0a3a131ba343652219266cbed0f61f426"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01696/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "4e1fa0dd6ff1982d8252e5b50bd323177b1f5647d76563ed078daf617eea76a3"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01728/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "66ae76f11bc4c15ce222223d3768863728fd1b07f7bfdd72098a296e39530410"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01760/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "12c765de1bb5d2b27ed0c6509e347bc25e9026b996e9d0bdbc98f734137a012f"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01792/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "59d55af91d6d49c8f20a4ac759e55ab0e56cd86ed4c3b3edb8bb37e43c29b6a9"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01824/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "029fe1aa0e99b480733385493817d9ed0794c17920fe8cc9158e2055dae914db"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01856/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "a65add95f1bdddee56d85e764f13f0b1ecd1dd1d2cca339518f0ac33a5f2c9f9"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01888/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "813129916bf9f49d32483b80cc4095be91365f3068c6fc4aa63a4cfbcbba01a7"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01920/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "37278070119b50fb50d5b536ca8cc8d2e2d716aab336a4de22d554ae5368cede"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01952/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "0f9ceb0fb620b40e95e51e37c66267700ed15757f8904fa237c2f6be6c680185"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-01984/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "9c50ece89a79594b350350c2b7a28b8b20a173fa06d2e1a82947253073ef659f"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/hecate-checkpoints/rows-02340/MANIFEST.json",
+      "bytes": 411,
+      "sha256": "31c331a4cd99c8d95f794bd7f6a4820b399d4046a88887fae6a8adaf17ab2a54"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/image/concat_w047-w048_R5B2_z9500-11000.json",
+      "bytes": 24312,
+      "sha256": "d146520cdf04adf72eed5b9e734fbf428964548c41cb6f7205f40861b23f14ba"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/image/concat_w047-w048_R5B2_z9500-11000.png",
+      "bytes": 8801535,
+      "sha256": "b93af62f967a1683a5b553708d3506c7ffb3c01665809de8c484947244f8c9a8"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/image/concat_w047-w048_R5B2_z9500-11000_ct.png",
+      "bytes": 6050606,
+      "sha256": "da71353df6508a35bf864830a19a5cc42a79716c2d242a004386d3916b22d088"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/image/concat_w047-w048_R5B2_z9500-11000_ink.png",
+      "bytes": 3589041,
+      "sha256": "7a65430bcdea1a9b8dfb18ee3cdbbda76799c216efd838c71cf61d1aa82fd82f"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/image/concat_w047-w048_R5B2_z9500-11000_letter_sizes.csv",
+      "bytes": 1055,
+      "sha256": "46ca63aaab5aec49659f47b9023a640924dd33155efbd963b2b56de6aaf0feab"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps/concat_w047-w048_R5B2_z9500-11000__dnative__L66s26_reverse.tif",
+      "bytes": 17203456,
+      "sha256": "4bb1af59fc3a94da8f6109188280caef712490e54a30844c386c534af0c0ff6c"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps/concat_w047-w048_R5B2_z9500-11000__hecate__L66zc33.50_reverse.json",
+      "bytes": 125,
+      "sha256": "0d2243fe78cfd7699d84abbcf52b3e1ee1a2867faebf688bf10cb718b4edfdc8"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps/concat_w047-w048_R5B2_z9500-11000__hecate__L66zc33.50_reverse.png",
+      "bytes": 2658882,
+      "sha256": "015cdfe766a8043213b2f8bbda85814b1fa194e961fdd3fab7e53f4bef91c6c0"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps/concat_w047-w048_R5B2_z9500-11000__hybrid_3d2d-seed42__L66s26_reverse.tif",
+      "bytes": 17203456,
+      "sha256": "864047f54084addfb051bfddfed5e0fdcd57bf660981b05d621c17005f99181b"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps/concat_w047-w048_R5B2_z9500-11000__hybrid_3d2d-seed43__L66s26_reverse.tif",
+      "bytes": 17203456,
+      "sha256": "e9910492dd161f6982cafd2327472f952cadcee8481258b2066bcc5082e32cd5"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps/merge.json",
+      "bytes": 374,
+      "sha256": "6049f4c92f84bb404160a1bc0f611e1330f8c287dea38caedbfa5a3e28e6b544"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__dnative__L66s26_reverse.tif",
+      "bytes": 6123766,
+      "sha256": "0b16a486b577c2d76b57d8dfcd2dbf923024e89b1c85cb1e3a1a99c447399183"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__dnative__L66s26_reverse.tif.receipt.json",
+      "bytes": 861,
+      "sha256": "3e9d357bde9ae35532132613d981ffd64c432a19fd35b56ab6e65b9e18b7de58"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hecate__L66zc33.50_reverse.json",
+      "bytes": 125,
+      "sha256": "52024cc247cf9d34ddcd3a360c52bf368711d73f4d462bb46847941e1491b78e"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hecate__L66zc33.50_reverse.png",
+      "bytes": 2740077,
+      "sha256": "16a20a82271fce42f667a22ecfbedbe0bf97423af3ae3c0dfc48b2027f60b752"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hecate__L66zc33.50_reverse.png.receipt.json",
+      "bytes": 850,
+      "sha256": "302016d177b2db0e58b1f13df779e4d5e0d9d880d064b7dc0a386a0c985e31df"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed42__L66s26_reverse.tif",
+      "bytes": 6139299,
+      "sha256": "7135f2843a4ba393582864c68b36bf801e784118bddacbf97123ee7121a5f255"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed42__L66s26_reverse.tif.receipt.json",
+      "bytes": 862,
+      "sha256": "5e2043d005a829fd62456844aab78255b8186761d53985cef81ec18866fe0511"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed43__L66s26_reverse.tif",
+      "bytes": 5957399,
+      "sha256": "0c80dfaec7deaf9f61a8baec892e06430c3e94b1eb592e2b4d035988ca84a5a6"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed43__L66s26_reverse.tif.receipt.json",
+      "bytes": 857,
+      "sha256": "818f9c2c01512ab8903e248b3ca17be6fa5fc2a929c1a9b2a6d1c307f1fb714a"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__dnative__L66s26_reverse.tif",
+      "bytes": 6019449,
+      "sha256": "d2d5bf84bb83c10d40cd7e6676aa067ada68582c4e929b529c118de4aed5a2c6"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__dnative__L66s26_reverse.tif.receipt.json",
+      "bytes": 852,
+      "sha256": "adca7f6548e01dac73a6add2a1b49ac31bccba712b6c86632c8db252e1524a15"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hecate__L66zc33.50_reverse.json",
+      "bytes": 125,
+      "sha256": "0d2243fe78cfd7699d84abbcf52b3e1ee1a2867faebf688bf10cb718b4edfdc8"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hecate__L66zc33.50_reverse.png",
+      "bytes": 2730095,
+      "sha256": "9d67a3f970b6c3f109223d476f6e138b5e4e5deaa9988dd09108d18778680ee1"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hecate__L66zc33.50_reverse.png.receipt.json",
+      "bytes": 844,
+      "sha256": "35bc139a4cc1c88a470eacddc9194a2a37593c06f74a73f30466536a84e947ea"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed42__L66s26_reverse.tif",
+      "bytes": 6103189,
+      "sha256": "c1f956efbf3e5badd1d7303b3aad0ba83e3e1e9dbee2476506600fe6b8f397a4"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed42__L66s26_reverse.tif.receipt.json",
+      "bytes": 852,
+      "sha256": "6eae28c56fca140ad65d44a57852975d7a04a8a405f668ff0c2e57dffeefcc23"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed43__L66s26_reverse.tif",
+      "bytes": 5885349,
+      "sha256": "2d21f5d80d6a9e3fe681cba7e9253cc9718894d8c02ef831dbc9f43be0d8d4fa"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed43__L66s26_reverse.tif.receipt.json",
+      "bytes": 852,
+      "sha256": "7159a6a92b5433f17130049a95cc6987db98de679479bd16a4caf628a00dca8f"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/pipeline-20261010T091016Z/INPUTS.json",
+      "bytes": 2055,
+      "sha256": "8663e04223f32b84207f93cb77ec21cf9105277899522c49efdb900236b2223d"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/pipeline-20261010T091016Z/STATUS.json",
+      "bytes": 1656,
+      "sha256": "1f9a29a08a4171a0602e84dc71fe019962f465a130b811601035bda0ecffc1af"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/pipeline-20261010T091016Z/compose_and_compare.py.log",
+      "bytes": 3197,
+      "sha256": "30fdaaf46daedd3843796dd507a54245e19e96876f0e225bc0a5e71cc7dcdfe0"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/pipeline-20261010T091016Z/run_fixed_depth_resume.py.log",
+      "bytes": 10289,
+      "sha256": "7baf8433bbf9c32e1440597ac06bf0982b3767a3be6bddb9599d23031607f7a7"
+    },
+    {
+      "path": "reports/fortysixth-experiment/work/valid.npy",
+      "bytes": 17203328,
+      "sha256": "1905c0d05656b4472a533e00b1c140592c7b33ed7a8bb7780873517f747e41fc"
+    }
+  ],
+  "expanded_bytes": 140762172,
+  "archive_readback": "PASS: every archived member byte count and SHA256 checked against its source",
+  "prior_snapshot_unchanged": true,
+  "checkpoint_note": "All 60 prefix arrays matched the finished map before packaging. Metadata/verification ledger retained; redundant prefix arrays are not included. This bundle is completed output, not a restart checkpoint.",
+  "scientific_scope": "Published-image reproduction; no raw-author-map equality, ink accuracy or letter authentication."
+}

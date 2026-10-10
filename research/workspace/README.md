@@ -1,3 +1,10 @@
+# Completed PHerc343 output supplement —10 October2026
+
+The original selectable snapshot below remains unchanged. For the finished eight
+maps, four-model composition, reference and valid mask, use the separate
+[86.1MiB completed-results bundle](../in-progress/pherc343-reproduction/completion-20261010/README.md).
+It has its own checksum manifest and tested standard-library restore command.
+
 # Use the research workspace on another Linux machine
 
 This is a selectively restorable snapshot of the research lab, stored in this private GitHub repository using **Git LFS**. It adds the arrays, historical checkpoints, prepared PHerc343 inputs and saved maps that the earlier text-only export omitted. The original files retain their bytes and relative paths; [MANIFEST.json](MANIFEST.json) records every included file, its SHA256, its bundle and the exclusions.

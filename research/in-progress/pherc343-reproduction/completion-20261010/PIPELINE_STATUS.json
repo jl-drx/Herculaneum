@@ -1,0 +1,41 @@
+{
+  "status": "COMPUTE_COMPLETE_AWAITING_REVIEW",
+  "started_at_utc": "2026-10-10T09:10:16.960036+00:00",
+  "supervisor_pid": 981,
+  "run_directory": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261010T091016Z",
+  "gpu_spend_GBP": 0,
+  "stages": [
+    {
+      "script": "run_fixed_depth_resume.py",
+      "started_at_utc": "2026-10-10T09:10:16.960522+00:00",
+      "log": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261010T091016Z/run_fixed_depth_resume.py.log",
+      "pid": 982,
+      "log_bytes": 9803,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-10T13:51:07.534384+00:00"
+    },
+    {
+      "script": "compose_and_compare.py",
+      "started_at_utc": "2026-10-10T13:51:07.537229+00:00",
+      "log": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261010T091016Z/compose_and_compare.py.log",
+      "pid": 28881,
+      "exit_code": 0,
+      "finished_at_utc": "2026-10-10T13:51:20.208765+00:00"
+    }
+  ],
+  "scope": "Fixed d=+1 four-model reading-side reproduction; review still required.",
+  "updated_at_utc": "2026-10-10T13:51:20.209620+00:00",
+  "finished_at_utc": "2026-10-10T13:51:20.209319+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/FIXED_DEPTH_INFERENCE.json",
+      "bytes": 7763,
+      "sha256": "387aa61adae88c008767e461cc5f242ed90dac1c96587e468200eb505c5a5cd2"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/IMAGE_COMPARISON.json",
+      "bytes": 2836,
+      "sha256": "42d9b003f90866453afba4ebca4e48b4edd41caa9fa8ba6a207e94e5a0c7c9f5"
+    }
+  ]
+}
