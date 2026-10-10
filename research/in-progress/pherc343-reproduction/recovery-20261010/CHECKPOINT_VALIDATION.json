@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "checkpoint_tool_sha256": "5f43789371cc471a369ad27f8c4482e6719c6150f5f14acf7c12a6129aed4869",
+  "validation_code_sha256": "303d4a67e997d6bc711c7e7500cdf6a80885fc013b52cc76c79c1f81144e0e1a",
+  "cases": [
+    {
+      "case": "toy-(16, 194, 211)",
+      "interrupted_after_origins": 8,
+      "saved_rows": 32,
+      "resume_origin": 0,
+      "decoded_sha256": "94da256081e63f3ac903311417b69a3e35685771bd2a46a28e3d7764636b8991",
+      "full_vs_resumed_bitwise_equal": true,
+      "missing_manifest_changed_binding_corrupt_array_rejected": true
+    },
+    {
+      "case": "toy-(16, 194, 211)",
+      "interrupted_after_origins": 20,
+      "saved_rows": 96,
+      "resume_origin": 12,
+      "decoded_sha256": "94da256081e63f3ac903311417b69a3e35685771bd2a46a28e3d7764636b8991",
+      "full_vs_resumed_bitwise_equal": true,
+      "missing_manifest_changed_binding_corrupt_array_rejected": true
+    },
+    {
+      "case": "toy-(16, 194, 211)",
+      "interrupted_after_origins": 36,
+      "saved_rows": 194,
+      "resume_origin": 36,
+      "decoded_sha256": "94da256081e63f3ac903311417b69a3e35685771bd2a46a28e3d7764636b8991",
+      "full_vs_resumed_bitwise_equal": true,
+      "missing_manifest_changed_binding_corrupt_array_rejected": true
+    },
+    {
+      "case": "toy-(16, 192, 160)",
+      "interrupted_after_origins": 4,
+      "saved_rows": 32,
+      "resume_origin": 0,
+      "decoded_sha256": "dbd1d8a6d80690e2fd2c64fc3d2290189f4eb21d09ccf86cdb3d6caf671f6ed2",
+      "full_vs_resumed_bitwise_equal": true,
+      "missing_manifest_changed_binding_corrupt_array_rejected": true
+    },
+    {
+      "case": "toy-(16, 192, 160)",
+      "interrupted_after_origins": 12,
+      "saved_rows": 96,
+      "resume_origin": 8,
+      "decoded_sha256": "dbd1d8a6d80690e2fd2c64fc3d2290189f4eb21d09ccf86cdb3d6caf671f6ed2",
+      "full_vs_resumed_bitwise_equal": true,
+      "missing_manifest_changed_binding_corrupt_array_rejected": true
+    },
+    {
+      "case": "toy-(16, 192, 160)",
+      "interrupted_after_origins": 20,
+      "saved_rows": 192,
+      "resume_origin": 20,
+      "decoded_sha256": "dbd1d8a6d80690e2fd2c64fc3d2290189f4eb21d09ccf86cdb3d6caf671f6ed2",
+      "full_vs_resumed_bitwise_equal": true,
+      "missing_manifest_changed_binding_corrupt_array_rejected": true
+    },
+    {
+      "case": "real-hecate-fixed-96x128",
+      "interrupted_after_origins": 4,
+      "saved_rows": 32,
+      "resume_origin": 0,
+      "decoded_sha256": "d09836592a3054ca1431d6b9249ee6f5bda60b7eb7b20d060ccf2e0f43edfda0",
+      "full_vs_resumed_bitwise_equal": true,
+      "missing_manifest_changed_binding_corrupt_array_rejected": true
+    }
+  ],
+  "real_fixture_run": true,
+  "scope": "Numerical recovery equivalence on bounded fixtures; not a full-map replay, platform shutdown test, or scientific accuracy test."
+}

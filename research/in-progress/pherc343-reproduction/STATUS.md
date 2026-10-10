@@ -4,6 +4,8 @@
 
 **10 October recovery:** the cloud runtime restarted after seven maps completed. The final padded Hecate map restarted at10:10 BST after saved-map and runtime checks; the original seven frozen files were preserved. A separate recovery runner fixes cleanup when completed Villa maps are skipped. See the [recovery record and current startup guidance](recovery-20261010/README.md); it supersedes the original driver's recovery instruction below. The combined result is still pending.
 
+A [read-only checkpoint observer](recovery-20261010/CHECKPOINTING.md) now saves completed rows without restarting the worker. Seven bounded interruption/recovery cases, including a real Hecate fixture, matched uninterrupted output bit-for-bit. The local saves and dated GitHub backup have distinct coverage; the platform restart's trigger remains unverified.
+
 ## Completed setup
 
 - Recovered the **original VC3D41701aa AppImage** from GitHub Actions artifact10821272485. The archive SHA256 matches GitHub's artifact digest; the AppImage SHA256 and size exactly match Nieuwlaar's record. Its renderer binary also matches the author SHA256. The extracted command runs in this cloud environment.

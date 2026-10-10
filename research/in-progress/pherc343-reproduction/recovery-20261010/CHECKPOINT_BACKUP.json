@@ -1,0 +1,30 @@
+{
+  "saved_at_utc": "2026-10-10T09:29:48.604976+00:00",
+  "checkpoint_saved_at_utc": "2026-10-10T09:27:57.268723+00:00",
+  "rows": 160,
+  "height": 2340,
+  "resume_origin": 776,
+  "observed_completed_origins": 1004,
+  "archive": "HECATE_CHECKPOINT_BACKUP.zip",
+  "archive_bytes": 133531,
+  "archive_sha256": "0a87c657cd67d7d43fd4db9a46da233ac199f06b97dd20b7fecd6c61d5b692eb",
+  "members": {
+    "BINDING.json": {
+      "bytes": 31989,
+      "sha256": "a3a5b5cd57754a1a0b414d757b81a5c4e658b1f5e8938ca2224282c44bdc51ff"
+    },
+    "LATEST.json": {
+      "bytes": 436,
+      "sha256": "96b1956a895ee712f840baaa072e209ae2733855a967c7ebcaab586fa6533ede"
+    },
+    "rows-00160/MANIFEST.json": {
+      "bytes": 406,
+      "sha256": "81f05e18693224b8c0bceebf9472a5cfaf60177415353e5615ea9d22f82bb6f0"
+    },
+    "rows-00160/prefix.npy": {
+      "bytes": 996608,
+      "sha256": "ea131ddb35e34dbc2e257a2e1794f59beb0e5110d6f5f4e20542e4dc13a867d3"
+    }
+  },
+  "scope": "One dated private Git backup. Newer live checkpoints remain in the workspace and are not automatically pushed."
+}
