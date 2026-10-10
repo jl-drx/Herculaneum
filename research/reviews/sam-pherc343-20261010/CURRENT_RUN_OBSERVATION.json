@@ -1,0 +1,58 @@
+{
+  "observed_at_utc": "2026-10-10T08:25:35.149522+00:00",
+  "observed_at_london": "2026-10-10T09:25:35.149522+01:00",
+  "pipeline_status": "RUNNING",
+  "heartbeat_age_seconds": 24.922777,
+  "processes": [
+    {
+      "pid": 3222,
+      "command": "/workspace/.venvs/pherc343/bin/python -B /workspace/herculaneum-lab/reports/fortysixth-experiment/execute_pipeline.py",
+      "live": true
+    },
+    {
+      "pid": 3223,
+      "command": "/workspace/.venvs/pherc343/bin/python -B /workspace/herculaneum-lab/reports/fortysixth-experiment/run_fixed_depth.py",
+      "live": true
+    }
+  ],
+  "completed_map_receipts": 7,
+  "map_receipts": [
+    {
+      "receipt": "work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__dnative__L66s26_reverse.tif.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed42__L66s26_reverse.tif.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed43__L66s26_reverse.tif.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__dnative__L66s26_reverse.tif.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hecate__L66zc33.50_reverse.png.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed42__L66s26_reverse.tif.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed43__L66s26_reverse.tif.receipt.json",
+      "status": "PASS"
+    }
+  ],
+  "active_map": "Hecate padded",
+  "latest_logged_patch_origins": 7804,
+  "total_patch_origins": 14162,
+  "progress_limit": "Includes skipped blank tiles; origin fraction is not elapsed-time fraction.",
+  "frozen_pipeline_files_unchanged": 7,
+  "final_inference_record_exists": false,
+  "final_image_comparison_record_exists": false,
+  "gpu_spend_GBP": 0,
+  "scope": "Read-only worker observation; does not newly verify all map pixels or alter the running experiment."
+}

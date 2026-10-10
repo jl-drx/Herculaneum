@@ -1,0 +1,9 @@
+{
+  "frozen_before_pixel_inspection": true,
+  "scope": "Descriptive reproducibility review of six saved uint8 maps; no inference or confirmatory ink claims.",
+  "alignment": "Native 2560x6720; crop padded rows40:2600 cols200:6920; source node IDs1/4 use padded; source repeats20x20; published crop rows105:2560 cols380:6021 reversed in both axes.",
+  "display": "clip((float(uint8)-64)/128,0,1); no per-image contrast fitting; absolute phase differences shown on fixed0..128 scale.",
+  "metrics": "Raw uint8 MAE, absolute-error median/p95/p99/max and Pearson correlation on valid full field and published crop. Pairwise merged-model correlation and MAE. Counts above64 represent fixed display onset only, never ink labels. All18 supplied boxes use floor minima/ceil exclusive maxima, intersect valid mask.",
+  "seams": "Compare adjacent-pixel absolute gradients across ownership-switch edges with gradients of both plain and padded maps on those exact edges. Compare phase MAE within fixed20px of ownership-switch edges versus elsewhere. Descriptive, spatially confounded, not a causal seam test.",
+  "limits": "Models share data/family; agreement is not independent validation. Public PNG is a four-model stylized composite, not raw probabilities or labels. No full reproduction/ensemble claim without Hecate. No fitted thresholds, rankings as proof, transcription or AP. CT layer34 not supplied."
+}

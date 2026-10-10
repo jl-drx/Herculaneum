@@ -1,0 +1,296 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-10T08:21:39.302613+00:00",
+  "method": "Independent integer joint histograms and exact moments; original saved maps; no execution of supplied analyze.py.",
+  "receipt_checks": [
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "status": "PASS"
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "status": "PASS"
+    },
+    {
+      "model": "seed42",
+      "phase": "plain",
+      "status": "PASS"
+    },
+    {
+      "model": "seed42",
+      "phase": "padded",
+      "status": "PASS"
+    },
+    {
+      "model": "seed43",
+      "phase": "plain",
+      "status": "PASS"
+    },
+    {
+      "model": "seed43",
+      "phase": "padded",
+      "status": "PASS"
+    }
+  ],
+  "numeric_values_compared": 1594,
+  "maximum_absolute_numeric_difference": 7.771561172376096e-15,
+  "phase_results": {
+    "dnative": {
+      "full_valid_phase": {
+        "n": 10678375,
+        "mean": 6.314447657063926,
+        "max": 99,
+        "median": 5,
+        "p95": 18,
+        "p99": 28,
+        "pearson": 0.9431246131428205,
+        "identical_fraction": 0.06415414330363936
+      },
+      "published_valid_phase": {
+        "n": 8887441,
+        "mean": 6.282468373067118,
+        "max": 99,
+        "median": 5,
+        "p95": 18,
+        "p99": 28,
+        "pearson": 0.9464749105883622,
+        "identical_fraction": 0.06456447924661328
+      },
+      "near_ownership_boundary_phase": {
+        "n": 84519,
+        "mean": 6.322590186821898,
+        "max": 47,
+        "median": 4,
+        "p95": 19,
+        "p99": 30,
+        "pearson": 0.948498687761927,
+        "identical_fraction": 0.0628497734237272
+      },
+      "away_ownership_boundary_phase": {
+        "n": 8802922,
+        "mean": 6.282083153752811,
+        "max": 99,
+        "median": 5,
+        "p95": 18,
+        "p99": 28,
+        "pearson": 0.9464718520994988,
+        "identical_fraction": 0.06458094255521064
+      },
+      "ownership_switch_gradients": {
+        "plain": {
+          "n": 2244,
+          "mean": 1.000445632798574,
+          "max": 5,
+          "median": 1,
+          "p95": 3,
+          "p99": 3
+        },
+        "padded": {
+          "n": 2244,
+          "mean": 0.9269162210338681,
+          "max": 5,
+          "median": 1,
+          "p95": 2,
+          "p99": 4
+        },
+        "merged": {
+          "n": 2244,
+          "mean": 6.389483065953654,
+          "max": 37,
+          "median": 5,
+          "p95": 18,
+          "p99": 28
+        }
+      },
+      "merged_display_on_fraction": 0.9923468408960464
+    },
+    "seed42": {
+      "full_valid_phase": {
+        "n": 10678375,
+        "mean": 10.226111088999964,
+        "max": 126,
+        "median": 5,
+        "p95": 38,
+        "p99": 64,
+        "pearson": 0.7635901109532496,
+        "identical_fraction": 0.07085628665410233
+      },
+      "published_valid_phase": {
+        "n": 8887441,
+        "mean": 10.373927208068103,
+        "max": 126,
+        "median": 5,
+        "p95": 39,
+        "p99": 63,
+        "pearson": 0.7764608274232742,
+        "identical_fraction": 0.06880023169774066
+      },
+      "near_ownership_boundary_phase": {
+        "n": 84519,
+        "mean": 7.249174741774039,
+        "max": 77,
+        "median": 3,
+        "p95": 32,
+        "p99": 47,
+        "pearson": 0.8268859282556915,
+        "identical_fraction": 0.10596433937931116
+      },
+      "away_ownership_boundary_phase": {
+        "n": 8802922,
+        "mean": 10.403928718214248,
+        "max": 126,
+        "median": 5,
+        "p95": 39,
+        "p99": 63,
+        "pearson": 0.7761474643193417,
+        "identical_fraction": 0.06844341004043884
+      },
+      "ownership_switch_gradients": {
+        "plain": {
+          "n": 2244,
+          "mean": 0.9260249554367201,
+          "max": 8,
+          "median": 1,
+          "p95": 3,
+          "p99": 5
+        },
+        "padded": {
+          "n": 2244,
+          "mean": 0.9371657754010695,
+          "max": 8,
+          "median": 1,
+          "p95": 3,
+          "p99": 5
+        },
+        "merged": {
+          "n": 2244,
+          "mean": 7.444741532976827,
+          "max": 57,
+          "median": 3,
+          "p95": 37,
+          "p99": 46
+        }
+      },
+      "merged_display_on_fraction": 0.8368593389255692
+    },
+    "seed43": {
+      "full_valid_phase": {
+        "n": 10678375,
+        "mean": 9.643937958724994,
+        "max": 141,
+        "median": 5,
+        "p95": 37,
+        "p99": 62,
+        "pearson": 0.7823223048293221,
+        "identical_fraction": 0.07354283774450701
+      },
+      "published_valid_phase": {
+        "n": 8887441,
+        "mean": 9.753151216418765,
+        "max": 141,
+        "median": 5,
+        "p95": 38,
+        "p99": 63,
+        "pearson": 0.785210333130007,
+        "identical_fraction": 0.07327508559550494
+      },
+      "near_ownership_boundary_phase": {
+        "n": 84519,
+        "mean": 9.067937386859759,
+        "max": 94,
+        "median": 4,
+        "p95": 35,
+        "p99": 70,
+        "pearson": 0.6989829057782186,
+        "identical_fraction": 0.07665731965593535
+      },
+      "away_ownership_boundary_phase": {
+        "n": 8802922,
+        "mean": 9.759730121430135,
+        "max": 141,
+        "median": 5,
+        "p95": 38,
+        "p99": 63,
+        "pearson": 0.7857276376626439,
+        "identical_fraction": 0.0732426119418075
+      },
+      "ownership_switch_gradients": {
+        "plain": {
+          "n": 2244,
+          "mean": 0.8863636363636364,
+          "max": 10,
+          "median": 1,
+          "p95": 3,
+          "p99": 5
+        },
+        "padded": {
+          "n": 2244,
+          "mean": 0.8778966131907309,
+          "max": 15,
+          "median": 1,
+          "p95": 3,
+          "p99": 4
+        },
+        "merged": {
+          "n": 2244,
+          "mean": 8.976827094474153,
+          "max": 64,
+          "median": 4,
+          "p95": 37,
+          "p99": 52
+        }
+      },
+      "merged_display_on_fraction": 0.780132661358877
+    }
+  },
+  "model_agreement": {
+    "dnative:seed42": {
+      "n": 8887441,
+      "mean": 23.11475665492463,
+      "max": 137,
+      "median": 19,
+      "p95": 61,
+      "p99": 87,
+      "pearson": 0.5826453093289471,
+      "identical_fraction": 0.012129250703323938
+    },
+    "dnative:seed43": {
+      "n": 8887441,
+      "mean": 24.488791092959154,
+      "max": 135,
+      "median": 20,
+      "p95": 64,
+      "p99": 91,
+      "pearson": 0.5520987240851053,
+      "identical_fraction": 0.010057000659694957
+    },
+    "seed42:seed43": {
+      "n": 8887441,
+      "mean": 15.099421757061453,
+      "max": 149,
+      "median": 8,
+      "p95": 57,
+      "p99": 89,
+      "pearson": 0.5296800024529243,
+      "identical_fraction": 0.04541633525330857
+    }
+  },
+  "boundary_extent": {
+    "boundary_endpoint_valid_pixels_full": 4438,
+    "boundary_endpoint_valid_fraction_full": 0.00041560630713942897,
+    "boundary_endpoint_valid_pixels_published": 4268,
+    "boundary_endpoint_valid_fraction_published": 0.0004802282231747024,
+    "within20px_published_pixels": 84519,
+    "within20px_published_fraction": 0.009509936549789754
+  },
+  "full_field_boundary_edges": 2244,
+  "published_boundary_edges": 2159,
+  "regions_checked": 18,
+  "csv_rows_checked": 54,
+  "frozen_pipeline_files_unchanged": 7,
+  "verifier_sha256": "f9b070ce2c4bf7294921b934473654a2154c9e10de451909f61477994e03fc16",
+  "new_model_forwards": 0,
+  "limits": "Computational agreement on the same retained data, not an independent biological reference, preregistration timestamp verification, or full four-model reproduction."
+}
