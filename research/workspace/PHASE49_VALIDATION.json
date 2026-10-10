@@ -28,7 +28,11 @@
     "failures": []
   },
   "github_readback": {
-    "status": "PENDING",
-    "scope": "Upload and fresh remote-object retrieval not yet completed"
+    "status": "PASS",
+    "fresh_LFS_store": true,
+    "only_named_bundle_requested": true,
+    "bytes": 45739738,
+    "sha256": "111b120807057d7f42143ed575cb18f76f2b5744774497c6a4366aba288ee0bb",
+    "scope": "Actual remote object download equals the archive whose127 members and saved results passed relocated replay."
   }
 }
