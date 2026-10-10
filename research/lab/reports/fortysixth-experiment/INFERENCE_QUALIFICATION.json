@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "torch": "2.13.0+cpu",
+  "python": "3.14.7 (main, Sep 24 2026, 17:58:18) [Clang 22.1.3 ]",
+  "threads": 4,
+  "models": [
+    {
+      "model": "dnative",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+        "bytes": 272895087,
+        "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244"
+      },
+      "strict_load": true,
+      "raw_sha256": "365c17d1a6fa86c94637988f98141aa6aea668716cd3e2a21d6b7d0566ba7523",
+      "single_seconds": 0.23532594900007098,
+      "batch4_seconds": 0.5439155600000731,
+      "probability_max_batch_difference": 1.7881393432617188e-07,
+      "patches": {
+        "plain": 2797,
+        "padded": 2870
+      },
+      "estimated_seconds": 770.5923696301036,
+      "new_tile_forwards": 5,
+      "precision": "fp32 CPU; published Villa CUDA auto AMP differs"
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+        "bytes": 138360039,
+        "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab"
+      },
+      "strict_load": true,
+      "raw_sha256": "365c17d1a6fa86c94637988f98141aa6aea668716cd3e2a21d6b7d0566ba7523",
+      "single_seconds": 0.12180236400001831,
+      "batch4_seconds": 0.5155512769999859,
+      "probability_max_batch_difference": 1.7881393432617188e-07,
+      "patches": {
+        "plain": 2797,
+        "padded": 2870
+      },
+      "estimated_seconds": 730.4072716897301,
+      "new_tile_forwards": 5,
+      "precision": "fp32 CPU; published Villa CUDA auto AMP differs"
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+        "bytes": 138360231,
+        "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f"
+      },
+      "strict_load": true,
+      "raw_sha256": "365c17d1a6fa86c94637988f98141aa6aea668716cd3e2a21d6b7d0566ba7523",
+      "single_seconds": 0.11432768800000304,
+      "batch4_seconds": 0.5158752419999928,
+      "probability_max_batch_difference": 6.258487701416016e-07,
+      "patches": {
+        "plain": 2797,
+        "padded": 2870
+      },
+      "estimated_seconds": 730.8662491034897,
+      "new_tile_forwards": 5,
+      "precision": "fp32 CPU; published Villa CUDA auto AMP differs"
+    },
+    {
+      "model": "hecate",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/hecate_9.6um.pth",
+        "bytes": 522576086,
+        "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d"
+      },
+      "strict_load": true,
+      "raw_sha256": "ee2462073f37da53244ad67d6c5a0614a97dcca38e6727f2bf997df8453c5692",
+      "single_seconds": 2.2331940770000074,
+      "batch4_seconds": 8.486036475999981,
+      "probability_max_batch_difference": 9.387731552124023e-06,
+      "patches": {
+        "plain": 13348,
+        "padded": 14162
+      },
+      "estimated_seconds": 58362.71586368987,
+      "new_tile_forwards": 5,
+      "precision": "fp32 CPU"
+    }
+  ],
+  "total_tile_forwards": 20,
+  "total_estimated_seconds": 60594.58175411319
+}

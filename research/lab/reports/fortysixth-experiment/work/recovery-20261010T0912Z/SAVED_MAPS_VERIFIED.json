@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "maps": [
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "status": "PASS",
+      "encoded_sha256": "0b16a486b577c2d76b57d8dfcd2dbf923024e89b1c85cb1e3a1a99c447399183",
+      "decoded_sha256": "8c8c1ef7ca2e9965ba960ff0a34b6c319c2dfa6e699d0af2b1ee7cbad4d8da2d"
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "status": "PASS",
+      "encoded_sha256": "7135f2843a4ba393582864c68b36bf801e784118bddacbf97123ee7121a5f255",
+      "decoded_sha256": "83e4974daad6b2aff6993137a4a0faa4e9ce557683a1cc6c40b30058cd7cbe3b"
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "status": "PASS",
+      "encoded_sha256": "0c80dfaec7deaf9f61a8baec892e06430c3e94b1eb592e2b4d035988ca84a5a6",
+      "decoded_sha256": "7535213b5c01c44f94a81106edb54ceb7ed585875cd36c3ea8f2f80d8208c1a0"
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "status": "PASS",
+      "encoded_sha256": "d2d5bf84bb83c10d40cd7e6676aa067ada68582c4e929b529c118de4aed5a2c6",
+      "decoded_sha256": "50bf627bb7d38db64d0f1654273d80bf7c4ddf8ba892aea1b24aea5f6df1f3b6"
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "status": "PASS",
+      "encoded_sha256": "9d67a3f970b6c3f109223d476f6e138b5e4e5deaa9988dd09108d18778680ee1",
+      "decoded_sha256": "6cabe2a5dc7c4723962b6756cd56ae58f9d3c14cd276db849a67038bf7216e37"
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "status": "PASS",
+      "encoded_sha256": "c1f956efbf3e5badd1d7303b3aad0ba83e3e1e9dbee2476506600fe6b8f397a4",
+      "decoded_sha256": "9ec7b498154383097e3fa84de2022bd384238473e027ee82d6f4c3704fb34e48"
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "status": "PASS",
+      "encoded_sha256": "2d21f5d80d6a9e3fe681cba7e9253cc9718894d8c02ef831dbc9f43be0d8d4fa",
+      "decoded_sha256": "3f65dca95d363d9767bf2da951bf9b2065e0a94a7f00b54297be66a1fd32388a"
+    }
+  ],
+  "new_model_forwards": 0
+}

@@ -81,3 +81,10 @@ This is a dated data snapshot, not a synchronized workspace. The two Hecate maps
 Large files appear as small pointers in Git itself. They are usable only after the corresponding LFS objects download successfully; the loader verifies both the object and every extracted file. `--drop-cache` removes the verified local LFS download after extraction, not the remote object or restored data. The selected research licenses/notices remain in their original locations; no blanket license is applied to upstream code, scan derivatives or models.
 
 See [VALIDATION.json](VALIDATION.json) for the exact checks performed, including whether each used a local retained bundle or a real GitHub download. A same-host isolated restore is not a test on your physical device.
+
+## Completed follow-up supplement
+
+[Phase47 replay and current research anchors](PHASE47.md) add the sealed four-origin
+comparison and PHerc0800 geometry preparation. Its separate 39.2 MiB LFS bundle
+replays saved outputs with only NumPy/SciPy. The historical workspace manifest
+and completed four-model bundle remain unchanged.

@@ -1,0 +1,641 @@
+{
+  "status": "PASS",
+  "provenance_files_checked": 12,
+  "surface_acquisitions": [
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-candidate256/provenance.json",
+      "segment": "20251029010146",
+      "bbox_source_xywh": [
+        512,
+        448,
+        256,
+        256
+      ],
+      "shape_zyx": [
+        31,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-fifth-context768-20261008/provenance.json",
+      "segment": "20251028220955",
+      "bbox_source_xywh": [
+        768,
+        256,
+        768,
+        768
+      ],
+      "shape_zyx": [
+        31,
+        768,
+        768
+      ]
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-independent-01/provenance.json",
+      "segment": "20251029010146",
+      "bbox_source_xywh": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "shape_zyx": [
+        31,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-independent-02/provenance.json",
+      "segment": "20251029010146",
+      "bbox_source_xywh": [
+        512,
+        192,
+        256,
+        256
+      ],
+      "shape_zyx": [
+        31,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-independent-03/provenance.json",
+      "segment": "20251029010146",
+      "bbox_source_xywh": [
+        0,
+        320,
+        256,
+        256
+      ],
+      "shape_zyx": [
+        31,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-controls1024/provenance.json",
+      "segment": "20251028222030",
+      "bbox_source_xywh": [
+        768,
+        768,
+        1024,
+        1024
+      ],
+      "shape_zyx": [
+        31,
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger1536/provenance.json",
+      "segment": "20251028222030",
+      "bbox_source_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "shape_zyx": [
+        31,
+        1536,
+        1536
+      ]
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-roi256/provenance.json",
+      "segment": "20251029010146",
+      "bbox_source_xywh": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "shape_zyx": [
+        31,
+        256,
+        256
+      ]
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-screen384-20261008/provenance.json",
+      "segment": "20251028220955",
+      "bbox_source_xywh": [
+        1024,
+        384,
+        384,
+        384
+      ],
+      "shape_zyx": [
+        31,
+        384,
+        384
+      ]
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface980/provenance.json",
+      "segment": "20251029010146",
+      "bbox_source_xywh": [
+        0,
+        0,
+        980,
+        980
+      ],
+      "shape_zyx": [
+        31,
+        980,
+        980
+      ]
+    }
+  ],
+  "maximal_surface_extents": [
+    [
+      "20251029010146",
+      [
+        0,
+        0,
+        980,
+        980
+      ]
+    ],
+    [
+      "20251028222030",
+      [
+        512,
+        512,
+        1536,
+        1536
+      ]
+    ],
+    [
+      "20251028220955",
+      [
+        768,
+        256,
+        768,
+        768
+      ]
+    ]
+  ],
+  "prior_valid_centres": 3260832,
+  "prior_ct_views": [
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-center/provenance.json",
+      "native_bbox_zyx": [
+        [
+          11264,
+          4096,
+          4096
+        ],
+        [
+          12288,
+          5120,
+          5120
+        ]
+      ],
+      "role": "Observed CT intensity or surface-volume pixels; no ink inference"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-linked/provenance.json",
+      "native_bbox_zyx": [
+        [
+          11264,
+          6144,
+          3072
+        ],
+        [
+          12288,
+          7168,
+          4096
+        ]
+      ],
+      "role": "Observed CT intensity or surface-volume pixels; no ink inference"
+    }
+  ],
+  "candidates": [
+    {
+      "segment": "20251028213516",
+      "full_native_shape": [
+        2160,
+        2240
+      ],
+      "sampled_valid": 5783,
+      "nearest_prior_distance_quantiles": {
+        "min": 1.5188610687772273,
+        "p25": 14.638873712302452,
+        "median": 17.188882425372494,
+        "p75": 21.108361244414187,
+        "p95": 155.2643456237808,
+        "max": 374.2831610632191
+      },
+      "within_voxels": {
+        "2": {
+          "count": 2,
+          "fraction": 0.0003458412588621823
+        },
+        "16": {
+          "count": 2161,
+          "fraction": 0.37368148020058795
+        },
+        "64": {
+          "count": 5088,
+          "fraction": 0.8798201625453916
+        }
+      },
+      "farther_than64": 695,
+      "largest_far_component_samples": 271,
+      "largest_far_component_native_bounds_xyxy": [
+        980,
+        20,
+        1661,
+        401
+      ],
+      "prior_lowres_ct_views": [
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-center/provenance.json",
+          "sample_centres_inside": 0
+        },
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-linked/provenance.json",
+          "sample_centres_inside": 1896
+        }
+      ],
+      "prospective_field_admitted": false
+    },
+    {
+      "segment": "20251028220042",
+      "full_native_shape": [
+        2040,
+        2000
+      ],
+      "sampled_valid": 5377,
+      "nearest_prior_distance_quantiles": {
+        "min": 13.582859464972517,
+        "p25": 27.49527285543147,
+        "median": 33.845866537792034,
+        "p75": 40.829194535569265,
+        "p95": 107.72066402150323,
+        "max": 325.6711209021285
+      },
+      "within_voxels": {
+        "2": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "16": {
+          "count": 25,
+          "fraction": 0.004649432769202157
+        },
+        "64": {
+          "count": 4921,
+          "fraction": 0.9151943462897526
+        }
+      },
+      "farther_than64": 456,
+      "largest_far_component_samples": 245,
+      "largest_far_component_native_bounds_xyxy": [
+        760,
+        20,
+        1421,
+        281
+      ],
+      "prior_lowres_ct_views": [
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-center/provenance.json",
+          "sample_centres_inside": 0
+        },
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-linked/provenance.json",
+          "sample_centres_inside": 2018
+        }
+      ],
+      "prospective_field_admitted": false
+    },
+    {
+      "segment": "20251028220955",
+      "full_native_shape": [
+        2100,
+        2100
+      ],
+      "sampled_valid": 5169,
+      "nearest_prior_distance_quantiles": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 52.179758937425255,
+        "p75": 61.04051842851826,
+        "p95": 128.68424468067437,
+        "max": 308.3320374133073
+      },
+      "within_voxels": {
+        "2": {
+          "count": 1430,
+          "fraction": 0.2766492551750822
+        },
+        "16": {
+          "count": 1497,
+          "fraction": 0.289611143354614
+        },
+        "64": {
+          "count": 4250,
+          "fraction": 0.8222093248210486
+        }
+      },
+      "farther_than64": 919,
+      "largest_far_component_samples": 237,
+      "largest_far_component_native_bounds_xyxy": [
+        520,
+        1600,
+        1201,
+        2041
+      ],
+      "prior_lowres_ct_views": [
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-center/provenance.json",
+          "sample_centres_inside": 0
+        },
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-linked/provenance.json",
+          "sample_centres_inside": 2115
+        }
+      ],
+      "prospective_field_admitted": false
+    },
+    {
+      "segment": "20251028222030",
+      "full_native_shape": [
+        2580,
+        2580
+      ],
+      "sampled_valid": 7899,
+      "nearest_prior_distance_quantiles": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 52.09603592052174,
+        "p95": 292.04940636225416,
+        "max": 492.0619037925091
+      },
+      "within_voxels": {
+        "2": {
+          "count": 5510,
+          "fraction": 0.6975566527408533
+        },
+        "16": {
+          "count": 5701,
+          "fraction": 0.721736928725155
+        },
+        "64": {
+          "count": 6058,
+          "fraction": 0.7669325231041904
+        }
+      },
+      "farther_than64": 1841,
+      "largest_far_component_samples": 485,
+      "largest_far_component_native_bounds_xyxy": [
+        20,
+        820,
+        441,
+        1661
+      ],
+      "prior_lowres_ct_views": [
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-center/provenance.json",
+          "sample_centres_inside": 0
+        },
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-linked/provenance.json",
+          "sample_centres_inside": 2554
+        }
+      ],
+      "prospective_field_admitted": false
+    },
+    {
+      "segment": "20251028225813",
+      "full_native_shape": [
+        2300,
+        2260
+      ],
+      "sampled_valid": 6210,
+      "nearest_prior_distance_quantiles": {
+        "min": 0.1937899948186887,
+        "p25": 10.775536258574183,
+        "median": 14.415730820082546,
+        "p75": 23.521557396319935,
+        "p95": 231.75273581290483,
+        "max": 548.0314436453384
+      },
+      "within_voxels": {
+        "2": {
+          "count": 84,
+          "fraction": 0.01352657004830918
+        },
+        "16": {
+          "count": 3621,
+          "fraction": 0.5830917874396135
+        },
+        "64": {
+          "count": 5194,
+          "fraction": 0.8363929146537842
+        }
+      },
+      "farther_than64": 1016,
+      "largest_far_component_samples": 623,
+      "largest_far_component_native_bounds_xyxy": [
+        600,
+        20,
+        1561,
+        501
+      ],
+      "prior_lowres_ct_views": [
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-center/provenance.json",
+          "sample_centres_inside": 0
+        },
+        {
+          "source": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-linked/provenance.json",
+          "sample_centres_inside": 2194
+        }
+      ],
+      "prospective_field_admitted": false
+    }
+  ],
+  "pins": [
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-candidate256/provenance.json",
+      "sha256": "0225a47568c49e8ab7b752b2095e0270ac1a1d680cd322aaecd17471e1e92690",
+      "size_bytes": 57367,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-center/provenance.json",
+      "sha256": "a01245929f5d67e634288d1b73a12594e8ab639345764b91fabb1f052cafb64d",
+      "size_bytes": 1605,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-ct-level3-linked/provenance.json",
+      "sha256": "09d32c97ebfc81ae64151cbe23d669f45a4e198679fceaf24eb5923de6f8f358",
+      "size_bytes": 1605,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-fifth-context768-20261008/provenance.json",
+      "sha256": "db15274e9cfee66fc81e5dcbd8b18ae86ebdba00a846df271fb0b330346d72b4",
+      "size_bytes": 68845,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-independent-01/provenance.json",
+      "sha256": "c7040621c9463766ec3216e20e3f18a11ea97884169eb1ff40c56a7a4c1345ae",
+      "size_bytes": 1825,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-independent-02/provenance.json",
+      "sha256": "d4fbc54d6478cc2b8c7be468d2a8f24b8e1905f48792857493cfa9918adde1d0",
+      "size_bytes": 1849,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-independent-03/provenance.json",
+      "sha256": "703fa05a7917f6103c81ba945c9baa5cc68e060554933f93b9a26b9657b3dc42",
+      "size_bytes": 1847,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-controls1024/provenance.json",
+      "sha256": "bb5651758642a8e0b048d15f0fd7dec2e65e40388d732420537d5a0781a15756",
+      "size_bytes": 2842,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger1536/provenance.json",
+      "sha256": "537f42b286d37bd98c889fa8196fdceee10b714f79a69e2f321513b5a87feb49",
+      "size_bytes": 145766,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-roi256/provenance.json",
+      "sha256": "cc382b5e3502c0acb14f3319ad7853fbd5e13e88c1f914132cd885e608910d7e",
+      "size_bytes": 6667,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-screen384-20261008/provenance.json",
+      "sha256": "6fbd542244089cd041fb8470f14520f4b4e5f4dd2a7c99025effbd0f62c3c777",
+      "size_bytes": 32031,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface980/provenance.json",
+      "sha256": "b939d230a906341a1ce678957db62b379ddcdf45f723e54ca5b0f7d2007b8e58",
+      "size_bytes": 56969,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface-geometry/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "639805f7062e5ce2351efaf77d43e226a0dca3151af8428c21fe3e70bff51c90",
+      "size_bytes": 11524928,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-surface-geometry/full-surface-valid-mask.npy",
+      "sha256": "a5ec3b003135871f517528f789cf62f112a79b4ac99f5e5324bb4162faea41f8",
+      "size_bytes": 960528,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "fc5e87c8bbfcfe9c85c446c3a6bceba8e7c80bed97d3a30aaf36bfbb65f4567c",
+      "size_bytes": 79876928,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-valid-mask.npy",
+      "sha256": "d7e70bff345925045b78039773dc40669922d723f423f446cec597b2bd9032bd",
+      "size_bytes": 6656528,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "8638b05a5449abfc3b2e7a801ed05f04fa76cb1cf839570ce49e5bcaad8af255",
+      "size_bytes": 52920128,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/full-surface-valid-mask.npy",
+      "sha256": "773dec911ebfd795dc5d40808f66c495ef262a4e979d162983cb099efe9a0ddd",
+      "size_bytes": 4410128,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028213516/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "c195146c5279e6f45d9a19f99ec7ad56e47fee2c552434225413eae8a60a76d5",
+      "size_bytes": 58060928,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028213516/full-surface-valid-mask.npy",
+      "sha256": "96ea5dc233378931303f28aaf249bee109ae579310ce23c799f53488281f6cc4",
+      "size_bytes": 4838528,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220042/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "e44e010c2b45544e00ad38b8dba47fa20a763f701fc2e62388a9a3eb3785125b",
+      "size_bytes": 48960128,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220042/full-surface-valid-mask.npy",
+      "sha256": "cb971cf002404c366f05209dfde0b7a345e8e924b2ba87243665332211f9f337",
+      "size_bytes": 4080128,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "8638b05a5449abfc3b2e7a801ed05f04fa76cb1cf839570ce49e5bcaad8af255",
+      "size_bytes": 52920128,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028220955/full-surface-valid-mask.npy",
+      "sha256": "773dec911ebfd795dc5d40808f66c495ef262a4e979d162983cb099efe9a0ddd",
+      "size_bytes": 4410128,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "fc5e87c8bbfcfe9c85c446c3a6bceba8e7c80bed97d3a30aaf36bfbb65f4567c",
+      "size_bytes": 79876928,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-valid-mask.npy",
+      "sha256": "d7e70bff345925045b78039773dc40669922d723f423f446cec597b2bd9032bd",
+      "size_bytes": 6656528,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028225813/full-surface-ct-coordinates.xyz.npy",
+      "sha256": "488be2d5be7a8c32d8e64f15f161d91e1a06ce55bedec166ea5794998ba4ca7f",
+      "size_bytes": 62376128,
+      "anchor": "previous Git workspace snapshot"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028225813/full-surface-valid-mask.npy",
+      "sha256": "874fb421e95bc233bb2281a2b1c5699dc8a11bc37b079415333e6ed3bd5f3153",
+      "size_bytes": 5198128,
+      "anchor": "previous Git workspace snapshot"
+    }
+  ],
+  "fallback_workspace_manifest_sha256": "b5b4904eda36f91ce243af24fbfcd6aebbd64072be7d3f88340dcdd3151109c9",
+  "no_new_target_inference": true,
+  "fresh_assessment_field_certified": false,
+  "limitations": "Every20px centre screen only. Complete CT depth/context, normals/interpolation, old raw-CT spot checks and physical identity still require admission audit."
+}

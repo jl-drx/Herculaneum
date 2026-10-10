@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all6 decoded hashes checked in analyze.py",
+    "crop means match prior review",
+    "independent rowwise plain near/far arithmetic",
+    "independent64 phase-bin means",
+    "distance band count and error conservation for crop/interior/union/all18 boxes"
+  ]
+}

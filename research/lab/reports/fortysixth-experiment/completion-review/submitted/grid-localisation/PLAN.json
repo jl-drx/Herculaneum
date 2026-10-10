@@ -1,0 +1,21 @@
+{
+  "frozen_before_new_metrics_utc": "2026-10-10T13:04:48Z",
+  "scope": "Saved six maps only; <=2 CPU threads; no inference, CT/checkpoint loading, repository changes, or live run access.",
+  "grid": "128 square tiles; stride64; regular native starts plain 64k, padded y=64k-40 and x=64k-200. Append length-128 final start. Hann nonperiodic outer product normalized and floored .001; weighted average encoded uint8. Geometric schedule only: actual occupancy subset cannot independently be reconstructed without CT.",
+  "source_gate": "Pinned infer.py SHA256 979aed8e1bf047bea8e30bd0bbe55538556289c72b5914bbbbecf355e5940389; source, runner and qualified model logs retained.",
+  "populations": [
+    "published valid crop",
+    "published valid crop excluding128-pixel outer native field rim",
+    "all18 preexisting boxes separately",
+    "union of all18 boxes without overlap double counting"
+  ],
+  "metrics": [
+    "plain-padded absolute uint8 difference by 8x8 position bins over stride64, with signed difference",
+    "distance to nearest potential tile-start line on either axis, separately plain and padded grids, bins0..4,5..12,13..20,21..32",
+    "near<=4 versus far>=13 mean and error share",
+    "fixed paired-mean amplitude bins0..64,64..128,128..192,192..256 for near/far interpretation"
+  ],
+  "stopping": "One calculation, arithmetic validation, one figure and concise interpretation. No frequency search, threshold sweep, p-values, accuracy or causal claim; no rank overlap duplication.",
+  "limits": "With overlap there is no unique stitched seam at a grid line. Occupancy and raw texture unavailable; spatial confounding remains. Source code verified but no inference rerun. Boxes overlap and are preexposed. Final edge tiles break periodicity; phase plots use interior population.",
+  "technical_amendment_before_results": "Distance to finite start lines can exceed32 in last tile tail; include33..128 overflow band in metrics, plot firstfour bins only. This is not a fitted parameter change."
+}

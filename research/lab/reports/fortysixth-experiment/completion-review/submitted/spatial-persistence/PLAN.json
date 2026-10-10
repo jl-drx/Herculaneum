@@ -1,0 +1,15 @@
+{
+  "frozen_before_new_metrics": "2026-10-10T12:58:00Z",
+  "purpose": "Describe spatial persistence of strongest saved responses, not ink truth, accuracy, independent validation or four-model completion.",
+  "inputs": "Previously verified six saved uint8 maps, valid mask, fixed native alignment and prescribed ownership; verify hashes against previous review. No model execution or repository edits.",
+  "supports": "All 18 pre-existing candidate boxes, floor/ceil native bounds, and whole valid published crop [105:2560,380:6021]. Boxes overlap and are not independent samples.",
+  "fractions": [0.05, 0.10, 0.20],
+  "selection": "Within each support and map separately, take the highest responses until at least ceil(q*N) pixels are included. Include every pixel tied at the boundary (no coordinate-based tie breaking). Record threshold, strict-above and tie counts and actual fraction. Also use fractional boundary membership so weighted selections have exactly q*N mass, and report weighted Dice using min-membership intersection as a tie sensitivity check.",
+  "comparisons": "Three within-model plain/padded comparisons, and three cross-model prescribed-merge comparisons. Do not fit thresholds or select best boxes.",
+  "metrics": "Binary Dice, Jaccard, directional retention; symmetric nearest-selected-pixel mean and pooled p95 distance, native centroid displacement; each mask's 8-connected component count, largest component share, and number of components needed to cover 90% selected mass. Distances in native pixels. Support boundary clips components; centroid can conceal local changes. No registration or shape matching.",
+  "controls": "Each mask versus itself must give Dice/Jaccard 1 and displacement zero. Show uniform-independent occupancy expected Dice 2*pA*pB/(pA+pB) as arithmetic scale only, never spatial null or significance. Threshold grid and exact-mass weighted Dice show sensitivity without choosing a favorable threshold.",
+  "visuals": "All 18 boxes in overlap contact sheets at predeclared central 10% fraction, three phase pairs and three merged model pairs. Native coordinates recorded; display reversed on both axes to match published orientation. Overview heatmap covers every box and all three fractions. No selection based on visual quality.",
+  "verification": "Direct independent set-count recomputation of reported overlap metrics, count sums and topology invariants, weighted mass checks and self controls; visually inspect generated figures.",
+  "limits": "Shared training/model families; saved uint8 quantization and ties; overlapping boxes; threshold dependence; correlated pixels; no ground truth or significance; three models available, Hecate absent. Position and connectivity summaries are descriptive and cannot determine authentic ink or letters.",
+  "resources": "At most two CPU threads; sequential support processing; outputs only in new persistence-output directory."
+}

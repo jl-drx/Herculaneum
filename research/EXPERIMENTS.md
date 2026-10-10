@@ -1,8 +1,8 @@
 # Experiment index
 
-Historical reports preserve their original conclusions and scope. Latest: [phase45 native continuation and target-return audit](lab/reports/fortyfifth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 45 independent held-out tests.
+Historical reports preserve their original conclusions and scope. Latest: [phase47 grid comparison and target geometry screen](lab/reports/fortyseventh-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 47 independent held-out tests.
 
-In progress: [phase46 PHerc343 fixed-depth reproduction](in-progress/pherc343-reproduction/STATUS.md). The original render passed both published decoded checksums, all four models passed real-input qualification, and full CPU inference is running. No scientific ink reproduction outcome yet; this is not another completed diagnostic study.
+[Phase46 PHerc343 reproduction](lab/reports/fortysixth-experiment/RESULTS.md) and phase47 are completed and sealed. The next task is PHerc0800 field admission from full physical sampling support; no target run is active.
 
 | Experiment | Recorded outcome |
 | --- | --- |
@@ -51,3 +51,5 @@ In progress: [phase46 PHerc343 fixed-depth reproduction](in-progress/pherc343-re
 | [43: fortythird-experiment](lab/reports/fortythird-experiment/RESULTS.md) | COMPLETED_REFERENCE_SEARCH_CT_NOT_ADMITTED_PROFILOMETRY_LEAD |
 | [44: fortyfourth-experiment](lab/reports/fortyfourth-experiment/RESULTS.md) | COMPLETED_CPU_COMPARISON_NATIVE_FIT_NOT_QUALIFIED |
 | [45: fortyfifth-experiment](lab/reports/fortyfifth-experiment/RESULTS.md) | Native8192 closing run, released-checkpoint variability and PHerc0800 mesh–M7 diagnostic; PHerc343 reproduction recommended |
+| [46: fortysixth-experiment](lab/reports/fortysixth-experiment/RESULTS.md) | COMPLETED_VERIFIED_PUBLISHED_IMAGE_REPRODUCTION; eight maps, four-model display and all-region review |
+| [47: fortyseventh-experiment](lab/reports/fortyseventh-experiment/RESULTS.md) | COMPLETED_GRID_SENSITIVITY_VERIFIED_TARGET_NOT_ADMITTED; exact baseline, four fixed origins, target geometry screen |

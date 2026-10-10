@@ -1,0 +1,697 @@
+{
+  "schema": 1,
+  "shape": [
+    2340,
+    6228
+  ],
+  "patch": 64,
+  "stride": 32,
+  "batch_size": 4,
+  "reverse": true,
+  "precision": "fp32",
+  "threads": 4,
+  "source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+  "files": {
+    "reports/fortyfifth-experiment/source-evidence/hecate-hecate.py": {
+      "bytes": 22462,
+      "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59"
+    },
+    "reports/fortysixth-experiment/FIXED_DISPLAY_STATS.json": {
+      "bytes": 2538,
+      "sha256": "bbf3c7751bf9e7c54383ac293a41c5e6b302dd49a8374fce29e46a80e0e3d809"
+    },
+    "reports/fortysixth-experiment/INFERENCE_QUALIFICATION.json": {
+      "bytes": 3280,
+      "sha256": "4757fa5460b18d3575a59f464894235622500a0ddcc694fef08cdb038bdbdd85"
+    },
+    "reports/fortysixth-experiment/PROTOCOL.md": {
+      "bytes": 3172,
+      "sha256": "0118ccce63027f7d3694d2eea27e957e1e2c7e7e7107b2d29d1b5ffe6e65de7f"
+    },
+    "reports/fortysixth-experiment/compose_and_compare.py": {
+      "bytes": 3373,
+      "sha256": "a9a0ac592697d9286c7ddb24abed38cdcfc9d4b440d369fcac515aa612094184"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/1": {
+      "bytes": 486962,
+      "sha256": "7cc593369f37ae43e72fa20989094a2c7749540b1f4b9d83bc8a0faa6cca234d"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/11": {
+      "bytes": 140771,
+      "sha256": "7558f10476ad128a3f11bc39e332ba836dc4914a6d35f99a9f8f90f505ccccd6"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/12": {
+      "bytes": 630698,
+      "sha256": "01b85fdbc0e1b264f03948a84285a3889c9096e70d7271c43c1e6c0e84e87238"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/13": {
+      "bytes": 742612,
+      "sha256": "368996d038f613d63ea4394e89500c2ef23af65c8f50e460a0f3e90f66adec1f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/14": {
+      "bytes": 731006,
+      "sha256": "6d92254d0f29107d707e3d9c237ff197dead0c21b4b81252b77605edbee8c7ec"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/15": {
+      "bytes": 722910,
+      "sha256": "4e4209b87aacb49883ae5c136fc98233ef1a0554ac093d3ab395b3e147b12d05"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/16": {
+      "bytes": 699304,
+      "sha256": "eb0f8cb63c61ed6d39cfa56ae70e843cfa80caeb3ebc3a58d349763bba247816"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/17": {
+      "bytes": 734618,
+      "sha256": "15cc70b76b5828cd6100fe70553522cf168562b01d84b3955c3e710d43165411"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/18": {
+      "bytes": 727073,
+      "sha256": "dd30e12daadbce1782f0bc9d92e141c5d90f1ea8b3886059430af0e3fe4b0ac0"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/19": {
+      "bytes": 728320,
+      "sha256": "587a6f1d82791c888d80fd3557299531285153debd0f02331f8a0e17d2a6caf6"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/2": {
+      "bytes": 380891,
+      "sha256": "69cf09d446724cbf03fe91ecdcc438ade8d623fbd206cb273936dd0756536f37"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/20": {
+      "bytes": 744576,
+      "sha256": "edc2d1857e039bd5a4827f3d0d1c8a11e2d308305e2b821e1799ad5be4feb367"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/21": {
+      "bytes": 720744,
+      "sha256": "0137497968644380d786c93278780cefbe56b2d2da79790bdd5c8bfb21932bc1"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/22": {
+      "bytes": 747616,
+      "sha256": "fa98efe8a748e4c35ecc15b68000684c75fa85d32ab3975172d9011a018b6fca"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/23": {
+      "bytes": 757616,
+      "sha256": "77bfc762d842aad29aea627723b447ea8d7b4363d85daaed91730a8b2ab15058"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/24": {
+      "bytes": 176530,
+      "sha256": "e0bee7da097f6960c85c6a8104b46cd038bfb5e1c5ffbca027d10bf285e1d87f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/3": {
+      "bytes": 130710,
+      "sha256": "ee2a0ea54d21f3cc109f9fb507ae02ae783aceb4ad357714367641d37c9cab39"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/4": {
+      "bytes": 33242,
+      "sha256": "38bf2e2f10e8e8c9690eb63a824ed44462343e1607f4367c1637a60854b420cd"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/0/5": {
+      "bytes": 1155,
+      "sha256": "778ae90b20be29e63d42c4ca1e7956253bd00110150e9da937f1dda2371ac8a1"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/1": {
+      "bytes": 764744,
+      "sha256": "df34a89b29886c8d328de5722551d42e9666b33d69c9ed9b89b9a6ae108acea7"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/10": {
+      "bytes": 605476,
+      "sha256": "f54aae644774dbea816c571ad7857fb91213f968d8dc4b3359fa584417332e51"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/11": {
+      "bytes": 874542,
+      "sha256": "dbfd1fbbd7d1936d1a226937b2337474f80c54ea2d37b699487d12fe0da55993"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/12": {
+      "bytes": 912217,
+      "sha256": "869b4d543b86b3245712bf25ad09b36beb4270314c991cce9ae0d6550846c606"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/13": {
+      "bytes": 918037,
+      "sha256": "260780f464ba1bafa5c47c5e19a8ed93df7e91e0e080cd8aa029586f3f832650"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/14": {
+      "bytes": 912852,
+      "sha256": "98c86b4a6ceded049cbb1b3b4b3dbf260fc8df640d66bee166a7f601bb290803"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/15": {
+      "bytes": 913845,
+      "sha256": "8387f04f1c45d9c1c5b6d72044e79710bfc186e74b405af6a7854695bf824031"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/16": {
+      "bytes": 910028,
+      "sha256": "ed20766ca7f659e7bc9d847cdbbe032c775a058c01b73999d101abd482ae09ac"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/17": {
+      "bytes": 898869,
+      "sha256": "b14f584693d36d841d1ba470a24829041c7629e1ddeb8b90f2e346ff373712ca"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/18": {
+      "bytes": 912754,
+      "sha256": "357a532cea9b8ea08ab5d524c9bbf9c69812452c24b72d62afdcc49374793c6a"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/19": {
+      "bytes": 895109,
+      "sha256": "297d849d604e83ac2eef974161ca7ce4e2b5743f4b8541e017992984d2708c01"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/2": {
+      "bytes": 915209,
+      "sha256": "cde7de3706757a88f87ce961068dc50ba6a6c4fabbce956f6a902ed7b09a0451"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/20": {
+      "bytes": 900564,
+      "sha256": "7f2a6b15ec79b7386f5b36a1a947cd562ec6a0780d48c48b8a3f0ee31a5b2f70"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/21": {
+      "bytes": 896238,
+      "sha256": "5b5a9545b0e5c9c1975cb76b0e8a2b7c05a6a526b0a6570c321c987ca459aee7"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/22": {
+      "bytes": 899096,
+      "sha256": "265ed5acea3ec2330a0fe6b5f8279cdbbb15d2e03d0271fbf4122a77bebb07bf"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/23": {
+      "bytes": 890527,
+      "sha256": "a75528d7bad6c23aea6c430d52de1112a8fedbfad6ad5fbe9d35700a02c22529"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/24": {
+      "bytes": 204126,
+      "sha256": "f8b79603dff0f5a365b221ccbce622779dcefdc614786073774bd6c48dc6e0bb"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/3": {
+      "bytes": 907029,
+      "sha256": "53fd6a3b6e0befeb8df544bffd074aadf67bc03829518adc54a85131002698cf"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/4": {
+      "bytes": 885515,
+      "sha256": "aab7fc6809871c796f366d0e991e9e9e7dd3089bacaac4c207538d683251abdf"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/5": {
+      "bytes": 764056,
+      "sha256": "7ace2207a615c9fa86e3e2b9f2b600d2b1f1434c0d1992bea6cfddb99fdd77e8"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/6": {
+      "bytes": 442566,
+      "sha256": "8af4608b0e3837b8370dde502bc318f423966b55d848de293230d94cc919a361"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/7": {
+      "bytes": 280328,
+      "sha256": "7ad04d16f65c52a23faf2ec5fd67f1e60e72afb2d0636b554f672922c866b28c"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/8": {
+      "bytes": 165762,
+      "sha256": "b24f88ed2faee6aa65ec31c0e0418bc23bf7ed6253d065fa22881cd3c92bfe9c"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/1/9": {
+      "bytes": 258457,
+      "sha256": "7c6d636c01d7f182c6a46e7ced6b3113de1e8f9389fa1d1604a4853bead89528"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/1": {
+      "bytes": 747066,
+      "sha256": "82770bd13e09c8ed449a485b518e198a2bbbf3e45ead74964401e719351245fc"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/10": {
+      "bytes": 895164,
+      "sha256": "c0f24ff755c1de98ff0e42a77b0b1069ab4ce94ebbe2570a184f476a8f9ab88f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/11": {
+      "bytes": 905461,
+      "sha256": "67cf3fb021df4b53e29de0e287855c1b056156bf2fed2e3ca98563382a7bb1f8"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/12": {
+      "bytes": 922406,
+      "sha256": "8583c9c898623a2b04e24f93cc75db4bc90ddaeef2c8131586ae7727b5446a13"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/13": {
+      "bytes": 910853,
+      "sha256": "1c1340282882db0601c287edcbb6c3d2fb665b141bffe7c0791217efe185b8a5"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/14": {
+      "bytes": 904391,
+      "sha256": "107fb4f269ccd6834a7bb711ff768283957e8689ceb293f4cf17d7d96b0084be"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/15": {
+      "bytes": 900824,
+      "sha256": "b7691e9ad9f9322ba26e056225f228fe9a3f1652b1e42b689ff236000d6cbeba"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/16": {
+      "bytes": 886543,
+      "sha256": "7d11b151628f967dbf90859a5270bb74f43de6747c525ef1a1a8694c81c44c4f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/17": {
+      "bytes": 889954,
+      "sha256": "87dbdc100199856afca36d4f3d7a0873699722fdc48b1d5621be4118d13ff4ca"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/18": {
+      "bytes": 902443,
+      "sha256": "5e883440b41b900f235ba57f62aaf51d712e07494d06b1df59d65e720473aa82"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/19": {
+      "bytes": 879626,
+      "sha256": "28d97854dc5f881b7d9c3c15d78a14673aca57a23e240ec11d8344f2f963aaa4"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/2": {
+      "bytes": 902092,
+      "sha256": "07924ec0bd876fc618b173cd616673f0526b8478d4e2cfdf89457c011326781c"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/20": {
+      "bytes": 820116,
+      "sha256": "3ce5e5a44e24b25916ce138df4bc475fe65ba7f5dc5728dee52956ed6a040be0"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/21": {
+      "bytes": 883552,
+      "sha256": "a54583d2fe06c53da7bec5bc9032571acb7c8802b0ff5ced1d03fcc80ab174fc"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/22": {
+      "bytes": 855204,
+      "sha256": "619df1413b8f0e8a03ac2e5851a6d39179daabdde42b50ddef04c05d1909e462"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/23": {
+      "bytes": 886779,
+      "sha256": "4eb6549ae7e0bf0d387441db4b327c4add7079196cafad09376ed8235f1953d2"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/24": {
+      "bytes": 210344,
+      "sha256": "db21e99a4267f2289297530c6f6b191f13135b051f7915eb17f0fb2e47754042"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/3": {
+      "bytes": 889194,
+      "sha256": "7500395d3a9809da39039b9c6ad192b0207da1207e58ea2e3e962298c1b0404f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/4": {
+      "bytes": 912112,
+      "sha256": "8ea7a5a11bf0ce97b90517e9c69f1b22ab659a5674ee59ffef9d91b3c9c141a4"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/5": {
+      "bytes": 912156,
+      "sha256": "5385e1e922bd2a5e3a3a27f4301da7a5768523dff3488188d82fb9d718a2a8aa"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/6": {
+      "bytes": 926787,
+      "sha256": "4431ace2a4ad093eef805f7d21da1bf3cd7ba14a3f388b4b47f00f919e986b25"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/7": {
+      "bytes": 892536,
+      "sha256": "45a8b68ddf56376f9a9cb1266ed52f2e06cdb858fa9dc393824c5adb8edcf256"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/8": {
+      "bytes": 882184,
+      "sha256": "3538789ddc0e79051ba76ae8cfe7ab1378149f6bdc88c84d122a1a95f3b1c0f9"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/2/9": {
+      "bytes": 891487,
+      "sha256": "c0fad03256d43718af452f585b62c2dc55862f64b4b1de29586c0f7edcced5d0"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/1": {
+      "bytes": 755395,
+      "sha256": "c14e331bee5e916c11d8b5d42475f12372394c8ff607d5f2c433b99285bc249e"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/10": {
+      "bytes": 902148,
+      "sha256": "a22ea3d9e070a72fb91ca512d8c873c6ce84b5a968e21c86cc972963b490b7a7"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/11": {
+      "bytes": 913699,
+      "sha256": "5f50e7814529ac8dfffff8277da40007b1c9e475437abe17a6e2afc89a02ca60"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/12": {
+      "bytes": 906745,
+      "sha256": "38a35a201f9f3079c97d529004d5e040ac9193dff8cd6b0163ab5ca933df00d5"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/13": {
+      "bytes": 853845,
+      "sha256": "47c046654bee11da19a8b84578e8d0179d17d391638a1922ede56841abba0c44"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/14": {
+      "bytes": 876045,
+      "sha256": "2bd2bca7051e5e21f5ddf61677497ed48ffaa4fe1ee2e8efd9c8eafe7eabb1a0"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/15": {
+      "bytes": 883143,
+      "sha256": "51914753f7583a542729ea083b3448763159c608d83bcf759ffc3a2b04934403"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/16": {
+      "bytes": 882716,
+      "sha256": "011f7edf5e917afd64d2e574102316be542e44dcc6824da73b55afe1dc0771c4"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/17": {
+      "bytes": 888663,
+      "sha256": "1d195fdf48ecf2acb91839635ae1da8ac2a69232ec34cb24d7c90cc5b32f6d37"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/18": {
+      "bytes": 896748,
+      "sha256": "ddad578a80cd9be73b62ed3c94da6c4ef4f17f5325868d939bfb98c32c4d62a7"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/19": {
+      "bytes": 883216,
+      "sha256": "ec86c9fe05c5acd9bfbfe12c4eb3e89085224b34c7ac3c5d76a40bb8e07bf19c"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/2": {
+      "bytes": 900463,
+      "sha256": "09ab8cddfc28a04caecc53617b1a1c146f7a8108cfa5e66d3f0ede60d5481d65"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/20": {
+      "bytes": 803875,
+      "sha256": "b2e318f46586e685fa110a4b70f24eb9b74a5afc70d95bd754a17198ffe44050"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/21": {
+      "bytes": 812432,
+      "sha256": "22a74e125604d881227b2b3a6a113e3234830d2f338ee481ff53ba70f4dc874e"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/22": {
+      "bytes": 893763,
+      "sha256": "4fc43704757cf09c30ac0ca16c97d23c5c3ceb8b616bf3515b6d5936709cab7e"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/23": {
+      "bytes": 910028,
+      "sha256": "1c79f00fe9c2df7000cb0790293c8b8f9595be5b281d0bbe70f5da0d59c064f3"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/24": {
+      "bytes": 213380,
+      "sha256": "2d9a86b21c1b2c0f1ade82826829a14be7dab003e9fd217349ecd3f58d8628c2"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/3": {
+      "bytes": 886100,
+      "sha256": "e2aad5f6cd3f95214c0a6d642246348cfd0a2ede448d2e919ebdff77cc4a0f4c"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/4": {
+      "bytes": 911850,
+      "sha256": "368e2090d0853597c5ea3adff45a67ef70661eaf0a654a1c9b11360a6e4fd85d"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/5": {
+      "bytes": 887208,
+      "sha256": "911f00dad2dcb75df965362e3a0f16322fa4f821d2dea8e7be8b49588de4ad4f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/6": {
+      "bytes": 882305,
+      "sha256": "eba260cba4db2f1ea5a23f26fabbcc14c1c3120717857bf514a9e4e19ca3c9f8"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/7": {
+      "bytes": 892900,
+      "sha256": "ed1b1ec80824612ec9d29d7b699227318c68087b9a44086a03cfeb5d2b6cd69b"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/8": {
+      "bytes": 899952,
+      "sha256": "f16527f6b1effa819a4e88c79268dfe24bd8024311462d3ade5762034a9f28c9"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/3/9": {
+      "bytes": 898909,
+      "sha256": "ffb0b3a55195baaefd6c019b35934cfde8fcbe9460f3a29d06249c7875fd2bce"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/1": {
+      "bytes": 762930,
+      "sha256": "4593ba377d12fdecd59682b4a8141ba1ca09d1d4d31dfe70a13ef00115cc5271"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/10": {
+      "bytes": 887150,
+      "sha256": "be9d3e87baf74f0445d90aff385ec6ea7c58ee1c93bfc820d3f6f31abd371c63"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/11": {
+      "bytes": 894753,
+      "sha256": "132e590e6fa2ef95df322608475d5819e6cb5e0fdcb82c117067e8299aee7220"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/12": {
+      "bytes": 861507,
+      "sha256": "0fdd198d9f3c02afe38291d5a3129508b8e9129d6b220d9c9f77b9a764e002d4"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/13": {
+      "bytes": 880187,
+      "sha256": "af945ac821250998dc69d64e5c3f9e4170e99e12b89a307a960199dce1047809"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/14": {
+      "bytes": 872197,
+      "sha256": "753a8d710957f8e3264d24600eb9f0c202ee32a2c782d7946511db7f9cfd6a37"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/15": {
+      "bytes": 887548,
+      "sha256": "0352169b4ff477cb73ff331b413668eb9944b59cf5093443a202add79df01cfb"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/16": {
+      "bytes": 846946,
+      "sha256": "c2cd1baa28d28499c23ea61059fd564382d0ad04495df0857e7b9ab856c9d494"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/17": {
+      "bytes": 674421,
+      "sha256": "28b4ecadb8224411d8f13578b19c1e829ddecd7feb733f5e6d4524ac7fb3efcb"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/18": {
+      "bytes": 648951,
+      "sha256": "9a51fc5d0ca0547eb4250c1381a6e7e931ded1ceb60d70e3909a99aad3f2195a"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/19": {
+      "bytes": 573771,
+      "sha256": "af80f71390ea7ffd1668905e3300302a6701c86e4c6cec1bd1f39658c5dee03e"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/2": {
+      "bytes": 822477,
+      "sha256": "14d81b02e2083f768fa3242e406ec3f59aeb15609627231b8a811075ed3d7461"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/20": {
+      "bytes": 704706,
+      "sha256": "469d2acc87197e946e18fa9ab7db7fda1d9a287f1ddbeddbce033f867ee05b3e"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/21": {
+      "bytes": 817586,
+      "sha256": "05aad4d3f4c850b5afb8941c8b078bd744b644a4dd7b7bf380a7f2b4eb1d6803"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/22": {
+      "bytes": 872922,
+      "sha256": "2f34a819bea5039c18f83ba3b8bd135339c21a8eb52a2b1dd08fc9f87c0e1d86"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/23": {
+      "bytes": 913545,
+      "sha256": "bc0b6270fa87eb66be2f553cc7f305e376669e267485b555331e3df9948d6c99"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/24": {
+      "bytes": 215730,
+      "sha256": "7f77b798c4bb802e08433544a5848bb653135742a9c021ddf57007650bdda14f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/3": {
+      "bytes": 893384,
+      "sha256": "7f69d7e0c31e3972b9ed5ea7e960840261425ee55841d2f7122e583dc9d9b8aa"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/4": {
+      "bytes": 840076,
+      "sha256": "b48d7e2cb0e6ad9919b827ed7c368788fd8fed2095c553709bd8368c9d64a2f9"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/5": {
+      "bytes": 866208,
+      "sha256": "08c733374d2568abfe7717889c1185e71cbe7c24ad160b0aa26c83532d6b4226"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/6": {
+      "bytes": 865531,
+      "sha256": "84e3a7d1df2704eb9b55ca1760a035216e049042b7f5f144a5bb422e0ee6bd4f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/7": {
+      "bytes": 895415,
+      "sha256": "59c95ea343bdf18f17dbc6bc2b0922ca51729b733a535fff87ff313a4a8bfbd9"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/8": {
+      "bytes": 894842,
+      "sha256": "25532ebd4ba15a96f60cc9298624b6c9e88aed543f07264bab538ceac612da31"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/4/9": {
+      "bytes": 895175,
+      "sha256": "cd6246fd89dc9d5ea8659bed4b63b173479bfe1ff850f79ea1785a7ffd06ac74"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/1": {
+      "bytes": 747386,
+      "sha256": "5c6b599a71e7fe79b53f08852f20c3ba1f350e6440031144738813920751cc1b"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/10": {
+      "bytes": 885355,
+      "sha256": "bfd7ea47ad1b7ac11979d39a2c765783253ed052b8e30d1592442fdf98aa334f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/11": {
+      "bytes": 886938,
+      "sha256": "bfd21dceb3141185cff7d9d51dd2280d83be4b6df23c8fec9bcab7d461abc5eb"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/12": {
+      "bytes": 905167,
+      "sha256": "941a9dcf5a719e7f4cab9386827c707677b88c0266081be38423391a8ff9d862"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/13": {
+      "bytes": 866248,
+      "sha256": "4db8657fe2dd137dd028ddedd164b4f1bdbd0acaa61333456f970e2e2ba2ffbc"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/14": {
+      "bytes": 544358,
+      "sha256": "656cd6b043c87980f2533a80f21f4d7809dfd6d0f0fc1ca542ff21eae795dd9e"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/15": {
+      "bytes": 211171,
+      "sha256": "fa0d74fb75a431e4d294b822e7e8aeb3a94825f48eb4c277130316731ee8eb2d"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/16": {
+      "bytes": 26986,
+      "sha256": "26178addaf958838b57c3873d2e535c82fb7eef1c6599c19f785580f49fa2906"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/2": {
+      "bytes": 853899,
+      "sha256": "b64e554c401483c23ebba4dd5f334d5bd65cb082bcaecdced48352e7d13ee2a7"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/20": {
+      "bytes": 16405,
+      "sha256": "9a7306446235ca70ee6cc768a4fac5e3a501aeedc5c392368270e948bc14efd0"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/21": {
+      "bytes": 323024,
+      "sha256": "1b8576ad4c8cd258f4e0dc4e43748a22a9d72da1d78b295b3f675361f557dfe7"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/22": {
+      "bytes": 688554,
+      "sha256": "c3e7ac5d7bfbdb9244e912e3eba167bd42f4545cc200306c46172d3b1bb80160"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/23": {
+      "bytes": 904719,
+      "sha256": "37fa7e34d536805d5b95276b0b6ca6bd0e8295929b92cc715e9a083194b849d5"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/24": {
+      "bytes": 213716,
+      "sha256": "ab4d043d1a84e53f961deff22841dfe2c6e40c1feebbb1cd82703ee543a3cb01"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/3": {
+      "bytes": 850194,
+      "sha256": "bfb0524fb9817dc84f6b5dec8336f028fe3b8355fb95b73fe47cf0176c7618f4"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/4": {
+      "bytes": 889992,
+      "sha256": "2b7199201d53015480626b28cf6a8d40c6ebc4d265fb37799b254a4f42ecba60"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/5": {
+      "bytes": 897425,
+      "sha256": "af47f5737eba631c24c394333fa88b7d1dbaa80c415677128be768cdfb71647c"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/6": {
+      "bytes": 897745,
+      "sha256": "23a61159f01b30a868e455c9896cd2b838d2d866eafa9976bdfd918b2937605b"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/7": {
+      "bytes": 908910,
+      "sha256": "e0c1ffde1d109bf8cc2bbab99a9a8e037627b847aea44185fa9d372cf4f0b43f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/8": {
+      "bytes": 889853,
+      "sha256": "1f80225f3a78c7a7747244bf9f7922b8897d3ae8d4eea4d1e092faf191cfc822"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/5/9": {
+      "bytes": 900905,
+      "sha256": "566bae6e496d84fbf8e4339b0f720ec39023aebf7a49d1a616b29ed80bc14bf1"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/1": {
+      "bytes": 511423,
+      "sha256": "c37faeb9b26b0d48a08de0f2fd29ecf5be348644c6c333fc710575b38947c18e"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/10": {
+      "bytes": 917167,
+      "sha256": "8e28af945c47646f7bff3211bb892ad3656078e907b6c6b8871074dd08253216"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/11": {
+      "bytes": 857773,
+      "sha256": "3aa03b5a120c89cc14aced4e358e71ba212fc2eb7352c6410fa2d25857b61ec2"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/12": {
+      "bytes": 528323,
+      "sha256": "824b86e76cec98fbbb916724f1c74aa7bf1a05566a86a7cd4c484cce76453d30"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/13": {
+      "bytes": 125999,
+      "sha256": "6f9745c6ad662a464e8785c7a6fc21d277af4217e385ce6e9fa8c327c1f71609"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/2": {
+      "bytes": 724338,
+      "sha256": "674df00992bfdc5c0284182fecec69cd0b8d39b726e8c24aac5545747e8d4e6f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/23": {
+      "bytes": 35316,
+      "sha256": "bf7d0567965edcbce23fe86eb6e6c464f1d711acee2745d07d6edd92e98aed50"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/24": {
+      "bytes": 2904,
+      "sha256": "5476c85c42f9a28787f3055c94eed57f71acdd1b0461d3b9359844df1e98a021"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/3": {
+      "bytes": 852728,
+      "sha256": "38fd286ad622710fa70c630b29720486ee66679ff5335b35933597a36c98f94c"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/4": {
+      "bytes": 861593,
+      "sha256": "71091d67b4eb0b44f3dfc9f476f61e9e99a0f08c262f3b2fe8b1be10e627e269"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/5": {
+      "bytes": 916456,
+      "sha256": "560ee1eca3a2de56f6cc7d00076fd8ce3e6a00cef88990d3ba00a728c51b8af9"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/6": {
+      "bytes": 887743,
+      "sha256": "f7b6900eecbf8d531a9f3825e77ef3c8bb145bb309c1856609e21bde63dc9033"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/7": {
+      "bytes": 890460,
+      "sha256": "ab8b1190d4f1292139636a3884d0304bec89f7b755758184494ccae5cda40936"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/8": {
+      "bytes": 895690,
+      "sha256": "1c22a0acfd829ab6b4a74d5ee0d35a8bb269332a49f0c1c0d380a9b608725a2a"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/6/9": {
+      "bytes": 899463,
+      "sha256": "d73a1ee34cea8996e716f76a69691861612282e9e5a4c7ca00cfaa4af16c7fd6"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/10": {
+      "bytes": 320110,
+      "sha256": "f94a47a1ada8b318d5e93f80e5c5cef6ca1426352172ea23394249c5d61d0310"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/11": {
+      "bytes": 56691,
+      "sha256": "e337018b07062796ca2e3fb3f43112c641ab4faf8661308c59c784c5f1dd952c"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/2": {
+      "bytes": 1673,
+      "sha256": "d7f02a0c0629de6cd8c6e0d76cd00a5828eba3be03f52d20af6192561a1e44e2"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/3": {
+      "bytes": 254434,
+      "sha256": "3297c687d0d850ac018a84164bd470cc6262a74849a387c84f5724eebd035c26"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/4": {
+      "bytes": 572422,
+      "sha256": "43f918ded6c6166edf5625bde83eae5d87210f9370383e4aa37f8c3703a8b48a"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/5": {
+      "bytes": 845205,
+      "sha256": "9485545428f71c614e3eeafebf4858da688cb6891861e2ebf48cfdcca659609f"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/6": {
+      "bytes": 878325,
+      "sha256": "3e6a1f01f484dc1934b824e23e5264d77ec17c7cdb931caa42957d94749d1422"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/7": {
+      "bytes": 893576,
+      "sha256": "0cba39d32a74af4173e897e30eff7bff3a8c0aa500e256137decb880195df91b"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/8": {
+      "bytes": 819433,
+      "sha256": "6ceaf599589162114ea4cf012268eae47fdf66dd66d38cb0bc6d6122f47fa584"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/7/9": {
+      "bytes": 623820,
+      "sha256": "0962dcf66f172f7a6bf4894a94e6bbb452f19c8a1b50fd4e3b80f4e90cdb2678"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/c/0/8/6": {
+      "bytes": 8570,
+      "sha256": "565780c04377f61c3e57ac04e051c6e83b7ecd4621dda3007e0c6f5344814b1c"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/0/zarr.json": {
+      "bytes": 600,
+      "sha256": "c97cc19c67cfab525d0ea13d73e2e7df6f04223d23d0d99e6b00126bb600b7ec"
+    },
+    "reports/fortysixth-experiment/work/hecate-padded.zarr/zarr.json": {
+      "bytes": 921,
+      "sha256": "a8d133cc8f4faa0160181af27910f6e220e785df0d65b6a60e763a6382b2b4bb"
+    },
+    "reports/fortysixth-experiment/work/hecate_9.6um.pth": {
+      "bytes": 522576086,
+      "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d"
+    }
+  }
+}

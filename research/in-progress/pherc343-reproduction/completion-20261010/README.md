@@ -71,3 +71,12 @@ verified output package.
 No paid GitHub Actions run, GPU resource, R2 upload or public publication was made.
 The archive is retained through private repository LFS, using the existing
 authorized research-backup workflow.
+
+## Subsequent closure and follow-up
+
+The [formal phase46 report](../../../lab/reports/fortysixth-experiment/RESULTS.md)
+and register v42 now seal the completed reproduction. [Phase47](../../../lab/reports/fortyseventh-experiment/RESULTS.md)
+then completed the fixed four-origin CPU comparison and read-only target geometry
+screen. [Its separate replay bundle and cumulative anchors](../../../workspace/PHASE47.md)
+are additive; this completed-results bundle remains unchanged. Earlier pending
+status statements above describe the original package date and scope.

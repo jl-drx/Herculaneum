@@ -13,10 +13,15 @@ def main():
     args=parser.parse_args();lab=args.lab.resolve();root=Path(__file__).resolve().parents[1];phase=lab/'reports'/args.study
     if not (phase/'final-verification.json').exists():raise SystemExit('Study must be sealed before export')
     source_manifest=json.loads((phase/'final-verification.json').read_text());frozen={x['path']:x for x in source_manifest['records']}
+    # A study may explicitly omit reacquirable caches/installed software from
+    # its seal. Preserve that declared boundary; all other candidates must
+    # still have a sealed record and pass the identity check below.
+    excluded={str(phase/item['path']) for item in source_manifest.get('excluded',source_manifest.get('excluded_phase46',[]))}
     candidates=[]
     for p in phase.rglob('*'):
-        if not p.is_file() or any(k in p.parts for k in ['__pycache__','plot-cache']):continue
+        if not p.is_file() or p.is_symlink() or any(k in p.parts for k in ['__pycache__','plot-cache']):continue
         if p.name=='final-verification.json' or p.name.startswith('STARTUP'):continue
+        if str(p) in excluded:continue
         if p.suffix in {'.py','.sh','.md','.json','.jsonl','.csv','.tsv','.png'} and p.stat().st_size<=1_000_000:candidates.append(p)
     candidates.append(lab/'reports'/args.register);scan([p for p in candidates if p.suffix!='.png'])
     target_manifest=root/'GIT_EXPORT_MANIFEST.json';old_bytes=target_manifest.read_bytes();manifest=json.loads(old_bytes);records={r['path']:r for r in manifest['records']};previous=dict(records)

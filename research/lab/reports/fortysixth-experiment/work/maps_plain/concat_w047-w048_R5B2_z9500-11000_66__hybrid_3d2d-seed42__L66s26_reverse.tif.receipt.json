@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "model": "hybrid_3d2d-seed42",
+  "phase": "plain",
+  "checkpoint": {
+    "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+    "bytes": 138360039,
+    "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab"
+  },
+  "output": {
+    "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed42__L66s26_reverse.tif",
+    "sha256": "c1f956efbf3e5badd1d7303b3aad0ba83e3e1e9dbee2476506600fe6b8f397a4",
+    "bytes": 6103189
+  },
+  "decoded_sha256": "9ec7b498154383097e3fa84de2022bd384238473e027ee82d6f4c3704fb34e48",
+  "shape": [
+    2560,
+    6720
+  ],
+  "min": 0,
+  "max": 214,
+  "tile_forwards": 2797,
+  "elapsed_seconds": 380.2872138629998,
+  "device": "cpu",
+  "precision": "fp32",
+  "compile": false
+}
