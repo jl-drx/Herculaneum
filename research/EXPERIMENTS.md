@@ -59,4 +59,4 @@ Studies46–50 are complete and sealed. The conservative support result remains 
 
 Study51 completion: 3,454 committed batches, 13,250 model tiles, 3h36m CPU; all 16 saved-logit replays exact. Both depth orders remain unverified as a reading-side choice. No follow-up inference or GPU job launched.
 
-Study52 is a [frozen design and feasibility packet](planning/pherc0800-depth-placement-20261010/source/RESULTS.md), not a completed shifted-inference experiment. All16 d0 baseline strip maps replay exactly from saved logits; all three planned input windows pass support/occupancy checks. Remaining worker admission gates are explicitly unrun.
+Study52's [design and feasibility packet](planning/pherc0800-depth-placement-20261010/source/RESULTS.md) is preserved. Its [qualified32-map CPU worker](in-progress/pherc0800-depth-20261011/README.md) started11October at00:48BST after32 shifted cases,16 exact worker baseline replays, eight cache rejections and checkpoint restore verification passed. Inference is in progress; no final scientific result or new cumulative seal is claimed.

@@ -4,7 +4,7 @@
 
 **Study51 is complete:** all 16 [PHerc0800 development-field maps](in-progress/pherc0800-development-20261010/completion-20261010/RESULTS.md) passed numerical completion checks and fixed-region review. No defensible lettering was established. All committed batches and maps are indexed in the private backup; the final remote archive passed fresh download verification. GPU spend remains £0. The cumulative sealed record still ends at experiment50.
 
-**Next comparison designed:** the [bounded depth-placement plan](planning/pherc0800-depth-placement-20261010/README.md) fixes three centres and a full-width middle strip. Retained-input feasibility and exact saved-logit reconstruction of all16 baselines pass. Shifted worker qualification and checkpoint setup remain; no new inference has started.
+**Study52 is running:** the [fixed shifted-depth comparison](in-progress/pherc0800-depth-20261011/README.md) started at00:48BST on11October after all32 qualification cases,16 worker baseline replays and remote checkpoint restoration passed. It runs32 new CPU maps at d−15/+15 against the16 saved d0 baselines. Allow roughly3–4hours; GPU spend remains£0. The checkpoint watcher and live status instructions are linked there. The earlier [design and feasibility packet](planning/pherc0800-depth-placement-20261010/README.md) is preserved.
 
 This directory preserves the selected research history through experiment 50. Start with the [experiment index](EXPERIMENTS.md), [latest results](lab/reports/fiftieth-experiment/RESULTS.md), and [current depth-placement design](planning/pherc0800-depth-placement-20261010/source/PROTOCOL.md).
 

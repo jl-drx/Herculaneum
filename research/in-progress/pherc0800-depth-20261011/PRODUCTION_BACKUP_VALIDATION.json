@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-10T23:49:29.585570+00:00",
+  "remote_commit": "56603740782f377d0c30be5c87a39b15bc6f6cf6",
+  "remote_ref": "refs/heads/codex/plinius-pherc0800-phase52-checkpoints",
+  "go_sha256": "6e9d6f48614767d232a4601785c6278b5d09a8d73380967fc9a7038990b421e8",
+  "generations": 3,
+  "freshly_downloaded_generations": [
+    "generation-0001.tar.gz",
+    "generation-0002.tar.gz"
+  ],
+  "previously_freshly_downloaded_generations": [
+    "generation-0000.tar.gz"
+  ],
+  "restoration": {
+    "status": "PASS",
+    "generations": 3,
+    "files": 734,
+    "restored": 81,
+    "reused": 653,
+    "inference_run": false,
+    "prerequisite_files_not_included": 958,
+    "scope": "Restored pinned study inputs and committed outputs only; full worker startup still requires prior model/runtime files and the qualified environment."
+  },
+  "committed_production_batches_restored": 40,
+  "completed_map_receipts_restored": 0,
+  "scope": "Same-host restoration of verified remote data chain, including first production logits; no neural model replay or fresh-device environment validation. Does not include later live progress."
+}

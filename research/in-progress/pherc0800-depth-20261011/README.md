@@ -7,9 +7,20 @@ d0 maps remain the comparator. Read [execution notes](source/EXECUTION_NOTES.md)
 [qualification summary](source/QUALIFICATION_SUMMARY.json) and the
 [frozen protocol](source/PROTOCOL.md). No ink result or GPU spend is claimed.
 
-At this prelaunch record, remote backup restoration and production launch remain
-pending. The dated launch/status receipt will supersede this paragraph once the
-worker starts. The earlier design/feasibility packet is preserved unchanged.
+The production worker started **11 October 2026, 00:48 BST**. It is saving
+batches and has completed its first maps with exact cached replay. Allow roughly
+**3–4 hours** for the fixed run; Hecate accounts for most compute, so early map
+counts do not predict a linear completion time. [INITIAL_PROGRESS.json](INITIAL_PROGRESS.json)
+is a dated observation; use the live status tool below for later checks.
+
+The initial245,853,791-byte GitHub archive was freshly downloaded and all653
+members restored. Two incremental generations were then downloaded and restored
+as a chain:734files, including the first40 committed production batches.
+See [initial restoration](LAUNCH_BACKUP_VALIDATION.json),
+[production checkpoint restoration](PRODUCTION_BACKUP_VALIDATION.json) and
+[launch record](LAUNCH_STATUS.json). This verifies data restoration on this host,
+not independent model execution or the availability of later live batches.
+The10-minute checkpoint watcher is active.
 
 Live status in the cloud checkout:
 
