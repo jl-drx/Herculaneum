@@ -31,7 +31,8 @@ The replay verifies all members, independently accumulates all four float32
 weighted blends, recovers the original seed42 crop exactly, and recomputes all six
 pairwise comparisons and all 18 pair/rank distance comparisons. It also checks
 the retained grid-phase bins. All operations use saved outputs; raw CT and model
-execution are not reverified by this small package. A local relocated replay
+execution are not reverified by this small package. A fresh GitHub download into an empty LFS object store matched the archive hash
+and length. A local relocated replay
 passed, including a fresh environment containing only the two hash-locked
 dependencies; a separate physical device has not yet been tested.
 
