@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "archived_point_checks": [
+    {
+      "segment": "20251029010146",
+      "xy": [
+        652,
+        563
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251029010146",
+      "xy": [
+        651,
+        563
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251029010146",
+      "xy": [
+        652,
+        564
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028222030",
+      "xy": [
+        1280,
+        1280
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028222030",
+      "xy": [
+        1279,
+        1280
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028222030",
+      "xy": [
+        1280,
+        1281
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1278,
+        504
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1277,
+        504
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1279,
+        504
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1278,
+        503
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1278,
+        505
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1100,
+        628
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1099,
+        628
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1101,
+        628
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1100,
+        627
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    },
+    {
+      "segment": "20251028220955",
+      "xy": [
+        1100,
+        629
+      ],
+      "base_error": 0.0,
+      "normal_error": 0.0
+    }
+  ],
+  "synthetic_checks": [
+    "analytic normal",
+    "missing-stencil exclusion",
+    "slab/corner bound",
+    "layer endpoint AABB",
+    "nine integral context fixtures",
+    "exhaustive square-size fixtures"
+  ],
+  "saved_masks": [
+    {
+      "segment": "20251028213516",
+      "all_masks_counts_and_context_exact": true,
+      "any_unrestricted_128_square": false
+    },
+    {
+      "segment": "20251028220042",
+      "all_masks_counts_and_context_exact": true,
+      "any_unrestricted_128_square": false
+    },
+    {
+      "segment": "20251028220955",
+      "all_masks_counts_and_context_exact": true,
+      "any_unrestricted_128_square": false
+    },
+    {
+      "segment": "20251028222030",
+      "all_masks_counts_and_context_exact": true,
+      "any_unrestricted_128_square": false
+    },
+    {
+      "segment": "20251028225813",
+      "all_masks_counts_and_context_exact": true,
+      "any_unrestricted_128_square": false
+    }
+  ],
+  "scope": "Numerical support and conservative-admission verification; no new raw-CT values or physical-sheet truth."
+}

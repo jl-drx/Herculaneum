@@ -1,8 +1,8 @@
 # Experiment index
 
-Historical reports preserve their original conclusions and scope. Latest: [phase47 grid comparison and target geometry screen](lab/reports/fortyseventh-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 47 independent held-out tests.
+Historical reports preserve their original conclusions and scope. Latest: [phase48 full-resolution target support check](lab/reports/fortyeighth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 48 independent held-out tests.
 
-[Phase46 PHerc343 reproduction](lab/reports/fortysixth-experiment/RESULTS.md) and phase47 are completed and sealed. The next task is PHerc0800 field admission from full physical sampling support; no target run is active.
+[Phase46 PHerc343 reproduction](lab/reports/fortysixth-experiment/RESULTS.md) and phases47–48 are completed and sealed. No fresh core passed the conservative support gate. Target development-transfer preparation and the separate VM geometry challenge are next; no target inference is active.
 
 | Experiment | Recorded outcome |
 | --- | --- |
@@ -53,3 +53,4 @@ Historical reports preserve their original conclusions and scope. Latest: [phase
 | [45: fortyfifth-experiment](lab/reports/fortyfifth-experiment/RESULTS.md) | Native8192 closing run, released-checkpoint variability and PHerc0800 mesh–M7 diagnostic; PHerc343 reproduction recommended |
 | [46: fortysixth-experiment](lab/reports/fortysixth-experiment/RESULTS.md) | COMPLETED_VERIFIED_PUBLISHED_IMAGE_REPRODUCTION; eight maps, four-model display and all-region review |
 | [47: fortyseventh-experiment](lab/reports/fortyseventh-experiment/RESULTS.md) | COMPLETED_GRID_SENSITIVITY_VERIFIED_TARGET_NOT_ADMITTED; exact baseline, four fixed origins, target geometry screen |
+| [48: fortyeighth-experiment](lab/reports/fortyeighth-experiment/RESULTS.md) | COMPLETED_VERIFIED_NO_FRESH_CORE_MEETS_CONSERVATIVE_GATE; five meshes, full-resolution normals/slabs/context, independent VM assignment |

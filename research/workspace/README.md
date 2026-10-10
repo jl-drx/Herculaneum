@@ -88,3 +88,10 @@ See [VALIDATION.json](VALIDATION.json) for the exact checks performed, including
 comparison and PHerc0800 geometry preparation. Its separate 39.2 MiB LFS bundle
 replays saved outputs with only NumPy/SciPy. The historical workspace manifest
 and completed four-model bundle remain unchanged.
+
+## PHerc0800 support follow-up
+
+[Phase48](PHASE48.md) adds the full-resolution support masks and current seal.
+The compact [spare-VM geometry assignment](../handoffs/pherc0800-support-20261010/START_HERE.md)
+is separately packaged through the existing manual-only Actions workflow. It
+contains no CT intensity or model weights and needs no LFS download.
