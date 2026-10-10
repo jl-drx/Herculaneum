@@ -1,0 +1,72 @@
+{
+  "centre_depth_d": 0,
+  "checkpoints": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+      "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244",
+      "size_bytes": 272895087
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+      "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+      "size_bytes": 138360039
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+      "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f",
+      "size_bytes": 138360231
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/hecate_9.6um.pth",
+      "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+      "size_bytes": 522576086
+    }
+  ],
+  "global_hecate_tile_yxhw": [
+    1120,
+    1120,
+    64,
+    64
+  ],
+  "hecate_centre": 32.5,
+  "hecate_source": {
+    "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/source-evidence/hecate-hecate.py",
+    "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+    "size_bytes": 22462
+  },
+  "prep_source": {
+    "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/source-evidence/pherc343/ink/scripts/hecate_prep.py",
+    "sha256": "8249994e6da8d29a1c4005c518450456f570642da03531f10a874ee97f2e4a5a",
+    "size_bytes": 4789
+  },
+  "render_verification": {
+    "path": "/workspace/herculaneum-lab/reports/fortyninth-experiment/RENDER_VERIFICATION.json",
+    "sha256": "1ae1a00c1bdbd6782a25dcb82e678a48f5538448ada5e77c4277d1ed00a00c18",
+    "size_bytes": 1774
+  },
+  "script": {
+    "path": "/workspace/herculaneum-lab/reports/fortyninth-experiment/qualify_models.py",
+    "sha256": "347b61a2c6bf23e87dba89602e145bf728032942e6172b5196f439ba70b15e78",
+    "size_bytes": 5850
+  },
+  "tile_forwards": 20,
+  "villa_indices": [
+    41,
+    40,
+    39,
+    38,
+    37,
+    36,
+    35,
+    34,
+    33,
+    32,
+    31,
+    30,
+    29,
+    28,
+    27,
+    26,
+    25
+  ]
+}

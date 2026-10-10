@@ -1,0 +1,102 @@
+{
+  "full_target_maps": 0,
+  "hecate_known_support_fraction": 1.0,
+  "models": [
+    {
+      "batch4_seconds": 0.6898735939976177,
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+        "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244",
+        "size_bytes": 272895087
+      },
+      "finite": true,
+      "input_shape": [
+        17,
+        128,
+        128
+      ],
+      "max_batch_difference": 1.7881393432617188e-07,
+      "model": "dnative",
+      "preprocessing": "tifxyz_robust",
+      "raw_sha256": "917563b1d12a9093a8b50855dbffb3cd5e1300a74e331b425f27006d2c947dde",
+      "single_seconds": 0.2311666969981161,
+      "status": "PASS",
+      "strict_load": true,
+      "tile_forwards": 5
+    },
+    {
+      "batch4_seconds": 0.6561922859982587,
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+        "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+        "size_bytes": 138360039
+      },
+      "finite": true,
+      "input_shape": [
+        17,
+        128,
+        128
+      ],
+      "max_batch_difference": 3.5762786865234375e-07,
+      "model": "hybrid_3d2d-seed42",
+      "preprocessing": "tifxyz_robust",
+      "raw_sha256": "917563b1d12a9093a8b50855dbffb3cd5e1300a74e331b425f27006d2c947dde",
+      "single_seconds": 0.1495457239980169,
+      "status": "PASS",
+      "strict_load": true,
+      "tile_forwards": 5
+    },
+    {
+      "batch4_seconds": 0.41222924099929514,
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+        "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f",
+        "size_bytes": 138360231
+      },
+      "finite": true,
+      "input_shape": [
+        17,
+        128,
+        128
+      ],
+      "max_batch_difference": 2.384185791015625e-07,
+      "model": "hybrid_3d2d-seed43",
+      "preprocessing": "tifxyz_robust",
+      "raw_sha256": "917563b1d12a9093a8b50855dbffb3cd5e1300a74e331b425f27006d2c947dde",
+      "single_seconds": 0.12746053299997584,
+      "status": "PASS",
+      "strict_load": true,
+      "tile_forwards": 5
+    },
+    {
+      "batch4_seconds": 8.696037852998415,
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/hecate_9.6um.pth",
+        "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+        "size_bytes": 522576086
+      },
+      "finite": true,
+      "input_shape": [
+        16,
+        64,
+        64
+      ],
+      "max_batch_difference": 4.76837158203125e-07,
+      "model": "hecate",
+      "preprocessing": "author interpolated9.6um then uint8, reversed, /255; raw-any support mask",
+      "raw_sha256": "d53962cd7f3e16ff567180f2f2d0bc10c1517902b8f3348eff67b1e8dcf3dcf4",
+      "single_seconds": 2.5197974309994606,
+      "status": "PASS",
+      "strict_load": true,
+      "tile_forwards": 5
+    }
+  ],
+  "precision": "fp32 CPU",
+  "process_peak_rss_kib": 2094384,
+  "python": "3.14.7 (main, Sep 24 2026, 17:58:18) [Clang 22.1.3 ]",
+  "status": "PASS",
+  "threads": 4,
+  "torch": "2.13.0+cpu",
+  "total_tile_forwards": 20,
+  "unknown_placeholder_perturbation_invariant": true
+}

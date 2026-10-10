@@ -95,3 +95,9 @@ and completed four-model bundle remain unchanged.
 The compact [spare-VM geometry assignment](../handoffs/pherc0800-support-20261010/START_HERE.md)
 is separately packaged through the existing manual-only Actions workflow. It
 contains no CT intensity or model weights and needs no LFS download.
+
+## PHerc0800 transfer qualification
+
+[Phase49](PHASE49.md) adds the fixed-patch renderer/model checks, geometry-support
+planning,43.6MiB evidence bundle and no-inference replay. It is separate from the
+VM’s phase48 assignment; there is no new duplicate VM job or Actions dispatch.

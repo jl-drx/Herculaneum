@@ -1,0 +1,118 @@
+{
+  "all_crop_normal_and_bilinear_valid": true,
+  "created_at_utc": "2026-10-10T17:05:47.914604+00:00",
+  "crop_xywh": [
+    1216,
+    1216,
+    128,
+    128
+  ],
+  "depths": [
+    31,
+    66
+  ],
+  "flip_normals": true,
+  "full_shape_yx": [
+    2580,
+    2580
+  ],
+  "geometry": {
+    "path": "/workspace/herculaneum-lab/reports/fortyninth-experiment/work/qualification-geometry.npz",
+    "sha256": "41ffb2b5a0acfa933fab5b0805bdbbe6ea8f3c02f65380f1645c1e9b79883c09",
+    "size_bytes": 139113
+  },
+  "inference_authorized_only_after_render_gate": true,
+  "inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.x.tif",
+      "sha256": "4d76b0c52c98dfc85c0a242af02ec9e6b923c462f99158771fb3ffd6778d2209",
+      "size_bytes": 66698
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.y.tif",
+      "sha256": "bf68dadf590e676266493e544ae1e5336310a0b8be6a63be3ff233e4a03e2c0c",
+      "size_bytes": 66698
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.z.tif",
+      "sha256": "11dd2d78632ba5fabf23d3d917904e4e3af5f740a1079ce63d659c49c12e896d",
+      "size_bytes": 66698
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.meta.json",
+      "sha256": "f7c101ec939bc37cc888e3c4990e85cac4fbfebeba51b2c18b0ded523b1138ef",
+      "size_bytes": 289
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/source-render-export-metadata.json",
+      "sha256": "76bbb4802040b281559b16c51a17b23bfc7b5682ed3da7ff0a3b2627b961fd9b",
+      "size_bytes": 3680
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/surface.level0.zarray.json",
+      "sha256": "e7d03a00d38bde138994e2d238a1b846735812b338d8f334277676cde9a8b423",
+      "size_bytes": 204
+    },
+    {
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger1536/surface.npy",
+      "sha256": "67b986675272364c0d677b3cf0741c42087d5950536b7f89adbc36b1c05f56b0",
+      "size_bytes": 73138304
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyeighth-experiment/support.py",
+      "sha256": "0b04197d23b33420a0f5c15ac88b5fa2ca5b059544b5bca71a82415081a76931",
+      "size_bytes": 3740
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/RENDERER_IDENTITY.json",
+      "sha256": "8567976b353d59e36df2fae2357c1d02c61b26077806a8379834dbbf1c5677d6",
+      "size_bytes": 359
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/VC3D-41701aa-2026-09-24-linux-x86_64.AppImage",
+      "sha256": "1d88a1f396751561863b0ff50b3eed35a1282455bd03d0884ba2540c34004990",
+      "size_bytes": 125204984
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/squashfs-root/usr/bin/vc_render_tifxyz",
+      "sha256": "89c01e525b25545b7fb94be13e833a11bbd10c88312b020ea491e886962a3fb0",
+      "size_bytes": 460448
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/squashfs-root/AppRun",
+      "sha256": "c1e0ca2ea1616967f6da5907c60ea3fe114e840834154ccde758856f85510517",
+      "size_bytes": 3912
+    }
+  ],
+  "protocol": {
+    "path": "/workspace/herculaneum-lab/reports/fortyninth-experiment/PROTOCOL.md",
+    "sha256": "45ebadf35803f8ce95611012e46e477d857520a192d10f630e65f94794518422",
+    "size_bytes": 4497
+  },
+  "retained_chunks": [
+    {
+      "key": "0/93/49/26",
+      "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-native-consistency/ct-chunk-93-49-26.bin",
+      "sha256": "e1b76914d28dd93b535b31d2354327a5bb6b7fefe896126c32de0bb077a245b3",
+      "size_bytes": 2097152
+    }
+  ],
+  "script": {
+    "path": "/workspace/herculaneum-lab/reports/fortyninth-experiment/prepare.py",
+    "sha256": "d58c4dc9f63189b78f5005548c383c7342e4dadfd2c584c213b145c5ebab72a1",
+    "size_bytes": 4403
+  },
+  "source_cap_bytes": 33554432,
+  "source_chunk_bytes": 2097152,
+  "source_chunk_keys": [
+    "0/93/48/26",
+    "0/93/48/27",
+    "0/93/49/26",
+    "0/93/49/27",
+    "0/94/48/26",
+    "0/94/49/26",
+    "0/94/49/27"
+  ],
+  "source_payload_upper_bound_bytes": 14680064,
+  "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr"
+}

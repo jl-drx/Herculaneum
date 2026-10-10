@@ -1,8 +1,8 @@
 # Experiment index
 
-Historical reports preserve their original conclusions and scope. Latest: [phase48 full-resolution target support check](lab/reports/fortyeighth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 48 independent held-out tests.
+Historical reports preserve their original conclusions and scope. Latest: [phase49 target transfer qualification](lab/reports/fortyninth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 49 independent held-out tests.
 
-[Phase46 PHerc343 reproduction](lab/reports/fortysixth-experiment/RESULTS.md) and phases47–48 are completed and sealed. No fresh core passed the conservative support gate. Target development-transfer preparation and the separate VM geometry challenge are next; no target inference is active.
+[Phase46 PHerc343 reproduction](lab/reports/fortysixth-experiment/RESULTS.md) and phases47–49 are completed and sealed. No fresh core passed the conservative support gate. The fixed target qualification passed; a checkpointed centre-depth development transfer is next while the VM geometry challenge runs independently. No target worker is currently active.
 
 | Experiment | Recorded outcome |
 | --- | --- |
@@ -54,3 +54,4 @@ Historical reports preserve their original conclusions and scope. Latest: [phase
 | [46: fortysixth-experiment](lab/reports/fortysixth-experiment/RESULTS.md) | COMPLETED_VERIFIED_PUBLISHED_IMAGE_REPRODUCTION; eight maps, four-model display and all-region review |
 | [47: fortyseventh-experiment](lab/reports/fortyseventh-experiment/RESULTS.md) | COMPLETED_GRID_SENSITIVITY_VERIFIED_TARGET_NOT_ADMITTED; exact baseline, four fixed origins, target geometry screen |
 | [48: fortyeighth-experiment](lab/reports/fortyeighth-experiment/RESULTS.md) | COMPLETED_VERIFIED_NO_FRESH_CORE_MEETS_CONSERVATIVE_GATE; five meshes, full-resolution normals/slabs/context, independent VM assignment |
+| [49: fortyninth-experiment](lab/reports/fortyninth-experiment/RESULTS.md) | COMPLETED_VERIFIED_FIXED_PATCH_TRANSFER_QUALIFICATION; original31/66-layer renderer checks, four models/20 tile forwards, bounded source/compute/support plan |

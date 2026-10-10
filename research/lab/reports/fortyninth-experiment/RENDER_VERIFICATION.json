@@ -1,0 +1,72 @@
+{
+  "actual31_vs_published": {
+    "exact": 506139,
+    "exact_fraction": 0.9965249338457661,
+    "max_abs": 1,
+    "mean_abs": 0.003475066154233871,
+    "n": 507904,
+    "shape": [
+      31,
+      128,
+      128
+    ],
+    "within_one_fraction": 1.0
+  },
+  "actual66_vs_independent": {
+    "exact": 1078256,
+    "exact_fraction": 0.9971442945075758,
+    "max_abs": 1,
+    "mean_abs": 0.0028557054924242425,
+    "n": 1081344,
+    "shape": [
+      66,
+      128,
+      128
+    ],
+    "within_one_fraction": 1.0
+  },
+  "gates": {
+    "independent66": true,
+    "published31": true
+  },
+  "geometry_all_valid": true,
+  "independent31_vs_published": {
+    "exact": 506419,
+    "exact_fraction": 0.9970762191280242,
+    "max_abs": 1,
+    "mean_abs": 0.0029237808719758066,
+    "n": 507904,
+    "shape": [
+      31,
+      128,
+      128
+    ],
+    "within_one_fraction": 1.0
+  },
+  "known_source_chunks": 7,
+  "limitations": [
+    "One interior128 patch does not qualify mesh boundaries, invalid normals or the whole field.",
+    "Recorded normal sign agrees with export convention; reading side is not established.",
+    "The31plane published volume and66plane volume have different half-voxel depth origins."
+  ],
+  "script": {
+    "path": "/workspace/herculaneum-lab/reports/fortyninth-experiment/verify_render.py",
+    "sha256": "58c4347274149985f75f56919add9725c5207277026a5e93750588f70760d016",
+    "size_bytes": 3543
+  },
+  "status": "PASS",
+  "unknown_source_chunks": 0,
+  "wrong_order_control_actual31_vs_reversed_published": {
+    "exact": 23501,
+    "exact_fraction": 0.046270555065524195,
+    "max_abs": 197,
+    "mean_abs": 22.453414424773186,
+    "n": 507904,
+    "shape": [
+      31,
+      128,
+      128
+    ],
+    "within_one_fraction": 0.07450620589717742
+  }
+}

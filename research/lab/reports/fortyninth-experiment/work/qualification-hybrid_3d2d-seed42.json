@@ -1,0 +1,22 @@
+{
+  "batch4_seconds": 0.6561922859982587,
+  "checkpoint": {
+    "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+    "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+    "size_bytes": 138360039
+  },
+  "finite": true,
+  "input_shape": [
+    17,
+    128,
+    128
+  ],
+  "max_batch_difference": 3.5762786865234375e-07,
+  "model": "hybrid_3d2d-seed42",
+  "preprocessing": "tifxyz_robust",
+  "raw_sha256": "917563b1d12a9093a8b50855dbffb3cd5e1300a74e331b425f27006d2c947dde",
+  "single_seconds": 0.1495457239980169,
+  "status": "PASS",
+  "strict_load": true,
+  "tile_forwards": 5
+}
