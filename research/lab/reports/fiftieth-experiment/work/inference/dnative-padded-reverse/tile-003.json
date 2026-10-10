@@ -1,0 +1,29 @@
+{
+  "binding": {
+    "go_sha256": "d396d24a7685442d7a1c1d98dd0e83396c4c275fec9ff24ce3b65cdd03a23bd3",
+    "job": [
+      "dnative",
+      "padded",
+      "reverse"
+    ]
+  },
+  "index": 3,
+  "inputs": [
+    {
+      "dtype": "float32",
+      "sha256": "b016fb074ad62cd3c8f08ddc58884a5e1228b5b0c5127f1be762700af011db4b",
+      "shape": [
+        1,
+        1,
+        17,
+        128,
+        128
+      ]
+    }
+  ],
+  "logits": {
+    "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/dnative-padded-reverse/tile-003.npy",
+    "sha256": "5419384845598d3f96c31b307788805a1c6e5425b71e86f033e2b1f09b7de6e7",
+    "size_bytes": 65664
+  }
+}

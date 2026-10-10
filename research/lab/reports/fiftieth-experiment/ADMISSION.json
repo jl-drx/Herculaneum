@@ -1,0 +1,5624 @@
+{
+  "candidate_segment": "20251028225813",
+  "current_both_arithmetic_support_pixels": 25600,
+  "decision": "CORE_ADMITTED_FOR_RENDER_QUALIFICATION",
+  "largest_supported_subcore": {
+    "box_xywh": [
+      1024,
+      280,
+      128,
+      128
+    ],
+    "side": 128
+  },
+  "mask": {
+    "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/candidate-admission-masks.npz",
+    "sha256": "a47aa6978750c0b6abe807984ce46ce78f8cffb0ed1a91598cc1ffe745a0893a",
+    "size_bytes": 22604
+  },
+  "new_exposure_boxes": [
+    {
+      "hi_xyz_inclusive": [
+        3455,
+        6271,
+        12031
+      ],
+      "intersecting_geometry_pixels": 26942,
+      "intersecting_historic_point_support": 0,
+      "lo_xyz": [
+        3328,
+        6144,
+        11904
+      ],
+      "source_key": "0/93/48/26"
+    },
+    {
+      "hi_xyz_inclusive": [
+        3583,
+        6271,
+        12031
+      ],
+      "intersecting_geometry_pixels": 0,
+      "intersecting_historic_point_support": 0,
+      "lo_xyz": [
+        3456,
+        6144,
+        11904
+      ],
+      "source_key": "0/93/48/27"
+    },
+    {
+      "hi_xyz_inclusive": [
+        3583,
+        6399,
+        12031
+      ],
+      "intersecting_geometry_pixels": 17184,
+      "intersecting_historic_point_support": 0,
+      "lo_xyz": [
+        3456,
+        6272,
+        11904
+      ],
+      "source_key": "0/93/49/27"
+    },
+    {
+      "hi_xyz_inclusive": [
+        3455,
+        6271,
+        12159
+      ],
+      "intersecting_geometry_pixels": 14993,
+      "intersecting_historic_point_support": 0,
+      "lo_xyz": [
+        3328,
+        6144,
+        12032
+      ],
+      "source_key": "0/94/48/26"
+    },
+    {
+      "hi_xyz_inclusive": [
+        3455,
+        6399,
+        12159
+      ],
+      "intersecting_geometry_pixels": 32810,
+      "intersecting_historic_point_support": 0,
+      "lo_xyz": [
+        3328,
+        6272,
+        12032
+      ],
+      "source_key": "0/94/49/26"
+    },
+    {
+      "hi_xyz_inclusive": [
+        3583,
+        6399,
+        12159
+      ],
+      "intersecting_geometry_pixels": 4926,
+      "intersecting_historic_point_support": 0,
+      "lo_xyz": [
+        3456,
+        6272,
+        12032
+      ],
+      "source_key": "0/94/49/27"
+    }
+  ],
+  "no_new_intensities_or_model_outputs": true,
+  "original_core_pass": false,
+  "proposed_core_xywh": [
+    1024,
+    256,
+    192,
+    192
+  ],
+  "rows": [
+    {
+      "convention": "historical_archived",
+      "family": "villa",
+      "fully_supported_patches": 16,
+      "grid_yx": [
+        2300,
+        2260
+      ],
+      "patch_count": 16,
+      "patches": [
+        {
+          "model_xywh": [
+            960,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "plain",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "historical_archived",
+      "family": "hecate",
+      "fully_supported_patches": 56,
+      "grid_yx": [
+        2070,
+        2034
+      ],
+      "patch_count": 56,
+      "patches": [
+        {
+          "model_xywh": [
+            864,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "plain",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "historical_archived",
+      "family": "villa",
+      "fully_supported_patches": 16,
+      "grid_yx": [
+        2340,
+        2460
+      ],
+      "patch_count": 25,
+      "patches": [
+        {
+          "model_xywh": [
+            1152,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 1664
+        },
+        {
+          "model_xywh": [
+            1216,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 32
+        },
+        {
+          "model_xywh": [
+            1280,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2668
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 124
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2563
+        },
+        {
+          "model_xywh": [
+            1216,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2381
+        },
+        {
+          "model_xywh": [
+            1280,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2304
+        },
+        {
+          "model_xywh": [
+            1344,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2178
+        },
+        {
+          "model_xywh": [
+            1408,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 1921
+        }
+      ],
+      "phase": "padded",
+      "supported_core_pixels": 25600,
+      "whole_core_pass": false
+    },
+    {
+      "convention": "historical_archived",
+      "family": "hecate",
+      "fully_supported_patches": 49,
+      "grid_yx": [
+        2106,
+        2214
+      ],
+      "patch_count": 49,
+      "patches": [
+        {
+          "model_xywh": [
+            1056,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "padded",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "historical_independent",
+      "family": "villa",
+      "fully_supported_patches": 16,
+      "grid_yx": [
+        2300,
+        2260
+      ],
+      "patch_count": 16,
+      "patches": [
+        {
+          "model_xywh": [
+            960,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "plain",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "historical_independent",
+      "family": "hecate",
+      "fully_supported_patches": 56,
+      "grid_yx": [
+        2070,
+        2034
+      ],
+      "patch_count": 56,
+      "patches": [
+        {
+          "model_xywh": [
+            864,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "plain",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "historical_independent",
+      "family": "villa",
+      "fully_supported_patches": 16,
+      "grid_yx": [
+        2340,
+        2460
+      ],
+      "patch_count": 25,
+      "patches": [
+        {
+          "model_xywh": [
+            1152,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 1664
+        },
+        {
+          "model_xywh": [
+            1216,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 32
+        },
+        {
+          "model_xywh": [
+            1280,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2668
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 124
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2563
+        },
+        {
+          "model_xywh": [
+            1216,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2381
+        },
+        {
+          "model_xywh": [
+            1280,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2304
+        },
+        {
+          "model_xywh": [
+            1344,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2178
+        },
+        {
+          "model_xywh": [
+            1408,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 1921
+        }
+      ],
+      "phase": "padded",
+      "supported_core_pixels": 25600,
+      "whole_core_pass": false
+    },
+    {
+      "convention": "historical_independent",
+      "family": "hecate",
+      "fully_supported_patches": 49,
+      "grid_yx": [
+        2106,
+        2214
+      ],
+      "patch_count": 49,
+      "patches": [
+        {
+          "model_xywh": [
+            1056,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "padded",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "current_archived",
+      "family": "villa",
+      "fully_supported_patches": 16,
+      "grid_yx": [
+        2300,
+        2260
+      ],
+      "patch_count": 16,
+      "patches": [
+        {
+          "model_xywh": [
+            960,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "plain",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "current_archived",
+      "family": "hecate",
+      "fully_supported_patches": 56,
+      "grid_yx": [
+        2070,
+        2034
+      ],
+      "patch_count": 56,
+      "patches": [
+        {
+          "model_xywh": [
+            864,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "plain",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "current_archived",
+      "family": "villa",
+      "fully_supported_patches": 16,
+      "grid_yx": [
+        2340,
+        2460
+      ],
+      "patch_count": 25,
+      "patches": [
+        {
+          "model_xywh": [
+            1152,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 1664
+        },
+        {
+          "model_xywh": [
+            1216,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 32
+        },
+        {
+          "model_xywh": [
+            1280,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2668
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 124
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2563
+        },
+        {
+          "model_xywh": [
+            1216,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2381
+        },
+        {
+          "model_xywh": [
+            1280,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2304
+        },
+        {
+          "model_xywh": [
+            1344,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2178
+        },
+        {
+          "model_xywh": [
+            1408,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 1921
+        }
+      ],
+      "phase": "padded",
+      "supported_core_pixels": 25600,
+      "whole_core_pass": false
+    },
+    {
+      "convention": "current_archived",
+      "family": "hecate",
+      "fully_supported_patches": 49,
+      "grid_yx": [
+        2106,
+        2214
+      ],
+      "patch_count": 49,
+      "patches": [
+        {
+          "model_xywh": [
+            1056,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "padded",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "current_independent",
+      "family": "villa",
+      "fully_supported_patches": 16,
+      "grid_yx": [
+        2300,
+        2260
+      ],
+      "patch_count": 16,
+      "patches": [
+        {
+          "model_xywh": [
+            960,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "plain",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "current_independent",
+      "family": "hecate",
+      "fully_supported_patches": 56,
+      "grid_yx": [
+        2070,
+        2034
+      ],
+      "patch_count": 56,
+      "patches": [
+        {
+          "model_xywh": [
+            864,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            192,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            864,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            896,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            928,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            960,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            992,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1024,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "plain",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    },
+    {
+      "convention": "current_independent",
+      "family": "villa",
+      "fully_supported_patches": 16,
+      "grid_yx": [
+        2340,
+        2460
+      ],
+      "patch_count": 25,
+      "patches": [
+        {
+          "model_xywh": [
+            1152,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 1664
+        },
+        {
+          "model_xywh": [
+            1216,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 32
+        },
+        {
+          "model_xywh": [
+            1280,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            192,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2668
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            256,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 124
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            320,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1280,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1344,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1408,
+            384,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2563
+        },
+        {
+          "model_xywh": [
+            1216,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2381
+        },
+        {
+          "model_xywh": [
+            1280,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2304
+        },
+        {
+          "model_xywh": [
+            1344,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 2178
+        },
+        {
+          "model_xywh": [
+            1408,
+            448,
+            128,
+            128
+          ],
+          "unknown_input_pixels": 1921
+        }
+      ],
+      "phase": "padded",
+      "supported_core_pixels": 25600,
+      "whole_core_pass": false
+    },
+    {
+      "convention": "current_independent",
+      "family": "hecate",
+      "fully_supported_patches": 49,
+      "grid_yx": [
+        2106,
+        2214
+      ],
+      "patch_count": 49,
+      "patches": [
+        {
+          "model_xywh": [
+            1056,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            224,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            256,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            288,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            320,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            352,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            384,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1056,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1088,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1120,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1152,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1184,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1216,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        },
+        {
+          "model_xywh": [
+            1248,
+            416,
+            64,
+            64
+          ],
+          "unknown_input_pixels": 0
+        }
+      ],
+      "phase": "padded",
+      "supported_core_pixels": 36864,
+      "whole_core_pass": true
+    }
+  ],
+  "selected_core_xywh": [
+    1024,
+    280,
+    128,
+    128
+  ],
+  "status": "PASS"
+}

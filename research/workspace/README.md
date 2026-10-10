@@ -101,3 +101,11 @@ contains no CT intensity or model weights and needs no LFS download.
 [Phase49](PHASE49.md) adds the fixed-patch renderer/model checks, geometry-support
 planning,43.6MiB evidence bundle and no-inference replay. It is separate from the
 VM’s phase48 assignment; there is no new duplicate VM job or Actions dispatch.
+
+## PHerc0800 independent-audit follow-up
+
+[Phase50](PHASE50.md) preserves the returned VM audit, complete replay, smaller
+full-recipe candidate, observed rendering and all16 fixed-centre maps. Its
+separate LFS supplement supports read-only, no-inference saved-result checking.
+Short checks remain in this chat; delegate only when local long-running work
+makes independent parallel work useful. No new Actions task was needed.

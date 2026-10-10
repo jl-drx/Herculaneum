@@ -1,0 +1,58 @@
+{
+  "core_xywh": [
+    1024,
+    280,
+    128,
+    128
+  ],
+  "counts": {
+    "model_calls": 12,
+    "new_forwards": 12,
+    "reused_forwards": 0
+  },
+  "direction": "reverse",
+  "go_sha256": "d396d24a7685442d7a1c1d98dd0e83396c4c275fec9ff24ce3b65cdd03a23bd3",
+  "initial_fault_injection_forwards": 0,
+  "model": "dnative",
+  "outputs": {
+    "aligned": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/dnative-padded-reverse/aligned.npy",
+      "sha256": "ed7b62d26a9451387067765f8f1926626593a43f15717613d70fe3867923143b",
+      "size_bytes": 65664
+    },
+    "denominator": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/dnative-padded-reverse/denominator.npy",
+      "sha256": "3a9f7f31ff98a3d860328a9e549fd62609a65f0b3018191ea27cea20a4feb1bc",
+      "size_bytes": 65664
+    },
+    "display": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/dnative-padded-reverse/display.npy",
+      "sha256": "be720e638d9f240358c5c5f2a46fdedaf61953f053294d62f5b8f5d855e63a8f",
+      "size_bytes": 16512
+    },
+    "numerator": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/dnative-padded-reverse/numerator.npy",
+      "sha256": "9f06b51a4ae105db5797c6ec278b55945dd18416515d88bdab960c47ee8dcb4f",
+      "size_bytes": 65664
+    },
+    "raw_grid": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/dnative-padded-reverse/raw_grid.npy",
+      "sha256": "be720e638d9f240358c5c5f2a46fdedaf61953f053294d62f5b8f5d855e63a8f",
+      "size_bytes": 16512
+    },
+    "unquantized": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/dnative-padded-reverse/unquantized.npy",
+      "sha256": "448b1ef0cd614d465cd004bf5f384d23d508f99c07da9d53d15e8d6525922f21",
+      "size_bytes": 65664
+    }
+  },
+  "phase": "padded",
+  "read_only_replay": {
+    "model_calls": 12,
+    "new_forwards": 0,
+    "reused_forwards": 12,
+    "status": "PASS"
+  },
+  "seconds": 2.263610623002023,
+  "status": "PASS"
+}

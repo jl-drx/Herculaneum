@@ -1,0 +1,163 @@
+{
+  "segment": "20251028225813",
+  "component": 1,
+  "sampled_size": 623,
+  "point_area": 233300,
+  "all_origin_area": 11442,
+  "all_origin_square": {
+    "side": 69,
+    "xywh": [
+      1093,
+      318,
+      69,
+      69
+    ]
+  },
+  "fixed_grid_area": 53248,
+  "fixed_grid_square": {
+    "side": 192,
+    "xywh": [
+      1024,
+      256,
+      192,
+      192
+    ]
+  },
+  "contributing_patches_xywh": [
+    [
+      960,
+      192,
+      128,
+      128
+    ],
+    [
+      1024,
+      192,
+      128,
+      128
+    ],
+    [
+      1088,
+      192,
+      128,
+      128
+    ],
+    [
+      1152,
+      192,
+      128,
+      128
+    ],
+    [
+      960,
+      256,
+      128,
+      128
+    ],
+    [
+      1024,
+      256,
+      128,
+      128
+    ],
+    [
+      1088,
+      256,
+      128,
+      128
+    ],
+    [
+      1152,
+      256,
+      128,
+      128
+    ],
+    [
+      960,
+      320,
+      128,
+      128
+    ],
+    [
+      1024,
+      320,
+      128,
+      128
+    ],
+    [
+      1088,
+      320,
+      128,
+      128
+    ],
+    [
+      1152,
+      320,
+      128,
+      128
+    ],
+    [
+      960,
+      384,
+      128,
+      128
+    ],
+    [
+      1024,
+      384,
+      128,
+      128
+    ],
+    [
+      1088,
+      384,
+      128,
+      128
+    ],
+    [
+      1152,
+      384,
+      128,
+      128
+    ]
+  ],
+  "criterion": "Conditional diagnostic only: single native 128px patch / stride64 grid, origin (0,0), final start included. Not full-recipe admission.",
+  "coordinate_convention": "Zero-based native source xywh; boxes half-open.",
+  "source_patch_union_xywh": [
+    960,
+    192,
+    320,
+    320
+  ],
+  "source_union_pixel_count": 102400,
+  "archived_and_independent_all_patches_pass": true,
+  "archived_min_nearest_old_distance": 53.703812489619395,
+  "independent_min_nearest_old_distance": 53.704709076569785,
+  "required_distance_strictly_greater_than": 51.1,
+  "archived_margins": {
+    "native_boundary_min_integer_index_gap": 3036.0,
+    "previous_box_min_separating_axis_gaps_in_GO_order": [
+      1171.0,
+      454.0,
+      711.0,
+      711.0,
+      711.0,
+      327.0,
+      210.0
+    ],
+    "previous_boxes_min_gap": 210.0
+  },
+  "independent_margins": {
+    "native_boundary_min_integer_index_gap": 3036.0,
+    "previous_box_min_separating_axis_gaps_in_GO_order": [
+      1171.0,
+      454.0,
+      711.0,
+      711.0,
+      711.0,
+      327.0,
+      210.0
+    ],
+    "previous_boxes_min_gap": 210.0
+  }
+}

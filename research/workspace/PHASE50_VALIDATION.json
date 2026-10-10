@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "supplement_readback": {
+    "status": "PASS",
+    "archive_and_all_members_verified": true,
+    "files": 1024,
+    "restore": {
+      "restored": 1024,
+      "reused": 0
+    },
+    "replay": {
+      "status": "PASS",
+      "archive_payload_files_verified": 107,
+      "raw_source_chunks_verified": 33,
+      "render_metric_samples_recomputed": 6745728,
+      "completed_maps_verified": 16,
+      "committed_forward_receipts_verified": 288,
+      "new_model_forwards_in_check": 0,
+      "original_framework_cached_replays_passed": 16,
+      "gpu_spend_GBP": 0
+    },
+    "inference_run": false,
+    "scope": "Relocated saved-output replay on this host, not independent physical-device inference"
+  },
+  "retained_state": {
+    "status": "PASS",
+    "manifest_sha256": "a0c640dbebe0ce48af00edb2aaaeeab2e21c16376afac65e43fd65fe2376a5ca",
+    "records": 27035,
+    "retained_bytes": 14815313737,
+    "failures": []
+  },
+  "github_readback": {
+    "status": "PENDING_UPLOAD",
+    "scope": "Local bundle verified; actual remote object download has not yet been performed."
+  }
+}

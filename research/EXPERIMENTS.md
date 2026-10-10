@@ -1,8 +1,8 @@
 # Experiment index
 
-Historical reports preserve their original conclusions and scope. Latest: [phase49 target transfer qualification](lab/reports/fortyninth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not 49 independent held-out tests.
+Historical reports preserve their original conclusions and scope. Latest: [phase50 independent-audit follow-up and sixteen target maps](lab/reports/fiftieth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not50 independent held-out tests.
 
-[Phase46 PHerc343 reproduction](lab/reports/fortysixth-experiment/RESULTS.md) and phases47–49 are completed and sealed. No fresh core passed the conservative support gate. The fixed target qualification passed; a checkpointed centre-depth development transfer is next while the VM geometry challenge runs independently. No target worker is currently active.
+Studies46–50 are complete and sealed. The conservative support result remains unchanged; exact full-recipe contexts admit a128-square inside the VM candidate. Its renderer and16 model/phase/order maps pass execution checks, without a reading or accuracy claim. The larger centre-depth development-field run remains next. No target worker is currently active.
 
 | Experiment | Recorded outcome |
 | --- | --- |
@@ -55,3 +55,4 @@ Historical reports preserve their original conclusions and scope. Latest: [phase
 | [47: fortyseventh-experiment](lab/reports/fortyseventh-experiment/RESULTS.md) | COMPLETED_GRID_SENSITIVITY_VERIFIED_TARGET_NOT_ADMITTED; exact baseline, four fixed origins, target geometry screen |
 | [48: fortyeighth-experiment](lab/reports/fortyeighth-experiment/RESULTS.md) | COMPLETED_VERIFIED_NO_FRESH_CORE_MEETS_CONSERVATIVE_GATE; five meshes, full-resolution normals/slabs/context, independent VM assignment |
 | [49: fortyninth-experiment](lab/reports/fortyninth-experiment/RESULTS.md) | COMPLETED_VERIFIED_FIXED_PATCH_TRANSFER_QUALIFICATION; original31/66-layer renderer checks, four models/20 tile forwards, bounded source/compute/support plan |
+| [50: fiftieth-experiment](lab/reports/fiftieth-experiment/RESULTS.md) | COMPLETED_VERIFIED_GRID_AWARE_CANDIDATE_AND_FIXED_CENTRE_COMPARISON; full audit replay,128-square admission, observed66-layer rendering,16 maps/288 CPU forwards |

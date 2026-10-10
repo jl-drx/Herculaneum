@@ -1,0 +1,91 @@
+{
+  "type": "layers-zarr",
+  "origins": [
+    {
+      "path": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+      "access_roots": [
+        {
+          "type": "s3",
+          "url": "s3://vesuvius-challenge-open-data",
+          "usage": "public-read"
+        }
+      ],
+      "copy_info": {
+        "source_path": "s3://vesuvius-challenge/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+        "date": "2026-09-07T11:12:30.360710Z",
+        "workflow_execution": "s3sync-pherc0800-fc2b5e48"
+      }
+    }
+  ],
+  "properties": null,
+  "parameters": {
+    "target_volume": "20250521135224"
+  },
+  "creation_info": {
+    "process": "render-tifxyz-to-zarr",
+    "workflow": "render-tifxyz-to-zarr",
+    "workflow_execution": "render-tifxyz-pherc0800-2cb4300f",
+    "date": "2026-09-07T11:12:03.952097Z",
+    "derived_from": {
+      "data_type": "tifxyz-transformed",
+      "source_path": "s3://vesuvius-challenge/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz/"
+    },
+    "provenance": {
+      "workflow_template_ref": "vc3d-render-partitioned",
+      "infra_revision": "main@sha1:e57aebd86c2c29dba86a28d90dbc42f49f27f092",
+      "atlas_version": "0.1.0",
+      "atlas_git_sha": "a32bb4ef744aea771d9c4b266c27a59d21c9d29a",
+      "atlas_git_dirty": true,
+      "images": {
+        "calculate-partition-count": "ghcr.io/astral-sh/uv:python3.12-bookworm-slim",
+        "run-render-stage": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer:530584554c031c982ba3aa243e1ea39c4bef9818-arm64",
+        "check-image-exists": "amazon/aws-cli:latest"
+      },
+      "parameters": {
+        "repo": "https://github.com/ScrollPrize/villa",
+        "commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+        "subdir": "volume-cartographer",
+        "dockerfile": "Dockerfile",
+        "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+        "build-platform": "linux/arm64",
+        "binary-path": "vc_render_tifxyz",
+        "volume-path": "s3://scrollprize-volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/",
+        "scale": "1",
+        "segmentation-path": "s3://vesuvius-challenge/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz/",
+        "output": "s3://vesuvius-challenge/PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+        "render-mode": "zarr",
+        "group-idx": "0",
+        "zarr-compressor": "none",
+        "zarr-compression-level": "",
+        "zarr-separator": "/",
+        "num-parts": "",
+        "target-duration-per-partition": "1800",
+        "max-parts": "20",
+        "auto-render-rate": "460",
+        "accum-type": "max",
+        "composite": "false",
+        "composite-start": "",
+        "composite-end": "",
+        "scale-segmentation": "",
+        "affine-transform": "",
+        "affines": "",
+        "affine-invert": "",
+        "rotate": "0",
+        "flip": "-1",
+        "flip-normals": "true",
+        "num-slices": "31",
+        "affine-matrix": "",
+        "crop-x": "0",
+        "crop-y": "0",
+        "crop-width": "0",
+        "crop-height": "0",
+        "voxel-size": "8.64",
+        "voxel-unit": "micrometer",
+        "memory": "15Gi",
+        "cache-gb": "8",
+        "render-threads": "8",
+        "cpu-requests": "8"
+      }
+    }
+  }
+}

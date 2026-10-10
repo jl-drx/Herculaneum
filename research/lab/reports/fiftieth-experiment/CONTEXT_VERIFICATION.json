@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "source_pixels": 98360,
+  "rendered_context_pixels": 102208,
+  "extra_renderer_pixels": 3848,
+  "all_required_context_observed": true,
+  "both_arithmetic_exclusions_pass": true,
+  "current_exposure_inventory_pass": true,
+  "minimum_archived_nearest_old_centre_distance": 53.703812489619395,
+  "rows": [
+    {
+      "family": "villa",
+      "phase": "plain",
+      "source_pixels": 81920
+    },
+    {
+      "family": "hecate",
+      "phase": "plain",
+      "source_pixels": 62250
+    },
+    {
+      "family": "villa",
+      "phase": "padded",
+      "source_pixels": 81920
+    },
+    {
+      "family": "hecate",
+      "phase": "padded",
+      "source_pixels": 62500
+    }
+  ]
+}

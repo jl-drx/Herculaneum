@@ -1,0 +1,43 @@
+{
+  "core_xywh": [
+    1024,
+    280,
+    128,
+    128
+  ],
+  "counts": {
+    "model_calls": 36,
+    "new_forwards": 36,
+    "reused_forwards": 0
+  },
+  "direction": "forward",
+  "go_sha256": "d396d24a7685442d7a1c1d98dd0e83396c4c275fec9ff24ce3b65cdd03a23bd3",
+  "initial_fault_injection_forwards": 0,
+  "model": "hecate",
+  "outputs": {
+    "aligned": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hecate-padded-forward/aligned.npy",
+      "sha256": "6b8b1043ce9bb5e74b313c801b1db89071cbdcd96280d8796339e0061049626f",
+      "size_bytes": 65664
+    },
+    "display": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hecate-padded-forward/display.npy",
+      "sha256": "12f7bf906be9da5e4f3e78d3523bd22fd32c35bc9b545f75a351f270e9e6c32f",
+      "size_bytes": 16512
+    },
+    "raw_grid": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hecate-padded-forward/raw_grid.npy",
+      "sha256": "0f912abb8db77589e3894d2bb54e799f22eebfc7059f84d43fa7ad47c5bb0efa",
+      "size_bytes": 4662812
+    }
+  },
+  "phase": "padded",
+  "read_only_replay": {
+    "model_calls": 36,
+    "new_forwards": 0,
+    "reused_forwards": 36,
+    "status": "PASS"
+  },
+  "seconds": 86.35705842300013,
+  "status": "PASS"
+}
