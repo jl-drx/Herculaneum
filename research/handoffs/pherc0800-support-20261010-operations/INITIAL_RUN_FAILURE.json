@@ -1,0 +1,9 @@
+{
+  "run_id": 38065570273,
+  "run_url": "https://github.com/jl-drx/Herculaneum/actions/runs/38065570273",
+  "status": "FAILED_BEFORE_ARTIFACT",
+  "cause": "Repository ignore rules excluded18 raw coordinate TIFFs and5 pre-existing component NPZs from directory git add. Local packet passed but checkout lacked these members.",
+  "correction": "Explicitly add the23 bounded original inputs; preserve checksums and verify packaging from committed Git archive before retry.",
+  "scientific_outputs_changed": false,
+  "inference_run": false
+}
