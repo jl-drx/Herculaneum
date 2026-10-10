@@ -31,7 +31,9 @@ Use a new destination. The standard-library restore checks the archive and each
 member before accepting the result. `RESTORE_VALIDATION.json` records a successful
 local relocation/readback of all116 files. The supplied checker then passed all
 eight relocated maps and all four merges (`RESTORED_MAP_VERIFICATION.json`). This
-is not a separate-machine test.
+is not a separate-machine test. `REMOTE_VERIFICATION.json` also confirms an
+actual GitHub LFS download through a new empty object store, with matching archive
+length/SHA256 and all40 submitted review files byte-identical in Git.
 
 - Compressed download: **90,304,265 bytes** (about86.1MiB).
 - Expanded files: **140,762,172 bytes** (about134.2MiB).
