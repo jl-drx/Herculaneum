@@ -1,0 +1,1868 @@
+{
+  "depth_positions": [
+    {
+      "d": -15,
+      "hecate_centre_native_voxels": -15,
+      "hecate_positions": [
+        9.166666666666668,
+        10.277777777777779,
+        11.38888888888889,
+        12.5,
+        13.61111111111111,
+        14.722222222222223,
+        15.833333333333334,
+        16.944444444444443,
+        18.055555555555557,
+        19.166666666666668,
+        20.27777777777778,
+        21.38888888888889,
+        22.5,
+        23.61111111111111,
+        24.72222222222222,
+        25.833333333333332
+      ],
+      "hecate_range_native_voxels": [
+        -23.333333333333332,
+        -6.666666666666668
+      ],
+      "required_native_indices_min_max": [
+        9,
+        26
+      ],
+      "villa_centre_native_voxels": -14.5,
+      "villa_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "villa_range_native_voxels": [
+        -22.5,
+        -6.5
+      ]
+    },
+    {
+      "d": 0,
+      "hecate_centre_native_voxels": 0,
+      "hecate_positions": [
+        24.166666666666668,
+        25.27777777777778,
+        26.38888888888889,
+        27.5,
+        28.61111111111111,
+        29.72222222222222,
+        30.833333333333332,
+        31.944444444444443,
+        33.05555555555556,
+        34.166666666666664,
+        35.27777777777778,
+        36.388888888888886,
+        37.5,
+        38.61111111111111,
+        39.72222222222222,
+        40.83333333333333
+      ],
+      "hecate_range_native_voxels": [
+        -8.333333333333332,
+        8.333333333333329
+      ],
+      "required_native_indices_min_max": [
+        24,
+        41
+      ],
+      "villa_centre_native_voxels": 0.5,
+      "villa_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "villa_range_native_voxels": [
+        -7.5,
+        8.5
+      ]
+    },
+    {
+      "d": 15,
+      "hecate_centre_native_voxels": 15,
+      "hecate_positions": [
+        39.16666666666667,
+        40.27777777777778,
+        41.38888888888889,
+        42.5,
+        43.611111111111114,
+        44.72222222222222,
+        45.833333333333336,
+        46.94444444444444,
+        48.05555555555556,
+        49.166666666666664,
+        50.27777777777778,
+        51.388888888888886,
+        52.5,
+        53.61111111111111,
+        54.72222222222222,
+        55.83333333333333
+      ],
+      "hecate_range_native_voxels": [
+        6.666666666666671,
+        23.33333333333333
+      ],
+      "required_native_indices_min_max": [
+        39,
+        56
+      ],
+      "villa_centre_native_voxels": 15.5,
+      "villa_indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "villa_range_native_voxels": [
+        7.5,
+        23.5
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "d": -15,
+      "hecate_volume": {
+        "dtype": "uint8",
+        "sha256": "7d8e68145772899334dc81b70cb46cbe0bb40d90ac599ce1bfa51699b1cd4390",
+        "shape": [
+          16,
+          2322,
+          2322
+        ]
+      },
+      "native_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "native_source": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/model-inputs/plain.zarr",
+      "phase": "plain",
+      "prepared_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/1/2",
+          "sha256": "8949be2dd62a5dd7a2c4c1269dcc1e09fd804a966ab333127b306810ddc869ef",
+          "size_bytes": 189268
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/1/3",
+          "sha256": "1301d54bc1923bc3cdf422ed240ca6d329597b47378ec5e37437041e2031746b",
+          "size_bytes": 474785
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/1/4",
+          "sha256": "7448e2c8ace72451e524414bbb50c0e0d7c1e632a1691cb9f0703e74f32aa66f",
+          "size_bytes": 474478
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/1/5",
+          "sha256": "60fcaf6dcbb20289c93e863eba8d5c4f34671fec946e9ea85ba80ecc40cd47c9",
+          "size_bytes": 408126
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/1/6",
+          "sha256": "99e560fcb9792e6bfaf9dd95903f9ee0605badb6305224052bec3cc3f14497ee",
+          "size_bytes": 13364
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/2/1",
+          "sha256": "625b9276932cd1b2bb40193c8e91df0b98a820a6c5ae63a0ea985e95c7d0a821",
+          "size_bytes": 138175
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/2/2",
+          "sha256": "639b1225eee65378db7e929dd595db065291e52dd0c9e3e888d337bad4135da8",
+          "size_bytes": 804525
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/2/3",
+          "sha256": "163e07fa07285a52da1d0de5f51c7d31969e7fcdd7ff3558e35a80bc75d5eef8",
+          "size_bytes": 855932
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/2/4",
+          "sha256": "2e8eb2de2797d4a6ec2415b600514a0aaaed20c4189d936bb47e73dd16807d72",
+          "size_bytes": 867394
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/2/5",
+          "sha256": "0eef670f74b20aefeab18cec8869be81b5ce6fa130c0f3d38651a06e00b27ee9",
+          "size_bytes": 875403
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/2/6",
+          "sha256": "5bf3cf3ac890f789bc89095b23cfc8b10254d3fd2b9fb9ca59a25ca8dbea8a2f",
+          "size_bytes": 597253
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/2/7",
+          "sha256": "3069ae8e27866b24ce37370b47a04dbd60bc91843eabc55687f8ad4ab49e076b",
+          "size_bytes": 28067
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/3/1",
+          "sha256": "a32424c5d35ea09387969a76ba6cc0b33bf887708c8f9528cab4b8be8d3554b9",
+          "size_bytes": 387633
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/3/2",
+          "sha256": "b0e54c513ba93f0d808862b85b5ce93fcadb7ba0ad443cde27d088540c83784c",
+          "size_bytes": 845687
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/3/3",
+          "sha256": "da30e68e382e3abfa8c04d81b94744719590057b91f132e84554b2e887f8fc85",
+          "size_bytes": 826497
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/3/4",
+          "sha256": "21cc8e91de269fb1aa67746362d6ccd08a1abe47b811178e4978696fbf1cda4a",
+          "size_bytes": 848523
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/3/5",
+          "sha256": "9c175f6366c09e06c4872aa10b89427d3cdbddff4bfbb034dd8e537c0ed2c2a4",
+          "size_bytes": 868493
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/3/6",
+          "sha256": "7b87bfb691bd02a04b22648e7607595a6671c1066730e8a7592d349d56d0e7c1",
+          "size_bytes": 868231
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/3/7",
+          "sha256": "bd8eb3f472bb47e326d9ce34140afc92d74c06032963c5743901621f4e8faf8d",
+          "size_bytes": 484044
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/4/1",
+          "sha256": "27a15ecb0b023a3f1eaac6cd69ac3337f384755111974f573ff042e829de31d9",
+          "size_bytes": 385934
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/4/2",
+          "sha256": "e189c729e7a9b1ba3846a22acfc18cbc02180a592a83d2edb63171024fbe51dd",
+          "size_bytes": 839854
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/4/3",
+          "sha256": "cfefb159e52a09536099b4d58b3968db5a8a24167a63bb235d5a052c726cf1ad",
+          "size_bytes": 835394
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/4/4",
+          "sha256": "050553a531bb8f1a8037667185e6618dad3a810e87854f2546b6a5233eb52da9",
+          "size_bytes": 832302
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/4/5",
+          "sha256": "4d1933d58abc201f277234a4a04ad12107c5b7cca81a4f41a7e44d3de08f7256",
+          "size_bytes": 852500
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/4/6",
+          "sha256": "cbdddeed708cc096c8d1192ad88fe2a22b5698ccad1602fa3770251b0689dadf",
+          "size_bytes": 861076
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/4/7",
+          "sha256": "4e616038ae3720b08af8ebe367d6bfc4b38209e0c5ce59eefcaea7ddbf39f4e7",
+          "size_bytes": 545369
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/5/1",
+          "sha256": "8a96fa977a4defdaa4242e5ffb1df013cc6a555f8d377a85c5964179194e61ac",
+          "size_bytes": 379908
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/5/2",
+          "sha256": "6555c88854d72732f9e40bc2e61f7c32d65555ea99f5ae4486049c7ef291c339",
+          "size_bytes": 846173
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/5/3",
+          "sha256": "39effa89e53909afc0ec3242e4af9b67ce465799af04494864b59a0d85817432",
+          "size_bytes": 856512
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/5/4",
+          "sha256": "3bef5b26bb50f620afc04cd92a34befdf44218d3e1fba754c316ffd7da54b3e3",
+          "size_bytes": 828715
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/5/5",
+          "sha256": "cc18ac918ecb7fd275a1c1223d0eba3b26a29c8451f0c570e493425a3696d4d2",
+          "size_bytes": 855359
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/5/6",
+          "sha256": "713c0c64c2e742b92378badb9cf107d61bc419a690e154357a9871dda0de1b02",
+          "size_bytes": 882552
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/5/7",
+          "sha256": "d6a21b04a69724c7f6ede5fec0e09ffe9a409fbeadbeb72637df08ba149da91d",
+          "size_bytes": 547404
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/6/1",
+          "sha256": "2cd1a164aa2896a1b2c58f88998b2e815783cf843616f03bbee82139c69d2e69",
+          "size_bytes": 26798
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/6/2",
+          "sha256": "6f542939dc53b33ebdaf27e91315194b2859c3c98d16d3c1d79712d4f1f9abe6",
+          "size_bytes": 586649
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/6/3",
+          "sha256": "c67a80127129da5f748e3612d79f2a793364a455fdb4140c1db8bf12e92316da",
+          "size_bytes": 881965
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/6/4",
+          "sha256": "1613e7e12bff28b33104861b2778533bffb811f6319776f723277582c8fc268f",
+          "size_bytes": 855978
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/6/5",
+          "sha256": "853ce7d4697f2e6f3561bda70567936b729af7225cd0e8741dcc8bffe2ffed3b",
+          "size_bytes": 870105
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/6/6",
+          "sha256": "06c835fd7e68fc735f2880c69c9273fd545c3ebcfb5e77a111c5a8de109166e9",
+          "size_bytes": 816666
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/6/7",
+          "sha256": "263039f4c1874ca68f1a6be61939dec27a737108d4005c169b6c5c94a0f5cee4",
+          "size_bytes": 159255
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/7/2",
+          "sha256": "030ff1f6200b6d5c22721ea2c3c59420df8bb3f4e4f29b89f598f63ebfe9e601",
+          "size_bytes": 13692
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/7/3",
+          "sha256": "b0b5b2a6c8f2c4a809c620cdaa18ad3ec5be40b5a8db4bcb82a0949e15ad3f03",
+          "size_bytes": 386154
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/7/4",
+          "sha256": "af8c70a2f604b115afe838c8f93df96a372139fa193f41ace9ad28d74ff1b492",
+          "size_bytes": 451560
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/7/5",
+          "sha256": "a2839b9e3c9bda7776a73ddf67fa6e520f391c5ca74d4f0949b0d661dad68d23",
+          "size_bytes": 443377
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/c/0/7/6",
+          "sha256": "f15c908bd0b29abe8640ea74b084cc32177ba20790cbf46f2576bb19e8f19fee",
+          "size_bytes": 178407
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/0/zarr.json",
+          "sha256": "020fc647d939a5db95436b167f3ed4765049497cd049b439434bf29f5444677e",
+          "size_bytes": 600
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d-15.zarr/zarr.json",
+          "sha256": "f3bbc358c736c36ff33458113f708cb16ae0afa963466ce2613638eae348df13",
+          "size_bytes": 899
+        }
+      ]
+    },
+    {
+      "d": -15,
+      "hecate_volume": {
+        "dtype": "uint8",
+        "sha256": "6c2810413d8bfc94b910c536cf62445c84a946391540a206f60f35df47754530",
+        "shape": [
+          16,
+          2358,
+          2502
+        ]
+      },
+      "native_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "native_source": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/model-inputs/padded.zarr",
+      "phase": "padded",
+      "prepared_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/1/3",
+          "sha256": "c88ae1f50faba5ac1f56b1c0e4d04efbf7661ab4e5437942f264575a09294fd9",
+          "size_bytes": 221759
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/1/4",
+          "sha256": "5c7b5b01213dda56c2c469a28b114c9679723cadf857e9b14b613c71b8ecd53f",
+          "size_bytes": 357796
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/1/5",
+          "sha256": "d5ec6dd36b2f02f7cec09b171e3a62cee2768d5b671abab45d53fb9d2698acca",
+          "size_bytes": 359136
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/1/6",
+          "sha256": "5378de8663670889bb7604d4d970d6e2ddb19cbf429f7d9591edce31c4a31046",
+          "size_bytes": 183565
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/2/2",
+          "sha256": "a9f17a94ec8deab470417d3d9c19b500f5255b6f5c766dd4a3912e0b3ec557dd",
+          "size_bytes": 230743
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/2/3",
+          "sha256": "82ca350509de8dd9197af47a8ab47291d1863a3d30d8720bf8f09699e4ae87d3",
+          "size_bytes": 846216
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/2/4",
+          "sha256": "2f104a0fd9661179f50e888aa808cc631f6d6ec2c00db00320af1a2e9516f796",
+          "size_bytes": 863215
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/2/5",
+          "sha256": "26f30e1a1d30bcd172d7f67e2fe3f9dd030a621d16b5f741bff7c2ed8f178cf6",
+          "size_bytes": 850766
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/2/6",
+          "sha256": "543486799ba1ff80b1edf08c94d753a19211449042dc290f43aa98f0063ff91a",
+          "size_bytes": 845818
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/2/7",
+          "sha256": "40a28942afd54ffce9dde77608de1a545bb359eabd242c6b8fde49d25b78e5c0",
+          "size_bytes": 264641
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/3/2",
+          "sha256": "5aa2206b54203105660bd1e816e0023635b90bed6f212336efb5480eabf59351",
+          "size_bytes": 640414
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/3/3",
+          "sha256": "56ac1c0fa7f16e47402b4224effe19ed856c6df5690195b4fde45522ef4122e0",
+          "size_bytes": 847218
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/3/4",
+          "sha256": "1c94b5eaaced0f33c8d65161d67088ef2490c8bba9785e7d533b5ecfe32fbbca",
+          "size_bytes": 845966
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/3/5",
+          "sha256": "e9bc685b0a9e5a5567914201381da4a31a04f386ee453cc61274e3804f78aa81",
+          "size_bytes": 860367
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/3/6",
+          "sha256": "8b0af3aae6763588d4e0be45e1fded26872bc07cc8df6c8cba89e556bf65e31d",
+          "size_bytes": 868227
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/3/7",
+          "sha256": "319d61d9ee2c2144ebc7d7b5f9e6359a3b6134824e76c1cd4005f71485b01c0f",
+          "size_bytes": 865113
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/3/8",
+          "sha256": "c8e8572d77ff7220364181ab60a216206f59453fe211329f6bb8415e44461315",
+          "size_bytes": 188334
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/4/2",
+          "sha256": "59f1ac1c6089c2c9be393782ae0ec0f1d69a786fb7cc735c09dd7ace47264ff9",
+          "size_bytes": 627955
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/4/3",
+          "sha256": "92a288fe4b3261f6b9cf83dcbdc63e1ce6ffed21e2764fcf27af9c159d9fc2ed",
+          "size_bytes": 833155
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/4/4",
+          "sha256": "d9ca64e51a396efb838c9af402705e49e076daf5cc49789c380ec895c271bd2a",
+          "size_bytes": 832621
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/4/5",
+          "sha256": "62afba359ed3dc9c4b4e4f2c6433d235ae50f52404cf945b37beeee698c8bc75",
+          "size_bytes": 831721
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/4/6",
+          "sha256": "ccc0f591eae384e36995e8fbcf50aec1321ae829d363988656da5a8be0b4facf",
+          "size_bytes": 851615
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/4/7",
+          "sha256": "2262ae5146c1a52872977b192a0377fe7f38d2929e775234b43e191146d019e8",
+          "size_bytes": 858422
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/4/8",
+          "sha256": "e90453fcdf4a6686b3489e599f80f0e593080fbf71863f73ee72c7aa1f5bc21e",
+          "size_bytes": 289752
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/5/2",
+          "sha256": "e5e2255ea2c7976db6538a9ef5e9325d2c9361e9acc516f62c9e6d0c8c587f3c",
+          "size_bytes": 644807
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/5/3",
+          "sha256": "1470f5c0d0267da742536374f9ec1026183323d3751e73930316d37e7ccb8976",
+          "size_bytes": 847842
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/5/4",
+          "sha256": "def0f1bbc6b6c9a9c14711ef36b6f34aa6eebbc0fa243289032bce3df8d17111",
+          "size_bytes": 845031
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/5/5",
+          "sha256": "32ffd60016a8a1dd8332ded9670cb133dbf2614f7b69011c5d35a59c0a4cdf59",
+          "size_bytes": 847658
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/5/6",
+          "sha256": "a7db37cba275a4f0c581b9b42da2e4d822a85bea054a3e0ebeaca799d5c27b71",
+          "size_bytes": 861496
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/5/7",
+          "sha256": "0e37009f11cbf419d336cdd7d1b9b8bae222eb28ce8bf7f8b086cc1105368110",
+          "size_bytes": 883722
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/5/8",
+          "sha256": "b563f751f7fe6563e75e7af1e2cf71b85d0d20f5d501d005a13b17241e9f79fa",
+          "size_bytes": 292325
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/6/2",
+          "sha256": "03984b43c15a03bca22a55580931b5e35a380040928b2f1704b44ee2da1dd41d",
+          "size_bytes": 202403
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/6/3",
+          "sha256": "6c0fe6340fd54cc0112dbdbd510aa104958c6bba2f96bfcc4a3a72bab207ee22",
+          "size_bytes": 796756
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/6/4",
+          "sha256": "3c6cb5d6d39c8b142084c56133b6fd162c7edc8ae85d7112cbc73ef60e2c69cc",
+          "size_bytes": 876955
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/6/5",
+          "sha256": "dd7ab487b8e51aaab11225b36903ab4bf8a955c5b0cc4013ee277a5ae7f24bd0",
+          "size_bytes": 868066
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/6/6",
+          "sha256": "ab7e1e9179370c80b4dc21a3aa65fd47fd0c24cd2a767d12435d20827f847921",
+          "size_bytes": 877383
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/6/7",
+          "sha256": "54040b9317aa33dd20fe81a555225fe62bedb9a8afe37f89022dc9826297a247",
+          "size_bytes": 748279
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/6/8",
+          "sha256": "38c3c33600c437305af6d9e9b3eb91cf1cdb106777ba1c82b7836e6638f7cd7c",
+          "size_bytes": 80289
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/7/3",
+          "sha256": "0c992ec3f60afbf57daf9045db1c1fe0ca404f85e5db7df77acd6799b01e8908",
+          "size_bytes": 157053
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/7/4",
+          "sha256": "994214aa88199f1a069525b284350dd0d7a4e7bb294228e71a93dfd40c982c0f",
+          "size_bytes": 563647
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/7/5",
+          "sha256": "97332886a8fd27a88932fcc068de8a120628787d1afa942c93cad67494263b8a",
+          "size_bytes": 565130
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/7/6",
+          "sha256": "f4d10127f1076afd4e2ac515fb9de61f67d8d3d676fd2693e21c3ab7977bf3e4",
+          "size_bytes": 561357
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/c/0/7/7",
+          "sha256": "979009f462ecd66593a07beda3ca5763290829436890ed6c89e87d5bb0318870",
+          "size_bytes": 102449
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/0/zarr.json",
+          "sha256": "c4bafa0a1d7e53e79617dfb4bba1601157b2138c5dd9c409a99fdf5689234c5b",
+          "size_bytes": 600
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d-15.zarr/zarr.json",
+          "sha256": "1d84fcf836b9ff75ed6b6ec1f8f148c01c37dee3a8d760f7adf94ba297dd9ebc",
+          "size_bytes": 900
+        }
+      ]
+    },
+    {
+      "d": 0,
+      "hecate_volume": {
+        "dtype": "uint8",
+        "sha256": "daedf4e67fdee0cf23b01a84385643e7889facebec611eeca4ea209ea5586ed3",
+        "shape": [
+          16,
+          2322,
+          2322
+        ]
+      },
+      "native_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "native_source": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/model-inputs/plain.zarr",
+      "phase": "plain",
+      "prepared_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/1/2",
+          "sha256": "78eea5d86a84e6fe1ffde1e100b7e4f8e5926b8bc349a78dcada3667303336df",
+          "size_bytes": 189881
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/1/3",
+          "sha256": "032a0b509918be8eab58245b905ae22c35e4bdffb00629229cca1d538f4eabbf",
+          "size_bytes": 489825
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/1/4",
+          "sha256": "c1a6ba8782d265c280f7007f8a94bae0e056562f55c8bf3663e631d188b7095c",
+          "size_bytes": 481392
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/1/5",
+          "sha256": "c6093bbff97861aa4a29c2779bf5d558299aec61f61b93adfe483f4e9993a635",
+          "size_bytes": 412364
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/1/6",
+          "sha256": "f9b370d4bcb80b6c1491fcf8c4bb3c69d563f5b77e13b47640e4a180fe070ba2",
+          "size_bytes": 13042
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/2/1",
+          "sha256": "b68ed1a6e0779157f2e2f18c46e18c8aca45063434cbb48b32534cc42d8102f7",
+          "size_bytes": 138862
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/2/2",
+          "sha256": "076e0db099d4bc3a9f87f50942215a62e369317c968e76321a3dda88d3c4c69d",
+          "size_bytes": 817872
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/2/3",
+          "sha256": "3a460f900c031307ca2c0ec32bea3a0b70d13c7b10f9ec89b757b3ab3fdcbc56",
+          "size_bytes": 879626
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/2/4",
+          "sha256": "3edf306ce64e7ac794895c53faa152e543c794a82ff84056833ceb5aacf3c263",
+          "size_bytes": 867402
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/2/5",
+          "sha256": "a088fe5676b726341d1f3d7d352be296b06de53c7dfec8d058033d9496784eed",
+          "size_bytes": 891742
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/2/6",
+          "sha256": "136b135ef671988744e97d18b85b8ec833a352bace55d17f09ed958e9bee27b3",
+          "size_bytes": 606492
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/2/7",
+          "sha256": "4d232bca006d5574270e92ea7b3f6e3429bb34fc151537b14df269521db21ddc",
+          "size_bytes": 28082
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/3/1",
+          "sha256": "61fcbd2b9aa788736499f259916d63fca7685fc98fc583a7923fc35d36f9cf77",
+          "size_bytes": 402342
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/3/2",
+          "sha256": "8b6b62387c26ba51f20cd05c57132af1588b8785ebd17fb03adddb640f90cbc6",
+          "size_bytes": 856439
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/3/3",
+          "sha256": "cba8f3e8e3916441be9dea88b91e9ab029b1a99faffa1835e7e050233ae349ef",
+          "size_bytes": 849194
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/3/4",
+          "sha256": "ef5a9a188ba2aa0e1507842ce82d35c7549e3f069583d742d7e304e7fc036148",
+          "size_bytes": 853781
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/3/5",
+          "sha256": "4481775ae571de714e5ef09bac203b957feab267e20fee5de67e07542802be28",
+          "size_bytes": 883859
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/3/6",
+          "sha256": "89d7ae7e36dfc1e4040683bfb15c3beaabdd9cb3c13eb8b4bd7d9ccf26fc0fbf",
+          "size_bytes": 875972
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/3/7",
+          "sha256": "9cebffc5a659dbae3bda0d72c0f04d7b93fde24244db32a1d795bc0900f8f862",
+          "size_bytes": 492971
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/4/1",
+          "sha256": "15f23118355b7ec85fb9741e3a68f178a2cf8414c73994966d3e58d2f7854895",
+          "size_bytes": 404473
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/4/2",
+          "sha256": "2c1420069c0b6098eaa34313acbc3c7524f88b8ad3228412e5e877e6142c8555",
+          "size_bytes": 835797
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/4/3",
+          "sha256": "5f10a809464901caf9daaae4eca2ff1c08c433abab668c27c4a0d0221c3ae4cd",
+          "size_bytes": 851604
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/4/4",
+          "sha256": "bd01cf11e74e6f04687acda5a35554cd2dc03c6152738616921a184435c371be",
+          "size_bytes": 840300
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/4/5",
+          "sha256": "b1239a0902974624ed56329661808d7ec94a4e4e04d0aa1891e4ef002479ddff",
+          "size_bytes": 856265
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/4/6",
+          "sha256": "1efc4abff8cdf2ebeefe5d602ab8937cfdf5d6b0d818356836f8a94be3648573",
+          "size_bytes": 852955
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/4/7",
+          "sha256": "1d897b4837ff81c6b1c881fd9f076807ce96c6df08052c07d0bdcce7ca3dc88e",
+          "size_bytes": 552790
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/5/1",
+          "sha256": "8c8031d94485caf152bf5d225e0c1d64a0f46fa2be73db021aaf5ba475905cb8",
+          "size_bytes": 385170
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/5/2",
+          "sha256": "b44a957827aff859823857a512f4e7a63a2610c7a97b46bdb8d3840d0c88967c",
+          "size_bytes": 850951
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/5/3",
+          "sha256": "bbeb821717c2f99dde9628e63fb8c8e2aa4ede649f15db938b553bf37fb3b541",
+          "size_bytes": 854381
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/5/4",
+          "sha256": "5b1fae601d9009568a2b90f36a1ea25b340512d859926a3f3435678f8d284acd",
+          "size_bytes": 847958
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/5/5",
+          "sha256": "6e8a721c2aa56a7d519a2b518a03e0b7f3b83d5fa3ee02469f8cf61df964faff",
+          "size_bytes": 870692
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/5/6",
+          "sha256": "17df8829dd7673c5dada0034b067ca6cce49749a8510b2e0ce19527f0bdbc8dd",
+          "size_bytes": 872976
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/5/7",
+          "sha256": "207eadd8a7d3d382f3d7796a5489f04bf7196b64ff5f7f09b01497b282a1f36b",
+          "size_bytes": 539580
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/6/1",
+          "sha256": "50312bd64b3e412e7fb65e9800513aa0459207642ca0cee295243777ecf794a4",
+          "size_bytes": 26168
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/6/2",
+          "sha256": "68ae9b7e0b372fb1e5488ace1ae8ecad680912f9db374fb3fe413202a601ff5b",
+          "size_bytes": 609667
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/6/3",
+          "sha256": "b6ad5b948b448a2c5530c292853ed0be0d673bbed4530cd0b75e1c3499cfeed6",
+          "size_bytes": 893363
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/6/4",
+          "sha256": "36495d1ee9b512d2431cf106c69b8fe058a38a98e23c13940712e7813c89e50a",
+          "size_bytes": 880101
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/6/5",
+          "sha256": "d0bba0792ad0aba917f72a5776e524e7483991e5d79a30889cde7aa91c23be31",
+          "size_bytes": 887745
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/6/6",
+          "sha256": "ebc4fd101c72e38887a398bc516322bb5f04a0fba83e27b2c91bc99fcc9f9483",
+          "size_bytes": 808228
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/6/7",
+          "sha256": "c8c6f04eb28666b940d3f58176369a0e8e40b13bf49bf054454bdba46c2bb895",
+          "size_bytes": 159942
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/7/2",
+          "sha256": "55defa1123f96844b03450939284fd5ba8d3efc3a84f46bbba998432a384d5e2",
+          "size_bytes": 13997
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/7/3",
+          "sha256": "1189fcc089530f0cf6c232764652a5cfc8c94ed855fa1f71cff9cbce89e2b2c2",
+          "size_bytes": 388852
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/7/4",
+          "sha256": "b2e9df1e21010e3e42c9abc5391646c1504f724676bc260d2166695547490725",
+          "size_bytes": 448054
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/7/5",
+          "sha256": "85ff5f0fa21cbf5dbee60fa1bacab8b2bad67d9291b5f3ff8229e4fcfe1291b9",
+          "size_bytes": 453540
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/c/0/7/6",
+          "sha256": "4e0d1728a0884aa0462aa20afa7893d45d54024c62a730efbc56cabd3a6c5a7b",
+          "size_bytes": 180332
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/0/zarr.json",
+          "sha256": "020fc647d939a5db95436b167f3ed4765049497cd049b439434bf29f5444677e",
+          "size_bytes": 600
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+00.zarr/zarr.json",
+          "sha256": "bd36cf6916a74ead27e6627511a58322173a3927f98d662e47be6fe1bb1abca5",
+          "size_bytes": 897
+        }
+      ]
+    },
+    {
+      "d": 0,
+      "hecate_volume": {
+        "dtype": "uint8",
+        "sha256": "5e11a8dcd41747c1a267ce20d1da3fe627530869e1ccb8e764ae686335b62c75",
+        "shape": [
+          16,
+          2358,
+          2502
+        ]
+      },
+      "native_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "native_source": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/model-inputs/padded.zarr",
+      "phase": "padded",
+      "prepared_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/1/3",
+          "sha256": "7a58eb5b8f366af49a76d8bce8864447a6b82088f4d8c75de29857457fbe7278",
+          "size_bytes": 226771
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/1/4",
+          "sha256": "f894d5d9d0b586db6c3b172c8b24aed8df50ef6476d1c1102ee8e8a3aa2ff52a",
+          "size_bytes": 367372
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/1/5",
+          "sha256": "09e0372f43363dd6709d1b5b3db82776c16f8a2acef5216aa3f82a605b3c56e0",
+          "size_bytes": 361003
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/1/6",
+          "sha256": "bb5455a7f9b476778b57d106b8a8c247352a58966cfda10a9856343694c0a294",
+          "size_bytes": 184877
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/2/2",
+          "sha256": "9d9e40ec7b1c720991e2ec507bee248c7164c8629019667282671a117443eeb1",
+          "size_bytes": 244312
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/2/3",
+          "sha256": "371cfdef0530af41aa739ed7526dd01cc727f81792d79935f60508db5411f8b8",
+          "size_bytes": 861476
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/2/4",
+          "sha256": "695faea4547388f57cf05817e594c899c297046434c66c8a3062667399cedb10",
+          "size_bytes": 870402
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/2/5",
+          "sha256": "d689dcb69efc36deb45605de8e569352e0707b1240a3748cba0af080553f56a3",
+          "size_bytes": 869243
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/2/6",
+          "sha256": "7d2d254afc7e320e90eb5b7614dae436035d32ccbf097aa2641d56897fe047e5",
+          "size_bytes": 854321
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/2/7",
+          "sha256": "03a89392154795246538fab0fa07a2331d7035672cd9d9c6b9ada9ef5bb40b22",
+          "size_bytes": 265329
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/3/2",
+          "sha256": "74944fd22c05d8974bc40d21f0d7954f3e50e60707360f1d01fd702a03ba3133",
+          "size_bytes": 661436
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/3/3",
+          "sha256": "72cc7fe407f63b495fe07139122783dca331584f9acd1b5d320e803419870370",
+          "size_bytes": 857080
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/3/4",
+          "sha256": "ce2439ec9145dcb442449e7b46bd48745538fefee2f7f3a1cf62e73961031ea8",
+          "size_bytes": 864896
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/3/5",
+          "sha256": "ed1338ee9f36b0581d4dd02c78c5d6d57c1805c0e93a2ca7ca46516c610e7594",
+          "size_bytes": 871565
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/3/6",
+          "sha256": "27a780b325b08d8d79c650e1421db52c0a3f9107fe985a8520f2956f47a522aa",
+          "size_bytes": 887822
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/3/7",
+          "sha256": "f5d839266f267ddba26cee8eae0dc9a5b947619262393bdc2794648076b42748",
+          "size_bytes": 865030
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/3/8",
+          "sha256": "89645c377ae241a6583b04695a585c510a45b65808f98b9be82dea0ede640adf",
+          "size_bytes": 189650
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/4/2",
+          "sha256": "3b2b7ff167cc135d96a4935da54d5bff6455f2738bbe1b56912beaf7268416aa",
+          "size_bytes": 650747
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/4/3",
+          "sha256": "f0471c0da4301f0589bc8b354fc8c85792f9e4bb48ad28495b8fcf8737ae105d",
+          "size_bytes": 825663
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/4/4",
+          "sha256": "0ff94aa07e4e541fb4b77d6ed46f1912fcb8ac2af3c5aa751cada9eef8dd877a",
+          "size_bytes": 857373
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/4/5",
+          "sha256": "3541433c77862d998013bcdc5c6ebefc1be4248183e5adec54509fb7e5983dd6",
+          "size_bytes": 833756
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/4/6",
+          "sha256": "71110d73a0fee8b54b3b57610da660c154dbcc0bdd1c51a3e375bf43185b2667",
+          "size_bytes": 867526
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/4/7",
+          "sha256": "b5c822da432aa486928c65ac69a3e3b49f5580b3c2d6d1cb9d50ef0b405390cf",
+          "size_bytes": 865551
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/4/8",
+          "sha256": "0728c04976a521742083ec0201eed091ebb1b491901610056a054c9d3852fce6",
+          "size_bytes": 293518
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/5/2",
+          "sha256": "8cba69be2e5515b0362d9dcbbba5d198d015a4ace745d097b1177abb3fdb7997",
+          "size_bytes": 655511
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/5/3",
+          "sha256": "50a982b0334b33a3971d12a08245fe1cfc1f4d498155fd11371d973a1d16ad65",
+          "size_bytes": 847831
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/5/4",
+          "sha256": "8ece61709d6ea3224416a3722d325b72b33603fce6838f8e24abac78bc1a177b",
+          "size_bytes": 852647
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/5/5",
+          "sha256": "5d7caa5b46c8122bed53c4a4ec5db53babfcbfaef21dcd95fb23d5831300ee19",
+          "size_bytes": 850816
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/5/6",
+          "sha256": "697bee82759c3d98f2284edfd169a8f8f7dcb294b729f5bd7f7b97999ca1c79a",
+          "size_bytes": 869158
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/5/7",
+          "sha256": "64e92e7c9aaa929cd8bc35ee03e7bf4cbb059fca2a10a1f3e5d3922e22a56b96",
+          "size_bytes": 867260
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/5/8",
+          "sha256": "61290525da287dcedbaafdc384fd16300fa2dbc7a6a863723a3da4f019f22364",
+          "size_bytes": 284485
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/6/2",
+          "sha256": "cb0c503bcaf92a9560eb18246e5b3dd1e523894a96ca788ebb5d72c35d78e61e",
+          "size_bytes": 204461
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/6/3",
+          "sha256": "21e36fa068af3d7e3f307177f92d068be7b44412c21f2ded4fd4ca16e2ab93ae",
+          "size_bytes": 821845
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/6/4",
+          "sha256": "e0f3dff9e80116c05adee25a3ea67fa176b3da43bf3c63150f8d8800b3dad3f6",
+          "size_bytes": 883034
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/6/5",
+          "sha256": "ae084590cb4581acece712aee6ce6450e92a19bc4f678ec0ff3aa3bfb1cea414",
+          "size_bytes": 882290
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/6/6",
+          "sha256": "8b932eedb48fce85965afcdf0ac7564ad5add415cddc54524a64bf2103453380",
+          "size_bytes": 886892
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/6/7",
+          "sha256": "c3d8cacfc9ed415dd2577fc40693bdae7ae2b0dc3217dd16a43c9f8109606386",
+          "size_bytes": 744686
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/6/8",
+          "sha256": "54639914641fa5d68951b642149caa2e8a62d1840abf51064ab66a9d6104768c",
+          "size_bytes": 79449
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/7/3",
+          "sha256": "b7e4e0a4bbd9fc0ba952b1207700728cabcee76c6e9f21cba2cf322b69c7269e",
+          "size_bytes": 153594
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/7/4",
+          "sha256": "6808f95e92b8c9b3845e4838d847c4f5c62418f01a3aa5a3efca0d0d6fda1cd7",
+          "size_bytes": 572310
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/7/5",
+          "sha256": "cd9f50572c48542e7fb9bb3cf481c00644a9be20eb989a7ed4c255dcb5b5114a",
+          "size_bytes": 571414
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/7/6",
+          "sha256": "c7db78f84b4665ab78d44cec143af470758deaf2a126acd3a2e38040316999a3",
+          "size_bytes": 566084
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/c/0/7/7",
+          "sha256": "a66f64cd8d18fbdcaaffecabc40e8ce270c4571ded24db215b34b96ecaaaf661",
+          "size_bytes": 101564
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/0/zarr.json",
+          "sha256": "c4bafa0a1d7e53e79617dfb4bba1601157b2138c5dd9c409a99fdf5689234c5b",
+          "size_bytes": 600
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+00.zarr/zarr.json",
+          "sha256": "34f00e00ca500b7c61001282c4dba0aea70df76cd3759f7df21cf2bfb6e26600",
+          "size_bytes": 898
+        }
+      ]
+    },
+    {
+      "d": 15,
+      "hecate_volume": {
+        "dtype": "uint8",
+        "sha256": "e93dc8b553f5bc2f4e94234a9c0a59b62dd71cfbeeb64a11629e1f8771c7a9fc",
+        "shape": [
+          16,
+          2322,
+          2322
+        ]
+      },
+      "native_indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "native_source": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/model-inputs/plain.zarr",
+      "phase": "plain",
+      "prepared_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/1/2",
+          "sha256": "c42b6a075b2378e1c2e99ac972b4d14cd8f6b1013f780433bcbad4e534c8093b",
+          "size_bytes": 190049
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/1/3",
+          "sha256": "29291cb8c3ec52cf21744634d8eca405e01864cef7e58e47be035847aba0005b",
+          "size_bytes": 480617
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/1/4",
+          "sha256": "c12fb755ef6d25eaa2ff85676fbe1bad2b77766abc75df50dfed8bed16c4ff98",
+          "size_bytes": 489022
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/1/5",
+          "sha256": "463cced0f0fe10f0be8aba0c5268f92060b294bc28d359adf0e76e8fa1b5412c",
+          "size_bytes": 411807
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/1/6",
+          "sha256": "07ec555b6b27025458fc87c36827e0daedd964003495e01f0686c1075a43225e",
+          "size_bytes": 13044
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/2/1",
+          "sha256": "ea000d2bf5230e9a293f988fe02455c2d636e4cade61c4518a6814782b7d2293",
+          "size_bytes": 135963
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/2/2",
+          "sha256": "4c3a0a6c438849a7a0f9b77bce3d6d270567ad03caa71fa663dcedd292fcaa87",
+          "size_bytes": 817409
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/2/3",
+          "sha256": "7d845aafde0c254bae912f2ddecd91d26a8c2c0b61cf076b80afc340bd9ac389",
+          "size_bytes": 875750
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/2/4",
+          "sha256": "c292a19816950f4422a718c47cdec241f9e4e10c2e302e6e28494c865f23f81f",
+          "size_bytes": 877857
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/2/5",
+          "sha256": "9fd0ff4f30f4e040cb30c9b8e3da29efd4f8c08919c1cf1095fa8b6b4e6dfcf4",
+          "size_bytes": 889989
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/2/6",
+          "sha256": "e3f059c32999b1ddc77a0fd671965ccff926d6d2a22de6ab6f56919956679d4f",
+          "size_bytes": 610981
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/2/7",
+          "sha256": "5f3a43a73fee3fa555d1c6a59a51d4414fbc09dffd9a85934d585dae38d7ac5a",
+          "size_bytes": 28203
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/3/1",
+          "sha256": "83dc2973dff42af33b7e3dc817b264f38ff7c25795d2e4f2822e490ed2e891e2",
+          "size_bytes": 407761
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/3/2",
+          "sha256": "1dae91f0edd913cd77178343d73884dc4e385d5a97490f8e520fa0cd8c0e8219",
+          "size_bytes": 871252
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/3/3",
+          "sha256": "6d1e738b8e7af21a81bc0400ef296b15ec8c0b1c4158c3365d86dc793995940c",
+          "size_bytes": 840729
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/3/4",
+          "sha256": "a98c566eb5712c5d1fb614393b223866b1fd7ccce636b80143bb8f2dbb3ea886",
+          "size_bytes": 855805
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/3/5",
+          "sha256": "4a0cebd1a8148ad3b7682bdbcf1deb405190540f83465e0d3c74a0eee17a58b5",
+          "size_bytes": 893807
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/3/6",
+          "sha256": "29c120b34cca5334696a02d62ad1ed28689924d642531713c4352ace543372b5",
+          "size_bytes": 882844
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/3/7",
+          "sha256": "c8517721662bed1e78726fe17136adf050844b6e59cde26ff16358e4718f6269",
+          "size_bytes": 501847
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/4/1",
+          "sha256": "481e34033a2ab4a34fd664d2cd0997bac3dd772d6c645023b9b561d6dfb44e69",
+          "size_bytes": 400511
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/4/2",
+          "sha256": "97055e0947e5b64fc536dcfc71f5ce1ac64b87fcafea9625c208edb840a595c3",
+          "size_bytes": 870309
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/4/3",
+          "sha256": "15b5905a6de7d979a034175038cccf8a8802b1112a44e0ad48d7b1eb812a3603",
+          "size_bytes": 855898
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/4/4",
+          "sha256": "d655696a594f20085f6ad44ceff803d298b22dacf02cf2b1a012f40d34422a89",
+          "size_bytes": 863449
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/4/5",
+          "sha256": "47971bdacbf166ee6924458fa1ec50ca2655d9db4ba76603b1bea7c5b9195189",
+          "size_bytes": 878092
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/4/6",
+          "sha256": "38425cbe256fcd7e95f1355ef9fe36ab730761f12201b67d64a169d4d321548b",
+          "size_bytes": 871577
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/4/7",
+          "sha256": "feb990a59f85ac9865c7cb919b72468e5ec29739bc85c452fb7aa2c6d3dba612",
+          "size_bytes": 552658
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/5/1",
+          "sha256": "d2b72014fd3e1a6dc2f40e5d311ec2cb4a9a96336d10dbf4ef26ef012aec9bad",
+          "size_bytes": 403041
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/5/2",
+          "sha256": "f0224335f97b7698e50ab3ef3c33b9337d9ff98b06017c5177a305fe26f7b1d5",
+          "size_bytes": 900683
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/5/3",
+          "sha256": "ab82cfb6416c91467af170a1b7e12675e21bb71f602a24e12f9d4fa55c3cba15",
+          "size_bytes": 903226
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/5/4",
+          "sha256": "bf89a4cd4e9d58692f3a3328f4714ce4ef1e2d185e8950ee99d509c851f31817",
+          "size_bytes": 885401
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/5/5",
+          "sha256": "1253ef3ef0e614a3e034d2f47198c9e76ba9107d8aa90af35e563f198dc95ab8",
+          "size_bytes": 888904
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/5/6",
+          "sha256": "c588e9a703d89d4e49618669d7ddebf453c220aa707dc95cee2f92a6068f3b4b",
+          "size_bytes": 869183
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/5/7",
+          "sha256": "138e8285f826bc5303d57603ad49fb574eb264bac7b8b14e391b40ff976725be",
+          "size_bytes": 555795
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/6/1",
+          "sha256": "531365fd707a9656b7188a7c56c1e38f5bf68bd60f149974b8064abd97318628",
+          "size_bytes": 27976
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/6/2",
+          "sha256": "a139e74a2ca09b5c9abece4a31bcb1f4b156ac459d27553516528c6768f57dfa",
+          "size_bytes": 617230
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/6/3",
+          "sha256": "dd0c550d0732700afc214a4ba317b61164fb723d0cda7b6849488857037ef85e",
+          "size_bytes": 909525
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/6/4",
+          "sha256": "5e17306436c876140a71e133397854fd96a46929be30c931c3c2f068269d0ddc",
+          "size_bytes": 902202
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/6/5",
+          "sha256": "6e51e9e033538ee5fe16c51c1135d1ae90e181074d73de8de730e0021ff2877a",
+          "size_bytes": 906100
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/6/6",
+          "sha256": "81e77dc40f0150a25d05d21a145e99b6c3db8c23402637737e70a92b7f58705b",
+          "size_bytes": 835310
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/6/7",
+          "sha256": "61c684da1c0c435a1863b9adbad2ba4f38d6776200ca544092042c3fe32afbc6",
+          "size_bytes": 162950
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/7/2",
+          "sha256": "163a09f4ad1f33ecac7c2c552b8b6af92a55c4c7d152ca9fafc5b8cfce4676db",
+          "size_bytes": 14135
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/7/3",
+          "sha256": "f9dd45e662b396bc5db6ca53a5da0a49e269e632fdc84a302d5cbc177393728a",
+          "size_bytes": 387004
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/7/4",
+          "sha256": "ccb5737325f0460e9a64109a10f547c674c6b1893df0ecff71f1d0b3d4cbb165",
+          "size_bytes": 455012
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/7/5",
+          "sha256": "f290e7dd90716ebb147bd9dab7d0378ef1a6312f49e88ca5317ea283a77f8231",
+          "size_bytes": 474231
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/c/0/7/6",
+          "sha256": "93a6230e840342e13b6fd6f035e4f169512a4d9f1ca99ed5206a8c724cf96a25",
+          "size_bytes": 188793
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/0/zarr.json",
+          "sha256": "020fc647d939a5db95436b167f3ed4765049497cd049b439434bf29f5444677e",
+          "size_bytes": 600
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-plain-d+15.zarr/zarr.json",
+          "sha256": "8ff45c751b2f497de045ccb4ee611113fb6c865fe88f1256acd19b588c0c7304",
+          "size_bytes": 896
+        }
+      ]
+    },
+    {
+      "d": 15,
+      "hecate_volume": {
+        "dtype": "uint8",
+        "sha256": "b399f9ae5b8d95e56fd924eaf38a5ee1aa77460f123eed08e18ee726b5d4b969",
+        "shape": [
+          16,
+          2358,
+          2502
+        ]
+      },
+      "native_indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "native_source": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/model-inputs/padded.zarr",
+      "phase": "padded",
+      "prepared_files": [
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/1/3",
+          "sha256": "ee2ce0c8f2265d47c7c04b7af0d5dd8151969cfd009912e31c3955645c31b263",
+          "size_bytes": 224229
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/1/4",
+          "sha256": "d7d668042a9a46fc75220015ffe7093e477c49c324645c602c8ab313bf45dbad",
+          "size_bytes": 361344
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/1/5",
+          "sha256": "13a701c493b2d4bc516c855547e5ff884f6164e698b43de9725291c5e3294737",
+          "size_bytes": 363924
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/1/6",
+          "sha256": "cb20e7e40b53ed1eda423331b1af39d1bb6bab5921ff6b30c298154b63f16aa3",
+          "size_bytes": 183789
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/2/2",
+          "sha256": "a955231a5e45e576da9663efa3d6692c6d03a753ef5b8799706236fdd04c087a",
+          "size_bytes": 241091
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/2/3",
+          "sha256": "43573a276865c94dc89e431162a278abc9d8998dcece80388d7c085c6df71f18",
+          "size_bytes": 864645
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/2/4",
+          "sha256": "d533412f0d5fa6e368950431de73bec23e66c2fca1d8026f262b8439dc504e36",
+          "size_bytes": 873014
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/2/5",
+          "sha256": "d51ed0e0649043639d7605c9b027dba170d31d19950b7e22e0225dfe64a11605",
+          "size_bytes": 880827
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/2/6",
+          "sha256": "b37e468e0a8f0a92f42106055a1553e4f9ebecfffd31846c5e3f34e76782bea1",
+          "size_bytes": 855284
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/2/7",
+          "sha256": "f086b8c6cbc336faf820352627ecf4aad9528ea89708df6203ad39c8f26b1ece",
+          "size_bytes": 266334
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/3/2",
+          "sha256": "bddb32075b56e5f43736f0538b28848302c5c0d91df4d21b01960e7c19a8944a",
+          "size_bytes": 661433
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/3/3",
+          "sha256": "7e6720d6940c6665cca5576193b999f05318a931209cc13f59e0f089267c1750",
+          "size_bytes": 867333
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/3/4",
+          "sha256": "cdd10b30f7a0c8ef765c0109c60b27e85ec5d5744aa1ed851158a171b0c76cc8",
+          "size_bytes": 869624
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/3/5",
+          "sha256": "8b9d32dea7dee47fdcaac0df31faa9ce213bc0673ecfadbea8331ba7162bdfa3",
+          "size_bytes": 868387
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/3/6",
+          "sha256": "152f04711fb6d63d08f120d8b207088ceadb34baef153ae8ba77144ad826383c",
+          "size_bytes": 890611
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/3/7",
+          "sha256": "d4ffe726a80b3036b7defce030dcf85595f611cf0d0960448206c60ea0c3bfab",
+          "size_bytes": 886141
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/3/8",
+          "sha256": "7914abdc78d12af88b6af1cc5ec6344e5fdff9c310b7e33f1cd6f9b9b8b500a8",
+          "size_bytes": 191822
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/4/2",
+          "sha256": "c5050d241a94001ddb9eeb03e217fcb6d3c41188013cc5da539e2b1a6ccab72c",
+          "size_bytes": 658757
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/4/3",
+          "sha256": "09ab359be5b7902f1d2cb4ac27ba347a676af0169327ecc0025c5c33c743f4ee",
+          "size_bytes": 862878
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/4/4",
+          "sha256": "df3af52d6b7f66953e27b4f952c294de4420e5135eb0922c5a442343632df2eb",
+          "size_bytes": 852726
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/4/5",
+          "sha256": "42741ba91ea8a4a443f857cc12ef18e965d38f4a58e0625dc2cf8f21df9ef1cd",
+          "size_bytes": 861920
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/4/6",
+          "sha256": "187a43193030fcf303805d79121375868c1c76667eac201614a2f290049e4442",
+          "size_bytes": 873160
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/4/7",
+          "sha256": "a0830bd7480ff6071862ceb12e0ae4835bb5ae7c48924caa72d70226d8a85dcf",
+          "size_bytes": 880832
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/4/8",
+          "sha256": "9235059d806bc13ea192403871951d7c0bc544575b09cbead5445ff35c63398b",
+          "size_bytes": 293166
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/5/2",
+          "sha256": "9b1d825703eefe37c82e58420086b7de713be099791e34e8c73ca7a50307dca7",
+          "size_bytes": 681866
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/5/3",
+          "sha256": "2751985a4800f0c4965025bd6a3903fefbf7af117bc5895cc5a54be5caaab87f",
+          "size_bytes": 894134
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/5/4",
+          "sha256": "e606d2a07b92a8c49a8b440339c467c516401e5573e63c72a58ea44ac12b9c0e",
+          "size_bytes": 899570
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/5/5",
+          "sha256": "e1a8bccd27a613add6e79e399ae21179dab248cc80df035e9915aa7154d93c74",
+          "size_bytes": 881125
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/5/6",
+          "sha256": "44cac9be47a9456ea0f863adbcbfebfb9f6b546379765bbe9d6beedc63f03c11",
+          "size_bytes": 881382
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/5/7",
+          "sha256": "eb94ed41cfa906c9749decbfc65db63e3dba4a68deafb88d104579ec61a49068",
+          "size_bytes": 872298
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/5/8",
+          "sha256": "5218469eb49ad63568722c586d19196766d355addae929800437d09a6a415fbd",
+          "size_bytes": 293528
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/6/2",
+          "sha256": "ffdb92595129cb88a864fee1577e11508fe499582d4dfa0bb04a79fe9807ec64",
+          "size_bytes": 216602
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/6/3",
+          "sha256": "0a56548413e2255bf36fd4c7a6629f6dc182ff4690a99991064a206bc47caef7",
+          "size_bytes": 834558
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/6/4",
+          "sha256": "7eb3f9a1a72f6919a10c716b8666b43cad0a35b30f77553ba7934b7a0a46d81b",
+          "size_bytes": 905023
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/6/5",
+          "sha256": "6b69767e3d1a15df0f2ab4956aa0d0736ce972f16321e29ab4d79a481b2303bc",
+          "size_bytes": 902202
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/6/6",
+          "sha256": "e1db1fd762b2f695d1e96ce026958033bc78b266d522841cdba2048099781ea6",
+          "size_bytes": 899848
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/6/7",
+          "sha256": "acd5dcf16a6b3ff1695813c489ca475e62c5e1796026536311c70942f1bf3b39",
+          "size_bytes": 762721
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/6/8",
+          "sha256": "d4aa7ebfa7e3a5a5c155673682cae5d36cfa1f089bf87af098ec00c55680f84f",
+          "size_bytes": 80875
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/7/3",
+          "sha256": "2941aeed49529dc4a3d46068b9bb329d845732be6a1e0e676a5e600dd236ddd8",
+          "size_bytes": 156957
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/7/4",
+          "sha256": "a3f1e56cdac62d8d9e15c533ea178f22637062ae9639c94f6d83a5f4f89155c8",
+          "size_bytes": 570644
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/7/5",
+          "sha256": "4328595ace5cba9f4a7bebb67cc8c1a9c38d6cfddb78e9a42bdc48edfadf51a3",
+          "size_bytes": 599790
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/7/6",
+          "sha256": "7f129bb07f3b891b2f07effaa99a3b8608a2d2e5e6d2ce6aac877ae7beebf3db",
+          "size_bytes": 596681
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/c/0/7/7",
+          "sha256": "88579bdf2902d4942269d5282a3301a492ce2e21453c6149197af134d6c2698e",
+          "size_bytes": 105724
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/0/zarr.json",
+          "sha256": "c4bafa0a1d7e53e79617dfb4bba1601157b2138c5dd9c409a99fdf5689234c5b",
+          "size_bytes": 600
+        },
+        {
+          "path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/hecate-padded-d+15.zarr/zarr.json",
+          "sha256": "a87ca86e6cb0578919bed3fa5dd9a07fd19af082221a9e3527e2d32183513fa4",
+          "size_bytes": 897
+        }
+      ]
+    }
+  ],
+  "occupancy_checks": [
+    {
+      "d": -15,
+      "empty_tiles": [],
+      "family": "villa",
+      "phase": "plain",
+      "profiles_counted_per_tile": 3735552,
+      "retained_tiles": 228,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": -15,
+      "empty_tiles": [],
+      "family": "hecate",
+      "phase": "plain",
+      "profiles_counted_per_tile": 3133440,
+      "retained_tiles": 765,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": -15,
+      "empty_tiles": [],
+      "family": "villa",
+      "phase": "padded",
+      "profiles_counted_per_tile": 4259840,
+      "retained_tiles": 260,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": -15,
+      "empty_tiles": [],
+      "family": "hecate",
+      "phase": "padded",
+      "profiles_counted_per_tile": 3133440,
+      "retained_tiles": 765,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": 0,
+      "empty_tiles": [],
+      "family": "villa",
+      "phase": "plain",
+      "profiles_counted_per_tile": 3735552,
+      "retained_tiles": 228,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": 0,
+      "empty_tiles": [],
+      "family": "hecate",
+      "phase": "plain",
+      "profiles_counted_per_tile": 3133440,
+      "retained_tiles": 765,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": 0,
+      "empty_tiles": [],
+      "family": "villa",
+      "phase": "padded",
+      "profiles_counted_per_tile": 4259840,
+      "retained_tiles": 260,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": 0,
+      "empty_tiles": [],
+      "family": "hecate",
+      "phase": "padded",
+      "profiles_counted_per_tile": 3133440,
+      "retained_tiles": 765,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": 15,
+      "empty_tiles": [],
+      "family": "villa",
+      "phase": "plain",
+      "profiles_counted_per_tile": 3735552,
+      "retained_tiles": 228,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": 15,
+      "empty_tiles": [],
+      "family": "hecate",
+      "phase": "plain",
+      "profiles_counted_per_tile": 3133440,
+      "retained_tiles": 765,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": 15,
+      "empty_tiles": [],
+      "family": "villa",
+      "phase": "padded",
+      "profiles_counted_per_tile": 4259840,
+      "retained_tiles": 260,
+      "zero_depth_profiles_counted_per_tile": 0
+    },
+    {
+      "d": 15,
+      "empty_tiles": [],
+      "family": "hecate",
+      "phase": "padded",
+      "profiles_counted_per_tile": 3133440,
+      "retained_tiles": 765,
+      "zero_depth_profiles_counted_per_tile": 0
+    }
+  ]
+}

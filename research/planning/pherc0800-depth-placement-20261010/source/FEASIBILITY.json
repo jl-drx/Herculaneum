@@ -1,0 +1,177 @@
+{
+  "all_retained_cohorts_nonempty_at_all_depths": true,
+  "baseline_map_crops": 16,
+  "common_support_pixels": 786240,
+  "created_at_utc": "2026-10-10T22:26:43.836956+00:00",
+  "estimated_shifted_seconds": 11345.180318293289,
+  "exact_baseline_Hecate_preparations": 2,
+  "feasibility_wall_seconds": 16.55416925499594,
+  "gpu_spend_GBP": 0,
+  "limitations": [
+    "Timing extrapolates study51 per-map wall times by retained cohort count; fixed overhead, qualifying and backup time remain.",
+    "No shifted prediction, ink accuracy, surface-location truth or independent scientific review has been obtained.",
+    "Prepared inputs are reproducible derivatives of the retained source; this is not a standalone full inference bundle."
+  ],
+  "model_forwards": 0,
+  "new_CT_fetches": 0,
+  "new_production_maps": 32,
+  "prepared_Hecate_volumes": 6,
+  "prior_pins_verified": 958,
+  "remaining_gates": [
+    "Exact d0 saved-logit reassembly under reduced schedule",
+    "Shifted distinct-tile batch qualification and original-framework/cache checks",
+    "Depth-bound receipt mismatch and interruption/restart qualification",
+    "Frozen worker/input identities and private checkpoint setup before launch"
+  ],
+  "scoring_pixels": 786432,
+  "shifted_forward_batches": 3096,
+  "status": "PASS_INPUT_AND_SCHEDULE_FEASIBILITY_ONLY",
+  "timing_estimates": [
+    {
+      "direction": "forward",
+      "estimated_seconds_per_offset": 38.37453922691935,
+      "model": "dnative",
+      "new_batches_per_offset": 57,
+      "phase": "plain",
+      "source_batches": 128,
+      "source_seconds": 86.17440387799434
+    },
+    {
+      "direction": "reverse",
+      "estimated_seconds_per_offset": 35.10919594155291,
+      "model": "dnative",
+      "new_batches_per_offset": 57,
+      "phase": "plain",
+      "source_batches": 128,
+      "source_seconds": 78.84170316699601
+    },
+    {
+      "direction": "forward",
+      "estimated_seconds_per_offset": 40.84725971781531,
+      "model": "dnative",
+      "new_batches_per_offset": 65,
+      "phase": "padded",
+      "source_batches": 135,
+      "source_seconds": 84.83661633700103
+    },
+    {
+      "direction": "reverse",
+      "estimated_seconds_per_offset": 38.146989541554866,
+      "model": "dnative",
+      "new_batches_per_offset": 65,
+      "phase": "padded",
+      "source_batches": 135,
+      "source_seconds": 79.22836289399856
+    },
+    {
+      "direction": "forward",
+      "estimated_seconds_per_offset": 32.78491060335966,
+      "model": "hybrid_3d2d-seed42",
+      "new_batches_per_offset": 57,
+      "phase": "plain",
+      "source_batches": 128,
+      "source_seconds": 73.62225539000065
+    },
+    {
+      "direction": "reverse",
+      "estimated_seconds_per_offset": 32.97716668532513,
+      "model": "hybrid_3d2d-seed42",
+      "new_batches_per_offset": 57,
+      "phase": "plain",
+      "source_batches": 128,
+      "source_seconds": 74.05398834599328
+    },
+    {
+      "direction": "forward",
+      "estimated_seconds_per_offset": 37.033083386963376,
+      "model": "hybrid_3d2d-seed42",
+      "new_batches_per_offset": 65,
+      "phase": "padded",
+      "source_batches": 135,
+      "source_seconds": 76.91486549600086
+    },
+    {
+      "direction": "reverse",
+      "estimated_seconds_per_offset": 40.10897606155696,
+      "model": "hybrid_3d2d-seed42",
+      "new_batches_per_offset": 65,
+      "phase": "padded",
+      "source_batches": 135,
+      "source_seconds": 83.30325797400292
+    },
+    {
+      "direction": "forward",
+      "estimated_seconds_per_offset": 33.29219246934326,
+      "model": "hybrid_3d2d-seed43",
+      "new_batches_per_offset": 57,
+      "phase": "plain",
+      "source_batches": 128,
+      "source_seconds": 74.7614146679989
+    },
+    {
+      "direction": "reverse",
+      "estimated_seconds_per_offset": 34.969177636943755,
+      "model": "hybrid_3d2d-seed43",
+      "new_batches_per_offset": 57,
+      "phase": "plain",
+      "source_batches": 128,
+      "source_seconds": 78.5272760969965
+    },
+    {
+      "direction": "forward",
+      "estimated_seconds_per_offset": 44.24130324707383,
+      "model": "hybrid_3d2d-seed43",
+      "new_batches_per_offset": 65,
+      "phase": "padded",
+      "source_batches": 135,
+      "source_seconds": 91.88578366699949
+    },
+    {
+      "direction": "reverse",
+      "estimated_seconds_per_offset": 38.671473861221145,
+      "model": "hybrid_3d2d-seed43",
+      "new_batches_per_offset": 65,
+      "phase": "padded",
+      "source_batches": 135,
+      "source_seconds": 80.31767648099776
+    },
+    {
+      "direction": "forward",
+      "estimated_seconds_per_offset": 1359.2604802539554,
+      "model": "hecate",
+      "new_batches_per_offset": 204,
+      "phase": "plain",
+      "source_batches": 470,
+      "source_seconds": 3131.6295378399955
+    },
+    {
+      "direction": "reverse",
+      "estimated_seconds_per_offset": 1313.2661427400594,
+      "model": "hecate",
+      "new_batches_per_offset": 204,
+      "phase": "plain",
+      "source_batches": 470,
+      "source_seconds": 3025.662191607
+    },
+    {
+      "direction": "forward",
+      "estimated_seconds_per_offset": 1288.09102812905,
+      "model": "hecate",
+      "new_batches_per_offset": 204,
+      "phase": "padded",
+      "source_batches": 468,
+      "source_seconds": 2955.0323586489976
+    },
+    {
+      "direction": "reverse",
+      "estimated_seconds_per_offset": 1265.4162396439501,
+      "model": "hecate",
+      "new_batches_per_offset": 204,
+      "phase": "padded",
+      "source_batches": 468,
+      "source_seconds": 2903.013726242003
+    }
+  ],
+  "unknown_pixels": 192,
+  "worker_launch_admitted": false
+}

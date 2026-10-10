@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "status": "DESIGN_AND_INPUT_FEASIBILITY_COMPLETE_NO_SHIFTED_INFERENCE",
+  "source": "/workspace/herculaneum-lab/reports/fiftysecond-experiment",
+  "files": [
+    {
+      "path": "source/BASELINES.json",
+      "bytes": 12118,
+      "sha256": "70405a56937d8f88729e55b90cbe99d907c7f5252eabdf45bd64b31251ab2b2b"
+    },
+    {
+      "path": "source/BASELINE_REPLAY.json",
+      "bytes": 11908,
+      "sha256": "61c512a480c235d4db5ee1062171edf3b43d0f6993e9d11c1ac5b72ff0f746a9"
+    },
+    {
+      "path": "source/DESIGN_REVIEW.md",
+      "bytes": 4369,
+      "sha256": "912ae7688c624c49e0e59dab9babf8f32ccfb46199ff5aa6ba316e73e769b95e"
+    },
+    {
+      "path": "source/EXECUTION_QUALIFICATION_DESIGN.md",
+      "bytes": 3087,
+      "sha256": "e81b9e40e194af819fa57ed2f47b087118aa651a207a28f5142d7ffeb4eacb84"
+    },
+    {
+      "path": "source/FEASIBILITY.json",
+      "bytes": 5624,
+      "sha256": "d17a9dff5a546919f85f09b187704d3d36b56affe1c670f642ddb9e28748aca6"
+    },
+    {
+      "path": "source/FEASIBILITY_GO.json",
+      "bytes": 1557,
+      "sha256": "f599b733a4bd972d813b231f2d2cd137eebefdb53307934a04b20391680f86d4"
+    },
+    {
+      "path": "source/PLAN.json",
+      "bytes": 633,
+      "sha256": "7c56e8a7d48fd6508d60f6794cab04ce7604b7735037eb1dbc954ae199e7d1ab"
+    },
+    {
+      "path": "source/PREPARED_INPUTS.json",
+      "bytes": 80857,
+      "sha256": "ec5f421a1c76645b475c61228730b70e9f76eed50dbc5b83231de7038daf4c3a"
+    },
+    {
+      "path": "source/PROTOCOL.md",
+      "bytes": 7919,
+      "sha256": "f0f42f3c8d3206cb2726ca80f617f4ae56ee98e00dab7b669673218913642f00"
+    },
+    {
+      "path": "source/REPLAY_ATTEMPT_1.json",
+      "bytes": 567,
+      "sha256": "32f4b705ca9f5166f089e983b35fd3f49a4de99ad20971757b9d6bb0f039585c"
+    },
+    {
+      "path": "source/RESULTS.md",
+      "bytes": 4402,
+      "sha256": "65b0b4ae0ada11e04a89f2797926c20c2db3c5caf2bffe5783b095da9a327b68"
+    },
+    {
+      "path": "source/SCHEDULE.json",
+      "bytes": 292783,
+      "sha256": "1e6faa2a76406bc254040de2ba368affca4302491296f07a84795e78563f3b2c"
+    },
+    {
+      "path": "source/check_feasibility.py",
+      "bytes": 13142,
+      "sha256": "a58412dab7c690dc8f59994e374a47bbd524398ff85081e19c39a8083270037b"
+    },
+    {
+      "path": "source/replay_baseline.py",
+      "bytes": 6109,
+      "sha256": "dcca6a9838877103e10737b650ef352bbdbe6a4c4a3c5c53d038a8d32d371b6e"
+    },
+    {
+      "path": "source/replay_baseline_v1.py",
+      "bytes": 6100,
+      "sha256": "9cbd1fc5399b61fdc3f341f60abccc5bf4d680b6a1a7ed8f62c322c057b78497"
+    }
+  ],
+  "file_count": 15,
+  "bytes": 451175,
+  "exclusions": [
+    "Prepared input Zarr arrays, baseline array crops and work logs remain in the local study directory. They can be regenerated from pinned study51 inputs.",
+    "Study51 raw logits, inputs and model/runtime prerequisites are separately archived; this compact source packet is not a standalone worker bundle."
+  ]
+}

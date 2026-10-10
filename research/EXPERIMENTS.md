@@ -58,3 +58,5 @@ Studies46–50 are complete and sealed. The conservative support result remains 
 | [50: fiftieth-experiment](lab/reports/fiftieth-experiment/RESULTS.md) | COMPLETED_VERIFIED_GRID_AWARE_CANDIDATE_AND_FIXED_CENTRE_COMPARISON; full audit replay,128-square admission, observed66-layer rendering,16 maps/288 CPU forwards |
 
 Study51 completion: 3,454 committed batches, 13,250 model tiles, 3h36m CPU; all 16 saved-logit replays exact. Both depth orders remain unverified as a reading-side choice. No follow-up inference or GPU job launched.
+
+Study52 is a [frozen design and feasibility packet](planning/pherc0800-depth-placement-20261010/source/RESULTS.md), not a completed shifted-inference experiment. All16 d0 baseline strip maps replay exactly from saved logits; all three planned input windows pass support/occupancy checks. Remaining worker admission gates are explicitly unrun.

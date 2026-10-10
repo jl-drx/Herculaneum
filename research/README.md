@@ -4,7 +4,9 @@
 
 **Study51 is complete:** all 16 [PHerc0800 development-field maps](in-progress/pherc0800-development-20261010/completion-20261010/RESULTS.md) passed numerical completion checks and fixed-region review. No defensible lettering was established. All committed batches and maps are indexed in the private backup; the final remote archive passed fresh download verification. GPU spend remains £0. The cumulative sealed record still ends at experiment50.
 
-This directory preserves the selected research history through experiment 50. Start with the [experiment index](EXPERIMENTS.md), [latest results](lab/reports/fiftieth-experiment/RESULTS.md), and [next centre-depth target run](lab/reports/fiftieth-experiment/NEXT_STUDY_DRAFT.md).
+**Next comparison designed:** the [bounded depth-placement plan](planning/pherc0800-depth-placement-20261010/README.md) fixes three centres and a full-width middle strip. Retained-input feasibility and exact saved-logit reconstruction of all16 baselines pass. Shifted worker qualification and checkpoint setup remain; no new inference has started.
+
+This directory preserves the selected research history through experiment 50. Start with the [experiment index](EXPERIMENTS.md), [latest results](lab/reports/fiftieth-experiment/RESULTS.md), and [current depth-placement design](planning/pherc0800-depth-placement-20261010/source/PROTOCOL.md).
 
 The [completed PHerc343 four-model reproduction](lab/reports/fortysixth-experiment/RESULTS.md) closely matches the published display (RGB MAE 0.0181/255; yellow-display IoU 99.83%). All eight maps and all 18 candidate regions passed the recorded checks. Phase46 is now formally sealed; the separate [completed-results download](in-progress/pherc343-reproduction/completion-20261010/README.md) remains unchanged. This is a published-image positive control, not ink accuracy or authenticated letters.
 
