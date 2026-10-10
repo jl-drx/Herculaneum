@@ -1,9 +1,21 @@
-# PHerc0800 larger development field — running study51
+# PHerc0800 larger development field — completed study51
 
-The fixed16-map CPU comparison started **10 October2026,19:18 BST** after all
-rendering, batch and restart gates passed. This page is a dated launch record;
-check live receipts/process identity before reporting current status. No GPU,
-Actions run or spare-VM task was launched.
+The fixed 16-map CPU comparison completed **10 October 2026, 22:54 BST**, after
+3 hours 36 minutes. All completion checks pass; fixed review establishes no
+defensible lettering. See the [completion report](completion-20261010/RESULTS.md),
+[all maps](completion-20261010/ALL_MAPS.png) and
+[checksummed review packet](completion-20261010/MANIFEST.json).
+
+The final checkpoint was published at 22:55 BST. Its 23-generation private index
+covers all 3,454 committed batches and 16 maps. The final archive was freshly
+downloaded and all members verified; the full index matches retained local files.
+See [final backup verification](completion-20261010/FINAL_BACKUP_VERIFICATION.json).
+No new inference ran during review. GPU spend remains £0.
+
+The launch copies below remain unchanged historical evidence. Inference and review
+are complete; the cumulative archival seal still ends at study50. Do not restart
+the completed worker. Historical partial-run recovery instructions are retained
+for provenance; a completed study deliberately rejects another launch.
 
 The field is segment20251028222030, x512:2048/y512:2048, using original geometry,
 66 planes, d0, all four models, both padding phases and both depth orders. The
@@ -13,8 +25,8 @@ pixels remain masked. No response-based depth/model selection or ensemble fit.
 
 [PROTOCOL.md](source/PROTOCOL.md) and [INFERENCE_GO.json](source/INFERENCE_GO.json)
 freeze the scope and all worker/input identities. [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)
-identifies the exact copied original files. This is an in-progress export, not a
-sealed experiment completion or a replacement for the original lab.
+identifies the exact copied original files. These are exact launch copies, separate from the completion review above and the
+cumulative sealed research record. They do not replace the original lab.
 
 All104 valid render rectangles and9 distributed32-square sites passed independent
 sampling (1,043,328 samples,99.64134% exact, every difference<=1 uint8 count).
@@ -25,11 +37,10 @@ Eight original-framework direct/cache comparisons and cached replays matched
 exactly. Recovery after an injected stop with two committed batches passed;
 six missing/corrupt/changed cache cases were rejected.
 
-The run has3,454 planned forward batches /13,250 model tiles. Qualification
-estimates3.88 model hours; allow additional replay, I/O and backup overhead,
-and refine against actual Hecate progress. This is an estimate, not a deadline.
+The run completed all 3,454 forward batches / 13,250 model tiles. The preliminary
+3.88-hour model estimate is superseded by the measured 3-hour-36-minute run.
 
-## Status and restart
+## Completed status and historical recovery instructions
 
 On the cloud lab:
 

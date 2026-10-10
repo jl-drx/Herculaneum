@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-10T22:18:32.989003+00:00",
+  "remote_ref": "refs/heads/codex/plinius-pherc0800-phase51-checkpoints",
+  "remote_commit": "dfb4fa95e0328730757d38a1711e2ebbe6a56850",
+  "index_sha256": "4589e1c89a2a028ade907f152ff7d746ffb876f4a8dba84ffe2f4d8d2b1b2e9b",
+  "generations": 23,
+  "indexed_local_files_verified": 7504,
+  "committed_batches_covered": 3454,
+  "completed_maps_covered": 16,
+  "final_results_covered": true,
+  "fresh_remote_archive": {
+    "name": "generation-0022.tar.gz",
+    "bytes": 12349382,
+    "sha256": "27d61b0be8c52bed05653ec40f1a15fe402dd26bbb6952b9b49565d22510b545",
+    "created_at_utc": "2026-10-10T21:55:03.232218+00:00",
+    "archive_readback": "PASS"
+  },
+  "fresh_remote_members_verified": 172,
+  "scope": "Fresh remote download of final generation only; all indexed files checked against retained local bytes. Generations 0 and 1 were separately downloaded/restored earlier. No fresh full-chain restore or independent model replay in this check.",
+  "inference_run": false
+}

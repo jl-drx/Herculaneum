@@ -2,7 +2,7 @@
 
 Historical reports preserve their original conclusions and scope. Latest: [phase50 independent-audit follow-up and sixteen target maps](lab/reports/fiftieth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not50 independent held-out tests.
 
-Studies46–50 are complete and sealed. The conservative support result remains unchanged; exact full-recipe contexts admit a128-square inside the VM candidate. Its renderer and16 model/phase/order maps pass execution checks, without a reading or accuracy claim. The [study51 larger centre-depth development-field run](in-progress/pherc0800-development-20261010/README.md) has started after rendering/batch/restart qualification. It is in progress and unsealed; inspect current process/receipts for live status.
+Studies46–50 are complete and sealed. The conservative support result remains unchanged; exact full-recipe contexts admit a128-square inside the VM candidate. Its renderer and16 model/phase/order maps pass execution checks, without a reading or accuracy claim. The [study51 larger centre-depth development-field run](in-progress/pherc0800-development-20261010/completion-20261010/RESULTS.md) completed all 16 maps and fixed-region review. Completion/hash/conversion checks pass; no defensible lettering. Inference is complete, while the cumulative archival seal remains at study50.
 
 | Experiment | Recorded outcome |
 | --- | --- |
@@ -56,3 +56,5 @@ Studies46–50 are complete and sealed. The conservative support result remains 
 | [48: fortyeighth-experiment](lab/reports/fortyeighth-experiment/RESULTS.md) | COMPLETED_VERIFIED_NO_FRESH_CORE_MEETS_CONSERVATIVE_GATE; five meshes, full-resolution normals/slabs/context, independent VM assignment |
 | [49: fortyninth-experiment](lab/reports/fortyninth-experiment/RESULTS.md) | COMPLETED_VERIFIED_FIXED_PATCH_TRANSFER_QUALIFICATION; original31/66-layer renderer checks, four models/20 tile forwards, bounded source/compute/support plan |
 | [50: fiftieth-experiment](lab/reports/fiftieth-experiment/RESULTS.md) | COMPLETED_VERIFIED_GRID_AWARE_CANDIDATE_AND_FIXED_CENTRE_COMPARISON; full audit replay,128-square admission, observed66-layer rendering,16 maps/288 CPU forwards |
+
+Study51 completion: 3,454 committed batches, 13,250 model tiles, 3h36m CPU; all 16 saved-logit replays exact. Both depth orders remain unverified as a reading-side choice. No follow-up inference or GPU job launched.
