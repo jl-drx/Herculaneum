@@ -30,7 +30,16 @@
     "failures": []
   },
   "github_readback": {
-    "status": "PENDING_UPLOAD",
-    "scope": "Local bundle verified; actual remote object download has not yet been performed."
+    "status": "PASS",
+    "fresh_LFS_store": true,
+    "only_named_bundle_requested": true,
+    "bytes": 173422658,
+    "sha256": "d837c483f97f9f3fd40b86b3221126b9949dea79989b9588dd2cc53d08e91b23",
+    "scope": "Actual remote object download equals the archive whose1024 members and saved-result checks passed relocated replay."
+  },
+  "git_export": {
+    "new_files_verified_in_index": 419,
+    "byte_identical": true,
+    "original_CSV_CRLF_preserved": true
   }
 }
