@@ -1,0 +1,420 @@
+{
+  "batch_size": 4,
+  "distinct_tiles_per_batch": 4,
+  "exact_saved_logit_replays": 8,
+  "fail_closed_tests": [
+    {
+      "case": "missing_receipt",
+      "rejected": true
+    },
+    {
+      "case": "missing_logits",
+      "rejected": true
+    },
+    {
+      "case": "corrupt_logits",
+      "rejected": true
+    },
+    {
+      "case": "wrong_binding",
+      "rejected": true
+    },
+    {
+      "case": "wrong_cohort",
+      "rejected": true
+    },
+    {
+      "case": "changed_input",
+      "rejected": true
+    }
+  ],
+  "gpu_spend_GBP": 0,
+  "injected_stop": {
+    "complete_map": false,
+    "receipts": 2,
+    "status": "EXPECTED_STOP_AFTER_TWO_COMMITTED_BATCHES"
+  },
+  "models_and_orders": [
+    {
+      "batch4_seconds": 0.5217197000019951,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "cached_replay_exact": true,
+      "direction": "forward",
+      "framework_direct_cache_exact": true,
+      "max_probability_difference": 1.7881393432617188e-07,
+      "model": "dnative",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS",
+      "tiles_xywh": [
+        [
+          832,
+          448,
+          128,
+          128
+        ],
+        [
+          896,
+          448,
+          128,
+          128
+        ],
+        [
+          960,
+          448,
+          128,
+          128
+        ],
+        [
+          1024,
+          448,
+          128,
+          128
+        ]
+      ]
+    },
+    {
+      "batch4_seconds": 0.4739338939980371,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cached_replay_exact": true,
+      "direction": "reverse",
+      "framework_direct_cache_exact": true,
+      "max_probability_difference": 1.7881393432617188e-07,
+      "model": "dnative",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS",
+      "tiles_xywh": [
+        [
+          832,
+          448,
+          128,
+          128
+        ],
+        [
+          896,
+          448,
+          128,
+          128
+        ],
+        [
+          960,
+          448,
+          128,
+          128
+        ],
+        [
+          1024,
+          448,
+          128,
+          128
+        ]
+      ]
+    },
+    {
+      "batch4_seconds": 0.49751348099380266,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cached_replay_exact": true,
+      "direction": "forward",
+      "framework_direct_cache_exact": true,
+      "max_probability_difference": 3.2782554626464844e-07,
+      "model": "hybrid_3d2d-seed42",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS",
+      "tiles_xywh": [
+        [
+          832,
+          448,
+          128,
+          128
+        ],
+        [
+          896,
+          448,
+          128,
+          128
+        ],
+        [
+          960,
+          448,
+          128,
+          128
+        ],
+        [
+          1024,
+          448,
+          128,
+          128
+        ]
+      ]
+    },
+    {
+      "batch4_seconds": 0.49649579300603364,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cached_replay_exact": true,
+      "direction": "reverse",
+      "framework_direct_cache_exact": true,
+      "max_probability_difference": 2.980232238769531e-07,
+      "model": "hybrid_3d2d-seed42",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS",
+      "tiles_xywh": [
+        [
+          832,
+          448,
+          128,
+          128
+        ],
+        [
+          896,
+          448,
+          128,
+          128
+        ],
+        [
+          960,
+          448,
+          128,
+          128
+        ],
+        [
+          1024,
+          448,
+          128,
+          128
+        ]
+      ]
+    },
+    {
+      "batch4_seconds": 0.5375039689970436,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cached_replay_exact": true,
+      "direction": "forward",
+      "framework_direct_cache_exact": true,
+      "max_probability_difference": 7.152557373046875e-07,
+      "model": "hybrid_3d2d-seed43",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS",
+      "tiles_xywh": [
+        [
+          832,
+          448,
+          128,
+          128
+        ],
+        [
+          896,
+          448,
+          128,
+          128
+        ],
+        [
+          960,
+          448,
+          128,
+          128
+        ],
+        [
+          1024,
+          448,
+          128,
+          128
+        ]
+      ]
+    },
+    {
+      "batch4_seconds": 0.5019402780017117,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cached_replay_exact": true,
+      "direction": "reverse",
+      "framework_direct_cache_exact": true,
+      "max_probability_difference": 4.76837158203125e-07,
+      "model": "hybrid_3d2d-seed43",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS",
+      "tiles_xywh": [
+        [
+          832,
+          448,
+          128,
+          128
+        ],
+        [
+          896,
+          448,
+          128,
+          128
+        ],
+        [
+          960,
+          448,
+          128,
+          128
+        ],
+        [
+          1024,
+          448,
+          128,
+          128
+        ]
+      ]
+    },
+    {
+      "batch4_seconds": 8.199224554999091,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 6,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cached_replay_exact": true,
+      "direction": "forward",
+      "framework_direct_cache_exact": true,
+      "max_probability_difference": 4.470348358154297e-08,
+      "model": "hecate",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 6,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS",
+      "tiles_xywh": [
+        [
+          704,
+          416,
+          64,
+          64
+        ],
+        [
+          736,
+          416,
+          64,
+          64
+        ],
+        [
+          768,
+          416,
+          64,
+          64
+        ],
+        [
+          800,
+          416,
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "batch4_seconds": 6.936495002999436,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 6,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cached_replay_exact": true,
+      "direction": "reverse",
+      "framework_direct_cache_exact": true,
+      "max_probability_difference": 1.9371509552001953e-07,
+      "model": "hecate",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 6,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS",
+      "tiles_xywh": [
+        [
+          704,
+          416,
+          64,
+          64
+        ],
+        [
+          736,
+          416,
+          64,
+          64
+        ],
+        [
+          768,
+          416,
+          64,
+          64
+        ],
+        [
+          800,
+          416,
+          64,
+          64
+        ]
+      ]
+    }
+  ],
+  "original_framework_comparisons": 8,
+  "precision": "fp32 CPU",
+  "probability_tolerance": 1e-05,
+  "status": "PASS",
+  "threads": 4
+}

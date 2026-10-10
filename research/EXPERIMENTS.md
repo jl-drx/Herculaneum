@@ -2,7 +2,7 @@
 
 Historical reports preserve their original conclusions and scope. Latest: [phase50 independent-audit follow-up and sixteen target maps](lab/reports/fiftieth-experiment/RESULTS.md). This history contains development, diagnostic and admission studies, not50 independent held-out tests.
 
-Studies46–50 are complete and sealed. The conservative support result remains unchanged; exact full-recipe contexts admit a128-square inside the VM candidate. Its renderer and16 model/phase/order maps pass execution checks, without a reading or accuracy claim. The larger centre-depth development-field run remains next. No target worker is currently active.
+Studies46–50 are complete and sealed. The conservative support result remains unchanged; exact full-recipe contexts admit a128-square inside the VM candidate. Its renderer and16 model/phase/order maps pass execution checks, without a reading or accuracy claim. The [study51 larger centre-depth development-field run](in-progress/pherc0800-development-20261010/README.md) has started after rendering/batch/restart qualification. It is in progress and unsealed; inspect current process/receipts for live status.
 
 | Experiment | Recorded outcome |
 | --- | --- |

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-10T18:23:00.427250+00:00",
+  "checkpoint_ref": "refs/heads/codex/plinius-pherc0800-phase51-checkpoints",
+  "checked_remote_commit": "249221ec2b9d71042b0ca35da57449db2200ae98",
+  "fresh_LFS_store": true,
+  "archive": {
+    "name": "generation-0000.tar.gz",
+    "bytes": 466103165,
+    "sha256": "df66bad0ca3c1372d34ecbe4fc2de8609baccc65b7125fcc2da93c782d96ddc0"
+  },
+  "restore": {
+    "status": "PASS",
+    "generations": 1,
+    "files": 619,
+    "restored": 619,
+    "reused": 0,
+    "inference_run": false,
+    "prerequisite_files_not_included": 487,
+    "scope": "Restored pinned study inputs and committed outputs only; full worker startup still requires prior model/runtime files and the qualified environment."
+  },
+  "durable_model_batch_receipts_in_checked_generation": 70,
+  "periodic_watch": {
+    "pid": 101065,
+    "start_ticks": "3327792",
+    "started_at_utc": "2026-10-10T18:22:09.613211+00:00",
+    "command": [
+      "python3",
+      "-B",
+      "/workspace/Herculaneum/research/tools/backup_phase51.py",
+      "--watch-pid",
+      "100006",
+      "--start-ticks",
+      "3303862",
+      "--interval",
+      "600"
+    ],
+    "watched_worker_pid": 100006
+  },
+  "limitations": [
+    "This validates the named initial generation; later published generations require their own index/hash checks.",
+    "Earlier487 runtime/model/preparation prerequisite files and installed Python environment are not in this generation.",
+    "A relocated same-host data restore is not a fresh-machine inference replay or proof of future platform/process survival."
+  ],
+  "initial_operational_retry": "First archive/readback succeeded, but unsupported git-lfs clean --filename option stopped before upload/ref creation. Corrected to documented positional path form, then upload/download/restore passed. Model worker was untouched."
+}
