@@ -1,7 +1,16 @@
-name: Package PHerc343 review files
+name: Package private research review files
 
 on:
   workflow_dispatch:
+    inputs:
+      packet:
+        description: Private review packet to package (no inference)
+        type: choice
+        required: true
+        default: pherc343-original
+        options:
+          - pherc343-original
+          - pherc0800-support
 
 permissions:
   contents: read
@@ -12,7 +21,7 @@ concurrency:
 
 jobs:
   package:
-    if: github.repository == 'jl-drx/Herculaneum' && github.event.repository.private == true
+    if: github.repository == 'jl-drx/Herculaneum' && github.event.repository.private == true && inputs.packet != 'pherc0800-support'
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     env:
@@ -72,4 +81,57 @@ jobs:
             printf 'Artifact archive SHA-256: `%s`\n\n' "$ARTIFACT_DIGEST"
             printf 'After extracting the artifact ZIP, run `sha256sum -c SHA256SUMS`.\n\n'
             printf 'Retention: one day. Repository access is required. No inference was run.\n'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  support-review:
+    if: github.repository == 'jl-drx/Herculaneum' && github.event.repository.private == true && inputs.packet == 'pherc0800-support'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    env:
+      GIT_LFS_SKIP_SMUDGE: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - name: Check out compact geometry packet and packaging code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          lfs: false
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/scripts/package_support_review.py
+            /research/handoffs/pherc0800-support-20261010/
+
+      - name: Verify every source and package checksums and instructions
+        env:
+          WORKFLOW_COMMIT: ${{ github.sha }}
+        run: |
+          python3 .github/scripts/package_support_review.py \
+            --source research/handoffs/pherc0800-support-20261010 \
+            --output artifact --commit "$WORKFLOW_COMMIT"
+          cd artifact
+          sha256sum -c SHA256SUMS
+          python3 verify_packet.py
+
+      - name: Upload private CPU geometry task for one day
+        id: support-upload
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: pherc0800-support-review-${{ github.run_id }}
+          path: artifact/
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 6
+          include-hidden-files: false
+
+      - name: Write VM handoff instructions
+        env:
+          ARTIFACT_URL: ${{ steps.support-upload.outputs.artifact-url }}
+          ARTIFACT_DIGEST: ${{ steps.support-upload.outputs.artifact-digest }}
+        run: |
+          {
+            printf 'Download private VM task: %s\n\n' "$ARTIFACT_URL"
+            printf 'Artifact archive SHA-256: `%s`\n\n' "$ARTIFACT_DIGEST"
+            printf 'Unzip, run `sha256sum -c SHA256SUMS`, then `python3 verify_packet.py`.\n\n'
+            printf 'Read `START_HERE.md` for the independent CPU geometry assignment.\n\n'
+            printf 'Retention: one day. No CT intensity, model, LFS fetch or inference.\n'
           } >> "$GITHUB_STEP_SUMMARY"
