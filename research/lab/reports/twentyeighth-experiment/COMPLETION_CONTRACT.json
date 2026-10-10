@@ -1,0 +1,139 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "accumulator_resume_supported": false,
+  "baseline_decoded_bytes": 838860800,
+  "baseline_execution_seconds": 0.4900413390000722,
+  "batches_baseline": 13,
+  "batches_optimized": 5,
+  "benchmark_admitted": false,
+  "created_at_utc": "2026-10-09T07:37:47.851199+00:00",
+  "decision": "Audit and adapt newly found public fragment-depth benchmark before new reference construction or broad outreach; retain qualified scheduler.",
+  "decode_reduction_fraction": 0.65,
+  "development_test_runs": 1,
+  "elapsed_seconds": 4.935421876000419,
+  "evidence": {
+    "../frag6-public-reference-recheck-20261009/AUDIT_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/frag6-public-reference-recheck-20261009/AUDIT_RECEIPT.json",
+      "sha256": "ec2f053ab52c45a11eaade480dd58239f9bbd2a01cc343108019b08e3f29f1c3",
+      "size_bytes": 7053
+    },
+    "../frag6-public-reference-recheck-20261009/RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/frag6-public-reference-recheck-20261009/RESULTS.md",
+      "sha256": "1a0c7ab6aab4b45540ca96d2cbdc90c838c539adc28f5987da04c7d20f5e6134",
+      "size_bytes": 7224
+    },
+    "DEPTH_STUDY_CONTRACT.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/DEPTH_STUDY_CONTRACT.json",
+      "sha256": "a301c9d7cabc478d54c5826c703f2b7fcf54ee0e4594c905e9050e40321bdd3e",
+      "size_bytes": 5045
+    },
+    "DESIGN_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/DESIGN_REVIEW.json",
+      "sha256": "ad548c0ee733688f331e44575fbde3a87edce1113589f5ae3d62ec56f7586888",
+      "size_bytes": 884
+    },
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "5a3226c2b299733b806907ae32b0f4ee9ca965261a9f45bed6d0d69cf8a9b1fe",
+      "size_bytes": 3496
+    },
+    "PLINIUS_DEPTH_STUDY.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/PLINIUS_DEPTH_STUDY.md",
+      "sha256": "676e19aac9e793b1bbf3b7fa6682215d406d927e8a2017a8fb9a1c1ff53fb699",
+      "size_bytes": 7932
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/PROTOCOL.md",
+      "sha256": "3cda433f5b321f1897f099ce04816c411a6a057a0fd842df7dc0fbd02bb31f08",
+      "size_bytes": 5665
+    },
+    "PUBLIC_EVIDENCE_ADDENDUM.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/PUBLIC_EVIDENCE_ADDENDUM.md",
+      "sha256": "feb24b95e72369451db2f0fa4fc3c7b2c770133d628afdb6a91f0ad2bd882ca3",
+      "size_bytes": 2463
+    },
+    "REFERENCE_CONSTRUCTION_PLAN.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/REFERENCE_CONSTRUCTION_PLAN.md",
+      "sha256": "f2f3cd660b7bf47499da45d748e0ba05fae485c20472dce58bf0c3ce755c5a7c",
+      "size_bytes": 4492
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/RESULTS.md",
+      "sha256": "9da419502fbc56ad15fb5b3c7b15bbd097bda0804f324f0b663e565b30515f2e",
+      "size_bytes": 8220
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "34e05e125943dca65d548662343f1ee69f1cdce1877be1d24602a7b7a9e32c8b",
+      "size_bytes": 1306
+    },
+    "SAVED_RESULT_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/SAVED_RESULT_VERIFICATION.json",
+      "sha256": "d4584d56e9728c237da6736ecc5ab867442523bd1c1fbd442ad18791f09ab517",
+      "size_bytes": 412
+    },
+    "SOURCE_FREEZE.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/SOURCE_FREEZE.json",
+      "sha256": "04e8673c4a957d10def0d55daef3ad4fa6f1a825cf240e4226d91ca4ccc4732a",
+      "size_bytes": 3305
+    },
+    "run-v1/CHUNK_PLAN.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/run-v1/CHUNK_PLAN.json",
+      "sha256": "a68d025df8bac7268a3e5173c733a150b5353164058d0a53f8eca17b7e7dda44",
+      "size_bytes": 3918
+    },
+    "run-v1/COMPARISON.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/run-v1/COMPARISON.json",
+      "sha256": "b77e1193876495f20f082a94de9201259a5e560474ddeba560eafebae6091767",
+      "size_bytes": 5137
+    },
+    "run-v1/RUN_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/run-v1/RUN_RECEIPT.json",
+      "sha256": "63057dc33bd4a5d910505548656f1da7929d2dfae205f7db930679a8a3b01151",
+      "size_bytes": 1645
+    }
+  },
+  "followup_public_audit_requests": 20,
+  "identical_output_values": true,
+  "identical_validity": true,
+  "independent_agent_review": false,
+  "independent_confirmation_ready": false,
+  "invalid_points": 513,
+  "maintainer_status": "User confirmed NOT SENT",
+  "maximum_analytic_error": 7.275957614183426e-12,
+  "model_execution_ready": false,
+  "network_requests": 20,
+  "network_response_body_bytes": 247358,
+  "new_artifacts_uploaded_to_r2": false,
+  "new_candidate_pixels": 0,
+  "new_candidate_scores": 0,
+  "one_shot_end_to_end_speedup_established": false,
+  "optimized_decoded_bytes": 293601280,
+  "optimized_execution_seconds": 0.21841284999982236,
+  "peak_rss_bytes": 131354624,
+  "planning_seconds": 1.0505237020001914,
+  "points": 2187,
+  "positive_contributions": 13392,
+  "publication": null,
+  "qualification_attempts": 1,
+  "qualification_network_requests": 0,
+  "reference_writer_checked_synthetic_voxels": 146800640,
+  "scientific_model_forwards": 0,
+  "scientific_optimizer_updates": 0,
+  "scientific_study_design": "PLINIUS_DEPTH_STUDY.md",
+  "source_frame_authenticated": false,
+  "source_reads_baseline": 200,
+  "source_reads_optimized": 70,
+  "stage_C_open": false,
+  "status": "completed_one_pass_scheduler_verified_research_design_pending_reference",
+  "submission": null,
+  "test_errors": 0,
+  "test_failures": 0,
+  "test_skips": 0,
+  "tests": 24,
+  "third_party_aggregate_scores_read": true,
+  "transcription": null,
+  "translation": null,
+  "valid_points": 1674
+}

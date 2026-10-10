@@ -1,0 +1,41 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "annotation_support_inspected": true,
+  "baseline": "unchanged forwardseed42",
+  "candidate": "Frag6 / PHerc51",
+  "candidate_CT_inspected": true,
+  "independent_optical_truth": false,
+  "ink_model_scores_inspected": true,
+  "negative_exhaustiveness_known": false,
+  "next_action": "Prospective bounded cached-data reference-boundary/alignment sensitivity diagnostic; no rescoring replaces primary",
+  "optical_inspected": true,
+  "optical_registration_qualified": false,
+  "parent_count": 1,
+  "primary_decision": {
+    "independent_accuracy": false,
+    "maximum_clean_loss": 0.01,
+    "mean_clean_AP_delta": -0.003748920549594255,
+    "mean_clean_AP_loss": 0.003748920549594255,
+    "mean_robust_AP_delta": -0.0022608797375323203,
+    "minimum_robust_gain": 0.01,
+    "model_promotion": false,
+    "parent_count": 1,
+    "promising_for_replication": false
+  },
+  "results": {
+    "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/scores-v1/RESULTS.json",
+    "sha256": "e171a50e506877f8d060d64f6fda284fcb476842629c447b107b28eafadde8da",
+    "size_bytes": 15726
+  },
+  "role": "model-scored development",
+  "scientific_model_forwards": 20,
+  "status": "FIXED_COMPARISON_COMPLETED_AVERAGING_NOT_PROMOTED",
+  "training_updates": 0,
+  "unchanged_reserves": [
+    "PHerc0009B",
+    "PHerc0500P2",
+    "PHerc0841"
+  ],
+  "upstream_model_teacher_ancestry_known": false
+}

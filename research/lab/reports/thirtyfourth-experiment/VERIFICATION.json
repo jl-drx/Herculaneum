@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "distribution_records": 1344,
+    "distribution_values": 10752,
+    "feature_numerators": 2752512,
+    "metric_records": 2688,
+    "pooled_FP32_values": 1376256,
+    "profile_summaries": 64,
+    "scalar_rank_metrics": 5376,
+    "scalar_spatial_depth_groups": 1680
+  },
+  "created_at_utc": "2026-10-09T11:06:28.955676+00:00",
+  "elapsed_seconds": 1.750892809999982,
+  "independent_agent": false,
+  "maximum_distribution_difference": 1.4551915228366852e-11,
+  "maximum_rank_difference": 2.220446049250313e-16,
+  "new_model_forwards": 0,
+  "new_source_requests": 0,
+  "original_primary_unchanged": true,
+  "peak_RSS_bytes": 97697792,
+  "run": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/run-v1/COMPLETE.json",
+    "sha256": "1473c7594fa15a89eced235a2bdd80b12c2c910454b616c3be64b7a89b3488ab",
+    "size_bytes": 1729
+  },
+  "status": "PASS",
+  "verifier": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/verify_audit.py",
+    "sha256": "4439e058f5e70fa507e2415fc771da8c1529cff942703f8045e6a858aa05fedd",
+    "size_bytes": 7711
+  }
+}

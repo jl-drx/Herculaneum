@@ -1,0 +1,20 @@
+{
+  "cases": [
+    "Exact distinguishable mapping qualifies",
+    "Check best cannot replace calibration choice",
+    "Calibration tie is not resolved by check performance",
+    "Matching wrong coordinates reject identification",
+    "Missing or uninformative evidence cannot qualify"
+  ],
+  "command": "PYTHONDONTWRITEBYTECODE=1 /workspace/.venvs/herculaneum/bin/python -B test_decision.py",
+  "errors": 0,
+  "failures": 0,
+  "independent_agent_review": false,
+  "reported_unittest_seconds": 0.006,
+  "scientific_CT_data_used": false,
+  "skips": 0,
+  "source_freeze_sha256": "82969d9a12f763f3cbcaae6606eafd484101c87cd621c2c7f1fec70fc56cc2bf",
+  "status": "PASS",
+  "tests": 5,
+  "working_scope": "phase30 source"
+}

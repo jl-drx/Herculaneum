@@ -1,0 +1,449 @@
+{
+  "Paris1_equal_context": {
+    "explicit_depth": {
+      "ap": 0.2246321777501663,
+      "auc": 0.7690872665978137,
+      "balanced_accuracy": 0.49864974227856895,
+      "f1": 0.010951403148528405,
+      "precision": 0.4383561643835616,
+      "sensitivity": 0.005544966210362156,
+      "specificity": 0.9917545183467757
+    },
+    "frozen_seed42": {
+      "ap": 0.2404826633205317,
+      "auc": 0.7847877146440049,
+      "balanced_accuracy": 0.5032822842657404,
+      "f1": 0.03913861022794808,
+      "precision": 0.274339153467755,
+      "sensitivity": 0.023020918486417893,
+      "specificity": 0.983543650045063
+    },
+    "raw_control": {
+      "ap": 0.2069098913947373,
+      "auc": 0.7675049598312313,
+      "balanced_accuracy": 0.49682534298397724,
+      "f1": 0.013345490716180372,
+      "precision": null,
+      "sensitivity": 0.008532965868136528,
+      "specificity": 0.985117720099818
+    }
+  },
+  "Paris2_equal_fragment": {
+    "explicit_depth": {
+      "ap": 0.31303749904646827,
+      "auc": 0.6470743105618528,
+      "balanced_accuracy": 0.5013483709946329,
+      "f1": 0.03501640063425822,
+      "precision": 0.43669459293058244,
+      "sensitivity": 0.018330140787013706,
+      "specificity": 0.9843666012022523
+    },
+    "frozen_seed42": {
+      "ap": 0.3842856729084452,
+      "auc": 0.6576421877658194,
+      "balanced_accuracy": 0.5055501296193632,
+      "f1": 0.049115885407920994,
+      "precision": 0.4752064027607512,
+      "sensitivity": 0.025980527515369004,
+      "specificity": 0.9851197317233575
+    },
+    "raw_control": {
+      "ap": 0.3049922230937382,
+      "auc": 0.6285177339525807,
+      "balanced_accuracy": 0.5043510620468121,
+      "f1": 0.04122143909431439,
+      "precision": 0.27762340742132124,
+      "sensitivity": 0.02290872219173276,
+      "specificity": 0.9857934019018916
+    }
+  },
+  "R2_worker_secret_delivery_verified": false,
+  "actual_calls": {
+    "adapter_forwards": 748,
+    "backwards": 64,
+    "decoder_input_backwards": 64,
+    "optimizer_steps": 64,
+    "original_2d_network": 1112,
+    "original_depth_fusion": 364,
+    "original_full_model": 364
+  },
+  "adopted_baseline": "unchanged strict seed42",
+  "call_count_note": "Original full-model calls include fusion/network component calls; counts overlap.",
+  "conclusion": "Explicit depth beats matched raw control but fails five baseline-retention criteria; retain unchanged seed42.",
+  "controller_wall_seconds": {
+    "development": 52.20534780299931,
+    "training": 55.72394315299971
+  },
+  "created_at_utc": "2026-10-08T23:59:48.000044+00:00",
+  "decision": "No promotion or GPU scaling. Next: bounded Frag6 structural check and training-only preservation-support audit before a separately frozen objective study.",
+  "evidence": {
+    "code_freeze": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/implementation/code-freeze.json",
+      "sha256": "f96dbe6d96a37a507f2b17bfeb32caf2039ceceea045fbc9a9c2b3d6dbc69ab4",
+      "size_bytes": 3003
+    },
+    "configuration": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/EXPERIMENT_CONFIG.json",
+      "sha256": "8bbf9a4a4f6a298d054551550bb9badf9bd6a37e2fb63b214f97b2d2c42c0b40",
+      "size_bytes": 2671
+    },
+    "development": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/implementation/run/development-results.json",
+      "sha256": "a04a7b305fd444f5adf551ccaba2ae1f47fe7b2c13e2e5e6e219afc124944e5f",
+      "size_bytes": 3924
+    },
+    "figure": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/figures/depth-fusion-study.png",
+      "sha256": "7761dd00615c4ca010181875491f82c06e1449fa4748e5d305cf7eaed7b0210e",
+      "size_bytes": 230802
+    },
+    "figure_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/ROOT_VISUAL_REVIEW.json",
+      "sha256": "9d6c23ccf57616c8320dfc52f15afaa8cc7315d5a00af3bdf6334c446d5b8e38",
+      "size_bytes": 1057
+    },
+    "frag6_plan": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/frag6-plan/GEOMETRY_ACQUISITION_PLAN.json",
+      "sha256": "940973d6fccd51dd9d534341e1329a754f7e85b96bd233438b187b036b4619dd",
+      "size_bytes": 18370
+    },
+    "frag6_seal": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/frag6-plan/retention-manifest.json",
+      "sha256": "d3981ca370b20b2269123e13c580aaa520e031e74b08474ec5bcd3fc3132cafd",
+      "size_bytes": 1523
+    },
+    "head_ledger": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/frag6-plan/head-request-ledger.json",
+      "sha256": "0e167f305e41f6ae24c3525248ce761ee9d907be3fb7a3ce75a587137127b473",
+      "size_bytes": 6671
+    },
+    "metrics": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/analysis/metrics.json",
+      "sha256": "60bb52efcff810830543941e5081f61e9570cb598a772b97c4c2633a1cce0be6",
+      "size_bytes": 44856
+    },
+    "next_study": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "42df4d4e16f44087c5c3726464ab1d83ed831c0649d3a27eb6f21b7dacd7f50c",
+      "size_bytes": 6484
+    },
+    "numerical_review_seal": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/independent-review/retention-manifest.json",
+      "sha256": "e34d33b0d838c5751d0fe27433dc80703ef16f7036c472efd9385c2bdbb7b85a",
+      "size_bytes": 4991
+    },
+    "numerical_verification": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/independent-review/verification.json",
+      "sha256": "7bc5049ceb9a04f728b334594261cda77c01dd34cebfb20310cdf9c8779b7ac0",
+      "size_bytes": 3337
+    },
+    "plan": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/implementation/final-plan/experiment-plan.json",
+      "sha256": "58bb5c64ad64db19995c87c84d1e6a1ce6585d380afeaa7ef347ac82b138d78a",
+      "size_bytes": 26679
+    },
+    "protocol": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/RESEARCH_DESIGN.md",
+      "sha256": "0c06563607d26d43e8e3e8e83c9debf5bf15bf2dc11722b1d66a2d7028bbb4a1",
+      "size_bytes": 11882
+    },
+    "report": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/RESULTS.md",
+      "sha256": "30ab4d34d3d9f350643d3ee9212598d61dc62ba1c76bcd87d224c1b3a66ddf7c",
+      "size_bytes": 10167
+    },
+    "root_GO": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/EXECUTION_GO.json",
+      "sha256": "132da974f2e6d365d6d732697cf62c87517dfe7dab9a447dea8d733832df6218",
+      "size_bytes": 2794
+    },
+    "root_prelaunch_stop": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/ROOT_PRELAUNCH_STOP.json",
+      "sha256": "16b2ac5fd49b304f4c545652c94f464d523835a4866a7b2309cc7e285e29e7f5",
+      "size_bytes": 826
+    },
+    "technical_GO": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/technical-review/TECHNICAL_GO.json",
+      "sha256": "a2c562dee20af2f930d4d5d5ec1586867f56cb29799dc57fc07403dd41fb1f61",
+      "size_bytes": 7027
+    },
+    "technical_seal": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/technical-review/retention-manifest.json",
+      "sha256": "e2dea06d871fff4b55c77eea57c6b8a0080aac6f5c3465d78751f3b0910c9054",
+      "size_bytes": 1804
+    },
+    "training": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/implementation/run/training-results.json",
+      "sha256": "f5fe986942710d05b24980e4a16946bfd7efec2a50cf12b579f1c062679b2626",
+      "size_bytes": 2757
+    }
+  },
+  "final_adapter_checkpoints": {
+    "explicit_depth": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/implementation/run/training/explicit_depth/final-adapter.pth",
+      "sha256": "cb868b2606f4af63c80a9bebc225c24abd5feec213616df785c745d6c8edb5e1",
+      "size_bytes": 23705
+    },
+    "raw_control": {
+      "path": "/workspace/herculaneum-lab/reports/twentieth-experiment/implementation/run/training/raw_control/final-adapter.pth",
+      "sha256": "03fc531bd010526f709f6aa748559048e36aabe0976322efa8b814a765db0ce4",
+      "size_bytes": 23705
+    }
+  },
+  "independent_confirmation_ready": false,
+  "limitations": [
+    "All six Paris contexts are reused development, not independent confirmation.",
+    "Paris2 and all aliases remain excluded from gradients, teachers and cutoff fitting.",
+    "The coordinate/difference feature bundle changes jointly; no separate causal attribution.",
+    "Original annotation and teacher ancestry remain unresolved.",
+    "Numerical verification does not replay convolution/autograd or independently decode checkpoints.",
+    "Lower training risk and better relative-to-control scores do not preserve baseline performance.",
+    "Frag6 Stage A is a plan awaiting implementation, synthetic fixtures and source/plan review; Stage C remains blocked.",
+    "Local retention and draft saving are not external backup or verified fresh-task restoration."
+  ],
+  "network": {
+    "external_uploads": 0,
+    "public_HEAD_requests": 4,
+    "response_body_bytes": 0,
+    "response_body_reads": 0,
+    "scientific_worker_requests": 0
+  },
+  "new_artifacts_uploaded_to_R2": false,
+  "new_candidate_scores": 0,
+  "numerical_verification_status": "PASS",
+  "paid_GPU_spend_GBP": 0,
+  "promoted_model": null,
+  "publication": false,
+  "purpose": "Matched raw versus explicit-depth feature fusion on the frozen seed42 backbone",
+  "retained_backbone_loads": 4,
+  "root_prelaunch_stops_before_worker_start": 1,
+  "saved_backbone_checkpoints": 0,
+  "schema_version": 1,
+  "scientific_optimizer_updates": 64,
+  "scientific_screen": {
+    "Paris2_development_ap_advantage": {
+      "margin": 0.00304527595273008,
+      "passed": true,
+      "required_minimum": 0.005,
+      "value": 0.00804527595273008
+    },
+    "Paris2_development_auc_advantage": {
+      "margin": 0.013556576609272123,
+      "passed": true,
+      "required_minimum": 0.005,
+      "value": 0.018556576609272124
+    },
+    "frag1-context1_ap_retention": {
+      "margin": 0.03027525841259913,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.01027525841259913
+    },
+    "frag1-context1_auc_retention": {
+      "margin": 0.05903781186726008,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.039037811867260075
+    },
+    "frag1-context2_ap_retention": {
+      "margin": -0.18171771235835552,
+      "passed": false,
+      "required_minimum": -0.02,
+      "value": -0.2017177123583555
+    },
+    "frag1-context2_auc_retention": {
+      "margin": -0.07916312312744013,
+      "passed": false,
+      "required_minimum": -0.02,
+      "value": -0.09916312312744013
+    },
+    "frag2-context1_ap_retention": {
+      "margin": 0.014929618461007304,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": -0.0050703815389926965
+    },
+    "frag2-context1_auc_retention": {
+      "margin": 0.03468497890455012,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.014684978904550117
+    },
+    "frag2-context2_ap_retention": {
+      "margin": -0.06847985996315854,
+      "passed": false,
+      "required_minimum": -0.02,
+      "value": -0.08847985996315855
+    },
+    "frag2-context2_auc_retention": {
+      "margin": 0.02316882353976411,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.0031688235397641096
+    },
+    "frag3-context1_ap_retention": {
+      "margin": -0.03200555118935648,
+      "passed": false,
+      "required_minimum": -0.02,
+      "value": -0.052005551189356486
+    },
+    "frag3-context1_auc_retention": {
+      "margin": -0.021872850820612206,
+      "passed": false,
+      "required_minimum": -0.02,
+      "value": -0.041872850820612206
+    },
+    "frag3-context2_ap_retention": {
+      "margin": 0.040304580048625735,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.02030458004862573
+    },
+    "frag3-context2_auc_retention": {
+      "margin": 0.030471954728229927,
+      "passed": true,
+      "required_minimum": -0.02,
+      "value": 0.010471954728229926
+    },
+    "full_risk_advantage_vs_raw_control": {
+      "margin": 0.00016519127501578589,
+      "passed": true,
+      "required_minimum": 0.0001,
+      "value": 0.0002651912750157859
+    },
+    "training_base_improvement": {
+      "margin": 0.006384480574727058,
+      "passed": true,
+      "required_minimum": 0.0001,
+      "value": 0.006484480574727058
+    },
+    "training_full_improvement": {
+      "margin": 0.0031447361922705033,
+      "passed": true,
+      "required_minimum": 0.0001,
+      "value": 0.003244736192270503
+    }
+  },
+  "scientific_screen_passed": false,
+  "scientific_worker_retries": 0,
+  "status": "completed_execution_verified_scientific_screen_failed",
+  "threshold": 0.7558947205543518,
+  "threshold_fits": 0,
+  "total_first_GPU_pilot_cap_GBP": 10,
+  "training": {
+    "explicit_depth": {
+      "final": {
+        "base": 0.5905926935374737,
+        "full": 0.5938324379199302,
+        "hard_bce": 0.3163772486150265,
+        "kl": 0.003239744382456529,
+        "probability_drift_manual": 0.016522032915260273
+      },
+      "final_adapter_state_sha256": "c10ea6403e4600dc7ed19ea0a1b6b890e4641e4c404949bf0a157cd0c31d71ee",
+      "fixed_updates": {
+        "1": {
+          "base": 0.5963107775896788,
+          "full": 0.5965197687255314,
+          "hard_bce": 0.3243032842874527,
+          "kl": 0.00020899113585259833,
+          "probability_drift_manual": 0.004008885806179553
+        },
+        "16": {
+          "base": 0.5940701421350241,
+          "full": 0.5969593414868015,
+          "hard_bce": 0.32089585810899734,
+          "kl": 0.002889199351777432,
+          "probability_drift_manual": 0.015057373835236603
+        },
+        "32": {
+          "base": 0.5905926935374737,
+          "full": 0.5938324379199302,
+          "hard_bce": 0.3163772486150265,
+          "kl": 0.003239744382456529,
+          "probability_drift_manual": 0.016522032915260273
+        },
+        "8": {
+          "base": 0.5947320889681578,
+          "full": 0.5964826783043268,
+          "hard_bce": 0.32142122369259596,
+          "kl": 0.0017505893361690397,
+          "probability_drift_manual": 0.011797631433947358
+        }
+      },
+      "improvement": {
+        "base": 0.006484480574727058,
+        "full": 0.003244736192270503
+      },
+      "initial": {
+        "base": 0.5970771741122007,
+        "full": 0.5970771741122007,
+        "hard_bce": 0.325393246486783,
+        "kl": 0.0,
+        "probability_drift_manual": 0.0
+      }
+    },
+    "raw_control": {
+      "final": {
+        "base": 0.5920359622687101,
+        "full": 0.594097629194946,
+        "hard_bce": 0.3154183514416218,
+        "kl": 0.00206166692623595,
+        "probability_drift_manual": 0.01207843949018567
+      },
+      "final_adapter_state_sha256": "c37109904c7249ce4385ff2768572fed6658aab1940df2ebeffbc49182d22c24",
+      "fixed_updates": {
+        "1": {
+          "base": 0.5952535960823298,
+          "full": 0.5962595972631032,
+          "hard_bce": 0.32306161895394325,
+          "kl": 0.0010060011807734026,
+          "probability_drift_manual": 0.008997593727795874
+        },
+        "16": {
+          "base": 0.5941440835595131,
+          "full": 0.5977674771455631,
+          "hard_bce": 0.3214687444269657,
+          "kl": 0.003623393586050049,
+          "probability_drift_manual": 0.01609754488549497
+        },
+        "32": {
+          "base": 0.5920359622687101,
+          "full": 0.594097629194946,
+          "hard_bce": 0.3154183514416218,
+          "kl": 0.00206166692623595,
+          "probability_drift_manual": 0.01207843949018567
+        },
+        "8": {
+          "base": 0.5941881127655506,
+          "full": 0.5961544240065053,
+          "hard_bce": 0.32296866178512573,
+          "kl": 0.0019663112409547584,
+          "probability_drift_manual": 0.012794535161404193
+        }
+      },
+      "improvement": {
+        "base": 0.005041211843490601,
+        "full": 0.0029795449172547173
+      },
+      "initial": {
+        "base": 0.5970771741122007,
+        "full": 0.5970771741122007,
+        "hard_bce": 0.325393246486783,
+        "kl": 0.0,
+        "probability_drift_manual": 0.0
+      }
+    }
+  },
+  "training_worker_resources": {
+    "explicit_depth": {
+      "peak_rss_bytes": 1318334464,
+      "wall_seconds": 26.308484836999924
+    },
+    "raw_control": {
+      "peak_rss_bytes": 1327681536,
+      "wall_seconds": 26.59320019900042
+    }
+  },
+  "transcription": null,
+  "translation": null
+}

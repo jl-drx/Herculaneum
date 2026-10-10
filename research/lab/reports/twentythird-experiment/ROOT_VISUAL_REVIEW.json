@@ -1,0 +1,27 @@
+{
+  "caveat": "Gray areas include inherited unknown/support exclusions and must not be interpreted as model uncertainty or discovered ink. No Greek transcription or translation was attempted.",
+  "created_at_utc": "2026-10-09T05:36:44.252752+00:00",
+  "decision": "Mixed regional transfer:retain seed42 baseline;native remains a contrasting reference.",
+  "figures": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/visuals/render-v1/paris1-whole-contexts.png",
+      "sha256": "1185dbcf93bef17aa94f0f1a9a2157e9860ca54cb5a1b46ded9fdaf0ee0a98a5",
+      "size_bytes": 726267
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/visuals/render-v1/paris2-whole-contexts.png",
+      "sha256": "44f08ccf17235babe9bc01d0ae4185b09b39bcc4800df2e9d4e18240e564b5fe",
+      "size_bytes": 1285182
+    }
+  ],
+  "observations": {
+    "frag1-context1": "Both models show high responses in supplied-background regions and uneven response on the supplied stroke. Neither is a reliable qualitative reading here.",
+    "frag1-context2": "Native raises response along several supplied strokes while lowering some off-stroke patches, consistent with higher AP.",
+    "frag2-context1": "Native changes background/stroke contrasts but the supplied stroke remains uneven; the numerical gain does not imply complete text recovery.",
+    "frag2-context2": "Native more strongly follows portions of the supplied large stroke while also raising some background; raw ranking metrics improve.",
+    "frag3-context1": "Both maps follow parts of the upper supplied strokes; native raises substantial supplied-background regions and lowers some strong seed42 responses. AP rises but AUC falls.",
+    "frag3-context2": "Native suppresses several lower supplied strokes relative to seed42 while elevating broad upper/background regions. This is consistent with the independently measured ranking regression; physical cause is not identified."
+  },
+  "scope": "All six whole-context fixed-scale panels viewed; qualitative comparison only, no new masks,crops,modelcalls or metric selection.",
+  "status": "COMPLETE_ROOT_VISUAL_REVIEW"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "Metadata only; no tensor/model execution",
+  "interpreter": "/workspace/.venvs/herculaneum/bin/python",
+  "versions": {
+    "python": "3.12.14",
+    "architecture": "x86_64",
+    "torch": "2.12.0+cpu",
+    "numpy": "2.5.3",
+    "numcodecs": "0.17.0"
+  },
+  "ninth_environment": {
+    "path": "/workspace/herculaneum-lab/reports/ninth-experiment/ROOT_ENVIRONMENT_PREFLIGHT.json",
+    "size_bytes": 535,
+    "sha256": "1ca27707c51881cff4c7870aff9d4bab99b3075c1e230ea7322b621771af9899"
+  },
+  "disk_free_bytes": 30539227136,
+  "new_dependencies": false,
+  "paid_resources_created": false
+}

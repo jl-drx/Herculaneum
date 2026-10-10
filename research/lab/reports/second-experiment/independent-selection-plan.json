@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-10-08T06:18:53.361870+00:00",
+  "status": "three contexts selected",
+  "inputs": {
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-surface980/surface.npy": "47e18003d1d3a0118cdd9ade63d9b21f2a8d17ba7d31dcfbc872b50b7417a570",
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-surface980/provenance.json": "b939d230a906341a1ce678957db62b379ddcdf45f723e54ca5b0f7d2007b8e58",
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-surface-geometry/full-surface-valid-mask.npy": "a5ec3b003135871f517528f789cf62f112a79b4ac99f5e5324bb4162faea41f8",
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-surface-geometry/full-surface-geometry-summary.json": "c9d791aa64c499fdd03edface7252bd0b3c8f51ac30a88b64d6e216232ce818d"
+  },
+  "selection_code_sha256": "45f42056784ef5a8d284920cee1333e52c60d2da8bbc6c5ae3aede29e3410f2f",
+  "criteria": {
+    "input_model_scores_used": false,
+    "context_shape_yx": [
+      256,
+      256
+    ],
+    "origin_grid_stride_xy": [
+      64,
+      64
+    ],
+    "origin_grid_start_xy": [
+      0,
+      0
+    ],
+    "origin_grid_last_xy": [
+      704,
+      704
+    ],
+    "excluded_bboxes_source_xywh": [
+      [
+        256,
+        256,
+        256,
+        256
+      ],
+      [
+        512,
+        448,
+        256,
+        256
+      ]
+    ],
+    "bbox_overlap": "positive-area intersection of half-open rectangles; touching edges permitted",
+    "minimum_geometry_valid_fraction": 0.5,
+    "observed_data_definition": "any nonzero raw uint8 intensity among inference layers7:24; no intensity-ranking/contrast/detector feature used",
+    "minimum_observed_fraction_among_geometry_valid": 0.95,
+    "ranking": "geometry-valid fraction descending; observed-data fraction descending; y ascending; x ascending",
+    "packing": "greedily retain ranked contexts with no positive-area overlap until three contexts selected"
+  },
+  "candidate_count": 21,
+  "discarded_for_excluded_bbox_overlap": 86,
+  "discarded_for_coverage": 37,
+  "ranked_candidates": [
+    {
+      "bbox_source_xywh": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 65536,
+      "geometry_valid_fraction": 1.0,
+      "observed_valid_pixels": 65536,
+      "observed_fraction_among_geometry_valid": 1.0
+    },
+    {
+      "bbox_source_xywh": [
+        256,
+        576,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 65536,
+      "geometry_valid_fraction": 1.0,
+      "observed_valid_pixels": 65536,
+      "observed_fraction_among_geometry_valid": 1.0
+    },
+    {
+      "bbox_source_xywh": [
+        512,
+        192,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 64832,
+      "geometry_valid_fraction": 0.9892578125,
+      "observed_valid_pixels": 64332,
+      "observed_fraction_among_geometry_valid": 0.9922877591312932
+    },
+    {
+      "bbox_source_xywh": [
+        192,
+        512,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 64272,
+      "geometry_valid_fraction": 0.980712890625,
+      "observed_valid_pixels": 63592,
+      "observed_fraction_among_geometry_valid": 0.9894199651481205
+    },
+    {
+      "bbox_source_xywh": [
+        256,
+        640,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 62480,
+      "geometry_valid_fraction": 0.953369140625,
+      "observed_valid_pixels": 61100,
+      "observed_fraction_among_geometry_valid": 0.9779129321382842
+    },
+    {
+      "bbox_source_xywh": [
+        512,
+        128,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 62400,
+      "geometry_valid_fraction": 0.9521484375,
+      "observed_valid_pixels": 61380,
+      "observed_fraction_among_geometry_valid": 0.9836538461538461
+    },
+    {
+      "bbox_source_xywh": [
+        192,
+        576,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 61440,
+      "geometry_valid_fraction": 0.9375,
+      "observed_valid_pixels": 60220,
+      "observed_fraction_among_geometry_valid": 0.9801432291666666
+    },
+    {
+      "bbox_source_xywh": [
+        512,
+        64,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 58160,
+      "geometry_valid_fraction": 0.887451171875,
+      "observed_valid_pixels": 56120,
+      "observed_fraction_among_geometry_valid": 0.9649243466299863
+    },
+    {
+      "bbox_source_xywh": [
+        192,
+        640,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 56480,
+      "geometry_valid_fraction": 0.86181640625,
+      "observed_valid_pixels": 54340,
+      "observed_fraction_among_geometry_valid": 0.9621104815864022
+    },
+    {
+      "bbox_source_xywh": [
+        576,
+        192,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 56400,
+      "geometry_valid_fraction": 0.860595703125,
+      "observed_valid_pixels": 54740,
+      "observed_fraction_among_geometry_valid": 0.9705673758865249
+    },
+    {
+      "bbox_source_xywh": [
+        128,
+        512,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 54800,
+      "geometry_valid_fraction": 0.836181640625,
+      "observed_valid_pixels": 53124,
+      "observed_fraction_among_geometry_valid": 0.9694160583941606
+    },
+    {
+      "bbox_source_xywh": [
+        576,
+        128,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 50064,
+      "geometry_valid_fraction": 0.763916015625,
+      "observed_valid_pixels": 48004,
+      "observed_fraction_among_geometry_valid": 0.9588526685842123
+    },
+    {
+      "bbox_source_xywh": [
+        448,
+        0,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 49536,
+      "geometry_valid_fraction": 0.755859375,
+      "observed_valid_pixels": 47116,
+      "observed_fraction_among_geometry_valid": 0.9511466408268734
+    },
+    {
+      "bbox_source_xywh": [
+        256,
+        704,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 48656,
+      "geometry_valid_fraction": 0.742431640625,
+      "observed_valid_pixels": 46336,
+      "observed_fraction_among_geometry_valid": 0.9523183163433081
+    },
+    {
+      "bbox_source_xywh": [
+        128,
+        576,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 48064,
+      "geometry_valid_fraction": 0.7333984375,
+      "observed_valid_pixels": 46004,
+      "observed_fraction_among_geometry_valid": 0.9571404793608522
+    },
+    {
+      "bbox_source_xywh": [
+        384,
+        0,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 44096,
+      "geometry_valid_fraction": 0.6728515625,
+      "observed_valid_pixels": 42136,
+      "observed_fraction_among_geometry_valid": 0.9555515239477503
+    },
+    {
+      "bbox_source_xywh": [
+        320,
+        704,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 44096,
+      "geometry_valid_fraction": 0.6728515625,
+      "observed_valid_pixels": 42136,
+      "observed_fraction_among_geometry_valid": 0.9555515239477503
+    },
+    {
+      "bbox_source_xywh": [
+        0,
+        320,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 43696,
+      "geometry_valid_fraction": 0.666748046875,
+      "observed_valid_pixels": 41736,
+      "observed_fraction_among_geometry_valid": 0.9551446356645917
+    },
+    {
+      "bbox_source_xywh": [
+        576,
+        64,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 43344,
+      "geometry_valid_fraction": 0.661376953125,
+      "observed_valid_pixels": 41200,
+      "observed_fraction_among_geometry_valid": 0.9505352528608343
+    },
+    {
+      "bbox_source_xywh": [
+        128,
+        640,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 41024,
+      "geometry_valid_fraction": 0.6259765625,
+      "observed_valid_pixels": 38980,
+      "observed_fraction_among_geometry_valid": 0.9501755070202809
+    },
+    {
+      "bbox_source_xywh": [
+        640,
+        192,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 40560,
+      "geometry_valid_fraction": 0.618896484375,
+      "observed_valid_pixels": 38580,
+      "observed_fraction_among_geometry_valid": 0.9511834319526628
+    }
+  ],
+  "selected": [
+    {
+      "bbox_source_xywh": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 65536,
+      "geometry_valid_fraction": 1.0,
+      "observed_valid_pixels": 65536,
+      "observed_fraction_among_geometry_valid": 1.0,
+      "id": "independent-01"
+    },
+    {
+      "bbox_source_xywh": [
+        512,
+        192,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 64832,
+      "geometry_valid_fraction": 0.9892578125,
+      "observed_valid_pixels": 64332,
+      "observed_fraction_among_geometry_valid": 0.9922877591312932,
+      "id": "independent-02"
+    },
+    {
+      "bbox_source_xywh": [
+        0,
+        320,
+        256,
+        256
+      ],
+      "geometry_valid_pixels": 43696,
+      "geometry_valid_fraction": 0.666748046875,
+      "observed_valid_pixels": 41736,
+      "observed_fraction_among_geometry_valid": 0.9551446356645917,
+      "id": "independent-03"
+    }
+  ],
+  "frozen_inference": {
+    "checkpoint_repository_revision": "7109667e2607db1b90c37c8b09cb876ea7fe7bb1",
+    "checkpoints": [
+      "hybrid_3d2d-seed42/step-075000.pth",
+      "hybrid_3d2d-seed43/step-075000.pth"
+    ],
+    "layer_start_stop": [
+      7,
+      24
+    ],
+    "direction": "forward",
+    "tile_zyx": [
+      17,
+      128,
+      128
+    ],
+    "stride_xy": [
+      64,
+      64
+    ],
+    "normalization": "upstream robustMAD1/99 per full patch",
+    "model_scores_retained": "unquantized float32 per seed with geometry masks",
+    "diagnostic_midpoint_threshold": 0.5,
+    "summary_domain": "central128\u00d7128 AND geometry-valid AND both seeds evaluated AND any nonzero source data among selected17depthlayers"
+  },
+  "limitations": [
+    "All of this field was already model-scored in the first experiment; these are prediction-independent selections, not unseen or held-out validation.",
+    "A human reviewer previously saw first-experiment panels; the reproducible selection algorithm itself does not access predictions.",
+    "Disjoint render contexts are dependent observations from the same scroll/segment and shared training corpus.",
+    "The third context can be partially geometrically invalid; only common valid/evaluated/observed pixels enter its summaries.",
+    "0.5 is a fixed midpoint diagnostic, not an ink label, accuracy estimate or authenticity probability."
+  ]
+}

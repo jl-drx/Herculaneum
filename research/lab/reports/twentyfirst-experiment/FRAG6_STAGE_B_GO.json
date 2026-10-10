@@ -1,0 +1,22 @@
+{
+  "allow_conditional_ppm_geometry": true,
+  "allow_live_requests": true,
+  "created_at_utc": "2026-10-09T00:33:53.053890+00:00",
+  "gpu_spend_GBP": 0,
+  "maximum_attempts": 1,
+  "maximum_reserved_response_body_bytes": 222640,
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-stage-b/execution-plan.json",
+    "sha256": "d56b1e1a9b3ecffcc54de01cf574ff00b926ba2b83a9c857cb566d1211d563f8",
+    "size_bytes": 55095
+  },
+  "plan_sha256": "d56b1e1a9b3ecffcc54de01cf574ff00b926ba2b83a9c857cb566d1211d563f8",
+  "scope": "Exactly fixed243parts/729records; conditional endian and sparse geometry only. No image/model/labels/StageC or source/anatomy/ink-depth conclusion. Invalid fixed sites remain unreplaced.",
+  "stage": "B_sparse_ppm",
+  "status": "GO",
+  "technical_review": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-b-review/TECHNICAL_GO.json",
+    "sha256": "8ca173db1eabefa10e7915f8d9fe4ecf8e6dddfba9188e319f37aff77efdb4a9",
+    "size_bytes": 3866
+  }
+}

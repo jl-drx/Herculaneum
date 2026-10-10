@@ -1,0 +1,15 @@
+# Independent native checkpoint integrity and value verification
+
+**PASS.** The frozen independent safetensors 0.8.0 reader verified the complete pinned artifact on its first actual execution. The file is 272,767,904 bytes with SHA256 `d3d95dc41dcb24ed76b84b5e12ca5dae25d7fb34edf1dfbb93e0186f91e6fc6d`. Both its prefix and header exactly match the retained phase 21 bytes. All 508 named tensors have the expected F32 shapes; all 68,175,426 named elements are finite. Every one of the 244 declared factory alias pairs is bytewise equal, including signed zero. There was no tolerance change.
+
+The factory partition consequently has 264 groups and 34,546,498 unique parameter values by the declared alias grouping, totaling 138,185,992 bytes. The file itself still serializes 508 separate contiguous nonoverlapping intervals with 272,701,704 tensor-data bytes. Equality of aliases is established; shared serialized storage is not claimed. This resolves the earlier named-element-versus-factory-parameter-count discrepancy for this specific artifact.
+
+The independent checker uses `safetensors.safe_open(..., framework='numpy')`, distinct from the producer's raw byte parser, with separate header/schema checks. Complete file integrity is checked before reading values and again afterward. Preparation froze the checker and exact acceptance rules before downloading any actual tensor values. Its 33 synthetic acceptance cases passed, including NaN/infinity rejection, signed-zero and one-ULP alias mismatches, malformed descriptors and intervals, and a wrong-hash guard that prevents the tensor reader from opening. Separate technical review ran 13 fake-transport boundary probes; all passed.
+
+Actual verification used 0.4923 seconds wall time, 0.4902 CPU seconds and 319,954,944 bytes measured peak RSS. Socket operations were blocked. There were zero model constructions, forwards, optimizer steps and verification network calls. The verified acquisition had two HTTPS attempts, one redirect and 272,769,016 observed response-body bytes, within all planned limits. No acquisition or artifact-verification retry occurred.
+
+The independent and producer results agree on counts, all 244 alias pairs and 488 pair-member hashes. An additional receipt-comparison script initially stopped because it compared the producer's relative artifact path to the independent absolute path directly. The original script and STOP receipt remain retained. A second comparison script resolves that path using the controller's captured absolute output location; it passed without rerunning the artifact checker, changing acceptance criteria or making a network call.
+
+Stage 1 qualifies this artifact's identity, format, finiteness and alias equality. Strict model loading, forward parity, historical Torch/CUDA reproduction, preprocessing, accuracy and transfer remain unverified. Stage 2 requires the separately reviewed source-bound protocol.
+
+Primary evidence: `verification-v1.json`, `receipt-comparison.json`, `CHECKER_FREEZE.json`, `TECHNICAL_GO.json`. Root's earlier prelaunch enum/file-location STOP belongs to its separate preserved receipt and was not an actual retrieval attempt.

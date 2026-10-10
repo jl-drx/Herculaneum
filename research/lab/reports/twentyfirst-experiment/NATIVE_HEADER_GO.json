@@ -1,0 +1,19 @@
+{
+  "GPU_spend_GBP": 0,
+  "created_at_utc": "2026-10-09T00:35:07.230798+00:00",
+  "external_wall_seconds": 210,
+  "interpretation": "Header schema compatibility only; actual values, alias-value equality, full SHA and strict load remain unverified.",
+  "maximum_attempts": 6,
+  "maximum_observed_response_body_bytes": 262144,
+  "maximum_redirects": 4,
+  "per_request_absolute_wall_seconds": 30,
+  "permitted_actions": "Implement/synthetic-test bounded transport and header/schema validation; freeze source before network; execute exact two logical range reads once with allowed redirects, no retries/fallback/host expansion.",
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/native-checkpoint-contract/HEADER_QUERY_PLAN.json",
+    "sha256": "cdd8be455ddb2fc4e8e5baa225a22120fbc17d178e9083be8a8f847a18ed441f",
+    "size_bytes": 7171
+  },
+  "sanitization": "No signed Location/query or raw transport exception strings in logs. Redirect/error bodies can include signed URLs: retain only their byte counts/hash and sanitized status, not raw bodies. Header JSON and 8-byte prefix are retained.",
+  "scope": "Pinned native checkpoint safetensors prefix/header only; no tensor values/fullweight/model calls",
+  "status": "GO"
+}

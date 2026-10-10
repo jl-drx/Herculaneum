@@ -1,0 +1,13 @@
+{
+  "status": "PRE_OUTPUT_CHECKER_ORDER_CORRECTION",
+  "reason": "JSON sorts context dictionary keys, while stored failure lists retain original case order; compare the same exact failures independent of list order.",
+  "original_checker_preserved": true,
+  "scientific_code_changes": 0,
+  "tolerance_changes": 0,
+  "source": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyseventh-experiment/verify_evaluation_v2.py",
+    "size_bytes": 6318,
+    "sha256": "9ab85dafcd3efcfacb1141c4119d5a8142cda60fa3176bd228efd4833f29b2ea"
+  },
+  "actual_checker_executions": 0
+}

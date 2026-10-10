@@ -1,0 +1,13 @@
+# Independent review of the joint context comparison
+
+Reviewed `comparison/context-comparison.png`, using the displayed observed views, supplied annotation overlay, separate seed maps and minimum-seed maps. No glyph identity or ancient text was supplied during this review.
+
+**No target panel currently supports a coherent letterform or reading.** The organized response in the supplied-label control shows a materially different visual pattern from the target responses, but cannot authenticate target ink.
+
+The PHerc1667 control contains a connected curved annotation band. Both seed maps closely reproduce its broad shape and its comparatively sharp boundary against a dark interior region. This confirms that the running pipeline can produce an organized response resembling the released annotation. Supplied labels, including pseudo-labels, are not independent truth; training exposure and annotation provenance limit what this agreement establishes. Saturation at the common display limits also prevents judging score differences from brightness alone.
+
+In PHerc0800, the original hotspot remains a soft, approximately rounded response with an uneven halo. The seeds share its main location but differ in surrounding extent. It does not resolve a sequence of narrow strokes, stable junctions or a consistently bounded character shape. Geometry contexts 1 and 2 have weak or uneven central responses; their brighter peripheral patches differ between seeds. Context 3 has diffuse bright regions adjoining the stepped geometry boundary, with appreciable differences in their location and extent. The minimum-seed display retains a boundary-associated patch rather than a resolved character structure.
+
+The observed target views contain strong directional material texture, irregular gaps and bright points. These panels do not establish that the model responses trace a distinct writing layer through depth, nor do they establish the physical cause of those responses. Lack of a readable pattern here does not prove absence of ink.
+
+**Next research gate:** require a bounded target candidate to preserve source-supported stroke geometry under predefined depth-window and normal-direction controls, with direct source/mesh registration and explicit exclusion or separate examination of geometry-boundary effects. Keep coordinates and display limits fixed, retain disagreeing outcomes, and obtain independent stroke-level review before entering any letters into a transcription. Separately, model accuracy would require independently vetted ink/background evidence with documented training separation; agreement with the current supplied-label control cannot provide that validation.

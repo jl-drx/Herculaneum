@@ -1,0 +1,219 @@
+{
+  "source_repository": "https://github.com/ScrollPrize/villa",
+  "source_commit": "e0bbb8b40a2db58b1d71864f286eb85717e59e64",
+  "license": "MIT",
+  "namespace_note": "Focused unmodified modules under a Python namespace package; upstream package initializers and install metadata intentionally absent. This is a standalone adapter, not an installation of the complete vesuvius package.",
+  "files": [
+    {
+      "path": "vesuvius/image_proc/intensity/normalization.py",
+      "upstream_path": "vesuvius/src/vesuvius/image_proc/intensity/normalization.py",
+      "git_blob_sha1": "3ad31df4fc05981e97e077a0476a9cd97b2c57b8",
+      "sha256": "52b9d950ad339ff251195bb0b62cc9f7ec9add8617294c7920b825f192ab700e",
+      "size_bytes": 7742
+    },
+    {
+      "path": "vesuvius/ink_detection/config.py",
+      "upstream_path": "vesuvius/src/vesuvius/ink_detection/config.py",
+      "git_blob_sha1": "b60c28bba0316540b242daef21ae64d574fb73be",
+      "sha256": "87fca050b5b815badd50a0118d496403cf14f335129754c1ac35abd11cb30e84",
+      "size_bytes": 61379
+    },
+    {
+      "path": "vesuvius/ink_detection/models/hybrid_3d2d.py",
+      "upstream_path": "vesuvius/src/vesuvius/ink_detection/models/hybrid_3d2d.py",
+      "git_blob_sha1": "5eb6f44c82542360bae5c992e1d31133de71ca3c",
+      "sha256": "799363ce85438e1305ed6505927f9ba61875fc4bd12433b2c5a2b9767d9ee232",
+      "size_bytes": 3188
+    },
+    {
+      "path": "vesuvius/ink_detection/models/model.py",
+      "upstream_path": "vesuvius/src/vesuvius/ink_detection/models/model.py",
+      "git_blob_sha1": "248495273899e2f78e8b480bbf63b324c7d12d50",
+      "sha256": "d58c9f24723ce4633d67b96c3283d54bd2715679f07622ef957a33c2f06faf73",
+      "size_bytes": 6032
+    },
+    {
+      "path": "vesuvius/models/build/activations.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/activations.py",
+      "git_blob_sha1": "b5539277f69e50d74acc61d59cbed2680ac870be",
+      "sha256": "f5e376d29074d8ca1a28e49205d5081a40f66dc4add4178028f9b6fa602bd680",
+      "size_bytes": 4074
+    },
+    {
+      "path": "vesuvius/models/build/build_network_from_config.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/build_network_from_config.py",
+      "git_blob_sha1": "59a9e64a0f35c5f783f6356c047416f229a35f44",
+      "sha256": "e15d0877f729cd0939c5f710da9ed6e44f92fb14d294bf2896c586a5c06dec06",
+      "size_bytes": 87040
+    },
+    {
+      "path": "vesuvius/models/build/decoder.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/decoder.py",
+      "git_blob_sha1": "4192983220267efc2a7e7019af5485e047c23a46",
+      "sha256": "71a7c0d6d8574222887ff9f82bb10d52d3044ec79f7a523a462159f48a3f8339",
+      "size_bytes": 14582
+    },
+    {
+      "path": "vesuvius/models/build/encoder.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/encoder.py",
+      "git_blob_sha1": "1e5b4dbaad9c9ba5a1de8d6f0cffe154ee9d0201",
+      "sha256": "72add206739e3843e81f89448a32850b4be2e524dff763663d4076056d2276c6",
+      "size_bytes": 8044
+    },
+    {
+      "path": "vesuvius/models/build/guidance.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/guidance.py",
+      "git_blob_sha1": "1a2bbfed83efdeb2d94b2a5b9cfdc05e6e692ee2",
+      "sha256": "20dfd2752c09e2380d3c18129dc65455b34bf68bae6e9a351d9364a159c47e60",
+      "size_bytes": 3601
+    },
+    {
+      "path": "vesuvius/models/build/mednext/blocks.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/mednext/blocks.py",
+      "git_blob_sha1": "c98af8e2eb20010723c174d7e5139ad37e4c190b",
+      "sha256": "9976dc370677361628f58be2e4d6190ef9dd62bc41bc3ded6e502ab890bbfc8c",
+      "size_bytes": 6547
+    },
+    {
+      "path": "vesuvius/models/build/mednext/factory.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/mednext/factory.py",
+      "git_blob_sha1": "b807324c20d2aae4d61b35b138d0286cc1ffa304",
+      "sha256": "0877929e76103ffd7adb4db92fc1abfc8ff90999f342a5479d36daed361ba1e0",
+      "size_bytes": 1971
+    },
+    {
+      "path": "vesuvius/models/build/mednext/v1.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/mednext/v1.py",
+      "git_blob_sha1": "24a052611600290295892e14fb2ea390726255aa",
+      "sha256": "9dcdf492a4279bd9e5e453ab0c89bacd50c5456b4496dab03a78fcb6affa8284",
+      "size_bytes": 11384
+    },
+    {
+      "path": "vesuvius/models/build/mednext_wrapper.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/mednext_wrapper.py",
+      "git_blob_sha1": "53c110b9d67d20c5fd237b25f57442f3bc6ab3cd",
+      "sha256": "8a8923181d47822a974f09fcc7e3e0e4cf2ad932f495ae21679d0711c5ef52ee",
+      "size_bytes": 9950
+    },
+    {
+      "path": "vesuvius/models/build/pretrained_backbones/__init__.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/pretrained_backbones/__init__.py",
+      "git_blob_sha1": "76955f14156272fb6cba7dac9d95e642abb1376d",
+      "sha256": "0e2a3808a93387b5fa12ace471f5d48deba172c5ad1509b93638d0bf9e1fc32c",
+      "size_bytes": 125
+    },
+    {
+      "path": "vesuvius/models/build/pretrained_backbones/dinov2.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/pretrained_backbones/dinov2.py",
+      "git_blob_sha1": "ab5d0b1446b36ff43a1738c7f0bbff129de86672",
+      "sha256": "7cfa792ce6db60023afaf5dfba29283cccb8ef56f15f8c320952a3022ff8d5b8",
+      "size_bytes": 13568
+    },
+    {
+      "path": "vesuvius/models/build/pretrained_backbones/dinovol_2_builder.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/pretrained_backbones/dinovol_2_builder.py",
+      "git_blob_sha1": "d23619e76f00ff50b7f8bcff0f7c9427e24856b8",
+      "sha256": "e6f220e475226f4b42411b15fe4d13a75b19ef9e2ca98693c26bd66fb029660d",
+      "size_bytes": 7411
+    },
+    {
+      "path": "vesuvius/models/build/pretrained_backbones/dinovol_2_eva.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/pretrained_backbones/dinovol_2_eva.py",
+      "git_blob_sha1": "9128f9062fbafcad64b8eb0f1c2c2b036635fc11",
+      "sha256": "c9b5ed9786ab99a9f89d128ad34aae05eb3acf9676abe7832c6049dade4aacf6",
+      "size_bytes": 37440
+    },
+    {
+      "path": "vesuvius/models/build/pretrained_backbones/patch_encode_decode.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/pretrained_backbones/patch_encode_decode.py",
+      "git_blob_sha1": "30585258013ff87b7f36906850c94f3ea4bf147d",
+      "sha256": "aaa3838c6b9968fddd75e86581f2c787c846d0f257c493e73dc6038384b1406e",
+      "size_bytes": 37686
+    },
+    {
+      "path": "vesuvius/models/build/pretrained_backbones/rope.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/pretrained_backbones/rope.py",
+      "git_blob_sha1": "f3fa18d7cbd0e79135ef271a05d924d1c1e71bf3",
+      "sha256": "9b459e43dafed301c98e3f8a0904c0bcef808077dbf71a145bc7e9ea18647fdf",
+      "size_bytes": 14104
+    },
+    {
+      "path": "vesuvius/models/build/primus_wrapper.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/primus_wrapper.py",
+      "git_blob_sha1": "8843d3c04a2bc6b7227092aacc6dec6f40ada4ea",
+      "sha256": "b4e4fa1a372861b80f67221ab434b9e3284b5b61357479dcbe29a16da7efbb99",
+      "size_bytes": 16708
+    },
+    {
+      "path": "vesuvius/models/build/resblocks.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/resblocks.py",
+      "git_blob_sha1": "09587cbc56bfb7d4aab9e1e03d6505b49e98b6c2",
+      "sha256": "32b1b014e824b96109788a5209e70a6be1bbb062ac9efbc67dda0cf086e7065a",
+      "size_bytes": 20837
+    },
+    {
+      "path": "vesuvius/models/build/simple_conv_blocks.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/simple_conv_blocks.py",
+      "git_blob_sha1": "5276d20fd3857336dff726fc5b9ee4d587c962e6",
+      "sha256": "44db0cd8811613a1b6d2788a279d07b381b90604a8c8966e0b481424b890ea51",
+      "size_bytes": 6400
+    },
+    {
+      "path": "vesuvius/models/build/transformers/abstract_arch.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/transformers/abstract_arch.py",
+      "git_blob_sha1": "e4f45424d513da6684bec8d3e9a074dcb5aaeddb",
+      "sha256": "5b2bb0d781217c9d11b71e69df3bcc3cfb0da8b27ae9582623dd8734477844c6",
+      "size_bytes": 1722
+    },
+    {
+      "path": "vesuvius/models/build/transformers/eva.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/transformers/eva.py",
+      "git_blob_sha1": "233e8ebb4b6e37900c733240728e68dcc3dee941",
+      "sha256": "87c3a62f1d670236efea1c570e0bcfdb0894eaf4c8ecc690562f5b8d5a6a8b60",
+      "size_bytes": 12296
+    },
+    {
+      "path": "vesuvius/models/build/transformers/flash_rope.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/transformers/flash_rope.py",
+      "git_blob_sha1": "904d3155f793c2c492275eba82514f6825d29ed1",
+      "sha256": "dcc4e76dbe7d9b91125a231be1686a1754bab1cdfdfd6f93aab89c8177ca4f05",
+      "size_bytes": 7876
+    },
+    {
+      "path": "vesuvius/models/build/transformers/patch_encode_decode.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/transformers/patch_encode_decode.py",
+      "git_blob_sha1": "90c70784eafe27cd696a80529902810e8c7a2ebf",
+      "sha256": "dd8f4a6e2afa64dcafe6da2dab1e40a1f2832ad97439f0bb334b47768f884805",
+      "size_bytes": 10690
+    },
+    {
+      "path": "vesuvius/models/build/transformers/pope.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/transformers/pope.py",
+      "git_blob_sha1": "a398be754026cdf6aac70d90244b4aeb7bfe5fcc",
+      "sha256": "461b92dc8fdab1581c5b94605387ba06a10ab53e23c35d9a404f899adf6aa5d0",
+      "size_bytes": 14724
+    },
+    {
+      "path": "vesuvius/models/build/transformers/primus.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/build/transformers/primus.py",
+      "git_blob_sha1": "91a7c539993f7d0e505167109e90fcb68d73409a",
+      "sha256": "c2357322d9af227ddd3603503430288cc9cea6b0276f12b451feb36475538c8a",
+      "size_bytes": 17469
+    },
+    {
+      "path": "vesuvius/models/utilities/utils.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/utilities/utils.py",
+      "git_blob_sha1": "fdc86152162b6a9f990e49899d9245fb87e67b47",
+      "sha256": "63ba098067e263618b01f21d790f7817a8b7e23863d9ca463cd5a69070838571",
+      "size_bytes": 20679
+    },
+    {
+      "path": "vesuvius/models/utils.py",
+      "upstream_path": "vesuvius/src/vesuvius/models/utils.py",
+      "git_blob_sha1": "983b642f44968722f312cf32c91b25bdaade97ec",
+      "sha256": "ff99435182051c91f72a590984c35bc85f5f0b89413f7e5579707bfb55a6599d",
+      "size_bytes": 16581
+    }
+  ],
+  "license_sha256": "87070eec603117b5365e2172999e81b08890aef91c1673383cf9779ee9c89976"
+}

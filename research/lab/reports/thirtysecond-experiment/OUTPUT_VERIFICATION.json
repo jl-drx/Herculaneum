@@ -1,0 +1,32 @@
+{
+  "all_frozen_sources_unchanged": true,
+  "created_at_utc": "2026-10-09T10:07:33.146021+00:00",
+  "explicit_failed_request_replays": 1,
+  "independent_rank_values": 48,
+  "limitation": "Recovery monitoring captured aggregate HTTP-worker RSS, not peak RSS of its supervising/assembling process; do not claim a verified whole-recovery RSS peak.",
+  "maximum_rank_difference": 2.220446049250313e-16,
+  "maximum_sigmoid_difference": 7.634287002566964e-08,
+  "mean_clean_baseline_AP": 0.5604088583312274,
+  "mean_clean_candidate_AP": 0.556659937781633,
+  "mean_robust_baseline_AP": 0.5577539253821537,
+  "mean_robust_candidate_AP": 0.5554930456446213,
+  "metadata_requests": 252,
+  "original_attempt_preserved_as_failure": true,
+  "primary_decision": {
+    "independent_accuracy": false,
+    "maximum_clean_loss": 0.01,
+    "mean_clean_AP_delta": -0.003748920549594255,
+    "mean_clean_AP_loss": 0.003748920549594255,
+    "mean_robust_AP_delta": -0.0022608797375323203,
+    "minimum_robust_gain": 0.01,
+    "model_promotion": false,
+    "parent_count": 1,
+    "promising_for_replication": false
+  },
+  "reviewer": "root; separate numerical formulations, not independent-agent review",
+  "root_model_forwards_added": 0,
+  "status": "PASS_SCIENTIFIC_OUTPUT_RECONCILIATION",
+  "successful_pixel_batches": 378,
+  "total_attempted_requests": 631,
+  "verified_logit_probability_arrays": 20
+}

@@ -1,0 +1,129 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "QC_tests_errors": 0,
+  "QC_tests_failed": 0,
+  "QC_tests_passed": 4,
+  "QC_tests_skipped": 0,
+  "candidate_CT_inspected": true,
+  "candidate_labels_and_optical_inspected": true,
+  "core_counts_negative_positive_unknown": [
+    9231,
+    6922,
+    231
+  ],
+  "created_at_utc": "2026-10-09T09:21:18.297168+00:00",
+  "decision": "Implement bounded historical CT crop acquisition and run fixed qualified supplied-reference CPU comparison after input/runtime verification",
+  "evidence": {
+    "CPU_PANEL_GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/CPU_PANEL_GO.json",
+      "sha256": "3a9dfa4d031bb69f237c742c3cad75afc3cc9561ad2a2c0cffd132714f5c5259",
+      "size_bytes": 831
+    },
+    "CPU_STUDY_SPEC.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/CPU_STUDY_SPEC.md",
+      "sha256": "8153f0de8e823a9a4e7ec70e88a6f15cefae1f2d15e37e7f595f040130019353",
+      "size_bytes": 5382
+    },
+    "GO.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/GO.json",
+      "sha256": "039be256c21ae980cc14bf5294d50a08bce72cae216b0a0f606a0e1f0e8372fc",
+      "size_bytes": 2029
+    },
+    "NEXT_STUDY_DRAFT.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "05e453a42e99612961ef5be0cd346b6b94420297665915c1ee0215e2422f98ae",
+      "size_bytes": 3567
+    },
+    "OPTICAL_REVIEW.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/OPTICAL_REVIEW.md",
+      "sha256": "37bccf177a5533eae97001a585c2e3f09f11844e22dc3a8f3f25df20829c3fcb",
+      "size_bytes": 2445
+    },
+    "PROTOCOL.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/PROTOCOL.md",
+      "sha256": "fc31a583ba32062cb27009e71350cd20dda6e4507c5da52a0bed88c681c4c89d",
+      "size_bytes": 4643
+    },
+    "QC_VERIFICATION.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/QC_VERIFICATION.json",
+      "sha256": "64fd802ba592f8254df9ba6bca37e1eea86834cba460595e9c1986127372714f",
+      "size_bytes": 2745
+    },
+    "REFERENCE_STATUS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/REFERENCE_STATUS.json",
+      "sha256": "78d84f11d3ecc2c0de3666e51872da48f134156841acc6fa548a5e910eb82976",
+      "size_bytes": 1999
+    },
+    "RESULTS.md": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/RESULTS.md",
+      "sha256": "059466e467dc6f799f2ce20ccac42fa1e5b6a817e1ce263970aa0e74947d00b2",
+      "size_bytes": 6115
+    },
+    "ROOT_REPORT_REVIEW.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "cbf1d3b6618784149eea9dc99dc5742a135094cd09f3f7ca2c325e46635fb23f",
+      "size_bytes": 1395
+    },
+    "TEST_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/TEST_RECEIPT.json",
+      "sha256": "2a08f83d25303ced69860287ad40de9653835d4aef85c1ee2f7fb01031955afa",
+      "size_bytes": 253
+    },
+    "acquisition-v1/PNG_OBJECTS.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/acquisition-v1/PNG_OBJECTS.json",
+      "sha256": "34e70016282d36342309d268f73e4a4686bc96b8e5fbdeb2c911214063d2f94f",
+      "size_bytes": 4639
+    },
+    "acquisition-v1/REQUEST_LEDGER.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/acquisition-v1/REQUEST_LEDGER.json",
+      "sha256": "da19088338529f66100bf22a555eed78d6421699c70dabae0459f1596630a84f",
+      "size_bytes": 3162
+    },
+    "cpu-panel-v1/CPU_PANEL.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/CPU_PANEL.json",
+      "sha256": "a542fff41b81b6c783d141a68d4a0c2051a978c2ee883d0ed10e60f2d1d78ef0",
+      "size_bytes": 5153
+    },
+    "qc-v1/PANEL.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/qc-v1/PANEL.json",
+      "sha256": "933fce0c1469e51ae7928b2ec7f2af8dd2bed07202fec6449da509dc94c9e0ae",
+      "size_bytes": 3715
+    },
+    "qc-v1/QC_SUMMARY.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/qc-v1/QC_SUMMARY.json",
+      "sha256": "adeb6927051d2dc7518cd40cde9068c3eb53dc5a64300124976a36d32d8b55d1",
+      "size_bytes": 827
+    },
+    "qc-v1/RUN_RECEIPT.json": {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/qc-v1/RUN_RECEIPT.json",
+      "sha256": "df8b6eac239f1823b3bfb8cd8517da6971038beca4351a5fce9f417392247072",
+      "size_bytes": 532
+    }
+  },
+  "full_model_execution_released": false,
+  "independent_agent_review": false,
+  "independent_ink_accuracy_established": false,
+  "maintainer_status": "User confirmed NOT SENT; no outreach",
+  "network_requests": 3,
+  "network_reserved_body_bytes": 23068675,
+  "network_response_body_bytes": 15113665,
+  "new_CT_values": 0,
+  "new_artifacts_uploaded_to_r2": false,
+  "new_candidate_ink_scores": 0,
+  "new_label_pixels_exposed": 54932865,
+  "new_optical_pixels_exposed": 54932865,
+  "optical_registration_qualified": false,
+  "parent_count": 1,
+  "publication": null,
+  "reference_support_bound": true,
+  "scalar_label_checks": 65536,
+  "schema_version": 1,
+  "scientific_model_forwards": 0,
+  "scientific_optimizer_updates": 0,
+  "selected_contexts": 4,
+  "status": "completed_reference_QC_and_fixed_CPU_label_contract",
+  "submission": null,
+  "transcription": null,
+  "translation": null
+}

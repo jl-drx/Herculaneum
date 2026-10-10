@@ -1,0 +1,168 @@
+{
+  "baseline": {
+    "backbone_state_sha256": "21c186000b9b3093835e185342668acd0d86147a719c37513e937924b77ea228",
+    "checkpoint_artifact": {
+      "acquisition": "retained_verified_checkpoint",
+      "embedded_step": 74999,
+      "filename_step_label": 75000,
+      "label": "seed42",
+      "local_path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+      "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+      "repository": "scrollprize/ink_9um",
+      "repository_path": "hybrid_3d2d-seed42/step-075000.pth",
+      "revision": "7109667e2607db1b90c37c8b09cb876ea7fe7bb1",
+      "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+      "size_bytes": 138360039,
+      "source_url": "https://huggingface.co/scrollprize/ink_9um/resolve/7109667e2607db1b90c37c8b09cb876ea7fe7bb1/hybrid_3d2d-seed42/step-075000.pth"
+    },
+    "depth_planes": 17,
+    "mode": "FP32 eval",
+    "name": "unchanged forward seed42",
+    "normalization": "existing robust MAD per full patch",
+    "training": false
+  },
+  "candidate": {
+    "learned_parameters": 0,
+    "name": "fixed_three_window_probability_average",
+    "novelty_claim": false,
+    "relative_centers": [
+      -1,
+      0,
+      1
+    ],
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ]
+  },
+  "decision": {
+    "margins_frozen_before_scores": true,
+    "maximum_clean_AP_loss": null,
+    "minimum_robust_AP_gain": null,
+    "next_if_promising": "replication on separate untouched physical support",
+    "one_parent_claim": "descriptive feasibility only"
+  },
+  "design": {
+    "delta_effective_planes": 1,
+    "delta_um": null,
+    "depth_sign": "forward explicit verified normal",
+    "evaluation_displacements": [
+      -1,
+      0,
+      1
+    ],
+    "raw_window_ranges": [
+      [
+        0,
+        17
+      ],
+      [
+        1,
+        18
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        3,
+        20
+      ],
+      [
+        4,
+        21
+      ]
+    ],
+    "same_primary_support": true,
+    "unique_window_centers": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ]
+  },
+  "evidence": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/PLINIUS_DEPTH_STUDY.md",
+      "sha256": "676e19aac9e793b1bbf3b7fa6682215d406d927e8a2017a8fb9a1c1ff53fb699",
+      "size_bytes": 7932
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/REFERENCE_CONSTRUCTION_PLAN.md",
+      "sha256": "f2f3cd660b7bf47499da45d748e0ba05fae485c20472dce58bf0c3ce755c5a7c",
+      "size_bytes": 4492
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/RESULTS.md",
+      "sha256": "ca5d8d2903f398943dc978793be47f9f4974e0ff967179afe6bfe1ddca063a73",
+      "size_bytes": 10073
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/EVIDENCE_GAPS.json",
+      "sha256": "eafa8d4376858087dcf20b8b0a63f50e5ccdf7f10011394b4b648d578ed8bc67",
+      "size_bytes": 6736
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/input-audit/seed42-bound-config.json",
+      "sha256": "3a84aaea242990d4a274adf06f59b77e775f73833510469ac3f5906fd7e6a49d",
+      "size_bytes": 10803
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/input-audit/INPUT_CONTRACT.json",
+      "sha256": "edb87179a3c8949bd43306f2c6e388c4de657ee9f52ea40f5e1192895c0ceafa",
+      "size_bytes": 96842
+    }
+  ],
+  "hypothesis": "Small signed surface-position perturbations may be mitigated by fixed three-window probability averaging",
+  "metrics": {
+    "conditional": [
+      "sensitivity and attained specificity at frozen calibration cutoffs"
+    ],
+    "model_promotion": false,
+    "pixel_bootstrap": false,
+    "primary": "paired per-context AP; displacement mean then parent macro",
+    "secondary": [
+      "clean AP",
+      "AUROC",
+      "support coverage"
+    ]
+  },
+  "model_forwards_executed": 0,
+  "reference": {
+    "admitted": false,
+    "annotation_manifest": null,
+    "calibration_support": null,
+    "exposure_status": "unknown; not assumed excluded",
+    "geometry_selection": null,
+    "negative_unknown_support": null,
+    "optical_asset": null,
+    "physical_spacing_and_pooling": null,
+    "physical_split_audit": null,
+    "preferred_candidate": "Frag6 / PHerc51",
+    "registration_check": null,
+    "role": "new documented reference feasibility",
+    "source_manifest": null,
+    "verified_frame": null
+  },
+  "resource": {
+    "GPU_spend_GBP": 0,
+    "GPU_total_pilot_cap_GBP": 10,
+    "max_CPU_seconds": null,
+    "max_acquisition_bytes": null,
+    "max_disk_bytes": null,
+    "max_tiles": null,
+    "model_forwards_per_tile": 5,
+    "paid_launch_ready": false
+  },
+  "schema_version": 1,
+  "stage_C_open": false,
+  "status": "DESIGN_READY_REFERENCE_PENDING_NO_MODEL_EXECUTION_RELEASE",
+  "unchanged_reserves": [
+    "PHerc0009B",
+    "PHerc0500P2",
+    "PHerc0841",
+    "Frag6"
+  ]
+}

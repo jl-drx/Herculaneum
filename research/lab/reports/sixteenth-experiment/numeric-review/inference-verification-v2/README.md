@@ -1,0 +1,13 @@
+# Additive independent saved-output verifier V2
+
+This source-only preparation corrects the worker output-directory comparison after the original sealed independent review stopped before reading scientific arrays. The completed controller retained relative `--output-dir` arguments. V2 resolves only that worker argument lexically against the exact root-recorded execution cwd and requires the result to equal the canonical saved role/phase directory. All other worker arguments remain exact. The original checker, source freeze, and STOP evidence remain unchanged.
+
+The root's execution-context JSON is pinned by absolute path, byte length and SHA256. V2 requires its exact retrospective status, cwd, controller argv, environment, timeout limits, and identical plan/results/metrics records. This context is a retrospective record of the tool invocation, not an independent launch-time trace or model authentication. Path normalization does not follow symlinks or check file existence. Scientific output identities remain governed by the unchanged pinned-file checks.
+
+The map arithmetic, normalized FP32 input hashes, masks, cutoff locks, metrics, macros, transfer screens, six-worker/ten-load receipts, and resource guards are unchanged. V2 imports only its own pinned receipt helper and the same two sealed independent NumPy arithmetic modules. It does not import author inference modules, Torch, models, or checkpoint files, and it disables network connections.
+
+Preparation checks passed: 30 original main/arithmetic checks, 60 original receipt checks, 42 focused worker-path checks, and 46 context-binding checks. The context fixtures read only the explicitly authorized context JSON. No actual plan/results/metrics bodies or scientific arrays are read during this preparation. Child path fixtures are entirely synthetic.
+
+Source-only preparation does not authorize completed-output use. Root must separately authorize a fresh saved-output review against this exact source freeze and the already pinned plan/results/metrics entries. The CLI is unchanged, with `--authorized-saved-output-review`, `--source-freeze-sha256`, the three entry paths and SHA256 arguments, and a fresh `--output` JSON. The frozen internal alarm/CPU/address-space limits remain unchanged; the authorized external wrapper must preserve stdout, stderr, process status, wall time and peak child RSS. No retry or scientific rerun is implied.
+
+`source-freeze.json` binds executable sources and source-only receipts. `MANIFEST.json` binds all preparation evidence. The original STOP remains at `../inference-verification/completed-review/FAILURE_RECEIPT.json`.

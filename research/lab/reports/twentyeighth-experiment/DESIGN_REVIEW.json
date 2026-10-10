@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "five windows cover all three prescribed perturbations and candidate offsets",
+    "baseline already includes depth jitter; no novelty asserted",
+    "no reversal/invariance or per-region selection",
+    "17plane contract preserved,21plane union explicit",
+    "unknown reference/margins/resources stay null and block scoring",
+    "accuracy versus supplied-reference roles separated",
+    "GPUcap and candidate reservations preserved",
+    "checkpoint file hash and backbone-state hash are distinct, bound to retained input-contract metadata"
+  ],
+  "contract": {
+    "path": "/workspace/herculaneum-lab/reports/twentyeighth-experiment/DEPTH_STUDY_CONTRACT.json",
+    "sha256": "a301c9d7cabc478d54c5826c703f2b7fcf54ee0e4594c905e9050e40321bdd3e",
+    "size_bytes": 5045
+  },
+  "execution_ready": false,
+  "reviewer": "root",
+  "status": "PASS_AS_PENDING_DESIGN"
+}

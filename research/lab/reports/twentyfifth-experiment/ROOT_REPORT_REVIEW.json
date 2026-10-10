@@ -1,0 +1,34 @@
+{
+  "checks": [
+    "Request totals and returned/reserved bytes match retained ledgers",
+    "All new source pins match",
+    "PSD8/EXIF16 discrepancy explicit; no source TIFF inferred",
+    "Embedded software/history distinct from human authorship",
+    "No benchmark admission or inference release",
+    "Maintainer draft explicitly unsent",
+    "Same checkout and pre-existing .codex entry"
+  ],
+  "created_at_utc": "2026-10-09T06:14:47.058707+00:00",
+  "draft": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/MAINTAINER_REQUEST_DRAFT.md",
+    "sha256": "45711150759c016905b351784372208cb2921bab873ff7f4ef523ad07bace149",
+    "size_bytes": 3720
+  },
+  "gap_matrix": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/EVIDENCE_GAPS.json",
+    "sha256": "eafa8d4376858087dcf20b8b0a63f50e5ccdf7f10011394b4b648d578ed8bc67",
+    "size_bytes": 6736
+  },
+  "report": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/RESULTS.md",
+    "sha256": "b0c311c3f7a8fb13ef3879734d29b7991750719da7a89e8d28da0192aedde84e",
+    "size_bytes": 7553
+  },
+  "reviewer": "root",
+  "status": "PASS",
+  "verification": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/METADATA_VERIFICATION.json",
+    "sha256": "c6b6b56beaf7b0526006b0cb6626c19ac9df09b6a292c8a58e4d96ada97ac729",
+    "size_bytes": 5071
+  }
+}

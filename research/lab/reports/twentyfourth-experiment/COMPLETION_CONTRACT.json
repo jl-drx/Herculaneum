@@ -1,0 +1,245 @@
+{
+  "GPU_pilot_total_cap_GBP": 10,
+  "GPU_spend_GBP": 0,
+  "adapter_read_direction": "forward",
+  "adopted_baseline": "seed42_forward",
+  "contrasting_reference": "native_forward",
+  "created_at_utc": "2026-10-09T05:57:11.387253+00:00",
+  "decision": "Retain existing forward baseline; no uniform reversal correction. Prioritize independent reference contract before more outcome-guided tuning.",
+  "direction_selection": false,
+  "evidence": {
+    "checker_freeze": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/independent-review/CHECKER_FREEZE.json",
+      "sha256": "e875b7d2632eb30cea81ae7a05a76b21f5bc2a6c72286fd3f809ceb5f7e78892",
+      "size_bytes": 3734
+    },
+    "code_freeze": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/implementation/CODE_FREEZE.json",
+      "sha256": "a01707a7665f1910d5ce8001de407b23240a7340097b112a9ecaae290d5efef0",
+      "size_bytes": 2110
+    },
+    "controller": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/implementation/run-v1/controller-result.json",
+      "sha256": "1abdd0a7a2b97cd79c40c5c759d9f0566f4772ab96824fa41d0e8b2905df4976",
+      "size_bytes": 1258
+    },
+    "independent_verification": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/independent-review/verification-v1.json",
+      "sha256": "70b58255c623f4cc7ce7ca65a92f45b92405e8c5d713ebb57b0229399fdb23a5",
+      "size_bytes": 39773
+    },
+    "input_contract": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/input-audit/MODEL_INPUT_CONTRACT.json",
+      "sha256": "7eef20e874722314b4c32c99acbe846e8ec63da7640cddd2d204028299b95259",
+      "size_bytes": 249611
+    },
+    "metrics": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/implementation/analysis-v1/metrics.json",
+      "sha256": "8c424831c0bbe78aef529b27278c3609639046e6d263c5385af4bc1cd37a921c",
+      "size_bytes": 33832
+    },
+    "native_result": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/implementation/run-v1/native/result.json",
+      "sha256": "a35cc5927cfd1811627232034aeef0b7e56221e70504550d3ea3075c6485e25d",
+      "size_bytes": 136551
+    },
+    "next_study": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "08d8a629f2e6f29ef8c0e4538ed765648ea97330d2b5e20d31f944000e3f5393",
+      "size_bytes": 5207
+    },
+    "plan": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/implementation/PLAN.json",
+      "sha256": "35d3f84de52bb230679e937434c0d603fd18b9e35884e7a81d2762df87c592a2",
+      "size_bytes": 8312
+    },
+    "plot_receipt": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/visuals/render-v1/PLOT_RECEIPT.json",
+      "sha256": "151e5c06ea5ad46dc8137ae6dfa27b885cfecd6f4c77c2a144cfbc18f931963b",
+      "size_bytes": 19476
+    },
+    "protocol": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/PROTOCOL.md",
+      "sha256": "f9cc08b99144f55e5842b94e08cb92a8524badafd58d5bf7483254953641c3ee",
+      "size_bytes": 7636
+    },
+    "release": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/PAIRED_REVERSAL_GO.json",
+      "sha256": "e1164da4b6ccbe41f6b41a3b7b28e500d50f7f9d0bcef3538be5053b0fec2592",
+      "size_bytes": 1250
+    },
+    "report": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/RESULTS.md",
+      "sha256": "ca5d8d2903f398943dc978793be47f9f4974e0ff967179afe6bfe1ddca063a73",
+      "size_bytes": 10073
+    },
+    "root_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/ROOT_REPORT_REVIEW.json",
+      "sha256": "528ef377638c65d6b3a60f814e3dfc9383fb63aea382a4fdf7c1864d24126c6f",
+      "size_bytes": 2495
+    },
+    "seed42_result": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/implementation/run-v1/seed42/result.json",
+      "sha256": "df04cc4dbb5da815c3fa2a767edc895cbe1d5ea50f15b1fd4f88eb861747ffd0",
+      "size_bytes": 136564
+    },
+    "visual_review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/ROOT_VISUAL_REVIEW.json",
+      "sha256": "49cb779548d8936f1694d50263c379d27e8422b4fac47063341ca813d7564a0d",
+      "size_bytes": 2811
+    }
+  },
+  "external_inference_seconds": 31.42112117799843,
+  "independent_confirmation_ready": false,
+  "model_constructions": 2,
+  "model_depth_permutation": [
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+  ],
+  "native_model_forwards": 150,
+  "network_requests": 0,
+  "network_response_body_bytes": 0,
+  "new_artifacts_uploaded_to_r2": false,
+  "new_candidate_scores": 0,
+  "parent_metrics": {
+    "Paris1": {
+      "context_ids": [
+        "frag3-context1",
+        "frag3-context2"
+      ],
+      "difference_of_changes": {
+        "average_precision": 0.03282890953625378,
+        "roc_auc": 0.20561808456057862
+      },
+      "models": {
+        "native": {
+          "forward": {
+            "average_precision": 0.20358389033792545,
+            "roc_auc": 0.6303082426978869
+          },
+          "reverse": {
+            "average_precision": 0.08470988528441875,
+            "roc_auc": 0.5403255802061677
+          },
+          "reverse_minus_forward": {
+            "average_precision": -0.1188740050535067,
+            "roc_auc": -0.08998266249171916
+          }
+        },
+        "seed42": {
+          "forward": {
+            "average_precision": 0.2404826633205317,
+            "roc_auc": 0.7847877146440049
+          },
+          "reverse": {
+            "average_precision": 0.0887797487307712,
+            "roc_auc": 0.4891869675917071
+          },
+          "reverse_minus_forward": {
+            "average_precision": -0.15170291458976048,
+            "roc_auc": -0.2956007470522978
+          }
+        }
+      },
+      "weighting": "equal context within named physical parent"
+    },
+    "Paris2": {
+      "context_ids": [
+        "frag1-context1",
+        "frag1-context2",
+        "frag2-context1",
+        "frag2-context2"
+      ],
+      "difference_of_changes": {
+        "average_precision": -0.046337214236077146,
+        "roc_auc": 0.04003561753383189
+      },
+      "models": {
+        "native": {
+          "forward": {
+            "average_precision": 0.48760187644894387,
+            "roc_auc": 0.7054459415253924
+          },
+          "reverse": {
+            "average_precision": 0.2946958586180721,
+            "roc_auc": 0.5649644691296669
+          },
+          "reverse_minus_forward": {
+            "average_precision": -0.19290601783087175,
+            "roc_auc": -0.1404814723957255
+          }
+        },
+        "seed42": {
+          "forward": {
+            "average_precision": 0.3842856729084452,
+            "roc_auc": 0.6576421877658194
+          },
+          "reverse": {
+            "average_precision": 0.23771686931365058,
+            "roc_auc": 0.477125097836262
+          },
+          "reverse_minus_forward": {
+            "average_precision": -0.1465688035947946,
+            "roc_auc": -0.1805170899295574
+          }
+        }
+      },
+      "weighting": "equal context within named physical parent"
+    }
+  },
+  "physical_parents": 2,
+  "primary_negative": 434259,
+  "primary_pixels": 520794,
+  "primary_positive": 86535,
+  "promoted_model": null,
+  "publication": null,
+  "reused_development_contexts": 6,
+  "scientific_model_forwards": 300,
+  "scientific_optimizer_updates": 0,
+  "scientific_performance_gate": null,
+  "seed42_model_forwards": 150,
+  "source_input_state_unchanged": true,
+  "status": "completed_execution_and_numerics_verified_depth_order_sensitive",
+  "strict_state_loads": 2,
+  "submission": null,
+  "subtree_seals": {
+    "implementation": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/implementation/RETENTION_MANIFEST.json",
+      "sha256": "0287559ba2258981afbd28ed9f5482d9d7df4be7e1af874b5c1ba21f997be08d",
+      "size_bytes": 31096
+    },
+    "independent-review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/independent-review/RETENTION_MANIFEST.json",
+      "sha256": "9f2857fdcfa768367a32cc81553c6d83b09dd42d9aa8d603cda235408ca46283",
+      "size_bytes": 3740
+    },
+    "input-audit": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/input-audit/RETENTION_MANIFEST.json",
+      "sha256": "597d2307cf0235d8537a4d6f462633ece5c5337f4918cba05e3cc933f1edf247",
+      "size_bytes": 2737
+    },
+    "visuals": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/visuals/RETENTION_MANIFEST.json",
+      "sha256": "ddf22c9de3c03791c48852aac5adf4b138b20ca49102b956c36e8fd5622aa943",
+      "size_bytes": 12110
+    }
+  },
+  "threshold_fits": 0,
+  "transcription": null,
+  "translation": null
+}

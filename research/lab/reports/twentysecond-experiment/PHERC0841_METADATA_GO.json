@@ -1,0 +1,18 @@
+{
+  "status": "GO",
+  "created_at_utc": "2026-10-09T05:06:21.079709+00:00",
+  "plan": {
+    "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-inventory/METADATA_QUERY_PROPOSAL.json",
+    "size_bytes": 4838,
+    "sha256": "6087fb9c5e82b5418d6113fa17575d58d865cedc7d8b0a1ec76e3829c492201a"
+  },
+  "authorized_action": "Implement/fixture/freeze bounded text-only reader then execute the exact six PHerc0841 metadata requests once; preserve all failures and no redirects/retries/pagination/payloads.",
+  "maximum_attempts": 6,
+  "maximum_response_body_bytes": 294912,
+  "per_request_absolute_seconds": 30,
+  "external_wall_seconds": 210,
+  "only_host": "vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com",
+  "scope": "Package completeness/source contract only; no ink accuracy or teacher independence claim",
+  "scientific_arrays_or_models": false,
+  "paid_GPU_spend_GBP": 0
+}

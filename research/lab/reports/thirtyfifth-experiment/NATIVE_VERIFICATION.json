@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-10-09T11:34:23.691200+00:00",
+  "decoded_bytes": 167772160,
+  "elapsed_seconds": 0.40252972100006446,
+  "historical_exact_matches": 284,
+  "integer_corners_checked": 2272,
+  "maximum_unrounded_difference": {
+    "historical": 1.4551915228366852e-11,
+    "standard": 1.4551915228366852e-11
+  },
+  "new_model_forwards": 0,
+  "new_source_requests": 0,
+  "no_independent_ink_or_optical_ground_truth": true,
+  "peak_RSS_bytes": 38248448,
+  "published_targets_checked": 284,
+  "scalar_PPM_points": 284,
+  "second_chunk_decodes": 40,
+  "status": "PASS",
+  "verifier": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfifth-experiment/verify_native.py",
+    "sha256": "18fc5dd52bea9f115b56d0b180b0b82dabe501dae3ed307cfdbc4dbdb9b5de5c",
+    "size_bytes": 6470
+  },
+  "worker_complete": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfifth-experiment/native-v1/COMPLETE.json",
+    "sha256": "1e1fef1741f8c79e541c346679462a5266b8d735d3917602894fcda87a89a672",
+    "size_bytes": 2581
+  }
+}

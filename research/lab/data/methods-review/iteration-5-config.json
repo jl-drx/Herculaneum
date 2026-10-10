@@ -1,0 +1,29 @@
+{
+  "model_type": "inkdetection_resnet3d",
+  "architectures": [
+    "InkDetectionModel"
+  ],
+  "auto_map": {
+    "AutoConfig": "configuration_inkdetection.InkDetectionConfig",
+    "AutoModel": "modeling_inkdetection.InkDetectionModel"
+  },
+  "in_channels": 1,
+  "input_depth": 62,
+  "input_size": 256,
+  "backbone_depth": 50,
+  "backbone_channels": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "num_classes": 1,
+  "decoder_upscale": 1,
+  "train_segment": "l_2",
+  "train_inklabels": "l_2_inklabels5.png",
+  "train_steps": 12396,
+  "train_tiles": 33061,
+  "train_loss_final": 0.5299,
+  "torch_dtype": "float32",
+  "transformers_version": "4.57.6"
+}

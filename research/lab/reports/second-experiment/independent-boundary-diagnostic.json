@@ -1,0 +1,43 @@
+{
+  "scope": "Post-freeze diagnostic only; geometry distance does not establish cause, ink or false positives",
+  "rule": "Euclidean pixel-center distance_transform_edt on original full conservative geometry mask; raw min(seed42,seed43)>0.5 inside frozen central common domain",
+  "mask_sha256": "a5ec3b003135871f517528f789cf62f112a79b4ac99f5e5324bb4162faea41f8",
+  "contexts": [
+    {
+      "id": "independent-01",
+      "joint_above_midpoint_count": 0,
+      "distance_to_invalid_geometry_pixels": {
+        "min": null,
+        "median": null,
+        "max": null,
+        "at_most_32px_count": 0,
+        "at_most_64px_count": 0
+      },
+      "common_pixels_at_least64px_from_invalid_geometry": 16384
+    },
+    {
+      "id": "independent-02",
+      "joint_above_midpoint_count": 0,
+      "distance_to_invalid_geometry_pixels": {
+        "min": null,
+        "median": null,
+        "max": null,
+        "at_most_32px_count": 0,
+        "at_most_64px_count": 0
+      },
+      "common_pixels_at_least64px_from_invalid_geometry": 16209
+    },
+    {
+      "id": "independent-03",
+      "joint_above_midpoint_count": 830,
+      "distance_to_invalid_geometry_pixels": {
+        "min": 1.0,
+        "median": 14.0,
+        "max": 30.0,
+        "at_most_32px_count": 830,
+        "at_most_64px_count": 830
+      },
+      "common_pixels_at_least64px_from_invalid_geometry": 3804
+    }
+  ]
+}

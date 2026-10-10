@@ -1,0 +1,55 @@
+{
+  "architecture": {
+    "name": "cached-seed42-plus-801-parameter-residual",
+    "input_shape": [2, 1, 17, 128, 128],
+    "representation_channels": 3,
+    "stem": {"in_channels": 3, "out_channels": 8, "kernel_size": 3, "padding": 1, "bias": true},
+    "activation": {"name": "LeakyReLU", "negative_slope": 0.01},
+    "depth_reduction": ["mean", "maximum"],
+    "head": {"in_channels": 16, "out_channels": 1, "kernel_size": 3, "padding": 1, "bias": true, "initial_weight": 0, "initial_bias": 0},
+    "trainable_parameters": 801,
+    "raw_control": "previous, center, next normalized slices; clamped endpoint source indices",
+    "explicit_depth": "center normalized slice, centered axial difference with full one-sided endpoints, (j-8)/8",
+    "depth_coordinate_scope": "signed nominal stack index; not authenticated anatomical distance",
+    "backbone_mode": "immutable cached logits only; no new checkpoint loads or backbone forwards"
+  },
+  "training": {
+    "steps": 32,
+    "batch_size": 2,
+    "seed": 20261008,
+    "learning_rate": 0.001,
+    "optimizer": "AdamW",
+    "betas": [0.9, 0.999],
+    "eps": 1e-8,
+    "weight_decay": 0,
+    "gradient_clip_norm": 1.0,
+    "loss_smoothing": 0.5,
+    "kl_coefficient": 1.0,
+    "foreach": false,
+    "fused": false,
+    "fixed_updates": [1, 8, 16, 32]
+  },
+  "limits": {
+    "training_wall_seconds": 600,
+    "development_wall_seconds": 300,
+    "training_controller_wall_seconds": 1260,
+    "development_controller_wall_seconds": 600,
+    "worker_cpu_seconds": 1200,
+    "rss_bytes": 3221225472,
+    "address_space_bytes": 12884901888,
+    "threads": 4,
+    "output_bytes": 536870912,
+    "retries": 0
+  },
+  "gates": {
+    "training_improvement_min": 0.0001,
+    "candidate_vs_control_full_loss_improvement_min": 0.0001,
+    "paris2_auc_improvement_min": 0.005,
+    "paris2_ap_improvement_min": 0.005,
+    "maximum_per_case_rank_loss_vs_baseline": 0.02,
+    "fixed_threshold": 0.7558947205543518,
+    "automatic_model_promotion": false,
+    "automatic_GPU_launch": false,
+    "scope": "predeclared computational development screen; no significance or confirmatory claim"
+  }
+}

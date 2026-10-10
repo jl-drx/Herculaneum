@@ -1,0 +1,152 @@
+{
+  "GPU_spend_GBP": 0,
+  "admission": {
+    "model_specific_independence": "Additionally artifact-specific upstream exposure evidence; no universal absence guarantee requested.",
+    "optical_accuracy": "Additionally attributable optical annotation and registration/residual evidence.",
+    "supplied_reference_agreement": "Requires usable render/input/annotation/support contract and prospective selection. Unknown teacher ancestry must be qualified, not silently cleared."
+  },
+  "candidate": "Frag6 / PHerc51",
+  "evidence": {
+    "new_exif_metadata": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/exif-run-v1/EXIF_METADATA.json",
+      "sha256": "885ca1686be8f6f6bf712ae0d2051f98c1599f62009336a823de4002f534b32d",
+      "size_bytes": 2413
+    },
+    "new_psd_metadata": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/metadata-run-v1/PSD_METADATA.json",
+      "sha256": "c1cdcd5a99cbb485b3f020b0dcad12034c86cf0d6d932954ad812545b495f2e5",
+      "size_bytes": 21332
+    },
+    "official_support": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/optical-audit/official-data.md",
+      "sha256": "522de5008c1fdb02dd01648b372920f2444da0ac27c26e921c5663bc62ba6860",
+      "size_bytes": 9275
+    },
+    "phase19_optical_audit": {
+      "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/optical-audit/OPTICAL_CANDIDATE_AUDIT.md",
+      "sha256": "9abe0d2b861a513982714b79faa1c687fa8cf66061c0229f9383de41de554f9c",
+      "size_bytes": 9198
+    },
+    "phase21_sparse_geometry": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-b-runtime-review/RESULTS.md",
+      "sha256": "c60f0e782d3a367d52a5ac030e5094c8d5be34887533f1798d2b51d1b516c04c",
+      "size_bytes": 3948
+    },
+    "phase22_parent_inventory": {
+      "path": "/workspace/herculaneum-lab/reports/twentysecond-experiment/benchmark-inventory/RESULTS.md",
+      "sha256": "477ae1c71c66d1f14ad4751b9f7d7fa4fb8d0f448bc8777638732efb22d80124",
+      "size_bytes": 11855
+    },
+    "phase24_next_design": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/NEXT_STUDY_DRAFT.md",
+      "sha256": "08d8a629f2e6f29ef8c0e4538ed765648ea97330d2b5e20d31f944000e3f5393",
+      "size_bytes": 5207
+    },
+    "root_offline_audit": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfifth-experiment/METADATA_VERIFICATION.json",
+      "sha256": "c6b6b56beaf7b0526006b0cb6626c19ac9df09b6a292c8a58e4d96ada97ac729",
+      "size_bytes": 5071
+    }
+  },
+  "next_action": "Obtain existing records using prepared maintainer request; no message sent. If records absent, separately design new auditable rendering/optical-reference construction.",
+  "rows": [
+    {
+      "evidence": [
+        "phase19_optical_audit",
+        "phase22_parent_inventory"
+      ],
+      "id": "physical_identity",
+      "known": "Frag6 / PHerc51Cr4Fr8 / PHerc0051Cr04Fr08; reserve PHerc51/PHerc0051 parent and all scans",
+      "missing": "Any additional historical obfuscated-name bridge remains unknown",
+      "needed_from": "Dataset curator where new aliases exist",
+      "state": "identified_with_alias_scope"
+    },
+    {
+      "evidence": [
+        "new_psd_metadata",
+        "new_exif_metadata",
+        "root_offline_audit"
+      ],
+      "id": "document_editing_record",
+      "known": "PSD 6205x8853 grayscale8; Photoshop25.2; XMP dates 1-5 December2023; TIFF conversion; document IDs retained",
+      "missing": "Authenticity of chronology and exact source TIFF not established; EXIF16 conflicts with header8",
+      "needed_from": "Annotation producer or archived source manifest",
+      "state": "observed_embedded_metadata_only"
+    },
+    {
+      "evidence": [
+        "phase19_optical_audit",
+        "root_offline_audit"
+      ],
+      "id": "annotation_origin",
+      "known": "PSD and PNG co-located; no author in inspected XMP/EXIF fields",
+      "missing": "Author/reviewer, evidence used, model-assisted edits/reconstructed forms, exact PSD-to-PNG relationship and source hashes",
+      "needed_from": "Annotation producer/data curator",
+      "state": "unresolved"
+    },
+    {
+      "evidence": [
+        "phase19_optical_audit"
+      ],
+      "id": "negative_and_unknown_support",
+      "known": "mask.png and inklabels.png published; their pixels remain uninspected",
+      "missing": "Meaning of zero, confidently negative support, exhaustive versus sparse tracing, unknown/invalid encoding",
+      "needed_from": "Annotation producer/data curator",
+      "state": "unresolved"
+    },
+    {
+      "evidence": [
+        "phase19_optical_audit",
+        "root_offline_audit"
+      ],
+      "id": "optical_registration",
+      "known": "ir.png co-located; equal canvas dimensions do not prove registration",
+      "missing": "Exact source/target assets, preparation/warp/crop, valid support and measured residuals or explicit absence of assessment",
+      "needed_from": "Optical registration producer",
+      "state": "unresolved"
+    },
+    {
+      "evidence": [
+        "phase19_optical_audit",
+        "phase21_sparse_geometry"
+      ],
+      "id": "source_frame_and_render",
+      "known": "Native53keV3.24um volume20231121152933 exists; sparse PPM serialization/bounds compatible; canvas6205x8853",
+      "missing": "Actual source volume UUID/frame, renderer/arguments/interpolation, normal sign, signed plane offsets/step, rescaling/crop and artifact correspondence",
+      "needed_from": "Render producer/archived manifest",
+      "state": "unresolved"
+    },
+    {
+      "evidence": [
+        "phase22_parent_inventory"
+      ],
+      "id": "model_specific_upstream_exposure",
+      "known": "PHerc51 absent from inspected original/native direct roots; historical obfuscated identities and teacher lineage unresolved",
+      "missing": "Artifact-bound initialization/training/teacher/label-production history and relevant aliases",
+      "needed_from": "Respective model/teacher maintainers; separate from dataset curator",
+      "state": "unknown_not_proved_clean_or_contaminated"
+    },
+    {
+      "evidence": [
+        "phase19_optical_audit",
+        "phase21_sparse_geometry",
+        "phase22_parent_inventory",
+        "root_offline_audit"
+      ],
+      "id": "local_separation",
+      "known": "Candidate data used only for retained metadata/structural/sparse geometry audits; no CT/optical/label pixel evaluation or predictions",
+      "missing": null,
+      "needed_from": null,
+      "state": "preserved"
+    }
+  ],
+  "stage_C_open": false,
+  "status": "reference_not_admitted",
+  "total_first_GPU_pilot_cap_GBP": 10,
+  "unchanged_reserves": [
+    "PHerc0009B",
+    "PHerc0500P2",
+    "PHerc0841",
+    "Frag6"
+  ]
+}

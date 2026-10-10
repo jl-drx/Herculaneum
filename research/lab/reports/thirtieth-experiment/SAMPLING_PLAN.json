@@ -1,0 +1,535 @@
+{
+  "acceptance": {
+    "calibration_mae_max": 2.0,
+    "calibration_max_error_max": 8.0,
+    "each_check_site_mae_max": 2.0,
+    "each_check_site_max_error_max": 8.0,
+    "informative_check_range_min": 512.0,
+    "informative_check_sites_min": 3,
+    "runner_up_mae_gap_min": 10.0,
+    "wrong_coordinate_check_mae_min": 100.0,
+    "wrong_coordinate_mae_ratio_min": 20.0
+  },
+  "excluded": [
+    {
+      "center_yx": [
+        1770,
+        1240
+      ],
+      "reason": "previously unmapped; not replaced"
+    },
+    {
+      "center_yx": [
+        1770,
+        3102
+      ],
+      "reason": "previously unmapped; not replaced"
+    }
+  ],
+  "geometry": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-stage-b/run-v1/acquisition/SPARSE_GEOMETRY.json",
+    "sha256": "584ad931220ebd6394937c40833af9e337bc727b266985322d9b4e49bc59db50",
+    "size_bytes": 397616
+  },
+  "hypothesis_order": [
+    "trilinear:+1",
+    "trilinear:-1",
+    "floor:+1",
+    "floor:-1",
+    "round:+1",
+    "round:-1"
+  ],
+  "labels_allowed": false,
+  "layers": [
+    {
+      "layer": 0,
+      "object": {
+        "accept_ranges": "bytes",
+        "etag": "\"656fa2a6-68c6bbb\"",
+        "last_modified": "Tue, 05 Dec 2023 22:22:30 GMT",
+        "observed_utc": "2026-10-08T23:39:47.582168+00:00",
+        "total_bytes": 109865915,
+        "url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/00.tif"
+      },
+      "ranges": [
+        [
+          21963222,
+          21963227
+        ],
+        [
+          21975632,
+          21975637
+        ],
+        [
+          21988042,
+          21988047
+        ],
+        [
+          54916736,
+          54916741
+        ],
+        [
+          54929146,
+          54929151
+        ],
+        [
+          54941556,
+          54941561
+        ],
+        [
+          54920460,
+          54920465
+        ],
+        [
+          54932870,
+          54932875
+        ],
+        [
+          54945280,
+          54945285
+        ],
+        [
+          54924182,
+          54924187
+        ],
+        [
+          54936592,
+          54936597
+        ],
+        [
+          54949002,
+          54949007
+        ],
+        [
+          87865286,
+          87865291
+        ],
+        [
+          87877696,
+          87877701
+        ],
+        [
+          87890106,
+          87890111
+        ],
+        [
+          87869010,
+          87869015
+        ],
+        [
+          87881420,
+          87881425
+        ],
+        [
+          87893830,
+          87893835
+        ],
+        [
+          87872732,
+          87872737
+        ],
+        [
+          87885142,
+          87885147
+        ],
+        [
+          87897552,
+          87897557
+        ]
+      ]
+    },
+    {
+      "layer": 32,
+      "object": {
+        "accept_ranges": "bytes",
+        "etag": "\"656fa2ab-68c6bbb\"",
+        "last_modified": "Tue, 05 Dec 2023 22:22:35 GMT",
+        "observed_utc": "2026-10-08T23:39:48.192780+00:00",
+        "total_bytes": 109865915,
+        "url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/32.tif"
+      },
+      "ranges": [
+        [
+          21963222,
+          21963227
+        ],
+        [
+          21975632,
+          21975637
+        ],
+        [
+          21988042,
+          21988047
+        ],
+        [
+          54916736,
+          54916741
+        ],
+        [
+          54929146,
+          54929151
+        ],
+        [
+          54941556,
+          54941561
+        ],
+        [
+          54920460,
+          54920465
+        ],
+        [
+          54932870,
+          54932875
+        ],
+        [
+          54945280,
+          54945285
+        ],
+        [
+          54924182,
+          54924187
+        ],
+        [
+          54936592,
+          54936597
+        ],
+        [
+          54949002,
+          54949007
+        ],
+        [
+          87865286,
+          87865291
+        ],
+        [
+          87877696,
+          87877701
+        ],
+        [
+          87890106,
+          87890111
+        ],
+        [
+          87869010,
+          87869015
+        ],
+        [
+          87881420,
+          87881425
+        ],
+        [
+          87893830,
+          87893835
+        ],
+        [
+          87872732,
+          87872737
+        ],
+        [
+          87885142,
+          87885147
+        ],
+        [
+          87897552,
+          87897557
+        ]
+      ]
+    },
+    {
+      "layer": 64,
+      "object": {
+        "accept_ranges": "bytes",
+        "etag": "\"656fa2b6-68c6bbb\"",
+        "last_modified": "Tue, 05 Dec 2023 22:22:46 GMT",
+        "observed_utc": "2026-10-08T23:39:48.746215+00:00",
+        "total_bytes": 109865915,
+        "url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/working/PHerc0051Cr04Fr08_53keV_3.24um/surface_processing/surface_volume/64.tif"
+      },
+      "ranges": [
+        [
+          21963222,
+          21963227
+        ],
+        [
+          21975632,
+          21975637
+        ],
+        [
+          21988042,
+          21988047
+        ],
+        [
+          54916736,
+          54916741
+        ],
+        [
+          54929146,
+          54929151
+        ],
+        [
+          54941556,
+          54941561
+        ],
+        [
+          54920460,
+          54920465
+        ],
+        [
+          54932870,
+          54932875
+        ],
+        [
+          54945280,
+          54945285
+        ],
+        [
+          54924182,
+          54924187
+        ],
+        [
+          54936592,
+          54936597
+        ],
+        [
+          54949002,
+          54949007
+        ],
+        [
+          87865286,
+          87865291
+        ],
+        [
+          87877696,
+          87877701
+        ],
+        [
+          87890106,
+          87890111
+        ],
+        [
+          87869010,
+          87869015
+        ],
+        [
+          87881420,
+          87881425
+        ],
+        [
+          87893830,
+          87893835
+        ],
+        [
+          87872732,
+          87872737
+        ],
+        [
+          87885142,
+          87885147
+        ],
+        [
+          87897552,
+          87897557
+        ]
+      ]
+    }
+  ],
+  "limits": {
+    "max_phase_bytes": 201326592,
+    "max_requests": 100,
+    "max_reserved_bytes": 167772160,
+    "max_rss_bytes": 536870912,
+    "request_seconds": 30,
+    "total_seconds": 1200
+  },
+  "metadata": [
+    {
+      "body": {
+        "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/metadata-run-v1/01-metadata.body",
+        "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+        "size_bytes": 3018
+      },
+      "etag": "\"67b62241-bca\"",
+      "name": ".zattrs",
+      "url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/.zattrs"
+    },
+    {
+      "body": {
+        "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/metadata-run-v1/02-metadata.body",
+        "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+        "size_bytes": 24
+      },
+      "etag": "\"67b62241-18\"",
+      "name": ".zgroup",
+      "url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/.zgroup"
+    },
+    {
+      "body": {
+        "path": "/workspace/herculaneum-lab/reports/twentyseventh-experiment/metadata-run-v1/03-metadata.body",
+        "sha256": "f576d6251eed7c99d05e750347ea83af97b20c8bc28d5c5d923ec929a42fe154",
+        "size_bytes": 401
+      },
+      "etag": "\"67b62241-191\"",
+      "name": "0/.zarray",
+      "url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0/.zarray"
+    }
+  ],
+  "native_base_url": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/",
+  "native_plan": {
+    "batch_chunks": [
+      14
+    ],
+    "batch_count": 1,
+    "batch_physical_bytes": [
+      58720256
+    ],
+    "geometrically_valid": 1134,
+    "keys_zyx": [
+      [
+        17,
+        8,
+        39
+      ],
+      [
+        18,
+        2,
+        12
+      ],
+      [
+        18,
+        4,
+        26
+      ],
+      [
+        18,
+        5,
+        25
+      ],
+      [
+        18,
+        5,
+        26
+      ],
+      [
+        18,
+        8,
+        39
+      ],
+      [
+        37,
+        4,
+        12
+      ],
+      [
+        37,
+        4,
+        25
+      ],
+      [
+        37,
+        4,
+        26
+      ],
+      [
+        37,
+        5,
+        25
+      ],
+      [
+        37,
+        5,
+        26
+      ],
+      [
+        37,
+        6,
+        39
+      ],
+      [
+        37,
+        7,
+        39
+      ],
+      [
+        56,
+        8,
+        39
+      ]
+    ],
+    "physical_chunk_bytes": 4194304,
+    "plan_array_bytes": 136458,
+    "points": 1134,
+    "positive_contributions": 3780,
+    "sha256": "4ae05106f8e02d296fb5f409b84bb8b0d076536d5c1d813215050af3e2768fe8",
+    "total_physical_bytes": 58720256,
+    "unique_chunks": 14
+  },
+  "optical_pixels_allowed": false,
+  "point_layout": "6blocks: direct trilinear/floor/round, wrong-coordinate trilinear/floor/round; each7sites\u00d73layers\u00d79pixels",
+  "points": {
+    "path": "/workspace/herculaneum-lab/reports/thirtieth-experiment/POINTS.npy",
+    "sha256": "79e9c46b73adbc1f13b843324c1ab88c44ac27c1898e79ef40f973f7ddef2bee",
+    "size_bytes": 27344
+  },
+  "scientific_model_forwards": 0,
+  "sites": [
+    {
+      "center_yx": [
+        1770,
+        4963
+      ],
+      "role": "calibration"
+    },
+    {
+      "center_yx": [
+        4426,
+        1240
+      ],
+      "role": "calibration"
+    },
+    {
+      "center_yx": [
+        4426,
+        3102
+      ],
+      "role": "calibration"
+    },
+    {
+      "center_yx": [
+        4426,
+        4963
+      ],
+      "role": "check"
+    },
+    {
+      "center_yx": [
+        7081,
+        1240
+      ],
+      "role": "check"
+    },
+    {
+      "center_yx": [
+        7081,
+        3102
+      ],
+      "role": "check"
+    },
+    {
+      "center_yx": [
+        7081,
+        4963
+      ],
+      "role": "check"
+    }
+  ],
+  "source_shape_zyx": [
+    8855,
+    2260,
+    6300
+  ],
+  "structural": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfirst-experiment/frag6-stage-a/run-v1/acquisition/STRUCTURAL_CONTRACT.json",
+    "sha256": "73ac68ce326c4a0435564bf7afbc6d24a390ae9e5ae648188b376a1ba0401a62",
+    "size_bytes": 17564
+  }
+}

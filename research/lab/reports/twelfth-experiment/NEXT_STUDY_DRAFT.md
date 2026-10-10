@@ -1,0 +1,19 @@
+# Post-result direction: establish stable continuation before scaling
+
+This is a research direction after the twelfth results, not an executed or frozen next experiment. Ordinary CPU research remains authorized; root owns scientific review. Previous plans and results remain immutable.
+
+The old 1e-4 first step demonstrably increases its own base and complete loss. A 100-fold smaller initial step decreases both on the exact first batch. That is enough to stop treating the old continuation recipe as a sound base for coefficient sweeps or paid scaling. It is not enough to promote 1e-6 as an optimal or transferable learning rate.
+
+The next bounded control should isolate continuation stability while keeping the initializer, objective, masks, data and schedule fixed. A conservative constant-step control anchored by the observed local descent scale is justified as a hypothesis, not a selected final recipe. Freeze one concrete comparator and stopping criterion before execution; do not add rates, warmups, seeds or losses in response to its results. Root should choose the minimal arm scope that can answer the stated question.
+
+Measure the same fixed adaptation risk at the initializer and predetermined checkpoints, alongside each update's own batch before/after loss. The retained 32-batch schedule provides a defined empirical diagnostic with existing initializer logits; repeated and overlapping patches retain their actual multiplicities. Report manual/pseudo and full/base terms separately. Do not interpret changing online minibatch loss as final empirical risk. Preserve actual update/gradient norms and prediction drift so a stable scalar trend is not confused with unchanged predictions.
+
+The discriminating question is whether reducing the finite step resolves immediate loss increases and yields an improved fixed adaptation objective after the same bounded update count. If it does, a separate fixed retention comparison can ask whether objective improvement preserves useful predictions. If it does not, inspect batch interference and shared-parameter constraints before adding another mechanism. Neither outcome alone establishes independent ink accuracy or a novel method.
+
+Keep Frag4 and PHerc0814 roles explicit: both are now seen development evidence; Frag4 remains excluded from gradients, teacher targets and calibration. Do not fit preprocessing, cutoffs or orientation to rescue those scores. Reserve new physical support with a defensible annotation/depth/exposure contract before any prospective generalization claim. The unresolved PHerc0009B mapping/depth contract cannot be bypassed merely to acquire another benchmark.
+
+The frontier contribution should target a demonstrated bottleneck after the control works: for example, physically supported adaptation with measured prediction stability and uncertainty in transferred supervision. Prediction-preservation KL, conservative steps and trust-region ideas are established techniques; using them does not itself establish novelty. Compare any proposed new contribution against the technical literature and matched controls, and retain negative results.
+
+CPU is sufficient for this discriminating control. Rent a GPU only when there is a frozen workload that cannot be answered economically here, and after scoped worker delivery, pinned CUDA environment, current all-in pricing and independent shutdown are verified. Preserve the £10 total first-pilot cap including failures/retries and attributable overhead. Do not create a paid worker to solve an unresolved scientific question or merely test secrets.
+
+No additional user permission is needed for a concrete, reviewed, bounded CPU experiment within the standing research scope. No new experiment, paid launch, external publication, upload or submission is authorized solely by this draft.

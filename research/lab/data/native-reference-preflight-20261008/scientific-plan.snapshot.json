@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "kind": "scientific-plan",
+  "experiment_id": "pherc1667-native-reference-v1",
+  "status": "planned-blocked-not-run",
+  "ready_for_gpu": false,
+  "freeze_scope": "Hypothesis, selection rule, checkpoint identities and workload bounds; acquisition coordinates and executable preprocessing remain unresolved.",
+  "hypothesis": "The released native-resolution iteration-5 ablation produces more source-supported coherent stroke structure on l_5 than iteration 0 under the same audited inference recipe.",
+  "scope": {
+    "sample": "PHerc1667",
+    "purpose": "Bounded reproduction of the June 2026 ablation's visibility comparison, with a separate l_2 adaptation sanity control.",
+    "native_sampling_nominal_um": 2.4,
+    "compare_iterations": [0, 5],
+    "train": false,
+    "optimizer_steps": 0,
+    "generate_pseudo_labels": false,
+    "transcribe_or_translate": false,
+    "target_transfer_established": false,
+    "prize_claim": false,
+    "excluded_substitutions": [
+      "The pooled 9.596-micrometer PHerc1667/w013 control is not a native June-model input.",
+      "PHerc0800's eligible 8.640-micrometer volume is a separate transfer problem.",
+      "Released ablation checkpoints are not established as the final three-column full-scroll detector."
+    ]
+  },
+  "evidence": {
+    "paper": {
+      "id": "arXiv:2606.29085v1",
+      "url": "https://arxiv.org/html/2606.29085v1",
+      "sha256": "d89ffcdb282ad5fab451593e618ff07738d687f79df8dbb93950e909d786f062",
+      "retained_path": "/workspace/herculaneum-lab/data/methods-review/paper.html",
+      "sections": ["Methods: ink detection training and adaptation", "Supplementary Table 2", "Extended Data Figure 6"]
+    },
+    "paper_code_commit": "e583fb67468f483fadd73d52e06f0ab0fe5ba813",
+    "paper_code_tree": {
+      "url": "https://api.github.com/repos/ScrollPrize/villa/git/trees/e583fb67468f483fadd73d52e06f0ab0fe5ba813?recursive=1",
+      "sha256": "4acd7bd0f19969015e69fc0f9426c54ad6c5c955ecce9ac9ffe2474852fc7a65",
+      "retained_path": "/workspace/herculaneum-lab/data/methods-review/paper-code-tree.json"
+    },
+    "retained_source_manifest": "/workspace/herculaneum-lab/data/methods-review/sources.json",
+    "retained_files_are_local_evidence_not_repository_dependencies": true,
+    "model_weight_checksums_are_manifest_expectations_not_local_weight_verification": true
+  },
+  "models": [
+    {
+      "iteration": 0,
+      "repository": "scrollprize/PHerc.1667-iteration-0",
+      "revision": "06c306449b39df42c745608ceade243498d24243",
+      "license_reported_by_card": "MIT",
+      "retained_manifest": {
+        "request_url": "https://huggingface.co/api/models/scrollprize/PHerc.1667-iteration-0?blobs=true",
+        "snapshot_sha256": "704559d4f1da63ed7e49c49ef3574f3bffd48c55b5be12b746e07d7087d00ada",
+        "retained_path": "/workspace/herculaneum-lab/data/methods-review/pherc1667-iteration-0.hf-manifest.json"
+      },
+      "weights": {
+        "file": "model.safetensors",
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/resolve/06c306449b39df42c745608ceade243498d24243/model.safetensors",
+        "size_bytes": 333531996,
+        "sha256": "62c43b98f55c169ae874c684a59953b5ce1cb45140129107f861501cce3edaef",
+        "checksum_source": "Pinned HF manifest LFS metadata",
+        "downloaded": false,
+        "local_verified_sha256": null
+      },
+      "card": {
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/README.md",
+        "sha256": "b7f406cdc51a7874ca3f786961f744286221c890f307e043255c41577e962a78"
+      },
+      "config": {
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/config.json",
+        "sha256": "8fdb5c7903cc3dce2c37a93b028028582fef9134b6a826870e3bfab544f5be79",
+        "model_type": "inkdetection_resnet3d",
+        "input_depth": 62,
+        "input_size": 256,
+        "backbone_depth": 50,
+        "backbone_channels": [256, 512, 1024, 2048],
+        "decoder_upscale": 1,
+        "torch_dtype": "float32",
+        "transformers_version_reported": "4.57.6"
+      },
+      "model_source": {
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/modeling_inkdetection.py",
+        "sha256": "2264e9882f4a9b695f10e74d0dcd031ce58fc88f253d14bee8f89d328851ec16"
+      },
+      "configuration_source": {
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-0/raw/06c306449b39df42c745608ceade243498d24243/configuration_inkdetection.py",
+        "git_blob_sha1": "24ac6d12668bfb5cf4b448c8f61723e97264ee25",
+        "size_bytes": 1742,
+        "sha256": null,
+        "reviewed": false
+      },
+      "training_provenance_reported": {
+        "segments": ["500p2a", "658", "20250910185200", "20250919125754-auto_grown_20250919055754487_inp_hr"],
+        "label_description": "cross-segment baseline; no l_2 labels",
+        "train_steps": 12396,
+        "train_tiles": 20075,
+        "physical_segment_alias_mapping_verified": false
+      }
+    },
+    {
+      "iteration": 5,
+      "repository": "scrollprize/PHerc.1667-iteration-5",
+      "revision": "6288ba60115ce827018926bcb0ea8e5696f33d3b",
+      "license_reported_by_card": "MIT",
+      "retained_manifest": {
+        "request_url": "https://huggingface.co/api/models/scrollprize/PHerc.1667-iteration-5?blobs=true",
+        "snapshot_sha256": "62e3a2db46019eec470c6dafbc4a5db9a384eecebc476368955596a7f02e9ceb",
+        "retained_path": "/workspace/herculaneum-lab/data/methods-review/pherc1667-iteration-5.hf-manifest.json"
+      },
+      "weights": {
+        "file": "model.safetensors",
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/resolve/6288ba60115ce827018926bcb0ea8e5696f33d3b/model.safetensors",
+        "size_bytes": 333531996,
+        "sha256": "9920d4338e51d38b241cbf48392610be0519e4e19c2e9d987ccfc2e78bd3301b",
+        "checksum_source": "Pinned HF manifest LFS metadata",
+        "downloaded": false,
+        "local_verified_sha256": null
+      },
+      "card": {
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/README.md",
+        "sha256": "197fb980175f5d52408d719e700d41e39a17fa819ebf4839b3445d357657b396"
+      },
+      "config": {
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/config.json",
+        "sha256": "941f69c2487b51bc9eb9fc638cc6c4b4af2d30e25ccd45044751ce7eaabcd35e",
+        "model_type": "inkdetection_resnet3d",
+        "input_depth": 62,
+        "input_size": 256,
+        "backbone_depth": 50,
+        "backbone_channels": [256, 512, 1024, 2048],
+        "decoder_upscale": 1,
+        "torch_dtype": "float32",
+        "transformers_version_reported": "4.57.6"
+      },
+      "model_source": {
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/modeling_inkdetection.py",
+        "sha256": "2264e9882f4a9b695f10e74d0dcd031ce58fc88f253d14bee8f89d328851ec16"
+      },
+      "configuration_source": {
+        "url": "https://huggingface.co/scrollprize/PHerc.1667-iteration-5/raw/6288ba60115ce827018926bcb0ea8e5696f33d3b/configuration_inkdetection.py",
+        "git_blob_sha1": "24ac6d12668bfb5cf4b448c8f61723e97264ee25",
+        "size_bytes": 1742,
+        "sha256": null,
+        "reviewed": false
+      },
+      "training_provenance_reported": {
+        "segment": "l_2",
+        "label_file": "l_2_inklabels5.png",
+        "train_steps": 12396,
+        "train_tiles": 33061,
+        "exact_label_bytes_verified": false
+      }
+    }
+  ],
+  "source_inputs": {
+    "l_5": {
+      "role": "Native reference visibility comparison, held out from l_2 adaptation supervision in the reported ablation",
+      "scan_id": null,
+      "surface_segment_id": null,
+      "source_url": null,
+      "source_version": null,
+      "source_sha256": null,
+      "exact_spacing_zyx_um": null,
+      "shape_zyx": null,
+      "dtype": null,
+      "mesh_and_render_provenance": null,
+      "geometry_mask_manifest": null,
+      "observed_source_coverage_manifest": null,
+      "native_ct_mapping_manifest": null,
+      "frozen_contexts_xywh": null,
+      "evaluation_labels": null,
+      "label_status": "Paper Table 2 reports inference only, no labels; no independent evaluation labels acquired."
+    },
+    "l_2": {
+      "role": "Separate adaptation/training sanity control; excluded from l_5 conclusions",
+      "scan_id": null,
+      "surface_segment_id": null,
+      "source_url": null,
+      "source_version": null,
+      "source_sha256": null,
+      "exact_spacing_zyx_um": null,
+      "shape_zyx": null,
+      "dtype": null,
+      "mesh_and_render_provenance": null,
+      "geometry_mask_manifest": null,
+      "observed_source_coverage_manifest": null,
+      "native_ct_mapping_manifest": null,
+      "frozen_context_xywh": null,
+      "expected_label_filename": "l_2_inklabels5.png",
+      "label_url": null,
+      "label_sha256": null,
+      "label_alignment_manifest": null
+    }
+  },
+  "selection_rule": {
+    "freeze_before": "Loading checkpoint predictions or choosing favorable image structures",
+    "native_crop_shape_yx": [1024, 1024],
+    "native_origin_grid_stride_yx": [128, 128],
+    "l_5_context_count": 3,
+    "l_5_strata": "Split the geometry-valid source bounding box into three equal-height native-Y bands; choose one crop with its center in each band.",
+    "stratum_center_definition": "X midpoint of the global geometry-valid bounding box and Y midpoint of the band's bounds; distance is squared Euclidean distance in native pixels.",
+    "candidate_requirements": {
+      "inside_original_canvas": true,
+      "minimum_geometry_valid_fraction": 0.95,
+      "minimum_fully_valid_256_tile_count": 36,
+      "scheduled_256_tiles_per_context": 49,
+      "verified_selected_depth_payload_coverage": "All required source support observed and recorded; declared missing/fill support must be distinguished and excluded.",
+      "disjoint_render_bboxes": true,
+      "physical_support_overlap_audit_required": true
+    },
+    "ranking": ["Higher count of fully valid 256-pixel tiles", "Higher geometry-valid fraction", "Smaller distance between crop center and its stratum center", "Lower source Y", "Lower source X"],
+    "l_5_data_permitted_for_selection": ["Geometry validity", "Verified source coverage", "Native CT coordinates and render provenance"],
+    "l_5_data_excluded_from_selection": ["Detector scores", "Released prediction previews", "Text identities", "Pseudo-labels"],
+    "l_2_sanity_selection": "One eligible crop selected from verified l_2 label support before model outputs; freeze the exact criterion and coordinates in the acquisition manifest. Label bytes/alignment are presently unresolved.",
+    "failure_policy": "Record insufficient coverage or physical overlap. Do not relax the rule or replace regions after inspecting predictions; use a separately versioned plan for changed selection.",
+    "frozen_input_manifest_sha256": null
+  },
+  "inference_recipe": {
+    "architecture": "ResNet3D-50 encoder, per-stage depth maximum, 2D U-Net decoder",
+    "input_shape_bczyx": [1, 1, 62, 256, 256],
+    "paper_named_layers_inclusive": [1, 62],
+    "verified_source_layer_indices": null,
+    "source_depth_direction_by_segment_and_iteration": null,
+    "known_direction_evidence": "Iteration-0 card explicitly says reverse_layers=True for l_2; this does not establish the l_5 convention or every checkpoint/segment pairing.",
+    "intensity_preprocessing": {
+      "paper_reported_clip_range": [0, 200],
+      "paper_reported_normalize": {"mean": 0, "std": 1},
+      "verified_clip_range": null,
+      "verified_scale_divisor": null,
+      "verified_centering_or_zscore": null,
+      "verified_input_dtype_and_quantization": null,
+      "audited_transform_source_sha256": null,
+      "conflict": "Cards suggest approximately [0,1], tiling examples feed raw float layers, wrapper header says z-score normalized, and paper says clip [0,200] then Normalize(mean=0,std=1). The exact dtype/divisor is not established by retained artifacts.",
+      "resolution_rule": "Resolve against the original pinned training/inference transforms and runtime behavior, without selecting preprocessing by favorable predictions."
+    },
+    "tile_shape_yx": [256, 256],
+    "stride_yx": [128, 128],
+    "padding": "None within the fixed 1024-square crop; starts 0,128,...,768 in each axis.",
+    "fragment_mask_gate": "Skip any tile containing any zero fragment-mask pixel, as documented by the released cards.",
+    "native_logits_shape_bcyx": [1, 1, 64, 64],
+    "output_transform": "Sigmoid logits, then bilinear 4x upsampling, then uniform averaging over overlapping accepted tiles; no Hann weighting.",
+    "bilinear_align_corners": null,
+    "bilinear_align_corners_blocker": "Card example omits the argument; pin the exact runtime/default and make the adapter convention explicit before execution.",
+    "stock_zero_when_not_evaluated": true,
+    "retain_evaluated_mask_separately": true,
+    "retain_native_logits_and_unquantized_scores": true,
+    "display_rotation_or_downsample_applied_to_science_arrays": false,
+    "checkpoint_load": "Pinned safetensors, reviewed local model/configuration sources, strict state match with no missing/unexpected keys; no floating-revision remote-code execution.",
+    "audited_adapter_sha256": null,
+    "runtime_package_lock_sha256": null,
+    "runtime_image_digest": null,
+    "device": null,
+    "inference_precision": null,
+    "batch_size": null
+  },
+  "workload_bounds": {
+    "l_5_contexts": 3,
+    "l_2_sanity_contexts": 1,
+    "checkpoint_count": 2,
+    "l_5_max_scheduled_checkpoint_tiles": 294,
+    "l_2_max_scheduled_checkpoint_tiles": 98,
+    "total_max_scheduled_checkpoint_tiles": 392,
+    "models_and_contexts_run_sequentially": true,
+    "max_concurrent_gpu_jobs": 1,
+    "model_payload_bytes_expected_total": 667063992,
+    "max_source_payload_download_bytes": 536870912,
+    "max_total_acquisition_bytes": 1610612736,
+    "bounded_chunk_request_plan": null,
+    "bounded_request_rule": "Verify metadata and count actual required source objects/chunks before acquisition. Whole-segment TIFF downloads or a request plan exceeding these bounds require a revised plan."
+  },
+  "analysis": {
+    "common_domain": "Same geometry-valid and observed source support, evaluated by both iterations, with a 128-pixel crop-edge margin; exclude pixels affected by any contributing tile with invalid geometry or missing required depth support.",
+    "mask_definitions_and_hashes_required": true,
+    "physical_support_audit": "Use mesh/native CT coordinates to record overlap between l_5 contexts, l_2 adaptation material and pretraining aliases. Disjoint render coordinates or different segment IDs do not establish independent physical samples.",
+    "blinded_review": "Randomize iteration panel identities; inspect identical fixed-scale source depth panels, native CT placement and surrounding context before revealing checkpoint identity. Record coherent stroke support, ambiguity and disagreement, without prompting text identities.",
+    "permitted_quantitative_summaries": ["Common/evaluated/support pixel counts", "Raw score distributions", "Paired absolute changes and descriptive spatial correspondence", "Scored/skipped tile counts", "Runtime, I/O and peak memory"],
+    "accuracy_metrics": null,
+    "accuracy_metrics_blocker": "No independently verified l_5 evaluation labels; precision, recall, F1 and calibrated target confidence cannot be computed.",
+    "allowed_conclusion": "A bounded replication of reported visibility behavior under an explicitly audited recipe.",
+    "prohibited_conclusions": ["Held-out accuracy without independent labels", "All-pretraining independence from l_2 exclusion alone", "Verified final full-scroll June pipeline reproduction", "Demonstrated 8.640-micrometer eligible-target transfer", "Recovered target text or translation"]
+  },
+  "gpu_pilot_contract": {
+    "authorized_total_ceiling_currency": "GBP",
+    "authorized_total_ceiling": 10,
+    "ceiling_is_aggregate_across_all_pilot_jobs": true,
+    "fresh_allowance_per_job": false,
+    "known_spent_and_active_committed_gbp": null,
+    "approved_reference_job_allocation_gbp": null,
+    "provider_quote_and_currency_conversion": null,
+    "bounded_billed_runtime_seconds": null,
+    "independent_shutdown_verified": false,
+    "shutdown_evidence": null,
+    "operational_contract": "experiments/gpu-pilot.template.json",
+    "launch_rule": "This scientific-plan is not an executable GPU job. Remain not ready until audited immutable inputs/adapter/image, a bounded quote/runtime within the shared GBP 10 ceiling, and independently verified shutdown are recorded in a separate operational contract."
+  },
+  "blockers": [
+    {"id": "native-source-identity", "needed": "Exact public l_5/l_2 source IDs, versions, native spacing, layer quantization, geometry masks and original render correspondence."},
+    {"id": "source-depth-convention", "needed": "Map paper layer names 1-62 and depth direction to each exact source/checkpoint pairing; do not assume a current 109-layer public render matches the original 65-position paper sampling."},
+    {"id": "normalization", "needed": "Audited original preprocessing resolving clipping, dtype and normalization divisor/centering."},
+    {"id": "configuration-source-and-runtime", "needed": "Review the pinned configuration source, strict-load adapter, interpolation default, package lock and image digest; weight payloads remain undownloaded/unverified."},
+    {"id": "frozen-acquisition", "needed": "Freeze geometry/coverage-selected coordinates, physical-support mapping, payload/mask hashes and a bounded source request plan before inference."},
+    {"id": "sanity-label-lineage", "needed": "Exact l_2_inklabels5.png bytes/alignment for the separate sanity control; keep it outside l_5 conclusions."},
+    {"id": "operational-budget-and-shutdown", "needed": "Account for all pilot spending/commitments, obtain a bounded quote/runtime and verify independent shutdown within the aggregate GBP 10 authorization."}
+  ]
+}

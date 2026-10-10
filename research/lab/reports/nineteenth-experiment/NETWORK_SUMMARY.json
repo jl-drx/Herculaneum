@@ -1,0 +1,42 @@
+{
+  "automatic_retries": 0,
+  "by_audit": [
+    {
+      "audit": "scroll-audit",
+      "ledger": {
+        "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/scroll-audit/request-ledger.json",
+        "sha256": "49180c7895b89232059ff37d09ee8c7ce69fbcb50da595fbfdd68eca95ec3618",
+        "size_bytes": 22724
+      },
+      "requests": 24,
+      "response_body_bytes": 1748669
+    },
+    {
+      "audit": "optical-audit",
+      "ledger": {
+        "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/optical-audit/request-ledger.json",
+        "sha256": "ad32e1595c963577acbcb7b407d7934902a3c4278bcb7dc811997e977c1191f2",
+        "size_bytes": 14507
+      },
+      "requests": 18,
+      "response_body_bytes": 1794098
+    },
+    {
+      "audit": "exposure-audit",
+      "ledger": {
+        "path": "/workspace/herculaneum-lab/reports/nineteenth-experiment/exposure-audit/request-ledger.json",
+        "sha256": "699903c0fe1c393b846825e9d71bb3eaabfd83375feebb0da56139cef41ab6ed",
+        "size_bytes": 7900
+      },
+      "requests": 8,
+      "response_body_bytes": 89068
+    }
+  ],
+  "checkpoint_downloads": 0,
+  "external_uploads": 0,
+  "requests": 50,
+  "response_body_bytes": 3631835,
+  "scientific_payload_requests": 0,
+  "scope": "Public text/metadata response bodies only; excludes wire/TLS/header overhead",
+  "status": "PASS"
+}

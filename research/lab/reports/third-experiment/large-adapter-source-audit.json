@@ -1,0 +1,29 @@
+{
+  "baseline_source": "/workspace/herculaneum-lab/run_ink_baseline.py",
+  "baseline_sha256": "2cbdb280777e19794fc78857969f9c1d43965da17772f6a1659264e6f5a48a59",
+  "large_adapter": "/workspace/herculaneum-lab/run_ink_large.py",
+  "large_adapter_sha256": "54170b298c716c4b8cb56da539bb74812a20cb8666888d02ddaf2984ddea3fbf",
+  "AST_identical_functions": [
+    "sha256_file",
+    "load_focused_sources",
+    "selected_state",
+    "build_checkpoint_model",
+    "hann_blend_map",
+    "review_interior",
+    "infer_surface",
+    "score_summary"
+  ],
+  "modified_functions": [
+    "sliding_positions",
+    "run",
+    "main"
+  ],
+  "scheduler_body_identical_after_dimension_guard": true,
+  "baseline_preserved": true,
+  "declared_changes": [
+    "maxdimension2048",
+    "scheduledtile budget default1200/hard1922 before masking",
+    "budget/provenance metadata and CLI help"
+  ],
+  "scope": "Static source/AST comparison only; no import, forward pass or scientific inference performed."
+}

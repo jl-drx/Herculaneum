@@ -1,0 +1,86 @@
+{
+  "GO": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/GO.json",
+    "sha256": "af6c49f2f295a829f7e394bf2b6968d278fc9e6774115236f8b641ed6eef627b",
+    "size_bytes": 22533
+  },
+  "GPU_spend_GBP": 0,
+  "created_at_utc": "2026-10-09T13:21:54.626064+00:00",
+  "elapsed_seconds": 0.3601060270002563,
+  "metrics": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/run-v1/METRICS.json",
+    "sha256": "5423c88d35c1a863d48e7ec6a3dca4ceade817a0f84ffe32c67908f83fa53c32",
+    "size_bytes": 45808
+  },
+  "new_model_forwards": 0,
+  "optimizer_updates": 0,
+  "peak_RSS_bytes": 44384256,
+  "scientific_attempts": 1,
+  "scores": [
+    {
+      "id": "frag3-context1",
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/run-v1/frag3-context1-midpoint.npy",
+        "sha256": "58959bebd62db10b9cc765bbf19bdf9bb59940308eb83467a51e24bb46c97683",
+        "size_bytes": 1179776
+      }
+    },
+    {
+      "id": "frag3-context2",
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/run-v1/frag3-context2-midpoint.npy",
+        "sha256": "0d0bf00b835985cb6d3f6020a8e326da85741e63de5f635a8dea6e9ad7d299b5",
+        "size_bytes": 1179776
+      }
+    },
+    {
+      "id": "frag1-context1",
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/run-v1/frag1-context1-midpoint.npy",
+        "sha256": "330c20f7a15fc8bc415bec855922391ffbeac5dcd9b12a79d8a0718388f2fed6",
+        "size_bytes": 1179776
+      }
+    },
+    {
+      "id": "frag1-context2",
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/run-v1/frag1-context2-midpoint.npy",
+        "sha256": "e0d4282e520a905ed6a28916403bceb480f65b5f9c1224431af2084609ce6c09",
+        "size_bytes": 1179776
+      }
+    },
+    {
+      "id": "frag2-context1",
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/run-v1/frag2-context1-midpoint.npy",
+        "sha256": "c8de2eefd7ccef5d16dd4600972ddf169f77f436fea3b20fa2f08389c397283b",
+        "size_bytes": 1179776
+      }
+    },
+    {
+      "id": "frag2-context2",
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/run-v1/frag2-context2-midpoint.npy",
+        "sha256": "c1c45ccad890e2ce679d6aad5fdc00557101cb2130998bb699197ec20f5e2e7c",
+        "size_bytes": 1179776
+      }
+    },
+    {
+      "id": "pherc0814-46527-fresh-rank01",
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/run-v1/pherc0814-46527-fresh-rank01-midpoint.npy",
+        "sha256": "10f81e480e1d3c24d5d1e411b7281ea75eda5365cefda8eb62d530b0a2c1955e",
+        "size_bytes": 1179776
+      }
+    },
+    {
+      "id": "pherc0814-46527-fresh-rank14",
+      "scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyninth-experiment/run-v1/pherc0814-46527-fresh-rank14-midpoint.npy",
+        "sha256": "438134ed65f9acb7e3e3ff931bd666c0d8d6b915c4e0e800ecc1ac32797d0d6e",
+        "size_bytes": 1179776
+      }
+    }
+  ],
+  "status": "PASS"
+}

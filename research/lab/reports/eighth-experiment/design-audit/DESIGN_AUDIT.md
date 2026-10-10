@@ -1,0 +1,47 @@
+# Eighth prototype scientific contract audit
+
+**No scientific blocker to the bounded, descriptive mechanism pilot in the root's PROTOCOL.md.** The adopted mask retirement, common supported schedule and conservative calibration comparator resolve the main design concerns. This is a one-initialization continuation experiment on two contexts from one adaptation specimen, followed by two new contexts from one other specimen. It can measure behavior of the fixed candidate package; it cannot establish a novel regional learning method, pretrained-model independence, calibrated ink confidence or authentic reading.
+
+This audit used retained arrays, score maps, metadata and embedded configuration records only. No checkpoint was loaded, no inference or training occurred, and no network request was made. `support-audit.json` contains the independently counted support and 25 input receipts checked before and after counting. A child independently corroborated checkpoint exposure and the conditional current-loader mask semantics.
+
+## Retired validation and actual teacher support
+
+Current manual participation is supplied S∩¬historicalV∩acquisition support. For this prototype, both entire PHerc0139 contexts are development/adaptation inputs: their historical V membership remains recorded but is openly retired from test status. Teacher participation is acquired, finite evaluated support outside current manual participation, including historical V. Since S∩V is empty in both retained contexts, this equals acquired teacher support outside S here. Only retained seed43 raw scores≥0.5 determine hard pseudo targets; the ink-label bytes inside historical V must not enter training targets or calibration.
+
+| Adaptation context | Manual reference pixels | Manual positive / negative | Pseudo pixels excluding S and V | Teacher positives there | Pseudo pixels including retired V | Teacher positive / negative |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| PHerc0139 rank01 |25,967|14,221 / 11,746|44,653|72|121,489|18,094 / 103,395|
+| PHerc0139 rank02 |31,199|6,775 / 24,424|53,577|0|116,257|13,859 / 102,398|
+
+The original outside-S-and-V proposal was essentially extra teacher-negative supervision, with only 72 positives among 98,230 pixels. The openly retired-V proposal supplies 31,953 positives among 237,746 eligible pixels and is a meaningful teacher-imitation pilot. Of those positives, 31,881 lie in historical V. This is a deliberate development-role change rather than evidence of fresh label discovery. Teacher targets remain uncalibrated model decisions, with incomplete historical teacher and annotation ancestry; supplied "manual" references also are not proven human-only ground truth.
+
+Whole-context counts overstate actual optimization exposure. There are 14 standard 128×128 stride64 tiles with no manual pixel in each context. Requiring at least 256 manual positives and negatives yields six eligible tiles per region. Their union covers the following unique support; per-step exposure additionally repeats/overlaps these pixels according to the frozen schedule:
+
+| Context | Covered manual pixels | Covered pseudo pixels | Covered teacher positive / negative | Teacher-positive counts in its six eligible tiles |
+| --- | ---: | ---: | ---: | --- |
+| PHerc0139 rank01 |25,967|27,281|4,551 / 22,730|6, 6, 781, 0, 4,245, 5|
+| PHerc0139 rank02 |28,734|20,418|2,231 / 18,187|0, 2,231, 0, 0, 0, 0|
+
+Only 6,782 unique pseudo positives are reachable on this eligible grid. Teacher supervision is predominantly negative, and five of six eligible rank02 tiles contain no teacher positives. Training receipts should report actual per-step manual/pseudo class counts and schedule fingerprints. The adopted 32-update batch-two schedule, one eligible patch from each region with identical permutations/augmentations across arms, gives every arm defined manual loss and gives all four region×class means in R nonempty support. Empty-loss steps must not be silently skipped.
+
+## Matched objective and limits of the regional claim
+
+The fixed arms A=U, B=U+0.25P and C=0.5U+0.5R+0.25P preserve total manual coefficient one and equal teacher participation/coefficient in B/C. U and P must be means over their own eligible masked pixels, rather than a whole-canvas mean that changes effective coefficients with mask density. R equally weights four region×class manual means. Manual and pseudo masks remain disjoint; annotation zeros outside supplied participation are unknown, while teacher-negative pseudo targets are explicit model decisions.
+
+C changes both region weighting and class weighting relative to B. Therefore C-versus-B measures this fixed package, not an isolated regional mechanism. These are class-balanced manual anchors in two contexts; no new learned region representation or broad domain model is established. Ordinary class reweighting, teacher distillation and global operating-point adjustment are plausible explanations for any gain. Comparing with A and frozen seed42 under the same calibration rule is essential; a benefit attainable by manual-only continuation or frozen calibration does not establish value from the candidate package. Further factorial controls, more regions and additional optimization seeds would be needed later if this small pilot is promising.
+
+Both actual initial/teacher checkpoints use pretraining BCE label smoothing0.5, corresponding to targets0.25/0.75. The pilot intentionally uses unsmoothed hard0/1 targets in every arm. A-versus-frozen therefore combines continuation with this shared target change; B/C remain matched on it. A score-scale shift alone should not be described as a ranking or regional improvement. AdamW at the root's fixed settings is also a controlled continuation choice, not a reconstruction of either original trainer's full history. The fixed update count, no best-checkpoint selection and hard CPU/memory limits are appropriate for the feasibility scope; a stopped or null run should remain the result rather than trigger tuning.
+
+## Calibration comparator and genuinely reserved scope
+
+The approved primary rule is the maximum of three separately conservative empirical95%-specificity thresholds on the previously used PHerc1667/w029 primary domain and the two old PHerc0814 primary domains. Each local helper excludes a whole crossing negative-score tie using the next float32 cutoff. Taking the maximum cannot add false positives in any development region and therefore preserves the empirical bound on each. Apply that rule separately to frozen seed42 and each final adapted model, using only the declared development negatives. Retain the PHerc1667-only rule as secondary. The maximum may coincide with the original cutoff; that is a valid outcome, not a reason to force a different comparator.
+
+A strictly increasing global score transform followed by the same quantile cutoff on the same calibration data preserves ordering, AUC/AP and classified pixels. It is not an informative additional baseline. The approved comparison changes calibration support and adopts a conservative worst-region cutoff. It changes actual decisions only when the additional development regions require a higher cutoff; it provides no guarantee on fresh-region specificity. Old PHerc0814 contexts are now calibration data and remain visible in the model-selection/history ledger. PHerc0139 historical-V labels are not calibration data.
+
+Fresh PHerc0814 contexts must be frozen before adapted predictions, remain outside every gradient update and cutoff fit, and satisfy the declared source-XY gap from both old full contexts and each other. Their evaluation membership is supplied supervision, not newly named public validation; historical V remains separate. Compare all four models on the same acquired-support, fixed64-margin, common finite/evaluated masks. This supports within-study paired comparisons but is a changed annotation-participation domain from the seventh study. A canvas gap is not proof of native3D or teacher independence.
+
+Both seed42 and seed43 actual embedded configurations list PHerc0139/w016 and PHerc0814/46527 among their datasets, online-validation cases and reserved-validation cases. They used validation balanced accuracy for best-checkpoint selection; the retained sampling prior includes both specimens. Historical loader revision, exact loss pixels, label bytes, full source-context exposure and complete teacher ancestry are unresolved. New PHerc0814 withholding therefore establishes only current-adaptation/calibration isolation. Two new contexts on PHerc0814 are one physical specimen group, not two independent specimens.
+
+The predeclared C-versus-B screen is coherent: at least95% achieved specificity on each fresh context, equal-context sensitivity gain≥0.02, no individual sensitivity drop>0.02, AUC drop>0.01 or AP drop>0.02; compare A/frozen under the same rule. Interpret it as a descriptive follow-up gate, with no pixel confidence intervals or significance claim. Preserve each failed transfer row and the calibration/fresh-role distinction. No novelty, generalization, ink-authenticity or text claim follows even from a passing screen.
+
+Retained evidence: sixth `model-contract/audit-v2/model-contract.json`; seventh `model-exposure-ledger.json`, frozen panel plan/source arrays and seed43 raw maps; eighth `PROTOCOL.md` and data proposal. Exact paths/hashes are in `support-audit.json`. All previous files remain unchanged.

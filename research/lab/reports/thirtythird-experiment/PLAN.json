@@ -1,0 +1,295 @@
+{
+  "boundary_breaks": [
+    2,
+    4
+  ],
+  "contexts": [
+    {
+      "core64": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r544-c4128-core64.npy",
+        "sha256": "e872142a6e70cc8dc01c1029660b220b3a86e32ae677188a7eca55584942667d",
+        "size_bytes": 4224
+      },
+      "id": "r544-c4128",
+      "labels128": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r544-c4128-labels128.npy",
+        "sha256": "2b44ee183f7dac47da3256568bf47e2c4c2837b643455c3037ac2c61ebbc22bc",
+        "size_bytes": 16512
+      },
+      "prior_clean": {
+        "AP_delta": 0.012496896814318648,
+        "AUROC_delta": 0.02802663552578566,
+        "baseline": {
+          "ap": 0.9741404732168061,
+          "auc": 0.938946193845689,
+          "counts": {
+            "known": 4008,
+            "missing_prediction": 0,
+            "scored_negative": 1088,
+            "scored_positive": 2920,
+            "selected": 4096,
+            "unknown": 88
+          },
+          "status": "defined"
+        },
+        "candidate": {
+          "ap": 0.9866373700311247,
+          "auc": 0.9669728293714747,
+          "counts": {
+            "known": 4008,
+            "missing_prediction": 0,
+            "scored_negative": 1088,
+            "scored_positive": 2920,
+            "selected": 4096,
+            "unknown": 88
+          },
+          "status": "defined"
+        },
+        "displacement": 0
+      },
+      "prior_scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/scores-v1/r544-c4128-arms.npy",
+        "sha256": "e62a5f323df9f1fd6ef0b2b92f2abd2fbab57589b0ff7c20c2c153cd547089c3",
+        "size_bytes": 196736
+      },
+      "source_bbox_yxhw": [
+        608,
+        4192,
+        384,
+        384
+      ]
+    },
+    {
+      "core64": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r2080-c3616-core64.npy",
+        "sha256": "3ba11d55b1bc45877d813e18eb91b0fa99a853be0613a615d38430d3181dee97",
+        "size_bytes": 4224
+      },
+      "id": "r2080-c3616",
+      "labels128": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r2080-c3616-labels128.npy",
+        "sha256": "859f0ca90eaf4c0100a13caddcefe16b10ffbf907c9356508f3db0cd0a50a3c0",
+        "size_bytes": 16512
+      },
+      "prior_clean": {
+        "AP_delta": -0.0038151261610075426,
+        "AUROC_delta": -0.023332889066595586,
+        "baseline": {
+          "ap": 0.992931641730134,
+          "auc": 0.957104739803425,
+          "counts": {
+            "known": 4034,
+            "missing_prediction": 0,
+            "scored_negative": 549,
+            "scored_positive": 3485,
+            "selected": 4096,
+            "unknown": 62
+          },
+          "status": "defined"
+        },
+        "candidate": {
+          "ap": 0.9891165155691265,
+          "auc": 0.9337718507368294,
+          "counts": {
+            "known": 4034,
+            "missing_prediction": 0,
+            "scored_negative": 549,
+            "scored_positive": 3485,
+            "selected": 4096,
+            "unknown": 62
+          },
+          "status": "defined"
+        },
+        "displacement": 0
+      },
+      "prior_scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/scores-v1/r2080-c3616-arms.npy",
+        "sha256": "8c7fad9063cbd6cac6e084aaae6847224e5586c4e4c923c00a6a5b7217d12990",
+        "size_bytes": 196736
+      },
+      "source_bbox_yxhw": [
+        2144,
+        3680,
+        384,
+        384
+      ]
+    },
+    {
+      "core64": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r4640-c1056-core64.npy",
+        "sha256": "7efd9ad7346780a06aeb8c50b4bccb231758c244b52b309d9293b3af72edf443",
+        "size_bytes": 4224
+      },
+      "id": "r4640-c1056",
+      "labels128": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r4640-c1056-labels128.npy",
+        "sha256": "8be41d0db4cb4aa918d87f5dca431871fdc18eb4aa8248c3b228cd882400fde3",
+        "size_bytes": 16512
+      },
+      "prior_clean": {
+        "AP_delta": -0.024329760392485467,
+        "AUROC_delta": -0.02443178019263814,
+        "baseline": {
+          "ap": 0.1175631927018688,
+          "auc": 0.8796856748433683,
+          "counts": {
+            "known": 4071,
+            "missing_prediction": 0,
+            "scored_negative": 3942,
+            "scored_positive": 129,
+            "selected": 4096,
+            "unknown": 25
+          },
+          "status": "defined"
+        },
+        "candidate": {
+          "ap": 0.09323343230938333,
+          "auc": 0.8552538946507302,
+          "counts": {
+            "known": 4071,
+            "missing_prediction": 0,
+            "scored_negative": 3942,
+            "scored_positive": 129,
+            "selected": 4096,
+            "unknown": 25
+          },
+          "status": "defined"
+        },
+        "displacement": 0
+      },
+      "prior_scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/scores-v1/r4640-c1056-arms.npy",
+        "sha256": "8bd43608e6d14a0fbe5085220c26cccdf0d42fe283c56147b4cee82c921be967",
+        "size_bytes": 196736
+      },
+      "source_bbox_yxhw": [
+        4704,
+        1120,
+        384,
+        384
+      ]
+    },
+    {
+      "core64": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r6688-c1568-core64.npy",
+        "sha256": "e826d12fff81cee03a28553eb72aba9ec5e3c59a21b41920db1fe946cb183157",
+        "size_bytes": 4224
+      },
+      "id": "r6688-c1568",
+      "labels128": {
+        "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/r6688-c1568-labels128.npy",
+        "sha256": "6cfca2a389afffef98c7898425921c4c87d67cc1aae8abe17bd37f5f616e7777",
+        "size_bytes": 16512
+      },
+      "prior_clean": {
+        "AP_delta": 0.0006523075407973422,
+        "AUROC_delta": -0.013320620815031492,
+        "baseline": {
+          "ap": 0.15700012567610047,
+          "auc": 0.7239438070934159,
+          "counts": {
+            "known": 4040,
+            "missing_prediction": 0,
+            "scored_negative": 3652,
+            "scored_positive": 388,
+            "selected": 4096,
+            "unknown": 56
+          },
+          "status": "defined"
+        },
+        "candidate": {
+          "ap": 0.1576524332168978,
+          "auc": 0.7106231862783844,
+          "counts": {
+            "known": 4040,
+            "missing_prediction": 0,
+            "scored_negative": 3652,
+            "scored_positive": 388,
+            "selected": 4096,
+            "unknown": 56
+          },
+          "status": "defined"
+        },
+        "displacement": 0
+      },
+      "prior_scores": {
+        "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/scores-v1/r6688-c1568-arms.npy",
+        "sha256": "913c31fab535cd4df711f26bdc8bbacafae4c1d413d1f130f9027d1548b3920b",
+        "size_bytes": 196736
+      },
+      "source_bbox_yxhw": [
+        6752,
+        1632,
+        384,
+        384
+      ]
+    }
+  ],
+  "created_at_utc": "2026-10-09T10:21:39.180779+00:00",
+  "limits": {
+    "RSS_bytes": 1073741824,
+    "new_phase_bytes": 67108864,
+    "worker_seconds": 120
+  },
+  "max_model_forwards": 0,
+  "max_network_requests": 0,
+  "optical": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/acquisition-v1/ir.png",
+    "sha256": "7d5f4e617fa46d9e8882e18ba4448b130fe06dbc5380f08c58137960b35c6c85",
+    "size_bytes": 14934980
+  },
+  "posthoc": true,
+  "predictions": [
+    "baseline_clean",
+    "candidate_clean",
+    "optical_darkness"
+  ],
+  "prior_CPU_panel": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfirst-experiment/cpu-panel-v1/CPU_PANEL.json",
+    "sha256": "a542fff41b81b6c783d141a68d4a0c2051a978c2ee883d0ed10e60f2d1d78ef0",
+    "size_bytes": 5153
+  },
+  "prior_results": {
+    "path": "/workspace/herculaneum-lab/reports/thirtysecond-experiment/scores-v1/RESULTS.json",
+    "sha256": "e171a50e506877f8d060d64f6fda284fcb476842629c447b107b28eafadde8da",
+    "size_bytes": 15726
+  },
+  "shifts": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "RECOVERED",
+  "failure": "exec-server transport disconnected",
+  "pre_failure_phase22_retention": "PASS",
+  "phase23_model_calls_before_recovery": 0,
+  "provisional_config_revision": 37,
+  "correction": "The provisional startup note was saved before learning that the input-audit agent recovered and launched its no-model verifier. Root then confirmed access and observed INPUT_CONTRACT.json/verification.json. No scientific model had run. Resume work automatically; supersede provisional note at completion.",
+  "input_verifier_session": 58421,
+  "root_protocol": {
+    "path": "/workspace/herculaneum-lab/reports/twentythird-experiment/PROTOCOL.md",
+    "sha256": "5a8fbf4762ed8dc03c3c13b0f5bcc7acaddaf146cce5987164463161eb76dc02",
+    "size_bytes": 7490
+  },
+  "created_at_utc": "2026-10-09T05:26:57.420586+00:00"
+}

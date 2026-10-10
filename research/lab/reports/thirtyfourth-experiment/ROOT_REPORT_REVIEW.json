@@ -1,0 +1,53 @@
+{
+  "all_contexts_and_depths_inspected": true,
+  "all_signed_variants_retained": true,
+  "decision": "Retain baseline; stop feature/depth sweeps and prepare a concrete geometry/reference review packet",
+  "figures": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/figures/interior-ap-profiles.png",
+      "sha256": "ff922901b4abc3dcb822bca89488fc5ce2718ece54e14a246ccb59b83c787541",
+      "size_bytes": 353002
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/figures/interior-auc-profiles.png",
+      "sha256": "00273ff9f75cc8b523b217b1d7fa922740f625e3a7301003da95840590fb88e7",
+      "size_bytes": 475280
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/figures/interior-class-distributions.png",
+      "sha256": "2d766322b83f780e2ffded56e9c792b0b7328a12481c0a8220895e5d969350a5",
+      "size_bytes": 554577
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/figures/original-ap-profiles.png",
+      "sha256": "95434b1a397097b8d66d1c87d469a60924bbe6d3779ef056ba60db887dc4742a",
+      "size_bytes": 361026
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/figures/original-auc-profiles.png",
+      "sha256": "7dc0a2fd2136ffbc72a3b634d60dae30299b95eb58766809c1e3ec0ceb33c2a7",
+      "size_bytes": 429335
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/figures/original-class-distributions.png",
+      "sha256": "a8e390616de70cee123e749b11062403dc71979809d9d6deace434d83df5ca3d",
+      "size_bytes": 571420
+    }
+  ],
+  "independent_agent": false,
+  "limits": [
+    "Scalar-feature failure cannot establish absent ink or exclude a learned representation",
+    "Fixed contrast also weak in regions where the CT backbone ranks labels well",
+    "Historical layers do not authenticate physical ink depth or optical registration",
+    "Interior sparse positives and dependent pixels/depths limit inference",
+    "One previously scored parent with unresolved exposure/reference history"
+  ],
+  "numerical": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyfourth-experiment/VERIFICATION.json",
+    "sha256": "44033298f70aefc0b23cde80bded26f6061f9703110b34ac28ab4e9a3894da7f",
+    "size_bytes": 1104
+  },
+  "original_primary_unchanged": true,
+  "reviewer": "root",
+  "status": "PASS_WITH_INCONCLUSIVE_REPRESENTATION_INFERENCE"
+}

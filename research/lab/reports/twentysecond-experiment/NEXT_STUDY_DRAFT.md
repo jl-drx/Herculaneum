@@ -1,0 +1,27 @@
+# Next study: a qualified native reference, with honest evaluation claims
+
+This is a post-audit design recommendation. Freeze exact inputs, code, counts and resource limits in a new phase before execution. This document does not authorize a paid launch or modify any completed study.
+
+The useful question is now whether the published native checkpoint supplies a stronger **fixed reference on our existing development inputs**. We should answer that before designing another trainable adapter. A native checkpoint that passes phase22's compatibility checks is executable; it has not thereby demonstrated better ink detection. If strict loading or parity fails, resolve that specific implementation failure first, preserving the failed outcome and original tolerances.
+
+## One bounded comparison, no tuning loop
+
+Compare only unchanged seed42 and the qualified published dense-native checkpoint on the six already reused Paris contexts. Keep each retained surface tensor, normalization, selected depth, direction, tiling, support mask and label policy fixed. Audit the saved input fingerprints before choosing any acquisition or forward schedule. Reuse existing seed42 outputs only if their complete input/inference contract matches; otherwise prescribe a matched replay before inspecting native results. Record whether the comparison feeds an already selected 17-plane tensor or selects planes from a larger source. Do not silently apply the native 28-plane center rule to a preselected tensor, and do not attribute differences from a changed input recipe solely to checkpoint weights.
+
+Use raw FP32 blended sigmoid scores for primary comparisons. Report the historical uint8 and clipped-author transformations separately as reproducibility diagnostics; they introduce ties and are not interchangeable with calibrated probabilities. Primary descriptive metrics: per-context ROC-AUC and average precision, followed by equal-context summaries within each physical parent. Do not pool millions of neighboring pixels into a false independent sample size. Report paired differences, both parents, support counts and spatial disagreement panels, including unfavorable examples. Two reused parents are insufficient for a broad generalization claim. A newly fitted threshold or best depth-window selection would be an additional intervention and is excluded.
+
+This comparison is development-only, with no optimization, threshold fitting, ensemble search, teacher generation or model promotion. It cannot certify upstream teacher exclusion or out-of-sample accuracy. Its practical decision is narrower: if the native reference is consistently more useful, it becomes a candidate reference for a separately designed experiment; mixed or worse results mean retain seed42 and investigate the observed failure rather than starting a sweep. Do not turn this descriptive study into a retrospective pass threshold.
+
+## Keep evaluation reserves distinct
+
+PHerc0009B, PHerc0500P2, PHerc0841 and Frag6 remain locally unscored. Preserve their physical-parent aliases and do not use them for gradients, teacher construction, crop selection from model outputs or cutoff fitting. Known paper-model exposure on 0009B/0500P2 is recorded separately from the unresolved ancestry of seed42's original labels and the canonical R152 teacher. Unknown ancestry cannot be described as independence.
+
+A future **supplied-reference agreement** study is feasible only after a usable reference-to-input contract exists: exact source and target identities, render coordinates/depth, mapping validity, annotation support and negative-label meaning. Freeze geometry-based selection before viewing predictions, report all prespecified subjects and abstentions, and keep PHerc0841's reconstructed/model-reviewed label status explicit. Do not pick its most favorable segment after comparing model outputs. These annotations cannot alone support an independent physical-ink claim.
+
+An **optically anchored accuracy** study additionally needs traceable optical labels, registration and residual-error evidence, and confirmed upstream/local separation. Frag6 is a potential route, but its sparse PPM geometry checks do not establish those missing facts or open Stage C. No authenticated public endpoint has yet been identified for the missing historical render/annotation and teacher manifests; repeated unchanged listings will not resolve them. Obtaining such records would require a concrete source or separately authorized outreach. We can continue useful development research while stating this limitation.
+
+## Compute decision
+
+The next fixed-reference comparison should fit the existing CPU workflow. There is no scientific reason yet to rent an H100. Before any later paid pilot, freeze a workload that benefits from acceleration, pin its CUDA environment, check current pricing and startup costs, include currency/tax/storage/transfer margin, and arrange shutdown independently of the worker. Verify scoped R2 secret delivery in the intended Runpod account/runtime. The recorded temporary credential expiry is 15 October 2026 at 10:58:59 BST; check validity at launch. Preserve the £10 TOTAL first-pilot cap across failed starts and retries. Paid GPU spend remains £0.
+
+Prize eligibility should remain a separately versioned check before submission, including current rules and third-party code/data/model rights. This research design makes no eligibility or frontier-performance claim and requires no submission or external publication.

@@ -1,0 +1,50 @@
+{
+  "agent_review_of_this_phase": false,
+  "conclusion": "Class-exposure-matched two-parent training recovers regional retention but does not improve aggregate Paris AP over the narrow control",
+  "decision": "Preserve seed42/full input; no promotion, extension or GPU; fixed reduced-prediction-change comparator proposed before source-region replication",
+  "figures": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/figures/all-regional-deltas.png",
+      "sha256": "5c00ab14a81e9255478dc0b08ed784aef372e2f904400b9269265647fc2953b8",
+      "size_bytes": 119358
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/figures/learning-curves.png",
+      "sha256": "d2aea7f85d10ad22ace758588ee132dadc98828faaeb4148f4643b9090467cd4",
+      "size_bytes": 113578
+    }
+  ],
+  "figures_visually_reviewed": true,
+  "limitations": [
+    "All eight evaluation regions are reused development",
+    "One added 256-square source crop, one initializer and fixed optimizer",
+    "Source/pixel-layout/teacher-confidence changes not individually isolated",
+    "Unknown human/teacher ancestry and optical registration",
+    "No independent optimizer/autograd replay",
+    "Improved retention versus seed42 does not imply uniform superiority over A512",
+    "Reduced PHerc0139 patch exposure can explain some retention; pure diversity not isolated"
+  ],
+  "new_experiment_launched": false,
+  "numerical": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/TRAINING_VERIFICATION.json",
+      "sha256": "9de2709cbae938184ea800048552d45e0460bc9183fae5d708269c8e8734d17f",
+      "size_bytes": 781
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/EVALUATION_VERIFICATION.json",
+      "sha256": "21b2321cb3baa3883c9f957e1a878dc2c83518103bd6882965ceda8c2f85f203",
+      "size_bytes": 872
+    }
+  ],
+  "report": {
+    "path": "/workspace/herculaneum-lab/reports/thirtyeighth-experiment/RESULTS.md",
+    "sha256": "f0ae5310da746e9fbce31af11608b2e4ba6cc94d3a679222727460b77014f7f9",
+    "size_bytes": 10766
+  },
+  "report_reviewed": true,
+  "reviewer": "root",
+  "scientific_code_reviewed": true,
+  "status": "completed_verified_retention_pass_primary_gain_fail",
+  "unchanged_baseline": true
+}

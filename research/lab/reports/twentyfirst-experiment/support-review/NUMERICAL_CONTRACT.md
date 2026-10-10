@@ -1,0 +1,13 @@
+# Independent phase 21 support and objective contract
+
+This is a preparatory training-only audit, not an executable training protocol. It reads only the two retained PHerc0139 annotation-participation/acquisition/occupancy masks, the fixed 32-step schedule and their source metadata. No Paris scientific array or prediction, CT image, teacher/student logit array, model checkpoint, network request or optimization is needed.
+
+Support arrays, D4 transformations, source indices, counts, repeated exposures and array fingerprints must agree exactly. Geometry-valid support is unknown unless a source-grounded mask with authenticated semantics exists; its counts remain null. Acquisition coverage, nonzero CT occupancy, annotation participation and geometry validity are distinct. An absent annotation is not a negative ink label. Outside current manual support includes retired validation as well as annotation-unknown locations and must not be called uniformly unlabeled.
+
+Independent synthetic objective calculations use float64 stable log probabilities. Algebraic identities use absolute tolerance 1e-12; central finite-difference output derivatives at moderate logits use step 1e-5 and absolute tolerance 2e-9. Fixture parameters, supports and tolerances are fixed before author-result comparisons. No numerical tolerance is fitted to a scientific result.
+
+The synthetic alternatives retain mean smoothed BCE on manual support M. The reference adds lambda times mean KL(teacher || student) on M. A uniform broader alternative replaces that KL mean with a mean on supplied support G, requiring nonempty M and G and M contained in G. A separate stratified example is mean KL on M plus a fixed coefficient times mean KL on U=G minus M, with an explicit empty-U policy. These are mathematical illustrations, not selected scientific hyperparameters or permission to expand support. Root must choose and freeze any future objective and its weights.
+
+For uniform mean KL, expanding support reduces each manual pixel's KL derivative from lambda*(p-q)/|M| to lambda*(p-q)/|G|. Retaining the same lambda therefore retains the aggregate coefficient, not the old manual per-output protection. Independently verify this dilution, zero unsupported derivatives, manual-only BCE, teacher direction, repeated-sample invariance, empty-group handling and equal-batch versus pooled-pixel reduction.
+
+The audit cannot infer causal reasons for phase 20 regional losses or establish authenticity of public annotation/teacher ancestry. It authorizes no training, architecture selection, teacher fitting, GPU launch or external publication.

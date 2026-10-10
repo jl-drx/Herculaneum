@@ -1,0 +1,61 @@
+{
+  "anatomical_normal_known": false,
+  "annotation_support_inspected": false,
+  "blanket_legacy_Stage_C_release": false,
+  "candidate": "Frag6 / PHerc51",
+  "coordinate_recipe": "PPM_XYZ + (layer_index - 32) * stored_normal",
+  "empirical_correspondence_scope": "seven3x3neighborhoods on0/32/64 and three new-layer16centers",
+  "exact_historical_invocation_known": false,
+  "fresh_exact_pairs": 3,
+  "global_canvas_mapping_proven": false,
+  "historical_build_identity_authenticated": false,
+  "historical_interpolation": "Source-derived c10 corner index behavior from version-tagged Volume.cpp plus nearest-even rounding",
+  "historical_source_code_executed": false,
+  "independent_ink_reference_ready": false,
+  "local_exposure": {
+    "ink_label_pixels": 0,
+    "ink_model_scores": 0,
+    "native_chunks_acquired": 14,
+    "native_decoded_voxels": 29360128,
+    "optical_pixels": 0,
+    "published_CT_values_read": 192
+  },
+  "metadata_shape_zyx": [
+    8855,
+    2260,
+    6300
+  ],
+  "model_execution_ready": false,
+  "narrow_CT_correspondence_release": true,
+  "native_pitch_um": {
+    "evidence": "retained named native volume descriptor; Zarr NGFF axes remain unitless",
+    "nominal": 3.24
+  },
+  "native_store": "https://dl.ash2txt.org/fragments/Frag6/PHerc51Cr4Fr8.volpkg/volumes_zarr/53keV_3.24um_.zarr/0",
+  "next_action": "Bounded prospective reference-panel mask/label quality control and geometry/render convention binding",
+  "no_independent_parent_claim": true,
+  "optical_registration_qualified": false,
+  "original_fixed_mapping_result": "MAPPING_NOT_QUALIFIED",
+  "physical_ink_depth_known": false,
+  "post_hoc_exact_pairs": 189,
+  "published_layers_inspected": [
+    0,
+    16,
+    32,
+    64
+  ],
+  "source_commit": "7640ba6c8e41f39a7aef63e9780cd13c296b2d15",
+  "source_manifest": {
+    "path": "/workspace/herculaneum-lab/reports/thirtieth-experiment/run-v1/SOURCE_MANIFEST.json",
+    "sha256": "2e210ecaee3717099a069f795182f297a5badeb119a588ff16feb4bd93948d5e",
+    "size_bytes": 2372
+  },
+  "source_tag": "v2.26.0",
+  "status": "NARROW_RENDER_BEHAVIOR_REPRODUCED_REFERENCE_PANEL_PENDING",
+  "unchanged_reserves": [
+    "PHerc0009B",
+    "PHerc0500P2",
+    "PHerc0841",
+    "Frag6 ink scoring"
+  ]
+}

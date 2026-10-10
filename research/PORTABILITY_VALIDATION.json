@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "capsule_sha256": "2f330e9043ba2333b001780f18c498a5def95ca11eeadddcfd29d94cb0d09efc",
+  "restored_files": 93,
+  "all_reported_metrics_and_decisions_identical": true,
+  "scope": "Relocated local replay using this interpreter; not an independent machine validation",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "output": "/tmp/plinius-phase39-clean-replay/replay-result",
+  "exported_files_verified": 1702,
+  "exported_bytes": 16006100,
+  "dependency_environment": "Fresh Python 3.12.14 venv; exactly numpy==2.5.3 installed from hash-pinned lock",
+  "github_download_replay": "PASS: actual GitHub blob downloaded through GitHub API; SHA256 and all results identical",
+  "historical_scientific_retry": false,
+  "GPU_spend_GBP": 0,
+  "release_upload": "HTTP401 on uploads.github.com; no asset uploaded. Empty draft removed; fixture committed via authorized Git path",
+  "github_blob_sha": "f94cc4c133e793fdab76d631f7c7d0f031f21ee6",
+  "github_commit_at_download": "f5bb360c7c2176239781eff4894e797ced345fdb",
+  "downloaded_capsule_sha256": "2f330e9043ba2333b001780f18c498a5def95ca11eeadddcfd29d94cb0d09efc",
+  "downloaded_replay": {
+    "status": "PASS",
+    "capsule_sha256": "2f330e9043ba2333b001780f18c498a5def95ca11eeadddcfd29d94cb0d09efc",
+    "restored_files": 93,
+    "all_reported_metrics_and_decisions_identical": true,
+    "scope": "Relocated local replay using this interpreter; not an independent machine validation",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "output": "/tmp/plinius-phase39-github-replay/replay-result"
+  }
+}

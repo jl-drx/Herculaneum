@@ -1,0 +1,53 @@
+{
+  "checks": [
+    "All four parent/model AUC and AP changes negative",
+    "Seed42 declines on all six; native improves only frag3-context2",
+    "All parent direction values present at six decimal places",
+    "300 calls, two strict loads, no scientific retry",
+    "All four complete figures reviewed by root",
+    "Scientific interpretation limited to order sensitivity on reused development",
+    "No direction selection, promotion, GPU launch, training or independent accuracy claim"
+  ],
+  "created_at_utc": "2026-10-09T05:57:11.387253+00:00",
+  "decision": "Retain forward seed42 baseline; native contrasting reference; prioritize independent reference contract.",
+  "independent_verification": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/independent-review/verification-v1.json",
+    "sha256": "70b58255c623f4cc7ce7ca65a92f45b92405e8c5d713ebb57b0229399fdb23a5",
+    "size_bytes": 39773
+  },
+  "metrics": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/implementation/analysis-v1/metrics.json",
+    "sha256": "8c424831c0bbe78aef529b27278c3609639046e6d263c5385af4bc1cd37a921c",
+    "size_bytes": 33832
+  },
+  "report": {
+    "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/RESULTS.md",
+    "sha256": "ca5d8d2903f398943dc978793be47f9f4974e0ff967179afe6bfe1ddca063a73",
+    "size_bytes": 10073
+  },
+  "reviewer": "root",
+  "status": "PASS",
+  "subtree_records_rechecked": 189,
+  "subtree_seals": {
+    "implementation": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/implementation/RETENTION_MANIFEST.json",
+      "sha256": "0287559ba2258981afbd28ed9f5482d9d7df4be7e1af874b5c1ba21f997be08d",
+      "size_bytes": 31096
+    },
+    "independent-review": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/independent-review/RETENTION_MANIFEST.json",
+      "sha256": "9f2857fdcfa768367a32cc81553c6d83b09dd42d9aa8d603cda235408ca46283",
+      "size_bytes": 3740
+    },
+    "input-audit": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/input-audit/RETENTION_MANIFEST.json",
+      "sha256": "597d2307cf0235d8537a4d6f462633ece5c5337f4918cba05e3cc933f1edf247",
+      "size_bytes": 2737
+    },
+    "visuals": {
+      "path": "/workspace/herculaneum-lab/reports/twentyfourth-experiment/visuals/RETENTION_MANIFEST.json",
+      "sha256": "ddf22c9de3c03791c48852aac5adf4b138b20ca49102b956c36e8fd5622aa943",
+      "size_bytes": 12110
+    }
+  }
+}
