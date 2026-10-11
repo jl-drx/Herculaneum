@@ -65,5 +65,24 @@
     ],
     "scope": "Frozen geometry solve with paths rebound to verified local bytes; no CT registration, inference or new data acquisition."
   },
-  "scope": "Actual fresh directory restore and offline CPU replay on this host; no fresh-machine dependency installation claim."
+  "scope": "Actual fresh directory restore and offline CPU replay on this host; no fresh-machine dependency installation claim.",
+  "verification_scratch_removed_after_receipts": [
+    {
+      "temporary_directory": "/workspace/scratch/w040-portable-validation",
+      "bytes": 214169334
+    },
+    {
+      "temporary_directory": "/workspace/scratch/w040-numerical-replay",
+      "bytes": 271725986
+    },
+    {
+      "temporary_directory": "/workspace/scratch/w040-geometry-replay",
+      "bytes": 261931611
+    },
+    {
+      "temporary_directory": "/workspace/scratch/w040-lfs-remote",
+      "bytes": 168068620
+    }
+  ],
+  "cleanup_utc": "2026-10-11T01:30:36.140356+00:00"
 }

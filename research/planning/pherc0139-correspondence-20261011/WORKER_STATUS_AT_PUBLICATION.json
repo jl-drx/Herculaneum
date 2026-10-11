@@ -1,11 +1,11 @@
 {
-  "observed_at_utc": "2026-10-11T01:24:29.006497+00:00",
+  "observed_at_utc": "2026-10-11T01:30:36.045035+00:00",
   "status": "RUNNING",
   "worker_identity_live": true,
   "completed_maps": 28,
   "expected_maps": 32,
   "progress": {
-    "committed_batches": 19,
+    "committed_batches": 78,
     "completed_maps": 28,
     "expected_job_batches": 204,
     "expected_maps": 32,
@@ -15,24 +15,24 @@
       "forward",
       15
     ],
-    "new_batches_this_pass": 19,
-    "pass_seconds": 115.49645893200068,
+    "new_batches_this_pass": 78,
+    "pass_seconds": 478.56698509299895,
     "pid": 160229,
     "reused_batches_this_pass": 0,
     "stage": "inference",
     "status": "RUNNING",
-    "utc": "2026-10-11T01:24:28.036590+00:00"
+    "utc": "2026-10-11T01:30:31.107111+00:00"
   },
   "checkpoint_backup": {
     "status": "PUSHED",
-    "utc": "2026-10-11T01:20:12.903214+00:00",
-    "remote_commit": "6b4ae76a9e118b1608ebfe62f1e3691b9eaa9ec3",
-    "generations": 12,
-    "files": 5374,
-    "new_files": 200,
-    "archive_bytes": 5440592,
-    "archive_sha256": "16af24fe3b17b1b6df94572298752b23e0d61825ef7535549075a63009d206c8",
+    "utc": "2026-10-11T01:30:21.808759+00:00",
+    "remote_commit": "73be5b41dda51be586e97661366aa4b8b3eefba6",
+    "generations": 13,
+    "files": 5577,
+    "new_files": 203,
+    "archive_bytes": 8334600,
+    "archive_sha256": "f854b1c24744edf3a8636dd9c4835814a24da46444c593ffaf6b4b8a36f0ff66",
     "remote_ref": "refs/heads/codex/plinius-pherc0800-phase52-checkpoints"
   },
-  "scope": "Status only; no partial shifted prediction pixels inspected or active study52 files changed."
+  "scope": "Status only; active study52 files, model settings and partial prediction review unchanged."
 }
