@@ -1,0 +1,113 @@
+{
+  "checked_utc": "2026-10-11T09:44:03.220371+00:00",
+  "worker_alive": true,
+  "worker": {
+    "pid": 18909,
+    "start_ticks": "1558242",
+    "started_utc": "2026-10-11T09:33:02.995974+00:00",
+    "resume_command": "python native_learning.py run --run /workspace/herculaneum-lab/reports/pherc0139-native-learning-20261011 --source /workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011"
+  },
+  "status": {
+    "utc": "2026-10-11T09:43:02.822276+00:00",
+    "phase": "training",
+    "arm": "w035-seed17",
+    "step": 512,
+    "maximum_updates": 16384,
+    "train": {
+      "ap": 0.5597855341418273,
+      "auc": 0.6760541889347979,
+      "positives": 574997,
+      "negatives": 1003070,
+      "undefined_single_class": false,
+      "bce": 0.6086310029469915,
+      "prevalence": 0.3643679260766495,
+      "mean_probability": 0.368455344998727,
+      "fraction_probability_ge_half": 0.15811305857102392
+    },
+    "lr": 0.001,
+    "seconds_per_update_including_training_checks": 0.8307168323691414,
+    "termination": null,
+    "held_out_predictions": 0,
+    "draws": 2048,
+    "unique_cores": 138,
+    "supervised_pixel_exposures": 27752695
+  },
+  "arms": [
+    {
+      "arm": "w035-seed17",
+      "step": 512,
+      "best_step": 512,
+      "last_committed_utc": "2026-10-11T09:43:02.820929+00:00",
+      "termination": null,
+      "complete": false
+    }
+  ],
+  "error": null,
+  "backup": {
+    "status": "PUSHED",
+    "utc": "2026-10-11T09:41:26.901664+00:00",
+    "remote_commit": "d2fe787e0c3ce09fa9f425c02f9160fb79514e8d",
+    "remote_ref": "refs/heads/codex/plinius-native0139-learning-checkpoints",
+    "generations": 3,
+    "files": 21,
+    "new_files": 7,
+    "archive_bytes": 1401918,
+    "archive_sha256": "db1a1a8ae4fa9236446ccd619ee4a0c24dc8afc6cebb1eed8f944a0ece319428"
+  },
+  "backup_last_error": null,
+  "backup_watcher_alive": true,
+  "scope": "Launch observation, not a live heartbeat or completed held-out evaluation",
+  "baseline_fits": [
+    {
+      "fold": "w035",
+      "converged": true,
+      "iterations": 113,
+      "gradient_infinity": 2.699425446598953e-07,
+      "train": {
+        "ap": 0.4241878176952086,
+        "auc": 0.5766539887934469,
+        "positives": 574997,
+        "negatives": 1003070,
+        "undefined_single_class": false,
+        "bce": 0.6481419258344284,
+        "prevalence": 0.3643679260766495,
+        "mean_probability": 0.364367898050295,
+        "fraction_probability_ge_half": 0.005096108086665522
+      }
+    },
+    {
+      "fold": "w039",
+      "converged": true,
+      "iterations": 108,
+      "gradient_infinity": 4.719031447785216e-07,
+      "train": {
+        "ap": 0.41642403060729855,
+        "auc": 0.5749609656234935,
+        "positives": 741254,
+        "negatives": 1371299,
+        "undefined_single_class": false,
+        "bce": 0.64026018269871,
+        "prevalence": 0.3508806642957597,
+        "mean_probability": 0.3508807528259058,
+        "fraction_probability_ge_half": 0.0070284627178584394
+      }
+    },
+    {
+      "fold": "w044",
+      "converged": true,
+      "iterations": 92,
+      "gradient_infinity": 1.1141240329214558e-07,
+      "train": {
+        "ap": 0.3692570666392445,
+        "auc": 0.5696813872611532,
+        "positives": 516251,
+        "negatives": 1121962,
+        "undefined_single_class": false,
+        "bce": 0.6163260199722589,
+        "prevalence": 0.31513057215392626,
+        "mean_probability": 0.31513058224838403,
+        "fraction_probability_ge_half": 0.00013429267134371415
+      }
+    }
+  ]
+}
