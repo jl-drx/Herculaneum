@@ -1814,6 +1814,50 @@
       ],
       "created_utc": "2026-10-11T22:12:43.045117+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0078.tar.gz",
+      "bytes": 3242861,
+      "sha256": "755f84fbd0504b4410740b736cfa406086cea7314a57f3d666404e9e0f0ecc16",
+      "members": [
+        {
+          "path": "work/w035-seed43/COMPLETE.json",
+          "bytes": 26086,
+          "sha256": "0663af57d616b683c7a61c31347f2fbdaab8ad12bdc8800d942c109d532c3ce4"
+        },
+        {
+          "path": "work/w035-seed43/step-016128.json",
+          "bytes": 902,
+          "sha256": "d2af567ecef1e4b156280ed9c60c0d96cd7a28cb2a71a9221c627ce0458cc608"
+        },
+        {
+          "path": "work/w035-seed43/step-016128.pt",
+          "bytes": 1532781,
+          "sha256": "f1aa0ce9c24eb0fe7821729136a31ae255ce0f1f87f6e5363f789492a82a9143"
+        },
+        {
+          "path": "work/w035-seed43/step-016384.json",
+          "bytes": 921,
+          "sha256": "4985ea50f82868425e5753c85e58bfe9d06a0f280cbc0a198d6559aa82e5f153"
+        },
+        {
+          "path": "work/w035-seed43/step-016384.pt",
+          "bytes": 1532909,
+          "sha256": "20796812d4ff72459f051899734d33c95c1b0c2eb56a64cc9bf7abbdffe1a184"
+        },
+        {
+          "path": "work/w039-seed43/step-000000.json",
+          "bytes": 872,
+          "sha256": "54a52693a44de91ebb60e230b3047bfb251778d0b218e8e586fac13341480fe4"
+        },
+        {
+          "path": "work/w039-seed43/step-000000.pt",
+          "bytes": 509794,
+          "sha256": "ab5b9fc6798b32ce03586f7ec210b9b7eb080b86ab307dbebbe4d9e479834e7a"
+        }
+      ],
+      "created_utc": "2026-10-11T22:22:49.994473+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
@@ -1831,29 +1875,10 @@
   ],
   "note": "Resume files, not a live process or installed runtime",
   "latest_worker_status": {
-    "utc": "2026-10-11T22:12:19.790348+00:00",
-    "phase": "training",
-    "arm": "w035-seed43",
-    "step": 15360,
-    "maximum_updates": 16384,
-    "train": {
-      "ap": 0.9986863880081165,
-      "auc": 0.9992366768759047,
-      "positives": 574997,
-      "negatives": 1003070,
-      "undefined_single_class": false,
-      "bce": 0.03339356102279615,
-      "prevalence": 0.3643679260766495,
-      "mean_probability": 0.3648821693010514,
-      "fraction_probability_ge_half": 0.3647741192230748
-    },
-    "lr": 8.999999999999999e-05,
-    "seconds_per_update_including_training_checks": 0.7620353208962892,
-    "termination": null,
-    "held_out_predictions": 0,
-    "draws": 61440,
-    "unique_cores": 139,
-    "supervised_pixel_exposures": 841793779
+    "utc": "2026-10-11T22:20:12.243975+00:00",
+    "phase": "starting_or_resuming_arm",
+    "arm": "w039-seed43",
+    "held_out_predictions": 0
   },
-  "updated_utc": "2026-10-11T22:12:43.045452+00:00"
+  "updated_utc": "2026-10-11T22:22:49.994723+00:00"
 }
