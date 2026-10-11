@@ -1,0 +1,47 @@
+{
+  "max_per_file_bytes": 5242880,
+  "max_total_bytes": 26214400,
+  "response_bytes": 18621,
+  "requests": [
+    {
+      "url": "https://raw.githubusercontent.com/Nieuwlaar/ink9um-dense-native/217e7521670db49cde97872ea6a8bdfb80c449f1/training/scripts/native_common.py",
+      "retrieved_at_utc": "2026-10-11T00:34:42.043901+00:00",
+      "status": 200,
+      "bytes": 5947,
+      "sha256": "34f5bb233b13675ec95a5982c0061096d02d87ed5207cc63f49c7e841f19d94d",
+      "local_path": "/workspace/research-20261011/paired-data/sources/training__scripts__native_common.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Nieuwlaar/ink9um-dense-native/217e7521670db49cde97872ea6a8bdfb80c449f1/training/native_dense_report.json",
+      "retrieved_at_utc": "2026-10-11T00:34:42.291365+00:00",
+      "status": 200,
+      "bytes": 6095,
+      "sha256": "e3b8214fcf06fe43a160614b5926cf6f6726c9df57bc65ffbf34030bdf4d1783",
+      "local_path": "/workspace/research-20261011/paired-data/sources/training__native_dense_report.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Nieuwlaar/ink9um-dense-native/217e7521670db49cde97872ea6a8bdfb80c449f1/training/theta_calibration.json",
+      "retrieved_at_utc": "2026-10-11T00:34:42.554158+00:00",
+      "status": 200,
+      "bytes": 2630,
+      "sha256": "36f58ddd58cb6b30735280ab45fdf6370662ccd8fa8b79c94cc97ab2d392130f",
+      "local_path": "/workspace/research-20261011/paired-data/sources/training__theta_calibration.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Nieuwlaar/ink9um-dense-native/217e7521670db49cde97872ea6a8bdfb80c449f1/native-eval/RESULTS_full.csv",
+      "retrieved_at_utc": "2026-10-11T00:34:42.831095+00:00",
+      "status": 200,
+      "bytes": 2109,
+      "sha256": "92c3be20aa177e90b92995203f8c8ab4faeb977af79d48881eb4de1133bc8c62",
+      "local_path": "/workspace/research-20261011/paired-data/sources/native-eval__RESULTS_full.csv"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Nieuwlaar/ink9um-dense-native/217e7521670db49cde97872ea6a8bdfb80c449f1/training/BENCHMARK.csv",
+      "retrieved_at_utc": "2026-10-11T00:34:43.056168+00:00",
+      "status": 200,
+      "bytes": 1840,
+      "sha256": "9db35cfa3d988d1181f5cbf0980cbeb7bc852603b50c6b54d3b28592b1fa7e5d",
+      "local_path": "/workspace/research-20261011/paired-data/sources/training__BENCHMARK.csv"
+    }
+  ]
+}

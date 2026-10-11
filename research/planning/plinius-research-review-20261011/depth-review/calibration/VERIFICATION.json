@@ -1,0 +1,552 @@
+{
+  "status": "PASS",
+  "maps": [
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "encoded_sha256": "d2d5bf84bb83c10d40cd7e6676aa067ada68582c4e929b529c118de4aed5a2c6",
+      "decoded_sha256": "50bf627bb7d38db64d0f1654273d80bf7c4ddf8ba892aea1b24aea5f6df1f3b6",
+      "shape": [
+        2560,
+        6720
+      ],
+      "status": "PASS"
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "encoded_sha256": "0b16a486b577c2d76b57d8dfcd2dbf923024e89b1c85cb1e3a1a99c447399183",
+      "decoded_sha256": "8c8c1ef7ca2e9965ba960ff0a34b6c319c2dfa6e699d0af2b1ee7cbad4d8da2d",
+      "shape": [
+        2600,
+        6920
+      ],
+      "status": "PASS"
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "encoded_sha256": "c1f956efbf3e5badd1d7303b3aad0ba83e3e1e9dbee2476506600fe6b8f397a4",
+      "decoded_sha256": "9ec7b498154383097e3fa84de2022bd384238473e027ee82d6f4c3704fb34e48",
+      "shape": [
+        2560,
+        6720
+      ],
+      "status": "PASS"
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "encoded_sha256": "7135f2843a4ba393582864c68b36bf801e784118bddacbf97123ee7121a5f255",
+      "decoded_sha256": "83e4974daad6b2aff6993137a4a0faa4e9ce557683a1cc6c40b30058cd7cbe3b",
+      "shape": [
+        2600,
+        6920
+      ],
+      "status": "PASS"
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "encoded_sha256": "2d21f5d80d6a9e3fe681cba7e9253cc9718894d8c02ef831dbc9f43be0d8d4fa",
+      "decoded_sha256": "3f65dca95d363d9767bf2da951bf9b2065e0a94a7f00b54297be66a1fd32388a",
+      "shape": [
+        2560,
+        6720
+      ],
+      "status": "PASS"
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "encoded_sha256": "0c80dfaec7deaf9f61a8baec892e06430c3e94b1eb592e2b4d035988ca84a5a6",
+      "decoded_sha256": "7535213b5c01c44f94a81106edb54ceb7ed585875cd36c3ea8f2f80d8208c1a0",
+      "shape": [
+        2600,
+        6920
+      ],
+      "status": "PASS"
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "encoded_sha256": "9d67a3f970b6c3f109223d476f6e138b5e4e5deaa9988dd09108d18778680ee1",
+      "decoded_sha256": "6cabe2a5dc7c4723962b6756cd56ae58f9d3c14cd276db849a67038bf7216e37",
+      "shape": [
+        2304,
+        6048
+      ],
+      "status": "PASS"
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "encoded_sha256": "16a20a82271fce42f667a22ecfbedbe0bf97423af3ae3c0dfc48b2027f60b752",
+      "decoded_sha256": "7c7b879177afbe90bf18e5dbca4638262731a923923a2a844ba9a5904c68c38f",
+      "shape": [
+        2340,
+        6228
+      ],
+      "status": "PASS"
+    }
+  ],
+  "valid_published_crop_packbits_sha256": "f60549218edb9871e5acb8930e176a09fe1aaafef28c10a2261014f70a58dcbc",
+  "regions": [
+    {
+      "id": 1,
+      "full_box_xyxy": [
+        4992,
+        684,
+        5442,
+        1055
+      ],
+      "context_xyxy": [
+        4449,
+        613,
+        5985,
+        1125
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 166934,
+      "box_pixels": 166950,
+      "context_valid_pixels": 786330
+    },
+    {
+      "id": 2,
+      "full_box_xyxy": [
+        4804,
+        729,
+        4935,
+        1069
+      ],
+      "context_xyxy": [
+        4101,
+        642,
+        5637,
+        1154
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 44540,
+      "box_pixels": 44540,
+      "context_valid_pixels": 786413
+    },
+    {
+      "id": 3,
+      "full_box_xyxy": [
+        4563,
+        791,
+        4823,
+        1137
+      ],
+      "context_xyxy": [
+        3925,
+        708,
+        5461,
+        1220
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 89960,
+      "box_pixels": 89960,
+      "context_valid_pixels": 786414
+    },
+    {
+      "id": 4,
+      "full_box_xyxy": [
+        4106,
+        765,
+        4571,
+        1206
+      ],
+      "context_xyxy": [
+        3570,
+        729,
+        5106,
+        1241
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 205065,
+      "box_pixels": 205065,
+      "context_valid_pixels": 786350
+    },
+    {
+      "id": 5,
+      "full_box_xyxy": [
+        3443,
+        807,
+        4007,
+        1230
+      ],
+      "context_xyxy": [
+        2956,
+        762,
+        4492,
+        1274
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 238555,
+      "box_pixels": 238572,
+      "context_valid_pixels": 786059
+    },
+    {
+      "id": 6,
+      "full_box_xyxy": [
+        2967,
+        892,
+        3279,
+        1302
+      ],
+      "context_xyxy": [
+        2355,
+        840,
+        3891,
+        1352
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 127872,
+      "box_pixels": 127920,
+      "context_valid_pixels": 786173
+    },
+    {
+      "id": 7,
+      "full_box_xyxy": [
+        2610,
+        954,
+        2921,
+        1336
+      ],
+      "context_xyxy": [
+        1997,
+        889,
+        3533,
+        1401
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 118796,
+      "box_pixels": 118802,
+      "context_valid_pixels": 786237
+    },
+    {
+      "id": 8,
+      "full_box_xyxy": [
+        2009,
+        1166,
+        2485,
+        1396
+      ],
+      "context_xyxy": [
+        1479,
+        1024,
+        3015,
+        1536
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 109480,
+      "box_pixels": 109480,
+      "context_valid_pixels": 786417
+    },
+    {
+      "id": 9,
+      "full_box_xyxy": [
+        1654,
+        1132,
+        1971,
+        1462
+      ],
+      "context_xyxy": [
+        1044,
+        1040,
+        2580,
+        1552
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 104610,
+      "box_pixels": 104610,
+      "context_valid_pixels": 786329
+    },
+    {
+      "id": 10,
+      "full_box_xyxy": [
+        1378,
+        1186,
+        1623,
+        1485
+      ],
+      "context_xyxy": [
+        732,
+        1079,
+        2268,
+        1591
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 73255,
+      "box_pixels": 73255,
+      "context_valid_pixels": 786208
+    },
+    {
+      "id": 11,
+      "full_box_xyxy": [
+        1155,
+        1261,
+        1377,
+        1508
+      ],
+      "context_xyxy": [
+        497,
+        1128,
+        2033,
+        1640
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 54831,
+      "box_pixels": 54834,
+      "context_valid_pixels": 786179
+    },
+    {
+      "id": 12,
+      "full_box_xyxy": [
+        951,
+        1012,
+        1232,
+        1578
+      ],
+      "context_xyxy": [
+        323,
+        1039,
+        1859,
+        1551
+      ],
+      "context_encloses_full_box": false,
+      "box_valid_pixels": 158903,
+      "box_pixels": 159046,
+      "context_valid_pixels": 786103
+    },
+    {
+      "id": 13,
+      "full_box_xyxy": [
+        732,
+        1245,
+        941,
+        1519
+      ],
+      "context_xyxy": [
+        68,
+        1126,
+        1604,
+        1638
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 57216,
+      "box_pixels": 57266,
+      "context_valid_pixels": 754397
+    },
+    {
+      "id": 14,
+      "full_box_xyxy": [
+        2802,
+        1659,
+        3090,
+        1895
+      ],
+      "context_xyxy": [
+        2178,
+        1520,
+        3714,
+        2032
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 67955,
+      "box_pixels": 67968,
+      "context_valid_pixels": 636364
+    },
+    {
+      "id": 15,
+      "full_box_xyxy": [
+        2397,
+        1750,
+        2796,
+        1982
+      ],
+      "context_xyxy": [
+        1828,
+        1610,
+        3364,
+        2122
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 92566,
+      "box_pixels": 92568,
+      "context_valid_pixels": 676766
+    },
+    {
+      "id": 16,
+      "full_box_xyxy": [
+        2088,
+        1729,
+        2385,
+        2003
+      ],
+      "context_xyxy": [
+        1468,
+        1609,
+        3004,
+        2121
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 81378,
+      "box_pixels": 81378,
+      "context_valid_pixels": 756012
+    },
+    {
+      "id": 17,
+      "full_box_xyxy": [
+        1853,
+        1747,
+        2062,
+        2026
+      ],
+      "context_xyxy": [
+        1189,
+        1630,
+        2725,
+        2142
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 58309,
+      "box_pixels": 58311,
+      "context_valid_pixels": 779213
+    },
+    {
+      "id": 18,
+      "full_box_xyxy": [
+        1595,
+        1595,
+        1872,
+        2023
+      ],
+      "context_xyxy": [
+        965,
+        1553,
+        2501,
+        2065
+      ],
+      "context_encloses_full_box": true,
+      "box_valid_pixels": 118554,
+      "box_pixels": 118556,
+      "context_valid_pixels": 786060
+    }
+  ],
+  "source_manifest": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/source-evidence/pherc343/inputs/concat_w047-w048_R5B2_z9500-11000_letter_boxes.json",
+      "bytes": 2461,
+      "sha256": "d431a5db05dccc811d2fbf5205c1c068c9121a46d7a676ef1967f4c192d3aad1"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/completion-review/ACTUAL_FINAL_MAP_CHECK.json",
+      "bytes": 2996,
+      "sha256": "4a3d6a783c0ea5dd3b186af5de300ee180123911058797921497e83192826829"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__dnative__L66s26_reverse.tif.receipt.json",
+      "bytes": 852,
+      "sha256": "adca7f6548e01dac73a6add2a1b49ac31bccba712b6c86632c8db252e1524a15"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__dnative__L66s26_reverse.tif",
+      "bytes": 6019449,
+      "sha256": "d2d5bf84bb83c10d40cd7e6676aa067ada68582c4e929b529c118de4aed5a2c6"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__dnative__L66s26_reverse.tif.receipt.json",
+      "bytes": 861,
+      "sha256": "3e9d357bde9ae35532132613d981ffd64c432a19fd35b56ab6e65b9e18b7de58"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__dnative__L66s26_reverse.tif",
+      "bytes": 6123766,
+      "sha256": "0b16a486b577c2d76b57d8dfcd2dbf923024e89b1c85cb1e3a1a99c447399183"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed42__L66s26_reverse.tif.receipt.json",
+      "bytes": 852,
+      "sha256": "6eae28c56fca140ad65d44a57852975d7a04a8a405f668ff0c2e57dffeefcc23"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed42__L66s26_reverse.tif",
+      "bytes": 6103189,
+      "sha256": "c1f956efbf3e5badd1d7303b3aad0ba83e3e1e9dbee2476506600fe6b8f397a4"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed42__L66s26_reverse.tif.receipt.json",
+      "bytes": 862,
+      "sha256": "5e2043d005a829fd62456844aab78255b8186761d53985cef81ec18866fe0511"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed42__L66s26_reverse.tif",
+      "bytes": 6139299,
+      "sha256": "7135f2843a4ba393582864c68b36bf801e784118bddacbf97123ee7121a5f255"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed43__L66s26_reverse.tif.receipt.json",
+      "bytes": 852,
+      "sha256": "7159a6a92b5433f17130049a95cc6987db98de679479bd16a4caf628a00dca8f"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed43__L66s26_reverse.tif",
+      "bytes": 5885349,
+      "sha256": "2d21f5d80d6a9e3fe681cba7e9253cc9718894d8c02ef831dbc9f43be0d8d4fa"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed43__L66s26_reverse.tif.receipt.json",
+      "bytes": 857,
+      "sha256": "818f9c2c01512ab8903e248b3ca17be6fa5fc2a929c1a9b2a6d1c307f1fb714a"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed43__L66s26_reverse.tif",
+      "bytes": 5957399,
+      "sha256": "0c80dfaec7deaf9f61a8baec892e06430c3e94b1eb592e2b4d035988ca84a5a6"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hecate__L66zc33.50_reverse.png.receipt.json",
+      "bytes": 844,
+      "sha256": "35bc139a4cc1c88a470eacddc9194a2a37593c06f74a73f30466536a84e947ea"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hecate__L66zc33.50_reverse.png",
+      "bytes": 2730095,
+      "sha256": "9d67a3f970b6c3f109223d476f6e138b5e4e5deaa9988dd09108d18778680ee1"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hecate__L66zc33.50_reverse.png.receipt.json",
+      "bytes": 850,
+      "sha256": "302016d177b2db0e58b1f13df779e4d5e0d9d880d064b7dc0a386a0c985e31df"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hecate__L66zc33.50_reverse.png",
+      "bytes": 2740077,
+      "sha256": "16a20a82271fce42f667a22ecfbedbe0bf97423af3ae3c0dfc48b2027f60b752"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/valid.npy",
+      "bytes": 17203328,
+      "sha256": "1905c0d05656b4472a533e00b1c140592c7b33ed7a8bb7780873517f747e41fc"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/RENDER_VERIFICATION.json",
+      "bytes": 147856,
+      "sha256": "caf02972b4af92ff58cbabde8b1f82756d4380a4fe479428b212f68ffe2b4476"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/source-evidence/pherc343/outputs/concat_w047-w048_R5B2_z9500-11000.json",
+      "bytes": 24111,
+      "sha256": "73c52113726e667b3fdf99546a24c9cb31ddb5709d2739d731fa549910bb9684"
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/source-evidence/concat_w047-w048_R5B2_z9500-11000.png",
+      "bytes": 8801558,
+      "sha256": "59307c84ea65091de1bea14a3b75d44069bfe1fb498b3445f698ec3d1b8c1c78"
+    }
+  ],
+  "new_model_forwards": 0,
+  "limitations": "Exposed candidate boxes; support is inherited full-depth valid mask, not newly computed all-model context mask; reference is published display not ink truth; only d+1 reading order saved. No study52 maps read. Hecate full-canvas float32/255 linear resize then native padded crop; nearest display downsampling; no fitted contrast."
+}

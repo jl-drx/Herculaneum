@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-10-11T00:37:47.115046+00:00",
+  "purpose": "Resolve inexpensive CT-only qualification sampling and same-scan reconstruction storage contract; metadata only, no CT payloads.",
+  "requests": [
+    {
+      "name": "20260422000000-fine78-level2-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/2/.zarray",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20260215000000-fine78-level2-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/2/.zarray",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20260206000001-fine78-level2-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260206000001-w047_2026020613/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/2/.zarray",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20260220000000-fine78-level2-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/2/.zarray",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20250728140407-zattrs.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20250728140407-9.362um-1.2m-113keV-masked.zarr/.zattrs",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20250728140407-0-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20250728140407-9.362um-1.2m-113keV-masked.zarr/0/.zarray",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20251107132835-zattrs.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107132835-9.362um-1.2m-113keV-pag0-masked.zarr/.zattrs",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20251107132835-0-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107132835-9.362um-1.2m-113keV-pag0-masked.zarr/0/.zarray",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20251107135911-zattrs.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107135911-9.362um-1.2m-113keV-pag50-masked.zarr/.zattrs",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20251107135911-0-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107135911-9.362um-1.2m-113keV-pag50-masked.zarr/0/.zarray",
+      "max_bytes": 131072
+    }
+  ],
+  "total_body_cap": 1310720
+}

@@ -1,0 +1,325 @@
+{
+  "coordinate_convention": "literal XYZ sequence in catalog",
+  "formula": "target_pred_xyz = source_xyz @ M[:,:3].T + M[:,3]",
+  "independent_test_landmarks": false,
+  "input_sha256": "1f3b0accb66a741f0ad7f70d9aa3c922ea1b461538edb9d1356cd8ecc4e591a3",
+  "limitations": [
+    "Correspondences accompany the published fit and are not independently held out.",
+    "No CT, sheet identity, local deformation or normal-direction measurement is made.",
+    "Micrometres use the catalog's target-volume isotropic spacing."
+  ],
+  "new_transform_fit": false,
+  "status": "PUBLISHED_AFFINE_REPLAY_ONLY",
+  "transforms": [
+    {
+      "from_volume": "20260102150214",
+      "landmark_count": 14,
+      "points": [
+        {
+          "index": 0,
+          "norm_target_voxels": 1.6469362555888798,
+          "norm_um": 15.418617224823093,
+          "residual_xyz_target_voxels": [
+            0.5142461415853177,
+            0.8641831892396112,
+            -1.3042765624181811
+          ]
+        },
+        {
+          "index": 1,
+          "norm_target_voxels": 1.1460468323453175,
+          "norm_um": 10.729290444416861,
+          "residual_xyz_target_voxels": [
+            0.9716712164849923,
+            0.6069720075088298,
+            0.02938317688767711
+          ]
+        },
+        {
+          "index": 2,
+          "norm_target_voxels": 1.3921425253777924,
+          "norm_um": 13.033238322586893,
+          "residual_xyz_target_voxels": [
+            0.33264151127877994,
+            -1.2075981644270541,
+            0.607550087821437
+          ]
+        },
+        {
+          "index": 3,
+          "norm_target_voxels": 2.152106683510836,
+          "norm_um": 20.148022771028444,
+          "residual_xyz_target_voxels": [
+            -1.3179972191601337,
+            -0.8294818752606261,
+            -1.4853976996455458
+          ]
+        },
+        {
+          "index": 4,
+          "norm_target_voxels": 3.714230474914309,
+          "norm_um": 34.772625706147764,
+          "residual_xyz_target_voxels": [
+            1.5315856476172485,
+            -3.31110847295804,
+            -0.6973622481182247
+          ]
+        },
+        {
+          "index": 5,
+          "norm_target_voxels": 2.6008098090560257,
+          "norm_um": 24.348781432382513,
+          "residual_xyz_target_voxels": [
+            0.7373032288464856,
+            0.33702305637962127,
+            -2.4712367492984413
+          ]
+        },
+        {
+          "index": 6,
+          "norm_target_voxels": 5.358546205967643,
+          "norm_um": 50.16670958026908,
+          "residual_xyz_target_voxels": [
+            -1.392705365126858,
+            1.7113232796014017,
+            4.88321224606625
+          ]
+        },
+        {
+          "index": 7,
+          "norm_target_voxels": 2.072401916233376,
+          "norm_um": 19.401826739776865,
+          "residual_xyz_target_voxels": [
+            -1.0952852988630184,
+            1.748898773570545,
+            0.1911881175851704
+          ]
+        },
+        {
+          "index": 8,
+          "norm_target_voxels": 1.8590791087347032,
+          "norm_um": 17.40469861597429,
+          "residual_xyz_target_voxels": [
+            -1.7825129466964427,
+            -0.40894981145174825,
+            0.3340400860779482
+          ]
+        },
+        {
+          "index": 9,
+          "norm_target_voxels": 0.8193152079036511,
+          "norm_um": 7.670428976393982,
+          "residual_xyz_target_voxels": [
+            0.16692437856636388,
+            0.6393975726141434,
+            0.484339143449688
+          ]
+        },
+        {
+          "index": 10,
+          "norm_target_voxels": 1.4314281694208926,
+          "norm_um": 13.401030522118397,
+          "residual_xyz_target_voxels": [
+            1.1016840383799718,
+            -0.8702719701614114,
+            0.2791157138926792
+          ]
+        },
+        {
+          "index": 11,
+          "norm_target_voxels": 2.9471181324616764,
+          "norm_um": 27.590919956106216,
+          "residual_xyz_target_voxels": [
+            -0.5534482896291593,
+            -1.717388374193888,
+            2.3301882862924685
+          ]
+        },
+        {
+          "index": 12,
+          "norm_target_voxels": 3.287138386883928,
+          "norm_um": 30.774189578007334,
+          "residual_xyz_target_voxels": [
+            0.15226936240014766,
+            0.5117166494355843,
+            -3.2434917737664364
+          ]
+        },
+        {
+          "index": 13,
+          "norm_target_voxels": 2.027840036298335,
+          "norm_um": 18.98463841982501,
+          "residual_xyz_target_voxels": [
+            0.6336235943017527,
+            1.925284140092117,
+            0.06274817501980579
+          ]
+        }
+      ],
+      "residual_um": {
+        "max": 50.16670958026908,
+        "mean": 21.70321559213262,
+        "median": 19.193232579800938,
+        "min": 7.670428976393982,
+        "p95_linear": 40.16055506209021,
+        "rms": 24.25145147026271
+      },
+      "scalar_numpy_max_distance_difference": 1.5125678487493133e-12,
+      "target_spacing_um": 9.362,
+      "target_voxel_residuals": {
+        "max": 5.358546205967643,
+        "mean": 2.318224267478383,
+        "median": 2.0501209762658554,
+        "min": 0.8193152079036511,
+        "p95_linear": 4.289740980782975,
+        "rms": 2.590413530256645
+      },
+      "to_volume": "20250728140407"
+    },
+    {
+      "from_volume": "20260413113053",
+      "landmark_count": 12,
+      "points": [
+        {
+          "index": 0,
+          "norm_target_voxels": 1.5895548843674947,
+          "norm_um": 3.81334216759762,
+          "residual_xyz_target_voxels": [
+            -0.7770094845909625,
+            1.3866027590611338,
+            0.016546293732972117
+          ]
+        },
+        {
+          "index": 1,
+          "norm_target_voxels": 0.525115951368874,
+          "norm_um": 1.2597531673339288,
+          "residual_xyz_target_voxels": [
+            0.20315541742093046,
+            0.07731041391889448,
+            0.47801437076122966
+          ]
+        },
+        {
+          "index": 2,
+          "norm_target_voxels": 0.5996077917177013,
+          "norm_um": 1.4384590923307654,
+          "residual_xyz_target_voxels": [
+            -0.42623448802805797,
+            0.39750785304568126,
+            0.14085869469454337
+          ]
+        },
+        {
+          "index": 3,
+          "norm_target_voxels": 1.9546906302355174,
+          "norm_um": 4.689302821935006,
+          "residual_xyz_target_voxels": [
+            -0.2876500726597442,
+            1.55949566864183,
+            -1.1428237638046994
+          ]
+        },
+        {
+          "index": 4,
+          "norm_target_voxels": 1.339358208556696,
+          "norm_um": 3.2131203423275134,
+          "residual_xyz_target_voxels": [
+            0.9622110045220325,
+            -0.835714647468194,
+            0.4118390724688652
+          ]
+        },
+        {
+          "index": 5,
+          "norm_target_voxels": 0.6534582621318006,
+          "norm_um": 1.5676463708541897,
+          "residual_xyz_target_voxels": [
+            -0.25089260702225147,
+            0.5757943914522912,
+            -0.1803369592234958
+          ]
+        },
+        {
+          "index": 6,
+          "norm_target_voxels": 0.32110917454616383,
+          "norm_um": 0.770340909736247,
+          "residual_xyz_target_voxels": [
+            -0.13423288910598785,
+            -0.28938726374508406,
+            -0.03671028523604036
+          ]
+        },
+        {
+          "index": 7,
+          "norm_target_voxels": 0.7608986740665641,
+          "norm_um": 1.8253959190856872,
+          "residual_xyz_target_voxels": [
+            0.2070017927999288,
+            -0.7203694730924326,
+            -0.13109108364187705
+          ]
+        },
+        {
+          "index": 8,
+          "norm_target_voxels": 0.9548991862999823,
+          "norm_um": 2.2908031479336577,
+          "residual_xyz_target_voxels": [
+            -0.5482993495224946,
+            -0.2514499441967928,
+            -0.7402521225048986
+          ]
+        },
+        {
+          "index": 9,
+          "norm_target_voxels": 1.4357484351589014,
+          "norm_um": 3.4443604959462046,
+          "residual_xyz_target_voxels": [
+            0.3468391829301254,
+            -1.1176847207498213,
+            -0.8317794270406011
+          ]
+        },
+        {
+          "index": 10,
+          "norm_target_voxels": 1.620685168094626,
+          "norm_um": 3.888023718259008,
+          "residual_xyz_target_voxels": [
+            0.35633975581913546,
+            -0.29138229041927843,
+            1.5539429697819287
+          ]
+        },
+        {
+          "index": 11,
+          "norm_target_voxels": 0.7587506913736147,
+          "norm_um": 1.8202429086053018,
+          "residual_xyz_target_voxels": [
+            0.34877173737913836,
+            -0.4907227465300821,
+            0.4617922399775125
+          ]
+        }
+      ],
+      "residual_um": {
+        "max": 4.689302821935006,
+        "mean": 2.5017325884954276,
+        "median": 2.0580995335096723,
+        "min": 0.770340909736247,
+        "p95_linear": 4.248599314913206,
+        "rms": 2.7754255810528683
+      },
+      "scalar_numpy_max_distance_difference": 2.4418245203605693e-12,
+      "target_spacing_um": 2.399,
+      "target_voxel_residuals": {
+        "max": 1.9546906302355174,
+        "mean": 1.0428230881598282,
+        "median": 0.8578989301832731,
+        "min": 0.32110917454616383,
+        "p95_linear": 1.7709876260580268,
+        "rms": 1.1569093710099492
+      },
+      "to_volume": "20260102150214"
+    }
+  ]
+}

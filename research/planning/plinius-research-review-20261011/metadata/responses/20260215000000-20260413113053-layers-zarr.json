@@ -1,0 +1,170 @@
+{
+  "canvas_size": [
+    27400,
+    29350
+  ],
+  "chunk_size": [
+    116,
+    128,
+    128
+  ],
+  "multiscales": [
+    {
+      "axes": [
+        {
+          "name": "z",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "y",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "x",
+          "type": "space",
+          "unit": "micrometer"
+        }
+      ],
+      "datasets": [
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.258,
+                2.258,
+                2.258
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "0"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.258,
+                4.516,
+                4.516
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "1"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.258,
+                9.032,
+                9.032
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "2"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.258,
+                18.064,
+                18.064
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "3"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.258,
+                36.128,
+                36.128
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "4"
+        },
+        {
+          "coordinateTransformations": [
+            {
+              "scale": [
+                2.258,
+                72.256,
+                72.256
+              ],
+              "type": "scale"
+            },
+            {
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "type": "translation"
+            }
+          ],
+          "path": "5"
+        }
+      ],
+      "metadata": {
+        "downsampling_method": "mean"
+      },
+      "name": "render",
+      "version": "0.4"
+    }
+  ],
+  "note_axes_order": "ZYX (slice, row, col)",
+  "num_slices": 116,
+  "slice_step": 1.0,
+  "source_group": 1,
+  "source_zarr": "/volumes/esrf/20260311/1.129um_mosaic_PHerc_0139_ROI2_fused__masked.zarr"
+}

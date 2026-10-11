@@ -1,0 +1,155 @@
+{
+  "created_utc": "2026-10-11T00:39:48.161809+00:00",
+  "catalog_extract_sha256": "d2d2cb6624ebc6ecc16dc0b4263952d8793ca3395ecc86c899d6e29fe6c45259",
+  "protocol_sha256": "b9af6a0fa28752d5db33eda6048a32ba75c1a84d1d75620b920f1a014c42ba51",
+  "selection": "first3 recorded destination landmarks, no response-based choice",
+  "sites": [
+    {
+      "id": "site1",
+      "landmark_xyz": [
+        3429.902587890625,
+        3481.3994140625,
+        1816.0859375
+      ],
+      "chunk_index_zyx": [
+        14,
+        27,
+        26
+      ],
+      "bounds_zyx_half_open": [
+        [
+          1792,
+          1920
+        ],
+        [
+          3456,
+          3584
+        ],
+        [
+          3328,
+          3456
+        ]
+      ]
+    },
+    {
+      "id": "site2",
+      "landmark_xyz": [
+        3001.000244140625,
+        3509.502685546875,
+        2414.033935546875
+      ],
+      "chunk_index_zyx": [
+        18,
+        27,
+        23
+      ],
+      "bounds_zyx_half_open": [
+        [
+          2304,
+          2432
+        ],
+        [
+          3456,
+          3584
+        ],
+        [
+          2944,
+          3072
+        ]
+      ]
+    },
+    {
+      "id": "site3",
+      "landmark_xyz": [
+        2139.13623046875,
+        3346.693603515625,
+        4911.50048828125
+      ],
+      "chunk_index_zyx": [
+        38,
+        26,
+        16
+      ],
+      "bounds_zyx_half_open": [
+        [
+          4864,
+          4992
+        ],
+        [
+          3328,
+          3456
+        ],
+        [
+          2048,
+          2176
+        ]
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "site": "site1",
+      "volume": "20250728140407",
+      "name": "site1-20250728140407.bin",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20250728140407-9.362um-1.2m-113keV-masked.zarr/0/14/27/26",
+      "expected_bytes": 2097152
+    },
+    {
+      "site": "site1",
+      "volume": "20251107132835",
+      "name": "site1-20251107132835.bin",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107132835-9.362um-1.2m-113keV-pag0-masked.zarr/0/14/27/26",
+      "expected_bytes": 2097152
+    },
+    {
+      "site": "site1",
+      "volume": "20251107135911",
+      "name": "site1-20251107135911.bin",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107135911-9.362um-1.2m-113keV-pag50-masked.zarr/0/14/27/26",
+      "expected_bytes": 2097152
+    },
+    {
+      "site": "site2",
+      "volume": "20250728140407",
+      "name": "site2-20250728140407.bin",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20250728140407-9.362um-1.2m-113keV-masked.zarr/0/18/27/23",
+      "expected_bytes": 2097152
+    },
+    {
+      "site": "site2",
+      "volume": "20251107132835",
+      "name": "site2-20251107132835.bin",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107132835-9.362um-1.2m-113keV-pag0-masked.zarr/0/18/27/23",
+      "expected_bytes": 2097152
+    },
+    {
+      "site": "site2",
+      "volume": "20251107135911",
+      "name": "site2-20251107135911.bin",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107135911-9.362um-1.2m-113keV-pag50-masked.zarr/0/18/27/23",
+      "expected_bytes": 2097152
+    },
+    {
+      "site": "site3",
+      "volume": "20250728140407",
+      "name": "site3-20250728140407.bin",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20250728140407-9.362um-1.2m-113keV-masked.zarr/0/38/26/16",
+      "expected_bytes": 2097152
+    },
+    {
+      "site": "site3",
+      "volume": "20251107132835",
+      "name": "site3-20251107132835.bin",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107132835-9.362um-1.2m-113keV-pag0-masked.zarr/0/38/26/16",
+      "expected_bytes": 2097152
+    },
+    {
+      "site": "site3",
+      "volume": "20251107135911",
+      "name": "site3-20251107135911.bin",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20251107135911-9.362um-1.2m-113keV-pag50-masked.zarr/0/38/26/16",
+      "expected_bytes": 2097152
+    }
+  ],
+  "total_body_cap": 18874368
+}

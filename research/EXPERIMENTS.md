@@ -4,6 +4,8 @@ Historical reports preserve their original conclusions and scope. Latest: [phase
 
 Studies46–50 are complete and sealed. The conservative support result remains unchanged; exact full-recipe contexts admit a128-square inside the VM candidate. Its renderer and16 model/phase/order maps pass execution checks, without a reading or accuracy claim. The [study51 larger centre-depth development-field run](in-progress/pherc0800-development-20261010/completion-20261010/RESULTS.md) completed all 16 maps and fixed-region review. Completion/hash/conversion checks pass; no defensible lettering. Inference is complete, while the cumulative archival seal remains at study50.
 
+A separate [11October research review and bounded reconstruction control](planning/plinius-research-review-20261011/README.md) completed while study52 runs. It is not a renumbered target experiment or a change to the cumulative seal. Nine CT chunks and all18 saved PHerc343 candidate regions support the next paired-acquisition design; no new model inference.
+
 | Experiment | Recorded outcome |
 | --- | --- |
 | [1: first-experiment](lab/reports/first-experiment/RESULTS.md) | completed with no authenticated reading |

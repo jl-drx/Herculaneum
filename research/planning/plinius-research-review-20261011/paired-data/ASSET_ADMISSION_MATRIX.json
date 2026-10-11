@@ -1,0 +1,1028 @@
+{
+  "status": "CATALOG_AND_CODE_QUALIFIED_ONLY_NOT_REGISTRATION_GO",
+  "source_catalog_sha256": "2a460d1f57ca0d3535ce2a8a8ab8b80fe4141f143e8de486394a150bc93f094d",
+  "nieuwlaar_git_commit": "217e7521670db49cde97872ea6a8bdfb80c449f1",
+  "hecate_hf_commit": "9cb86e500e944b11a06a7020403cde5dffb5bcb2",
+  "benchmark_assets": [
+    {
+      "winding": "title",
+      "public_segment_id": "20260422000000",
+      "long_id": "20260422000000-title_2026042222_zmid_flatboi",
+      "role": "reference-agreement benchmark; no local transform fitting",
+      "native_dense_explicitly_excluded": true,
+      "hecate_training_exclusion_verified": false,
+      "local_ct_registration_admitted": false,
+      "pristine_final_holdout": false,
+      "fine59_volume_bbox_overlap_proxy": 0.0,
+      "assets": [
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/mesh/20260422000000-on-20260102150214-2.399um.tifxyz/",
+          "parameters": {
+            "target_volume": "20260102150214"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+          "parameters": {
+            "target_volume": "20260102150214"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "ink-detection",
+          "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/ink-detection/PHerc0139-20260422000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "parameters": {
+            "target_volume": "20260102150214",
+            "model_id": "20260417190342"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/mesh/20260422000000-on-20250728140407-9.362um.tifxyz/",
+          "parameters": {
+            "target_volume": "20250728140407"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+          "parameters": {
+            "target_volume": "20250728140407"
+          },
+          "creation_info_present": true
+        }
+      ]
+    },
+    {
+      "winding": "w024",
+      "public_segment_id": "20260215000000",
+      "long_id": "20260215000000-w024_2026021572",
+      "role": "reference-agreement benchmark with partial third-scan coverage",
+      "native_dense_explicitly_excluded": true,
+      "hecate_training_exclusion_verified": false,
+      "local_ct_registration_admitted": false,
+      "pristine_final_holdout": false,
+      "fine59_volume_bbox_overlap_proxy": 0.36653900724351657,
+      "assets": [
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260102150214-2.399um.tifxyz/",
+          "parameters": {
+            "target_volume": "20260102150214"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+          "parameters": {
+            "target_volume": "20260102150214"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "ink-detection",
+          "path": "PHerc0139/segments/20260215000000-w024_2026021572/ink-detection/PHerc0139-20260215000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "parameters": {
+            "target_volume": "20260102150214",
+            "model_id": "20260417190342"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20250728140407-9.362um.tifxyz/",
+          "parameters": {
+            "target_volume": "20250728140407"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260413113053-1.129um.tifxyz/",
+          "parameters": {
+            "target_volume": "20260413113053"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+          "parameters": {
+            "target_volume": "20250728140407"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/1.129um-0.22m-59keV-volume-20260413113053-L1.zarr/",
+          "parameters": {
+            "target_volume": "20260413113053",
+            "render_level": "1"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "ink-detection",
+          "path": "PHerc0139/segments/20260215000000-w024_2026021572/ink-detection/PHerc0139-20260215000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "parameters": {
+            "target_volume": "20260413113053",
+            "model_id": "20260709123958",
+            "render_level": "1"
+          },
+          "creation_info_present": true
+        }
+      ]
+    },
+    {
+      "winding": "w047",
+      "public_segment_id": "20260206000001",
+      "long_id": "20260206000001-w047_2026020613",
+      "role": "operating-point calibration; not an independent final test",
+      "native_dense_explicitly_excluded": true,
+      "hecate_training_exclusion_verified": false,
+      "local_ct_registration_admitted": false,
+      "pristine_final_holdout": false,
+      "fine59_volume_bbox_overlap_proxy": 0.4565604226403961,
+      "assets": [
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260206000001-w047_2026020613/mesh/20260206000001-on-20260102150214-2.399um.tifxyz/",
+          "parameters": {
+            "target_volume": "20260102150214"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260206000001-w047_2026020613/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+          "parameters": {
+            "target_volume": "20260102150214"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "ink-detection",
+          "path": "PHerc0139/segments/20260206000001-w047_2026020613/ink-detection/PHerc0139-20260206000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "parameters": {
+            "target_volume": "20260102150214",
+            "model_id": "20260417190342"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260206000001-w047_2026020613/mesh/20260206000001-on-20250728140407-9.362um.tifxyz/",
+          "parameters": {
+            "target_volume": "20250728140407"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260206000001-w047_2026020613/mesh/20260206000001-on-20260413113053-1.129um.tifxyz/",
+          "parameters": {
+            "target_volume": "20260413113053"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260206000001-w047_2026020613/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+          "parameters": {
+            "target_volume": "20250728140407"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260206000001-w047_2026020613/surface-volumes/1.129um-0.22m-59keV-volume-20260413113053-L1.zarr/",
+          "parameters": {
+            "target_volume": "20260413113053",
+            "render_level": "1"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "ink-detection",
+          "path": "PHerc0139/segments/20260206000001-w047_2026020613/ink-detection/PHerc0139-20260206000001-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "parameters": {
+            "target_volume": "20260413113053",
+            "model_id": "20260709123958",
+            "render_level": "1"
+          },
+          "creation_info_present": true
+        }
+      ]
+    },
+    {
+      "winding": "w053",
+      "public_segment_id": "20260220000000",
+      "long_id": "20260220000000-w053_2026022021",
+      "role": "author-designated blank response control",
+      "native_dense_explicitly_excluded": true,
+      "hecate_training_exclusion_verified": false,
+      "local_ct_registration_admitted": false,
+      "pristine_final_holdout": false,
+      "fine59_volume_bbox_overlap_proxy": 0.35986148451922245,
+      "assets": [
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20260102150214-2.399um.tifxyz/",
+          "parameters": {
+            "target_volume": "20260102150214"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+          "parameters": {
+            "target_volume": "20260102150214"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "ink-detection",
+          "path": "PHerc0139/segments/20260220000000-w053_2026022021/ink-detection/PHerc0139-20260220000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "parameters": {
+            "target_volume": "20260102150214",
+            "model_id": "20260417190342"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20250728140407-9.362um.tifxyz/",
+          "parameters": {
+            "target_volume": "20250728140407"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "tifxyz-transformed",
+          "path": "PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20260413113053-1.129um.tifxyz/",
+          "parameters": {
+            "target_volume": "20260413113053"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+          "parameters": {
+            "target_volume": "20250728140407"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "layers-zarr",
+          "path": "PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/1.129um-0.22m-59keV-volume-20260413113053-L1.zarr/",
+          "parameters": {
+            "target_volume": "20260413113053",
+            "render_level": "1"
+          },
+          "creation_info_present": true
+        },
+        {
+          "type": "ink-detection",
+          "path": "PHerc0139/segments/20260220000000-w053_2026022021/ink-detection/PHerc0139-20260220000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "parameters": {
+            "target_volume": "20260413113053",
+            "model_id": "20260709123958",
+            "render_level": "1"
+          },
+          "creation_info_present": true
+        }
+      ]
+    }
+  ],
+  "native_dense_training_candidates": [
+    {
+      "winding": "w030",
+      "public_segment_id": "20250108000005",
+      "long_id": "20250108000005-w030_2025010818",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        7140,
+        7460
+      ],
+      "official_manual_labels_merged": false,
+      "teacher_threshold_u8": 47,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20250108000005-w030_2025010818/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20250108000005-w030_2025010818/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    },
+    {
+      "winding": "w032",
+      "public_segment_id": "20260203000000",
+      "long_id": "20260203000000-w032_2026020303",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        7100,
+        7600
+      ],
+      "official_manual_labels_merged": false,
+      "teacher_threshold_u8": 47,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20260203000000-w032_2026020303/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20260203000000-w032_2026020303/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    },
+    {
+      "winding": "w033",
+      "public_segment_id": "20260219000000",
+      "long_id": "20260219000000-w033_2026021913",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        7100,
+        7680
+      ],
+      "official_manual_labels_merged": false,
+      "teacher_threshold_u8": 47,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20260219000000-w033_2026021913/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20260219000000-w033_2026021913/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    },
+    {
+      "winding": "w034",
+      "public_segment_id": "20260303000000",
+      "long_id": "20260303000000-w034_2026030317",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        7040,
+        7720
+      ],
+      "official_manual_labels_merged": false,
+      "teacher_threshold_u8": 47,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20260303000000-w034_2026030317/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20260303000000-w034_2026030317/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    },
+    {
+      "winding": "w040",
+      "public_segment_id": "20250831000000",
+      "long_id": "20250831000000-w040_2025083102",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        6400,
+        7980
+      ],
+      "official_manual_labels_merged": true,
+      "teacher_threshold_u8": 48,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    },
+    {
+      "winding": "w041",
+      "public_segment_id": "20260108000000",
+      "long_id": "20260108000000-w041_2026010816",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        6200,
+        8020
+      ],
+      "official_manual_labels_merged": true,
+      "teacher_threshold_u8": 46,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    },
+    {
+      "winding": "w043",
+      "public_segment_id": "20260112000000",
+      "long_id": "20260112000000-w043_2026011217",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        6120,
+        8120
+      ],
+      "official_manual_labels_merged": false,
+      "teacher_threshold_u8": 47,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    },
+    {
+      "winding": "w046",
+      "public_segment_id": "20260325000000",
+      "long_id": "20260325000000-w046_20260325",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        5980,
+        8260
+      ],
+      "official_manual_labels_merged": false,
+      "teacher_threshold_u8": 47,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20260325000000-w046_20260325/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20260325000000-w046_20260325/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    },
+    {
+      "winding": "w049",
+      "public_segment_id": "20260318000000",
+      "long_id": "20260318000000-w049_20260318",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        5660,
+        9400
+      ],
+      "official_manual_labels_merged": false,
+      "teacher_threshold_u8": 47,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20260318000000-w049_20260318/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20260318000000-w049_20260318/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    },
+    {
+      "winding": "w050",
+      "public_segment_id": "20260302000001",
+      "long_id": "20260302000001-w050_2026030220",
+      "role": "candidate training/registration-development source only",
+      "source_report_native_shape_zyx": [
+        28,
+        5300,
+        3880
+      ],
+      "official_manual_labels_merged": false,
+      "teacher_threshold_u8": 47,
+      "paired_array_paths_in_catalog": [
+        "PHerc0139/segments/20260302000001-w050_2026030220/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+        "PHerc0139/segments/20260302000001-w050_2026030220/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+      ],
+      "live_metadata_verified_this_task": false,
+      "local_ct_registration_admitted": false
+    }
+  ],
+  "official_sparse_native_training_windings": [
+    "w035",
+    "w039",
+    "w040",
+    "w041",
+    "w044"
+  ],
+  "aligned_training_aliases": [
+    {
+      "training_alias": "pherc0139-w016",
+      "physical_public_segment": "20250108000004-w029_2025010827",
+      "surface_volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20250108000004-w029_2025010827/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr"
+    },
+    {
+      "training_alias": "pherc0139-w017",
+      "physical_public_segment": "20250108000005-w030_2025010818",
+      "surface_volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20250108000005-w030_2025010818/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr"
+    },
+    {
+      "training_alias": "pherc0139-w028",
+      "physical_public_segment": "20260115000000-w044_2026011522",
+      "surface_volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260115000000-w044_2026011522/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr"
+    },
+    {
+      "training_alias": "pherc0139-w029",
+      "physical_public_segment": "20260126000000-w045_2026012619",
+      "surface_volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260126000000-w045_2026012619/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr"
+    },
+    {
+      "training_alias": "pherc0139-w035",
+      "physical_public_segment": "20260317000000-w035_2026031718",
+      "surface_volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr"
+    },
+    {
+      "training_alias": "pherc0139-w039",
+      "physical_public_segment": "20260302000000-w039_2026030210",
+      "surface_volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr"
+    },
+    {
+      "training_alias": "pherc0139-w040",
+      "physical_public_segment": "20250831000000-w040_2025083102",
+      "surface_volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr"
+    },
+    {
+      "training_alias": "pherc0139-w041",
+      "physical_public_segment": "20260108000000-w041_2026010816",
+      "surface_volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr"
+    },
+    {
+      "training_alias": "pherc0139-w043",
+      "physical_public_segment": "20260112000000-w043_2026011217",
+      "surface_volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr"
+    }
+  ],
+  "acquisitions": [
+    {
+      "id": "20260102150214",
+      "scan_id": "20251205005141",
+      "properties": {
+        "energy_keV": 78.0,
+        "detector_distance_mm": 220.0,
+        "pixel_size_um": 2.399,
+        "data_format": "uint8",
+        "transforms": [
+          {
+            "to_volume_id": "20250728140407",
+            "transformation_matrix": [
+              [
+                -0.2569036650583705,
+                -0.009715391643719536,
+                0.002790733227688403,
+                6677.364709056732
+              ],
+              [
+                0.009850885045974334,
+                -0.25680016838938274,
+                -0.0014215065457306453,
+                6689.120376657908
+              ],
+              [
+                0.0029113360690184954,
+                -0.0014844301309079428,
+                0.257134581099402,
+                624.1652625002474
+              ]
+            ],
+            "from_landmarks": [
+              [
+                12199.3916015625,
+                12930.4423828125,
+                4566.8466796875
+              ],
+              [
+                13894.3486328125,
+                12874.2333984375,
+                6877.9462890625
+              ],
+              [
+                17329.60546875,
+                13593.4833984375,
+                16558.134765625
+              ],
+              [
+                15929.4814453125,
+                13316.787109375,
+                32442.10546875
+              ],
+              [
+                15662.5302734375,
+                20150.078125,
+                27123.5
+              ],
+              [
+                15135.6015625,
+                22200.802734375,
+                11628.9716796875
+              ],
+              [
+                16378.5830078125,
+                15637.4052734375,
+                32279.708984375
+              ],
+              [
+                15499.2236328125,
+                22235.248046875,
+                11774.08203125
+              ],
+              [
+                8054.205078125,
+                18444.150390625,
+                31522.265625
+              ],
+              [
+                8060.662109375,
+                18315.46484375,
+                31354.87109375
+              ],
+              [
+                8328.6044921875,
+                16789.365234375,
+                53128.8125
+              ],
+              [
+                16601.763671875,
+                15028.3642578125,
+                53083.70703125
+              ],
+              [
+                16843.173828125,
+                12169.234375,
+                73131.1484375
+              ],
+              [
+                16656.650390625,
+                16666.375,
+                73580.59375
+              ]
+            ],
+            "to_landmarks": [
+              [
+                3429.902587890625,
+                3481.3994140625,
+                1816.0859375
+              ],
+              [
+                3001.000244140625,
+                3509.502685546875,
+                2414.033935546875
+              ],
+              [
+                2139.13623046875,
+                3346.693603515625,
+                4911.50048828125
+              ],
+              [
+                2547.5,
+                3380.99951171875,
+                8994.24609375
+              ],
+              [
+                2532.000244140625,
+                1633.62158203125,
+                7614.93994140625
+              ],
+              [
+                2604.999755859375,
+                1120.181884765625,
+                3627.95654296875
+              ],
+              [
+                2409.199951171875,
+                2787.178466796875,
+                8943.982421875
+              ],
+              [
+                2513.48681640625,
+                1113.3001708984375,
+                3663.614501953125
+              ],
+              [
+                4518.7705078125,
+                1987.600341796875,
+                8725.365234375
+              ],
+              [
+                4515.9453125,
+                2019.9000244140625,
+                8682.3818359375
+              ],
+              [
+                4521.76708984375,
+                2385.0,
+                14284.4658203125
+              ],
+              [
+                2415.000244140625,
+                2919.634521484375,
+                14297.5166015625
+              ],
+              [
+                2436.0,
+                3625.510986328125,
+                19462.927734375
+              ],
+              [
+                2441.0,
+                2466.754638671875,
+                19567.970703125
+              ]
+            ]
+          }
+        ],
+        "shape": [
+          76953,
+          26511,
+          26511
+        ],
+        "z_direction_is_top_to_bottom": true,
+        "left_handed_coordinates": false,
+        "text_side": null,
+        "superseded_by": {
+          "volume_id": "20260930100252",
+          "date": "2026-10-05",
+          "reason": "remasked with scrollmask_august_t_4000 at mask_scale 16, replacing scrollmask_finetune_new_t_12000 at mask_scale 8; identical voxel frame"
+        },
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      },
+      "creation": {
+        "date": "2026-01-02T15:02:14Z",
+        "process": "mask_layers_zarr_export",
+        "metadata": {
+          "target_window_f32_min": -0.03,
+          "target_window_f32_max": 0.21,
+          "window_u16_min": 5276,
+          "window_u16_max": 40949,
+          "workflow_name": "mask-layers-sam2long-d5r7t",
+          "workflow_creation": "2026-01-02T15:02:14Z"
+        },
+        "derived_from": {
+          "type": "scan",
+          "id": "20251205005141"
+        }
+      },
+      "public_volume_paths": [
+        "PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/"
+      ]
+    },
+    {
+      "id": "20250728140407",
+      "scan_id": "20250720065842",
+      "properties": {
+        "energy_keV": 113.0,
+        "detector_distance_mm": 1200.0,
+        "pixel_size_um": 9.362,
+        "data_format": "uint8",
+        "transforms": null,
+        "shape": [
+          20974,
+          6621,
+          6621
+        ],
+        "z_direction_is_top_to_bottom": true,
+        "left_handed_coordinates": false,
+        "text_side": null,
+        "superseded_by": null,
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      },
+      "creation": {
+        "date": "2025-07-28T14:04:07Z",
+        "process": "mask_layers_zarr_export",
+        "metadata": {
+          "target_window_f32_min": -0.03,
+          "target_window_f32_max": 0.145,
+          "window_u16_min": 0,
+          "window_u16_max": 65535,
+          "workflow_name": "export-esrf-20250717-0139-3-dilation",
+          "workflow_creation": "2025-07-28T14:04:07Z"
+        },
+        "derived_from": {
+          "type": "scan",
+          "id": "20250720065842"
+        }
+      },
+      "public_volume_paths": [
+        "PHerc0139/volumes/20250728140407-9.362um-1.2m-113keV-masked.zarr/"
+      ]
+    },
+    {
+      "id": "20260413113053",
+      "scan_id": "20251202104544",
+      "properties": {
+        "energy_keV": 59.0,
+        "detector_distance_mm": 220.0,
+        "pixel_size_um": 1.129,
+        "data_format": "uint8",
+        "transforms": [
+          {
+            "to_volume_id": "20260102150214",
+            "transformation_matrix": [
+              [
+                0.47006699267222585,
+                -0.0004385104406880447,
+                -0.00023308519178444342,
+                5744.87157141742
+              ],
+              [
+                0.0004407605372072095,
+                0.4700062871647462,
+                0.0007574991140997691,
+                4643.156711792679
+              ],
+              [
+                0.00026191502753259615,
+                -0.0008583783032365492,
+                0.4701257922499157,
+                11417.539623554234
+              ]
+            ],
+            "from_landmarks": [
+              [
+                22128.1328125,
+                20059.220703125,
+                9831.6962890625
+              ],
+              [
+                16922.302734375,
+                19960.2421875,
+                18226.78515625
+              ],
+              [
+                6457.78564453125,
+                16984.41015625,
+                1430.5650634765625
+              ],
+              [
+                16847.693359375,
+                24108.07421875,
+                7567.90283203125
+              ],
+              [
+                17513.08203125,
+                9684.89453125,
+                242.40716552734375
+              ],
+              [
+                6578.50830078125,
+                19760.337890625,
+                14974.4482421875
+              ],
+              [
+                19524.291015625,
+                24631.890625,
+                8343.9443359375
+              ],
+              [
+                16152.7529296875,
+                29461.35546875,
+                596.4721069335938
+              ],
+              [
+                19307.533203125,
+                10556.2783203125,
+                7369.2998046875
+              ],
+              [
+                13884.1875,
+                28507.01171875,
+                19142.47265625
+              ],
+              [
+                16362.4833984375,
+                29586.921875,
+                11540.7080078125
+              ],
+              [
+                15400.2705078125,
+                11209.4130859375,
+                12994.794921875
+              ]
+            ],
+            "to_landmarks": [
+              [
+                16136.265625,
+                14086.9306640625,
+                16028.234375
+              ],
+              [
+                13686.283203125,
+                14045.7841796875,
+                19973.2421875
+              ],
+              [
+                8773.1083984375,
+                12629.46875,
+                12077.056640625
+              ],
+              [
+                13652.3681640625,
+                15985.7021484375,
+                14960.267578125
+              ],
+              [
+                13971.927734375,
+                9203.8564453125,
+                11527.36328125
+              ],
+              [
+                8825.306640625,
+                13944.306640625,
+                18442.35546875
+              ],
+              [
+                14909.984375,
+                16235.515625,
+                15324.25
+              ],
+              [
+                13324.482421875,
+                18498.470703125,
+                11677.029296875
+              ],
+              [
+                14814.9072265625,
+                9619.017578125,
+                14878.7734375
+              ],
+              [
+                12254.060546875,
+                18063.369140625,
+                20396.908203125
+              ],
+              [
+                13420.314453125,
+                18565.44140625,
+                16820.458984375
+              ],
+              [
+                12975.7373046875,
+                9928.7734375,
+                17520.677734375
+              ]
+            ]
+          }
+        ],
+        "shape": [
+          19297,
+          35971,
+          32318
+        ],
+        "z_direction_is_top_to_bottom": null,
+        "left_handed_coordinates": false,
+        "text_side": null,
+        "superseded_by": null,
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+        },
+        "render_level": 1
+      },
+      "creation": {
+        "date": "2026-04-13T11:30:53Z",
+        "process": "mask_layers_zarr_export",
+        "metadata": {
+          "target_window_f32_min": -0.03,
+          "target_window_f32_max": 0.145,
+          "window_u16_min": 0,
+          "window_u16_max": 23140,
+          "workflow_name": "export-1-129um-pherc-0139-roi2-fused-931851",
+          "workflow_creation": "2026-04-13T11:30:53Z"
+        },
+        "derived_from": {
+          "type": "scan",
+          "id": "20251202104544"
+        }
+      },
+      "public_volume_paths": [
+        "PHerc0139/volumes/20260413113053-1.129um-0.2m-59keV-masked.zarr/"
+      ]
+    }
+  ],
+  "split_rules": [
+    "Use full public segment IDs and physical-winding grouping; preserve alternate-render and overlap exclusions.",
+    "title,w024,w047,w053 never join proposed training or registration-fitting sets.",
+    "Hecate exposure is unknown; released-model benchmark figures are reference-agreement diagnostics, not pristine generalization.",
+    "All training candidate pairs still need coordinate/valid-support checks and CT-based local correspondence verification."
+  ],
+  "coverage_confound": {
+    "dense_also_in_aligned_training_physical_windings": [
+      "w030",
+      "w040",
+      "w041",
+      "w043"
+    ],
+    "dense_new_relative_to_aligned_and_sparse_training": [
+      "w032",
+      "w033",
+      "w034",
+      "w046",
+      "w049",
+      "w050"
+    ],
+    "native_representations": 15,
+    "unique_native_physical_windings": 13,
+    "interpretation": "Native-dense treatment adds observation quality/supervision and six physical windings; its control does not isolate acquisition alone."
+  }
+}
