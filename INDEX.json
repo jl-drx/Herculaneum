@@ -90,6 +90,50 @@
       ],
       "created_utc": "2026-10-11T09:33:57.229931+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0002.tar.gz",
+      "bytes": 1401918,
+      "sha256": "db1a1a8ae4fa9236446ccd619ee4a0c24dc8afc6cebb1eed8f944a0ece319428",
+      "members": [
+        {
+          "path": "work/w035/PROFILE.json",
+          "bytes": 14021,
+          "sha256": "50457928da6ad5b6f2f50f710a23d18e34d133377a25add43d123979daab9631"
+        },
+        {
+          "path": "work/w035-seed17/step-000256.json",
+          "bytes": 878,
+          "sha256": "1718f0010a570c7bb660e2be13a64fbedf1768ada468bc81f070915a212be187"
+        },
+        {
+          "path": "work/w035-seed17/step-000256.pt",
+          "bytes": 1524077,
+          "sha256": "11f749c8b2e6d4c631918fd6d256bca63bd04da7096b0643505b642c4a4c13d5"
+        },
+        {
+          "path": "work/w039/NORMALIZATION.json",
+          "bytes": 6816,
+          "sha256": "eebc9a809ffb0366a8a6b6d369b9df29e8a025f64f8bd213861e7ce577636480"
+        },
+        {
+          "path": "work/w039/PROFILE.json",
+          "bytes": 13471,
+          "sha256": "5d3eaac56189ef8f943812473fb211873c4c62bd3ab2cae175444539319403b4"
+        },
+        {
+          "path": "work/w044/NORMALIZATION.json",
+          "bytes": 5953,
+          "sha256": "59c2a8b109af2c48bd1dbc17591423421ce949549a381aa2bd0378cfeec5803e"
+        },
+        {
+          "path": "work/w044/PROFILE.json",
+          "bytes": 11753,
+          "sha256": "d8d23d15941a3e5cd711d64646530aab94beb646d1f794ae3fe5eeaaad4d659f"
+        }
+      ],
+      "created_utc": "2026-10-11T09:41:24.133152+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
@@ -107,10 +151,29 @@
   ],
   "note": "Resume files, not a live process or installed runtime",
   "latest_worker_status": {
-    "utc": "2026-10-11T09:33:05.614194+00:00",
-    "phase": "fitting_profile",
-    "fold": "w035",
-    "held_out_predictions": 0
+    "utc": "2026-10-11T09:40:44.178345+00:00",
+    "phase": "training",
+    "arm": "w035-seed17",
+    "step": 256,
+    "maximum_updates": 16384,
+    "train": {
+      "ap": 0.4964345778188183,
+      "auc": 0.6290054069525871,
+      "positives": 574997,
+      "negatives": 1003070,
+      "undefined_single_class": false,
+      "bce": 0.6321748275806299,
+      "prevalence": 0.3643679260766495,
+      "mean_probability": 0.3669556000911827,
+      "fraction_probability_ge_half": 0.10759936048342687
+    },
+    "lr": 0.001,
+    "seconds_per_update_including_training_checks": 1.119855803863281,
+    "termination": null,
+    "held_out_predictions": 0,
+    "draws": 1024,
+    "unique_cores": 138,
+    "supervised_pixel_exposures": 13720912
   },
-  "updated_utc": "2026-10-11T09:33:57.230312+00:00"
+  "updated_utc": "2026-10-11T09:41:24.133394+00:00"
 }
