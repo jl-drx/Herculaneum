@@ -76,6 +76,20 @@
       ],
       "created_utc": "2026-10-11T09:33:02.548555+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0001.tar.gz",
+      "bytes": 1532,
+      "sha256": "1e7b2610956f83128dd661b04850efeda4760f092934c395462c4849121f058e",
+      "members": [
+        {
+          "path": "work/w035/NORMALIZATION.json",
+          "bytes": 5327,
+          "sha256": "6a11420c732056d75f777c2eabfff3c4950b645dece877e3a7a1f73f8aa9e303"
+        }
+      ],
+      "created_utc": "2026-10-11T09:33:57.229931+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
@@ -92,6 +106,11 @@
     }
   ],
   "note": "Resume files, not a live process or installed runtime",
-  "latest_worker_status": null,
-  "updated_utc": "2026-10-11T09:33:02.548734+00:00"
+  "latest_worker_status": {
+    "utc": "2026-10-11T09:33:05.614194+00:00",
+    "phase": "fitting_profile",
+    "fold": "w035",
+    "held_out_predictions": 0
+  },
+  "updated_utc": "2026-10-11T09:33:57.230312+00:00"
 }
