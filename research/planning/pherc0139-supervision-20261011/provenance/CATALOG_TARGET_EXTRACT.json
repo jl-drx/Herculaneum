@@ -1,0 +1,513 @@
+{
+  "catalog_sha256": "2a460d1f57ca0d3535ce2a8a8ab8b80fe4141f143e8de486394a150bc93f094d",
+  "segment_id": "20250831000000-w040_2025083102",
+  "data": [
+    {
+      "type": "layers-zarr",
+      "origins": [
+        {
+          "path": "PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+          "access_roots": [
+            {
+              "type": "s3",
+              "url": "s3://vesuvius-challenge-open-data",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": {
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+            "date": "2026-06-25T01:42:08.297702Z",
+            "workflow_execution": "s3sync-pherc0139-394b2c0d"
+          }
+        }
+      ],
+      "properties": null,
+      "parameters": {
+        "target_volume": "20260102150214"
+      },
+      "creation_info": {
+        "process": "render-tifxyz-to-zarr",
+        "workflow": "render-tifxyz-to-zarr",
+        "workflow_execution": "render-tifxyz-pherc0139-5ad26613",
+        "date": "2026-06-19T14:09:48.756198Z",
+        "derived_from": {
+          "data_type": "tifxyz-transformed",
+          "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/"
+        },
+        "provenance": {
+          "workflow_template_ref": "vc3d-render-partitioned",
+          "infra_revision": "main@sha1:4595b302b9048885e99a268fc4bcbbf5808cb51c",
+          "atlas_version": "0.1.0",
+          "atlas_git_sha": "35d8582ddd28e89192f38bf58a964d778c750023",
+          "atlas_git_dirty": true,
+          "images": {
+            "run-render-stage": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer:650bd56663efb7225fdba73fe267ba86b8e29368-arm64",
+            "check-image-exists": "amazon/aws-cli:latest",
+            "calculate-partition-count": "python:3.11"
+          },
+          "parameters": {
+            "repo": "https://github.com/ScrollPrize/villa",
+            "commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+            "subdir": "volume-cartographer",
+            "dockerfile": "Dockerfile",
+            "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+            "build-platform": "linux/arm64",
+            "binary-path": "vc_render_tifxyz",
+            "volume-path": "s3://scrollprize-volumes/esrf/20251130/finetuned/SCROLLS_HEL_2.399um_78keV_0.22m_PHerc_0139_TA3_0001_masked.zarr/",
+            "group-idx": "0",
+            "scale": "1",
+            "segmentation-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/",
+            "output": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+            "render-mode": "zarr",
+            "zarr-compressor": "none",
+            "zarr-compression-level": "",
+            "zarr-separator": "/",
+            "num-parts": "",
+            "target-duration-per-partition": "1800",
+            "scale-segmentation": "",
+            "affine-transform": "",
+            "affines": "",
+            "affine-invert": "",
+            "rotate": "0",
+            "flip": "-1",
+            "flip-normals": "true",
+            "num-slices": "109",
+            "affine-matrix": "",
+            "crop-x": "0",
+            "crop-y": "0",
+            "crop-width": "0",
+            "crop-height": "0",
+            "voxel-size": "2.399",
+            "voxel-unit": "micrometer",
+            "memory": "15Gi",
+            "cache-gb": "8",
+            "render-threads": "8",
+            "cpu-requests": "8"
+          }
+        }
+      }
+    },
+    {
+      "type": "ink-detection",
+      "origins": [
+        {
+          "path": "PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "access_roots": [
+            {
+              "type": "s3",
+              "url": "s3://vesuvius-challenge-open-data",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": {
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+            "date": "2026-06-25T17:56:10.379920Z",
+            "workflow_execution": "s3copy-pherc0139-9ea32914"
+          }
+        }
+      ],
+      "properties": null,
+      "parameters": {
+        "target_volume": "20260102150214",
+        "model_id": "20260417190342"
+      },
+      "creation_info": {
+        "process": "Run ink-detection using partitioned workflow",
+        "workflow": "ink-detection-partitioned",
+        "workflow_execution": "ink-detect-pherc0139-e06ef362",
+        "date": "2026-06-19T14:28:00.467952Z",
+        "derived_from": {
+          "data_type": "layers-zarr",
+          "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/"
+        },
+        "provenance": {
+          "workflow_template_ref": "ink-detection-partitioned",
+          "infra_revision": "main@sha1:4595b302b9048885e99a268fc4bcbbf5808cb51c",
+          "atlas_version": "0.1.0",
+          "atlas_git_sha": "e7d830461f848059c7d595e544d6ea5e37c6bea2",
+          "atlas_git_dirty": true,
+          "images": {
+            "reduce-ink-detection": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+            "run-ink-detection-partition": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42",
+            "cleanup-zarr": "amazon/aws-cli:latest",
+            "calculate-partition-count": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+            "check-if-zarr": "python:3.11",
+            "validate-model": "python:3.11",
+            "aggregate-profiling": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu"
+          },
+          "parameters": {
+            "model": "new_canon_autoresearch_recipe",
+            "model-type": "resnet3d-152-3d-decoder",
+            "s3-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+            "start-layer": "23",
+            "end-layer": "85",
+            "num-parts": "",
+            "mmap-read-workers": "6",
+            "surface-volume-zarr": "",
+            "surface-volume-zarr-prefix": "s3://scrollprize-reconstruction/tmp/ink-detection-workflow/",
+            "target-duration-per-partition": "750",
+            "surface-volume-chunk-size": "1024",
+            "use-zarr-compression": "false",
+            "tile-size": "256",
+            "stride": "128",
+            "batch-size": "",
+            "output-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+            "force-reverse": "false",
+            "pixel-resolution-um": "",
+            "add-scale-bar": "false",
+            "scale-bar-length-um": "10000",
+            "cleanup-zarr": "true",
+            "wandb-api-key": "",
+            "profiling-level": "basic",
+            "profiling-sample-interval-ms": "1000",
+            "profiling-detailed-partitions": "first",
+            "profiling-keep-raw-traces": "false",
+            "profiling-output-prefix": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "layers-zarr",
+      "origins": [
+        {
+          "path": "PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+          "access_roots": [
+            {
+              "type": "s3",
+              "url": "s3://vesuvius-challenge-open-data",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": {
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+            "date": "2026-07-15T17:52:02.776993Z",
+            "workflow_execution": "s3sync-pherc0139-ca34864d"
+          }
+        }
+      ],
+      "properties": null,
+      "parameters": {
+        "target_volume": "20250728140407"
+      },
+      "creation_info": {
+        "process": "render-tifxyz-to-zarr",
+        "workflow": "render-tifxyz-to-zarr",
+        "workflow_execution": "render-tifxyz-pherc0139-2234797e",
+        "date": "2026-07-15T17:49:44.803387Z",
+        "derived_from": {
+          "data_type": "tifxyz-transformed",
+          "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/"
+        },
+        "provenance": {
+          "workflow_template_ref": "vc3d-render-partitioned",
+          "infra_revision": "main@sha1:020152f1610b08f4c15146d562f559b4930a61f1",
+          "atlas_version": "0.1.0",
+          "atlas_git_sha": "373589fe420f14c9d2dd4693a59ad0e39890206e",
+          "atlas_git_dirty": true,
+          "images": {
+            "calculate-partition-count": "ghcr.io/astral-sh/uv:python3.12-bookworm-slim",
+            "check-image-exists": "amazon/aws-cli:latest",
+            "run-render-stage": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer:530584554c031c982ba3aa243e1ea39c4bef9818-arm64"
+          },
+          "parameters": {
+            "repo": "https://github.com/ScrollPrize/villa",
+            "commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+            "subdir": "volume-cartographer",
+            "dockerfile": "Dockerfile",
+            "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+            "build-platform": "linux/arm64",
+            "binary-path": "vc_render_tifxyz",
+            "volume-path": "s3://scrollprize-volumes/esrf/20250717/SCROLLS_HEL_4.681um_113keV_1.2m_binmean_2_PHerc_0139_TA_0001_masked.zarr/",
+            "scale": "1",
+            "segmentation-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/",
+            "output": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+            "render-mode": "zarr",
+            "group-idx": "0",
+            "zarr-compressor": "none",
+            "zarr-compression-level": "",
+            "zarr-separator": "/",
+            "num-parts": "",
+            "target-duration-per-partition": "1800",
+            "max-parts": "20",
+            "auto-render-rate": "460",
+            "accum-type": "max",
+            "composite": "false",
+            "composite-start": "",
+            "composite-end": "",
+            "scale-segmentation": "",
+            "affine-transform": "",
+            "affines": "",
+            "affine-invert": "",
+            "rotate": "0",
+            "flip": "-1",
+            "flip-normals": "true",
+            "num-slices": "28",
+            "affine-matrix": "",
+            "crop-x": "0",
+            "crop-y": "0",
+            "crop-width": "0",
+            "crop-height": "0",
+            "voxel-size": "9.362",
+            "voxel-unit": "micrometer",
+            "memory": "15Gi",
+            "cache-gb": "8",
+            "render-threads": "8",
+            "cpu-requests": "8"
+          }
+        }
+      }
+    },
+    {
+      "type": "ink-labels",
+      "origins": [
+        {
+          "path": "PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/2.399um-volume-20260102150214/20260918/",
+          "access_roots": [
+            {
+              "type": "s3",
+              "url": "s3://vesuvius-challenge-open-data",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": {
+            "source_path": "s3://scrollprize-volumes/testing/johannes/ink-labels-reviewed-20260918/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/2.399um-volume-20260102150214/",
+            "date": "2026-09-21T15:59:04.049721Z",
+            "workflow_execution": "s3sync-pherc0139-bdb61838"
+          }
+        }
+      ],
+      "properties": {
+        "label_set": "20260918",
+        "supersedes": null,
+        "arrays": [
+          "inklabels",
+          "supervision"
+        ],
+        "registration": "transferred",
+        "annotated_on": "20250728140407",
+        "mapping_coverage": 1.0,
+        "labelled_px": 11275292,
+        "supervised_px": 24641925
+      },
+      "parameters": {
+        "target_volume": "20260102150214",
+        "label_set": "20260918"
+      },
+      "creation_info": {
+        "schema": "ink-republish/1",
+        "entry": "0139/w040_2025083102",
+        "source": {
+          "prefix": "s3://philodemos/datasets/ink/ink_030927/0139/w040_2025083102/",
+          "rasters": {
+            "inklabels": "w040_2025083102_inklabels.tif",
+            "supervision": "w040_2025083102_supervision_mask.tif",
+            "overview": "w040_2025083102_max_20_42.tif"
+          }
+        },
+        "target": {
+          "atlas_sample": "PHerc0139",
+          "atlas_segment": "20250831000000-w040_2025083102",
+          "tifxyz": "s3://vesuvius-challenge-open-data/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/",
+          "render": "s3://vesuvius-challenge-open-data/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+          "volume": "20260102150214",
+          "resolution_um": 2.399
+        },
+        "geometry": {
+          "canvas_offset_yx": [
+            30.2013538561198,
+            -50.23885888152329
+          ],
+          "canvas_offset_source": "manifest-v1-reviewed + measured residual",
+          "canvas_offset_residual_yx": [
+            1.98,
+            -2.01
+          ],
+          "affine": null,
+          "convention": "label pixel (i, j) depicts canvas position (i + dy, j + dx)"
+        },
+        "transfer": {
+          "seam_policy": "--fill-seams --seam-anchor content",
+          "mapping_coverage": 1.0,
+          "seam_filled_pixels": 0,
+          "target_surface_valid_pixels": 665646400,
+          "distance_p50": 0.0043858494609594345,
+          "distance_p95": 0.02470925636589527,
+          "distance_max": 6.4220380783081055,
+          "suspected_mesh_disagreement": false
+        },
+        "arrays": {
+          "inklabels": {
+            "published": true,
+            "bytes": 238694
+          },
+          "supervision": {
+            "published": true,
+            "bytes": 206089
+          },
+          "overview": {
+            "published": false,
+            "bytes": 353456781
+          },
+          "mapping_validity": {
+            "published": true,
+            "bytes": 530589
+          }
+        },
+        "conventions": {
+          "pyramid_rule": "decimation [::2, ::2]",
+          "levels": 6,
+          "validity_values": {
+            "unmapped": 0,
+            "seam_filled": 128,
+            "measured": 255
+          },
+          "validity_policy_recommended": ">=128",
+          "training_mask": "supervision > 0",
+          "validity_published": true,
+          "measured_only_mask": "supervision > 0 and mapping_validity == 255"
+        },
+        "quality": {
+          "labelled": 11275292,
+          "supervised": 24641925,
+          "labelled_unsupervised": 439825,
+          "labelled_unsupervised_fraction": 0.039008,
+          "validity_findings": [],
+          "validity_decision": {
+            "decision": "accepted",
+            "reviewed": "2026-09-18",
+            "review_method": "every annotation cropped to its own extent and painted over the independent ink detection, reviewed in recall order weakest first",
+            "note": "reviewed on the 'Labels Against the Ink' crop surface and accepted; 73% of the labelled pixels carry ink the independent prediction also sees, separated by 127.8 grey levels",
+            "evidence": {
+              "recall_at_128": 0.733,
+              "separation": 127.8,
+              "dice_at_128": 0.808,
+              "labelled_px": 2227027
+            }
+          },
+          "review_required": false,
+          "review_reason": null
+        },
+        "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+        "publication": {
+          "tier": "testing",
+          "note": "published after review: reviewed on the 'Labels Against the Ink' crop surface and accepted; 73% of the labelled pixels carry ink the independent prediction also sees, separated by 127.8 grey levels",
+          "reviewed": "2026-09-18"
+        }
+      }
+    },
+    {
+      "type": "ink-labels",
+      "origins": [
+        {
+          "path": "PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/9.362um-volume-20250728140407/20260918/",
+          "access_roots": [
+            {
+              "type": "s3",
+              "url": "s3://vesuvius-challenge-open-data",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": {
+            "source_path": "s3://scrollprize-volumes/testing/johannes/ink-labels-reviewed-20260918/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/9.362um-volume-20250728140407/",
+            "date": "2026-09-21T15:59:03.794914Z",
+            "workflow_execution": "s3sync-pherc0139-0f19a8f8"
+          }
+        }
+      ],
+      "properties": {
+        "label_set": "20260918",
+        "supersedes": null,
+        "arrays": [
+          "inklabels",
+          "supervision"
+        ],
+        "registration": "native",
+        "annotated_on": "20250728140407",
+        "labelled_px": 745657,
+        "supervised_px": 1629734
+      },
+      "parameters": {
+        "target_volume": "20250728140407",
+        "label_set": "20260918"
+      },
+      "creation_info": {
+        "entry": "ink_9um/native9/w040",
+        "source": {
+          "bucket": "https://huggingface.co/buckets/scrollprize/datasets/tree/ink_9um/labels/native9-scrollprizeorg-21slices",
+          "family": "native9-scrollprizeorg-21slices",
+          "case": "w040",
+          "arrays": {
+            "inklabels": "w040_inklabels.zarr",
+            "supervision": "w040_supervision_mask.zarr"
+          }
+        },
+        "target": {
+          "atlas_sample": "PHerc0139",
+          "atlas_segment": "20250831000000-w040_2025083102",
+          "volume": "20250728140407",
+          "resolution_um": 9.362,
+          "render": "s3://vesuvius-challenge-open-data/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/"
+        },
+        "arrays": {
+          "inklabels": {
+            "shape": [
+              6400,
+              7980
+            ],
+            "dtype": "uint8",
+            "values": [
+              0,
+              255
+            ],
+            "labelled_px": 745657,
+            "levels": 6,
+            "bytes": 51861,
+            "objects": 13,
+            "published": true
+          },
+          "supervision": {
+            "shape": [
+              6400,
+              7980
+            ],
+            "dtype": "uint8",
+            "values": [
+              0,
+              255
+            ],
+            "labelled_px": 1629734,
+            "levels": 6,
+            "bytes": 41778,
+            "objects": 13,
+            "published": true
+          }
+        },
+        "conventions": {
+          "pyramid_rule": "decimation [::2, ::2]",
+          "levels": 6,
+          "training_mask": "supervision > 0",
+          "validity_published": false,
+          "validity_note": "no mapping validity exists for these: they were annotated on this render, so no transfer was involved and every pixel is measured geometry"
+        },
+        "provenance": {
+          "operation": "re-encoded from the published ink_9um native9 arrays",
+          "unchanged": [
+            "pixel values",
+            "canvas",
+            "geometry",
+            "pixel size"
+          ],
+          "changed": [
+            "container (zarr v2 3-D -> zarr v3 flat 2-D sharded)",
+            "Z padding removed (only the central plane held data)",
+            "empty chunks dropped",
+            "pyramid regenerated by decimation"
+          ],
+          "reviewed": false,
+          "review_note": "the 2026-09-18 crop review covered the aligned rasters; these are the same annotations on a different render and were not separately reviewed"
+        }
+      }
+    }
+  ]
+}

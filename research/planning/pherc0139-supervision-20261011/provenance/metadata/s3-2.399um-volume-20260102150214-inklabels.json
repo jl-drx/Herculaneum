@@ -1,0 +1,120 @@
+{
+  "attributes": {
+    "ome": {
+      "version": "0.5",
+      "multiscales": [
+        {
+          "name": "inklabels",
+          "axes": [
+            {
+              "name": "y",
+              "type": "space",
+              "unit": "micrometer"
+            },
+            {
+              "name": "x",
+              "type": "space",
+              "unit": "micrometer"
+            }
+          ],
+          "datasets": [
+            {
+              "path": "0",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    2.399,
+                    2.399
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "1",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    4.798,
+                    4.798
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "2",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    9.596,
+                    9.596
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "3",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    19.192,
+                    19.192
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "4",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    38.384,
+                    38.384
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "5",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    76.768,
+                    76.768
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_image": "/home/johannes/ink-republish/work/pherc0139-w040_2025083102/inklabels.tif",
+    "transfer_report": "/home/johannes/ink-republish/work/pherc0139-w040_2025083102/inklabels.report.json",
+    "canvas_size": [
+      24880,
+      31040
+    ],
+    "ink_republish": {
+      "asset": "inklabels",
+      "source_entry": "0139/w040_2025083102",
+      "source_raster": "w040_2025083102_inklabels.tif",
+      "atlas_sample": "PHerc0139",
+      "atlas_segment": "20250831000000-w040_2025083102",
+      "resolution_um": 2.399,
+      "canvas_offset_yx": [
+        30.2013538561198,
+        -50.23885888152329
+      ],
+      "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+      "provenance": "provenance.json"
+    }
+  },
+  "zarr_format": 3,
+  "node_type": "group"
+}

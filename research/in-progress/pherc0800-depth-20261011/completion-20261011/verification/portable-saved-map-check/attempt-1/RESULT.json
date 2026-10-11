@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "verifier_version": "portable-1",
+  "manifest_scope": "Exactly the 71 frozen generator/code/plan/metrics/PNG files; later recovery, visual-review and independent-check documents are outside this original manifest and require the parent portable manifest.",
+  "created_at_utc": "2026-10-11T08:01:53.034943+00:00",
+  "scope": "Read-only portable mathematical and pixel-content replay derived from the independent v2 verifier; all input pins resolve exclusively through the packet saved-inputs manifest. No inference or scientific ink claim.",
+  "assessment_plan_sha256": "0706ea76bdec21fc925f0a5ee6615c8a872050aae593275e06c7566b0982d143",
+  "source_manifest_files_verified": 71,
+  "maps_verified": 48,
+  "distinct_pairs_verified": 168,
+  "pair_counts": {
+    "depth": 48,
+    "order": 24,
+    "padding": 24,
+    "cross_model": 72
+  },
+  "scope_scores_verified": 672,
+  "exact_panels_verified": 64,
+  "exact_map_regions_verified": 192,
+  "contact_sheets_verified": 4,
+  "contact_tiles_verified": 48,
+  "common_support_pixels": 786240,
+  "unknown_pixels": 192,
+  "maximum_pearson_absolute_error": 3.3306690738754696e-16,
+  "maximum_mad_uint8_levels_absolute_error": 1.4210854715202004e-14,
+  "limitations": [
+    "No independent reconstruction of CT volumes, source model predictions, support geometry, or upstream source correctness.",
+    "No blinded visual detection, ink accuracy or authenticated letter judgment.",
+    "Pixel display correctness and statistical reproducibility do not establish model validity."
+  ],
+  "packet": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/completion-review",
+  "saved_inputs_manifest_sha256": "b346436dfc1c6a234161cea533d520214ce4ab6af71d787c0f81977307b02ea1",
+  "saved_input_bindings_verified": 55,
+  "original_path_fallback": false,
+  "outputs_written": false
+}

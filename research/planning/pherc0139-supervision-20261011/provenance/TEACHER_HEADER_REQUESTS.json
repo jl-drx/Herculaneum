@@ -1,0 +1,265 @@
+[
+  {
+    "method": "HEAD",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "status": 200,
+    "headers": {
+      "x-amz-id-2": "+i0vuP/0UrOVaBTLKxfZ37IhsMMW7W53QRa8zHBfSwgUvBRqyuiRR4oKKrSFK1om",
+      "x-amz-request-id": "0S2VVQBFZ0KTVT4D",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:57 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-length": "66742237",
+      "content-type": "binary/octet-stream",
+      "x-envoy-upstream-service-time": "143",
+      "connection": "close"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "range": [
+      0,
+      8
+    ],
+    "status": 206,
+    "headers": {
+      "x-amz-id-2": "d/PcBOjnN4R23IERJUvSnBc6We8uXPZWC6BHRZZWPdoeTbpc0FdcTpRtLkCHDnPtI9fDCOB8YDKKjHDWJj8o0GrAzPWiOZeO",
+      "x-amz-request-id": "0S2JZFAMFKWXJ7HA",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:57 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 0-7/66742237",
+      "content-type": "binary/octet-stream",
+      "content-length": "8",
+      "x-envoy-upstream-service-time": "272",
+      "connection": "close"
+    },
+    "sha256": "e14e7408990dc136663693d7e57816e5e10b2c0668ede991ca62072d380c3d7a",
+    "file": "/workspace/scratch/w040-target-provenance/teacher-metadata-001-header.bin"
+  },
+  {
+    "method": "GET",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "range": [
+      8,
+      10
+    ],
+    "status": 206,
+    "headers": {
+      "x-amz-id-2": "Ab1P1YiXqymSlPib3SQQREszDgb3K1cKCTwOiOUSnIJbB3ukSB42gYosfcOkP1h7qPUIW275waI=",
+      "x-amz-request-id": "0S2M4RP9S06FKQE8",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:57 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 8-9/66742237",
+      "content-type": "binary/octet-stream",
+      "content-length": "2",
+      "x-envoy-upstream-service-time": "158",
+      "connection": "close"
+    },
+    "sha256": "46e04d129d7b45d054469ce34e24069a1426b3e34f1b68a3d1bff1e070aee192",
+    "file": "/workspace/scratch/w040-target-provenance/teacher-metadata-002-ifd-count.bin"
+  },
+  {
+    "method": "GET",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "range": [
+      10,
+      194
+    ],
+    "status": 206,
+    "headers": {
+      "x-amz-id-2": "oDMe5DCsSOSBhcV2LOBkqIJtwtxUogop5c7RH/eFbsrMtY/x7qtjtcUEDF0GyiCeW94KJDTn4p2SWExdeDsn+4eLLK8xdALl",
+      "x-amz-request-id": "PNXTZ2EEPR5B1HCH",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:58 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 10-193/66742237",
+      "content-type": "binary/octet-stream",
+      "content-length": "184",
+      "x-envoy-upstream-service-time": "148",
+      "connection": "close"
+    },
+    "sha256": "036173a1dbc0d6aafe3a61024b5c7f1fb664d057937bc79aab31513173311f93",
+    "file": "/workspace/scratch/w040-target-provenance/teacher-metadata-003-ifd.bin"
+  },
+  {
+    "method": "GET",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "range": [
+      194,
+      255
+    ],
+    "status": 206,
+    "headers": {
+      "x-amz-id-2": "H2NX2QNhcmiVOtDXwpVJGRX05ecyOu5xI2dbzLGuQKtJRT4zJgwtvjEgc2dSdAU9vqxwTh85KOnPWddUqVQ0UGVqpPt+O2l3",
+      "x-amz-request-id": "PNXRPVX0PX7JZ2A9",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:58 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 194-254/66742237",
+      "content-type": "binary/octet-stream",
+      "content-length": "61",
+      "x-envoy-upstream-service-time": "141",
+      "connection": "close"
+    },
+    "sha256": "c9b7b56eb0c60062c4ace78ae528457b286ac3bdf7807ce27b04c62f9210dec9",
+    "file": "/workspace/scratch/w040-target-provenance/teacher-metadata-004-tag-270.bin"
+  },
+  {
+    "method": "GET",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "range": [
+      270,
+      278
+    ],
+    "status": 206,
+    "headers": {
+      "x-amz-id-2": "KxsPT+COXOynBikxEB7FSWm57gP6UWqrYFdFFvZNBTwYW/ylGpGIkktEsWBWzxBP8AlsNGY6nNEJJ524vrNvXFBB/6vgcPt5",
+      "x-amz-request-id": "PNXM7X8DEPG6B1RB",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:58 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 270-277/66742237",
+      "content-type": "binary/octet-stream",
+      "content-length": "8",
+      "x-envoy-upstream-service-time": "152",
+      "connection": "close"
+    },
+    "sha256": "64ed86b909d6d0502b64b28db0ea1272ffb358e20e9b1d88b63ccb07fa900cf5",
+    "file": "/workspace/scratch/w040-target-provenance/teacher-metadata-005-tag-282.bin"
+  },
+  {
+    "method": "GET",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "range": [
+      278,
+      286
+    ],
+    "status": 206,
+    "headers": {
+      "x-amz-id-2": "1ShsxI5lpPOsfWR+47Po6JIMyj2QkPii3V1zkyZKuaKyP5IoUT2CCtejJ3VXQVLIbwb0aGhZiFpdI/sVh+7qFR//l1uoz/Xj",
+      "x-amz-request-id": "PNXNN8JZ8ZF078JB",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:58 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 278-285/66742237",
+      "content-type": "binary/octet-stream",
+      "content-length": "8",
+      "x-envoy-upstream-service-time": "162",
+      "connection": "close"
+    },
+    "sha256": "64ed86b909d6d0502b64b28db0ea1272ffb358e20e9b1d88b63ccb07fa900cf5",
+    "file": "/workspace/scratch/w040-target-provenance/teacher-metadata-006-tag-283.bin"
+  },
+  {
+    "method": "GET",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "range": [
+      286,
+      298
+    ],
+    "status": 206,
+    "headers": {
+      "x-amz-id-2": "4BP5McQVdGwSvr16tIl8HHJzmKG+HQrYFyAMFuPh+c0vieyYEkA4vw1x/9iBtXEHo1RQIOWX8JSEeDF/k4yhjYz4V1WERbO4",
+      "x-amz-request-id": "PNXWJPEDFXBVYSY6",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:58 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 286-297/66742237",
+      "content-type": "binary/octet-stream",
+      "content-length": "12",
+      "x-envoy-upstream-service-time": "145",
+      "connection": "close"
+    },
+    "sha256": "15218e83e7d52d30092b80e5002207077670f9e2a0a206dadb0208ff605290bc",
+    "file": "/workspace/scratch/w040-target-provenance/teacher-metadata-007-tag-305.bin"
+  },
+  {
+    "method": "GET",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "range": [
+      298,
+      3398
+    ],
+    "status": 206,
+    "headers": {
+      "x-amz-id-2": "PncmiqM89B/W8zeUaLOUnnefSyH0nfsAdordFaNncKkmsyBV4vmB6OiXY++lF015sCHoSM2J6L8=",
+      "x-amz-request-id": "W613VAKJ9XPJREHF",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:59 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 298-3397/66742237",
+      "content-type": "binary/octet-stream",
+      "content-length": "3100",
+      "x-envoy-upstream-service-time": "171",
+      "connection": "close"
+    },
+    "sha256": "8a3a01b388e440151494681ffa0e04ea4649aa7d1fd3377a0c3a3daff007f2ae",
+    "file": "/workspace/scratch/w040-target-provenance/teacher-metadata-008-tag-324.bin"
+  },
+  {
+    "method": "GET",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+    "range": [
+      3398,
+      6498
+    ],
+    "status": 206,
+    "headers": {
+      "x-amz-id-2": "KKXgLgMA6u8wgDSdyxqoK2c+1H5Wqw4WgTfnmjae/sA/AFIUTywlXe7GjQW5zKYPuAkIYZKwRwGu6skUWSGVGmDA+jw06Het",
+      "x-amz-request-id": "W610YBH8HNEYSRA7",
+      "server": "envoy",
+      "date": "Sun, 11 Oct 2026 07:41:59 GMT",
+      "last-modified": "Thu, 25 Jun 2026 07:33:42 GMT",
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "accept-ranges": "bytes",
+      "content-range": "bytes 3398-6497/66742237",
+      "content-type": "binary/octet-stream",
+      "content-length": "3100",
+      "x-envoy-upstream-service-time": "141",
+      "connection": "close"
+    },
+    "sha256": "5d812aa8347b1499a921b86f87f1ea72497b0a49e79bcf58dda107ab406e0b1d",
+    "file": "/workspace/scratch/w040-target-provenance/teacher-metadata-009-tag-325.bin"
+  }
+]

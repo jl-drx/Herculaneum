@@ -1,4 +1,12 @@
-# PHerc0800 study52 — qualified shifted-depth run
+# PHerc0800 study52 — completed shifted-depth run
+
+**Completed update,11October2026:** all32 shifted maps and16 baselines are
+verified and reviewed. No coherent stroke group met the frozen criterion;
+the repeatable broad d+15 left-cell response remains uncertain. The completed
+remote checkpoint02812de was saved at03:44:59BST and recovered after runtime
+replacement without new inference. Read the [final report](completion-20261011/FINAL_RESULTS.md)
+and [portable completion packet](completion-20261011/PORTABILITY.md). The launch
+and early-running observations below are historical, not current live status.
 
 All32 shifted qualification cases and16 actual-worker d0 baseline replays passed.
 The frozen CPU run has32 new maps /3,096 batches, d−15/+15, all four models,

@@ -1,11 +1,14 @@
 # Plinius — Herculaneum research project
 
-**Current update, 10 October 2026:** studies46–50 are complete and sealed. Study51
-completed its 16-map PHerc0800 development-field comparison and review at fixed
-display scale. No defensible lettering; no GPU spend. Start with the
-[current research README](README.md) and [study51 completion report](in-progress/pherc0800-development-20261010/completion-20261010/RESULTS.md).
-The cumulative seal remains at study50. The 9 October brief below is historical;
-its active-study and pending-output statements are superseded by this update.
+**Current update, 11 October 2026:** studies46–50 remain sealed; studies51–52
+are complete separately. The48-view PHerc0800 depth screen found no demonstrated
+qualifying stroke group; its stronger d+15 response remains uncertain. The
+PHerc0139 site1 supervision audit found consequential hard-label sensitivity
+under CT alternatives, with smaller soft-score changes. Start with the
+[current research README](README.md), [study52 final review](in-progress/pherc0800-depth-20261011/completion-20261011/FINAL_RESULTS.md)
+and [supervision audit](planning/pherc0139-supervision-20261011/README.md).
+GPU spend is£0. The cumulative seal remains study50/registerv46. The9October
+brief below is historical; its active-study statements are superseded.
 
 Project index and continuation brief, 9 October 2026. This document brings together the retained research record, working study and portable workspace. The linked repository is private and requires the owner's GitHub access.
 

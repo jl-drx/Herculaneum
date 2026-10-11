@@ -1,0 +1,125 @@
+{
+    "canvas_size": [
+        6400,
+        7980
+    ],
+    "multiscales": [
+        {
+            "axes": [
+                {
+                    "name": "z",
+                    "type": "space"
+                },
+                {
+                    "name": "y",
+                    "type": "space"
+                },
+                {
+                    "name": "x",
+                    "type": "space"
+                }
+            ],
+            "datasets": [
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "0"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                2.0,
+                                2.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "1"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                4.0,
+                                4.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "2"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                8.0,
+                                8.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "3"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                16.0,
+                                16.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "4"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                32.0,
+                                32.0
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "5"
+                }
+            ],
+            "name": "supervision-9.362um",
+            "version": "0.4"
+        }
+    ],
+    "rerun_provenance": {
+        "audit": {
+            "blob_px_removed": 0,
+            "gate_rejected_px": 0,
+            "hole_px_filled": 54,
+            "island_px_removed": 0,
+            "relaxed_px": 1629680,
+            "strict_px": 1629680
+        },
+        "gate_px": 128,
+        "max_hole_ink": 16,
+        "max_hole_mask": 512,
+        "min_blob": 16,
+        "min_island": 1024,
+        "package_commit": "0e90a7cce (tifxyz-label-transfer-fixes)",
+        "seam_anchor": "content"
+    },
+    "source_image": "/scratch/elian/mask-align/native-rerun/w040/supervision-mask-9.362um.tif",
+    "transfer_report": "/scratch/elian/mask-align/native-rerun/w040/supervision-mask-9.362um.report.json"
+}

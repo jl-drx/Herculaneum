@@ -1,0 +1,31 @@
+{
+  "display": "Linear fixed 0..255 for score AND range, no fitted contrast; nearest-neighbour 6x expansion",
+  "native_plane": 14,
+  "all_four_checking_supports": true,
+  "image_quantization": "round-to-nearest for display only; float metric arrays unchanged",
+  "value_archive_sha256": "ae6af84843631cf3dbc8d451d5940ec08a66247ea13114262ecbaf64da881217",
+  "mask_archive_sha256": "f4fa8d377941e30a49c0dc47c568363efdc6a2cb976302b16c0b7ddd6c11954e",
+  "code_sha256": "430412cfd2ef9236406652957b14a198799a15df4484e6511f55e3e0952c73c2",
+  "panels": [
+    {
+      "path": "support4-j14-fixed.png",
+      "sha256": "f7c5a9ba852c39d51f4f65d2a24f0e5fb1ad1b4d0a47f12b7151dca45fac97e9",
+      "bytes": 40184
+    },
+    {
+      "path": "support5-j14-fixed.png",
+      "sha256": "e663fcca9d9d2163de1ad22724800feddf8f173bb909a12d84ff9d1ee18a2f07",
+      "bytes": 42621
+    },
+    {
+      "path": "support6-j14-fixed.png",
+      "sha256": "c1ba0cfee3975daf09bd7955586c57564989993579821425f41d143beafdaea5",
+      "bytes": 43464
+    },
+    {
+      "path": "support7-j14-fixed.png",
+      "sha256": "d533da026155298f7aa2f6c0778f460954f86c7128384c0f898152f5670705b5",
+      "bytes": 41304
+    }
+  ]
+}

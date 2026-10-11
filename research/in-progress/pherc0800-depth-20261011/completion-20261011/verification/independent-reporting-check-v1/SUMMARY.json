@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-10-11T07:48:08.932615+00:00",
+  "scope": "Independent read-only mathematical and pixel-content verification; no inference or scientific ink claim. Generator code was read for interface and panel locations, never imported or executed.",
+  "assessment_plan_sha256": "0706ea76bdec21fc925f0a5ee6615c8a872050aae593275e06c7566b0982d143",
+  "source_manifest_files_verified": 71,
+  "maps_verified": 48,
+  "distinct_pairs_verified": 168,
+  "pair_counts": {
+    "depth": 48,
+    "order": 24,
+    "padding": 24,
+    "cross_model": 72
+  },
+  "scope_scores_verified": 672,
+  "exact_panels_verified": 64,
+  "exact_map_regions_verified": 192,
+  "contact_sheets_verified": 4,
+  "contact_tiles_verified": 48,
+  "common_support_pixels": 786240,
+  "unknown_pixels": 192,
+  "maximum_pearson_absolute_error": 3.3306690738754696e-16,
+  "maximum_mad_uint8_levels_absolute_error": 1.4210854715202004e-14,
+  "limitations": [
+    "No independent reconstruction of CT volumes, source model predictions, support geometry, or upstream source correctness.",
+    "No blinded visual detection, ink accuracy or authenticated letter judgment.",
+    "Pixel display correctness and statistical reproducibility do not establish model validity."
+  ]
+}

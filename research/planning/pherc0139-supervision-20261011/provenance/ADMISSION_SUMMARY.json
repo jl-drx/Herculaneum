@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-11T07:45:22.662988+00:00",
+  "no_target_or_label_pixels_fetched_or_decoded": true,
+  "metadata_payload_bytes": 6483,
+  "metadata_ranges_disjoint_all_image_data_ranges": true,
+  "all_tiles_inside_object": true,
+  "all_tiles_disjoint": true,
+  "tile_grid_yx": [
+    25,
+    31
+  ],
+  "tile_count": 775,
+  "shape_yx": [
+    24880,
+    31040
+  ],
+  "tile_shape_yx": [
+    1024,
+    1024
+  ],
+  "dtype": "uint8",
+  "compression": "TIFF Deflate 32946 (zlib)",
+  "predictor": "none/default1",
+  "samples_per_pixel": 1,
+  "photometric": "min-is-black1",
+  "orientation": "defaulttop-left1",
+  "expected_decoded_tile_bytes": 1048576,
+  "teacher_declared_canvas_contract_verified": true,
+  "historical_teacher_bytes_identical_proven": false,
+  "exact_v42_image_digest_verified": false,
+  "historical_manual_override_identity_verified": false,
+  "admissible_scope": "bounded teacher-only sensitivity using declared fine full raster; no accuracy or historical training target reproduction claim"
+}
