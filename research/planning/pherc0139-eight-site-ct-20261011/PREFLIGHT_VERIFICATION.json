@@ -1,0 +1,2622 @@
+{
+  "status": "PASS",
+  "checks": [
+    "retained shifted/intensity/periodic/constant fixtures",
+    "24-square shift (0, 0, 0)",
+    "24-square shift (2, -3, 4)",
+    "24-square shift (-4, 3, -2)",
+    "24-square shift (0, 0, 6)",
+    "nonfinite search rejected",
+    "analytic inverse recovers known query",
+    "invalid representative support rejected",
+    "constant CT sampling with complete source support",
+    "zero in outer Gaussian/interpolation contributor rejected",
+    "finite CT cannot override invalid geometry",
+    "scalar w040-x2368-y5440 0/20/20",
+    "scalar w040-x2368-y5440 0/20/72",
+    "scalar w040-x2368-y5440 0/20/123",
+    "scalar w040-x2368-y5440 0/72/20",
+    "scalar w040-x2368-y5440 0/72/72",
+    "scalar w040-x2368-y5440 0/72/123",
+    "scalar w040-x2368-y5440 0/123/20",
+    "scalar w040-x2368-y5440 0/123/72",
+    "scalar w040-x2368-y5440 0/123/123",
+    "scalar w040-x2368-y5440 9/20/20",
+    "scalar w040-x2368-y5440 9/20/72",
+    "scalar w040-x2368-y5440 9/20/123",
+    "scalar w040-x2368-y5440 9/72/20",
+    "scalar w040-x2368-y5440 9/72/72",
+    "scalar w040-x2368-y5440 9/72/123",
+    "scalar w040-x2368-y5440 9/123/20",
+    "scalar w040-x2368-y5440 9/123/72",
+    "scalar w040-x2368-y5440 9/123/123",
+    "scalar w040-x2368-y5440 19/20/20",
+    "scalar w040-x2368-y5440 19/20/72",
+    "scalar w040-x2368-y5440 19/20/123",
+    "scalar w040-x2368-y5440 19/72/20",
+    "scalar w040-x2368-y5440 19/72/72",
+    "scalar w040-x2368-y5440 19/72/123",
+    "scalar w040-x2368-y5440 19/123/20",
+    "scalar w040-x2368-y5440 19/123/72",
+    "scalar w040-x2368-y5440 19/123/123",
+    "independent separate-support bitmaps w040-x2368-y5440",
+    "scalar w040-x6720-y4672 0/20/20",
+    "scalar w040-x6720-y4672 0/20/72",
+    "scalar w040-x6720-y4672 0/20/123",
+    "scalar w040-x6720-y4672 0/72/20",
+    "scalar w040-x6720-y4672 0/72/72",
+    "scalar w040-x6720-y4672 0/72/123",
+    "scalar w040-x6720-y4672 0/123/20",
+    "scalar w040-x6720-y4672 0/123/72",
+    "scalar w040-x6720-y4672 0/123/123",
+    "scalar w040-x6720-y4672 9/20/20",
+    "scalar w040-x6720-y4672 9/20/72",
+    "scalar w040-x6720-y4672 9/20/123",
+    "scalar w040-x6720-y4672 9/72/20",
+    "scalar w040-x6720-y4672 9/72/72",
+    "scalar w040-x6720-y4672 9/72/123",
+    "scalar w040-x6720-y4672 9/123/20",
+    "scalar w040-x6720-y4672 9/123/72",
+    "scalar w040-x6720-y4672 9/123/123",
+    "scalar w040-x6720-y4672 19/20/20",
+    "scalar w040-x6720-y4672 19/20/72",
+    "scalar w040-x6720-y4672 19/20/123",
+    "scalar w040-x6720-y4672 19/72/20",
+    "scalar w040-x6720-y4672 19/72/72",
+    "scalar w040-x6720-y4672 19/72/123",
+    "scalar w040-x6720-y4672 19/123/20",
+    "scalar w040-x6720-y4672 19/123/72",
+    "scalar w040-x6720-y4672 19/123/123",
+    "independent separate-support bitmaps w040-x6720-y4672",
+    "scalar w041-x7488-y3136 0/20/20",
+    "scalar w041-x7488-y3136 0/20/72",
+    "scalar w041-x7488-y3136 0/20/123",
+    "scalar w041-x7488-y3136 0/72/20",
+    "scalar w041-x7488-y3136 0/72/72",
+    "scalar w041-x7488-y3136 0/72/123",
+    "scalar w041-x7488-y3136 0/123/20",
+    "scalar w041-x7488-y3136 0/123/72",
+    "scalar w041-x7488-y3136 0/123/123",
+    "scalar w041-x7488-y3136 9/20/20",
+    "scalar w041-x7488-y3136 9/20/72",
+    "scalar w041-x7488-y3136 9/20/123",
+    "scalar w041-x7488-y3136 9/72/20",
+    "scalar w041-x7488-y3136 9/72/72",
+    "scalar w041-x7488-y3136 9/72/123",
+    "scalar w041-x7488-y3136 9/123/20",
+    "scalar w041-x7488-y3136 9/123/72",
+    "scalar w041-x7488-y3136 9/123/123",
+    "scalar w041-x7488-y3136 19/20/20",
+    "scalar w041-x7488-y3136 19/20/72",
+    "scalar w041-x7488-y3136 19/20/123",
+    "scalar w041-x7488-y3136 19/72/20",
+    "scalar w041-x7488-y3136 19/72/72",
+    "scalar w041-x7488-y3136 19/72/123",
+    "scalar w041-x7488-y3136 19/123/20",
+    "scalar w041-x7488-y3136 19/123/72",
+    "scalar w041-x7488-y3136 19/123/123",
+    "independent separate-support bitmaps w041-x7488-y3136",
+    "scalar w041-x4672-y576 0/20/20",
+    "scalar w041-x4672-y576 0/20/72",
+    "scalar w041-x4672-y576 0/20/123",
+    "scalar w041-x4672-y576 0/72/20",
+    "scalar w041-x4672-y576 0/72/72",
+    "scalar w041-x4672-y576 0/72/123",
+    "scalar w041-x4672-y576 0/123/20",
+    "scalar w041-x4672-y576 0/123/72",
+    "scalar w041-x4672-y576 0/123/123",
+    "scalar w041-x4672-y576 9/20/20",
+    "scalar w041-x4672-y576 9/20/72",
+    "scalar w041-x4672-y576 9/20/123",
+    "scalar w041-x4672-y576 9/72/20",
+    "scalar w041-x4672-y576 9/72/72",
+    "scalar w041-x4672-y576 9/72/123",
+    "scalar w041-x4672-y576 9/123/20",
+    "scalar w041-x4672-y576 9/123/72",
+    "scalar w041-x4672-y576 9/123/123",
+    "scalar w041-x4672-y576 19/20/20",
+    "scalar w041-x4672-y576 19/20/72",
+    "scalar w041-x4672-y576 19/20/123",
+    "scalar w041-x4672-y576 19/72/20",
+    "scalar w041-x4672-y576 19/72/72",
+    "scalar w041-x4672-y576 19/72/123",
+    "scalar w041-x4672-y576 19/123/20",
+    "scalar w041-x4672-y576 19/123/72",
+    "scalar w041-x4672-y576 19/123/123",
+    "independent separate-support bitmaps w041-x4672-y576",
+    "scalar w041-x320-y576 0/20/20",
+    "scalar w041-x320-y576 0/20/72",
+    "scalar w041-x320-y576 0/20/123",
+    "scalar w041-x320-y576 0/72/20",
+    "scalar w041-x320-y576 0/72/72",
+    "scalar w041-x320-y576 0/72/123",
+    "scalar w041-x320-y576 0/123/20",
+    "scalar w041-x320-y576 0/123/72",
+    "scalar w041-x320-y576 0/123/123",
+    "scalar w041-x320-y576 9/20/20",
+    "scalar w041-x320-y576 9/20/72",
+    "scalar w041-x320-y576 9/20/123",
+    "scalar w041-x320-y576 9/72/20",
+    "scalar w041-x320-y576 9/72/72",
+    "scalar w041-x320-y576 9/72/123",
+    "scalar w041-x320-y576 9/123/20",
+    "scalar w041-x320-y576 9/123/72",
+    "scalar w041-x320-y576 9/123/123",
+    "scalar w041-x320-y576 19/20/20",
+    "scalar w041-x320-y576 19/20/72",
+    "scalar w041-x320-y576 19/20/123",
+    "scalar w041-x320-y576 19/72/20",
+    "scalar w041-x320-y576 19/72/72",
+    "scalar w041-x320-y576 19/72/123",
+    "scalar w041-x320-y576 19/123/20",
+    "scalar w041-x320-y576 19/123/72",
+    "scalar w041-x320-y576 19/123/123",
+    "independent separate-support bitmaps w041-x320-y576",
+    "scalar w043-x7488-y2880 0/20/20",
+    "scalar w043-x7488-y2880 0/20/72",
+    "scalar w043-x7488-y2880 0/20/123",
+    "scalar w043-x7488-y2880 0/72/20",
+    "scalar w043-x7488-y2880 0/72/72",
+    "scalar w043-x7488-y2880 0/72/123",
+    "scalar w043-x7488-y2880 0/123/20",
+    "scalar w043-x7488-y2880 0/123/72",
+    "scalar w043-x7488-y2880 0/123/123",
+    "scalar w043-x7488-y2880 9/20/20",
+    "scalar w043-x7488-y2880 9/20/72",
+    "scalar w043-x7488-y2880 9/20/123",
+    "scalar w043-x7488-y2880 9/72/20",
+    "scalar w043-x7488-y2880 9/72/72",
+    "scalar w043-x7488-y2880 9/72/123",
+    "scalar w043-x7488-y2880 9/123/20",
+    "scalar w043-x7488-y2880 9/123/72",
+    "scalar w043-x7488-y2880 9/123/123",
+    "scalar w043-x7488-y2880 19/20/20",
+    "scalar w043-x7488-y2880 19/20/72",
+    "scalar w043-x7488-y2880 19/20/123",
+    "scalar w043-x7488-y2880 19/72/20",
+    "scalar w043-x7488-y2880 19/72/72",
+    "scalar w043-x7488-y2880 19/72/123",
+    "scalar w043-x7488-y2880 19/123/20",
+    "scalar w043-x7488-y2880 19/123/72",
+    "scalar w043-x7488-y2880 19/123/123",
+    "independent separate-support bitmaps w043-x7488-y2880",
+    "scalar w043-x4928-y5440 0/20/20",
+    "scalar w043-x4928-y5440 0/20/72",
+    "scalar w043-x4928-y5440 0/20/123",
+    "scalar w043-x4928-y5440 0/72/20",
+    "scalar w043-x4928-y5440 0/72/72",
+    "scalar w043-x4928-y5440 0/72/123",
+    "scalar w043-x4928-y5440 0/123/20",
+    "scalar w043-x4928-y5440 0/123/72",
+    "scalar w043-x4928-y5440 0/123/123",
+    "scalar w043-x4928-y5440 9/20/20",
+    "scalar w043-x4928-y5440 9/20/72",
+    "scalar w043-x4928-y5440 9/20/123",
+    "scalar w043-x4928-y5440 9/72/20",
+    "scalar w043-x4928-y5440 9/72/72",
+    "scalar w043-x4928-y5440 9/72/123",
+    "scalar w043-x4928-y5440 9/123/20",
+    "scalar w043-x4928-y5440 9/123/72",
+    "scalar w043-x4928-y5440 9/123/123",
+    "scalar w043-x4928-y5440 19/20/20",
+    "scalar w043-x4928-y5440 19/20/72",
+    "scalar w043-x4928-y5440 19/20/123",
+    "scalar w043-x4928-y5440 19/72/20",
+    "scalar w043-x4928-y5440 19/72/72",
+    "scalar w043-x4928-y5440 19/72/123",
+    "scalar w043-x4928-y5440 19/123/20",
+    "scalar w043-x4928-y5440 19/123/72",
+    "scalar w043-x4928-y5440 19/123/123",
+    "independent separate-support bitmaps w043-x4928-y5440",
+    "scalar w043-x3648-y2624 0/20/20",
+    "scalar w043-x3648-y2624 0/20/72",
+    "scalar w043-x3648-y2624 0/20/123",
+    "scalar w043-x3648-y2624 0/72/20",
+    "scalar w043-x3648-y2624 0/72/72",
+    "scalar w043-x3648-y2624 0/72/123",
+    "scalar w043-x3648-y2624 0/123/20",
+    "scalar w043-x3648-y2624 0/123/72",
+    "scalar w043-x3648-y2624 0/123/123",
+    "scalar w043-x3648-y2624 9/20/20",
+    "scalar w043-x3648-y2624 9/20/72",
+    "scalar w043-x3648-y2624 9/20/123",
+    "scalar w043-x3648-y2624 9/72/20",
+    "scalar w043-x3648-y2624 9/72/72",
+    "scalar w043-x3648-y2624 9/72/123",
+    "scalar w043-x3648-y2624 9/123/20",
+    "scalar w043-x3648-y2624 9/123/72",
+    "scalar w043-x3648-y2624 9/123/123",
+    "scalar w043-x3648-y2624 19/20/20",
+    "scalar w043-x3648-y2624 19/20/72",
+    "scalar w043-x3648-y2624 19/20/123",
+    "scalar w043-x3648-y2624 19/72/20",
+    "scalar w043-x3648-y2624 19/72/72",
+    "scalar w043-x3648-y2624 19/72/123",
+    "scalar w043-x3648-y2624 19/123/20",
+    "scalar w043-x3648-y2624 19/123/72",
+    "scalar w043-x3648-y2624 19/123/123",
+    "independent separate-support bitmaps w043-x3648-y2624"
+  ],
+  "scalar_queries": [
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        0,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.00019146281189151942,
+      "difference": 6.3959525609808e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        0,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 3.915207659374499e-06,
+      "difference": 1.6337485749966024e-12
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        0,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.0009768430667609362,
+      "difference": 8.606644043285261e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        0,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.5840428740097303e-05,
+      "difference": 4.945090052775689e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        0,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.0005837865707446757,
+      "difference": 1.1572773989110274e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        0,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.00018580571409922839,
+      "difference": 6.058469156043633e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        0,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.724746024389808e-08,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        0,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.004435067123396484,
+      "difference": 6.473250754868154e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        0,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.0008669945512726865,
+      "difference": 7.874707830257677e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        9,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 3.138309984253055e-05,
+      "difference": 4.653586950465957e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        9,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 9.774454116941494e-06,
+      "difference": 1.061376579344648e-12
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        9,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.00010536352427377309,
+      "difference": 4.671450672035643e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        9,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.6604085587323255e-06,
+      "difference": 8.929040262537359e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        9,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 6.461098234850572e-06,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        9,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.324691502419226e-06,
+      "difference": 1.2596731694964057e-12
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        9,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 6.256005080289968e-07,
+      "difference": 3.7664977600788594e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        9,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 3.545210493536335e-07,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        9,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 3.461461461652443e-05,
+      "difference": 5.279464203051393e-14
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        19,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.2241885131914887e-06,
+      "difference": 6.368497379247168e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        19,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 4.916015465498021e-07,
+      "difference": 4.0847988672573494e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        19,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.967233070906112e-07,
+      "difference": 6.576464044596531e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        19,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.00010139254147595215,
+      "difference": 1.2793627648163136e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        19,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.0007823756220884539,
+      "difference": 8.737782632856073e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        19,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 5.6620992159551676e-05,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        19,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 7.547564917168804e-08,
+      "difference": 8.385393930118463e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        19,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 3.725749592712091e-05,
+      "difference": 8.998515501528262e-13
+    },
+    {
+      "core_id": "w040-x2368-y5440",
+      "array_zyx": [
+        19,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.0010433000810358953,
+      "difference": 1.856503232394724e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        0,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.770831642605464e-06,
+      "difference": 2.416917865524131e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        0,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 5.300396403817393e-07,
+      "difference": 1.0608752779296503e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        0,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 6.165298008549393e-07,
+      "difference": 5.534228483706908e-14
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        0,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 5.042311904658123e-07,
+      "difference": 2.273410987678389e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        0,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.0008020789200974567,
+      "difference": 6.132191109065044e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        0,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.614375287986146e-05,
+      "difference": 5.176072955935963e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        0,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.9374826947625836e-08,
+      "difference": 3.371428857015603e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        0,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 7.814541878261269e-07,
+      "difference": 5.295778156083091e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        0,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.2596581661480935e-07,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        9,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 8.771979320465337e-08,
+      "difference": 3.607768597836986e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        9,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 3.953079774854272e-09,
+      "difference": 2.8508679016125583e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        9,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.5484517060203946e-09,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        9,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.147198606780895e-10,
+      "difference": 9.31407470572667e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        9,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.1810131027583543e-10,
+      "difference": 5.040871233973162e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        9,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.860791151862614e-09,
+      "difference": 2.655303031780127e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        9,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.6673396102769824e-09,
+      "difference": 9.481227802652762e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        9,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 9.087050312421455e-10,
+      "difference": 4.965823981334052e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        9,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 5.375392455956686e-08,
+      "difference": 5.824029686390858e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        19,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 6.745847008061163e-06,
+      "difference": 1.791645182704798e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        19,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 7.642008724643631e-07,
+      "difference": 3.7461328423307646e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        19,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 5.720436635403656e-07,
+      "difference": 2.750417509338936e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        19,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.00041116309829589896,
+      "difference": 2.8281440774338695e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        19,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 8.30466991229932e-08,
+      "difference": 5.05120952763387e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        19,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 8.761577321390593e-09,
+      "difference": 2.6556758483687775e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        19,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 3.932346414117987e-08,
+      "difference": 6.498276583441858e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        19,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.1315163577418846e-06,
+      "difference": 3.4233016536608016e-13
+    },
+    {
+      "core_id": "w040-x6720-y4672",
+      "array_zyx": [
+        19,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.1031870402868501e-06,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        0,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 5.049965094673239e-05,
+      "difference": 5.799815245037185e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        0,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.00012866824929134803,
+      "difference": 3.342302563186239e-14
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        0,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 3.3872225878586916e-05,
+      "difference": 3.305448024125933e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        0,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.988042626429915e-06,
+      "difference": 2.449355779979875e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        0,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 7.876671306188651e-07,
+      "difference": 8.865894763118433e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        0,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.818183766199807e-06,
+      "difference": 6.096848532285916e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        0,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.606465056286458e-05,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        0,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 4.5633793006054e-06,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        0,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 6.168586365879576e-06,
+      "difference": 4.1402843660957997e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        9,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.99693156400098e-07,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        9,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 8.518267830929768e-07,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        9,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.2077159250324244e-06,
+      "difference": 3.98998064600657e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        9,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.0297282904310718e-07,
+      "difference": 1.8926029027069287e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        9,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.0074423996501024525,
+      "difference": 5.559988233705404e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        9,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.8039470754281317e-07,
+      "difference": 2.794776215299153e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        9,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.7889071760225296e-07,
+      "difference": 3.4225856800038936e-14
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        9,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 4.219569798080118e-07,
+      "difference": 1.014393950125838e-12
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        9,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.702380817391505e-07,
+      "difference": 4.2174662221254307e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        19,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 3.7110934135800636e-05,
+      "difference": 3.934585337118761e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        19,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.00015971294416133183,
+      "difference": 2.0832023172462355e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        19,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.0304509845673625e-05,
+      "difference": 1.6546581948573627e-14
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        19,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.302245983498074e-06,
+      "difference": 4.771698821288202e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        19,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 3.263929860833973e-07,
+      "difference": 9.656890148811185e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        19,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.5197136926116562e-06,
+      "difference": 3.5491327961940065e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        19,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.8434961903353867e-06,
+      "difference": 8.825056215178628e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        19,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.0008752158578918429,
+      "difference": 8.722456350945818e-13
+    },
+    {
+      "core_id": "w041-x7488-y3136",
+      "array_zyx": [
+        19,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.5072395289292449e-06,
+      "difference": 1.283412715210756e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        0,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.005836911425063218,
+      "difference": 8.355304295659671e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        0,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 2.7688139331953625e-10,
+      "difference": 9.297004230841926e-14
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        0,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 3.186982030993938e-05,
+      "difference": 7.154920712436515e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        0,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.3943501069512418e-05,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        0,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.1526981154785996e-05,
+      "difference": 5.777400822017716e-14
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        0,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.0029343976160732463,
+      "difference": 2.847817467954705e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        0,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.00020659074970029635,
+      "difference": 7.793684317705663e-14
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        0,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.00036356981788414285,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        0,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.1770271575966068e-07,
+      "difference": 4.00473007743627e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        9,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 7.610355104226381e-05,
+      "difference": 2.2217468208067526e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        9,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.8478713595500854e-07,
+      "difference": 1.2937510707634435e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        9,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.00020936894019366956,
+      "difference": 2.62128914494536e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        9,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.6686340315518e-05,
+      "difference": 8.592117936459618e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        9,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 4.310467798484259e-08,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        9,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.00022748172452398917,
+      "difference": 3.862413047815011e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        9,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 8.965779594898793e-05,
+      "difference": 4.1366794701052506e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        9,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 3.0969156417188182e-06,
+      "difference": 6.20670130247684e-14
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        9,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.439809315388218e-06,
+      "difference": 2.1206798977436417e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        19,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.000702941225319113,
+      "difference": 4.0953048244252166e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        19,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 8.464650893436208e-05,
+      "difference": 9.406315787038877e-14
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        19,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 8.536998855653276e-05,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        19,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 9.285648505192807e-06,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        19,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.0073371101861697e-05,
+      "difference": 5.777402007863842e-14
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        19,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.214807636119594e-06,
+      "difference": 2.604804189725897e-16
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        19,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.0009237491930242474,
+      "difference": 4.1468586377269023e-13
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        19,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 6.796220078256993e-10,
+      "difference": 5.613727868969551e-14
+    },
+    {
+      "core_id": "w041-x4672-y576",
+      "array_zyx": [
+        19,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.0001131335915711292,
+      "difference": 6.234642522303518e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        0,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.006793454516967453,
+      "difference": 3.390924693813524e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        0,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.003893249958805621,
+      "difference": 2.790181280465376e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        0,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.006755450203701006,
+      "difference": 3.209845583773685e-14
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        0,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 3.033277106866907e-07,
+      "difference": 1.2105005095932946e-12
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        0,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 2.6045519123778793e-06,
+      "difference": 2.3174380005657196e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        0,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 8.470181089158822e-07,
+      "difference": 1.8692110061809577e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        0,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.7660413879913107e-07,
+      "difference": 2.573650232163798e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        0,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 2.471210006824983e-06,
+      "difference": 6.101654351589082e-15
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        0,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.6885855544844914e-07,
+      "difference": 4.0517668883616306e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        9,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.860940654924213e-08,
+      "difference": 4.2108061096939114e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        9,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.5802303212516616e-07,
+      "difference": 2.1576401798676875e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        9,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.777035177365954e-08,
+      "difference": 6.002594040115071e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        9,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 7.177503498188691e-09,
+      "difference": 2.3658231790861405e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        9,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 5.746167444330548e-09,
+      "difference": 1.6121212828106066e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        9,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.008281360884293118,
+      "difference": 1.734723475976807e-18
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        9,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 3.814574987949639e-09,
+      "difference": 3.672487256368856e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        9,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.003576938092600171,
+      "difference": 8.417528826742959e-14
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        9,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.4659300091612697e-08,
+      "difference": 1.6482079814253378e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        19,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.910431166656351e-07,
+      "difference": 9.46682709340118e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        19,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 5.281056579416983e-05,
+      "difference": 6.013756387399788e-14
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        19,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.6328433019874176e-05,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        19,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.8756531291649663e-07,
+      "difference": 1.2211277914724222e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        19,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 2.663957035628009e-06,
+      "difference": 5.554529572228471e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        19,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 3.066309441157669e-07,
+      "difference": 3.1129729158730756e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        19,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 5.552070321942825e-07,
+      "difference": 1.7995119143815453e-13
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        19,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 2.0611373583547275e-06,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w041-x320-y576",
+      "array_zyx": [
+        19,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 5.710296153379354e-08,
+      "difference": 3.779568309341375e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        0,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.0005191341943712867,
+      "difference": 5.938689210532866e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        0,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.7817259351672353e-05,
+      "difference": 5.205754345660469e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        0,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.0005394532204425953,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        0,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.007165086860505019,
+      "difference": 1.4617647370318565e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        0,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 7.687530083336025e-06,
+      "difference": 2.575854721171113e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        0,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.5645282304257677e-07,
+      "difference": 8.054398547417848e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        0,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.2200481102054994e-09,
+      "difference": 2.2044793817701255e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        0,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 7.19253664338493e-05,
+      "difference": 2.3950488131380815e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        0,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.465552859636234e-05,
+      "difference": 9.258113142763223e-14
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        9,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.42570510582694e-07,
+      "difference": 3.5800121912026267e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        9,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.9690411749443894e-07,
+      "difference": 1.0022951328364012e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        9,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.226150956968423e-07,
+      "difference": 1.9982981322461008e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        9,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.00017342476661542418,
+      "difference": 3.087933825741268e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        9,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 7.276840807833216e-09,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        9,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.904889680416955e-08,
+      "difference": 9.702569394356295e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        9,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.0011826184281287693,
+      "difference": 2.6260352399554154e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        9,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.1034895236961848e-06,
+      "difference": 1.7527782987673054e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        9,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 3.79795510817074e-07,
+      "difference": 3.142519057199916e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        19,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.145128673432368e-06,
+      "difference": 5.0597236971494826e-14
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        19,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 2.342886048297482e-05,
+      "difference": 3.8883995781796403e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        19,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.00018718358530815668,
+      "difference": 5.916946078064755e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        19,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.495989238145636e-06,
+      "difference": 5.372754539919168e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        19,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.173028574150653e-05,
+      "difference": 2.1916921097810734e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        19,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.619943541520382e-07,
+      "difference": 2.485340405086044e-13
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        19,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 8.315523543698241e-05,
+      "difference": 6.13147092777197e-14
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        19,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 5.1276088897551926e-05,
+      "difference": 8.286095063130688e-14
+    },
+    {
+      "core_id": "w043-x7488-y2880",
+      "array_zyx": [
+        19,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.4741751096266675e-05,
+      "difference": 1.1641771260114536e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        0,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 7.667483424485865e-06,
+      "difference": 4.657199003884911e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        0,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 2.632676200603267e-07,
+      "difference": 2.6931840891923994e-14
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        0,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 3.8885279591451436e-05,
+      "difference": 1.6745056675895181e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        0,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 1.8777446367519227e-05,
+      "difference": 4.013897301016235e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        0,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.0026023971416015627,
+      "difference": 5.900484094378822e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        0,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 4.525659601290342e-06,
+      "difference": 6.101198529278847e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        0,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.0010919220578564368,
+      "difference": 4.70088377946265e-15
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        0,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 4.3495381655100206e-05,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        0,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.776227842459358e-06,
+      "difference": 6.198533448469761e-14
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        9,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 3.130596249205008e-07,
+      "difference": 8.670003747807427e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        9,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 2.777318048970663e-07,
+      "difference": 8.807938834985196e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        9,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 5.16676361942392e-07,
+      "difference": 2.445699124982293e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        9,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.4651858073284333e-08,
+      "difference": 5.678324567332229e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        9,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.4192978181032315e-07,
+      "difference": 1.276166771889939e-12
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        9,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.1878419228387178e-08,
+      "difference": 6.10123805918153e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        9,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.2208053137179183e-08,
+      "difference": 2.686088813286443e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        9,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 4.835026701578147e-07,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        9,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.5710418604763847e-07,
+      "difference": 4.276115523488356e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        19,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 7.12317697837949e-06,
+      "difference": 5.859904338297809e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        19,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.005765615948354036,
+      "difference": 3.5321138375232763e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        19,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.001550003712565601,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        19,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.0089654003598354e-05,
+      "difference": 1.1954764672498282e-12
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        19,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 0.00014716912836994822,
+      "difference": 0.0
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        19,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 3.959709266429318e-06,
+      "difference": 6.291107229345477e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        19,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 9.583875595901706e-09,
+      "difference": 3.6260434070614617e-13
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        19,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 6.069382918646304e-05,
+      "difference": 1.0208997343785949e-12
+    },
+    {
+      "core_id": "w043-x4928-y5440",
+      "array_zyx": [
+        19,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.4140663133111855e-06,
+      "difference": 4.709554826097539e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        0,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.148970177677023e-06,
+      "difference": 9.937532567672047e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        0,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.0595228809826608e-05,
+      "difference": 2.2445143210399546e-14
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        0,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 6.754742284584651e-07,
+      "difference": 1.059454067076078e-12
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        0,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.6358715086346424e-07,
+      "difference": 4.4447937111913896e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        0,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 5.1403082036384795e-05,
+      "difference": 1.49800693225767e-12
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        0,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.007286082026595915,
+      "difference": 4.42264280753335e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        0,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.00238672795897925,
+      "difference": 1.7714909400501355e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        0,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 7.930707110530462e-06,
+      "difference": 1.9849421416153878e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        0,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.9424050021718685e-06,
+      "difference": 1.3274140989986852e-12
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        9,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 6.554632910793566e-09,
+      "difference": 9.937485503750443e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        9,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 3.45915675370838e-08,
+      "difference": 9.088291741028711e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        9,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 2.2901253385589322e-07,
+      "difference": 6.757994718488463e-14
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        9,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 0.0037676767138277055,
+      "difference": 7.301485804855901e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        9,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 3.297649849504631e-08,
+      "difference": 4.836117416984028e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        9,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 8.484635720930301e-06,
+      "difference": 8.872674374594191e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        9,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 2.312572126333183e-09,
+      "difference": 2.4290249211825713e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        9,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 2.638384714183435e-08,
+      "difference": 3.580358558724278e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        9,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 5.97991410817498e-09,
+      "difference": 2.34545278585734e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        19,
+        20,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.377314895259833e-06,
+      "difference": 5.861098442995201e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        19,
+        20,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.039209277985621e-05,
+      "difference": 3.4383247591858283e-14
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        19,
+        20,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.00010059519000595741,
+      "difference": 8.179824141163819e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        19,
+        72,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.021375122999863e-07,
+      "difference": 7.95594157268143e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        19,
+        72,
+        72
+      ],
+      "status": "PASS",
+      "residual": 1.1040003058154178e-05,
+      "difference": 7.56271921917794e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        19,
+        72,
+        123
+      ],
+      "status": "PASS",
+      "residual": 0.00013117234900621478,
+      "difference": 1.05587820388095e-12
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        19,
+        123,
+        20
+      ],
+      "status": "PASS",
+      "residual": 4.036669240575212e-06,
+      "difference": 1.0377746991423577e-12
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        19,
+        123,
+        72
+      ],
+      "status": "PASS",
+      "residual": 7.756334094572296e-06,
+      "difference": 3.580351025557352e-13
+    },
+    {
+      "core_id": "w043-x3648-y2624",
+      "array_zyx": [
+        19,
+        123,
+        123
+      ],
+      "status": "PASS",
+      "residual": 1.917976997431458e-06,
+      "difference": 4.609847570909273e-13
+    }
+  ],
+  "scalar_attempts": 216,
+  "scalar_verified": 216,
+  "ready_sites": 8,
+  "CT_bytes_acquired": 0
+}
