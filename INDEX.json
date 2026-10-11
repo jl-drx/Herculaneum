@@ -1349,6 +1349,40 @@
       ],
       "created_utc": "2026-10-11T18:50:11.178564+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0058.tar.gz",
+      "bytes": 2783616,
+      "sha256": "a36cced3d2c307fb444a3e41a59f5a1bf9377218af01db0de1dadcaf828968d1",
+      "members": [
+        {
+          "path": "work/w035-seed43/step-000256.json",
+          "bytes": 879,
+          "sha256": "bd36e225d728a7d519a58ddfe4c8a3f24ae211e177f7f157f72bac5a9a1e4eff"
+        },
+        {
+          "path": "work/w035-seed43/step-000256.pt",
+          "bytes": 1524077,
+          "sha256": "dac9640a5775bef95961842d190120fc8f17e49aaebef81e903aa4555b7ade25"
+        },
+        {
+          "path": "work/w044-seed17/COMPLETE.json",
+          "bytes": 25988,
+          "sha256": "37d6a0edcc47ac26ff1bed6bebd5a3d9fee05c11786a67df65cc34782de35af9"
+        },
+        {
+          "path": "work/w044-seed17/step-016384.json",
+          "bytes": 908,
+          "sha256": "e0075047466a64702fd0e4406c0975ef19c9bc124c9610d9b0e985373cd62867"
+        },
+        {
+          "path": "work/w044-seed17/step-016384.pt",
+          "bytes": 1532973,
+          "sha256": "cf0693464a18052a3c39c841905e1d8140a1d684e9a964e7a776856687500c15"
+        }
+      ],
+      "created_utc": "2026-10-11T19:00:18.561207+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
@@ -1366,29 +1400,29 @@
   ],
   "note": "Resume files, not a live process or installed runtime",
   "latest_worker_status": {
-    "utc": "2026-10-11T18:48:16.977067+00:00",
+    "utc": "2026-10-11T18:59:25.313251+00:00",
     "phase": "training",
-    "arm": "w044-seed17",
-    "step": 15616,
+    "arm": "w035-seed43",
+    "step": 256,
     "maximum_updates": 16384,
     "train": {
-      "ap": 0.9941349327344399,
-      "auc": 0.9972372457637892,
-      "positives": 516251,
-      "negatives": 1121962,
+      "ap": 0.4937677151722637,
+      "auc": 0.6289681093323918,
+      "positives": 574997,
+      "negatives": 1003070,
       "undefined_single_class": false,
-      "bce": 0.0625599636484163,
-      "prevalence": 0.31513057215392626,
-      "mean_probability": 0.3195138444353236,
-      "fraction_probability_ge_half": 0.3192942553868148
+      "bce": 0.6335916072219174,
+      "prevalence": 0.3643679260766495,
+      "mean_probability": 0.34584665681280535,
+      "fraction_probability_ge_half": 0.04923872053594683
     },
-    "lr": 0.0003,
-    "seconds_per_update_including_training_checks": 0.634323729673476,
+    "lr": 0.001,
+    "seconds_per_update_including_training_checks": 0.5093180193750015,
     "termination": null,
     "held_out_predictions": 0,
-    "draws": 62464,
-    "unique_cores": 163,
-    "supervised_pixel_exposures": 813917952
+    "draws": 1024,
+    "unique_cores": 132,
+    "supervised_pixel_exposures": 14128387
   },
-  "updated_utc": "2026-10-11T18:50:11.178905+00:00"
+  "updated_utc": "2026-10-11T19:00:18.561687+00:00"
 }
