@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "study": "pherc0139-native-learning-20261011",
+  "go_sha256": "2c20b4491a2c94fdc4c479a84a6ab85f309673a113cfdd8088b30fb7df6bf61c",
+  "generations": [
+    {
+      "name": "generation-0000.tar.gz",
+      "bytes": 81702,
+      "sha256": "6a49ba37814759bab6c55b245c4ef32d89b5a937b87e20626351856cbc49c2ab",
+      "members": [
+        {
+          "path": "DATA_QUALIFICATION.json",
+          "bytes": 898,
+          "sha256": "b2890eff3507661784b04445c2f1c0ad4a5904235de2fc23dccf847a000de709"
+        },
+        {
+          "path": "GO.json",
+          "bytes": 183032,
+          "sha256": "2c20b4491a2c94fdc4c479a84a6ab85f309673a113cfdd8088b30fb7df6bf61c"
+        },
+        {
+          "path": "INPUT_ARCHIVES.json",
+          "bytes": 433,
+          "sha256": "021e98e5d4aca3e88f171b680f1da56d689c0f704c171886a826580c7162247e"
+        },
+        {
+          "path": "PLAN.json",
+          "bytes": 824,
+          "sha256": "8f90d7b8f670303787c4287c0837db3e03ab9985658c9e46433e145aa1fa906e"
+        },
+        {
+          "path": "PROTOCOL.md",
+          "bytes": 9420,
+          "sha256": "c97db5a102abb3301405f37258bcfbf1e3cd5db222c62c39eec973df5260b41a"
+        },
+        {
+          "path": "QUALIFICATION.json",
+          "bytes": 1952,
+          "sha256": "812199686663573f8a837a488ddb82a1acc781d91337bfe343a8137bff59668d"
+        },
+        {
+          "path": "RUNBOOK.md",
+          "bytes": 4492,
+          "sha256": "bdac8f14cb94a3796a8de448b0c3fcd681ae298e229971a25e55c7422712aa43"
+        },
+        {
+          "path": "backup.py",
+          "bytes": 9504,
+          "sha256": "cb7ad330b74ee6be9066ce68e3c39763be4634931b5afad52a8708558d353f8f"
+        },
+        {
+          "path": "native_learning.py",
+          "bytes": 30692,
+          "sha256": "a36d1ecb7290e6488c8521ac65097980eca2c88428021d6cf37e627426922905"
+        },
+        {
+          "path": "qualify.py",
+          "bytes": 8384,
+          "sha256": "2b456af2d53d723b6f726ede5f0fc52dcc9ff79332901780b672b879ca4d97de"
+        },
+        {
+          "path": "requirements.txt",
+          "bytes": 156,
+          "sha256": "d4583052913487624a34896a6e73204734f9855100c871ac50dadc7b006b783c"
+        },
+        {
+          "path": "restore_backup.py",
+          "bytes": 2380,
+          "sha256": "cee996a4e30c9bf57e22285835e006f254378cd3436bae230c6b0535ecd80529"
+        },
+        {
+          "path": "status.py",
+          "bytes": 1248,
+          "sha256": "3d36091d0a64cf27879123e2b93b79b8747f4f0d2102762223db03394a151a56"
+        }
+      ],
+      "created_utc": "2026-10-11T09:33:02.548555+00:00",
+      "archive_readback": "PASS"
+    }
+  ],
+  "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
+  "prerequisites": [
+    {
+      "archive": "research/workspace/bundles/pherc0139-learning-readiness-20261011.tar.gz",
+      "archive_bytes": 13132617,
+      "archive_sha256": "f7afd272cc7b371c183704abf6ca3230ed7a008bb80e0f23e4e4fa0ad695246a"
+    },
+    {
+      "archive": "research/workspace/bundles/pherc0139-native-ct-20261011.tar.gz",
+      "archive_bytes": 196115746,
+      "archive_sha256": "87b8b6dcf6bbed725bb1eb17e7ed3c8e17ab37c0632792ec0e16b6d596eb5a40"
+    }
+  ],
+  "note": "Resume files, not a live process or installed runtime",
+  "latest_worker_status": null,
+  "updated_utc": "2026-10-11T09:33:02.548734+00:00"
+}
