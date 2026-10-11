@@ -1858,6 +1858,25 @@
       ],
       "created_utc": "2026-10-11T22:22:49.994473+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0079.tar.gz",
+      "bytes": 1388443,
+      "sha256": "7742e298e2c5cf4a43d08e804a021b84a2e6e94703cbeb01c37f781836968e4f",
+      "members": [
+        {
+          "path": "work/w039-seed43/step-001024.json",
+          "bytes": 879,
+          "sha256": "251c24f12c29f73a26de74e6046bb1cd1d6d6ebd65579a5f31e4302d534cddc2"
+        },
+        {
+          "path": "work/w039-seed43/step-001024.pt",
+          "bytes": 1524589,
+          "sha256": "728d7a01a35bf40d17e12038225b95767bc991c12a5e6c0b103d0b30bbac2c2f"
+        }
+      ],
+      "created_utc": "2026-10-11T22:32:56.597205+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
@@ -1875,10 +1894,29 @@
   ],
   "note": "Resume files, not a live process or installed runtime",
   "latest_worker_status": {
-    "utc": "2026-10-11T22:20:12.243975+00:00",
-    "phase": "starting_or_resuming_arm",
+    "utc": "2026-10-11T22:31:15.174502+00:00",
+    "phase": "training",
     "arm": "w039-seed43",
-    "held_out_predictions": 0
+    "step": 1024,
+    "maximum_updates": 16384,
+    "train": {
+      "ap": 0.588163379728837,
+      "auc": 0.7011879900411231,
+      "positives": 741254,
+      "negatives": 1371299,
+      "undefined_single_class": false,
+      "bce": 0.5904652246883871,
+      "prevalence": 0.3508806642957597,
+      "mean_probability": 0.4028827013084836,
+      "fraction_probability_ge_half": 0.2500656788255727
+    },
+    "lr": 0.001,
+    "seconds_per_update_including_training_checks": 0.6404179677646482,
+    "termination": null,
+    "held_out_predictions": 0,
+    "draws": 4096,
+    "unique_cores": 195,
+    "supervised_pixel_exposures": 54412000
   },
-  "updated_utc": "2026-10-11T22:22:49.994723+00:00"
+  "updated_utc": "2026-10-11T22:32:56.598625+00:00"
 }
