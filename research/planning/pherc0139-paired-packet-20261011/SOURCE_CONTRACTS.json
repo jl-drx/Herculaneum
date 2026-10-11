@@ -1,0 +1,1266 @@
+{
+  "source_table": [
+    {
+      "winding": "w040",
+      "segment": "20250831000000-w040_2025083102",
+      "kind": "native",
+      "volume_id": "20250728140407",
+      "source_group": 0,
+      "shape_zyx": [
+        28,
+        6400,
+        7980
+      ],
+      "chunks_zyx": [
+        28,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          9.362,
+          9.362,
+          9.362
+        ],
+        "1": [
+          9.362,
+          18.724,
+          18.724
+        ],
+        "2": [
+          9.362,
+          37.448,
+          37.448
+        ],
+        "3": [
+          9.362,
+          74.896,
+          74.896
+        ],
+        "4": [
+          9.362,
+          149.792,
+          149.792
+        ],
+        "5": [
+          9.362,
+          299.584,
+          299.584
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": null,
+      "teacher_model_type": null,
+      "teacher_depth_half_open": null,
+      "teacher_tile_stride": null,
+      "teacher_force_reverse": null,
+      "teacher_stored_bytes": null,
+      "native_labels_present": true
+    },
+    {
+      "winding": "w040",
+      "segment": "20250831000000-w040_2025083102",
+      "kind": "fine78",
+      "volume_id": "20260102150214",
+      "source_group": 0,
+      "shape_zyx": [
+        109,
+        24880,
+        31040
+      ],
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          2.399,
+          2.399,
+          2.399
+        ],
+        "1": [
+          2.399,
+          4.798,
+          4.798
+        ],
+        "2": [
+          2.399,
+          9.596,
+          9.596
+        ],
+        "3": [
+          2.399,
+          19.192,
+          19.192
+        ],
+        "4": [
+          2.399,
+          38.384,
+          38.384
+        ],
+        "5": [
+          2.399,
+          76.768,
+          76.768
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": "20260417190342",
+      "teacher_model_type": "resnet3d-152-3d-decoder",
+      "teacher_depth_half_open": [
+        23,
+        85
+      ],
+      "teacher_tile_stride": [
+        256,
+        128
+      ],
+      "teacher_force_reverse": "false",
+      "teacher_stored_bytes": 66742237,
+      "native_labels_present": true
+    },
+    {
+      "winding": "w041",
+      "segment": "20260108000000-w041_2026010816",
+      "kind": "native",
+      "volume_id": "20250728140407",
+      "source_group": 0,
+      "shape_zyx": [
+        28,
+        6200,
+        8020
+      ],
+      "chunks_zyx": [
+        28,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          9.362,
+          9.362,
+          9.362
+        ],
+        "1": [
+          9.362,
+          18.724,
+          18.724
+        ],
+        "2": [
+          9.362,
+          37.448,
+          37.448
+        ],
+        "3": [
+          9.362,
+          74.896,
+          74.896
+        ],
+        "4": [
+          9.362,
+          149.792,
+          149.792
+        ],
+        "5": [
+          9.362,
+          299.584,
+          299.584
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": null,
+      "teacher_model_type": null,
+      "teacher_depth_half_open": null,
+      "teacher_tile_stride": null,
+      "teacher_force_reverse": null,
+      "teacher_stored_bytes": null,
+      "native_labels_present": true
+    },
+    {
+      "winding": "w041",
+      "segment": "20260108000000-w041_2026010816",
+      "kind": "fine78",
+      "volume_id": "20260102150214",
+      "source_group": 0,
+      "shape_zyx": [
+        109,
+        24080,
+        31200
+      ],
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          2.399,
+          2.399,
+          2.399
+        ],
+        "1": [
+          2.399,
+          4.798,
+          4.798
+        ],
+        "2": [
+          2.399,
+          9.596,
+          9.596
+        ],
+        "3": [
+          2.399,
+          19.192,
+          19.192
+        ],
+        "4": [
+          2.399,
+          38.384,
+          38.384
+        ],
+        "5": [
+          2.399,
+          76.768,
+          76.768
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": "20260417190342",
+      "teacher_model_type": "resnet3d-152-3d-decoder",
+      "teacher_depth_half_open": [
+        23,
+        85
+      ],
+      "teacher_tile_stride": [
+        256,
+        128
+      ],
+      "teacher_force_reverse": "false",
+      "teacher_stored_bytes": 69990284,
+      "native_labels_present": true
+    },
+    {
+      "winding": "w043",
+      "segment": "20260112000000-w043_2026011217",
+      "kind": "native",
+      "volume_id": "20250728140407",
+      "source_group": 0,
+      "shape_zyx": [
+        28,
+        6120,
+        8120
+      ],
+      "chunks_zyx": [
+        28,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          9.362,
+          9.362,
+          9.362
+        ],
+        "1": [
+          9.362,
+          18.724,
+          18.724
+        ],
+        "2": [
+          9.362,
+          37.448,
+          37.448
+        ],
+        "3": [
+          9.362,
+          74.896,
+          74.896
+        ],
+        "4": [
+          9.362,
+          149.792,
+          149.792
+        ],
+        "5": [
+          9.362,
+          299.584,
+          299.584
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": null,
+      "teacher_model_type": null,
+      "teacher_depth_half_open": null,
+      "teacher_tile_stride": null,
+      "teacher_force_reverse": null,
+      "teacher_stored_bytes": null,
+      "native_labels_present": false
+    },
+    {
+      "winding": "w043",
+      "segment": "20260112000000-w043_2026011217",
+      "kind": "fine78",
+      "volume_id": "20260102150214",
+      "source_group": 0,
+      "shape_zyx": [
+        109,
+        23760,
+        31600
+      ],
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          2.399,
+          2.399,
+          2.399
+        ],
+        "1": [
+          2.399,
+          4.798,
+          4.798
+        ],
+        "2": [
+          2.399,
+          9.596,
+          9.596
+        ],
+        "3": [
+          2.399,
+          19.192,
+          19.192
+        ],
+        "4": [
+          2.399,
+          38.384,
+          38.384
+        ],
+        "5": [
+          2.399,
+          76.768,
+          76.768
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": "20260417190342",
+      "teacher_model_type": "resnet3d-152-3d-decoder",
+      "teacher_depth_half_open": [
+        23,
+        85
+      ],
+      "teacher_tile_stride": [
+        256,
+        128
+      ],
+      "teacher_force_reverse": "false",
+      "teacher_stored_bytes": 77897247,
+      "native_labels_present": false
+    },
+    {
+      "winding": "w024",
+      "segment": "20260215000000-w024_2026021572",
+      "kind": "native",
+      "volume_id": "20250728140407",
+      "source_group": 0,
+      "shape_zyx": [
+        28,
+        7100,
+        6620
+      ],
+      "chunks_zyx": [
+        28,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          9.362,
+          9.362,
+          9.362
+        ],
+        "1": [
+          9.362,
+          18.724,
+          18.724
+        ],
+        "2": [
+          9.362,
+          37.448,
+          37.448
+        ],
+        "3": [
+          9.362,
+          74.896,
+          74.896
+        ],
+        "4": [
+          9.362,
+          149.792,
+          149.792
+        ],
+        "5": [
+          9.362,
+          299.584,
+          299.584
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": null,
+      "teacher_model_type": null,
+      "teacher_depth_half_open": null,
+      "teacher_tile_stride": null,
+      "teacher_force_reverse": null,
+      "teacher_stored_bytes": null,
+      "native_labels_present": false
+    },
+    {
+      "winding": "w024",
+      "segment": "20260215000000-w024_2026021572",
+      "kind": "fine78",
+      "volume_id": "20260102150214",
+      "source_group": 0,
+      "shape_zyx": [
+        109,
+        27600,
+        25760
+      ],
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          2.399,
+          2.399,
+          2.399
+        ],
+        "1": [
+          2.399,
+          4.798,
+          4.798
+        ],
+        "2": [
+          2.399,
+          9.596,
+          9.596
+        ],
+        "3": [
+          2.399,
+          19.192,
+          19.192
+        ],
+        "4": [
+          2.399,
+          38.384,
+          38.384
+        ],
+        "5": [
+          2.399,
+          76.768,
+          76.768
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": "20260417190342",
+      "teacher_model_type": "resnet3d-152-3d-decoder",
+      "teacher_depth_half_open": [
+        23,
+        85
+      ],
+      "teacher_tile_stride": [
+        256,
+        128
+      ],
+      "teacher_force_reverse": "false",
+      "teacher_stored_bytes": 89144076,
+      "native_labels_present": false
+    },
+    {
+      "winding": "w024",
+      "segment": "20260215000000-w024_2026021572",
+      "kind": "fine59",
+      "volume_id": "20260413113053",
+      "source_group": 1,
+      "shape_zyx": [
+        116,
+        29350,
+        27400
+      ],
+      "chunks_zyx": [
+        116,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          2.258,
+          2.258,
+          2.258
+        ],
+        "1": [
+          2.258,
+          4.516,
+          4.516
+        ],
+        "2": [
+          2.258,
+          9.032,
+          9.032
+        ],
+        "3": [
+          2.258,
+          18.064,
+          18.064
+        ],
+        "4": [
+          2.258,
+          36.128,
+          36.128
+        ],
+        "5": [
+          2.258,
+          72.256,
+          72.256
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": "20260709123958",
+      "teacher_model_type": "resnet3d-152",
+      "teacher_depth_half_open": [
+        27,
+        89
+      ],
+      "teacher_tile_stride": [
+        256,
+        128
+      ],
+      "teacher_force_reverse": "true",
+      "teacher_stored_bytes": 54675349,
+      "native_labels_present": false
+    },
+    {
+      "winding": "w053",
+      "segment": "20260220000000-w053_2026022021",
+      "kind": "native",
+      "volume_id": "20250728140407",
+      "source_group": 0,
+      "shape_zyx": [
+        28,
+        7440,
+        10360
+      ],
+      "chunks_zyx": [
+        28,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          9.362,
+          9.362,
+          9.362
+        ],
+        "1": [
+          9.362,
+          18.724,
+          18.724
+        ],
+        "2": [
+          9.362,
+          37.448,
+          37.448
+        ],
+        "3": [
+          9.362,
+          74.896,
+          74.896
+        ],
+        "4": [
+          9.362,
+          149.792,
+          149.792
+        ],
+        "5": [
+          9.362,
+          299.584,
+          299.584
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": null,
+      "teacher_model_type": null,
+      "teacher_depth_half_open": null,
+      "teacher_tile_stride": null,
+      "teacher_force_reverse": null,
+      "teacher_stored_bytes": null,
+      "native_labels_present": false
+    },
+    {
+      "winding": "w053",
+      "segment": "20260220000000-w053_2026022021",
+      "kind": "fine78",
+      "volume_id": "20260102150214",
+      "source_group": 0,
+      "shape_zyx": [
+        109,
+        28960,
+        40320
+      ],
+      "chunks_zyx": [
+        109,
+        128,
+        128
+      ],
+      "surface_group_spacing_zyx_um": {
+        "0": [
+          2.399,
+          2.399,
+          2.399
+        ],
+        "1": [
+          2.399,
+          4.798,
+          4.798
+        ],
+        "2": [
+          2.399,
+          9.596,
+          9.596
+        ],
+        "3": [
+          2.399,
+          19.192,
+          19.192
+        ],
+        "4": [
+          2.399,
+          38.384,
+          38.384
+        ],
+        "5": [
+          2.399,
+          76.768,
+          76.768
+        ]
+      },
+      "compressor": null,
+      "dtype": "|u1",
+      "teacher_model": "20260417190342",
+      "teacher_model_type": "resnet3d-152-3d-decoder",
+      "teacher_depth_half_open": [
+        23,
+        85
+      ],
+      "teacher_tile_stride": [
+        256,
+        128
+      ],
+      "teacher_force_reverse": "false",
+      "teacher_stored_bytes": 80962830,
+      "native_labels_present": false
+    }
+  ],
+  "full_resolution_xyz_affines": {
+    "fine78_to_native": [
+      [
+        -0.2569036650583705,
+        -0.009715391643719536,
+        0.002790733227688403,
+        6677.364709056732
+      ],
+      [
+        0.009850885045974334,
+        -0.25680016838938274,
+        -0.0014215065457306453,
+        6689.120376657908
+      ],
+      [
+        0.0029113360690184954,
+        -0.0014844301309079428,
+        0.257134581099402,
+        624.1652625002474
+      ]
+    ],
+    "fine59_to_fine78": [
+      [
+        0.47006699267222585,
+        -0.0004385104406880447,
+        -0.00023308519178444342,
+        5744.87157141742
+      ],
+      [
+        0.0004407605372072095,
+        0.4700062871647462,
+        0.0007574991140997691,
+        4643.156711792679
+      ],
+      [
+        0.00026191502753259615,
+        -0.0008583783032365492,
+        0.4701257922499157,
+        11417.539623554234
+      ]
+    ],
+    "fine59_to_native": [
+      [
+        -0.12076548446673091,
+        -0.004456035720289669,
+        0.0013645167091021816,
+        5188.239368357627
+      ],
+      [
+        0.004517016214620688,
+        -0.12070079321354131,
+        -0.000865108886485877,
+        5537.118913354154
+      ],
+      [
+        0.0014352161232879907,
+        -0.0009196868910736823,
+        0.12088379561037146,
+        3569.8423408809235
+      ]
+    ]
+  },
+  "fine59_group1_renderer": {
+    "source_group": 1,
+    "render_scale": 0.5,
+    "base_coordinate_multiplier": 0.5,
+    "spacing_um": 2.258,
+    "slices": 116,
+    "source_code": "sources/vc_render_tifxyz.cpp",
+    "limitation": "Canvas mesh sampling also changes with render_scale; multiplying coordinates alone is insufficient. Exact mapping unimplemented/unqualified for this reference."
+  },
+  "w024_affine_extent_screen": [
+    {
+      "core_id": "w024-x4672-y3392",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          17136.654517267845,
+          12473.081707406098,
+          9578.640705122278
+        ],
+        [
+          19799.75032050106,
+          13774.315687271097,
+          11978.034827919553
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    },
+    {
+      "core_id": "w024-x2880-y320",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          11020.087232620514,
+          22794.02533531043,
+          -14270.329185449302
+        ],
+        [
+          12103.8940653381,
+          25449.278000708986,
+          -11848.344534163742
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x2624-y6720",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          10555.068888233975,
+          20241.715659059646,
+          34055.340381004746
+        ],
+        [
+          12478.831226717088,
+          22980.699931366038,
+          36581.26112947422
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x320-y1344",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          24904.188436322263,
+          14905.317115930855,
+          -7166.739320043056
+        ],
+        [
+          26324.254444048544,
+          16882.00732828082,
+          -4655.020604312445
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x576-y5440",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          24093.244613876574,
+          13385.876807773377,
+          25950.364157739656
+        ],
+        [
+          25385.459253059336,
+          15691.49010422668,
+          28290.683552763825
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x3648-y4928",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          8565.925250948374,
+          11922.471192382334,
+          21380.45282219009
+        ],
+        [
+          10566.40267854038,
+          13878.24983774974,
+          23776.46183687981
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x2368-y2112",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          12623.71163687051,
+          23533.501674864146,
+          145.97696010272193
+        ],
+        [
+          15070.063407973215,
+          24417.88083844176,
+          2528.005590502853
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    },
+    {
+      "core_id": "w024-x4416-y6208",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          13615.975143828458,
+          9447.828025494506,
+          31964.309287449345
+        ],
+        [
+          16037.734428416989,
+          10262.096335664151,
+          34311.65951168798
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x1856-y4416",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          16613.511453791973,
+          20511.18605674047,
+          18165.45362617435
+        ],
+        [
+          19034.67969094959,
+          21520.46516317935,
+          20609.160101094807
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x2880-y3392",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          8820.576939297087,
+          19761.488403836884,
+          10018.776942583332
+        ],
+        [
+          10776.607760330375,
+          21589.176208054145,
+          12574.98955870905
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    },
+    {
+      "core_id": "w024-x4160-y576",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          15428.038395294858,
+          14069.733336077545,
+          -11863.116353873636
+        ],
+        [
+          17686.97536595432,
+          16438.997752176165,
+          -9643.133574535568
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x1088-y2624",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          22160.532569816085,
+          18809.37586009127,
+          3770.547579292419
+        ],
+        [
+          23876.6678904383,
+          21001.620663185102,
+          6280.555742195509
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    },
+    {
+      "core_id": "w024-x1600-y1088",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          18614.246860191084,
+          23065.551949512763,
+          -8381.683166640989
+        ],
+        [
+          20768.83644674397,
+          24803.822163058223,
+          -5892.8327973874075
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x576-y4160",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          25115.233252580292,
+          14060.561690986266,
+          15744.305587035713
+        ],
+        [
+          25876.003741536813,
+          16478.87067799899,
+          18315.387478507684
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    },
+    {
+      "core_id": "w024-x1344-y6464",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          19228.76786444493,
+          17614.390982757628,
+          33910.8993315461
+        ],
+        [
+          21950.067272198157,
+          20508.552392776164,
+          35749.444965746305
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x4416-y1856",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          16511.08323888572,
+          14127.41278152792,
+          -2492.6978817001836
+        ],
+        [
+          18800.928501718572,
+          16010.078467379357,
+          -150.6092950678467
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x832-y320",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          22263.635934636754,
+          18325.0190875374,
+          -14599.229274887442
+        ],
+        [
+          24724.96693498207,
+          20956.35028874049,
+          -12602.509954144134
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x4672-y5184",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          15967.863444798782,
+          10008.530434408392,
+          23698.312188212018
+        ],
+        [
+          18530.54604220822,
+          10863.682770392326,
+          26199.024269193265
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x2368-y5440",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          13321.017959916357,
+          17952.683948071463,
+          25549.90644555167
+        ],
+        [
+          15818.350058162774,
+          19122.00234706025,
+          27915.58110064239
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x3392-y5952",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          8089.017218946079,
+          13268.909398985947,
+          29727.721419365975
+        ],
+        [
+          9121.291612419256,
+          15801.742410302617,
+          32272.313613650454
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x1856-y3392",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          16527.02972249001,
+          21085.128259199642,
+          10351.080128363385
+        ],
+        [
+          19002.988160696583,
+          22412.12819463057,
+          12643.977615141615
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    },
+    {
+      "core_id": "w024-x3392-y1344",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          10887.164888319716,
+          18785.874117625037,
+          -6157.490367586888
+        ],
+        [
+          13167.153186313368,
+          21455.786380822672,
+          -4076.7043365821264
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x5440-y6464",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          21735.020010538225,
+          10485.992567892332,
+          34130.33349501387
+        ],
+        [
+          23733.161082787177,
+          12768.050498944576,
+          36581.01141684413
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x3648-y2624",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          10381.153059902419,
+          15884.379797511312,
+          3662.3345972260795
+        ],
+        [
+          13175.526997602956,
+          18705.674302966272,
+          5597.655672207344
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    },
+    {
+      "core_id": "w024-x3904-y3904",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          10818.066394180692,
+          12106.539850582005,
+          13217.344871588597
+        ],
+        [
+          13039.252540116391,
+          14125.249864336794,
+          15529.138912270653
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    },
+    {
+      "core_id": "w024-x2880-y4416",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          8958.248872011114,
+          17757.69624168316,
+          18152.6708735177
+        ],
+        [
+          11140.107266383344,
+          19920.077976966248,
+          20577.593269367397
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x320-y3136",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          24075.94600422034,
+          13627.47010820204,
+          7249.9680778175025
+        ],
+        [
+          26040.407027275272,
+          15382.525918751664,
+          9833.914975395892
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    },
+    {
+      "core_id": "w024-x1344-y1856",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          20547.39252562173,
+          21025.848713292307,
+          -2242.3703612323916
+        ],
+        [
+          22477.07251337168,
+          23219.633219419633,
+          252.01033328623816
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x4928-y4416",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          18532.927332910567,
+          11248.990334598086,
+          17712.118193606933
+        ],
+        [
+          21105.959249818192,
+          12220.486441374618,
+          20310.806735735743
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x320-y2112",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          24468.36349568213,
+          14806.411235251835,
+          -923.6892543364847
+        ],
+        [
+          26376.858822998307,
+          16271.489546431189,
+          1572.0180052582946
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x2368-y1088",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          12638.553962398182,
+          25498.030808560496,
+          -8052.868177576471
+        ],
+        [
+          15077.930980068133,
+          26375.70376089503,
+          -5676.476744986761
+        ]
+      ],
+      "entire_box_within_catalog_extent": false
+    },
+    {
+      "core_id": "w024-x4672-y2624",
+      "global_affine_enclosure_fine59_full_resolution_xyz": [
+        [
+          17737.798567608483,
+          14010.855781633603,
+          3509.9621990147934
+        ],
+        [
+          20302.724432298033,
+          14609.064581564038,
+          6028.161097390177
+        ]
+      ],
+      "entire_box_within_catalog_extent": true
+    }
+  ],
+  "w024_contexts_fully_inside_affine_catalog_extent": 10,
+  "limitation": "Global affine enclosure is a planning screen, not local registration, zero-mask validity or teacher-context qualification",
+  "code_sha256": "4ca15a7cb644f1296ea5048a9f3975f47d2669701825c5205f3ff075e5a7d76e"
+}
