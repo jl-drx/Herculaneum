@@ -1,0 +1,2230 @@
+{
+  "status": "PASS",
+  "input_hashes": {
+    "geometry/responses/20260102150214-x.tif": "a0b0700430edb8ba2a5c15545c721a88e920dca575f2f8c7a89eb84463163525",
+    "geometry/responses/20260102150214-y.tif": "ec89f482d673b1c767d2e9dd04991bc68aa07a6e28ab24c47d027439fdfb32b3",
+    "geometry/responses/20260102150214-z.tif": "149a6c9035e184aa203c82e4db935ed0d488bbfe1897e06b11a4b026417ff3f6",
+    "geometry/responses/20250728140407-x.tif": "4cc50b835663e35f00accd7e12b2e2eea2f1ac8c60c140601974752105128573",
+    "geometry/responses/20250728140407-y.tif": "45ed92a905f13752fc027fe857b2cd8ce0505bf64a0f9ebd3d7ea7ab27f802a5",
+    "geometry/responses/20250728140407-z.tif": "aafc0207e6713280e1dd50863976998225ab911a3c4a528ff3add21b10f9a755",
+    "metadata/CATALOG_EXTRACT.json": "7194caf910b2747475e2bda525d75b644110b20ef13f32d0eb5844c1e39a7868",
+    "geometry-review/pullback/site1/failure_codes.npy": "b07a6e450ea03fb529f98006dac6965ff9454771694df441a4bd203c89ce73e3",
+    "geometry-review/pullback/site1/initial_uvk.npy": "ae8cfc05ee6bfb4afea76a33de6e8c38b4a58a987978e184cf09a8cb3ac33849",
+    "geometry-review/pullback/site1/iterations.npy": "aa8957a2a60bd6a8d7642d3d81e16b96d99de0aa6af7e30c1081fa7b33c82fd0",
+    "geometry-review/pullback/site1/queries_uvk.npy": "5b9ac941e0e9c702a69f49470fa5948def85d137958d2343ac95827b2d52f8ea",
+    "geometry-review/pullback/site1/residual_native_voxels.npy": "2305a6faab9bb41d4dd9f2906c6f340be1d702cd84043a82feadeb4b2cf7d7e8",
+    "geometry-review/pullback/site1/support.npy": "b78c6e91991c2e50667883375e8eda3cc12bdcf1dac27c827bef387cfc3d0db1",
+    "geometry-review/pullback/site2/failure_codes.npy": "b07a6e450ea03fb529f98006dac6965ff9454771694df441a4bd203c89ce73e3",
+    "geometry-review/pullback/site2/initial_uvk.npy": "2a4d6ac5d3a1557f173edc96bb8c6a62d9365eb35446ef250d0889eae6eae8a1",
+    "geometry-review/pullback/site2/iterations.npy": "36a0ca7862904f15438243a941132f0746f73bd6b37292e86b28e9f996527b6e",
+    "geometry-review/pullback/site2/queries_uvk.npy": "748d400ba0cb9a2008576b6c9ebadaf6fe721b966f94105031f6a49e7ab6ba52",
+    "geometry-review/pullback/site2/residual_native_voxels.npy": "3799e4967116b3ccabe02754ec8321591158d53369f7eb8e384c7897f8e6252d",
+    "geometry-review/pullback/site2/support.npy": "b78c6e91991c2e50667883375e8eda3cc12bdcf1dac27c827bef387cfc3d0db1",
+    "geometry-review/pullback/site3/failure_codes.npy": "b07a6e450ea03fb529f98006dac6965ff9454771694df441a4bd203c89ce73e3",
+    "geometry-review/pullback/site3/initial_uvk.npy": "b335114c738605fc1c0b7f5851fc9dd895a64f2e4e0382010133fda7f2dac91b",
+    "geometry-review/pullback/site3/iterations.npy": "4dd79c5a3231b20cb8f57544c2d683d405cb791f4d20015e570c6e5231676124",
+    "geometry-review/pullback/site3/queries_uvk.npy": "ee0efabb5274857d3b29d413c39323f99b16ee95a021b9591e00acfcec6851a2",
+    "geometry-review/pullback/site3/residual_native_voxels.npy": "675948b84c65fabbc6a09bd603b4f2f09e3829a0116b30e94a7de32fe243e39b",
+    "geometry-review/pullback/site3/support.npy": "b78c6e91991c2e50667883375e8eda3cc12bdcf1dac27c827bef387cfc3d0db1"
+  },
+  "selection": "Fixedarrayindices XY8,136,263; depth0,9,19, Cartesianproduct27per site;3sites81total. NoCT.",
+  "n_checked": 81,
+  "n_failed": 0,
+  "maximum_independent_residual_native_voxels": 0.00772769500924451,
+  "maximum_residual_difference_from_author": 1.1529573716378364e-12,
+  "records": [
+    {
+      "site": "site1",
+      "array_zyx": [
+        0,
+        8,
+        8
+      ],
+      "native_jyx": [
+        4,
+        1792,
+        2304
+      ],
+      "fine_uvk": [
+        2247.4598689389513,
+        1748.924546082461,
+        17.886409227600048
+      ],
+      "independent_residual_xyz": [
+        0.00034734611108433455,
+        0.0010083659381052712,
+        -0.0001226550175488228
+      ],
+      "independent_residual_native_voxels": 0.0010735434035688712,
+      "stored_residual_native_voxels": 0.0010735434034649593,
+      "residual_difference": 1.0391188777492122e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        0,
+        8,
+        136
+      ],
+      "native_jyx": [
+        4,
+        1792,
+        2432
+      ],
+      "fine_uvk": [
+        2372.2018431005645,
+        1749.170272207623,
+        18.80651055306319
+      ],
+      "independent_residual_xyz": [
+        -0.005688929353709682,
+        0.000504324249959609,
+        0.00010506331727810903
+      ],
+      "independent_residual_native_voxels": 0.005712206092328468,
+      "stored_residual_native_voxels": 0.005712206091479557,
+      "residual_difference": 8.489112190979142e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        0,
+        8,
+        263
+      ],
+      "native_jyx": [
+        4,
+        1792,
+        2559
+      ],
+      "fine_uvk": [
+        2495.6859370554835,
+        1749.0722466263092,
+        19.645035243441125
+      ],
+      "independent_residual_xyz": [
+        -7.500339052057825e-07,
+        -1.46514594234759e-07,
+        -2.397418938926421e-07
+      ],
+      "independent_residual_native_voxels": 8.00932931629886e-07,
+      "stored_residual_native_voxels": 8.00932931629886e-07,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        0,
+        136,
+        8
+      ],
+      "native_jyx": [
+        4,
+        1920,
+        2304
+      ],
+      "fine_uvk": [
+        2247.3121542575464,
+        1873.2416217529228,
+        18.518550127504106
+      ],
+      "independent_residual_xyz": [
+        0.0011656722072075354,
+        0.007578959304282762,
+        -0.0009580471414665226
+      ],
+      "independent_residual_native_voxels": 0.00772769500924451,
+      "stored_residual_native_voxels": 0.0077276950093572655,
+      "residual_difference": 1.1275529121501648e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        0,
+        136,
+        136
+      ],
+      "native_jyx": [
+        4,
+        1920,
+        2432
+      ],
+      "fine_uvk": [
+        2371.9508401335497,
+        1873.2337060471577,
+        16.040209419892605
+      ],
+      "independent_residual_xyz": [
+        -6.255331845750334e-05,
+        0.000565920228837058,
+        -3.1901792681310326e-05
+      ],
+      "independent_residual_native_voxels": 0.0005702598946386772,
+      "stored_residual_native_voxels": 0.0005702598946386772,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        0,
+        136,
+        263
+      ],
+      "native_jyx": [
+        4,
+        1920,
+        2559
+      ],
+      "fine_uvk": [
+        2495.8203660399304,
+        1873.3183748691695,
+        16.897839451044607
+      ],
+      "independent_residual_xyz": [
+        2.4350920284632593e-05,
+        -6.607847353734542e-07,
+        1.7072543414542452e-06
+      ],
+      "independent_residual_native_voxels": 2.4419637027635118e-05,
+      "stored_residual_native_voxels": 2.4419637027635118e-05,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        0,
+        263,
+        8
+      ],
+      "native_jyx": [
+        4,
+        2047,
+        2304
+      ],
+      "fine_uvk": [
+        2247.4228750226407,
+        1996.2031698638302,
+        18.3265245365358
+      ],
+      "independent_residual_xyz": [
+        0.00029186662868596613,
+        0.00032310691949533066,
+        -0.0004364394008007366
+      ],
+      "independent_residual_native_voxels": 0.0006164929528693574,
+      "stored_residual_native_voxels": 0.0006164929528443062,
+      "residual_difference": 2.505114171658107e-14,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        0,
+        263,
+        136
+      ],
+      "native_jyx": [
+        4,
+        2047,
+        2432
+      ],
+      "fine_uvk": [
+        2371.84992608239,
+        1996.8122788725163,
+        15.670113678775214
+      ],
+      "independent_residual_xyz": [
+        -0.0001362128887194558,
+        0.0016788691978035786,
+        -0.00013718362697545672
+      ],
+      "independent_residual_native_voxels": 0.0016899630415772623,
+      "stored_residual_native_voxels": 0.0016899630416505685,
+      "residual_difference": 7.330616148826241e-14,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        0,
+        263,
+        263
+      ],
+      "native_jyx": [
+        4,
+        2047,
+        2559
+      ],
+      "fine_uvk": [
+        2495.7069517158366,
+        1996.8054641159008,
+        16.846222529195682
+      ],
+      "independent_residual_xyz": [
+        2.287312781845685e-06,
+        -3.0997216526884586e-06,
+        1.4661054592579603e-08
+      ],
+      "independent_residual_native_voxels": 3.852309571239321e-06,
+      "stored_residual_native_voxels": 3.852310111252808e-06,
+      "residual_difference": 5.400134871468834e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        9,
+        8,
+        8
+      ],
+      "native_jyx": [
+        13,
+        1792,
+        2304
+      ],
+      "fine_uvk": [
+        2247.6784065723405,
+        1748.8093330615677,
+        52.88358125599328
+      ],
+      "independent_residual_xyz": [
+        1.6916776985453907e-05,
+        5.0351169647910865e-05,
+        -6.014667633280624e-06
+      ],
+      "independent_residual_native_voxels": 5.345646691680172e-05,
+      "stored_residual_native_voxels": 5.3456467345132704e-05,
+      "residual_difference": 4.283309817942893e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        9,
+        8,
+        136
+      ],
+      "native_jyx": [
+        13,
+        1792,
+        2432
+      ],
+      "fine_uvk": [
+        2372.1695565899045,
+        1748.8254217461822,
+        53.738127249645935
+      ],
+      "independent_residual_xyz": [
+        2.0121660782024264e-07,
+        5.34674745722441e-06,
+        -6.466076229116879e-06
+      ],
+      "independent_residual_native_voxels": 8.39275510755251e-06,
+      "stored_residual_native_voxels": 8.392754095335875e-06,
+      "residual_difference": 1.0122166353118993e-12,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        9,
+        8,
+        263
+      ],
+      "native_jyx": [
+        13,
+        1792,
+        2559
+      ],
+      "fine_uvk": [
+        2495.709505028184,
+        1748.865855680322,
+        54.622883893092265
+      ],
+      "independent_residual_xyz": [
+        -3.207642294000834e-07,
+        -5.560968929785304e-08,
+        -1.0863868737942539e-07
+      ],
+      "independent_residual_native_voxels": 3.431974545388669e-07,
+      "stored_residual_native_voxels": 3.431963868595293e-07,
+      "residual_difference": 1.0676793375820631e-12,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        9,
+        136,
+        8
+      ],
+      "native_jyx": [
+        13,
+        1920,
+        2304
+      ],
+      "fine_uvk": [
+        2247.676551025462,
+        1873.2291785803513,
+        53.554457971455335
+      ],
+      "independent_residual_xyz": [
+        4.382080260256771e-05,
+        0.0002854747071978636,
+        -3.612150703702355e-05
+      ],
+      "independent_residual_native_voxels": 0.0002910684360439395,
+      "stored_residual_native_voxels": 0.00029106843637707956,
+      "residual_difference": 3.331400368240811e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        9,
+        136,
+        136
+      ],
+      "native_jyx": [
+        13,
+        1920,
+        2432
+      ],
+      "fine_uvk": [
+        2372.163342034451,
+        1873.1917827915713,
+        51.05010731488939
+      ],
+      "independent_residual_xyz": [
+        1.38864379550796e-07,
+        -1.3844673958374187e-06,
+        6.818481779191643e-08
+      ],
+      "independent_residual_native_voxels": 1.393083793395856e-06,
+      "stored_residual_native_voxels": 1.3930842008154146e-06,
+      "residual_difference": 4.0741955860038427e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        9,
+        136,
+        263
+      ],
+      "native_jyx": [
+        13,
+        1920,
+        2559
+      ],
+      "fine_uvk": [
+        2495.6719353484173,
+        1873.2095797991033,
+        51.89843419124418
+      ],
+      "independent_residual_xyz": [
+        6.735444912919775e-08,
+        -1.8276296032126993e-09,
+        4.723005986306816e-09
+      ],
+      "independent_residual_native_voxels": 6.754456923403181e-08,
+      "stored_residual_native_voxels": 6.754458154017355e-08,
+      "residual_difference": 1.2306141732287948e-14,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        9,
+        263,
+        8
+      ],
+      "native_jyx": [
+        13,
+        2047,
+        2304
+      ],
+      "fine_uvk": [
+        2247.682275372289,
+        1996.617959323231,
+        53.31582973674955
+      ],
+      "independent_residual_xyz": [
+        7.727716365479864e-06,
+        9.080206655198708e-05,
+        -2.5117608856817242e-05
+      ],
+      "independent_residual_native_voxels": 9.452844632712874e-05,
+      "stored_residual_native_voxels": 9.452844632712874e-05,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        9,
+        263,
+        136
+      ],
+      "native_jyx": [
+        13,
+        2047,
+        2432
+      ],
+      "fine_uvk": [
+        2372.1573559982203,
+        1996.6460869209645,
+        50.67201522994287
+      ],
+      "independent_residual_xyz": [
+        -1.9666422303998843e-06,
+        2.6740361590782413e-05,
+        -1.868701474450063e-06
+      ],
+      "independent_residual_native_voxels": 2.6877623869471712e-05,
+      "stored_residual_native_voxels": 2.6877623936019672e-05,
+      "residual_difference": 6.654796004079526e-14,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        9,
+        263,
+        263
+      ],
+      "native_jyx": [
+        13,
+        2047,
+        2559
+      ],
+      "fine_uvk": [
+        2495.6669245756393,
+        1996.6412255179678,
+        51.84224087099123
+      ],
+      "independent_residual_xyz": [
+        1.1468728189356625e-08,
+        -3.003415258717723e-07,
+        4.8658876039553434e-08
+      ],
+      "independent_residual_native_voxels": 3.0447372646371056e-07,
+      "stored_residual_native_voxels": 3.0447417503941406e-07,
+      "residual_difference": 4.485757035025259e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        19,
+        8,
+        8
+      ],
+      "native_jyx": [
+        23,
+        1792,
+        2304
+      ],
+      "fine_uvk": [
+        2248.0222668694346,
+        1748.6827103905975,
+        91.76940321268155
+      ],
+      "independent_residual_xyz": [
+        0.0009435372576263035,
+        0.0027685269592439,
+        -0.00033711666765157133
+      ],
+      "independent_residual_native_voxels": 0.002944257415410164,
+      "stored_residual_native_voxels": 0.00294425741559749,
+      "residual_difference": 1.873258492768315e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        19,
+        8,
+        136
+      ],
+      "native_jyx": [
+        23,
+        1792,
+        2432
+      ],
+      "fine_uvk": [
+        2372.1350514208643,
+        1748.4409748923126,
+        92.55088225839852
+      ],
+      "independent_residual_xyz": [
+        -6.060094165150076e-06,
+        -1.8749714854493504e-05,
+        2.2099023226473946e-05
+      ],
+      "independent_residual_native_voxels": 2.9608164008927257e-05,
+      "stored_residual_native_voxels": 2.9608162855969885e-05,
+      "residual_difference": 1.1529573716378364e-12,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        19,
+        8,
+        263
+      ],
+      "native_jyx": [
+        23,
+        1792,
+        2559
+      ],
+      "fine_uvk": [
+        2495.735411340816,
+        1748.636243174983,
+        93.47291160023855
+      ],
+      "independent_residual_xyz": [
+        7.585440471302718e-07,
+        1.3150565791875124e-07,
+        2.569099706306588e-07
+      ],
+      "independent_residual_native_voxels": 8.115944446032523e-07,
+      "stored_residual_native_voxels": 8.115935945583263e-07,
+      "residual_difference": 8.500449260051229e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        19,
+        136,
+        8
+      ],
+      "native_jyx": [
+        23,
+        1920,
+        2304
+      ],
+      "fine_uvk": [
+        2248.430462083145,
+        1873.2233503442767,
+        92.48415162901101
+      ],
+      "independent_residual_xyz": [
+        -7.569278750452213e-07,
+        -1.6367312127840705e-07,
+        -1.1344036465743557e-07
+      ],
+      "independent_residual_native_voxels": 7.82686025800322e-07,
+      "stored_residual_native_voxels": 7.826861208959475e-07,
+      "residual_difference": 9.509562549391747e-14,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        19,
+        136,
+        136
+      ],
+      "native_jyx": [
+        23,
+        1920,
+        2432
+      ],
+      "fine_uvk": [
+        2372.3538067978857,
+        1873.140125910789,
+        89.94804697441518
+      ],
+      "independent_residual_xyz": [
+        5.799066730105551e-05,
+        -0.0006335284319902712,
+        3.0067138141021132e-05
+      ],
+      "independent_residual_native_voxels": 0.0006368871363358383,
+      "stored_residual_native_voxels": 0.0006368871353882031,
+      "residual_difference": 9.476351994774923e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        19,
+        136,
+        263
+      ],
+      "native_jyx": [
+        23,
+        1920,
+        2559
+      ],
+      "fine_uvk": [
+        2495.507012357847,
+        1873.0886963879186,
+        90.78798390257899
+      ],
+      "independent_residual_xyz": [
+        2.4233173462562263e-05,
+        -6.575896804861259e-07,
+        1.698999767540954e-06
+      ],
+      "independent_residual_native_voxels": 2.4301557984306644e-05,
+      "stored_residual_native_voxels": 2.4301557077371256e-05,
+      "residual_difference": 9.069353883346676e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        19,
+        263,
+        8
+      ],
+      "native_jyx": [
+        23,
+        2047,
+        2304
+      ],
+      "fine_uvk": [
+        2248.1443357719763,
+        1997.0577638479592,
+        92.1879548931486
+      ],
+      "independent_residual_xyz": [
+        -1.9983235688414425e-06,
+        3.5429789022600744e-06,
+        -2.0630341168725863e-07
+      ],
+      "independent_residual_native_voxels": 4.072905312589651e-06,
+      "stored_residual_native_voxels": 4.0729049170095625e-06,
+      "residual_difference": 3.9558008866453446e-13,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        19,
+        263,
+        136
+      ],
+      "native_jyx": [
+        23,
+        2047,
+        2432
+      ],
+      "fine_uvk": [
+        2372.4152160444264,
+        1996.4561802678631,
+        89.55764517385569
+      ],
+      "independent_residual_xyz": [
+        9.567498182150302e-05,
+        -0.0015738855477138713,
+        0.00012554880959214643
+      ],
+      "independent_residual_native_voxels": 0.001581781250059294,
+      "stored_residual_native_voxels": 0.0015817812501314824,
+      "residual_difference": 7.218834904842986e-14,
+      "pass": true
+    },
+    {
+      "site": "site1",
+      "array_zyx": [
+        19,
+        263,
+        263
+      ],
+      "native_jyx": [
+        23,
+        2047,
+        2559
+      ],
+      "fine_uvk": [
+        2495.6247721352947,
+        1996.4586816676772,
+        90.72670535750136
+      ],
+      "independent_residual_xyz": [
+        1.9389335648156703e-06,
+        9.877976935968036e-06,
+        -2.1209953047218733e-06
+      ],
+      "independent_residual_native_voxels": 1.0287493027892534e-05,
+      "stored_residual_native_voxels": 1.0287493199309438e-05,
+      "residual_difference": 1.7141690356655553e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        0,
+        8,
+        8
+      ],
+      "native_jyx": [
+        4,
+        3072,
+        3840
+      ],
+      "fine_uvk": [
+        3741.4184570694233,
+        2992.778923369573,
+        16.74347223484134
+      ],
+      "independent_residual_xyz": [
+        2.8971644496778026e-06,
+        5.497131496667862e-07,
+        -6.921272870386019e-07
+      ],
+      "independent_residual_native_voxels": 3.0289910163050794e-06,
+      "stored_residual_native_voxels": 3.028991224125601e-06,
+      "residual_difference": 2.0782052167277556e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        0,
+        8,
+        136
+      ],
+      "native_jyx": [
+        4,
+        3072,
+        3968
+      ],
+      "fine_uvk": [
+        3865.8498827730514,
+        2992.8521511595927,
+        17.33397822872944
+      ],
+      "independent_residual_xyz": [
+        -7.874936272855848e-06,
+        3.073007974307984e-06,
+        -3.050242412427906e-06
+      ],
+      "independent_residual_native_voxels": 8.986766831640577e-06,
+      "stored_residual_native_voxels": 8.986767626309974e-06,
+      "residual_difference": 7.946693975600938e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        0,
+        8,
+        263
+      ],
+      "native_jyx": [
+        4,
+        3072,
+        4095
+      ],
+      "fine_uvk": [
+        3989.261050630218,
+        2992.7602847103076,
+        17.78786890534224
+      ],
+      "independent_residual_xyz": [
+        2.26905285671819e-05,
+        5.134879756951705e-06,
+        6.592704448848963e-05
+      ],
+      "independent_residual_native_voxels": 6.99113887128824e-05,
+      "stored_residual_native_voxels": 6.991138957054378e-05,
+      "residual_difference": 8.576613811511757e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        0,
+        136,
+        8
+      ],
+      "native_jyx": [
+        4,
+        3200,
+        3840
+      ],
+      "fine_uvk": [
+        3741.5054761175275,
+        3117.1492077063867,
+        17.153685300400333
+      ],
+      "independent_residual_xyz": [
+        3.271236982982373e-05,
+        6.297935215116013e-06,
+        -2.892965312639717e-05
+      ],
+      "independent_residual_native_voxels": 4.41212869017963e-05,
+      "stored_residual_native_voxels": 4.4121286979771395e-05,
+      "residual_difference": 7.797509518495463e-14,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        0,
+        136,
+        136
+      ],
+      "native_jyx": [
+        4,
+        3200,
+        3968
+      ],
+      "fine_uvk": [
+        3865.8540097225327,
+        3117.262568912844,
+        18.122789341840374
+      ],
+      "independent_residual_xyz": [
+        1.4411428765015444e-05,
+        -6.6404636527295224e-06,
+        -3.047425707336515e-07
+      ],
+      "independent_residual_native_voxels": 1.587066175705203e-05,
+      "stored_residual_native_voxels": 1.5870661739588275e-05,
+      "residual_difference": 1.746375600012416e-14,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        0,
+        136,
+        263
+      ],
+      "native_jyx": [
+        4,
+        3200,
+        4095
+      ],
+      "fine_uvk": [
+        3989.277975269728,
+        3117.034648312156,
+        16.83265718572342
+      ],
+      "independent_residual_xyz": [
+        -6.334516911010724e-07,
+        3.2379648473579437e-07,
+        2.1879259293200448e-07
+      ],
+      "independent_residual_native_voxels": 7.442952419624726e-07,
+      "stored_residual_native_voxels": 7.442947072554448e-07,
+      "residual_difference": 5.347070278555722e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        0,
+        263,
+        8
+      ],
+      "native_jyx": [
+        4,
+        3327,
+        3840
+      ],
+      "fine_uvk": [
+        3741.286232440507,
+        3240.90505496979,
+        17.55001348426081
+      ],
+      "independent_residual_xyz": [
+        1.9342137420608196e-05,
+        -5.155709004611708e-06,
+        -5.1909546527895145e-06
+      ],
+      "independent_residual_native_voxels": 2.0679594424099406e-05,
+      "stored_residual_native_voxels": 2.067959419734981e-05,
+      "residual_difference": 2.2674959512022225e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        0,
+        263,
+        136
+      ],
+      "native_jyx": [
+        4,
+        3327,
+        3968
+      ],
+      "fine_uvk": [
+        3865.635457478739,
+        3240.630721995647,
+        18.50939808693761
+      ],
+      "independent_residual_xyz": [
+        -1.4252782420953736e-07,
+        -6.216414476512e-07,
+        9.105497156269848e-08
+      ],
+      "independent_residual_native_voxels": 6.442385256704757e-07,
+      "stored_residual_native_voxels": 6.442382965198303e-07,
+      "residual_difference": 2.29150645428607e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        0,
+        263,
+        263
+      ],
+      "native_jyx": [
+        4,
+        3327,
+        4095
+      ],
+      "fine_uvk": [
+        3989.28015298275,
+        3240.790575757743,
+        17.447880042850336
+      ],
+      "independent_residual_xyz": [
+        2.556350864324486e-06,
+        9.905019396683201e-06,
+        -2.619041879370343e-06
+      ],
+      "independent_residual_native_voxels": 1.0559532156118411e-05,
+      "stored_residual_native_voxels": 1.0559532156118411e-05,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        9,
+        8,
+        8
+      ],
+      "native_jyx": [
+        13,
+        3072,
+        3840
+      ],
+      "fine_uvk": [
+        3741.343318460471,
+        2992.8071150508345,
+        51.76915983949727
+      ],
+      "independent_residual_xyz": [
+        7.556127457064576e-08,
+        -1.9564595277188346e-07,
+        -1.0615640348987654e-06
+      ],
+      "independent_residual_native_voxels": 1.0820836590769245e-06,
+      "stored_residual_native_voxels": 1.0820836908317634e-06,
+      "residual_difference": 3.1754838923233014e-14,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        9,
+        8,
+        136
+      ],
+      "native_jyx": [
+        13,
+        3072,
+        3968
+      ],
+      "fine_uvk": [
+        3865.813273049056,
+        2992.80644592094,
+        52.36039508696109
+      ],
+      "independent_residual_xyz": [
+        -2.2855238057672977e-07,
+        7.374819688266143e-08,
+        -1.0173971531912684e-07
+      ],
+      "independent_residual_native_voxels": 2.608178615124951e-07,
+      "stored_residual_native_voxels": 2.6081760434753944e-07,
+      "residual_difference": 2.5716495567536466e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        9,
+        8,
+        263
+      ],
+      "native_jyx": [
+        13,
+        3072,
+        4095
+      ],
+      "fine_uvk": [
+        3989.3131687468003,
+        2992.809117788757,
+        52.811063244621955
+      ],
+      "independent_residual_xyz": [
+        -2.002791461563902e-06,
+        -2.6298857846995816e-07,
+        -5.905079888179898e-06
+      ],
+      "independent_residual_native_voxels": 6.241017955166099e-06,
+      "stored_residual_native_voxels": 6.241017916841212e-06,
+      "residual_difference": 3.8324886612785963e-14,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        9,
+        136,
+        8
+      ],
+      "native_jyx": [
+        13,
+        3200,
+        3840
+      ],
+      "fine_uvk": [
+        3741.3537837241743,
+        3117.201272599746,
+        52.16983184421583
+      ],
+      "independent_residual_xyz": [
+        1.4027796169102658e-06,
+        -2.3537540982943028e-07,
+        -7.512244337704033e-07
+      ],
+      "independent_residual_native_voxels": 1.608580239548201e-06,
+      "stored_residual_native_voxels": 1.6085801064666931e-06,
+      "residual_difference": 1.3308150781599299e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        9,
+        136,
+        136
+      ],
+      "native_jyx": [
+        13,
+        3200,
+        3968
+      ],
+      "fine_uvk": [
+        3865.8105792971587,
+        3117.2133856953424,
+        53.15175620603788
+      ],
+      "independent_residual_xyz": [
+        2.0295042304496747e-06,
+        -6.706923159072176e-07,
+        -2.99505700240843e-08
+      ],
+      "independent_residual_native_voxels": 2.137665231198487e-06,
+      "stored_residual_native_voxels": 2.1376655292955727e-06,
+      "residual_difference": 2.980970856680668e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        9,
+        136,
+        263
+      ],
+      "native_jyx": [
+        13,
+        3200,
+        4095
+      ],
+      "fine_uvk": [
+        3989.3150092835226,
+        3117.193738068205,
+        51.84917666296566
+      ],
+      "independent_residual_xyz": [
+        -8.895176506484859e-08,
+        1.7260390450246632e-08,
+        2.3901520762592554e-09
+      ],
+      "independent_residual_native_voxels": 9.064243163990377e-08,
+      "stored_residual_native_voxels": 9.064243163990377e-08,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        9,
+        263,
+        8
+      ],
+      "native_jyx": [
+        13,
+        3327,
+        3840
+      ],
+      "fine_uvk": [
+        3741.3306184893186,
+        3240.643806361523,
+        52.561253713443
+      ],
+      "independent_residual_xyz": [
+        5.025008704251377e-06,
+        -1.0793646652018651e-06,
+        -1.8359241948928684e-07
+      ],
+      "independent_residual_native_voxels": 5.142902559331877e-06,
+      "stored_residual_native_voxels": 5.142902559331877e-06,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        9,
+        263,
+        136
+      ],
+      "native_jyx": [
+        13,
+        3327,
+        3968
+      ],
+      "fine_uvk": [
+        3865.806748610902,
+        3240.626036644359,
+        53.51073285199876
+      ],
+      "independent_residual_xyz": [
+        -2.4270775611512363e-08,
+        -1.0585699783405289e-07,
+        1.550506567582488e-08
+      ],
+      "independent_residual_native_voxels": 1.0970497527840159e-07,
+      "stored_residual_native_voxels": 1.0970399707836311e-07,
+      "residual_difference": 9.782000384779355e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        9,
+        263,
+        263
+      ],
+      "native_jyx": [
+        13,
+        3327,
+        4095
+      ],
+      "fine_uvk": [
+        3989.3115199632707,
+        3240.643544438132,
+        52.469890260474585
+      ],
+      "independent_residual_xyz": [
+        2.0880179363302886e-08,
+        8.090592018561438e-08,
+        -2.1393134375102818e-08
+      ],
+      "independent_residual_native_voxels": 8.625204930734057e-08,
+      "stored_residual_native_voxels": 8.625215939520128e-08,
+      "residual_difference": 1.1008786070465816e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        19,
+        8,
+        8
+      ],
+      "native_jyx": [
+        23,
+        3072,
+        3840
+      ],
+      "fine_uvk": [
+        3741.2569595378277,
+        2992.8336111188887,
+        90.68649901748287
+      ],
+      "independent_residual_xyz": [
+        4.60394812762388e-06,
+        -1.2832615539082326e-06,
+        -1.1863131476275157e-05
+      ],
+      "independent_residual_native_voxels": 1.2789721928211763e-05,
+      "stored_residual_native_voxels": 1.2789722608118826e-05,
+      "residual_difference": 6.799070634706241e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        19,
+        8,
+        136
+      ],
+      "native_jyx": [
+        23,
+        3072,
+        3968
+      ],
+      "fine_uvk": [
+        3865.774153845368,
+        2992.7550044994846,
+        91.27861661145843
+      ],
+      "independent_residual_xyz": [
+        4.140979854128091e-06,
+        -7.41556505090557e-07,
+        2.3523425625171512e-06
+      ],
+      "independent_residual_native_voxels": 4.819868850286964e-06,
+      "stored_residual_native_voxels": 4.819869240982169e-06,
+      "residual_difference": 3.906952047649727e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        19,
+        8,
+        263
+      ],
+      "native_jyx": [
+        23,
+        3072,
+        4095
+      ],
+      "fine_uvk": [
+        3989.3688824114925,
+        2992.8705947552166,
+        91.72551474559862
+      ],
+      "independent_residual_xyz": [
+        -2.48383416874276e-05,
+        1.6315516404574737e-07,
+        -7.47820577089442e-05
+      ],
+      "independent_residual_native_voxels": 7.879927659929891e-05,
+      "stored_residual_native_voxels": 7.879927659929891e-05,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        19,
+        136,
+        8
+      ],
+      "native_jyx": [
+        23,
+        3200,
+        3840
+      ],
+      "fine_uvk": [
+        3741.1642238274285,
+        3117.249311070259,
+        91.07592962486233
+      ],
+      "independent_residual_xyz": [
+        2.481551837263396e-05,
+        3.607089638535399e-06,
+        -9.522946129436605e-07
+      ],
+      "independent_residual_native_voxels": 2.5094380103776315e-05,
+      "stored_residual_native_voxels": 2.509438013829031e-05,
+      "residual_difference": 3.451399390353056e-14,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        19,
+        136,
+        136
+      ],
+      "native_jyx": [
+        23,
+        3200,
+        3968
+      ],
+      "fine_uvk": [
+        3865.7614362371414,
+        3117.158728908477,
+        92.0729002336833
+      ],
+      "independent_residual_xyz": [
+        -1.027912185236346e-05,
+        1.7014617696986534e-06,
+        6.858408596599475e-08
+      ],
+      "independent_residual_native_voxels": 1.041921407719075e-05,
+      "stored_residual_native_voxels": 1.0419214083177504e-05,
+      "residual_difference": 5.9867543322940364e-15,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        19,
+        136,
+        263
+      ],
+      "native_jyx": [
+        23,
+        3200,
+        4095
+      ],
+      "fine_uvk": [
+        3989.3556412235066,
+        3117.370503542768,
+        90.75642048186045
+      ],
+      "independent_residual_xyz": [
+        2.122401838278165e-06,
+        -1.9722938304767013e-07,
+        1.585549398441799e-07
+      ],
+      "independent_residual_native_voxels": 2.1374350660576546e-06,
+      "stored_residual_native_voxels": 2.1374346309653373e-06,
+      "residual_difference": 4.350923172636613e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        19,
+        263,
+        8
+      ],
+      "native_jyx": [
+        23,
+        3327,
+        3840
+      ],
+      "fine_uvk": [
+        3741.3776581326856,
+        3240.35349955832,
+        91.46265532525601
+      ],
+      "independent_residual_xyz": [
+        -1.0471499535924522e-05,
+        1.6596741261309944e-06,
+        -2.258542735944502e-06
+      ],
+      "independent_residual_native_voxels": 1.0840103137235543e-05,
+      "stored_residual_native_voxels": 1.0840103137235543e-05,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        19,
+        263,
+        136
+      ],
+      "native_jyx": [
+        23,
+        3327,
+        3968
+      ],
+      "fine_uvk": [
+        3865.9970720910833,
+        3240.620830698483,
+        92.40110481317689
+      ],
+      "independent_residual_xyz": [
+        7.38905328034889e-07,
+        3.22278356179595e-06,
+        -4.720595825347118e-07
+      ],
+      "independent_residual_native_voxels": 3.33993341542064e-06,
+      "stored_residual_native_voxels": 3.3399343936197377e-06,
+      "residual_difference": 9.781990975831498e-13,
+      "pass": true
+    },
+    {
+      "site": "site2",
+      "array_zyx": [
+        19,
+        263,
+        263
+      ],
+      "native_jyx": [
+        23,
+        3327,
+        4095
+      ],
+      "fine_uvk": [
+        3989.346372163849,
+        3240.4801763052305,
+        91.38323494672004
+      ],
+      "independent_residual_xyz": [
+        2.114035851263907e-06,
+        8.191192137019243e-06,
+        -2.1658788682543673e-06
+      ],
+      "independent_residual_native_voxels": 8.732457127174791e-06,
+      "stored_residual_native_voxels": 8.732457127174791e-06,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        0,
+        8,
+        8
+      ],
+      "native_jyx": [
+        4,
+        4352,
+        5504
+      ],
+      "fine_uvk": [
+        5359.4529074262755,
+        4236.60134737184,
+        16.923386833014483
+      ],
+      "independent_residual_xyz": [
+        -1.5995565263438039e-06,
+        2.966634383483324e-06,
+        -1.6558806237298995e-07
+      ],
+      "independent_residual_native_voxels": 3.3744510742689662e-06,
+      "stored_residual_native_voxels": 3.3744508140799588e-06,
+      "residual_difference": 2.601890074514822e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        0,
+        8,
+        136
+      ],
+      "native_jyx": [
+        4,
+        4352,
+        5632
+      ],
+      "fine_uvk": [
+        5483.982056222186,
+        4236.733719464436,
+        16.998423397397012
+      ],
+      "independent_residual_xyz": [
+        3.762374944926705e-07,
+        -5.319525371305645e-07,
+        4.108487701159902e-07
+      ],
+      "independent_residual_native_voxels": 7.702758375592399e-07,
+      "stored_residual_native_voxels": 7.702752094624281e-07,
+      "residual_difference": 6.280968117911901e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        0,
+        8,
+        263
+      ],
+      "native_jyx": [
+        4,
+        4352,
+        5759
+      ],
+      "fine_uvk": [
+        5607.418132389907,
+        4236.920757869374,
+        16.78049562972266
+      ],
+      "independent_residual_xyz": [
+        4.946418130202801e-06,
+        4.620710569724906e-06,
+        -2.1333189579308964e-06
+      ],
+      "independent_residual_native_voxels": 7.0971168980251275e-06,
+      "stored_residual_native_voxels": 7.097117216784181e-06,
+      "residual_difference": 3.187590538473572e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        0,
+        136,
+        8
+      ],
+      "native_jyx": [
+        4,
+        4480,
+        5504
+      ],
+      "fine_uvk": [
+        5359.526390762119,
+        4361.204735009619,
+        17.525840414130926
+      ],
+      "independent_residual_xyz": [
+        4.0444319893140346e-08,
+        5.30508259544149e-09,
+        1.137414074037224e-08
+      ],
+      "independent_residual_native_voxels": 4.23468769869151e-08,
+      "stored_residual_native_voxels": 4.23468769869151e-08,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        0,
+        136,
+        136
+      ],
+      "native_jyx": [
+        4,
+        4480,
+        5632
+      ],
+      "fine_uvk": [
+        5483.92749831274,
+        4361.23778832724,
+        17.03779019013181
+      ],
+      "independent_residual_xyz": [
+        -3.149065832985798e-06,
+        -3.7454301491379738e-06,
+        -5.06140167999547e-06
+      ],
+      "independent_residual_native_voxels": 7.040074544265224e-06,
+      "stored_residual_native_voxels": 7.0400743408541305e-06,
+      "residual_difference": 2.0341109388365012e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        0,
+        136,
+        263
+      ],
+      "native_jyx": [
+        4,
+        4480,
+        5759
+      ],
+      "fine_uvk": [
+        5607.418704014553,
+        4361.314824502804,
+        16.967026589441467
+      ],
+      "independent_residual_xyz": [
+        1.1858912557727308e-05,
+        1.8333660591451917e-05,
+        -3.3495089155621827e-06
+      ],
+      "independent_residual_native_voxels": 2.209018170386586e-05,
+      "stored_residual_native_voxels": 2.209018221457051e-05,
+      "residual_difference": 5.107046513116997e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        0,
+        263,
+        8
+      ],
+      "native_jyx": [
+        4,
+        4607,
+        5504
+      ],
+      "fine_uvk": [
+        5359.307870723615,
+        4484.547662624115,
+        16.541834103849872
+      ],
+      "independent_residual_xyz": [
+        1.1130809980386402e-05,
+        -2.9311889193195384e-05,
+        -2.494359250704292e-06
+      ],
+      "independent_residual_native_voxels": 3.145319708654762e-05,
+      "stored_residual_native_voxels": 3.145319786199827e-05,
+      "residual_difference": 7.754506468914991e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        0,
+        263,
+        136
+      ],
+      "native_jyx": [
+        4,
+        4607,
+        5632
+      ],
+      "fine_uvk": [
+        5484.015636156076,
+        4484.610152139591,
+        16.196088613629705
+      ],
+      "independent_residual_xyz": [
+        -4.228197667544009e-06,
+        3.185557034157682e-05,
+        8.140082172758412e-06
+      ],
+      "independent_residual_native_voxels": 3.314990128314461e-05,
+      "stored_residual_native_voxels": 3.314990111781684e-05,
+      "residual_difference": 1.6532777344412455e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        0,
+        263,
+        263
+      ],
+      "native_jyx": [
+        4,
+        4607,
+        5759
+      ],
+      "fine_uvk": [
+        5607.3011180685435,
+        4484.733973548372,
+        15.670420832657946
+      ],
+      "independent_residual_xyz": [
+        0.000977253393330102,
+        0.0009685424702183809,
+        -0.0002395928595433361
+      ],
+      "independent_residual_native_voxels": 0.0013966042566654574,
+      "stored_residual_native_voxels": 0.0013966042561907518,
+      "residual_difference": 4.747055613180118e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        9,
+        8,
+        8
+      ],
+      "native_jyx": [
+        13,
+        4352,
+        5504
+      ],
+      "fine_uvk": [
+        5359.469789137288,
+        4236.797317523161,
+        51.925909024799935
+      ],
+      "independent_residual_xyz": [
+        -4.295147846278269e-07,
+        -2.3606298782397062e-07,
+        4.608045856002718e-08
+      ],
+      "independent_residual_native_voxels": 4.922723769371698e-07,
+      "stored_residual_native_voxels": 4.922719801635645e-07,
+      "residual_difference": 3.967736053093026e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        9,
+        8,
+        136
+      ],
+      "native_jyx": [
+        13,
+        4352,
+        5632
+      ],
+      "fine_uvk": [
+        5483.944602379901,
+        4236.802173979058,
+        52.00983625773581
+      ],
+      "independent_residual_xyz": [
+        -5.636593414237723e-09,
+        -3.9226506487466395e-09,
+        1.3924363884143531e-09
+      ],
+      "independent_residual_native_voxels": 7.006943165555213e-09,
+      "stored_residual_native_voxels": 7.006577358473234e-09,
+      "residual_difference": 3.6580708197875315e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        9,
+        8,
+        263
+      ],
+      "native_jyx": [
+        13,
+        4352,
+        5759
+      ],
+      "fine_uvk": [
+        5607.437978248073,
+        4236.81268800597,
+        51.79146864451926
+      ],
+      "independent_residual_xyz": [
+        1.7671156911092112e-06,
+        1.0216654118266888e-06,
+        -3.9894985093269497e-07
+      ],
+      "independent_residual_native_voxels": 2.079821882529031e-06,
+      "stored_residual_native_voxels": 2.0798225224853246e-06,
+      "residual_difference": 6.399562937274518e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        9,
+        136,
+        8
+      ],
+      "native_jyx": [
+        13,
+        4480,
+        5504
+      ],
+      "fine_uvk": [
+        5359.468660189105,
+        4361.208207101651,
+        52.5367839666902
+      ],
+      "independent_residual_xyz": [
+        -1.6485641936014872e-06,
+        -4.965586413163692e-07,
+        -4.896573955193162e-07
+      ],
+      "independent_residual_native_voxels": 1.7899996507479102e-06,
+      "stored_residual_native_voxels": 1.7899996507479102e-06,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        9,
+        136,
+        136
+      ],
+      "native_jyx": [
+        13,
+        4480,
+        5632
+      ],
+      "fine_uvk": [
+        5483.942274165166,
+        4361.2048004611615,
+        52.04877032096707
+      ],
+      "independent_residual_xyz": [
+        -8.094597433228046e-05,
+        0.001954783046130615,
+        0.00482230126090144
+      ],
+      "independent_residual_native_voxels": 0.005204067491788698,
+      "stored_residual_native_voxels": 0.005204067491781625,
+      "residual_difference": 7.073334973295431e-15,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        9,
+        136,
+        263
+      ],
+      "native_jyx": [
+        13,
+        4480,
+        5759
+      ],
+      "fine_uvk": [
+        5607.44232832657,
+        4361.213526751546,
+        51.975285170866485
+      ],
+      "independent_residual_xyz": [
+        -1.1012762115569785e-06,
+        -7.294656825251877e-07,
+        7.3088267527055e-07
+      ],
+      "independent_residual_native_voxels": 1.5096751177435047e-06,
+      "stored_residual_native_voxels": 1.5096750091565857e-06,
+      "residual_difference": 1.0858691905004248e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        9,
+        263,
+        8
+      ],
+      "native_jyx": [
+        13,
+        4607,
+        5504
+      ],
+      "fine_uvk": [
+        5359.460473956133,
+        4484.6265594238685,
+        51.54422806054994
+      ],
+      "independent_residual_xyz": [
+        5.5584223446203396e-08,
+        -1.4637498679803684e-07,
+        -1.2455529940780252e-08
+      ],
+      "independent_residual_native_voxels": 1.5706808358908756e-07,
+      "stored_residual_native_voxels": 1.5706801146859536e-07,
+      "residual_difference": 7.212049220670391e-14,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        9,
+        263,
+        136
+      ],
+      "native_jyx": [
+        13,
+        4607,
+        5632
+      ],
+      "fine_uvk": [
+        5483.96166624044,
+        4484.627635736014,
+        51.205726977221126
+      ],
+      "independent_residual_xyz": [
+        5.28762029716745e-08,
+        -8.770530257606879e-08,
+        1.861735654529184e-08
+      ],
+      "independent_residual_native_voxels": 1.040899558333849e-07,
+      "stored_residual_native_voxels": 1.040899558333849e-07,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        9,
+        263,
+        263
+      ],
+      "native_jyx": [
+        13,
+        4607,
+        5759
+      ],
+      "fine_uvk": [
+        5607.436274592638,
+        4484.6380054097135,
+        50.687836658941144
+      ],
+      "independent_residual_xyz": [
+        3.273214679211378e-05,
+        3.179902250849409e-05,
+        -7.884461410867516e-06
+      ],
+      "independent_residual_native_voxels": 4.631129449557265e-05,
+      "stored_residual_native_voxels": 4.631129495936047e-05,
+      "residual_difference": 4.637878216239358e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        19,
+        8,
+        8
+      ],
+      "native_jyx": [
+        23,
+        4352,
+        5504
+      ],
+      "fine_uvk": [
+        5359.479911896907,
+        4237.015051660103,
+        90.81761091043437
+      ],
+      "independent_residual_xyz": [
+        2.609097009553807e-05,
+        1.597855589352548e-05,
+        -3.835105417238083e-06
+      ],
+      "independent_residual_native_voxels": 3.083441263475127e-05,
+      "stored_residual_native_voxels": 3.083441274787191e-05,
+      "residual_difference": 1.1312064024208979e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        19,
+        8,
+        136
+      ],
+      "native_jyx": [
+        23,
+        4352,
+        5632
+      ],
+      "fine_uvk": [
+        5483.9026237070175,
+        4236.878232950337,
+        90.91140392675787
+      ],
+      "independent_residual_xyz": [
+        7.920662028482184e-07,
+        -3.7120480556041e-07,
+        3.8979214878054336e-07
+      ],
+      "independent_residual_native_voxels": 9.576532757822584e-07,
+      "stored_residual_native_voxels": 9.576529055923806e-07,
+      "residual_difference": 3.7018987775334336e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        19,
+        8,
+        263
+      ],
+      "native_jyx": [
+        23,
+        4352,
+        5759
+      ],
+      "fine_uvk": [
+        5607.4645783597225,
+        4236.693179505573,
+        90.6924785620123
+      ],
+      "independent_residual_xyz": [
+        -2.03457150291797e-05,
+        -1.0607910553517286e-05,
+        5.163644345884677e-06
+      ],
+      "independent_residual_native_voxels": 2.3518909611008732e-05,
+      "stored_residual_native_voxels": 2.3518910007387124e-05,
+      "residual_difference": 3.963783918063332e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        19,
+        136,
+        8
+      ],
+      "native_jyx": [
+        23,
+        4480,
+        5504
+      ],
+      "fine_uvk": [
+        5359.404230979939,
+        4361.212169877624,
+        91.43783444033136
+      ],
+      "independent_residual_xyz": [
+        -2.4681544346094597e-06,
+        -1.6075937310233712e-06,
+        -8.13311999081634e-07
+      ],
+      "independent_residual_native_voxels": 3.0557520064557183e-06,
+      "stored_residual_native_voxels": 3.0557520064557183e-06,
+      "residual_difference": 0.0,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        19,
+        136,
+        136
+      ],
+      "native_jyx": [
+        23,
+        4480,
+        5632
+      ],
+      "fine_uvk": [
+        5483.963004278656,
+        4361.152466282838,
+        90.95560782636656
+      ],
+      "independent_residual_xyz": [
+        -5.089982550998684e-06,
+        -6.712069080094807e-06,
+        -8.378059646929614e-06
+      ],
+      "independent_residual_native_voxels": 1.1880727130649293e-05,
+      "stored_residual_native_voxels": 1.1880726422001835e-05,
+      "residual_difference": 7.086474571889713e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        19,
+        136,
+        263
+      ],
+      "native_jyx": [
+        23,
+        4480,
+        5759
+      ],
+      "fine_uvk": [
+        5607.460378806656,
+        4361.098116255892,
+        90.87279361980582
+      ],
+      "independent_residual_xyz": [
+        4.162627192272339e-06,
+        6.118054443504661e-06,
+        -9.183180736727081e-06
+      ],
+      "independent_residual_native_voxels": 1.179359418323895e-05,
+      "stored_residual_native_voxels": 1.1793593631175722e-05,
+      "residual_difference": 5.520632270826584e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        19,
+        263,
+        8
+      ],
+      "native_jyx": [
+        23,
+        4607,
+        5504
+      ],
+      "fine_uvk": [
+        5359.630033103374,
+        4484.714222534705,
+        90.43577690132544
+      ],
+      "independent_residual_xyz": [
+        1.0289860256307293e-05,
+        -2.7097330530523323e-05,
+        -2.305905582034029e-06
+      ],
+      "independent_residual_native_voxels": 2.9076859296148533e-05,
+      "stored_residual_native_voxels": 2.9076860376780187e-05,
+      "residual_difference": 1.0806316541741526e-12,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        19,
+        263,
+        136
+      ],
+      "native_jyx": [
+        23,
+        4607,
+        5632
+      ],
+      "fine_uvk": [
+        5483.90169966751,
+        4484.6470619542615,
+        90.10532515898609
+      ],
+      "independent_residual_xyz": [
+        2.868869160010945e-07,
+        -4.758494469569996e-07,
+        1.0101302905241027e-07
+      ],
+      "independent_residual_native_voxels": 5.647481126840926e-07,
+      "stored_residual_native_voxels": 5.647478816767011e-07,
+      "residual_difference": 2.310073915180532e-13,
+      "pass": true
+    },
+    {
+      "site": "site3",
+      "array_zyx": [
+        19,
+        263,
+        263
+      ],
+      "native_jyx": [
+        23,
+        4607,
+        5759
+      ],
+      "fine_uvk": [
+        5607.710360851098,
+        4484.541164964313,
+        89.59613369627488
+      ],
+      "independent_residual_xyz": [
+        -0.0022634253923570213,
+        -0.002161492373488727,
+        0.0005370171229515108
+      ],
+      "independent_residual_native_voxels": 0.003175457632808157,
+      "stored_residual_native_voxels": 0.003175457632953706,
+      "residual_difference": 1.4554893748575104e-13,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "Independent scalar evaluation ofrepresentative geometry,notCTsampling equivalence orphysical tissue registration.",
+    "Finite81-point check supplements authoredfull4.439million screen; itdoesnotindependently recheckeveryquery.",
+    "Scalar implementation shares declared source equations; itdoesnotimport theauthor evaluator."
+  ]
+}

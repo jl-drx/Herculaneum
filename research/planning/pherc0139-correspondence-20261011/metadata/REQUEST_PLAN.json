@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-11T00:56:53.086862+00:00",
+  "purpose": "w040 coordinate metadata only; no CT, labels or model outputs.",
+  "requests": [
+    {
+      "name": "20260102150214-tifxyz-transformed-metajson.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/meta.json",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20260102150214-layers-zarr-zattrs.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/.zattrs",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20260102150214-layers-zarr-0-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/0/.zarray",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20260102150214-layers-zarr-2-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/2/.zarray",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20250728140407-tifxyz-transformed-metajson.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/meta.json",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20250728140407-layers-zarr-zattrs.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/.zattrs",
+      "max_bytes": 131072
+    },
+    {
+      "name": "20250728140407-layers-zarr-0-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/.zarray",
+      "max_bytes": 131072
+    }
+  ],
+  "total_body_cap": 917504
+}

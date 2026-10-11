@@ -1,0 +1,560 @@
+{
+  "status": "PASS",
+  "reviewed_code_sha256": "04cd6f8987a5caf9c35561e9c8c034e42b81ada78269251b887b3c00503c65fc",
+  "independent_direct_pearson_max_abs_error": 1.1102230246251565e-15,
+  "known_shift_cases": [
+    {
+      "injected_shift_zyx": [
+        1,
+        -2,
+        3
+      ],
+      "fit_shift_zyx": [
+        1,
+        -2,
+        3
+      ],
+      "screen_pass": true,
+      "criteria": {
+        "fit_not_boundary": true,
+        "checks_not_boundary": true,
+        "all_check_ncc_at_least_05": true,
+        "all_check_margin_at_least_005": true,
+        "median_tangent_delta_at_most_05": true,
+        "max_tangent_delta_at_most_1": true,
+        "max_abs_normal_delta_at_most_1": true
+      }
+    },
+    {
+      "injected_shift_zyx": [
+        -3,
+        4,
+        -1
+      ],
+      "fit_shift_zyx": [
+        -3,
+        4,
+        -1
+      ],
+      "screen_pass": true,
+      "criteria": {
+        "fit_not_boundary": true,
+        "checks_not_boundary": true,
+        "all_check_ncc_at_least_05": true,
+        "all_check_margin_at_least_005": true,
+        "median_tangent_delta_at_most_05": true,
+        "max_tangent_delta_at_most_1": true,
+        "max_abs_normal_delta_at_most_1": true
+      }
+    },
+    {
+      "injected_shift_zyx": [
+        0,
+        0,
+        6
+      ],
+      "fit_shift_zyx": [
+        0,
+        0,
+        6
+      ],
+      "screen_pass": false,
+      "criteria": {
+        "fit_not_boundary": false,
+        "checks_not_boundary": false,
+        "all_check_ncc_at_least_05": true,
+        "all_check_margin_at_least_005": true,
+        "median_tangent_delta_at_most_05": true,
+        "max_tangent_delta_at_most_1": true,
+        "max_abs_normal_delta_at_most_1": true
+      }
+    }
+  ],
+  "periodic_case_criteria": {
+    "fit_not_boundary": true,
+    "checks_not_boundary": true,
+    "all_check_ncc_at_least_05": true,
+    "all_check_margin_at_least_005": false,
+    "median_tangent_delta_at_most_05": true,
+    "max_tangent_delta_at_most_1": true,
+    "max_abs_normal_delta_at_most_1": false
+  },
+  "constant_cases_rejected": [
+    "constant_template",
+    "constant_search"
+  ],
+  "mapped_support_nonoverlap": [
+    {
+      "site": "site1",
+      "source_boxes_inclusive_uvk_after_Zfilter": [
+        [
+          [
+            2272,
+            1773,
+            12
+          ],
+          [
+            2316,
+            1817,
+            98
+          ]
+        ],
+        [
+          [
+            2428,
+            1773,
+            11
+          ],
+          [
+            2471,
+            1817,
+            98
+          ]
+        ],
+        [
+          [
+            2272,
+            1929,
+            9
+          ],
+          [
+            2316,
+            1972,
+            98
+          ]
+        ],
+        [
+          [
+            2428,
+            1929,
+            10
+          ],
+          [
+            2471,
+            1972,
+            98
+          ]
+        ],
+        [
+          [
+            2350,
+            1773,
+            11
+          ],
+          [
+            2393,
+            1817,
+            99
+          ]
+        ],
+        [
+          [
+            2272,
+            1851,
+            10
+          ],
+          [
+            2316,
+            1895,
+            98
+          ]
+        ],
+        [
+          [
+            2428,
+            1851,
+            10
+          ],
+          [
+            2471,
+            1895,
+            99
+          ]
+        ],
+        [
+          [
+            2350,
+            1929,
+            9
+          ],
+          [
+            2393,
+            1972,
+            96
+          ]
+        ]
+      ],
+      "overlapping_boxes": []
+    },
+    {
+      "site": "site2",
+      "source_boxes_inclusive_uvk_after_Zfilter": [
+        [
+          [
+            3766,
+            3017,
+            10
+          ],
+          [
+            3809,
+            3061,
+            97
+          ]
+        ],
+        [
+          [
+            3922,
+            3017,
+            11
+          ],
+          [
+            3965,
+            3061,
+            97
+          ]
+        ],
+        [
+          [
+            3766,
+            3173,
+            9
+          ],
+          [
+            3810,
+            3216,
+            96
+          ]
+        ],
+        [
+          [
+            3921,
+            3173,
+            10
+          ],
+          [
+            3965,
+            3216,
+            97
+          ]
+        ],
+        [
+          [
+            3844,
+            3018,
+            11
+          ],
+          [
+            3887,
+            3060,
+            98
+          ]
+        ],
+        [
+          [
+            3766,
+            3095,
+            10
+          ],
+          [
+            3810,
+            3138,
+            98
+          ]
+        ],
+        [
+          [
+            3922,
+            3095,
+            10
+          ],
+          [
+            3965,
+            3138,
+            97
+          ]
+        ],
+        [
+          [
+            3844,
+            3173,
+            11
+          ],
+          [
+            3887,
+            3216,
+            99
+          ]
+        ]
+      ],
+      "overlapping_boxes": []
+    },
+    {
+      "site": "site3",
+      "source_boxes_inclusive_uvk_after_Zfilter": [
+        [
+          [
+            5384,
+            4261,
+            10
+          ],
+          [
+            5427,
+            4305,
+            98
+          ]
+        ],
+        [
+          [
+            5539,
+            4261,
+            11
+          ],
+          [
+            5583,
+            4305,
+            97
+          ]
+        ],
+        [
+          [
+            5384,
+            4417,
+            11
+          ],
+          [
+            5427,
+            4460,
+            97
+          ]
+        ],
+        [
+          [
+            5539,
+            4417,
+            10
+          ],
+          [
+            5583,
+            4460,
+            97
+          ]
+        ],
+        [
+          [
+            5462,
+            4261,
+            11
+          ],
+          [
+            5505,
+            4304,
+            97
+          ]
+        ],
+        [
+          [
+            5384,
+            4339,
+            11
+          ],
+          [
+            5427,
+            4382,
+            98
+          ]
+        ],
+        [
+          [
+            5540,
+            4339,
+            11
+          ],
+          [
+            5583,
+            4382,
+            97
+          ]
+        ],
+        [
+          [
+            5462,
+            4417,
+            11
+          ],
+          [
+            5505,
+            4460,
+            98
+          ]
+        ]
+      ],
+      "overlapping_boxes": []
+    }
+  ],
+  "local_basis_threshold_diagnostics": [
+    {
+      "site": "site1",
+      "supports": [
+        {
+          "support": 0,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 4,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.000000004365777
+        },
+        {
+          "support": 1,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 4,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 0.9999999754648689
+        },
+        {
+          "support": 2,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 2,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000272496783
+        },
+        {
+          "support": 3,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000341202935
+        },
+        {
+          "support": 4,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 4,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 0.9999999959748977
+        },
+        {
+          "support": 5,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 2,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000322326097
+        },
+        {
+          "support": 6,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.000000073760189
+        },
+        {
+          "support": 7,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 2,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 0.9999999985290631
+        }
+      ]
+    },
+    {
+      "site": "site2",
+      "supports": [
+        {
+          "support": 0,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.000000027029795
+        },
+        {
+          "support": 1,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000254309962
+        },
+        {
+          "support": 2,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000547505175
+        },
+        {
+          "support": 3,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 2,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 0.9999999916740762
+        },
+        {
+          "support": 4,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000667986868
+        },
+        {
+          "support": 5,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000452677766
+        },
+        {
+          "support": 6,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000286096469
+        },
+        {
+          "support": 7,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000285883957
+        }
+      ]
+    },
+    {
+      "site": "site3",
+      "supports": [
+        {
+          "support": 0,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000088407863
+        },
+        {
+          "support": 1,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000231195052
+        },
+        {
+          "support": 2,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 2,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000210075277
+        },
+        {
+          "support": 3,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 2,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000607145787
+        },
+        {
+          "support": 4,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000420271176
+        },
+        {
+          "support": 5,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 2,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000274928598
+        },
+        {
+          "support": 6,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 0,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 1.0000000241477076
+        },
+        {
+          "support": 7,
+          "far_mask_entries_changed_vs_core_at_zero_shift": 4,
+          "entries_within_1e_6_of_threshold2": 2,
+          "depth_basis_norm": 0.999999995971598
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "NoCTorlabels;synthetic arithmetic andgeometry support only.",
+    "Oneinteger shiftinsurface coordinates isnot oneglobalXYZtranslation.",
+    "Support-centre Jacobians arelocal linear metrics; reportthreshold-near decisions without claimofcalibratedphysicalconfidence."
+  ]
+}

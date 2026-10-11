@@ -1,0 +1,345 @@
+{
+  "kind": "coordinate_only_pipeline_mapping_check_not_CT_registration",
+  "site_selection": "fixed Cartesian product (.25,.5,.75) times native mesh dimension minus1; no fitting or selection by response",
+  "interpolation": "float64 bilinear representative geometry, not exact staged FP32 renderer replay",
+  "source_mapping": "qF=(qN+0.5)*NF/NN-0.5",
+  "shape_fine_yxc": [
+    1244,
+    1552,
+    3
+  ],
+  "shape_native_yxc": [
+    320,
+    399,
+    3
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20260102150214-x.tif",
+      "sha256": "a0b0700430edb8ba2a5c15545c721a88e920dca575f2f8c7a89eb84463163525",
+      "bytes": 7722886
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20260102150214-y.tif",
+      "sha256": "ec89f482d673b1c767d2e9dd04991bc68aa07a6e28ab24c47d027439fdfb32b3",
+      "bytes": 7722886
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20260102150214-z.tif",
+      "sha256": "149a6c9035e184aa203c82e4db935ed0d488bbfe1897e06b11a4b026417ff3f6",
+      "bytes": 7722886
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20250728140407-x.tif",
+      "sha256": "4cc50b835663e35f00accd7e12b2e2eea2f1ac8c60c140601974752105128573",
+      "bytes": 510854
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20250728140407-y.tif",
+      "sha256": "45ed92a905f13752fc027fe857b2cd8ce0505bf64a0f9ebd3d7ea7ab27f802a5",
+      "bytes": 510854
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20250728140407-z.tif",
+      "sha256": "aafc0207e6713280e1dd50863976998225ab911a3c4a528ff3add21b10f9a755",
+      "bytes": 510854
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/source-evidence/PHerc0139-retained-catalog.json",
+      "sha256": "2a460d1f57ca0d3535ce2a8a8ab8b80fe4141f143e8de486394a150bc93f094d"
+    }
+  ],
+  "records": [
+    {
+      "fraction_xy": [
+        0.25,
+        0.25
+      ],
+      "native_mesh_xy": [
+        99.5,
+        79.75
+      ],
+      "fine_mesh_source_mapping_xy": [
+        388.47243107769424,
+        311.471875
+      ],
+      "fine_mesh_naive_ratio_xy": [
+        387.02756892230576,
+        310.028125
+      ],
+      "status": "measured",
+      "source_mapping_residual_xyz_native_voxels": [
+        -0.09929183743224712,
+        0.12772359881137163,
+        0.016621812356333976
+      ],
+      "source_mapping_residual_native_voxels": 0.16262985986592124,
+      "naive_ratio_residual_xyz_native_voxels": [
+        -7.45940416254507,
+        -4.126234728647887,
+        -6.08856121141207
+      ],
+      "naive_ratio_residual_native_voxels": 10.47564323185962
+    },
+    {
+      "fraction_xy": [
+        0.5,
+        0.25
+      ],
+      "native_mesh_xy": [
+        199.0,
+        79.75
+      ],
+      "fine_mesh_source_mapping_xy": [
+        775.5,
+        311.471875
+      ],
+      "fine_mesh_naive_ratio_xy": [
+        774.0551378446115,
+        310.028125
+      ],
+      "status": "measured",
+      "source_mapping_residual_xyz_native_voxels": [
+        -0.010598573121114896,
+        -0.01894178256543455,
+        0.02382656518739168
+      ],
+      "source_mapping_residual_native_voxels": 0.03223082511492445,
+      "naive_ratio_residual_xyz_native_voxels": [
+        3.2802243472824557,
+        -9.342381676921832,
+        -3.6291930601869353
+      ],
+      "naive_ratio_residual_native_voxels": 10.54566306279024
+    },
+    {
+      "fraction_xy": [
+        0.75,
+        0.25
+      ],
+      "native_mesh_xy": [
+        298.5,
+        79.75
+      ],
+      "fine_mesh_source_mapping_xy": [
+        1162.5275689223056,
+        311.471875
+      ],
+      "fine_mesh_naive_ratio_xy": [
+        1161.0827067669172,
+        310.028125
+      ],
+      "status": "measured",
+      "source_mapping_residual_xyz_native_voxels": [
+        0.11557971032198111,
+        0.026486941066195868,
+        -0.0019959213382207963
+      ],
+      "source_mapping_residual_native_voxels": 0.11859262703534974,
+      "naive_ratio_residual_xyz_native_voxels": [
+        -1.5227577863606712,
+        6.860461801968086,
+        -7.755854838941559
+      ],
+      "naive_ratio_residual_native_voxels": 10.466040879669753
+    },
+    {
+      "fraction_xy": [
+        0.25,
+        0.5
+      ],
+      "native_mesh_xy": [
+        99.5,
+        159.5
+      ],
+      "fine_mesh_source_mapping_xy": [
+        388.47243107769424,
+        621.5
+      ],
+      "fine_mesh_naive_ratio_xy": [
+        387.02756892230576,
+        620.05625
+      ],
+      "status": "measured",
+      "source_mapping_residual_xyz_native_voxels": [
+        -0.08464853314853826,
+        0.09748427939166504,
+        -0.11210929506796674
+      ],
+      "source_mapping_residual_native_voxels": 0.17098845847994484,
+      "naive_ratio_residual_xyz_native_voxels": [
+        -3.5220798303653282,
+        -8.368868666374965,
+        -5.456857256674084
+      ],
+      "naive_ratio_residual_native_voxels": 10.593408337556689
+    },
+    {
+      "fraction_xy": [
+        0.5,
+        0.5
+      ],
+      "native_mesh_xy": [
+        199.0,
+        159.5
+      ],
+      "fine_mesh_source_mapping_xy": [
+        775.5,
+        621.5
+      ],
+      "fine_mesh_naive_ratio_xy": [
+        774.0551378446115,
+        620.05625
+      ],
+      "status": "measured",
+      "source_mapping_residual_xyz_native_voxels": [
+        -0.05185150936313221,
+        -0.1934310610340617,
+        0.008774816976256261
+      ],
+      "source_mapping_residual_native_voxels": 0.20045236793055027,
+      "naive_ratio_residual_xyz_native_voxels": [
+        6.93796681563208,
+        -2.4501139677277024,
+        -7.506718345042827
+      ],
+      "naive_ratio_residual_native_voxels": 10.511387268171068
+    },
+    {
+      "fraction_xy": [
+        0.75,
+        0.5
+      ],
+      "native_mesh_xy": [
+        298.5,
+        159.5
+      ],
+      "fine_mesh_source_mapping_xy": [
+        1162.5275689223056,
+        621.5
+      ],
+      "fine_mesh_naive_ratio_xy": [
+        1161.0827067669172,
+        620.05625
+      ],
+      "status": "measured",
+      "source_mapping_residual_xyz_native_voxels": [
+        -0.3266872548902029,
+        0.06308866781955658,
+        0.052027696030563675
+      ],
+      "source_mapping_residual_native_voxels": 0.33676642301332754,
+      "naive_ratio_residual_xyz_native_voxels": [
+        -0.731744118993447,
+        7.195168912958252,
+        -7.632797251201737
+      ],
+      "naive_ratio_residual_native_voxels": 10.515013029931781
+    },
+    {
+      "fraction_xy": [
+        0.25,
+        0.75
+      ],
+      "native_mesh_xy": [
+        99.5,
+        239.25
+      ],
+      "fine_mesh_source_mapping_xy": [
+        388.47243107769424,
+        931.528125
+      ],
+      "fine_mesh_naive_ratio_xy": [
+        387.02756892230576,
+        930.084375
+      ],
+      "status": "measured",
+      "source_mapping_residual_xyz_native_voxels": [
+        0.15351755137544387,
+        -0.19919829279342594,
+        0.016576364180764358
+      ],
+      "source_mapping_residual_native_voxels": 0.25203645427116456,
+      "naive_ratio_residual_xyz_native_voxels": [
+        -5.380804859290947,
+        -4.511191054199571,
+        -7.865798316242945
+      ],
+      "naive_ratio_residual_native_voxels": 10.543940857813537
+    },
+    {
+      "fraction_xy": [
+        0.5,
+        0.75
+      ],
+      "native_mesh_xy": [
+        199.0,
+        239.25
+      ],
+      "fine_mesh_source_mapping_xy": [
+        775.5,
+        931.528125
+      ],
+      "fine_mesh_naive_ratio_xy": [
+        774.0551378446115,
+        930.084375
+      ],
+      "status": "measured",
+      "source_mapping_residual_xyz_native_voxels": [
+        0.007891112407378387,
+        0.025817539766649134,
+        -0.003600865319640434
+      ],
+      "source_mapping_residual_native_voxels": 0.02723566128586893,
+      "naive_ratio_residual_xyz_native_voxels": [
+        7.058745245857608,
+        -2.835853402722023,
+        -7.4609150105443405
+      ],
+      "naive_ratio_residual_native_voxels": 10.655195998301172
+    },
+    {
+      "fraction_xy": [
+        0.75,
+        0.75
+      ],
+      "native_mesh_xy": [
+        298.5,
+        239.25
+      ],
+      "fine_mesh_source_mapping_xy": [
+        1162.5275689223056,
+        931.528125
+      ],
+      "fine_mesh_naive_ratio_xy": [
+        1161.0827067669172,
+        930.084375
+      ],
+      "status": "measured",
+      "source_mapping_residual_xyz_native_voxels": [
+        -0.17852667637089326,
+        0.07824325445517388,
+        0.06322755586370477
+      ],
+      "source_mapping_residual_native_voxels": 0.20491828826210864,
+      "naive_ratio_residual_xyz_native_voxels": [
+        0.672745409975505,
+        7.393614699036789,
+        -7.415222325754257
+      ],
+      "naive_ratio_residual_native_voxels": 10.49302848775416
+    }
+  ],
+  "summary": {
+    "measured": 9,
+    "total": 9,
+    "source_mapping_residual_range_native_voxels": [
+      0.02723566128586893,
+      0.33676642301332754
+    ],
+    "naive_ratio_residual_range_native_voxels": [
+      10.466040879669753,
+      10.655195998301172
+    ]
+  }
+}

@@ -1,0 +1,3031 @@
+{
+  "purpose": "geometry only; public mesh pipeline correspondence, not physical CT registration",
+  "input_files": {
+    "geometry/responses/20260102150214-x.tif": {
+      "bytes": 7722886,
+      "sha256": "a0b0700430edb8ba2a5c15545c721a88e920dca575f2f8c7a89eb84463163525"
+    },
+    "geometry/responses/20260102150214-y.tif": {
+      "bytes": 7722886,
+      "sha256": "ec89f482d673b1c767d2e9dd04991bc68aa07a6e28ab24c47d027439fdfb32b3"
+    },
+    "geometry/responses/20260102150214-z.tif": {
+      "bytes": 7722886,
+      "sha256": "149a6c9035e184aa203c82e4db935ed0d488bbfe1897e06b11a4b026417ff3f6"
+    },
+    "geometry/responses/20250728140407-x.tif": {
+      "bytes": 510854,
+      "sha256": "4cc50b835663e35f00accd7e12b2e2eea2f1ac8c60c140601974752105128573"
+    },
+    "geometry/responses/20250728140407-y.tif": {
+      "bytes": 510854,
+      "sha256": "45ed92a905f13752fc027fe857b2cd8ce0505bf64a0f9ebd3d7ea7ab27f802a5"
+    },
+    "geometry/responses/20250728140407-z.tif": {
+      "bytes": 510854,
+      "sha256": "aafc0207e6713280e1dd50863976998225ab911a3c4a528ff3add21b10f9a755"
+    },
+    "geometry/responses/650bd56-vc_transform_geom.cpp": {
+      "bytes": 18472,
+      "sha256": "8022c0d4ba6d0da63e0944b2a5ddce8c96cea97d806eb5944f0103ee5e96b118"
+    },
+    "geometry/responses/d9a472e-vc_transform_geom.cpp": {
+      "bytes": 18472,
+      "sha256": "8022c0d4ba6d0da63e0944b2a5ddce8c96cea97d806eb5944f0103ee5e96b118"
+    },
+    "geometry/responses/d9a472e-QuadSurface.cpp": {
+      "bytes": 94956,
+      "sha256": "a19cadb57f65a9de522b8d0449541f933c8dfb9d074921499871e2c565970519"
+    },
+    "geometry-review/sources/650bd56-AffineTransform.cpp": {
+      "bytes": 16645,
+      "sha256": "b4664a1ad4883558083f68edf5131f6e07734f260bcc0cd370033c6353dcd93a"
+    },
+    "geometry-review/sources/d9a472e-AffineTransform.cpp": {
+      "bytes": 16645,
+      "sha256": "b4664a1ad4883558083f68edf5131f6e07734f260bcc0cd370033c6353dcd93a"
+    },
+    "geometry-review/CONTRACT.md": {
+      "bytes": 11468,
+      "sha256": "44b1800b8168ee30ad1400abbdf3609ec174f0ea9ecf3fb95df38afcb13e2b03"
+    },
+    "metadata/CATALOG_EXTRACT.json": {
+      "bytes": 35768,
+      "sha256": "7194caf910b2747475e2bda525d75b644110b20ef13f32d0eb5844c1e39a7868"
+    }
+  },
+  "affine_fine_to_native": [
+    [
+      -0.2569036650583705,
+      -0.009715391643719536,
+      0.002790733227688403,
+      6677.364709056732
+    ],
+    [
+      0.009850885045974334,
+      -0.25680016838938274,
+      -0.0014215065457306453,
+      6689.120376657908
+    ],
+    [
+      0.0029113360690184954,
+      -0.0014844301309079428,
+      0.257134581099402,
+      624.1652625002474
+    ]
+  ],
+  "source_mapping_derivation": "Both meshes resample the same source with half-pixel bilinear mapping. Composing source coordinates cancels unknown common grid dimensions: q_f=(q_n+0.5)*(N_f/N_n)-0.5. Points then interpolate each saved grid independently; two resamplings need not commute on curved bilinear geometry.",
+  "normal_implementation": "FP32 centered +/-1 mesh differences, cross product, normalize, flip normal, renormalize; nearest mesh vertex floor(q+0.5). Geometry point interpolation is independent float64, not claimed bit-exact renderer arithmetic.",
+  "fixed_sites": "native pixels nearest 5x5 normalized fractions .1,.3,.5,.7,.9; all25 retained, invalid stencils are unknown",
+  "fine_mesh_zyx_channels_shape": [
+    1244,
+    1552,
+    3
+  ],
+  "native_mesh_zyx_channels_shape": [
+    320,
+    399,
+    3
+  ],
+  "mesh_ratio_xy": [
+    3.889724310776942,
+    3.8875
+  ],
+  "extra_fine_render_pixels_vs_naive_resize_xy": [
+    28.89724267716695,
+    28.874999569728978
+  ],
+  "extra_native_equivalent_pixels_vs_naive_resize_xy": [
+    7.429123600637638,
+    7.4276526224383215
+  ],
+  "summary": {
+    "coordinate_valid_sites": 24,
+    "normal_valid_sites": 24,
+    "source_derived_residual_native_voxels": {
+      "n": 24,
+      "min": 0.0031559424511722026,
+      "median": 0.0566661028352782,
+      "max": 0.35942324915654905
+    },
+    "naive_resize_residual_native_voxels": {
+      "n": 24,
+      "min": 10.299110609378046,
+      "median": 10.505913317225264,
+      "max": 12.412739091278267
+    },
+    "geometric_normal_angle_degrees": {
+      "n": 24,
+      "min": 0.1563221897575781,
+      "median": 1.2404460931114105,
+      "max": 4.434182204612131
+    },
+    "affine_ray_angle_degrees": {
+      "n": 24,
+      "min": 0.16999516356470104,
+      "median": 1.236817701707332,
+      "max": 4.376923666010888
+    },
+    "ray_only_error_at_native_plus13_5": {
+      "n": 24,
+      "min": 0.0568178280515452,
+      "median": 0.2940699413299226,
+      "max": 1.0335911080726552
+    },
+    "total_error_at_native_plus13_5": {
+      "n": 24,
+      "min": 0.07675448288478258,
+      "median": 0.29700196964987435,
+      "max": 1.0829184581870406
+    }
+  },
+  "sites": [
+    {
+      "site": "u0.1-v0.1",
+      "normalized_xy": [
+        0.1,
+        0.1
+      ],
+      "native_render_xy": [
+        798,
+        640
+      ],
+      "native_mesh_xy": [
+        39.9249976221472,
+        32.024998093023896
+      ],
+      "fine_mesh_xy_source_derived": [
+        156.74209601396606,
+        125.9409300866304
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        155.29723385857767,
+        124.49718008663041
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        2946.7694267156207,
+        2302.566734052282,
+        3150.0981946748275
+      ],
+      "mapped_fine_xyz": [
+        2946.7739016494543,
+        2302.5785132075716,
+        3150.093114144074
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.004474933833535033,
+        0.011779155289787013,
+        -0.005080530753275525
+      ],
+      "source_derived_residual_norm_native_voxels": 0.013586218196776183,
+      "naive_resize_residual_norm_native_voxels": 10.412601981723517,
+      "naive_resize_residual_native_voxels_xyz": [
+        -7.869554680224155,
+        -0.3870481088356428,
+        -6.807538683415714
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.20449386537075043,
+        -0.8878470659255981,
+        -0.4122012257575989
+      ],
+      "native_render_normal": [
+        0.23750191926956177,
+        0.8899949789047241,
+        -0.389232337474823
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.272897794001654,
+      "affine_ray_vs_native_normal_angle_degrees": 1.2832575956012602,
+      "affine_ray_length_per_nominal_native_voxel": 1.0026896274043526,
+      "residual_normal_component_native_voxels": 0.013523701298428486,
+      "residual_tangent_norm_native_voxels": 0.0013018582056464091,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.3049299866089006,
+          "base_plus_ray_discrepancy_native_voxels": 0.3040659087732963,
+          "base_plus_ray_vector_native_voxels": [
+            0.049197065989541364,
+            0.09023749816732968,
+            0.28616938952419846
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.1355244384928447,
+          "base_plus_ray_discrepancy_native_voxels": 0.13503905116790998,
+          "base_plus_ray_vector_native_voxels": [
+            0.02435143701398229,
+            0.0466495299020282,
+            0.12436387825893513
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.013586218196776183,
+          "base_plus_ray_vector_native_voxels": [
+            0.004474933833535033,
+            0.011779155289787013,
+            -0.005080530753275525
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.1355244384928447,
+          "base_plus_ray_discrepancy_native_voxels": 0.13735855330867866,
+          "base_plus_ray_vector_native_voxels": [
+            -0.015401569346912225,
+            -0.02309121932245417,
+            -0.13452493976548618
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.3049299866089006,
+          "base_plus_ray_discrepancy_native_voxels": 0.30639465928481663,
+          "base_plus_ray_vector_native_voxels": [
+            -0.0402471983224713,
+            -0.06667918758775565,
+            -0.2963304510307495
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.3-v0.1",
+      "normalized_xy": [
+        0.3,
+        0.1
+      ],
+      "native_render_xy": [
+        2394,
+        640
+      ],
+      "native_mesh_xy": [
+        119.72499881125987,
+        32.024998093023896
+      ],
+      "fine_mesh_xy_source_derived": [
+        467.14210063928647,
+        125.9409300866304
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        465.69723848389805,
+        124.49718008663041
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        4280.977648388704,
+        2851.8321216959976,
+        3000.1233749554685
+      ],
+      "mapped_fine_xyz": [
+        4281.088844369086,
+        2851.7902855662614,
+        3000.162642897148
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.11119598038112599,
+        -0.041836129736111616,
+        0.0392679416795545
+      ],
+      "source_derived_residual_norm_native_voxels": 0.12512705162340163,
+      "naive_resize_residual_norm_native_voxels": 10.634068630608525,
+      "naive_resize_residual_native_voxels_xyz": [
+        -1.2995165080074003,
+        -8.993193667711694,
+        -5.5242320860857035
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.9052080512046814,
+        -0.2557262182235718,
+        -0.33941495418548584
+      ],
+      "native_render_normal": [
+        -0.9040859937667847,
+        0.3062833547592163,
+        -0.2980251908302307
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.9324446988538075,
+      "affine_ray_vs_native_normal_angle_degrees": 1.915620694654604,
+      "affine_ray_length_per_nominal_native_voxel": 1.0033404255927876,
+      "residual_normal_component_native_voxels": -0.12504727440401986,
+      "residual_tangent_norm_native_voxels": 0.004467447301268374,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.45433324776093464,
+          "base_plus_ray_discrepancy_native_voxels": 0.4816434857033101,
+          "base_plus_ray_vector_native_voxels": [
+            0.0765922545301459,
+            0.13805507483678076,
+            0.45503282318777283
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.2019258878937487,
+          "base_plus_ray_discrepancy_native_voxels": 0.24664357149824287,
+          "base_plus_ray_vector_native_voxels": [
+            0.09581654666957928,
+            0.03811551674072944,
+            0.22405233346098485
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.12512705162340163,
+          "base_plus_ray_vector_native_voxels": [
+            0.11119598038112599,
+            -0.041836129736111616,
+            0.0392679416795545
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.2019258878937487,
+          "base_plus_ray_discrepancy_native_voxels": 0.22809786307170773,
+          "base_plus_ray_vector_native_voxels": [
+            0.1265754140926727,
+            -0.12178777621295267,
+            -0.14551645010187586
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.45433324776093464,
+          "base_plus_ray_discrepancy_native_voxels": 0.4606197030278815,
+          "base_plus_ray_vector_native_voxels": [
+            0.14579970623210609,
+            -0.221727334309004,
+            -0.37649693982866383
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.5-v0.1",
+      "normalized_xy": [
+        0.5,
+        0.1
+      ],
+      "native_render_xy": [
+        3990,
+        640
+      ],
+      "native_mesh_xy": [
+        199.52500000037253,
+        32.024998093023896
+      ],
+      "fine_mesh_xy_source_derived": [
+        777.5421052646069,
+        125.9409300866304
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        776.0972431092185,
+        124.49718008663041
+      ],
+      "status": "invalid_coordinate_stencil"
+    },
+    {
+      "site": "u0.7-v0.1",
+      "normalized_xy": [
+        0.7,
+        0.1
+      ],
+      "native_render_xy": [
+        5586,
+        640
+      ],
+      "native_mesh_xy": [
+        279.3250011894852,
+        32.024998093023896
+      ],
+      "fine_mesh_xy_source_derived": [
+        1087.9421098899272,
+        125.9409300866304
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1086.4972477345389,
+        124.49718008663041
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        1922.2419028483291,
+        3948.9691077712973,
+        3019.420759287205
+      ],
+      "mapped_fine_xyz": [
+        1922.262897343534,
+        3948.9166407287216,
+        3019.4291346566342
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.020994495204831765,
+        -0.05246704257569945,
+        0.008375369429359125
+      ],
+      "source_derived_residual_norm_native_voxels": 0.05712885609413343,
+      "naive_resize_residual_norm_native_voxels": 10.393493381700644,
+      "naive_resize_residual_native_voxels_xyz": [
+        7.018309429156034,
+        2.001030265162626,
+        -7.4002645432428835
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.46362972259521484,
+        0.8794884085655212,
+        0.10746054351329803
+      ],
+      "native_render_normal": [
+        0.405906617641449,
+        -0.9051311612129211,
+        0.12640203535556793
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 2.212680886982097,
+      "affine_ray_vs_native_normal_angle_degrees": 2.26698423074753,
+      "affine_ray_length_per_nominal_native_voxel": 1.0031545276298628,
+      "residual_normal_component_native_voxels": 0.05707002345235929,
+      "residual_tangent_norm_native_voxels": 0.002592078047587406,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.536644880000563,
+          "base_plus_ray_discrepancy_native_voxels": 0.5386941692610645,
+          "base_plus_ray_vector_native_voxels": [
+            -0.3399099594665934,
+            -0.12443024938865593,
+            0.39896082575656994
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.23850883555580576,
+          "base_plus_ray_discrepancy_native_voxels": 0.24429295614464336,
+          "base_plus_ray_vector_native_voxels": [
+            -0.139407484649135,
+            -0.08445069004812455,
+            0.18196890557478615
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.05712885609413343,
+          "base_plus_ray_vector_native_voxels": [
+            0.020994495204831765,
+            -0.05246704257569945,
+            0.008375369429359125
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.23850883555580576,
+          "base_plus_ray_discrepancy_native_voxels": 0.24621391766456371,
+          "base_plus_ray_vector_native_voxels": [
+            0.18139647505879852,
+            -0.02048339510327435,
+            -0.1652181667160679
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.536644880000563,
+          "base_plus_ray_discrepancy_native_voxels": 0.5406583568789234,
+          "base_plus_ray_vector_native_voxels": [
+            0.38189894987625694,
+            0.01949616423725703,
+            -0.3822100868978517
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.9-v0.1",
+      "normalized_xy": [
+        0.9,
+        0.1
+      ],
+      "native_render_xy": [
+        7182,
+        640
+      ],
+      "native_mesh_xy": [
+        359.12500237859786,
+        32.024998093023896
+      ],
+      "fine_mesh_xy_source_derived": [
+        1398.3421145152477,
+        125.9409300866304
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1396.8972523598595,
+        124.49718008663041
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        2355.2718647448705,
+        2717.393204732749,
+        3095.176372919965
+      ],
+      "mapped_fine_xyz": [
+        2355.2701563569635,
+        2717.3906042876606,
+        3095.175844650283
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.0017083879070014518,
+        -0.0026004450883192476,
+        -0.0005282696820358979
+      ],
+      "source_derived_residual_norm_native_voxels": 0.0031559424511722026,
+      "naive_resize_residual_norm_native_voxels": 10.640514244243912,
+      "naive_resize_residual_native_voxels_xyz": [
+        -3.6285722170146073,
+        6.392834152773958,
+        -7.693222897004489
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.6056880950927734,
+        -0.7477736473083496,
+        0.27198633551597595
+      ],
+      "native_render_normal": [
+        0.646196186542511,
+        0.7113901376724243,
+        0.27632346749305725
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 0.9476540357987453,
+      "affine_ray_vs_native_normal_angle_degrees": 0.9215478504903933,
+      "affine_ray_length_per_nominal_native_voxel": 1.0029355523788113,
+      "residual_normal_component_native_voxels": -0.0030998580503403036,
+      "residual_tangent_norm_native_voxels": 0.000592329102906726,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.22103235237926397,
+          "base_plus_ray_discrepancy_native_voxels": 0.2221587562649652,
+          "base_plus_ray_vector_native_voxels": [
+            0.10152241427732484,
+            -0.1807977621614949,
+            0.0797488657091433
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.09823660105745065,
+          "base_plus_ray_discrepancy_native_voxels": 0.09938729892988361,
+          "base_plus_ray_vector_native_voxels": [
+            0.04417196861936579,
+            -0.08179925267639732,
+            0.03515045715848819
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.0031559424511722026,
+          "base_plus_ray_vector_native_voxels": [
+            -0.0017083879070014518,
+            -0.0026004450883192476,
+            -0.0005282696820358979
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.09823660105745065,
+          "base_plus_ray_discrepancy_native_voxels": 0.09717481325720986,
+          "base_plus_ray_vector_native_voxels": [
+            -0.04758874443336869,
+            0.07659836249975882,
+            -0.03620699652255999
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.22103235237926397,
+          "base_plus_ray_discrepancy_native_voxels": 0.21994546723434935,
+          "base_plus_ray_vector_native_voxels": [
+            -0.10493919009132774,
+            0.1755968719848564,
+            -0.0808054050732151
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.1-v0.3",
+      "normalized_xy": [
+        0.1,
+        0.3
+      ],
+      "native_render_xy": [
+        798,
+        1920
+      ],
+      "native_mesh_xy": [
+        39.9249976221472,
+        96.02499904669821
+      ],
+      "fine_mesh_xy_source_derived": [
+        156.74209601396606,
+        374.74093379403934
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        155.29723385857767,
+        373.2971837940393
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        3019.136416377482,
+        2528.6919990380443,
+        4378.069880580635
+      ],
+      "mapped_fine_xyz": [
+        3019.1347963578755,
+        2528.685777119106,
+        4378.070471758009
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.0016200196064346528,
+        -0.006221918938081217,
+        0.0005911773741900106
+      ],
+      "source_derived_residual_norm_native_voxels": 0.006456487395251428,
+      "naive_resize_residual_norm_native_voxels": 10.51793237061644,
+      "naive_resize_residual_native_voxels_xyz": [
+        -7.57239118274174,
+        0.4877614087604343,
+        -7.283397691772734
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.14736884832382202,
+        -0.9789420962333679,
+        -0.1412617415189743
+      ],
+      "native_render_normal": [
+        0.1769832968711853,
+        0.975604236125946,
+        -0.12989723682403564
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 0.5871358508634443,
+      "affine_ray_vs_native_normal_angle_degrees": 0.5568714648420603,
+      "affine_ray_length_per_nominal_native_voxel": 1.0027392241271391,
+      "residual_normal_component_native_voxels": -0.006433639191147219,
+      "residual_tangent_norm_native_voxels": 0.0005426937002761003,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.1364936017638832,
+          "base_plus_ray_discrepancy_native_voxels": 0.13845388277598827,
+          "base_plus_ray_vector_native_voxels": [
+            -0.08720102250787377,
+            -0.013824271732053195,
+            0.1066505923115608
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.060663823006170306,
+          "base_plus_ray_discrepancy_native_voxels": 0.06279173979294048,
+          "base_plus_ray_vector_native_voxels": [
+            -0.03965602089596315,
+            -0.009600742402068763,
+            0.04772869512413258
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.006456487395251428,
+          "base_plus_ray_vector_native_voxels": [
+            -0.0016200196064346528,
+            -0.006221918938081217,
+            0.0005911773741900106
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.060663823006170306,
+          "base_plus_ray_discrepancy_native_voxels": 0.059167294311922455,
+          "base_plus_ray_vector_native_voxels": [
+            0.036415981683093845,
+            -0.002843095474093671,
+            -0.04654634037575256
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.1364936017638832,
+          "base_plus_ray_discrepancy_native_voxels": 0.13481432211815644,
+          "base_plus_ray_vector_native_voxels": [
+            0.08396098329500447,
+            0.0013804338558907614,
+            -0.10546823756318077
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.3-v0.3",
+      "normalized_xy": [
+        0.3,
+        0.3
+      ],
+      "native_render_xy": [
+        2394,
+        1920
+      ],
+      "native_mesh_xy": [
+        119.72499881125987,
+        96.02499904669821
+      ],
+      "fine_mesh_xy_source_derived": [
+        467.14210063928647,
+        374.74093379403934
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        465.69723848389805,
+        373.2971837940393
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        4324.302538442048,
+        3037.3852525043726,
+        4241.922164569221
+      ],
+      "mapped_fine_xyz": [
+        4324.458853471871,
+        3037.3994469455633,
+        4241.968931432075
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.15631502982341772,
+        0.014194441190738871,
+        0.04676686285347387
+      ],
+      "source_derived_residual_norm_native_voxels": 0.16377731885266944,
+      "naive_resize_residual_norm_native_voxels": 10.568935315192856,
+      "naive_resize_residual_native_voxels_xyz": [
+        3.252635476778778,
+        -8.206745215709361,
+        -5.811375836784464
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.9268894195556641,
+        0.17079798877239227,
+        -0.33422163128852844
+      ],
+      "native_render_normal": [
+        -0.9394558072090149,
+        -0.13755908608436584,
+        -0.31384769082069397
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 0.6855226853693357,
+      "affine_ray_vs_native_normal_angle_degrees": 0.6967724576597937,
+      "affine_ray_length_per_nominal_native_voxel": 1.0032263090803815,
+      "residual_normal_component_native_voxels": -0.16348130879282732,
+      "residual_tangent_norm_native_voxels": 0.00984247031063566,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.17010716510782006,
+          "base_plus_ray_discrepancy_native_voxels": 0.26280327917506624,
+          "base_plus_ray_vector_native_voxels": [
+            0.15521318712515253,
+            -0.03818104936389169,
+            0.2086064178233552
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.07560318449236447,
+          "base_plus_ray_discrepancy_native_voxels": 0.1960935400652561,
+          "base_plus_ray_vector_native_voxels": [
+            0.15582532195752208,
+            -0.009083554611319156,
+            0.1186955539511989
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.16377731885266944,
+          "base_plus_ray_vector_native_voxels": [
+            0.15631502982341772,
+            0.014194441190738871,
+            0.04676686285347387
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.07560318449236447,
+          "base_plus_ray_discrepancy_native_voxels": 0.1631717711388422,
+          "base_plus_ray_vector_native_voxels": [
+            0.15680473768931336,
+            0.0374724369927969,
+            -0.025161828244251172
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.17010716510782006,
+          "base_plus_ray_discrepancy_native_voxels": 0.2060421122926292,
+          "base_plus_ray_vector_native_voxels": [
+            0.1574168725216829,
+            0.06656993174536943,
+            -0.11507269211640747
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.5-v0.3",
+      "normalized_xy": [
+        0.5,
+        0.3
+      ],
+      "native_render_xy": [
+        3990,
+        1920
+      ],
+      "native_mesh_xy": [
+        199.52500000037253,
+        96.02499904669821
+      ],
+      "fine_mesh_xy_source_derived": [
+        777.5421052646069,
+        374.74093379403934
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        776.0972431092185,
+        373.2971837940393
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        3514.982568571497,
+        4122.365960736693,
+        4176.583406700655
+      ],
+      "mapped_fine_xyz": [
+        3514.9640613983765,
+        4122.3124229785735,
+        4176.564430990451
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.018507173120269726,
+        -0.05353775811909145,
+        -0.01897571020435862
+      ],
+      "source_derived_residual_norm_native_voxels": 0.0597401421079811,
+      "naive_resize_residual_norm_native_voxels": 10.61078864905364,
+      "naive_resize_residual_native_voxels_xyz": [
+        6.830222735294683,
+        -0.3335980525580453,
+        -8.11329806431877
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.30259498953819275,
+        0.920595645904541,
+        -0.24686048924922943
+      ],
+      "native_render_normal": [
+        -0.3437107503414154,
+        -0.9028046131134033,
+        -0.2584701478481293
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 0.6726250114825519,
+      "affine_ray_vs_native_normal_angle_degrees": 0.6352580905114215,
+      "affine_ray_length_per_nominal_native_voxel": 1.0029383084400632,
+      "residual_normal_component_native_voxels": 0.05959990398757553,
+      "residual_tangent_norm_native_voxels": 0.004090997511401612,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.15505772956041822,
+          "base_plus_ray_discrepancy_native_voxels": 0.15407597817838045,
+          "base_plus_ray_vector_native_voxels": [
+            -0.05563776666972575,
+            0.03786221875330098,
+            -0.1386012206393115
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.06891454647129698,
+          "base_plus_ray_discrepancy_native_voxels": 0.0812221819416632,
+          "base_plus_ray_vector_native_voxels": [
+            -0.03500965914225018,
+            -0.012915546175805925,
+            -0.07214260373100434
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.0597401421079811,
+          "base_plus_ray_vector_native_voxels": [
+            -0.018507173120269726,
+            -0.05353775811909145,
+            -0.01897571020435862
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.06891454647129698,
+          "base_plus_ray_discrepancy_native_voxels": 0.10019558747513793,
+          "base_plus_ray_vector_native_voxels": [
+            -0.0020046870982892706,
+            -0.09415997006237697,
+            0.0341911833222871
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.15505772956041822,
+          "base_plus_ray_discrepancy_native_voxels": 0.1774377668350297,
+          "base_plus_ray_vector_native_voxels": [
+            0.0186234204291863,
+            -0.14493773499148388,
+            0.10064980023059425
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.7-v0.3",
+      "normalized_xy": [
+        0.7,
+        0.3
+      ],
+      "native_render_xy": [
+        5586,
+        1920
+      ],
+      "native_mesh_xy": [
+        279.3250011894852,
+        96.02499904669821
+      ],
+      "fine_mesh_xy_source_derived": [
+        1087.9421098899272,
+        374.74093379403934
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1086.4972477345389,
+        373.2971837940393
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        1937.5491659891566,
+        4069.2252593698577,
+        4264.948357451762
+      ],
+      "mapped_fine_xyz": [
+        1937.5434153290762,
+        4069.2210144348082,
+        4264.939484589027
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.005750660080366288,
+        -0.0042449350494280225,
+        -0.008872862734278897
+      ],
+      "source_derived_residual_norm_native_voxels": 0.011393737667470498,
+      "naive_resize_residual_norm_native_voxels": 10.470562407655864,
+      "naive_resize_residual_native_voxels_xyz": [
+        7.3119165157716,
+        -1.9024234102430455,
+        -7.249092299533913
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.04268656671047211,
+        0.9745112061500549,
+        0.22024023532867432
+      ],
+      "native_render_normal": [
+        -0.07238510251045227,
+        -0.9778459072113037,
+        0.19641244411468506
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.164090699090624,
+      "affine_ray_vs_native_normal_angle_degrees": 1.1404059883810953,
+      "affine_ray_length_per_nominal_native_voxel": 1.0027538638883078,
+      "residual_normal_component_native_voxels": 0.0028244138279472594,
+      "residual_tangent_norm_native_voxels": 0.011038113295224273,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.2716233118132404,
+          "base_plus_ray_discrepancy_native_voxels": 0.27925504942013524,
+          "base_plus_ray_vector_native_voxels": [
+            0.061203148300876406,
+            -0.02660862773591871,
+            -0.27116330539863687
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.12072147191699574,
+          "base_plus_ray_discrepancy_native_voxels": 0.12850801390982372,
+          "base_plus_ray_vector_native_voxels": [
+            0.02400658808907491,
+            -0.014184354021201662,
+            -0.1254463928073269
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.011393737667470498,
+          "base_plus_ray_vector_native_voxels": [
+            -0.005750660080366288,
+            -0.0042449350494280225,
+            -0.008872862734278897
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.12072147191699574,
+          "base_plus_ray_discrepancy_native_voxels": 0.11354590455245316,
+          "base_plus_ray_vector_native_voxels": [
+            -0.035507908249807485,
+            0.005694483922345617,
+            0.1077006673387691
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.2716233118132404,
+          "base_plus_ray_discrepancy_native_voxels": 0.2642625568070772,
+          "base_plus_ray_vector_native_voxels": [
+            -0.07270446846160898,
+            0.018118757637062666,
+            0.2534175799300791
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.9-v0.3",
+      "normalized_xy": [
+        0.9,
+        0.3
+      ],
+      "native_render_xy": [
+        7182,
+        1920
+      ],
+      "native_mesh_xy": [
+        359.12500237859786,
+        96.02499904669821
+      ],
+      "fine_mesh_xy_source_derived": [
+        1398.3421145152477,
+        374.74093379403934
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1396.8972523598595,
+        373.2971837940393
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        2355.046958149206,
+        2820.9033033554774,
+        4342.409405638748
+      ],
+      "mapped_fine_xyz": [
+        2355.039575294518,
+        2820.894139358374,
+        4342.408874759907
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.0073828546883305535,
+        -0.009163997103314614,
+        -0.000530878840436344
+      ],
+      "source_derived_residual_norm_native_voxels": 0.011779949855656691,
+      "naive_resize_residual_norm_native_voxels": 10.399434130802847,
+      "naive_resize_residual_native_voxels_xyz": [
+        -4.492787703669819,
+        5.5883051941250415,
+        -7.53219316985269
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.6858274340629578,
+        -0.722503662109375,
+        0.08734625577926636
+      ],
+      "native_render_normal": [
+        0.7232025265693665,
+        0.6842325925827026,
+        0.09382931143045425
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.0374166056781449,
+      "affine_ray_vs_native_normal_angle_degrees": 1.0057810997589156,
+      "affine_ray_length_per_nominal_native_voxel": 1.0028517623911664,
+      "residual_normal_component_native_voxels": -0.011659416656367624,
+      "residual_tangent_norm_native_voxels": 0.001680842649771207,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.2404185995887374,
+          "base_plus_ray_discrepancy_native_voxels": 0.2440483091154139,
+          "base_plus_ray_vector_native_voxels": [
+            0.09086785326464236,
+            -0.18434635364547408,
+            0.1316017945272246
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.10685271092832774,
+          "base_plus_ray_discrepancy_native_voxels": 0.11079773824563575,
+          "base_plus_ray_vector_native_voxels": [
+            0.03628412662410185,
+            -0.08702282223316327,
+            0.058194753767412954
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.011779949855656691,
+          "base_plus_ray_vector_native_voxels": [
+            -0.0073828546883305535,
+            -0.009163997103314614,
+            -0.000530878840436344
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.10685271092832774,
+          "base_plus_ray_discrepancy_native_voxels": 0.10409802736997799,
+          "base_plus_ray_vector_native_voxels": [
+            -0.05104983600076296,
+            0.06869482802653404,
+            -0.05925651144828564
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.2404185995887374,
+          "base_plus_ray_discrepancy_native_voxels": 0.23731869566372182,
+          "base_plus_ray_vector_native_voxels": [
+            -0.10563356264130347,
+            0.16601835943884485,
+            -0.13266355220809728
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.1-v0.5",
+      "normalized_xy": [
+        0.1,
+        0.5
+      ],
+      "native_render_xy": [
+        798,
+        3200
+      ],
+      "native_mesh_xy": [
+        39.9249976221472,
+        160.02500000037253
+      ],
+      "fine_mesh_xy_source_derived": [
+        156.74209601396606,
+        623.5409375014482
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        155.29723385857767,
+        622.0971875014483
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        3088.008572185795,
+        2718.9228630788652,
+        5612.0152676273065
+      ],
+      "mapped_fine_xyz": [
+        3088.012002707177,
+        2718.9514805871486,
+        5612.015480366
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.003430521382142615,
+        0.028617508283332427,
+        0.00021273869333526818
+      ],
+      "source_derived_residual_norm_native_voxels": 0.028823176699517002,
+      "naive_resize_residual_norm_native_voxels": 10.366328075858432,
+      "naive_resize_residual_native_voxels_xyz": [
+        -7.622189292642361,
+        0.7706109651553561,
+        -6.983491025543117
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.04453238472342491,
+        -0.9987359642982483,
+        -0.023310096934437752
+      ],
+      "native_render_normal": [
+        0.09006010740995407,
+        0.9959264397621155,
+        0.004449472762644291
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.3939876499044548,
+      "affine_ray_vs_native_normal_angle_degrees": 1.3697686907465652,
+      "affine_ray_length_per_nominal_native_voxel": 1.0028462447090134,
+      "residual_normal_component_native_voxels": 0.028810832838651577,
+      "residual_tangent_norm_native_voxels": 0.0008435071804587886,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.32547145220492646,
+          "base_plus_ray_discrepancy_native_voxels": 0.324046006629835,
+          "base_plus_ray_vector_native_voxels": [
+            0.10875428479071442,
+            -0.016963756103406225,
+            0.30477951199394526
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.1446539787577451,
+          "base_plus_ray_discrepancy_native_voxels": 0.144826882310767,
+          "base_plus_ray_vector_native_voxels": [
+            0.050241082897063416,
+            0.008359168555893026,
+            0.13557574904916192
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.028823176699517002,
+          "base_plus_ray_vector_native_voxels": [
+            0.003430521382142615,
+            0.028617508283332427,
+            0.00021273869333526818
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.1446539787577451,
+          "base_plus_ray_discrepancy_native_voxels": 0.1501208590807378,
+          "base_plus_ray_vector_native_voxels": [
+            -0.043380040132778186,
+            0.04887584801077183,
+            -0.13515027166249138
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.32547145220492646,
+          "base_plus_ray_discrepancy_native_voxels": 0.3294223262290028,
+          "base_plus_ray_vector_native_voxels": [
+            -0.10189324202642919,
+            0.07419877267007108,
+            -0.3043540346072747
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.3-v0.5",
+      "normalized_xy": [
+        0.3,
+        0.5
+      ],
+      "native_render_xy": [
+        2394,
+        3200
+      ],
+      "native_mesh_xy": [
+        119.72499881125987,
+        160.02500000037253
+      ],
+      "fine_mesh_xy_source_derived": [
+        467.14210063928647,
+        623.5409375014482
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        465.69723848389805,
+        622.0971875014483
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        4402.171389471767,
+        3259.555041125594,
+        5482.732440409558
+      ],
+      "mapped_fine_xyz": [
+        4402.265626091656,
+        3259.5227264371024,
+        5482.782952664871
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.0942366198887612,
+        -0.03231468849162411,
+        0.0505122553131514
+      ],
+      "source_derived_residual_norm_native_voxels": 0.11169721373960301,
+      "naive_resize_residual_norm_native_voxels": 10.685643143870212,
+      "naive_resize_residual_native_voxels_xyz": [
+        0.6615219631512446,
+        -9.398004031948403,
+        -5.042110501158277
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.8258754014968872,
+        -0.19165335595607758,
+        -0.5302818417549133
+      ],
+      "native_render_normal": [
+        -0.8257737159729004,
+        0.24747496843338013,
+        -0.5068075656890869
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.4471398278976815,
+      "affine_ray_vs_native_normal_angle_degrees": 1.4453071896174539,
+      "affine_ray_length_per_nominal_native_voxel": 1.0032956737961787,
+      "residual_normal_component_native_voxels": -0.11141519345339117,
+      "residual_tangent_norm_native_voxels": 0.007932351981514986,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.34398359420306723,
+          "base_plus_ray_discrepancy_native_voxels": 0.36710233405000586,
+          "base_plus_ray_vector_native_voxels": [
+            0.10397738090357023,
+            0.24738640180982563,
+            0.2505050820342443
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.15288159742358545,
+          "base_plus_ray_discrepancy_native_voxels": 0.1939341313148028,
+          "base_plus_ray_vector_native_voxels": [
+            0.0985658470064541,
+            0.0919969071979091,
+            0.1393979560780816
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.11169721373960301,
+          "base_plus_ray_vector_native_voxels": [
+            0.0942366198887612,
+            -0.03231468849162411,
+            0.0505122553131514
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.15288159742358545,
+          "base_plus_ray_discrepancy_native_voxels": 0.18462842004179214,
+          "base_plus_ray_vector_native_voxels": [
+            0.0899073927710683,
+            -0.15662628418115732,
+            -0.03837344545177879
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.34398359420306723,
+          "base_plus_ray_discrepancy_native_voxels": 0.35614300163156365,
+          "base_plus_ray_vector_native_voxels": [
+            0.08449585887395217,
+            -0.31201577879307385,
+            -0.14948057140794152
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.5-v0.5",
+      "normalized_xy": [
+        0.5,
+        0.5
+      ],
+      "native_render_xy": [
+        3990,
+        3200
+      ],
+      "native_mesh_xy": [
+        199.52500000037253,
+        160.02500000037253
+      ],
+      "fine_mesh_xy_source_derived": [
+        777.5421052646069,
+        623.5409375014482
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        776.0972431092185,
+        622.0971875014483
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        3596.860341484686,
+        4345.952381899229,
+        5385.9440710524605
+      ],
+      "mapped_fine_xyz": [
+        3596.920075543344,
+        4346.190235059281,
+        5385.925027720939
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.059734058657795686,
+        0.23785316005159984,
+        -0.01904333152106119
+      ],
+      "source_derived_residual_norm_native_voxels": 0.24597750300725876,
+      "naive_resize_residual_norm_native_voxels": 10.510585548526276,
+      "naive_resize_residual_native_voxels_xyz": [
+        7.045871346787862,
+        -2.0255655446935634,
+        -7.5316126932784755
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.1834869235754013,
+        0.9823533892631531,
+        0.0362546369433403
+      ],
+      "native_render_normal": [
+        -0.2213902622461319,
+        -0.9748402833938599,
+        0.02593996375799179
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 0.4208471265616694,
+      "affine_ray_vs_native_normal_angle_degrees": 0.3924052541385886,
+      "affine_ray_length_per_nominal_native_voxel": 1.0027764116281856,
+      "residual_normal_component_native_voxels": -0.24558736419158966,
+      "residual_tangent_norm_native_voxels": 0.013848648050628461,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.09988519759470452,
+          "base_plus_ray_discrepancy_native_voxels": 0.3014513179492589,
+          "base_plus_ray_vector_native_voxels": [
+            0.051846063303335896,
+            0.27531209446231913,
+            -0.11130199214777209
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.04439342115320201,
+          "base_plus_ray_discrepancy_native_voxels": 0.2674665129782809,
+          "base_plus_ray_vector_native_voxels": [
+            0.056228282944702446,
+            0.25450157534525286,
+            -0.06004718068848826
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.24597750300725876,
+          "base_plus_ray_vector_native_voxels": [
+            0.059734058657795686,
+            0.23785316005159984,
+            -0.01904333152106119
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.04439342115320201,
+          "base_plus_ray_discrepancy_native_voxels": 0.2311126999755362,
+          "base_plus_ray_vector_native_voxels": [
+            0.06323983437088893,
+            0.22120474475794683,
+            0.021960517646365876
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.09988519759470452,
+          "base_plus_ray_discrepancy_native_voxels": 0.22381034890078955,
+          "base_plus_ray_vector_native_voxels": [
+            0.06762205401225548,
+            0.20039422564088055,
+            0.0732153291056497
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.7-v0.5",
+      "normalized_xy": [
+        0.7,
+        0.5
+      ],
+      "native_render_xy": [
+        5586,
+        3200
+      ],
+      "native_mesh_xy": [
+        279.3250011894852,
+        160.02500000037253
+      ],
+      "fine_mesh_xy_source_derived": [
+        1087.9421098899272,
+        623.5409375014482
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1086.4972477345389,
+        622.0971875014483
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        2037.2953320844658,
+        4172.986968179912,
+        5494.618733922907
+      ],
+      "mapped_fine_xyz": [
+        2037.2694411089751,
+        4173.036852457291,
+        5494.618914925865
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.025890975490710844,
+        0.04988427737953316,
+        0.00018100295801559696
+      ],
+      "source_derived_residual_norm_native_voxels": 0.056203349576422965,
+      "naive_resize_residual_norm_native_voxels": 10.477209283938349,
+      "naive_resize_residual_native_voxels_xyz": [
+        6.1855075230573675,
+        3.0213747312036503,
+        -7.898272329774954
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.5088559985160828,
+        0.8593735098838806,
+        0.05042536184191704
+      ],
+      "native_render_normal": [
+        0.48291125893592834,
+        -0.8751245141029358,
+        0.03088415041565895
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 0.7022982714984537,
+      "affine_ray_vs_native_normal_angle_degrees": 0.6471927182601653,
+      "affine_ray_length_per_nominal_native_voxel": 1.003226921328964,
+      "residual_normal_component_native_voxels": -0.05615240744985743,
+      "residual_tangent_norm_native_voxels": 0.002392432985835563,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.15882729232229925,
+          "base_plus_ray_discrepancy_native_voxels": 0.1816449288279224,
+          "base_plus_ray_vector_native_voxels": [
+            0.038741871968904995,
+            0.13007525838718403,
+            -0.12072437484101245
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.07058990769879966,
+          "base_plus_ray_discrepancy_native_voxels": 0.10094860280153853,
+          "base_plus_ray_vector_native_voxels": [
+            0.0028347344913406403,
+            0.08552471338293355,
+            -0.05355472050821909
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.056203349576422965,
+          "base_plus_ray_vector_native_voxels": [
+            -0.025890975490710844,
+            0.04988427737953316,
+            0.00018100295801559696
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.07058990769879966,
+          "base_plus_ray_discrepancy_native_voxels": 0.07805691985651579,
+          "base_plus_ray_vector_native_voxels": [
+            -0.05461668547276233,
+            0.014243841376132771,
+            0.053916726424250286
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.15882729232229925,
+          "base_plus_ray_discrepancy_native_voxels": 0.1541913435027544,
+          "base_plus_ray_vector_native_voxels": [
+            -0.09052382295032668,
+            -0.030306703628117715,
+            0.12108638075704364
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.9-v0.5",
+      "normalized_xy": [
+        0.9,
+        0.5
+      ],
+      "native_render_xy": [
+        7182,
+        3200
+      ],
+      "native_mesh_xy": [
+        359.12500237859786,
+        160.02500000037253
+      ],
+      "fine_mesh_xy_source_derived": [
+        1398.3421145152477,
+        623.5409375014482
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1396.8972523598595,
+        622.0971875014483
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        2391.825572541853,
+        2991.7702248707765,
+        5586.803437333282
+      ],
+      "mapped_fine_xyz": [
+        2391.842111436781,
+        2991.8034651846697,
+        5586.801745548957
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.016538894928089576,
+        0.033240313893202256,
+        -0.0016917843249757425
+      ],
+      "source_derived_residual_norm_native_voxels": 0.03716605504170756,
+      "naive_resize_residual_norm_native_voxels": 10.49301224718093,
+      "naive_resize_residual_native_voxels_xyz": [
+        -7.032404320469141,
+        1.9571320108107102,
+        -7.537786796215187
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.3458860218524933,
+        -0.9307403564453125,
+        -0.11868128180503845
+      ],
+      "native_render_normal": [
+        0.3849376440048218,
+        0.9178101420402527,
+        -0.09719862788915634
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.2079943922211673,
+      "affine_ray_vs_native_normal_angle_degrees": 1.1903778078134037,
+      "affine_ray_length_per_nominal_native_voxel": 1.0027026430019002,
+      "residual_normal_component_native_voxels": 0.03703917957891667,
+      "residual_tangent_norm_native_voxels": 0.0030683628762243095,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.28320989605094465,
+          "base_plus_ray_discrepancy_native_voxels": 0.2836533514457261,
+          "base_plus_ray_vector_native_voxels": [
+            0.07286099463267154,
+            0.0022583985087086256,
+            0.2741266110462578
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.12587106491153097,
+          "base_plus_ray_discrepancy_native_voxels": 0.1293160715865952,
+          "base_plus_ray_vector_native_voxels": [
+            0.041570939241237115,
+            0.019470573722316198,
+            0.12089416917335027
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.03716605504170756,
+          "base_plus_ray_vector_native_voxels": [
+            0.016538894928089576,
+            0.033240313893202256,
+            -0.0016917843249757425
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.12587106491153097,
+          "base_plus_ray_discrepancy_native_voxels": 0.13314291152015095,
+          "base_plus_ray_vector_native_voxels": [
+            -0.008493149385057963,
+            0.047010054064088314,
+            -0.12427773782330176
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.28320989605094465,
+          "base_plus_ray_discrepancy_native_voxels": 0.28760928001493213,
+          "base_plus_ray_vector_native_voxels": [
+            -0.03978320477649239,
+            0.06422222927769589,
+            -0.2775101796962093
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.1-v0.7",
+      "normalized_xy": [
+        0.1,
+        0.7
+      ],
+      "native_render_xy": [
+        798,
+        4480
+      ],
+      "native_mesh_xy": [
+        39.9249976221472,
+        224.02500095404685
+      ],
+      "fine_mesh_xy_source_derived": [
+        156.74209601396606,
+        872.3409412088572
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        155.29723385857767,
+        870.8971912088571
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        3043.4646570686828,
+        2733.557110368914,
+        6747.441217355318
+      ],
+      "mapped_fine_xyz": [
+        3043.4276604699417,
+        2733.62456402657,
+        6747.463613201642
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.03699659874109784,
+        0.06745365765618772,
+        0.02239584632388869
+      ],
+      "source_derived_residual_norm_native_voxels": 0.08012688801002578,
+      "naive_resize_residual_norm_native_voxels": 10.561986036844953,
+      "naive_resize_residual_native_voxels_xyz": [
+        -7.898653003547679,
+        -1.912744137197933,
+        -6.745979516546868
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.4634048044681549,
+        -0.8559009432792664,
+        0.229542076587677
+      ],
+      "native_render_normal": [
+        -0.4254247546195984,
+        0.8678609132766724,
+        0.2565760016441345
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.0400678512305275,
+      "affine_ray_vs_native_normal_angle_degrees": 0.9972083403372963,
+      "affine_ray_length_per_nominal_native_voxel": 1.003409654835522,
+      "residual_normal_component_native_voxels": 0.0800258985817622,
+      "residual_tangent_norm_native_voxels": 0.004021683543281443,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.23981785388544977,
+          "base_plus_ray_discrepancy_native_voxels": 0.2402299698611937,
+          "base_plus_ray_vector_native_voxels": [
+            0.019894080636661704,
+            -0.01926067801596809,
+            0.23862877080833575
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.10658571283797767,
+          "base_plus_ray_discrepancy_native_voxels": 0.12253686975791907,
+          "base_plus_ray_vector_native_voxels": [
+            -0.011711852350982488,
+            0.028913952913007357,
+            0.11849936831697627
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.08012688801002578,
+          "base_plus_ray_vector_native_voxels": [
+            -0.03699659874109784,
+            0.06745365765618772,
+            0.02239584632388869
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.10658571283797767,
+          "base_plus_ray_discrepancy_native_voxels": 0.14334008607724805,
+          "base_plus_ray_vector_native_voxels": [
+            -0.062281345131213195,
+            0.10599336239936807,
+            -0.07370767566919889
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.23981785388544977,
+          "base_plus_ray_discrepancy_native_voxels": 0.26486865429732953,
+          "base_plus_ray_vector_native_voxels": [
+            -0.09388727811885739,
+            0.15416799332834352,
+            -0.19383707816055837
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.3-v0.7",
+      "normalized_xy": [
+        0.3,
+        0.7
+      ],
+      "native_render_xy": [
+        2394,
+        4480
+      ],
+      "native_mesh_xy": [
+        119.72499881125987,
+        224.02500095404685
+      ],
+      "fine_mesh_xy_source_derived": [
+        467.14210063928647,
+        872.3409412088572
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        465.69723848389805,
+        870.8971912088571
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        4353.394814157203,
+        3394.5256166589884,
+        6685.575169235777
+      ],
+      "mapped_fine_xyz": [
+        4353.245098195545,
+        3394.57555560981,
+        6685.561745466299
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.14971596165742085,
+        0.049938950821797334,
+        -0.013423769478322356
+      ],
+      "source_derived_residual_norm_native_voxels": 0.15839496700083414,
+      "naive_resize_residual_norm_native_voxels": 10.501241085924251,
+      "naive_resize_residual_native_voxels_xyz": [
+        -0.8003845314915452,
+        -7.547606796207674,
+        -7.257346663643148
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.9236318469047546,
+        -0.2916244566440582,
+        -0.24871565401554108
+      ],
+      "native_render_normal": [
+        -0.9276955723762512,
+        0.3322486877441406,
+        -0.1702699363231659
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 3.9035532806676145,
+      "affine_ray_vs_native_normal_angle_degrees": 3.882189027360176,
+      "affine_ray_length_per_nominal_native_voxel": 1.0033740426706872,
+      "residual_normal_component_native_voxels": 0.15776864999579407,
+      "residual_tangent_norm_native_voxels": 0.014072013189757518,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.9172175231012545,
+          "base_plus_ray_discrepancy_native_voxels": 0.9417381689480061,
+          "base_plus_ray_vector_native_voxels": [
+            -0.28540112054950395,
+            0.09192382553806921,
+            0.8927300765298979
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.4076522324894465,
+          "base_plus_ray_discrepancy_native_voxels": 0.4476356514965685,
+          "base_plus_ray_vector_native_voxels": [
+            -0.2100204767205689,
+            0.06859889514014039,
+            0.38931127319199776
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.15839496700083414,
+          "base_plus_ray_vector_native_voxels": [
+            -0.14971596165742085,
+            0.049938950821797334,
+            -0.013423769478322356
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.4076522324894465,
+          "base_plus_ray_discrepancy_native_voxels": 0.42680316301416127,
+          "base_plus_ray_vector_native_voxels": [
+            -0.0894114465942728,
+            0.031279006503454276,
+            -0.4161588121486425
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.9172175231012545,
+          "base_plus_ray_discrepancy_native_voxels": 0.919719044957126,
+          "base_plus_ray_vector_native_voxels": [
+            -0.014030802765337747,
+            0.007954076105525454,
+            -0.9195776154865426
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.5-v0.7",
+      "normalized_xy": [
+        0.5,
+        0.7
+      ],
+      "native_render_xy": [
+        3990,
+        4480
+      ],
+      "native_mesh_xy": [
+        199.52500000037253,
+        224.02500095404685
+      ],
+      "fine_mesh_xy_source_derived": [
+        777.5421052646069,
+        872.3409412088572
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        776.0972431092185,
+        870.8971912088571
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        3648.212017902604,
+        4483.336278530594,
+        6650.417365568878
+      ],
+      "mapped_fine_xyz": [
+        3648.134153451824,
+        4483.115397566682,
+        6650.33108923245
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.07786445077999815,
+        -0.22088096391235013,
+        -0.08627633642845467
+      ],
+      "source_derived_residual_norm_native_voxels": 0.24958942113325952,
+      "naive_resize_residual_norm_native_voxels": 10.529335574026142,
+      "naive_resize_residual_native_voxels_xyz": [
+        7.595450393831925,
+        -0.394404564692195,
+        -7.281516736548838
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.2884763181209564,
+        0.9114205837249756,
+        -0.2934178411960602
+      ],
+      "native_render_normal": [
+        -0.31442344188690186,
+        -0.9085453748703003,
+        -0.27510595321655273
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.444392826714965,
+      "affine_ray_vs_native_normal_angle_degrees": 1.4758032044039504,
+      "affine_ray_length_per_nominal_native_voxel": 1.0029836676611632,
+      "residual_normal_component_native_voxels": 0.24889792054752172,
+      "residual_tangent_norm_native_voxels": 0.018566354613444507,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.3505583853983153,
+          "base_plus_ray_discrepancy_native_voxels": 0.39513878720430273,
+          "base_plus_ray_vector_native_voxels": [
+            0.09144329413244498,
+            -0.3272705950270094,
+            0.20165996812000542
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.1558037268436957,
+          "base_plus_ray_discrepancy_native_voxels": 0.27139997660576665,
+          "base_plus_ray_vector_native_voxels": [
+            -0.0026165641522456484,
+            -0.26816524440775424,
+            0.041695354481972036
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.24958942113325952,
+          "base_plus_ray_vector_native_voxels": [
+            -0.07786445077999815,
+            -0.22088096391235013,
+            -0.08627633642845467
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.1558037268436957,
+          "base_plus_ray_discrepancy_native_voxels": 0.3154067430769835,
+          "base_plus_ray_vector_native_voxels": [
+            -0.15311233740775065,
+            -0.173596683416946,
+            -0.21424802733888137
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.3505583853983153,
+          "base_plus_ray_discrepancy_native_voxels": 0.46285792666446945,
+          "base_plus_ray_vector_native_voxels": [
+            -0.24717219569244128,
+            -0.11449133279769086,
+            -0.37421264097691476
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.7-v0.7",
+      "normalized_xy": [
+        0.7,
+        0.7
+      ],
+      "native_render_xy": [
+        5586,
+        4480
+      ],
+      "native_mesh_xy": [
+        279.3250011894852,
+        224.02500095404685
+      ],
+      "fine_mesh_xy_source_derived": [
+        1087.9421098899272,
+        872.3409412088572
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1086.4972477345389,
+        870.8971912088571
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        2125.5353771688015,
+        4212.654076139017,
+        6734.315355023805
+      ],
+      "mapped_fine_xyz": [
+        2125.523405629073,
+        4212.683256919477,
+        6734.309678547459
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.011971539728619973,
+        0.029180780459682865,
+        -0.00567647634579771
+      ],
+      "source_derived_residual_norm_native_voxels": 0.03204774711917417,
+      "naive_resize_residual_norm_native_voxels": 10.451351675642096,
+      "naive_resize_residual_native_voxels_xyz": [
+        6.580323445392423,
+        2.051945331697425,
+        -7.856183269100256
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.4454972445964813,
+        0.8847410678863525,
+        0.13698731362819672
+      ],
+      "native_render_normal": [
+        0.41774600744247437,
+        -0.902614414691925,
+        0.10380520671606064
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.3884465978017537,
+      "affine_ray_vs_native_normal_angle_degrees": 1.3473825655788987,
+      "affine_ray_length_per_nominal_native_voxel": 1.0031227740325745,
+      "residual_normal_component_native_voxels": -0.03192930379993453,
+      "residual_tangent_norm_native_voxels": 0.00275275936500974,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.32074011027048027,
+          "base_plus_ray_discrepancy_native_voxels": 0.32861282526085356,
+          "base_plus_ray_vector_native_voxels": [
+            0.0307172715470537,
+            0.05505809009348622,
+            -0.32250805396126525
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.14255116012021346,
+          "base_plus_ray_discrepancy_native_voxels": 0.15219558764959243,
+          "base_plus_ray_vector_native_voxels": [
+            0.0070012652827905475,
+            0.04068180696359547,
+            -0.14649051084156106
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.03204774711917417,
+          "base_plus_ray_vector_native_voxels": [
+            -0.011971539728619973,
+            0.029180780459682865,
+            -0.00567647634579771
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.14255116012021346,
+          "base_plus_ray_discrepancy_native_voxels": 0.13975795431409896,
+          "base_plus_ray_vector_native_voxels": [
+            -0.030944344740030494,
+            0.01767975395577026,
+            0.13513755814996564
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.32074011027048027,
+          "base_plus_ray_discrepancy_native_voxels": 0.31593696196796683,
+          "base_plus_ray_vector_native_voxels": [
+            -0.054660351004293645,
+            0.0033034708258795065,
+            0.31115510126966983
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.9-v0.7",
+      "normalized_xy": [
+        0.9,
+        0.7
+      ],
+      "native_render_xy": [
+        7182,
+        4480
+      ],
+      "native_mesh_xy": [
+        359.12500237859786,
+        224.02500095404685
+      ],
+      "fine_mesh_xy_source_derived": [
+        1398.3421145152477,
+        872.3409412088572
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1396.8972523598595,
+        870.8971912088571
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        2458.6289869407487,
+        3001.3676913911627,
+        6710.691398904618
+      ],
+      "mapped_fine_xyz": [
+        2458.6461697659606,
+        3001.3836029676268,
+        6710.6994387845825
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.017182825211875752,
+        0.01591157646407737,
+        0.008039879964599095
+      ],
+      "source_derived_residual_norm_native_voxels": 0.02476019825605635,
+      "naive_resize_residual_norm_native_voxels": 10.597017003751658,
+      "naive_resize_residual_native_voxels_xyz": [
+        -3.938418730460853,
+        7.168854604353783,
+        -6.737443947298743
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.6488965153694153,
+        -0.6914096474647522,
+        0.3176257312297821
+      ],
+      "native_render_normal": [
+        0.6762532591819763,
+        0.6664019823074341,
+        0.31399041414260864
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 0.1563221897575781,
+      "affine_ray_vs_native_normal_angle_degrees": 0.16999516356470104,
+      "affine_ray_length_per_nominal_native_voxel": 1.0029806666567878,
+      "residual_normal_component_native_voxels": 0.024747892888524012,
+      "residual_tangent_norm_native_voxels": 0.0007805431218853488,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.0568178280515452,
+          "base_plus_ray_discrepancy_native_voxels": 0.042325115019784205,
+          "base_plus_ray_vector_native_voxels": [
+            -0.036481468679030404,
+            0.01876786667081104,
+            -0.010406007163439118
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.025252368022908978,
+          "base_plus_ray_discrepancy_native_voxels": 0.018430274047061282,
+          "base_plus_ray_vector_native_voxels": [
+            -0.006667972072971429,
+            0.017181038778181223,
+            -0.00015829209230677765
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.02476019825605635,
+          "base_plus_ray_vector_native_voxels": [
+            0.017182825211875752,
+            0.01591157646407737,
+            0.008039879964599095
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.025252368022908978,
+          "base_plus_ray_discrepancy_native_voxels": 0.04649541929521146,
+          "base_plus_ray_vector_native_voxels": [
+            0.04103362249672293,
+            0.014642114149973517,
+            0.016238052021504967
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.0568178280515452,
+          "base_plus_ray_discrepancy_native_voxels": 0.07675448288478258,
+          "base_plus_ray_vector_native_voxels": [
+            0.07084711910278191,
+            0.013055286257343701,
+            0.026485767092637308
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.1-v0.9",
+      "normalized_xy": [
+        0.1,
+        0.9
+      ],
+      "native_render_xy": [
+        798,
+        5760
+      ],
+      "native_mesh_xy": [
+        39.9249976221472,
+        288.02500190772116
+      ],
+      "fine_mesh_xy_source_derived": [
+        156.74209601396606,
+        1121.140944916266
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        155.29723385857767,
+        1119.697194916266
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        3244.2444318063235,
+        2511.76877433739,
+        7774.972056288793
+      ],
+      "mapped_fine_xyz": [
+        3244.2365993387734,
+        2511.752295626118,
+        7774.95388458513
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.00783246755008804,
+        -0.016478711271702196,
+        -0.018171703663028893
+      ],
+      "source_derived_residual_norm_native_voxels": 0.02575085022123046,
+      "naive_resize_residual_norm_native_voxels": 12.412739091278267,
+      "naive_resize_residual_native_voxels_xyz": [
+        -8.84647575795725,
+        6.306852817911022,
+        -6.003296256660178
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.14402015507221222,
+        -0.8653298616409302,
+        0.4800650179386139
+      ],
+      "native_render_normal": [
+        0.15568344295024872,
+        0.8607914447784424,
+        0.484562486410141
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 1.5552338732380546,
+      "affine_ray_vs_native_normal_angle_degrees": 1.5223265594086812,
+      "affine_ray_length_per_nominal_native_voxel": 1.003229924108424,
+      "residual_normal_component_native_voxels": -0.02420944510791469,
+      "residual_tangent_norm_native_voxels": 0.008775481948608128,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.36189442912598446,
+          "base_plus_ray_discrepancy_native_voxels": 0.36979698171952075,
+          "base_plus_ray_vector_native_voxels": [
+            -0.3688379509949541,
+            0.007805388290557158,
+            -0.025445029148048914
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.16084196850043755,
+          "base_plus_ray_discrepancy_native_voxels": 0.16973040726111785,
+          "base_plus_ray_vector_native_voxels": [
+            -0.16827934908113962,
+            -0.005685778132920261,
+            -0.021404292767482236
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.02575085022123046,
+          "base_plus_ray_vector_native_voxels": [
+            -0.00783246755008804,
+            -0.016478711271702196,
+            -0.018171703663028893
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.16084196850043755,
+          "base_plus_ray_discrepancy_native_voxels": 0.15575005325006813,
+          "base_plus_ray_vector_native_voxels": [
+            0.15261441398096354,
+            -0.02727164441048413,
+            -0.01493911455857555
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.36189442912598446,
+          "base_plus_ray_discrepancy_native_voxels": 0.35568463637077347,
+          "base_plus_ray_vector_native_voxels": [
+            0.353173015894778,
+            -0.04076281083396155,
+            -0.010898378178008872
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.3-v0.9",
+      "normalized_xy": [
+        0.3,
+        0.9
+      ],
+      "native_render_xy": [
+        2394,
+        5760
+      ],
+      "native_mesh_xy": [
+        119.72499881125987,
+        288.02500190772116
+      ],
+      "fine_mesh_xy_source_derived": [
+        467.14210063928647,
+        1121.140944916266
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        465.69723848389805,
+        1119.697194916266
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        4249.352898657964,
+        3297.288504872728,
+        7898.169167861783
+      ],
+      "mapped_fine_xyz": [
+        4249.45697112308,
+        3297.3128798254634,
+        7898.328669100559
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        0.10407246511567791,
+        0.02437495273534296,
+        0.15950123877610167
+      ],
+      "source_derived_residual_norm_native_voxels": 0.1920048475617613,
+      "naive_resize_residual_norm_native_voxels": 10.299110609378046,
+      "naive_resize_residual_native_voxels_xyz": [
+        6.3464598708669655,
+        -6.632389048464574,
+        -4.669640453127613
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.6790827512741089,
+        0.1601194441318512,
+        -0.7163856625556946
+      ],
+      "native_render_normal": [
+        -0.7288671135902405,
+        -0.12172374874353409,
+        -0.6737477779388428
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 2.9550500719180777,
+      "affine_ray_vs_native_normal_angle_degrees": 2.9730969075654263,
+      "affine_ray_length_per_nominal_native_voxel": 1.0033176514488082,
+      "residual_normal_component_native_voxels": -0.18628561307936886,
+      "residual_tangent_norm_native_voxels": 0.046513784450190145,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.703029936438229,
+          "base_plus_ray_discrepancy_native_voxels": 0.7783571898004786,
+          "base_plus_ray_vector_native_voxels": [
+            -0.3573013355925287,
+            0.14129157281399213,
+            0.6769138512023829
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.31245774952810174,
+          "base_plus_ray_discrepancy_native_voxels": 0.40951912289369635,
+          "base_plus_ray_vector_native_voxels": [
+            -0.1009825574213028,
+            0.07633789499252036,
+            0.38946239985444886
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.1920048475617613,
+          "base_plus_ray_vector_native_voxels": [
+            0.10407246511567791,
+            0.02437495273534296,
+            0.15950123877610167
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.31245774952810174,
+          "base_plus_ray_discrepancy_native_voxels": 0.31825383177448147,
+          "base_plus_ray_vector_native_voxels": [
+            0.30912748765265863,
+            -0.027587989521834444,
+            -0.07045992230224551
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.703029936438229,
+          "base_plus_ray_discrepancy_native_voxels": 0.6755693829037938,
+          "base_plus_ray_vector_native_voxels": [
+            0.5654462658238846,
+            -0.0925416673433062,
+            -0.35791137365017955
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.5-v0.9",
+      "normalized_xy": [
+        0.5,
+        0.9
+      ],
+      "native_render_xy": [
+        3990,
+        5760
+      ],
+      "native_mesh_xy": [
+        199.52500000037253,
+        288.02500190772116
+      ],
+      "fine_mesh_xy_source_derived": [
+        777.5421052646069,
+        1121.140944916266
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        776.0972431092185,
+        1119.697194916266
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        3660.379923615656,
+        4556.054009572132,
+        7904.867657447833
+      ],
+      "mapped_fine_xyz": [
+        3660.35004420623,
+        4555.881739625919,
+        7904.842519154764
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.02987940942603018,
+        -0.17226994621250924,
+        -0.025138293069176143
+      ],
+      "source_derived_residual_norm_native_voxels": 0.17663988013509566,
+      "naive_resize_residual_norm_native_voxels": 10.397556137507017,
+      "naive_resize_residual_native_voxels_xyz": [
+        7.577882713584586,
+        -1.7316993350013945,
+        -6.905511177669723
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        0.16709516942501068,
+        0.985255777835846,
+        0.036746129393577576
+      ],
+      "native_render_normal": [
+        -0.20261624455451965,
+        -0.9790118932723999,
+        0.021963784471154213
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 0.6705082660525982,
+      "affine_ray_vs_native_normal_angle_degrees": 0.6359478235427745,
+      "affine_ray_length_per_nominal_native_voxel": 1.0027822305906224,
+      "residual_normal_component_native_voxels": 0.17415624787190823,
+      "residual_tangent_norm_native_voxels": 0.029516939549380877,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.1546787258595956,
+          "base_plus_ray_discrepancy_native_voxels": 0.22624070211217398,
+          "base_plus_ray_vector_native_voxels": [
+            -0.004759194578145873,
+            -0.14331743334738295,
+            -0.1749923388548631
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.06874610038204249,
+          "base_plus_ray_discrepancy_native_voxels": 0.184866276404502,
+          "base_plus_ray_vector_native_voxels": [
+            -0.018714869493637154,
+            -0.15940216271689756,
+            -0.09174009119614812
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.17663988013509566,
+          "base_plus_ray_vector_native_voxels": [
+            -0.02987940942603018,
+            -0.17226994621250924,
+            -0.025138293069176143
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.06874610038204249,
+          "base_plus_ray_discrepancy_native_voxels": 0.19411287178364012,
+          "base_plus_ray_vector_native_voxels": [
+            -0.041043949358423204,
+            -0.18513772970812092,
+            0.041463505057795835
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.1546787258595956,
+          "base_plus_ray_discrepancy_native_voxels": 0.2430420862385121,
+          "base_plus_ray_vector_native_voxels": [
+            -0.054999624273914485,
+            -0.20122245907763553,
+            0.12471575271651081
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.7-v0.9",
+      "normalized_xy": [
+        0.7,
+        0.9
+      ],
+      "native_render_xy": [
+        5586,
+        5760
+      ],
+      "native_mesh_xy": [
+        279.3250011894852,
+        288.02500190772116
+      ],
+      "fine_mesh_xy_source_derived": [
+        1087.9421098899272,
+        1121.140944916266
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1086.4972477345389,
+        1119.697194916266
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        2122.849623789018,
+        4314.777417795859,
+        7903.987606745172
+      ],
+      "mapped_fine_xyz": [
+        2122.696127026795,
+        4315.101788492654,
+        7904.007792559049
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.15349676222331254,
+        0.3243706967950857,
+        0.02018581387710583
+      ],
+      "source_derived_residual_norm_native_voxels": 0.35942324915654905,
+      "naive_resize_residual_norm_native_voxels": 10.597876637460752,
+      "naive_resize_residual_native_voxels_xyz": [
+        6.724427748448306,
+        3.5755015461954827,
+        -7.369725189712881
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.4148307144641876,
+        0.9096200466156006,
+        -0.022515611723065376
+      ],
+      "native_render_normal": [
+        0.413377583026886,
+        -0.9052278399467468,
+        -0.09839467704296112
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 4.434182204612131,
+      "affine_ray_vs_native_normal_angle_degrees": 4.376923666010888,
+      "affine_ray_length_per_nominal_native_voxel": 1.0032018315398215,
+      "residual_normal_component_native_voxels": -0.3590676824094493,
+      "residual_tangent_norm_native_voxels": 0.015983398021621794,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 1.0335911080726552,
+          "base_plus_ray_discrepancy_native_voxels": 1.105567236471859,
+          "base_plus_ray_vector_native_voxels": [
+            0.2814595862856759,
+            0.6236955415473635,
+            -0.8683681748554931
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.459373825810069,
+          "base_plus_ray_discrepancy_native_voxels": 0.5926416857707085,
+          "base_plus_ray_vector_native_voxels": [
+            0.039817170447349004,
+            0.4574039611294314,
+            -0.37472707000404926
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.35942324915654905,
+          "base_plus_ray_vector_native_voxels": [
+            -0.15349676222331254,
+            0.3243706967950857,
+            0.02018581387710583
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.459373825810069,
+          "base_plus_ray_discrepancy_native_voxels": 0.5737548257174954,
+          "base_plus_ray_vector_native_voxels": [
+            -0.3468106948939741,
+            0.19133743246073998,
+            0.4150986977582609
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 1.0335911080726552,
+          "base_plus_ray_discrepancy_native_voxels": 1.0829184581870406,
+          "base_plus_ray_vector_native_voxels": [
+            -0.588453110732301,
+            0.025045852042807848,
+            0.9087398026097048
+          ]
+        }
+      ]
+    },
+    {
+      "site": "u0.9-v0.9",
+      "normalized_xy": [
+        0.9,
+        0.9
+      ],
+      "native_render_xy": [
+        7182,
+        5760
+      ],
+      "native_mesh_xy": [
+        359.12500237859786,
+        288.02500190772116
+      ],
+      "fine_mesh_xy_source_derived": [
+        1398.3421145152477,
+        1121.140944916266
+      ],
+      "fine_mesh_xy_naive_canvas_resize": [
+        1396.8972523598595,
+        1119.697194916266
+      ],
+      "status": "coordinate_valid",
+      "native_xyz": [
+        2587.324703145975,
+        2997.6023730318216,
+        7905.77677449519
+      ],
+      "mapped_fine_xyz": [
+        2587.3183692921425,
+        2997.5949648946203,
+        7905.785327595257
+      ],
+      "source_derived_residual_native_voxels_xyz": [
+        -0.006333853832529712,
+        -0.007408137201309728,
+        0.008553100066819752
+      ],
+      "source_derived_residual_norm_native_voxels": 0.012967409992682135,
+      "naive_resize_residual_norm_native_voxels": 10.3771495987459,
+      "naive_resize_residual_native_voxels_xyz": [
+        -8.310502281916342,
+        3.843917268943187,
+        -4.883143009019477
+      ],
+      "normal_status": "valid",
+      "fine_render_normal": [
+        -0.5591833591461182,
+        -0.6224914193153381,
+        -0.5475568771362305
+      ],
+      "native_render_normal": [
+        0.5861871242523193,
+        0.573237955570221,
+        -0.572523295879364
+      ],
+      "geometric_covector_vs_native_normal_angle_degrees": 2.266166979025925,
+      "affine_ray_vs_native_normal_angle_degrees": 2.216341006077878,
+      "affine_ray_length_per_nominal_native_voxel": 1.002881130477787,
+      "residual_normal_component_native_voxels": -0.012856298027629264,
+      "residual_tangent_norm_native_voxels": 0.0016939087018202445,
+      "ray_positions": [
+        {
+          "native_offset_voxels": -13.5,
+          "fine_layer_continuous_nominal": 1.316798666110877,
+          "ray_only_discrepancy_native_voxels": 0.524376677958381,
+          "base_plus_ray_discrepancy_native_voxels": 0.5248954332059386,
+          "base_plus_ray_vector_native_voxels": [
+            0.1008106466458557,
+            -0.4412198063494232,
+            -0.26585242486814337
+          ]
+        },
+        {
+          "native_offset_voxels": -6,
+          "fine_layer_continuous_nominal": 30.585243851604837,
+          "ray_only_discrepancy_native_voxels": 0.233056301314836,
+          "base_plus_ray_discrepancy_native_voxels": 0.2337746271061761,
+          "base_plus_ray_vector_native_voxels": [
+            0.04128592415786381,
+            -0.20021332348936016,
+            -0.11340491101538608
+          ]
+        },
+        {
+          "native_offset_voxels": 0,
+          "fine_layer_continuous_nominal": 54.0,
+          "ray_only_discrepancy_native_voxels": 0.0,
+          "base_plus_ray_discrepancy_native_voxels": 0.012967409992682135,
+          "base_plus_ray_vector_native_voxels": [
+            -0.006333853832529712,
+            -0.007408137201309728,
+            0.008553100066819752
+          ]
+        },
+        {
+          "native_offset_voxels": 6,
+          "fine_layer_continuous_nominal": 77.41475614839516,
+          "ray_only_discrepancy_native_voxels": 0.233056301314836,
+          "base_plus_ray_discrepancy_native_voxels": 0.2330583839519793,
+          "base_plus_ray_vector_native_voxels": [
+            -0.05395363182292323,
+            0.1853970490867407,
+            0.13051111114902558
+          ]
+        },
+        {
+          "native_offset_voxels": 13.5,
+          "fine_layer_continuous_nominal": 106.68320133388912,
+          "ray_only_discrepancy_native_voxels": 0.524376677958381,
+          "base_plus_ray_discrepancy_native_voxels": 0.5241783021231631,
+          "base_plus_ray_vector_native_voxels": [
+            -0.11347835431091513,
+            0.42640353194680375,
+            0.28295862500178287
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No CT samples were read. No claim of physical tissue/ink registration.",
+    "Common normalized source grid was not acquired; resampling composition follows exact pinned callers and half-pixel conventions. Observed residuals include curved-grid interpolation and float quantization.",
+    "25 deterministic sites measure this finite coordinate check only; they do not qualify all surface pixels.",
+    "Native and fine nearest-grid normal caches have different physical stencil widths. A scalar depth ratio does not guarantee matching 3D rays.",
+    "A pooled fine XY pixel has a16-sample footprint; these representative point calculations do not turn it into an exact CT point."
+  ]
+}

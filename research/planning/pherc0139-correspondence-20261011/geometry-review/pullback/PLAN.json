@@ -1,0 +1,125 @@
+{
+  "kind": "geometry_only_representative_ray_inverse_not_CT_registration",
+  "code_sha256": "8c9f5042c694752511c656f040701bfc4703bc2014906d21ae059f177b7a9f37",
+  "inputs": [
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20260102150214-x.tif",
+      "sha256": "a0b0700430edb8ba2a5c15545c721a88e920dca575f2f8c7a89eb84463163525",
+      "bytes": 7722886
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20260102150214-y.tif",
+      "sha256": "ec89f482d673b1c767d2e9dd04991bc68aa07a6e28ab24c47d027439fdfb32b3",
+      "bytes": 7722886
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20260102150214-z.tif",
+      "sha256": "149a6c9035e184aa203c82e4db935ed0d488bbfe1897e06b11a4b026417ff3f6",
+      "bytes": 7722886
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20250728140407-x.tif",
+      "sha256": "4cc50b835663e35f00accd7e12b2e2eea2f1ac8c60c140601974752105128573",
+      "bytes": 510854
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20250728140407-y.tif",
+      "sha256": "45ed92a905f13752fc027fe857b2cd8ce0505bf64a0f9ebd3d7ea7ab27f802a5",
+      "bytes": 510854
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/geometry/responses/20250728140407-z.tif",
+      "sha256": "aafc0207e6713280e1dd50863976998225ab911a3c4a528ff3add21b10f9a755",
+      "bytes": 510854
+    },
+    {
+      "path": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/source-evidence/PHerc0139-retained-catalog.json",
+      "sha256": "2a460d1f57ca0d3535ce2a8a8ab8b80fe4141f143e8de486394a150bc93f094d",
+      "bytes": 2713387
+    }
+  ],
+  "sites": [
+    {
+      "id": "site1",
+      "native_center_xy": [
+        2432,
+        1920
+      ],
+      "core_xywh": [
+        2304,
+        1792,
+        256,
+        256
+      ],
+      "halo_xywh": [
+        2296,
+        1784,
+        272,
+        272
+      ]
+    },
+    {
+      "id": "site2",
+      "native_center_xy": [
+        3968,
+        3200
+      ],
+      "core_xywh": [
+        3840,
+        3072,
+        256,
+        256
+      ],
+      "halo_xywh": [
+        3832,
+        3064,
+        272,
+        272
+      ]
+    },
+    {
+      "id": "site3",
+      "native_center_xy": [
+        5632,
+        4480
+      ],
+      "core_xywh": [
+        5504,
+        4352,
+        256,
+        256
+      ],
+      "halo_xywh": [
+        5496,
+        4344,
+        272,
+        272
+      ]
+    }
+  ],
+  "depth_native_half_open": [
+    4,
+    24
+  ],
+  "native_center_depth": 13.5,
+  "fine_center_depth": 54,
+  "fine_field": "mean16 group0 staged-fp32 base/normal then affine A,b; do not renormalize mean normal; 2D bilinear representative field",
+  "field_halo_fine_group2": 6,
+  "query_initialization": "source-derived transformed-grid half-pixel mapping composed with renderer, mean16 footprint center; nominal physical Z scale",
+  "newton": {
+    "maximum_iterations": 10,
+    "residual_tolerance_native_voxels": 0.01,
+    "max_basin_uv_fine_group2_each_axis": 2.0,
+    "max_basin_k_fine_planes": 8.0,
+    "max_update_uv_each_axis": 0.5,
+    "max_update_k": 2.0,
+    "max_condition": 1000.0,
+    "minimum_singular_value": 1e-06,
+    "expected_jacobian_determinant_sign": -1,
+    "normal_dot_native_positive": true
+  },
+  "invalid": "all16 fine base bilinear and nearest normal axial stencils; native corresponding support; no clamping, replacement crops, CT values or prediction use",
+  "output": "float64 queries D,H,W,3 [u,v,k], initial queries, boolean support and failure code; failed queries retained but not admitted",
+  "basis": "native-XYZ vectors columns [normal, dy, dx] at central mesh surface, native raster derivatives +/-1",
+  "query_budget_samples_per_site": 1479680
+}

@@ -6,6 +6,8 @@ Studies46–50 are complete and sealed. The conservative support result remains 
 
 A separate [11October research review and bounded reconstruction control](planning/plinius-research-review-20261011/README.md) completed while study52 runs. It is not a renumbered target experiment or a change to the cumulative seal. Nine CT chunks and all18 saved PHerc343 candidate regions support the next paired-acquisition design; no new model inference.
 
+The subsequent [PHerc0139 w040 correspondence study](planning/pherc0139-correspondence-20261011/README.md) completed three frozen CT comparisons and independent geometry/numerical review. Strong local acquisition correspondence is observed, while all three strict transfer screens fail. It is supporting research, not a renumbered target experiment or an extension of the cumulative seal.
+
 | Experiment | Recorded outcome |
 | --- | --- |
 | [1: first-experiment](lab/reports/first-experiment/RESULTS.md) | completed with no authenticated reading |
