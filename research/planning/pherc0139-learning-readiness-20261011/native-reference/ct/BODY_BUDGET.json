@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-11T08:44:25.923272+00:00",
+  "cap_bytes": 268435456,
+  "reserved_body_bytes": 245891072,
+  "recorded_observed_body_bytes": 245891072,
+  "attempts": 536,
+  "completed_new_objects": 536,
+  "failed_attempts": 0,
+  "accounting": "Every attempt reserves its entire expected body durably before GET; interrupted/failing attempts retain reservation. Observed counter may omit bytes delivered just before process interruption; reserved counter remains conservative."
+}

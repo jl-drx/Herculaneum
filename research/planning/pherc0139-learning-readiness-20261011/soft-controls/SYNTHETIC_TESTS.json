@@ -1,0 +1,38 @@
+{
+  "analysis_sha256": "6f48246d5961f20605543906a0b4bc77ff828ae108540c36f6f4c3f0a7f7baee",
+  "created_utc": "2026-10-11T08:35:14.422421+00:00",
+  "dependency_sha256": "24f625944826362b3c7029e4b412a35986440ac10d01eccaa2c9d9a2069da5d6",
+  "real_target_reads": 0,
+  "status": "PASS",
+  "test_groups": [
+    {
+      "name": "test_constant_and_origin",
+      "status": "PASS"
+    },
+    {
+      "name": "test_asymmetric_ramp_and_centroid",
+      "status": "PASS"
+    },
+    {
+      "name": "test_shift_sign",
+      "status": "PASS"
+    },
+    {
+      "name": "test_equal_kernel_weights_and_moments",
+      "status": "PASS"
+    },
+    {
+      "name": "test_missing_support_and_no_zero_fill",
+      "status": "PASS"
+    },
+    {
+      "name": "test_empty_positive_and_metrics",
+      "status": "PASS"
+    },
+    {
+      "name": "test_masked_bce_identity",
+      "status": "PASS"
+    }
+  ],
+  "tests_sha256": "a225e640c1c065814e230a26218c6c77296c88620fb41875e84382068a1b196e"
+}

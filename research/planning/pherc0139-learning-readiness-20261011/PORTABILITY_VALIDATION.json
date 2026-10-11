@@ -1,0 +1,69 @@
+{
+  "status": "PASS_LOCAL_RELOCATION_AND_OFFLINE_REPLAY",
+  "source_parent_commit": "cfb5775d4dfc38014b731201ee32712d6a60c2c0",
+  "archives": [
+    {
+      "sha256": "f7afd272cc7b371c183704abf6ca3230ed7a008bb80e0f23e4e4fa0ad695246a",
+      "files": 1103,
+      "bytes": 13132617
+    },
+    {
+      "sha256": "87b8b6dcf6bbed725bb1eb17e7ed3c8e17ab37c0632792ec0e16b6d596eb5a40",
+      "files": 536,
+      "bytes": 196115746
+    }
+  ],
+  "restored_files": 1639,
+  "checks": [
+    {
+      "check": "soft",
+      "exit_code": 0,
+      "receipt": "verification/soft.json",
+      "receipt_sha256": "05589fa2191461d442608e22706ada6029bf5ac76762d1aaded2c2f5eb8b83a7"
+    },
+    {
+      "check": "annotations",
+      "exit_code": 0,
+      "receipt": "verification/annotations.json",
+      "receipt_sha256": "8b4613e3a45a1e2011880a4f42b165892f71c56da30a41b6f5dc57dd09bfaaaf"
+    },
+    {
+      "check": "independent",
+      "exit_code": 0,
+      "receipt": "verification/independent.json",
+      "receipt_sha256": "9b5532b10550c0196a582d799cc3874b6ba1ae58df99a936f4aaeb4c1288c0aa"
+    },
+    {
+      "check": "geometry",
+      "exit_code": 0,
+      "receipt": "verification/geometry.json",
+      "receipt_sha256": "b2a4a6a9eeaa09ba7d0ac99f639a01d72c08baf7327895bd1a39ae959b676623"
+    },
+    {
+      "check": "ct",
+      "exit_code": 0,
+      "receipt": "verification/ct.json",
+      "receipt_sha256": "df715a2435ff6034d67ffe273aed4f67e0ec78f9b21576189c3edb39cde820ee"
+    }
+  ],
+  "same_host_relocation": true,
+  "fresh_runtime_installation": false,
+  "runtime": "Python3.12.14; existing /workspace/.venvs/herculaneum, exact package versions in requirements-replay.txt",
+  "scope": "Full archive/member verification; independent soft sampling and metrics from saved derived queries; native annotation decode/counts; independent annotation/plan check; independent full native geometry boxes/folds; independent CT support reduction. The compact soft replay does not rederive its UV fields from the prior geometry packet.",
+  "network_during_replay": false,
+  "model_inference": false,
+  "training": false,
+  "GPU_resources_created": false,
+  "new_Actions_runs": false,
+  "remote_download_verification": "Recorded separately after push",
+  "repository_privacy": {
+    "verified_private": true,
+    "method": "gh repo view jl-drx/Herculaneum --json nameWithOwner,isPrivate,url",
+    "repository": "jl-drx/Herculaneum"
+  },
+  "text_checks": {
+    "limited_credential_pattern_scan": "PASS",
+    "whitespace": "PASS with cr-at-eol; frozen CSV CRLF bytes intentionally retained",
+    "byte_preservation": "Scoped .gitattributes -text preserves frozen source/receipt bytes across checkout platforms"
+  }
+}

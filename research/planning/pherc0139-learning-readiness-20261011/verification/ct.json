@@ -1,0 +1,28 @@
+{
+  "all_passed": true,
+  "network_access": false,
+  "method": "Per-chunk any over full28depth first, then global XY mosaic; independent of original28\u00d7256\u00d7256 context assembly",
+  "checks": [
+    {
+      "winding": "w035",
+      "all_chunk_hashes_and_lengths_match": true,
+      "all_contexts_fully_covered_by_real_chunks": true,
+      "every_mask_matches_independent_global_mosaic": true,
+      "verified_cores": 109
+    },
+    {
+      "winding": "w039",
+      "all_chunk_hashes_and_lengths_match": true,
+      "all_contexts_fully_covered_by_real_chunks": true,
+      "every_mask_matches_independent_global_mosaic": true,
+      "verified_cores": 54
+    },
+    {
+      "winding": "w044",
+      "all_chunk_hashes_and_lengths_match": true,
+      "all_contexts_fully_covered_by_real_chunks": true,
+      "every_mask_matches_independent_global_mosaic": true,
+      "verified_cores": 102
+    }
+  ]
+}

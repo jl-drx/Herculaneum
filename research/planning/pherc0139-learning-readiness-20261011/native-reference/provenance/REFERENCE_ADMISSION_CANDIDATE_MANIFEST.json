@@ -1,0 +1,584 @@
+{
+  "created_utc": "2026-10-11T08:35:33.158439+00:00",
+  "scope": "metadata and source-only candidate admission; no pixel bodies, CT chunks, inference or learning",
+  "catalog_sha256": "2a460d1f57ca0d3535ce2a8a8ab8b80fe4141f143e8de486394a150bc93f094d",
+  "decision": "admit current native-frame annotation agreement for a declared development study, conditional on pixel/support validation; alternate fine59 reference requires new coordinate/support qualification",
+  "candidates": [
+    {
+      "id": "w035",
+      "physical_group": "PHerc0139:w035",
+      "public_segment": "20260317000000-w035_2026031718",
+      "input_volume": "20250728140407",
+      "native_input_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr",
+      "native_shape_zyx": [
+        28,
+        5820,
+        5240
+      ],
+      "annotation_shape_yx": [
+        5820,
+        5240
+      ],
+      "resolution_um": 9.362,
+      "label_set": "20260918",
+      "reference_type": "sparse publisher-described manual native-frame annotation",
+      "assets": [
+        {
+          "winding": "w035",
+          "role": "supervision",
+          "public_segment": "20260317000000-w035_2026031718",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/ink-labels/9.362um-volume-20250728140407/20260918/supervision.zarr/0/c/0/0",
+          "status": 200,
+          "content_length": 10630,
+          "etag": "\"bf9bdeccdddb5a4fe4978df5d8edcb72\"",
+          "last_modified": "Mon, 21 Sep 2026 10:06:38 GMT",
+          "shape": [
+            5820,
+            5240
+          ],
+          "dtype": "uint8",
+          "shard_shape": [
+            6144,
+            5632
+          ],
+          "inner_chunk_shape": [
+            512,
+            512
+          ],
+          "index_entries": 132,
+          "index_bytes_including_crc32c": 2116,
+          "metadata_file": "metadata/w035-s3-supervision-array.json",
+          "metadata_sha256": "8fd210540303a70023b4513aedef242df8d453644abd5c1812deddebc6761b0c",
+          "root_metadata_file": "metadata/w035-s3-supervision-root.json",
+          "native_metadata_file": "metadata/w035-native-array.json",
+          "index_byte_range": [
+            8514,
+            10629
+          ]
+        },
+        {
+          "winding": "w035",
+          "role": "inklabels",
+          "public_segment": "20260317000000-w035_2026031718",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/ink-labels/9.362um-volume-20250728140407/20260918/inklabels.zarr/0/c/0/0",
+          "status": 200,
+          "content_length": 12888,
+          "etag": "\"e0754d8707c90eb3917669a2ee47285c\"",
+          "last_modified": "Mon, 21 Sep 2026 10:06:38 GMT",
+          "shape": [
+            5820,
+            5240
+          ],
+          "dtype": "uint8",
+          "shard_shape": [
+            6144,
+            5632
+          ],
+          "inner_chunk_shape": [
+            512,
+            512
+          ],
+          "index_entries": 132,
+          "index_bytes_including_crc32c": 2116,
+          "metadata_file": "metadata/w035-s3-inklabels-array.json",
+          "metadata_sha256": "8fd210540303a70023b4513aedef242df8d453644abd5c1812deddebc6761b0c",
+          "root_metadata_file": "metadata/w035-s3-inklabels-root.json",
+          "native_metadata_file": "metadata/w035-native-array.json",
+          "index_byte_range": [
+            10772,
+            12887
+          ]
+        }
+      ],
+      "coordinate_contract": {
+        "same_canvas_declared": true,
+        "shape_equality_live_verified": true,
+        "source_plane": 14,
+        "source_plane_is_physical_ink_depth": false,
+        "native_label_republication_operation": "re-encoded from the published 3-D label zarr; pixel values, canvas and geometry unchanged",
+        "root_scale_um": [
+          9.362,
+          9.362
+        ],
+        "required_loss_domain": "native CT valid AND supervision>0; unlabelled pixels excluded"
+      },
+      "catalog_counts": {
+        "label_set": "20260918",
+        "supersedes": null,
+        "arrays": [
+          "inklabels",
+          "supervision"
+        ],
+        "registration": "native",
+        "annotated_on": "20250728140407",
+        "labelled_px": 396164,
+        "supervised_px": 1071121
+      },
+      "supervision_fraction_canvas": 0.0351224062852496,
+      "hf_transfer_history": {
+        "audit": {
+          "blob_px_removed": 0,
+          "gate_rejected_px": 0,
+          "hole_px_filled": 11,
+          "relaxed_px": 396153,
+          "strict_px": 396153
+        },
+        "gate_px": 128,
+        "max_hole_ink": 16,
+        "max_hole_mask": 512,
+        "min_blob": 16,
+        "min_island": 1024,
+        "package_commit": "0e90a7cce (tifxyz-label-transfer-fixes)",
+        "seam_anchor": "content"
+      },
+      "catalog_vs_hf_caveat": "Catalog says annotated on native render/no transfer involved; source HF array records native-rerun tifxyz-label-transfer-fixes and private transfer report. Native-frame correspondence is declared; original processing/annotator independence is not fully auditable.",
+      "aliases": [
+        "native9/w035",
+        "pherc0139-w035"
+      ],
+      "exposure": {
+        "official_native_sparse_training": true,
+        "nieuwlaar_matched_control_and_treatment_training": true,
+        "aligned_fine_training_alias": "pherc0139-w035",
+        "used_to_calibrate_fine78_pseudo_label_threshold": true,
+        "fresh_scratch_learner_can_exclude_whole_group": true,
+        "fine78_teacher_training_ancestry": "not established",
+        "hecate_training_ancestry": "not established",
+        "project_development_inspection": "metadata already inspected; w035 original metadata audited in study7; not pristine project test"
+      },
+      "independence": {
+        "identical_numeric_fine78_teacher_target": false,
+        "evidence": "Published training code uses these as sparse manual labels, calibrates fine78 teacher against them and gives manual labels precedence; native source metadata references label rasters rather than teacher TIFF.",
+        "not_established": [
+          "whether original annotators viewed model predictions",
+          "full teacher training overlap",
+          "independent physical ink truth",
+          "native-rerun private transform/cleanup report"
+        ]
+      },
+      "missing_for_development_intake": [
+        "pin actual shard SHA256 after bounded download",
+        "verify values, supervision intersection and foreground/background counts",
+        "freeze eligible native core/context grid using supervision before inklabels",
+        "verify selected native CT support before training",
+        "declare alias grouped whole-winding split and neighboring-wrap/context caveat"
+      ],
+      "not_required_for_development_intake": [
+        "new fine78-to-native registration",
+        "apply w040 half-pixel frame offset",
+        "historical byte identity of old label release",
+        "papyrological authentication of every label"
+      ]
+    },
+    {
+      "id": "w039",
+      "physical_group": "PHerc0139:w039",
+      "public_segment": "20260302000000-w039_2026030210",
+      "input_volume": "20250728140407",
+      "native_input_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr",
+      "native_shape_zyx": [
+        28,
+        8560,
+        7720
+      ],
+      "annotation_shape_yx": [
+        8560,
+        7720
+      ],
+      "resolution_um": 9.362,
+      "label_set": "20260918",
+      "reference_type": "sparse publisher-described manual native-frame annotation",
+      "assets": [
+        {
+          "winding": "w039",
+          "role": "supervision",
+          "public_segment": "20260302000000-w039_2026030210",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/ink-labels/9.362um-volume-20250728140407/20260918/supervision.zarr/0/c/0/0",
+          "status": 200,
+          "content_length": 9880,
+          "etag": "\"e7184879f93f80139800aea4bc19122d\"",
+          "last_modified": "Mon, 21 Sep 2026 13:58:42 GMT",
+          "shape": [
+            8560,
+            7720
+          ],
+          "dtype": "uint8",
+          "shard_shape": [
+            8704,
+            8192
+          ],
+          "inner_chunk_shape": [
+            512,
+            512
+          ],
+          "index_entries": 272,
+          "index_bytes_including_crc32c": 4356,
+          "metadata_file": "metadata/w039-s3-supervision-array.json",
+          "metadata_sha256": "85ee35d518ac4404e926a6868c24013a88adc2d80349b45594142236c5203bff",
+          "root_metadata_file": "metadata/w039-s3-supervision-root.json",
+          "native_metadata_file": "metadata/w039-native-array.json",
+          "index_byte_range": [
+            5524,
+            9879
+          ]
+        },
+        {
+          "winding": "w039",
+          "role": "inklabels",
+          "public_segment": "20260302000000-w039_2026030210",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260302000000-w039_2026030210/ink-labels/9.362um-volume-20250728140407/20260918/inklabels.zarr/0/c/0/0",
+          "status": 200,
+          "content_length": 10131,
+          "etag": "\"e4514a32ccccfb66cb75ca5066c8153b\"",
+          "last_modified": "Mon, 21 Sep 2026 13:58:42 GMT",
+          "shape": [
+            8560,
+            7720
+          ],
+          "dtype": "uint8",
+          "shard_shape": [
+            8704,
+            8192
+          ],
+          "inner_chunk_shape": [
+            512,
+            512
+          ],
+          "index_entries": 272,
+          "index_bytes_including_crc32c": 4356,
+          "metadata_file": "metadata/w039-s3-inklabels-array.json",
+          "metadata_sha256": "85ee35d518ac4404e926a6868c24013a88adc2d80349b45594142236c5203bff",
+          "root_metadata_file": "metadata/w039-s3-inklabels-root.json",
+          "native_metadata_file": "metadata/w039-native-array.json",
+          "index_byte_range": [
+            5775,
+            10130
+          ]
+        }
+      ],
+      "coordinate_contract": {
+        "same_canvas_declared": true,
+        "shape_equality_live_verified": true,
+        "source_plane": 14,
+        "source_plane_is_physical_ink_depth": false,
+        "native_label_republication_operation": "re-encoded from the published 3-D label zarr; pixel values, canvas and geometry unchanged",
+        "root_scale_um": [
+          9.362,
+          9.362
+        ],
+        "required_loss_domain": "native CT valid AND supervision>0; unlabelled pixels excluded"
+      },
+      "catalog_counts": {
+        "label_set": "20260918",
+        "supersedes": null,
+        "arrays": [
+          "inklabels",
+          "supervision"
+        ],
+        "registration": "native",
+        "annotated_on": "20250728140407",
+        "labelled_px": 184948,
+        "supervised_px": 576220
+      },
+      "supervision_fraction_canvas": 0.008719614062273014,
+      "hf_transfer_history": {
+        "audit": {
+          "blob_px_removed": 0,
+          "gate_rejected_px": 0,
+          "hole_px_filled": 3,
+          "relaxed_px": 184945,
+          "strict_px": 184945
+        },
+        "gate_px": 128,
+        "max_hole_ink": 16,
+        "max_hole_mask": 512,
+        "min_blob": 16,
+        "min_island": 1024,
+        "package_commit": "0e90a7cce (tifxyz-label-transfer-fixes)",
+        "seam_anchor": "content"
+      },
+      "catalog_vs_hf_caveat": "Catalog says annotated on native render/no transfer involved; source HF array records native-rerun tifxyz-label-transfer-fixes and private transfer report. Native-frame correspondence is declared; original processing/annotator independence is not fully auditable.",
+      "aliases": [
+        "native9/w039",
+        "pherc0139-w039"
+      ],
+      "exposure": {
+        "official_native_sparse_training": true,
+        "nieuwlaar_matched_control_and_treatment_training": true,
+        "aligned_fine_training_alias": "pherc0139-w039",
+        "used_to_calibrate_fine78_pseudo_label_threshold": true,
+        "fresh_scratch_learner_can_exclude_whole_group": true,
+        "fine78_teacher_training_ancestry": "not established",
+        "hecate_training_ancestry": "not established",
+        "project_development_inspection": "metadata already inspected; w035 original metadata audited in study7; not pristine project test"
+      },
+      "independence": {
+        "identical_numeric_fine78_teacher_target": false,
+        "evidence": "Published training code uses these as sparse manual labels, calibrates fine78 teacher against them and gives manual labels precedence; native source metadata references label rasters rather than teacher TIFF.",
+        "not_established": [
+          "whether original annotators viewed model predictions",
+          "full teacher training overlap",
+          "independent physical ink truth",
+          "native-rerun private transform/cleanup report"
+        ]
+      },
+      "missing_for_development_intake": [
+        "pin actual shard SHA256 after bounded download",
+        "verify values, supervision intersection and foreground/background counts",
+        "freeze eligible native core/context grid using supervision before inklabels",
+        "verify selected native CT support before training",
+        "declare alias grouped whole-winding split and neighboring-wrap/context caveat"
+      ],
+      "not_required_for_development_intake": [
+        "new fine78-to-native registration",
+        "apply w040 half-pixel frame offset",
+        "historical byte identity of old label release",
+        "papyrological authentication of every label"
+      ]
+    },
+    {
+      "id": "w044",
+      "physical_group": "PHerc0139:w044",
+      "public_segment": "20260115000000-w044_2026011522",
+      "input_volume": "20250728140407",
+      "native_input_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260115000000-w044_2026011522/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr",
+      "native_shape_zyx": [
+        28,
+        6040,
+        8160
+      ],
+      "annotation_shape_yx": [
+        6040,
+        8160
+      ],
+      "resolution_um": 9.362,
+      "label_set": "20260918",
+      "reference_type": "sparse publisher-described manual native-frame annotation",
+      "assets": [
+        {
+          "winding": "w044",
+          "role": "supervision",
+          "public_segment": "20260115000000-w044_2026011522",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260115000000-w044_2026011522/ink-labels/9.362um-volume-20250728140407/20260918/supervision.zarr/0/c/0/0",
+          "status": 200,
+          "content_length": 8507,
+          "etag": "\"15a895420cae7ed43871aa0474fcb081\"",
+          "last_modified": "Mon, 21 Sep 2026 13:59:19 GMT",
+          "shape": [
+            6040,
+            8160
+          ],
+          "dtype": "uint8",
+          "shard_shape": [
+            6144,
+            8192
+          ],
+          "inner_chunk_shape": [
+            512,
+            512
+          ],
+          "index_entries": 192,
+          "index_bytes_including_crc32c": 3076,
+          "metadata_file": "metadata/w044-s3-supervision-array.json",
+          "metadata_sha256": "87ac9a46cad229d47330cbd18ae91c70866db044f2edf0e4d2e82314b3d79d4d",
+          "root_metadata_file": "metadata/w044-s3-supervision-root.json",
+          "native_metadata_file": "metadata/w044-native-array.json",
+          "index_byte_range": [
+            5431,
+            8506
+          ]
+        },
+        {
+          "winding": "w044",
+          "role": "inklabels",
+          "public_segment": "20260115000000-w044_2026011522",
+          "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260115000000-w044_2026011522/ink-labels/9.362um-volume-20250728140407/20260918/inklabels.zarr/0/c/0/0",
+          "status": 200,
+          "content_length": 13612,
+          "etag": "\"58df05c4a02be8bc1007f98f9d92b604\"",
+          "last_modified": "Mon, 21 Sep 2026 13:59:19 GMT",
+          "shape": [
+            6040,
+            8160
+          ],
+          "dtype": "uint8",
+          "shard_shape": [
+            6144,
+            8192
+          ],
+          "inner_chunk_shape": [
+            512,
+            512
+          ],
+          "index_entries": 192,
+          "index_bytes_including_crc32c": 3076,
+          "metadata_file": "metadata/w044-s3-inklabels-array.json",
+          "metadata_sha256": "87ac9a46cad229d47330cbd18ae91c70866db044f2edf0e4d2e82314b3d79d4d",
+          "root_metadata_file": "metadata/w044-s3-inklabels-root.json",
+          "native_metadata_file": "metadata/w044-native-array.json",
+          "index_byte_range": [
+            10536,
+            13611
+          ]
+        }
+      ],
+      "coordinate_contract": {
+        "same_canvas_declared": true,
+        "shape_equality_live_verified": true,
+        "source_plane": 14,
+        "source_plane_is_physical_ink_depth": false,
+        "native_label_republication_operation": "re-encoded from the published 3-D label zarr; pixel values, canvas and geometry unchanged",
+        "root_scale_um": [
+          9.362,
+          9.362
+        ],
+        "required_loss_domain": "native CT valid AND supervision>0; unlabelled pixels excluded"
+      },
+      "catalog_counts": {
+        "label_set": "20260918",
+        "supersedes": null,
+        "arrays": [
+          "inklabels",
+          "supervision"
+        ],
+        "registration": "native",
+        "annotated_on": "20250728140407",
+        "labelled_px": 455469,
+        "supervised_px": 1190307
+      },
+      "supervision_fraction_canvas": 0.024150820510323336,
+      "hf_transfer_history": {
+        "audit": {
+          "blob_px_removed": 0,
+          "gate_rejected_px": 0,
+          "hole_px_filled": 7,
+          "relaxed_px": 455462,
+          "strict_px": 455462
+        },
+        "gate_px": 128,
+        "max_hole_ink": 16,
+        "max_hole_mask": 512,
+        "min_blob": 16,
+        "min_island": 1024,
+        "package_commit": "0e90a7cce (tifxyz-label-transfer-fixes)",
+        "seam_anchor": "content"
+      },
+      "catalog_vs_hf_caveat": "Catalog says annotated on native render/no transfer involved; source HF array records native-rerun tifxyz-label-transfer-fixes and private transfer report. Native-frame correspondence is declared; original processing/annotator independence is not fully auditable.",
+      "aliases": [
+        "native9/w044",
+        "pherc0139-w028",
+        "0139/w028_20260115221",
+        "0139/w044_2026011522"
+      ],
+      "exposure": {
+        "official_native_sparse_training": true,
+        "nieuwlaar_matched_control_and_treatment_training": true,
+        "aligned_fine_training_alias": "pherc0139-w028",
+        "used_to_calibrate_fine78_pseudo_label_threshold": true,
+        "fresh_scratch_learner_can_exclude_whole_group": true,
+        "fine78_teacher_training_ancestry": "not established",
+        "hecate_training_ancestry": "not established",
+        "project_development_inspection": "metadata already inspected; w035 original metadata audited in study7; not pristine project test"
+      },
+      "independence": {
+        "identical_numeric_fine78_teacher_target": false,
+        "evidence": "Published training code uses these as sparse manual labels, calibrates fine78 teacher against them and gives manual labels precedence; native source metadata references label rasters rather than teacher TIFF.",
+        "not_established": [
+          "whether original annotators viewed model predictions",
+          "full teacher training overlap",
+          "independent physical ink truth",
+          "native-rerun private transform/cleanup report"
+        ]
+      },
+      "missing_for_development_intake": [
+        "pin actual shard SHA256 after bounded download",
+        "verify values, supervision intersection and foreground/background counts",
+        "freeze eligible native core/context grid using supervision before inklabels",
+        "verify selected native CT support before training",
+        "declare alias grouped whole-winding split and neighboring-wrap/context caveat"
+      ],
+      "not_required_for_development_intake": [
+        "new fine78-to-native registration",
+        "apply w040 half-pixel frame offset",
+        "historical byte identity of old label release",
+        "papyrological authentication of every label"
+      ]
+    },
+    {
+      "id": "w024-fine59",
+      "physical_group": "PHerc0139:w024",
+      "public_segment": "20260215000000-w024_2026021572",
+      "reference_type": "alternate acquisition/model prediction; not manual ink truth",
+      "teacher_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/ink-detection/PHerc0139-20260215000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+      "teacher_head": {
+        "id": "w024-fine59-teacher-head",
+        "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/ink-detection/PHerc0139-20260215000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+        "method": "HEAD",
+        "utc": "2026-10-11T08:30:41.692999+00:00",
+        "status": 200,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "etag": "\"6d8c8f9d8dbbeeea50d78315b43f5b65-7\"",
+        "last_modified": "Thu, 16 Jul 2026 08:18:23 GMT",
+        "content_length": "54675349"
+      },
+      "source_volume": "20260413113053",
+      "source_model_id": "20260709123958",
+      "source_model": "mrg20736_1um_s1z2",
+      "architecture_declared": "resnet3d-152",
+      "render_level": 1,
+      "render_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/1.129um-0.22m-59keV-volume-20260413113053-L1.zarr/",
+      "render_shape_zyx": [
+        116,
+        29350,
+        27400
+      ],
+      "render_effective_voxel_um": [
+        2.258,
+        2.258,
+        2.258
+      ],
+      "volume_nominal_voxel_um": 1.129,
+      "native_shape_zyx": [
+        28,
+        7100,
+        6620
+      ],
+      "inference_window_half_open": [
+        27,
+        89
+      ],
+      "force_reverse": true,
+      "tile": 256,
+      "stride": 128,
+      "container_source_tag": "ink-detection:v43",
+      "catalog_bbox_overlap_proxy": 0.36653900724351657,
+      "independence": {
+        "different_scan_and_model_identifier_from_fine78": true,
+        "independent_model_weights_training_ancestry_verified": false,
+        "human_ground_truth": false
+      },
+      "exposure": {
+        "excluded_from_ink9_native_recipe_by_pinned_code": true,
+        "author_reports_outside_all_ink9_label_sets": true,
+        "benchmark_repeatedly_used_for_model_comparison": true,
+        "hecate_training_exclusion_verified": false
+      },
+      "coordinate_risks": [
+        "L1 filename describes source CT group1; effective rendered voxels are2.258um, not1.129um",
+        "metadata canvas_size order does not substitute for Zarr shape; actual YX=[29350,27400]",
+        "independently regridded fine59/native meshes need own half-pixel/source-frame mapping check",
+        "full-raster resize is a benchmark convention, not verified physical registration",
+        "bbox coverage0.3665 is not a valid-pixel mask",
+        "force_reverse changes input depth order, not established XY flip; verify v43 generation path before transfer"
+      ],
+      "admission": "secondary reference candidate only; do not delay native annotation baseline for its new paired geometry audit",
+      "missing_for_pixel_scoring": [
+        "TIFF header/orientation/full-raster contract and immutable acquired-byte pins",
+        "CT/mesh source-frame and local native-to-fine59 correspondence qualification on fixed supports",
+        "actual joint valid support and fixed reference-class construction",
+        "model ancestry remains disclosed unknown; do not call independent truth"
+      ]
+    }
+  ]
+}

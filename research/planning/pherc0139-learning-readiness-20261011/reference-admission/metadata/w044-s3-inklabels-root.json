@@ -1,0 +1,112 @@
+{
+  "attributes": {
+    "ome": {
+      "version": "0.5",
+      "multiscales": [
+        {
+          "name": "w044_inklabels",
+          "axes": [
+            {
+              "name": "y",
+              "type": "space",
+              "unit": "micrometer"
+            },
+            {
+              "name": "x",
+              "type": "space",
+              "unit": "micrometer"
+            }
+          ],
+          "datasets": [
+            {
+              "path": "0",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    9.362,
+                    9.362
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "1",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    18.724,
+                    18.724
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "2",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    37.448,
+                    37.448
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "3",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    74.896,
+                    74.896
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "4",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    149.792,
+                    149.792
+                  ]
+                }
+              ]
+            },
+            {
+              "path": "5",
+              "coordinateTransformations": [
+                {
+                  "type": "scale",
+                  "scale": [
+                    299.584,
+                    299.584
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_array": "native-src/ink_9um/labels/native9-scrollprizeorg-21slices/w044/w044_inklabels.zarr",
+    "source_shape": [
+      28,
+      6040,
+      8160
+    ],
+    "source_plane": 14,
+    "canvas_size": [
+      6040,
+      8160
+    ],
+    "conversion": "re-encoded from the published 3-D label zarr; pixel values, canvas and geometry unchanged"
+  },
+  "zarr_format": 3,
+  "node_type": "group"
+}

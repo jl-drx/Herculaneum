@@ -7,6 +7,8 @@ It has its own checksum manifest and tested standard-library restore command.
 
 # Use the research workspace on another Linux machine
 
+The newest [PHerc0139 native learning preparation](../planning/pherc0139-learning-readiness-20261011/PORTABILITY.md) is a separate selective supplement: soft-target controls, native annotations,265 fixed cores, conservative training/evaluation exclusions, and536 native CT chunks. Its analysis and CT archives are separate; no unrestricted LFS download or model weights are needed to replay it. This supplements the dated original workspace snapshot below.
+
 This is a selectively restorable snapshot of the research lab, stored in this private GitHub repository using **Git LFS**. It adds the arrays, historical checkpoints, prepared PHerc343 inputs and saved maps that the earlier text-only export omitted. The original files retain their bytes and relative paths; [MANIFEST.json](MANIFEST.json) records every included file, its SHA256, its bundle and the exclusions.
 
 The target machine is Linux x86-64 with nine CPU cores, 9 GB RAM and 30 GB storage. Start with the current PHerc343 groups, run one model job at a time and leave room for new outputs. The full snapshot expands to about 15 GB; the restore tool can delete each downloaded LFS cache object after verified extraction so all compressed archives need not remain on disk. Installed Python environments and operating-system packages are recreated separately.

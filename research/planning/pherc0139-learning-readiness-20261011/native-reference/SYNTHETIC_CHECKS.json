@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-11T08:37:33.859670+00:00",
+  "checks": [
+    {
+      "test": "asymmetric_edges",
+      "passed": true,
+      "missing_chunks": 0,
+      "present_chunks": 4
+    },
+    {
+      "test": "reject_bad_crc",
+      "passed": true
+    },
+    {
+      "test": "reject_out_of_bounds_index",
+      "passed": true
+    },
+    {
+      "test": "reject_overlap_index",
+      "passed": true
+    },
+    {
+      "test": "reject_partial_missing_sentinel",
+      "passed": true
+    },
+    {
+      "test": "missing_chunks",
+      "passed": true,
+      "missing_chunks": 3,
+      "present_chunks": 1
+    }
+  ],
+  "all_passed": true,
+  "no_real_pixels_read": true
+}
