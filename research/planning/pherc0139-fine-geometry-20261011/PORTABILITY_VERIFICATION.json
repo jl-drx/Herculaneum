@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "archive_sha256": "0f8db0d1b23fa98a03fa27e691071962419e2a0fc974847b4e9bf00b3823e9c9",
+  "restored_files": 306,
+  "byte_identical_recomputed_outputs": [
+    {
+      "path": "qualification/RESULTS.json",
+      "sha256": "f8c4a09675b6e06f1d0ba0a7eda453dcc8ad92000dd3bf28cdfbe2f6f37e426e"
+    },
+    {
+      "path": "qualification/ADMISSION.csv",
+      "sha256": "8c6aa6fd0b80ddbf3f9616a44f3bbc9328326ad240e2fbb945643281e9ea31d6"
+    },
+    {
+      "path": "qualification/COMPUTE_BINDING.json",
+      "sha256": "f56f359eb803dacc34b05b0d6bac995aaf3d309397b8870c0e0bb5704dad8092"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "ffffb457f1a6fe6f3d1ae70375bdb5c0410b244ccd22c43790894cdef76c8408"
+    },
+    {
+      "path": "PILOT_VERIFICATION.json",
+      "sha256": "5b5be9158b79ddc96da981f9b16aee33995ad51abec06dfb1d9b9d9b86a98511"
+    }
+  ],
+  "scope": "Fresh archive extraction and relocated same-machine offline replay; no network acquisition, CT targets or inference"
+}
