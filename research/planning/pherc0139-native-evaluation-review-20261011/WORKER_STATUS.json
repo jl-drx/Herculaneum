@@ -1,0 +1,66 @@
+{
+  "checked_utc": "2026-10-11T13:44:40.358441+00:00",
+  "worker_alive": true,
+  "worker": {
+    "pid": 18909,
+    "start_ticks": "1558242",
+    "started_utc": "2026-10-11T09:33:02.995974+00:00",
+    "resume_command": "python native_learning.py run --run /workspace/herculaneum-lab/reports/pherc0139-native-learning-20261011 --source /workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011"
+  },
+  "status": {
+    "utc": "2026-10-11T13:42:45.966942+00:00",
+    "phase": "training",
+    "arm": "w039-seed17",
+    "step": 5376,
+    "maximum_updates": 16384,
+    "train": {
+      "ap": 0.845546229631874,
+      "auc": 0.8989782326912096,
+      "positives": 741254,
+      "negatives": 1371299,
+      "undefined_single_class": false,
+      "bce": 0.3810834518424852,
+      "prevalence": 0.3508806642957597,
+      "mean_probability": 0.3803269098275426,
+      "fraction_probability_ge_half": 0.3459349895600252
+    },
+    "lr": 0.001,
+    "seconds_per_update_including_training_checks": 0.683149449250558,
+    "termination": null,
+    "held_out_predictions": 0,
+    "draws": 21504,
+    "unique_cores": 196,
+    "supervised_pixel_exposures": 289175014
+  },
+  "arms": [
+    {
+      "arm": "w035-seed17",
+      "step": 16384,
+      "best_step": 15872,
+      "last_committed_utc": "2026-10-11T12:41:19.241212+00:00",
+      "termination": "ceiling_without_confirmed_plateau",
+      "complete": true
+    },
+    {
+      "arm": "w039-seed17",
+      "step": 5376,
+      "best_step": 5376,
+      "last_committed_utc": "2026-10-11T13:42:45.961636+00:00",
+      "termination": null,
+      "complete": false
+    }
+  ],
+  "error": null,
+  "backup": {
+    "status": "PUSHED",
+    "utc": "2026-10-11T13:36:37.099423+00:00",
+    "remote_commit": "d9ebd7575415e3693b398d3f50a7638fa733b1c2",
+    "remote_ref": "refs/heads/codex/plinius-native0139-learning-checkpoints",
+    "generations": 27,
+    "files": 82,
+    "new_files": 2,
+    "archive_bytes": 1390628,
+    "archive_sha256": "2f2e56af414d08889e95ebbcbeb66d9d364a12aa21db1371530689e70a1f9361"
+  },
+  "backup_last_error": null
+}
