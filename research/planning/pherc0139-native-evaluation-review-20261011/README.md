@@ -1,5 +1,9 @@
 # Independent review tools for the native-learning evaluation
 
+**Completion update, 12 October:** the verifier passed all nine endpoints,
+fifteen maps and 1,325 metric rows. See the [verified study results](../../in-progress/pherc0139-native-learning-20261011/completion-20261012/README.md).
+The preparation and initial-preflight record below retains its original timing.
+
 **Ready for the eventual sealed results; no live held-out evaluation has been
 read or verified yet.** The native worker continues its unchanged nine-fit
 study. These separate tools do not amend its data, optimizer, stopping rules,

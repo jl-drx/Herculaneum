@@ -2,10 +2,13 @@
 
 Reviewed 12 October 2026. These are retained results, not new computations of
 historical predictions. Exact local report hashes are in REVIEW_RECEIPT.json.
-The native-learning evaluation is excluded from this review and remains locked.
+The original review excluded the then-locked native-learning evaluation. The
+following completion addendum was made only after its producer and independent
+metric verification finished on 12 October.
 
 | Evidence | Supported conclusion | Research consequence / what would reopen it |
 |---|---|---|
+| [Native learning completion](../../in-progress/pherc0139-native-learning-20261011/completion-20261012/README.md): nine 16,384-update fits; mean AP changes −0.018753, +0.002780, −0.023446 across windings | Training AP 0.983–0.999 does not transfer consistently. Every transfer gate fails; held-out probability loss is much worse than the profile baseline. All fits are ceiling-limited, none confirmed saturated. | Do not extend these fits or pick an earlier endpoint on the exposed results. No claim of absent native signal. Prioritize strong released native baselines and matched broader coverage; this small same-scroll model does not veto GPU-scale research. |
 | [Studies 18–20](../../lab/reports/eighteenth-experiment/RESULTS.md): small explicit-depth/residual and fusion designs | Those bounded adapters did not establish useful transfer. Small updates plus preservation constraints restrict the tested change. | Do not repeat them. Independent sheet-instance inputs and measured neighbouring-wrap contamination would be a different mechanism; a renamed depth head would not. |
 | [Study 35](../../lab/reports/thirtyfifth-experiment/RESULTS.md): 284/284 historical render samples reproduced; zero accepted optical/CT landmarks | Input mechanics can be exact while optical registration remains unverified. The historical interpolation defect is distinct from physical alignment. | Frag6 cannot be an independent optical ink endpoint until correspondence is actually supported. More exact renderer replay does not settle that. |
 | [Study 36](../../lab/reports/thirtysixth-experiment/RESULTS.md): texture-depth transitions, search-edge censoring | Repeatable texture boundaries do not identify a reliable physical ink face. | Keep full depth; no automatic recentering by that proxy. Reopen only with independent geometric reference and an estimator addressing the specific failure. |

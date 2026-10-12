@@ -1,0 +1,254 @@
+{
+  "go_sha256": "2c20b4491a2c94fdc4c479a84a6ab85f309673a113cfdd8088b30fb7df6bf61c",
+  "completed_utc": "2026-10-12T14:07:51.310092+00:00",
+  "folds": [
+    {
+      "fold": "w035",
+      "profile": {
+        "ap": 0.3473192193201959,
+        "auc": 0.5471464547078553,
+        "positives": 333871,
+        "negatives": 732739,
+        "undefined_single_class": false,
+        "bce": 0.6235494501956211,
+        "prevalence": 0.31302069172424785,
+        "mean_probability": 0.35458671487048565,
+        "fraction_probability_ge_half": 0.0016894647528149934
+      },
+      "cnn_mean_ap": 0.32856635586832095,
+      "cnn_ap_min": 0.3159636035816907,
+      "cnn_ap_max": 0.3358612585439213,
+      "mean_ap_gain": -0.018752863451874935,
+      "all_seeds_gain": false,
+      "training": [
+        {
+          "seed": 17,
+          "endpoint_step": 15872,
+          "terminal_step": 16384,
+          "termination": "ceiling_without_confirmed_plateau",
+          "train_ap": 0.9988619274461179,
+          "train_bce_reduction_from_constant": 0.9518240213819267,
+          "adequate_fit": true
+        },
+        {
+          "seed": 43,
+          "endpoint_step": 16128,
+          "terminal_step": 16384,
+          "termination": "ceiling_still_improving",
+          "train_ap": 0.9988004562240276,
+          "train_bce_reduction_from_constant": 0.9511862866382671,
+          "adequate_fit": true
+        },
+        {
+          "seed": 89,
+          "endpoint_step": 16384,
+          "terminal_step": 16384,
+          "termination": "ceiling_still_improving",
+          "train_ap": 0.9990556578524578,
+          "train_bce_reduction_from_constant": 0.9558882469883997,
+          "adequate_fit": true
+        }
+      ],
+      "profile_blank_mean_probability": 0.34238624865636935,
+      "cnn_blank_mean_probabilities": [
+        0.3243116375247804,
+        0.3848521253222836,
+        0.3326308414441543
+      ],
+      "blank_response_gate": true
+    },
+    {
+      "fold": "w039",
+      "profile": {
+        "ap": 0.32769279799844764,
+        "auc": 0.5304935332122321,
+        "positives": 182380,
+        "negatives": 389223,
+        "undefined_single_class": false,
+        "bce": 0.6312755215369117,
+        "prevalence": 0.31906760461369166,
+        "mean_probability": 0.36293863069784504,
+        "fraction_probability_ge_half": 0.009786512667008395
+      },
+      "cnn_mean_ap": 0.3304730340443321,
+      "cnn_ap_min": 0.31630302768564145,
+      "cnn_ap_max": 0.3495322773703161,
+      "mean_ap_gain": 0.0027802360458844544,
+      "all_seeds_gain": false,
+      "training": [
+        {
+          "seed": 17,
+          "endpoint_step": 15616,
+          "terminal_step": 16384,
+          "termination": "ceiling_still_improving",
+          "train_ap": 0.9829383147484431,
+          "train_bce_reduction_from_constant": 0.8141148648363665,
+          "adequate_fit": true
+        },
+        {
+          "seed": 43,
+          "endpoint_step": 15616,
+          "terminal_step": 16384,
+          "termination": "ceiling_still_improving",
+          "train_ap": 0.9900936171904497,
+          "train_bce_reduction_from_constant": 0.8590680842810882,
+          "adequate_fit": true
+        },
+        {
+          "seed": 89,
+          "endpoint_step": 16384,
+          "terminal_step": 16384,
+          "termination": "ceiling_still_improving",
+          "train_ap": 0.9932931356338761,
+          "train_bce_reduction_from_constant": 0.8849841663572079,
+          "adequate_fit": true
+        }
+      ],
+      "profile_blank_mean_probability": 0.35725307454827887,
+      "cnn_blank_mean_probabilities": [
+        0.21389711450522256,
+        0.3232286375555417,
+        0.24380520760486868
+      ],
+      "blank_response_gate": true
+    },
+    {
+      "fold": "w044",
+      "profile": {
+        "ap": 0.42184158352926304,
+        "auc": 0.5511052667862062,
+        "positives": 450775,
+        "negatives": 736846,
+        "undefined_single_class": false,
+        "bce": 0.6675135876068367,
+        "prevalence": 0.3795613246987044,
+        "mean_probability": 0.3249032496702245,
+        "fraction_probability_ge_half": 8.083386871737701e-05
+      },
+      "cnn_mean_ap": 0.3983955779013639,
+      "cnn_ap_min": 0.3773801238029037,
+      "cnn_ap_max": 0.41638668662766143,
+      "mean_ap_gain": -0.02344600562789917,
+      "all_seeds_gain": false,
+      "training": [
+        {
+          "seed": 17,
+          "endpoint_step": 16384,
+          "terminal_step": 16384,
+          "termination": "ceiling_still_improving",
+          "train_ap": 0.9945817230168743,
+          "train_bce_reduction_from_constant": 0.9042954419107897,
+          "adequate_fit": true
+        },
+        {
+          "seed": 43,
+          "endpoint_step": 15616,
+          "terminal_step": 16384,
+          "termination": "ceiling_still_improving",
+          "train_ap": 0.9966187903032115,
+          "train_bce_reduction_from_constant": 0.9244738807128989,
+          "adequate_fit": true
+        },
+        {
+          "seed": 89,
+          "endpoint_step": 16128,
+          "terminal_step": 16384,
+          "termination": "ceiling_still_improving",
+          "train_ap": 0.9957231357880821,
+          "train_bce_reduction_from_constant": 0.912742515873699,
+          "adequate_fit": true
+        }
+      ],
+      "profile_blank_mean_probability": 0.3199237108984487,
+      "cnn_blank_mean_probabilities": [
+        0.21979849599373436,
+        0.238748732815375,
+        0.24486101108516506
+      ],
+      "blank_response_gate": true
+    }
+  ],
+  "descriptive_macro_ap_gain": -0.013139544344629883,
+  "practical_transfer_gate": false,
+  "adequate_fit_gate": true,
+  "blank_response_gate": true,
+  "decision": "optimization_not_demonstrated_saturated_no_native_signal_null",
+  "decision_scope": "Prospective practical priorities, not a significance test, ink truth or GPU authorization",
+  "outputs": [
+    {
+      "path": "evaluation/w035-constant.json",
+      "bytes": 40726,
+      "sha256": "4d33b072d478f290e638272b8b520da5e43450140b5d8e7ab540740f229ec6b7"
+    },
+    {
+      "path": "evaluation/w035-profile.json",
+      "bytes": 42971,
+      "sha256": "2d5bbcc574d3169d2c05e96d86e8c2787a2d1df7cc01bad8041cbde8f3190214"
+    },
+    {
+      "path": "evaluation/w035-cnn-seed17.json",
+      "bytes": 43484,
+      "sha256": "da17a67c536f7899e4f1a53e919af6b594794ddce4e524b44505ce78a45b1a96"
+    },
+    {
+      "path": "evaluation/w035-cnn-seed43.json",
+      "bytes": 43490,
+      "sha256": "2fe3bb7d5596329fb6a65d4da42a58b795c3648d8f886ea162f42c386f2d8dab"
+    },
+    {
+      "path": "evaluation/w035-cnn-seed89.json",
+      "bytes": 43484,
+      "sha256": "214263b061f071a874ab6afa3f1857b6b2a0c39edd8f012ea3510e32e2d58d52"
+    },
+    {
+      "path": "evaluation/w039-constant.json",
+      "bytes": 20436,
+      "sha256": "e4b2dd3e971d948bf9271bfa56a323fe69a96da3ab6acbea676d08aa74178f79"
+    },
+    {
+      "path": "evaluation/w039-profile.json",
+      "bytes": 21792,
+      "sha256": "286fe23d2d0b10341416ec046af0cb817b47d903446bbc34c9158239b955ccaa"
+    },
+    {
+      "path": "evaluation/w039-cnn-seed17.json",
+      "bytes": 21808,
+      "sha256": "9376a2ae2960adc2dc4ea17b7d7430040992ad48837a557a80b11fb6160ad25f"
+    },
+    {
+      "path": "evaluation/w039-cnn-seed43.json",
+      "bytes": 21813,
+      "sha256": "d6c4ebd990d311b6105e0bfa0e453a8881d3d723ee63242a81df70d5fb17759c"
+    },
+    {
+      "path": "evaluation/w039-cnn-seed89.json",
+      "bytes": 21843,
+      "sha256": "2c503f1cda10580c65270cd39ac00335118b38e1293cb379765ca0df77224a45"
+    },
+    {
+      "path": "evaluation/w044-constant.json",
+      "bytes": 38608,
+      "sha256": "a97f5a8c13ef02c60bf3beb44131fee5e750b6964de48ae8f101942964cad665"
+    },
+    {
+      "path": "evaluation/w044-profile.json",
+      "bytes": 40192,
+      "sha256": "2485bf0affc9739ca23ca45a0eaaa0faab1dfefa9b2e0cae4be534b6131a62e7"
+    },
+    {
+      "path": "evaluation/w044-cnn-seed17.json",
+      "bytes": 41440,
+      "sha256": "19d55087a24a73ffccb14bff64618cb228cb7b1b9532b99879981e51ffe9cb08"
+    },
+    {
+      "path": "evaluation/w044-cnn-seed43.json",
+      "bytes": 41394,
+      "sha256": "9a487557b481455e721700a137a08bbe7ffa00a7c79ded21b15182b4cabae9be"
+    },
+    {
+      "path": "evaluation/w044-cnn-seed89.json",
+      "bytes": 41420,
+      "sha256": "0111eab7a526ffd0a1ede92784bbc7e499bf44b53550642c6002cdaadb8bce6e"
+    }
+  ]
+}

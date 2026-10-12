@@ -1,5 +1,10 @@
 # Native PHerc0139 learning: launched 11 October 2026
 
+**Completed and verified 12 October:** [final results](completion-20261012/README.md).
+All nine fits and fifteen evaluation maps are complete. Strong training fit did
+not transfer consistently; the frozen advancement gate failed. The text below
+is the preserved launch record, not the current worker status.
+
 This is the substantive CPU learning comparison recommended after the native
 cohort intake and soft-target controls. It is running, not a completed result.
 The frozen scientific implementation is commit `b9d72e6`; GO was sealed at

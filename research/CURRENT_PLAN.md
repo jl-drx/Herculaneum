@@ -5,13 +5,16 @@ Updated 12 October 2026 following the user's approval of the
 This is the active priority order; historical experiment recommendations remain
 records of their original decisions. No running protocol is amended by this plan.
 
-## Protected running baseline
+## Completed native baseline
 
-Finish the native PHerc0139 nine-fit CPU study with its existing GO, data,
-normalization, full depth, stopping, endpoint selection and locked evaluation.
-Use its separate read-only verifier after the producer seals all results.
-Report the frozen decision and optimization limits unchanged. Its result is one
-native annotation-agreement baseline, not a prerequisite for all larger models.
+The native PHerc0139 nine-fit CPU study [completed unchanged on 12 October](in-progress/pherc0139-native-learning-20261011/completion-20261012/README.md).
+The separate verifier reproduced all fifteen maps' metrics and frozen decisions.
+Training fit is strong, but all three winding transfer gates fail; the mean AP
+gain over the profile baseline is −0.013140. All fits hit the update ceiling,
+so a no-signal conclusion is unsupported. Do not extend these fits or choose a
+different endpoint after viewing their results. This is now exposed development
+evidence, not a fresh confirmation set or a veto on adequately designed GPU
+training. Strong native baselines and controlled broader coverage remain next.
 
 ## Independent work now
 
@@ -39,6 +42,21 @@ prospective PHerc0175/PHerc1203 whole-family reserve. Geometry reference anchors
 and the final training cohort remain next steps; the packet does not authorize
 a model comparison or paid launch. Its native CT cohort is not the originally
 proposed balanced set of easy/curved/difficult strata.
+
+The [CT reference follow-up](in-progress/geometry-reference-20261012/README.md)
+inspected serial sections and short candidate paths. PHerc0800 offers provisional
+local continuation controls; the first PHerc0814 annotation attempt crosses gaps
+and is not a valid positive control. Local lamina/branch identity, recto face and
+whole physical-sheet identity remain separate targets. The retained CT footprint
+matches F0's published 192³ input contract; no new scan download is needed for
+that runtime preparation. Do not score models against the rejected paths.
+
+The [native common-support intake](planning/native-common-support-20261012/README.md)
+binds the actual render and label formats for the four published PHerc0841/
+PHerc0009B reference segments. Reuse studies 11/22's provenance conclusions;
+the next action is a mask-selected development comparison of the strong models,
+with supplied-reference agreement distinguished from physical ink accuracy.
+Do not repeat the missing-provenance search or select a favourable segment.
 
 ## Conditional next experiments
 

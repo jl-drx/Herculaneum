@@ -1,0 +1,1488 @@
+{
+  "status": "METADATA_QUALIFIED_NOT_PIXEL_EVALUATION_READY",
+  "requests": 80,
+  "successful_metadata_responses": 56,
+  "successful_response_bytes": 106897,
+  "initial_v2_lookup_404s": [
+    {
+      "id": "pherc0841-20260220213127-inklabels-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220213127-inklabels-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220213127-supervision-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220213127-supervision-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220213127-validation-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220213127-validation-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220214732-inklabels-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220214732-inklabels-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220214732-supervision-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220214732-supervision-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220214732-validation-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260220214732-validation-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260221022814-inklabels-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260221022814-inklabels-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260221022814-supervision-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260221022814-supervision-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260221022814-validation-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0841-20260221022814-validation-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0009b-20250919125754-inklabels-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0009b-20250919125754-inklabels-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0009b-20250919125754-supervision-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0009b-20250919125754-supervision-array",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0009b-20250919125754-validation-attrs",
+      "http_status": 404
+    },
+    {
+      "id": "pherc0009b-20250919125754-validation-array",
+      "http_status": 404
+    }
+  ],
+  "resolved_format": "Label packages are sharded Zarr v3; render volumes are Zarr v2.",
+  "rows": [
+    {
+      "sample": "PHerc0841",
+      "segment": "20260220213127",
+      "native": {
+        "volume": "20250821151531",
+        "shape_zyx": [
+          28,
+          4220,
+          4760
+        ],
+        "spacing_zyx_um": [
+          9.366,
+          9.366,
+          9.366
+        ],
+        "chunks": [
+          28,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "compressor": null,
+        "source_path": "PHerc0841/segments/20260220213127-w00/surface-volumes/9.366um-1.2m-113keV-volume-20250821151531.zarr/"
+      },
+      "fine": {
+        "volume": "20260319124803",
+        "shape_zyx": [
+          109,
+          16460,
+          18560
+        ],
+        "spacing_zyx_um": [
+          2.403,
+          2.403,
+          2.403
+        ],
+        "chunks": [
+          109,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "compressor": null,
+        "source_path": "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/"
+      },
+      "labels": [
+        {
+          "role": "inklabels",
+          "shape_yx": [
+            16460,
+            18560
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                16896,
+                18944
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "inklabels",
+            "source_entry": "841/w00",
+            "source_raster": "w00_inklabels_v2.tif",
+            "atlas_sample": "PHerc0841",
+            "atlas_segment": "20260220213127-w00",
+            "resolution_um": 2.403,
+            "canvas_offset_yx": [
+              32.1,
+              79.4
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        },
+        {
+          "role": "supervision",
+          "shape_yx": [
+            16460,
+            18560
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                16896,
+                18944
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "supervision",
+            "source_entry": "841/w00",
+            "source_raster": "w00_supervision_mask_v2.tif",
+            "atlas_sample": "PHerc0841",
+            "atlas_segment": "20260220213127-w00",
+            "resolution_um": 2.403,
+            "canvas_offset_yx": [
+              32.1,
+              79.4
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        },
+        {
+          "role": "validation",
+          "shape_yx": [
+            16460,
+            18560
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                16896,
+                18944
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "validation",
+            "source_entry": "841/w00",
+            "source_raster": "w00_validation_mask_v2.tif",
+            "atlas_sample": "PHerc0841",
+            "atlas_segment": "20260220213127-w00",
+            "resolution_um": 2.403,
+            "canvas_offset_yx": [
+              32.1,
+              79.4
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        }
+      ],
+      "label_catalog_properties": {
+        "registration": "transferred",
+        "annotated_on": "unknown",
+        "arrays": [
+          "inklabels",
+          "supervision",
+          "validation"
+        ],
+        "labelled_px": 6164683,
+        "supervised_px": 24334267,
+        "mapping_coverage": 0.993467695534526
+      },
+      "affine_inverse_max_error": 7.275957614183426e-12,
+      "affine_check_scope": "Algebra only, not local physical registration.",
+      "reference_role": "Published transferred/model-reviewed annotation agreement on development material; not authenticated physical ink truth.",
+      "prior_audit": "Study 22 for PHerc0841; study 11 source-transfer contract for PHerc0009B. Prior unresolved provenance/validity limits retained."
+    },
+    {
+      "sample": "PHerc0841",
+      "segment": "20260220214732",
+      "native": {
+        "volume": "20250821151531",
+        "shape_zyx": [
+          28,
+          4640,
+          4720
+        ],
+        "spacing_zyx_um": [
+          9.366,
+          9.366,
+          9.366
+        ],
+        "chunks": [
+          28,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "compressor": null,
+        "source_path": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/surface-volumes/9.366um-1.2m-113keV-volume-20250821151531.zarr/"
+      },
+      "fine": {
+        "volume": "20260319124803",
+        "shape_zyx": [
+          109,
+          18080,
+          18400
+        ],
+        "spacing_zyx_um": [
+          2.403,
+          2.403,
+          2.403
+        ],
+        "chunks": [
+          109,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "compressor": null,
+        "source_path": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/"
+      },
+      "labels": [
+        {
+          "role": "inklabels",
+          "shape_yx": [
+            18080,
+            18400
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                18432,
+                18432
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "inklabels",
+            "source_entry": "841/auto_grown_20260220144552896",
+            "source_raster": "auto_grown_20260220144552896_inklabels_v2.tif",
+            "atlas_sample": "PHerc0841",
+            "atlas_segment": "20260220214732-auto_grown_20260220144552896",
+            "resolution_um": 2.403,
+            "canvas_offset_yx": [
+              0.0,
+              0.0
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        },
+        {
+          "role": "supervision",
+          "shape_yx": [
+            18080,
+            18400
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                18432,
+                18432
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "supervision",
+            "source_entry": "841/auto_grown_20260220144552896",
+            "source_raster": "auto_grown_20260220144552896_supervision_mask_v2.tif",
+            "atlas_sample": "PHerc0841",
+            "atlas_segment": "20260220214732-auto_grown_20260220144552896",
+            "resolution_um": 2.403,
+            "canvas_offset_yx": [
+              0.0,
+              0.0
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        },
+        {
+          "role": "validation",
+          "shape_yx": [
+            18080,
+            18400
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                18432,
+                18432
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "validation",
+            "source_entry": "841/auto_grown_20260220144552896",
+            "source_raster": "auto_grown_20260220144552896_validation_mask_v2.tif",
+            "atlas_sample": "PHerc0841",
+            "atlas_segment": "20260220214732-auto_grown_20260220144552896",
+            "resolution_um": 2.403,
+            "canvas_offset_yx": [
+              0.0,
+              0.0
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        }
+      ],
+      "label_catalog_properties": {
+        "registration": "transferred",
+        "annotated_on": "unknown",
+        "arrays": [
+          "inklabels",
+          "supervision",
+          "validation"
+        ],
+        "labelled_px": 4841555,
+        "supervised_px": 14940957,
+        "mapping_coverage": 0.9931224754165391
+      },
+      "affine_inverse_max_error": 7.275957614183426e-12,
+      "affine_check_scope": "Algebra only, not local physical registration.",
+      "reference_role": "Published transferred/model-reviewed annotation agreement on development material; not authenticated physical ink truth.",
+      "prior_audit": "Study 22 for PHerc0841; study 11 source-transfer contract for PHerc0009B. Prior unresolved provenance/validity limits retained."
+    },
+    {
+      "sample": "PHerc0841",
+      "segment": "20260221022814",
+      "native": {
+        "volume": "20250821151531",
+        "shape_zyx": [
+          28,
+          3760,
+          4900
+        ],
+        "spacing_zyx_um": [
+          9.366,
+          9.366,
+          9.366
+        ],
+        "chunks": [
+          28,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "compressor": null,
+        "source_path": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/surface-volumes/9.366um-1.2m-113keV-volume-20250821151531.zarr/"
+      },
+      "fine": {
+        "volume": "20260319124803",
+        "shape_zyx": [
+          109,
+          14660,
+          19100
+        ],
+        "spacing_zyx_um": [
+          2.403,
+          2.403,
+          2.403
+        ],
+        "chunks": [
+          109,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "compressor": null,
+        "source_path": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/"
+      },
+      "labels": [
+        {
+          "role": "inklabels",
+          "shape_yx": [
+            14660,
+            19100
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                14848,
+                19456
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "inklabels",
+            "source_entry": "841/auto_grown_20260220174252405",
+            "source_raster": "auto_grown_20260220174252405_inklabels_v2.tif",
+            "atlas_sample": "PHerc0841",
+            "atlas_segment": "20260221022814-auto_grown_20260220174252405",
+            "resolution_um": 2.403,
+            "canvas_offset_yx": [
+              29.5,
+              49.9
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        },
+        {
+          "role": "supervision",
+          "shape_yx": [
+            14660,
+            19100
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                14848,
+                19456
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "supervision",
+            "source_entry": "841/auto_grown_20260220174252405",
+            "source_raster": "auto_grown_20260220174252405_supervision_mask_v2.tif",
+            "atlas_sample": "PHerc0841",
+            "atlas_segment": "20260221022814-auto_grown_20260220174252405",
+            "resolution_um": 2.403,
+            "canvas_offset_yx": [
+              29.5,
+              49.9
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        },
+        {
+          "role": "validation",
+          "shape_yx": [
+            14660,
+            19100
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                14848,
+                19456
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "validation",
+            "source_entry": "841/auto_grown_20260220174252405",
+            "source_raster": "auto_grown_20260220174252405_validation_mask_v2.tif",
+            "atlas_sample": "PHerc0841",
+            "atlas_segment": "20260221022814-auto_grown_20260220174252405",
+            "resolution_um": 2.403,
+            "canvas_offset_yx": [
+              29.5,
+              49.9
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        }
+      ],
+      "label_catalog_properties": {
+        "registration": "transferred",
+        "annotated_on": "unknown",
+        "arrays": [
+          "inklabels",
+          "supervision",
+          "validation"
+        ],
+        "labelled_px": 4464854,
+        "supervised_px": 19440069,
+        "mapping_coverage": 0.9934216906222696
+      },
+      "affine_inverse_max_error": 7.275957614183426e-12,
+      "affine_check_scope": "Algebra only, not local physical registration.",
+      "reference_role": "Published transferred/model-reviewed annotation agreement on development material; not authenticated physical ink truth.",
+      "prior_audit": "Study 22 for PHerc0841; study 11 source-transfer contract for PHerc0009B. Prior unresolved provenance/validity limits retained."
+    },
+    {
+      "sample": "PHerc0009B",
+      "segment": "20250919125754",
+      "native": {
+        "volume": "20250521125136",
+        "shape_zyx": [
+          31,
+          7040,
+          5700
+        ],
+        "spacing_zyx_um": [
+          8.64,
+          8.64,
+          8.64
+        ],
+        "chunks": [
+          31,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "compressor": null,
+        "source_path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr/"
+      },
+      "fine": {
+        "volume": "20250820154339",
+        "shape_zyx": [
+          109,
+          25360,
+          20520
+        ],
+        "spacing_zyx_um": [
+          2.401,
+          2.401,
+          2.401
+        ],
+        "chunks": [
+          109,
+          128,
+          128
+        ],
+        "dtype": "|u1",
+        "compressor": null,
+        "source_path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/"
+      },
+      "labels": [
+        {
+          "role": "inklabels",
+          "shape_yx": [
+            25360,
+            20520
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                25600,
+                20992
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "inklabels",
+            "source_entry": "0009b/auto_grown_20250919055754487_inp_hr_2um",
+            "source_raster": "auto_grown_20250919055754487_inp_hr_inklabels_v2.tif",
+            "atlas_sample": "PHerc0009B",
+            "atlas_segment": "20250919125754-auto_grown_20250919055754487_inp_hr",
+            "resolution_um": 2.401,
+            "canvas_offset_yx": [
+              -38.351,
+              -44.944
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        },
+        {
+          "role": "supervision",
+          "shape_yx": [
+            25360,
+            20520
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                25600,
+                20992
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "supervision",
+            "source_entry": "0009b/auto_grown_20250919055754487_inp_hr_2um",
+            "source_raster": "auto_grown_20250919055754487_inp_hr_supervision_mask_v2.tif",
+            "atlas_sample": "PHerc0009B",
+            "atlas_segment": "20250919125754-auto_grown_20250919055754487_inp_hr",
+            "resolution_um": 2.401,
+            "canvas_offset_yx": [
+              -38.351,
+              -44.944
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        },
+        {
+          "role": "validation",
+          "shape_yx": [
+            25360,
+            20520
+          ],
+          "zarr_format": 3,
+          "dtype": "uint8",
+          "chunk_grid": {
+            "name": "regular",
+            "configuration": {
+              "chunk_shape": [
+                25600,
+                20992
+              ]
+            }
+          },
+          "codecs": [
+            {
+              "name": "sharding_indexed",
+              "configuration": {
+                "chunk_shape": [
+                  512,
+                  512
+                ],
+                "codecs": [
+                  {
+                    "name": "bytes"
+                  },
+                  {
+                    "name": "blosc",
+                    "configuration": {
+                      "typesize": 1,
+                      "cname": "zstd",
+                      "clevel": 3,
+                      "shuffle": "bitshuffle",
+                      "blocksize": 0
+                    }
+                  }
+                ],
+                "index_codecs": [
+                  {
+                    "name": "bytes",
+                    "configuration": {
+                      "endian": "little"
+                    }
+                  },
+                  {
+                    "name": "crc32c"
+                  }
+                ],
+                "index_location": "end"
+              }
+            }
+          ],
+          "republish_metadata": {
+            "asset": "validation",
+            "source_entry": "0009b/auto_grown_20250919055754487_inp_hr_2um",
+            "source_raster": "auto_grown_20250919055754487_inp_hr_validation_mask_v2.tif",
+            "atlas_sample": "PHerc0009B",
+            "atlas_segment": "20250919125754-auto_grown_20250919055754487_inp_hr",
+            "resolution_um": 2.401,
+            "canvas_offset_yx": [
+              -38.351,
+              -44.944
+            ],
+            "package_commit": "bfef6abe073510ee8b595da390ed1d639316abc8-dirty",
+            "provenance": "provenance.json"
+          }
+        }
+      ],
+      "label_catalog_properties": {
+        "registration": "transferred",
+        "annotated_on": "unknown",
+        "arrays": [
+          "inklabels",
+          "supervision",
+          "validation"
+        ],
+        "labelled_px": 9898417,
+        "supervised_px": 44309156,
+        "mapping_coverage": 0.9997622039027352
+      },
+      "affine_inverse_max_error": 5.684341886080802e-14,
+      "affine_check_scope": "Algebra only, not local physical registration.",
+      "reference_role": "Published transferred/model-reviewed annotation agreement on development material; not authenticated physical ink truth.",
+      "prior_audit": "Study 22 for PHerc0841; study 11 source-transfer contract for PHerc0009B. Prior unresolved provenance/validity limits retained."
+    }
+  ],
+  "source_pins": [
+    {
+      "file": "pherc0841-20260220213127-20250821151531-attrs.raw",
+      "bytes": 3498,
+      "sha256": "4d9f13361c8d10c895f268cc06d91bbbb973d338e073413db1960fe73e3812e8"
+    },
+    {
+      "file": "pherc0841-20260220213127-20250821151531-array.raw",
+      "bytes": 204,
+      "sha256": "05d70529bf79232bc34fbaded9a9991e0c73f8551283659a901cd31580ce0e5d"
+    },
+    {
+      "file": "pherc0841-20260220213127-20260319124803-attrs.raw",
+      "bytes": 3486,
+      "sha256": "ab53f221f3a1e6ce021e36c97aacff02e208726bb374dcb1d3d787cc4374a8a8"
+    },
+    {
+      "file": "pherc0841-20260220213127-20260319124803-array.raw",
+      "bytes": 208,
+      "sha256": "da5b815f5e71d003e0b8e6e2d72c8f02f6b8c76250691b3e97cdc9b15fe27c64"
+    },
+    {
+      "file": "pherc0841-20260220213127-label-list.raw",
+      "bytes": 833,
+      "sha256": "c9dce91d5976d086b0a50d39ada560a048b44c88743d11373570d8226191bed0"
+    },
+    {
+      "file": "pherc0841-20260220214732-20250821151531-attrs.raw",
+      "bytes": 3498,
+      "sha256": "b0cf6575e24f85bd5751b768d11a7d78dfac8cae541e3c673f77b5ef7571b876"
+    },
+    {
+      "file": "pherc0841-20260220214732-20250821151531-array.raw",
+      "bytes": 204,
+      "sha256": "88ff6f229918eeb7c7884974d60f89e596b92433beca97a019e39c9ae07cc6ce"
+    },
+    {
+      "file": "pherc0841-20260220214732-20260319124803-attrs.raw",
+      "bytes": 3486,
+      "sha256": "c858fe8733818db50c1fcc6a28ca45b725fa66ea9e27840a1be5ff899826e541"
+    },
+    {
+      "file": "pherc0841-20260220214732-20260319124803-array.raw",
+      "bytes": 208,
+      "sha256": "f69873df6bb297cc83670a6cb7d62b77aa62b5a1d1e1657f6ba8c31e95599b02"
+    },
+    {
+      "file": "pherc0841-20260220214732-label-list.raw",
+      "bytes": 933,
+      "sha256": "db8abee27025288246b6aedfad9c92965ccbef9eb1fdd1f409bc489080f43f50"
+    },
+    {
+      "file": "pherc0841-20260221022814-20250821151531-attrs.raw",
+      "bytes": 3498,
+      "sha256": "abafc19a101c684893cea91a8fc57109d17b742d4a6fef6c32d805ee73805618"
+    },
+    {
+      "file": "pherc0841-20260221022814-20250821151531-array.raw",
+      "bytes": 204,
+      "sha256": "e7cb280fea0653627792987812962d6176dde15ba28310a4bd3f064a9fdf6afe"
+    },
+    {
+      "file": "pherc0841-20260221022814-20260319124803-attrs.raw",
+      "bytes": 3486,
+      "sha256": "96e632855de92638bfca31dcf26a802496acebf2499e452e77fdd2c1816005d5"
+    },
+    {
+      "file": "pherc0841-20260221022814-20260319124803-array.raw",
+      "bytes": 208,
+      "sha256": "506ff89fdf5c6fc6d008d4ee9a64cea8c2c386dd889bcdcb07311089315774da"
+    },
+    {
+      "file": "pherc0841-20260221022814-label-list.raw",
+      "bytes": 933,
+      "sha256": "b3c0921187caea9e7def9ee0655cfd3b64f5bbd4ea4d39dd3f2d7e36b26d2585"
+    },
+    {
+      "file": "pherc0009b-20250919125754-20250521125136-attrs.raw",
+      "bytes": 3466,
+      "sha256": "54d0c11f9c366587bfb80348dc928126f35d27a11b8d935c8244dd99b9d36113"
+    },
+    {
+      "file": "pherc0009b-20250919125754-20250521125136-array.raw",
+      "bytes": 204,
+      "sha256": "9032d52964bc910733082828529b918251dac010d69d15068b5dbea0abc75f9d"
+    },
+    {
+      "file": "pherc0009b-20250919125754-20250820154339-attrs.raw",
+      "bytes": 3486,
+      "sha256": "6332fd1a7965d40019e86bb62bf018e4704a10a24847aed0e2be93796b5d66af"
+    },
+    {
+      "file": "pherc0009b-20250919125754-20250820154339-array.raw",
+      "bytes": 208,
+      "sha256": "fc98150df366e1bd423a70bfbe127ec38c19133defee1e88a1ab0858e93ad1a0"
+    },
+    {
+      "file": "pherc0009b-20250919125754-label-list.raw",
+      "bytes": 965,
+      "sha256": "184efffe37e5154d7666f34481599f32dddadc36a97d67f30bc84c5ff9e78a56"
+    },
+    {
+      "file": "pherc0009b-20250919125754-inklabels-list.raw",
+      "bytes": 1987,
+      "sha256": "5b37c6bb8ed43b288fdfc0a58b259831e11f9be93b3bf5d756e78de617ed0b8b"
+    },
+    {
+      "file": "pherc0009b-20250919125754-supervision-list.raw",
+      "bytes": 2003,
+      "sha256": "d3c3881b2d5688392d0bfd8534bf0978dce3780299af07803732e9919de446e1"
+    },
+    {
+      "file": "pherc0009b-20250919125754-validation-list.raw",
+      "bytes": 1995,
+      "sha256": "0697449dbe918046dcdd83ac9b9f1d6f77d5e6a84ce52b1f287f4d1feee8cc49"
+    },
+    {
+      "file": "pherc0841-20260220213127-inklabels-list.raw",
+      "bytes": 1723,
+      "sha256": "d93f6675ba8fa6156a1979179271fcd08c6d66804ac4043a24e3cbb8abdf514d"
+    },
+    {
+      "file": "pherc0841-20260220213127-supervision-list.raw",
+      "bytes": 1739,
+      "sha256": "9d7884c19ab716a38464b4284e778587539bdffc91aef030a4dc2db5a5f84daa"
+    },
+    {
+      "file": "pherc0841-20260220213127-validation-list.raw",
+      "bytes": 1731,
+      "sha256": "7b57e671808a154c92d7edd2074b1cde4ebfef901ebc56253f967107668ce83f"
+    },
+    {
+      "file": "pherc0841-20260220214732-inklabels-list.raw",
+      "bytes": 1923,
+      "sha256": "e84462f597bfdd0b963aaf99e9b7417dddfc2cea21b5429090a5bc04fac78ac0"
+    },
+    {
+      "file": "pherc0841-20260220214732-supervision-list.raw",
+      "bytes": 1939,
+      "sha256": "18ca1003afa825efec75db570167e7554711e8df0c9a477c9e546cca567b8b21"
+    },
+    {
+      "file": "pherc0841-20260220214732-validation-list.raw",
+      "bytes": 1931,
+      "sha256": "bb91352eea52b2b05fd1fce9febe1260a6fc6b19039620b55e94a3b4a7935e68"
+    },
+    {
+      "file": "pherc0841-20260221022814-inklabels-list.raw",
+      "bytes": 1923,
+      "sha256": "4e97fd13723fe48854ead8f2fc1f44fec287d1b844005d9cd494c8ac282035b0"
+    },
+    {
+      "file": "pherc0841-20260221022814-supervision-list.raw",
+      "bytes": 1939,
+      "sha256": "ce945930d63dbac1cd89efe9bed0e3c34abefcfd737ebfe3db649a0b66be59ac"
+    },
+    {
+      "file": "pherc0841-20260221022814-validation-list.raw",
+      "bytes": 1931,
+      "sha256": "0b117d96120f1913e51ea69f0464fdd65dcb7ef48912130d2e643b46f4f3f658"
+    },
+    {
+      "file": "pherc0009b-20250919125754-inklabels-group-v3.raw",
+      "bytes": 3092,
+      "sha256": "0e49b7912c512d29debbec2e4f12a45046f267533c5326e8c31e0528d847ecd6"
+    },
+    {
+      "file": "pherc0009b-20250919125754-inklabels-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "88cb33598a9dee89b2a0642e7b871ccaec2e399c02a4347d79b6b49b9137ffbb"
+    },
+    {
+      "file": "pherc0009b-20250919125754-supervision-group-v3.raw",
+      "bytes": 3107,
+      "sha256": "79b69d3a38e0982c4e8708935b1cea1ffaa867f630c81758e482d5f93562f30c"
+    },
+    {
+      "file": "pherc0009b-20250919125754-supervision-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "88cb33598a9dee89b2a0642e7b871ccaec2e399c02a4347d79b6b49b9137ffbb"
+    },
+    {
+      "file": "pherc0009b-20250919125754-validation-group-v3.raw",
+      "bytes": 3102,
+      "sha256": "ac2e21c69b195dd5dd26db54eddbe651006cfd1954e76586397fe0a06bdc5da3"
+    },
+    {
+      "file": "pherc0009b-20250919125754-validation-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "88cb33598a9dee89b2a0642e7b871ccaec2e399c02a4347d79b6b49b9137ffbb"
+    },
+    {
+      "file": "pherc0841-20260220213127-inklabels-group-v3.raw",
+      "bytes": 2909,
+      "sha256": "50b3ee594a16898790108a4e599036a738b06d71d5741f7d10a58bc5e1fd0697"
+    },
+    {
+      "file": "pherc0841-20260220213127-inklabels-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "6c02f94b2296bfbd2825890892e42db656550dff3f57763b3f475304f8432479"
+    },
+    {
+      "file": "pherc0841-20260220213127-supervision-group-v3.raw",
+      "bytes": 2924,
+      "sha256": "e9542a6e9c8143e1da3308b41844024bdc92ac40cdf4a2e5d8ca4fcb06ee2beb"
+    },
+    {
+      "file": "pherc0841-20260220213127-supervision-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "6c02f94b2296bfbd2825890892e42db656550dff3f57763b3f475304f8432479"
+    },
+    {
+      "file": "pherc0841-20260220213127-validation-group-v3.raw",
+      "bytes": 2919,
+      "sha256": "e34f4bad6c1baae442a32fbcd3d02cfb21b455c1a0ccc0e9a80ca4d5eded9f37"
+    },
+    {
+      "file": "pherc0841-20260220213127-validation-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "6c02f94b2296bfbd2825890892e42db656550dff3f57763b3f475304f8432479"
+    },
+    {
+      "file": "pherc0841-20260220214732-inklabels-group-v3.raw",
+      "bytes": 3032,
+      "sha256": "10f0cec1a600fd5a6529b50127963cf19708dc5156f88813ef06e1930c718cab"
+    },
+    {
+      "file": "pherc0841-20260220214732-inklabels-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "8b0e8768bbbde6cc6083a025d20902c16fd712e6ede864d80c190fac8acd93b1"
+    },
+    {
+      "file": "pherc0841-20260220214732-supervision-group-v3.raw",
+      "bytes": 3047,
+      "sha256": "614b83ebacca1aa682b59f7ef468ded89112f7493c1569dca1b623e0bd0ab63a"
+    },
+    {
+      "file": "pherc0841-20260220214732-supervision-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "8b0e8768bbbde6cc6083a025d20902c16fd712e6ede864d80c190fac8acd93b1"
+    },
+    {
+      "file": "pherc0841-20260220214732-validation-group-v3.raw",
+      "bytes": 3042,
+      "sha256": "91c858d6132625da9af98cbcc298c7e7f69c5d8cb316beeddb23538c4d42b279"
+    },
+    {
+      "file": "pherc0841-20260220214732-validation-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "8b0e8768bbbde6cc6083a025d20902c16fd712e6ede864d80c190fac8acd93b1"
+    },
+    {
+      "file": "pherc0841-20260221022814-inklabels-group-v3.raw",
+      "bytes": 3034,
+      "sha256": "dc0b2f71e58350bd3f75b014a143d174a06fd60c01a735cc9fa6d77eff99a3f9"
+    },
+    {
+      "file": "pherc0841-20260221022814-inklabels-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "8fa09ab665742820410ef57e9c646b2b35ab0e92c11fee9e872f548d7792de95"
+    },
+    {
+      "file": "pherc0841-20260221022814-supervision-group-v3.raw",
+      "bytes": 3049,
+      "sha256": "16c618de91a0bdf347a51debda0e38ffc99d0bc6e938a1620b55361c92ba0cdd"
+    },
+    {
+      "file": "pherc0841-20260221022814-supervision-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "8fa09ab665742820410ef57e9c646b2b35ab0e92c11fee9e872f548d7792de95"
+    },
+    {
+      "file": "pherc0841-20260221022814-validation-group-v3.raw",
+      "bytes": 3044,
+      "sha256": "a8a20be386bbb22e9c311c7b88f8862f09a64f6eae81ab79f9e95de0df5ff76a"
+    },
+    {
+      "file": "pherc0841-20260221022814-validation-array-v3.raw",
+      "bytes": 1218,
+      "sha256": "8fa09ab665742820410ef57e9c646b2b35ab0e92c11fee9e872f548d7792de95"
+    }
+  ],
+  "array_payloads_read": 0,
+  "new_inference": 0,
+  "next": "Reuse prior provenance conclusions. Prepare one mask-selected fixed common-support comparison with supplied-reference agreement explicitly separated from independent accuracy; no further provenance search in this batch."
+}
