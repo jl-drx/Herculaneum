@@ -1,6 +1,6 @@
 {
-  "status": "LOCAL_READY_FOR_NORMAL_PUSH",
-  "utc": "2026-10-12T23:52:57.542219+00:00",
+  "status": "LOCAL_COMMITTED_NORMAL_PUSH_BLOCKED",
+  "utc": "2026-10-12T23:53:07.701510+00:00",
   "repository": "jl-drx/Herculaneum",
   "branch": "codex/plinius-pherc343-reproduction",
   "last_verified_remote_commit": "2369f0db26cf0ecd2e1d278908f1bd6fc58c4c5e",
@@ -9,5 +9,10 @@
   "scientific_result_verified_locally": true,
   "source_census_independent_recomputation": "PASS",
   "latest_input_archive_sha256": "f44ed05c21b2ee51dc0bd383ae71aef24847700726c1fe4284df327311843dc0",
-  "paid_compute": false
+  "paid_compute": false,
+  "source_commit": "24f8ebdb36e2194e3c260b60889db9e8cd22f62d",
+  "push_returncode": 128,
+  "push_output": "remote: upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: immediate connect error: Invalid argument|remote address:envoy://cloudflare_https_tunnel/\nfatal: unable to access 'https://github.com/jl-drx/Herculaneum.git/': The requested URL returned error: 503\n",
+  "forced_push": false,
+  "tls_or_lfs_verification_bypassed": false
 }
