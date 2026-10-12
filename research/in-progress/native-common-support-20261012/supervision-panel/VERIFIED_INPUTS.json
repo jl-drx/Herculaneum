@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "pherc0841-20260220213127",
+      "score_pixels": 68067,
+      "positive_pixels": 465,
+      "negative_pixels": 67602,
+      "two_class_cores": 2,
+      "single_class_cores": 4,
+      "positive_fraction": 0.006831504253162326,
+      "source_context_verified": true
+    },
+    {
+      "id": "pherc0841-20260220214732",
+      "score_pixels": 47555,
+      "positive_pixels": 2699,
+      "negative_pixels": 44856,
+      "two_class_cores": 3,
+      "single_class_cores": 3,
+      "positive_fraction": 0.056755335926821575,
+      "source_context_verified": true
+    },
+    {
+      "id": "pherc0841-20260221022814",
+      "score_pixels": 61167,
+      "positive_pixels": 7386,
+      "negative_pixels": 53781,
+      "two_class_cores": 2,
+      "single_class_cores": 4,
+      "positive_fraction": 0.12075138555103242,
+      "source_context_verified": true
+    },
+    {
+      "id": "pherc0009b-20250919125754",
+      "score_pixels": 55461,
+      "positive_pixels": 9587,
+      "negative_pixels": 45874,
+      "two_class_cores": 3,
+      "single_class_cores": 3,
+      "positive_fraction": 0.17286020807414218,
+      "source_context_verified": true
+    }
+  ],
+  "core_count": 24,
+  "hybrid_patches": 216,
+  "hecate_patches": 834,
+  "patch_files_verified": 1050,
+  "score_pixels": 232250,
+  "positive_pixels": 20137,
+  "all_segments_two_classes": true,
+  "model_forwards": 0,
+  "hecate_scope": "Patch hashes + earlier full-canvas footprint and synthetic preparation parity, not an independent real-CT interpolation recomputation",
+  "claim": "Read-only source/score/patch verification; not accuracy, registration or neural-output parity"
+}

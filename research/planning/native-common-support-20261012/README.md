@@ -1,5 +1,10 @@
 # Common-support native model comparison
 
+**Follow-up:** the [executed input packet](../../in-progress/native-common-support-20261012/README.md)
+preserves the original union-panel admission failure and a separately frozen
+supervision-supported development panel. Inference remains unrun. The text below
+is the original metadata-only preparation record, not the current run status.
+
 12 October 2026. This intake prepares the next strong-model development
 comparison. It runs no model and opens no new CT or annotation array payload.
 The current native0139 experiment is unchanged. The next comparison is useful

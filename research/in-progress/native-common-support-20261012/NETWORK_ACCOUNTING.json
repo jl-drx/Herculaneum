@@ -1,0 +1,27 @@
+{
+  "rows": [
+    {
+      "panel": "pilot",
+      "new_CT_GET_attempts": 179,
+      "successful_new_GETs": 178,
+      "new_CT_body_bytes": 84312064,
+      "conservative_reserved_bytes": 84770816,
+      "materialized_selected_bytes": 101744640,
+      "selected_canonical_fill_chunks": 38,
+      "selected_retrieved_objects_including_cache": 178
+    },
+    {
+      "panel": "supervision-pilot",
+      "new_CT_GET_attempts": 160,
+      "successful_new_GETs": 160,
+      "new_CT_body_bytes": 73400320,
+      "conservative_reserved_bytes": 73400320,
+      "materialized_selected_bytes": 101744640,
+      "selected_canonical_fill_chunks": 0,
+      "selected_retrieved_objects_including_cache": 216,
+      "verified_cached_CT_objects": 56
+    }
+  ],
+  "new_CT_body_bytes_total": 157712384,
+  "interpretation": "CT_COMPLETE downloaded_body_bytes counts associated retrieved objects including verified cache. This report uses durable ledgers for actual new body bytes. The initial 404 body was not consumed."
+}

@@ -30,8 +30,8 @@ training. Strong native baselines and controlled broader coverage remain next.
    using geometry/metadata before inspecting labels or predictions. Build targeted
    correction as a separately controlled data intervention.
 
-Preparation proceeds in this workspace using light CPU/network work. Do not
-compete with the live worker using large CPU inference or builds. Use the spare
+Preparation proceeds in this workspace; the native0139 worker has completed.
+Use the spare
 VM only when hour-scale independent work makes delegation useful; none is assigned
 by this plan. Existing public and locally inspected benchmarks are development.
 
@@ -57,6 +57,16 @@ PHerc0009B reference segments. Reuse studies 11/22's provenance conclusions;
 the next action is a mask-selected development comparison of the strong models,
 with supplied-reference agreement distinguished from physical ink accuracy.
 Do not repeat the missing-provenance search or select a favourable segment.
+
+The [completed common-support input packet](in-progress/native-common-support-20261012/README.md)
+revealed that the union-selected panel contained no positive reference pixels in
+any of its three PHerc0841 segments. Preserve that failed admission. A separate,
+explicitly adaptive supervision-only panel was frozen before model inference:
+24 cores, 232,250 score pixels and both classes in each segment. All source chunks
+and 1,050 model patches are verified. The next execution is the fixed five-model
+CPU comparison (estimated 40–60 minutes), after qualifying/freezing its resumable
+multi-segment runner. No model comparison or paid work has started. Do not call
+this small, exposed panel a fresh confirmation test or reopen the native0139 fits.
 
 ## Conditional next experiments
 

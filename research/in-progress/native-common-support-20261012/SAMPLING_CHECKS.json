@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "checks": [
+    "22 grid lengths/patch configurations equal pinned original functions",
+    "Hand-derived spread/tie result, input-order invariance and deficient cohort rejection"
+  ],
+  "interpolation": [
+    {
+      "native_shape": [
+        4220,
+        4760
+      ],
+      "spacing": 9.366,
+      "core_xy": [
+        128,
+        128
+      ],
+      "interpolation": "INTER_LINEAR",
+      "exact_input_and_output_parity": true
+    },
+    {
+      "native_shape": [
+        4220,
+        4760
+      ],
+      "spacing": 9.366,
+      "core_xy": [
+        1280,
+        1536
+      ],
+      "interpolation": "INTER_LINEAR",
+      "exact_input_and_output_parity": true
+    },
+    {
+      "native_shape": [
+        4220,
+        4760
+      ],
+      "spacing": 9.366,
+      "core_xy": [
+        4480,
+        3840
+      ],
+      "interpolation": "INTER_LINEAR",
+      "exact_input_and_output_parity": true
+    },
+    {
+      "native_shape": [
+        7040,
+        5700
+      ],
+      "spacing": 8.64,
+      "core_xy": [
+        128,
+        128
+      ],
+      "interpolation": "INTER_AREA",
+      "exact_input_and_output_parity": true
+    },
+    {
+      "native_shape": [
+        7040,
+        5700
+      ],
+      "spacing": 8.64,
+      "core_xy": [
+        1280,
+        1536
+      ],
+      "interpolation": "INTER_AREA",
+      "exact_input_and_output_parity": true
+    },
+    {
+      "native_shape": [
+        7040,
+        5700
+      ],
+      "spacing": 8.64,
+      "core_xy": [
+        5376,
+        6784
+      ],
+      "interpolation": "INTER_AREA",
+      "exact_input_and_output_parity": true
+    }
+  ],
+  "cv2": "5.0.0",
+  "source_sha256": {
+    "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/inference/infer.py": "979aed8e1bf047bea8e30bd0bbe55538556289c72b5914bbbbecf355e5940389",
+    "research/lab/reports/fortyfifth-experiment/source-evidence/hecate-hecate.py": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59"
+  },
+  "real_ct": false,
+  "model_forwards": 0,
+  "claim": "Footprint and axis scheduling controls; not model output parity"
+}

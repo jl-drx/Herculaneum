@@ -1,0 +1,56 @@
+{
+  "status": "INPUTS_ADMITTED_INFERENCE_NOT_STARTED",
+  "selection_sha256": "bb19d53736cf3491e8ee7847a89d0632b6cffd441346730d4855e485cd17615c",
+  "patch_manifest_sha256": "5364e1e9aa2f537dd69ba26179b4d3ff82304fde69f5999ff316f661c4925a7e",
+  "models": [
+    {
+      "model": "reader_v2",
+      "nonempty_patch_forwards": 216,
+      "retained_seconds_per_forward": 2.8748952165042283,
+      "arithmetic_estimate_seconds": 620.9773667649133,
+      "timing_scope": "Reader retained two synthetic forwards plus load overhead at one thread"
+    },
+    {
+      "model": "dnative",
+      "nonempty_patch_forwards": 216,
+      "retained_seconds_per_forward": 0.2311666969981161,
+      "arithmetic_estimate_seconds": 49.932006551593076,
+      "timing_scope": "Retained real single-tile CPU measurement, fp32, four threads"
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "nonempty_patch_forwards": 216,
+      "retained_seconds_per_forward": 0.1495457239980169,
+      "arithmetic_estimate_seconds": 32.30187638357165,
+      "timing_scope": "Retained real single-tile CPU measurement, fp32, four threads"
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "nonempty_patch_forwards": 216,
+      "retained_seconds_per_forward": 0.12746053299997584,
+      "arithmetic_estimate_seconds": 27.53147512799478,
+      "timing_scope": "Retained real single-tile CPU measurement, fp32, four threads"
+    },
+    {
+      "model": "hecate",
+      "nonempty_patch_forwards": 834,
+      "retained_seconds_per_forward": 2.5197974309994606,
+      "arithmetic_estimate_seconds": 2101.51105745355,
+      "timing_scope": "Retained real single-tile CPU measurement, fp32, four threads"
+    }
+  ],
+  "total_forwards": 1698,
+  "arithmetic_estimate_minutes": 47.20422970469372,
+  "planning_window_minutes": [
+    40,
+    60
+  ],
+  "estimate_limit": "No new timing; includes a conservative Reader proxy from another Python/PyTorch environment. Actual CPU load, adapter/replay and I/O may change runtime. Not a GPU estimate.",
+  "recommendation": "Execute the fixed small inference comparison on this CPU after qualifying/finalizing the resumable multi-segment runner. This estimated sub-hour job does not justify GPU setup or spare-VM delegation. Meaningful future training remains eligible for a separately approved GPU proposal.",
+  "sources": {
+    "research/lab/reports/fortyninth-experiment/INFERENCE_QUALIFICATION.json": "36abde50d9c013a6bd64021e3c38ff0671331a06cfe105b685f78449258f69f1",
+    "research/in-progress/frontier-intake-20261012/models/READER_QUALIFICATION.json": "4e604d5e14b51396bdc03f7769fd7cc9a983b8629377867b859ff11755949ad2"
+  },
+  "paid_compute_started": false,
+  "new_model_forwards": 0
+}
