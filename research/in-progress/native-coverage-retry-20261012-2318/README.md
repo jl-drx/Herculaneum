@@ -1,5 +1,11 @@
 # Publication recovered; more input retained and first case qualified
 
+**This new update is local only.** Its archive, independent verifier and fresh
+production replay pass, but the normal Git push returned proxy-tunnel HTTP 503.
+Git ref reads also failed; remote availability of this archive is not established.
+[PERSISTENCE.json](PERSISTENCE.json) distinguishes it from the parent checkpoint,
+which was successfully published and remotely verified earlier this turn.
+
 12 October 2026. The previously blocked 276.71 MiB checkpoint was published at
 `2369f0db26cf0ecd2e1d278908f1bd6fc58c4c5e` and a fresh selective LFS download
 matched its exact length and SHA256. [The parent receipt](PARENT_CHECKPOINT_REMOTE_RESTORE.json)
@@ -35,3 +41,9 @@ The [update archive](PORTABILITY.md) is a delta against the **combined 21:47
 restore**, which already contains both earlier source retries. It retains the new
 bytes and the complete partial-qualification packet. Preserve both dated original
 qualifications; finish the intended population before drawing a training decision.
+
+[CACHE_CLEANUP.json](CACHE_CLEANUP.json) records removal of six older generated
+restore copies after rechecking their full manifests and published archive
+receipts. This recovered 4.26 GB. The live source cache, newest combined restore,
+all archives/LFS objects and scientific receipts remain; unpublished new bytes
+were not removed. Available workspace space is approximately 7.3 GiB afterward.

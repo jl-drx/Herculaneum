@@ -1,5 +1,11 @@
 # Restore additional input and the first case's qualification
 
+**Availability: locally committed and restore-tested; publication blocked.**
+The new Git push and follow-up ref read returned HTTP 503. The commands below
+become usable on another machine after a successful push and fresh remote
+verification. See [PERSISTENCE.json](PERSISTENCE.json). Earlier parent archives
+remain the previously published, verified checkpoints.
+
 This **378,709,958-byte (361.17 MiB)** archive contains 2,137 payload files and
 applies 2,126 changed paths. It adds 1,009 source records, the continuation records
 and the complete first-case qualification, including sparse TIFF metadata,

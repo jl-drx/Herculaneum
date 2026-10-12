@@ -1,5 +1,10 @@
 # First complete added source: teacher and support mechanics pass
 
+This new report and its input update are committed and verified locally.
+GitHub publication is currently blocked by HTTP 503; see the
+[persistence record](../native-coverage-retry-20261012-2318/PERSISTENCE.json).
+Earlier parent input checkpoints are already privately published and verified.
+
 12 October 2026. The approved population-intake protocol can now be exercised on
 PHerc0814 segment `20250925161630`: all its fixed source dependencies are present.
 The other seven cases remain explicitly unresolved. This is partial input

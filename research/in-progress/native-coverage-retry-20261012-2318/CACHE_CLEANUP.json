@@ -1,0 +1,71 @@
+{
+  "status": "REMOVED_ONLY_VERIFIED_REBUILDABLE_RESTORE_COPIES",
+  "utc": "2026-10-12T23:38:29.260529+00:00",
+  "removed": [
+    {
+      "directory": "native-original-complete-delta-restored-20261012",
+      "manifest_sha256": "d23997eba853e232b976a7bd74b3bf06f52b384607fa72566916040c0bcdfab2",
+      "files_verified": 2022,
+      "payload_bytes": 419569481
+    },
+    {
+      "directory": "native-original-complete-restored-20261012",
+      "manifest_sha256": "8e170377e63744a1fb2c6d331196ed41cc816166ec23845cf92f7c5745780b7c",
+      "files_verified": 4907,
+      "payload_bytes": 1039053751
+    },
+    {
+      "directory": "native-retry-2053-delta-restored-20261012",
+      "manifest_sha256": "03b049edb997d2b952b2da85059f7acd35814f7f955023aefc727444d28edc11",
+      "files_verified": 159,
+      "payload_bytes": 9023214
+    },
+    {
+      "directory": "native-retry-2053-combined-restored-20261012",
+      "manifest_sha256": "e95954f1e3f1896d789eb997d7e323e1f71d8cb4436d113f75dd6af170034e1f",
+      "files_verified": 5067,
+      "payload_bytes": 1049503594
+    },
+    {
+      "directory": "native-retry-2147-delta-restored-20261012",
+      "manifest_sha256": "1af4b54999f5104a3a1352444e7055b80dab1855b5085a443f9971ed86a1158c",
+      "files_verified": 1989,
+      "payload_bytes": 327246612
+    },
+    {
+      "directory": "native-retry-2147-combined-restored-20261012",
+      "manifest_sha256": "665c69cb1e6fb890ce06685679910f0293799d52d63dbcb935b852b13ba92899",
+      "files_verified": 6897,
+      "payload_bytes": 1367726800
+    }
+  ],
+  "published_archive_receipts": [
+    {
+      "path": "research/in-progress/native-coverage-completion-20261012/REMOTE_RESTORE.json",
+      "sha256": "1aee8e57caa61378fa4127987745cd9909a71b835f8c3b86e0f98c18d2478f96",
+      "source_commit": "94556cd377f53aa8e976c67a984cc1fd719d871d",
+      "archive_sha256": "4f70a9640ff62a48435398d7c13603009f077dec2436ced5092088abce02c4c0"
+    },
+    {
+      "path": "research/in-progress/native-coverage-retry-20261012-2053/REMOTE_RESTORE.json",
+      "sha256": "213c20a2efa716463f8faf5c892fffd072642beaca0f019443539b4e228ff91c",
+      "source_commit": "62151d37f93b76cef67b07ee3be8aa3d841b6d0c",
+      "archive_sha256": "c92d28da57d3042dedf26dc32d5a38cab20f5d90a6f80a3122bad41c93e795e7"
+    },
+    {
+      "path": "research/in-progress/native-coverage-retry-20261012-2147/REMOTE_RESTORE.json",
+      "sha256": "6dd18e96ec47296bfdae0b1130646569effe979bf7743c3f01429793a010f7d6",
+      "source_commit": "2369f0db26cf0ecd2e1d278908f1bd6fc58c4c5e",
+      "archive_sha256": "4d16cece37b134da339775306d00dbd9c8bf1df2ea6d8e416561719714f72917"
+    }
+  ],
+  "free_bytes_before": 3470389248,
+  "free_bytes_after": 7731666944,
+  "reclaimed_bytes": 4261277696,
+  "live_source_cache_retained": true,
+  "newest_combined_restore_retained": true,
+  "all_archives_lfs_objects_and_scientific_receipts_retained": true,
+  "latest_unpublished_source_bytes_retained": true,
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

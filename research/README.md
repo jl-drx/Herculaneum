@@ -10,6 +10,9 @@ retained another 1,009 records (424 MB). The [first complete source's qualificat
 passes decoder, global area-sampling and separate CT/support checks on all 1,290
 candidates. Restricted and broad teacher class shares differ; complete the other
 seven cases before freezing training weights. No model improvement is claimed.
+The newest report and input update are **local only** while Git publication
+returns HTTP 503; [persistence status](in-progress/native-coverage-retry-20261012-2318/PERSISTENCE.json)
+records the boundary between local verification and remote availability.
 
 **Matched coverage preparation completed:** [source and full-model mechanics checks](in-progress/native-coverage-preparation-20261012/README.md) bind all 56 released native-v2 representations, qualify seven of eight fixed PHerc0814 source crops, and pass exact-stream accumulation and checkpoint reload checks. The first pair now varies regional coverage on the same eight PHerc0814 segments while preserving PHerc0139 draws and loss weights. Its 2,886 versus 11,887 candidate patches yield only 1.46–1.60× coarse CT-neighbourhood coverage; population-wide source and supervision admission remains next. No learning-improvement or GPU-readiness claim follows. The [private evidence bundle](in-progress/native-coverage-preparation-20261012/PORTABILITY.md) includes the new inputs. The parallel [CT corridor review](in-progress/geometry-corridor-preparation-20261012/README.md) retains two short provisional paths but still lacks an independently qualified geometry reference.
 

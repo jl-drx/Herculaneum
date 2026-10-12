@@ -126,6 +126,11 @@ patches remain. Teacher-positive occurrence shares differ (22.135% versus
 training weights. These are weak-supervision mechanics, not physical registration
 or a model result. The other seven segments remain unresolved, and no smaller
 availability-selected training cohort is admitted.
+The new input/qualification update is committed and restore-tested locally;
+normal Git publication is blocked by proxy-tunnel HTTP 503. The parent 21:47
+checkpoint was published at `2369f0d` and freshly downloaded with matching bytes.
+Publish and remotely verify the new update before claiming it is available
+through GitHub on another machine.
 After public S3 access recovers, resume those same requests, complete the fixed
 population qualification, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep
