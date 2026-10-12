@@ -3639,6 +3639,25 @@
       ],
       "created_utc": "2026-10-12T11:52:50.868805+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0158.tar.gz",
+      "bytes": 1392112,
+      "sha256": "3145dd07ff3fce91f29101f6d756a15fbdde9fa9004994b806e474180f2f6264",
+      "members": [
+        {
+          "path": "work/w044-seed89/step-005888.json",
+          "bytes": 879,
+          "sha256": "9cc685b6a751460f8ac9f436d3f2fcc935a5918b8708477c0ba2ea9f0b430623"
+        },
+        {
+          "path": "work/w044-seed89/step-005888.pt",
+          "bytes": 1527213,
+          "sha256": "5efd6905a8f9515266721cbcd6e395941d8e3f053e844ddb2414068b444cfb16"
+        }
+      ],
+      "created_utc": "2026-10-12T12:02:59.104632+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
@@ -3656,29 +3675,29 @@
   ],
   "note": "Resume files, not a live process or installed runtime",
   "latest_worker_status": {
-    "utc": "2026-10-12T11:52:03.517923+00:00",
+    "utc": "2026-10-12T11:59:09.144031+00:00",
     "phase": "training",
     "arm": "w044-seed89",
-    "step": 5376,
+    "step": 5888,
     "maximum_updates": 16384,
     "train": {
-      "ap": 0.854258213859438,
-      "auc": 0.9287995819734955,
+      "ap": 0.8947182462881783,
+      "auc": 0.9476205962264672,
       "positives": 516251,
       "negatives": 1121962,
       "undefined_single_class": false,
-      "bce": 0.3254385538576022,
+      "bce": 0.270050453100844,
       "prevalence": 0.31513057215392626,
-      "mean_probability": 0.36485224994476567,
-      "fraction_probability_ge_half": 0.35662029296556674
+      "mean_probability": 0.3147552897924811,
+      "fraction_probability_ge_half": 0.304415848244398
     },
     "lr": 0.001,
-    "seconds_per_update_including_training_checks": 0.6889095232565112,
+    "seconds_per_update_including_training_checks": 0.7012913906480983,
     "termination": null,
     "held_out_predictions": 0,
-    "draws": 21504,
+    "draws": 23552,
     "unique_cores": 163,
-    "supervised_pixel_exposures": 280428302
+    "supervised_pixel_exposures": 306941014
   },
-  "updated_utc": "2026-10-12T11:52:50.869270+00:00"
+  "updated_utc": "2026-10-12T12:02:59.105437+00:00"
 }
