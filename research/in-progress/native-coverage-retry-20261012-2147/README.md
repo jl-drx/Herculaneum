@@ -1,5 +1,11 @@
 # Retry retained 912 more source records; full intake still incomplete
 
+**Latest update is local only.** The archive and report are committed and
+restore-tested, but GitHub LFS publication hit HTTP 503. Its fresh readback also
+failed, and the remote branch remains at `9548d79`. The previously published
+checkpoints are unchanged. [PERSISTENCE.json](PERSISTENCE.json) records the failed
+publication stages and the exact next verification required.
+
 12 October 2026. The user's requested retry passed its one-byte source probe
 and resumed the unchanged four-reader intake. It retained **912 new records**:
 608 full CT chunks and 304 teacher ranges, totalling **317,025,084 bytes**.

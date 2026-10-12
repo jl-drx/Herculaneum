@@ -9,6 +9,9 @@ and verified by a fresh GitHub download. [The latest source retry](in-progress/n
 retained another 912 records (317 MB) before HTTP 503 returned; 15,064 requests
 remain. One of eight added segments has all requested bytes, with supervision
 qualification still pending. The checkpoint's scientific results are unchanged.
+The newest cumulative addendum is **local only**: LFS publication and fresh
+readback failed. [Persistence status](in-progress/native-coverage-retry-20261012-2147/PERSISTENCE.json)
+records the distinction from the previously published and verified archives.
 
 **Matched coverage preparation completed:** [source and full-model mechanics checks](in-progress/native-coverage-preparation-20261012/README.md) bind all 56 released native-v2 representations, qualify seven of eight fixed PHerc0814 source crops, and pass exact-stream accumulation and checkpoint reload checks. The first pair now varies regional coverage on the same eight PHerc0814 segments while preserving PHerc0139 draws and loss weights. Its 2,886 versus 11,887 candidate patches yield only 1.46–1.60× coarse CT-neighbourhood coverage; population-wide source and supervision admission remains next. No learning-improvement or GPU-readiness claim follows. The [private evidence bundle](in-progress/native-coverage-preparation-20261012/PORTABILITY.md) includes the new inputs. The parallel [CT corridor review](in-progress/geometry-corridor-preparation-20261012/README.md) retains two short provisional paths but still lacks an independently qualified geometry reference.
 

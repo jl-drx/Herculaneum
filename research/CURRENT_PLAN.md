@@ -119,6 +119,10 @@ retained another 608 CT chunks and 304 teacher ranges (317,025,084 bytes) before
 HTTP 503 returned. All requested source bytes for the first of eight PHerc0814
 segments are now present, but its supervision has not been population-qualified.
 These are acquisition progress only; the full source prerequisite remains unresolved.
+The latest cumulative addendum is committed and restore-tested locally. GitHub
+LFS publication and fresh readback failed, while Git/API reads still work; the
+remote ref remains `9548d79`. Publish and verify this addendum after recovery
+before describing the newest source bytes as portable through GitHub.
 After public S3 access recovers, resume those same requests, complete the fixed
 population qualification, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep

@@ -1,5 +1,12 @@
 # Restore the cumulative source retry update
 
+**Current availability: local only.** Normal pushes failed at GitHub LFS
+verification endpoints with HTTP 503, and a fresh object readback failed.
+[PERSISTENCE.json](PERSISTENCE.json) distinguishes the verified local archive
+from the last published remote commit. The selective-download command below
+becomes usable after a successful push and remote archive check. It is not a
+claim that this newest update is already downloadable on another machine.
+
 This **290,148,807-byte (276.71 MiB)** private archive preserves 1,989 payload
 files. It contains all source progress since the completed-original checkpoint,
 including the earlier 8.25 MiB addendum and this retry's 912 new records. It adds
