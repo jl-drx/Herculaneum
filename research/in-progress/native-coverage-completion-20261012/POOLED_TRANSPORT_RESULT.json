@@ -1,0 +1,29 @@
+{
+  "status": "FAILED_UNRESOLVED",
+  "utc": "2026-10-12T19:57:57.971561+00:00",
+  "chosen": 64,
+  "completed": 7,
+  "confirmed_missing": 0,
+  "source_body_bytes": 703693,
+  "unattempted": 56,
+  "failure": {
+    "request_id": "pherc0814-20250925161630-teacher-00423",
+    "utc": "2026-10-12T19:57:57.916397+00:00",
+    "source_body_bytes": 0,
+    "http_status": 503,
+    "server": "envoy",
+    "same_connection_object_seen_before": true,
+    "same_socket_seen_before": true,
+    "error_body": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: immediate connect error: Invalid argument|remote address:envoy://cloudflare_https_tunnel/",
+    "status": "FAILED_UNRESOLVED",
+    "error_type": "RuntimeError",
+    "reason": "Unexpected HTTP 503; source remains unresolved",
+    "seconds": 0.05487710001762025
+  },
+  "distinct_connection_objects": 1,
+  "distinct_socket_objects": 1,
+  "seconds": 2.009309936023783,
+  "full_population_admitted": false,
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

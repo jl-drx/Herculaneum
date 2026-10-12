@@ -97,16 +97,21 @@ coarse CT-neighbourhood coverage. Separate arithmetic reproduces those counts.
 Population-wide CT/supervision eligibility and the final schedules are still
 pending. The [population intake](in-progress/native-coverage-admission-20261012/README.md)
 now binds 17,570 added-stream source requests and all five original native
-annotation sources. All 876 original mask-selected candidates are retained;
-481 on w035/w039/w044 have verified CT support, while 395 on w040/w041 await
-input access. Separate full-raster arithmetic reproduces every decision.
-Persistent outbound proxy-tunnel HTTP 503 errors prevented full CT/teacher
-acquisition. The partial source caches and exact pending requests are preserved;
+annotation sources. The [resumed original-stream qualification](in-progress/native-coverage-completion-20261012/README.md)
+completes all 781 original CT chunks and verifies **all 876 candidates** across
+the five windings. Separate full-raster arithmetic reproduces every decision.
+Within-winding deduplication gives 5,022,663 supervised UV positions; overlapping
+patches produce 8,934,148 supervised occurrences. All 208 zero-positive annotation
+patches remain. Freeze winding quotas explicitly: equal-patch and equal-winding
+draws have different source and class exposure, even before augmentation.
+Persistent outbound proxy-tunnel HTTP 503 errors still prevent full added-stream
+CT/teacher acquisition. The source caches and exact pending requests are preserved;
 unavailable transport is not an absent object or a negative label. No substitute
 three-winding or availability-selected added-stream experiment is authorized.
-One later retry retained 52 more complete CT chunks but failed again; successful
-HEAD/small-range probes did not establish recovered bulk access. The partial
-qualification remains frozen and the new bytes are a separate cache addendum.
+The added cache now contains 1,522 complete objects, with 16,048 requests pending.
+A bounded persistent-connection diagnostic failed on the same live socket after
+seven successes, so local connection reuse did not solve the problem. Preserve
+all dated qualifications and failed attempts; the full matched pair is unadmitted.
 After public S3 access recovers, resume those same requests, complete the fixed
 population qualification, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep

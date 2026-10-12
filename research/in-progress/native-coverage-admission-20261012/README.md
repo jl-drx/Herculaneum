@@ -1,5 +1,9 @@
 # Population intake: partial, blocked by outbound transport
 
+This is the preserved initial partial result. The [later continuation](../native-coverage-completion-20261012/README.md)
+completes the original stream (all 876 candidates); the full added stream remains
+blocked. Use its cumulative checkpoint for the latest source state.
+
 12 October 2026. The intended comparison is unchanged, but **the complete
 training population could not be admitted**. The environment's outbound proxy
 began returning HTTP 503 before source response headers. No model inference,

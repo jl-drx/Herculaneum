@@ -61,6 +61,15 @@ an operational dependency, not additional negative learning evidence. Do not
 shrink the experiment to its downloaded subset or reopen closed model branches
 because the planned inputs are temporarily inaccessible.
 
+The [next bounded continuation](../../in-progress/native-coverage-completion-20261012/README.md)
+completed the original stream: all 781 CT chunks and all 876 candidates pass
+independent numerical verification. The original patch union covers all provided
+supervision before CT validity, and every one-class patch remains. This is input
+and exposure qualification, not new evidence of learning improvement. The added
+population still has 16,048 pending requests; persistent local connection reuse
+also encountered the same proxy 503 on an already reused socket. That workaround
+did not resolve transport. Keep the fixed full-cohort design and dated results.
+
 1. **Surface coverage and identity were not an active research endpoint.** We
    mainly worked inside existing renders, so omitted or misconnected papyrus
    could never be recovered by our experiments.
