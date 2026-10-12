@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-12T10:42:21.077886+00:00",
+  "status": "FROZEN_DEVELOPMENT_REFERENCE_INTAKE",
+  "parent": "PHercParis4",
+  "source_listing_sha256": "872516c986fc4bb4a6549561bcb4f9b54ed0c8cb1d919b33d2d19f51c6aec034",
+  "selection_rule": "Lexicographically first pair of listed 256-cubes sharing one face; chosen from directory names before payload acquisition.",
+  "selected_pair": [
+    "00768_02152_03536",
+    "00768_02408_03536"
+  ],
+  "listed_cubes": 80,
+  "face_adjacent_pairs": 80,
+  "purpose": "Qualify sheet-ID continuity and topology metrics on a public development reference; not a model comparison or fresh evaluation.",
+  "axis_contract": "Directory origins are Z,Y,X per upstream README; verify NRRD sizes and raw storage axes before joining.",
+  "limits": "Manual harmonized sheet labels; small components were removed upstream. Unknown voxels and missing instances are not automatically physical negatives. Physical scanner placement/spacing not yet qualified.",
+  "bounds": {
+    "files": 4,
+    "max_total_response_bytes": 167772160
+  },
+  "model_inference": false,
+  "paid_compute": false
+}

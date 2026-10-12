@@ -1,5 +1,9 @@
 # Plinius research: continue on another machine
 
+**Active priorities:** [CURRENT_PLAN.md](CURRENT_PLAN.md) implements the approved 12 October programme. Correct-sheet recovery, strong native learning, and an exposure-aware reference reserve proceed alongside the unchanged native0139 study. Historical conditional next steps below do not override this plan.
+
+**First programme batch completed:** [the execution packet](in-progress/frontier-intake-20261012/README.md) qualifies a real sheet-instance reference, retains twelve native CT development contexts, strictly loads Reader v2, and reserves the PHerc0175 A/B and PHerc1203 families using metadata alone. Binary foreground components merge reference identities; this is a geometry-metric finding, not a new model result. No paid GPU or new native0139 held-out evaluation was run.
+
 **For a usable Linux workspace, start with the [Git LFS snapshot and restore instructions](workspace/README.md).** This adds the retained arrays, historical checkpoints, prepared PHerc343 inputs and completed maps omitted from the original text-only export. Downloads are selectable, checked against SHA256 manifests and restorable to a chosen directory.
 
 **Broader research programme, 12 October:** the [current critical assessment](planning/plinius-frontier-programme-20261012/README.md) recommends parallel work on correct-sheet recovery, broad native ink learning and targeted annotation. It reviews current Reader v2, Socratic F0, PLatS, fibre/winding tools, Hecate and the 2026 papers; distinguishes topology from local depth; and defines seven ranked directions with baselines, discriminating experiments, compute needs and stopping criteria. These are proposed experiments, not launches. The native0139 study and its locked evaluation remain unchanged; its result is a baseline rather than a universal prerequisite for GPU research. Earlier local diagnostic closure decisions below remain historical evidence.

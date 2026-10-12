@@ -1,0 +1,126 @@
+{
+  "checked_utc": "2026-10-12T11:20:22.707485+00:00",
+  "worker_alive": true,
+  "worker": {
+    "pid": 18909,
+    "start_ticks": "1558242",
+    "started_utc": "2026-10-11T09:33:02.995974+00:00",
+    "resume_command": "python native_learning.py run --run /workspace/herculaneum-lab/reports/pherc0139-native-learning-20261011 --source /workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011"
+  },
+  "status": {
+    "utc": "2026-10-12T11:19:43.156675+00:00",
+    "phase": "training",
+    "arm": "w044-seed89",
+    "step": 2560,
+    "maximum_updates": 16384,
+    "train": {
+      "ap": 0.6434612574111658,
+      "auc": 0.802426546456185,
+      "positives": 516251,
+      "negatives": 1121962,
+      "undefined_single_class": false,
+      "bce": 0.4905301131988063,
+      "prevalence": 0.31513057215392626,
+      "mean_probability": 0.3161409961965567,
+      "fraction_probability_ge_half": 0.23732261921984504
+    },
+    "lr": 0.001,
+    "seconds_per_update_including_training_checks": 0.6887563843269561,
+    "termination": null,
+    "held_out_predictions": 0,
+    "draws": 10240,
+    "unique_cores": 163,
+    "supervised_pixel_exposures": 133370593
+  },
+  "arms": [
+    {
+      "arm": "w035-seed17",
+      "step": 16384,
+      "best_step": 15872,
+      "last_committed_utc": "2026-10-11T12:41:19.241212+00:00",
+      "termination": "ceiling_without_confirmed_plateau",
+      "complete": true
+    },
+    {
+      "arm": "w035-seed43",
+      "step": 16384,
+      "best_step": 16128,
+      "last_committed_utc": "2026-10-11T22:20:12.235845+00:00",
+      "termination": "ceiling_still_improving",
+      "complete": true
+    },
+    {
+      "arm": "w035-seed89",
+      "step": 16384,
+      "best_step": 16384,
+      "last_committed_utc": "2026-10-12T07:43:13.506486+00:00",
+      "termination": "ceiling_still_improving",
+      "complete": true
+    },
+    {
+      "arm": "w039-seed17",
+      "step": 16384,
+      "best_step": 15616,
+      "last_committed_utc": "2026-10-11T16:02:59.097558+00:00",
+      "termination": "ceiling_still_improving",
+      "complete": true
+    },
+    {
+      "arm": "w039-seed43",
+      "step": 16384,
+      "best_step": 15616,
+      "last_committed_utc": "2026-10-12T01:22:57.766284+00:00",
+      "termination": "ceiling_still_improving",
+      "complete": true
+    },
+    {
+      "arm": "w039-seed89",
+      "step": 16384,
+      "best_step": 16384,
+      "last_committed_utc": "2026-10-12T10:50:06.764447+00:00",
+      "termination": "ceiling_still_improving",
+      "complete": true
+    },
+    {
+      "arm": "w044-seed17",
+      "step": 16384,
+      "best_step": 16384,
+      "last_committed_utc": "2026-10-11T18:57:09.685812+00:00",
+      "termination": "ceiling_still_improving",
+      "complete": true
+    },
+    {
+      "arm": "w044-seed43",
+      "step": 16384,
+      "best_step": 15616,
+      "last_committed_utc": "2026-10-12T04:27:13.894125+00:00",
+      "termination": "ceiling_still_improving",
+      "complete": true
+    },
+    {
+      "arm": "w044-seed89",
+      "step": 2560,
+      "best_step": 2560,
+      "last_committed_utc": "2026-10-12T11:19:43.155297+00:00",
+      "termination": null,
+      "complete": false
+    }
+  ],
+  "error": null,
+  "backup": {
+    "status": "PUSHED",
+    "utc": "2026-10-12T11:12:24.316434+00:00",
+    "remote_commit": "8abf5c489ffee072b69ab4e63248ca37447f757d",
+    "remote_ref": "refs/heads/codex/plinius-native0139-learning-checkpoints",
+    "generations": 154,
+    "files": 431,
+    "new_files": 2,
+    "archive_bytes": 1388925,
+    "archive_sha256": "072c7a429c83c30c93c704ac8c8d5add7c056e204515dd4c823801a836fe1cc7"
+  },
+  "backup_last_error": {
+    "utc": "2026-10-12T02:45:54.695435+00:00",
+    "error_type": "CalledProcessError",
+    "message": "Command '['gh', 'repo', 'view', 'jl-drx/Herculaneum', '--json', 'isPrivate,nameWithOwner']' returned non-zero exit status 1."
+  }
+}

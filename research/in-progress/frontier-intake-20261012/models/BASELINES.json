@@ -1,0 +1,111 @@
+{
+  "status": "MODEL_CONTRACTS_PREPARED; COMMON_SUPPORT_SCIENTIFIC_COMPARISON_UNRUN",
+  "models": [
+    {
+      "name": "reader_v2",
+      "checkpoint_sha256": "654ec5acec2b6c4788d9cb326e2f0b8c2c730584949a934ef775db7f6ab5d3a6",
+      "bytes": 138382373,
+      "source_revision": "72633d8aa6d40e9e737ccea4c9928fbc624dab45",
+      "input_depth_y_x": [
+        17,
+        128,
+        128
+      ],
+      "normalization": {
+        "mode": "robust_mad",
+        "percentile_lower": 1.0,
+        "percentile_upper": 99.0
+      },
+      "cpu_strict_qualification": "READER_QUALIFICATION.json",
+      "sampling_contract": "Released native pipeline at its actual declared scan spacing; no inference-only narrowing/recentering. Central 17-plane model window differs from retaining full source depth."
+    },
+    {
+      "name": "dnative",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+        "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244",
+        "size_bytes": 272895087
+      },
+      "identity_evidence": "Previously qualified phase-51 INFERENCE_GO; no new weights downloaded or real inference in this intake.",
+      "input_depth_y_x": [
+        17,
+        128,
+        128
+      ],
+      "normalization": {
+        "mode": "robust_mad",
+        "percentile_lower": 1.0,
+        "percentile_upper": 99.0
+      },
+      "model_type": "vesuvius_unet_3d_stem_2d",
+      "saved_step": 16000,
+      "sampling_contract": "Preserve the exact released/native recipe and report actual physical spacing; do not relabel native sampling as 9.6 microns."
+    },
+    {
+      "name": "hybrid_3d2d-seed42",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+        "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+        "size_bytes": 138360039
+      },
+      "identity_evidence": "Previously qualified phase-51 INFERENCE_GO; no new weights downloaded or real inference in this intake.",
+      "input_depth_y_x": [
+        17,
+        128,
+        128
+      ],
+      "normalization": {
+        "mode": "robust_mad",
+        "percentile_lower": 1.0,
+        "percentile_upper": 99.0
+      },
+      "model_type": "vesuvius_unet_3d_stem_2d",
+      "saved_step": 74999,
+      "sampling_contract": "Preserve the exact released/native recipe and report actual physical spacing; do not relabel native sampling as 9.6 microns."
+    },
+    {
+      "name": "hybrid_3d2d-seed43",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+        "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f",
+        "size_bytes": 138360231
+      },
+      "identity_evidence": "Previously qualified phase-51 INFERENCE_GO; no new weights downloaded or real inference in this intake.",
+      "input_depth_y_x": [
+        17,
+        128,
+        128
+      ],
+      "normalization": {
+        "mode": "robust_mad",
+        "percentile_lower": 1.0,
+        "percentile_upper": 99.0
+      },
+      "model_type": "vesuvius_unet_3d_stem_2d",
+      "saved_step": 74999,
+      "sampling_contract": "Preserve the exact released/native recipe and report actual physical spacing; do not relabel native sampling as 9.6 microns."
+    },
+    {
+      "name": "hecate",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/hecate_9.6um.pth",
+        "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+        "size_bytes": 522576086
+      },
+      "identity_evidence": "Previously qualified phase-51 INFERENCE_GO; no new weights downloaded or real inference in this intake.",
+      "input_depth_y_x": [
+        16,
+        64,
+        64
+      ],
+      "normalization": {
+        "mode": "divide",
+        "divisor": 255
+      },
+      "sampling_contract": "Resample actual surface-conditioned input in XYZ to 9.6 microns as required by Hecate; central 16 planes; independent fixed native scoring support."
+    }
+  ],
+  "holdout_policy": "No current native0139 held-out predictions or new reserved-family payloads are used. Model ranking must be selected on separate development support.",
+  "checkpoint_ensemble": "An equal-cost fixed ensemble remains a comparator; no test-selected weighting.",
+  "scientific_claim": "Reader strict synthetic CPU execution is new; other model contracts/pins reuse completed qualification. No new real-CT model predictions."
+}

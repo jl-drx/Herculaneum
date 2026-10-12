@@ -1,0 +1,245 @@
+{
+  "schema": "plinius-physical-family-registry-v1",
+  "created_utc": "2026-10-12T10:50:38.242957+00:00",
+  "catalog_sha256": "655dbfb87c441778fd31c78446bdd0496fa0a3ddee79f986f5928da116b3e21e",
+  "reader_config_sha256": "a69e9cf23263d4b17a85f05501333408f923f67f65b6f4ebc6c4539ceb1e81ec",
+  "socratic_registry_sha256": "53bcc53e149b3e0811a02a9c17c045bdf4455640d8cca59c8e7001a151eda848",
+  "reserved_families": [
+    "PHerc0175",
+    "PHerc1203"
+  ],
+  "protected_running_families": [
+    "PHerc0139"
+  ],
+  "development_families": [
+    "PHerc0800",
+    "PHerc0814",
+    "PHercParis4",
+    "PHerc0343",
+    "PHerc0009",
+    "PHerc0500",
+    "PHerc0172",
+    "PHerc1667"
+  ],
+  "family_rule": "Conservative shared numeric parent, including A/B/P/fragment suffixes; this groups possible relatives without asserting their exact physical adjacency.",
+  "selection_rule": "Reserve PHerc1203 as the previously documented fine/native lead and the lowest-numbered 116-keV scroll family outside Reader train families, F0 train/validation roles, and the published eight-scroll geometry audit: PHerc0175 A/B. No image or response criterion.",
+  "status": "PARENT_EMBARGO_FROZEN; NOT_READY_FOR_CONFIRMATION_SCORING",
+  "current_native_go_sha256": "2c20b4491a2c94fdc4c479a84a6ab85f309673a113cfdd8088b30fb7df6bf61c",
+  "limits": [
+    "No reserve CT payload, surface prediction, label or ink map read.",
+    "F0-unseen is an author registry designation; m7/teacher/other model ancestry remains unresolved.",
+    "Unknown upstream exposure is not proved external holdout.",
+    "Independent annotations and exact confirmation contexts must be qualified before scoring.",
+    "This guard protects new intake manifests; it does not intercept all future tools or alter the running study."
+  ],
+  "reserves": [
+    {
+      "sample": "PHerc0175A",
+      "family": "PHerc0175",
+      "scope": "Entire physical family, all scans, future aliases, teacher crops and derived meshes",
+      "reader_v2_config_inclusion": false,
+      "f0_declared_role": "unseen",
+      "m7_and_ink_teacher_ancestry": "unknown",
+      "independent_reference_ready": false,
+      "catalog_segments": 0,
+      "volumes": [
+        {
+          "volume_id": "20250521115057",
+          "scan_id": "20250511125731",
+          "array_shape_zyx": [
+            12748,
+            9363,
+            9363
+          ],
+          "chunk_shape_zyx": [
+            128,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "properties": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 8.64,
+            "energy_keV": 116.0
+          },
+          "source": {
+            "path": "PHerc0175A/volumes/20250521115057-8.640um-1.2m-116keV-masked.zarr/",
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ]
+          },
+          "protected_box_zyx": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              12748,
+              9363,
+              9363
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sample": "PHerc0175B",
+      "family": "PHerc0175",
+      "scope": "Entire physical family, all scans, future aliases, teacher crops and derived meshes",
+      "reader_v2_config_inclusion": false,
+      "f0_declared_role": "unseen",
+      "m7_and_ink_teacher_ancestry": "unknown",
+      "independent_reference_ready": false,
+      "catalog_segments": 0,
+      "volumes": [
+        {
+          "volume_id": "20250521125822",
+          "scan_id": "20250510115222",
+          "array_shape_zyx": [
+            15897,
+            9613,
+            9613
+          ],
+          "chunk_shape_zyx": [
+            128,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "properties": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 8.64,
+            "energy_keV": 116.0
+          },
+          "source": {
+            "path": "PHerc0175B/volumes/20250521125822-8.640um-1.2m-116keV-masked.zarr/",
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ]
+          },
+          "protected_box_zyx": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              15897,
+              9613,
+              9613
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "sample": "PHerc1203",
+      "family": "PHerc1203",
+      "scope": "Entire physical family, all scans, future aliases, teacher crops and derived meshes",
+      "reader_v2_config_inclusion": false,
+      "f0_declared_role": "unseen",
+      "m7_and_ink_teacher_ancestry": "unknown",
+      "independent_reference_ready": false,
+      "catalog_segments": 0,
+      "volumes": [
+        {
+          "volume_id": "20260319130212",
+          "scan_id": "20250721080303",
+          "array_shape_zyx": [
+            15137,
+            26493,
+            26493
+          ],
+          "chunk_shape_zyx": [
+            128,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "properties": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.403,
+            "energy_keV": 77.0
+          },
+          "source": {
+            "path": "PHerc1203/volumes/20260319130212-2.403um-0.2m-77keV-masked.zarr/",
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ]
+          },
+          "protected_box_zyx": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              15137,
+              26493,
+              26493
+            ]
+          ]
+        },
+        {
+          "volume_id": "20250820131727",
+          "scan_id": "20250720004030",
+          "array_shape_zyx": [
+            18977,
+            6844,
+            6844
+          ],
+          "chunk_shape_zyx": [
+            128,
+            128,
+            128
+          ],
+          "dtype": "|u1",
+          "properties": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 9.362,
+            "energy_keV": 113.0
+          },
+          "source": {
+            "path": "PHerc1203/volumes/20250820131727-9.362um-1.2m-113keV-masked.zarr/",
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ]
+          },
+          "protected_box_zyx": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              18977,
+              6844,
+              6844
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

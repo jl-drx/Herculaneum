@@ -1,0 +1,282 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-10-12T10:52:57.932090+00:00",
+  "inputs": [
+    {
+      "file": "00768-02152-03536-mask.raw",
+      "sha256": "9bf0863995c711cab4d2514b9b2fd4fd953514e17fe343970fc4fc1667ae50a3",
+      "bytes": 857870
+    },
+    {
+      "file": "00768-02152-03536-volume.raw",
+      "sha256": "25f93185444ebe9133b867566bc64cb3c7e0a0d1ec0bf2fc06ff45d0a73992eb",
+      "bytes": 33138034
+    },
+    {
+      "file": "00768-02408-03536-mask.raw",
+      "sha256": "44066072741760d2a7c633c9f22194bc2c613a25866a55dc775da419363fedd0",
+      "bytes": 860719
+    },
+    {
+      "file": "00768-02408-03536-volume.raw",
+      "sha256": "1941787d04be20025d9ddfd68f2f1d81aa82fb43e24a1592a0e1d876c1d1af8f",
+      "bytes": 32949644
+    }
+  ],
+  "headers": [
+    {
+      "file": "00768-02152-03536-mask.raw",
+      "nrrd_order": "F",
+      "type": "uint16",
+      "sizes": [
+        256,
+        256,
+        256
+      ],
+      "space directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "space origin": [
+        768.0,
+        2152.0,
+        3536.0
+      ]
+    },
+    {
+      "file": "00768-02152-03536-volume.raw",
+      "nrrd_order": "F",
+      "type": "uint16",
+      "sizes": [
+        256,
+        256,
+        256
+      ],
+      "space directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "space origin": [
+        768.0,
+        2152.0,
+        3536.0
+      ]
+    },
+    {
+      "file": "00768-02408-03536-mask.raw",
+      "nrrd_order": "F",
+      "type": "uint16",
+      "sizes": [
+        256,
+        256,
+        256
+      ],
+      "space directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "space origin": [
+        768.0,
+        2408.0,
+        3536.0
+      ]
+    },
+    {
+      "file": "00768-02408-03536-volume.raw",
+      "nrrd_order": "F",
+      "type": "uint16",
+      "sizes": [
+        256,
+        256,
+        256
+      ],
+      "space directions": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "space origin": [
+        768.0,
+        2408.0,
+        3536.0
+      ]
+    }
+  ],
+  "joined_shape": [
+    256,
+    512,
+    256
+  ],
+  "scores": {
+    "identity_oracle": {
+      "reference_voxels": 13622610,
+      "reference_instances": 18,
+      "retained_reference_fraction": 1.0,
+      "abstained_reference_fraction": 0.0,
+      "merge_minority_fraction_of_reference": 0.0,
+      "fragmented_survivor_fraction_of_reference": 0.0,
+      "mixed_prediction_instances": 0,
+      "split_reference_instances": 0,
+      "prediction_instances_on_reference": 18,
+      "positive_voxels_outside_reference": 0,
+      "outside_reference_interpretation": "unannotated/unsupported here, not automatically a false positive",
+      "reference_ids": [
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415
+      ]
+    },
+    "6-connected": {
+      "reference_voxels": 13622610,
+      "reference_instances": 18,
+      "retained_reference_fraction": 1.0,
+      "abstained_reference_fraction": 0.0,
+      "merge_minority_fraction_of_reference": 0.8445362525977034,
+      "fragmented_survivor_fraction_of_reference": 0.0001708189546643411,
+      "mixed_prediction_instances": 1,
+      "split_reference_instances": 2,
+      "prediction_instances_on_reference": 6,
+      "positive_voxels_outside_reference": 0,
+      "outside_reference_interpretation": "unannotated/unsupported here, not automatically a false positive",
+      "reference_ids": [
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415
+      ],
+      "connected_components": 6
+    },
+    "26-connected": {
+      "reference_voxels": 13622610,
+      "reference_instances": 18,
+      "retained_reference_fraction": 1.0,
+      "abstained_reference_fraction": 0.0,
+      "merge_minority_fraction_of_reference": 0.8445362525977034,
+      "fragmented_survivor_fraction_of_reference": 0.0001708189546643411,
+      "mixed_prediction_instances": 1,
+      "split_reference_instances": 2,
+      "prediction_instances_on_reference": 6,
+      "positive_voxels_outside_reference": 0,
+      "outside_reference_interpretation": "unannotated/unsupported here, not automatically a false positive",
+      "reference_ids": [
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415
+      ],
+      "connected_components": 6
+    }
+  },
+  "shared_face": {
+    "axis": 1,
+    "both_endpoints_labelled": 17890,
+    "same_id_contacts": 17664,
+    "different_id_contacts": 226,
+    "ids_shared_between_cubes": [
+      390,
+      391,
+      392,
+      393,
+      394,
+      395
+    ],
+    "interpretation": "Label-interface contacts, not independently adjudicated physical sheet switches."
+  },
+  "seconds": 14.609680456997012,
+  "claim": "Reference-only oracle foreground-to-instance diagnostic; no released surface predictor, new ink model, physical area accuracy or fresh test evaluation.",
+  "limits": "Two selected adjacent public development cubes from one parent. Upstream labels omit small components. Zero is not independently established empty space. NRRD coordinates are not a qualified physical scanner transform."
+}

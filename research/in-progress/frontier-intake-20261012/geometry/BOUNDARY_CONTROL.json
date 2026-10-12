@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "primary_arithmetic_matches": true,
+  "joined": {
+    "reference_voxels": 13622610,
+    "abstained_reference_fraction": 0.0,
+    "merge_minority_fraction_of_reference": 0.8445362525977034,
+    "fragmented_survivor_fraction_of_reference": 0.0001708189546643411,
+    "mixed_prediction_instances": 1,
+    "split_reference_instances": 2
+  },
+  "per_cube": [
+    {
+      "cube": "00768-02152-03536",
+      "reference_voxels": 6985407,
+      "abstained_reference_fraction": 0.0,
+      "merge_minority_fraction_of_reference": 0.8768592867960306,
+      "fragmented_survivor_fraction_of_reference": 0.00012855371204569755,
+      "mixed_prediction_instances": 1,
+      "split_reference_instances": 1,
+      "components": 2
+    },
+    {
+      "cube": "00768-02408-03536",
+      "reference_voxels": 6637203,
+      "abstained_reference_fraction": 0.0,
+      "merge_minority_fraction_of_reference": 0.5878830284383346,
+      "fragmented_survivor_fraction_of_reference": 0.0010994088925711629,
+      "mixed_prediction_instances": 2,
+      "split_reference_instances": 2,
+      "components": 7
+    }
+  ],
+  "cross_file_connectivity_disabled": {
+    "reference_voxels": 13622610,
+    "abstained_reference_fraction": 0.0,
+    "merge_minority_fraction_of_reference": 0.7360643812015465,
+    "fragmented_survivor_fraction_of_reference": 0.2214411188458012,
+    "mixed_prediction_instances": 3,
+    "split_reference_instances": 7
+  },
+  "followup_scope": "Post-primary development control: test whether identity mixing is only caused by joining the two files. All original labelled voxels retained; no image-based reselection.",
+  "limits": "Connected-components/reference diagnostic only. Not an independently annotated native topology benchmark or a model improvement."
+}

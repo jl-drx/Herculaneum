@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-12T11:15:34.006126+00:00",
+  "code_sha256": "190e3d7afc08324948c3084fd174752c97b84839e00f0d799642bb90c6023a3c",
+  "stage": "After primary metric result, before boundary-control execution",
+  "hypothesis": "The observed instance mixing might be an artifact of joining files.",
+  "tests": [
+    "Independent per-component/per-reference arithmetic for primary six-connected result",
+    "Six-connected components in each cube independently",
+    "Concatenate independently labelled cubes with distinct component IDs; original voxel support retained"
+  ],
+  "selection": "Same two cubes; no replacement or tuning."
+}
