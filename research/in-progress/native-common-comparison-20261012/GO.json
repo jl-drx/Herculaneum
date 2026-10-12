@@ -1,0 +1,2755 @@
+{
+  "base_commit": "6f31d2127277238ec33885740dbba8376a7dcffb",
+  "code_pins": [
+    {
+      "bytes": 4490,
+      "path": "implementation/PROTOCOL.md",
+      "sha256": "2cab3bffb9c3a0226dc789589893aab44d096719e1ef3393964728f3c5dc5d06"
+    },
+    {
+      "bytes": 8527,
+      "path": "implementation/backup.py",
+      "sha256": "7bd01b44f27e803e7fdef5256e276c57797025e3c9551f2f22b455b870774bfa"
+    },
+    {
+      "bytes": 4479,
+      "path": "implementation/freeze.py",
+      "sha256": "09004cea73392c62e57dbabe4bf58d0c9da6a21003e84a5055a59191b96bd0ef"
+    },
+    {
+      "bytes": 8472,
+      "path": "implementation/qualify.py",
+      "sha256": "0c02c3035cc61b0927c8c0e77682c7d4bd53a60ff831f4942a81c40c835e6210"
+    },
+    {
+      "bytes": 16609,
+      "path": "implementation/runner.py",
+      "sha256": "9fb08ee0af8ecc0cf79944e576a27c40e8c0567af6f456e1d21809b1db70a569"
+    },
+    {
+      "bytes": 1407,
+      "path": "QUALIFICATION.json",
+      "sha256": "48d394d6f5377555b85bb0924d938b01b518c70ec62597bb79884e5c6503ba49"
+    }
+  ],
+  "environment": {
+    "numpy": "2.4.4",
+    "opencv": "5.0.0",
+    "packages": {
+      "Jinja2": "3.1.6",
+      "MarkupSafe": "3.0.3",
+      "PyYAML": "6.0.3",
+      "aiobotocore": "3.9.2",
+      "aiohappyeyeballs": "2.7.1",
+      "aiohttp": "3.14.4",
+      "aioitertools": "0.13.0",
+      "aiosignal": "1.4.0",
+      "anyio": "4.15.1",
+      "attrs": "26.1.0",
+      "botocore": "1.43.106",
+      "cachetools": "7.2.1",
+      "certifi": "2026.7.22",
+      "charset-normalizer": "3.5.2",
+      "click": "8.5.0",
+      "donfig": "0.8.1.post1",
+      "dynamic_network_architectures": "0.4.4",
+      "edt": "3.1.2",
+      "einops": "0.8.2",
+      "filelock": "3.32.3",
+      "frozenlist": "1.8.0",
+      "fsspec": "2026.7.0",
+      "google-crc32c": "1.9.0",
+      "h11": "0.16.0",
+      "hf-xet": "1.7.0",
+      "httpcore2": "2.13.1",
+      "httpx2": "2.13.1",
+      "huggingface_hub": "2.2.0",
+      "idna": "3.20",
+      "imagecodecs": "2026.3.6",
+      "jmespath": "1.1.0",
+      "mpmath": "1.3.0",
+      "multidict": "6.9.1",
+      "nest-asyncio": "1.6.0",
+      "networkx": "3.6.1",
+      "numcodecs": "0.16.5",
+      "numpy": "2.4.4",
+      "opencv-python-headless": "5.0.0.93",
+      "packaging": "26.3",
+      "pillow": "12.3.0",
+      "propcache": "0.5.4",
+      "pynrrd": "1.1.3",
+      "python-dateutil": "2.9.0.post0",
+      "requests": "2.34.2",
+      "s3fs": "2026.7.0",
+      "safetensors": "0.8.0",
+      "scipy": "1.18.1",
+      "setuptools": "78.1.0",
+      "six": "1.17.0",
+      "sympy": "1.14.0",
+      "tifffile": "2026.7.14",
+      "timm": "1.0.22",
+      "torch": "2.13.0+cpu",
+      "torchvision": "0.28.0+cpu",
+      "tqdm": "4.70.1",
+      "truststore": "0.10.4",
+      "typing_extensions": "4.16.0",
+      "urllib3": "2.8.0",
+      "wrapt": "2.5.0",
+      "yarl": "1.25.1",
+      "zarr": "3.2.1"
+    },
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.14.7",
+    "torch": "2.13.0+cpu"
+  },
+  "exposure": "Adaptive supervision-only development panel; transferred/model-reviewed reference; upstream exposure unresolved",
+  "input_pins": [
+    {
+      "bytes": 21587,
+      "path": "FREEZE.json",
+      "sha256": "0e08a82fd2f5306be6f8628281c40a1963699173a47aa86d8bd4166c73c3606e"
+    },
+    {
+      "bytes": 756,
+      "path": "SUPERVISION_GO.json",
+      "sha256": "cb25875544aed069bb8befffe280dbf890e900009d72ca8d86e41cf3299f1090"
+    },
+    {
+      "bytes": 154796,
+      "path": "SELECTION.json",
+      "sha256": "bb19d53736cf3491e8ee7847a89d0632b6cffd441346730d4855e485cd17615c"
+    },
+    {
+      "bytes": 100873,
+      "path": "CT_PLAN.json",
+      "sha256": "b7cff0031c1621116064b25243486178312a9fd313f9c32c09cbb4936df87fce"
+    },
+    {
+      "bytes": 452,
+      "path": "CT_COMPLETE.json",
+      "sha256": "8fa03210b90c312333bb0298f5f942b2293db601254ea65614ef1b4828ed082b"
+    },
+    {
+      "bytes": 11367,
+      "path": "INPUTS_COMPLETE.json",
+      "sha256": "580110a97355ba0cd3c106ebc5784e4e6fa2267cc759f3f839b193c47a1e186d"
+    },
+    {
+      "bytes": 478255,
+      "path": "PATCHES_COMPLETE.json",
+      "sha256": "5364e1e9aa2f537dd69ba26179b4d3ff82304fde69f5999ff316f661c4925a7e"
+    },
+    {
+      "bytes": 1680,
+      "path": "VERIFIED_INPUTS.json",
+      "sha256": "5b53488eb5cd76360fbbe7761ac3819d568228e1f7f2332ea598c98e4478a7f3"
+    },
+    {
+      "bytes": 1634,
+      "path": "cores/pherc0009b-20250919125754-x01792-y06272.npz",
+      "sha256": "51a4a1c8d393a16a7da8f7d66369f0529fa162765e35e3e51be0ee61d12cb237"
+    },
+    {
+      "bytes": 1450,
+      "path": "cores/pherc0009b-20250919125754-x01920-y04864.npz",
+      "sha256": "4695117bf7d950eb906846d38fa176b1426127064c6774eca75e2ccc74b3f616"
+    },
+    {
+      "bytes": 1252,
+      "path": "cores/pherc0009b-20250919125754-x02944-y05632.npz",
+      "sha256": "328bfdeb4230d1d6cc31a5b4271c816c002d5c335c8e14ddb1fd2069672a6539"
+    },
+    {
+      "bytes": 1222,
+      "path": "cores/pherc0009b-20250919125754-x03584-y04992.npz",
+      "sha256": "7e62e8a71c32313959ee1b2abcdc6e0e20111790221da6d647e417c49f8a882b"
+    },
+    {
+      "bytes": 1480,
+      "path": "cores/pherc0009b-20250919125754-x03712-y06400.npz",
+      "sha256": "60faa0814cb9f7821f6818a586982fb13488808aca3fec6a6ad004e70aacf4c8"
+    },
+    {
+      "bytes": 1697,
+      "path": "cores/pherc0009b-20250919125754-x04480-y05376.npz",
+      "sha256": "d5d8b3dd923be568e4b4939f4d24ae99d21745d94a008b4f0505ddbe5b75b2b3"
+    },
+    {
+      "bytes": 1508,
+      "path": "cores/pherc0841-20260220213127-x02688-y02688.npz",
+      "sha256": "ff76b5ece089c8bbe533d41265c930798d75391627109896d8826b2a1d59cead"
+    },
+    {
+      "bytes": 1236,
+      "path": "cores/pherc0841-20260220213127-x03200-y02048.npz",
+      "sha256": "1423caeaa5695bb0e281dce0ea2d0fa000e79c5b20c9569b41a64ffa00428fac"
+    },
+    {
+      "bytes": 1584,
+      "path": "cores/pherc0841-20260220213127-x03328-y03328.npz",
+      "sha256": "a190f3dba075f84a310622f28e3c84cbed65d400f769c34493c2c1f73e08b10c"
+    },
+    {
+      "bytes": 1342,
+      "path": "cores/pherc0841-20260220213127-x03456-y02688.npz",
+      "sha256": "22c24eced2a5e53ba8e43e99c875b576a279a930b75d4d8250ff14ee85aae105"
+    },
+    {
+      "bytes": 1390,
+      "path": "cores/pherc0841-20260220213127-x03584-y00384.npz",
+      "sha256": "98c2e9c5e3a912d595c980c2c6d0f1251fcc2b9a4c6b6614d23771c28a028228"
+    },
+    {
+      "bytes": 1712,
+      "path": "cores/pherc0841-20260220213127-x03840-y01664.npz",
+      "sha256": "70df61c853cceb30005a0aceb89ca2f686ac81319f4cb206e9f7d099ac5a8e2d"
+    },
+    {
+      "bytes": 1704,
+      "path": "cores/pherc0841-20260220214732-x01536-y02944.npz",
+      "sha256": "5b1b5dca93eb97a00ec40ad394b851be4ca0356770a586895916ed7c780570b5"
+    },
+    {
+      "bytes": 1643,
+      "path": "cores/pherc0841-20260220214732-x01920-y01152.npz",
+      "sha256": "65aee89b2aeb36525d88f1f9b949fb1ee89e3d644ee2b0ead1339ac03a30e929"
+    },
+    {
+      "bytes": 1474,
+      "path": "cores/pherc0841-20260220214732-x02048-y02560.npz",
+      "sha256": "fa635c577cef9f18434104d884cef1c33d8ab0e4af09141ebecc2640d1f6c6ef"
+    },
+    {
+      "bytes": 1300,
+      "path": "cores/pherc0841-20260220214732-x02432-y00768.npz",
+      "sha256": "69e18c4f8cf8191de4f55c8d14b64da313f8fb3b73f667c4aecd5a470d7cd58b"
+    },
+    {
+      "bytes": 1868,
+      "path": "cores/pherc0841-20260220214732-x03072-y00896.npz",
+      "sha256": "2ffe7e56f5e73a74234dd1c793f83e6c799eaba97d7d3d585f2817f79d1cba00"
+    },
+    {
+      "bytes": 1544,
+      "path": "cores/pherc0841-20260220214732-x03200-y02944.npz",
+      "sha256": "23e0294e9157bfa470faff70e1c179f5bbbb23fc27a66b8f3bf27d71e7313653"
+    },
+    {
+      "bytes": 1405,
+      "path": "cores/pherc0841-20260221022814-x01280-y02048.npz",
+      "sha256": "d6d3cccd02fd0576a81508123d8efaaea678060db7e839f90f68b3511bc43f75"
+    },
+    {
+      "bytes": 1334,
+      "path": "cores/pherc0841-20260221022814-x01664-y01664.npz",
+      "sha256": "a6e8d6f5c8b8ce98466e26adf986e50aa5c4d7c1f14622fbbb49d312e6064bd2"
+    },
+    {
+      "bytes": 1429,
+      "path": "cores/pherc0841-20260221022814-x02304-y01280.npz",
+      "sha256": "b664521adfbf718a3251a9b38145796f2db7744436133051426870a31b311e7f"
+    },
+    {
+      "bytes": 1788,
+      "path": "cores/pherc0841-20260221022814-x02688-y00384.npz",
+      "sha256": "e5726c52cea8622ee6fe2def12857a5722892b40d9e802f8308e6261fa9e17ff"
+    },
+    {
+      "bytes": 1454,
+      "path": "cores/pherc0841-20260221022814-x02816-y01024.npz",
+      "sha256": "91a2c5767237b51e5a35ee5c15754f597e877a8213432d7e71b6b28f99fc1378"
+    },
+    {
+      "bytes": 1628,
+      "path": "cores/pherc0841-20260221022814-x03072-y01664.npz",
+      "sha256": "30275daf38fc834b362881ade69f8b1b004a85419e371344ea882d51ad3ec5b6"
+    }
+  ],
+  "models": [
+    {
+      "checkpoint": {
+        "bytes": 138382373,
+        "path": "/workspace/herculaneum-lab/data/models/reader-v2-20261012/reader-v2-step040000.raw",
+        "sha256": "654ec5acec2b6c4788d9cb326e2f0b8c2c730584949a934ef775db7f6ab5d3a6"
+      },
+      "name": "reader_v2"
+    },
+    {
+      "checkpoint": {
+        "bytes": 272895087,
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+        "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244"
+      },
+      "name": "dnative"
+    },
+    {
+      "checkpoint": {
+        "bytes": 138360039,
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+        "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab"
+      },
+      "name": "seed42"
+    },
+    {
+      "checkpoint": {
+        "bytes": 138360231,
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+        "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f"
+      },
+      "name": "seed43"
+    },
+    {
+      "checkpoint": {
+        "bytes": 522576086,
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/hecate_9.6um.pth",
+        "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d"
+      },
+      "name": "hecate"
+    }
+  ],
+  "paid_compute_authorized": false,
+  "plan": {
+    "backup_interval_seconds": 300,
+    "expected_core_maps": 120,
+    "expected_jobs": 20,
+    "expected_unique_forwards": 1698,
+    "metric_lock": "No metrics until all jobs complete; implementation/PROTOCOL.md",
+    "model_order": [
+      "reader_v2",
+      "dnative",
+      "seed42",
+      "seed43",
+      "hecate"
+    ],
+    "study": "native-common-support-five-model-comparison-20261012"
+  },
+  "reserved_families": [
+    "PHerc0175 A",
+    "PHerc0175 B",
+    "PHerc1203"
+  ],
+  "runtime_pins": [
+    {
+      "bytes": 1607,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/__init__.py",
+      "sha256": "021f4346383d640c9824b1f1c6bf11025c0ce14493e2e1831a2b05908b62c8fa"
+    },
+    {
+      "bytes": 266,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/_version.py",
+      "sha256": "f6e26c8c6ebb30112c289d5e378adaceed21eca7b4354ea656abafb24c936a7c"
+    },
+    {
+      "bytes": 391,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/__init__.py",
+      "sha256": "731adbe6cd92aa896b51a96ac937a0f5329cefeb25c57f57d033062ca83b0b46"
+    },
+    {
+      "bytes": 12106,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/affine.py",
+      "sha256": "086a44c390a131b41a0e64c25b34a886cc60f6a011e4e40fefc2f147bafb855b"
+    },
+    {
+      "bytes": 13985,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/chunks_filter.py",
+      "sha256": "5ada913910563dc9ad37b26d7eb0e24183c5cd085e9c8886676ceb4564e3a0c1"
+    },
+    {
+      "bytes": 798,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/paths/__init__.py",
+      "sha256": "bffc187d7aff437b17fdd6ba4e323d3437e51ae1e04be94d437b0e467c527208"
+    },
+    {
+      "bytes": 320,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/paths/fetcher.py",
+      "sha256": "c5b433a0c546a032b1b653d6e02867df8b914fc25100a709f63ba6b6ac73f809"
+    },
+    {
+      "bytes": 6421,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/paths/local.py",
+      "sha256": "e367d53f1a6dab6f218faef80f7a3bad226432010c48a16098749ee4be2e7697"
+    },
+    {
+      "bytes": 5625,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/paths/parser.py",
+      "sha256": "e439b87e649ed5fba015d6d60d046ac4e0cfcc1ff02361ad496d4fcae59915ed"
+    },
+    {
+      "bytes": 9252,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/utils.py",
+      "sha256": "60c9c91e4212a7c0a019d2b7759bb286997e42bda2d9b8ca1c2282e65d7d91b9"
+    },
+    {
+      "bytes": 37360,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/vc_dataset.py",
+      "sha256": "7f97d6888d378999edd6aed9589b5cfc1bd56db25235dd39e08cb216ac922f26"
+    },
+    {
+      "bytes": 63066,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/volume.py",
+      "sha256": "1f722a15f9175f16e5436325ce45043965935fed8f7d7381718a294963eb982d"
+    },
+    {
+      "bytes": 19119,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/data/zarr_chunk_index.py",
+      "sha256": "6edaf47807174e5b22ac63a24e8a21ead37d8fd678c8d4423a254511543835b6"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/examples/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/blur/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1853,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/blur/gaussian.py",
+      "sha256": "5e5fd37d4b856cd9baa29f0a934d44290a545f6aae3c01cae4020a12f94d2aec"
+    },
+    {
+      "bytes": 340,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/distance.py",
+      "sha256": "88822bf261965eb84ca009737270c525744e32d5beab473c55d273869f5ebb78"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/features/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2046,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/features/curvature.py",
+      "sha256": "352264970202a0e3301aa0b81534624a5e7e2e90bdf1143751e356e634157036"
+    },
+    {
+      "bytes": 1782,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/features/ridges_vessels.py",
+      "sha256": "fcae71fc0c3b2864f9cd28924a538fa92012640ecfe0a68ef291a8be7bd6c5c8"
+    },
+    {
+      "bytes": 5129,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/features/skeletonization.py",
+      "sha256": "096fe3b482ead052ad53b4b268886f8a6e9daf6e8e36e505b0c14de25b911797"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/geometry/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1120,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/geometry/alpha_wrap.py",
+      "sha256": "e4e20936ff5dd46a1603a06b2767fa36b802a58f46eb1fd4439272d7964dc016"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/geometry/diffusion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7541,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/geometry/diffusion/coherence_enhancing_diffusion.py",
+      "sha256": "db272beb333e311ca1586b35040c9ea6f2d9ed5d63e946d031cbe3b8b4f9c782"
+    },
+    {
+      "bytes": 14095,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/geometry/structure_tensor.py",
+      "sha256": "b6a7e3857198315cc4ed863ccda5b859c36ba3dc9e65c1487783a69d3c1f408a"
+    },
+    {
+      "bytes": 1700,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/helpers.py",
+      "sha256": "034e0aa75fedb1ddfa4481034800ed0ff3a1690e75005854b7ea78f0208d407e"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/intensity/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7742,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/intensity/normalization.py",
+      "sha256": "52b9d950ad339ff251195bb0b62cc9f7ec9add8617294c7920b825f192ab700e"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/mesh/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4051,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/mesh/affine.py",
+      "sha256": "d56422348b57c7c5c41f554e91eb919dbbc01a5bea72bbd723fd7f3af68f5eff"
+    },
+    {
+      "bytes": 229,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/resampling.py",
+      "sha256": "1cc5bc469ab68a10c2646d6839da91cef62ed72be51c5a321e496c3f7e24edf2"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4732,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/alpha_wrap_labels.py",
+      "sha256": "fedeffbde433127f3600ebbb037675657e3431b3c677e2164fc7b82781dcfaba"
+    },
+    {
+      "bytes": 8243,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/apply_affine.py",
+      "sha256": "9de13cbd4e63a95cb35f0e08e73c60d7b1afb64557aa4fd9fcbc5c5646710932"
+    },
+    {
+      "bytes": 6006,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/apply_masks.py",
+      "sha256": "c2b6394bbc10059fb8aa2082e978a9a77a0f97b50196fee8f4d392bf2bd8a277"
+    },
+    {
+      "bytes": 32696,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/ced.py",
+      "sha256": "7a0ac877a311453b7ea7d8fedfbcccdff9bf61e82903a09ecc93e47a2595eafc"
+    },
+    {
+      "bytes": 3734,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/edt_frangi_label.py",
+      "sha256": "e0a5548d3e8d6187e60f7d81b0e78c04f4ab2791e68696ee4bf879a0b7deb5e5"
+    },
+    {
+      "bytes": 11524,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/filter_branching_labels.py",
+      "sha256": "7576121d7a49de794cae3852cff33b14de3d1169f4b6f06ad03982b9ccd58dd2"
+    },
+    {
+      "bytes": 14815,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/generate_mutex_graph.py",
+      "sha256": "47d422036af50495aab669449416822a0261970ceda54e9af8299609b2a33336"
+    },
+    {
+      "bytes": 45387,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/prediction_grid.py",
+      "sha256": "b8e2fbda7202e9fd8aa6225078b90eedc3276f82fb34de2a9bc1d0b72ec88c5f"
+    },
+    {
+      "bytes": 5751,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/remap_values.py",
+      "sha256": "cc9329022b13fe877ebedf6d4632b56eacdf35a2d88962bd46b23714a260d1fe"
+    },
+    {
+      "bytes": 15137,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/stack_composite_tifs.py",
+      "sha256": "2b921fa2b430662c6cfc96e82834154ad0548ebc98cb816ebef87d8749832c3b"
+    },
+    {
+      "bytes": 75327,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/voxelize_objs.py",
+      "sha256": "c0ea489848bc4f351e545769c70ec9c402dc24c215d6de65fe761fa6ef3aea08"
+    },
+    {
+      "bytes": 1339,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/__init__.py",
+      "sha256": "a8828ebc504926dcc33c2103c69f47fb5b279b27f0731108c59097db7f3a520e"
+    },
+    {
+      "bytes": 3664,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/__main__.py",
+      "sha256": "82ca7c7027e2c5f30161a101e9c10520fbd1d198e8365296215b57ac85e3b6e9"
+    },
+    {
+      "bytes": 9476,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/base.py",
+      "sha256": "1b1f414eccf9e9acc12d678ef6a021e1a1decfebff45462b2c30588e24019810"
+    },
+    {
+      "bytes": 1624,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/registry.py",
+      "sha256": "d5e12a3b1808f6a01231f358c51aacfdc456e086ad127bc741e6f301501ea217"
+    },
+    {
+      "bytes": 623,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/__init__.py",
+      "sha256": "e531648a55e35bf4679d9eeb793371f5aa4ffaf58b7a18f9e35dec2723808ab9"
+    },
+    {
+      "bytes": 8470,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/edt_dilate.py",
+      "sha256": "c040afcdbe9fc4ba824aed63e05263189e70e9e219db6e87bb9969a77f82e51f"
+    },
+    {
+      "bytes": 13662,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/export_tifs.py",
+      "sha256": "207f6a4cdaf8204daeb90e0b1ea86d720bc9e424ead917a106cc6d7bed64c1ec"
+    },
+    {
+      "bytes": 15552,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/merge.py",
+      "sha256": "369d4033d4cf4a99edeea1745b28f6a3a1b67bd9c2230e7372d4e60acdbd1f4b"
+    },
+    {
+      "bytes": 11633,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/recompress.py",
+      "sha256": "c1a439d8c63c16d77cc28064f89fd4c019a6e9009e157f41c5d42c742ffd5103"
+    },
+    {
+      "bytes": 9210,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/remap.py",
+      "sha256": "fef45f43d61f7a479c2aeb83fe6acfc7336e4d2e1ed0be5c0c1003f4f1e2e240"
+    },
+    {
+      "bytes": 12600,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/resize.py",
+      "sha256": "4a239460b4015a1437ea9e1dee3c1430c995271163c2d70404469483142dde83"
+    },
+    {
+      "bytes": 5895,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/scale.py",
+      "sha256": "dc8d512e026e5cd6657ab36824b339cc06c4a7a47157f44a90595e9a4da1229e"
+    },
+    {
+      "bytes": 5002,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/threshold.py",
+      "sha256": "216ae2696ac21b9d77b140d99c7e41cad365955410af3f1dc96ca18ce03ebfc4"
+    },
+    {
+      "bytes": 5967,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/transpose.py",
+      "sha256": "53fbd9c53dc18160aced458e2a0bfade8452f023629ece0f9f51eafa0b55656b"
+    },
+    {
+      "bytes": 7719,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/tasks/zero_range.py",
+      "sha256": "4475260ddae50f2c2a076cd21346a57762173e6a9eab92b70d335dd96a87d95e"
+    },
+    {
+      "bytes": 9108,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/image_proc/run/zarr_tasks/utils.py",
+      "sha256": "d5644227485270dc19d792ab5a5dbb7a1694e68c976a8c42bd24dda4df8bd941"
+    },
+    {
+      "bytes": 76,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/__init__.py",
+      "sha256": "30a5ee6f9937f218215f29e57d1bc71b1650dd12280e386fef3276a49f24adfc"
+    },
+    {
+      "bytes": 53477,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/config.py",
+      "sha256": "391e6056239926761aaf260fb05799b2443e4d52840d38a8c673ee4987c1aebe"
+    },
+    {
+      "bytes": 6084,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/configs/aligned21_fixed_scroll_prior.json",
+      "sha256": "0e20230f4d2517987f31baed4c6fc2fa8110d230ce2d14a60dfe5d6a838c68d1"
+    },
+    {
+      "bytes": 10878,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/configs/aligned21_hybrid_3d2d.json",
+      "sha256": "f9925e206c39ac831e404d6de82d1fa5c35306dabd9511e2eafbff2fdb89cd63"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 14581,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/data/augmentations.py",
+      "sha256": "2a91fd31ac2f5f2a0bdf9240ba0fcf29592f01a61b95205e03041edff1d49a19"
+    },
+    {
+      "bytes": 23831,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/data/dataset.py",
+      "sha256": "0a8fec6af123e89b07a90b8eda8179df9292d9f8a6f55d5f1fb691d5e6507b8f"
+    },
+    {
+      "bytes": 30007,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/data/geometry.py",
+      "sha256": "56988171cc635b9581ef990aa0e606d93b5561a98debbcda04e5479fb716c291"
+    },
+    {
+      "bytes": 2820,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/data/normalization.py",
+      "sha256": "add2afeb7e9adfd666fedf16aec1ef798e9a9cd2438cab1dc180215b0cd92630"
+    },
+    {
+      "bytes": 5237,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/data/patch_cache.py",
+      "sha256": "09064cb0e31c191ce5ebe8db5574814f8739e566569235acedd814d774389e3b"
+    },
+    {
+      "bytes": 8552,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/data/patch_finding_default.py",
+      "sha256": "3026f948eaec252a26da347bb8571815ba8ca3edacaf3ec796719672cff15513"
+    },
+    {
+      "bytes": 6981,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/data/patch_finding_subtiling.py",
+      "sha256": "1640a72aac3a8f983df611c5971084f046b0c1186a379ce6a1226892e1d86e7f"
+    },
+    {
+      "bytes": 8002,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/data/segment.py",
+      "sha256": "7d8466baaa6057907ad1fd20d4620079e30130a5885aa7c2fa6e336fcff1d849"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/inference/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 48446,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/inference/infer.py",
+      "sha256": "979aed8e1bf047bea8e30bd0bbe55538556289c72b5914bbbbecf355e5940389"
+    },
+    {
+      "bytes": 41187,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/inference/infer_full3d_tifxyz.py",
+      "sha256": "d87d8aa5c86749de1976e733b4f92c5d8c3e455e9c1c28faebf242b98b13fb6f"
+    },
+    {
+      "bytes": 6655,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/inference/inference_runtime.py",
+      "sha256": "dfb11d25ea49b5c40b3dc594557a8d9d26cd358e855a622b5630133939e1d7e7"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5530,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/models/checkpoint.py",
+      "sha256": "47acc2dfd0384ff38a84b8ba194cb74886c01cba3b1a7f0775651f9dd9f5d919"
+    },
+    {
+      "bytes": 3188,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/models/hybrid_3d2d.py",
+      "sha256": "799363ce85438e1305ed6505927f9ba61875fc4bd12433b2c5a2b9767d9ee232"
+    },
+    {
+      "bytes": 956,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/models/input_padding.py",
+      "sha256": "02d7b4ca802cd556844f0598be16807d129c4684f91d600df7ebf985f420d4f2"
+    },
+    {
+      "bytes": 6032,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/models/model.py",
+      "sha256": "d58c9f24723ce4633d67b96c3283d54bd2715679f07622ef957a33c2f06faf73"
+    },
+    {
+      "bytes": 48,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/preprocessing/__init__.py",
+      "sha256": "3a9e409894b04612439ec2c34e73cf3609667a4b1be875ebd6855285bf3cef08"
+    },
+    {
+      "bytes": 16556,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/preprocessing/clean_labels.py",
+      "sha256": "3eeb806fb00389bea789c8d3dbf0ae1ea72f838f97ee18d7c6f9a355545bf208"
+    },
+    {
+      "bytes": 15224,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/preprocessing/composite_from_zarr.py",
+      "sha256": "2f4b3b6870c089b8a7040df5bbe462ddf7c6893345edd9d483cae1b14c23a030"
+    },
+    {
+      "bytes": 20661,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/preprocessing/create_label_zarrs.py",
+      "sha256": "5b49554959a3f98afe210040d8dabe8dea0668e6c8df7052e308358b85fbd17e"
+    },
+    {
+      "bytes": 45038,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/preprocessing/download_required_zarr_chunks.py",
+      "sha256": "09c672ca9eb7c3674f0dce7925ea6a1333050c22886bf784c03d5e00916bbf88"
+    },
+    {
+      "bytes": 18232,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/preprocessing/merge_predictions.py",
+      "sha256": "f47e0aa2d8f3d1faee6fb9a628413f2b8bfdaf121ccb7ce5c8d526e4f844d7ae"
+    },
+    {
+      "bytes": 5354,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/preprocessing/prepare_9um_isotropic_input.py",
+      "sha256": "a89dc63cc7f1f9bf0ac8d84143917616e3708c8c4a1b5201d7dca7be4dfda94f"
+    },
+    {
+      "bytes": 860,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/preprocessing/staged_write.py",
+      "sha256": "16094d369650757b2b94328e7d34d7bcb55b08a332fbce0e4f73fe3a91fb52d4"
+    },
+    {
+      "bytes": 18138,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/preprocessing/validate_segments.py",
+      "sha256": "be62d156a21169b00812526863cff576126d92e49261ec3b22c604ce2e792421"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4554,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/deep_supervision.py",
+      "sha256": "70b28f28aca94a0dd65d3016c34ad8449e18df5426af819588d8d7ad841de522"
+    },
+    {
+      "bytes": 4911,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/dilation.py",
+      "sha256": "228d65f29539cbc8b72ed4ad4c090db3b4f5923a5f855496843f8b2733658280"
+    },
+    {
+      "bytes": 5840,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/losses.py",
+      "sha256": "5fdbf11cc66c80dfcf30de7abf1a2455ece12cb80b2f98e8c0c06907a8c7b39a"
+    },
+    {
+      "bytes": 3342,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/metrics.py",
+      "sha256": "c6068bd6424cd387c30cef2727db8cfae65a1aa5eb3d4d995d724690a793135b"
+    },
+    {
+      "bytes": 2227,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/optimizers.py",
+      "sha256": "d76c93e1fd222aefb664ae38e368e2b69e14703ebcb50ba72416cebc44329d6c"
+    },
+    {
+      "bytes": 14581,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/samplers.py",
+      "sha256": "4618444d9fbb599e10b9b1a2fd0575cfb35e604c59d3fedcc4889ff8d371c3d6"
+    },
+    {
+      "bytes": 4402,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/stitching.py",
+      "sha256": "6231404fcf043fe6ed4334adfca46218668dd5eee72649327f27f9defe6d42a3"
+    },
+    {
+      "bytes": 45065,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/train.py",
+      "sha256": "4c46cd059af5198c4a3a6609054962eed47073f66ace1453868331d0627cc673"
+    },
+    {
+      "bytes": 8906,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/visualization.py",
+      "sha256": "c6122c7e7a46d4dad5cd2be11550d6bdc118242ef6d3f6d18f659629d6c20db8"
+    },
+    {
+      "bytes": 2984,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/types.py",
+      "sha256": "479e2ef58273db68b66c7bde2362fd2b8b7e1e879a3f0276b8c228e50ed19912"
+    },
+    {
+      "bytes": 8262,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/volume_io.py",
+      "sha256": "08fa48f9be23a0383e36a3a0120835fc05f076d6fee65eb0001ff3cc81cf2f1c"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/install/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4465,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/install/accept_terms.py",
+      "sha256": "9f7ce6e4621d7add76c11f3428ee61fda94c6ecce833a324441dbe1711b940b2"
+    },
+    {
+      "bytes": 815,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/install/custom_install.py",
+      "sha256": "7fa2880e61ed9c7e92ebf92426ab709e65954a6c62d9c68a900af3b7e94a2bbc"
+    },
+    {
+      "bytes": 3762,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/label_zarr.py",
+      "sha256": "fc1c36347b52d339735d37e532ed0bd9cbdf9c6130bf9f4d29193c26859dc96b"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/dataloading/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/helpers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1168,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/helpers/scalar_type.py",
+      "sha256": "a5ba8ab965f9be66300a66259689b978302d1038b63ab811dbd15aea5feeaac6"
+    },
+    {
+      "bytes": 140,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/pipelines/__init__.py",
+      "sha256": "6dc3cfa967535607e2428399f6978659fa9363737fc1193577dcac2a42aac2f7"
+    },
+    {
+      "bytes": 18800,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/pipelines/training_transforms.py",
+      "sha256": "2072ec1c1575367a3ea59417bccd528b0496ef31b66478f12a7629d776255d9d"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/base/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6944,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/base/basic_transform.py",
+      "sha256": "adcba4986dc723c0088a610fdee054f449b1c46151166a2c89e5b46db9834949"
+    },
+    {
+      "bytes": 1001,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/intensity/__init__.py",
+      "sha256": "f4c0c4db6181fa8a6e4e18e08a71a284d2b9743b1d8ee9bad69150ca237b841f"
+    },
+    {
+      "bytes": 4763,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/intensity/brightness.py",
+      "sha256": "f9b96c9679549c8b0cbc38ca275fac98e117086a97de497d20aceffc01852cd2"
+    },
+    {
+      "bytes": 2782,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/intensity/contrast.py",
+      "sha256": "c118b3a5ae0f23e4e6b261414a7aaaaf3e69ca0a13db16cee69fd26bf6630735"
+    },
+    {
+      "bytes": 2828,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/intensity/gamma.py",
+      "sha256": "43fbc22249a210f674976ba829dc9e0b0bc9a7111f9a63d8d73f7fd19045b7ca"
+    },
+    {
+      "bytes": 2241,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/intensity/gaussian_noise.py",
+      "sha256": "3c6a40885f116b1e8affe943162eb276d94af88a2355b33a2e623d5c841f1632"
+    },
+    {
+      "bytes": 5101,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/intensity/illumination.py",
+      "sha256": "5d683e5de3af14b03a1862d4e857a61922b765f12d292bdadcaab0353eef133b"
+    },
+    {
+      "bytes": 2177,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/intensity/inversion.py",
+      "sha256": "1714c16361d48614e680f31c4581240eb819693ddf0776ca380303022aceca9e"
+    },
+    {
+      "bytes": 3680,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/intensity/random_clip.py",
+      "sha256": "39df31f920101948c6ede2c9d5039147e99b2a440c3fded50b2c5be6ba06cb77"
+    },
+    {
+      "bytes": 655,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/local/__init__.py",
+      "sha256": "5644ae2e3f1ff58e66245701d8b2dad6c8088a63ec6e3082c2b4271aa459891c"
+    },
+    {
+      "bytes": 4367,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/local/brightness_gradient.py",
+      "sha256": "9e4723f68abd5afd9ed424f926d7994854c8d309f015ac65fa70b6b313f61fd7"
+    },
+    {
+      "bytes": 3646,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/local/local_contrast.py",
+      "sha256": "a69ede30b3cde118996a091d77a9d83245306eff2861e341ecd31033abbb2d0c"
+    },
+    {
+      "bytes": 3823,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/local/local_gamma.py",
+      "sha256": "b45e670b4a9c109ff028e379737e7bfc893d9fd9c4fda3f0fae86593441fce85"
+    },
+    {
+      "bytes": 3888,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/local/local_smoothing.py",
+      "sha256": "721253e9364f41b9c22e4481572a38ae1fc8f2b0a9eae4214b1e1fa1d71cf3a2"
+    },
+    {
+      "bytes": 4082,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/local/local_transform.py",
+      "sha256": "89aa06020938c947f9bf1b95934ab73222d4a02ad43e020232e239d3ecefd6fc"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/nnunet/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 8057,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/nnunet/random_binary_operator.py",
+      "sha256": "148ed8e5ddfd1e54c1bc3bd6d9096aa0a9bc558b227dc0a361df523ed8118016"
+    },
+    {
+      "bytes": 3816,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/nnunet/remove_connected_components.py",
+      "sha256": "1a0831cefd637bf9b6524b48c91e3c48aa103b31dee7c0cd24b30f6c1dbeaf8b"
+    },
+    {
+      "bytes": 1421,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/nnunet/seg_to_onehot.py",
+      "sha256": "765f7fd81b0c9c7be335a61cbe2e4d30803f5f9dcbcbd3583182e278e552bebb"
+    },
+    {
+      "bytes": 613,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/noise/__init__.py",
+      "sha256": "0b28188426b19022d7977a44f35d2c2a70f30543c1f430af9c4fb3e677a0e601"
+    },
+    {
+      "bytes": 13181,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/noise/extranoisetransforms.py",
+      "sha256": "ddc8db434bb4e450c10f85105e474720df14dd71287492f8e658fa37c0e0b29d"
+    },
+    {
+      "bytes": 9084,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/noise/gaussian_blur.py",
+      "sha256": "ce87aad680550d0fd995181dd798a6ede43fbd263eb57742cfe41b694a87e243"
+    },
+    {
+      "bytes": 2503,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/noise/median_filter.py",
+      "sha256": "f1ebd20e8deb8c96ff5cabbc6ec25982bfb1c50f2540252cd9d1136188367363"
+    },
+    {
+      "bytes": 4931,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/noise/sharpen.py",
+      "sha256": "d7e853fcdb58c57b84dbad8ecf37f96dc5e3a62ecd38376dbe5d10e82496ef2b"
+    },
+    {
+      "bytes": 875,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/spatial/__init__.py",
+      "sha256": "77936d417692f6c5089d0f41f922778f5322498f93c0747ea958dae49c9bcb0e"
+    },
+    {
+      "bytes": 2991,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/spatial/low_resolution.py",
+      "sha256": "6f7d5ac8b2364d6dbf0c1426f0381c490b6fcd6709593cbc797dab05901a9566"
+    },
+    {
+      "bytes": 4481,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/spatial/mirroring.py",
+      "sha256": "2c65519e009eed5220938df1f5b75bad8e33f1589a212ed981d0f74693a69671"
+    },
+    {
+      "bytes": 7591,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/spatial/rot90.py",
+      "sha256": "c662e53fd245cd0922d1bca146039be8db3861bc132a55c90e24a721f1002ab8"
+    },
+    {
+      "bytes": 9506,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/spatial/sheet_compression.py",
+      "sha256": "2754f56e772d6c42b2789c874744ddcfebbbd5afde5a30b73951a7362e3934de"
+    },
+    {
+      "bytes": 31212,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/spatial/spatial.py",
+      "sha256": "ee95c3a4de088f07418f5c4e132d4dab4fff9c5a3fc193af405b0289842ee478"
+    },
+    {
+      "bytes": 5534,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/spatial/thick_slice.py",
+      "sha256": "bb6cfa71ad56874e18c3a86199d917d8575dd4f0a17daf7ed9b4fbeb5fcccea2"
+    },
+    {
+      "bytes": 6048,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/spatial/transpose.py",
+      "sha256": "43cd82d47e395d19e85c5a96a57ba3db5e574ee54361c3b220a81f24befdd7cb"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 667,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/compose.py",
+      "sha256": "510f1579b50fe7bf1183ce33b78b34b7f08a791a6ae2868bd221bd9bd93e06d4"
+    },
+    {
+      "bytes": 3291,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/cropping.py",
+      "sha256": "5245250bafafe32d31f16f56a2e8e2ff4eedab76ee90c382072c9a52be3c9786"
+    },
+    {
+      "bytes": 2116,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/deep_supervision_downsampling.py",
+      "sha256": "1362a28f723fbe378cc8ff0a43cc3053013d5d596a9359a1ed03abad2886c949"
+    },
+    {
+      "bytes": 3158,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/morphological_closing.py",
+      "sha256": "e2a493085a34f419f4904c4368d65e7e8a23b108b909877679f7b3b1f524982c"
+    },
+    {
+      "bytes": 767,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/nnunet_masking.py",
+      "sha256": "76a640f46d0d06c9d0f76d1427ad39305436adf6aba27e3ed880e9cadd8751f3"
+    },
+    {
+      "bytes": 1172,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/oneoftransform.py",
+      "sha256": "c4fd3a3acf2156ffb0c51ffacbb67f19212cbc0e135f405c084f5aebb0cfa758"
+    },
+    {
+      "bytes": 1314,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/perf.py",
+      "sha256": "1f3c4760ddac412892795a53d53081a6a534b635ee6ba7a80e059ee9f553fbc1"
+    },
+    {
+      "bytes": 3197,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/pseudo2d.py",
+      "sha256": "747554fbc70e7030b400660fe02c4f2c5336dce53fe0d3bc5093682a678555f1"
+    },
+    {
+      "bytes": 1119,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/random.py",
+      "sha256": "a3cd0b31e383675dd7dadb9ce513c0b40321435618fddbd2d3a77af7ddba5dab"
+    },
+    {
+      "bytes": 1028,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/remove_label.py",
+      "sha256": "e15951633d7727ab144fab80fe9177b6163248b33c0938eac2aec1ff4f883865"
+    },
+    {
+      "bytes": 1293,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/seg_to_regions.py",
+      "sha256": "a2a50fe94b40566c77628d29ed9bab4d244419b533973e9c70b055dc87332952"
+    },
+    {
+      "bytes": 3235,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/augmentation/transforms/utils/skeleton_transform.py",
+      "sha256": "bb366fd2915fc6159add0d0ab729b71e5065381bcd848048be9bb37f545883ad"
+    },
+    {
+      "bytes": 45,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/benchmarks/__init__.py",
+      "sha256": "3a109396e056736d428f1ba6842a39540c4bdfce3ffbe8189987e050fe650d67"
+    },
+    {
+      "bytes": 28055,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/benchmarks/benchmark_guided_dinovol.py",
+      "sha256": "9252e2cd5e53b8ba7aa4549da2c2edd6e1ddbb2f48bd7b3f2d769eab651471b9"
+    },
+    {
+      "bytes": 8866,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/benchmarks/benchmark_mednext.py",
+      "sha256": "0ee04bdd51a1cfdb7e030b3c151750b2a3148c860b181922522b2310afd384ff"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4074,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/activations.py",
+      "sha256": "f5e376d29074d8ca1a28e49205d5081a40f66dc4add4178028f9b6fa602bd680"
+    },
+    {
+      "bytes": 87040,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/build_network_from_config.py",
+      "sha256": "e15d0877f729cd0939c5f710da9ed6e44f92fb14d294bf2896c586a5c06dec06"
+    },
+    {
+      "bytes": 14582,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/decoder.py",
+      "sha256": "71a7c0d6d8574222887ff9f82bb10d52d3044ec79f7a523a462159f48a3f8339"
+    },
+    {
+      "bytes": 7801,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/encoder.py",
+      "sha256": "da445875f2229c7544907ef966a61227a5121868538fdc65f36b895aecf35198"
+    },
+    {
+      "bytes": 3601,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/guidance.py",
+      "sha256": "20dfd2752c09e2380d3c18129dc65455b34bf68bae6e9a351d9364a159c47e60"
+    },
+    {
+      "bytes": 409,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/mednext/__init__.py",
+      "sha256": "3d3e6b549f16b8d46a82e694141215508491bbb86e23be74cc1df9c1eaeaa1e7"
+    },
+    {
+      "bytes": 6547,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/mednext/blocks.py",
+      "sha256": "9976dc370677361628f58be2e4d6190ef9dd62bc41bc3ded6e502ab890bbfc8c"
+    },
+    {
+      "bytes": 1971,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/mednext/factory.py",
+      "sha256": "0877929e76103ffd7adb4db92fc1abfc8ff90999f342a5479d36daed361ba1e0"
+    },
+    {
+      "bytes": 11384,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/mednext/v1.py",
+      "sha256": "9dcdf492a4279bd9e5e453ab0c89bacd50c5456b4496dab03a78fcb6affa8284"
+    },
+    {
+      "bytes": 9950,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/mednext_wrapper.py",
+      "sha256": "8a8923181d47822a974f09fcc7e3e0e4cf2ad932f495ae21679d0711c5ef52ee"
+    },
+    {
+      "bytes": 125,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/pretrained_backbones/__init__.py",
+      "sha256": "0e2a3808a93387b5fa12ace471f5d48deba172c5ad1509b93638d0bf9e1fc32c"
+    },
+    {
+      "bytes": 13568,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/pretrained_backbones/dinov2.py",
+      "sha256": "7cfa792ce6db60023afaf5dfba29283cccb8ef56f15f8c320952a3022ff8d5b8"
+    },
+    {
+      "bytes": 7411,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/pretrained_backbones/dinovol_2_builder.py",
+      "sha256": "e6f220e475226f4b42411b15fe4d13a75b19ef9e2ca98693c26bd66fb029660d"
+    },
+    {
+      "bytes": 37440,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/pretrained_backbones/dinovol_2_eva.py",
+      "sha256": "c9b5ed9786ab99a9f89d128ad34aae05eb3acf9676abe7832c6049dade4aacf6"
+    },
+    {
+      "bytes": 37686,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/pretrained_backbones/patch_encode_decode.py",
+      "sha256": "aaa3838c6b9968fddd75e86581f2c787c846d0f257c493e73dc6038384b1406e"
+    },
+    {
+      "bytes": 14104,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/pretrained_backbones/rope.py",
+      "sha256": "9b459e43dafed301c98e3f8a0904c0bcef808077dbf71a145bc7e9ea18647fdf"
+    },
+    {
+      "bytes": 16708,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/primus_wrapper.py",
+      "sha256": "b4e4fa1a372861b80f67221ab434b9e3284b5b61357479dcbe29a16da7efbb99"
+    },
+    {
+      "bytes": 20837,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/resblocks.py",
+      "sha256": "32b1b014e824b96109788a5209e70a6be1bbb062ac9efbc67dda0cf086e7065a"
+    },
+    {
+      "bytes": 6400,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/simple_conv_blocks.py",
+      "sha256": "44db0cd8811613a1b6d2788a279d07b381b90604a8c8966e0b481424b890ea51"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/transformers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1722,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/transformers/abstract_arch.py",
+      "sha256": "5b2bb0d781217c9d11b71e69df3bcc3cfb0da8b27ae9582623dd8734477844c6"
+    },
+    {
+      "bytes": 12296,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/transformers/eva.py",
+      "sha256": "87c3a62f1d670236efea1c570e0bcfdb0894eaf4c8ecc690562f5b8d5a6a8b60"
+    },
+    {
+      "bytes": 7876,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/transformers/flash_rope.py",
+      "sha256": "dcc4e76dbe7d9b91125a231be1686a1754bab1cdfdfd6f93aab89c8177ca4f05"
+    },
+    {
+      "bytes": 10690,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/transformers/patch_encode_decode.py",
+      "sha256": "dd8f4a6e2afa64dcafe6da2dab1e40a1f2832ad97439f0bb334b47768f884805"
+    },
+    {
+      "bytes": 14724,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/transformers/pope.py",
+      "sha256": "461b92dc8fdab1581c5b94605387ba06a10ab53e23c35d9a404f899adf6aa5d0"
+    },
+    {
+      "bytes": 17469,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/build/transformers/primus.py",
+      "sha256": "c2357322d9af227ddd3603503430288cc9cea6b0276f12b451feb36475538c8a"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/configuration/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 52343,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/configuration/config_manager.py",
+      "sha256": "ac9cd0b75d336c5bd157b67c351b80cd7af0e8399a8f1f2d5ce263baec9b3b1e"
+    },
+    {
+      "bytes": 2545,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/configuration/config_utils.py",
+      "sha256": "fb640d38e4a2d17f48e919a406b4f6107cb0a7fa68a1ed10c245bd6d140871ba"
+    },
+    {
+      "bytes": 164,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/datasets/__init__.py",
+      "sha256": "df7e1544ac91807d225c9391c5afcaba84d2045fff4526af7145c05938898cb8"
+    },
+    {
+      "bytes": 32693,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/datasets/cross_frame_dataset.py",
+      "sha256": "f58bbd929f71bdffe521c1fb1c2e1f7a2d7aafab14646ef9c8f87bcf6b2b272f"
+    },
+    {
+      "bytes": 70963,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/datasets/find_valid_patches.py",
+      "sha256": "f0476bd6b35f2f1a6e88da18d0e4764263f544c0e0ecf330e18ec1fdd0d9a3c0"
+    },
+    {
+      "bytes": 27728,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/datasets/intensity_properties.py",
+      "sha256": "f06bf55a68ef7dd6c2710832c3297ad21858bd14dfe794647de9b3b2b2507b4e"
+    },
+    {
+      "bytes": 8187,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/datasets/intensity_sampling.py",
+      "sha256": "882594b0f5d9032f295c2cde24b5fa01fbe42a8cd9cc842c35d46f51e73407b7"
+    },
+    {
+      "bytes": 30922,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/datasets/mutex_affinity_dataset.py",
+      "sha256": "7e148f1b7cbb6314d722809d557fae79841b24a54a4a46fb27ca5a10da5a43f0"
+    },
+    {
+      "bytes": 15916,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/datasets/save_valid_patches.py",
+      "sha256": "cdec1cc45f8f496ec5c4fa99cf197b3b30f60b6b48a1adaf51a736506ba5056e"
+    },
+    {
+      "bytes": 38659,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/datasets/zarr_dataset.py",
+      "sha256": "5b393cdb59b07b8a1aef696b512e0420ef5be1ca36ef266032df6658bea16f41"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5966,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/affinity_metrics.py",
+      "sha256": "06c27a69e47418ca8c05dea114da0a3ae775d77795a71fd6c4cd39c4af088e11"
+    },
+    {
+      "bytes": 1019,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/base_metric.py",
+      "sha256": "4129eb7e4c04b061a6e7c4a8859efc56c0a01c36d08dd2cc4abb274d4b122d70"
+    },
+    {
+      "bytes": 6457,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/connected_components.py",
+      "sha256": "38106a132e68d479e9c7fe6a9d10e9cfa63917fa558e8dd2246a92ceeca25da1"
+    },
+    {
+      "bytes": 10032,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/critical_components.py",
+      "sha256": "6a067d84348cbe718d1ef813826bea1645bbefae18e21ed7d0be998f35c3b92c"
+    },
+    {
+      "bytes": 7205,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/hausdorff.py",
+      "sha256": "79ff257c264417821cba093b52b86c8d168000243263e3aee60924ced0d44eee"
+    },
+    {
+      "bytes": 8190,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/iou_dice.py",
+      "sha256": "04b69ec36f46707e2abba8bcd456d7e358791f9ef3d01132e24dc5840cd9e3b4"
+    },
+    {
+      "bytes": 7611,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/mean_average_precision.py",
+      "sha256": "c9e2761840ad34908b4bcf56ba7724f0272351746260b166eff111a47255999d"
+    },
+    {
+      "bytes": 3821,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/precision_recall_f1.py",
+      "sha256": "f83e05a9aeb3bb2887b30162a85b366e7505d715a02d9ec3717db117903875e7"
+    },
+    {
+      "bytes": 10205,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/skeleton_branch_points.py",
+      "sha256": "1e8285a8041b5b263798c26280c6c4f0da9ab4dc3ace52e1f72fbd1b4dd3eb41"
+    },
+    {
+      "bytes": 8432,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/evaluation/voi.py",
+      "sha256": "073021133be9096b47160bbdce3a057333ad5f0334f5b8fc2eeeaf5ca41fc211"
+    },
+    {
+      "bytes": 27503,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/preprocessing/pack_tifs_to_sparse_zarr.py",
+      "sha256": "70e3eeaf9f14ca8c55d55a10365eebc461483a939697230aea17552c06685332"
+    },
+    {
+      "bytes": 680,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/preprocessing/patches/__init__.py",
+      "sha256": "7c55f2e78f700946af680737be70ba12e7a58d06ca9772791f29696e6ff33c64"
+    },
+    {
+      "bytes": 9232,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/preprocessing/patches/cache.py",
+      "sha256": "4eb7cf95e66ccbe78bf08dcdb5f72f642cf02d20f2918bbb51315e5bd29fecb8"
+    },
+    {
+      "bytes": 2447,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/preprocessing/patches/cli.py",
+      "sha256": "883e9869f793632917d4e8d844119353aa468cc44344b1b22a22b86c1efc1705"
+    },
+    {
+      "bytes": 10069,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/preprocessing/patches/generate.py",
+      "sha256": "b092842b3fdb3691f1d43f3fbdab127190f32a31b40f2fc983848aadcffba88e"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/run/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 46325,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/run/blending.py",
+      "sha256": "89153356a0512b651c24748249fca02791251b6f34b601134d8026a66eea22e1"
+    },
+    {
+      "bytes": 106,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/run/external_models/__init__.py",
+      "sha256": "45959d41061da04badefabf0ac7c86c93a1760de4f779a010d4868c51fd2115c"
+    },
+    {
+      "bytes": 4234,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/run/external_models/load_resnet.py",
+      "sha256": "8454ff60b27a755d84f1919da1ff82929dd3079103b274c19ed9944cd0ebea70"
+    },
+    {
+      "bytes": 26673,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/run/finalize_outputs.py",
+      "sha256": "092c290732de400c45e15ed30ff40fb7d4d2ef33169489f9fe03984911490c14"
+    },
+    {
+      "bytes": 69406,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/run/inference.py",
+      "sha256": "51f34a7c4aa6ba179a3f5c9765b1d6b84f3e53aae119c3f6461ce01d2755f263"
+    },
+    {
+      "bytes": 3628,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/run/patch_writer.py",
+      "sha256": "7ba4287b77388ab88cd3cf860e46ac424f2b14423594397b67ee845bbd835994"
+    },
+    {
+      "bytes": 10625,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/run/tta.py",
+      "sha256": "ac99cf3c585ba78d64cc28b232d2327fb4d930f339e6f6726c47a2d7568d8470"
+    },
+    {
+      "bytes": 873,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/__init__.py",
+      "sha256": "57a28dfa3f45a981019bd0a91c0e4134accef7dbb82091d3e7bd4d42751d8908"
+    },
+    {
+      "bytes": 952,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/auxiliary_tasks/__init__.py",
+      "sha256": "80d67f576724f6e5e9fd117bd614fa91f66f8f14eba2f0108723dee4bc7c246e"
+    },
+    {
+      "bytes": 6549,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/auxiliary_tasks/apply_aux_targets.py",
+      "sha256": "5181b8c6c8ff60662cdfc9fec51e6f0889d6a51d49a4be53ddeb5e805e50f3a3"
+    },
+    {
+      "bytes": 4791,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/auxiliary_tasks/aux_distance_transform.py",
+      "sha256": "00307e48098d8b99e19710647aa222f97c093729ffe4502446b1e558206e9b58"
+    },
+    {
+      "bytes": 5908,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/auxiliary_tasks/aux_inplane_direction.py",
+      "sha256": "75eaeddfb38fea13cfe242a459d9bb93b553d6e7d694915ad58aac416c42c38c"
+    },
+    {
+      "bytes": 2907,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/auxiliary_tasks/aux_nearest_component.py",
+      "sha256": "2c3b2053ef2910fb7496b5d840959a0bebd8d48dfc994907fc5204199d179c84"
+    },
+    {
+      "bytes": 4578,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/auxiliary_tasks/aux_structure_tensor.py",
+      "sha256": "7943deaecd954d5b2ea10fac966487fe415949b9c03d756560056240c7380c22"
+    },
+    {
+      "bytes": 3965,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/auxiliary_tasks/aux_surface_normals.py",
+      "sha256": "7f31151ab3834334766dd0034d857c171e50b51a1a344d6db3e1cfccac410a05"
+    },
+    {
+      "bytes": 21346,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/cli.py",
+      "sha256": "a7550267dc56bbbf12db92373c43c0e30f476f192555e624e741a5fe83bad393"
+    },
+    {
+      "bytes": 192,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/__init__.py",
+      "sha256": "2a2571097a384868164bc05c67c30c0f66e66d73812b7cec6e6fb16cf55d7d67"
+    },
+    {
+      "bytes": 31528,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/betti_losses.py",
+      "sha256": "4462d2d9b1fe08e34a65d1813ca662c11dbacc04624ef2a9a24a4e7067b5196b"
+    },
+    {
+      "bytes": 37832,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/ect_loss.py",
+      "sha256": "c73945950f14aac9bc70a22d0858ccf5ed45adab652c3793bc9e5a5d1a92497e"
+    },
+    {
+      "bytes": 519,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/loss_helpers.py",
+      "sha256": "ff5480f7e06aa129439e8002d51a7bce536015b6805f3f530960a5f30c4cee35"
+    },
+    {
+      "bytes": 52098,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/losses.py",
+      "sha256": "040387502bcd98f28c8901ed23de9df41f0bb1aefa5d35f90a99179ac26f6a78"
+    },
+    {
+      "bytes": 15258,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/nnunet_losses.py",
+      "sha256": "c3807408b807d801a2b0aac0332fdfaf70e5fe135258942f03fb9269a340ea47"
+    },
+    {
+      "bytes": 437,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/robustcrossentropy.py",
+      "sha256": "88db0ae566188fc515cc80e47cff41be3bc21270cec7b3f545df3f3d49e590fd"
+    },
+    {
+      "bytes": 5800,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/sigreg.py",
+      "sha256": "cbf8647a8cb792a794f3a56115b3c0495012b7c0db10e2d797dd61dcb24bc872"
+    },
+    {
+      "bytes": 5982,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/skeleton_recall.py",
+      "sha256": "1f63d7c4c4c6d544bf2ee2d175dc3bb8b67a16a8a14732d303ee6c6a042f7492"
+    },
+    {
+      "bytes": 21142,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/spherical_betti_loss.py",
+      "sha256": "4bd338c272c333657a8b4408cfc6a65139d521e490fe193d69bb6635877ab601"
+    },
+    {
+      "bytes": 6232,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/surface_frame.py",
+      "sha256": "c2768cc2b89b2f18368e0c3775cb4b0ec7ce309c3419c33873c680cb68329bbe"
+    },
+    {
+      "bytes": 8189,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/lr_schedulers.py",
+      "sha256": "d18d84616dcc5aa9a95e73b50254436803cd3bcfca25e2f600190e2bf0610229"
+    },
+    {
+      "bytes": 6164,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/normalization.py",
+      "sha256": "00433686bc3cc72d105cf8fe1bcaf9dbc3e286e44738ae02aef5839feb700bac"
+    },
+    {
+      "bytes": 5100,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/optimizers.py",
+      "sha256": "09173b05a9318dd90670692cf83b2117271defbb86b01da51eceeab4890d0b8a"
+    },
+    {
+      "bytes": 9983,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/save_checkpoint.py",
+      "sha256": "3e93be0a5e80fe12f61dd6589f914723e4d0cdc9b5891a19e306a7814a95b121"
+    },
+    {
+      "bytes": 121683,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/train.py",
+      "sha256": "99ad57903764b3dc7091dcc79264f6b875e3c26b6bc9e46e7294f32ccd2d1999"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 603,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/auxiliary/__init__.py",
+      "sha256": "4448284ac2eef4da51ad0480ac7242ac02fbc2d1008ad5115cf309f67bf61f33"
+    },
+    {
+      "bytes": 5630,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/auxiliary/base_aux_trainer.py",
+      "sha256": "687d393f9cf88efa0aee27ce2a26d4fa471872fba0dbeb9e77bb7962146c2961"
+    },
+    {
+      "bytes": 1329,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/auxiliary/distance_transform_trainer.py",
+      "sha256": "70d148c5801792011a401481e3df8716d46f919b856d49498d1d1d59866f8f42"
+    },
+    {
+      "bytes": 1320,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/auxiliary/inplane_direction_trainer.py",
+      "sha256": "6c8f5cbe2a4a6b123972e78742e54a811d031fd8156a5878608b3fb5bceb98b3"
+    },
+    {
+      "bytes": 1107,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/auxiliary/nearest_component_trainer.py",
+      "sha256": "300ef9d2ecdec5eef6e1a096457a8d034a5428280ff8e2f6bfe9ca1477ea78a8"
+    },
+    {
+      "bytes": 1313,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/auxiliary/structure_tensor_trainer.py",
+      "sha256": "3cf092a38b8097ecad3820553f8b015c5299b09d4a5eda67b05c5a4acd3bc313"
+    },
+    {
+      "bytes": 1036,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/auxiliary/surface_normals_trainer.py",
+      "sha256": "76ba580380f12dba6b0cd6736bd60658b7080fea8a693c974ccdd4a1bcf263a8"
+    },
+    {
+      "bytes": 11053,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/mutex_affinity_trainer.py",
+      "sha256": "79a6bcdc627033f2d347c93cf9ecacc851264505a4c9febaf9fb5cb133db5ea9"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/self_supervised/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 10002,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/self_supervised/train_eva_mae.py",
+      "sha256": "269929e115cfa3860abe1a0ab9e86966081ad41f3e3b1728d1138f6fba8d5a01"
+    },
+    {
+      "bytes": 11913,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/self_supervised/train_finetune_lejepa.py",
+      "sha256": "4bc0550dcc56b2061f7e0dc4736f363330c947acae37f32e54b5c25d60a168ff"
+    },
+    {
+      "bytes": 11511,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/self_supervised/train_finetune_mae_unet.py",
+      "sha256": "bada03226b4934b884c8b6fbfebc02471d432b95df6b5316896fc521218efa4d"
+    },
+    {
+      "bytes": 40911,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/self_supervised/train_lejepa.py",
+      "sha256": "49565108b51776c9272a21a6e47ebed4fed828b9024e34f8b53728a40f6ccf8b"
+    },
+    {
+      "bytes": 7910,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/self_supervised/train_unet_mae.py",
+      "sha256": "24aaf59679b47b573d925bea1dd74869f79e1e4c93b7feac36cc0ca9e83d143c"
+    },
+    {
+      "bytes": 5646,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/self_supervised/warmup_lr.py",
+      "sha256": "1914a960cb3d2161879b6a959b56ed0f1122e306555e26733bde900ed3348943"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/semi_supervised/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1319,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/semi_supervised/ramps.py",
+      "sha256": "272621382935891d236b5d951e3a3a7e6fe3f4d7913fd9eed4b7d47194322862"
+    },
+    {
+      "bytes": 23080,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/semi_supervised/train_mean_teacher.py",
+      "sha256": "76c73092815aa5df5789157ab59406fc300d07d14915521006398b79fa0732b4"
+    },
+    {
+      "bytes": 29810,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/semi_supervised/train_uncertainty_aware_mean_teacher.py",
+      "sha256": "0163222fabeb6972c2a8db5419b3a12e9cd53c543c437144f8486a269e5fd11d"
+    },
+    {
+      "bytes": 3666,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/semi_supervised/two_stream_batch_sampler.py",
+      "sha256": "6ef69619b2a0b9e20a26d6387c462b6ac85f1011345c268a08a9ec073380ddf4"
+    },
+    {
+      "bytes": 6471,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/trainers/surface_frame_trainer.py",
+      "sha256": "c5791d6fe39abe8d5290b649ff6737b94f02548f49e2152d077e8ff1c62b1b16"
+    },
+    {
+      "bytes": 3965,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/wandb_logging.py",
+      "sha256": "21381f8e2f48c06e29a361e6517773d1e290d0ead957e702973e6a0e3d34c19f"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/utilities/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 16291,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/utilities/cli_utils.py",
+      "sha256": "1fe5b950c1a8abc82cad621cc2f370240cb99d81fd3278c69e4330e9c517a804"
+    },
+    {
+      "bytes": 335,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/utilities/compute_gradient_norm.py",
+      "sha256": "9e46a851cdf1fab30557b52b77cbfe676439b24b9d189229168a5f1589cf9a83"
+    },
+    {
+      "bytes": 1103,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/utilities/data_format_utils.py",
+      "sha256": "fa727ddaf06d336fd54e929314fbe0476ed84000d0310fde265adaa5fc1e7175"
+    },
+    {
+      "bytes": 405,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/utilities/get_accelerator.py",
+      "sha256": "e61bf6d37c147b487ed080cac33d9d81624b0519b959a865c044d353c4aea846"
+    },
+    {
+      "bytes": 16990,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/utilities/load_checkpoint.py",
+      "sha256": "b78eec38b7aad255bd5b0e6d0c3a419efc9791c5d95f779f5027cea3ed75d883"
+    },
+    {
+      "bytes": 692,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/utilities/s3_utils.py",
+      "sha256": "50a370d0bfc50e06a298501f8b50b789c4319e1b8009a8834ac163191af9f99b"
+    },
+    {
+      "bytes": 20679,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/utilities/utils.py",
+      "sha256": "63ba098067e263618b01f21d790f7817a8b7e23863d9ca463cd5a69070838571"
+    },
+    {
+      "bytes": 16581,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/utils.py",
+      "sha256": "ff99435182051c91f72a590984c35bc85f5f0b89413f7e5579707bfb55a6599d"
+    },
+    {
+      "bytes": 67,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/napari_trainer/__init__.py",
+      "sha256": "e0b80fad1b43d2d4b9499e003cc2379d2cf4f47d531e2ad84dd003022d5e7178"
+    },
+    {
+      "bytes": 12368,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/napari_trainer/inference.py",
+      "sha256": "c3b06f9ac3f63de6a931766f00cba53c8f17675b9e326785252515feeea1d725"
+    },
+    {
+      "bytes": 3383,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/napari_trainer/inference_widget.py",
+      "sha256": "16715a9af4cb597f659f2372c8b64ee7aabdb7f1e500a8dca44885c929e7f2fc"
+    },
+    {
+      "bytes": 7844,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/napari_trainer/main_window.py",
+      "sha256": "983710b1ef2778ea109c1e0ac10569d7d9f8509269dadf0b845fad0bfda59616"
+    },
+    {
+      "bytes": 951,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/autoreg_mesh/__init__.py",
+      "sha256": "5c158366c5a0b8d6ab99598ddbcd6d11b0f5b4b3ac5e830cee888a736aa21960"
+    },
+    {
+      "bytes": 6407,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/autoreg_mesh/benchmark.py",
+      "sha256": "105019054eafbb06de9410b183f94da3426b8c035e3cf63e888fb883965edcea"
+    },
+    {
+      "bytes": 18649,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/autoreg_mesh/config.py",
+      "sha256": "5bb815fe8987a1c5997db48b4a225e75300afa3d268dcdb806800b7f44482603"
+    },
+    {
+      "bytes": 39943,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/autoreg_mesh/dataset.py",
+      "sha256": "d0ef8afa89beaa214afd3bd159ec7cd73b916cce267c5c411cd1c6028ef13a16"
+    },
+    {
+      "bytes": 12732,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/autoreg_mesh/infer.py",
+      "sha256": "34c24e9ff46fb504ae8ee644fdc7a9bfb91630d2ef3ead28bbfd6dada8307c28"
+    },
+    {
+      "bytes": 43306,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/autoreg_mesh/losses.py",
+      "sha256": "e2ec22ddc824becf8f6943cb8681258dda029a1652e6ff9d3b12bf0c2a4b61b6"
+    },
+    {
+      "bytes": 42524,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/autoreg_mesh/model.py",
+      "sha256": "a6033461a6f1b8d253a4f86e7bbdecb8011ceb4943eb42c7ff1647daaf5c9c96"
+    },
+    {
+      "bytes": 17520,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/autoreg_mesh/serialization.py",
+      "sha256": "6db95469aa37c403995b1a6dd22d875448c0496905c9ce5e2d7714b9f7f87546"
+    },
+    {
+      "bytes": 51183,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/autoreg_mesh/train.py",
+      "sha256": "c2e26e70d8a877b991264e49b120d5c488d0429a7870026eafbc5753ef792e8a"
+    },
+    {
+      "bytes": 1408,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config-mae.json",
+      "sha256": "6953d5c1c2c916ae6e7e0a7e4a2653a90c738b357df4ccbd170cfc7585f07312"
+    },
+    {
+      "bytes": 2235,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config.json",
+      "sha256": "5e0fc734b912389f39b8dae42f003aa6c440a80d0fb60efb0522d8c8848ee9ab"
+    },
+    {
+      "bytes": 3023,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_autoreg_mesh_0139_2um.json",
+      "sha256": "068135fb59a0e5a723500fc6bf5a7bfc7a0bdf25ec4c0cd7bc3e6b2b5cb5fedc"
+    },
+    {
+      "bytes": 3039,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_autoreg_mesh_0139_2um_axis_factorized_sd.json",
+      "sha256": "0e2f85428e227e63d85e1668824f069913c6378f21756160ca78e797f8ef8a24"
+    },
+    {
+      "bytes": 3064,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_autoreg_mesh_0139_2um_r1_sigma066.json",
+      "sha256": "c56d4232b3beedbc3fff525f3073262158f804523ff0d887f2094cae60574912"
+    },
+    {
+      "bytes": 3093,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_autoreg_mesh_0139_2um_r1_sigma066_axis_factorized_sd.json",
+      "sha256": "77a34f4e9642fb01dbfcced6687ba55753549c0ed6145b8b1a05d160ca84ea23"
+    },
+    {
+      "bytes": 3284,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_autoreg_mesh_0139_2um_r1_sigma066_axis_factorized_sd_debias16.json",
+      "sha256": "afdba2f2a832429a8563385e326f871de32aab93b79edb2dc500ecc8a4d42bb9"
+    },
+    {
+      "bytes": 3061,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_autoreg_mesh_0139_2um_r1_sigma10.json",
+      "sha256": "03ed5815ee88adfbdbc2b99c35036ab8f826637743611b3f53cfe4141e42deae"
+    },
+    {
+      "bytes": 3090,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_autoreg_mesh_0139_2um_r1_sigma10_axis_factorized_sd.json",
+      "sha256": "e749dc7c5dfdb867c7aa5724b8aeec82d9d7e04bebee3b6c7efd5c2bc596906f"
+    },
+    {
+      "bytes": 3281,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_autoreg_mesh_0139_2um_r1_sigma10_axis_factorized_sd_debias16.json",
+      "sha256": "235e2b63220984365adb9841672289712954cbc6205301b40a4038a9b5163622"
+    },
+    {
+      "bytes": 1871,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_original.json",
+      "sha256": "86f82734fa459a80dec37c2edd1838d1d544fa83f84d1464d66792df37a6b871"
+    },
+    {
+      "bytes": 3474,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_rowcol_cond.json",
+      "sha256": "a7fba67d60800a472889da69d5d1f994c3f3b303a66d4e36b63dbe935fc4894d"
+    },
+    {
+      "bytes": 3800,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/config_rowcol_cond_dense.json",
+      "sha256": "6031792e669546b6d0e9d6043d7d2eed911f797a2bad8e30be28f151f46a4187"
+    },
+    {
+      "bytes": 646,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/evaluation.json",
+      "sha256": "239832ccb024516275f56a0715fbc9d072e20e5ca209a24182b724dca8b26c00"
+    },
+    {
+      "bytes": 1544,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/fiber_trace_lasagna_smoke.json",
+      "sha256": "1cdfba97d9d2d2669bf8c19ec36540421d3bb72d58dda8c5191c285d9967afbd"
+    },
+    {
+      "bytes": 1554,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/fiber_trace_lasagna_train.json",
+      "sha256": "86f57585a9bcd713618a3946399e2020147ba625751cbee613a09af3a210d0d5"
+    },
+    {
+      "bytes": 1782,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/fiber_trace_lasagna_train_big.json",
+      "sha256": "338079db29137862845b80f110e3e72eff3d78c3fe043a2a8b00dd8f4f6af48b"
+    },
+    {
+      "bytes": 1942,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/fiber_trace_lasagna_train_staticsheep.json",
+      "sha256": "c81b2c81d2a067902c8f90ea61ed345e70f8cc94fe5e3d854d7136bb9761f555"
+    },
+    {
+      "bytes": 1936,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/configs/fiber_trace_lasagna_train_staticsheep_quick.json",
+      "sha256": "a1c2212ff5a7ed04aa022655ce9f1d6f4dd3748edfb44213bb8f288954ccd83e"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5259,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/augmentation.py",
+      "sha256": "a2c935c9501800627ee543c1f15973b2b3bf7b9f771782af5f2e516c89b369b2"
+    },
+    {
+      "bytes": 20729,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/chunk_finding.py",
+      "sha256": "f1ae40f169a5702f4e5a654377dc78bcac4556efc476124e1f6ddcdd034385dd"
+    },
+    {
+      "bytes": 62584,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/common.py",
+      "sha256": "239706107186903cfb37ce785416d3a613a7f21c0d482b8de0f5c5f6751ffa1c"
+    },
+    {
+      "bytes": 3865,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/conditioning.py",
+      "sha256": "ae93a0af98564865a6445c4bdef4966999194cee4aa49ac69a317c53596aba0e"
+    },
+    {
+      "bytes": 20344,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/copy_neighbor_targets.py",
+      "sha256": "d963d30958bbd2e24c02f120726d702f9d27a415da8102f2d2eeed75048f9437"
+    },
+    {
+      "bytes": 38876,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/dataset_rowcol_cond.py",
+      "sha256": "f7159ba1d6596dbd9a8ed8e4e3e7467e59420824764abd14d06a5e416e356626"
+    },
+    {
+      "bytes": 27334,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/detect_wrap_overlap_masks.py",
+      "sha256": "0880e7be6ee8e0d9d768833ccfcc4197538088c2698a2f2839f4179390db4258"
+    },
+    {
+      "bytes": 38353,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/direction_helpers.py",
+      "sha256": "97017b8824deca62420404f44c06f3ee25e86bcff6695e0a11becb4ac33c775f"
+    },
+    {
+      "bytes": 1780,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/growth_direction.py",
+      "sha256": "d87f0a67fa69e2aa4f68c130e386b091392703f51339a1c6f59911afce4848c5"
+    },
+    {
+      "bytes": 1553,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/neighbor_resampling.py",
+      "sha256": "23bdc936ac0e03f2fa341aa7f1528c4de6c2f0351526b84189f2cfe0d5f61006"
+    },
+    {
+      "bytes": 4710,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/perturbation.py",
+      "sha256": "d83e03399f669438fd8d1bc1a2872d5c18954589de3eb0f69d62bdf442fde4c2"
+    },
+    {
+      "bytes": 17336,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/rowcol_cond_config.py",
+      "sha256": "3afc293b4c621a7b9828e3ef7f5b4428f7cc761039d9e23e06197fa3e6974cb5"
+    },
+    {
+      "bytes": 27837,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/targets.py",
+      "sha256": "13dda586a123bcdf92996fdd611719fd895bd633bc8d6308aa529f51ac92e0b8"
+    },
+    {
+      "bytes": 2556,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/datasets/triplet_resampling.py",
+      "sha256": "2445bb90074a1bc66572ea63855e5656fde51123a338e647609ed9c6f04a93bf"
+    },
+    {
+      "bytes": 3526,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/evaluation/evaluate.py",
+      "sha256": "0136996ff1a5aee514a1f82e3007b27a1e913291f491ee757318b2c62af8655f"
+    },
+    {
+      "bytes": 5782,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/evaluation/evaluate_vc3d.py",
+      "sha256": "a4c22da4748bc6f530373ae7e3abe9235d5458df4117fb7f0128db2cbf615a87"
+    },
+    {
+      "bytes": 766,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace/__init__.py",
+      "sha256": "0b3fec2f7551d2d7fb24cba6638cdfa4c7c0189dd37d2c5a72871b4999083f6b"
+    },
+    {
+      "bytes": 66514,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace/dataset.py",
+      "sha256": "4761ac3d5788369677bd790e0dbd5f529acd5a75e8af4d4dd14358c0c7d48160"
+    },
+    {
+      "bytes": 2713,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace/fiber_json.py",
+      "sha256": "c2ed856dd9f7a9921e16b59202450038fada28cb64216539b0c7d95ac7798281"
+    },
+    {
+      "bytes": 12152,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace/geometry.py",
+      "sha256": "c7f19ffe76e9390e7f3a69a73abf8de6ae32c50f92b8f016280c842f49127254"
+    },
+    {
+      "bytes": 156,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace/labels.py",
+      "sha256": "18cd6f4ba005655917e04682370b350c0aa2e4e7cdaccf32220618d7dd010d5d"
+    },
+    {
+      "bytes": 10131,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace/losses.py",
+      "sha256": "a6e3eda4701a30b038789b2d3d3fee925b8dea90dbcf5f18e27b09092dc60d11"
+    },
+    {
+      "bytes": 8578,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace/model.py",
+      "sha256": "141d88b45a107eae7999abf2f5a43bd5d06b121c31ce051c8977c441ca856f76"
+    },
+    {
+      "bytes": 60254,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace/train.py",
+      "sha256": "cf92a3f6c9557e4a11cd80d9a32a3b388e825d1327fac15b139040684d0fcb0d"
+    },
+    {
+      "bytes": 561,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/__init__.py",
+      "sha256": "de892f1353f02873db341be5c8886faba6cf5b5d714b75dd602fdac26534ffcd"
+    },
+    {
+      "bytes": 34546,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/augmentation.py",
+      "sha256": "72f6e630dc23e97d02a7d15d8f96cec64d3072e209ab528c3dbd85ea82429b75"
+    },
+    {
+      "bytes": 2684,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/configs/loader_example.json",
+      "sha256": "f36b57c9c587efdacb5e5d2997286074b0179c1db163c4a8f4db705b68690336"
+    },
+    {
+      "bytes": 2472,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/configs/train_s1a_nml_all.json",
+      "sha256": "12bf197fd33cf7a054ddcf511ad9c0c782affbb3e2df801fb22a82b3a4772df8"
+    },
+    {
+      "bytes": 7747,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/direction.py",
+      "sha256": "3cd4fccf07b320478f8279027cc6eadd0719958e5de5dd1322938fe36a48445b"
+    },
+    {
+      "bytes": 16363,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/embedding.py",
+      "sha256": "35fe97ead576ee579bc0fa7d3c86361e506e7d0b070ee26e4ef8ce5aa1fca0e6"
+    },
+    {
+      "bytes": 10221,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/fiber_json.py",
+      "sha256": "cde0f7ed4e42668904a284c62b6b82c2d7be0ff1bdeef07a0feb8f087dfab828"
+    },
+    {
+      "bytes": 257925,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/loader.py",
+      "sha256": "f7cdb49d03a63061d9bb64895134ce0494d00e5473040e173a435a34570dfe75"
+    },
+    {
+      "bytes": 6303,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/loader_support.py",
+      "sha256": "801fef59007bdf0fb7bc8638d7ea7c15cefb28a79b10ffd42ddef22582e40603"
+    },
+    {
+      "bytes": 4857,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/model.py",
+      "sha256": "0f5d0e28c451812f9b8f310645374cf1c3be8a20b81a5ad79724b24d8c2a5f3c"
+    },
+    {
+      "bytes": 560468,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/runner.py",
+      "sha256": "3b3135ab728630780f37c7e4a988bf150ac5a60ddefa6c11f96d31baaa956943"
+    },
+    {
+      "bytes": 19102,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/sampling.py",
+      "sha256": "e5b39fe52986d823002ceff690ffcf082d421a1bd0de6a7c2df111652a8146a6"
+    },
+    {
+      "bytes": 52149,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/strip_geometry.py",
+      "sha256": "52f3508f6975cdc8d31e5b8b7b1523ce09ba03c3ee0d35a2bc588acb0bf63055"
+    },
+    {
+      "bytes": 113717,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_2d/train.py",
+      "sha256": "0d9b88fba8d6d997bda46327da89b940677c12dc36a4ff27f0cc6aecd0aa3c77"
+    },
+    {
+      "bytes": 957,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/__init__.py",
+      "sha256": "cca112231d21ba389238151f3e5497a845f150ce576e6c8bb1c09ae515295883"
+    },
+    {
+      "bytes": 3452,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/configs/loader_example.json",
+      "sha256": "4e759a2b38dacd9f92c1044e5dd874e4a4bba32ea63eb16bbebace8e12183cbb"
+    },
+    {
+      "bytes": 634,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/configs/metric_sd2_s1.json",
+      "sha256": "76df3eb880b020e2302889bf88d3de48a63003a7082b8bd906674442b3cd07d4"
+    },
+    {
+      "bytes": 694,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/configs/metric_sd2_s1_single.json",
+      "sha256": "6b9b0a5f1cd1d0c599681717c5a00c4c94ab28b58721fbfe9ad107e64aaba922"
+    },
+    {
+      "bytes": 3934,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/configs/train_s1a_nml_all.json",
+      "sha256": "840d94a84d10db61063b4bbf93c63658138d9e4b2c3c3757b127c4f4c590d274"
+    },
+    {
+      "bytes": 4009,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/configs/train_s1a_nml_all_128_sd2.json",
+      "sha256": "eeb15bcd93271239efb97dcd5f779114e51d8c137213f243d7cdd306b49b5bff"
+    },
+    {
+      "bytes": 4232,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/configs/train_s1a_nml_all_64_sd2.json",
+      "sha256": "9c8df3ccb348a32d812ae7d22ff8a049d29f590157a1ad6dd12069dacca045fd"
+    },
+    {
+      "bytes": 3829,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/configs/train_s1a_nml_all_64_sd2_single.json",
+      "sha256": "1e827ff93e3cec6fca0e8d3d57d3f621b538486c1a9b6c0605fa74c31906b665"
+    },
+    {
+      "bytes": 12824,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/direction.py",
+      "sha256": "36a3ab0f541c9b40f9342cc4b94789ba7aeafc28ab0b5c1820bee35d6d12b518"
+    },
+    {
+      "bytes": 37749,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/infer.py",
+      "sha256": "f49664eaa396afdf7b9821e4705ef724e0cc06519c73118853deda678f95ed97"
+    },
+    {
+      "bytes": 14294,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/inference_adapter.py",
+      "sha256": "9e271f75d76678dbcc48e6998e2ca703add80e34947098ef8c10ea9610e86a5b"
+    },
+    {
+      "bytes": 111799,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/loader.py",
+      "sha256": "8fb3ee713822955ce89b4d25d5aa2939e9fce378bad3ef1a78d399cca888b41c"
+    },
+    {
+      "bytes": 16305,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/model.py",
+      "sha256": "7dc4a2a56ce2542484f10bb8c0909a03691077cdbb35a02ea86aeb6fca975be0"
+    },
+    {
+      "bytes": 2516,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/prediction.py",
+      "sha256": "2f973fd1525681d5cbffbe86f1f3886a1763a0e044aaca5ad3a9c84ea4b20ffa"
+    },
+    {
+      "bytes": 1124,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/projection.py",
+      "sha256": "ef58b3394876e97964ce6323cbff62d4dbef7cc032c0c978e72824a3e53ab33c"
+    },
+    {
+      "bytes": 15197,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/targets.py",
+      "sha256": "7338a0381bae598a5124290a314e3018e966896fbfad0df8b547174932d74903"
+    },
+    {
+      "bytes": 5197,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/trace2cp_bridge.py",
+      "sha256": "b8e60e91231857a85481b57671946b1c9d81c5e784ad4be92e410b618889f16e"
+    },
+    {
+      "bytes": 369853,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/trace2cp_tool.py",
+      "sha256": "39c3622ac00b482be8b05084ab169ef9e252db5b2e5900c18409fbb980c0fea7"
+    },
+    {
+      "bytes": 173107,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/fiber_trace_3d/train.py",
+      "sha256": "d12157153290ec02e11e9f0622c095fc64baf7e1153606f765dd88c665d4d544"
+    },
+    {
+      "bytes": 5498,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/heatmap_single_point/augmentation.py",
+      "sha256": "41443bc6481f04f5a95cfb0ba5239adc816daec88baaa72e7a33658a8840f99e"
+    },
+    {
+      "bytes": 4418,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/heatmap_single_point/cropping.py",
+      "sha256": "cba982c5e3ea9d7f7ccb381bc5ab53b50f63d87a5b82836420a7cb71174773b3"
+    },
+    {
+      "bytes": 61822,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/heatmap_single_point/dataset.py",
+      "sha256": "053ded570d29f1ff2a295f38394f56950976b0d5508b4842cf1a743e7c9ed99c"
+    },
+    {
+      "bytes": 1701,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/heatmap_single_point/tifxyz.py",
+      "sha256": "2dc3dfe5e60006c6bd0f956e74b13a7826482b2348b0228a3854758cf8926f2f"
+    },
+    {
+      "bytes": 28526,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/heatmap_single_point/trace.py",
+      "sha256": "51c279a487db925de7fd8897c73058c4e008328d4743b0cc8b6355cdf4a4d872"
+    },
+    {
+      "bytes": 35598,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/heatmap_single_point/train.py",
+      "sha256": "ecee6f65d5e84af719580c7e750e04f2824e139bfdfad1df129c57ca101ac935"
+    },
+    {
+      "bytes": 17234,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/heatmap_single_point/visualization.py",
+      "sha256": "8670398afd1d8c7e32621caf0786c964fef36a70feeef07250f3734f61fd120c"
+    },
+    {
+      "bytes": 22216,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/infer.py",
+      "sha256": "a3c6e787d46e83f9a31d6e4699dd002f385d385ba0193e40215fef88115e8f6c"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/inference/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 72671,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/inference/common.py",
+      "sha256": "6e01c532c8ffa9e573d8f2ae7626b7c41bb15f283960d88c6dd36706a496d627"
+    },
+    {
+      "bytes": 7521,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/inference/displacement_helpers.py",
+      "sha256": "aadb0274333fe0d3adbcad0eb08577228ebd75b7e0f3fc1d30e465e84bd248e5"
+    },
+    {
+      "bytes": 12970,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/inference/displacement_tta.py",
+      "sha256": "70b5ca4fbaaf7407beef5c350f3ad41ce6e6471977e2a5f6b9fd964f68296077"
+    },
+    {
+      "bytes": 3780,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/inference/extrap_lookup.py",
+      "sha256": "247d4dd1ec493be69f7fb49196bed3d007ceee4afdaa9ceb854d5546de299230"
+    },
+    {
+      "bytes": 39690,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/inference/generate_segment_cover_bboxes.py",
+      "sha256": "dae4aacac8b70183e9b72ef0d55ea5f16dca3c4a4cf3c7ceb962af990a628666"
+    },
+    {
+      "bytes": 111951,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/inference/infer_rowcol_triplet_wraps.py",
+      "sha256": "2d12d139807095be7d3df739ea39a1a1f4affc80e2652cb6f3f6c5e12759a838"
+    },
+    {
+      "bytes": 125517,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/inference/infer_streamline.py",
+      "sha256": "649af091ccc0650f1f2008448131f24ff35fe5e7507d5eeb5a306e2d698031ae"
+    },
+    {
+      "bytes": 4484,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/inference/napari_helpers.py",
+      "sha256": "2736231f4d5ae11fd6f4cdb91d2a31bcfc8b0e34a4e88d8511c5231ab52b1dbc"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/loss/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 686,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/loss/deep_supervision.py",
+      "sha256": "c5337c895e03bfee2f871a255af83004e5e3e605f5c77dd0c560946f09c6ff17"
+    },
+    {
+      "bytes": 23329,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/loss/displacement_losses.py",
+      "sha256": "2904448723a81923c191d927b074be78aaa9f293084c4a5b8ec163b638634f2b"
+    },
+    {
+      "bytes": 5649,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/loss/surf_overlap_loss.py",
+      "sha256": "89d45d1a8ba5edbd4a7ef814013c107b69c4aa0e46eebcd14cef1c365147bdd0"
+    },
+    {
+      "bytes": 406,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/loss/trace_losses/__init__.py",
+      "sha256": "be467575d04f6b7ad6043ad2734a94ed9f6166052c17bf9df7084b1081ab063b"
+    },
+    {
+      "bytes": 13377,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/loss/trace_losses/losses.py",
+      "sha256": "909ceb15816abeea0a769a8667dbf3abdb32721619520f8498911fcda9fe55db"
+    },
+    {
+      "bytes": 12424,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/loss/uv_equidist_loss.py",
+      "sha256": "da067a3561975a3d37a930eaee2b2f54faaa1fae1be7036e0049e523b3253321"
+    },
+    {
+      "bytes": 38,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/nets/__init__.py",
+      "sha256": "2a3edabcea515300e3f17bcf765243a4ce3b14ab5b802391ef745533c1724f5f"
+    },
+    {
+      "bytes": 14931,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/nets/models.py",
+      "sha256": "3600ec788bfa46b0d82a184761c41474f47dce4302f5bfa26e8ced02e6bd321a"
+    },
+    {
+      "bytes": 30696,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/nets/vesuvius_unet3d.py",
+      "sha256": "2567587db318e41df4c348db33a03e467bd14d5e4f1a5099efa90fa6b85a0541"
+    },
+    {
+      "bytes": 14614,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/nets/youssef_mae.py",
+      "sha256": "18a878cff159b46633b35f493f9033f5ca7d937c74b49f26abda32ced5fc410b"
+    },
+    {
+      "bytes": 491,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/s3_utils.py",
+      "sha256": "396509981b71ce1fa636db554a2baf3f43d4bc65dc2189349beef711cec77cac"
+    },
+    {
+      "bytes": 19629,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/scripts/profile_rowcol_cond_dataset.py",
+      "sha256": "eb3a2c12563a533ad273ba5116825afea37689d6d2fcef1259014adbeb2af428"
+    },
+    {
+      "bytes": 10345,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/tests/test_direction_helpers.py",
+      "sha256": "8c4a718f559a99e68d5df8e26097b63111171b49979dd216e974bfb8592eda0b"
+    },
+    {
+      "bytes": 13650,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/trace_service.py",
+      "sha256": "bf4ee229a892b5ef4e62b839d6c2b9f206c7638335f18168f3afafe2846e32ea"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/trainers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5129,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/trainers/loss_config.py",
+      "sha256": "cb5b10463038e85847b90d8841aded171ec0e725a2b24e809e27ad524b5ba7f9"
+    },
+    {
+      "bytes": 68617,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/trainers/rowcol_cond_visualization.py",
+      "sha256": "c171593c433ddf845a98a32306db45cd0b6b3db9a3e25ee4ba146b189206b43a"
+    },
+    {
+      "bytes": 26458,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/trainers/train_rowcol_cond.py",
+      "sha256": "3812df28f872d1bb1684dc72be650ac9f4da8a9fc25ec9656c108c2820c7936e"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4109,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/_robust_graph_solver.py",
+      "sha256": "22d8537f83e132b393c048d73c1e20654f5561d085bbda965f40b0e1d5098be9"
+    },
+    {
+      "bytes": 25122,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/export_spiral_supervision.py",
+      "sha256": "6b15c8044dd53cb0b54731d5d4a8601604b8df4bd17d13dd258a2f62e59ea7b1"
+    },
+    {
+      "bytes": 183206,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/infer_winding_volume.py",
+      "sha256": "ce919bd057200f56b26c6766efd7a9ebed5a09a3d4d7964ddbdf79458d5b5ac2"
+    },
+    {
+      "bytes": 64795,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/merge_winding_field.py",
+      "sha256": "edd4af829ed60b6599701013dcff888a6e1fd407d5d9340befb5c6bae4681ea8"
+    },
+    {
+      "bytes": 7828,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/napari_helpers.py",
+      "sha256": "7cfd1703f7208b924f265b8674adbbed51529b84c22dfa490f15cfdc769398a7"
+    },
+    {
+      "bytes": 20606,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/phase_overlap_sync.py",
+      "sha256": "ef46d4d5e2195bc69838db9d22e0cabf9c3fae682b749c31fd86ad64edf0022f"
+    },
+    {
+      "bytes": 2470,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/train_config.json",
+      "sha256": "15bac17c89dfc2a5ee708847cbd2722bfb8b997b4c0b2a024df236ca851a0f19"
+    },
+    {
+      "bytes": 2866,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/train_config_ft7.json",
+      "sha256": "71077c14579f13cbf533be5c58207a288f0957fc705af0877ffd2ecb9239ffe7"
+    },
+    {
+      "bytes": 39869,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/train_winding_model.py",
+      "sha256": "e0c22f7cee189329f3dace01d63074443d452066549d46e38617ab4481bde88d"
+    },
+    {
+      "bytes": 9111,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/volume_slab_extractor.py",
+      "sha256": "830fd713580f5ec1a9edcac5397b0ce820e8fb72d43d83a351a285d9752c7c43"
+    },
+    {
+      "bytes": 58781,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/winding_centerlines.py",
+      "sha256": "171eb213a8fbdbe77f50584ed61b9ae3066cbebba14a57c286942aa87d9eaf3d"
+    },
+    {
+      "bytes": 24345,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/winding_model.py",
+      "sha256": "5ce838ea064464005985b397a5fd4d97bb0eb4e4753d409ab068355d5d14bf43"
+    },
+    {
+      "bytes": 66931,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/winding_model_dataset.py",
+      "sha256": "ea362d617a9930f9e062cb5073b20abe60653bd9bceaa8332f255da58f9ee0f5"
+    },
+    {
+      "bytes": 36440,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/winding_targets.py",
+      "sha256": "8537ddc7f662785aaff09e7530f8c8603382155d0d0aa4990b4cf7c93a3f4f21"
+    },
+    {
+      "bytes": 6633,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/winding_models/winding_visualization.py",
+      "sha256": "b4b2c60b56de19e0ac0a89aec573dbe2934f55a87905a943127da9b0f4aeb1eb"
+    },
+    {
+      "bytes": 1148,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/neural_tracing/zarr_support.py",
+      "sha256": "b709c30206d405072a99be586e069ebe06d061be7f7df9f9608a62c793d43826"
+    },
+    {
+      "bytes": 3874,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/scripts/build_chunk_occupancy.py",
+      "sha256": "e50ab9f0cfa2222c665452cdfbfbbab76b4df5ab8f67d53431cca54c29c15b61"
+    },
+    {
+      "bytes": 6483,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/scripts/crop_tif_stack.py",
+      "sha256": "4022e6caebfd2c235a8ad1caca55d546c75382ba8ae5eafc7864c90c407c2d78"
+    },
+    {
+      "bytes": 31078,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/scripts/detect_holes.py",
+      "sha256": "4652673b58f667cefa7e89dd8b2c238efa301f2c59d1c7aed8505647d18a59b5"
+    },
+    {
+      "bytes": 17099,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/scripts/extract_sparse_ome_zarr.py",
+      "sha256": "356a36d1fdfb090cd3e8f377e5461909db30a81ec7221140ef7f474b50972cdb"
+    },
+    {
+      "bytes": 26807,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/scripts/fill_inner_outer_labels.py",
+      "sha256": "8dbdb0c56f1b876aac74a6622fdddcae8f6faeebe59d0cd3b64c29c81723616e"
+    },
+    {
+      "bytes": 19264,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/scripts/fix_holes.py",
+      "sha256": "921b5697a380f306d65204a13613aac3e7db594359af9974fa459bba5a2ae5f1"
+    },
+    {
+      "bytes": 21702,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/scripts/hole_viewer.py",
+      "sha256": "9320e42c74b9b7f051ce513a042f05c354f8f1f7d98ed615fd062d53cda3fb58"
+    },
+    {
+      "bytes": 74266,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/scripts/labels_to_zarr.py",
+      "sha256": "862871ee75f3552496e3e0646654a0b7b464b23542afcc70a89d704e7cd57f7d"
+    },
+    {
+      "bytes": 29123,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/scripts/tifs_to_ome_zarr.py",
+      "sha256": "a2aa4bdeb047bea89ea2926608bfad5ab042eb89425eea79f3fa235c686ccf36"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/structure_tensor/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1366,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/structure_tensor/_compile_utils.py",
+      "sha256": "1d9e2f1ea35d495c52cebf2c699cd8b27fab77d759215640053ea364b67c369c"
+    },
+    {
+      "bytes": 3540,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/structure_tensor/compute_vf.py",
+      "sha256": "723d2c668e5f25249454ea1921861a667d20c68306d103092bca2bf56c15eed0"
+    },
+    {
+      "bytes": 44169,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/structure_tensor/create_st.py",
+      "sha256": "df82bf1d34646c64e498a9feb20a39b09f491ca80e60458ef7b2e8fd7fd022f4"
+    },
+    {
+      "bytes": 7119,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/structure_tensor/create_vf.py",
+      "sha256": "f6a760e50fbca14ee816221dca27bd02d2c359072d6976fa53abf72ec64d5ebe"
+    },
+    {
+      "bytes": 23058,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/structure_tensor/run_create_st.py",
+      "sha256": "e18e29cc8f7fdca00195d3631a7ebb2bd2983550345686549cd0bcb7b53294cf"
+    },
+    {
+      "bytes": 2641,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/structure_tensor/smooth_vf.py",
+      "sha256": "ae6fcb8b1ae9762ecf90df639dff5021d75575f172382760c726c8e0b86d5410"
+    },
+    {
+      "bytes": 5006,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/structure_tensor/vf_format.py",
+      "sha256": "dfea962d22ceabce7f631642062b2802739614a4c433fc1522be039220fd13f4"
+    },
+    {
+      "bytes": 1993,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/structure_tensor/vf_io.py",
+      "sha256": "5b8948467dedaa8afd9ecf613dfc497e1b4fe241e1a10c68857df2951edf2add"
+    },
+    {
+      "bytes": 1654,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz/__init__.py",
+      "sha256": "930bdf8550f51b47ebca3dbd4cd71512598d817161fbc51f43eb845a92e35c71"
+    },
+    {
+      "bytes": 42952,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz/hierarchical_tiling.py",
+      "sha256": "16be25d6426ca1359bcdb550bc2bccec7f0c15eac1c8c216f510b8924f0dd4ee"
+    },
+    {
+      "bytes": 20653,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz/reader.py",
+      "sha256": "46277973f06fd38020a05b84b66a4c1682338972d59c593fdc16c068236444b9"
+    },
+    {
+      "bytes": 7046,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz/test_labels.py",
+      "sha256": "d0707af6112487cf7a815c0973709f592cfeb7e48a52f988136c88c92cc1f8ef"
+    },
+    {
+      "bytes": 44109,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz/types.py",
+      "sha256": "d1aeb5f168c3c1f814d7acc215200ab2332856a478a3aba0c67b63cf64e02ca7"
+    },
+    {
+      "bytes": 19156,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz/upsampling.py",
+      "sha256": "77852a721f67323f64ac6c75c52e93d4d4ed3ebe78f3ebd76f2a1dcf541c1fc3"
+    },
+    {
+      "bytes": 9363,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz/writer.py",
+      "sha256": "da5db68e6efea7c6002c0177e87daaa55d45205a3a5fa52aca8eb888c7b9f618"
+    },
+    {
+      "bytes": 62,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/__init__.py",
+      "sha256": "5ccacdae9e44136c1bd28ed54bd59bc7ec8d038a77dac7eac17637ead80c31f0"
+    },
+    {
+      "bytes": 2386,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/build_native.py",
+      "sha256": "e3af12d1f06ec7c9cb39e821346cfb3ab3c71b51cd64e8eb0a5df716f9b80c28"
+    },
+    {
+      "bytes": 74012,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/core.py",
+      "sha256": "d35999f5fb2cfb87734cfecba215ece96685e9cd9bbb9ad1668527733226ba2f"
+    },
+    {
+      "bytes": 23265,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/estimate_canvas_offset.py",
+      "sha256": "5cc48cdfa2e60ac96f10400ef543c18bf265402fe8871b8a81e334f78c786e15"
+    },
+    {
+      "bytes": 8232,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/estimate_canvas_offset_evidence.py",
+      "sha256": "7ca47b1c2daa3bbc6a51bbb5013c30af1508c8a43659164c4d996d038e81e970"
+    },
+    {
+      "bytes": 15209,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/io.py",
+      "sha256": "92ea63ec08cc5e20b994ab7e6823075957f83ff196430780c6e3c66dd23068cd"
+    },
+    {
+      "bytes": 5237,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/make_label_zarrs.py",
+      "sha256": "fb1796b303a284d30a9229179a2309610b7112dc73bd5c315d4f72617771cb59"
+    },
+    {
+      "bytes": 12747,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/native.py",
+      "sha256": "3c5d82362ba43d2882e762bd45f75b31c75040392adcd1d810d411b31ab59a6f"
+    },
+    {
+      "bytes": 9982,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/planar.py",
+      "sha256": "0ac99e396dde289d871eff564faea9fedec0aab232840170946bff5bbda1421a"
+    },
+    {
+      "bytes": 35323,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/prepare_canvas_offset_evidence.py",
+      "sha256": "1c8018346cf6265266d7fcbc43f7e7720919fb411465a8fc00ed10ddff03b4a0"
+    },
+    {
+      "bytes": 68573,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/self_render_tifxyz.py",
+      "sha256": "c3b8e62aca689293fd27c09489df2a996713a9c7c44c68d1a8e2124ee7aee24c"
+    },
+    {
+      "bytes": 46797,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/transfer.py",
+      "sha256": "c42424032638fa20667e8dd013c3a796fe8e5d5647f5aaf0230a77c3d1779c81"
+    },
+    {
+      "bytes": 100685,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/tifxyz_label_transfer/view_alignment_napari.py",
+      "sha256": "e8cedef165e2fbf8728553274755da1132f89699b116da1b15f892e95aaf3329"
+    },
+    {
+      "bytes": 358,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/__init__.py",
+      "sha256": "5c83cd6b5a2b2d087a9c67a915ca9a49f3e55132be9b58feffc90924d1ba67dd"
+    },
+    {
+      "bytes": 3223,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/build_betti.py",
+      "sha256": "ddcd66bbede1766a974e27af833c1759578f0ecb2d0091162161878d9326a570"
+    },
+    {
+      "bytes": 4494,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/catalog.py",
+      "sha256": "f2aa949e835dbeee378a1365c19e17746154743530bc042e9a2402280ca36828"
+    },
+    {
+      "bytes": 4282,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/cli.py",
+      "sha256": "950b29edf8b9eda4e841be10f8a13f50dfe2b3a73401e4bb00f5cda2da293e8f"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/io/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 10064,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/io/patch_cache_utils.py",
+      "sha256": "0a0d8ae311ebde99ce39cb8a86471fd6f2f341f62f60df4dcbbead68aee1dfe0"
+    },
+    {
+      "bytes": 4324,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/io/zarr_utils.py",
+      "sha256": "27fe68250e7012a399d9c3704c1d288d40f65dd2a1fc70ea518a1ea23a0722b6"
+    },
+    {
+      "bytes": 1125,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/k8s.py",
+      "sha256": "4630f49328ce0d65c11d48b05ad585f088235123d5dd8bbb4bed3727917ef9a1"
+    },
+    {
+      "bytes": 0,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1748,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/models/ddp_allgather.py",
+      "sha256": "b23c0b7cac223da285de80461873196e2e60c0e0ddce776f858cc4b0777059af"
+    },
+    {
+      "bytes": 7406,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/models/helpers.py",
+      "sha256": "8f388c30c4f46a620e12edcfed0e21249f1bbf2710d23bd6b0f164f437adc27d"
+    },
+    {
+      "bytes": 32730,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/models/load_nnunet_model.py",
+      "sha256": "b8a927671ba51c123203a59f59784824d55650c3f4a20ed1a241ded05a5d9953"
+    },
+    {
+      "bytes": 44336,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/plotting.py",
+      "sha256": "1d7c5a6bedfbd33189efc425dab9110f2664a134c518eaaa804f80efb9612a18"
+    },
+    {
+      "bytes": 1601,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/type_conversion.py",
+      "sha256": "768cdb51530a0db2be505eb09e84d5a8b723639fa2884d6a99b62ca526676dda"
+    },
+    {
+      "bytes": 25813,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/utils/utils.py",
+      "sha256": "fd2c30c55c3e1fe5070a2d083cb3ac26be8addc8c2531bdac853e91a83e70f56"
+    },
+    {
+      "bytes": 1872,
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/vesuvius.py",
+      "sha256": "27fb9e475a2043d0fe5ae9e361878bd3c39513381bab1c92bd5fc4bd837b5cde"
+    },
+    {
+      "bytes": 22462,
+      "path": "research/lab/reports/fortyfifth-experiment/source-evidence/hecate-hecate.py",
+      "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59"
+    }
+  ],
+  "schema_version": 1,
+  "source_archives": [
+    {
+      "bytes": 219891044,
+      "commit": "eb5947970e0fc5279fe36558daf6a25cfd3dfd2d",
+      "path": "research/workspace/bundles/native-common-support-inputs-20261012.tar.gz",
+      "purpose": "Frozen native common-support inputs; model weights separate",
+      "sha256": "b6632e6798d808af7252cc372f9e567d3338adba947e64e54755c895af236968"
+    }
+  ],
+  "status": "FROZEN_BEFORE_TRAINED_MODEL_INFERENCE",
+  "utc": "2026-10-12T15:43:13.928382+00:00"
+}
