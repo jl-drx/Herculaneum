@@ -16,6 +16,13 @@ The review archive is 79,494,713 bytes (about 75.8 MiB), with SHA256
 `4ae4082fad47e336c6b408fb88fab411cd81002202b480ca2f616611d8a399ac`.
 The [packaging receipt](BUNDLE.json) pins its contents and implementation.
 
+[Local restoration](LOCAL_REVIEW_RESTORE.json) passed all 3,600 file checks and
+reproduced the full 238-record verification receipt. A
+[fresh selective GitHub download](REMOTE_REVIEW_RESTORE.json) into an empty LFS
+cache fetched exactly one object and matched that verified archive's SHA and
+length. This checks remote availability and portability within this workspace;
+it is not a separate-machine review or new model inference.
+
 Use an isolated Python environment. The retained run used Python 3.14.7,
 NumPy 2.4.4 and opencv-python-headless 5.0.0.93. Only the latter two libraries
 and the standard library are needed for saved-result verification; torch and

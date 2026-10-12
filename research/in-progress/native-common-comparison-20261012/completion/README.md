@@ -142,3 +142,8 @@ verifier. It excludes model weights and source CT; use the separate input
 bundle to audit source construction. See [PORTABILITY.md](../PORTABILITY.md)
 for selective download and offline verification. Replaying this bundle on
 another machine does not create a new physical evaluation set.
+
+Local restoration verified all 3,600 manifest entries and exactly reproduced the
+separate verifier's receipt. A fresh GitHub LFS download matched the restored
+archive byte-for-byte by SHA256 and length. Both checks passed with no inference;
+their receipts and scope are linked from the portability instructions.
