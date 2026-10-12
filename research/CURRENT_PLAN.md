@@ -95,7 +95,17 @@ they qualify mechanics, not learning power or CUDA performance. Geometry-only
 reservation gives 2,886 versus 11,887 candidate patches, but only 1.46–1.60×
 coarse CT-neighbourhood coverage. Separate arithmetic reproduces those counts.
 Population-wide CT/supervision eligibility and the final schedules are still
-pending. Next check those fixed populations, admit the annotation tiers, freeze
+pending. The [population intake](in-progress/native-coverage-admission-20261012/README.md)
+now binds 17,570 added-stream source requests and all five original native
+annotation sources. All 876 original mask-selected candidates are retained;
+481 on w035/w039/w044 have verified CT support, while 395 on w040/w041 await
+input access. Separate full-raster arithmetic reproduces every decision.
+Persistent outbound proxy-tunnel HTTP 503 errors prevented full CT/teacher
+acquisition. The partial source caches and exact pending requests are preserved;
+unavailable transport is not an absent object or a negative label. No substitute
+three-winding or availability-selected added-stream experiment is authorized.
+After public S3 access recovers, resume those same requests, complete the fixed
+population qualification, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep
 searching this panel for a better model/threshold/ensemble. Add separately
 supported development endpoints for detail and negatives alongside area AP.

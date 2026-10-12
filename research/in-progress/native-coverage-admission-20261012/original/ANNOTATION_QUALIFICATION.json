@@ -1,0 +1,258 @@
+{
+  "status": "MASKS_AND_LABELS_DECODED",
+  "utc": "2026-10-12T18:49:36.643971+00:00",
+  "candidates": 876,
+  "summaries": [
+    {
+      "winding": "w040",
+      "supervised_pixels": 1629734,
+      "eligible": 304,
+      "ink_inside_supervision": 716725,
+      "ink_outside_supervision": 28932
+    },
+    {
+      "winding": "w041",
+      "supervised_pixels": 555629,
+      "eligible": 91,
+      "ink_inside_supervision": 229884,
+      "ink_outside_supervision": 1537
+    },
+    {
+      "winding": "w044",
+      "supervised_pixels": 1190307,
+      "eligible": 186,
+      "ink_inside_supervision": 451297,
+      "ink_outside_supervision": 4172
+    },
+    {
+      "winding": "w039",
+      "supervised_pixels": 576220,
+      "eligible": 104,
+      "ink_inside_supervision": 182429,
+      "ink_outside_supervision": 2519
+    },
+    {
+      "winding": "w035",
+      "supervised_pixels": 1071121,
+      "eligible": 191,
+      "ink_inside_supervision": 334035,
+      "ink_outside_supervision": 62129
+    }
+  ],
+  "decode_checks": [
+    {
+      "winding": "w040",
+      "role": "supervision",
+      "index_crc32c": "736c01e8",
+      "index_bytes": 3332,
+      "payload_bytes": 14097,
+      "present_chunks": 26,
+      "missing_chunks": 182,
+      "index_entries": 208,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        6400,
+        7980
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "16515a8a2eccb91da70ea909b12b884012925480e3ba34b77f7b2a584155d846",
+      "official_zarr_decoded_sha256": "16515a8a2eccb91da70ea909b12b884012925480e3ba34b77f7b2a584155d846",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    },
+    {
+      "winding": "w041",
+      "role": "supervision",
+      "index_crc32c": "74fa10ed",
+      "index_bytes": 3332,
+      "payload_bytes": 3687,
+      "present_chunks": 9,
+      "missing_chunks": 199,
+      "index_entries": 208,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        6200,
+        8020
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "197c649a148a09a3b8174c5453064e7aa2bd9dba21ebc9c8db780feb28cdcd82",
+      "official_zarr_decoded_sha256": "197c649a148a09a3b8174c5453064e7aa2bd9dba21ebc9c8db780feb28cdcd82",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    },
+    {
+      "winding": "w044",
+      "role": "supervision",
+      "index_crc32c": "b6469769",
+      "index_bytes": 3076,
+      "payload_bytes": 5431,
+      "present_chunks": 16,
+      "missing_chunks": 176,
+      "index_entries": 192,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        6040,
+        8160
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "dbde54e54609145c4af80410d00b03eb8495c03ea37083b88edcfa7888dbfab1",
+      "official_zarr_decoded_sha256": "dbde54e54609145c4af80410d00b03eb8495c03ea37083b88edcfa7888dbfab1",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    },
+    {
+      "winding": "w039",
+      "role": "supervision",
+      "index_crc32c": "fb12f9f2",
+      "index_bytes": 4356,
+      "payload_bytes": 5524,
+      "present_chunks": 14,
+      "missing_chunks": 258,
+      "index_entries": 272,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        8560,
+        7720
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "934385de290e7705add81e88bcabe151b68f5bf77858763094a3f07df5af902c",
+      "official_zarr_decoded_sha256": "934385de290e7705add81e88bcabe151b68f5bf77858763094a3f07df5af902c",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    },
+    {
+      "winding": "w035",
+      "role": "supervision",
+      "index_crc32c": "506b7379",
+      "index_bytes": 2116,
+      "payload_bytes": 8514,
+      "present_chunks": 19,
+      "missing_chunks": 113,
+      "index_entries": 132,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        5820,
+        5240
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "3749b3af13b1e4d6ce1a1512c506e80dd5446da6e5d48a80477db80ce91bac21",
+      "official_zarr_decoded_sha256": "3749b3af13b1e4d6ce1a1512c506e80dd5446da6e5d48a80477db80ce91bac21",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    },
+    {
+      "winding": "w040",
+      "role": "inklabels",
+      "index_crc32c": "0306feae",
+      "index_bytes": 3332,
+      "payload_bytes": 19498,
+      "present_chunks": 24,
+      "missing_chunks": 184,
+      "index_entries": 208,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        6400,
+        7980
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "1d45d3254dcc1bc05b14e4e6349880b47e7a089a0e0c794d8a2edf28f3cab295",
+      "official_zarr_decoded_sha256": "1d45d3254dcc1bc05b14e4e6349880b47e7a089a0e0c794d8a2edf28f3cab295",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    },
+    {
+      "winding": "w041",
+      "role": "inklabels",
+      "index_crc32c": "01fd5939",
+      "index_bytes": 3332,
+      "payload_bytes": 5729,
+      "present_chunks": 9,
+      "missing_chunks": 199,
+      "index_entries": 208,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        6200,
+        8020
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "bbc4f7848a6ae71d40c69d51de71b8c5bd60af9aa1bafef3039084fe9180906f",
+      "official_zarr_decoded_sha256": "bbc4f7848a6ae71d40c69d51de71b8c5bd60af9aa1bafef3039084fe9180906f",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    },
+    {
+      "winding": "w044",
+      "role": "inklabels",
+      "index_crc32c": "c604781b",
+      "index_bytes": 3076,
+      "payload_bytes": 10536,
+      "present_chunks": 16,
+      "missing_chunks": 176,
+      "index_entries": 192,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        6040,
+        8160
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "c1b229490d78bba1690d6c3eb9ead6182bca7b3a6a130d2c61f7c84a65e98c0a",
+      "official_zarr_decoded_sha256": "c1b229490d78bba1690d6c3eb9ead6182bca7b3a6a130d2c61f7c84a65e98c0a",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    },
+    {
+      "winding": "w039",
+      "role": "inklabels",
+      "index_crc32c": "9e1f015b",
+      "index_bytes": 4356,
+      "payload_bytes": 5775,
+      "present_chunks": 13,
+      "missing_chunks": 259,
+      "index_entries": 272,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        8560,
+        7720
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "d0d127a06048511d7a0c377e7d9480d74bca74b4d7b76a73be96644059158121",
+      "official_zarr_decoded_sha256": "d0d127a06048511d7a0c377e7d9480d74bca74b4d7b76a73be96644059158121",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    },
+    {
+      "winding": "w035",
+      "role": "inklabels",
+      "index_crc32c": "34611a39",
+      "index_bytes": 2116,
+      "payload_bytes": 10772,
+      "present_chunks": 20,
+      "missing_chunks": 112,
+      "index_entries": 132,
+      "index_ranges_valid_nonoverlapping": true,
+      "shape": [
+        5820,
+        5240
+      ],
+      "dtype": "uint8",
+      "decoded_sha256": "f8d18885d0c3aea1e2191f235d458fc6beb361e227133425c1fcddc66371e28e",
+      "official_zarr_decoded_sha256": "f8d18885d0c3aea1e2191f235d458fc6beb361e227133425c1fcddc66371e28e",
+      "official_zarr_equals_explicit": true,
+      "zarr_version": "3.2.1",
+      "numcodecs_version": "0.16.5"
+    }
+  ],
+  "new_body_bytes": 69499,
+  "input_ct_qualification_pending": true,
+  "model_forwards": 0,
+  "paid_compute": false
+}

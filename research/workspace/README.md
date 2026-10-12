@@ -7,6 +7,8 @@ It has its own checksum manifest and tested standard-library restore command.
 
 # Use the research workspace on another Linux machine
 
+The latest [partial population checkpoint](../in-progress/native-coverage-admission-20261012/PORTABILITY.md) preserves 2,887 files, including completed CT downloads, native annotations, exact pending requests and offline verification, in a 490.9 MiB private archive. The full intake is blocked by outbound S3 proxy errors; this checkpoint is resumable preparation, not an admitted training dataset. It adds no new VM assignment or Actions run.
+
 The current [native-coverage preparation supplement](../in-progress/native-coverage-preparation-20261012/PORTABILITY.md) contains bounded source data, mesh-based candidate support, real-model mechanics receipts and the CT corridor review in a 24.1 MiB private bundle. Its 308 files and numerical support calculation can be checked without models or inference. The completed [five-model comparison](../in-progress/native-common-comparison-20261012/PORTABILITY.md) has a separate saved-output review bundle. Neither changes the historical snapshot below.
 
 The earlier [PHerc0139 native learning preparation](../planning/pherc0139-learning-readiness-20261011/PORTABILITY.md) is a separate selective supplement: soft-target controls, native annotations,265 fixed cores, conservative training/evaluation exclusions, and536 native CT chunks. Its analysis and CT archives are separate; no unrestricted LFS download or model weights are needed to replay it. This supplements the dated original workspace snapshot below.

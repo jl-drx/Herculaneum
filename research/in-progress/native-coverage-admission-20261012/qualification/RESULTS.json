@@ -1,0 +1,167 @@
+{
+  "status": "PARTIAL_INPUT_QUALIFICATION_NOT_TRAINING_ADMISSION",
+  "utc": "2026-10-12T19:00:29.005988+00:00",
+  "implementation_sha256": "7610381415a7b19410af5ec3214af058b4997b2c85501d8475911ba9330a414e",
+  "added_request_counts": {
+    "verified_present": 921,
+    "unresolved_or_unattempted": 16649
+  },
+  "added_cases": [
+    {
+      "id": "pherc0814-20250925161630",
+      "candidates": 1290,
+      "restricted": 315,
+      "source_bytes_present": 2,
+      "ct_complete": 810,
+      "teacher_complete": 2,
+      "unknown_source": 1288,
+      "known_missing_source": 0
+    },
+    {
+      "id": "pherc0814-20250925182632",
+      "candidates": 1467,
+      "restricted": 387,
+      "source_bytes_present": 1,
+      "ct_complete": 1,
+      "teacher_complete": 12,
+      "unknown_source": 1466,
+      "known_missing_source": 0
+    },
+    {
+      "id": "pherc0814-20250925204843",
+      "candidates": 1798,
+      "restricted": 383,
+      "source_bytes_present": 0,
+      "ct_complete": 0,
+      "teacher_complete": 0,
+      "unknown_source": 1798,
+      "known_missing_source": 0
+    },
+    {
+      "id": "pherc0814-20250925212701",
+      "candidates": 385,
+      "restricted": 69,
+      "source_bytes_present": 0,
+      "ct_complete": 0,
+      "teacher_complete": 4,
+      "unknown_source": 385,
+      "known_missing_source": 0
+    },
+    {
+      "id": "pherc0814-20250925222237",
+      "candidates": 712,
+      "restricted": 183,
+      "source_bytes_present": 0,
+      "ct_complete": 0,
+      "teacher_complete": 1,
+      "unknown_source": 712,
+      "known_missing_source": 0
+    },
+    {
+      "id": "pherc0814-20250926051122",
+      "candidates": 3077,
+      "restricted": 762,
+      "source_bytes_present": 0,
+      "ct_complete": 0,
+      "teacher_complete": 2,
+      "unknown_source": 3077,
+      "known_missing_source": 0
+    },
+    {
+      "id": "pherc0814-20250926165636",
+      "candidates": 1748,
+      "restricted": 434,
+      "source_bytes_present": 0,
+      "ct_complete": 0,
+      "teacher_complete": 0,
+      "unknown_source": 1748,
+      "known_missing_source": 0
+    },
+    {
+      "id": "pherc0814-20250926203608",
+      "candidates": 1410,
+      "restricted": 353,
+      "source_bytes_present": 0,
+      "ct_complete": 0,
+      "teacher_complete": 0,
+      "unknown_source": 1410,
+      "known_missing_source": 0
+    }
+  ],
+  "original_request_counts": {
+    "unresolved_or_unattempted": 381,
+    "verified_present": 400
+  },
+  "original_cases": [
+    {
+      "winding": "w035",
+      "mask_candidates": 191,
+      "ct_checked": 191,
+      "transport_unknown": 0,
+      "confirmed_missing": 0,
+      "technically_eligible": 191,
+      "supervised_pixels_with_patch_overlap": 1909065,
+      "positive_pixels_with_patch_overlap": 594034,
+      "zero_positive_patches": 59,
+      "supervision_removed_by_ct": 164
+    },
+    {
+      "winding": "w039",
+      "mask_candidates": 104,
+      "ct_checked": 104,
+      "transport_unknown": 0,
+      "confirmed_missing": 0,
+      "technically_eligible": 104,
+      "supervised_pixels_with_patch_overlap": 1033015,
+      "positive_pixels_with_patch_overlap": 330293,
+      "zero_positive_patches": 35,
+      "supervision_removed_by_ct": 320
+    },
+    {
+      "winding": "w040",
+      "mask_candidates": 304,
+      "ct_checked": 0,
+      "transport_unknown": 304,
+      "confirmed_missing": 0,
+      "technically_eligible": 0,
+      "supervised_pixels_with_patch_overlap": 0,
+      "positive_pixels_with_patch_overlap": 0,
+      "zero_positive_patches": 0,
+      "supervision_removed_by_ct": 0
+    },
+    {
+      "winding": "w041",
+      "mask_candidates": 91,
+      "ct_checked": 0,
+      "transport_unknown": 91,
+      "confirmed_missing": 0,
+      "technically_eligible": 0,
+      "supervised_pixels_with_patch_overlap": 0,
+      "positive_pixels_with_patch_overlap": 0,
+      "zero_positive_patches": 0,
+      "supervision_removed_by_ct": 0
+    },
+    {
+      "winding": "w044",
+      "mask_candidates": 186,
+      "ct_checked": 186,
+      "transport_unknown": 0,
+      "confirmed_missing": 0,
+      "technically_eligible": 186,
+      "supervised_pixels_with_patch_overlap": 2125149,
+      "positive_pixels_with_patch_overlap": 788468,
+      "zero_positive_patches": 28,
+      "supervision_removed_by_ct": 33
+    }
+  ],
+  "new_model_forwards": 0,
+  "paid_compute": false,
+  "full_cohort_admitted": false,
+  "added_teacher_population_class_counts": "Unavailable; no availability-selected subset is promoted to the intended cohort",
+  "unknown_inputs_are_not_negatives": true,
+  "source_missing_is_distinct_from_transport_unresolved": true,
+  "output_pins": {
+    "ADDED_DEPENDENCIES.csv": "2b9642d27ece05d3d17e38cebcbb6401ea46f6134671cabd9f1ec60c60c0e24b",
+    "ORIGINAL_SUPPORT.csv": "b9ca2355ed5293fcb6377a2fca1c92681347786fb9622570bb7ad0cd89d4235b"
+  }
+}

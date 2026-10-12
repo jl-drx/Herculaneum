@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-12T18:57:18.369155+00:00",
+  "request_plan_sha256": "ffd9817800e9ca6cc00287874bfe835e3e868a5643b39f0be857e89ff613b74a",
+  "implementation_sha256": "aadb375221a03ff63ce4d12bc692fccc7b46f2cc79b9187dd3359b4fe9480b58",
+  "workers": 4,
+  "attempts_per_untried_request": 1,
+  "purpose": "Collect unaffected frozen requests after proxy-tunnel failures; retain each inaccessible input as unresolved. This phase cannot certify a complete population if any input is unresolved.",
+  "skip_known_failed": [
+    "pherc0814-20250925161630-ct-y0021-x0096"
+  ],
+  "stop_after_consecutive_transport_errors": 64,
+  "source_coordinates_validators_and_eligibility_unchanged": true,
+  "paid_compute": false
+}

@@ -131,6 +131,15 @@ exploratory. Replication requires multiple paired seeds and additional parents.
 
 ## Compute and stopping
 
+The [population intake](../../native-coverage-admission-20261012/README.md) is
+currently incomplete because public S3 requests encounter proxy-tunnel HTTP 503
+errors. All five original annotation sources decode, but only the 481 candidates
+on three cached windings have CT support; the other 395 remain unknown. Most
+added-stream dependencies are unreceived. Keep the intended five/eight-source
+design; do not qualify a smaller availability-selected pair or interpret this
+operational pause as a learning result. The exact request lists and partial
+caches are portable, and resumption reuses byte-verified receipts.
+
 Prepare exact input/model hashes and a restartable container workload before a
 GPU proposal. First measure effective updates/second and peak memory on the
 actual device under a separately approved capped timing segment. A5000/3090-class

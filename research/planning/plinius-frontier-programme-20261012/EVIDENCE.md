@@ -53,6 +53,14 @@ the substantive reference work.
 
 ### Strategic omissions retained from the programme review
 
+The [subsequent population intake](../../in-progress/native-coverage-admission-20261012/README.md)
+decoded all five original annotation sources and independently verified the
+876 mask candidates, including 481 with complete native CT. Outbound proxy
+failures blocked the other two windings and most added-stream requests. This is
+an operational dependency, not additional negative learning evidence. Do not
+shrink the experiment to its downloaded subset or reopen closed model branches
+because the planned inputs are temporarily inaccessible.
+
 1. **Surface coverage and identity were not an active research endpoint.** We
    mainly worked inside existing renders, so omitted or misconnected papyrus
    could never be recovered by our experiments.
