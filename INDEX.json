@@ -3471,6 +3471,40 @@
       ],
       "created_utc": "2026-10-12T10:41:57.109659+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0151.tar.gz",
+      "bytes": 1852465,
+      "sha256": "77bd99b1d74456aba4a389759d3f90a7ee74b81826fbcfc5881c1895f234c27b",
+      "members": [
+        {
+          "path": "work/w039-seed89/COMPLETE.json",
+          "bytes": 25903,
+          "sha256": "20e1aad687528be70363916506ce010d9c041de113f6df96a30b91bee59c0261"
+        },
+        {
+          "path": "work/w039-seed89/step-016384.json",
+          "bytes": 907,
+          "sha256": "55c644dda84b4550b8571023e30d06323036ee342c608ddcd43911f44b263775"
+        },
+        {
+          "path": "work/w039-seed89/step-016384.pt",
+          "bytes": 1533037,
+          "sha256": "001e1a416ebe56bd426e73d4da106ef3e3ac09db26a840280898caf4c6499b07"
+        },
+        {
+          "path": "work/w044-seed89/step-000000.json",
+          "bytes": 871,
+          "sha256": "3b773a88484647511e5aa4ee65ed7b772d96f6afe8b2d81b58359f06e5cd6229"
+        },
+        {
+          "path": "work/w044-seed89/step-000000.pt",
+          "bytes": 509794,
+          "sha256": "14db981b99fc7b0bd02e023bdd1b8a82c27c51f2793d4ec63e6cad056464bb68"
+        }
+      ],
+      "created_utc": "2026-10-12T10:52:04.272608+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
@@ -3488,29 +3522,10 @@
   ],
   "note": "Resume files, not a live process or installed runtime",
   "latest_worker_status": {
-    "utc": "2026-10-12T10:41:47.394620+00:00",
-    "phase": "training",
-    "arm": "w039-seed89",
-    "step": 15872,
-    "maximum_updates": 16384,
-    "train": {
-      "ap": 0.9929497680214566,
-      "auc": 0.9960493423647373,
-      "positives": 741254,
-      "negatives": 1371299,
-      "undefined_single_class": false,
-      "bce": 0.07674510985166534,
-      "prevalence": 0.3508806642957597,
-      "mean_probability": 0.35263634588398557,
-      "fraction_probability_ge_half": 0.3522264293487548
-    },
-    "lr": 0.0003,
-    "seconds_per_update_including_training_checks": 0.6744419976181324,
-    "termination": null,
-    "held_out_predictions": 0,
-    "draws": 63488,
-    "unique_cores": 196,
-    "supervised_pixel_exposures": 854182233
+    "utc": "2026-10-12T10:50:06.780074+00:00",
+    "phase": "starting_or_resuming_arm",
+    "arm": "w044-seed89",
+    "held_out_predictions": 0
   },
-  "updated_utc": "2026-10-12T10:41:57.109927+00:00"
+  "updated_utc": "2026-10-12T10:52:04.273042+00:00"
 }
