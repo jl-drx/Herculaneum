@@ -1,7 +1,12 @@
 # Native common-support comparison
 
-Started 12 October 2026, 15:43 UTC. This page records the frozen launch; see the
-completion report when available for outcomes. No accuracy result is claimed here.
+Completed 12 October 2026. The [completion report](completion/README.md) records
+all 120 maps and the verified results: dense-native leads equal-parent AP
+(0.560821), while Hecate leads PHerc0841 and reverses ordering on PHerc0009B.
+This is supplied-reference development agreement, not new ink or text accuracy.
+The [portable review bundle](PORTABILITY.md) contains saved outputs and a
+standalone numerical verifier. The launch record below preserves the original
+protocol and checks; its worker started at 15:43 UTC and has now finished.
 
 The [protocol](PROTOCOL.md) compares Reader v2, dense-native, seed42, seed43 and
 Hecate on the same 24 native cores from PHerc0841 and PHerc0009B. The admitted

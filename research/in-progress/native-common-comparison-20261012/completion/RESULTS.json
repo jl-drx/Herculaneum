@@ -1,0 +1,107 @@
+{
+  "core_maps": 120,
+  "go_sha256": "2dcc6c78d6ccb2f129ccb70b01cfa29a069664a8576d1eafed666c8cef452899",
+  "gpu_spend_GBP": 0,
+  "inference": {
+    "bytes": 4100,
+    "path": "INFERENCE_COMPLETE.json",
+    "sha256": "dc7b9766299d3d445d9221e8a9f4a809cb7463bae9ffacbf0567001a20cec9bc"
+  },
+  "metric_records": 238,
+  "orchestrator": {
+    "bytes": 5633,
+    "path": "/workspace/herculaneum-lab/reports/native-common-comparison-20261012/orchestration/finalize.py",
+    "sha256": "f5c5660094779cf8ba37f9dc35d5c3d47d9206a6a5b5ff088c64b02b1e6d6aa5"
+  },
+  "outputs": [
+    {
+      "bytes": 630895,
+      "path": "evaluation/METRICS.json",
+      "sha256": "b1638f85d522ffbd054290db609b874a6f75da75b3de8eb9c59b6adcf6168de0"
+    },
+    {
+      "bytes": 983,
+      "path": "evaluation/TABLES.md",
+      "sha256": "7b24546f5e41f129e2dfddd190dc8c37cba723d0716d9ec78e1ca5e554962e41"
+    },
+    {
+      "bytes": 626,
+      "path": "evaluation/VERIFICATION.json",
+      "sha256": "4f228c15fc8b012660364a97d5ef7fba5a7dfcbc6645eef3907db2c8f9856bb0"
+    },
+    {
+      "bytes": 46195,
+      "path": "evaluation/metrics.csv",
+      "sha256": "6a066af31ea7ccc55d8f02ca9c0902c773c24d4ed7d8ab8f3b236a1b376a1316"
+    },
+    {
+      "bytes": 426781,
+      "path": "evaluation/pherc0009b-20250919125754.png",
+      "sha256": "f95dab414493c0729777a63ec772476e4ad7bd33bc50791402ad9911b7ee50fd"
+    },
+    {
+      "bytes": 429332,
+      "path": "evaluation/pherc0841-20260220213127.png",
+      "sha256": "66d302a3c2ce57d7f6c6bf450bd89a15e93aa2578f2f5ff48679abaed7b6a736"
+    },
+    {
+      "bytes": 481335,
+      "path": "evaluation/pherc0841-20260220214732.png",
+      "sha256": "fc1c61c8b0983ce7b12ec9ace623c3b9a024cba08c61387254e14d3ed337813a"
+    },
+    {
+      "bytes": 445248,
+      "path": "evaluation/pherc0841-20260221022814.png",
+      "sha256": "5249a9a6d31a0525b91a2fe07621a22b8234c45b2a3309505ecaed87a496aa56"
+    },
+    {
+      "bytes": 16478,
+      "path": "evaluation-implementation/EVALUATION_V1.zip",
+      "sha256": "cba2a16f1de831c7bbbc3a38aaa90732a60658cf2680a60cb48da41bf41fd5ef"
+    },
+    {
+      "bytes": 674,
+      "path": "evaluation-implementation/VERIFIER_ORDER_CHECK.json",
+      "sha256": "cdefe4cf57ce96a8b313e71b4cd3b1481de7573dc3b67834c3542920b5299946"
+    },
+    {
+      "bytes": 2388,
+      "path": "evaluation-implementation/check_metrics.py",
+      "sha256": "2027f23a1c9287f504b305b69182deb31813ecaac31085e245def89c7383474f"
+    },
+    {
+      "bytes": 9936,
+      "path": "evaluation-implementation/evaluate.py",
+      "sha256": "a810af87fa4151a75ab8d45a1122384790234fba46ac543b7168c80ca3ff399c"
+    },
+    {
+      "bytes": 16609,
+      "path": "evaluation-implementation/runner.py",
+      "sha256": "9fb08ee0af8ecc0cf79944e576a27c40e8c0567af6f456e1d21809b1db70a569"
+    },
+    {
+      "bytes": 12219,
+      "path": "evaluation-implementation/verify_results.py",
+      "sha256": "0a696324f1396f3ad367397fb7c97fa6385d525a67b5ce60e87ba66061f782c2"
+    },
+    {
+      "bytes": 3397,
+      "path": "EVALUATION_GO.json",
+      "sha256": "0424a4233505c22117928c60279cbe286b01064d4c52280b3b095bf9f8904e17"
+    },
+    {
+      "bytes": 1080,
+      "path": "METRIC_QUALIFICATION.json",
+      "sha256": "d215f7c34578ecbdb8f6a32e47b7f1706829d76a5b5e5751c280f42a24a95229"
+    },
+    {
+      "bytes": 1546,
+      "path": "REMOTE_PROGRESS_RESTORE.json",
+      "sha256": "1342c185e1bb63a403eddc93e655671bc1c20132c8ae15c86ed4ad8abad4c4de"
+    }
+  ],
+  "scope": "Transferred/model-reviewed development reference, upstream exposure unresolved",
+  "status": "VERIFIED_DEVELOPMENT_COMPARISON_COMPLETE",
+  "trained_model_forwards": 1698,
+  "utc": "2026-10-12T16:42:16.368728+00:00"
+}

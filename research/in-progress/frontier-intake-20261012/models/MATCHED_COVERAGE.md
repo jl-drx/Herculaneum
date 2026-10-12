@@ -10,14 +10,22 @@ Does adding broader native training support improve cross-parent annotation
 agreement and supported-negative behaviour, when original-source exposure,
 architecture, initialization and compute are controlled?
 
-Reader v2 is now strictly executable in the retained runtime. Keep dense-native,
-Hecate and the released seed checkpoints as comparators, with a fixed equal-cost
-ensemble. There is no test-selected best-model claim. First compare on the same
-physical development support, respecting each model's actual sampling contract:
+Reader v2 is strictly executable in the retained runtime. The
+[completed common-support comparison](../../native-common-comparison-20261012/completion/README.md)
+puts dense-native highest on equal-parent AP, with Hecate leading PHerc0841 and
+trailing on PHerc0009B. Reader leads neither parent; released seed variation is
+large and is not a controlled noise-floor estimate. Retain dense-native as a
+mandatory frozen comparator and Hecate as an architectural control. Reader's
+training recipe remains useful without being the automatic initializer. Choose
+and freeze one initializer with the actual training cohort. The fixed five-model
+mean did not beat dense-native's aggregate; do not fit ensemble weights on this
+panel, and account for all constituent compute in any future ensemble comparison.
+There is no general best-model or fresh confirmation claim. Respect each model's
+actual sampling contract:
 the hybrid models use 17×128×128 inputs and robust-MAD normalization; Hecate uses
 16×64×64 inputs sampled at 9.6 µm in XYZ and divides by 255. Retain full source
-depth so fixed model windows can be reproduced; do not change the running 28-plane
-native study or silently force every model to the same incompatible tensor.
+depth so fixed model windows can be reproduced; do not reopen the completed
+28-plane native study or silently force every model to the same incompatible tensor.
 
 ## Paired experiment
 
@@ -84,8 +92,11 @@ is useful development evidence, not a new external Reader test.
 Use current native annotations only under their supervision masks and declared
 provenance. Reader's prediction/teacher correlation is not CT registration;
 the six failed correspondence sites remain unadmitted as precise transferred
-labels. Hard unknown-to-negative conversion is forbidden. No new reserve parent
-or current native0139 locked endpoint may select the cohort, model or threshold.
+labels. Hard unknown-to-negative conversion is forbidden. Broad area-reference
+AP alone is not stroke recovery; prepare separately supported development detail
+and negative endpoints, without fitting thresholds on the exposed four-segment
+comparison. No new reserve parent or completed native0139 endpoint may select
+the cohort, model or threshold.
 
 Primary draft pilot endpoint: equal-parent AP gain >=0.02 over matched A, no
 parent loss worse than 0.02, and no >2 percentage-point increase in independently

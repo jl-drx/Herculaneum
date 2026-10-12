@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T16:52:17.141190+00:00",
+  "archive_sha256": "4ae4082fad47e336c6b408fb88fab411cd81002202b480ca2f616611d8a399ac",
+  "archive_bytes": 79494713,
+  "manifest_files_verified": 3600,
+  "extraction": "New directory, full archive/manifest/SHA256SUMS verification",
+  "relocated_numeric_result_exactly_matches_original_verification": true,
+  "verification": {
+    "status": "PASS",
+    "go_sha256": "2dcc6c78d6ccb2f129ccb70b01cfa29a069664a8576d1eafed666c8cef452899",
+    "jobs": 20,
+    "committed_logits": 1698,
+    "output_files": 124,
+    "core_maps": 120,
+    "scored_pixels": 232250,
+    "positives": 20137,
+    "single_class_cores_retained": 14,
+    "recomputed_metric_records": 238,
+    "derived_output_checks": "PASS",
+    "comparison_flags": "PASS",
+    "trained_model_forwards": 0,
+    "scope": "Separate implementation, not external independent review; original runner performed all exact logit replays",
+    "implementation_sha256": "0a696324f1396f3ad367397fb7c97fa6385d525a67b5ce60e87ba66061f782c2"
+  },
+  "trained_model_forwards": 0,
+  "scope": "Relocated extraction and numeric replay in this workspace; not a separate machine or physical dataset"
+}

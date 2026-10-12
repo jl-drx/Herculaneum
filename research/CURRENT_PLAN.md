@@ -22,8 +22,10 @@ training. Strong native baselines and controlled broader coverage remain next.
    fields, instances and tracing. Separate detector comparisons from tracer
    comparisons. Measure physical coverage and identity mistakes, including tears,
    rather than selecting geometry for a larger ink response.
-2. **Strong native learning:** qualify Reader v2 alongside dense-native, Hecate
-   and released checkpoint controls. Prepare a paired coverage study with original
+2. **Strong native learning:** use the completed common-support comparison to
+   retain dense-native and Hecate as complementary strong controls. Reader v2
+   remains an executable training recipe and comparator, not the automatic best
+   baseline. Prepare a paired coverage study with original
    source draws and source loss weights held fixed. The [synthetic preflight](in-progress/native-training-preflight-20261012/README.md)
    passes exclusion/augmentation checks and shows that a mixed-batch BCE denominator
    can dilute old-source gradients despite identical draws. Use separate stream
@@ -58,7 +60,7 @@ that runtime preparation. Do not score models against the rejected paths.
 The [native common-support intake](planning/native-common-support-20261012/README.md)
 binds the actual render and label formats for the four published PHerc0841/
 PHerc0009B reference segments. Reuse studies 11/22's provenance conclusions;
-the next action is a mask-selected development comparison of the strong models,
+the resulting mask-selected development comparison is now complete,
 with supplied-reference agreement distinguished from physical ink accuracy.
 Do not repeat the missing-provenance search or select a favourable segment.
 
@@ -67,13 +69,25 @@ revealed that the union-selected panel contained no positive reference pixels in
 any of its three PHerc0841 segments. Preserve that failed admission. A separate,
 explicitly adaptive supervision-only panel was frozen before model inference:
 24 cores, 232,250 score pixels and both classes in each segment. All source chunks
-and 1,050 model patches are verified. The [fixed five-model CPU comparison](in-progress/native-common-comparison-20261012/README.md)
-started on 12 October after synthetic original-pipeline parity and input
-normalization checks. Its per-tile progress is backed up privately; a fresh
-remote restoration and first-job replay passed. Numerical definitions and a
-separate metric implementation are frozen, with scoring locked until all jobs
-complete. No paid work has started. Do not call this small, exposed panel a
-fresh confirmation test or reopen the native0139 fits.
+and 1,050 model patches are verified. The [fixed five-model CPU comparison](in-progress/native-common-comparison-20261012/completion/README.md)
+completed all 120 maps, with 20 exact logit replays and separate verification of
+238 metric records. Dense-native leads equal-parent AP (0.560821); Hecate leads
+PHerc0841 (0.447020 versus dense-native 0.311644) but trails on PHerc0009B
+(0.323193 versus 0.809998). Reader v2 leads neither parent, and the fixed five-model
+mean (0.554800) does not beat dense-native in the primary aggregate. The released
+seed AP gap of 0.215701 is checkpoint variation, not a measured noise floor.
+Broad reference regions and strong segment heterogeneity make these supplied-label
+agreement scores insufficient for a stroke-recovery claim. All four fixed-scale
+panels and all 14 one-class cores remain in the review.
+
+Private per-tile backups and a standalone numeric-review bundle preserve the
+results. Next admit the matched training corpus and annotation tiers, freeze
+draws and loss accounting, and prepare a concrete GPU workload; do not keep
+searching this panel for a better model/threshold/ensemble. Add separately
+supported development endpoints for detail and negatives alongside area AP.
+Correct-sheet reference construction proceeds independently. No paid work has
+started. Do not call this small, exposed panel a fresh confirmation test or
+reopen the native0139 fits. PHerc0175 A/B and PHerc1203 remain reserved.
 
 ## Conditional next experiments
 
