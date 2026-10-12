@@ -1,13 +1,13 @@
 # Restore the completed original stream and current partial added cache
 
-**Current availability: local only.** The source commit and archive are prepared
-and locally verified, but the GitHub push failed with the same proxy HTTP 503.
-[PERSISTENCE.json](PERSISTENCE.json) records the failed operation and the last
-acknowledged remote commit. The new selective-download instructions below become
-usable on another machine after a successful push and remote availability check;
-they are not a claim that the new archive is already downloadable from GitHub.
-The original 490.9 MiB base and earlier 19.0 MiB addendum were previously uploaded
-and verified. Preserve the current local source cache and new archive meanwhile.
+**Current availability: private GitHub, verified.** The source commit and archive
+were pushed at `94556cd377f53aa8e976c67a984cc1fd719d871d`. A fresh selective
+download into an empty LFS cache matched the archive's byte length and SHA256;
+see [REMOTE_RESTORE.json](REMOTE_RESTORE.json). The earlier failed publication is
+preserved in [PERSISTENCE_BLOCKED_20261012T2012.json](PERSISTENCE_BLOCKED_20261012T2012.json).
+The instructions below restore the complete original stream and its dated added
+cache. An optional [later intake addendum](../native-coverage-retry-20261012-2053/PORTABILITY.md)
+preserves 72 more teacher ranges without changing those scientific results.
 
 This is a **cumulative update against the original 490.9 MiB checkpoint**. It
 includes the earlier 19.0 MiB addendum; do not apply both addenda to the same base.

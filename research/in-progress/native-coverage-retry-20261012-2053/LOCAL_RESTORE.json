@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T21:02:54.751785+00:00",
+  "archive_sha256": "c92d28da57d3042dedf26dc32d5a38cab20f5d90a6f80a3122bad41c93e795e7",
+  "archive_bytes": 8654575,
+  "archive_files_verified": 159,
+  "applied_paths": 151,
+  "parent_files_reverified": 4907,
+  "parent_manifest_sha256": "8e170377e63744a1fb2c6d331196ed41cc816166ec23845cf92f7c5745780b7c",
+  "combined_manifest_sha256": "e95954f1e3f1896d789eb997d7e323e1f71d8cb4436d113f75dd6af170034e1f",
+  "parent_restore_unchanged": true,
+  "combined_work_matches_current_cache": true,
+  "original_sources_and_both_dated_qualifications_byte_identical": true,
+  "original_numeric_replay_repeated": false,
+  "original_numeric_evidence": "Prior 876-row replay retained byte-identically; no original inputs or outputs changed.",
+  "added_cache": {
+    "present": 1594,
+    "missing": 0,
+    "pending": 15976,
+    "pending_bytes": 5824472581
+  },
+  "original_cache": {
+    "present": 781,
+    "missing": 0,
+    "pending": 0,
+    "pending_bytes": 0
+  },
+  "scope": "Fresh local extraction and new combined copy in this workspace; not a second-machine scientific review.",
+  "full_population_admitted": false,
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

@@ -108,14 +108,15 @@ Persistent outbound proxy-tunnel HTTP 503 errors still prevent full added-stream
 CT/teacher acquisition. The source caches and exact pending requests are preserved;
 unavailable transport is not an absent object or a negative label. No substitute
 three-winding or availability-selected added-stream experiment is authorized.
-The added cache now contains 1,522 complete objects, with 16,048 requests pending.
+The added cache now contains 1,594 complete objects, with 15,976 requests pending.
 A bounded persistent-connection diagnostic failed on the same live socket after
 seven successes, so local connection reuse did not solve the problem. Preserve
 all dated qualifications and failed attempts; the full matched pair is unadmitted.
-The new completed-original packet and cumulative archive are committed locally
-and restore-tested. GitHub upload also failed on the proxy error; complete the
-normal push and remote archive verification after access recovers before calling
-this newest packet available on another machine.
+The completed-original packet and cumulative archive are now on private GitHub:
+the recovered push and fresh selective download matched the verified archive.
+The [20:53 source retry](in-progress/native-coverage-retry-20261012-2053/README.md)
+retained 72 more teacher ranges before HTTP 503 returned. These are acquisition
+progress only; the source access prerequisite remains unresolved.
 After public S3 access recovers, resume those same requests, complete the fixed
 population qualification, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep

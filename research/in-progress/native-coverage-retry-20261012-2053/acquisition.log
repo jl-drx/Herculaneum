@@ -1,0 +1,51 @@
+{"status": "LOCAL_CACHE_VERIFIED", "present": 1522, "confirmed_missing": 0, "pending": 16048, "pending_body_bytes": 5833369469, "request_plan_sha256": "ffd9817800e9ca6cc00287874bfe835e3e868a5643b39f0be857e89ff613b74a", "network_requests": 0, "paid_compute": false}
+{"completed": 128, "missing": 0, "bytes": 0, "reused": 128, "requests": 17570, "seconds": 0.17474905200651847, "utc": "2026-10-12T20:53:36.805668+00:00"}
+{"completed": 256, "missing": 0, "bytes": 0, "reused": 256, "requests": 17570, "seconds": 0.22179398802109063, "utc": "2026-10-12T20:53:36.852713+00:00"}
+{"completed": 384, "missing": 0, "bytes": 0, "reused": 384, "requests": 17570, "seconds": 0.26720963200205006, "utc": "2026-10-12T20:53:36.898128+00:00"}
+{"completed": 512, "missing": 0, "bytes": 0, "reused": 512, "requests": 17570, "seconds": 0.30629075001343153, "utc": "2026-10-12T20:53:36.937209+00:00"}
+{"completed": 640, "missing": 0, "bytes": 0, "reused": 640, "requests": 17570, "seconds": 0.34505447500851005, "utc": "2026-10-12T20:53:36.975972+00:00"}
+{"completed": 768, "missing": 0, "bytes": 0, "reused": 768, "requests": 17570, "seconds": 0.3890353820170276, "utc": "2026-10-12T20:53:37.019954+00:00"}
+{"completed": 896, "missing": 0, "bytes": 0, "reused": 896, "requests": 17570, "seconds": 0.4419498550123535, "utc": "2026-10-12T20:53:37.072868+00:00"}
+{"completed": 1024, "missing": 0, "bytes": 0, "reused": 1024, "requests": 17570, "seconds": 0.4872011060069781, "utc": "2026-10-12T20:53:37.118120+00:00"}
+{"completed": 1152, "missing": 0, "bytes": 0, "reused": 1152, "requests": 17570, "seconds": 0.5364951680239756, "utc": "2026-10-12T20:53:37.167414+00:00"}
+{"completed": 1280, "missing": 0, "bytes": 0, "reused": 1280, "requests": 17570, "seconds": 0.589324207016034, "utc": "2026-10-12T20:53:37.220243+00:00"}
+{"completed": 1408, "missing": 0, "bytes": 0, "reused": 1408, "requests": 17570, "seconds": 0.6450516130134929, "utc": "2026-10-12T20:53:37.275970+00:00"}
+{"completed": 1536, "missing": 0, "bytes": 4086157, "reused": 1501, "requests": 17570, "seconds": 4.035843726014718, "utc": "2026-10-12T20:53:40.666762+00:00"}
+Traceback (most recent call last):
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/continue_acquisition.py", line 58, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/continue_acquisition.py", line 53, in main
+    intake.acquire(a)
+    ~~~~~~~~~~~~~~^^^
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/intake.py", line 167, in acquire
+    row,reused=future.result();rows.append(row);state['completed']+=1
+               ~~~~~~~~~~~~~^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/concurrent/futures/_base.py", line 447, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/concurrent/futures/_base.py", line 396, in __get_result
+    raise self._exception
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/intake.py", line 134, in fetch
+    with urllib.request.urlopen(urllib.request.Request(r['url'],headers=headers),timeout=45) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 503: Service Unavailable

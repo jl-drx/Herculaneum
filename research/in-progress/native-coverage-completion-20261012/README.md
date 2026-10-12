@@ -1,9 +1,11 @@
 # Original native stream qualified; added population still blocked
 
-The new result and cumulative checkpoint are currently **committed locally**.
-GitHub upload failed with the same proxy HTTP 503; see [PERSISTENCE.json](PERSISTENCE.json).
-Local restore and numerical replay pass, but remote availability of this new
-checkpoint is not established.
+The result and cumulative checkpoint are now **published in private GitHub**.
+The recovered push and a fresh selective archive download passed on 12 October
+at 20:53 UTC; its length and SHA256 match the locally replayed archive. See
+[PERSISTENCE.json](PERSISTENCE.json) and [REMOTE_RESTORE.json](REMOTE_RESTORE.json).
+The [later source retry](../native-coverage-retry-20261012-2053/README.md) retained
+72 more teacher ranges before HTTP 503 returned; full intake is still incomplete.
 
 12 October 2026. The resumed acquisition completed **all 781 PHerc0139 CT
 objects**, and **all 876 fixed original-stream candidates** pass the unchanged
@@ -77,7 +79,7 @@ internal cause. The remaining 56 diagnostic requests were not attempted, and
 no failed source was called missing or supplied as zeros. Inherited proxy routing,
 CA trust, TLS verification, URLs and scientific request identities were unchanged.
 
-The current added cache has **1,522 complete objects**: 1,403 CT chunks and 119
+At this qualification's archived checkpoint the added cache has **1,522 complete objects**: 1,403 CT chunks and 119
 teacher ranges, totalling 657,066,767 bytes. **16,048 requests remain**, with
 5,833,369,469 nominal body bytes. The fixed first segment's CT is complete, but
 its teacher union is not. It is not a substitute one-segment training experiment.
