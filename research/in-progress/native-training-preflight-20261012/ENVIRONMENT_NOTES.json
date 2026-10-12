@@ -11,17 +11,17 @@
   "cache_location_correction": "uv default cache was read-only; used task-specific scratch cache",
   "harness_correction": "Supplied required in_channels=1 before the first successful case",
   "extra_dependencies": {
-    "scikit-image": "0.26.0",
     "fft-conv-pytorch": "1.2.0",
-    "lazy-loader": "0.6",
-    "imageio": "2.38.1",
-    "networkx": "3.6.1",
-    "SimpleITK": "2.5.6",
     "pandas": "3.0.6",
-    "python-dateutil": "2.9.0.post0",
-    "connected-components-3d": "4.1.0",
+    "lazy-loader": "0.6",
+    "simpleitk": "2.5.6",
     "numba": "0.68.0",
-    "llvmlite": "0.50.0"
+    "llvmlite": "0.50.0",
+    "networkx": "3.7",
+    "ImageIO": "2.38.1",
+    "scikit-image": "0.26.0",
+    "connected-components-3d": "4.1.0",
+    "python-dateutil": "2.9.0.post0"
   },
   "worker_environment_modified": false,
   "runtime_manifest": {
@@ -38,5 +38,10 @@
     "retained_archive": "research/planning/plinius-frontier-programme-20261012/source_snapshot.zip"
   },
   "trained_model_forwards": 0,
-  "optimizer_updates": 0
+  "optimizer_updates": 0,
+  "inventory_note": "AUGMENTATION_CONTRACT packages lists installed candidates; a later lower-priority networkx 3.6.1 entry overwrote the overlay 3.7 entry in that enumeration. This isolated-directory inventory and requirements-extra identify the actual overlay versions; numeric test records are unchanged.",
+  "loss_probe_harness_corrections": [
+    "Synthetic config requires a dataset descriptor even when no dataset is opened",
+    "Supplied mandatory patch_overlap before any gradient check ran"
+  ]
 }

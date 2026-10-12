@@ -1,0 +1,53 @@
+{
+  "status": "PASS_MECHANISM_IDENTIFIED",
+  "utc": "2026-10-12T16:27:22Z",
+  "fixed": {
+    "original_batch_slots": 1,
+    "additional_batch_slots": 1,
+    "original_supervised_pixels": 64,
+    "original_logits_targets_and_mask": true,
+    "bce_label_smoothing": 0.5,
+    "dice_label_smoothing": 0.0
+  },
+  "changed": {
+    "additional_supervised_pixels_A": 64,
+    "additional_supervised_pixels_B": 256
+  },
+  "pooled_objective": {
+    "loss_A": 0.6757928133010864,
+    "loss_B": 0.759173572063446,
+    "original_gradient_max_absolute_change": 0.001960255205631256,
+    "original_bce_gradient_ratio_B_over_A": 0.40000003576278687,
+    "analytic_ratio": 0.4000000059604645,
+    "conclusion": "Identical patch draws do not fix original-source BCE weight under a global mask denominator"
+  },
+  "fixed_stream_objective": {
+    "formula": ".5 * original_stream_loss + .5 * added_stream_loss",
+    "loss_A": 0.6757928133010864,
+    "loss_B": 0.7134972810745239,
+    "original_logit_gradients_bitwise_equal": true,
+    "added_logit_gradients_differ": true,
+    "conclusion": "Separate denominators and fixed stream weights remove this specific dilution mechanism"
+  },
+  "scope": "Synthetic float32 logit gradients through the retained loss. Not a training effect, full-model gradient guarantee, or novel objective claim.",
+  "limits": [
+    "A changed added corpus can still change label amount, class balance and annotation quality",
+    "Actual source quotas, coefficient and all objective/deep-supervision terms must be frozen for the final study",
+    "Batch-dependent model normalization or stochastic state requires separate control",
+    "This does not amend the completed historical experiments or running comparison"
+  ],
+  "trained_model_forwards": 0,
+  "optimizer_updates": 0,
+  "paid_compute": false,
+  "implementation_sha256": "365c2d90a80f164872895fa8fa0dddeed345f3f0756acb75c089e8105fa068d5",
+  "source_pins": [
+    {
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/ink_detection/training/losses.py",
+      "sha256": "5fdbf11cc66c80dfcf30de7abf1a2455ece12cb80b2f98e8c0c06907a8c7b39a"
+    },
+    {
+      "path": "research/lab/reports/fortysixth-experiment/runtime-source/vesuvius/models/training/loss/nnunet_losses.py",
+      "sha256": "c3807408b807d801a2b0aac0332fdfaf70e5fe135258942f03fb9269a340ea47"
+    }
+  ]
+}

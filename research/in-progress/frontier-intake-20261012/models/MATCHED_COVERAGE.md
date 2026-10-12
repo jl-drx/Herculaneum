@@ -50,6 +50,19 @@ retention exposure fixed. A final loader needs the counterfactual excluded-label
 test: excluded labels must not alter membership, targets, inputs or gradients.
 Do not infer correctness from an upstream loader's name or config alone.
 
+**Fixed draws also require fixed loss accounting.** The
+[retained-objective counterfactual](../../native-training-preflight-20261012/LOSS_ACCOUNTING.json)
+shows why: increasing only added supervision from 64 to 256 pixels changed a
+mixed-batch BCE denominator from 128 to 320 and reduced the unchanged original
+patch's BCE gradient to 0.40×. Use a fixed coefficient times the independently
+normalized original-stream objective plus its complement times the added-stream
+objective, with that same definition in both arms and all loss/deep-supervision
+terms covered. Freeze the coefficient with the cohort; the probe's 0.5 is not a
+final hyperparameter choice. Verify conditional original-logit gradient identity
+when only added support density changes. This controls direct dilution, not the
+intended downstream change in model weights, or other data-package differences.
+If batch-dependent normalization is present, account for that separate coupling.
+
 The [12 October synthetic loader preflight](../../native-training-preflight-20261012/README.md)
 passes that check for the retained zero-coverage-threshold flat recipe, including
 default augmentation and all five jitter offsets. Two negative controls require

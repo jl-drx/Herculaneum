@@ -24,7 +24,11 @@ training. Strong native baselines and controlled broader coverage remain next.
    rather than selecting geometry for a larger ink response.
 2. **Strong native learning:** qualify Reader v2 alongside dense-native, Hecate
    and released checkpoint controls. Prepare a paired coverage study with original
-   source draws held fixed. Use adequate exposure and an explicit GPU proposal.
+   source draws and source loss weights held fixed. The [synthetic preflight](in-progress/native-training-preflight-20261012/README.md)
+   passes exclusion/augmentation checks and shows that a mixed-batch BCE denominator
+   can dilute old-source gradients despite identical draws. Use separate stream
+   normalization with fixed coefficients in both arms. Use adequate exposure and
+   an explicit GPU proposal.
 3. **Reference and exposure:** extend the physical registry, distinguish local
    exposure from upstream training/teacher exposure, and reserve new support
    using geometry/metadata before inspecting labels or predictions. Build targeted

@@ -57,6 +57,33 @@ real-array/provenance admission, physical-family exclusions, an explicit matched
 draw schedule, all actual preprocessing, and the same counterfactual check through
 the final GPU loader. No scientific learning improvement follows from this audit.
 
+## Original-source loss weight needs its own control
+
+[A separate loss-accounting probe](LOSS_ACCOUNTING.json) found that identical
+original patch draws do not, by themselves, preserve the original-source loss
+weight. The retained BCE divides by the number of supervised pixels across the
+whole batch. With 64 original supervised pixels, changing only the added patch
+from 64 to 256 supervised pixels reduced the original BCE gradient to **0.40×**:
+the denominator changed from 128 to 320. Combined BCE+Dice original gradients
+changed too; the 60% reduction refers specifically to the BCE contribution.
+
+With fixed stream coefficients and separate stream-normalized objectives,
+`0.5 * original_loss + 0.5 * added_loss`, original logit gradients were bitwise
+identical across that counterfactual. Added-stream gradients still changed, as
+expected. This used the actual retained smoothed BCE+Dice implementation and
+synthetic float32 logits; there was no network or optimization. It is a control
+for the proposed experiment, not a new loss-function contribution or an observed
+training gain.
+
+The future coverage pair must therefore freeze both source draws **and** objective
+accounting. Apply the same fixed stream objective in both arms, including every
+loss/deep-supervision term. Choose its coefficient with the actual cohort before
+training; 0.5 was this probe's balanced demonstration, not a selected final value.
+Do not claim equal supervision amount from equal patch counts. A broader corpus
+can still change class balance, annotation amount and quality, and batch-dependent
+normalization requires its own control. Only the specific loss-dilution mechanism
+is removed by this test.
+
 ## Reproduce
 
 Use the existing `pherc343` CPU environment and the separately installed versions
@@ -78,3 +105,11 @@ PYTHONPATH=/path/to/extra-deps /workspace/.venvs/pherc343/bin/python \
 Both checks require new output paths. Public code provenance: retained Vesuvius
 runtime; Reader source at
 [`02c7b46987813c78f56dd99f38c5a84b65a9cd2a`](https://github.com/DomRusso2/reader-v2/blob/02c7b46987813c78f56dd99f38c5a84b65a9cd2a/scripts/v2_run.py).
+
+The loss-accounting check needs only the base `pherc343` environment:
+
+```bash
+/workspace/.venvs/pherc343/bin/python \
+  research/in-progress/native-training-preflight-20261012/check_loss_accounting.py \
+  --repo /workspace/Herculaneum --output /new/LOSS_ACCOUNTING.json
+```
