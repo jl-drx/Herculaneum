@@ -131,6 +131,18 @@ normal Git publication is blocked by proxy-tunnel HTTP 503. The parent 21:47
 checkpoint was published at `2369f0d` and freshly downloaded with matching bytes.
 Publish and remotely verify the new update before claiming it is available
 through GitHub on another machine.
+The [23:43 source-accounting follow-up](in-progress/native-source-accounting-20261012/README.md)
+found both transports still blocked before any new source body was retained.
+Its offline census distinguishes segment draw quotas from pooled BCE weights:
+the latter follow supervised pixels, whereas Dice follows image counts. The
+proposed added-stream objective separately normalizes each segment with fixed
+coefficients in both arms; conditional logit-gradient and accumulation checks
+pass without a model forward. Preserve the already qualified original-stream
+objective. This is a pretraining design refinement, not a learning result or a
+final source-weight freeze. In the one complete added case, mean supervised
+area differs by only 0.554% between arms, while teacher-positive shares differ
+by about 2.47 points. Finish all eight cases before deciding class/source controls;
+do not mistake source normalization for matched class mixture or pure coverage.
 After public S3 access recovers, resume those same requests, complete the fixed
 population qualification, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep

@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-12T23:49:31.927079+00:00",
+  "pins": {
+    "original_support": "8c86aba57614ca01d8c2c9f652748b82698077753c82af3a8391a595c17c5562",
+    "original_verification": "ef10dec46fe8b5ca59ab1055c16f2be1f367d714f436a7563bb31ad09f48c5fc",
+    "added_results": "a3793dad6353b79eb348bbca20d819521fa8de9794414d1efb2eda7704665364",
+    "added_verification": "a3fa216b3fec272ea175c25949ca45755a55fd73499c80f22a158896cfe08ecb",
+    "added_support": "5a001f2ae0b417b21ec701ebfbcb6530c3d9d358d129675fc30632645ba3b458",
+    "added_arrays": "7cb46db1ce3d6e7af751c8fe1c689b7ca759fcd48f855f959208f6a416fd3033",
+    "retained_loss": "926c71f12b34187954271c7478465f483f964939234a36c23e4b101a1820abd9",
+    "audit_implementation": "b10edbf3de8dededbf113004e72b4a9ccaee66c682949335bc8eb2a8b0b0a0ae",
+    "proposed_objective": "ad9f45b6e12552d2664cfd8593957cc5fdb9718194b462bec703206092b0a71f",
+    "plan": "aae08298bf31be3bfb6c4249925c83a64265f0572b71f843c242feac26a56eb5"
+  },
+  "probe_patch_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "probe_groups": [
+    "fixed",
+    "fixed",
+    "changed",
+    "changed"
+  ],
+  "altered_second_group": "First 1024 previously supervised pixels in raster order per patch",
+  "probe_coefficients": {
+    "fixed": 0.5,
+    "changed": 0.5
+  },
+  "probe_coefficients_are_study_hyperparameters": false,
+  "relative_gradient_tolerance": 1e-06,
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "paid_compute": false
+}

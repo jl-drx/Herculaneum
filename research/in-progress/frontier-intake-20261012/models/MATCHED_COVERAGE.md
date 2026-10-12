@@ -71,6 +71,19 @@ when only added support density changes. This controls direct dilution, not the
 intended downstream change in model weights, or other data-package differences.
 If batch-dependent normalization is present, account for that separate coupling.
 
+The [source-accounting follow-up](../../native-source-accounting-20261012/README.md)
+adds a within-added-stream requirement: matched segment draw quotas do not also
+fix pooled BCE coefficients when supervised mask sizes differ. Preserve the
+qualified original-stream objective, and prepare the added objective as a fixed
+weighted mean of separately normalized segment losses, with the same segment
+coefficients in both arms. Freeze these coefficients with the full population;
+the two-group arithmetic probe is not the actual training sampler. Every source
+must occur in the optimizer accumulation window and all denominators must use
+its post-augmentation support. The prototype passes conditional logit-gradient
+and microbatch checks; the final loader, full-window consumption and every loss
+term still need qualification. This changes neither within-source class mix nor
+annotation quality. It is not an observed full-cohort confound or a learning gain.
+
 The [12 October synthetic loader preflight](../../native-training-preflight-20261012/README.md)
 passes that check for the retained zero-coverage-threshold flat recipe, including
 default augmentation and all five jitter offsets. Two negative controls require

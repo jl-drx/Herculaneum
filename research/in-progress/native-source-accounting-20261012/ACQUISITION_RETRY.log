@@ -1,0 +1,24 @@
+{"status": "LOCAL_CACHE_VERIFIED", "present": 3515, "confirmed_missing": 0, "pending": 14055, "pending_body_bytes": 5083778412, "request_plan_sha256": "ffd9817800e9ca6cc00287874bfe835e3e868a5643b39f0be857e89ff613b74a", "network_requests": 0, "paid_compute": false}
+Traceback (most recent call last):
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/continue_acquisition.py", line 58, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/continue_acquisition.py", line 42, in main
+    with urllib.request.urlopen(urllib.request.Request(first['url'],headers=headers),timeout=30) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 503: Service Unavailable
