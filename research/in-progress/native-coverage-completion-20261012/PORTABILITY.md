@@ -6,8 +6,9 @@ download into an empty LFS cache matched the archive's byte length and SHA256;
 see [REMOTE_RESTORE.json](REMOTE_RESTORE.json). The earlier failed publication is
 preserved in [PERSISTENCE_BLOCKED_20261012T2012.json](PERSISTENCE_BLOCKED_20261012T2012.json).
 The instructions below restore the complete original stream and its dated added
-cache. An optional [later intake addendum](../native-coverage-retry-20261012-2053/PORTABILITY.md)
-preserves 72 more teacher ranges without changing those scientific results.
+cache. An optional [latest intake addendum](../native-coverage-retry-20261012-2147/PORTABILITY.md)
+preserves both later retries without changing those scientific results. It
+includes the earlier 20:53 addendum; do not apply both to the same base.
 
 This is a **cumulative update against the original 490.9 MiB checkpoint**. It
 includes the earlier 19.0 MiB addendum; do not apply both addenda to the same base.

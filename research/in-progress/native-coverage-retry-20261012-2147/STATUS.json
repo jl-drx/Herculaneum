@@ -1,0 +1,146 @@
+{
+  "status": "SOURCE_INTAKE_PROGRESS_HTTP_503_RETURNED",
+  "utc": "2026-10-12T21:49:34.513404+00:00",
+  "attempt": "transport-retry-20261012T2147",
+  "present": 2506,
+  "confirmed_missing": 0,
+  "pending": 15064,
+  "pending_body_bytes": 5507447497,
+  "total_retained_added_bytes": 982988739,
+  "total_kinds": {
+    "ct": 2011,
+    "teacher": 495
+  },
+  "new_records": 912,
+  "new_source_bytes": 317025084,
+  "new_kinds": {
+    "teacher": 304,
+    "ct": 608
+  },
+  "probe_body_bytes": 1,
+  "separate_full_range_probe": false,
+  "new_body_bytes_scope": "Retained successful bodies; the fail-fast tool does not retain a complete per-request trace for every failed future.",
+  "original_candidates_qualified": 876,
+  "original_objects": 781,
+  "original_remaining": 0,
+  "request_plan_sha256": "ffd9817800e9ca6cc00287874bfe835e3e868a5643b39f0be857e89ff613b74a",
+  "cases": [
+    {
+      "id": "pherc0814-20250925161630",
+      "present": 1881,
+      "pending": 0,
+      "present_kinds": {
+        "ct": 1398,
+        "teacher": 483
+      },
+      "pending_kinds": {},
+      "all_requested_source_bytes_present": true,
+      "population_supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250925182632",
+      "present": 613,
+      "pending": 1408,
+      "present_kinds": {
+        "ct": 609,
+        "teacher": 4
+      },
+      "pending_kinds": {
+        "ct": 898,
+        "teacher": 510
+      },
+      "all_requested_source_bytes_present": false,
+      "population_supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250925204843",
+      "present": 2,
+      "pending": 2660,
+      "present_kinds": {
+        "teacher": 2
+      },
+      "pending_kinds": {
+        "ct": 1968,
+        "teacher": 692
+      },
+      "all_requested_source_bytes_present": false,
+      "population_supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250925212701",
+      "present": 3,
+      "pending": 632,
+      "present_kinds": {
+        "ct": 1,
+        "teacher": 2
+      },
+      "pending_kinds": {
+        "ct": 468,
+        "teacher": 164
+      },
+      "all_requested_source_bytes_present": false,
+      "population_supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250925222237",
+      "present": 2,
+      "pending": 1037,
+      "present_kinds": {
+        "ct": 1,
+        "teacher": 1
+      },
+      "pending_kinds": {
+        "ct": 771,
+        "teacher": 266
+      },
+      "all_requested_source_bytes_present": false,
+      "population_supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250926051122",
+      "present": 2,
+      "pending": 4685,
+      "present_kinds": {
+        "ct": 1,
+        "teacher": 1
+      },
+      "pending_kinds": {
+        "ct": 3458,
+        "teacher": 1227
+      },
+      "all_requested_source_bytes_present": false,
+      "population_supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250926165636",
+      "present": 0,
+      "pending": 2579,
+      "present_kinds": {},
+      "pending_kinds": {
+        "ct": 1901,
+        "teacher": 678
+      },
+      "all_requested_source_bytes_present": false,
+      "population_supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250926203608",
+      "present": 3,
+      "pending": 2063,
+      "present_kinds": {
+        "ct": 1,
+        "teacher": 2
+      },
+      "pending_kinds": {
+        "ct": 1535,
+        "teacher": 528
+      },
+      "all_requested_source_bytes_present": false,
+      "population_supervision_qualified": false
+    }
+  ],
+  "new_teacher_ranges_decoded": false,
+  "new_model_forwards": 0,
+  "paid_compute": false,
+  "full_population_admitted": false
+}

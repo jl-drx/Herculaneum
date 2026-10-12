@@ -4,8 +4,8 @@ The result and cumulative checkpoint are now **published in private GitHub**.
 The recovered push and a fresh selective archive download passed on 12 October
 at 20:53 UTC; its length and SHA256 match the locally replayed archive. See
 [PERSISTENCE.json](PERSISTENCE.json) and [REMOTE_RESTORE.json](REMOTE_RESTORE.json).
-The [later source retry](../native-coverage-retry-20261012-2053/README.md) retained
-72 more teacher ranges before HTTP 503 returned; full intake is still incomplete.
+The [latest source retry](../native-coverage-retry-20261012-2147/README.md) retained
+another 912 records before HTTP 503 returned; full intake is still incomplete.
 
 12 October 2026. The resumed acquisition completed **all 781 PHerc0139 CT
 objects**, and **all 876 fixed original-stream candidates** pass the unchanged

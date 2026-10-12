@@ -1,0 +1,58 @@
+{"status": "LOCAL_CACHE_VERIFIED", "present": 1594, "confirmed_missing": 0, "pending": 15976, "pending_body_bytes": 5824472581, "request_plan_sha256": "ffd9817800e9ca6cc00287874bfe835e3e868a5643b39f0be857e89ff613b74a", "network_requests": 0, "paid_compute": false}
+{"completed": 128, "missing": 0, "bytes": 0, "reused": 128, "requests": 17570, "seconds": 0.3566303819825407, "utc": "2026-10-12T21:46:51.460579+00:00"}
+{"completed": 256, "missing": 0, "bytes": 0, "reused": 256, "requests": 17570, "seconds": 0.4976324869785458, "utc": "2026-10-12T21:46:51.601580+00:00"}
+{"completed": 384, "missing": 0, "bytes": 0, "reused": 384, "requests": 17570, "seconds": 0.6740146380034275, "utc": "2026-10-12T21:46:51.777962+00:00"}
+{"completed": 512, "missing": 0, "bytes": 0, "reused": 512, "requests": 17570, "seconds": 0.7222307850024663, "utc": "2026-10-12T21:46:51.826177+00:00"}
+{"completed": 640, "missing": 0, "bytes": 0, "reused": 640, "requests": 17570, "seconds": 0.7666218109952752, "utc": "2026-10-12T21:46:51.870568+00:00"}
+{"completed": 768, "missing": 0, "bytes": 0, "reused": 768, "requests": 17570, "seconds": 0.8115641809999943, "utc": "2026-10-12T21:46:51.915510+00:00"}
+{"completed": 896, "missing": 0, "bytes": 0, "reused": 896, "requests": 17570, "seconds": 0.8545239989762194, "utc": "2026-10-12T21:46:51.958470+00:00"}
+{"completed": 1024, "missing": 0, "bytes": 0, "reused": 1024, "requests": 17570, "seconds": 0.9238849859975744, "utc": "2026-10-12T21:46:52.027831+00:00"}
+{"completed": 1152, "missing": 0, "bytes": 0, "reused": 1152, "requests": 17570, "seconds": 1.0613103559880983, "utc": "2026-10-12T21:46:52.165257+00:00"}
+{"completed": 1280, "missing": 0, "bytes": 0, "reused": 1280, "requests": 17570, "seconds": 1.1963573309767526, "utc": "2026-10-12T21:46:52.300304+00:00"}
+{"completed": 1408, "missing": 0, "bytes": 0, "reused": 1408, "requests": 17570, "seconds": 1.2679309980012476, "utc": "2026-10-12T21:46:52.371877+00:00"}
+{"completed": 1536, "missing": 0, "bytes": 0, "reused": 1536, "requests": 17570, "seconds": 1.3101355499820784, "utc": "2026-10-12T21:46:52.414082+00:00"}
+{"completed": 1664, "missing": 0, "bytes": 10816339, "reused": 1575, "requests": 17570, "seconds": 7.286082878999878, "utc": "2026-10-12T21:46:58.390030+00:00"}
+{"completed": 1792, "missing": 0, "bytes": 27873567, "reused": 1577, "requests": 17570, "seconds": 15.473730921978131, "utc": "2026-10-12T21:47:06.577678+00:00"}
+{"completed": 1920, "missing": 0, "bytes": 55995196, "reused": 1577, "requests": 17570, "seconds": 25.116085813002428, "utc": "2026-10-12T21:47:16.220033+00:00"}
+{"completed": 2048, "missing": 0, "bytes": 114715452, "reused": 1577, "requests": 17570, "seconds": 37.3790412620001, "utc": "2026-10-12T21:47:28.482989+00:00"}
+{"completed": 2176, "missing": 0, "bytes": 173435708, "reused": 1577, "requests": 17570, "seconds": 49.47669094300363, "utc": "2026-10-12T21:47:40.580638+00:00"}
+{"completed": 2304, "missing": 0, "bytes": 232155964, "reused": 1577, "requests": 17570, "seconds": 61.529966425994644, "utc": "2026-10-12T21:47:52.633913+00:00"}
+{"completed": 2432, "missing": 0, "bytes": 290876220, "reused": 1577, "requests": 17570, "seconds": 73.24515230598627, "utc": "2026-10-12T21:48:04.349100+00:00"}
+Traceback (most recent call last):
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/continue_acquisition.py", line 58, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/continue_acquisition.py", line 53, in main
+    intake.acquire(a)
+    ~~~~~~~~~~~~~~^^^
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/intake.py", line 167, in acquire
+    row,reused=future.result();rows.append(row);state['completed']+=1
+               ~~~~~~~~~~~~~^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/concurrent/futures/_base.py", line 447, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/concurrent/futures/_base.py", line 396, in __get_result
+    raise self._exception
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/workspace/Herculaneum/research/in-progress/native-coverage-admission-20261012/intake.py", line 134, in fetch
+    with urllib.request.urlopen(urllib.request.Request(r['url'],headers=headers),timeout=45) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/workspace/.python-managed/cpython-3.14.7-linux-x86_64-gnu/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 503: Service Unavailable
