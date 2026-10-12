@@ -3562,6 +3562,35 @@
       ],
       "created_utc": "2026-10-12T11:22:27.562276+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0155.tar.gz",
+      "bytes": 2784128,
+      "sha256": "e873a064d3475df243cb79f91c8ec69fcd5eca155bd217cb7556083b3bc93ce6",
+      "members": [
+        {
+          "path": "work/w044-seed89/step-003584.json",
+          "bytes": 883,
+          "sha256": "11f3b43986674885660e599b1246d19a64331fc2fe4cf551f517f30391060f43"
+        },
+        {
+          "path": "work/w044-seed89/step-003584.pt",
+          "bytes": 1525933,
+          "sha256": "797594277989c3e62092e63a8ce5e32704308499f7bba2da445f9b9aff055528"
+        },
+        {
+          "path": "work/w044-seed89/step-004096.json",
+          "bytes": 881,
+          "sha256": "d18a5386cf31a7de8e62ae462a828d00761ab4cdb1affdb443b061772f60375e"
+        },
+        {
+          "path": "work/w044-seed89/step-004096.pt",
+          "bytes": 1526253,
+          "sha256": "4e0f79f2e0c862e53650af7022df96f3a79fd03c1b0119c0639e75b9d80c15e0"
+        }
+      ],
+      "created_utc": "2026-10-12T11:32:34.593577+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
@@ -3579,29 +3608,29 @@
   ],
   "note": "Resume files, not a live process or installed runtime",
   "latest_worker_status": {
-    "utc": "2026-10-12T11:21:52.275600+00:00",
+    "utc": "2026-10-12T11:31:49.244070+00:00",
     "phase": "training",
     "arm": "w044-seed89",
-    "step": 2816,
+    "step": 4096,
     "maximum_updates": 16384,
     "train": {
-      "ap": 0.6680151216937561,
-      "auc": 0.820313650542391,
+      "ap": 0.7377500271987364,
+      "auc": 0.8645831285029888,
       "positives": 516251,
       "negatives": 1121962,
       "undefined_single_class": false,
-      "bce": 0.47924836556284556,
+      "bce": 0.4294304632519096,
       "prevalence": 0.31513057215392626,
-      "mean_probability": 0.35679016424660875,
-      "fraction_probability_ge_half": 0.31585147963054866
+      "mean_probability": 0.3567684776268787,
+      "fraction_probability_ge_half": 0.3401267112396251
     },
     "lr": 0.001,
-    "seconds_per_update_including_training_checks": 0.6719940559563249,
+    "seconds_per_update_including_training_checks": 0.6077401717746582,
     "termination": null,
     "held_out_predictions": 0,
-    "draws": 11264,
+    "draws": 16384,
     "unique_cores": 163,
-    "supervised_pixel_exposures": 146493860
+    "supervised_pixel_exposures": 213257810
   },
-  "updated_utc": "2026-10-12T11:22:27.562612+00:00"
+  "updated_utc": "2026-10-12T11:32:34.594258+00:00"
 }
