@@ -103,6 +103,9 @@ universal gate for these directions. No closed investigation was reopened.
   Existing model pins are adopted from the completed study's receipts, not
   described as newly independently qualified here.
 - [PORTABILITY.md](PORTABILITY.md) provides selective restoration and replay.
+  The 135.5 MiB input archive passed a fresh private-GitHub LFS download and
+  checksum restoration of all 22 files on this host; the
+  [remote receipt](REMOTE_DOWNLOAD_VERIFICATION.json) records that scope.
   The parent-family guard is an explicit check for new intake manifests, not a
   platform-wide interceptor. Future jobs must use it and maintain physical
   context/teacher exclusions when finer splits become available.

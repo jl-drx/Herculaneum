@@ -20,9 +20,11 @@ python3 research/planning/pherc0139-paired-packet-20261011/restore_packet.py \
 
 The standard-library restorer checks the complete archive and all 22 files,
 rejects unexpected paths, links and altered bytes, and requires a new destination.
-It starts no worker and reads no current native0139 held-out result. A local
-restoration PASS and any later real remote-download verification are recorded
-separately; consult their receipts rather than assuming an upload worked.
+It starts no worker and reads no current native0139 held-out result. Both the
+[local restoration](LOCAL_RESTORE_VERIFICATION.json) and a [fresh download from
+private GitHub](REMOTE_DOWNLOAD_VERIFICATION.json) passed archive and all-file
+checksum verification. The latter used separate LFS storage on this same cloud
+host; it is not an independent-device scientific replay.
 
 For CPU analysis, the existing tested inference environment can be recreated with
 `bash research/tools/setup_portable_cpu.sh pherc343`. The package versions used
