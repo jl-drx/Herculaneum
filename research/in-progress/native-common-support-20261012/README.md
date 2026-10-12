@@ -99,6 +99,11 @@ It excludes model weights, previous unrelated experiments and inference results.
 [MODEL_PINS.json](MODEL_PINS.json) retains exact checkpoint identities; its local
 paths describe the current cache, not portable download locations.
 
+[Local restoration](LOCAL_RESTORE.json) verified all 2,369 files and reproduced
+the input report byte-for-byte. A [fresh private GitHub LFS fetch](REMOTE_RESTORE.json)
+returned the identical archive. These publication receipts were added after the
+immutable input archive was built.
+
 In a clone of this private branch, fetch only this LFS object:
 
 ```bash
