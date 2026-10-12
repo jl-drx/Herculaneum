@@ -1,5 +1,10 @@
 # Original native stream qualified; added population still blocked
 
+The new result and cumulative checkpoint are currently **committed locally**.
+GitHub upload failed with the same proxy HTTP 503; see [PERSISTENCE.json](PERSISTENCE.json).
+Local restore and numerical replay pass, but remote availability of this new
+checkpoint is not established.
+
 12 October 2026. The resumed acquisition completed **all 781 PHerc0139 CT
 objects**, and **all 876 fixed original-stream candidates** pass the unchanged
 support rule. A separate full-raster/integral implementation reproduces every

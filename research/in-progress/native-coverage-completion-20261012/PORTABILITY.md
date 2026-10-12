@@ -1,5 +1,14 @@
 # Restore the completed original stream and current partial added cache
 
+**Current availability: local only.** The source commit and archive are prepared
+and locally verified, but the GitHub push failed with the same proxy HTTP 503.
+[PERSISTENCE.json](PERSISTENCE.json) records the failed operation and the last
+acknowledged remote commit. The new selective-download instructions below become
+usable on another machine after a successful push and remote availability check;
+they are not a claim that the new archive is already downloadable from GitHub.
+The original 490.9 MiB base and earlier 19.0 MiB addendum were previously uploaded
+and verified. Preserve the current local source cache and new archive meanwhile.
+
 This is a **cumulative update against the original 490.9 MiB checkpoint**. It
 includes the earlier 19.0 MiB addendum; do not apply both addenda to the same base.
 It is not the complete matched training dataset. No inference, paid runtime,

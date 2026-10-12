@@ -112,6 +112,10 @@ The added cache now contains 1,522 complete objects, with 16,048 requests pendin
 A bounded persistent-connection diagnostic failed on the same live socket after
 seven successes, so local connection reuse did not solve the problem. Preserve
 all dated qualifications and failed attempts; the full matched pair is unadmitted.
+The new completed-original packet and cumulative archive are committed locally
+and restore-tested. GitHub upload also failed on the proxy error; complete the
+normal push and remote archive verification after access recovers before calling
+this newest packet available on another machine.
 After public S3 access recovers, resume those same requests, complete the fixed
 population qualification, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep
