@@ -14553,6 +14553,935 @@
       ],
       "created_utc": "2026-10-12T16:26:06.622473+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0009.tar.gz",
+      "bytes": 1351752,
+      "sha256": "120e6f9f668450479cea23a1eecc41bca98d8be171186ad26006b5fa0bc730fe",
+      "members": [
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0095.json",
+          "bytes": 1172,
+          "sha256": "85cddabb60ada9fb0db3e36d00ba0695520f4b91b6fc7e9e2e8a4becd0e094bd"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0095.npy",
+          "bytes": 16512,
+          "sha256": "6e7faf506953ec6e9d80e1314f87d80d7b15b08ef71855309318a7010d592b19"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0096.json",
+          "bytes": 1172,
+          "sha256": "4c7a0df48898fd28621428e3a836379024233410c79fd3c83759f044d7173a82"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0096.npy",
+          "bytes": 16512,
+          "sha256": "3e008c67c6075a613acea4b6e20ace5e4c2e8ece17418fce7f775bbdeb364828"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0097.json",
+          "bytes": 1172,
+          "sha256": "abcb01422d9aec58b914274e5eb2feb0b80b4ae124927970f082216058e38010"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0097.npy",
+          "bytes": 16512,
+          "sha256": "50352e1850b94f23a111cafb987df563956ebef9c788dda635cf93fd398cbb77"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0098.json",
+          "bytes": 1172,
+          "sha256": "8d55088a52516792733aa31498aba3a4a30a10725ea7ebd12e6560b92f777201"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0098.npy",
+          "bytes": 16512,
+          "sha256": "cd9160520878e68647b71bfee7006e4dabdf8d90609581a9428c46afb481b1db"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0099.json",
+          "bytes": 1172,
+          "sha256": "00e7bd30724ebeb8337d241452e59a5056a6bde2d295b3699d70a0f75d74c256"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0099.npy",
+          "bytes": 16512,
+          "sha256": "e36bdb3fc05d14f50d5919f2e92b8884e07b5697f8306126b23cdd8474d5f332"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0100.json",
+          "bytes": 1173,
+          "sha256": "1714a7f1199aeabc6e77a1ce23d4e289846fef864b53f9acd71a92e6771160bf"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0100.npy",
+          "bytes": 16512,
+          "sha256": "0c15dfc182afb5a0c6d9c8a506d7673be01a7e73935ef2b5d26f683ad5058ddd"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0101.json",
+          "bytes": 1173,
+          "sha256": "68b42fd9fb1943bdb7332e7c2354d33083bb2a204e15f7f7b9b343ca6e09beb6"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0101.npy",
+          "bytes": 16512,
+          "sha256": "e787e0989880f3ef23169ff36eec153d3bd2547afb020754b284b92cb69a810a"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0102.json",
+          "bytes": 1173,
+          "sha256": "e900182df923beea2100a63cbf642d9a28badc22db092713f72041c68aff6410"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0102.npy",
+          "bytes": 16512,
+          "sha256": "96c2e17b8978fb9f2f33b83788cfc2fb730bf850aedf5f2639ac01fc8a15ca97"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0103.json",
+          "bytes": 1173,
+          "sha256": "c111bb3f9c6c9c2376ec6d2b99da0fc2f6e1ce92c939c5defa9790f7d046d4b4"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0103.npy",
+          "bytes": 16512,
+          "sha256": "5f82a904b2e8f7e71f760675cf69a2ea5602681a1ede1d15489ee0b879296dbb"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0104.json",
+          "bytes": 1173,
+          "sha256": "5e6db0580d8f0b85437e48559a78dbdef7adc3221c129b00a9a899606874f823"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0104.npy",
+          "bytes": 16512,
+          "sha256": "8525ac9fa04bc87ef143d0ff84ed55904c05deda09d71a7a272dd4a1c4e656fc"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0105.json",
+          "bytes": 1173,
+          "sha256": "3fa29345d1c6154291cf2a75f1d948b814f78c37eb794882cfb930dd057e20d5"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0105.npy",
+          "bytes": 16512,
+          "sha256": "d986f6c80cc59b81d81c2d6f491618d2b14b8c7b46869743216f43549c01048a"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0106.json",
+          "bytes": 1173,
+          "sha256": "4a3021fbca09c66a251bc9330e7bbb09716b544068738c04f782605e7eaf7bae"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0106.npy",
+          "bytes": 16512,
+          "sha256": "46938f4760a95699f5c4b1e07930a4e2cc8b0474c4506a1d3488294f5b2cb8f2"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0107.json",
+          "bytes": 1173,
+          "sha256": "8930d553a50137361138f82e582546e0b8a0b48d4ed7f8fe3f5147b6c4720bb8"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0107.npy",
+          "bytes": 16512,
+          "sha256": "e60db19aaf700db16014cdb403dd5c445c5694dd5a241704b8424101cd66bc3b"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0108.json",
+          "bytes": 1173,
+          "sha256": "087fee89583a3204a5166a4ce3d7376834b3ba8b57ef98d3958092448b76e628"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0108.npy",
+          "bytes": 16512,
+          "sha256": "bc2143c04f63898728ad2818d0875b3aab4166cf77d78be62c1322cda83c3ccd"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0109.json",
+          "bytes": 1173,
+          "sha256": "17b00348f31c2e8adfbf15d6bb95cb4e9434ec7e4067b71d0e4676afa6842ad8"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0109.npy",
+          "bytes": 16512,
+          "sha256": "53e45de8bce2b7341d9f8c78a711ac98874d40e87137d1ccddcde9baeff5b896"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0110.json",
+          "bytes": 1173,
+          "sha256": "950a3aa3bd3480906d665334bde6ff124f5930e6495e570fe7167d9dd2a35957"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0110.npy",
+          "bytes": 16512,
+          "sha256": "9dd70d9da6518ffeca1637c4b05d2596f420ca8e6ca5ba08988912d0ce19d222"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0111.json",
+          "bytes": 1173,
+          "sha256": "67830d05edc5fb1976f09587fc389e7897668c538fc6966b5f01fe6dbe8db667"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0111.npy",
+          "bytes": 16512,
+          "sha256": "8136a31af691e330e82f7cce438a79e3465b4b12b5c8beafe669f4c6695584f9"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0112.json",
+          "bytes": 1173,
+          "sha256": "6ca383878a3b7dad33b8a21fcd67206af663f789bef8529b907bf23b59e7a2a3"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0112.npy",
+          "bytes": 16512,
+          "sha256": "a1b38bb44994ff527060c42cb36c0132478e9faef7580ba2f75f5098ac2467e0"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0113.json",
+          "bytes": 1173,
+          "sha256": "9b55a76c74619d3592631930e1873ab09da4feafde128b35285b18d57499c2c3"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0113.npy",
+          "bytes": 16512,
+          "sha256": "bc2278f3281b0b5a4d99a21d8c667884fb15f38d2ce34284da5f62e785984e72"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0114.json",
+          "bytes": 1173,
+          "sha256": "9ba429fe0740388e1bcb8afa1c62c8c6f90c920eb6d09da9f3755d44a1fc6b9f"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0114.npy",
+          "bytes": 16512,
+          "sha256": "4be5621a618b53281d6013dc7f27b2fe356f511d7c3b42ab07c9a8dadd923f71"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0115.json",
+          "bytes": 1173,
+          "sha256": "ec8eb0ca183c6b76ae10e908cb43e5cc596a48e24d86dfaf90d4c8e5e7b246c0"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0115.npy",
+          "bytes": 16512,
+          "sha256": "1a52c6485fe48d7a92477a10061869c9104eac39fb99d6f57207323c9f4a5179"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0116.json",
+          "bytes": 1173,
+          "sha256": "d288510003222b3ad817de704ee4d4efecaa3d5a1aedc875ec5cde6360dd14a8"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0116.npy",
+          "bytes": 16512,
+          "sha256": "65604186b6821cc13b7ef9d9d1efb193e37ff9a7f7114e53f529a0387eafe363"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0117.json",
+          "bytes": 1173,
+          "sha256": "477636d316226d6ab1cc715475ce9fae3f583ba824a339e2b65ab9d7c9e7c4e0"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0117.npy",
+          "bytes": 16512,
+          "sha256": "82e56485f7fcf72f9c810c1f523132712940d77675b6d94877dc27b1938e19d8"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0118.json",
+          "bytes": 1173,
+          "sha256": "c4f4ed8016b94f9267fda49a8ab26abc987bab55abbeb2e1115bbb612f53fc8e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0118.npy",
+          "bytes": 16512,
+          "sha256": "eb5bddb95285256fab3baa8c5271ccc8caf6bced1d1bc6ff59fc007fc4f50a71"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0119.json",
+          "bytes": 1173,
+          "sha256": "09572338a2b126991d759ac23f0d31ef0e9d92e04f39e2a4fa8968b0ce3248ac"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0119.npy",
+          "bytes": 16512,
+          "sha256": "78418dc0c066c83df91d0c1795b97b67d9765ee0566e06498a40c3e23e133cc6"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0120.json",
+          "bytes": 1173,
+          "sha256": "c48fb58c74f2d148c3723f164134a243f1dcb5c3ab5bac7b1f087d617f04acf5"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0120.npy",
+          "bytes": 16512,
+          "sha256": "0a77eced63a664e64a23d790365a8f817fbdb13583719b90ff72fd6cdafcac99"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0121.json",
+          "bytes": 1173,
+          "sha256": "843c2652eb9f3bf0e9696c6073716650d8382a9a086157c864c550bbca0b7cf8"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0121.npy",
+          "bytes": 16512,
+          "sha256": "d4bbb402ccb5c6ced3b66978608e29f772f251ffa1cda6996d636dac40b4017e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0122.json",
+          "bytes": 1173,
+          "sha256": "0797a4ded2b660de56bb93769b0dee64ad4fbe9512993775e3484da19c5e69c5"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0122.npy",
+          "bytes": 16512,
+          "sha256": "314265b103e3820a2cbb0d8f338e68b3aed8486005b3fa9c7fee4537bbf323ab"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0123.json",
+          "bytes": 1173,
+          "sha256": "0d32f4168e2eb5b33582db7055b1e195d0330e835c4bdedd2bbf8227ed31045e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0123.npy",
+          "bytes": 16512,
+          "sha256": "d2c52a11bd8898d05cf4d4e001fb7028667fb49790198fe8fe4c0c56fa087143"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0124.json",
+          "bytes": 1173,
+          "sha256": "d0cf03115bb38d5b7ae54127c234fe0def0e643b9e756b7859a57105f3b3aa01"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0124.npy",
+          "bytes": 16512,
+          "sha256": "91c0b2582407d7f816f4c1624fa814a5d4523a55572a9694de4ca4e36f93581f"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0125.json",
+          "bytes": 1173,
+          "sha256": "fef2a0c3790109739d8889a719ddb77c2b2ee5779e5a8bf50a89245966afc239"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0125.npy",
+          "bytes": 16512,
+          "sha256": "133bc5570c74497c691b58e41adf60d74c2dfcb8838aa807be5145d4f6ca2236"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0126.json",
+          "bytes": 1173,
+          "sha256": "1552662fc73b1cedc40e8c6213989dade6d47f023068828fbed904fb0a7cda6e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0126.npy",
+          "bytes": 16512,
+          "sha256": "27410a415067dfa3ae1886e44f54ec8dc09347e7c1d93b0a171aac4949f6d4ab"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0127.json",
+          "bytes": 1173,
+          "sha256": "da9ab3d2ff7dfd6a7a3ced055875d34f29add42b6dea993c5ac01b092f10218f"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0127.npy",
+          "bytes": 16512,
+          "sha256": "89bf8f9b7abe587e039edb3c973e7c33d60525f278e4fa44ba67e282db2e5b03"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0128.json",
+          "bytes": 1173,
+          "sha256": "172561f65416497122a3e95dd61c1edbe8c6661dd8f8e4624c9fd21ed5f7f3a9"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0128.npy",
+          "bytes": 16512,
+          "sha256": "2f0640913ce622f8a669d7d28834be15e8d5001cdc8cdd3b341069d8b205b439"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0129.json",
+          "bytes": 1173,
+          "sha256": "f35e80768074ce04e7d3e28714c578b9b456d29ada1607e502a90833f7e7cbb1"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0129.npy",
+          "bytes": 16512,
+          "sha256": "8fb7d9c1aad6e9fc386c586611f1dc2b44f7f362e1c7f20ce382680a73f96488"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0130.json",
+          "bytes": 1173,
+          "sha256": "35d35e2fa913b79b1bc2edcd454ab4050aa6a11d45110dc45a8b69e316f1afae"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0130.npy",
+          "bytes": 16512,
+          "sha256": "ad58eeff6327f1a853d7decb52042c0e742ae352aa5a8dc830cc97a7a72d1ca9"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0131.json",
+          "bytes": 1173,
+          "sha256": "b024e851c50fab250fbf0ff014ca1a4c46b4fb89873b5d9353405812b7516a00"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0131.npy",
+          "bytes": 16512,
+          "sha256": "d324d75b3bf265940e398ab42eaee84312fa429c99ddb7aaf7f1dd46585fe96a"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0132.json",
+          "bytes": 1173,
+          "sha256": "8523dcc28b438ea8811c3f15d0aabaa5db4923c85cf595f5e945cc788465dfba"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0132.npy",
+          "bytes": 16512,
+          "sha256": "f973915c669bbc22ece834da816d80ac4a928f11f1dc692922a600e0c686a90e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0133.json",
+          "bytes": 1173,
+          "sha256": "789ddb1f3a7c44f1c8f95c36fc0c322529be92aef91fbd60b11065daebb0a199"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0133.npy",
+          "bytes": 16512,
+          "sha256": "e111295b75b29a3c8aca17b09da95968a4194fefb73e3d049b37fb50de52389b"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0134.json",
+          "bytes": 1173,
+          "sha256": "eee57231140387a9e3d1c48eb64e8d93c49b8cd1da4783ad5ce991acd26ae226"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0134.npy",
+          "bytes": 16512,
+          "sha256": "258fd456122452b242596d75411cbd8603c864e805f6a6a56db82119302d47e2"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0135.json",
+          "bytes": 1173,
+          "sha256": "19543d58d3291d20b55e9084c336a1b2c4fc16cb2ef30817d46a981b6e2ace25"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0135.npy",
+          "bytes": 16512,
+          "sha256": "02eabf7c8dac3b7a25fe13351805f7e2e36ed534c67a9acfadc49b73fda20bca"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0136.json",
+          "bytes": 1173,
+          "sha256": "6082320419a4a04ebb8146e6dcac31138c934fb686f60d4fc4fd92d3888fd256"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0136.npy",
+          "bytes": 16512,
+          "sha256": "f436e4c2bd20a57b04fa9afd24a6b73e450a7f5e52844757cbe6421fcfef48c1"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0137.json",
+          "bytes": 1173,
+          "sha256": "eb13812f39fdf719108a778ca269c4e0741edb7bc4f00ae6c7438cb8f4c0e997"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0137.npy",
+          "bytes": 16512,
+          "sha256": "78b96889525f27c77e3138af74ba646788e72dd6e2f3d14d466bdbb3819f1b75"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0138.json",
+          "bytes": 1173,
+          "sha256": "401c145b3e54e005b345551ac88ff4ee40393b11d497bb3c66c97399a0a523bd"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0138.npy",
+          "bytes": 16512,
+          "sha256": "280265afc9c4960105232b7c41e192039eb3e35d7f3999025d80a699ae37d5b2"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0139.json",
+          "bytes": 1173,
+          "sha256": "bfddae88207dcdfe81d70a9fbe3f00d2bd99a03169a63dfddaee07c605d88f3e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0139.npy",
+          "bytes": 16512,
+          "sha256": "244fd71cf3d383f31f25e69d923b715102b7dbd2345f68c18534d5149dc36e1f"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0140.json",
+          "bytes": 1173,
+          "sha256": "1ee24a111a0e7ff925e892c1eb0a63b76fa4e624c5ddaf36a9982900aab4c536"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0140.npy",
+          "bytes": 16512,
+          "sha256": "6dd405722625103d78e0db0ff7604a3f9c04540c24945842f46ba60d440927e5"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0141.json",
+          "bytes": 1173,
+          "sha256": "80a0336e90fc4ccfc227533257f1a083521aa3b73ed11793adc2d3b965dc211f"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0141.npy",
+          "bytes": 16512,
+          "sha256": "2adb163db2deb6f866aeb4414d668ff0e5048767192e33065b22d5ba0181bb9d"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0142.json",
+          "bytes": 1173,
+          "sha256": "b0d34e7183b1f0237fedfa6b408f22fd9d04d208e80b63d62ff1e6f37b885e73"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0142.npy",
+          "bytes": 16512,
+          "sha256": "e12be85f38c02b8b5ad50f38ce4b0fd517fd7da9f7344e5d8a08703a4cdfe2db"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0143.json",
+          "bytes": 1173,
+          "sha256": "37adbd4f9d1505ba72ba0bc1e140192e7e32bf0cd8e1105e79e2735f4100783b"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0143.npy",
+          "bytes": 16512,
+          "sha256": "654785f7dda7b3e7b2a68d197851c21cf1c00d39cb72fcd6e7b4cceb3407de0d"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0144.json",
+          "bytes": 1173,
+          "sha256": "987caadecf33c4e15506a63a1ac5d452d0cbc8d6b00acb2dcaffc4a72d81263e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0144.npy",
+          "bytes": 16512,
+          "sha256": "de009d654f9f91ef446e371485fe789f7c7141fc2ec2d293ba1dbef9b93747eb"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0145.json",
+          "bytes": 1173,
+          "sha256": "8010863d32742bbad952f999f678d279508734d4dc5bb34661e715aa5a29f7a2"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0145.npy",
+          "bytes": 16512,
+          "sha256": "d2e5309ad3c1c44e400979bfdd71da4ef2a1c97b2fc39afc4087582dcab04f9a"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0146.json",
+          "bytes": 1173,
+          "sha256": "0bb506366fce05c21adf6a54f1ebbb3f60a848f15307ef061f34e993f15d44d4"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0146.npy",
+          "bytes": 16512,
+          "sha256": "ec516f5dc9b1b34bcc43f885c48e5ff6b31273c3c0792bfbb712c0f74de60ba6"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0147.json",
+          "bytes": 1173,
+          "sha256": "98c7e4d5baada240b17f92d788c9ee463674a1854b777f7810317105fbb7878b"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0147.npy",
+          "bytes": 16512,
+          "sha256": "da7b914360705a5ff33a18fd6dd7a511ae3976e8f3b67b9c3e84e3f9ff70b9f0"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0148.json",
+          "bytes": 1173,
+          "sha256": "4284250d25d97a73c8db448e8fbdb425ffde1c4781427911932c087d51293be7"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0148.npy",
+          "bytes": 16512,
+          "sha256": "1b1e694112ba53f192f3cd78ae6acf287406150449a4c5b828ae061fcf68a8ba"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0149.json",
+          "bytes": 1173,
+          "sha256": "aac43008c60cb99cc520da1a43c41e96132a7d81f75ac18d72214ca417921506"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0149.npy",
+          "bytes": 16512,
+          "sha256": "5230dc8dc5ee3f326fa2c3ea04995f8d715bc11a4a5f620ff0bd3b04871a474a"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0150.json",
+          "bytes": 1173,
+          "sha256": "e7f74c8c48a28cfb56742b37f99bb45289a4afd230680ebfff09bf1423d37e3b"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0150.npy",
+          "bytes": 16512,
+          "sha256": "f6a63c32504853a27a31486885296619ff7c2789b09bd7c1f241a5fd6ca62793"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0151.json",
+          "bytes": 1173,
+          "sha256": "87e2c8ab29c6a9386d0a302f0aea44333f029b76c35173ebe687e5fc1d7329d7"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0151.npy",
+          "bytes": 16512,
+          "sha256": "517b77d77a3c3b2b9978f57cc5a317a53e8dfc7ed4048ae714e98a408cd0576c"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0152.json",
+          "bytes": 1173,
+          "sha256": "377a33bd9e8da52fd3bbc7b35234766f93eb1ff14a0d7fe90df6e298714282a2"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0152.npy",
+          "bytes": 16512,
+          "sha256": "cc65a27a7e43667fa9a3fcf83b988f7cf5f26d143703787048f09e15dd290d50"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0153.json",
+          "bytes": 1173,
+          "sha256": "8b41ed6dc1445f4a420ac366f10f67818cb86d493047628e2c34634777c3c14b"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0153.npy",
+          "bytes": 16512,
+          "sha256": "5729b8119be383dc31f908da627c39aff29b46b371905cf6c49221874bb46c5d"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0154.json",
+          "bytes": 1173,
+          "sha256": "3b4053ad3b68a67f8102ba9417fa08bc33fdcfd975d63545224130de430c5828"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0154.npy",
+          "bytes": 16512,
+          "sha256": "e24f32d36f68227ed552ea06055ef00ea04ed41b83b1719dfdb1eb3d5f3018ef"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0155.json",
+          "bytes": 1173,
+          "sha256": "5edc429f277c46266bf5d61ec0caab0ee6025d9811700dfd0a46079cc76a5743"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0155.npy",
+          "bytes": 16512,
+          "sha256": "b2e7d2a0448684f2d06bf9db513d4dcc6b55faa6c6743d98397605464f32569a"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0156.json",
+          "bytes": 1173,
+          "sha256": "ce0807779caeaf6f9321d399d1ec47e2e8c029959a23ff98857ca7c3a7b49754"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0156.npy",
+          "bytes": 16512,
+          "sha256": "44edbdf0253d253916e3c424d332946c6609022af4e53ea824deabe4c42ad1d3"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0157.json",
+          "bytes": 1173,
+          "sha256": "a32d9691a26e400bc0832bf109e31835d50e379fb9fa561fc90bd7762f3f98dd"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0157.npy",
+          "bytes": 16512,
+          "sha256": "c3ca84823a62d1de150a575778b61284df51895d3e1635c7163b1530ce025bfa"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0158.json",
+          "bytes": 1173,
+          "sha256": "6f543de5b2683de95d0a1aa8253c1d34dac75f44339ff77ad139f66c0f2341de"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0158.npy",
+          "bytes": 16512,
+          "sha256": "18abfedc5f05a283470e45dfa080530c9d4757a0628774840117ab1c796cbd22"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0159.json",
+          "bytes": 1173,
+          "sha256": "febe5bf50a35a61426b1cb9ba37c8107a52ad1c4e80846c362fb971db6b31c0f"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0159.npy",
+          "bytes": 16512,
+          "sha256": "c9d5a48e12553601aeded53739ac9dce9f0e4a2390abd9c992d37ab192ecdb9f"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0160.json",
+          "bytes": 1173,
+          "sha256": "c9b35bf77e5fb046bccd3f172422f309d60ea1e592794121f1b87e2cac46513e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0160.npy",
+          "bytes": 16512,
+          "sha256": "5fd6f848d3c0bf0eadf7ca6db6ab52993b845bf10935a1c527de8349161d8aca"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0161.json",
+          "bytes": 1173,
+          "sha256": "cb2389b181310d6f69f2561b10fbbb487bef3554a900a709bfa02d3fd8d3dbf4"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0161.npy",
+          "bytes": 16512,
+          "sha256": "5173ca8c414641f53d43bd1e111eac00ff3b87dc9c245ea5e23965407ae40117"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0162.json",
+          "bytes": 1173,
+          "sha256": "e9eb2b3a28c333b217c9a37d6ddebcf6cccbc15fb58cb330e56dcafd338b03ee"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0162.npy",
+          "bytes": 16512,
+          "sha256": "f244f8531de403ac33652245a807e54ece21c22923ef56f3d3316230909d50a8"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0163.json",
+          "bytes": 1173,
+          "sha256": "2f39877a4f5cc6474ed2542951b7b382f28593cd15acee5eb4ad24f154fed5bb"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0163.npy",
+          "bytes": 16512,
+          "sha256": "18f68ac78c91911ce600188c1df9eed557bd4b430214e89e2985c21d1d8203d7"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0164.json",
+          "bytes": 1173,
+          "sha256": "b3eb59b8e6f441755b1bbd2f3b26f882e8a55372ea7ff0a79b4a27579d0b1b37"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0164.npy",
+          "bytes": 16512,
+          "sha256": "fa0bbf64b084036653eaf1a29d945c9e36c27593cca4ec416aa38ab5aa6c11ba"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0165.json",
+          "bytes": 1173,
+          "sha256": "154a685c06469182d90ee100a1de72b110d3d153c03e84076a94e7fd6e7b5af9"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0165.npy",
+          "bytes": 16512,
+          "sha256": "b0102f4f354d33d4ec4c77cf31b9475adbfd3b974e1f644f4cef6cbad8564b76"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0166.json",
+          "bytes": 1173,
+          "sha256": "6e291baea22a42f660f990b4917a49df4de948b368300f081c70fd379c2296eb"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0166.npy",
+          "bytes": 16512,
+          "sha256": "1a4525801e3cfeb092b1f4ee06d8b188ae21889c346ffb81e52346bab84c4e7d"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0167.json",
+          "bytes": 1173,
+          "sha256": "e306919a181718c21b481ab530d4359dc07149b8931c6b67b65ee8c0c49609e9"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0167.npy",
+          "bytes": 16512,
+          "sha256": "672591e7320a5728cdf8484e933152920f5f02a7a6469814e8b2bb96c215d601"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0168.json",
+          "bytes": 1173,
+          "sha256": "f0e70df2315096a2d07bd07dc9455a45d960515c1d8cb81eab540b818dd202e0"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0168.npy",
+          "bytes": 16512,
+          "sha256": "d6bc634473d85e85be034738f292916d697c4b50545e0fdf44221b200b4dee42"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0169.json",
+          "bytes": 1173,
+          "sha256": "356a697c6b86637481fa0875932c5e714cb7f0ac5a8d3a9cf2389f5f3e6ef303"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0169.npy",
+          "bytes": 16512,
+          "sha256": "bff3cce1ce9c8342477f57af78b9a83d6a942019f1d9ee945f2fc5c076b5839c"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0170.json",
+          "bytes": 1173,
+          "sha256": "fa80a9e1c1e69571204ce98a14e21f03b5906fb417368668e5a9274f0d026edf"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0170.npy",
+          "bytes": 16512,
+          "sha256": "990cd5808cb78e45829f0d53030988238213678fe8e64d92e77c8ea3f9359505"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0171.json",
+          "bytes": 1173,
+          "sha256": "c57214a33b72a6062a1cadfa176d14869a5e97a497875c0405dd4bd4f3b44430"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0171.npy",
+          "bytes": 16512,
+          "sha256": "63f5e33cadbf600f55351a16a9867b4a273f244d0c2fd44ac1cfecbd9e678d17"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0172.json",
+          "bytes": 1173,
+          "sha256": "38420b50aa3f80e70791e4dd773cef7258dcaefd774e1a7258f067c17434b85b"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0172.npy",
+          "bytes": 16512,
+          "sha256": "d4b3f78831c3df5f37aa68d0267d4b914e1df5d99efda7f8fbf24d377b8ad8b9"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0173.json",
+          "bytes": 1173,
+          "sha256": "5b38f460bf431d3a626043425382a1499d27d5eb3be7bb94bd6635d7560401a5"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0173.npy",
+          "bytes": 16512,
+          "sha256": "635aca2561f6344eb1587657a9d27e1e4a876cbdbd9c3aafc4c5f2491b8ee0d3"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0174.json",
+          "bytes": 1173,
+          "sha256": "8ddd4a2ee137d079bc0f8b8db459c2b37a0482bc347c3fab4700c285c69462bd"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0174.npy",
+          "bytes": 16512,
+          "sha256": "b6b08eb5ab203002a77ee399315cab2527b46a43e29a949c84bf2586604fe179"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0175.json",
+          "bytes": 1173,
+          "sha256": "53bd29f97b086ce7b4d3fa855146149f97de3f93fd6671173ea2a8d09aeb99e4"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0175.npy",
+          "bytes": 16512,
+          "sha256": "1d4d19e64db0333f8ff501ecc8242877ef6ce3317f7528b21766f30da7af7d62"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0176.json",
+          "bytes": 1173,
+          "sha256": "79a67b2ad9b552388e83bf3f642a0f123ae223b6ee2fecc074ee1dc7a0778e49"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0176.npy",
+          "bytes": 16512,
+          "sha256": "abca896de41603812f7f21a774ed3a2c30d3d9a1660f0ae55b999f5034d5852e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0177.json",
+          "bytes": 1173,
+          "sha256": "b281bb979de4219b916fe982be520cb08500553b1851f81072af1a6ca44048f1"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0177.npy",
+          "bytes": 16512,
+          "sha256": "569cd9221df156b7b37003ed5ade7822b16b34d6923d488505b5c6ab03c7b0ce"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0178.json",
+          "bytes": 1173,
+          "sha256": "7347f240697de02cb8d0e1262934cfa6855876699e9d2c13e7c42b66669edda1"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0178.npy",
+          "bytes": 16512,
+          "sha256": "e6fd073768eaf1a7c469403925e59121896bbfd2ca8cc8f7e9086af317a935ab"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0179.json",
+          "bytes": 1173,
+          "sha256": "9f4c1011e4990d320b085eb98bffbcd136f3b9a65ebf1809d4e5b704e750623f"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0179.npy",
+          "bytes": 16512,
+          "sha256": "295ee4de6e3d0eed3cbc9ccf2ad86547744a82821c8804c771b8354af48ef75f"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0180.json",
+          "bytes": 1173,
+          "sha256": "a6d3d334b9ab05dd0cce7712630b951c6c45d09c948f1de1e180a44ff72b5afd"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0180.npy",
+          "bytes": 16512,
+          "sha256": "2116b6cf6817e49fff449c8729c7df0a4bac5b41bbbe85a051e3425439a6f32b"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0181.json",
+          "bytes": 1173,
+          "sha256": "3b199b62c76a44a761efa281b1b5cfb038cddeffcc74d8239ca5c1b800fc80ca"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0181.npy",
+          "bytes": 16512,
+          "sha256": "94eb370f999be6ed913c118419ac0f1007d27985c37b7b60e20109a8cfe29640"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0182.json",
+          "bytes": 1173,
+          "sha256": "c36e75245c507c52b9d103046bc0613bc3b4fe5d76bc6358093182476a05f124"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0182.npy",
+          "bytes": 16512,
+          "sha256": "b60203099d8a17696e61f5d1cfd71bd3cd30014531f6295460d3339b4c79f90d"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0183.json",
+          "bytes": 1173,
+          "sha256": "79721422ac9f35a5dbeaad4f5aa942ed3f6a4d6774bb770d9e2eca828e874494"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0183.npy",
+          "bytes": 16512,
+          "sha256": "b51cd3cae41d3f86a420f546a238dae8503c27521357c2d1031419c56ec942e1"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0184.json",
+          "bytes": 1173,
+          "sha256": "580849fa4fe8e47ae4160bb7da18d0ea3e3dfe09e11be3200dcd20c38dcb359a"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0184.npy",
+          "bytes": 16512,
+          "sha256": "2ad87db20aea77e4dd786c33fc73e0e74797b6874eb1ed459f5e188e5bb83f64"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0185.json",
+          "bytes": 1173,
+          "sha256": "ddea48673ef7df145dee5e27272de39738fbca539743cdcc77dcd3d1a30fc6ee"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0185.npy",
+          "bytes": 16512,
+          "sha256": "e7f33289c842f429ae930cf5cb15abb0ad9e531540f3ac5ad9be84ccd9f9277e"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0186.json",
+          "bytes": 1173,
+          "sha256": "81d772cdb0d0318e9576220f025749d82a441f35ad03be36048670f677860d29"
+        },
+        {
+          "path": "jobs/hecate--pherc0841-20260221022814/tile-0186.npy",
+          "bytes": 16512,
+          "sha256": "bccb98a6209d520e92776ad4df4cfd01717fb73afc11a56bbc8ceeb44624cd13"
+        }
+      ],
+      "created_utc": "2026-10-12T16:31:15.089686+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "5c90325e4eb57c173624e1700d127d60954840de",
@@ -14567,17 +15496,17 @@
   ],
   "note": "Resume files, not a live process or installed runtime",
   "latest_worker_status": {
-    "committed_job_tiles": 95,
+    "committed_job_tiles": 188,
     "completed_jobs": 18,
-    "elapsed_seconds": 2547.2064483410068,
+    "elapsed_seconds": 2859.666851686008,
     "expected_job_tiles": 204,
     "expected_jobs": 20,
     "go_sha256": "2dcc6c78d6ccb2f129ccb70b01cfa29a069664a8576d1eafed666c8cef452899",
     "job": "hecate--pherc0841-20260221022814",
-    "new_forwards_this_attempt": 95,
+    "new_forwards_this_attempt": 188,
     "reused_forwards": 0,
     "status": "RUNNING",
-    "utc": "2026-10-12T16:26:00.853881+00:00"
+    "utc": "2026-10-12T16:31:13.314280+00:00"
   },
-  "updated_utc": "2026-10-12T16:26:06.637298+00:00"
+  "updated_utc": "2026-10-12T16:31:15.090147+00:00"
 }
