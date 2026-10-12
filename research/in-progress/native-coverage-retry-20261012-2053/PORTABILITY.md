@@ -4,6 +4,11 @@ This optional **8,654,575-byte (8.25 MiB)** archive adds the latest complete tea
 ranges and receipts, and preserves the failed retry. It does not change either
 dated original-stream qualification or admit the full added population.
 
+**Availability: private GitHub, verified.** The addendum was published at
+`62151d37f93b76cef67b07ee3be8aa3d841b6d0c`. A fresh selective download into
+an empty LFS cache matched its length and SHA256; see
+[REMOTE_RESTORE.json](REMOTE_RESTORE.json).
+
 [LOCAL_RESTORE.json](LOCAL_RESTORE.json) records a fresh extraction of all 159
 payload files and application of 151 changed paths to a new combined copy. Its
 cache matches the current workspace, and the original sources and both dated

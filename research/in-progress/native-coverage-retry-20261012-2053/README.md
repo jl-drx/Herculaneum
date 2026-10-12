@@ -37,7 +37,9 @@ job, external message or spare-VM assignment occurred. Keep the fixed population
 and original-source exposure rules; no availability-selected substitute study.
 
 The new source bytes are preserved as a small private addendum described in
-[PORTABILITY.md](PORTABILITY.md). After a meaningful recovery, resume the same
+[PORTABILITY.md](PORTABILITY.md). Its local restore and fresh selective GitHub
+download both passed; [REMOTE_RESTORE.json](REMOTE_RESTORE.json) records the
+published commit and verified bytes. After a meaningful recovery, resume the same
 remaining requests, finish full teacher/native support and class qualification,
 then freeze the controlled workload. Do not repeat the already failed persistent
 connection diagnostic as a demonstrated fix.
