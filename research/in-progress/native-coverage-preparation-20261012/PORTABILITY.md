@@ -51,6 +51,11 @@ torch, network, source predictions or training. OpenCV is unnecessary for this
 review; original source assembly used opencv-python-headless 5.0.0.93.
 [LOCAL_RESTORE.json](LOCAL_RESTORE.json) records a fresh extraction passing all
 308 file checks and reproducing the support-verification receipt exactly.
+[REMOTE_RESTORE.json](REMOTE_RESTORE.json) records a separate GitHub fetch into
+an empty dedicated LFS cache: exactly one object downloaded, with matching
+archive SHA256 and length and the correct private-branch pointer. This is
+remote byte-availability verification in the same workspace, not a review on
+a second physical machine.
 
 The disposable mechanics checkpoint and released model weights are excluded;
 the checkpoint hash/length receipt and saved test results remain. The package
