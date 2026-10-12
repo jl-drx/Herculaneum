@@ -1,10 +1,11 @@
 # Retry retained 912 more source records; full intake still incomplete
 
-**Latest update is local only.** The archive and report are committed and
-restore-tested, but GitHub LFS publication hit HTTP 503. Its fresh readback also
-failed, and the remote branch remains at `9548d79`. The previously published
-checkpoints are unchanged. [PERSISTENCE.json](PERSISTENCE.json) records the failed
-publication stages and the exact next verification required.
+**Published privately and remotely verified.** The recovered push at `2369f0d`
+and fresh selective download passed on 12 October at 23:18 UTC. See
+[REMOTE_RESTORE.json](REMOTE_RESTORE.json); the earlier failed publication is
+preserved in [PERSISTENCE_BLOCKED_20261012T2154.json](PERSISTENCE_BLOCKED_20261012T2154.json).
+The [23:18 continuation](../native-coverage-retry-20261012-2318/README.md) retains
+later inputs and the first complete case's mechanical qualification separately.
 
 12 October 2026. The user's requested retry passed its one-byte source probe
 and resumed the unchanged four-reader intake. It retained **912 new records**:
@@ -12,7 +13,7 @@ and resumed the unchanged four-reader intake. It retained **912 new records**:
 The retry stopped when HTTP 503 returned at 21:48 UTC. The frozen request
 manifest, eligibility rules, source identities and saved receipts are unchanged.
 
-Current added-source state, verified against every receipt and body hash:
+Added-source state at this dated checkpoint, verified against every receipt and body hash:
 
 - **2,506 complete records:** 2,011 CT chunks and 495 teacher ranges.
 - **982,988,739 bytes** retained; zero confirmed missing sources.

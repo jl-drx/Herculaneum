@@ -1,0 +1,42 @@
+{
+  "status": "LOCAL_COMMITTED_REMOTE_PUBLICATION_UNCONFIRMED",
+  "utc": "2026-10-12T21:54:34.840439+00:00",
+  "repository": "jl-drx/Herculaneum",
+  "branch": "codex/plinius-pherc343-reproduction",
+  "source_commit": "8c25465ac31184ffc78a3ba11f57ca2e8ea10c52",
+  "remote_ref_recheck_returncode": 0,
+  "observed_remote_ref": "9548d79d3f8227403d879625494055fb85cf29d9",
+  "last_acknowledged_successful_push_commit": "9548d79d3f8227403d879625494055fb85cf29d9",
+  "archive_path": "research/workspace/bundles/native-coverage-retry-20261012-2147.tar.gz",
+  "archive_bytes": 290148807,
+  "archive_sha256": "4d16cece37b134da339775306d00dbd9c8bf1df2ea6d8e416561719714f72917",
+  "local_restore": "PASS",
+  "remote_archive_availability": "NOT_ESTABLISHED",
+  "attempts": [
+    {
+      "operation": "Normal git push",
+      "failure": "HTTP 503 from Git LFS locks/verify",
+      "result": "Failed before Git ref publication"
+    },
+    {
+      "operation": "Read-only git lfs locks --verify --json",
+      "result": "PASS: empty ours/theirs lists; verification configuration unchanged"
+    },
+    {
+      "operation": "Normal git push after verification endpoint recovered",
+      "failure": "HTTP 503 from LFS object verify endpoint after reported body transfer",
+      "result": "Push failed; server object acceptance not established"
+    },
+    {
+      "operation": "Fresh selective LFS download using local source commit",
+      "result": "Failed",
+      "returncode": 2,
+      "scope": "No remote byte-identity claim"
+    }
+  ],
+  "resume": "After access recovers, push the current branch normally, then verify remote ref/pointer and a fresh selective LFS download. Do not skip LFS verification or force push.",
+  "retained_added_records": 2506,
+  "pending_added_requests": 15064,
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

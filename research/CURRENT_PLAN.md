@@ -108,21 +108,24 @@ Persistent outbound proxy-tunnel HTTP 503 errors still prevent full added-stream
 CT/teacher acquisition. The source caches and exact pending requests are preserved;
 unavailable transport is not an absent object or a negative label. No substitute
 three-winding or availability-selected added-stream experiment is authorized.
-The added cache now contains 2,506 complete records, with 15,064 requests pending.
+The added cache now contains 3,515 complete records, with 14,055 requests pending.
 A bounded persistent-connection diagnostic failed on the same live socket after
 seven successes, so local connection reuse did not solve the problem. Preserve
 all dated qualifications and failed attempts; the full matched pair is unadmitted.
 The completed-original packet and cumulative archive are now on private GitHub:
 the recovered push and fresh selective download matched the verified archive.
-The [latest source retry](in-progress/native-coverage-retry-20261012-2147/README.md)
-retained another 608 CT chunks and 304 teacher ranges (317,025,084 bytes) before
-HTTP 503 returned. All requested source bytes for the first of eight PHerc0814
-segments are now present, but its supervision has not been population-qualified.
-These are acquisition progress only; the full source prerequisite remains unresolved.
-The latest cumulative addendum is committed and restore-tested locally. GitHub
-LFS publication and fresh readback failed, while Git/API reads still work; the
-remote ref remains `9548d79`. Publish and verify this addendum after recovery
-before describing the newest source bytes as portable through GitHub.
+The previously blocked 21:47 addendum is now published and remotely verified.
+The [latest source retry](in-progress/native-coverage-retry-20261012-2318/README.md)
+retained another 898 CT chunks and 111 teacher ranges (423,669,085 bytes) before
+HTTP 503 returned. The [first complete case's qualification](in-progress/native-added-qualification-20261012/README.md)
+passes official/explicit TIFF decoding, independent area arithmetic on all 1,290
+cores and a separate full-raster CT verification. All 315 restricted and 1,290
+broad candidates meet the fixed supervision minimum; zero-positive teacher
+patches remain. Teacher-positive occurrence shares differ (22.135% versus
+19.665%), reinforcing the need for full class/source accounting before freezing
+training weights. These are weak-supervision mechanics, not physical registration
+or a model result. The other seven segments remain unresolved, and no smaller
+availability-selected training cohort is admitted.
 After public S3 access recovers, resume those same requests, complete the fixed
 population qualification, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep

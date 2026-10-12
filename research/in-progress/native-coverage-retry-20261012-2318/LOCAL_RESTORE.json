@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T23:32:40.928980+00:00",
+  "archive_sha256": "f44ed05c21b2ee51dc0bd383ae71aef24847700726c1fe4284df327311843dc0",
+  "archive_bytes": 378709958,
+  "archive_files_verified": 2137,
+  "applied_paths": 2126,
+  "parent_files_reverified": 6897,
+  "parent_manifest_sha256": "665c69cb1e6fb890ce06685679910f0293799d52d63dbcb935b852b13ba92899",
+  "combined_manifest_sha256": "1790fbb99352c12dc5bfb2ab59b4ad5d92edccef8b1a3b87213fe3dd2ea8d153",
+  "parent_restore_unchanged": true,
+  "combined_work_matches_current_cache": true,
+  "original_sources_and_both_dated_qualifications_byte_identical": true,
+  "original_numeric_replay_repeated": false,
+  "original_numeric_evidence": "Prior 876-row replay retained byte-identically; no original inputs or outputs changed.",
+  "added_cache": {
+    "present": 3515,
+    "missing": 0,
+    "pending": 14055,
+    "pending_bytes": 5083778412
+  },
+  "original_cache": {
+    "present": 781,
+    "missing": 0,
+    "pending": 0,
+    "pending_bytes": 0
+  },
+  "scope": "Fresh local extraction and new combined copy in this workspace; not a second-machine scientific review.",
+  "full_population_admitted": false,
+  "new_model_forwards": 0,
+  "paid_compute": false,
+  "added_independent_verifier_replay_byte_identical": true,
+  "added_production_case_results_and_derived_files_byte_identical": true
+}

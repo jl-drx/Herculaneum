@@ -136,7 +136,7 @@ currently incomplete because public S3 requests encounter proxy-tunnel HTTP 503
 errors. The [original-stream continuation](../../native-coverage-completion-20261012/README.md)
 now qualifies all 876 fixed candidates against 781 complete CT chunks, with
 independent numerical verification and explicit winding/class exposure accounting.
-The added stream still has 15,064 unreceived requests after the latest retry;
+The added stream still has 14,055 unreceived requests after the latest retry;
 a persistent-connection diagnostic did not avoid the proxy failure. Keep the intended five/eight-source
 design; do not qualify a smaller availability-selected pair or interpret this
 operational pause as a learning result. The exact request lists and partial

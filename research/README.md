@@ -2,16 +2,14 @@
 
 **Active priorities:** [CURRENT_PLAN.md](CURRENT_PLAN.md) implements the approved 12 October programme. Correct-sheet recovery, strong native learning, and an exposure-aware reference reserve continue after the unchanged native0139 study completed. Historical conditional next steps below do not override this plan.
 
-**Original native stream completed:** [all 876 fixed PHerc0139 candidates now pass CT/support qualification](in-progress/native-coverage-completion-20261012/README.md), with all 781 source chunks and counts independently verified. Exposure accounting distinguishes 5,022,663 within-winding supervised UV positions from 8,934,148 overlapping patch occurrences and retains all one-class patches. The full added PHerc0814 population still awaits 15,064 source requests after HTTP 503 returned; a persistent-connection diagnostic also failed. The full matched training pair remains unadmitted. Dated partial results and completed downloads are preserved without replacing the cohort, reopening evaluation or starting paid compute.
+**Original native stream completed:** [all 876 fixed PHerc0139 candidates now pass CT/support qualification](in-progress/native-coverage-completion-20261012/README.md), with all 781 source chunks and counts independently verified. Exposure accounting distinguishes 5,022,663 within-winding supervised UV positions from 8,934,148 overlapping patch occurrences and retains all one-class patches. The full added PHerc0814 population still awaits 14,055 source requests after HTTP 503 returned. The full matched training pair remains unadmitted. Dated results and completed downloads are preserved without replacing the cohort, reopening evaluation or starting paid compute.
 
-The completed-original packet and cumulative archive are now published privately
-and verified by a fresh GitHub download. [The latest source retry](in-progress/native-coverage-retry-20261012-2147/README.md)
-retained another 912 records (317 MB) before HTTP 503 returned; 15,064 requests
-remain. One of eight added segments has all requested bytes, with supervision
-qualification still pending. The checkpoint's scientific results are unchanged.
-The newest cumulative addendum is **local only**: LFS publication and fresh
-readback failed. [Persistence status](in-progress/native-coverage-retry-20261012-2147/PERSISTENCE.json)
-records the distinction from the previously published and verified archives.
+The earlier pending checkpoint is now privately published and verified by fresh
+download. [The latest retry](in-progress/native-coverage-retry-20261012-2318/README.md)
+retained another 1,009 records (424 MB). The [first complete source's qualification](in-progress/native-added-qualification-20261012/README.md)
+passes decoder, global area-sampling and separate CT/support checks on all 1,290
+candidates. Restricted and broad teacher class shares differ; complete the other
+seven cases before freezing training weights. No model improvement is claimed.
 
 **Matched coverage preparation completed:** [source and full-model mechanics checks](in-progress/native-coverage-preparation-20261012/README.md) bind all 56 released native-v2 representations, qualify seven of eight fixed PHerc0814 source crops, and pass exact-stream accumulation and checkpoint reload checks. The first pair now varies regional coverage on the same eight PHerc0814 segments while preserving PHerc0139 draws and loss weights. Its 2,886 versus 11,887 candidate patches yield only 1.46–1.60× coarse CT-neighbourhood coverage; population-wide source and supervision admission remains next. No learning-improvement or GPU-readiness claim follows. The [private evidence bundle](in-progress/native-coverage-preparation-20261012/PORTABILITY.md) includes the new inputs. The parallel [CT corridor review](in-progress/geometry-corridor-preparation-20261012/README.md) retains two short provisional paths but still lacks an independently qualified geometry reference.
 
