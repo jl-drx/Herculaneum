@@ -3946,6 +3946,190 @@
       ],
       "created_utc": "2026-10-12T14:04:46.382897+00:00",
       "archive_readback": "PASS"
+    },
+    {
+      "name": "generation-0171.tar.gz",
+      "bytes": 81974009,
+      "sha256": "ff8c1a8d6f9706d7a12f11670cf7a572ce5e989aa3edf249f22ff7241a729b05",
+      "members": [
+        {
+          "path": "RESULTS.json",
+          "bytes": 8364,
+          "sha256": "ce4dd4af21403e3e608e6f79072705ab9ea97c8e7ca56379566595d90955e170"
+        },
+        {
+          "path": "evaluation/ENDPOINTS.json",
+          "bytes": 1601,
+          "sha256": "369e3f50acad80b0cd2c57940918368c2ef9330d79d6bd57b32393637e0a0af6"
+        },
+        {
+          "path": "evaluation/w035-cnn-seed17.json",
+          "bytes": 43484,
+          "sha256": "da17a67c536f7899e4f1a53e919af6b594794ddce4e524b44505ce78a45b1a96"
+        },
+        {
+          "path": "evaluation/w035-cnn-seed17.npy",
+          "bytes": 7143552,
+          "sha256": "9ad43037c4fe8899b85d5e246c26ff70bd179a6758bc71faeb65db140ebdb45f"
+        },
+        {
+          "path": "evaluation/w035-cnn-seed43.json",
+          "bytes": 43490,
+          "sha256": "2fe3bb7d5596329fb6a65d4da42a58b795c3648d8f886ea162f42c386f2d8dab"
+        },
+        {
+          "path": "evaluation/w035-cnn-seed43.npy",
+          "bytes": 7143552,
+          "sha256": "3784beee615fb64c4618bdb3f6c48ae3e5b771408e2ee9711d7a377aeac84962"
+        },
+        {
+          "path": "evaluation/w035-cnn-seed89.json",
+          "bytes": 43484,
+          "sha256": "214263b061f071a874ab6afa3f1857b6b2a0c39edd8f012ea3510e32e2d58d52"
+        },
+        {
+          "path": "evaluation/w035-cnn-seed89.npy",
+          "bytes": 7143552,
+          "sha256": "7967404f958dc784945f2830dd5d968fb4e76bd05b72b01951ad5d96ae3e917d"
+        },
+        {
+          "path": "evaluation/w035-constant.json",
+          "bytes": 40726,
+          "sha256": "4d33b072d478f290e638272b8b520da5e43450140b5d8e7ab540740f229ec6b7"
+        },
+        {
+          "path": "evaluation/w035-constant.npy",
+          "bytes": 14286976,
+          "sha256": "dd55c6b47e8073af0b8d6b6b013c59c6eb6ea0cbe82b2c87b18dffe1d03d3b47"
+        },
+        {
+          "path": "evaluation/w035-profile.json",
+          "bytes": 42971,
+          "sha256": "2d5bbcc574d3169d2c05e96d86e8c2787a2d1df7cc01bad8041cbde8f3190214"
+        },
+        {
+          "path": "evaluation/w035-profile.npy",
+          "bytes": 14286976,
+          "sha256": "5e7ed8ab97426236aab6cdcc102ddec86a3fcb2a8b04f381b0cbe6d56c3affe6"
+        },
+        {
+          "path": "evaluation/w039-cnn-seed17.json",
+          "bytes": 21808,
+          "sha256": "9376a2ae2960adc2dc4ea17b7d7430040992ad48837a557a80b11fb6160ad25f"
+        },
+        {
+          "path": "evaluation/w039-cnn-seed17.npy",
+          "bytes": 3539072,
+          "sha256": "eff4294f82e7c0613ad479146396852888eaa0ccc06f5958c9b2232540893680"
+        },
+        {
+          "path": "evaluation/w039-cnn-seed43.json",
+          "bytes": 21813,
+          "sha256": "d6c4ebd990d311b6105e0bfa0e453a8881d3d723ee63242a81df70d5fb17759c"
+        },
+        {
+          "path": "evaluation/w039-cnn-seed43.npy",
+          "bytes": 3539072,
+          "sha256": "ac929e222190cca54657142607cdd1fd1ad120d39354ec9587ada48388784b1c"
+        },
+        {
+          "path": "evaluation/w039-cnn-seed89.json",
+          "bytes": 21843,
+          "sha256": "2c503f1cda10580c65270cd39ac00335118b38e1293cb379765ca0df77224a45"
+        },
+        {
+          "path": "evaluation/w039-cnn-seed89.npy",
+          "bytes": 3539072,
+          "sha256": "40e2f77533a67b477925898fbf77bf66cf286c71ee43de64586699a6e0ba33d1"
+        },
+        {
+          "path": "evaluation/w039-constant.json",
+          "bytes": 20436,
+          "sha256": "e4b2dd3e971d948bf9271bfa56a323fe69a96da3ab6acbea676d08aa74178f79"
+        },
+        {
+          "path": "evaluation/w039-constant.npy",
+          "bytes": 7078016,
+          "sha256": "02ee640c4da89af0d2ea2a59738ee46ccc039317b102daddcd33867567dafa2d"
+        },
+        {
+          "path": "evaluation/w039-profile.json",
+          "bytes": 21792,
+          "sha256": "286fe23d2d0b10341416ec046af0cb817b47d903446bbc34c9158239b955ccaa"
+        },
+        {
+          "path": "evaluation/w039-profile.npy",
+          "bytes": 7078016,
+          "sha256": "62db058525cf4fae90e538936eb0dd96d8b4a9e09b162fc76ffd248a813e5867"
+        },
+        {
+          "path": "evaluation/w044-cnn-seed17.json",
+          "bytes": 41440,
+          "sha256": "19d55087a24a73ffccb14bff64618cb228cb7b1b9532b99879981e51ffe9cb08"
+        },
+        {
+          "path": "evaluation/w044-cnn-seed17.npy",
+          "bytes": 6684800,
+          "sha256": "2f4b16299beffefea144c6f663d2f6e669f48f265a55e6d696010e6073e2ce8a"
+        },
+        {
+          "path": "evaluation/w044-cnn-seed43.json",
+          "bytes": 41394,
+          "sha256": "9a487557b481455e721700a137a08bbe7ffa00a7c79ded21b15182b4cabae9be"
+        },
+        {
+          "path": "evaluation/w044-cnn-seed43.npy",
+          "bytes": 6684800,
+          "sha256": "d9a80f9f7ce0712e61ff541d4ae1bd638701ba4baec176c84009f36ae0c8b060"
+        },
+        {
+          "path": "evaluation/w044-cnn-seed89.json",
+          "bytes": 41420,
+          "sha256": "0111eab7a526ffd0a1ede92784bbc7e499bf44b53550642c6002cdaadb8bce6e"
+        },
+        {
+          "path": "evaluation/w044-cnn-seed89.npy",
+          "bytes": 6684800,
+          "sha256": "523cd4a8581fc04989dd23b9c36a31cf93996ddca5dc4a9bc679a22d474bfe43"
+        },
+        {
+          "path": "evaluation/w044-constant.json",
+          "bytes": 38608,
+          "sha256": "a97f5a8c13ef02c60bf3beb44131fee5e750b6964de48ae8f101942964cad665"
+        },
+        {
+          "path": "evaluation/w044-constant.npy",
+          "bytes": 13369472,
+          "sha256": "2f9ea796bb1febd02bbac54aef1e823f27da53f68c50a69e77e9956e2c54a76b"
+        },
+        {
+          "path": "evaluation/w044-profile.json",
+          "bytes": 40192,
+          "sha256": "2485bf0affc9739ca23ca45a0eaaa0faab1dfefa9b2e0cae4be534b6131a62e7"
+        },
+        {
+          "path": "evaluation/w044-profile.npy",
+          "bytes": 13369472,
+          "sha256": "a0506d631d71b99a499bade2ca764d9c8d4d12f6a06679b8ebfd7c08a1a53445"
+        },
+        {
+          "path": "work/w044-seed89/COMPLETE.json",
+          "bytes": 25942,
+          "sha256": "39a31ba0a887462b3608a5b8c19dbac3092c9336dab67f3ec97dd50ba76003b8"
+        },
+        {
+          "path": "work/w044-seed89/step-016384.json",
+          "bytes": 907,
+          "sha256": "1b9f498c2f30485ff32193dad33ddd0100c9699755bd35f8ac7cd17402023759"
+        },
+        {
+          "path": "work/w044-seed89/step-016384.pt",
+          "bytes": 1532973,
+          "sha256": "1229cae540298b00a671f6d665607c8d26455f4be9f15ba57a13133dd6fb659c"
+        }
+      ],
+      "created_utc": "2026-10-12T14:08:21.405272+00:00",
+      "archive_readback": "PASS"
     }
   ],
   "base_scientific_commit": "b9d72e6a0b9ef9b341da5ed73eac730f1576eca0",
@@ -3963,29 +4147,9 @@
   ],
   "note": "Resume files, not a live process or installed runtime",
   "latest_worker_status": {
-    "utc": "2026-10-12T14:03:54.671021+00:00",
-    "phase": "training",
-    "arm": "w044-seed89",
-    "step": 16128,
-    "maximum_updates": 16384,
-    "train": {
-      "ap": 0.9957231357880821,
-      "auc": 0.9979799332121003,
-      "positives": 516251,
-      "negatives": 1121962,
-      "undefined_single_class": false,
-      "bce": 0.054374011589702106,
-      "prevalence": 0.31513057215392626,
-      "mean_probability": 0.30914275921190876,
-      "fraction_probability_ge_half": 0.3101647954203757
-    },
-    "lr": 0.0003,
-    "seconds_per_update_including_training_checks": 0.7201593925646084,
-    "termination": null,
-    "held_out_predictions": 0,
-    "draws": 64512,
-    "unique_cores": 163,
-    "supervised_pixel_exposures": 839629389
+    "utc": "2026-10-12T14:07:51.314259+00:00",
+    "phase": "complete",
+    "results_sha256": "ce4dd4af21403e3e608e6f79072705ab9ea97c8e7ca56379566595d90955e170"
   },
-  "updated_utc": "2026-10-12T14:04:46.383504+00:00"
+  "updated_utc": "2026-10-12T14:08:21.405808+00:00"
 }
