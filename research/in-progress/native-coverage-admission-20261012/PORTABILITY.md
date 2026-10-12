@@ -103,6 +103,10 @@ diagnostic response is not a source object or a usable CT chunk.
 complete source objects against the frozen request lists and receipts. A separate
 comparison confirmed that the combined work tree matches the live partial cache,
 the original 2,887-file restore still verifies, and qualification files are unchanged.
+Both the [base archive](REMOTE_RESTORE.json) and [addendum](ADDENDUM_REMOTE_RESTORE.json)
+were then downloaded separately from private GitHub into empty LFS caches and
+matched their verified archive bytes and SHA256 values. This is a remote
+availability check in the same workspace, not a second-machine scientific review.
 
 ## Resume the fixed acquisition
 
