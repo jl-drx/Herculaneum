@@ -1,0 +1,33 @@
+{
+  "code_pins": [
+    {
+      "bytes": 1991,
+      "path": "evaluation-implementation/check_metrics.py",
+      "sha256": "515e59fe92af15e5dae9866dfe53d58054b0701b3189ecd8cc17ec9dfbd99053"
+    },
+    {
+      "bytes": 9936,
+      "path": "evaluation-implementation/evaluate.py",
+      "sha256": "a810af87fa4151a75ab8d45a1122384790234fba46ac543b7168c80ca3ff399c"
+    },
+    {
+      "bytes": 16609,
+      "path": "evaluation-implementation/runner.py",
+      "sha256": "9fb08ee0af8ecc0cf79944e576a27c40e8c0567af6f456e1d21809b1db70a569"
+    },
+    {
+      "bytes": 12007,
+      "path": "evaluation-implementation/verify_results.py",
+      "sha256": "7b8454a7b6099d4c12c01279359a94b242c323ef47c2a7d441bc1c92868b7864"
+    }
+  ],
+  "go_sha256": "2dcc6c78d6ccb2f129ccb70b01cfa29a069664a8576d1eafed666c8cef452899",
+  "qualification": {
+    "bytes": 1010,
+    "path": "METRIC_QUALIFICATION.json",
+    "sha256": "13414fc148254c3ccedd828ab7379ab09591ba5b5607105b0000516225d17783"
+  },
+  "scope": "Implementation of pre-forward protocol, no change to metrics/support/decision definitions",
+  "status": "FROZEN_BEFORE_MODEL_METRICS_OPENED",
+  "utc": "2026-10-12T15:50:40.491189+00:00"
+}
