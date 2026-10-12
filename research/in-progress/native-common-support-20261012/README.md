@@ -1,5 +1,10 @@
 # Strong native baselines: inputs prepared, inference unrun
 
+This page records the completed input-preparation phase. The subsequent
+[qualified comparison](../native-common-comparison-20261012/README.md) started
+on 12 October; its execution and results are recorded separately. The input
+packet and the failed original panel remain unchanged.
+
 12 October 2026. This packet prepares the fixed Reader v2 / dense-native /
 Hecate / seed42 / seed43 development comparison. The native0139 worker has
 finished; no training or inference worker is running for this packet. No GPU,

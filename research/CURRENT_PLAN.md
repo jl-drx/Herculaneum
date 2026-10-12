@@ -63,10 +63,13 @@ revealed that the union-selected panel contained no positive reference pixels in
 any of its three PHerc0841 segments. Preserve that failed admission. A separate,
 explicitly adaptive supervision-only panel was frozen before model inference:
 24 cores, 232,250 score pixels and both classes in each segment. All source chunks
-and 1,050 model patches are verified. The next execution is the fixed five-model
-CPU comparison (estimated 40–60 minutes), after qualifying/freezing its resumable
-multi-segment runner. No model comparison or paid work has started. Do not call
-this small, exposed panel a fresh confirmation test or reopen the native0139 fits.
+and 1,050 model patches are verified. The [fixed five-model CPU comparison](in-progress/native-common-comparison-20261012/README.md)
+started on 12 October after synthetic original-pipeline parity and input
+normalization checks. Its per-tile progress is backed up privately; a fresh
+remote restoration and first-job replay passed. Numerical definitions and a
+separate metric implementation are frozen, with scoring locked until all jobs
+complete. No paid work has started. Do not call this small, exposed panel a
+fresh confirmation test or reopen the native0139 fits.
 
 ## Conditional next experiments
 

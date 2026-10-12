@@ -1,0 +1,40 @@
+{
+  "archive_bytes": 64736459,
+  "exact_replay": true,
+  "files": 2008,
+  "generations": 3,
+  "go_sha256": "2dcc6c78d6ccb2f129ccb70b01cfa29a069664a8576d1eafed666c8cef452899",
+  "implementation": {
+    "bytes": 3493,
+    "path": "/workspace/Herculaneum/research/in-progress/native-common-comparison-20261012/verify_remote_backup.py",
+    "sha256": "dea3e2077e135dfabdd58e0dbd88ffa1ff0aa788f9b2ca57e9c5467ec6a34911"
+  },
+  "remote_commit": "ba9dba819495f5f6ebd98d21a2da3c4f48fccb38",
+  "replay_counts": {
+    "model_calls": 54,
+    "new_forwards": 0,
+    "reused_forwards": 54
+  },
+  "restore_implementation": {
+    "bytes": 2380,
+    "path": "/workspace/Herculaneum/research/in-progress/pherc0139-native-learning-20261011/restore_backup.py",
+    "sha256": "cee996a4e30c9bf57e22285835e006f254378cd3436bae230c6b0535ecd80529"
+  },
+  "restored": 2008,
+  "restored_core_maps": 6,
+  "restored_job": "reader_v2--pherc0841-20260220213127",
+  "reused": 0,
+  "scope": "Whole snapshot file/hash restoration plus first completed job numeric replay; not process restart or all-job numeric replay",
+  "source_prerequisites": [
+    {
+      "bytes": 219891044,
+      "commit": "eb5947970e0fc5279fe36558daf6a25cfd3dfd2d",
+      "path": "research/workspace/bundles/native-common-support-inputs-20261012.tar.gz",
+      "purpose": "Frozen native common-support inputs; model weights separate",
+      "sha256": "b6632e6798d808af7252cc372f9e567d3338adba947e64e54755c895af236968"
+    }
+  ],
+  "status": "PASS",
+  "trained_model_forwards": 0,
+  "worker_started": false
+}

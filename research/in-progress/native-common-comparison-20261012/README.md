@@ -24,6 +24,13 @@ this is not a process-crash or lost-success-response test. Metrics remain unopen
 until all jobs finish. Initial runtime estimate: 40–60 minutes, subject to measured
 throughput. No paid compute, Actions job or PR is involved.
 
+The [metric implementation](evaluate.py) and [separate verifier](verify_results.py)
+passed [68 paired synthetic cases](METRIC_QUALIFICATION.json), including exact ties
+and one-class handling. [EVALUATION_GO.json](EVALUATION_GO.json) freezes that code
+before model metrics are opened. `finalize.py` waits for all inference receipts,
+applies those frozen definitions, verifies the outputs and publishes a final
+private backup. It does not alter the worker or run a model.
+
 ## Execute or resume
 
 The frozen input archive is
@@ -63,6 +70,11 @@ prerequisites. GO uses the original absolute checkpoint paths; reproduce those p
 or document and qualify a portability amendment before resuming elsewhere. The
 backup branch's INDEX lists every member hash and archive hash. Restore rejects
 changed existing files. Credentials are never included.
+
+A [fresh remote restoration](REMOTE_PROGRESS_RESTORE.json) checked 2,008 files in
+the first three generations and exactly replayed the first completed Reader job
+(six core maps, 54 reused logits, zero new forwards). That is a successful
+snapshot restore and numeric replay, not a guarantee of automatic process restart.
 
 ```bash
 python research/in-progress/pherc0139-native-learning-20261011/restore_backup.py \

@@ -50,6 +50,16 @@ retention exposure fixed. A final loader needs the counterfactual excluded-label
 test: excluded labels must not alter membership, targets, inputs or gradients.
 Do not infer correctness from an upstream loader's name or config alone.
 
+The [12 October synthetic loader preflight](../../native-training-preflight-20261012/README.md)
+passes that check for the retained zero-coverage-threshold flat recipe, including
+default augmentation and all five jitter offsets. Two negative controls require
+care: unmasked label-coverage filtering can change patch membership, and flat
+depth projection can import excluded values from another plane. Preserve a
+separate ignore mask and canonicalize a training-only label view before projection;
+do not overwrite source references. Reader's own central-plane label writer leaves
+other planes zero. This bounded preflight does not qualify a new real training
+cohort or the eventual CUDA loader.
+
 ## Data admission and scoring
 
 `READER_TRAIN_EXPOSURE.csv` records 99 released representations across eight
