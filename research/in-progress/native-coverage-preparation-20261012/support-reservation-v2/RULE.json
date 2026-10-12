@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_BEFORE_SUPPORT_ENUMERATION",
+  "revision": 2,
+  "patch_size": 128,
+  "stride": 96,
+  "block_size": 512,
+  "narrow": "SHA256 keyed parent-segment/block modulo 4 equals 0; keep a patch only if its entire 128-square lies inside the block",
+  "broad": "All candidates passing the same geometry AND within-block screen, including narrow support",
+  "amendment": "Version 1 applied the within-block screen only to A. Apply it to both arms before labels or training, preventing a block-boundary eligibility difference. Keep the same hash and all previous outputs.",
+  "geometry": "Finite positive XYZ over the patch footprint plus two stored mesh nodes of halo; reject mesh-array boundary. Metadata spacing 0.05 stored nodes/native pixel.",
+  "context_box": "Bounding box of that stored-node footprint padded by 11 native voxels for the declared 21-plane window. Conservative proxy, not independently verified render/ray support.",
+  "physical_proxy": "Union of padded XYZ bounding-box grid cells at 64 and 128 native voxels; count only as input-neighbourhood coverage, not sheet area or exact aliases.",
+  "failed_screen": "Keep counts; no response-based replacement",
+  "label_class_values_read": false,
+  "cohort_wide_teacher_payload_decoded_before_freeze": false,
+  "prior_exposure": "Eight metadata-centred smoke locations were inspected; this is development training material, not blind or final evaluation.",
+  "original_stream": "Unchanged PHerc0139; whole PHerc0841/0009 excluded; PHerc0175/1203 reserve unopened",
+  "sources_sha256": "d8ac701a342c83f0c0d942011200600330bf68a8e4aa2298e3e1b4a8c0438077",
+  "geometry_audit_sha256": "0f1199e5256bbcbcc3a9a6aa92be570dbfc94e7ca93a6bec954bd5d5bdf24458",
+  "implementation_sha256": "f7743ac14d0256f8a9e906390acb835155970fd1e8c8a9365c122a1658680c0b"
+}

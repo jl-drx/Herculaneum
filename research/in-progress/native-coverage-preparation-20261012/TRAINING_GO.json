@@ -1,0 +1,164 @@
+{
+  "status": "FROZEN_MECHANICS_CHECK_ONLY",
+  "checkpoint": {
+    "bytes": 272895087,
+    "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+    "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244"
+  },
+  "fixture": [
+    {
+      "core_id": "w035-x00512-y01280",
+      "x": 512,
+      "y": 1280,
+      "width": 128,
+      "height": 128,
+      "supervised_pixels": 2646,
+      "complete_core": true,
+      "complete_context": true,
+      "eligible": true,
+      "reason": "eligible",
+      "ink_supervised": 0,
+      "nonink_supervised": 2646,
+      "ink_outside_supervision": 0,
+      "winding": "w035",
+      "fixture_role": "negative"
+    },
+    {
+      "core_id": "w035-x00512-y00896",
+      "x": 512,
+      "y": 896,
+      "width": 128,
+      "height": 128,
+      "supervised_pixels": 1211,
+      "complete_core": true,
+      "complete_context": true,
+      "eligible": true,
+      "reason": "eligible",
+      "ink_supervised": 416,
+      "nonink_supervised": 795,
+      "ink_outside_supervision": 13,
+      "winding": "w035",
+      "fixture_role": "two_class"
+    },
+    {
+      "core_id": "w039-x02560-y04736",
+      "x": 2560,
+      "y": 4736,
+      "width": 128,
+      "height": 128,
+      "supervised_pixels": 11614,
+      "complete_core": true,
+      "complete_context": true,
+      "eligible": true,
+      "reason": "eligible",
+      "ink_supervised": 0,
+      "nonink_supervised": 11614,
+      "ink_outside_supervision": 0,
+      "winding": "w039",
+      "fixture_role": "negative"
+    },
+    {
+      "core_id": "w039-x02432-y04352",
+      "x": 2432,
+      "y": 4352,
+      "width": 128,
+      "height": 128,
+      "supervised_pixels": 2472,
+      "complete_core": true,
+      "complete_context": true,
+      "eligible": true,
+      "reason": "eligible",
+      "ink_supervised": 63,
+      "nonink_supervised": 2409,
+      "ink_outside_supervision": 0,
+      "winding": "w039",
+      "fixture_role": "two_class"
+    }
+  ],
+  "fixture_selection": "First lexicographic eligible negative and two-class core on w035 and w039; class-aware mechanics fixture only, not a training cohort or validation selection",
+  "source_pins": {
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/ct/chunks/w035/0/10/4.bin": {
+      "sha256": "5edfabdd14679c5cca482283fa4fbd36e33d4f00fe8affec2ed0c178bfc7b180",
+      "bytes": 458752
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/arrays/w035/inklabels/c/0/0": {
+      "sha256": "b0db4f2af6f306a99eaa39661950a472c54006b9ea47e10f38f960aa21385f49",
+      "bytes": 12888
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/arrays/w035/inklabels/zarr.json": {
+      "sha256": "8fd210540303a70023b4513aedef242df8d453644abd5c1812deddebc6761b0c",
+      "bytes": 1214
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/arrays/w035/supervision/c/0/0": {
+      "sha256": "8d21bb35550e5793a86519ccdcee1afc6b26c80dba3d2197536cec8996d53ed1",
+      "bytes": 10630
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/arrays/w035/supervision/zarr.json": {
+      "sha256": "8fd210540303a70023b4513aedef242df8d453644abd5c1812deddebc6761b0c",
+      "bytes": 1214
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/ct/chunks/w035/0/7/4.bin": {
+      "sha256": "7aec1ac7e2673941e49980730e1a8b018284fb698bec65e52c0d20bcc7f03c39",
+      "bytes": 458752
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/ct/chunks/w039/0/37/20.bin": {
+      "sha256": "2c11223e49690bb54daf40835eae1db0612f0ff9d9f2e9b6a06a6e4f9b147161",
+      "bytes": 458752
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/arrays/w039/inklabels/c/0/0": {
+      "sha256": "6f7b7887e24dd8ac166995603147e1770d44716b0b912938347a55ae32cc6dc0",
+      "bytes": 10131
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/arrays/w039/inklabels/zarr.json": {
+      "sha256": "85ee35d518ac4404e926a6868c24013a88adc2d80349b45594142236c5203bff",
+      "bytes": 1214
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/arrays/w039/supervision/c/0/0": {
+      "sha256": "830eee464a5ab7a659a9a033005a06985feb8d5bf96c2334acc32d649202b9e8",
+      "bytes": 9880
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/arrays/w039/supervision/zarr.json": {
+      "sha256": "85ee35d518ac4404e926a6868c24013a88adc2d80349b45594142236c5203bff",
+      "bytes": 1214
+    },
+    "/workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011/ct/chunks/w039/0/34/19.bin": {
+      "sha256": "c82049e950aaddce9934d2ecaa47859c93a9c22d1286d517107f7880eff63ba4",
+      "bytes": 458752
+    }
+  },
+  "fixture_sha256": "382ed3776cf19c2fd58c3437b9a007a8c3538efd298e57108351b10e18f92a5a",
+  "implementation": {
+    "qualify_training.py": "c29f1a6237b22d363e6b5dff27cf96e8785d9f4a837a8b139abd95124ee5182e",
+    "matched_training.py": "926c71f12b34187954271c7478465f483f964939234a36c23e4b101a1820abd9"
+  },
+  "original_fixture_indices": [
+    0,
+    1
+  ],
+  "added_fixture_indices": [
+    2,
+    3
+  ],
+  "original_coefficient": 0.5,
+  "learning_rate": 0.01,
+  "momentum": 0.9,
+  "weight_decay": 3e-05,
+  "gradient_clip": 1.0,
+  "completed_steps_per_trajectory": 2,
+  "bce_smoothing": 0.5,
+  "dice_weight": 0.25,
+  "accumulation_tolerance": {
+    "relative_gradient_l2": 0.0001,
+    "max_abs_scaled_by_max_reference": 0.0001
+  },
+  "dtype": "float32",
+  "device": "cpu",
+  "threads": 4,
+  "training_accuracy_evaluation": false,
+  "actual_added_0814_data_qualified": false,
+  "small_fixture_is_not_the_training_population": true,
+  "augmentation": "Independently keyed rot90, XY flips, native Z window offset -2..2. Default published augmentation was separately preflighted; this bounded restart fixture is not a full production loader qualification.",
+  "revision": 2,
+  "pre_forward_correction": "Supply required patch_overlap=.25 and patch_min_labeled_coverage=0. to the retained loss constructor. No fixture, objective, tolerance or step budget change.",
+  "previous_go_sha256": "9db14bca6abf92512d596d5cfd7645ca1fa44e7f4b00e212a806cd1966cbe456"
+}

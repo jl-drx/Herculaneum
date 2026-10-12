@@ -83,6 +83,29 @@ cohort or the eventual CUDA loader.
 
 ## Data admission and scoring
 
+The [real-source preparation](../../native-coverage-preparation-20261012/README.md)
+audited every one of the 56 native-v2 representations. For the first pair, keep
+the same eight PHerc0814 segments, per-segment quotas, native acquisition and
+teacher in both additional streams. A repeats geometry-reserved regional
+support; B uses broader support on those same segments. Neither additional
+stream reuses original PHerc0139 patches, which would change its total exposure.
+This is a regional-coverage contrast under a fixed parent mixture; broader
+parent/acquisition diversity is a subsequent, separately named intervention.
+
+The v2 reservation fixes equal block-boundary eligibility and retains 2,886 A
+versus 11,887 B candidates. Its coarse input-neighbourhood ratio is only
+1.46–1.60×; do not equate UV patch count with independent physical tissue.
+Check all admitted population CT and supervision before freezing schedules.
+The five direct-native PHerc0139 annotation sources are proposed for the fixed
+original stream. Completed native0139 fits and evaluation remain immutable.
+
+Seven fixed PHerc0814 smoke crops reproduce source decoding and global teacher
+resize phase; one missing centre is retained without replacement. The full
+34.5M-parameter model passes stream-wise gradient accumulation and a bitwise
+two-update save/reload check on real PHerc0139 inputs. This is mechanics only,
+not full-cohort admission, CUDA qualification or a learning/power result. The
+upstream teacher masks remain weak training supervision, not independent truth.
+
 `READER_TRAIN_EXPOSURE.csv` records 99 released representations across eight
 declared source groups. These are not 99 physical subjects. Native/fine aliases,
 legacy w028/native w044 and potentially related fragments stay together.

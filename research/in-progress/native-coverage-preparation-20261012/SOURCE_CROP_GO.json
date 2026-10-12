@@ -1,0 +1,782 @@
+{
+  "status": "FROZEN_BEFORE_CROP_PAYLOAD",
+  "selection": "One globally aligned 128-square containing the metadata canvas centre per segment. All eight retained; do not replace blank/failed cases.",
+  "cases": [
+    {
+      "id": "pherc0814-20250925161630",
+      "segment": "20250925161630-auto_grown_20250925161630635",
+      "status": "SOURCE_PRESENT",
+      "native_shape": [
+        28,
+        5160,
+        19000
+      ],
+      "native_crop_xy": [
+        9472,
+        2560,
+        128,
+        128
+      ],
+      "teacher_shape": [
+        20080,
+        73920
+      ],
+      "teacher_roi_xyxy": [
+        36849,
+        9960,
+        37352,
+        10463
+      ],
+      "header": "teacher-metadata/pherc0814-20250925161630-HEADER.json",
+      "ct": {
+        "id": "pherc0814-20250925161630-ct",
+        "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/20/74",
+        "etag": "\"beba24aefbf2377b56aff9e2c1ed9fa4\"",
+        "bytes": 458752,
+        "path": "source-crops/pherc0814-20250925161630-ct.bin",
+        "kind": "full"
+      },
+      "tiles": [
+        {
+          "id": "pherc0814-20250925161630-tile-692",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"427f4ce0c52d74256df65a393de6687f-9\"",
+          "bytes": 98506,
+          "offset": 39102324,
+          "object_bytes": 71474842,
+          "path": "source-crops/pherc0814-20250925161630-tile-692.bin",
+          "kind": "range",
+          "tile_index": 692,
+          "ty": 9,
+          "tx": 35
+        },
+        {
+          "id": "pherc0814-20250925161630-tile-693",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"427f4ce0c52d74256df65a393de6687f-9\"",
+          "bytes": 111428,
+          "offset": 39200830,
+          "object_bytes": 71474842,
+          "path": "source-crops/pherc0814-20250925161630-tile-693.bin",
+          "kind": "range",
+          "tile_index": 693,
+          "ty": 9,
+          "tx": 36
+        },
+        {
+          "id": "pherc0814-20250925161630-tile-765",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"427f4ce0c52d74256df65a393de6687f-9\"",
+          "bytes": 38075,
+          "offset": 47453387,
+          "object_bytes": 71474842,
+          "path": "source-crops/pherc0814-20250925161630-tile-765.bin",
+          "kind": "range",
+          "tile_index": 765,
+          "ty": 10,
+          "tx": 35
+        },
+        {
+          "id": "pherc0814-20250925161630-tile-766",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"427f4ce0c52d74256df65a393de6687f-9\"",
+          "bytes": 27686,
+          "offset": 47491462,
+          "object_bytes": 71474842,
+          "path": "source-crops/pherc0814-20250925161630-tile-766.bin",
+          "kind": "range",
+          "tile_index": 766,
+          "ty": 10,
+          "tx": 36
+        }
+      ]
+    },
+    {
+      "id": "pherc0814-20250925182632",
+      "segment": "20250925182632-auto_grown_20250925182632715",
+      "status": "SOURCE_PRESENT",
+      "native_shape": [
+        28,
+        4780,
+        21680
+      ],
+      "native_crop_xy": [
+        10752,
+        2304,
+        128,
+        128
+      ],
+      "teacher_shape": [
+        18600,
+        84340
+      ],
+      "teacher_roi_xyxy": [
+        41825,
+        8963,
+        42328,
+        9466
+      ],
+      "header": "teacher-metadata/pherc0814-20250925182632-HEADER.json",
+      "ct": {
+        "id": "pherc0814-20250925182632-ct",
+        "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/18/84",
+        "etag": "\"19aeffdb8b8f620fc99cd031aade72af\"",
+        "bytes": 458752,
+        "path": "source-crops/pherc0814-20250925182632-ct.bin",
+        "kind": "full"
+      },
+      "tiles": [
+        {
+          "id": "pherc0814-20250925182632-tile-704",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"abea98f1dc9b0acbb01cca3f3fe4f418-9\"",
+          "bytes": 110580,
+          "offset": 37469764,
+          "object_bytes": 68208710,
+          "path": "source-crops/pherc0814-20250925182632-tile-704.bin",
+          "kind": "range",
+          "tile_index": 704,
+          "ty": 8,
+          "tx": 40
+        },
+        {
+          "id": "pherc0814-20250925182632-tile-705",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"abea98f1dc9b0acbb01cca3f3fe4f418-9\"",
+          "bytes": 210371,
+          "offset": 37580344,
+          "object_bytes": 68208710,
+          "path": "source-crops/pherc0814-20250925182632-tile-705.bin",
+          "kind": "range",
+          "tile_index": 705,
+          "ty": 8,
+          "tx": 41
+        },
+        {
+          "id": "pherc0814-20250925182632-tile-787",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"abea98f1dc9b0acbb01cca3f3fe4f418-9\"",
+          "bytes": 147101,
+          "offset": 45491088,
+          "object_bytes": 68208710,
+          "path": "source-crops/pherc0814-20250925182632-tile-787.bin",
+          "kind": "range",
+          "tile_index": 787,
+          "ty": 9,
+          "tx": 40
+        },
+        {
+          "id": "pherc0814-20250925182632-tile-788",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"abea98f1dc9b0acbb01cca3f3fe4f418-9\"",
+          "bytes": 157582,
+          "offset": 45638189,
+          "object_bytes": 68208710,
+          "path": "source-crops/pherc0814-20250925182632-tile-788.bin",
+          "kind": "range",
+          "tile_index": 788,
+          "ty": 9,
+          "tx": 41
+        }
+      ]
+    },
+    {
+      "id": "pherc0814-20250925204843",
+      "segment": "20250925204843-auto_grown_20250925204843950",
+      "status": "SOURCE_PRESENT",
+      "native_shape": [
+        28,
+        4640,
+        31860
+      ],
+      "native_crop_xy": [
+        15872,
+        2304,
+        128,
+        128
+      ],
+      "teacher_shape": [
+        18060,
+        123940
+      ],
+      "teacher_roi_xyxy": [
+        61742,
+        8965,
+        62245,
+        9468
+      ],
+      "header": "teacher-metadata/pherc0814-20250925204843-HEADER.json",
+      "ct": {
+        "id": "pherc0814-20250925204843-ct",
+        "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925204843-auto_grown_20250925204843950/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/18/124",
+        "etag": "\"8a68e2466402570c4045270e4581c71d\"",
+        "bytes": 458752,
+        "path": "source-crops/pherc0814-20250925204843-ct.bin",
+        "kind": "full"
+      },
+      "tiles": [
+        {
+          "id": "pherc0814-20250925204843-tile-1036",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925204843-auto_grown_20250925204843950/ink-detection/PHerc0814-20250925204843-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"e69f420bb155abe35cbf02603c504c3c-12\"",
+          "bytes": 12083,
+          "offset": 23787617,
+          "object_bytes": 95904682,
+          "path": "source-crops/pherc0814-20250925204843-tile-1036.bin",
+          "kind": "range",
+          "tile_index": 1036,
+          "ty": 8,
+          "tx": 60
+        },
+        {
+          "id": "pherc0814-20250925204843-tile-1158",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925204843-auto_grown_20250925204843950/ink-detection/PHerc0814-20250925204843-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"e69f420bb155abe35cbf02603c504c3c-12\"",
+          "bytes": 51536,
+          "offset": 32304595,
+          "object_bytes": 95904682,
+          "path": "source-crops/pherc0814-20250925204843-tile-1158.bin",
+          "kind": "range",
+          "tile_index": 1158,
+          "ty": 9,
+          "tx": 60
+        }
+      ]
+    },
+    {
+      "id": "pherc0814-20250925212701",
+      "segment": "20250925212701-auto_grown_20250925212701145",
+      "status": "SOURCE_PRESENT",
+      "native_shape": [
+        28,
+        4080,
+        6900
+      ],
+      "native_crop_xy": [
+        3328,
+        1920,
+        128,
+        128
+      ],
+      "teacher_shape": [
+        15880,
+        26840
+      ],
+      "teacher_roi_xyxy": [
+        12943,
+        7470,
+        13446,
+        7974
+      ],
+      "header": "teacher-metadata/pherc0814-20250925212701-HEADER.json",
+      "ct": {
+        "id": "pherc0814-20250925212701-ct",
+        "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925212701-auto_grown_20250925212701145/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/15/26",
+        "etag": "\"8216e4f9d5f9fb42db6691e38b01c2b3\"",
+        "bytes": 458752,
+        "path": "source-crops/pherc0814-20250925212701-ct.bin",
+        "kind": "full"
+      },
+      "tiles": [
+        {
+          "id": "pherc0814-20250925212701-tile-201",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925212701-auto_grown_20250925212701145/ink-detection/PHerc0814-20250925212701-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"795e496b2c0e288452d4d08d6ba1aac3-4\"",
+          "bytes": 178883,
+          "offset": 15823137,
+          "object_bytes": 28024969,
+          "path": "source-crops/pherc0814-20250925212701-tile-201.bin",
+          "kind": "range",
+          "tile_index": 201,
+          "ty": 7,
+          "tx": 12
+        },
+        {
+          "id": "pherc0814-20250925212701-tile-202",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925212701-auto_grown_20250925212701145/ink-detection/PHerc0814-20250925212701-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"795e496b2c0e288452d4d08d6ba1aac3-4\"",
+          "bytes": 201892,
+          "offset": 16002020,
+          "object_bytes": 28024969,
+          "path": "source-crops/pherc0814-20250925212701-tile-202.bin",
+          "kind": "range",
+          "tile_index": 202,
+          "ty": 7,
+          "tx": 13
+        }
+      ]
+    },
+    {
+      "id": "pherc0814-20250925222237",
+      "segment": "20250925222237-auto_grown_20250925222237459",
+      "status": "SOURCE_PRESENT",
+      "native_shape": [
+        28,
+        3920,
+        11900
+      ],
+      "native_crop_xy": [
+        5888,
+        1920,
+        128,
+        128
+      ],
+      "teacher_shape": [
+        15260,
+        46300
+      ],
+      "teacher_roi_xyxy": [
+        22906,
+        7472,
+        23409,
+        7975
+      ],
+      "header": "teacher-metadata/pherc0814-20250925222237-HEADER.json",
+      "ct": {
+        "id": "pherc0814-20250925222237-ct",
+        "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925222237-auto_grown_20250925222237459/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/15/46",
+        "etag": "\"393bcbf658e63f71319ec7dea63a6357\"",
+        "bytes": 458752,
+        "path": "source-crops/pherc0814-20250925222237-ct.bin",
+        "kind": "full"
+      },
+      "tiles": [
+        {
+          "id": "pherc0814-20250925222237-tile-344",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925222237-auto_grown_20250925222237459/ink-detection/PHerc0814-20250925222237-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"4e4976c6265bb201e5cc664a19b582bd-5\"",
+          "bytes": 191838,
+          "offset": 28241864,
+          "object_bytes": 37291147,
+          "path": "source-crops/pherc0814-20250925222237-tile-344.bin",
+          "kind": "range",
+          "tile_index": 344,
+          "ty": 7,
+          "tx": 22
+        }
+      ]
+    },
+    {
+      "id": "pherc0814-20250926051122",
+      "segment": "20250926051122-auto_grown_20250926051122829",
+      "status": "SOURCE_PRESENT",
+      "native_shape": [
+        28,
+        5400,
+        51780
+      ],
+      "native_crop_xy": [
+        25856,
+        2688,
+        128,
+        128
+      ],
+      "teacher_shape": [
+        21020,
+        201420
+      ],
+      "teacher_roi_xyxy": [
+        100575,
+        10461,
+        101078,
+        10964
+      ],
+      "header": "teacher-metadata/pherc0814-20250926051122-HEADER.json",
+      "ct": {
+        "id": "pherc0814-20250926051122-ct",
+        "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926051122-auto_grown_20250926051122829/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/21/202",
+        "etag": "\"d712de6ea3688028afeac48050e52b78\"",
+        "bytes": 458752,
+        "path": "source-crops/pherc0814-20250926051122-ct.bin",
+        "kind": "full"
+      },
+      "tiles": [
+        {
+          "id": "pherc0814-20250926051122-tile-2068",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926051122-auto_grown_20250926051122829/ink-detection/PHerc0814-20250926051122-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"020288925103761d95b748e9d0ac164c-22\"",
+          "bytes": 133498,
+          "offset": 108152764,
+          "object_bytes": 179128402,
+          "path": "source-crops/pherc0814-20250926051122-tile-2068.bin",
+          "kind": "range",
+          "tile_index": 2068,
+          "ty": 10,
+          "tx": 98
+        }
+      ]
+    },
+    {
+      "id": "pherc0814-20250926165636",
+      "segment": "20250926165636-auto_trace_20250926165636789",
+      "native_shape": [
+        28,
+        4820,
+        27220
+      ],
+      "native_crop_xy": [
+        13568,
+        2304,
+        128,
+        128
+      ],
+      "status": "MISSING_CENTRAL_CHUNK",
+      "head_status": 404,
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926165636-auto_trace_20250926165636789/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/18/106",
+      "reason": "No source body retrieved. No zero-filled substitute or replacement crop."
+    },
+    {
+      "id": "pherc0814-20250926203608",
+      "segment": "20250926203608-auto_grown_20250926203608932",
+      "status": "SOURCE_PRESENT",
+      "native_shape": [
+        28,
+        4620,
+        24460
+      ],
+      "native_crop_xy": [
+        12160,
+        2304,
+        128,
+        128
+      ],
+      "teacher_shape": [
+        17980,
+        95140
+      ],
+      "teacher_roi_xyxy": [
+        47295,
+        8964,
+        47798,
+        9467
+      ],
+      "header": "teacher-metadata/pherc0814-20250926203608-HEADER.json",
+      "ct": {
+        "id": "pherc0814-20250926203608-ct",
+        "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926203608-auto_grown_20250926203608932/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/18/95",
+        "etag": "\"e3b0d88f4921e94abb2f6266f7e5b0b6\"",
+        "bytes": 458752,
+        "path": "source-crops/pherc0814-20250926203608-ct.bin",
+        "kind": "full"
+      },
+      "tiles": [
+        {
+          "id": "pherc0814-20250926203608-tile-790",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926203608-auto_grown_20250926203608932/ink-detection/PHerc0814-20250926203608-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"08c923070713e4e75c2758dcfd911ed0-9\"",
+          "bytes": 91377,
+          "offset": 27425342,
+          "object_bytes": 72990449,
+          "path": "source-crops/pherc0814-20250926203608-tile-790.bin",
+          "kind": "range",
+          "tile_index": 790,
+          "ty": 8,
+          "tx": 46
+        },
+        {
+          "id": "pherc0814-20250926203608-tile-883",
+          "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926203608-auto_grown_20250926203608932/ink-detection/PHerc0814-20250926203608-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "etag": "\"08c923070713e4e75c2758dcfd911ed0-9\"",
+          "bytes": 122139,
+          "offset": 36909341,
+          "object_bytes": 72990449,
+          "path": "source-crops/pherc0814-20250926203608-tile-883.bin",
+          "kind": "range",
+          "tile_index": 883,
+          "ty": 9,
+          "tx": 46
+        }
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "id": "pherc0814-20250925161630-ct",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/20/74",
+      "etag": "\"beba24aefbf2377b56aff9e2c1ed9fa4\"",
+      "bytes": 458752,
+      "path": "source-crops/pherc0814-20250925161630-ct.bin",
+      "kind": "full"
+    },
+    {
+      "id": "pherc0814-20250925161630-tile-692",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"427f4ce0c52d74256df65a393de6687f-9\"",
+      "bytes": 98506,
+      "offset": 39102324,
+      "object_bytes": 71474842,
+      "path": "source-crops/pherc0814-20250925161630-tile-692.bin",
+      "kind": "range",
+      "tile_index": 692,
+      "ty": 9,
+      "tx": 35
+    },
+    {
+      "id": "pherc0814-20250925161630-tile-693",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"427f4ce0c52d74256df65a393de6687f-9\"",
+      "bytes": 111428,
+      "offset": 39200830,
+      "object_bytes": 71474842,
+      "path": "source-crops/pherc0814-20250925161630-tile-693.bin",
+      "kind": "range",
+      "tile_index": 693,
+      "ty": 9,
+      "tx": 36
+    },
+    {
+      "id": "pherc0814-20250925161630-tile-765",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"427f4ce0c52d74256df65a393de6687f-9\"",
+      "bytes": 38075,
+      "offset": 47453387,
+      "object_bytes": 71474842,
+      "path": "source-crops/pherc0814-20250925161630-tile-765.bin",
+      "kind": "range",
+      "tile_index": 765,
+      "ty": 10,
+      "tx": 35
+    },
+    {
+      "id": "pherc0814-20250925161630-tile-766",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"427f4ce0c52d74256df65a393de6687f-9\"",
+      "bytes": 27686,
+      "offset": 47491462,
+      "object_bytes": 71474842,
+      "path": "source-crops/pherc0814-20250925161630-tile-766.bin",
+      "kind": "range",
+      "tile_index": 766,
+      "ty": 10,
+      "tx": 36
+    },
+    {
+      "id": "pherc0814-20250925182632-ct",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/18/84",
+      "etag": "\"19aeffdb8b8f620fc99cd031aade72af\"",
+      "bytes": 458752,
+      "path": "source-crops/pherc0814-20250925182632-ct.bin",
+      "kind": "full"
+    },
+    {
+      "id": "pherc0814-20250925182632-tile-704",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"abea98f1dc9b0acbb01cca3f3fe4f418-9\"",
+      "bytes": 110580,
+      "offset": 37469764,
+      "object_bytes": 68208710,
+      "path": "source-crops/pherc0814-20250925182632-tile-704.bin",
+      "kind": "range",
+      "tile_index": 704,
+      "ty": 8,
+      "tx": 40
+    },
+    {
+      "id": "pherc0814-20250925182632-tile-705",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"abea98f1dc9b0acbb01cca3f3fe4f418-9\"",
+      "bytes": 210371,
+      "offset": 37580344,
+      "object_bytes": 68208710,
+      "path": "source-crops/pherc0814-20250925182632-tile-705.bin",
+      "kind": "range",
+      "tile_index": 705,
+      "ty": 8,
+      "tx": 41
+    },
+    {
+      "id": "pherc0814-20250925182632-tile-787",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"abea98f1dc9b0acbb01cca3f3fe4f418-9\"",
+      "bytes": 147101,
+      "offset": 45491088,
+      "object_bytes": 68208710,
+      "path": "source-crops/pherc0814-20250925182632-tile-787.bin",
+      "kind": "range",
+      "tile_index": 787,
+      "ty": 9,
+      "tx": 40
+    },
+    {
+      "id": "pherc0814-20250925182632-tile-788",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"abea98f1dc9b0acbb01cca3f3fe4f418-9\"",
+      "bytes": 157582,
+      "offset": 45638189,
+      "object_bytes": 68208710,
+      "path": "source-crops/pherc0814-20250925182632-tile-788.bin",
+      "kind": "range",
+      "tile_index": 788,
+      "ty": 9,
+      "tx": 41
+    },
+    {
+      "id": "pherc0814-20250925204843-ct",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925204843-auto_grown_20250925204843950/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/18/124",
+      "etag": "\"8a68e2466402570c4045270e4581c71d\"",
+      "bytes": 458752,
+      "path": "source-crops/pherc0814-20250925204843-ct.bin",
+      "kind": "full"
+    },
+    {
+      "id": "pherc0814-20250925204843-tile-1036",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925204843-auto_grown_20250925204843950/ink-detection/PHerc0814-20250925204843-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"e69f420bb155abe35cbf02603c504c3c-12\"",
+      "bytes": 12083,
+      "offset": 23787617,
+      "object_bytes": 95904682,
+      "path": "source-crops/pherc0814-20250925204843-tile-1036.bin",
+      "kind": "range",
+      "tile_index": 1036,
+      "ty": 8,
+      "tx": 60
+    },
+    {
+      "id": "pherc0814-20250925204843-tile-1158",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925204843-auto_grown_20250925204843950/ink-detection/PHerc0814-20250925204843-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"e69f420bb155abe35cbf02603c504c3c-12\"",
+      "bytes": 51536,
+      "offset": 32304595,
+      "object_bytes": 95904682,
+      "path": "source-crops/pherc0814-20250925204843-tile-1158.bin",
+      "kind": "range",
+      "tile_index": 1158,
+      "ty": 9,
+      "tx": 60
+    },
+    {
+      "id": "pherc0814-20250925212701-ct",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925212701-auto_grown_20250925212701145/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/15/26",
+      "etag": "\"8216e4f9d5f9fb42db6691e38b01c2b3\"",
+      "bytes": 458752,
+      "path": "source-crops/pherc0814-20250925212701-ct.bin",
+      "kind": "full"
+    },
+    {
+      "id": "pherc0814-20250925212701-tile-201",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925212701-auto_grown_20250925212701145/ink-detection/PHerc0814-20250925212701-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"795e496b2c0e288452d4d08d6ba1aac3-4\"",
+      "bytes": 178883,
+      "offset": 15823137,
+      "object_bytes": 28024969,
+      "path": "source-crops/pherc0814-20250925212701-tile-201.bin",
+      "kind": "range",
+      "tile_index": 201,
+      "ty": 7,
+      "tx": 12
+    },
+    {
+      "id": "pherc0814-20250925212701-tile-202",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925212701-auto_grown_20250925212701145/ink-detection/PHerc0814-20250925212701-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"795e496b2c0e288452d4d08d6ba1aac3-4\"",
+      "bytes": 201892,
+      "offset": 16002020,
+      "object_bytes": 28024969,
+      "path": "source-crops/pherc0814-20250925212701-tile-202.bin",
+      "kind": "range",
+      "tile_index": 202,
+      "ty": 7,
+      "tx": 13
+    },
+    {
+      "id": "pherc0814-20250925222237-ct",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925222237-auto_grown_20250925222237459/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/15/46",
+      "etag": "\"393bcbf658e63f71319ec7dea63a6357\"",
+      "bytes": 458752,
+      "path": "source-crops/pherc0814-20250925222237-ct.bin",
+      "kind": "full"
+    },
+    {
+      "id": "pherc0814-20250925222237-tile-344",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250925222237-auto_grown_20250925222237459/ink-detection/PHerc0814-20250925222237-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"4e4976c6265bb201e5cc664a19b582bd-5\"",
+      "bytes": 191838,
+      "offset": 28241864,
+      "object_bytes": 37291147,
+      "path": "source-crops/pherc0814-20250925222237-tile-344.bin",
+      "kind": "range",
+      "tile_index": 344,
+      "ty": 7,
+      "tx": 22
+    },
+    {
+      "id": "pherc0814-20250926051122-ct",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926051122-auto_grown_20250926051122829/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/21/202",
+      "etag": "\"d712de6ea3688028afeac48050e52b78\"",
+      "bytes": 458752,
+      "path": "source-crops/pherc0814-20250926051122-ct.bin",
+      "kind": "full"
+    },
+    {
+      "id": "pherc0814-20250926051122-tile-2068",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926051122-auto_grown_20250926051122829/ink-detection/PHerc0814-20250926051122-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"020288925103761d95b748e9d0ac164c-22\"",
+      "bytes": 133498,
+      "offset": 108152764,
+      "object_bytes": 179128402,
+      "path": "source-crops/pherc0814-20250926051122-tile-2068.bin",
+      "kind": "range",
+      "tile_index": 2068,
+      "ty": 10,
+      "tx": 98
+    },
+    {
+      "id": "pherc0814-20250926203608-ct",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926203608-auto_grown_20250926203608932/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/18/95",
+      "etag": "\"e3b0d88f4921e94abb2f6266f7e5b0b6\"",
+      "bytes": 458752,
+      "path": "source-crops/pherc0814-20250926203608-ct.bin",
+      "kind": "full"
+    },
+    {
+      "id": "pherc0814-20250926203608-tile-790",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926203608-auto_grown_20250926203608932/ink-detection/PHerc0814-20250926203608-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"08c923070713e4e75c2758dcfd911ed0-9\"",
+      "bytes": 91377,
+      "offset": 27425342,
+      "object_bytes": 72990449,
+      "path": "source-crops/pherc0814-20250926203608-tile-790.bin",
+      "kind": "range",
+      "tile_index": 790,
+      "ty": 8,
+      "tx": 46
+    },
+    {
+      "id": "pherc0814-20250926203608-tile-883",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926203608-auto_grown_20250926203608932/ink-detection/PHerc0814-20250926203608-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "etag": "\"08c923070713e4e75c2758dcfd911ed0-9\"",
+      "bytes": 122139,
+      "offset": 36909341,
+      "object_bytes": 72990449,
+      "path": "source-crops/pherc0814-20250926203608-tile-883.bin",
+      "kind": "range",
+      "tile_index": 883,
+      "ty": 9,
+      "tx": 46
+    }
+  ],
+  "total_expected_body_bytes": 5095839,
+  "pins": {
+    "metadata/pherc0814-20250925161630-array.raw": "2c37085b7833303a75894742512b09e3ef671593f97476c8e0fa220e9560da73",
+    "teacher-metadata/pherc0814-20250925161630-HEADER.json": "134ccce4b379df5234f729addf91021c8e1e137badd6cf1ac107348e64fd47e8",
+    "metadata/pherc0814-20250925182632-array.raw": "a24f7a6c230ca7b605de39ceb6d72d843f6000f67dc046c9553e9d2817f44552",
+    "teacher-metadata/pherc0814-20250925182632-HEADER.json": "c05c85a776961ce52de73d2d5d8378064b96abc9ed718319c4743bf0f7700a92",
+    "metadata/pherc0814-20250925204843-array.raw": "a1c277c3bcdd5a1a19da85042bf72a56760a3cc8479421c7d9c086943342dc59",
+    "teacher-metadata/pherc0814-20250925204843-HEADER.json": "5aab327e178a25ca2859bce8fc52b5cdd92bbd229beb66a569578bfc1232ffde",
+    "metadata/pherc0814-20250925212701-array.raw": "fbec6348182ba3e933025809482e0cff3bdbc3ff8c279db4d721655ce564027d",
+    "teacher-metadata/pherc0814-20250925212701-HEADER.json": "c398e8a3b399d78cc58bb8f56090edea416d96f2ed7cee39ba92f914ed052193",
+    "metadata/pherc0814-20250925222237-array.raw": "aa49c9930141587babaa1c54643ffee06d34a9c8a19ae0826897a7b0104b5039",
+    "teacher-metadata/pherc0814-20250925222237-HEADER.json": "a76bf6708e22483cb1ff9d5ca1a289f5942af444ad5e762922cec77562f2080c",
+    "metadata/pherc0814-20250926051122-array.raw": "605da2384529ea1199029b8db5fef8aa77152ef203d77529c2a08b25060e3cda",
+    "teacher-metadata/pherc0814-20250926051122-HEADER.json": "6311c0414b0e9fb796216dfadc263bedf6f359a0e806770551e621c4f9219440",
+    "metadata/pherc0814-20250926165636-array.raw": "1b7873123f1e5058b9d8861efae1f2bb3824a58e987f55cfb812763aa18a7c3e",
+    "teacher-metadata/pherc0814-20250926165636-HEADER.json": "9ce0b85f24c0455213ad2211c1fdb28f8771354d5ae4429287530bfb07cc897f",
+    "metadata/pherc0814-20250926203608-array.raw": "10ee5f1905bab1111372dc4a6998a4cff9244bf3c9257aa208ae8707e0e3c5d7",
+    "teacher-metadata/pherc0814-20250926203608-HEADER.json": "fe001f7ea95b4568ed93ff5eaa35b3efee7ac373076b4cd85853c973f4658914"
+  },
+  "cohort_sha256": "34d5642de3808c0d86d007e75768f6ab0ba3564403ccd8dd34aec054f3933c7d",
+  "implementation_sha256": "9bf0aab4f1c644d0c27552a362ad08e6abf54c10be87c9e9786a8c24481e240f",
+  "model_forwards": 0,
+  "training_admission": false,
+  "physical_registration_claim": false
+}

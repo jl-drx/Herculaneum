@@ -81,10 +81,29 @@ agreement scores insufficient for a stroke-recovery claim. All four fixed-scale
 panels and all 14 one-class cores remain in the review.
 
 Private per-tile backups and a standalone numeric-review bundle preserve the
-results. Next admit the matched training corpus and annotation tiers, freeze
+results. The [matched coverage preparation](in-progress/native-coverage-preparation-20261012/README.md)
+now binds the 56 released native-v2 source contracts and proposes the same eight
+PHerc0814 segments in both additional streams: restricted versus broader regional
+support, with original PHerc0139 exposure and loss weight fixed. This isolates
+regional coverage under a fixed parent/acquisition/teacher mixture; it is not
+yet a test of adding new physical parents. Seven of eight fixed source-centre
+crops decode; the missing centre remains unsupported without replacement.
+Teacher resizing is reproduced as weak supervision, not certified registration.
+
+Full-model CPU gradient accumulation and two-update save/reload checks pass;
+they qualify mechanics, not learning power or CUDA performance. Geometry-only
+reservation gives 2,886 versus 11,887 candidate patches, but only 1.46–1.60×
+coarse CT-neighbourhood coverage. Separate arithmetic reproduces those counts.
+Population-wide CT/supervision eligibility and the final schedules are still
+pending. Next check those fixed populations, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep
 searching this panel for a better model/threshold/ensemble. Add separately
 supported development endpoints for detail and negatives alongside area AP.
+The [CT corridor follow-up](in-progress/geometry-corridor-preparation-20261012/README.md)
+retains two new approximately 0.23 mm provisional PHerc0814 ridge paths. It does
+not repair the missing independent identity/face reference or meet G1's two-parent
+connected-area gate. Preserve the failed original paths; seek separate
+adjudication and a supported contiguous corridor, not more brightness retracing.
 Correct-sheet reference construction proceeds independently. No paid work has
 started. Do not call this small, exposed panel a fresh confirmation test or
 reopen the native0139 fits. PHerc0175 A/B and PHerc1203 remain reserved.

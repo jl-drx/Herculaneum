@@ -1,0 +1,122 @@
+{
+  "status": "COORDINATES_VERIFIED_NOT_ADJUDICATED",
+  "plan_sha256": "3284fc044e06e173c05503b27639138ac7d3b295e43c11f2862bbddf1396ca5c",
+  "anchors_sha256": "3c38eeb34162292dc0e8599c209dc280deed1354636dbabe4200f55de7e727ec",
+  "script_sha256": "4745016c7db497cac01c0263b1f647862883e32752ea0eeb56b91c4681a7c598",
+  "paths": [
+    {
+      "id": "0814-C-short",
+      "case": "PHerc0814-06",
+      "points_zyx": [
+        [
+          94,
+          96,
+          32
+        ],
+        [
+          93,
+          96,
+          40
+        ],
+        [
+          92,
+          96,
+          48
+        ],
+        [
+          92,
+          96,
+          56
+        ]
+      ],
+      "global_points_zyx": [
+        [
+          4414,
+          1984,
+          1792
+        ],
+        [
+          4413,
+          1984,
+          1800
+        ],
+        [
+          4412,
+          1984,
+          1808
+        ],
+        [
+          4412,
+          1984,
+          1816
+        ]
+      ],
+      "length_voxels": 24.1245154965971,
+      "ct_at_anchors": [
+        181,
+        203,
+        169,
+        198
+      ],
+      "all_points_inside_original_core": true
+    },
+    {
+      "id": "0814-D-short",
+      "case": "PHerc0814-06",
+      "points_zyx": [
+        [
+          105,
+          96,
+          32
+        ],
+        [
+          103,
+          96,
+          40
+        ],
+        [
+          101,
+          96,
+          48
+        ],
+        [
+          102,
+          96,
+          56
+        ]
+      ],
+      "global_points_zyx": [
+        [
+          4425,
+          1984,
+          1792
+        ],
+        [
+          4423,
+          1984,
+          1800
+        ],
+        [
+          4421,
+          1984,
+          1808
+        ],
+        [
+          4422,
+          1984,
+          1816
+        ]
+      ],
+      "length_voxels": 24.55468025076919,
+      "ct_at_anchors": [
+        141,
+        121,
+        107,
+        115
+      ],
+      "all_points_inside_original_core": true
+    }
+  ],
+  "model_payloads_read": 0,
+  "scope": "Source/coordinate checks and raw CT views. CT intensity is descriptive, never an identity/ink score."
+}

@@ -1,0 +1,206 @@
+{
+  "status": "MESH_SUPPORT_RESERVED_NOT_FINAL_TRAINING_ADMISSION",
+  "cases": [
+    {
+      "id": "pherc0814-20250925161630",
+      "total_grid_patches": 10441,
+      "mesh_boundary_rejections": 496,
+      "block_boundary_rejections_both_arms": 640,
+      "invalid_mesh_footprint_rejections": 8015,
+      "restricted_candidates": 315,
+      "broad_candidates": 1290,
+      "broad_over_restricted_patch_ratio": 4.095238095238095,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 7986,
+          "B": 17087,
+          "ratio": 2.1396193338342098
+        },
+        "128": {
+          "A": 1515,
+          "B": 2938,
+          "ratio": 1.9392739273927393
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250925182632",
+      "total_grid_patches": 11025,
+      "mesh_boundary_rejections": 544,
+      "block_boundary_rejections_both_arms": 742,
+      "invalid_mesh_footprint_rejections": 8272,
+      "restricted_candidates": 387,
+      "broad_candidates": 1467,
+      "broad_over_restricted_patch_ratio": 3.7906976744186047,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 7582,
+          "B": 15602,
+          "ratio": 2.0577683988393565
+        },
+        "128": {
+          "A": 1425,
+          "B": 2690,
+          "ratio": 1.8877192982456141
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250925204843",
+      "total_grid_patches": 15888,
+      "mesh_boundary_rejections": 754,
+      "block_boundary_rejections_both_arms": 907,
+      "invalid_mesh_footprint_rejections": 12429,
+      "restricted_candidates": 383,
+      "broad_candidates": 1798,
+      "broad_over_restricted_patch_ratio": 4.6945169712793735,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 9827,
+          "B": 23364,
+          "ratio": 2.377531291340185
+        },
+        "128": {
+          "A": 1850,
+          "B": 3906,
+          "ratio": 2.1113513513513515
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250925212701",
+      "total_grid_patches": 2982,
+      "mesh_boundary_rejections": 222,
+      "block_boundary_rejections_both_arms": 218,
+      "invalid_mesh_footprint_rejections": 2157,
+      "restricted_candidates": 69,
+      "broad_candidates": 385,
+      "broad_over_restricted_patch_ratio": 5.579710144927536,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 2343,
+          "B": 7664,
+          "ratio": 3.271020059752454
+        },
+        "128": {
+          "A": 444,
+          "B": 1343,
+          "ratio": 3.024774774774775
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250925222237",
+      "total_grid_patches": 4920,
+      "mesh_boundary_rejections": 284,
+      "block_boundary_rejections_both_arms": 376,
+      "invalid_mesh_footprint_rejections": 3548,
+      "restricted_candidates": 183,
+      "broad_candidates": 712,
+      "broad_over_restricted_patch_ratio": 3.890710382513661,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 3899,
+          "B": 7143,
+          "ratio": 1.8320082072326238
+        },
+        "128": {
+          "A": 748,
+          "B": 1210,
+          "ratio": 1.6176470588235294
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250926051122",
+      "total_grid_patches": 29645,
+      "mesh_boundary_rejections": 647,
+      "block_boundary_rejections_both_arms": 1574,
+      "invalid_mesh_footprint_rejections": 24347,
+      "restricted_candidates": 762,
+      "broad_candidates": 3077,
+      "broad_over_restricted_patch_ratio": 4.0380577427821525,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 14741,
+          "B": 31249,
+          "ratio": 2.1198697510345297
+        },
+        "128": {
+          "A": 2691,
+          "B": 5041,
+          "ratio": 1.8732813080639168
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250926165636",
+      "total_grid_patches": 13867,
+      "mesh_boundary_rejections": 379,
+      "block_boundary_rejections_both_arms": 901,
+      "invalid_mesh_footprint_rejections": 10839,
+      "restricted_candidates": 434,
+      "broad_candidates": 1748,
+      "broad_over_restricted_patch_ratio": 4.027649769585254,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 10400,
+          "B": 25061,
+          "ratio": 2.4097115384615386
+        },
+        "128": {
+          "A": 1952,
+          "B": 4235,
+          "ratio": 2.1695696721311477
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250926203608",
+      "total_grid_patches": 11938,
+      "mesh_boundary_rejections": 346,
+      "block_boundary_rejections_both_arms": 732,
+      "invalid_mesh_footprint_rejections": 9450,
+      "restricted_candidates": 353,
+      "broad_candidates": 1410,
+      "broad_over_restricted_patch_ratio": 3.9943342776203967,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 9362,
+          "B": 19154,
+          "ratio": 2.045930356761376
+        },
+        "128": {
+          "A": 1709,
+          "B": 3338,
+          "ratio": 1.9531889994148626
+        }
+      }
+    }
+  ],
+  "restricted_candidates": 2886,
+  "broad_candidates": 11887,
+  "pooled_context_grid_proxy": {
+    "64": {
+      "A": 43586,
+      "B": 69780,
+      "ratio": 1.6009727894277979
+    },
+    "128": {
+      "A": 7136,
+      "B": 10411,
+      "ratio": 1.4589405829596414
+    }
+  },
+  "csv_sha256": "32d1147dc1d3e7486809455eafd1f424d7aa182b057ae61b006a56187a59637e",
+  "rule_sha256": "7ab97a26ffc525d89cc85803359a508758241214762728170d422f285382ca11",
+  "interpretation": "More UV patches need not yield proportionally more distinct CT input neighbourhoods. These bounding-box cell counts are conservative geometry proxies, not unique physical ink area.",
+  "pending": [
+    "Source chunk existence/validity across the final selected population",
+    "Teacher confidence/support class admission",
+    "Exact normal/slab footprints if physical area is claimed",
+    "Matched schedule/source coefficients and GPU workload/budget"
+  ],
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

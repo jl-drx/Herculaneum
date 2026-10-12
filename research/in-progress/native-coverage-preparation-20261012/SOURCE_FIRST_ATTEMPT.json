@@ -1,0 +1,6 @@
+{
+  "status": "PREPARATION_STOPPED",
+  "reason": "HEAD of a metadata-centred native chunk returned HTTP 404 before SOURCE_CROP_GO was written. Dependent acquire then stopped on missing GO; no bodies retrieved.",
+  "revision": "Retain each 404 case as unsupported without replacement; continue accounting for the other frozen centre locations.",
+  "source_bodies_retrieved": 0
+}

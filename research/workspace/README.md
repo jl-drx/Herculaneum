@@ -7,7 +7,9 @@ It has its own checksum manifest and tested standard-library restore command.
 
 # Use the research workspace on another Linux machine
 
-The newest [PHerc0139 native learning preparation](../planning/pherc0139-learning-readiness-20261011/PORTABILITY.md) is a separate selective supplement: soft-target controls, native annotations,265 fixed cores, conservative training/evaluation exclusions, and536 native CT chunks. Its analysis and CT archives are separate; no unrestricted LFS download or model weights are needed to replay it. This supplements the dated original workspace snapshot below.
+The current [native-coverage preparation supplement](../in-progress/native-coverage-preparation-20261012/PORTABILITY.md) contains bounded source data, mesh-based candidate support, real-model mechanics receipts and the CT corridor review in a 24.1 MiB private bundle. Its 308 files and numerical support calculation can be checked without models or inference. The completed [five-model comparison](../in-progress/native-common-comparison-20261012/PORTABILITY.md) has a separate saved-output review bundle. Neither changes the historical snapshot below.
+
+The earlier [PHerc0139 native learning preparation](../planning/pherc0139-learning-readiness-20261011/PORTABILITY.md) is a separate selective supplement: soft-target controls, native annotations,265 fixed cores, conservative training/evaluation exclusions, and536 native CT chunks. Its analysis and CT archives are separate; no unrestricted LFS download or model weights are needed to replay it. This supplements the dated original workspace snapshot below.
 
 This is a selectively restorable snapshot of the research lab, stored in this private GitHub repository using **Git LFS**. It adds the arrays, historical checkpoints, prepared PHerc343 inputs and saved maps that the earlier text-only export omitted. The original files retain their bytes and relative paths; [MANIFEST.json](MANIFEST.json) records every included file, its SHA256, its bundle and the exclusions.
 

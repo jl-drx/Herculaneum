@@ -30,6 +30,29 @@ metric verification finished on 12 October.
 
 ## The largest strategic omissions
 
+### 12 October preparation update
+
+The [matched coverage preparation](../../in-progress/native-coverage-preparation-20261012/README.md)
+binds 56 native-v2 representations and isolates a regional-coverage contrast on
+the same eight PHerc0814 segments. The source teacher/acquisition changes in
+other candidate parents are explicit deferred data-package interventions. Seven
+of eight fixed source-centre crops qualify mechanically; the missing case is
+retained. Teacher resize agreement remains distinct from physical registration.
+The full model's accumulation/save-reload checks pass, without learning or CUDA
+claims. Geometry reservation has 4.12× as many B patches but only 1.46–1.60×
+coarse CT-neighbourhood coverage; physical overlap and population supervision
+remain material to the final data contrast. This is not a new-source generalization
+test or a reason to reduce the I1 improvement gate.
+
+The [CT corridor review](../../in-progress/geometry-corridor-preparation-20261012/README.md)
+retains two approximately 0.23 mm provisional PHerc0814 paths. The earlier failed
+paths stay failed. No independent face/sheet reference or two-parent G1 admission
+has been established; do not continue shortening/retracing until a benchmark
+appears to pass. Separate adjudication and contiguous supported structure remain
+the substantive reference work.
+
+### Strategic omissions retained from the programme review
+
 1. **Surface coverage and identity were not an active research endpoint.** We
    mainly worked inside existing renders, so omitted or misconnected papyrus
    could never be recovered by our experiments.

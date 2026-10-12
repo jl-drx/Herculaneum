@@ -1,0 +1,186 @@
+{
+  "status": "ALL_FIXED_CASES_ACCOUNTED",
+  "cases": [
+    {
+      "id": "pherc0814-20250925161630",
+      "native_crop_xy": [
+        9472,
+        2560,
+        128,
+        128
+      ],
+      "valid_pixels": 580,
+      "supervised_pixels": 580,
+      "teacher_positive_supervised": 0,
+      "teacher_negative_supervised": 580,
+      "ignored_pixels": 15804,
+      "teacher_min": 0,
+      "teacher_max": 61,
+      "independent_area_max_abs_error": 0.49866766696245435,
+      "tiff_decoders_equal": true,
+      "file": "source-fixtures/pherc0814-20250925161630.npz",
+      "bytes": 19667,
+      "sha256": "5255e1195f133753c7d5286c7107287a43c081cf25e427f38567929e5fe5eec7",
+      "interpretation": "Published weak-label recipe mechanically reproduced on a fixed smoke crop; not physical registration or final support admission"
+    },
+    {
+      "id": "pherc0814-20250925182632",
+      "native_crop_xy": [
+        10752,
+        2304,
+        128,
+        128
+      ],
+      "valid_pixels": 16384,
+      "supervised_pixels": 13704,
+      "teacher_positive_supervised": 4148,
+      "teacher_negative_supervised": 9556,
+      "ignored_pixels": 2680,
+      "teacher_min": 31,
+      "teacher_max": 237,
+      "independent_area_max_abs_error": 0.4998944365494751,
+      "tiff_decoders_equal": true,
+      "file": "source-fixtures/pherc0814-20250925182632.npz",
+      "bytes": 394960,
+      "sha256": "eeadb6e0dce70afdf9908f2f7d62f1bbd2a5e8c6d8a271d39627a0ad85c0dedf",
+      "interpretation": "Published weak-label recipe mechanically reproduced on a fixed smoke crop; not physical registration or final support admission"
+    },
+    {
+      "id": "pherc0814-20250925204843",
+      "native_crop_xy": [
+        15872,
+        2304,
+        128,
+        128
+      ],
+      "valid_pixels": 10479,
+      "supervised_pixels": 9418,
+      "teacher_positive_supervised": 118,
+      "teacher_negative_supervised": 9300,
+      "ignored_pixels": 6966,
+      "teacher_min": 0,
+      "teacher_max": 137,
+      "independent_area_max_abs_error": 0.4999652423194476,
+      "tiff_decoders_equal": true,
+      "file": "source-fixtures/pherc0814-20250925204843.npz",
+      "bytes": 284956,
+      "sha256": "8b7f2c5e7bdef50e2885ad62deb6936490925b866866dac659a9d2cc2b1af0b6",
+      "interpretation": "Published weak-label recipe mechanically reproduced on a fixed smoke crop; not physical registration or final support admission"
+    },
+    {
+      "id": "pherc0814-20250925212701",
+      "native_crop_xy": [
+        3328,
+        1920,
+        128,
+        128
+      ],
+      "valid_pixels": 16383,
+      "supervised_pixels": 14174,
+      "teacher_positive_supervised": 3623,
+      "teacher_negative_supervised": 10551,
+      "ignored_pixels": 2210,
+      "teacher_min": 31,
+      "teacher_max": 233,
+      "independent_area_max_abs_error": 0.4998779970668963,
+      "tiff_decoders_equal": true,
+      "file": "source-fixtures/pherc0814-20250925212701.npz",
+      "bytes": 430554,
+      "sha256": "890f9a347768eec58749dfe885864bc7ec1f30e89f0b7ca8b303d243712bee1d",
+      "interpretation": "Published weak-label recipe mechanically reproduced on a fixed smoke crop; not physical registration or final support admission"
+    },
+    {
+      "id": "pherc0814-20250925222237",
+      "native_crop_xy": [
+        5888,
+        1920,
+        128,
+        128
+      ],
+      "valid_pixels": 16384,
+      "supervised_pixels": 14820,
+      "teacher_positive_supervised": 7523,
+      "teacher_negative_supervised": 7297,
+      "ignored_pixels": 1564,
+      "teacher_min": 30,
+      "teacher_max": 241,
+      "independent_area_max_abs_error": 0.49991083281103244,
+      "tiff_decoders_equal": true,
+      "file": "source-fixtures/pherc0814-20250925222237.npz",
+      "bytes": 341483,
+      "sha256": "5599cbd3d0e532c72ef877b8afa12c7b87d15c35a7516a4c5fc73df9c9f429db",
+      "interpretation": "Published weak-label recipe mechanically reproduced on a fixed smoke crop; not physical registration or final support admission"
+    },
+    {
+      "id": "pherc0814-20250926051122",
+      "native_crop_xy": [
+        25856,
+        2688,
+        128,
+        128
+      ],
+      "valid_pixels": 16384,
+      "supervised_pixels": 14462,
+      "teacher_positive_supervised": 2725,
+      "teacher_negative_supervised": 11737,
+      "ignored_pixels": 1922,
+      "teacher_min": 31,
+      "teacher_max": 225,
+      "independent_area_max_abs_error": 0.49997151492885905,
+      "tiff_decoders_equal": true,
+      "file": "source-fixtures/pherc0814-20250926051122.npz",
+      "bytes": 413558,
+      "sha256": "f81ea5c5cc13e84c1d3e0ef321b6ea2160e10a0ece03e2518357908393651c12",
+      "interpretation": "Published weak-label recipe mechanically reproduced on a fixed smoke crop; not physical registration or final support admission"
+    },
+    {
+      "id": "pherc0814-20250926165636",
+      "segment": "20250926165636-auto_trace_20250926165636789",
+      "native_shape": [
+        28,
+        4820,
+        27220
+      ],
+      "native_crop_xy": [
+        13568,
+        2304,
+        128,
+        128
+      ],
+      "status": "MISSING_CENTRAL_CHUNK",
+      "head_status": 404,
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250926165636-auto_trace_20250926165636789/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/0/0/18/106",
+      "reason": "No source body retrieved. No zero-filled substitute or replacement crop."
+    },
+    {
+      "id": "pherc0814-20250926203608",
+      "native_crop_xy": [
+        12160,
+        2304,
+        128,
+        128
+      ],
+      "valid_pixels": 16384,
+      "supervised_pixels": 15548,
+      "teacher_positive_supervised": 317,
+      "teacher_negative_supervised": 15231,
+      "ignored_pixels": 836,
+      "teacher_min": 30,
+      "teacher_max": 175,
+      "independent_area_max_abs_error": 0.4998792249056905,
+      "tiff_decoders_equal": true,
+      "file": "source-fixtures/pherc0814-20250926203608.npz",
+      "bytes": 413432,
+      "sha256": "c599c125667609d6905719f3cd5c4c3c7ce806aff9146c6314309a225e982bf2",
+      "interpretation": "Published weak-label recipe mechanically reproduced on a fixed smoke crop; not physical registration or final support admission"
+    }
+  ],
+  "source_crop_go_sha256": "0a2fb71732aa56295885c0f0b74fdd9e1bb661dad9b6e2df2d964e8a7818d6c8",
+  "sparse_resize_known_image_checks": 3,
+  "official_and_explicit_tiff_decoders_equal": true,
+  "all_eight_cases_retained": true,
+  "body_bytes": 5095839,
+  "new_inference": 0,
+  "final_training_population": false,
+  "physical_fine_native_registration": false
+}
