@@ -1,0 +1,60 @@
+{
+  "status": "PARTIAL_TRANSPORT_STILL_UNRESOLVED",
+  "utc": "2026-10-12T19:25:10.833764+00:00",
+  "streams": [
+    {
+      "stream": "added",
+      "verified_objects": 949,
+      "new_objects_after_checkpoint": 28,
+      "new_source_body_bytes": 12845056,
+      "pending": 16621,
+      "pending_body_bytes": 6060536045,
+      "latest_failure": {
+        "utc": "2026-10-12T19:18:03.972966+00:00",
+        "error_type": "HTTPError",
+        "reason": "HTTP Error 503: Service Unavailable",
+        "state": {
+          "completed": 928,
+          "missing": 0,
+          "bytes": 12845056,
+          "reused": 900
+        }
+      },
+      "probe": {
+        "status": "PASS",
+        "utc": "2026-10-12T19:17:56.641619+00:00",
+        "request_id": "pherc0814-20250925161630-ct-y0021-x0096",
+        "body_bytes": 1
+      }
+    },
+    {
+      "stream": "original",
+      "verified_objects": 424,
+      "new_objects_after_checkpoint": 24,
+      "new_source_body_bytes": 11010048,
+      "pending": 357,
+      "pending_body_bytes": 163774464,
+      "latest_failure": {
+        "utc": "2026-10-12T19:18:03.547664+00:00",
+        "error_type": "HTTPError",
+        "reason": "HTTP Error 503: Service Unavailable",
+        "state": {
+          "completed": 24,
+          "missing": 0,
+          "bytes": 11010048,
+          "reused": 0
+        }
+      },
+      "probe": {
+        "status": "PASS",
+        "utc": "2026-10-12T19:17:57.557879+00:00",
+        "request_id": "pherc0139-w040-ct-y0004-x0051",
+        "body_bytes": 1
+      }
+    }
+  ],
+  "conclusion": "HEAD and one-byte probes passed, but full retrieval failed again; one 64 KiB prefix succeeded and the following range failed. No complete population or safe byte-range workaround established.",
+  "qualification_scope": "Existing 481 original CT-qualified candidates remain the recorded result; newly received chunks are retained only as acquisition progress.",
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

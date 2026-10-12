@@ -23,7 +23,9 @@ cover **5,023,011 pixels**; **1,914,370** stored positive pixels lie inside them
 and **99,289** lie outside and are ignored. These are native annotation values,
 not independently authenticated ink.
 
-| Original winding | Mask-selected candidates | CT-qualified now | Awaiting CT transport |
+At the frozen partial qualification:
+
+| Original winding | Mask-selected candidates | CT-qualified | Not yet qualified |
 |---|---:|---:|---:|
 | w035 | 191 | 191 | 0 |
 | w039 | 104 | 104 | 0 |
@@ -50,14 +52,14 @@ No unknown source is given an all-zero CT substitute or scored as a negative.
 
 ## What the network failure prevented
 
-The added-stream cache contains **905 CT chunks and 16 teacher-tile ranges**,
+The first portable checkpoint contains **905 CT chunks and 16 teacher-tile ranges**,
 921 objects totalling 417,055,135 bytes. The original stream has 400 verified CT
 chunks totalling 183,500,800 bytes. These are recoverable partial caches, not
 complete populations. **16,649 added requests and 381 original CT requests
 remain unresolved or unattempted.** No newly requested source was confirmed
 missing; HTTP 503 is not evidence of an absent S3 object.
 
-Only three added candidates currently have every required CT and teacher byte
+Only three added candidates at that checkpoint had every required CT and teacher byte
 range available. Their population supervision was not promoted into a smaller
 substitute experiment. The coverage/class comparison cannot be decided from
 this availability-selected subset. The previously missing smoke-centre chunk
@@ -90,6 +92,28 @@ Initial and recovery logs/failure records are preserved. Early fail-fast receipt
 do not retain every failed worker's request ID, so the record does not claim
 a complete per-attempt network audit. Successful source byte identities and the
 remaining request list are retained exactly.
+
+## Later retry and retained addendum
+
+A HEAD request and both one-byte probes subsequently succeeded, but the same
+four-reader acquisition failed again with HTTP 503. It saved **28 added-stream
+and 24 original-stream complete CT chunks** before stopping. The current cache
+therefore contains **949 added objects** (933 CT chunks and 16 teacher ranges)
+and **424 original CT chunks**. The exact remaining requests are **16,621 added
+and 357 original**, totalling 6,224,310,509 nominal body bytes. See
+[POST_CHECKPOINT_STATUS.json](POST_CHECKPOINT_STATUS.json).
+
+A 64 KiB prefix also succeeded, but the next ETag-pinned range failed with the
+same proxy error. There is no demonstrated byte-range workaround or stable
+recovery. The diagnostic prefix is retained separately and has no valid source
+receipt; it cannot substitute for a complete input chunk. Acquisition has stopped.
+
+The 52 new chunks are saved in a separate private addendum. They are acquisition
+progress only: the 481-row CT-qualified result above remains a frozen historical
+qualification, not a recomputation against the enlarged cache. No subset was
+promoted into training. The [original archive's fresh GitHub download](REMOTE_RESTORE.json)
+matches its already verified local restore. Both archives and their restore
+instructions are in [PORTABILITY.md](PORTABILITY.md).
 
 ## Decision and resumption
 

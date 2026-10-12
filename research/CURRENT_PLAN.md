@@ -104,6 +104,9 @@ Persistent outbound proxy-tunnel HTTP 503 errors prevented full CT/teacher
 acquisition. The partial source caches and exact pending requests are preserved;
 unavailable transport is not an absent object or a negative label. No substitute
 three-winding or availability-selected added-stream experiment is authorized.
+One later retry retained 52 more complete CT chunks but failed again; successful
+HEAD/small-range probes did not establish recovered bulk access. The partial
+qualification remains frozen and the new bytes are a separate cache addendum.
 After public S3 access recovers, resume those same requests, complete the fixed
 population qualification, admit the annotation tiers, freeze
 draws and loss accounting, and prepare a concrete GPU workload; do not keep
