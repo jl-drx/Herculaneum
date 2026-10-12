@@ -79,6 +79,11 @@ def same(expected, actual, where='root'):
         assert expected == actual, (where, expected, actual)
 
 
+def same_members(actual, expected):
+    """Parent membership is unordered; duplicates still constitute a mismatch."""
+    assert sorted(actual) == sorted(expected), (actual, expected)
+
+
 def verify(inputs, run):
     go = load(run/'GO.json'); go_sha = digest(run/'GO.json')
     done = load(run/'INFERENCE_COMPLETE.json')
@@ -176,7 +181,8 @@ def verify(inputs, run):
         same(delta,pair['parent_ap_delta']); same(macro[l]-macro[rr],pair['equal_parent_ap_delta'])
         assert pair['opposite_parent_order'] == (any(d < 0 for d in delta.values()) and any(d > 0 for d in delta.values()))
         assert pair['macro_difference_smaller_than_released_seed_gap'] == (abs(macro[l]-macro[rr]) < gap['equal_parent_ap'])
-        assert pair['parents_difference_smaller_than_seed_gap'] == [p for p,d in delta.items() if abs(d) < gap['parent_ap'][p]]
+        same_members(pair['parents_difference_smaller_than_seed_gap'],
+                     [p for p,d in delta.items() if abs(d) < gap['parent_ap'][p]])
     assert len(records) == 24 and sum(len(x['y']) for x in records) == 232250
     assert sum(int(x['y'].sum()) for x in records) == 20137
     assert sum(not x['y'].any() or x['y'].all() for x in records) == 14

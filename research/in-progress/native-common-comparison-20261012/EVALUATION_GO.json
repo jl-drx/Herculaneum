@@ -1,9 +1,24 @@
 {
+  "amendment": {
+    "bytes": 674,
+    "path": "evaluation-implementation/VERIFIER_ORDER_CHECK.json",
+    "sha256": "cdefe4cf57ce96a8b313e71b4cd3b1481de7573dc3b67834c3542920b5299946"
+  },
   "code_pins": [
     {
-      "bytes": 1991,
+      "bytes": 16478,
+      "path": "evaluation-implementation/EVALUATION_V1.zip",
+      "sha256": "cba2a16f1de831c7bbbc3a38aaa90732a60658cf2680a60cb48da41bf41fd5ef"
+    },
+    {
+      "bytes": 674,
+      "path": "evaluation-implementation/VERIFIER_ORDER_CHECK.json",
+      "sha256": "cdefe4cf57ce96a8b313e71b4cd3b1481de7573dc3b67834c3542920b5299946"
+    },
+    {
+      "bytes": 2388,
       "path": "evaluation-implementation/check_metrics.py",
-      "sha256": "515e59fe92af15e5dae9866dfe53d58054b0701b3189ecd8cc17ec9dfbd99053"
+      "sha256": "2027f23a1c9287f504b305b69182deb31813ecaac31085e245def89c7383474f"
     },
     {
       "bytes": 9936,
@@ -16,18 +31,62 @@
       "sha256": "9fb08ee0af8ecc0cf79944e576a27c40e8c0567af6f456e1d21809b1db70a569"
     },
     {
-      "bytes": 12007,
+      "bytes": 12219,
       "path": "evaluation-implementation/verify_results.py",
-      "sha256": "7b8454a7b6099d4c12c01279359a94b242c323ef47c2a7d441bc1c92868b7864"
+      "sha256": "0a696324f1396f3ad367397fb7c97fa6385d525a67b5ce60e87ba66061f782c2"
     }
   ],
   "go_sha256": "2dcc6c78d6ccb2f129ccb70b01cfa29a069664a8576d1eafed666c8cef452899",
-  "qualification": {
-    "bytes": 1010,
-    "path": "METRIC_QUALIFICATION.json",
-    "sha256": "13414fc148254c3ccedd828ab7379ab09591ba5b5607105b0000516225d17783"
+  "previous_freeze": {
+    "bytes": 1172,
+    "path": "evaluation-v1/EVALUATION_GO.json",
+    "sha256": "f1c1cd4a94397619cfd98ba8aa0bd4725cc6d01184875d4842a1456ef3d64528"
   },
+  "previous_version_archive": {
+    "bytes": 16478,
+    "path": "evaluation-implementation/EVALUATION_V1.zip",
+    "sha256": "cba2a16f1de831c7bbbc3a38aaa90732a60658cf2680a60cb48da41bf41fd5ef"
+  },
+  "previous_version_files": [
+    {
+      "bytes": 1172,
+      "path": "evaluation-v1/EVALUATION_GO.json",
+      "sha256": "f1c1cd4a94397619cfd98ba8aa0bd4725cc6d01184875d4842a1456ef3d64528"
+    },
+    {
+      "bytes": 1010,
+      "path": "evaluation-v1/METRIC_QUALIFICATION.json",
+      "sha256": "13414fc148254c3ccedd828ab7379ab09591ba5b5607105b0000516225d17783"
+    },
+    {
+      "bytes": 1991,
+      "path": "evaluation-v1/evaluation-implementation/check_metrics.py",
+      "sha256": "515e59fe92af15e5dae9866dfe53d58054b0701b3189ecd8cc17ec9dfbd99053"
+    },
+    {
+      "bytes": 9936,
+      "path": "evaluation-v1/evaluation-implementation/evaluate.py",
+      "sha256": "a810af87fa4151a75ab8d45a1122384790234fba46ac543b7168c80ca3ff399c"
+    },
+    {
+      "bytes": 16609,
+      "path": "evaluation-v1/evaluation-implementation/runner.py",
+      "sha256": "9fb08ee0af8ecc0cf79944e576a27c40e8c0567af6f456e1d21809b1db70a569"
+    },
+    {
+      "bytes": 12007,
+      "path": "evaluation-v1/evaluation-implementation/verify_results.py",
+      "sha256": "7b8454a7b6099d4c12c01279359a94b242c323ef47c2a7d441bc1c92868b7864"
+    }
+  ],
+  "previous_version_files_scope": "Contained in previous_version_archive, with original relative paths; also retained in the private research checkout",
+  "qualification": {
+    "bytes": 1080,
+    "path": "METRIC_QUALIFICATION.json",
+    "sha256": "d215f7c34578ecbdb8f6a32e47b7f1706829d76a5b5e5751c280f42a24a95229"
+  },
+  "revision": 2,
   "scope": "Implementation of pre-forward protocol, no change to metrics/support/decision definitions",
   "status": "FROZEN_BEFORE_MODEL_METRICS_OPENED",
-  "utc": "2026-10-12T15:50:40.491189+00:00"
+  "utc": "2026-10-12T16:33:51.657291+00:00"
 }

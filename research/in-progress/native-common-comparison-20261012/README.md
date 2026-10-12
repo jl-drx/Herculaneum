@@ -31,6 +31,14 @@ before model metrics are opened. `finalize.py` waits for all inference receipts,
 applies those frozen definitions, verifies the outputs and publishes a final
 private backup. It does not alter the worker or run a model.
 
+Before any model metrics were opened, a [synthetic serialization check](VERIFIER_ORDER_CHECK.json)
+found that the verifier compared an unordered parent-membership list by position.
+Revision 2 sorts that list while still rejecting duplicate or missing parents.
+The metric formulas, model inputs and scientific decision definitions are unchanged.
+The [original evaluation freeze and code](evaluation-v1/EVALUATION_GO.json) remain
+retained. Qualification passed again with the added regression checks; the final
+bundle also includes the original version as `EVALUATION_V1.zip`.
+
 ## Execute or resume
 
 The frozen input archive is

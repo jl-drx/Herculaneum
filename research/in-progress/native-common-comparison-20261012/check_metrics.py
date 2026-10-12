@@ -35,9 +35,15 @@ def main():
             try:fn(y,s)
             except AssertionError:pass
             else:raise AssertionError('Invalid score accepted')
+    v.same_members(['PHerc0841','PHerc0009B'],['PHerc0009B','PHerc0841'])
+    for names in [['PHerc0841'],['PHerc0841','PHerc0841']]:
+        try:v.same_members(names,['PHerc0009B','PHerc0841'])
+        except AssertionError:pass
+        else:raise AssertionError('Incorrect parent membership accepted')
     result=dict(status='PASS',utc=r.now(),paired_metric_cases=cases,
         additional_checks=['60 permutation/tie invariance checks','six invalid-input rejections',
-                           'one-class null policy','finite clipped BCE at zero/one'],
+                           'one-class null policy','finite clipped BCE at zero/one',
+                           'unordered parent membership; duplicates and omissions rejected'],
         real_model_scores_opened=False,
         code=[r.pin(Path(x.__file__)) for x in [evaluate,v]]+[r.pin(Path(__file__))])
     r.atomic(a.output,result);print(json.dumps(result))

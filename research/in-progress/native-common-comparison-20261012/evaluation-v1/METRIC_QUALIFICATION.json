@@ -1,0 +1,29 @@
+{
+  "additional_checks": [
+    "60 permutation/tie invariance checks",
+    "six invalid-input rejections",
+    "one-class null policy",
+    "finite clipped BCE at zero/one"
+  ],
+  "code": [
+    {
+      "bytes": 9936,
+      "path": "/workspace/Herculaneum/research/in-progress/native-common-comparison-20261012/evaluate.py",
+      "sha256": "a810af87fa4151a75ab8d45a1122384790234fba46ac543b7168c80ca3ff399c"
+    },
+    {
+      "bytes": 12007,
+      "path": "/workspace/Herculaneum/research/in-progress/native-common-comparison-20261012/verify_results.py",
+      "sha256": "7b8454a7b6099d4c12c01279359a94b242c323ef47c2a7d441bc1c92868b7864"
+    },
+    {
+      "bytes": 1991,
+      "path": "/workspace/Herculaneum/research/in-progress/native-common-comparison-20261012/check_metrics.py",
+      "sha256": "515e59fe92af15e5dae9866dfe53d58054b0701b3189ecd8cc17ec9dfbd99053"
+    }
+  ],
+  "paired_metric_cases": 68,
+  "real_model_scores_opened": false,
+  "status": "PASS",
+  "utc": "2026-10-12T15:49:45.127972+00:00"
+}
