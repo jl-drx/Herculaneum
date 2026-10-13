@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-10-11T07:52:39.296150+00:00",
+  "target_pixels_read": false,
+  "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+  "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+  "length": 66742237,
+  "tiles": [
+    {
+      "index": 194,
+      "xy": [
+        8,
+        6
+      ],
+      "offset": 14624955,
+      "bytes": 100940,
+      "name": "tile-194.deflate"
+    },
+    {
+      "index": 195,
+      "xy": [
+        9,
+        6
+      ],
+      "offset": 14725895,
+      "bytes": 83176,
+      "name": "tile-195.deflate"
+    },
+    {
+      "index": 225,
+      "xy": [
+        8,
+        7
+      ],
+      "offset": 18116793,
+      "bytes": 130839,
+      "name": "tile-225.deflate"
+    },
+    {
+      "index": 226,
+      "xy": [
+        9,
+        7
+      ],
+      "offset": 18247632,
+      "bytes": 113663,
+      "name": "tile-226.deflate"
+    }
+  ],
+  "body_bytes": 428618,
+  "body_cap_bytes": 8388608,
+  "bbox": [
+    9084,
+    7088,
+    9872,
+    7868
+  ],
+  "code_and_inputs": [
+    {
+      "path": "PROTOCOL.md",
+      "sha256": "2f91af65f4f6b75864298d3039242fdc3422ff1ac790b970cda390505184e5dc"
+    },
+    {
+      "path": "CT_CANDIDATES.json",
+      "sha256": "32a37c1b5ea711b9844b90cc4e65f5895f65b5d1b448ab83925878213a78354e"
+    },
+    {
+      "path": "SOURCE_FOOTPRINT.json",
+      "sha256": "e5b7f233d8f9dbb99b7caa43e3c011e17a1e5d8b5e11a80c7edca72a4d873530"
+    },
+    {
+      "path": "analysis.py",
+      "sha256": "24f625944826362b3c7029e4b412a35986440ac10d01eccaa2c9d9a2069da5d6"
+    },
+    {
+      "path": "synthetic_checks.py",
+      "sha256": "c57eca40e378969ad838b82ef81cd6ee323c540d7d147c84ec521be62d383d9b"
+    },
+    {
+      "path": "SYNTHETIC_CHECKS.json",
+      "sha256": "18ec6d2b041303377f22bab1d838b5ec5bae15cd9483f4fdf77c9cb2dc178d59"
+    },
+    {
+      "path": "acquire_teacher.py",
+      "sha256": "25058c41839b28f0b87b48e4f02f69155c31d853a8d090822dadfe1647140b46"
+    },
+    {
+      "path": "provenance/TEACHER_TIFF_HEADER.json",
+      "sha256": "c046f39cba8875d9f26b0b2518c2aa9b326ff17270370dd6eb5113eeea3110b3"
+    },
+    {
+      "path": "provenance/ADMISSION_SUMMARY.json",
+      "sha256": "876c0b0e4bade750147e78cb15b93c78643be5c995208aa430a55ec30025ab44"
+    },
+    {
+      "path": "native_eligible.npy",
+      "sha256": "4208ad55f4070adf1dd1b54d837ffb5848355d4eb8d08ba54ed032f43b44dca1"
+    },
+    {
+      "path": "NATIVE_ELIGIBILITY.json",
+      "sha256": "1faae2ec545968a8351c81775d65a594b19e8bab191c7aa26070a3d36203d812"
+    }
+  ]
+}

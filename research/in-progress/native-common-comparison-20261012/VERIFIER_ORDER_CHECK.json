@@ -1,0 +1,17 @@
+{
+  "cause": "sort_keys JSON serialization reorders dictionary keys; a parent-membership list has no semantic ordering",
+  "correction": "Compare sorted parent lists, retaining duplicate/missing-member rejection; no metric or decision definition changes",
+  "example_saved_names": [
+    "PHerc0841",
+    "PHerc0009B"
+  ],
+  "example_verifier_names": [
+    "PHerc0009B",
+    "PHerc0841"
+  ],
+  "original_archive": "evaluation-v1",
+  "previous_evaluation_go_sha256": "f1c1cd4a94397619cfd98ba8aa0bd4725cc6d01184875d4842a1456ef3d64528",
+  "real_model_metrics_opened": false,
+  "status": "EXPECTED_SYNTHETIC_VERIFIER_ORDER_FAILURE",
+  "utc": "2026-10-12T16:32:49.342970+00:00"
+}

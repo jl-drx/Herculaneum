@@ -1,0 +1,81 @@
+{
+  "all_masks_identical": true,
+  "all_components_receipts_mesh_counts_identical": true,
+  "mask_comparisons": [
+    {
+      "segment": "20251028213516",
+      "pixel_differences_by_mask": {
+        "bilinear_valid": 0,
+        "normal_valid": 0,
+        "inside_native": 0,
+        "far_surface": 0,
+        "old_ct_clear": 0,
+        "point_support": 0,
+        "all_origin_context": 0,
+        "fixed_grid_context": 0
+      }
+    },
+    {
+      "segment": "20251028220042",
+      "pixel_differences_by_mask": {
+        "bilinear_valid": 0,
+        "normal_valid": 0,
+        "inside_native": 0,
+        "far_surface": 0,
+        "old_ct_clear": 0,
+        "point_support": 0,
+        "all_origin_context": 0,
+        "fixed_grid_context": 0
+      }
+    },
+    {
+      "segment": "20251028220955",
+      "pixel_differences_by_mask": {
+        "bilinear_valid": 0,
+        "normal_valid": 0,
+        "inside_native": 0,
+        "far_surface": 0,
+        "old_ct_clear": 0,
+        "point_support": 0,
+        "all_origin_context": 0,
+        "fixed_grid_context": 0
+      }
+    },
+    {
+      "segment": "20251028222030",
+      "pixel_differences_by_mask": {
+        "bilinear_valid": 0,
+        "normal_valid": 0,
+        "inside_native": 0,
+        "far_surface": 0,
+        "old_ct_clear": 0,
+        "point_support": 0,
+        "all_origin_context": 0,
+        "fixed_grid_context": 0
+      }
+    },
+    {
+      "segment": "20251028225813",
+      "pixel_differences_by_mask": {
+        "bilinear_valid": 0,
+        "normal_valid": 0,
+        "inside_native": 0,
+        "far_surface": 0,
+        "old_ct_clear": 0,
+        "point_support": 0,
+        "all_origin_context": 0,
+        "fixed_grid_context": 0
+      }
+    }
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "tifffile": "2026.9.20",
+    "max_rss_kib": 1650176,
+    "elapsed_seconds": 269.074729681015,
+    "kdtree_workers": 4,
+    "blas_threads": 1
+  }
+}

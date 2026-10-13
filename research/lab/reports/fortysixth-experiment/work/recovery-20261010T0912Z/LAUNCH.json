@@ -1,0 +1,28 @@
+{
+  "supervisor_pid": 981,
+  "script": "execute_resume.py",
+  "smoke_test": {
+    "status": "PASS",
+    "mode": "smoke",
+    "model": "hecate",
+    "phase": "plain",
+    "threads": 4,
+    "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "shape": [
+      1,
+      1,
+      64,
+      64
+    ],
+    "decoded_sha256": "5846c34bfa02a6759fdf2fa82b9c482e49f8377504c29182def8a8378a6c2355",
+    "elapsed_seconds": 4.666486325999983,
+    "torch": "2.13.0+cpu",
+    "device": "cpu",
+    "precision": "fp32",
+    "depth": "+1",
+    "direction": "reverse",
+    "max_probability_error_vs_cloud_tile": 9.328126907348633e-06,
+    "scope": "One fixed real tile; validates relocated runtime/input compatibility, not full-map reproduction or ink accuracy."
+  },
+  "launch_method": "subprocess.Popen start_new_session=True; survives shell closure but not cloud runtime replacement"
+}

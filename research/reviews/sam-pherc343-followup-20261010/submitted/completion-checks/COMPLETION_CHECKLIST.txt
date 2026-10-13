@@ -1,0 +1,77 @@
+PHerc343 fixed completion review | prepared 2026-10-10 before inspecting completed Hecate pixels
+
+PURPOSE AND AUTHORITY
+Review completed outputs from the original fixed d=+1, reading/reverse-side reproduction. This is an implementation/integrity and descriptive reproduction review, not ink validation. The original frozen recipe is authoritative; do not create a replacement harness or select a new endpoint. No inference, training, large downloads, original-task messages or repository changes were performed to prepare this checklist.
+
+Sources:
+- Original source pin: Nieuwlaar/pherc343-first-letters e8370f1f88a211166056df62ea6fcfffe4a1063e.
+- Prior independent review snapshot: f85c6ab579da054d3ca94c3b7e4b58699f7c6a3a.
+- Additional composition/checkpoint source inspected at Herculaneum dae701c09817404933187971cc4b8db91cd0210e.
+- Original PROTOCOL.md, compose_and_compare.py, FIXED_DISPLAY_STATS.json and published sidecar in supplied metadata.
+- https://github.com/jl-drx/Herculaneum/blob/dae701c09817404933187971cc4b8db91cd0210e/research/in-progress/pherc343-reproduction/compose_and_compare.py
+- https://github.com/jl-drx/Herculaneum/blob/dae701c09817404933187971cc4b8db91cd0210e/research/lab/reports/fortyfifth-experiment/source-evidence/pherc343/ink/scripts/merge_tile_phase.py
+- https://github.com/jl-drx/Herculaneum/blob/dae701c09817404933187971cc4b8db91cd0210e/research/lab/reports/fortyfifth-experiment/source-evidence/pherc343/ink/scripts/make_submission_image.py
+
+1. REQUIRE TERMINAL ARTIFACTS; DO NOT CONFUSE CHECKPOINT AND COMPLETION
+[ ] Copy immutable final maps and final receipts only after their producer has finished. Do not inspect or alter active accumulators or launch another worker.
+[ ] Require final inference PASS enumerating exactly eight distinct pairs: four models x plain/padded, individual PASS receipts, full final images, matching output byte lengths and encoded SHA256, decoded C-order SHA256, correct checkpoint SHA256, dimensions and metadata. Check receipts correspond to this run and each other.
+[ ] A progress log, watcher heartbeat, LATEST.json, ZIP backup, valid generation, checkpoint-validation PASS or complete prefix is not a final output receipt. Never zero-fill a partial prefix, infer remaining pixels, or treat seven saved maps as eight.
+[ ] If recovery was used: inspect final provenance plus BINDING.json, committed generation manifest, prefix byte/hash and row coverage, exact original input/source/model identities, qualified runtime and resumed global batch boundary. Preserve recovery history. Bounded seven-case checkpoint equivalence (including a six-origin real fixture) is not full-map replay, a platform durability test or scientific accuracy.
+[ ] Compare all seven previously completed maps to their retained hashes (SAVED_MAPS_VERIFIED.json). Hecate padded is the only new result expected. Receipt integrity proves correspondence to a declared output, not that inference was scientifically correct.
+
+2. INPUT/GEOMETRY GATES
+[ ] Retain rendering PASS and real-input/preprocessing qualification, including known CPU fp32 versus published Villa CUDA auto-AMP numerical differences. Do not relabel these as bitwise cross-runtime equivalence.
+[ ] Native volume: 66 x 2560 x 6720; full native valid.npy bool shape 2560 x 6720, encoded SHA256 1905c0d05656b4472a533e00b1c140592c7b33ed7a8bb7780873517f747e41fc.
+[ ] Raw published crop rows105:2560, cols380:6021, half-open bounds. Packed valid-mask SHA256 f60549218edb9871e5acb8930e176a09fe1aaafef28c10a2261014f70a58dcbc. Expected full valid count 10,678,375; crop count 8,887,441.
+[ ] Original decoded uint8 CT layer34 published-area SHA256 df1a3e8d4e61de845eca0b94952dc207b73605c1f6093312e5283980b895f8f8. If CT remains unavailable to this reviewer, cite retained qualification only; do not claim independent re-verification or silently invent a CT background.
+[ ] Hecate: uint8 single-channel PNG, plain 2304 x 6048, padded 2340 x 6228; 16 planes centered33.5, sampling9.6um, reverse-z, /255 input, patch64, stride32, released EMA. Native Villa maps: uint8 TIFF plain2560 x6720, padded2600 x6920; layers26..42 reversed, robust input normalization, overlap0.5/Hann and prescribed occupancy selection.
+[ ] Frozen model checkpoint file hashes (from original qualification, not raw published ink-map hashes):
+  dnative dense_native-016000.rebuilt.pth: 24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244
+  seed42 step075000: e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab
+  seed43 step075000: 2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f
+  Hecate9.6um: 809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d
+
+3. OWNERSHIP, RESAMPLING AND FIXED FOUR-MODEL COMPOSITION
+Existing original implementation was inspected and DOES implement the following correctly. These are audit safeguards, not detected defects.
+[ ] Verify original node-source identity against a trusted archived manifest, not a new hash derived from the incoming file. Nodes128x336 repeat20x20; IDs1/4 choose padded, all other IDs plain.
+[ ] Villa: crop padded [40:2600,200:6920], then ownership-select in native coordinates.
+[ ] Hecate: crop padded [36:,180:], resize original native ownership mask to6048x2304 with cv2.INTER_NEAREST, select phase values on Hecate grid. Convert merged uint8 to float32/255, then cv2.INTER_LINEAR resize to native6720x2560. Never use the Villa crop on Hecate; never bilinear-resize ownership; never flip twice.
+[ ] Villa output-value transform is clip((float32(v)-64)/128,0,1). This is not the final ensemble display. Hecate output transform is float32(v)/255.
+[ ] Canonical sum order: dnative, hecate, ink9-42, ink9-43. Four equal weights1/4 on z-scores, not on raw uint8 maps; retain original float32 operation order and uint8 conversion.
+  dnative mean=0.22715597794400577, sd=0.16337432736628918
+  hecate mean=0.04464233632232741, sd=0.11125896354922513
+  ink9-42 mean=0.10643720787168973, sd=0.15902963900983327
+  ink9-43 mean=0.10645249733596351, sd=0.16307452747275916
+  z_i=(transformed_map_i-mean_i)/sd_i; E=(z_dnative+z_hecate+z_42+z_43)/4.
+[ ] Fixed ensemble lo=-0.7182422280311584, hi=3.862934286594383; ink_u8=(clip((E-lo)/(hi-lo),0,1)*255).astype(uint8). Do not refit means, SDs, percentiles or model weights on these outputs. Fixed values originate in the published pooled reading-side depth statistics; provided stats file transcribes numbers and is not claimed byte-identical to the unpublished original stats file.
+[ ] Original panel: crop native rows105:2560,cols380:6021 and reverse both axes, yielding2455x5641. CT layer34 stretch26..164; dimmed-ct0.45; mono color255,235,120; alpha0.9; threshold0.35/full0.75 applied to ink_u8/255; rounded RGB; invalid pixels black. Preserve original row annotations, letter markers off, caption/legend behavior.
+[ ] Require original composition/merge outputs and successful terminal pipeline status; inference PASS alone is not composed-image completion. Audit actual sidecar values, input hashes and exact original command against the frozen values above.
+
+4. WHAT TO COMPARE, AND HOW TO REPORT IT
+[ ] Run the original compose_and_compare.py through its existing completed pipeline only. This review script never launches it. Require published PNG SHA256 59307c84ea65091de1bea14a3b75d44069bfe1fb498b3445f698ec3d1b8c1c78. Original panel is x173,y182,width5641,height2455; use each image's own sidecar panel box.
+[ ] Retain original metrics: exact encoded PNG comparison, valid-pixel RGB MAE/max, yellow-visible reference/reproduction counts, intersection/union, reference-visible RGB MAE. Original color test: R-B>12, G-B>8, abs(R-G)<50, intersect valid mask. It excludes cyan annotations by color, but does not produce ink labels. RGB differences include display/CT/quantization/annotation differences; encoded PNG equality also depends on encoding.
+[ ] Inspect all18 pre-existing boxes with frozen floor minima/ceil exclusive maxima and valid-mask intersection, plus full published area. These boxes were already exposed and overlap; do not call them held-out independent samples.
+[ ] Hecate phase sensitivity and contribution can be described. Algebraically its additive contribution to fixed E is z_hecate/4. If comparing E4 with separately labeled three-model mean E3, E4-E3=(z_hecate-E3)/4; this change mixes its new signal with rescaling of the other models. It is not a gain in accuracy. Leave-one-out displays are descriptive and cannot replace the four-model endpoint.
+[ ] Raw public reference maps are named and hashed, but absent. With annotated stylized PNG alone, no raw-map equality, probability calibration, AP, precision/recall, letter/transcription accuracy, authenticity or sensitivity/specificity claims. Shared model family/data and correlated errors prevent model agreement from being independent biological validation.
+[ ] Preserve failures and mismatches. No threshold for scientific success is retrospectively invented. Qualified failure to reproduce the image is not evidence this papyrus lacks ink.
+
+5. FREEZE AGAINST POST-HOC CHOICE
+[ ] Keep d=+1, reverse side, same four checkpoints, same area/18 boxes/valid mask, both tile phases with original ownership, all fixed statistics and display settings. No choosing the prettiest phase, region, metric, model, crop, threshold, checkpoint, depth or ensemble after Hecate arrives.
+[ ] Keep integrity gate, reproduction description and biological validation as separate conclusions. Label any newly suggested plot/metric exploratory before running; show all planned comparisons rather than select the best. An interesting Hecate result does not authorize PHerc0800 inference/transfer.
+
+6. CRITIQUE OF THE ADDITIONAL SIX-MAP RANK/OVERLAP STUDY
+Useful question: are spatial rankings or high-response locations stable across the saved model/phase maps? This complements raw-level differences and can reveal calibration effects. It supplies no ground truth.
+- Freeze valid support, all pairs, top-fractions/threshold rules and tied-rank handling before execution. uint8 and clipped values create many ties. Exact top-k membership can depend on arbitrary coordinate tie-breaking; threshold-inclusive sets have unequal sizes. Report the actual sizes and tie mass, or tie-robust bounds, rather than conceal this.
+- Rank correlation discards calibration and saturation; high overlap can coexist with large amplitude or phase differences. Rank agreement is not accuracy and does not identify the better model.
+- Pixel autocorrelation, repeated phases of the same physical CT and related models invalidate independent-pixel significance claims. Avoid nominal millions-of-pixels p-values and treating six maps as six independent biological replicates.
+- Compare matched physical coordinates; separate within-model phase agreement from cross-model agreement. Same valid support matters. Top-fraction overlap has a density-dependent baseline; report the definition and a baseline as descriptive only, not an independence test.
+- All18 boxes must remain included; do not promote the highest-overlap boxes or infer letter identity. These are previously exposed references, not an untouched test set.
+- PNG-derived yellow masks encode the original four-model styled ensemble and annotations. They are not independent labels. Selecting six-map metrics because they best match that PNG introduces circularity.
+- Freeze the six-map study before Hecate and report it separately. Do not tune weights, fractions or endpoint using it, then present the Hecate result as confirmatory.
+
+LIGHTWEIGHT TOOL
+verify_final_maps.py accepts local COPIES of maps_plain, maps_padded, their .receipt.json and Hecate .json sidecars, final FIXED_DEPTH_INFERENCE.json, original node-source with a trusted --node-source-sha256, and valid.npy. Optional --merged checks all four existing composed ownership merges byte-for-byte at decoded pixel level. Core checks use existing Pillow/NumPy and the retained qualification/map-hash JSON files alongside it. Only optional --merged comparison requires OpenCV, to retain the exact source nearest-neighbor ownership convention. No bilinear composition is reimplemented. It only reads supplied files and prints a JSON integrity result. It does not load checkpoints, run inference, invoke composition or write maps. No completed Hecate maps were supplied or tested. Twenty-one small synthetic checks exercised the actual shared validation functions successfully: valid PNG/TIFF receipts passed; wrong encoded/decoded hash, receipt shape, file byte count, checkpoint identity, partial status, short prefix image, uint16 image, incomplete completion, duplicate model/phase and a checkpoint manifest claiming all rows were rejected. This is validator testing, not Hecate execution, actual artifact validation, or an OpenCV resampling test. Results are in SYNTHETIC_TEST_RESULTS.json; the fixture runner is test_verification_gates.py.
+
+The tool deliberately fails closed on missing fields or differing terminal/individual receipts. If the final receipt schema legitimately differs, inspect it and document a schema-only adaptation; do not weaken scientific or provenance gates. It does not independently validate the CT, checkpoint contents, source authenticity, process history, fixed ensemble calculation or scientific accuracy. Those checks remain explicit above.
+
+Execution-environment note: core validation imports and synthetic tests run successfully here with Pillow/NumPy; --help was also exercised. OpenCV is absent, so optional --merged comparison remains untested and needs an appropriate environment. No dependencies were installed. Full real-artifact end-to-end validation is pending completed output copies.

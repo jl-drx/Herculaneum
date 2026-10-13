@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Retained synthetic outputs and preprocessing checks only; full CT/inference remain blocked",
+  "checked_at_utc": "2026-10-09T19:00:22.233006+00:00",
+  "synthetic_outputs": [
+    {
+      "model": "dnative",
+      "maximum_single_batch_difference": 1.7881393432617188e-07,
+      "compared_probability_values": 65536
+    },
+    {
+      "model": "seed42",
+      "maximum_single_batch_difference": 2.384185791015625e-07,
+      "compared_probability_values": 65536
+    },
+    {
+      "model": "seed43",
+      "maximum_single_batch_difference": 2.980232238769531e-07,
+      "compared_probability_values": 65536
+    },
+    {
+      "model": "hecate",
+      "maximum_single_batch_difference": 1.043081283569336e-07,
+      "compared_probability_values": 16384
+    }
+  ],
+  "worker_sources_parse": true,
+  "render_reference_hashes_verified": false,
+  "scientific_ink_forwards": 0,
+  "synthetic_tile_forwards": 28,
+  "gpu_spend_GBP": 0
+}

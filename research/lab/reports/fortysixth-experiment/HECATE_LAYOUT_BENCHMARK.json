@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "input": "same deterministic synthetic tile as runtime_smoke",
+  "precision": "fp32",
+  "change": "Conv3d weight memory layout only",
+  "batch4_seconds": [
+    5.133188764000806,
+    5.488150585002586
+  ],
+  "baseline_batch4_seconds": 6.538746267000533,
+  "max_probability_difference": 5.289912223815918e-06,
+  "tile_forwards": 8,
+  "admission": "Requires a second comparison on the fixed actual CT tile before full run."
+}

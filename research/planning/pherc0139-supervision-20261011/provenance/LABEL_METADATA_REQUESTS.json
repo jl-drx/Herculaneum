@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink_9um/labels/native9-scrollprizeorg-21slices/w040/w040_inklabels.zarr/.zattrs",
+    "retrieved_at_utc": "2026-10-11T07:43:00.486243+00:00",
+    "status": 200,
+    "bytes": 3744,
+    "sha256": "b6e9f7b89ed5acb10495ed2ef534f046a1404eee9a9e4d782d68e63b2c6b97fb",
+    "path": "/workspace/scratch/w040-target-provenance/metadata/hf-inklabels-.zattrs.json",
+    "headers": {
+      "content-type": "application/octet-stream",
+      "etag": "\"c48953c0af6529d2b0bfe5572896bde57f68c7e29cc8701f3db8d3b5dfe0246f\"",
+      "content-length": "3744"
+    }
+  },
+  {
+    "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink_9um/labels/native9-scrollprizeorg-21slices/w040/w040_inklabels.zarr/0/.zarray",
+    "retrieved_at_utc": "2026-10-11T07:43:00.487039+00:00",
+    "status": 200,
+    "bytes": 366,
+    "sha256": "2b9e57043448af2583a60da580b9e3ecd70a0f687b590f5bd5fda8edd10447cf",
+    "path": "/workspace/scratch/w040-target-provenance/metadata/hf-inklabels-0-.zarray.json",
+    "headers": {
+      "content-type": "application/octet-stream",
+      "etag": "\"5cce69350fafd52457088e3a32840e9a6be7a3d73ff8e9c5b383345a67b8ebcf\"",
+      "content-length": "366"
+    }
+  },
+  {
+    "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink_9um/labels/native9-scrollprizeorg-21slices/w040/w040_supervision_mask.zarr/.zattrs",
+    "retrieved_at_utc": "2026-10-11T07:43:00.487589+00:00",
+    "status": 200,
+    "bytes": 3798,
+    "sha256": "390300e469aa9ccb9d834721657877ba901b863a97f55b49bc4fa136b79e7696",
+    "path": "/workspace/scratch/w040-target-provenance/metadata/hf-supervision_mask-.zattrs.json",
+    "headers": {
+      "content-type": "application/octet-stream",
+      "etag": "\"ca7833de226989fbdec6e6521d69436d77f45131eabb4b7550adcb63b26c5544\"",
+      "content-length": "3798"
+    }
+  },
+  {
+    "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink_9um/labels/native9-scrollprizeorg-21slices/w040/w040_supervision_mask.zarr/0/.zarray",
+    "retrieved_at_utc": "2026-10-11T07:43:00.488087+00:00",
+    "status": 200,
+    "bytes": 366,
+    "sha256": "2b9e57043448af2583a60da580b9e3ecd70a0f687b590f5bd5fda8edd10447cf",
+    "path": "/workspace/scratch/w040-target-provenance/metadata/hf-supervision_mask-0-.zarray.json",
+    "headers": {
+      "content-type": "application/octet-stream",
+      "etag": "\"5cce69350fafd52457088e3a32840e9a6be7a3d73ff8e9c5b383345a67b8ebcf\"",
+      "content-length": "366"
+    }
+  },
+  {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/2.399um-volume-20260102150214/20260918/zarr.json",
+    "retrieved_at_utc": "2026-10-11T07:43:01.049721+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/2.399um-volume-20260102150214/20260918/inklabels.zarr/zarr.json",
+    "retrieved_at_utc": "2026-10-11T07:43:01.064233+00:00",
+    "status": 200,
+    "bytes": 2993,
+    "sha256": "4f7c4e6178f33ec8b6e07af44b84043320ed9e7485792b9b1efe0082f9088d9c",
+    "path": "/workspace/scratch/w040-target-provenance/metadata/s3-2.399um-volume-20260102150214-inklabels.json",
+    "headers": {
+      "last-modified": "Mon, 21 Sep 2026 13:58:27 GMT",
+      "etag": "\"1dd026e94b21a2b96f28dd3f8df4eefb\"",
+      "content-type": "application/json",
+      "content-length": "2993"
+    }
+  },
+  {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/2.399um-volume-20260102150214/20260918/supervision.zarr/zarr.json",
+    "retrieved_at_utc": "2026-10-11T07:43:01.069705+00:00",
+    "status": 200,
+    "bytes": 3008,
+    "sha256": "7eb86ef7569f7635d4e98bf4b43c7c5a2fb7a19f677ec72724a221e472961b89",
+    "path": "/workspace/scratch/w040-target-provenance/metadata/s3-2.399um-volume-20260102150214-supervision.json",
+    "headers": {
+      "last-modified": "Mon, 21 Sep 2026 13:58:27 GMT",
+      "etag": "\"a880099ec748af5be424f3097a895a58\"",
+      "content-type": "application/json",
+      "content-length": "3008"
+    }
+  },
+  {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/2.399um-volume-20260102150214/20260918/mapping_validity.zarr/zarr.json",
+    "retrieved_at_utc": "2026-10-11T07:43:01.119419+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/9.362um-volume-20250728140407/20260918/zarr.json",
+    "retrieved_at_utc": "2026-10-11T07:43:01.239210+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/9.362um-volume-20250728140407/20260918/inklabels.zarr/zarr.json",
+    "retrieved_at_utc": "2026-10-11T07:43:01.272327+00:00",
+    "status": 200,
+    "bytes": 2618,
+    "sha256": "2aea1edb5bd9702e785f296642a1979a044828bcb76cd4616a0ff30506db5890",
+    "path": "/workspace/scratch/w040-target-provenance/metadata/s3-9.362um-volume-20250728140407-inklabels.json",
+    "headers": {
+      "last-modified": "Mon, 21 Sep 2026 13:58:28 GMT",
+      "etag": "\"ad0d894f9858fc652a01d6cc8a314d34\"",
+      "content-type": "application/json",
+      "content-length": "2618"
+    }
+  },
+  {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/9.362um-volume-20250728140407/20260918/supervision.zarr/zarr.json",
+    "retrieved_at_utc": "2026-10-11T07:43:01.274219+00:00",
+    "status": 200,
+    "bytes": 2632,
+    "sha256": "664f09446443924aa35c360a1518869011e5a78d0b9c112bbe53d54afed33257",
+    "path": "/workspace/scratch/w040-target-provenance/metadata/s3-9.362um-volume-20250728140407-supervision.json",
+    "headers": {
+      "last-modified": "Mon, 21 Sep 2026 13:58:28 GMT",
+      "etag": "\"d5f2305933f2a9557f9aecabbb315922\"",
+      "content-type": "application/json",
+      "content-length": "2632"
+    }
+  },
+  {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/9.362um-volume-20250728140407/20260918/mapping_validity.zarr/zarr.json",
+    "retrieved_at_utc": "2026-10-11T07:43:01.319594+00:00",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

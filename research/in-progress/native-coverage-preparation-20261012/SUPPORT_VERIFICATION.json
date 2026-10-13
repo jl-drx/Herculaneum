@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "candidate_records": 11887,
+  "restricted_records": 2886,
+  "eligibility": "Independent integer coordinate conversion and summed-area invalid-mask checks",
+  "occupancy": "Dense 3D boolean grids reproduce producer set-union counts",
+  "context_grid_counts": {
+    "64": {
+      "A": 43586,
+      "B": 69780
+    },
+    "128": {
+      "A": 7136,
+      "B": 10411
+    }
+  },
+  "new_model_forwards": 0,
+  "scope": "Separate arithmetic in this workspace; not independent physical annotation or exact sheet-area validation",
+  "rule_sha256": "7ab97a26ffc525d89cc85803359a508758241214762728170d422f285382ca11",
+  "implementation_sha256": "0e64e40c86e8d5e4932750d927c76f5ba58c733f0bf55ea43e3fce30ad130b4b"
+}

@@ -1,0 +1,542 @@
+{
+  "status": "PASS",
+  "core_xywh": [
+    1024,
+    280,
+    128,
+    128
+  ],
+  "maps": [
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "forward",
+      "mean": 0.30644315481185913,
+      "standard_deviation": 0.014365701004862785,
+      "min": 0.2666666805744171,
+      "max": 0.3490196168422699,
+      "q95": 0.3294117748737335
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "reverse",
+      "mean": 0.3723405599594116,
+      "standard_deviation": 0.02608215995132923,
+      "min": 0.2862745225429535,
+      "max": 0.4431372582912445,
+      "q95": 0.4117647111415863
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "forward",
+      "mean": 0.29693603515625,
+      "standard_deviation": 0.01258294191211462,
+      "min": 0.25882354378700256,
+      "max": 0.33725491166114807,
+      "q95": 0.3176470696926117
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "reverse",
+      "mean": 0.3786594867706299,
+      "standard_deviation": 0.029953686520457268,
+      "min": 0.2862745225429535,
+      "max": 0.47843137383461,
+      "q95": 0.4274509847164154
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "forward",
+      "mean": 0.2733989953994751,
+      "standard_deviation": 0.023151032626628876,
+      "min": 0.22745098173618317,
+      "max": 0.35686275362968445,
+      "q95": 0.32156863808631897
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "reverse",
+      "mean": 0.29135215282440186,
+      "standard_deviation": 0.041027940809726715,
+      "min": 0.22745098173618317,
+      "max": 0.45098039507865906,
+      "q95": 0.3686274588108063
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "forward",
+      "mean": 0.3197404444217682,
+      "standard_deviation": 0.07416757196187973,
+      "min": 0.23137255012989044,
+      "max": 0.5372549295425415,
+      "q95": 0.47843137383461
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "reverse",
+      "mean": 0.31758150458335876,
+      "standard_deviation": 0.04140526428818703,
+      "min": 0.23529411852359772,
+      "max": 0.42352941632270813,
+      "q95": 0.38823530077934265
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "forward",
+      "mean": 0.27354663610458374,
+      "standard_deviation": 0.016039932146668434,
+      "min": 0.21568627655506134,
+      "max": 0.364705890417099,
+      "q95": 0.30980393290519714
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "reverse",
+      "mean": 0.30251824855804443,
+      "standard_deviation": 0.047726429998874664,
+      "min": 0.23137255012989044,
+      "max": 0.48235294222831726,
+      "q95": 0.4117647111415863
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "forward",
+      "mean": 0.3066434860229492,
+      "standard_deviation": 0.05162140727043152,
+      "min": 0.19607843458652496,
+      "max": 0.4745098054409027,
+      "q95": 0.41960784792900085
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "reverse",
+      "mean": 0.3638319969177246,
+      "standard_deviation": 0.12076658010482788,
+      "min": 0.20392157137393951,
+      "max": 0.7215686440467834,
+      "q95": 0.6392157077789307
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "forward",
+      "mean": 0.04948148876428604,
+      "standard_deviation": 0.04993835836648941,
+      "min": 0.003921568859368563,
+      "max": 0.3417647182941437,
+      "q95": 0.15980392694473267
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "reverse",
+      "mean": 0.0033002961426973343,
+      "standard_deviation": 0.004623164888471365,
+      "min": 0.0,
+      "max": 0.03485294431447983,
+      "q95": 0.013137255795300007
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "forward",
+      "mean": 0.05466735363006592,
+      "standard_deviation": 0.06478079408407211,
+      "min": 0.0,
+      "max": 0.4742647111415863,
+      "q95": 0.19897058606147766
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "reverse",
+      "mean": 0.005128651391714811,
+      "standard_deviation": 0.012260150164365768,
+      "min": 0.0,
+      "max": 0.1482745110988617,
+      "q95": 0.02038235403597355
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison": "padding",
+      "model": "dnative",
+      "direction": "forward",
+      "pearson_correlation": 0.3532786223731477,
+      "mean_abs_uint8_levels": 3.6899411863123532,
+      "max_abs_uint8_levels": 12.999999225139618
+    },
+    {
+      "comparison": "padding",
+      "model": "dnative",
+      "direction": "reverse",
+      "pearson_correlation": 0.6515166799784602,
+      "mean_abs_uint8_levels": 4.846435258004931,
+      "max_abs_uint8_levels": 19.999998807907104
+    },
+    {
+      "comparison": "depth-order",
+      "model": "dnative",
+      "phase": "plain",
+      "pearson_correlation": 0.11259420802339645,
+      "mean_abs_uint8_levels": 16.82458395811409,
+      "max_abs_uint8_levels": 36.99999779462814
+    },
+    {
+      "comparison": "depth-order",
+      "model": "dnative",
+      "phase": "padded",
+      "pearson_correlation": -0.13125199337068263,
+      "mean_abs_uint8_levels": 20.867918678050046,
+      "max_abs_uint8_levels": 51.99999690055847
+    },
+    {
+      "comparison": "padding",
+      "model": "hybrid_3d2d-seed42",
+      "direction": "forward",
+      "pearson_correlation": 0.7253590154545464,
+      "mean_abs_uint8_levels": 12.85186742786209,
+      "max_abs_uint8_levels": 60.00000402331352
+    },
+    {
+      "comparison": "padding",
+      "model": "hybrid_3d2d-seed42",
+      "direction": "reverse",
+      "pearson_correlation": 0.43338585095172466,
+      "mean_abs_uint8_levels": 10.17150863457573,
+      "max_abs_uint8_levels": 38.999997675418854
+    },
+    {
+      "comparison": "depth-order",
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "pearson_correlation": -0.0635990778450125,
+      "mean_abs_uint8_levels": 10.28485128173088,
+      "max_abs_uint8_levels": 45.99999725818634
+    },
+    {
+      "comparison": "depth-order",
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "pearson_correlation": 0.4769169127901389,
+      "mean_abs_uint8_levels": 13.562621905266496,
+      "max_abs_uint8_levels": 50.00000461935997
+    },
+    {
+      "comparison": "padding",
+      "model": "hybrid_3d2d-seed43",
+      "direction": "forward",
+      "pearson_correlation": 0.5779362661655918,
+      "mean_abs_uint8_levels": 9.494750495746302,
+      "max_abs_uint8_levels": 44.999997317790985
+    },
+    {
+      "comparison": "padding",
+      "model": "hybrid_3d2d-seed43",
+      "direction": "reverse",
+      "pearson_correlation": 0.7421100906308752,
+      "mean_abs_uint8_levels": 18.166015889219125,
+      "max_abs_uint8_levels": 104.00000140070915
+    },
+    {
+      "comparison": "depth-order",
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "pearson_correlation": -0.15896834550962982,
+      "mean_abs_uint8_levels": 9.62371773007817,
+      "max_abs_uint8_levels": 55.99999666213989
+    },
+    {
+      "comparison": "depth-order",
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "pearson_correlation": -0.012068128048870334,
+      "mean_abs_uint8_levels": 21.91046153453499,
+      "max_abs_uint8_levels": 119.00000050663948
+    },
+    {
+      "comparison": "padding",
+      "model": "hecate",
+      "direction": "forward",
+      "pearson_correlation": 0.8155680666139534,
+      "mean_abs_uint8_levels": 6.126172203849785,
+      "max_abs_uint8_levels": 78.01748961210251
+    },
+    {
+      "comparison": "padding",
+      "model": "hecate",
+      "direction": "reverse",
+      "pearson_correlation": 0.5204122978607836,
+      "mean_abs_uint8_levels": 0.9414802884550824,
+      "max_abs_uint8_levels": 33.76000000163913
+    },
+    {
+      "comparison": "depth-order",
+      "model": "hecate",
+      "phase": "plain",
+      "pearson_correlation": -0.06430162659857622,
+      "mean_abs_uint8_levels": 11.884152262972448,
+      "max_abs_uint8_levels": 87.15000316500664
+    },
+    {
+      "comparison": "depth-order",
+      "model": "hecate",
+      "phase": "padded",
+      "pearson_correlation": 0.07866177344456729,
+      "mean_abs_uint8_levels": 13.070882920446191,
+      "max_abs_uint8_levels": 118.93750122282654
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "forward",
+      "model_a": "dnative",
+      "model_b": "hybrid_3d2d-seed42",
+      "pearson_correlation": 0.0603115791933695,
+      "mean_abs_uint8_levels": 9.194213876012327,
+      "max_abs_uint8_levels": 24.00000236928463
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "forward",
+      "model_a": "dnative",
+      "model_b": "hybrid_3d2d-seed43",
+      "pearson_correlation": 0.543194097383186,
+      "mean_abs_uint8_levels": 8.463683614895672,
+      "max_abs_uint8_levels": 21.000002548098564
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "forward",
+      "model_a": "dnative",
+      "model_b": "hecate",
+      "pearson_correlation": 0.0760575523880066,
+      "mean_abs_uint8_levels": 65.54290004888514,
+      "max_abs_uint8_levels": 85.08750210050493
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "forward",
+      "model_a": "hybrid_3d2d-seed42",
+      "model_b": "hybrid_3d2d-seed43",
+      "pearson_correlation": 0.056631157202909545,
+      "mean_abs_uint8_levels": 5.528991920245971,
+      "max_abs_uint8_levels": 24.99999850988388
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "forward",
+      "model_a": "hybrid_3d2d-seed42",
+      "model_b": "hecate",
+      "pearson_correlation": -0.18202324073878384,
+      "mean_abs_uint8_levels": 57.247143771414244,
+      "max_abs_uint8_levels": 86.0000022361055
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "forward",
+      "model_a": "hybrid_3d2d-seed43",
+      "model_b": "hecate",
+      "pearson_correlation": 0.10723284889320202,
+      "mean_abs_uint8_levels": 57.241829649414626,
+      "max_abs_uint8_levels": 87.48750200495124
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "reverse",
+      "model_a": "dnative",
+      "model_b": "hybrid_3d2d-seed42",
+      "pearson_correlation": 0.1637909650634522,
+      "mean_abs_uint8_levels": 21.25091463663466,
+      "max_abs_uint8_levels": 51.00000075995922
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "reverse",
+      "model_a": "dnative",
+      "model_b": "hybrid_3d2d-seed43",
+      "pearson_correlation": -0.11990910339841082,
+      "mean_abs_uint8_levels": 21.580443054281204,
+      "max_abs_uint8_levels": 51.00000075995922
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "reverse",
+      "model_a": "dnative",
+      "model_b": "hecate",
+      "pearson_correlation": -0.30319084054336337,
+      "mean_abs_uint8_levels": 94.10526480793344,
+      "max_abs_uint8_levels": 110.00000104308128
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "reverse",
+      "model_a": "hybrid_3d2d-seed42",
+      "model_b": "hybrid_3d2d-seed43",
+      "pearson_correlation": 0.3817383220227532,
+      "mean_abs_uint8_levels": 9.564758110795992,
+      "max_abs_uint8_levels": 49.99999701976776
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "reverse",
+      "model_a": "hybrid_3d2d-seed42",
+      "model_b": "hecate",
+      "pearson_correlation": -0.020765002670382338,
+      "mean_abs_uint8_levels": 73.45322708872793,
+      "max_abs_uint8_levels": 114.00000068591908
+    },
+    {
+      "comparison": "models",
+      "phase": "plain",
+      "direction": "reverse",
+      "model_a": "hybrid_3d2d-seed43",
+      "model_b": "hecate",
+      "pearson_correlation": 0.22328913209667334,
+      "mean_abs_uint8_levels": 76.30057836453709,
+      "max_abs_uint8_levels": 123.0000002682209
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "forward",
+      "model_a": "dnative",
+      "model_b": "hybrid_3d2d-seed42",
+      "pearson_correlation": 0.3718708026975935,
+      "mean_abs_uint8_levels": 14.472472951460986,
+      "max_abs_uint8_levels": 57.00000420212746
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "forward",
+      "model_a": "dnative",
+      "model_b": "hybrid_3d2d-seed43",
+      "pearson_correlation": 0.27313128066990855,
+      "mean_abs_uint8_levels": 10.180724578040099,
+      "max_abs_uint8_levels": 41.99999749660492
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "forward",
+      "model_a": "dnative",
+      "model_b": "hecate",
+      "pearson_correlation": -0.0657428734191666,
+      "mean_abs_uint8_levels": 61.9733477096594,
+      "max_abs_uint8_levels": 83.00000265240669
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "forward",
+      "model_a": "hybrid_3d2d-seed42",
+      "model_b": "hybrid_3d2d-seed43",
+      "pearson_correlation": 0.6467551428072437,
+      "mean_abs_uint8_levels": 11.405883797328897,
+      "max_abs_uint8_levels": 45.99999725818634
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "forward",
+      "model_a": "hybrid_3d2d-seed42",
+      "model_b": "hecate",
+      "pearson_correlation": -0.19244427809805986,
+      "mean_abs_uint8_levels": 67.75391715077663,
+      "max_abs_uint8_levels": 133.1925068423152
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "forward",
+      "model_a": "hybrid_3d2d-seed43",
+      "model_b": "hecate",
+      "pearson_correlation": -0.14777249336397552,
+      "mean_abs_uint8_levels": 64.48337524112108,
+      "max_abs_uint8_levels": 118.1750001758337
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "reverse",
+      "model_a": "dnative",
+      "model_b": "hybrid_3d2d-seed42",
+      "pearson_correlation": 0.06444485166679996,
+      "mean_abs_uint8_levels": 16.175109029277337,
+      "max_abs_uint8_levels": 59.00000028312206
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "reverse",
+      "model_a": "dnative",
+      "model_b": "hybrid_3d2d-seed43",
+      "pearson_correlation": 0.03499540780224125,
+      "mean_abs_uint8_levels": 25.025146337902697,
+      "max_abs_uint8_levels": 94.0000019967556
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "reverse",
+      "model_a": "dnative",
+      "model_b": "hecate",
+      "pearson_correlation": -0.2951062512846325,
+      "mean_abs_uint8_levels": 95.25036220324255,
+      "max_abs_uint8_levels": 120.00000020954758
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "reverse",
+      "model_a": "hybrid_3d2d-seed42",
+      "model_b": "hybrid_3d2d-seed43",
+      "pearson_correlation": -0.027057898343122593,
+      "mean_abs_uint8_levels": 23.82366947956598,
+      "max_abs_uint8_levels": 114.0000008046627
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "reverse",
+      "model_a": "hybrid_3d2d-seed42",
+      "model_b": "hecate",
+      "pearson_correlation": -0.3948909460055182,
+      "mean_abs_uint8_levels": 79.67547286475182,
+      "max_abs_uint8_levels": 108.00000116229057
+    },
+    {
+      "comparison": "models",
+      "phase": "padded",
+      "direction": "reverse",
+      "model_a": "hybrid_3d2d-seed43",
+      "model_b": "hecate",
+      "pearson_correlation": -0.12902586025820673,
+      "mean_abs_uint8_levels": 91.4693574700148,
+      "max_abs_uint8_levels": 183.0000041727908
+    }
+  ],
+  "interpretation": "Descriptive response stability only; no ink accuracy, AP or authenticated reading. Tiny1.1mm core; one already studied specimen. No ensemble or fitted contrast."
+}

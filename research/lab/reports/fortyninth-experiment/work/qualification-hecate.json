@@ -1,0 +1,22 @@
+{
+  "batch4_seconds": 8.696037852998415,
+  "checkpoint": {
+    "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/hecate_9.6um.pth",
+    "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "size_bytes": 522576086
+  },
+  "finite": true,
+  "input_shape": [
+    16,
+    64,
+    64
+  ],
+  "max_batch_difference": 4.76837158203125e-07,
+  "model": "hecate",
+  "preprocessing": "author interpolated9.6um then uint8, reversed, /255; raw-any support mask",
+  "raw_sha256": "d53962cd7f3e16ff567180f2f2d0bc10c1517902b8f3348eff67b1e8dcf3dcf4",
+  "single_seconds": 2.5197974309994606,
+  "status": "PASS",
+  "strict_load": true,
+  "tile_forwards": 5
+}

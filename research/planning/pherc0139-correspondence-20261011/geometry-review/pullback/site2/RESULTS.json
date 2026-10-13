@@ -1,0 +1,153 @@
+{
+  "site": "site2",
+  "plan_sha256": "a631e6bc8d0c5943927bdf7fbed1d3f2dc71e215ecf6439a1e4edd3120258626",
+  "seconds": 9.039533927003504,
+  "samples": 1479680,
+  "accepted": 1479680,
+  "all_depth_xy_accepted": 73984,
+  "failure_codes": {
+    "0": 1479680,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "failure_key": {
+    "0": "none",
+    "1": "native_geometry_invalid",
+    "2": "fine_geometry_support_or_field_escape",
+    "3": "singular_condition_fold_or_wrong_normal",
+    "4": "basin_or_depth_bound",
+    "5": "not_converged_in10"
+  },
+  "fine_representative_field_half_open_xy": [
+    [
+      3727,
+      4006
+    ],
+    [
+      2979,
+      3257
+    ]
+  ],
+  "native_xywh": [
+    3832,
+    3064,
+    272,
+    272
+  ],
+  "native_j_half_open": [
+    4,
+    24
+  ],
+  "bounds_accepted": {
+    "u_minmax": [
+      3733.1846396867927,
+      3997.392340969016
+    ],
+    "v_minmax": [
+      2984.8277075149977,
+      3248.6862346168245
+    ],
+    "k_minmax": [
+      14.255716352543029,
+      93.0474320397798
+    ],
+    "fine_group2_interpolation_inclusive_xy": [
+      3733,
+      2984,
+      3998,
+      3249
+    ],
+    "fine_k_interpolation_inclusive": [
+      14,
+      94
+    ]
+  },
+  "residual_max_accepted": 0.009999481965729619,
+  "residual_quantiles_accepted": [
+    0.0,
+    6.587510449579425e-06,
+    0.000766279560710627,
+    0.009999481965729619
+  ],
+  "max_abs_query_movement_accepted": [
+    0.6947816836900529,
+    0.9483430992795547,
+    3.003335334127712
+  ],
+  "max_iterations_accepted": 3,
+  "center_native_basis_columns_depth_y_x": [
+    [
+      -0.32439178228378296,
+      0.034423828125,
+      -0.956787109375
+    ],
+    [
+      -0.9440206289291382,
+      0.0576171875,
+      0.3134765625
+    ],
+    [
+      0.0599585585296154,
+      1.00048828125,
+      0.00634765625
+    ]
+  ],
+  "basis_valid_points": 72900,
+  "basis_column_norm_ranges": [
+    [
+      0.9999999574977212,
+      1.0000000237069335,
+      1.0000000799448077
+    ],
+    [
+      1.0002367216304826,
+      1.0063928467193095,
+      1.0114458518759213
+    ],
+    [
+      1.001728270584678,
+      1.0093050114604654,
+      1.0180474954216356
+    ]
+  ],
+  "basis_signed_determinant_range": [
+    1.0054967231113388,
+    1.0153315819990691,
+    1.0255052689589725
+  ],
+  "output_files": [
+    {
+      "name": "failure_codes.npy",
+      "sha256": "b07a6e450ea03fb529f98006dac6965ff9454771694df441a4bd203c89ce73e3",
+      "bytes": 1479808
+    },
+    {
+      "name": "initial_uvk.npy",
+      "sha256": "2a4d6ac5d3a1557f173edc96bb8c6a62d9365eb35446ef250d0889eae6eae8a1",
+      "bytes": 35512448
+    },
+    {
+      "name": "iterations.npy",
+      "sha256": "36a0ca7862904f15438243a941132f0746f73bd6b37292e86b28e9f996527b6e",
+      "bytes": 1479808
+    },
+    {
+      "name": "queries_uvk.npy",
+      "sha256": "748d400ba0cb9a2008576b6c9ebadaf6fe721b966f94105031f6a49e7ab6ba52",
+      "bytes": 35512448
+    },
+    {
+      "name": "residual_native_voxels.npy",
+      "sha256": "3799e4967116b3ccabe02754ec8321591158d53369f7eb8e384c7897f8e6252d",
+      "bytes": 11837568
+    },
+    {
+      "name": "support.npy",
+      "sha256": "b78c6e91991c2e50667883375e8eda3cc12bdcf1dac27c827bef387cfc3d0db1",
+      "bytes": 1479808
+    }
+  ]
+}

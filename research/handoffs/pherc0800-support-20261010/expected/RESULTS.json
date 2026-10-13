@@ -1,0 +1,513 @@
+{
+  "status": "PASS",
+  "decision": "NO_CORE_MEETS_FROZEN_SUPPORT_GATE",
+  "meshes": [
+    {
+      "segment": "20251028213516",
+      "shape_yx": [
+        2160,
+        2240
+      ],
+      "max_base_error_voxels": 0.001953125,
+      "bilinear_valid": 2313200,
+      "normal_valid": 2282000,
+      "inside_CT": 2282000,
+      "outside_old_surface_bound": 286550,
+      "old_CT_intersections_on_geometry_valid": 866876,
+      "point_support": 251463,
+      "context_core": 0,
+      "unrestricted_best_square": {
+        "side": 0,
+        "box_xywh": null
+      },
+      "seconds": 11.781515312999545
+    },
+    {
+      "segment": "20251028220042",
+      "shape_yx": [
+        2040,
+        2000
+      ],
+      "max_base_error_voxels": 0.001953125,
+      "bilinear_valid": 2150800,
+      "normal_valid": 2111200,
+      "inside_CT": 2111200,
+      "outside_old_surface_bound": 202881,
+      "old_CT_intersections_on_geometry_valid": 908737,
+      "point_support": 184696,
+      "context_core": 0,
+      "unrestricted_best_square": {
+        "side": 0,
+        "box_xywh": null
+      },
+      "seconds": 22.547461128000577
+    },
+    {
+      "segment": "20251028220955",
+      "shape_yx": [
+        2100,
+        2100
+      ],
+      "max_base_error_voxels": 0.001953125,
+      "bilinear_valid": 2067600,
+      "normal_valid": 2044900,
+      "inside_CT": 2044900,
+      "outside_old_surface_bound": 1072984,
+      "old_CT_intersections_on_geometry_valid": 958391,
+      "point_support": 690233,
+      "context_core": 11754,
+      "unrestricted_best_square": {
+        "side": 44,
+        "box_xywh": [
+          610,
+          1215,
+          44,
+          44
+        ]
+      },
+      "seconds": 46.766701373002434
+    },
+    {
+      "segment": "20251028222030",
+      "shape_yx": [
+        2580,
+        2580
+      ],
+      "max_base_error_voxels": 0.001953125,
+      "bilinear_valid": 3159600,
+      "normal_valid": 3130900,
+      "inside_CT": 3130900,
+      "outside_old_surface_bound": 755929,
+      "old_CT_intersections_on_geometry_valid": 1133321,
+      "point_support": 710588,
+      "context_core": 8160,
+      "unrestricted_best_square": {
+        "side": 35,
+        "box_xywh": [
+          1168,
+          298,
+          35,
+          35
+        ]
+      },
+      "seconds": 15.027399790000345
+    },
+    {
+      "segment": "20251028225813",
+      "shape_yx": [
+        2300,
+        2260
+      ],
+      "max_base_error_voxels": 0.001953125,
+      "bilinear_valid": 2484000,
+      "normal_valid": 2454100,
+      "inside_CT": 2454100,
+      "outside_old_surface_bound": 412824,
+      "old_CT_intersections_on_geometry_valid": 963389,
+      "point_support": 369449,
+      "context_core": 11442,
+      "unrestricted_best_square": {
+        "side": 69,
+        "box_xywh": [
+          1093,
+          318,
+          69,
+          69
+        ]
+      },
+      "seconds": 12.566004423002596
+    }
+  ],
+  "components_in_selection_order": [
+    {
+      "segment": "20251028225813",
+      "component": 1,
+      "phase47_sample_count": 623,
+      "usable_core_pixels": 11442,
+      "side": 69,
+      "box_xywh": [
+        1093,
+        318,
+        69,
+        69
+      ],
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028222030",
+      "component": 2,
+      "phase47_sample_count": 485,
+      "usable_core_pixels": 2720,
+      "side": 35,
+      "box_xywh": [
+        298,
+        1248,
+        35,
+        35
+      ],
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028222030",
+      "component": 1,
+      "phase47_sample_count": 483,
+      "usable_core_pixels": 2720,
+      "side": 35,
+      "box_xywh": [
+        1168,
+        298,
+        35,
+        35
+      ],
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028222030",
+      "component": 3,
+      "phase47_sample_count": 439,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028222030",
+      "component": 4,
+      "phase47_sample_count": 434,
+      "usable_core_pixels": 2720,
+      "side": 35,
+      "box_xywh": [
+        1348,
+        2227,
+        35,
+        35
+      ],
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028213516",
+      "component": 1,
+      "phase47_sample_count": 271,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220042",
+      "component": 1,
+      "phase47_sample_count": 245,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 17,
+      "phase47_sample_count": 237,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028213516",
+      "component": 6,
+      "phase47_sample_count": 217,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 3,
+      "phase47_sample_count": 205,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028225813",
+      "component": 6,
+      "phase47_sample_count": 205,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028225813",
+      "component": 7,
+      "phase47_sample_count": 168,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028213516",
+      "component": 5,
+      "phase47_sample_count": 153,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220042",
+      "component": 3,
+      "phase47_sample_count": 108,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 6,
+      "phase47_sample_count": 90,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 7,
+      "phase47_sample_count": 90,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220042",
+      "component": 2,
+      "phase47_sample_count": 82,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 1,
+      "phase47_sample_count": 81,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 9,
+      "phase47_sample_count": 61,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028213516",
+      "component": 7,
+      "phase47_sample_count": 51,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 4,
+      "phase47_sample_count": 42,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 11,
+      "phase47_sample_count": 42,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 2,
+      "phase47_sample_count": 22,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220042",
+      "component": 4,
+      "phase47_sample_count": 21,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 15,
+      "phase47_sample_count": 20,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028225813",
+      "component": 8,
+      "phase47_sample_count": 16,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 5,
+      "phase47_sample_count": 15,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 12,
+      "phase47_sample_count": 5,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 14,
+      "phase47_sample_count": 3,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 16,
+      "phase47_sample_count": 3,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028213516",
+      "component": 2,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028213516",
+      "component": 3,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028213516",
+      "component": 4,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 8,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 10,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028220955",
+      "component": 13,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028225813",
+      "component": 2,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028225813",
+      "component": 3,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028225813",
+      "component": 4,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    },
+    {
+      "segment": "20251028225813",
+      "component": 5,
+      "phase47_sample_count": 1,
+      "usable_core_pixels": 0,
+      "side": 0,
+      "box_xywh": null,
+      "qualifies_minimum_core": false
+    }
+  ],
+  "selected": null,
+  "previous_centres": 3260832,
+  "GO_sha256": "49f7be0fcae0e25871c08cc814fc23c4b299b9c9c758e11f4fa82254da9682d8",
+  "no_model_or_intensity_access": true,
+  "gpu_spend_GBP": 0,
+  "limitations": [
+    "Conservative sphere, CT-box and all-origin context envelopes may reject otherwise disjoint exact footprints.",
+    "No physical-sheet or independent ink ground truth established.",
+    "Geometry support does not prove CT objects are present or execution renderer fidelity."
+  ]
+}

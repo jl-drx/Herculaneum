@@ -1,0 +1,271 @@
+{
+  "observed_at_utc": "2026-10-11T08:03:09.209652+00:00",
+  "status": "COMPLETE_RECEIPT_PRESENT",
+  "worker_identity_live": false,
+  "local_process_state_present": false,
+  "pid": null,
+  "completed_maps": 32,
+  "expected_maps": 32,
+  "committed_batch_receipts": 3096,
+  "progress": null,
+  "completed": [
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 36.49492199299857,
+      "tiles": 260
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 33.90150546999939,
+      "tiles": 260
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 32.47436053100682,
+      "tiles": 260
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 33.61139461200219,
+      "tiles": 260
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 31.066836678997788,
+      "tiles": 228
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 30.189711432001786,
+      "tiles": 228
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 30.076885856993613,
+      "tiles": 228
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 29.546671156997036,
+      "tiles": 228
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 1229.5207166679975,
+      "tiles": 765
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 1227.8550767429988,
+      "tiles": 765
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 1219.4236116690008,
+      "tiles": 765
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 1238.9758838449998,
+      "tiles": 765
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 1229.8480340869937,
+      "tiles": 765
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 1202.8102922760008,
+      "tiles": 765
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 1257.6878489060036,
+      "tiles": 765
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 1210.568604193002,
+      "tiles": 765
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 34.28725519999716,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 33.679513445997145,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 34.658846657999675,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 33.04205113399803,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 29.00959558499744,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 28.041526733002684,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 28.838112976001867,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 28.387032376995194,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 33.717581338001764,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 37.97492106599384,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 32.4286842549991,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 36.58773903999827,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 27.992426374999923,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 29.240779911000573,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 30.490594848997716,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 29.365616059003514,
+      "tiles": 228
+    }
+  ],
+  "last_recorded_backup": null,
+  "scope": "Process identity and receipt inventory only. Missing local PID state is expected after a file-only restore; never infer a live worker from saved progress. Not a full output/hash verification or platform-availability prediction."
+}

@@ -1,0 +1,250 @@
+{
+  "observed_at_utc": "2026-10-11T00:48:10.208096+00:00",
+  "status": "RUNNING",
+  "worker_identity_live": true,
+  "pid": 160229,
+  "completed_maps": 26,
+  "expected_maps": 32,
+  "committed_batch_receipts": 1939,
+  "progress": {
+    "committed_batches": 67,
+    "completed_maps": 26,
+    "expected_job_batches": 204,
+    "expected_maps": 32,
+    "job": [
+      "hecate",
+      "padded",
+      "forward",
+      -15
+    ],
+    "new_batches_this_pass": 67,
+    "pass_seconds": 403.2699975889991,
+    "pid": 160229,
+    "reused_batches_this_pass": 0,
+    "stage": "inference",
+    "status": "RUNNING",
+    "utc": "2026-10-11T00:48:08.975989+00:00"
+  },
+  "completed": [
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 36.49492199299857,
+      "tiles": 260
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 33.90150546999939,
+      "tiles": 260
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 32.47436053100682,
+      "tiles": 260
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 33.61139461200219,
+      "tiles": 260
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 31.066836678997788,
+      "tiles": 228
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 30.189711432001786,
+      "tiles": 228
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 30.076885856993613,
+      "tiles": 228
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 29.546671156997036,
+      "tiles": 228
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 1202.8102922760008,
+      "tiles": 765
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 1210.568604193002,
+      "tiles": 765
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 34.28725519999716,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 33.679513445997145,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 34.658846657999675,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 33.04205113399803,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 29.00959558499744,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 28.041526733002684,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 28.838112976001867,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 28.387032376995194,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 33.717581338001764,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 37.97492106599384,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 32.4286842549991,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 36.58773903999827,
+      "tiles": 260
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "seconds": 27.992426374999923,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "seconds": 29.240779911000573,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "seconds": 30.490594848997716,
+      "tiles": 228
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "seconds": 29.365616059003514,
+      "tiles": 228
+    }
+  ],
+  "last_recorded_backup": {
+    "status": "PUSHED",
+    "utc": "2026-10-11T00:39:37.743536+00:00",
+    "remote_commit": "6aba50b3f0e3e9e7871515107f4d182be5014ba7",
+    "generations": 8,
+    "files": 4556,
+    "new_files": 204,
+    "archive_bytes": 5519543,
+    "archive_sha256": "0242e171cc98aac74c970cf533585e4bd4c67ef8e269813e97239de362db563b",
+    "remote_ref": "refs/heads/codex/plinius-pherc0800-phase52-checkpoints"
+  },
+  "scope": "Live process identity and receipt inventory; not a full result/hash verification or a prediction of continued platform availability."
+}

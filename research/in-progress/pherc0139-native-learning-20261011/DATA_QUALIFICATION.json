@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-11T09:31:46.350915+00:00",
+  "all_passed": true,
+  "source_files_verified": 1093,
+  "cores": 265,
+  "supervised_pixels": 2825834,
+  "shape": [
+    265,
+    28,
+    256,
+    256
+  ],
+  "context_bytes": 486277120,
+  "folds": [
+    {
+      "held_out": "w035",
+      "training_cores": 139,
+      "evaluation_cores": 109,
+      "training_supervised_pixels": 1578067,
+      "evaluation_supervised_pixels": 1066610
+    },
+    {
+      "held_out": "w039",
+      "training_cores": 196,
+      "evaluation_cores": 54,
+      "training_supervised_pixels": 2112553,
+      "evaluation_supervised_pixels": 571603
+    },
+    {
+      "held_out": "w044",
+      "training_cores": 163,
+      "evaluation_cores": 102,
+      "training_supervised_pixels": 1638213,
+      "evaluation_supervised_pixels": 1187621
+    }
+  ],
+  "seconds": 7.656142989999353,
+  "model_forwards": 0,
+  "training_updates": 0
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-11T08:04:07.126279+00:00",
+  "scope": "Python audit-hook filesystem-read/write guard during relocated saved-map verifier execution; this is not full OS filesystem isolation and does not intercept arbitrary direct C syscalls.",
+  "packet": "/workspace/scratch/phase52-portable-check-20261011/relocated-packet",
+  "copied_files": 128,
+  "copied_total_bytes": 189319787,
+  "npy_files": 48,
+  "npz_files": 1,
+  "original_checkpoint_present": false,
+  "model_or_ct_files_present": false,
+  "read_allowlist_roots": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python",
+    "/workspace/.venvs/herculaneum",
+    "/workspace/scratch/phase52-portable-check-20261011/relocated-packet"
+  ],
+  "write_policy": "Reject writable open flags and listed os mutation audit events; stdout captured by harness using a file opened before guard activation.",
+  "mutation_events_rejected": [
+    "os.chmod",
+    "os.chown",
+    "os.link",
+    "os.mkdir",
+    "os.remove",
+    "os.rename",
+    "os.rmdir",
+    "os.symlink",
+    "os.truncate",
+    "os.utime"
+  ],
+  "unresolved_fd_policy": "Only fd 0/1/2 allowed if open event supplies an integer",
+  "audit": {
+    "open_events": 381,
+    "allowed_packet_open_events": 362,
+    "allowed_runtime_open_events": 19,
+    "denied_events": []
+  },
+  "verifier_sha256": "89defa798b34c9d3d3a766d529eb63a8ad057e4b475976554984aa2635f033b4",
+  "assessment_plan_sha256": "0706ea76bdec21fc925f0a5ee6615c8a872050aae593275e06c7566b0982d143",
+  "saved_inputs_manifest_sha256": "b346436dfc1c6a234161cea533d520214ce4ab6af71d787c0f81977307b02ea1"
+}

@@ -1,0 +1,93 @@
+{
+  "meaning": "Conservative axis-aligned native-XYZ boxes of all source voxel centres in each retained 272-square native domain, over z0..27; geometry only, not a CT registration certificate. Boxes expanded by 0.5 XYZ voxel to include interpolation-cell margin; this is not continuous-mesh self-intersection certification.",
+  "sites": [
+    {
+      "site": "site1",
+      "native_xyz_min": [
+        4293.34224280715,
+        2917.520497366786,
+        4084.485592916608
+      ],
+      "native_xyz_max": [
+        4373.504819750786,
+        3227.4302487000823,
+        4386.2516783848405
+      ],
+      "all_geometry_valid": true
+    },
+    {
+      "site": "site2",
+      "native_xyz_min": [
+        3479.5243917927146,
+        4282.236873656511,
+        5246.255454607308
+      ],
+      "native_xyz_max": [
+        3759.48421189934,
+        4396.19354107976,
+        5525.8737860918045
+      ],
+      "all_geometry_valid": true
+    },
+    {
+      "site": "site3",
+      "native_xyz_min": [
+        1956.03650701046,
+        4096.221708357334,
+        6592.496742665768
+      ],
+      "native_xyz_max": [
+        2228.1158630549908,
+        4260.080225139856,
+        6881.946317009628
+      ],
+      "all_geometry_valid": true
+    }
+  ],
+  "pairs": [
+    {
+      "sites": [
+        "site1",
+        "site2"
+      ],
+      "axis_box_gaps_native_voxels": [
+        533.8580309078097,
+        1054.806624956429,
+        860.0037762224674
+      ],
+      "box_gap_lower_bound_native_voxels": 1461.9260953733744,
+      "sampled_native_domains_disjoint": true
+    },
+    {
+      "sites": [
+        "site1",
+        "site3"
+      ],
+      "axis_box_gaps_native_voxels": [
+        2065.226379752159,
+        868.7914596572518,
+        2206.245064280927
+      ],
+      "box_gap_lower_bound_native_voxels": 3144.435701944236,
+      "sampled_native_domains_disjoint": true
+    },
+    {
+      "sites": [
+        "site2",
+        "site3"
+      ],
+      "axis_box_gaps_native_voxels": [
+        1251.4085287377238,
+        22.15664851665497,
+        1066.6229565739632
+      ],
+      "box_gap_lower_bound_native_voxels": 1644.444816453744,
+      "sampled_native_domains_disjoint": true
+    }
+  ],
+  "source_mesh_sha256": {
+    "x": "4cc50b835663e35f00accd7e12b2e2eea2f1ac8c60c140601974752105128573",
+    "y": "45ed92a905f13752fc027fe857b2cd8ce0505bf64a0f9ebd3d7ea7ab27f802a5",
+    "z": "aafc0207e6713280e1dd50863976998225ab911a3c4a528ff3add21b10f9a755"
+  }
+}

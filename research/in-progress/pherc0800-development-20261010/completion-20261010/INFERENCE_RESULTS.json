@@ -1,0 +1,1056 @@
+{
+  "all_saved_logit_replays_exact": true,
+  "batch_size": 4,
+  "current_process_seconds": 12982.718569673998,
+  "gpu_spend_GBP": 0,
+  "maps": [
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 128,
+        "reused_forwards": 0
+      },
+      "direction": "forward",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "dnative",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-forward/aligned.npy",
+          "sha256": "02e01ca7e498a1513057267d633576b05571dddc9dbb1277793c8b1df2239b41",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-forward/denominator.npy",
+          "sha256": "92976ccfe634b9712dad837f1452595e2544c7e15cb82763616a807692d4163f",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-forward/display.npy",
+          "sha256": "eed2b6ccf0cce707c892d4ae3d9ba9a956ad1812d0c6199430d26606cf59d93b",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-forward/numerator.npy",
+          "sha256": "888e969d09952b75a4e569e13eeabc345c979de0815d45d50d956bfe9ba102f5",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-forward/raw_grid.npy",
+          "sha256": "eed2b6ccf0cce707c892d4ae3d9ba9a956ad1812d0c6199430d26606cf59d93b",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-forward/supported.npy",
+          "sha256": "d247ccc0c7553f19df741c70e9743a48f3cc0737d972e7851d4bd6c70534b39a",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-forward/unquantized.npy",
+          "sha256": "9a34ff2ddf7e614df1b495718001e861e18813c90edee15ad5c1314f473e13f9",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "plain",
+      "read_only_replay": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 0,
+        "reused_forwards": 128,
+        "status": "PASS"
+      },
+      "seconds": 86.17440387799434,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 128,
+        "reused_forwards": 0
+      },
+      "direction": "reverse",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "dnative",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-reverse/aligned.npy",
+          "sha256": "e277d5794712112e38d8bdb6b2971f75fd275a06b4fbb19e69b20bf43ea5766c",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-reverse/denominator.npy",
+          "sha256": "92976ccfe634b9712dad837f1452595e2544c7e15cb82763616a807692d4163f",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-reverse/display.npy",
+          "sha256": "d4ddcc290a8eee63f2f2dced612df17addf0aa9dd1a5c60efba378f93402c499",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-reverse/numerator.npy",
+          "sha256": "ea78446d77f36f39e6062d2059a94bae320ec83cddb086eabd584d595bfb0c3a",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-reverse/raw_grid.npy",
+          "sha256": "d4ddcc290a8eee63f2f2dced612df17addf0aa9dd1a5c60efba378f93402c499",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-reverse/supported.npy",
+          "sha256": "9205da7cab985eed6486f6eb0672f593a990cbd1f1a3ace698e0f26e84f16fe8",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-plain-reverse/unquantized.npy",
+          "sha256": "d8427c334b825262160d13951e2e4926372adffefc30d67534eeb2e82290a301",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "plain",
+      "read_only_replay": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 0,
+        "reused_forwards": 128,
+        "status": "PASS"
+      },
+      "seconds": 78.84170316699601,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 135,
+        "reused_forwards": 0
+      },
+      "direction": "forward",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "dnative",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-forward/aligned.npy",
+          "sha256": "dfc50ccc40e724b8c2e6695982acc6c7b9ac8497a541ab9637a6daca2f134074",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-forward/denominator.npy",
+          "sha256": "2464fca6c229726b2ebce4a7646d8d5adb2ae88c0b9aaf9de51f2158af70a6b7",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-forward/display.npy",
+          "sha256": "ff9a0327490cc64e1914e34966982c5ad94ada57df8c1b8d03c392844454ec9d",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-forward/numerator.npy",
+          "sha256": "ab477250c3c1e9dd27c99d1c25612b75e970051d672be0d413392dc11a57441f",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-forward/raw_grid.npy",
+          "sha256": "ff9a0327490cc64e1914e34966982c5ad94ada57df8c1b8d03c392844454ec9d",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-forward/supported.npy",
+          "sha256": "33c96c97e3f88802613ea8926617022329e219134320a3d2960bc5e8738b8216",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-forward/unquantized.npy",
+          "sha256": "d80caac655dd01e2c8d7a1f3eb87080077313190e9d49f59b881d23fbacf0448",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "padded",
+      "read_only_replay": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 0,
+        "reused_forwards": 135,
+        "status": "PASS"
+      },
+      "seconds": 84.83661633700103,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 135,
+        "reused_forwards": 0
+      },
+      "direction": "reverse",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "dnative",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-reverse/aligned.npy",
+          "sha256": "829e67787a01b00c16002885ced453fc63d1ed3d21cfb2ec6b030f62d15e801d",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-reverse/denominator.npy",
+          "sha256": "2464fca6c229726b2ebce4a7646d8d5adb2ae88c0b9aaf9de51f2158af70a6b7",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-reverse/display.npy",
+          "sha256": "deacba112d88fd70c9da8a428db191c3bfd50d560ae5c8670537b61d9228c2bf",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-reverse/numerator.npy",
+          "sha256": "9a8f42fa9b1046d48d8e0133a22888572fda6be447070c8a4efa2f3971ec1132",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-reverse/raw_grid.npy",
+          "sha256": "deacba112d88fd70c9da8a428db191c3bfd50d560ae5c8670537b61d9228c2bf",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-reverse/supported.npy",
+          "sha256": "57b6cbc0e9b8da16c02ec8c57ab02f07d9a3f8ceb8fefa806b5efd1e06bf7dc7",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/dnative-padded-reverse/unquantized.npy",
+          "sha256": "09e8e7fb54f1879ebc39372263f5e2ed432fa4c9f18bc6f2bf4c1ae0563b9b55",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "padded",
+      "read_only_replay": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 0,
+        "reused_forwards": 135,
+        "status": "PASS"
+      },
+      "seconds": 79.22836289399856,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 128,
+        "reused_forwards": 0
+      },
+      "direction": "forward",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hybrid_3d2d-seed42",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-forward/aligned.npy",
+          "sha256": "ea52aa29cb5533a55befcc6a07a84036e13fd9c0db0ec081958985b6902bc4d3",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-forward/denominator.npy",
+          "sha256": "92976ccfe634b9712dad837f1452595e2544c7e15cb82763616a807692d4163f",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-forward/display.npy",
+          "sha256": "1d71473840b6f6445b1a42435d75358d70bf5d40635f851a14baa3dde86ac72c",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-forward/numerator.npy",
+          "sha256": "e22a2448cac36d73c82f55d15792aed8b59b3be7b9c37d81130230091b90d9df",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-forward/raw_grid.npy",
+          "sha256": "1d71473840b6f6445b1a42435d75358d70bf5d40635f851a14baa3dde86ac72c",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-forward/supported.npy",
+          "sha256": "0be9ffebb9c8dded1a5d44e234ac6869d57dd160392771411d4565291810712a",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-forward/unquantized.npy",
+          "sha256": "a31eb85939fb979a97d4dabe3d40302daae4231dfba628d713ec5537405181de",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "plain",
+      "read_only_replay": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 0,
+        "reused_forwards": 128,
+        "status": "PASS"
+      },
+      "seconds": 73.62225539000065,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 128,
+        "reused_forwards": 0
+      },
+      "direction": "reverse",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hybrid_3d2d-seed42",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-reverse/aligned.npy",
+          "sha256": "4d8fb29623c11faefd0134a652629c26fafa7ef5abdb4669cf8e3fc5fb73e445",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-reverse/denominator.npy",
+          "sha256": "92976ccfe634b9712dad837f1452595e2544c7e15cb82763616a807692d4163f",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-reverse/display.npy",
+          "sha256": "5b593399733c61110289db0737898c504b1b99f5300dd96932da2055e40e75aa",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-reverse/numerator.npy",
+          "sha256": "dcc37df78f15779cef44ecbfde69ae7f14626ee753df43d11e0203a72c3a9887",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-reverse/raw_grid.npy",
+          "sha256": "5b593399733c61110289db0737898c504b1b99f5300dd96932da2055e40e75aa",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-reverse/supported.npy",
+          "sha256": "f651a7428c5836fd988df73165471cf011a2c6d53d88db093dba9247fc6c0f00",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-plain-reverse/unquantized.npy",
+          "sha256": "1109ed2933d81f7e2741ca3f431f05aa1451c2bb95eebd382827a850534ec53a",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "plain",
+      "read_only_replay": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 0,
+        "reused_forwards": 128,
+        "status": "PASS"
+      },
+      "seconds": 74.05398834599328,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 135,
+        "reused_forwards": 0
+      },
+      "direction": "forward",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hybrid_3d2d-seed42",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-forward/aligned.npy",
+          "sha256": "91b1969e3ceb0cc03729200d6bfc24510fd19a212fb44acb7ff59a4b10bf10ab",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-forward/denominator.npy",
+          "sha256": "2464fca6c229726b2ebce4a7646d8d5adb2ae88c0b9aaf9de51f2158af70a6b7",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-forward/display.npy",
+          "sha256": "64cfb4ff15a6b0a50142db858a98701a4f528818592578e6b85cdc80272877a2",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-forward/numerator.npy",
+          "sha256": "672716a46040a8822728b7574e72e69da4aa561f9189c5848402a0de4947fa6e",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-forward/raw_grid.npy",
+          "sha256": "64cfb4ff15a6b0a50142db858a98701a4f528818592578e6b85cdc80272877a2",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-forward/supported.npy",
+          "sha256": "806151d59170514ff078a0a4a496052826c65fc651cd893dbc94f4e0eb3e1b8f",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-forward/unquantized.npy",
+          "sha256": "633a2d776b1057e9a6cc27e3ebefa2c49b4a66ccb716a94754b591ac3407f714",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "padded",
+      "read_only_replay": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 0,
+        "reused_forwards": 135,
+        "status": "PASS"
+      },
+      "seconds": 76.91486549600086,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 135,
+        "reused_forwards": 0
+      },
+      "direction": "reverse",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hybrid_3d2d-seed42",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/aligned.npy",
+          "sha256": "6a59882338db664e0080bd8c27ab4cd2fd2e0caffd5a59c7b717991fac5cae05",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/denominator.npy",
+          "sha256": "2464fca6c229726b2ebce4a7646d8d5adb2ae88c0b9aaf9de51f2158af70a6b7",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/display.npy",
+          "sha256": "71ae7c0b4626a89e1768361dec2ec89ad0de0f50e90efe2afbe3b8bba579a1bc",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/numerator.npy",
+          "sha256": "1081289b1ab967a3b1db0f00d22b3e3d33f900011c1bec79067001712928e0cd",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/raw_grid.npy",
+          "sha256": "71ae7c0b4626a89e1768361dec2ec89ad0de0f50e90efe2afbe3b8bba579a1bc",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/supported.npy",
+          "sha256": "97c883f67aa192c06ac29e1f62c8c549c0142262426c7b4c7cd55216dfa07735",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/unquantized.npy",
+          "sha256": "9b1de09e856ba3722570adf97120d6018917f15b92773e1c0229b135a40d9da2",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "padded",
+      "read_only_replay": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 0,
+        "reused_forwards": 135,
+        "status": "PASS"
+      },
+      "seconds": 83.30325797400292,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 128,
+        "reused_forwards": 0
+      },
+      "direction": "forward",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hybrid_3d2d-seed43",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-forward/aligned.npy",
+          "sha256": "04459f3aaa0df749132deb6d18f574a2d78f343211f594c8557c08d40588eeb3",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-forward/denominator.npy",
+          "sha256": "92976ccfe634b9712dad837f1452595e2544c7e15cb82763616a807692d4163f",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-forward/display.npy",
+          "sha256": "4962bb3efa14d6a48fd5cf8ad05750ce3ed76f1581c6463a30c492a50cd47c2e",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-forward/numerator.npy",
+          "sha256": "180bd866f1547c4ebddeec8af2c803a1fa02ea33cfd3a4bd16f9544fc8079770",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-forward/raw_grid.npy",
+          "sha256": "4962bb3efa14d6a48fd5cf8ad05750ce3ed76f1581c6463a30c492a50cd47c2e",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-forward/supported.npy",
+          "sha256": "844dec3c984077f7f6cad77e10599ab697fb5077c95ebf4e4ccd912f3b377bb8",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-forward/unquantized.npy",
+          "sha256": "af33dbaf5a084fe25c0767b594312c18be6a4d48e8ba25a371ade0fac701cc30",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "plain",
+      "read_only_replay": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 0,
+        "reused_forwards": 128,
+        "status": "PASS"
+      },
+      "seconds": 74.7614146679989,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 128,
+        "reused_forwards": 0
+      },
+      "direction": "reverse",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hybrid_3d2d-seed43",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-reverse/aligned.npy",
+          "sha256": "064a10f8020105e9c56a4afc63b6bcd0c94eaeebc88274d45e3355af949af566",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-reverse/denominator.npy",
+          "sha256": "92976ccfe634b9712dad837f1452595e2544c7e15cb82763616a807692d4163f",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-reverse/display.npy",
+          "sha256": "d86d00b5ce22c45c92b7b56746d32de7ad6049bbbe76d9616e8f3dd5cad1c2dc",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-reverse/numerator.npy",
+          "sha256": "dc5aefdfc118359bd103cebad5d1ea5d3d2161f6322aa6b75800657f76b9d359",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-reverse/raw_grid.npy",
+          "sha256": "d86d00b5ce22c45c92b7b56746d32de7ad6049bbbe76d9616e8f3dd5cad1c2dc",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-reverse/supported.npy",
+          "sha256": "5d5356e143a260d7c096e0ef8d6ab2d1028265f8050bd58fc81337b9f0e3e608",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-plain-reverse/unquantized.npy",
+          "sha256": "962f45bf34b54f8037e56687b4a617c7b50c85f29da332c9fff6ca823b208e30",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "plain",
+      "read_only_replay": {
+        "model_calls": 128,
+        "model_tiles": 512,
+        "new_forwards": 0,
+        "reused_forwards": 128,
+        "status": "PASS"
+      },
+      "seconds": 78.5272760969965,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 135,
+        "reused_forwards": 0
+      },
+      "direction": "forward",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hybrid_3d2d-seed43",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-forward/aligned.npy",
+          "sha256": "70b89f5bf533ed6fb6c1bdbd6174b2e1801b07e552dccf0354fea937ef65d4ee",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-forward/denominator.npy",
+          "sha256": "2464fca6c229726b2ebce4a7646d8d5adb2ae88c0b9aaf9de51f2158af70a6b7",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-forward/display.npy",
+          "sha256": "0342b9f284b740eb8cbf897ae109b601fe26b54a25bc3b836219bdacc26223b9",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-forward/numerator.npy",
+          "sha256": "18c7eceaf927d39b466cbbfbea440f8bb25f1afeb1d8d5908efb7aaf72eb1bba",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-forward/raw_grid.npy",
+          "sha256": "0342b9f284b740eb8cbf897ae109b601fe26b54a25bc3b836219bdacc26223b9",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-forward/supported.npy",
+          "sha256": "3367f48434e5a1fe9c3398b52bdacef791e2583a00c98d38e196429ba11adb68",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-forward/unquantized.npy",
+          "sha256": "b95262600978295de44277101c2396ac44393d01d5aac09c09121a922d6f145b",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "padded",
+      "read_only_replay": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 0,
+        "reused_forwards": 135,
+        "status": "PASS"
+      },
+      "seconds": 91.88578366699949,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 135,
+        "reused_forwards": 0
+      },
+      "direction": "reverse",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hybrid_3d2d-seed43",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-reverse/aligned.npy",
+          "sha256": "6166755c0f68b8809af90ce75a6eea38dd6380eb6b24ac98764bb6858e92c4eb",
+          "size_bytes": 9437312
+        },
+        "denominator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-reverse/denominator.npy",
+          "sha256": "2464fca6c229726b2ebce4a7646d8d5adb2ae88c0b9aaf9de51f2158af70a6b7",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-reverse/display.npy",
+          "sha256": "8c0c981fdfd5d12b0d4a2e1631ab9375fcb7b4a04e7d1724cac55a079274bcde",
+          "size_bytes": 2359424
+        },
+        "numerator": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-reverse/numerator.npy",
+          "sha256": "f05d4878e4dc5bbe7f4a8f1893077417f4d191808b0b95b77025306287f45315",
+          "size_bytes": 9437312
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-reverse/raw_grid.npy",
+          "sha256": "8c0c981fdfd5d12b0d4a2e1631ab9375fcb7b4a04e7d1724cac55a079274bcde",
+          "size_bytes": 2359424
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-reverse/supported.npy",
+          "sha256": "eacd4e54d0b5b24444db3ad320b230d717ec9751abe465a2994d7ac39c4dd126",
+          "size_bytes": 9437312
+        },
+        "unquantized": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hybrid_3d2d-seed43-padded-reverse/unquantized.npy",
+          "sha256": "489e22f58adcf824d6e7ffcc0149aa7e1473f47b87ddfb370045676e6062ced0",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "padded",
+      "read_only_replay": {
+        "model_calls": 135,
+        "model_tiles": 537,
+        "new_forwards": 0,
+        "reused_forwards": 135,
+        "status": "PASS"
+      },
+      "seconds": 80.31767648099776,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 470,
+        "model_tiles": 1739,
+        "new_forwards": 470,
+        "reused_forwards": 0
+      },
+      "direction": "forward",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hecate",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-plain-forward/aligned.npy",
+          "sha256": "966bfdcdd42767854218e98db32ca768d4aa02a52990196937153188214adb32",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-plain-forward/display.npy",
+          "sha256": "9516dba297d44463899376787065d3fb72c722f2a85bf50f5d981b68cad95cea",
+          "size_bytes": 2359424
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-plain-forward/raw_grid.npy",
+          "sha256": "6362ca7435333dc97c141d2ea5215849a04287309c23e1fdf6db08759804d468",
+          "size_bytes": 5391812
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-plain-forward/supported.npy",
+          "sha256": "e784e75f14d2dcea24649302ef49bf3a01fa7c691a58c2c0285c64b121b765f0",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "plain",
+      "read_only_replay": {
+        "model_calls": 470,
+        "model_tiles": 1739,
+        "new_forwards": 0,
+        "reused_forwards": 470,
+        "status": "PASS"
+      },
+      "seconds": 3131.6295378399955,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 470,
+        "model_tiles": 1739,
+        "new_forwards": 470,
+        "reused_forwards": 0
+      },
+      "direction": "reverse",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hecate",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-plain-reverse/aligned.npy",
+          "sha256": "4ffc5bdf2e3d888d9ddfc161e2f1583f67df6335900a7a96a51a02d15452b418",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-plain-reverse/display.npy",
+          "sha256": "2bbb85f5a59f1eda30eaaf816c63de7df6a6b359b13a2a8675e97f1db4f28386",
+          "size_bytes": 2359424
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-plain-reverse/raw_grid.npy",
+          "sha256": "29daba0805957d41977d26e9b1ce8532c626a5685ed35e5c7a3c4e37163c2ea8",
+          "size_bytes": 5391812
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-plain-reverse/supported.npy",
+          "sha256": "a71d879699b9549e0816bda6fc9b3bad01e1c9dd4216fe4fc4d5418715c876aa",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "plain",
+      "read_only_replay": {
+        "model_calls": 470,
+        "model_tiles": 1739,
+        "new_forwards": 0,
+        "reused_forwards": 470,
+        "status": "PASS"
+      },
+      "seconds": 3025.662191607,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 468,
+        "model_tiles": 1739,
+        "new_forwards": 468,
+        "reused_forwards": 0
+      },
+      "direction": "forward",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hecate",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-padded-forward/aligned.npy",
+          "sha256": "c8a07f61d3f5824755a63520cef2f48e5770c1dccd0d56957d57f38f1e81a8cb",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-padded-forward/display.npy",
+          "sha256": "1dc1c71e64e3226f8a75f11971c86cb504333f1a627288dccf714e56978cee16",
+          "size_bytes": 2359424
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-padded-forward/raw_grid.npy",
+          "sha256": "22803e74618673344035c71a9181a47a194a2df45baaf7203dce9ffc63784a36",
+          "size_bytes": 5899844
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-padded-forward/supported.npy",
+          "sha256": "c52d07f8d14020d7f92bea7dac67342e8cc7232f6f9fa36e80a6648cde726195",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "padded",
+      "read_only_replay": {
+        "model_calls": 468,
+        "model_tiles": 1739,
+        "new_forwards": 0,
+        "reused_forwards": 468,
+        "status": "PASS"
+      },
+      "seconds": 2955.0323586489976,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    },
+    {
+      "core_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "counts": {
+        "model_calls": 468,
+        "model_tiles": 1739,
+        "new_forwards": 468,
+        "reused_forwards": 0
+      },
+      "direction": "reverse",
+      "go_sha256": "bd10e35e367fa982a3db8bd14be581766df9e06b7629186e3dba54f318cfc05e",
+      "model": "hecate",
+      "outputs": {
+        "aligned": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-padded-reverse/aligned.npy",
+          "sha256": "07b978aac62230c09b70e1b2a09add124d32250b3051f042072aea5a4fd677e3",
+          "size_bytes": 9437312
+        },
+        "display": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-padded-reverse/display.npy",
+          "sha256": "9cb7f0eedd412153c06eadd60f85d5f8aef2d9c98afdb1d1516a6528d64bd9fc",
+          "size_bytes": 2359424
+        },
+        "raw_grid": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-padded-reverse/raw_grid.npy",
+          "sha256": "61e7def83035bbe4eb3a2ae292e9e5d4cb32991e2fa4de064f39bab63179ed04",
+          "size_bytes": 5899844
+        },
+        "supported": {
+          "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/inference/hecate-padded-reverse/supported.npy",
+          "sha256": "06914ba411db7d9c9df4e575224fec85fec68027947c68d14246690a31867447",
+          "size_bytes": 9437312
+        }
+      },
+      "phase": "padded",
+      "read_only_replay": {
+        "model_calls": 468,
+        "model_tiles": 1739,
+        "new_forwards": 0,
+        "reused_forwards": 468,
+        "status": "PASS"
+      },
+      "seconds": 2903.013726242003,
+      "status": "PASS",
+      "support_mask": {
+        "path": "/workspace/herculaneum-lab/reports/fiftyfirst-experiment/work/output-support.npz",
+        "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+        "size_bytes": 37908
+      }
+    }
+  ],
+  "precision": "fp32 CPU",
+  "status": "PASS",
+  "total_model_tiles": 13250,
+  "total_unique_model_batches": 3454
+}

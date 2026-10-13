@@ -1,0 +1,222 @@
+{
+  "status": "PASS",
+  "maps": [
+    {
+      "status": "PASS",
+      "model": "dnative",
+      "phase": "padded",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+        "bytes": 272895087,
+        "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244"
+      },
+      "output": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__dnative__L66s26_reverse.tif",
+        "sha256": "0b16a486b577c2d76b57d8dfcd2dbf923024e89b1c85cb1e3a1a99c447399183",
+        "bytes": 6123766
+      },
+      "decoded_sha256": "8c8c1ef7ca2e9965ba960ff0a34b6c319c2dfa6e699d0af2b1ee7cbad4d8da2d",
+      "shape": [
+        2600,
+        6920
+      ],
+      "min": 0,
+      "max": 222,
+      "tile_forwards": 2870,
+      "elapsed_seconds": 390.345037779,
+      "device": "cpu",
+      "precision": "fp32",
+      "compile": false
+    },
+    {
+      "status": "PASS",
+      "model": "hecate",
+      "phase": "padded",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/hecate_9.6um.pth",
+        "bytes": 522576086,
+        "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d"
+      },
+      "output": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hecate__L66zc33.50_reverse.png",
+        "sha256": "16a20a82271fce42f667a22ecfbedbe0bf97423af3ae3c0dfc48b2027f60b752",
+        "bytes": 2740077
+      },
+      "decoded_sha256": "7c7b879177afbe90bf18e5dbca4638262731a923923a2a844ba9a5904c68c38f",
+      "shape": [
+        2340,
+        6228
+      ],
+      "min": 0,
+      "max": 255,
+      "tile_forwards": null,
+      "elapsed_seconds": 16835.154229747,
+      "device": "cpu",
+      "precision": "fp32",
+      "compile": false
+    },
+    {
+      "status": "PASS",
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+        "bytes": 138360039,
+        "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab"
+      },
+      "output": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed42__L66s26_reverse.tif",
+        "sha256": "7135f2843a4ba393582864c68b36bf801e784118bddacbf97123ee7121a5f255",
+        "bytes": 6139299
+      },
+      "decoded_sha256": "83e4974daad6b2aff6993137a4a0faa4e9ce557683a1cc6c40b30058cd7cbe3b",
+      "shape": [
+        2600,
+        6920
+      ],
+      "min": 0,
+      "max": 217,
+      "tile_forwards": 2870,
+      "elapsed_seconds": 389.66887658800033,
+      "device": "cpu",
+      "precision": "fp32",
+      "compile": false
+    },
+    {
+      "status": "PASS",
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+        "bytes": 138360231,
+        "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f"
+      },
+      "output": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__hybrid_3d2d-seed43__L66s26_reverse.tif",
+        "sha256": "0c80dfaec7deaf9f61a8baec892e06430c3e94b1eb592e2b4d035988ca84a5a6",
+        "bytes": 5957399
+      },
+      "decoded_sha256": "7535213b5c01c44f94a81106edb54ceb7ed585875cd36c3ea8f2f80d8208c1a0",
+      "shape": [
+        2600,
+        6920
+      ],
+      "min": 0,
+      "max": 225,
+      "tile_forwards": 2870,
+      "elapsed_seconds": 699.205342796,
+      "device": "cpu",
+      "precision": "fp32",
+      "compile": false
+    },
+    {
+      "status": "PASS",
+      "model": "dnative",
+      "phase": "plain",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+        "bytes": 272895087,
+        "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244"
+      },
+      "output": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__dnative__L66s26_reverse.tif",
+        "sha256": "d2d5bf84bb83c10d40cd7e6676aa067ada68582c4e929b529c118de4aed5a2c6",
+        "bytes": 6019449
+      },
+      "decoded_sha256": "50bf627bb7d38db64d0f1654273d80bf7c4ddf8ba892aea1b24aea5f6df1f3b6",
+      "shape": [
+        2560,
+        6720
+      ],
+      "min": 0,
+      "max": 222,
+      "tile_forwards": 2797,
+      "elapsed_seconds": 551.715958185,
+      "device": "cpu",
+      "precision": "fp32",
+      "compile": false
+    },
+    {
+      "status": "PASS",
+      "model": "hecate",
+      "phase": "plain",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/hecate_9.6um.pth",
+        "bytes": 522576086,
+        "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d"
+      },
+      "output": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hecate__L66zc33.50_reverse.png",
+        "sha256": "9d67a3f970b6c3f109223d476f6e138b5e4e5deaa9988dd09108d18778680ee1",
+        "bytes": 2730095
+      },
+      "decoded_sha256": "6cabe2a5dc7c4723962b6756cd56ae58f9d3c14cd276db849a67038bf7216e37",
+      "shape": [
+        2304,
+        6048
+      ],
+      "min": 0,
+      "max": 255,
+      "tile_forwards": null,
+      "elapsed_seconds": 22643.621777868997,
+      "device": "cpu",
+      "precision": "fp32",
+      "compile": false
+    },
+    {
+      "status": "PASS",
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed42-step075000.pth",
+        "bytes": 138360039,
+        "sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab"
+      },
+      "output": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed42__L66s26_reverse.tif",
+        "sha256": "c1f956efbf3e5badd1d7303b3aad0ba83e3e1e9dbee2476506600fe6b8f397a4",
+        "bytes": 6103189
+      },
+      "decoded_sha256": "9ec7b498154383097e3fa84de2022bd384238473e027ee82d6f4c3704fb34e48",
+      "shape": [
+        2560,
+        6720
+      ],
+      "min": 0,
+      "max": 214,
+      "tile_forwards": 2797,
+      "elapsed_seconds": 380.2872138629998,
+      "device": "cpu",
+      "precision": "fp32",
+      "compile": false
+    },
+    {
+      "status": "PASS",
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "checkpoint": {
+        "path": "/workspace/herculaneum-lab/data/models/ink9um-seed43-step075000.pth",
+        "bytes": 138360231,
+        "sha256": "2aeaa85a35ef28d7bc7bf3e848c4a6a91385e9132710927fdba41133c4ecb28f"
+      },
+      "output": {
+        "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hybrid_3d2d-seed43__L66s26_reverse.tif",
+        "sha256": "2d21f5d80d6a9e3fe681cba7e9253cc9718894d8c02ef831dbc9f43be0d8d4fa",
+        "bytes": 5885349
+      },
+      "decoded_sha256": "3f65dca95d363d9767bf2da951bf9b2065e0a94a7f00b54297be66a1fd32388a",
+      "shape": [
+        2560,
+        6720
+      ],
+      "min": 0,
+      "max": 232,
+      "tile_forwards": 2797,
+      "elapsed_seconds": 378.1679747440003,
+      "device": "cpu",
+      "precision": "fp32",
+      "compile": false
+    }
+  ],
+  "gpu_spend_GBP": 0
+}

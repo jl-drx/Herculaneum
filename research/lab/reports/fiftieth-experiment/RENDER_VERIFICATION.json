@@ -1,0 +1,573 @@
+{
+  "candidate_comparison": {
+    "exact": 6724366,
+    "exact_fraction": 0.9968332550615738,
+    "max_abs": 1,
+    "mean_abs": 0.0031667449384262156,
+    "samples": 6745728,
+    "within_one_fraction": 1.0
+  },
+  "context_checks": [
+    {
+      "all_input_pixels_observed": true,
+      "family": "villa",
+      "patches": 12,
+      "phase": "plain"
+    },
+    {
+      "all_input_pixels_observed": true,
+      "family": "hecate",
+      "patches": 36,
+      "phase": "plain"
+    },
+    {
+      "all_input_pixels_observed": true,
+      "family": "villa",
+      "patches": 12,
+      "phase": "padded"
+    },
+    {
+      "all_input_pixels_observed": true,
+      "family": "hecate",
+      "patches": 36,
+      "phase": "padded"
+    }
+  ],
+  "full_target_maps": 0,
+  "gates": {
+    "all_model_context_observed": true,
+    "correct_physical_metadata": true,
+    "independent_candidate": true,
+    "metadata_control_byte_exact": true
+  },
+  "metadata": [
+    {
+      "attrs": {
+        "canvas_size": [
+          128,
+          128
+        ],
+        "chunk_size": [
+          66,
+          128,
+          128
+        ],
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "y",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "x",
+                "type": "space",
+                "unit": "micrometer"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      8.64,
+                      8.64
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      17.28,
+                      17.28
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      34.56,
+                      34.56
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      69.12,
+                      69.12
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      138.24,
+                      138.24
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      276.48,
+                      276.48
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "metadata": {
+              "downsampling_method": "mean"
+            },
+            "name": "render",
+            "version": "0.4"
+          }
+        ],
+        "note_axes_order": "ZYX (slice, row, col)",
+        "num_slices": 66,
+        "slice_step": 1.0,
+        "source_group": 0,
+        "source_zarr": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/renderer-cache-metadata-control"
+      },
+      "case": "metadata-control"
+    },
+    {
+      "attrs": {
+        "canvas_size": [
+          312,
+          24
+        ],
+        "chunk_size": [
+          66,
+          128,
+          128
+        ],
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "y",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "x",
+                "type": "space",
+                "unit": "micrometer"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      8.64,
+                      8.64
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      17.28,
+                      17.28
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      34.56,
+                      34.56
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      69.12,
+                      69.12
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      138.24,
+                      138.24
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      276.48,
+                      276.48
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "metadata": {
+              "downsampling_method": "mean"
+            },
+            "name": "render",
+            "version": "0.4"
+          }
+        ],
+        "note_axes_order": "ZYX (slice, row, col)",
+        "num_slices": 66,
+        "slice_step": 1.0,
+        "source_group": 0,
+        "source_zarr": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/renderer-cache-candidate-top"
+      },
+      "case": "candidate-top"
+    },
+    {
+      "attrs": {
+        "canvas_size": [
+          320,
+          296
+        ],
+        "chunk_size": [
+          66,
+          128,
+          128
+        ],
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "y",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "x",
+                "type": "space",
+                "unit": "micrometer"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      8.64,
+                      8.64
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      17.28,
+                      17.28
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      34.56,
+                      34.56
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      69.12,
+                      69.12
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      138.24,
+                      138.24
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      8.64,
+                      276.48,
+                      276.48
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "metadata": {
+              "downsampling_method": "mean"
+            },
+            "name": "render",
+            "version": "0.4"
+          }
+        ],
+        "note_axes_order": "ZYX (slice, row, col)",
+        "num_slices": 66,
+        "slice_step": 1.0,
+        "source_group": 0,
+        "source_zarr": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/renderer-cache-candidate-bottom"
+      },
+      "case": "candidate-bottom"
+    }
+  ],
+  "new_model_inference": false,
+  "observed_mosaic_pixels": 102208,
+  "script": {
+    "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/verify_candidate_render.py",
+    "sha256": "3b3b6b18bbbd4520036d62a6c09f6a8d0d9485d5767496bb87f252afba4a5483",
+    "size_bytes": 4253
+  },
+  "status": "PASS",
+  "unknown_mosaic_pixels": 192
+}

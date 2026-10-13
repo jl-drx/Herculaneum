@@ -1,0 +1,58 @@
+{
+  "core_xywh": [
+    1024,
+    280,
+    128,
+    128
+  ],
+  "counts": {
+    "model_calls": 12,
+    "new_forwards": 12,
+    "reused_forwards": 0
+  },
+  "direction": "reverse",
+  "go_sha256": "d396d24a7685442d7a1c1d98dd0e83396c4c275fec9ff24ce3b65cdd03a23bd3",
+  "initial_fault_injection_forwards": 0,
+  "model": "hybrid_3d2d-seed42",
+  "outputs": {
+    "aligned": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/aligned.npy",
+      "sha256": "715ed993d827f9028b7b701b2b594146822e1dd597f5229ff01555d8a9d737d4",
+      "size_bytes": 65664
+    },
+    "denominator": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/denominator.npy",
+      "sha256": "3a9f7f31ff98a3d860328a9e549fd62609a65f0b3018191ea27cea20a4feb1bc",
+      "size_bytes": 65664
+    },
+    "display": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/display.npy",
+      "sha256": "b76b08635da41527f8d811ed207b9a89722d96af05f718913ceff9c184a5085d",
+      "size_bytes": 16512
+    },
+    "numerator": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/numerator.npy",
+      "sha256": "051f137a380523e42d5b8ce02814244027b890c3c8ce57280dc53b14d6a01196",
+      "size_bytes": 65664
+    },
+    "raw_grid": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/raw_grid.npy",
+      "sha256": "b76b08635da41527f8d811ed207b9a89722d96af05f718913ceff9c184a5085d",
+      "size_bytes": 16512
+    },
+    "unquantized": {
+      "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse/unquantized.npy",
+      "sha256": "4f3a070fb51f144fb3f84ea069c4c1937d70d75e168d22abefc636aacbeafb51",
+      "size_bytes": 65664
+    }
+  },
+  "phase": "padded",
+  "read_only_replay": {
+    "model_calls": 12,
+    "new_forwards": 0,
+    "reused_forwards": 12,
+    "status": "PASS"
+  },
+  "seconds": 2.2660770889997366,
+  "status": "PASS"
+}

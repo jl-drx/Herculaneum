@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "go_sha256": "2c20b4491a2c94fdc4c479a84a6ab85f309673a113cfdd8088b30fb7df6bf61c",
+  "endpoints_verified": 9,
+  "endpoint_seal_sha256": "369e3f50acad80b0cd2c57940918368c2ef9330d79d6bd57b32393637e0a0af6",
+  "held_out_map_bodies_opened": 15,
+  "source_files_verified": 1093,
+  "core_metric_rows": 1325,
+  "results_sha256": "ce4dd4af21403e3e608e6f79072705ab9ea97c8e7ca56379566595d90955e170",
+  "recomputed": {
+    "folds": [
+      {
+        "fold": "w035",
+        "profile": {
+          "ap": 0.3473192193201959,
+          "auc": 0.5471464547078552,
+          "positives": 333871,
+          "negatives": 732739,
+          "undefined_single_class": false,
+          "bce": 0.6235494501956211,
+          "prevalence": 0.31302069172424785,
+          "mean_probability": 0.35458671487048565,
+          "fraction_probability_ge_half": 0.0016894647528149934
+        },
+        "cnn_mean_ap": 0.32856635586832095,
+        "cnn_ap_min": 0.3159636035816907,
+        "cnn_ap_max": 0.3358612585439213,
+        "mean_ap_gain": -0.018752863451874935,
+        "all_seeds_gain": false,
+        "training": [
+          {
+            "seed": 17,
+            "endpoint_step": 15872,
+            "terminal_step": 16384,
+            "termination": "ceiling_without_confirmed_plateau",
+            "train_ap": 0.9988619274461179,
+            "train_bce_reduction_from_constant": 0.9518240213819267,
+            "adequate_fit": true
+          },
+          {
+            "seed": 43,
+            "endpoint_step": 16128,
+            "terminal_step": 16384,
+            "termination": "ceiling_still_improving",
+            "train_ap": 0.9988004562240276,
+            "train_bce_reduction_from_constant": 0.9511862866382671,
+            "adequate_fit": true
+          },
+          {
+            "seed": 89,
+            "endpoint_step": 16384,
+            "terminal_step": 16384,
+            "termination": "ceiling_still_improving",
+            "train_ap": 0.9990556578524578,
+            "train_bce_reduction_from_constant": 0.9558882469883997,
+            "adequate_fit": true
+          }
+        ],
+        "profile_blank_mean_probability": 0.34238624865636935,
+        "cnn_blank_mean_probabilities": [
+          0.3243116375247804,
+          0.3848521253222836,
+          0.3326308414441543
+        ],
+        "blank_response_gate": true
+      },
+      {
+        "fold": "w039",
+        "profile": {
+          "ap": 0.32769279799844764,
+          "auc": 0.5304935332122321,
+          "positives": 182380,
+          "negatives": 389223,
+          "undefined_single_class": false,
+          "bce": 0.6312755215369117,
+          "prevalence": 0.31906760461369166,
+          "mean_probability": 0.36293863069784504,
+          "fraction_probability_ge_half": 0.009786512667008395
+        },
+        "cnn_mean_ap": 0.3304730340443321,
+        "cnn_ap_min": 0.3163030276856415,
+        "cnn_ap_max": 0.34953227737031606,
+        "mean_ap_gain": 0.0027802360458844544,
+        "all_seeds_gain": false,
+        "training": [
+          {
+            "seed": 17,
+            "endpoint_step": 15616,
+            "terminal_step": 16384,
+            "termination": "ceiling_still_improving",
+            "train_ap": 0.9829383147484431,
+            "train_bce_reduction_from_constant": 0.8141148648363665,
+            "adequate_fit": true
+          },
+          {
+            "seed": 43,
+            "endpoint_step": 15616,
+            "terminal_step": 16384,
+            "termination": "ceiling_still_improving",
+            "train_ap": 0.9900936171904497,
+            "train_bce_reduction_from_constant": 0.8590680842810882,
+            "adequate_fit": true
+          },
+          {
+            "seed": 89,
+            "endpoint_step": 16384,
+            "terminal_step": 16384,
+            "termination": "ceiling_still_improving",
+            "train_ap": 0.9932931356338761,
+            "train_bce_reduction_from_constant": 0.8849841663572079,
+            "adequate_fit": true
+          }
+        ],
+        "profile_blank_mean_probability": 0.35725307454827887,
+        "cnn_blank_mean_probabilities": [
+          0.21389711450522256,
+          0.3232286375555417,
+          0.24380520760486873
+        ],
+        "blank_response_gate": true
+      },
+      {
+        "fold": "w044",
+        "profile": {
+          "ap": 0.42184158352926304,
+          "auc": 0.5511052667862061,
+          "positives": 450775,
+          "negatives": 736846,
+          "undefined_single_class": false,
+          "bce": 0.6675135876068367,
+          "prevalence": 0.3795613246987044,
+          "mean_probability": 0.3249032496702245,
+          "fraction_probability_ge_half": 8.083386871737701e-05
+        },
+        "cnn_mean_ap": 0.39839557790136393,
+        "cnn_ap_min": 0.37738012380290376,
+        "cnn_ap_max": 0.4163866866276614,
+        "mean_ap_gain": -0.023446005627899114,
+        "all_seeds_gain": false,
+        "training": [
+          {
+            "seed": 17,
+            "endpoint_step": 16384,
+            "terminal_step": 16384,
+            "termination": "ceiling_still_improving",
+            "train_ap": 0.9945817230168743,
+            "train_bce_reduction_from_constant": 0.9042954419107897,
+            "adequate_fit": true
+          },
+          {
+            "seed": 43,
+            "endpoint_step": 15616,
+            "terminal_step": 16384,
+            "termination": "ceiling_still_improving",
+            "train_ap": 0.9966187903032115,
+            "train_bce_reduction_from_constant": 0.9244738807128989,
+            "adequate_fit": true
+          },
+          {
+            "seed": 89,
+            "endpoint_step": 16128,
+            "terminal_step": 16384,
+            "termination": "ceiling_still_improving",
+            "train_ap": 0.9957231357880821,
+            "train_bce_reduction_from_constant": 0.912742515873699,
+            "adequate_fit": true
+          }
+        ],
+        "profile_blank_mean_probability": 0.3199237108984487,
+        "cnn_blank_mean_probabilities": [
+          0.21979849599373436,
+          0.238748732815375,
+          0.24486101108516506
+        ],
+        "blank_response_gate": true
+      }
+    ],
+    "descriptive_macro_ap_gain": -0.013139544344629864,
+    "practical_transfer_gate": false,
+    "adequate_fit_gate": true,
+    "blank_response_gate": true,
+    "decision": "optimization_not_demonstrated_saturated_no_native_signal_null"
+  },
+  "scope": "Independent metric arithmetic and receipt/history audit; no neural inference, ink authentication or changed gates"
+}

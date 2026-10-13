@@ -1,0 +1,27 @@
+{
+  "representations": 99,
+  "families": [
+    "PHerc0009",
+    "PHerc0139",
+    "PHerc0172",
+    "PHerc0343",
+    "PHerc0500",
+    "PHerc0814",
+    "PHerc1667",
+    "PHercParis4"
+  ],
+  "config_batch_size": 64,
+  "source_quotas": {
+    "0139": 12,
+    "1667": 8,
+    "Paris4": 6,
+    "0814": 7,
+    "0009B": 8,
+    "0343P": 5,
+    "0500P2": 7,
+    "0172": 11
+  },
+  "known_alias_warning": "pherc0139-w028 in the legacy training naming is the native w044 physical alias. Declared string keys alone are insufficient physical exclusions.",
+  "reserve_family_intersections": [],
+  "held_out_native_study_preserved": true
+}

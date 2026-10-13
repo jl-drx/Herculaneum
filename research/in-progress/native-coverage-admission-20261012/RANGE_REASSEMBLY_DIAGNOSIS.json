@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-12T19:23:30.720940+00:00",
+  "request_id": "pherc0814-20250925161630-ct-y0022-x0014",
+  "first_range_receipt": "RANGE_SIZE_DIAGNOSIS.json",
+  "remaining_ranges": [
+    {
+      "offset": 65536,
+      "bytes": 65536,
+      "status": 503,
+      "error_body": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: immediate connect error: Invalid argument|remote address:envoy://cloudflare_https_tunnel/"
+    }
+  ],
+  "complete": false
+}

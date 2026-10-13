@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "go_sha256": "892ac40c47ebfa6ebe7f02f775e4263ed4b0d83e74acd0d557868fb26388d4eb",
+  "parameters": 34546498,
+  "model_norm_modules": {
+    "ConvDropoutNormReLU": 62,
+    "InstanceNorm2d": 62,
+    "InstanceNorm3d": 2
+  },
+  "batch_stochastic_coupling_rejected": true,
+  "real_native_patches": 4,
+  "partial_loss_matches_retained_objective": true,
+  "naive_microbatch_average_rejected": true,
+  "full_vs_microbatch": {
+    "full_loss": 0.5706394910812378,
+    "micro_loss": 0.5706395320594311,
+    "relative_gradient_l2": 2.5829040782586234e-05,
+    "maximum_absolute_gradient_difference": 1.7327256500720978e-06,
+    "scaled_maximum_difference": 8.04964865803855e-05
+  },
+  "original_schedule_checks": 3200,
+  "negative_controls": [
+    "empty_supervision",
+    "batch_normalization"
+  ],
+  "completed_updates": 2,
+  "replayed_updates": 1,
+  "model_and_optimizer_resume_bitwise_equal": true,
+  "trained_model_forwards": 17,
+  "checkpoint_sha256": "07e914fbafcd0d7358e161341b41d169b6a8c10d7ca5c92c3f28475520de4e88",
+  "trajectory": [
+    {
+      "step": 0,
+      "loss": 0.5706395320594311,
+      "unclipped_gradient_norm": 0.8217645287513733,
+      "schedule": [
+        {
+          "patch_id": "0",
+          "augmentation_seed": 17624718090942596180,
+          "stream": "original",
+          "fixture_index": 0,
+          "z_offset": 1,
+          "rotation": 2,
+          "flip_x": true
+        },
+        {
+          "patch_id": "1",
+          "augmentation_seed": 6277325032113766060,
+          "stream": "original",
+          "fixture_index": 1,
+          "z_offset": 0,
+          "rotation": 2,
+          "flip_x": true
+        },
+        {
+          "patch_id": "2",
+          "augmentation_seed": 6999885060327659272,
+          "stream": "added",
+          "fixture_index": 2,
+          "z_offset": 2,
+          "rotation": 3,
+          "flip_x": true
+        },
+        {
+          "patch_id": "3",
+          "augmentation_seed": 2961775520466445296,
+          "stream": "added",
+          "fixture_index": 3,
+          "z_offset": -1,
+          "rotation": 0,
+          "flip_x": false
+        }
+      ],
+      "model_sha256": "07769d56b0e4a745d9f78a4b35b9f8333801d24cf38b8bc16070785ad62f157d"
+    },
+    {
+      "step": 1,
+      "loss": 0.5653012171387672,
+      "unclipped_gradient_norm": 1.383008599281311,
+      "schedule": [
+        {
+          "patch_id": "0",
+          "augmentation_seed": 16808894394271203938,
+          "stream": "original",
+          "fixture_index": 0,
+          "z_offset": 2,
+          "rotation": 1,
+          "flip_x": true
+        },
+        {
+          "patch_id": "1",
+          "augmentation_seed": 16945024869785976827,
+          "stream": "original",
+          "fixture_index": 1,
+          "z_offset": -2,
+          "rotation": 2,
+          "flip_x": true
+        },
+        {
+          "patch_id": "2",
+          "augmentation_seed": 10883471642667215595,
+          "stream": "added",
+          "fixture_index": 2,
+          "z_offset": -2,
+          "rotation": 2,
+          "flip_x": true
+        },
+        {
+          "patch_id": "3",
+          "augmentation_seed": 5103731438377178862,
+          "stream": "added",
+          "fixture_index": 3,
+          "z_offset": -2,
+          "rotation": 2,
+          "flip_x": false
+        }
+      ],
+      "model_sha256": "e1f4a66b94818d6012203ca3cb2ad5392d087cb76898aa5cd85d34c46b1928a3"
+    }
+  ],
+  "seconds": 11.393946766009321,
+  "original_released_checkpoint_unchanged": true,
+  "checkpoint_scope": "Mechanics only, never an evaluated model or learning result",
+  "cuda_tested": false,
+  "paid_compute": false,
+  "held_out_predictions": 0,
+  "limits": [
+    "Not CUDA memory/speed or AMP qualification",
+    "Actual 0814 population and mapping remain pending",
+    "Final sampler, source quotas and objective coefficients require full data freeze",
+    "Counter-based basic augmentation tested here; published full augmentation covered by prior synthetic preflight"
+  ]
+}

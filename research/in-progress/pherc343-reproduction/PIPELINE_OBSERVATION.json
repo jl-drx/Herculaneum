@@ -1,0 +1,40 @@
+{
+  "observed_at_utc": "2026-10-09T19:37:02.137430+00:00",
+  "state": {
+    "status": "RUNNING",
+    "started_at_utc": "2026-10-09T19:34:31.072092+00:00",
+    "supervisor_pid": 3222,
+    "run_directory": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261009T193431Z",
+    "gpu_spend_GBP": 0,
+    "stages": [
+      {
+        "script": "run_fixed_depth.py",
+        "started_at_utc": "2026-10-09T19:34:31.072631+00:00",
+        "log": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261009T193431Z/run_fixed_depth.py.log",
+        "pid": 3223,
+        "log_bytes": 3166
+      }
+    ],
+    "scope": "Fixed d=+1 four-model reading-side reproduction; review still required.",
+    "updated_at_utc": "2026-10-09T19:37:01.081124+00:00"
+  },
+  "heartbeat_age_seconds": 1.056306,
+  "confirmed_processes": [
+    {
+      "pid": 3222,
+      "command": "/workspace/.venvs/pherc343/bin/python -B /workspace/herculaneum-lab/reports/fortysixth-experiment/execute_pipeline.py ",
+      "process_stat": "3222 (python) S 1 3222 3222 0 -1 4194560 4957 0 0 0 26 6 0 0 20 0 1 0 85806 45813760 4170 18446744073709551615 1 1 0 0 0 0 0 16781312 2 0 0 0 17 4 0 0 0 0 0 0 0 0 0 0 0 0 0\n"
+    },
+    {
+      "pid": 3223,
+      "command": "/workspace/.venvs/pherc343/bin/python -B /workspace/herculaneum-lab/reports/fortysixth-experiment/run_fixed_depth.py ",
+      "process_stat": "3223 (python) R 3222 3222 3222 0 -1 4194560 44602677 0 0 0 41586 9010 0 0 20 0 23 0 85822 2816360448 159626 18446744073709551615 1 1 0 0 0 0 0 16781312 2 0 0 0 17 3 0 0 0 0 0 0 0 0 0 0 0 0 0\n"
+    }
+  ],
+  "last_logged_inference_progress": {
+    "label": "dnative/plain",
+    "tiles": 800,
+    "seconds": 119.05630913199991
+  },
+  "scope": "Point-in-time evidence only. Git does not retain a running process or the bulk data."
+}

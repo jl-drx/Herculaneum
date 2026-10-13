@@ -1,0 +1,35 @@
+{
+  "exit_code": 1,
+  "command": [
+    "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/squashfs-root/AppRun",
+    "vc_render_tifxyz",
+    "--volume",
+    "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/ct-cache-loopback",
+    "--remote-url",
+    "http://127.0.0.1:35319",
+    "--group-idx",
+    "0",
+    "--scale",
+    "1",
+    "--segmentation",
+    "/workspace/herculaneum-lab/reports/fortyfifth-experiment/ph343-mesh-replay/concat_w047-w048_R5B2_z9500-11000.tifxyz",
+    "--num-slices",
+    "66",
+    "--slice-step",
+    "1",
+    "--cache-gb",
+    "2",
+    "--zarr-output",
+    "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/concat_w047-w048_R5B2_z9500-11000_66.zarr",
+    "--resume",
+    "--timeout",
+    "15"
+  ],
+  "seconds": 141.8288870610013,
+  "source_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr",
+  "transport": "loopback cache; upstream requests through inherited HTTPS proxy with TLS verification",
+  "fatal_source_errors": [
+    "meta.json",
+    "metadata.json"
+  ]
+}

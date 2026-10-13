@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "sites": [
+    {
+      "site": "site1",
+      "support_metrics_and_competitor_indices_agree": true,
+      "criteria": {
+        "fit_not_boundary": true,
+        "checks_not_boundary": true,
+        "all_check_ncc_at_least_05": false,
+        "all_check_margin_at_least_005": false,
+        "median_tangent_delta_at_most_05": false,
+        "max_tangent_delta_at_most_1": false,
+        "max_abs_normal_delta_at_most_1": false
+      }
+    },
+    {
+      "site": "site2",
+      "support_metrics_and_competitor_indices_agree": true,
+      "criteria": {
+        "fit_not_boundary": true,
+        "checks_not_boundary": true,
+        "all_check_ncc_at_least_05": false,
+        "all_check_margin_at_least_005": false,
+        "median_tangent_delta_at_most_05": false,
+        "max_tangent_delta_at_most_1": false,
+        "max_abs_normal_delta_at_most_1": false
+      }
+    },
+    {
+      "site": "site3",
+      "support_metrics_and_competitor_indices_agree": true,
+      "criteria": {
+        "fit_not_boundary": true,
+        "checks_not_boundary": true,
+        "all_check_ncc_at_least_05": false,
+        "all_check_margin_at_least_005": false,
+        "median_tangent_delta_at_most_05": true,
+        "max_tangent_delta_at_most_1": false,
+        "max_abs_normal_delta_at_most_1": false
+      }
+    }
+  ],
+  "maximum_scalar_metric_difference": 4.163336342344337e-17,
+  "limitation": "Exact bookkeeping comparison for declared support-centre metric; not physicalregistration or nonlinear finite-displacementvalidation."
+}

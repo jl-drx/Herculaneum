@@ -1,0 +1,277 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-11T07:43:15.604164+00:00",
+  "checkpoint_commit": "02812de445f6ab0069174805bb14b6014bed159c",
+  "remote_completed_checkpoint_at_utc": "2026-10-11T02:44:59.352545+00:00",
+  "inference_results_sha256": "6f08b3ca758d2e8c517031d2489f91512c8462159775822f4ab50db4fd54a066",
+  "completed_maps": 32,
+  "baseline_maps": 16,
+  "verified_batches": 3096,
+  "verified_model_tiles": 11976,
+  "verified_map_output_files": 200,
+  "source_recorded_replay_exact": true,
+  "new_model_execution": false,
+  "new_logit_accumulation_replay": false,
+  "available_prerequisites_verified": 487,
+  "missing_prerequisites": 471,
+  "missing_prerequisite_explanation": "Earlier study51 inputs and code are not restored here; no restart is needed because all completed outputs and their bound receipts are restored.",
+  "scope": "Archive/member hashes, complete Cartesian map coverage, all raw-logit receipts and hashes, depth/cohort/GO bindings, map output hashes/numeric invariants, 16 baseline hashes. This is not fresh model inference or scientific interpretation.",
+  "jobs": [
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "batches": 57,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "batches": 65,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": -15,
+      "batches": 204,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": -15,
+      "batches": 204,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": -15,
+      "batches": 204,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": -15,
+      "batches": 204,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "forward",
+      "depth": 15,
+      "batches": 204,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hecate",
+      "phase": "plain",
+      "direction": "reverse",
+      "depth": 15,
+      "batches": 204,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "forward",
+      "depth": 15,
+      "batches": 204,
+      "source_recorded_replay_exact": true
+    },
+    {
+      "model": "hecate",
+      "phase": "padded",
+      "direction": "reverse",
+      "depth": 15,
+      "batches": 204,
+      "source_recorded_replay_exact": true
+    }
+  ]
+}

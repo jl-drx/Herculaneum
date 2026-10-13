@@ -1,0 +1,8 @@
+{
+  "status": "METADATA_CONVENTION_ASSERTION_FAILURE",
+  "checkpoint_sha256": "654ec5acec2b6c4788d9cb326e2f0b8c2c730584949a934ef775db7f6ab5d3a6",
+  "serialized_step": 39999,
+  "incorrect_initial_expectation": 40000,
+  "model_forward_calls": 0,
+  "resolution": "Respect zero-based serialized step; distinguish publisher 40000-update name from saved index. Do not alter checkpoint bytes."
+}

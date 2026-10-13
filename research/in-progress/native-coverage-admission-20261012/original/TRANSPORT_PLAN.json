@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-12T18:55:01.263419+00:00",
+  "request_plan_sha256": "56af587f14390531ccf88fbc861591d07b6df54706cec7da585ab2b7a3c89c07",
+  "acquisition_implementation_sha256": "579cb146550e03f3f09183cef4299c4f0ae88ea9255b6c0e91433aea51cfa8cf",
+  "transport_implementation_sha256": "46b1e6211bf29c8b9d6febe77a826535ab9024535bbf2988286a4e1c02e31324",
+  "workers": 4,
+  "saved_receipts": 0,
+  "reason": "Use four concurrent reads. Added-stream initial attempt stopped after repeated HTTP 503; a later 16-byte range on its first unaccounted source succeeded (206, expected full length). Original-stream first transport also uses this lower concurrency.",
+  "recovery_scope": "One explicitly recorded recovery invocation; at most three transient attempts per remaining object in this invocation, same byte budget and URLs, completed receipts reused unchanged",
+  "scientific_inputs_or_eligibility_changed": false,
+  "diagnostic_added_stream_body_bytes": 0
+}

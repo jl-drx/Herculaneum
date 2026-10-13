@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "plan_sha256": "0895da9d9bd0c558d508c88499d5036758ab4497fd63c53c62b792c5e85be0b4",
+  "script_sha256": "33cb8c9f291d413c2c9e638517d2c95d6b35ee2e07d91c62a237058b0bf40db6",
+  "serial_planes_per_case": 13,
+  "model_payloads_read": 0,
+  "inputs": [
+    {
+      "id": "PHerc0800-24",
+      "sample": "PHerc0800",
+      "ct_context_box_zyx": [
+        [
+          16992,
+          8032,
+          5472
+        ],
+        [
+          17184,
+          8224,
+          5664
+        ]
+      ],
+      "shape": [
+        192,
+        192,
+        192
+      ],
+      "dtype": "uint8",
+      "zero_fraction": 8.194534866898149e-06,
+      "minimum": 0,
+      "maximum": 255,
+      "file": "PHerc0800-24.npy",
+      "sha256": "744aba397ec8bb643332dbcb757b1b49d19e33846370e48048c4c85e9a888b15",
+      "bytes": 7078016,
+      "coordinate_spot_checks": 6,
+      "stratum": "pending_CT_only_review"
+    },
+    {
+      "id": "PHerc0814-06",
+      "sample": "PHerc0814",
+      "ct_context_box_zyx": [
+        [
+          4320,
+          1888,
+          1760
+        ],
+        [
+          4512,
+          2080,
+          1952
+        ]
+      ],
+      "shape": [
+        192,
+        192,
+        192
+      ],
+      "dtype": "uint8",
+      "zero_fraction": 0.00023029468677662038,
+      "minimum": 0,
+      "maximum": 255,
+      "file": "PHerc0814-06.npy",
+      "sha256": "52542fcd01069065819e6341e20d64f680c6007967f9d42d83f65b41e0e4ba55",
+      "bytes": 7078016,
+      "coordinate_spot_checks": 6,
+      "stratum": "pending_CT_only_review"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "PHerc0800-24-serial-1.png",
+      "sha256": "ceb8d66e4d7822ee8baeb1bd3168b45a93548d75d72d1b3c6ae2faad0d822241",
+      "bytes": 235381
+    },
+    {
+      "file": "PHerc0800-24-serial-2.png",
+      "sha256": "d07859285218538202e59dea3d977f61a606293d8d920a6f75c6a7c652293506",
+      "bytes": 234767
+    },
+    {
+      "file": "PHerc0800-24-serial-3.png",
+      "sha256": "2127c5af0c7ab5f54583346206cf82954edf57f5de6440f276e2274f184fde11",
+      "bytes": 52995
+    },
+    {
+      "file": "PHerc0800-24-coordinate-view.png",
+      "sha256": "aa3db72e6c5c8b4f71efe62a818e33f9b3b087530de407dbe293938cd56ad13c",
+      "bytes": 68960
+    },
+    {
+      "file": "PHerc0814-06-serial-1.png",
+      "sha256": "4c8a8afa3cc2427f6457a3af66ccdf0d42e5890986e1c905605c550f773f7852",
+      "bytes": 273468
+    },
+    {
+      "file": "PHerc0814-06-serial-2.png",
+      "sha256": "4b9f081b13364111507b588fdd253ef75ae11a7b3b43097ffc5efaf65878f745",
+      "bytes": 273062
+    },
+    {
+      "file": "PHerc0814-06-serial-3.png",
+      "sha256": "d99d92325f4e3f8dff1d308318d8f7f3b28f9ee3c4cca38429003de1828fab36",
+      "bytes": 60616
+    },
+    {
+      "file": "PHerc0814-06-coordinate-view.png",
+      "sha256": "c3b1767fd3ee7dcb4f438589a72b11c406177f1f2c8e147e6564050f5b339ce5",
+      "bytes": 80776
+    }
+  ],
+  "scope": "Source hash verification and prescribed CT display; no sheet identity adjudication."
+}

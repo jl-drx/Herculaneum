@@ -1,0 +1,1035 @@
+{
+  "catalog_sha256": "7ec8dcaa3000b9716724c26a1991ee416491d8a6b3615238ca90ae11540abdd3",
+  "json_pointer": "/samples/PHerc0139/segments/20250831000000",
+  "segment": {
+    "id": "20250831000000",
+    "sample_id": "PHerc0139",
+    "long_id": "20250831000000-w040_2025083102",
+    "suffix": "w040_2025083102",
+    "original_volume_id": "20260102150214",
+    "creation": {
+      "date": "2025-08-31T00:00:00Z",
+      "process": "surface_tracing",
+      "metadata": {
+        "bbox": [
+          [
+            2006.1771240234375,
+            2028.1363525390625,
+            1815.2156982421875
+          ],
+          [
+            4786.69091796875,
+            4542.05419921875,
+            7444.765625
+          ]
+        ],
+        "format": "tifxyz",
+        "scale": [
+          0.05000000074505806,
+          0.05000000074505806
+        ],
+        "type": "seg",
+        "uuid": "w040_2025083102",
+        "tiff_dimensions": [
+          431,
+          615
+        ],
+        "coordinate_files": [
+          "x.tif",
+          "y.tif",
+          "z.tif"
+        ]
+      },
+      "derived_from": {
+        "type": "volume",
+        "id": "20260102150214"
+      }
+    },
+    "properties": {
+      "width": 8619,
+      "height": 12299,
+      "original_volume_downscale": 4,
+      "volume_coverage": {
+        "20260102150214": {
+          "bbox_transformed": [
+            [
+              8024.70849609375,
+              8112.54541015625,
+              7260.86279296875
+            ],
+            [
+              19146.763671875,
+              18168.216796875,
+              29779.0625
+            ]
+          ],
+          "overlap_ratio": 1.0,
+          "computed_at": "2026-10-05T10:16:37.727732Z"
+        },
+        "20250728140407": {
+          "bbox_transformed": [
+            [
+              1669.5866629090597,
+              2137.6524444186634,
+              2513.8439914784612
+            ],
+            [
+              4554.904277761883,
+              4687.1719156119,
+              8294.534357815139
+            ]
+          ],
+          "overlap_ratio": 1.0,
+          "computed_at": "2026-10-05T10:16:37.735488Z"
+        },
+        "20250820105138": {
+          "bbox_transformed": [
+            [
+              7035.676006958427,
+              8873.613556545166,
+              -2216.8607273160696
+            ],
+            [
+              18281.67690279267,
+              18776.674353343282,
+              20340.83811263149
+            ]
+          ],
+          "overlap_ratio": 0.9153960911624242,
+          "computed_at": "2026-10-05T10:16:37.743289Z"
+        },
+        "20250822062710": {
+          "bbox_transformed": [
+            [
+              6927.591542392354,
+              8723.045712160878,
+              -24984.35983415176
+            ],
+            [
+              18149.993174761123,
+              18618.68699789391,
+              -2450.5314121813863
+            ]
+          ],
+          "overlap_ratio": 0.0,
+          "computed_at": "2026-10-05T10:16:37.753093Z"
+        },
+        "20260319133050": {
+          "bbox_transformed": [
+            [
+              6927.591542392354,
+              8723.045712160878,
+              -24984.35983415176
+            ],
+            [
+              18149.993174761123,
+              18618.68699789391,
+              -2450.5314121813863
+            ]
+          ],
+          "overlap_ratio": 0.0,
+          "computed_at": "2026-10-05T10:16:37.777537Z"
+        },
+        "20260319133554": {
+          "bbox_transformed": [
+            [
+              7035.676006958427,
+              8873.613556545166,
+              -2216.8607273160696
+            ],
+            [
+              18281.67690279267,
+              18776.674353343282,
+              20340.83811263149
+            ]
+          ],
+          "overlap_ratio": 0.914392141040918,
+          "computed_at": "2026-10-05T10:16:37.785700Z"
+        },
+        "20260413113053": {
+          "bbox_transformed": [
+            [
+              4874.469654172633,
+              7306.893493423064,
+              -8808.739781951319
+            ],
+            [
+              28522.62112797013,
+              28776.479704062614,
+              39093.418162349044
+            ]
+          ],
+          "overlap_ratio": 0.42666003621726606,
+          "computed_at": "2026-10-05T10:16:37.795155Z"
+        },
+        "20251107132835": {
+          "bbox_transformed": [
+            [
+              1669.5866629090597,
+              2137.6524444186634,
+              2513.8439914784612
+            ],
+            [
+              4554.904277761883,
+              4687.1719156119,
+              8294.534357815139
+            ]
+          ],
+          "overlap_ratio": 1.0,
+          "computed_at": "2026-10-05T10:16:37.761231Z"
+        },
+        "20251107135911": {
+          "bbox_transformed": [
+            [
+              1669.5866629090597,
+              2137.6524444186634,
+              2513.8439914784612
+            ],
+            [
+              4554.904277761883,
+              4687.1719156119,
+              8294.534357815139
+            ]
+          ],
+          "overlap_ratio": 1.0,
+          "computed_at": "2026-10-05T10:16:37.769359Z"
+        },
+        "20260930100252": {
+          "bbox_transformed": [
+            [
+              8024.70849609375,
+              8112.54541015625,
+              7260.86279296875
+            ],
+            [
+              19146.763671875,
+              18168.216796875,
+              29779.0625
+            ]
+          ],
+          "overlap_ratio": 1.0,
+          "computed_at": "2026-10-05T10:16:37.803081Z"
+        }
+      }
+    }
+  },
+  "assets": [
+    {
+      "type": "tifxyz-transformed",
+      "origins": [
+        {
+          "path": "PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/",
+          "access_roots": [
+            {
+              "type": "s3",
+              "url": "s3://vesuvius-challenge-open-data",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": {
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/",
+            "date": "2026-06-25T01:27:34.761011Z",
+            "workflow_execution": "s3copy-pherc0139-df13da3e"
+          }
+        }
+      ],
+      "properties": null,
+      "parameters": {
+        "target_volume": "20260102150214"
+      },
+      "creation_info": {
+        "process": "transform-tifxyz-normalized",
+        "workflow": "transform-tifxyz",
+        "workflow_execution": "transform-tifxyz-pherc0139-af8678c0",
+        "date": "2026-06-19T13:20:51.332213Z",
+        "derived_from": {
+          "data_type": "tifxyz-normalized",
+          "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/intermediate/tifxyz_normalized/"
+        },
+        "provenance": {
+          "workflow_template_ref": "vc3d-tools",
+          "infra_revision": "main@sha1:4595b302b9048885e99a268fc4bcbbf5808cb51c",
+          "atlas_version": "0.1.0",
+          "atlas_git_sha": "35d8582ddd28e89192f38bf58a964d778c750023",
+          "atlas_git_dirty": true,
+          "images": {
+            "run-vc-transform-geom": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer:650bd56663efb7225fdba73fe267ba86b8e29368-arm64",
+            "check-image-exists": "amazon/aws-cli:latest"
+          },
+          "parameters": {
+            "repo": "https://github.com/ScrollPrize/villa",
+            "commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+            "subdir": "volume-cartographer",
+            "dockerfile": "Dockerfile",
+            "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+            "build-platform": "linux/arm64",
+            "input-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/intermediate/tifxyz_normalized/",
+            "output-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/",
+            "affine-matrix": "[[4, 0, 0, 0], [0, 4, 0, 0], [0, 0, 4, 0]]"
+          }
+        }
+      }
+    },
+    {
+      "type": "layers-zarr",
+      "origins": [
+        {
+          "path": "PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+          "access_roots": [
+            {
+              "type": "s3",
+              "url": "s3://vesuvius-challenge-open-data",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": {
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+            "date": "2026-06-25T01:42:08.297702Z",
+            "workflow_execution": "s3sync-pherc0139-394b2c0d"
+          }
+        }
+      ],
+      "properties": null,
+      "parameters": {
+        "target_volume": "20260102150214"
+      },
+      "creation_info": {
+        "process": "render-tifxyz-to-zarr",
+        "workflow": "render-tifxyz-to-zarr",
+        "workflow_execution": "render-tifxyz-pherc0139-5ad26613",
+        "date": "2026-06-19T14:09:48.756198Z",
+        "derived_from": {
+          "data_type": "tifxyz-transformed",
+          "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/"
+        },
+        "provenance": {
+          "workflow_template_ref": "vc3d-render-partitioned",
+          "infra_revision": "main@sha1:4595b302b9048885e99a268fc4bcbbf5808cb51c",
+          "atlas_version": "0.1.0",
+          "atlas_git_sha": "35d8582ddd28e89192f38bf58a964d778c750023",
+          "atlas_git_dirty": true,
+          "images": {
+            "run-render-stage": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer:650bd56663efb7225fdba73fe267ba86b8e29368-arm64",
+            "check-image-exists": "amazon/aws-cli:latest",
+            "calculate-partition-count": "python:3.11"
+          },
+          "parameters": {
+            "repo": "https://github.com/ScrollPrize/villa",
+            "commit": "650bd56663efb7225fdba73fe267ba86b8e29368",
+            "subdir": "volume-cartographer",
+            "dockerfile": "Dockerfile",
+            "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+            "build-platform": "linux/arm64",
+            "binary-path": "vc_render_tifxyz",
+            "volume-path": "s3://scrollprize-volumes/esrf/20251130/finetuned/SCROLLS_HEL_2.399um_78keV_0.22m_PHerc_0139_TA3_0001_masked.zarr/",
+            "group-idx": "0",
+            "scale": "1",
+            "segmentation-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/",
+            "output": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+            "render-mode": "zarr",
+            "zarr-compressor": "none",
+            "zarr-compression-level": "",
+            "zarr-separator": "/",
+            "num-parts": "",
+            "target-duration-per-partition": "1800",
+            "scale-segmentation": "",
+            "affine-transform": "",
+            "affines": "",
+            "affine-invert": "",
+            "rotate": "0",
+            "flip": "-1",
+            "flip-normals": "true",
+            "num-slices": "109",
+            "affine-matrix": "",
+            "crop-x": "0",
+            "crop-y": "0",
+            "crop-width": "0",
+            "crop-height": "0",
+            "voxel-size": "2.399",
+            "voxel-unit": "micrometer",
+            "memory": "15Gi",
+            "cache-gb": "8",
+            "render-threads": "8",
+            "cpu-requests": "8"
+          }
+        }
+      }
+    },
+    {
+      "type": "tifxyz-transformed",
+      "origins": [
+        {
+          "path": "PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/",
+          "access_roots": [
+            {
+              "type": "s3",
+              "url": "s3://vesuvius-challenge-open-data",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": {
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/",
+            "date": "2026-07-15T17:36:47.981669Z",
+            "workflow_execution": "s3copy-pherc0139-dffc5cae"
+          }
+        }
+      ],
+      "properties": null,
+      "parameters": {
+        "target_volume": "20250728140407"
+      },
+      "creation_info": {
+        "process": "transform-tifxyz-normalized",
+        "workflow": "transform-tifxyz",
+        "workflow_execution": "transform-tifxyz-pherc0139-ff7d7b69",
+        "date": "2026-07-15T17:10:08.476125Z",
+        "derived_from": {
+          "data_type": "tifxyz-normalized",
+          "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/intermediate/tifxyz_normalized/"
+        },
+        "provenance": {
+          "workflow_template_ref": "vc3d-tools",
+          "infra_revision": "main@sha1:020152f1610b08f4c15146d562f559b4930a61f1",
+          "atlas_version": "0.1.0",
+          "atlas_git_sha": "51fc09354c798be2c2aeeea1d8812483f64b65bb",
+          "atlas_git_dirty": true,
+          "images": {
+            "run-vc-transform-geom": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer:d9a472ea2f50d9ce4ce56303cc1d682d962490d9-arm64",
+            "check-image-exists": "amazon/aws-cli:latest"
+          },
+          "parameters": {
+            "repo": "https://github.com/ScrollPrize/villa",
+            "commit": "d9a472ea2f50d9ce4ce56303cc1d682d962490d9",
+            "subdir": "volume-cartographer",
+            "dockerfile": "Dockerfile",
+            "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+            "build-platform": "linux/arm64",
+            "input-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/intermediate/tifxyz_normalized/",
+            "output-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/",
+            "affine-matrix": "[[-1.027614660233482, -0.038861566574878145, 0.011162932910753612, 6677.364709056732], [0.039403540183897336, -1.027200673557531, -0.005686026182922581, 6689.120376657908], [0.011645344276073982, -0.005937720523631771, 1.028538324397608, 624.1652625002474]]"
+          }
+        }
+      }
+    },
+    {
+      "type": "layers-zarr",
+      "origins": [
+        {
+          "path": "PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+          "access_roots": [
+            {
+              "type": "s3",
+              "url": "s3://vesuvius-challenge-open-data",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": {
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+            "date": "2026-07-15T17:52:02.776993Z",
+            "workflow_execution": "s3sync-pherc0139-ca34864d"
+          }
+        }
+      ],
+      "properties": null,
+      "parameters": {
+        "target_volume": "20250728140407"
+      },
+      "creation_info": {
+        "process": "render-tifxyz-to-zarr",
+        "workflow": "render-tifxyz-to-zarr",
+        "workflow_execution": "render-tifxyz-pherc0139-2234797e",
+        "date": "2026-07-15T17:49:44.803387Z",
+        "derived_from": {
+          "data_type": "tifxyz-transformed",
+          "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/"
+        },
+        "provenance": {
+          "workflow_template_ref": "vc3d-render-partitioned",
+          "infra_revision": "main@sha1:020152f1610b08f4c15146d562f559b4930a61f1",
+          "atlas_version": "0.1.0",
+          "atlas_git_sha": "373589fe420f14c9d2dd4693a59ad0e39890206e",
+          "atlas_git_dirty": true,
+          "images": {
+            "calculate-partition-count": "ghcr.io/astral-sh/uv:python3.12-bookworm-slim",
+            "check-image-exists": "amazon/aws-cli:latest",
+            "run-render-stage": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer:530584554c031c982ba3aa243e1ea39c4bef9818-arm64"
+          },
+          "parameters": {
+            "repo": "https://github.com/ScrollPrize/villa",
+            "commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+            "subdir": "volume-cartographer",
+            "dockerfile": "Dockerfile",
+            "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+            "build-platform": "linux/arm64",
+            "binary-path": "vc_render_tifxyz",
+            "volume-path": "s3://scrollprize-volumes/esrf/20250717/SCROLLS_HEL_4.681um_113keV_1.2m_binmean_2_PHerc_0139_TA_0001_masked.zarr/",
+            "scale": "1",
+            "segmentation-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/",
+            "output": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+            "render-mode": "zarr",
+            "group-idx": "0",
+            "zarr-compressor": "none",
+            "zarr-compression-level": "",
+            "zarr-separator": "/",
+            "num-parts": "",
+            "target-duration-per-partition": "1800",
+            "max-parts": "20",
+            "auto-render-rate": "460",
+            "accum-type": "max",
+            "composite": "false",
+            "composite-start": "",
+            "composite-end": "",
+            "scale-segmentation": "",
+            "affine-transform": "",
+            "affines": "",
+            "affine-invert": "",
+            "rotate": "0",
+            "flip": "-1",
+            "flip-normals": "true",
+            "num-slices": "28",
+            "affine-matrix": "",
+            "crop-x": "0",
+            "crop-y": "0",
+            "crop-width": "0",
+            "crop-height": "0",
+            "voxel-size": "9.362",
+            "voxel-unit": "micrometer",
+            "memory": "15Gi",
+            "cache-gb": "8",
+            "render-threads": "8",
+            "cpu-requests": "8"
+          }
+        }
+      }
+    }
+  ],
+  "volumes": {
+    "20260102150214": {
+      "id": "20260102150214",
+      "sample_id": "PHerc0139",
+      "scan_id": "20251205005141",
+      "long_id": "20260102150214-2.399um-0.2m-78keV-masked.zarr",
+      "suffix": "masked.zarr",
+      "creation": {
+        "date": "2026-01-02T15:02:14Z",
+        "process": "mask_layers_zarr_export",
+        "metadata": {
+          "target_window_f32_min": -0.03,
+          "target_window_f32_max": 0.21,
+          "window_u16_min": 5276,
+          "window_u16_max": 40949,
+          "workflow_name": "mask-layers-sam2long-d5r7t",
+          "workflow_creation": "2026-01-02T15:02:14Z"
+        },
+        "derived_from": {
+          "type": "scan",
+          "id": "20251205005141"
+        }
+      },
+      "properties": {
+        "energy_keV": 78.0,
+        "detector_distance_mm": 220.0,
+        "pixel_size_um": 2.399,
+        "data_format": "uint8",
+        "transforms": [
+          {
+            "to_volume_id": "20250728140407",
+            "transformation_matrix": [
+              [
+                -0.2569036650583705,
+                -0.009715391643719536,
+                0.002790733227688403,
+                6677.364709056732
+              ],
+              [
+                0.009850885045974334,
+                -0.25680016838938274,
+                -0.0014215065457306453,
+                6689.120376657908
+              ],
+              [
+                0.0029113360690184954,
+                -0.0014844301309079428,
+                0.257134581099402,
+                624.1652625002474
+              ]
+            ],
+            "from_landmarks": [
+              [
+                12199.3916015625,
+                12930.4423828125,
+                4566.8466796875
+              ],
+              [
+                13894.3486328125,
+                12874.2333984375,
+                6877.9462890625
+              ],
+              [
+                17329.60546875,
+                13593.4833984375,
+                16558.134765625
+              ],
+              [
+                15929.4814453125,
+                13316.787109375,
+                32442.10546875
+              ],
+              [
+                15662.5302734375,
+                20150.078125,
+                27123.5
+              ],
+              [
+                15135.6015625,
+                22200.802734375,
+                11628.9716796875
+              ],
+              [
+                16378.5830078125,
+                15637.4052734375,
+                32279.708984375
+              ],
+              [
+                15499.2236328125,
+                22235.248046875,
+                11774.08203125
+              ],
+              [
+                8054.205078125,
+                18444.150390625,
+                31522.265625
+              ],
+              [
+                8060.662109375,
+                18315.46484375,
+                31354.87109375
+              ],
+              [
+                8328.6044921875,
+                16789.365234375,
+                53128.8125
+              ],
+              [
+                16601.763671875,
+                15028.3642578125,
+                53083.70703125
+              ],
+              [
+                16843.173828125,
+                12169.234375,
+                73131.1484375
+              ],
+              [
+                16656.650390625,
+                16666.375,
+                73580.59375
+              ]
+            ],
+            "to_landmarks": [
+              [
+                3429.902587890625,
+                3481.3994140625,
+                1816.0859375
+              ],
+              [
+                3001.000244140625,
+                3509.502685546875,
+                2414.033935546875
+              ],
+              [
+                2139.13623046875,
+                3346.693603515625,
+                4911.50048828125
+              ],
+              [
+                2547.5,
+                3380.99951171875,
+                8994.24609375
+              ],
+              [
+                2532.000244140625,
+                1633.62158203125,
+                7614.93994140625
+              ],
+              [
+                2604.999755859375,
+                1120.181884765625,
+                3627.95654296875
+              ],
+              [
+                2409.199951171875,
+                2787.178466796875,
+                8943.982421875
+              ],
+              [
+                2513.48681640625,
+                1113.3001708984375,
+                3663.614501953125
+              ],
+              [
+                4518.7705078125,
+                1987.600341796875,
+                8725.365234375
+              ],
+              [
+                4515.9453125,
+                2019.9000244140625,
+                8682.3818359375
+              ],
+              [
+                4521.76708984375,
+                2385.0,
+                14284.4658203125
+              ],
+              [
+                2415.000244140625,
+                2919.634521484375,
+                14297.5166015625
+              ],
+              [
+                2436.0,
+                3625.510986328125,
+                19462.927734375
+              ],
+              [
+                2441.0,
+                2466.754638671875,
+                19567.970703125
+              ]
+            ]
+          }
+        ],
+        "shape": [
+          76953,
+          26511,
+          26511
+        ],
+        "z_direction_is_top_to_bottom": true,
+        "left_handed_coordinates": false,
+        "text_side": null,
+        "superseded_by": {
+          "volume_id": "20260930100252",
+          "date": "2026-10-05",
+          "reason": "remasked with scrollmask_august_t_4000 at mask_scale 16, replacing scrollmask_finetune_new_t_12000 at mask_scale 8; identical voxel frame"
+        },
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      },
+      "data": [
+        {
+          "type": "ome-zarr",
+          "origins": [
+            {
+              "path": "PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/",
+              "access_roots": [
+                {
+                  "type": "s3",
+                  "url": "s3://vesuvius-challenge-open-data",
+                  "usage": "public-read"
+                }
+              ],
+              "copy_info": {
+                "source_path": "s3://scrollprize-volumes/esrf/20251130/finetuned/SCROLLS_HEL_2.399um_78keV_0.22m_PHerc_0139_TA3_0001_masked.zarr/",
+                "date": "2026-03-19T08:13:36.449214Z",
+                "workflow_execution": "s3sync-pherc0139-c5ab2556"
+              }
+            }
+          ],
+          "properties": null,
+          "parameters": null,
+          "creation_info": null
+        },
+        {
+          "type": "lasagna",
+          "origins": [
+            {
+              "path": "PHerc0139/representations/predictions/lasagna/20260102150214-lasagna-20260419180421-L2/",
+              "access_roots": [
+                {
+                  "type": "s3",
+                  "url": "s3://vesuvius-challenge-open-data",
+                  "usage": "public-read"
+                }
+              ],
+              "copy_info": {
+                "source_path": "s3://philodemos/paul/lasagna/PHerc0139/",
+                "date": "2026-07-28T09:30:45.789598Z",
+                "workflow_execution": "s3sync-pherc0139-45ca20a5"
+              }
+            }
+          ],
+          "properties": null,
+          "parameters": {
+            "model_id": "20260419180421",
+            "level": 2
+          },
+          "creation_info": {
+            "lasagna_version": 2,
+            "source_to_base": 1.0,
+            "grad_mag_encode_scale": 1000.0,
+            "grad_mag_factor": 0.25,
+            "lasagna_run": "20260724"
+          }
+        },
+        {
+          "type": "lasagna",
+          "origins": [
+            {
+              "path": "PHerc0139/representations/predictions/fibers/20260102150214-fibers-20260801084232-L1/",
+              "access_roots": [
+                {
+                  "type": "s3",
+                  "url": "s3://vesuvius-challenge-open-data",
+                  "usage": "public-read"
+                }
+              ],
+              "copy_info": {
+                "source_path": "s3://philodemos/hendrik/lasagna/inference/92481a4c-e9ce-40c6-a1b3-e3d7bf0a25b6/",
+                "date": "2026-08-20T17:01:04.789322Z",
+                "workflow_execution": "s3sync-pherc0139-7a141d34"
+              }
+            }
+          ],
+          "properties": null,
+          "parameters": {
+            "model_id": "20260801084232",
+            "level": 1
+          },
+          "creation_info": null
+        },
+        {
+          "type": "umbilicus",
+          "origins": [
+            {
+              "path": "PHerc0139/representations/umbilicus/20260102150214-umbilicus-20260826112529.json",
+              "access_roots": [
+                {
+                  "type": "s3",
+                  "url": "s3://vesuvius-challenge-open-data",
+                  "usage": "public-read"
+                }
+              ],
+              "copy_info": {
+                "source_path": "s3://scrollprize-volumes/atlas/staging/umbilicus/20260102150214-2.399um-0.2m-78keV-masked.zarr/20260826112529.json",
+                "date": "2026-09-03T15:08:54.860437Z",
+                "workflow_execution": "s3copy-pherc0139-7aa29e28"
+              }
+            }
+          ],
+          "properties": null,
+          "parameters": {
+            "revision": "20260826112529"
+          },
+          "creation_info": {
+            "source_format": "webknossos-nml",
+            "source_annotation": "139-umbilicus.nml",
+            "annotation_id": "6a8ec63f010000108f3802f0",
+            "annotator": "David Josey",
+            "webknossos_dataset": "PHerc0139_2um_full",
+            "webknossos_dataset_id": "695cdd72010000a300b3d8d9",
+            "tree_name": "explorative_2026-08-26_David_Josey_001",
+            "group": "To Approve",
+            "time": "2026-08-26T11:25:29Z"
+          }
+        },
+        {
+          "type": "lasagna",
+          "origins": [
+            {
+              "path": "PHerc0139/representations/predictions/fibers/20260102150214-fibers-20260915212757-L1/",
+              "access_roots": [
+                {
+                  "type": "s3",
+                  "url": "s3://vesuvius-challenge-open-data",
+                  "usage": "public-read"
+                }
+              ],
+              "copy_info": {
+                "source_path": "s3://philodemos/hendrik/lasagna/inference/59ad8624-8be8-4f30-b14d-3fb33c5be6de/",
+                "date": "2026-09-23T13:26:51.920333Z",
+                "workflow_execution": "s3sync-pherc0139-50742938"
+              }
+            }
+          ],
+          "properties": null,
+          "parameters": {
+            "model_id": "20260915212757",
+            "level": 1
+          },
+          "creation_info": null
+        }
+      ]
+    },
+    "20250728140407": {
+      "id": "20250728140407",
+      "sample_id": "PHerc0139",
+      "scan_id": "20250720065842",
+      "long_id": "20250728140407-9.362um-1.2m-113keV-masked.zarr",
+      "suffix": "masked.zarr",
+      "creation": {
+        "date": "2025-07-28T14:04:07Z",
+        "process": "mask_layers_zarr_export",
+        "metadata": {
+          "target_window_f32_min": -0.03,
+          "target_window_f32_max": 0.145,
+          "window_u16_min": 0,
+          "window_u16_max": 65535,
+          "workflow_name": "export-esrf-20250717-0139-3-dilation",
+          "workflow_creation": "2025-07-28T14:04:07Z"
+        },
+        "derived_from": {
+          "type": "scan",
+          "id": "20250720065842"
+        }
+      },
+      "properties": {
+        "energy_keV": 113.0,
+        "detector_distance_mm": 1200.0,
+        "pixel_size_um": 9.362,
+        "data_format": "uint8",
+        "transforms": null,
+        "shape": [
+          20974,
+          6621,
+          6621
+        ],
+        "z_direction_is_top_to_bottom": true,
+        "left_handed_coordinates": false,
+        "text_side": null,
+        "superseded_by": null,
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      },
+      "data": [
+        {
+          "type": "ome-zarr",
+          "origins": [
+            {
+              "path": "PHerc0139/volumes/20250728140407-9.362um-1.2m-113keV-masked.zarr/",
+              "access_roots": [
+                {
+                  "type": "s3",
+                  "url": "s3://vesuvius-challenge-open-data",
+                  "usage": "public-read"
+                }
+              ],
+              "copy_info": {
+                "source_path": "s3://scrollprize-volumes/esrf/20250717/SCROLLS_HEL_4.681um_113keV_1.2m_binmean_2_PHerc_0139_TA_0001_masked.zarr/",
+                "date": "2026-04-15T09:06:09.905571Z",
+                "workflow_execution": "s3sync-pherc0139-c3035079"
+              }
+            }
+          ],
+          "properties": null,
+          "parameters": null,
+          "creation_info": null
+        },
+        {
+          "type": "surface-prediction-zarr",
+          "origins": [
+            {
+              "path": "PHerc0139/representations/predictions/surfaces/20250728140407-surface-20250701154204-surface-recto-090.zarr/",
+              "access_roots": [
+                {
+                  "type": "s3",
+                  "url": "s3://vesuvius-challenge-open-data",
+                  "usage": "public-read"
+                }
+              ],
+              "copy_info": {
+                "source_path": "s3://volpkgs/PHerc0139.volpkg/volumes/090_binmean_surf.zarr/",
+                "date": "2026-05-13T12:33:03.175647Z",
+                "workflow_execution": "s3sync-pherc0139-2986472c"
+              }
+            }
+          ],
+          "properties": null,
+          "parameters": {
+            "model_id": "20250701154204"
+          },
+          "creation_info": null
+        },
+        {
+          "type": "surface-prediction-zarr",
+          "origins": [
+            {
+              "path": "PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/",
+              "access_roots": [
+                {
+                  "type": "s3",
+                  "url": "s3://vesuvius-challenge-open-data",
+                  "usage": "public-read"
+                }
+              ],
+              "copy_info": {
+                "source_path": "s3://scrollprize-reconstruction/surfaces/m7/PHerc0139/20250728140407/20250728140407-9.362um-1.2m-113keV-masked.zarr.ome.zarr/",
+                "date": "2026-05-13T17:19:39.941878Z",
+                "workflow_execution": "s3sync-pherc0139-eef5af7c"
+              }
+            }
+          ],
+          "properties": null,
+          "parameters": {
+            "model_id": "20260413222639",
+            "level": 0,
+            "threshold_value": 0.2,
+            "tta": "none"
+          },
+          "creation_info": {
+            "workflow_name": "surface-inference-9um-pherc0139-20250728140407",
+            "workflow_namespace": "wf-inference",
+            "workflow_uid": "2abd4b73-991b-46fd-bbae-a1d88365ea65",
+            "workflow_creation_timestamp": "2026-04-24T10:29:40Z",
+            "inference_cache_key": "surface-inference-9um-pherc0139-20250728140407",
+            "blend_key": "surface-inference-9um-pherc0139-20250728140407",
+            "generated_at": "2026-05-06T08:31:01Z",
+            "model_type": "auto",
+            "batch_size": 4,
+            "ome_num_levels": 6,
+            "ome_downsampling_algorithm": "nearest",
+            "zarr_compressor": "lz4",
+            "zarr_compression_level": 7
+          }
+        },
+        {
+          "type": "normal-grids",
+          "origins": [
+            {
+              "path": "PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/",
+              "access_roots": [
+                {
+                  "type": "s3",
+                  "url": "s3://vesuvius-challenge-open-data",
+                  "usage": "public-read"
+                }
+              ],
+              "copy_info": {
+                "source_path": "s3://scrollprize-reconstruction/surfaces/m7/PHerc0139/20250728140407/20250728140407-9.362um-1.2m-113keV-masked.zarr.ome.zarr/normal_grids/",
+                "date": "2026-07-07T10:00:19.930718Z",
+                "workflow_execution": "s3sync-pherc0139-9d638d1d"
+              }
+            }
+          ],
+          "properties": null,
+          "parameters": {
+            "model_id": "20260413222639",
+            "level": 0,
+            "threshold_value": 0.2
+          },
+          "creation_info": {
+            "grid_step": 64,
+            "input_level": 0,
+            "prune_min_length_px": 20.0,
+            "sparse_volume": 1,
+            "spiral_step": 20.0
+          }
+        }
+      ]
+    }
+  }
+}

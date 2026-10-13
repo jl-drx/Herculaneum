@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "scope": "CPU harness check only",
+  "versions": {
+    "python": "3.12.14",
+    "torch": "2.12.0+cpu",
+    "numpy": "2.5.3",
+    "cuda": null,
+    "cudnn": null,
+    "cpu_threads": 1,
+    "gpu": null,
+    "capability": null
+  },
+  "warmup_steps": 1,
+  "timed_steps": 2,
+  "batch_size": 4,
+  "shape": [
+    4,
+    28,
+    256,
+    256
+  ],
+  "scored_shape": [
+    4,
+    128,
+    128
+  ],
+  "precision": "float32; TF32 off; deterministic algorithms required",
+  "steps_per_second": 0.40937360745039275,
+  "timings": {
+    "host_prepare_s": {
+      "mean": 0.18753804550033237,
+      "median": 0.18753804550033237
+    },
+    "transfer_s": {
+      "mean": 2.3921000320115127e-05,
+      "median": 2.3921000320115127e-05
+    },
+    "device_compute_s": {
+      "mean": 2.255194434499572,
+      "median": 2.255194434499572
+    },
+    "wall_s": {
+      "mean": 2.4427564010002243,
+      "median": 2.4427564010002243
+    }
+  },
+  "steps": [
+    {
+      "loss": 0.7079094648361206,
+      "picked": [
+        5,
+        0,
+        2,
+        4
+      ],
+      "host_prepare_s": 0.042048197999974946,
+      "transfer_s": 1.5948000509524718e-05,
+      "device_compute_s": 2.5124534999995376,
+      "wall_s": 2.554517646000022
+    },
+    {
+      "loss": 0.695222795009613,
+      "picked": [
+        4,
+        4,
+        0,
+        1
+      ],
+      "host_prepare_s": 0.3330278930006898,
+      "transfer_s": 3.1894000130705535e-05,
+      "device_compute_s": 1.997935368999606,
+      "wall_s": 2.3309951560004265
+    }
+  ],
+  "memory": null,
+  "checkpoint": {
+    "bytes": 1521837,
+    "sha256": "732dd990fb70072dd4a0c20b5cf68ff8d942b4c0e2c7bf6f0dcb04d55743d288",
+    "seconds": 0.011972753000009106
+  },
+  "restart_checks": {
+    "losses_and_batch_draws": true,
+    "model": true,
+    "optimizer": true,
+    "batch_rng": true,
+    "torch_cpu_rng": true,
+    "torch_cuda_rng": true
+  },
+  "validation": {
+    "examples": 8,
+    "seconds": 1.0219876400005887,
+    "scope": "Synthetic forward-loop overhead; not real data assembly or ranking metrics"
+  },
+  "source": {
+    "model_sha256": "5ea468f4a63db1edc1e9a7d5a0cc8361ab242569259b9f752eb7826a6b5e74b3",
+    "benchmark_sha256": "6469a1af8b4539e7ae03eb912f820b3d42b08f29fd0bdee802fc45a2cbdfe62f"
+  },
+  "real_data_used": false,
+  "scientific_training_performed": false,
+  "private_export_verified": false,
+  "independent_shutdown_verified": false,
+  "launch_readiness": false,
+  "mode": "cpu-self-test",
+  "utc": "2026-10-11T11:13:19.116516+00:00",
+  "process_seconds": 18.87949303699861
+}

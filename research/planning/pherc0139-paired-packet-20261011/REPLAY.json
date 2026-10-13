@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "Same-machine offline deterministic geometry replay; all six selection outputs byte-identical",
+  "outputs": [
+    {
+      "path": "CANDIDATES.json",
+      "sha256": "6bdcef6a0e68de1300cb48a80da69eceacdb85c0bc9df9100742b682d7eafaa7",
+      "bytes": 2136643
+    },
+    {
+      "path": "COMPUTE_BINDING.json",
+      "sha256": "225dcac1411f2f73ef7437281bdf60309db81cf1e6ef7f03340adb60a9d47a78",
+      "bytes": 2080
+    },
+    {
+      "path": "NEXT_NATIVE_CT_PLAN.json",
+      "sha256": "fe0af94424bd27ababb39f541c1d4bbc415fc4edaee972e5c763e1fb201d4fca",
+      "bytes": 475602
+    },
+    {
+      "path": "RESERVED_CONTEXTS.json",
+      "sha256": "3f8c57c86fb1786b7532ac3cd5c6fd06e01d2b78c61fce32f188736e0462e458",
+      "bytes": 379974
+    },
+    {
+      "path": "RESULTS.json",
+      "sha256": "fc738d25c1495cfbc0e67c86ebac6460476f508c65d407d55df3560b7f4c6aa8",
+      "bytes": 332717
+    },
+    {
+      "path": "SELECTED_REGIONS.csv",
+      "sha256": "96b7f2857dc482c442a608bd191eaeb32d5d51b5cfbca6c4eb7c720f60d4ed5f",
+      "bytes": 18244
+    }
+  ]
+}

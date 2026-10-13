@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-12T10:55:15.736304+00:00",
+  "purpose": "CT-only native geometry intake and fixed-panel review; no surface/ink inference, no scored method comparison.",
+  "selection_file": "NATIVE_CANDIDATES.json",
+  "selection_sha256": "ed2a4f2718a7ff11b17b9f598f655d757131db2a3e3c86663a93b9b95a61913c",
+  "chunk_plan_sha256": "4e4792faac0221599d5a14afafa793432ff7cedec3b931feccc405cb212621ea",
+  "registry_sha256": "d0ff154d3fea3d6dc3c5f95c9691f27145129e45f081df66937993341040769c",
+  "requests": 324,
+  "exact_response_bytes_if_complete": 679477248,
+  "render": "Every fixed case; three orthogonal 192x192 centre CT planes, fixed grayscale 0..255, no contrast fitting.",
+  "selection_rule": "Keep all 12 cases, including invalid/uninterpretable ones; no replacements from viewed model responses.",
+  "model_predictions_fetched": false,
+  "paid_compute": false,
+  "comparison_admission": "Not yet: independent sheet/trace references and geometry strata must be reviewed."
+}

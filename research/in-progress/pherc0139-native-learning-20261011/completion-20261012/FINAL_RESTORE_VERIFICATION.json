@@ -1,0 +1,33 @@
+{
+  "checked_utc": "2026-10-12T14:13:35.417065+00:00",
+  "status": "PASS",
+  "remote_commit": "26c6d8399ff5fc0a4bca9b22afdad4262a2dc322",
+  "index_sha256": "c9694680ece2bc0bb2a37c22ae1ddadaaea428e47fa91b518710e2ce36f4743c",
+  "final_archive": {
+    "name": "generation-0171.tar.gz",
+    "bytes": 81974009,
+    "sha256": "ff8c1a8d6f9706d7a12f11670cf7a572ce5e989aa3edf249f22ff7241a729b05"
+  },
+  "final_archive_download": "Fresh private GitHub LFS fetch into separate storage on the same cloud host. Initial fetch by a nonexistent local branch name failed before transfer; corrected to the verified remote commit.",
+  "restoration": {
+    "status": "PASS",
+    "generations": 172,
+    "files": 516,
+    "restored": 516,
+    "reused": 0,
+    "worker_started": false,
+    "source_prerequisites": [
+      {
+        "archive": "research/workspace/bundles/pherc0139-learning-readiness-20261011.tar.gz",
+        "archive_bytes": 13132617,
+        "archive_sha256": "f7afd272cc7b371c183704abf6ca3230ed7a008bb80e0f23e4e4fa0ad695246a"
+      },
+      {
+        "archive": "research/workspace/bundles/pherc0139-native-ct-20261011.tar.gz",
+        "archive_bytes": 196115746,
+        "archive_sha256": "87b8b6dcf6bbed725bb1eb17e7ed3c8e17ab37c0632792ec0e16b6d596eb5a40"
+      }
+    ]
+  },
+  "scope": "All 172 generation archives and 516 restored file checksums verified. The final generation was freshly downloaded remotely; earlier generations came from locally retained backup bodies. No independent-device claim, training or inference."
+}

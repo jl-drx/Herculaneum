@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "scope": "Independent replay of existing numerical comparisons; no new acquisition/inference.",
+  "reviewer_script_sha256": "79246974a1f2c1d23d5a3db5661e776e1d19056cfcb6f5a937622dfba18079a8",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "numerical_threads": 1
+  },
+  "inputs": {
+    "RESULTS.json": "603d04b52bf66f961b9d8650059c97da321ce00ddc4ac9814bee97eaf017b6e4",
+    "SOURCE_FREEZE.json": "c5b599319609fc6b9746ef996ec06bdaa18d11736947d2518e18166412c2ae2d",
+    "REQUEST_LEDGER.json": "2921a74731aa0dbf2196b989dd8e4e102b19ad8ccc7512fd90cb292d275bad35",
+    "catalog_excerpt": "d2d2cb6624ebc6ecc16dc0b4263952d8793ca3395ecc86c899d6e29fe6c45259",
+    "array_metadata": {
+      "metadata/sampling-metadata/responses/20250728140407-0-zarray.json": "562679cffc09a94b7342a38c37e49f433a4dfa6e3c93b7599dbeaec791186a35",
+      "metadata/sampling-metadata/responses/20251107132835-0-zarray.json": "d5a755d3fce007ea1bf5ea425205f3bcd46bc2c182592cedb1725c84cb5f7aab",
+      "metadata/sampling-metadata/responses/20251107135911-0-zarray.json": "d5a755d3fce007ea1bf5ea425205f3bcd46bc2c182592cedb1725c84cb5f7aab"
+    }
+  },
+  "all9_chunks_and_requests_verified": true,
+  "all5_freeze_hashes_verified": true,
+  "all3_landmark_selections_verified": true,
+  "all9_cube_summary_metrics": "PASS",
+  "array_metadata_encoding": "PASS",
+  "comparisons": 9,
+  "distinct_formula_max_abs_errors": {
+    "pearson": 1.6332490915260678e-12,
+    "spearman": 7.267519919196275e-13,
+    "mae": 0.0,
+    "gradient": 6.017408793468348e-14,
+    "phase_peak": 5.551115123125783e-17,
+    "phase_far": 1.0408340855860843e-17
+  },
+  "phase_audit_rows": [
+    {
+      "site": "site1",
+      "a": "20250728140407",
+      "b": "20251107132835",
+      "shift_zyx": [
+        0,
+        0,
+        0
+      ],
+      "corr_zero": 0.4658312890168236,
+      "peak": 0.4658312890168236,
+      "peak_minus_zero": 0.0,
+      "zero_to_peak_ratio": 1.0,
+      "gradient": 0.8105688213484668
+    },
+    {
+      "site": "site1",
+      "a": "20250728140407",
+      "b": "20251107135911",
+      "shift_zyx": [
+        0,
+        0,
+        0
+      ],
+      "corr_zero": 0.42776061588788955,
+      "peak": 0.42776061588788955,
+      "peak_minus_zero": 0.0,
+      "zero_to_peak_ratio": 1.0,
+      "gradient": 0.8345198477111119
+    },
+    {
+      "site": "site1",
+      "a": "20251107132835",
+      "b": "20251107135911",
+      "shift_zyx": [
+        0,
+        0,
+        0
+      ],
+      "corr_zero": 0.8870197276067946,
+      "peak": 0.8870197276067946,
+      "peak_minus_zero": 0.0,
+      "zero_to_peak_ratio": 1.0,
+      "gradient": 0.9851583470604879
+    },
+    {
+      "site": "site2",
+      "a": "20250728140407",
+      "b": "20251107132835",
+      "shift_zyx": [
+        1,
+        0,
+        0
+      ],
+      "corr_zero": 0.25934727773278776,
+      "peak": 0.438672907817989,
+      "peak_minus_zero": 0.17932563008520125,
+      "zero_to_peak_ratio": 0.591208787027245,
+      "gradient": 0.6587368376557285
+    },
+    {
+      "site": "site2",
+      "a": "20250728140407",
+      "b": "20251107135911",
+      "shift_zyx": [
+        1,
+        0,
+        0
+      ],
+      "corr_zero": 0.2502745762425075,
+      "peak": 0.42061548750838407,
+      "peak_minus_zero": 0.17034091126587658,
+      "zero_to_peak_ratio": 0.5950198784287961,
+      "gradient": 0.7072713516233073
+    },
+    {
+      "site": "site2",
+      "a": "20251107132835",
+      "b": "20251107135911",
+      "shift_zyx": [
+        0,
+        0,
+        0
+      ],
+      "corr_zero": 0.9101662634169788,
+      "peak": 0.9101662634169788,
+      "peak_minus_zero": 0.0,
+      "zero_to_peak_ratio": 1.0,
+      "gradient": 0.9827830887316616
+    },
+    {
+      "site": "site3",
+      "a": "20250728140407",
+      "b": "20251107132835",
+      "shift_zyx": [
+        0,
+        0,
+        0
+      ],
+      "corr_zero": 0.19728979017659964,
+      "peak": 0.19728979017659964,
+      "peak_minus_zero": 0.0,
+      "zero_to_peak_ratio": 1.0,
+      "gradient": 0.6273079129854552
+    },
+    {
+      "site": "site3",
+      "a": "20250728140407",
+      "b": "20251107135911",
+      "shift_zyx": [
+        0,
+        0,
+        0
+      ],
+      "corr_zero": 0.17845596428355776,
+      "peak": 0.17845596428355776,
+      "peak_minus_zero": 0.0,
+      "zero_to_peak_ratio": 1.0,
+      "gradient": 0.6582129304793123
+    },
+    {
+      "site": "site3",
+      "a": "20251107132835",
+      "b": "20251107135911",
+      "shift_zyx": [
+        0,
+        0,
+        0
+      ],
+      "corr_zero": 0.8750543351810818,
+      "peak": 0.8750543351810818,
+      "peak_minus_zero": 0.0,
+      "zero_to_peak_ratio": 1.0,
+      "gradient": 0.9816490583429796
+    }
+  ],
+  "supplemental_literal_maxcode_occupancy": [
+    {
+      "site": "site1",
+      "volume": "20250728140407",
+      "maxcode": 255,
+      "maxcode_fraction": 0.01805734634399414
+    },
+    {
+      "site": "site1",
+      "volume": "20251107132835",
+      "maxcode": 255,
+      "maxcode_fraction": 0.008181095123291016
+    },
+    {
+      "site": "site1",
+      "volume": "20251107135911",
+      "maxcode": 254,
+      "maxcode_fraction": 0.005596160888671875
+    },
+    {
+      "site": "site2",
+      "volume": "20250728140407",
+      "maxcode": 255,
+      "maxcode_fraction": 0.019769668579101562
+    },
+    {
+      "site": "site2",
+      "volume": "20251107132835",
+      "maxcode": 255,
+      "maxcode_fraction": 0.032376766204833984
+    },
+    {
+      "site": "site2",
+      "volume": "20251107135911",
+      "maxcode": 254,
+      "maxcode_fraction": 0.025290489196777344
+    },
+    {
+      "site": "site3",
+      "volume": "20250728140407",
+      "maxcode": 255,
+      "maxcode_fraction": 0.024787425994873047
+    },
+    {
+      "site": "site3",
+      "volume": "20251107132835",
+      "maxcode": 255,
+      "maxcode_fraction": 0.011750221252441406
+    },
+    {
+      "site": "site3",
+      "volume": "20251107135911",
+      "maxcode": 254,
+      "maxcode_fraction": 0.007675647735595703
+    }
+  ],
+  "limits": [
+    "Does not independently certify acquisition geometry or ink truth.",
+    "Common nonzero masks are intensity supports, not tissue truth.",
+    "Code255 and maximum-code occupancy are not calibrated clipping measures.",
+    "Image review is recorded in REVIEW.md, not automated by this checker."
+  ]
+}

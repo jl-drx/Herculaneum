@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-11T09:32:04.190926+00:00",
+  "all_passed": true,
+  "checks": [
+    "asymmetric full28 chunk assembly and final plane",
+    "stored ink outside supervision is ignored",
+    "count proportional sampling gives uniform supervised pixel objective",
+    "empty training mask rejected",
+    "constant score ties yield prevalence AP and chance AUC",
+    "perfect ranking AP/AUC",
+    "blank core rank metrics are undefined",
+    "held-out intensities cannot alter normalization",
+    "fold loader uses exact exclusion IDs",
+    "overlapping train and held-out IDs rejected",
+    "model accepts28planes full256 and scores128",
+    "resume reproduces sampled cores and exact losses",
+    "resume reproduces model tensors bit for bit",
+    "resume preserves sampler RNG and optimizer moments",
+    "partial unreceipted checkpoint is not discoverable",
+    "checkpoint hash mismatch rejected before load",
+    "evaluation blocked until every training endpoint is complete",
+    "training plateau reaches minimum lr without premature stop",
+    "sustained floor plateau terminates after declared patience",
+    "material continued improvement prevents plateau stop",
+    "profile fits known synthetic depth27 signal and converges"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.12.0+cpu",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "zarr": "3.4.0",
+    "threads": 4,
+    "machine": "x86_64",
+    "cuda_used": false
+  },
+  "parameter_count": 122513,
+  "benchmark": {
+    "updates": 12,
+    "batch_size": 4,
+    "context": [
+      28,
+      256,
+      256
+    ],
+    "seconds": 14.851902672000506,
+    "seconds_per_update": 1.2376585560000422,
+    "includes": "sampling, normalization, augmentation, forward/backward, clipping, Adam",
+    "excludes": "real data loading, full training checks, checkpoint serialization, backup and baseline fits"
+  },
+  "real_CT_or_labels_read": false,
+  "held_out_predictions": 0
+}

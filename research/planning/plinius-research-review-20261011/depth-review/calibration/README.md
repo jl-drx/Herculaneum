@@ -1,0 +1,1 @@
+The36 full-box/context PNGs are in the checksummed private LFS bundle. [Restore the complete packet](../../PORTABILITY.md) before following image links. Verification and source manifests are readable here.

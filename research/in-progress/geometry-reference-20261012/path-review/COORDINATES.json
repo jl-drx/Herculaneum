@@ -1,0 +1,256 @@
+{
+  "status": "COORDINATES_VERIFIED_NOT_ADJUDICATED",
+  "plan_sha256": "0895da9d9bd0c558d508c88499d5036758ab4497fd63c53c62b792c5e85be0b4",
+  "anchors_sha256": "602562e5f95548d1c3b2997aa5cc49d6342941d7cb18355606fa5f3aca5013cd",
+  "script_sha256": "4745016c7db497cac01c0263b1f647862883e32752ea0eeb56b91c4681a7c598",
+  "paths": [
+    {
+      "id": "0800-A",
+      "case": "PHerc0800-24",
+      "points_zyx": [
+        [
+          96,
+          96,
+          41
+        ],
+        [
+          112,
+          96,
+          52
+        ],
+        [
+          128,
+          96,
+          60
+        ],
+        [
+          144,
+          96,
+          61
+        ]
+      ],
+      "global_points_zyx": [
+        [
+          17088,
+          8128,
+          5513
+        ],
+        [
+          17104,
+          8128,
+          5524
+        ],
+        [
+          17120,
+          8128,
+          5532
+        ],
+        [
+          17136,
+          8128,
+          5533
+        ]
+      ],
+      "length_voxels": 53.33625120082732,
+      "ct_at_anchors": [
+        122,
+        110,
+        110,
+        137
+      ],
+      "all_points_inside_original_core": true
+    },
+    {
+      "id": "0800-B",
+      "case": "PHerc0800-24",
+      "points_zyx": [
+        [
+          96,
+          96,
+          76
+        ],
+        [
+          112,
+          96,
+          79
+        ],
+        [
+          128,
+          96,
+          82
+        ],
+        [
+          144,
+          96,
+          88
+        ]
+      ],
+      "global_points_zyx": [
+        [
+          17088,
+          8128,
+          5548
+        ],
+        [
+          17104,
+          8128,
+          5551
+        ],
+        [
+          17120,
+          8128,
+          5554
+        ],
+        [
+          17136,
+          8128,
+          5560
+        ]
+      ],
+      "length_voxels": 49.64564868283448,
+      "ct_at_anchors": [
+        117,
+        141,
+        128,
+        108
+      ],
+      "all_points_inside_original_core": true
+    },
+    {
+      "id": "0814-A",
+      "case": "PHerc0814-06",
+      "points_zyx": [
+        [
+          94,
+          96,
+          32
+        ],
+        [
+          94,
+          96,
+          48
+        ],
+        [
+          91,
+          96,
+          64
+        ],
+        [
+          94,
+          96,
+          80
+        ],
+        [
+          95,
+          96,
+          96
+        ]
+      ],
+      "global_points_zyx": [
+        [
+          4414,
+          1984,
+          1792
+        ],
+        [
+          4414,
+          1984,
+          1808
+        ],
+        [
+          4411,
+          1984,
+          1824
+        ],
+        [
+          4414,
+          1984,
+          1840
+        ],
+        [
+          4415,
+          1984,
+          1856
+        ]
+      ],
+      "length_voxels": 64.58886073408081,
+      "ct_at_anchors": [
+        181,
+        117,
+        36,
+        42,
+        25
+      ],
+      "all_points_inside_original_core": true
+    },
+    {
+      "id": "0814-B",
+      "case": "PHerc0814-06",
+      "points_zyx": [
+        [
+          105,
+          96,
+          32
+        ],
+        [
+          103,
+          96,
+          48
+        ],
+        [
+          104,
+          96,
+          64
+        ],
+        [
+          107,
+          96,
+          80
+        ],
+        [
+          109,
+          96,
+          96
+        ]
+      ],
+      "global_points_zyx": [
+        [
+          4425,
+          1984,
+          1792
+        ],
+        [
+          4423,
+          1984,
+          1808
+        ],
+        [
+          4424,
+          1984,
+          1824
+        ],
+        [
+          4427,
+          1984,
+          1840
+        ],
+        [
+          4429,
+          1984,
+          1856
+        ]
+      ],
+      "length_voxels": 64.5590711311753,
+      "ct_at_anchors": [
+        141,
+        135,
+        21,
+        118,
+        171
+      ],
+      "all_points_inside_original_core": true
+    }
+  ],
+  "model_payloads_read": 0,
+  "scope": "Source/coordinate checks and raw CT views. CT intensity is descriptive, never an identity/ink score."
+}

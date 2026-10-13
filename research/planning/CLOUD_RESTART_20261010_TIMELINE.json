@@ -1,0 +1,28 @@
+{
+  "source": "codex_app.read_thread; startedAt identifies turn start, not an infrastructure event or exact message receipt",
+  "thread_id": "01a1185d-e84a-75ee-b597-093417b43048",
+  "host_id": "durable",
+  "turns": [
+    {
+      "label": "status_check",
+      "turn_id": "01a12510-2914-75ad-bb7a-3ffbfb84ef50",
+      "started_at_epoch": 1791623178,
+      "started_at_utc": "2026-10-10T09:06:18+00:00",
+      "started_at_london": "2026-10-10T10:06:18+01:00"
+    },
+    {
+      "label": "restart_question",
+      "turn_id": "01a12515-ebb5-70d5-ac36-d625aa903a2d",
+      "started_at_epoch": 1791623556,
+      "started_at_utc": "2026-10-10T09:12:36+00:00",
+      "started_at_london": "2026-10-10T10:12:36+01:00"
+    },
+    {
+      "label": "checkpoint_request",
+      "turn_id": "01a12518-3579-751c-981d-67f6efde7c5f",
+      "started_at_epoch": 1791623706,
+      "started_at_utc": "2026-10-10T09:15:06+00:00",
+      "started_at_london": "2026-10-10T10:15:06+01:00"
+    }
+  ]
+}

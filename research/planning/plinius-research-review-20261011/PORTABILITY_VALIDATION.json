@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "archive_restore": {
+    "status": "PASS",
+    "files": 138,
+    "bytes": 52090543,
+    "archive_sha256": "083ddf514a76403c442520a51c9078faf4b60a8a6f1f111c4fc0dddd3165dbca",
+    "destination": "/workspace/scratch/plinius-research-review-restored",
+    "scope": "Checksummed file restoration only; no inference, acquisition or scientific replay."
+  },
+  "metadata_replay": "PASS:32response hashes,11surfacecontracts,4pyramids,3rawvolumecontracts",
+  "landmark_replay": "PASS:byteidentical",
+  "reconstruction_independent_replay": "PASS:all9comparisons;byte-equivalent JSON object",
+  "scope": "Relocated archive restoration and CPU numerical replay on samecloudhost/existingPythonenvironment. No newmodelinference, freshpackageinstall or separatemachine claim."
+}

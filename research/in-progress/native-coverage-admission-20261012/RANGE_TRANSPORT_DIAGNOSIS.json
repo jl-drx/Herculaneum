@@ -1,0 +1,20 @@
+[
+  {
+    "method": "HEAD",
+    "headers": {},
+    "id": "pherc0814-20250925161630-ct-y0021-x0096",
+    "utc": "2026-10-12T18:55:00.674496+00:00",
+    "status": 503,
+    "error_body": ""
+  },
+  {
+    "method": "GET",
+    "headers": {
+      "Range": "bytes=0-458751"
+    },
+    "id": "pherc0814-20250925161630-ct-y0021-x0096",
+    "utc": "2026-10-12T18:55:00.754272+00:00",
+    "status": 503,
+    "error_body": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: immediate connect error: Invalid argument|remote address:envoy://cloudflare_https_tunnel/"
+  }
+]

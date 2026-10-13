@@ -1,0 +1,40 @@
+{
+  "binding": {
+    "go_sha256": "d396d24a7685442d7a1c1d98dd0e83396c4c275fec9ff24ce3b65cdd03a23bd3",
+    "job": [
+      "hecate",
+      "plain",
+      "forward"
+    ]
+  },
+  "index": 17,
+  "inputs": [
+    {
+      "dtype": "float32",
+      "sha256": "a10f3ff00f8a26001ca73a73b2a37af91e9d4dcc9bf2d3a1c42835c7a11fa2d3",
+      "shape": [
+        1,
+        1,
+        16,
+        64,
+        64
+      ]
+    },
+    {
+      "dtype": "uint8",
+      "sha256": "916b144867c340614f515c7b0e5415c74832d899c05264ded2a277a6e81d81ff",
+      "shape": [
+        1,
+        1,
+        16,
+        64,
+        64
+      ]
+    }
+  ],
+  "logits": {
+    "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hecate-plain-forward/tile-017.npy",
+    "sha256": "a82c104c2c7928bc634b5e9a10e3b44e07651c367297774f7503354dde442af3",
+    "size_bytes": 16512
+  }
+}

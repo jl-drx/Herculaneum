@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_DESIGN_BEFORE_SHIFTED_INPUTS",
+  "stage": "input_and_schedule_feasibility_only",
+  "source_study": "fiftyfirst-experiment",
+  "segment": "20251028222030",
+  "scoring_xywh": [512, 1024, 1536, 512],
+  "nominal_depth_offsets": [-15, 0, 15],
+  "models": ["dnative", "hybrid_3d2d-seed42", "hybrid_3d2d-seed43", "hecate"],
+  "phases": ["plain", "padded"],
+  "orders": ["forward", "reverse"],
+  "new_production_maps": 32,
+  "retained_baseline_maps": 16,
+  "retain_complete_original_active_cohorts": true,
+  "new_CT_fetches": 0,
+  "new_model_forwards_authorized_by_this_feasibility_file": false,
+  "gpu_spend_GBP": 0
+}

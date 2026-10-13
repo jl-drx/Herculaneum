@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-10T23:48:04.035569+00:00",
+  "go_sha256": "6e9d6f48614767d232a4601785c6278b5d09a8d73380967fc9a7038990b421e8",
+  "remote_ref": "refs/heads/codex/plinius-pherc0800-phase52-checkpoints",
+  "remote_commit": "46d0a40856a54be8a3c3654042f94caf486b09aa",
+  "fresh_remote_download": true,
+  "restore_pass": true,
+  "archive_bytes": 245853791,
+  "archive_sha256": "7f4f609417f2c6c5f32b9e9859d323bc90d7733d6bc91f66d80274c8b66f3844",
+  "archive_members": 653,
+  "restoration": {
+    "status": "PASS",
+    "generations": 1,
+    "files": 653,
+    "restored": 653,
+    "reused": 0,
+    "inference_run": false,
+    "prerequisite_files_not_included": 958,
+    "scope": "Restored pinned study inputs and committed outputs only; full worker startup still requires prior model/runtime files and the qualified environment."
+  },
+  "scope": "Fresh initial-generation GitHub LFS download and separate-destination data restoration; earlier prerequisites and runtime remain separate. No new model execution or fresh-device environment test."
+}

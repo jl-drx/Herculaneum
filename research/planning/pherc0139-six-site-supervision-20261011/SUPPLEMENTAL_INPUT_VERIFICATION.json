@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "inputs/RESERVED_CONTEXTS.json",
+      "source_study": "pherc0139-fine-geometry-20261011",
+      "source_path": "intake/selection/RESERVED_CONTEXTS.json",
+      "source_bundle_sha256": "0f8db0d1b23fa98a03fa27e691071962419e2a0fc974847b4e9bf00b3823e9c9",
+      "sha256": "3f8c57c86fb1786b7532ac3cd5c6fd06e01d2b78c61fce32f188736e0462e458"
+    },
+    {
+      "path": "inputs/QUALIFICATION.json",
+      "source_study": "pherc0139-fine-geometry-20261011",
+      "source_path": "qualification/RESULTS.json",
+      "source_bundle_sha256": "0f8db0d1b23fa98a03fa27e691071962419e2a0fc974847b4e9bf00b3823e9c9",
+      "sha256": "f8c4a09675b6e06f1d0ba0a7eda453dcc8ad92000dd3bf28cdfbe2f6f37e426e"
+    },
+    {
+      "path": "sources/v42-inference.py",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "provenance/sources/v42-inference.py",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "af165d3a3afb84b0272ec94d7ec883b90cd750b83a6e54bee6874f9a04f022dc"
+    },
+    {
+      "path": "sources/v42-processing.py",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "provenance/sources/v42-processing.py",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "63bf641bf4f687c4ccfe16b91df3cceee5b4138dbab6e4265b0209233b81fc75"
+    },
+    {
+      "path": "sources/v42-entrypoint.py",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "provenance/sources/v42-entrypoint.py",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "11e21f45ddc2d9ea1331af46a84d82eec37e42b149f801f5f87c7fc34520ca5a"
+    },
+    {
+      "path": "sources/pinned-native_dense_report.json",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "provenance/sources/pinned-native_dense_report.json",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "e3b8214fcf06fe43a160614b5926cf6f6726c9df57bc65ffbf34030bdf4d1783"
+    },
+    {
+      "path": "sources/pinned-build_native_dense_labels.py",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "provenance/sources/pinned-build_native_dense_labels.py",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "421fb3ff94f21620cb2902d055f5c34be83cee23f57fa1cf23e88dbde4e131ff"
+    },
+    {
+      "path": "sources/pinned-native_common.py",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "provenance/sources/pinned-native_common.py",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "34f5bb233b13675ec95a5982c0061096d02d87ed5207cc63f49c7e841f19d94d"
+    },
+    {
+      "path": "sources/previous_transfer.py",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "analysis.py",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "24f625944826362b3c7029e4b412a35986440ac10d01eccaa2c9d9a2069da5d6"
+    },
+    {
+      "path": "provenance/ADDITIONAL_SOURCE_PINS.json",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "provenance/ADDITIONAL_SOURCE_PINS.json",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "be356bb218599d90b8877d36b031941aeb6ec884a666bfe9ba8318335808bad6"
+    },
+    {
+      "path": "provenance/V42_SOURCE_REQUESTS.json",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "provenance/V42_SOURCE_REQUESTS.json",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "43771bb529898aeeaa96c7ccd5605a07d8335581755fc008c625c79b64ac99c2"
+    },
+    {
+      "path": "restore_packet.py",
+      "source_study": "pherc0139-supervision-20261011",
+      "source_path": "restore_packet.py",
+      "source_bundle_sha256": "265ed61e06f96a8a7998697a1ae12903c6be0c2e1bc77d0efe4ada6821889ba6",
+      "sha256": "4ec109f8e41c87cbc45b54958a6fbe0b68d4831726999e1c03e06c94d28e1196"
+    }
+  ]
+}

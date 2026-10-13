@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-11T09:42:31.017420+00:00",
+  "status": "PASS",
+  "download_and_restore": {
+    "remote_commit": "d2fe787e0c3ce09fa9f425c02f9160fb79514e8d",
+    "new_lfs_directory": "/workspace/scratch/native0139-trained-remote-restore/lfs",
+    "restore": {
+      "status": "PASS",
+      "generations": 3,
+      "files": 21,
+      "restored": 21,
+      "reused": 0,
+      "worker_started": false,
+      "source_prerequisites": [
+        {
+          "archive": "research/workspace/bundles/pherc0139-learning-readiness-20261011.tar.gz",
+          "archive_bytes": 13132617,
+          "archive_sha256": "f7afd272cc7b371c183704abf6ca3230ed7a008bb80e0f23e4e4fa0ad695246a"
+        },
+        {
+          "archive": "research/workspace/bundles/pherc0139-native-ct-20261011.tar.gz",
+          "archive_bytes": 196115746,
+          "archive_sha256": "87b8b6dcf6bbed725bb1eb17e7ed3c8e17ab37c0632792ec0e16b6d596eb5a40"
+        }
+      ]
+    },
+    "download_scope": "Fresh private download of every generation into previously absent LFS storage"
+  },
+  "go_sha256": "2c20b4491a2c94fdc4c479a84a6ab85f309673a113cfdd8088b30fb7df6bf61c",
+  "source_files_verified": 1093,
+  "source_root": "/workspace/scratch/learning-readiness-relocated-20261011/native-reference",
+  "relocated_go_validation": "PASS",
+  "checkpoint": {
+    "path": "step-000256.pt",
+    "bytes": 1524077,
+    "sha256": "11f749c8b2e6d4c631918fd6d256bca63bd04da7096b0643505b642c4a4c13d5"
+  },
+  "step": 256,
+  "model_tensor_equality": true,
+  "optimizer_state_equality": true,
+  "sampler_state_equality": true,
+  "training_state_equality": true,
+  "model_forwards": 0,
+  "training_updates": 0,
+  "held_out_predictions": 0,
+  "scope": "Real trained checkpoint freshly downloaded from private GitHub, safely restored, loaded and compared exactly; exact continued updates separately qualified synthetically. Official worker untouched."
+}

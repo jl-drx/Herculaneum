@@ -1,0 +1,62 @@
+{
+  "plan_sha256": "3284fc044e06e173c05503b27639138ac7d3b295e43c11f2862bbddf1396ca5c",
+  "reviewer": "Lead assistant after fixed 13-section CT review; no separate expert adjudication",
+  "status": "NEW_SHORT_PROVISIONAL_CANDIDATES",
+  "paths": [
+    {
+      "id": "0814-C-short",
+      "case": "PHerc0814-06",
+      "points_zyx": [
+        [
+          94,
+          96,
+          32
+        ],
+        [
+          93,
+          96,
+          40
+        ],
+        [
+          92,
+          96,
+          48
+        ],
+        [
+          92,
+          96,
+          56
+        ]
+      ]
+    },
+    {
+      "id": "0814-D-short",
+      "case": "PHerc0814-06",
+      "points_zyx": [
+        [
+          105,
+          96,
+          32
+        ],
+        [
+          103,
+          96,
+          40
+        ],
+        [
+          101,
+          96,
+          48
+        ],
+        [
+          102,
+          96,
+          56
+        ]
+      ]
+    }
+  ],
+  "uncertainty": "Approximate ridge-centre candidates, not recto surfaces. No distance tolerance or interpolation label admitted. Identity beyond X=56 remains unassigned; do not connect across X~64-80 by brightness.",
+  "permitted_use": "Independent future CT review and runtime control candidates only; not geometry accuracy scoring",
+  "model_fields_viewed": 0
+}

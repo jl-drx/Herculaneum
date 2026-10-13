@@ -1,0 +1,53 @@
+{
+  "all_original_contributor_contexts_required": true,
+  "common_support_fraction": 0.7950032552083334,
+  "common_support_pixels": 1875648,
+  "mask": {
+    "path": "/workspace/herculaneum-lab/reports/fortyninth-experiment/work/planned-output-support.npz",
+    "sha256": "ea9df401b05c133276c5bff564ed0b921138f500c713c74514c7a9c16dc4593d",
+    "size_bytes": 37908
+  },
+  "rows": [
+    {
+      "contributing_grid_tiles": 625,
+      "family": "villa",
+      "fully_known_tiles": 512,
+      "output_supported_pixels": 1896448,
+      "phase": "plain",
+      "tiles_with_unknown_geometry": 113
+    },
+    {
+      "contributing_grid_tiles": 2025,
+      "family": "hecate",
+      "fully_known_tiles": 1739,
+      "output_supported_pixels": 2041258,
+      "phase": "plain",
+      "tiles_with_unknown_geometry": 286
+    },
+    {
+      "contributing_grid_tiles": 676,
+      "family": "villa",
+      "fully_known_tiles": 537,
+      "output_supported_pixels": 1916416,
+      "phase": "padded",
+      "tiles_with_unknown_geometry": 139
+    },
+    {
+      "contributing_grid_tiles": 2025,
+      "family": "hecate",
+      "fully_known_tiles": 1739,
+      "output_supported_pixels": 2041819,
+      "phase": "padded",
+      "tiles_with_unknown_geometry": 286
+    }
+  ],
+  "scope": "Conservative geometry-only planning; no full source/render qualification yet",
+  "scoring_pixels": 2359296,
+  "script": {
+    "path": "/workspace/herculaneum-lab/reports/fortyninth-experiment/plan_output_support.py",
+    "sha256": "cc8143615eae498699e721c39b66d5f6a7f505d5b3a8dd304f8188894432f00c",
+    "size_bytes": 2429
+  },
+  "status": "PASS",
+  "unknown_not_observed_zero": true
+}

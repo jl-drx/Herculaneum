@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "model": "hecate",
+  "phase": "plain",
+  "checkpoint": {
+    "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/hecate_9.6um.pth",
+    "bytes": 522576086,
+    "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d"
+  },
+  "output": {
+    "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_plain/concat_w047-w048_R5B2_z9500-11000_66__hecate__L66zc33.50_reverse.png",
+    "sha256": "9d67a3f970b6c3f109223d476f6e138b5e4e5deaa9988dd09108d18778680ee1",
+    "bytes": 2730095
+  },
+  "decoded_sha256": "6cabe2a5dc7c4723962b6756cd56ae58f9d3c14cd276db849a67038bf7216e37",
+  "shape": [
+    2304,
+    6048
+  ],
+  "min": 0,
+  "max": 255,
+  "tile_forwards": null,
+  "elapsed_seconds": 22643.621777868997,
+  "device": "cpu",
+  "precision": "fp32",
+  "compile": false
+}

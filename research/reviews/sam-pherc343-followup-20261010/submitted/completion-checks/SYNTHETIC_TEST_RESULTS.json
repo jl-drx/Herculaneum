@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic tests of shared validation functions only; no completed Hecate outputs accessed; no model execution; no OpenCV merge/resampling test.",
+  "cases": [
+    {
+      "case": "png: valid uint8 receipt accepted",
+      "result": "PASS"
+    },
+    {
+      "case": "png: reject encoded",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.png: hash mismatch"
+    },
+    {
+      "case": "png: reject decoded",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.png: hash mismatch"
+    },
+    {
+      "case": "png: reject shape",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.png: size/shape receipt mismatch"
+    },
+    {
+      "case": "png: reject bytes",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.png: size/shape receipt mismatch"
+    },
+    {
+      "case": "png: reject partial",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.png: wrong receipt"
+    },
+    {
+      "case": "png: reject checkpoint",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.png: changed weights"
+    },
+    {
+      "case": "png: reject short prefix image as full output",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.png: not full expected uint8 map"
+    },
+    {
+      "case": "tif: valid uint8 receipt accepted",
+      "result": "PASS"
+    },
+    {
+      "case": "tif: reject encoded",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.tif: hash mismatch"
+    },
+    {
+      "case": "tif: reject decoded",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.tif: hash mismatch"
+    },
+    {
+      "case": "tif: reject shape",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.tif: size/shape receipt mismatch"
+    },
+    {
+      "case": "tif: reject bytes",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.tif: size/shape receipt mismatch"
+    },
+    {
+      "case": "tif: reject partial",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.tif: wrong receipt"
+    },
+    {
+      "case": "tif: reject checkpoint",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.tif: changed weights"
+    },
+    {
+      "case": "tif: reject short prefix image as full output",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/synthetic.tif: not full expected uint8 map"
+    },
+    {
+      "case": "reject uint16 image",
+      "result": "PASS",
+      "expected_rejection": "/tmp/pherc343-synthetic-q4ftto_r/wrong-dtype.png: expected grayscale uint8 encoding"
+    },
+    {
+      "case": "accept eight unique final receipt identities",
+      "result": "PASS"
+    },
+    {
+      "case": "reject seven-map completion",
+      "result": "PASS",
+      "expected_rejection": "Terminal receipt must enumerate exactly eight full maps"
+    },
+    {
+      "case": "reject checkpoint manifest even if all rows claimed",
+      "result": "PASS",
+      "expected_rejection": "Terminal receipt must enumerate exactly eight full maps"
+    },
+    {
+      "case": "reject duplicate model-phase pair",
+      "result": "PASS",
+      "expected_rejection": "Duplicate/missing model-phase pair"
+    }
+  ]
+}

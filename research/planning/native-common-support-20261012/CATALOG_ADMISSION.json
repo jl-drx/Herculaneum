@@ -1,0 +1,657 @@
+{
+  "created_utc": "2026-10-12T13:50:22.102155+00:00",
+  "catalog_sha256": "655dbfb87c441778fd31c78446bdd0496fa0a3ddee79f986f5928da116b3e21e",
+  "role": "Published development support only, not fresh confirmation. No CT/label/model array payload in this metadata intake.",
+  "protected_families": [
+    "PHerc0175",
+    "PHerc1203",
+    "PHerc0139 current locked study"
+  ],
+  "rows": [
+    {
+      "sample": "PHerc0841",
+      "segment": "20260220213127",
+      "long_id": "20260220213127-w00",
+      "data": [
+        {
+          "type": "tifxyz-transformed",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220213127-w00/mesh/20260220213127-on-20250821151531-9.366um.tifxyz/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250821151531"
+          }
+        },
+        {
+          "type": "tifxyz-transformed",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220213127-w00/mesh/20260220213127-on-20260319124803-2.403um.tifxyz/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20260319124803"
+          }
+        },
+        {
+          "type": "layers-zarr",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220213127-w00/surface-volumes/9.366um-1.2m-113keV-volume-20250821151531.zarr/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250821151531"
+          }
+        },
+        {
+          "type": "layers-zarr",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20260319124803"
+          }
+        },
+        {
+          "type": "ink-labels",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220213127-w00/ink-labels/2.403um-volume-20260319124803/20260918/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20260319124803",
+            "label_set": "20260918"
+          },
+          "properties": {
+            "registration": "transferred",
+            "annotated_on": "unknown",
+            "arrays": [
+              "inklabels",
+              "supervision",
+              "validation"
+            ],
+            "labelled_px": 6164683,
+            "supervised_px": 24334267,
+            "mapping_coverage": 0.993467695534526
+          }
+        }
+      ],
+      "volume_transforms": [
+        {
+          "from_volume_id": "20250821151531",
+          "transforms": [
+            {
+              "to_volume_id": "20260319124803",
+              "matrix": [
+                [
+                  3.8989743209135876,
+                  -0.01255505722529341,
+                  -0.0018339025635139032,
+                  343.9127006249706
+                ],
+                [
+                  0.010672926356536081,
+                  3.8982252200029714,
+                  0.0022465882056711857,
+                  214.7521699852929
+                ],
+                [
+                  7.354390744793846e-05,
+                  -0.001896739717178478,
+                  3.897597266482002,
+                  -49844.690396924205
+                ]
+              ],
+              "derivation_path": "20250821151531-20260319124803\u207b\u00b9"
+            }
+          ]
+        },
+        {
+          "from_volume_id": "20260319124803",
+          "transforms": [
+            {
+              "to_volume_id": "20250821151531",
+              "matrix": [
+                [
+                  0.2564754450880084,
+                  0.0008260917977362013,
+                  0.00012020099977095348,
+                  -82.39118635139529
+                ],
+                [
+                  -0.0007021995249768938,
+                  0.2565246609230586,
+                  -0.00014819207930218925,
+                  -62.23432056504999
+                ],
+                [
+                  -5.181165406259682e-06,
+                  0.00012482042795275997,
+                  0.2565682500544118,
+                  12788.539966053613
+                ]
+              ],
+              "derivation_path": "20260319124803-20250821151531"
+            }
+          ]
+        }
+      ],
+      "selection": "All three published PHerc0841 human-reference segments; the single published PHerc0009B human-reference segment. Metadata selected, no maps read."
+    },
+    {
+      "sample": "PHerc0841",
+      "segment": "20260220214732",
+      "long_id": "20260220214732-auto_grown_20260220144552896",
+      "data": [
+        {
+          "type": "tifxyz-transformed",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/mesh/20260220214732-on-20250821151531-9.366um.tifxyz/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250821151531"
+          }
+        },
+        {
+          "type": "tifxyz-transformed",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/mesh/20260220214732-on-20260319124803-2.403um.tifxyz/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20260319124803"
+          }
+        },
+        {
+          "type": "layers-zarr",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/surface-volumes/9.366um-1.2m-113keV-volume-20250821151531.zarr/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250821151531"
+          }
+        },
+        {
+          "type": "layers-zarr",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20260319124803"
+          }
+        },
+        {
+          "type": "ink-labels",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/ink-labels/2.403um-volume-20260319124803/20260918/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20260319124803",
+            "label_set": "20260918"
+          },
+          "properties": {
+            "registration": "transferred",
+            "annotated_on": "unknown",
+            "arrays": [
+              "inklabels",
+              "supervision",
+              "validation"
+            ],
+            "labelled_px": 4841555,
+            "supervised_px": 14940957,
+            "mapping_coverage": 0.9931224754165391
+          }
+        }
+      ],
+      "volume_transforms": [
+        {
+          "from_volume_id": "20250821151531",
+          "transforms": [
+            {
+              "to_volume_id": "20260319124803",
+              "matrix": [
+                [
+                  3.8989743209135876,
+                  -0.01255505722529341,
+                  -0.0018339025635139032,
+                  343.9127006249706
+                ],
+                [
+                  0.010672926356536081,
+                  3.8982252200029714,
+                  0.0022465882056711857,
+                  214.7521699852929
+                ],
+                [
+                  7.354390744793846e-05,
+                  -0.001896739717178478,
+                  3.897597266482002,
+                  -49844.690396924205
+                ]
+              ],
+              "derivation_path": "20250821151531-20260319124803\u207b\u00b9"
+            }
+          ]
+        },
+        {
+          "from_volume_id": "20260319124803",
+          "transforms": [
+            {
+              "to_volume_id": "20250821151531",
+              "matrix": [
+                [
+                  0.2564754450880084,
+                  0.0008260917977362013,
+                  0.00012020099977095348,
+                  -82.39118635139529
+                ],
+                [
+                  -0.0007021995249768938,
+                  0.2565246609230586,
+                  -0.00014819207930218925,
+                  -62.23432056504999
+                ],
+                [
+                  -5.181165406259682e-06,
+                  0.00012482042795275997,
+                  0.2565682500544118,
+                  12788.539966053613
+                ]
+              ],
+              "derivation_path": "20260319124803-20250821151531"
+            }
+          ]
+        }
+      ],
+      "selection": "All three published PHerc0841 human-reference segments; the single published PHerc0009B human-reference segment. Metadata selected, no maps read."
+    },
+    {
+      "sample": "PHerc0841",
+      "segment": "20260221022814",
+      "long_id": "20260221022814-auto_grown_20260220174252405",
+      "data": [
+        {
+          "type": "tifxyz-transformed",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/mesh/20260221022814-on-20250821151531-9.366um.tifxyz/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250821151531"
+          }
+        },
+        {
+          "type": "tifxyz-transformed",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/mesh/20260221022814-on-20260319124803-2.403um.tifxyz/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20260319124803"
+          }
+        },
+        {
+          "type": "layers-zarr",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/surface-volumes/9.366um-1.2m-113keV-volume-20250821151531.zarr/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250821151531"
+          }
+        },
+        {
+          "type": "layers-zarr",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20260319124803"
+          }
+        },
+        {
+          "type": "ink-labels",
+          "origins": [
+            {
+              "path": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/ink-labels/2.403um-volume-20260319124803/20260918/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20260319124803",
+            "label_set": "20260918"
+          },
+          "properties": {
+            "registration": "transferred",
+            "annotated_on": "unknown",
+            "arrays": [
+              "inklabels",
+              "supervision",
+              "validation"
+            ],
+            "labelled_px": 4464854,
+            "supervised_px": 19440069,
+            "mapping_coverage": 0.9934216906222696
+          }
+        }
+      ],
+      "volume_transforms": [
+        {
+          "from_volume_id": "20250821151531",
+          "transforms": [
+            {
+              "to_volume_id": "20260319124803",
+              "matrix": [
+                [
+                  3.8989743209135876,
+                  -0.01255505722529341,
+                  -0.0018339025635139032,
+                  343.9127006249706
+                ],
+                [
+                  0.010672926356536081,
+                  3.8982252200029714,
+                  0.0022465882056711857,
+                  214.7521699852929
+                ],
+                [
+                  7.354390744793846e-05,
+                  -0.001896739717178478,
+                  3.897597266482002,
+                  -49844.690396924205
+                ]
+              ],
+              "derivation_path": "20250821151531-20260319124803\u207b\u00b9"
+            }
+          ]
+        },
+        {
+          "from_volume_id": "20260319124803",
+          "transforms": [
+            {
+              "to_volume_id": "20250821151531",
+              "matrix": [
+                [
+                  0.2564754450880084,
+                  0.0008260917977362013,
+                  0.00012020099977095348,
+                  -82.39118635139529
+                ],
+                [
+                  -0.0007021995249768938,
+                  0.2565246609230586,
+                  -0.00014819207930218925,
+                  -62.23432056504999
+                ],
+                [
+                  -5.181165406259682e-06,
+                  0.00012482042795275997,
+                  0.2565682500544118,
+                  12788.539966053613
+                ]
+              ],
+              "derivation_path": "20260319124803-20250821151531"
+            }
+          ]
+        }
+      ],
+      "selection": "All three published PHerc0841 human-reference segments; the single published PHerc0009B human-reference segment. Metadata selected, no maps read."
+    },
+    {
+      "sample": "PHerc0009B",
+      "segment": "20250919125754",
+      "long_id": "20250919125754-auto_grown_20250919055754487_inp_hr",
+      "data": [
+        {
+          "type": "tifxyz-transformed",
+          "origins": [
+            {
+              "path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250521125136-8.64um.tifxyz/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250521125136"
+          }
+        },
+        {
+          "type": "tifxyz-transformed",
+          "origins": [
+            {
+              "path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250820154339-2.401um.tifxyz/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250820154339"
+          }
+        },
+        {
+          "type": "layers-zarr",
+          "origins": [
+            {
+              "path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250521125136"
+          }
+        },
+        {
+          "type": "layers-zarr",
+          "origins": [
+            {
+              "path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250820154339"
+          }
+        },
+        {
+          "type": "ink-labels",
+          "origins": [
+            {
+              "path": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/ink-labels/2.401um-volume-20250820154339/20260918/",
+              "access_roots": [
+                {
+                  "url": "s3://vesuvius-challenge-open-data"
+                }
+              ]
+            }
+          ],
+          "parameters": {
+            "target_volume": "20250820154339",
+            "label_set": "20260918"
+          },
+          "properties": {
+            "registration": "transferred",
+            "annotated_on": "unknown",
+            "arrays": [
+              "inklabels",
+              "supervision",
+              "validation"
+            ],
+            "labelled_px": 9898417,
+            "supervised_px": 44309156,
+            "mapping_coverage": 0.9997622039027352
+          }
+        }
+      ],
+      "volume_transforms": [
+        {
+          "from_volume_id": "20250521125136",
+          "transforms": [
+            {
+              "to_volume_id": "20250820154339",
+              "matrix": [
+                [
+                  3.5960382544460336,
+                  -0.0019023699159390617,
+                  -0.13780785176976096,
+                  215.00141250065644
+                ],
+                [
+                  0.012125376849773328,
+                  3.6038031466983007,
+                  0.10631763317600562,
+                  -505.3486884068552
+                ],
+                [
+                  0.13707650588714415,
+                  -0.09397125211580892,
+                  3.5976348988384905,
+                  -881.7401774889004
+                ]
+              ],
+              "derivation_path": "20250521125136-20250820154339"
+            }
+          ]
+        },
+        {
+          "from_volume_id": "20250820154339",
+          "transforms": [
+            {
+              "to_volume_id": "20250521125136",
+              "matrix": [
+                [
+                  0.2776774047309435,
+                  0.0004236055284734014,
+                  0.010623949057789617,
+                  -50.119403010604934
+                ],
+                [
+                  -0.000621669391020947,
+                  0.27727002476200535,
+                  -0.008217722069624534,
+                  133.0058074289684
+                ],
+                [
+                  -0.010596257965952037,
+                  0.007226232168178798,
+                  0.27734094887564803,
+                  250.4726348647675
+                ]
+              ],
+              "derivation_path": "20250820154339-20250521125136\u207b\u00b9"
+            }
+          ]
+        }
+      ],
+      "selection": "All three published PHerc0841 human-reference segments; the single published PHerc0009B human-reference segment. Metadata selected, no maps read."
+    }
+  ],
+  "requests": 44
+}

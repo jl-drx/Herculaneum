@@ -1,0 +1,7 @@
+{
+ "declared_after_initial_metrics": "2026-10-10T13:00:52Z",
+ "reason": "A review request asked for a directly readable separation of nearby and farther changed support, after viewing initial metrics.",
+ "distances_native_pixels": [0,2,4,8],
+ "metrics": "For all original supports, pairs and rank fractions, pooled symmetric and separate A-to-B and B-to-A proportions whose nearest selected pixel is within each radius. Include zeros. No hypothesis gate or fitted radius.",
+ "distance_definition": "Euclidean pixel-center distance to nearest selected pixel within the same box or whole published-crop support. Only valid pixels selected; straight-line distance may bridge invalid geometry and is not geodesic. Native-pixel units only; no registration, feature matching, physical motion or truth error. Pooled symmetric weights each selected pixel equally, hence directions contribute according to selected counts."
+}

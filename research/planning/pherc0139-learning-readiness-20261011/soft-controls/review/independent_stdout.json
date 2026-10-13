@@ -1,0 +1,442 @@
+{
+  "cases": 64,
+  "unique_shifts": 24,
+  "primary": [
+    {
+      "key": "s4_j14_mean16_bilinear",
+      "support": 4,
+      "j": 14,
+      "operator": "mean16_bilinear",
+      "primary": true,
+      "geometry_only_pixels": 1024,
+      "geometry_source_native_pixels": 1024,
+      "common_pixels": 1024,
+      "active_union_pixels": 0,
+      "source_excluded_pixels": 0,
+      "arm_stats": {
+        "A": {
+          "mean": 0.12719234726932183,
+          "entropy_nats": 0.3809629650255061,
+          "threshold48_positive_count": 0
+        },
+        "B": {
+          "mean": 0.1272781229698962,
+          "entropy_nats": 0.3811284266159938,
+          "threshold48_positive_count": 0
+        },
+        "C": {
+          "mean": 0.12729702476578866,
+          "entropy_nats": 0.3811635253472909,
+          "threshold48_positive_count": 0
+        },
+        "D": {
+          "mean": 0.12727907223765283,
+          "entropy_nats": 0.3811279992461841,
+          "threshold48_positive_count": 0
+        }
+      },
+      "pairs": {
+        "A-B": {
+          "common": {
+            "mae": 0.00027201895098833827,
+            "rmse": 0.0004740127434325915,
+            "signed_difference": -8.5775700574404e-05,
+            "p95_absolute_difference": 0.0011517168431145674,
+            "max_absolute_difference": 0.002021533961695159
+          },
+          "active_union": {
+            "mae": null,
+            "rmse": null,
+            "signed_difference": null,
+            "p95_absolute_difference": null,
+            "max_absolute_difference": null
+          },
+          "threshold_disagreement_common": 0
+        },
+        "A-C": {
+          "common": {
+            "mae": 0.00025438780465615325,
+            "rmse": 0.0004530272814530377,
+            "signed_difference": -0.00010467749646685869,
+            "p95_absolute_difference": 0.0011738117160660657,
+            "max_absolute_difference": 0.0018393349717914103
+          },
+          "active_union": {
+            "mae": null,
+            "rmse": null,
+            "signed_difference": null,
+            "p95_absolute_difference": null,
+            "max_absolute_difference": null
+          },
+          "threshold_disagreement_common": 0
+        },
+        "B-C": {
+          "common": {
+            "mae": 8.528007237245256e-05,
+            "rmse": 0.00014277340958734468,
+            "signed_difference": -1.8901795892454715e-05,
+            "p95_absolute_difference": 0.00033970169696659114,
+            "max_absolute_difference": 0.000519818156700673
+          },
+          "active_union": {
+            "mae": null,
+            "rmse": null,
+            "signed_difference": null,
+            "p95_absolute_difference": null,
+            "max_absolute_difference": null
+          },
+          "threshold_disagreement_common": 0,
+          "active_union_mae_below_one_quantization_interval": null
+        },
+        "B-D": {
+          "common": {
+            "mae": 0.0002260833488309974,
+            "rmse": 0.0003824896407462711,
+            "signed_difference": -9.492677566361822e-07,
+            "p95_absolute_difference": 0.0008685925603003847,
+            "max_absolute_difference": 0.0016281334193109286
+          },
+          "active_union": {
+            "mae": null,
+            "rmse": null,
+            "signed_difference": null,
+            "p95_absolute_difference": null,
+            "max_absolute_difference": null
+          },
+          "threshold_disagreement_common": 0,
+          "active_union_mae_below_one_quantization_interval": null
+        }
+      }
+    },
+    {
+      "key": "s5_j14_mean16_bilinear",
+      "support": 5,
+      "j": 14,
+      "operator": "mean16_bilinear",
+      "primary": true,
+      "geometry_only_pixels": 1024,
+      "geometry_source_native_pixels": 1024,
+      "common_pixels": 1024,
+      "active_union_pixels": 139,
+      "source_excluded_pixels": 0,
+      "arm_stats": {
+        "A": {
+          "mean": 0.16049123475758603,
+          "entropy_nats": 0.4364873151452173,
+          "threshold48_positive_count": 92
+        },
+        "B": {
+          "mean": 0.15911249091174218,
+          "entropy_nats": 0.43480169192505147,
+          "threshold48_positive_count": 87
+        },
+        "C": {
+          "mean": 0.15980792198470845,
+          "entropy_nats": 0.43570147574260515,
+          "threshold48_positive_count": 90
+        },
+        "D": {
+          "mean": 0.1590504476963216,
+          "entropy_nats": 0.4346905929879847,
+          "threshold48_positive_count": 85
+        }
+      },
+      "pairs": {
+        "A-B": {
+          "common": {
+            "mae": 0.0015955429631753688,
+            "rmse": 0.0035613539385511675,
+            "signed_difference": 0.0013787438458438702,
+            "p95_absolute_difference": 0.009584388716553111,
+            "max_absolute_difference": 0.018922922982279527
+          },
+          "active_union": {
+            "mae": 0.007879416475224972,
+            "rmse": 0.009461466678088948,
+            "signed_difference": 0.007878219735542143,
+            "p95_absolute_difference": 0.017048047461629086,
+            "max_absolute_difference": 0.018922922982279527
+          },
+          "threshold_disagreement_common": 5
+        },
+        "A-C": {
+          "common": {
+            "mae": 0.0009752335785649207,
+            "rmse": 0.0021242999211507426,
+            "signed_difference": 0.0006833127728776115,
+            "p95_absolute_difference": 0.004564332566990569,
+            "max_absolute_difference": 0.01377919438080779
+          },
+          "active_union": {
+            "mae": 0.004078928898715387,
+            "rmse": 0.005549178717381932,
+            "signed_difference": 0.00394064937654996,
+            "p95_absolute_difference": 0.011708472972283378,
+            "max_absolute_difference": 0.01377919438080779
+          },
+          "threshold_disagreement_common": 2
+        },
+        "B-C": {
+          "common": {
+            "mae": 0.0007524967150243809,
+            "rmse": 0.0016046146927634986,
+            "signed_difference": -0.0006954310729662587,
+            "p95_absolute_difference": 0.005141600483782938,
+            "max_absolute_difference": 0.006585965677253699
+          },
+          "active_union": {
+            "mae": 0.003937570358992184,
+            "rmse": 0.004266933990649691,
+            "signed_difference": -0.003937570358992184,
+            "p95_absolute_difference": 0.006228783057372991,
+            "max_absolute_difference": 0.006585965677253699
+          },
+          "threshold_disagreement_common": 3,
+          "active_union_mae_below_one_quantization_interval": false
+        },
+        "B-D": {
+          "common": {
+            "mae": 0.0003334281308535488,
+            "rmse": 0.00046641735249141415,
+            "signed_difference": 6.204321542058561e-05,
+            "p95_absolute_difference": 0.0009299376458397539,
+            "max_absolute_difference": 0.0022139559195575847
+          },
+          "active_union": {
+            "mae": 0.0006810844005938571,
+            "rmse": 0.0008376532593064193,
+            "signed_difference": 0.00026967327623140375,
+            "p95_absolute_difference": 0.0016049539281743066,
+            "max_absolute_difference": 0.0022139559195575847
+          },
+          "threshold_disagreement_common": 2,
+          "active_union_mae_below_one_quantization_interval": true
+        }
+      }
+    },
+    {
+      "key": "s6_j14_mean16_bilinear",
+      "support": 6,
+      "j": 14,
+      "operator": "mean16_bilinear",
+      "primary": true,
+      "geometry_only_pixels": 1024,
+      "geometry_source_native_pixels": 1024,
+      "common_pixels": 1024,
+      "active_union_pixels": 451,
+      "source_excluded_pixels": 0,
+      "arm_stats": {
+        "A": {
+          "mean": 0.19037359315816343,
+          "entropy_nats": 0.4688966018965325,
+          "threshold48_positive_count": 375
+        },
+        "B": {
+          "mean": 0.19083770360131264,
+          "entropy_nats": 0.46968448983429884,
+          "threshold48_positive_count": 381
+        },
+        "C": {
+          "mean": 0.18815433479026364,
+          "entropy_nats": 0.4664926785836836,
+          "threshold48_positive_count": 368
+        },
+        "D": {
+          "mean": 0.1906463372122107,
+          "entropy_nats": 0.4692055654418158,
+          "threshold48_positive_count": 377
+        }
+      },
+      "pairs": {
+        "A-B": {
+          "common": {
+            "mae": 0.0012161334727876032,
+            "rmse": 0.0016928694748820905,
+            "signed_difference": -0.00046411044314920277,
+            "p95_absolute_difference": 0.003556248707029716,
+            "max_absolute_difference": 0.007525191834798204
+          },
+          "active_union": {
+            "mae": 0.0019824699656296406,
+            "rmse": 0.0023917765818932475,
+            "signed_difference": -0.0004902700746180832,
+            "p95_absolute_difference": 0.00430718447323843,
+            "max_absolute_difference": 0.007525191834798204
+          },
+          "threshold_disagreement_common": 6
+        },
+        "A-C": {
+          "common": {
+            "mae": 0.002313762044034004,
+            "rmse": 0.0033182003197692995,
+            "signed_difference": 0.002219258367899799,
+            "p95_absolute_difference": 0.007172140554200806,
+            "max_absolute_difference": 0.010270102434404573
+          },
+          "active_union": {
+            "mae": 0.004425178829191866,
+            "rmse": 0.004900178928385966,
+            "signed_difference": 0.004412557162092598,
+            "p95_absolute_difference": 0.008304376968184677,
+            "max_absolute_difference": 0.010270102434404573
+          },
+          "threshold_disagreement_common": 7
+        },
+        "B-C": {
+          "common": {
+            "mae": 0.002705771585078452,
+            "rmse": 0.0035590279235082675,
+            "signed_difference": 0.0026833688110490025,
+            "p95_absolute_difference": 0.006967086132621857,
+            "max_absolute_difference": 0.009264770375790978
+          },
+          "active_union": {
+            "mae": 0.004902827236710681,
+            "rmse": 0.00514247856766154,
+            "signed_difference": 0.004902827236710681,
+            "p95_absolute_difference": 0.007569290474203622,
+            "max_absolute_difference": 0.009264770375790978
+          },
+          "threshold_disagreement_common": 13,
+          "active_union_mae_below_one_quantization_interval": false
+        },
+        "B-D": {
+          "common": {
+            "mae": 0.0007575672118900518,
+            "rmse": 0.0010237984807262186,
+            "signed_difference": 0.00019136638910196313,
+            "p95_absolute_difference": 0.0020228220357392493,
+            "max_absolute_difference": 0.00521100850556303
+          },
+          "active_union": {
+            "mae": 0.0010628399693944864,
+            "rmse": 0.001363804177538168,
+            "signed_difference": -2.155778022986605e-05,
+            "p95_absolute_difference": 0.0026288157097085598,
+            "max_absolute_difference": 0.00521100850556303
+          },
+          "threshold_disagreement_common": 4,
+          "active_union_mae_below_one_quantization_interval": true
+        }
+      }
+    },
+    {
+      "key": "s7_j14_mean16_bilinear",
+      "support": 7,
+      "j": 14,
+      "operator": "mean16_bilinear",
+      "primary": true,
+      "geometry_only_pixels": 1024,
+      "geometry_source_native_pixels": 992,
+      "common_pixels": 992,
+      "active_union_pixels": 155,
+      "source_excluded_pixels": 32,
+      "arm_stats": {
+        "A": {
+          "mean": 0.14443349686128723,
+          "entropy_nats": 0.40934100786979866,
+          "threshold48_positive_count": 104
+        },
+        "B": {
+          "mean": 0.14591797552559346,
+          "entropy_nats": 0.41168072109018056,
+          "threshold48_positive_count": 110
+        },
+        "C": {
+          "mean": 0.14505771008202525,
+          "entropy_nats": 0.41040084166549345,
+          "threshold48_positive_count": 107
+        },
+        "D": {
+          "mean": 0.14590974520797753,
+          "entropy_nats": 0.41165446660355604,
+          "threshold48_positive_count": 111
+        }
+      },
+      "pairs": {
+        "A-B": {
+          "common": {
+            "mae": 0.0015147177715791617,
+            "rmse": 0.00273927673888694,
+            "signed_difference": -0.0014844786643062355,
+            "p95_absolute_difference": 0.007232454513936493,
+            "max_absolute_difference": 0.009409260193674872
+          },
+          "active_union": {
+            "mae": 0.004459412106331945,
+            "rmse": 0.0055900842002571055,
+            "signed_difference": -0.004303426318331304,
+            "p95_absolute_difference": 0.009036321956618572,
+            "max_absolute_difference": 0.009409260193674872
+          },
+          "threshold_disagreement_common": 8
+        },
+        "A-C": {
+          "common": {
+            "mae": 0.0008847469441108995,
+            "rmse": 0.001494431366127487,
+            "signed_difference": -0.0006242132207380241,
+            "p95_absolute_difference": 0.0038667191152414837,
+            "max_absolute_difference": 0.005311112928551823
+          },
+          "active_union": {
+            "mae": 0.0023717411971435898,
+            "rmse": 0.0028216775791964355,
+            "signed_difference": -0.0011751671712199557,
+            "p95_absolute_difference": 0.004894967066194086,
+            "max_absolute_difference": 0.005311112928551823
+          },
+          "threshold_disagreement_common": 7
+        },
+        "B-C": {
+          "common": {
+            "mae": 0.0008696086847862497,
+            "rmse": 0.0015521501341242308,
+            "signed_difference": 0.0008602654435682117,
+            "p95_absolute_difference": 0.003943053065882121,
+            "max_absolute_difference": 0.005904394888922944
+          },
+          "active_union": {
+            "mae": 0.0031282591471113487,
+            "rmse": 0.0034544075936272676,
+            "signed_difference": 0.0031282591471113487,
+            "p95_absolute_difference": 0.005368539694235672,
+            "max_absolute_difference": 0.005904394888922944
+          },
+          "threshold_disagreement_common": 3,
+          "active_union_mae_below_one_quantization_interval": true
+        },
+        "B-D": {
+          "common": {
+            "mae": 0.00012023540436350856,
+            "rmse": 0.00020231863619248717,
+            "signed_difference": 8.23031761594061e-06,
+            "p95_absolute_difference": 0.00043913043157151933,
+            "max_absolute_difference": 0.0010504530755089463
+          },
+          "active_union": {
+            "mae": 0.0002016085064509562,
+            "rmse": 0.00027339489349487227,
+            "signed_difference": -7.787561162509429e-05,
+            "p95_absolute_difference": 0.0005370307577293663,
+            "max_absolute_difference": 0.0010413129331792606
+          },
+          "threshold_disagreement_common": 1,
+          "active_union_mae_below_one_quantization_interval": true
+        }
+      }
+    }
+  ],
+  "fixtures": [
+    "mean16_bilinear:asymmetric-ramp-and-nonzero-origin",
+    "mean16_bilinear:constant",
+    "point_bilinear:asymmetric-ramp-and-nonzero-origin",
+    "point_bilinear:constant",
+    "invalid-source-is-nan-not-zero",
+    "equal-kernel-not-equal-candidate",
+    "masked-bce-linear-in-target",
+    "common-mask-bce",
+    "empty-support-null-metrics",
+    "entropy-zero-endpoint"
+  ]
+}

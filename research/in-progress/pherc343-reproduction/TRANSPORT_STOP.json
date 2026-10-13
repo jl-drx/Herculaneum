@@ -1,0 +1,12 @@
+{
+  "stopped_at_utc": "2026-10-09T18:58:09.223356+00:00",
+  "reason": "Sustained shared outbound-tunnel 503 failures after bounded per-request retries; renderer retries continued. Stop this transport diagnosis, retain completed chunks and resume once connectivity is stable. No failed/absent chunks accepted as observed CT.",
+  "elapsed_seconds": 312.53336572647095,
+  "response_counts": {
+    "404": 18,
+    "503": 143,
+    "200": 11
+  },
+  "renderer_pid": 64395,
+  "scientific_ink_forwards": 0
+}

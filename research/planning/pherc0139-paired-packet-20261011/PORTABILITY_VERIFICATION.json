@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "archive_sha256": "57ec94a99826b775d53efad42a90ff61b0fa21d9da075cb6d2d77c99e6bf0f91",
+  "restored_files": 166,
+  "byte_identical_recomputed_outputs": [
+    "selection/CANDIDATES.json",
+    "selection/COMPUTE_BINDING.json",
+    "selection/NEXT_NATIVE_CT_PLAN.json",
+    "selection/RESERVED_CONTEXTS.json",
+    "selection/RESULTS.json",
+    "selection/SELECTED_REGIONS.csv",
+    "SOURCE_CONTRACTS.json",
+    "NEXT_FINE_GEOMETRY_PLAN.json",
+    "VERIFICATION.json"
+  ],
+  "scope": "Fresh archive extraction and relocated same-machine offline replay; no network acquisition, CT targets or inference"
+}

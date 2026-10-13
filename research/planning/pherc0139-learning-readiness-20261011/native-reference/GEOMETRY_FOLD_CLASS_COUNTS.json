@@ -1,0 +1,85 @@
+{
+  "scope": "Counts after mask-only cohort and geometry-only training exclusions; no label-based selection or model training",
+  "inputs_sha256": {
+    "RESULTS.json": "f0b1b39e6ab96bdf26e2222c6380ba76ea38dffd94b8e06616b790d155fb49ff",
+    "ct/support/RESULTS.json": "f5b3d3f70630404e51f035432d5b1b09893ca3b9142aa690ac01ce73da8e74ba",
+    "geometry/RESULTS.json": "501c5834e923b6305868abcc7d939f8d1877f73d0b93a6020243aee416555993"
+  },
+  "folds": [
+    {
+      "held_out": "w035",
+      "geometry_admitted": true,
+      "training_after_geometry_exclusions": {
+        "cores": 139,
+        "supervised_pixels": 1578067,
+        "ink_supervised": 574997,
+        "nonink_supervised": 1003070,
+        "cores_both_classes": 111,
+        "cores_without_ink": 27,
+        "cores_without_nonink": 1,
+        "supervised_zero_ct_pixels": 0
+      },
+      "evaluation_unchanged": {
+        "cores": 109,
+        "supervised_pixels": 1066610,
+        "ink_supervised": 333871,
+        "nonink_supervised": 732739,
+        "cores_both_classes": 75,
+        "cores_without_ink": 34,
+        "cores_without_nonink": 0,
+        "supervised_zero_ct_pixels": 0
+      },
+      "class_counts_used_for_selection": false
+    },
+    {
+      "held_out": "w039",
+      "geometry_admitted": true,
+      "training_after_geometry_exclusions": {
+        "cores": 196,
+        "supervised_pixels": 2112553,
+        "ink_supervised": 741254,
+        "nonink_supervised": 1371299,
+        "cores_both_classes": 150,
+        "cores_without_ink": 45,
+        "cores_without_nonink": 1,
+        "supervised_zero_ct_pixels": 0
+      },
+      "evaluation_unchanged": {
+        "cores": 54,
+        "supervised_pixels": 571603,
+        "ink_supervised": 182380,
+        "nonink_supervised": 389223,
+        "cores_both_classes": 36,
+        "cores_without_ink": 18,
+        "cores_without_nonink": 0,
+        "supervised_zero_ct_pixels": 0
+      },
+      "class_counts_used_for_selection": false
+    },
+    {
+      "held_out": "w044",
+      "geometry_admitted": true,
+      "training_after_geometry_exclusions": {
+        "cores": 163,
+        "supervised_pixels": 1638213,
+        "ink_supervised": 516251,
+        "nonink_supervised": 1121962,
+        "cores_both_classes": 111,
+        "cores_without_ink": 52,
+        "cores_without_nonink": 0,
+        "supervised_zero_ct_pixels": 0
+      },
+      "evaluation_unchanged": {
+        "cores": 102,
+        "supervised_pixels": 1187621,
+        "ink_supervised": 450775,
+        "nonink_supervised": 736846,
+        "cores_both_classes": 86,
+        "cores_without_ink": 15,
+        "cores_without_nonink": 1,
+        "supervised_zero_ct_pixels": 0
+      },
+      "class_counts_used_for_selection": false
+    }
+  ]
+}

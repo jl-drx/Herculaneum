@@ -1,0 +1,68 @@
+{
+  "status": "ALL_FOUR_FIXED_SCALE_PANELS_REVIEWED",
+  "utc_date": "2026-10-12",
+  "reviewer": "Codex in the producing workspace; not external independent review",
+  "go_sha256": "2dcc6c78d6ccb2f129ccb70b01cfa29a069664a8576d1eafed666c8cef452899",
+  "panels": [
+    "evaluation/pherc0009b-20250919125754.png",
+    "evaluation/pherc0841-20260220213127.png",
+    "evaluation/pherc0841-20260220214732.png",
+    "evaluation/pherc0841-20260221022814.png"
+  ],
+  "cores_reviewed": 24,
+  "single_class_cores_retained": 14,
+  "display": "Original frozen fixed 0..1 predictions, raw uint8 CT, all cores; no fitted contrast or selection",
+  "observations": [
+    "Broad positive reference regions and smooth model responses limit stroke-level interpretation.",
+    "Dense-native agrees strongly with the PHerc0009B supplied positives; Hecate responses are much lower on that parent.",
+    "PHerc0841 has pronounced segment and core heterogeneity; Hecate is not uniformly stronger across its three segments.",
+    "Regions outside each white score mask are displayed for context only and are excluded from metrics.",
+    "No letter identification, physical ink authentication, geometry adjustment or changed decision threshold follows from this visual review."
+  ],
+  "exported_files": {
+    "RESULTS.json": {
+      "bytes": 3674,
+      "sha256": "bbcb3913f459fa502cf2f444295237d36a25c46616b47d4df9e590a0587a0572"
+    },
+    "INFERENCE_COMPLETE.json": {
+      "bytes": 4100,
+      "sha256": "dc7b9766299d3d445d9221e8a9f4a809cb7463bae9ffacbf0567001a20cec9bc"
+    },
+    "FINALIZER_COMPLETE.json": {
+      "bytes": 589,
+      "sha256": "6afaf6b85bd97d6e5923ee3c56e9423bcb25e01548c2b12fbf311277e96c04f2"
+    },
+    "evaluation/METRICS.json": {
+      "bytes": 630895,
+      "sha256": "b1638f85d522ffbd054290db609b874a6f75da75b3de8eb9c59b6adcf6168de0"
+    },
+    "evaluation/metrics.csv": {
+      "bytes": 46195,
+      "sha256": "6a066af31ea7ccc55d8f02ca9c0902c773c24d4ed7d8ab8f3b236a1b376a1316"
+    },
+    "evaluation/TABLES.md": {
+      "bytes": 983,
+      "sha256": "7b24546f5e41f129e2dfddd190dc8c37cba723d0716d9ec78e1ca5e554962e41"
+    },
+    "evaluation/VERIFICATION.json": {
+      "bytes": 626,
+      "sha256": "4f228c15fc8b012660364a97d5ef7fba5a7dfcbc6645eef3907db2c8f9856bb0"
+    },
+    "evaluation/pherc0009b-20250919125754.png": {
+      "bytes": 426781,
+      "sha256": "f95dab414493c0729777a63ec772476e4ad7bd33bc50791402ad9911b7ee50fd"
+    },
+    "evaluation/pherc0841-20260220213127.png": {
+      "bytes": 429332,
+      "sha256": "66d302a3c2ce57d7f6c6bf450bd89a15e93aa2578f2f5ff48679abaed7b6a736"
+    },
+    "evaluation/pherc0841-20260220214732.png": {
+      "bytes": 481335,
+      "sha256": "fc1c61c8b0983ce7b12ec9ace623c3b9a024cba08c61387254e14d3ed337813a"
+    },
+    "evaluation/pherc0841-20260221022814.png": {
+      "bytes": 445248,
+      "sha256": "5249a9a6d31a0525b91a2fe07621a22b8234c45b2a3309505ecaed87a496aa56"
+    }
+  }
+}

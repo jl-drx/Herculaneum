@@ -1,0 +1,441 @@
+{
+  "purpose": "Metadata and object lengths only; no CT/teacher/annotation pixel payloads",
+  "catalog_sha256": "70e2cdb26b168df8b030e8814d93024f21b98f5b79c66e69b575878c016de3fa",
+  "max_body_bytes": 2162688,
+  "requests": [
+    {
+      "id": "w040-native-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w040-native-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w040-native-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w040-native-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w040-native-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w040-native-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w040-fine78-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w040-fine78-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w040-fine78-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w040-fine78-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w040-fine78-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w040-fine78-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w040-fine78-teacher",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w041-native-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w041-native-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w041-native-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/mesh/20260108000000-on-20250728140407-9.362um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w041-native-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/mesh/20260108000000-on-20250728140407-9.362um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w041-native-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/mesh/20260108000000-on-20250728140407-9.362um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w041-native-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/mesh/20260108000000-on-20250728140407-9.362um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w041-fine78-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w041-fine78-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w041-fine78-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/mesh/20260108000000-on-20260102150214-2.399um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w041-fine78-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/mesh/20260108000000-on-20260102150214-2.399um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w041-fine78-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/mesh/20260108000000-on-20260102150214-2.399um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w041-fine78-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/mesh/20260108000000-on-20260102150214-2.399um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w041-fine78-teacher",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w043-native-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w043-native-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w043-native-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/mesh/20260112000000-on-20250728140407-9.362um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w043-native-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/mesh/20260112000000-on-20250728140407-9.362um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w043-native-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/mesh/20260112000000-on-20250728140407-9.362um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w043-native-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/mesh/20260112000000-on-20250728140407-9.362um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w043-fine78-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w043-fine78-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w043-fine78-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/mesh/20260112000000-on-20260102150214-2.399um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w043-fine78-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/mesh/20260112000000-on-20260102150214-2.399um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w043-fine78-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/mesh/20260112000000-on-20260102150214-2.399um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w043-fine78-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/mesh/20260112000000-on-20260102150214-2.399um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w043-fine78-teacher",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-native-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w024-native-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w024-native-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20250728140407-9.362um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w024-native-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20250728140407-9.362um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-native-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20250728140407-9.362um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-native-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20250728140407-9.362um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-fine78-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w024-fine78-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w024-fine78-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260102150214-2.399um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w024-fine78-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260102150214-2.399um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-fine78-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260102150214-2.399um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-fine78-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260102150214-2.399um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-fine78-teacher",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/ink-detection/PHerc0139-20260215000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-fine59-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/1.129um-0.22m-59keV-volume-20260413113053-L1.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w024-fine59-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/surface-volumes/1.129um-0.22m-59keV-volume-20260413113053-L1.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w024-fine59-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260413113053-1.129um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w024-fine59-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260413113053-1.129um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-fine59-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260413113053-1.129um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-fine59-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/mesh/20260215000000-on-20260413113053-1.129um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w024-fine59-teacher",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260215000000-w024_2026021572/ink-detection/PHerc0139-20260215000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w053-native-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w053-native-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w053-native-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20250728140407-9.362um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w053-native-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20250728140407-9.362um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w053-native-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20250728140407-9.362um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w053-native-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20250728140407-9.362um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w053-fine78-attrs",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/.zattrs",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w053-fine78-array",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/0/.zarray",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w053-fine78-mesh-meta",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20260102150214-2.399um.tifxyz/meta.json",
+      "method": "GET",
+      "max_bytes": 65536
+    },
+    {
+      "id": "w053-fine78-x",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20260102150214-2.399um.tifxyz/x.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w053-fine78-y",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20260102150214-2.399um.tifxyz/y.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w053-fine78-z",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/mesh/20260220000000-on-20260102150214-2.399um.tifxyz/z.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    },
+    {
+      "id": "w053-fine78-teacher",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260220000000-w053_2026022021/ink-detection/PHerc0139-20260220000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "method": "HEAD",
+      "max_bytes": 0
+    }
+  ],
+  "automatic_retries": 0,
+  "max_workers": 2
+}

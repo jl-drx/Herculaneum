@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-12T10:52:42.615869+00:00",
+  "code_sha256": "34aeb8fb899a3bec53061bd5c3a90c1e956b59df66ea9ad4f0783bd840ab7d42",
+  "selected_pair": [
+    "00768_02152_03536",
+    "00768_02408_03536"
+  ],
+  "analysis": "NRRD-axis1 join; 6- and 26-connected components of unchanged reference foreground; identity/missing/fragmentation diagnostics on original labelled support; fixed CT/ID panels at array-axis0 64 and 192.",
+  "input_payloads_acquired": true,
+  "payloads_decoded_before_freeze": false,
+  "headers_read_before_freeze": true,
+  "scientific_scope": "Metric/reference qualification, no claim of a better geometry method.",
+  "revision_reason": "Matplotlib missing in historical inference venv; use installed Pillow for fixed CT/label panels. Failure occurred before any payload decode; metric and cohort unchanged."
+}

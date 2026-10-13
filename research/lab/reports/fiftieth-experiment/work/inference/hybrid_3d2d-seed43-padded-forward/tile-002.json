@@ -1,0 +1,29 @@
+{
+  "binding": {
+    "go_sha256": "d396d24a7685442d7a1c1d98dd0e83396c4c275fec9ff24ce3b65cdd03a23bd3",
+    "job": [
+      "hybrid_3d2d-seed43",
+      "padded",
+      "forward"
+    ]
+  },
+  "index": 2,
+  "inputs": [
+    {
+      "dtype": "float32",
+      "sha256": "c7bc44472cde543e0ac722c5de48d0a4e87f90af4d1cf709623f3281be0a7fb8",
+      "shape": [
+        1,
+        1,
+        17,
+        128,
+        128
+      ]
+    }
+  ],
+  "logits": {
+    "path": "/workspace/herculaneum-lab/reports/fiftieth-experiment/work/inference/hybrid_3d2d-seed43-padded-forward/tile-002.npy",
+    "sha256": "dc207b8f04d64f2e013ec284db58de19ba1f78d3cdaedba4663d4f149fe15d22",
+    "size_bytes": 65664
+  }
+}

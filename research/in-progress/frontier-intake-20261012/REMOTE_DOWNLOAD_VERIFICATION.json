@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-10-12T11:27:19.145460+00:00",
+  "status": "PASS",
+  "repository": "jl-drx/Herculaneum",
+  "repository_visibility": "private; independently checked before publication",
+  "input_commit": "6cb31b661693b7a9348b7cd9ee182cbf025086a6",
+  "input_ref": "codex/plinius-pherc343-reproduction",
+  "method": "Fetch only the named LFS object from origin into a fresh, separate LFS storage directory, then run the standard-library checksum restorer against BUNDLE.json.",
+  "fetch_command": "git -c lfs.storage=/workspace/scratch/frontier-lfs-remote-verification-20261012 lfs fetch --include='research/workspace/bundles/frontier-intake-contexts-20261012.tar.gz' --exclude='' origin codex/plinius-pherc343-reproduction",
+  "archive_bytes": 142089966,
+  "restoration": {
+    "status": "PASS",
+    "files": 22,
+    "bytes": 152757267,
+    "archive_sha256": "0bb146f1a3ae10df282169bb0e340b268222ed4be998440853b412f66af03f0f",
+    "destination": "/workspace/scratch/frontier-intake-remote-restore-20261012",
+    "scope": "Checksummed file restoration only; no inference, acquisition or scientific replay."
+  },
+  "scope": "Fresh private-GitHub LFS download and all-file restoration on the same cloud host. This is not an independent-device scientific replay, model inference, or native0139 evaluation."
+}

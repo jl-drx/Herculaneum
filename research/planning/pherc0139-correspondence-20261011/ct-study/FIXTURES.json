@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "known_shift_cases": [
+    {
+      "true_zyx": [
+        0,
+        0,
+        0
+      ],
+      "recovered_zyx": [
+        0,
+        0,
+        0
+      ],
+      "peak": 1.0
+    },
+    {
+      "true_zyx": [
+        2,
+        -3,
+        4
+      ],
+      "recovered_zyx": [
+        2,
+        -3,
+        4
+      ],
+      "peak": 0.9999999999999998
+    },
+    {
+      "true_zyx": [
+        -4,
+        3,
+        -2
+      ],
+      "recovered_zyx": [
+        -4,
+        3,
+        -2
+      ],
+      "peak": 0.9999999999999993
+    },
+    {
+      "true_zyx": [
+        0,
+        0,
+        6
+      ],
+      "recovered_zyx": [
+        0,
+        0,
+        6
+      ],
+      "peak": 1.0
+    }
+  ],
+  "periodic_equal_depth_peaks": [
+    -4,
+    0,
+    4
+  ],
+  "constant_template_rejected": true,
+  "limitation": "Synthetic finite-translation arithmetic check, not physical registration sensitivity or ink truth."
+}

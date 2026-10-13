@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "rows_verified": 876,
+  "complete_ct_rows": 481,
+  "transport_unknown_rows": 395,
+  "source_chunks_verified": 400,
+  "supervised_pixels_with_patch_overlap": 5067229,
+  "positive_pixels_with_patch_overlap": 1712795,
+  "supervised_pixels_with_all21_nonzero": 5057958,
+  "independent_method": "Full-canvas known/centre/all21 CT fields and integral sums; no producer patch assembly or counting functions imported",
+  "result_csv_sha256": "b9ca2355ed5293fcb6377a2fca1c92681347786fb9622570bb7ad0cd89d4235b",
+  "implementation_sha256": "3417e91c5c584b48510df122f41405822cc91d19d46ed0fb5995f35ddd9d9c29",
+  "unknown_ct_not_scored": true,
+  "new_model_forwards": 0,
+  "full_cohort_admitted": false,
+  "scope": "Independent arithmetic in the same workspace; native annotation agreement/support only, not independent physical ink truth"
+}

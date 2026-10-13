@@ -1,0 +1,62 @@
+{
+  "observed_at_utc": "2026-10-10T18:23:00.421427+00:00",
+  "status": "RUNNING",
+  "worker_identity_live": true,
+  "pid": 100006,
+  "completed_maps": 3,
+  "expected_maps": 16,
+  "committed_batch_receipts": 447,
+  "progress": {
+    "committed_batches": 56,
+    "completed_maps": 3,
+    "expected_job_batches": 135,
+    "expected_maps": 16,
+    "job": [
+      "dnative",
+      "padded",
+      "reverse"
+    ],
+    "new_batches_this_pass": 56,
+    "pass_seconds": 29.588253225003427,
+    "pid": 100006,
+    "reused_batches_this_pass": 0,
+    "stage": "inference",
+    "status": "RUNNING",
+    "utc": "2026-10-10T18:22:59.856404+00:00"
+  },
+  "completed": [
+    {
+      "model": "dnative",
+      "phase": "padded",
+      "direction": "forward",
+      "seconds": 84.83661633700103,
+      "tiles": 537
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "forward",
+      "seconds": 86.17440387799434,
+      "tiles": 512
+    },
+    {
+      "model": "dnative",
+      "phase": "plain",
+      "direction": "reverse",
+      "seconds": 78.84170316699601,
+      "tiles": 512
+    }
+  ],
+  "last_recorded_backup": {
+    "status": "PUSHED",
+    "utc": "2026-10-10T18:22:25.355080+00:00",
+    "remote_commit": "391b6a0d44da63de0bf0cf468ad058f17766dbc4",
+    "generations": 2,
+    "files": 1237,
+    "new_files": 618,
+    "archive_bytes": 109976068,
+    "archive_sha256": "8d5cb124685623c4feed8f00f87f3c9a927aa36b7e5a11b5119f737d01263bc3",
+    "remote_ref": "refs/heads/codex/plinius-pherc0800-phase51-checkpoints"
+  },
+  "scope": "Live process identity and receipt inventory; not a full result/hash verification or a prediction of continued platform availability."
+}

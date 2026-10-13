@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/herculaneum-lab/reports/fortysixth-experiment/render_surface.py", line 17, in <module>
+    key=error.group(2);assert key in ['.zattrs','.zgroup'] or re.fullmatch(r'0/\d+/\d+/\d+',key)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

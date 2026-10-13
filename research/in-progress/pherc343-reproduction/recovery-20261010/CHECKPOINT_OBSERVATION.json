@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-10T09:29:48.606022+00:00",
+  "watcher": {
+    "pid": 2613,
+    "worker_pid": 982,
+    "worker_start_ticks": "16527",
+    "worker_run_directory": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261010T091016Z",
+    "temporary_arrays": "/tmp/hecate-p52sestj",
+    "method": "Read-only completed-row capture; no worker signals or edits."
+  },
+  "watcher_status": {
+    "status": "WATCHING",
+    "updated_at_utc": "2026-10-10T09:29:27.282383+00:00"
+  },
+  "latest_checkpoint": {
+    "generation": "rows-00160",
+    "schema": 1,
+    "rows": 160,
+    "shape": [
+      160,
+      6228
+    ],
+    "dtype": "uint8",
+    "completed_origins_observed": 1004,
+    "total_origins": 14162,
+    "binding_sha256": "c08bba2cea4156c2c9d3e20afe351df62d0743246351135aac8a35ad86a8b157",
+    "prefix_sha256": "ea131ddb35e34dbc2e257a2e1794f59beb0e5110d6f5f4e20542e4dc13a867d3",
+    "saved_at_utc": "2026-10-10T09:27:57.268723+00:00",
+    "resume_origin": 776
+  },
+  "validation": "PASS; seven bitwise-equivalent cases including real Hecate",
+  "active_worker_was_not_restarted_or_modified": true
+}

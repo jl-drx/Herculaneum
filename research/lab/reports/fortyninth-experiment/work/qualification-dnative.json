@@ -1,0 +1,22 @@
+{
+  "batch4_seconds": 0.6898735939976177,
+  "checkpoint": {
+    "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+    "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244",
+    "size_bytes": 272895087
+  },
+  "finite": true,
+  "input_shape": [
+    17,
+    128,
+    128
+  ],
+  "max_batch_difference": 1.7881393432617188e-07,
+  "model": "dnative",
+  "preprocessing": "tifxyz_robust",
+  "raw_sha256": "917563b1d12a9093a8b50855dbffb3cd5e1300a74e331b425f27006d2c947dde",
+  "single_seconds": 0.2311666969981161,
+  "status": "PASS",
+  "strict_load": true,
+  "tile_forwards": 5
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "cases": 32,
+  "worker_d0_baselines": 16,
+  "maximum_probability_difference": 5.662441253662109e-07,
+  "tolerance": 1e-05,
+  "new_qualification_calls": 288,
+  "qualification_tile_evaluations": 768,
+  "cache_rejections": 8,
+  "injected_stop": {
+    "receipts": 2,
+    "status": "INJECTED_STOP_AFTER_TWO_COMMITTED_BATCHES"
+  },
+  "go_sha256": "6e9d6f48614767d232a4601785c6278b5d09a8d73380967fc9a7038990b421e8",
+  "production_maps": 32,
+  "production_batches": 3096,
+  "estimated_model_hours": 2.785175751148687,
+  "gpu_spend_GBP": 0
+}

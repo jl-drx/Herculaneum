@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "phase46_retained_state": {
+    "status": "PASS",
+    "manifest_sha256": "c91572b8763e74331638468208a7d15a5d9f01e2c4e38bbc0b4891352cf0e271",
+    "records": 25655,
+    "retained_bytes": 14348230769,
+    "failures": []
+  },
+  "phase47_retained_state": {
+    "status": "PASS",
+    "manifest_sha256": "0aef8d525d1140a04796268abb349740860f0416d7fa2ca185ce012786986532",
+    "records": 25861,
+    "retained_bytes": 14408518378,
+    "failures": []
+  },
+  "relocated_saved_output_replay": {
+    "status": "PASS",
+    "exact_blends": 4,
+    "exact_original_baseline": true,
+    "pair_comparisons": 6,
+    "rank_distance_comparisons": 18,
+    "inference_run": false,
+    "raw_CT_reverified": false,
+    "target_physical_independence_established": false,
+    "files_verified": 208,
+    "bundle_sha256": "ea5452475b5454f0a321e989c0dd96dceeb66eeb22babfacb29aee4468cda1c7"
+  },
+  "scope": "Relocation in this runtime; not a physical second-device or new-inference test. Target physical independence remains unestablished.",
+  "minimal_environment_replay": {
+    "status": "PASS",
+    "exact_blends": 4,
+    "exact_original_baseline": true,
+    "pair_comparisons": 6,
+    "rank_distance_comparisons": 18,
+    "inference_run": false,
+    "raw_CT_reverified": false,
+    "target_physical_independence_established": false,
+    "files_verified": 208,
+    "bundle_sha256": "ea5452475b5454f0a321e989c0dd96dceeb66eeb22babfacb29aee4468cda1c7"
+  },
+  "minimal_environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "hash_locked_offline_install": true,
+    "extra_packages": []
+  },
+  "github_readback": {
+    "status": "PASS",
+    "branch_commit": "42537aea22150a72b3b52fcdc16f9c4b90a86ac7",
+    "fresh_LFS_object_store": true,
+    "only_requested_bundle_fetched": true,
+    "archive_sha256": "ea5452475b5454f0a321e989c0dd96dceeb66eeb22babfacb29aee4468cda1c7",
+    "archive_bytes": 41126865,
+    "repository_private": true,
+    "scope": "Independent GitHub download matches exact locally restored/replayed archive. No model execution."
+  }
+}

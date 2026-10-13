@@ -1,0 +1,128 @@
+{
+  "created_utc": "2026-10-12T13:47:31.064143+00:00",
+  "status": "PROVISIONAL_MANUAL_CT_LAMINA_PATHS",
+  "plan_sha256": "0895da9d9bd0c558d508c88499d5036758ab4497fd63c53c62b792c5e85be0b4",
+  "reviewer": "Lead assistant; not a second human or independent adjudicator",
+  "selection": "Manual coordinates after viewing the fixed Y=72..120 serial planes, before any model prediction. Short paths chosen inside original 128-cube scored core.",
+  "paths": [
+    {
+      "id": "0800-A",
+      "case": "PHerc0800-24",
+      "points_zyx": [
+        [
+          96,
+          96,
+          41
+        ],
+        [
+          112,
+          96,
+          52
+        ],
+        [
+          128,
+          96,
+          60
+        ],
+        [
+          144,
+          96,
+          61
+        ]
+      ]
+    },
+    {
+      "id": "0800-B",
+      "case": "PHerc0800-24",
+      "points_zyx": [
+        [
+          96,
+          96,
+          76
+        ],
+        [
+          112,
+          96,
+          79
+        ],
+        [
+          128,
+          96,
+          82
+        ],
+        [
+          144,
+          96,
+          88
+        ]
+      ]
+    },
+    {
+      "id": "0814-A",
+      "case": "PHerc0814-06",
+      "points_zyx": [
+        [
+          94,
+          96,
+          32
+        ],
+        [
+          94,
+          96,
+          48
+        ],
+        [
+          91,
+          96,
+          64
+        ],
+        [
+          94,
+          96,
+          80
+        ],
+        [
+          95,
+          96,
+          96
+        ]
+      ]
+    },
+    {
+      "id": "0814-B",
+      "case": "PHerc0814-06",
+      "points_zyx": [
+        [
+          105,
+          96,
+          32
+        ],
+        [
+          103,
+          96,
+          48
+        ],
+        [
+          104,
+          96,
+          64
+        ],
+        [
+          107,
+          96,
+          80
+        ],
+        [
+          109,
+          96,
+          96
+        ]
+      ]
+    }
+  ],
+  "proposed_within_path_relation": "same visible CT lamina locally; unconfirmed physical sheet identity",
+  "proposed_between_path_relation": "locally separate visible CT laminae; not established distinct whole sheets",
+  "recto_face": "unknown",
+  "uncertainty": "Coordinates are approximate centres; no surface-distance tolerance or ground-truth tube is inferred. No interpolation target is automatically valid between anchors.",
+  "use": "CT review and execution positive-control candidates only; do not score physical-sheet or recto accuracy until separately adjudicated."
+}

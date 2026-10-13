@@ -1,0 +1,198 @@
+{
+  "status": "MESH_SUPPORT_RESERVED_NOT_FINAL_TRAINING_ADMISSION",
+  "cases": [
+    {
+      "id": "pherc0814-20250925161630",
+      "total_grid_patches": 10441,
+      "mesh_boundary_rejections": 496,
+      "invalid_mesh_footprint_rejections": 8015,
+      "restricted_candidates": 315,
+      "broad_candidates": 1930,
+      "broad_over_restricted_patch_ratio": 6.126984126984127,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 7986,
+          "B": 18390,
+          "ratio": 2.3027798647633357
+        },
+        "128": {
+          "A": 1515,
+          "B": 3140,
+          "ratio": 2.072607260726073
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250925182632",
+      "total_grid_patches": 11025,
+      "mesh_boundary_rejections": 544,
+      "invalid_mesh_footprint_rejections": 8272,
+      "restricted_candidates": 387,
+      "broad_candidates": 2209,
+      "broad_over_restricted_patch_ratio": 5.708010335917312,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 7582,
+          "B": 16991,
+          "ratio": 2.2409654444737535
+        },
+        "128": {
+          "A": 1425,
+          "B": 2927,
+          "ratio": 2.0540350877192983
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250925204843",
+      "total_grid_patches": 15888,
+      "mesh_boundary_rejections": 754,
+      "invalid_mesh_footprint_rejections": 12429,
+      "restricted_candidates": 383,
+      "broad_candidates": 2705,
+      "broad_over_restricted_patch_ratio": 7.06266318537859,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 9827,
+          "B": 25645,
+          "ratio": 2.609646891218073
+        },
+        "128": {
+          "A": 1850,
+          "B": 4261,
+          "ratio": 2.303243243243243
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250925212701",
+      "total_grid_patches": 2982,
+      "mesh_boundary_rejections": 222,
+      "invalid_mesh_footprint_rejections": 2157,
+      "restricted_candidates": 69,
+      "broad_candidates": 603,
+      "broad_over_restricted_patch_ratio": 8.73913043478261,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 2343,
+          "B": 8423,
+          "ratio": 3.594963721724285
+        },
+        "128": {
+          "A": 444,
+          "B": 1422,
+          "ratio": 3.2027027027027026
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250925222237",
+      "total_grid_patches": 4920,
+      "mesh_boundary_rejections": 284,
+      "invalid_mesh_footprint_rejections": 3548,
+      "restricted_candidates": 183,
+      "broad_candidates": 1088,
+      "broad_over_restricted_patch_ratio": 5.945355191256831,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 3899,
+          "B": 7820,
+          "ratio": 2.005642472428828
+        },
+        "128": {
+          "A": 748,
+          "B": 1311,
+          "ratio": 1.7526737967914439
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250926051122",
+      "total_grid_patches": 29645,
+      "mesh_boundary_rejections": 647,
+      "invalid_mesh_footprint_rejections": 24347,
+      "restricted_candidates": 762,
+      "broad_candidates": 4651,
+      "broad_over_restricted_patch_ratio": 6.103674540682415,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 14741,
+          "B": 33824,
+          "ratio": 2.2945526083712093
+        },
+        "128": {
+          "A": 2691,
+          "B": 5394,
+          "ratio": 2.0044593088071347
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250926165636",
+      "total_grid_patches": 13867,
+      "mesh_boundary_rejections": 379,
+      "invalid_mesh_footprint_rejections": 10839,
+      "restricted_candidates": 434,
+      "broad_candidates": 2649,
+      "broad_over_restricted_patch_ratio": 6.1036866359447,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 10400,
+          "B": 27034,
+          "ratio": 2.599423076923077
+        },
+        "128": {
+          "A": 1952,
+          "B": 4494,
+          "ratio": 2.3022540983606556
+        }
+      }
+    },
+    {
+      "id": "pherc0814-20250926203608",
+      "total_grid_patches": 11938,
+      "mesh_boundary_rejections": 346,
+      "invalid_mesh_footprint_rejections": 9450,
+      "restricted_candidates": 353,
+      "broad_candidates": 2142,
+      "broad_over_restricted_patch_ratio": 6.067988668555241,
+      "occupied_grid_cells": {
+        "64": {
+          "A": 9362,
+          "B": 21384,
+          "ratio": 2.284127323221534
+        },
+        "128": {
+          "A": 1709,
+          "B": 3662,
+          "ratio": 2.1427735517846696
+        }
+      }
+    }
+  ],
+  "restricted_candidates": 2886,
+  "broad_candidates": 17977,
+  "pooled_context_grid_proxy": {
+    "64": {
+      "A": 43586,
+      "B": 73785,
+      "ratio": 1.6928600926903135
+    },
+    "128": {
+      "A": 7136,
+      "B": 10923,
+      "ratio": 1.5306894618834082
+    }
+  },
+  "csv_sha256": "3de4927d22be27383c52556aade2830df5398c97861cfbe3f90b0104c64c5bbf",
+  "rule_sha256": "c6b453335f2685d9b3109ea251e0c4f46aae04cefafeb727cc2a0c624d6d0a07",
+  "interpretation": "More UV patches need not yield proportionally more distinct CT input neighbourhoods. These bounding-box cell counts are conservative geometry proxies, not unique physical ink area.",
+  "pending": [
+    "Source chunk existence/validity across the final selected population",
+    "Teacher confidence/support class admission",
+    "Exact normal/slab footprints if physical area is claimed",
+    "Matched schedule/source coefficients and GPU workload/budget"
+  ],
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

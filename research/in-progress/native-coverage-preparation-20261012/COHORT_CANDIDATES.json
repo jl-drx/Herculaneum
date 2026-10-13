@@ -1,0 +1,3556 @@
+{
+  "status": "SOURCE_CONTRACTS_BOUND_NOT_FINAL_TRAINING_ADMISSION",
+  "pins": {
+    "/workspace/herculaneum-lab/reports/frontier-intake-20261012/sources/current-catalog.raw": "655dbfb87c441778fd31c78446bdd0496fa0a3ddee79f986f5928da116b3e21e",
+    "/workspace/herculaneum-lab/reports/plinius-frontier-programme-20261012/sources/reader-config.raw": "a69e9cf23263d4b17a85f05501333408f923f67f65b6f4ebc6c4539ceb1e81ec",
+    "/workspace/Herculaneum/research/in-progress/native-coverage-preparation-20261012/audit_cohort.py": "7e604f0c186fd60a4a60e0e22420e2db19f2c94a54b3fa7046c269ef7735621b"
+  },
+  "reserved_families": [
+    "PHerc0175",
+    "PHerc1203"
+  ],
+  "new_training_excluded_families": [
+    "PHerc0009",
+    "PHerc0841"
+  ],
+  "original_stream": [
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20250831000000-w040_2025083102",
+      "native_path": "PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+      "labels": {
+        "type": "ink-labels",
+        "origins": [
+          {
+            "path": "PHerc0139/segments/20250831000000-w040_2025083102/ink-labels/9.362um-volume-20250728140407/20260918/",
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ]
+          }
+        ],
+        "parameters": {
+          "target_volume": "20250728140407",
+          "label_set": "20260918"
+        },
+        "properties": {
+          "registration": "native",
+          "annotated_on": "20250728140407",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 745657,
+          "supervised_px": 1629734
+        }
+      },
+      "role": "fixed_original_native_annotation_stream",
+      "scope": "Same native coordinate frame by catalogue; annotation ancestry is not independent physical authentication"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260108000000-w041_2026010816",
+      "native_path": "PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+      "labels": {
+        "type": "ink-labels",
+        "origins": [
+          {
+            "path": "PHerc0139/segments/20260108000000-w041_2026010816/ink-labels/9.362um-volume-20250728140407/20260918/",
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ]
+          }
+        ],
+        "parameters": {
+          "target_volume": "20250728140407",
+          "label_set": "20260918"
+        },
+        "properties": {
+          "registration": "native",
+          "annotated_on": "20250728140407",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 231421,
+          "supervised_px": 555629
+        }
+      },
+      "role": "fixed_original_native_annotation_stream",
+      "scope": "Same native coordinate frame by catalogue; annotation ancestry is not independent physical authentication"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260115000000-w044_2026011522",
+      "native_path": "PHerc0139/segments/20260115000000-w044_2026011522/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+      "labels": {
+        "type": "ink-labels",
+        "origins": [
+          {
+            "path": "PHerc0139/segments/20260115000000-w044_2026011522/ink-labels/9.362um-volume-20250728140407/20260918/",
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ]
+          }
+        ],
+        "parameters": {
+          "target_volume": "20250728140407",
+          "label_set": "20260918"
+        },
+        "properties": {
+          "registration": "native",
+          "annotated_on": "20250728140407",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 455469,
+          "supervised_px": 1190307
+        }
+      },
+      "role": "fixed_original_native_annotation_stream",
+      "scope": "Same native coordinate frame by catalogue; annotation ancestry is not independent physical authentication"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260302000000-w039_2026030210",
+      "native_path": "PHerc0139/segments/20260302000000-w039_2026030210/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+      "labels": {
+        "type": "ink-labels",
+        "origins": [
+          {
+            "path": "PHerc0139/segments/20260302000000-w039_2026030210/ink-labels/9.362um-volume-20250728140407/20260918/",
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ]
+          }
+        ],
+        "parameters": {
+          "target_volume": "20250728140407",
+          "label_set": "20260918"
+        },
+        "properties": {
+          "registration": "native",
+          "annotated_on": "20250728140407",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 184948,
+          "supervised_px": 576220
+        }
+      },
+      "role": "fixed_original_native_annotation_stream",
+      "scope": "Same native coordinate frame by catalogue; annotation ancestry is not independent physical authentication"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260317000000-w035_2026031718",
+      "native_path": "PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+      "labels": {
+        "type": "ink-labels",
+        "origins": [
+          {
+            "path": "PHerc0139/segments/20260317000000-w035_2026031718/ink-labels/9.362um-volume-20250728140407/20260918/",
+            "access_roots": [
+              {
+                "url": "s3://vesuvius-challenge-open-data"
+              }
+            ]
+          }
+        ],
+        "parameters": {
+          "target_volume": "20250728140407",
+          "label_set": "20260918"
+        },
+        "properties": {
+          "registration": "native",
+          "annotated_on": "20250728140407",
+          "arrays": [
+            "inklabels",
+            "supervision"
+          ],
+          "labelled_px": 396164,
+          "supervised_px": 1071121
+        }
+      },
+      "role": "fixed_original_native_annotation_stream",
+      "scope": "Same native coordinate frame by catalogue; annotation ancestry is not independent physical authentication"
+    }
+  ],
+  "native_v2_audit": [
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20250108000000-w025_2025010863",
+      "source_key": "20250108000000-w025_2025010863",
+      "native": {
+        "path": "PHerc0139/segments/20250108000000-w025_2025010863/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20250108000000-w025_2025010863/ink-detection/PHerc0139-20250108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20250108000000-w025_2025010863/ink-detection/PHerc0139-20250108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20250108000000-w025_2025010863/ink-detection/PHerc0139-20250108000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20250108000001-w026_2025010854",
+      "source_key": "20250108000001-w026_2025010854",
+      "native": {
+        "path": "PHerc0139/segments/20250108000001-w026_2025010854/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20250108000001-w026_2025010854/ink-detection/PHerc0139-20250108000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20250108000001-w026_2025010854/ink-detection/PHerc0139-20250108000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20250108000001-w026_2025010854/ink-detection/PHerc0139-20250108000001-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20250108000002-w027_2025010845",
+      "source_key": "20250108000002-w027_2025010845",
+      "native": {
+        "path": "PHerc0139/segments/20250108000002-w027_2025010845/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20250108000002-w027_2025010845/ink-detection/PHerc0139-20250108000002-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20250108000002-w027_2025010845/ink-detection/PHerc0139-20250108000002-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20250108000002-w027_2025010845/ink-detection/PHerc0139-20250108000002-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20250108000003-w028_2025010836",
+      "source_key": "20250108000003-w028_2025010836",
+      "native": {
+        "path": "PHerc0139/segments/20250108000003-w028_2025010836/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20250108000003-w028_2025010836/ink-detection/PHerc0139-20250108000003-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20250108000003-w028_2025010836/ink-detection/PHerc0139-20250108000003-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20250108000003-w028_2025010836/ink-detection/PHerc0139-20250108000003-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20250108000005-w030_2025010818",
+      "source_key": "20250108000005-w030_2025010818",
+      "native": {
+        "path": "PHerc0139/segments/20250108000005-w030_2025010818/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20250108000005-w030_2025010818/ink-detection/PHerc0139-20250108000005-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20250108000005-w030_2025010818/ink-detection/PHerc0139-20250108000005-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20250108000005-w030_2025010818/ink-detection/PHerc0139-20250108000005-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20250223000000-w059_2025022312",
+      "source_key": "20250223000000-w059_2025022312",
+      "native": {
+        "path": "PHerc0139/segments/20250223000000-w059_2025022312/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20250223000000-w059_2025022312/ink-detection/PHerc0139-20250223000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20250223000000-w059_2025022312/ink-detection/PHerc0139-20250223000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20250223000000-w059_2025022312/ink-detection/PHerc0139-20250223000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20251226000000-w055_2025122611",
+      "source_key": "20251226000000-w055_2025122611",
+      "native": {
+        "path": "PHerc0139/segments/20251226000000-w055_2025122611/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20251226000000-w055_2025122611/ink-detection/PHerc0139-20251226000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20251226000000-w055_2025122611/ink-detection/PHerc0139-20251226000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20251226000000-w055_2025122611/ink-detection/PHerc0139-20251226000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260112000000-w043_2026011217",
+      "source_key": "20260112000000-w043_2026011217",
+      "native": {
+        "path": "PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260115000001-w056_2026011514",
+      "source_key": "20260115000001-w056_2026011514",
+      "native": {
+        "path": "PHerc0139/segments/20260115000001-w056_2026011514/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260115000001-w056_2026011514/ink-detection/PHerc0139-20260115000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260115000001-w056_2026011514/ink-detection/PHerc0139-20260115000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260115000001-w056_2026011514/ink-detection/PHerc0139-20260115000001-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260126000000-w045_2026012619",
+      "source_key": "20260126000000-w045_2026012619",
+      "native": {
+        "path": "PHerc0139/segments/20260126000000-w045_2026012619/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260126000000-w045_2026012619/ink-detection/PHerc0139-20260126000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260126000000-w045_2026012619/ink-detection/PHerc0139-20260126000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260126000000-w045_2026012619/ink-detection/PHerc0139-20260126000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260127000000-w057_2026012713",
+      "source_key": "20260127000000-w057_2026012713",
+      "native": {
+        "path": "PHerc0139/segments/20260127000000-w057_2026012713/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260127000000-w057_2026012713/ink-detection/PHerc0139-20260127000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260127000000-w057_2026012713/ink-detection/PHerc0139-20260127000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260127000000-w057_2026012713/ink-detection/PHerc0139-20260127000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260130000000-w031_2026013019",
+      "source_key": "20260130000000-w031_2026013019",
+      "native": {
+        "path": "PHerc0139/segments/20260130000000-w031_2026013019/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260130000000-w031_2026013019/ink-detection/PHerc0139-20260130000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260130000000-w031_2026013019/ink-detection/PHerc0139-20260130000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260130000000-w031_2026013019/ink-detection/PHerc0139-20260130000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260203000000-w032_2026020303",
+      "source_key": "20260203000000-w032_2026020303",
+      "native": {
+        "path": "PHerc0139/segments/20260203000000-w032_2026020303/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260203000000-w032_2026020303/ink-detection/PHerc0139-20260203000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260203000000-w032_2026020303/ink-detection/PHerc0139-20260203000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260203000000-w032_2026020303/ink-detection/PHerc0139-20260203000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260206000000-w042_2026020613",
+      "source_key": "20260206000000-w042_2026020613",
+      "native": {
+        "path": "PHerc0139/segments/20260206000000-w042_2026020613/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260206000000-w042_2026020613/ink-detection/PHerc0139-20260206000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260206000000-w042_2026020613/ink-detection/PHerc0139-20260206000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260206000000-w042_2026020613/ink-detection/PHerc0139-20260206000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260206000002-w054_2026020617",
+      "source_key": "20260206000002-w054_2026020617",
+      "native": {
+        "path": "PHerc0139/segments/20260206000002-w054_2026020617/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260206000002-w054_2026020617/ink-detection/PHerc0139-20260206000002-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260206000002-w054_2026020617/ink-detection/PHerc0139-20260206000002-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260206000002-w054_2026020617/ink-detection/PHerc0139-20260206000002-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260210000000-w058_2026021020",
+      "source_key": "20260210000000-w058_2026021020",
+      "native": {
+        "path": "PHerc0139/segments/20260210000000-w058_2026021020/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260210000000-w058_2026021020/ink-detection/PHerc0139-20260210000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260210000000-w058_2026021020/ink-detection/PHerc0139-20260210000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260210000000-w058_2026021020/ink-detection/PHerc0139-20260210000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260219000000-w033_2026021913",
+      "source_key": "20260219000000-w033_2026021913",
+      "native": {
+        "path": "PHerc0139/segments/20260219000000-w033_2026021913/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260219000000-w033_2026021913/ink-detection/PHerc0139-20260219000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260219000000-w033_2026021913/ink-detection/PHerc0139-20260219000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260219000000-w033_2026021913/ink-detection/PHerc0139-20260219000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260219000001-w048_2026021912",
+      "source_key": "20260219000001-w048_2026021912",
+      "native": {
+        "path": "PHerc0139/segments/20260219000001-w048_2026021912/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260219000001-w048_2026021912/ink-detection/PHerc0139-20260219000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260219000001-w048_2026021912/ink-detection/PHerc0139-20260219000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260219000001-w048_2026021912/ink-detection/PHerc0139-20260219000001-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260227000000-w052_2026022705",
+      "source_key": "20260227000000-w052_2026022705",
+      "native": {
+        "path": "PHerc0139/segments/20260227000000-w052_2026022705/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260227000000-w052_2026022705/ink-detection/PHerc0139-20260227000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260227000000-w052_2026022705/ink-detection/PHerc0139-20260227000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260227000000-w052_2026022705/ink-detection/PHerc0139-20260227000000-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0139",
+      "family": "PHerc0139",
+      "segment": "20260302000001-w050_2026030220",
+      "source_key": "20260302000001-w050_2026030220",
+      "native": {
+        "path": "PHerc0139/segments/20260302000001-w050_2026030220/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/",
+        "volume": "20250728140407",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0139/segments/20260302000001-w050_2026030220/ink-detection/PHerc0139-20260302000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260102150214",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0139/segments/20260302000001-w050_2026030220/ink-detection/PHerc0139-20260302000001-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260102150214",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0139/segments/20260302000001-w050_2026030220/ink-detection/PHerc0139-20260302000001-1.129um-0.22m-59keV-volume-20260413113053-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260413113053",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "deferred",
+      "reason": "Same acquisition/teacher contract, but not needed to isolate added 0814 regional coverage; keep distinct from native human-reference stream",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0814",
+      "family": "PHerc0814",
+      "segment": "20250925161630-auto_grown_20250925161630635",
+      "source_key": "20250925161630-auto_grown_20250925161630",
+      "native": {
+        "path": "PHerc0814/segments/20250925161630-auto_grown_20250925161630635/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/",
+        "volume": "20250804134230",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260309142202",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260309142202",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0814/segments/20250925161630-auto_grown_20250925161630635/ink-detection/PHerc0814-20250925161630-1.129um-0.22m-59keV-volume-20260521123630-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260521123630",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "additional_regional_coverage_candidate",
+      "reason": "All eight released native-v2 0814 segments; both arms use the same parent/segment quotas and teacher",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0814",
+      "family": "PHerc0814",
+      "segment": "20250925182632-auto_grown_20250925182632715",
+      "source_key": "20250925182632-auto_grown_20250925182632",
+      "native": {
+        "path": "PHerc0814/segments/20250925182632-auto_grown_20250925182632715/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/",
+        "volume": "20250804134230",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260309142202",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260309142202",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0814/segments/20250925182632-auto_grown_20250925182632715/ink-detection/PHerc0814-20250925182632-1.129um-0.22m-59keV-volume-20260521123630-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260521123630",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "additional_regional_coverage_candidate",
+      "reason": "All eight released native-v2 0814 segments; both arms use the same parent/segment quotas and teacher",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0814",
+      "family": "PHerc0814",
+      "segment": "20250925204843-auto_grown_20250925204843950",
+      "source_key": "20250925204843-auto_grown_20250925204843",
+      "native": {
+        "path": "PHerc0814/segments/20250925204843-auto_grown_20250925204843950/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/",
+        "volume": "20250804134230",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0814/segments/20250925204843-auto_grown_20250925204843950/ink-detection/PHerc0814-20250925204843-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260309142202",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0814/segments/20250925204843-auto_grown_20250925204843950/ink-detection/PHerc0814-20250925204843-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260309142202",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0814/segments/20250925204843-auto_grown_20250925204843950/ink-detection/PHerc0814-20250925204843-1.129um-0.22m-59keV-volume-20260521123630-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260521123630",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "additional_regional_coverage_candidate",
+      "reason": "All eight released native-v2 0814 segments; both arms use the same parent/segment quotas and teacher",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0814",
+      "family": "PHerc0814",
+      "segment": "20250925212701-auto_grown_20250925212701145",
+      "source_key": "20250925212701-auto_grown_20250925212701",
+      "native": {
+        "path": "PHerc0814/segments/20250925212701-auto_grown_20250925212701145/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/",
+        "volume": "20250804134230",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0814/segments/20250925212701-auto_grown_20250925212701145/ink-detection/PHerc0814-20250925212701-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260309142202",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0814/segments/20250925212701-auto_grown_20250925212701145/ink-detection/PHerc0814-20250925212701-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260309142202",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0814/segments/20250925212701-auto_grown_20250925212701145/ink-detection/PHerc0814-20250925212701-1.129um-0.22m-59keV-volume-20260521123630-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260521123630",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "additional_regional_coverage_candidate",
+      "reason": "All eight released native-v2 0814 segments; both arms use the same parent/segment quotas and teacher",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0814",
+      "family": "PHerc0814",
+      "segment": "20250925222237-auto_grown_20250925222237459",
+      "source_key": "20250925222237-auto_grown_20250925222237",
+      "native": {
+        "path": "PHerc0814/segments/20250925222237-auto_grown_20250925222237459/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/",
+        "volume": "20250804134230",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0814/segments/20250925222237-auto_grown_20250925222237459/ink-detection/PHerc0814-20250925222237-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260309142202",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0814/segments/20250925222237-auto_grown_20250925222237459/ink-detection/PHerc0814-20250925222237-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260309142202",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0814/segments/20250925222237-auto_grown_20250925222237459/ink-detection/PHerc0814-20250925222237-1.129um-0.22m-59keV-volume-20260521123630-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260521123630",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "additional_regional_coverage_candidate",
+      "reason": "All eight released native-v2 0814 segments; both arms use the same parent/segment quotas and teacher",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0814",
+      "family": "PHerc0814",
+      "segment": "20250926051122-auto_grown_20250926051122829",
+      "source_key": "20250926051122-auto_grown_20250926051122",
+      "native": {
+        "path": "PHerc0814/segments/20250926051122-auto_grown_20250926051122829/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/",
+        "volume": "20250804134230",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0814/segments/20250926051122-auto_grown_20250926051122829/ink-detection/PHerc0814-20250926051122-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260309142202",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0814/segments/20250926051122-auto_grown_20250926051122829/ink-detection/PHerc0814-20250926051122-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260309142202",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0814/segments/20250926051122-auto_grown_20250926051122829/ink-detection/PHerc0814-20250926051122-1.129um-0.22m-59keV-volume-20260521123630-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260521123630",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "additional_regional_coverage_candidate",
+      "reason": "All eight released native-v2 0814 segments; both arms use the same parent/segment quotas and teacher",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0814",
+      "family": "PHerc0814",
+      "segment": "20250926165636-auto_trace_20250926165636789",
+      "source_key": "20250926165636-auto_trace_20250926165636",
+      "native": {
+        "path": "PHerc0814/segments/20250926165636-auto_trace_20250926165636789/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/",
+        "volume": "20250804134230",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0814/segments/20250926165636-auto_trace_20250926165636789/ink-detection/PHerc0814-20250926165636-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260309142202",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0814/segments/20250926165636-auto_trace_20250926165636789/ink-detection/PHerc0814-20250926165636-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260309142202",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0814/segments/20250926165636-auto_trace_20250926165636789/ink-detection/PHerc0814-20250926165636-1.129um-0.22m-59keV-volume-20260521123630-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260521123630",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "additional_regional_coverage_candidate",
+      "reason": "All eight released native-v2 0814 segments; both arms use the same parent/segment quotas and teacher",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0814",
+      "family": "PHerc0814",
+      "segment": "20250926203608-auto_grown_20250926203608932",
+      "source_key": "20250926203608-auto_grown_20250926203608",
+      "native": {
+        "path": "PHerc0814/segments/20250926203608-auto_grown_20250926203608932/surface-volumes/9.362um-1.2m-113keV-volume-20250804134230.zarr/",
+        "volume": "20250804134230",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0814/segments/20250926203608-auto_grown_20250926203608932/ink-detection/PHerc0814-20250926203608-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260309142202",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.399,
+          "energy_keV": 78.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0814/segments/20250926203608-auto_grown_20250926203608932/ink-detection/PHerc0814-20250926203608-2.399um-0.22m-78keV-volume-20260309142202-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260309142202",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.399,
+            "energy_keV": 78.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0814/segments/20250926203608-auto_grown_20250926203608932/ink-detection/PHerc0814-20250926203608-1.129um-0.22m-59keV-volume-20260521123630-L1-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20260521123630",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 1.129,
+            "energy_keV": 59.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": true,
+      "role": "additional_regional_coverage_candidate",
+      "reason": "All eight released native-v2 0814 segments; both arms use the same parent/segment quotas and teacher",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250609204953-z_dbg_gen_00612",
+      "source_key": "20250609204953-z_dbg_gen_00612",
+      "native": {
+        "path": "PHerc0500P2/segments/20250609204953-z_dbg_gen_00612/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250609204953-z_dbg_gen_00612/ink-detection/PHerc0500P2-20250609204953-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250609204953-z_dbg_gen_00612/ink-detection/PHerc0500P2-20250609204953-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611132918-z_dbg_gen_00302_inp_hr",
+      "source_key": "20250611132918-z_dbg_gen_00302_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611132918-z_dbg_gen_00302_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611132918-z_dbg_gen_00302_inp_hr/ink-detection/PHerc0500P2-20250611132918-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611132918-z_dbg_gen_00302_inp_hr/ink-detection/PHerc0500P2-20250611132918-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611133823-z_dbg_gen_00130_inp_hr",
+      "source_key": "20250611133823-z_dbg_gen_00130_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611133823-z_dbg_gen_00130_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611133823-z_dbg_gen_00130_inp_hr/ink-detection/PHerc0500P2-20250611133823-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611133823-z_dbg_gen_00130_inp_hr/ink-detection/PHerc0500P2-20250611133823-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611134135-z_dbg_gen_00331_inp_hr",
+      "source_key": "20250611134135-z_dbg_gen_00331_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611134135-z_dbg_gen_00331_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611134135-z_dbg_gen_00331_inp_hr/ink-detection/PHerc0500P2-20250611134135-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611134135-z_dbg_gen_00331_inp_hr/ink-detection/PHerc0500P2-20250611134135-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611153340-z_dbg_gen_00275",
+      "source_key": "20250611153340-z_dbg_gen_00275",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611153340-z_dbg_gen_00275/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611153340-z_dbg_gen_00275/ink-detection/PHerc0500P2-20250611153340-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611153340-z_dbg_gen_00275/ink-detection/PHerc0500P2-20250611153340-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611153346-z_dbg_gen_00286_inp_hr",
+      "source_key": "20250611153346-z_dbg_gen_00286_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611153346-z_dbg_gen_00286_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611153346-z_dbg_gen_00286_inp_hr/ink-detection/PHerc0500P2-20250611153346-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611153346-z_dbg_gen_00286_inp_hr/ink-detection/PHerc0500P2-20250611153346-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611153347-z_dbg_gen_00105_inp_hr",
+      "source_key": "20250611153347-z_dbg_gen_00105_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611153347-z_dbg_gen_00105_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611153347-z_dbg_gen_00105_inp_hr/ink-detection/PHerc0500P2-20250611153347-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611153347-z_dbg_gen_00105_inp_hr/ink-detection/PHerc0500P2-20250611153347-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611154256-z_dbg_gen_00354_inp_hr",
+      "source_key": "20250611154256-z_dbg_gen_00354_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611154256-z_dbg_gen_00354_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611154256-z_dbg_gen_00354_inp_hr/ink-detection/PHerc0500P2-20250611154256-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611154256-z_dbg_gen_00354_inp_hr/ink-detection/PHerc0500P2-20250611154256-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611161023-z_dbg_gen_00205_inp_hr",
+      "source_key": "20250611161023-z_dbg_gen_00205_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611161023-z_dbg_gen_00205_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611161023-z_dbg_gen_00205_inp_hr/ink-detection/PHerc0500P2-20250611161023-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611161023-z_dbg_gen_00205_inp_hr/ink-detection/PHerc0500P2-20250611161023-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611161415-z_dbg_gen_00411_inp_hr",
+      "source_key": "20250611161415-z_dbg_gen_00411_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611161415-z_dbg_gen_00411_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611161415-z_dbg_gen_00411_inp_hr/ink-detection/PHerc0500P2-20250611161415-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611161415-z_dbg_gen_00411_inp_hr/ink-detection/PHerc0500P2-20250611161415-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611170257-z_dbg_gen_00308_inp_hr",
+      "source_key": "20250611170257-z_dbg_gen_00308_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611170257-z_dbg_gen_00308_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611170257-z_dbg_gen_00308_inp_hr/ink-detection/PHerc0500P2-20250611170257-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611170257-z_dbg_gen_00308_inp_hr/ink-detection/PHerc0500P2-20250611170257-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611171318-z_dbg_gen_00440_inp_hr",
+      "source_key": "20250611171318-z_dbg_gen_00440_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611171318-z_dbg_gen_00440_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611171318-z_dbg_gen_00440_inp_hr/ink-detection/PHerc0500P2-20250611171318-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611171318-z_dbg_gen_00440_inp_hr/ink-detection/PHerc0500P2-20250611171318-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611171745-z_dbg_gen_00225_inp_hr",
+      "source_key": "20250611171745-z_dbg_gen_00225_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611171745-z_dbg_gen_00225_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611171745-z_dbg_gen_00225_inp_hr/ink-detection/PHerc0500P2-20250611171745-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611171745-z_dbg_gen_00225_inp_hr/ink-detection/PHerc0500P2-20250611171745-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611172135-z_dbg_gen_00346_inp_hr",
+      "source_key": "20250611172135-z_dbg_gen_00346_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611172135-z_dbg_gen_00346_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611172135-z_dbg_gen_00346_inp_hr/ink-detection/PHerc0500P2-20250611172135-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611172135-z_dbg_gen_00346_inp_hr/ink-detection/PHerc0500P2-20250611172135-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250611173014-z_dbg_gen_00506_inp_hr",
+      "source_key": "20250611173014-z_dbg_gen_00506_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250611173014-z_dbg_gen_00506_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250611173014-z_dbg_gen_00506_inp_hr/ink-detection/PHerc0500P2-20250611173014-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250611173014-z_dbg_gen_00506_inp_hr/ink-detection/PHerc0500P2-20250611173014-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250628074500-500P2_front",
+      "source_key": "20250628074500-500P2_front",
+      "native": {
+        "path": "PHerc0500P2/segments/20250628074500-500P2_front/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250628074500-500P2_front/ink-detection/PHerc0500P2-20250628074500-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250628074500-500P2_front/ink-detection/PHerc0500P2-20250628074500-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        },
+        {
+          "path": "PHerc0500P2/segments/20250628074500-500P2_front/ink-detection/PHerc0500P2-20250628074500-2.215um-0.4m-111keV-volume-20250526151718-20260709123958-mrg20736-1um-s1z2-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260709123958"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250716055227-z_dbg_gen_00260_inp_hr",
+      "source_key": "20250716055227-z_dbg_gen_00260_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250716055227-z_dbg_gen_00260_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250716055227-z_dbg_gen_00260_inp_hr/ink-detection/PHerc0500P2-20250716055227-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250716055227-z_dbg_gen_00260_inp_hr/ink-detection/PHerc0500P2-20250716055227-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0500P2",
+      "family": "PHerc0500",
+      "segment": "20250716055228-z_dbg_gen_00333_inp_hr",
+      "source_key": "20250716055228-z_dbg_gen_00333_inp_hr",
+      "native": {
+        "path": "PHerc0500P2/segments/20250716055228-z_dbg_gen_00333_inp_hr/surface-volumes/9.362um-1.2m-113keV-volume-20250820143440.zarr/",
+        "volume": "20250820143440",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 9.362,
+          "energy_keV": 113.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0500P2/segments/20250716055228-z_dbg_gen_00333_inp_hr/ink-detection/PHerc0500P2-20250716055228-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20250526151718",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0500P2/segments/20250716055228-z_dbg_gen_00333_inp_hr/ink-detection/PHerc0500P2-20250716055228-2.215um-0.4m-111keV-volume-20250526151718-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20250526151718",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0343P",
+      "family": "PHerc0343",
+      "segment": "20250511003658-tifxyz",
+      "source_key": "20250511003658-tifxyz",
+      "native": {
+        "path": "PHerc0343P/segments/20250511003658-tifxyz/surface-volumes/8.64um-1.2m-116keV-volume-20250521134555.zarr/",
+        "volume": "20250521134555",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 8.64,
+          "energy_keV": 116.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0343P/segments/20250511003658-tifxyz/ink-detection/PHerc0343P-20250511003658-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260304131111",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0343P/segments/20250511003658-tifxyz/ink-detection/PHerc0343P-20250511003658-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260304131111",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0343P",
+      "family": "PHerc0343",
+      "segment": "20250902170435--5_b2",
+      "source_key": "20250902170435--5_b2",
+      "native": {
+        "path": "PHerc0343P/segments/20250902170435--5_b2/surface-volumes/8.64um-1.2m-116keV-volume-20250521134555.zarr/",
+        "volume": "20250521134555",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 8.64,
+          "energy_keV": 116.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0343P/segments/20250902170435--5_b2/ink-detection/PHerc0343P-20250902170435-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260304131111",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0343P/segments/20250902170435--5_b2/ink-detection/PHerc0343P-20250902170435-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260304131111",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0343P",
+      "family": "PHerc0343",
+      "segment": "20250902170441--4_b2",
+      "source_key": "20250902170441--4_b2",
+      "native": {
+        "path": "PHerc0343P/segments/20250902170441--4_b2/surface-volumes/8.64um-1.2m-116keV-volume-20250521134555.zarr/",
+        "volume": "20250521134555",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 8.64,
+          "energy_keV": 116.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0343P/segments/20250902170441--4_b2/ink-detection/PHerc0343P-20250902170441-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260304131111",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0343P/segments/20250902170441--4_b2/ink-detection/PHerc0343P-20250902170441-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260304131111",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0343P",
+      "family": "PHerc0343",
+      "segment": "20250902170447--3_b2",
+      "source_key": "20250902170447--3_b2",
+      "native": {
+        "path": "PHerc0343P/segments/20250902170447--3_b2/surface-volumes/8.64um-1.2m-116keV-volume-20250521134555.zarr/",
+        "volume": "20250521134555",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 8.64,
+          "energy_keV": 116.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0343P/segments/20250902170447--3_b2/ink-detection/PHerc0343P-20250902170447-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260304131111",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0343P/segments/20250902170447--3_b2/ink-detection/PHerc0343P-20250902170447-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260304131111",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0343P",
+      "family": "PHerc0343",
+      "segment": "20250902171202--2_b2",
+      "source_key": "20250902171202--2_b2",
+      "native": {
+        "path": "PHerc0343P/segments/20250902171202--2_b2/surface-volumes/8.64um-1.2m-116keV-volume-20250521134555.zarr/",
+        "volume": "20250521134555",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 8.64,
+          "energy_keV": 116.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0343P/segments/20250902171202--2_b2/ink-detection/PHerc0343P-20250902171202-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260304131111",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0343P/segments/20250902171202--2_b2/ink-detection/PHerc0343P-20250902171202-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260304131111",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0343P",
+      "family": "PHerc0343",
+      "segment": "20250902171204--1_b2",
+      "source_key": "20250902171204--1_b2",
+      "native": {
+        "path": "PHerc0343P/segments/20250902171204--1_b2/surface-volumes/8.64um-1.2m-116keV-volume-20250521134555.zarr/",
+        "volume": "20250521134555",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 8.64,
+          "energy_keV": 116.0
+        },
+        "model_id": null
+      },
+      "teacher": {
+        "path": "PHerc0343P/segments/20250902171204--1_b2/ink-detection/PHerc0343P-20250902171204-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+        "volume": "20260304131111",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 2.215,
+          "energy_keV": 111.0
+        },
+        "model_id": "20260417190342"
+      },
+      "other_maps": [
+        {
+          "path": "PHerc0343P/segments/20250902171204--1_b2/ink-detection/PHerc0343P-20250902171204-2.215um-0.4m-111keV-volume-20260304131111-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+          "volume": "20260304131111",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 2.215,
+            "energy_keV": 111.0
+          },
+          "model_id": "20260417190342"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0172",
+      "family": "PHerc0172",
+      "segment": "20250917143559-w062_20250917143559205_flatboi",
+      "source_key": "20250917143559-w062_20250917143559205_fl",
+      "native": {
+        "path": "PHerc0172/segments/20250917143559-w062_20250917143559205_flatboi/surface-volumes/7.91um-53keV-volume-20241024131838.zarr/",
+        "volume": "20241024131838",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 7.91,
+          "energy_keV": 53.0
+        },
+        "model_id": null
+      },
+      "teacher": null,
+      "other_maps": [
+        {
+          "path": "PHerc0172/segments/20250917143559-w062_20250917143559205_flatboi/ink-detection/PHerc0172-20250917143559-7.91um-53keV-volume-20241024131838-20250713185324-timesformer_scroll5_july_retreat-tile64-stride16.tif",
+          "volume": "20241024131838",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 7.91,
+            "energy_keV": 53.0
+          },
+          "model_id": "20250713185324"
+        },
+        {
+          "path": "PHerc0172/segments/20250917143559-w062_20250917143559205_flatboi/ink-detection/PHerc0172-20250917143559-7.91um-53keV-volume-20241024131838-20251222202946-timesformer_scroll5_november19-tile64-stride16.tif",
+          "volume": "20241024131838",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 7.91,
+            "energy_keV": 53.0
+          },
+          "model_id": "20251222202946"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0172",
+      "family": "PHerc0172",
+      "segment": "20250926112011-w078_20250926112011918_flatboi",
+      "source_key": "20250926112011-w078_20250926112011918_fl",
+      "native": {
+        "path": "PHerc0172/segments/20250926112011-w078_20250926112011918_flatboi/surface-volumes/7.91um-53keV-volume-20241024131838.zarr/",
+        "volume": "20241024131838",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 7.91,
+          "energy_keV": 53.0
+        },
+        "model_id": null
+      },
+      "teacher": null,
+      "other_maps": [
+        {
+          "path": "PHerc0172/segments/20250926112011-w078_20250926112011918_flatboi/ink-detection/PHerc0172-20250926112011-7.91um-53keV-volume-20241024131838-20251222202946-timesformer_scroll5_november19-tile64-stride16.tif",
+          "volume": "20241024131838",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 7.91,
+            "energy_keV": 53.0
+          },
+          "model_id": "20251222202946"
+        },
+        {
+          "path": "PHerc0172/segments/20250926112011-w078_20250926112011918_flatboi/ink-detection/PHerc0172-20250926112011-7.91um-53keV-volume-20241024131838-20250713185324-timesformer_scroll5_july_retreat-tile64-stride16.tif",
+          "volume": "20241024131838",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 7.91,
+            "energy_keV": 53.0
+          },
+          "model_id": "20250713185324"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0172",
+      "family": "PHerc0172",
+      "segment": "20250926113336-w079_20250926113336891_flatboi",
+      "source_key": "20250926113336-w079_20250926113336891_fl",
+      "native": {
+        "path": "PHerc0172/segments/20250926113336-w079_20250926113336891_flatboi/surface-volumes/7.91um-53keV-volume-20241024131838.zarr/",
+        "volume": "20241024131838",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 7.91,
+          "energy_keV": 53.0
+        },
+        "model_id": null
+      },
+      "teacher": null,
+      "other_maps": [
+        {
+          "path": "PHerc0172/segments/20250926113336-w079_20250926113336891_flatboi/ink-detection/PHerc0172-20250926113336-7.91um-53keV-volume-20241024131838-20251222202946-timesformer_scroll5_november19-tile64-stride16.tif",
+          "volume": "20241024131838",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 7.91,
+            "energy_keV": 53.0
+          },
+          "model_id": "20251222202946"
+        },
+        {
+          "path": "PHerc0172/segments/20250926113336-w079_20250926113336891_flatboi/ink-detection/PHerc0172-20250926113336-7.91um-53keV-volume-20241024131838-20250713185324-timesformer_scroll5_july_retreat-tile64-stride16.tif",
+          "volume": "20241024131838",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 7.91,
+            "energy_keV": 53.0
+          },
+          "model_id": "20250713185324"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    },
+    {
+      "sample": "PHerc0172",
+      "family": "PHerc0172",
+      "segment": "20250926114310-w080_20250926114310705_flatboi",
+      "source_key": "20250926114310-w080_20250926114310705_fl",
+      "native": {
+        "path": "PHerc0172/segments/20250926114310-w080_20250926114310705_flatboi/surface-volumes/7.91um-53keV-volume-20241024131838.zarr/",
+        "volume": "20241024131838",
+        "acquisition": {
+          "license": {
+            "name": "CC BY-NC 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+          },
+          "pixel_size_um": 7.91,
+          "energy_keV": 53.0
+        },
+        "model_id": null
+      },
+      "teacher": null,
+      "other_maps": [
+        {
+          "path": "PHerc0172/segments/20250926114310-w080_20250926114310705_flatboi/ink-detection/PHerc0172-20250926114310-7.91um-53keV-volume-20241024131838-20250713185324-timesformer_scroll5_july_retreat-tile64-stride16.tif",
+          "volume": "20241024131838",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 7.91,
+            "energy_keV": 53.0
+          },
+          "model_id": "20250713185324"
+        },
+        {
+          "path": "PHerc0172/segments/20250926114310-w080_20250926114310705_flatboi/ink-detection/PHerc0172-20250926114310-7.91um-53keV-volume-20241024131838-20251222202946-timesformer_scroll5_november19-tile64-stride16.tif",
+          "volume": "20241024131838",
+          "acquisition": {
+            "license": {
+              "name": "CC BY-NC 4.0",
+              "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            "pixel_size_um": 7.91,
+            "energy_keV": 53.0
+          },
+          "model_id": "20251222202946"
+        }
+      ],
+      "matches_9p362_113kev_and_2p399_78kev_teacher": false,
+      "role": "deferred",
+      "reason": "Changes teacher acquisition or native acquisition; separate data-package/acquisition experiment",
+      "upstream_reader_training": true,
+      "physical_registration": "not established by metadata or detector correlation",
+      "supervision_tier": "thresholded published model prediction, not independent ink truth"
+    }
+  ],
+  "new_study_0139_policy": "Completed study remains immutable; its exposed training/reference material may supply a separate strong-model preparation. No continuation or endpoint reselection.",
+  "proposed_contrast": "Same eight PHerc0814 segments and source quotas in both arms, restricted versus broader regional support; original PHerc0139 stream identical. This isolates regional coverage within a fixed parent mixture, not an eight-parent generalization claim.",
+  "pending": [
+    "Native/teacher array metadata and bytes",
+    "Training support eligibility and physical alias/overlap accounting",
+    "Restricted/broad support freeze without model-response selection",
+    "Full cohort and schedule; GPU runtime and artifact delivery"
+  ],
+  "metadata_only": true,
+  "new_inference": 0,
+  "optimizer_updates": 0,
+  "paid_compute": false
+}

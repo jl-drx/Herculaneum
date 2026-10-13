@@ -1,0 +1,26 @@
+{
+  "observed_at_utc": "2026-10-10T09:09:38.465331+00:00",
+  "previous_run": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261009T193431Z",
+  "previous_last_heartbeat_utc": "2026-10-10T08:59:10.648186+00:00",
+  "previous_worker_processes_absent": true,
+  "last_logged_origins": 8904,
+  "total_origins": 14162,
+  "interrupted_map": "hecate/padded",
+  "partial_map_checkpoint_available": false,
+  "completed_maps_to_reuse": 7,
+  "original_seven_pins_unchanged": true,
+  "change": "Separate derived runner: guard cleanup of absent count after both Villa phases were skipped. Separate supervisor selects that runner and pins both original and recovery files. Prediction and composition settings unchanged.",
+  "cleanup_checks": [
+    "counter absent: PASS",
+    "counter present: PASS"
+  ],
+  "gpu_spend_GBP": 0,
+  "run_fixed_depth_resume.py": {
+    "bytes": 4564,
+    "sha256": "102620e87ece702dcb8caf958731ae18b5e3bca94c0cf05cb4f4d5264529a3cb"
+  },
+  "execute_resume.py": {
+    "bytes": 3925,
+    "sha256": "4f2f78e80ef3dbb1bae6f02ed47ad803a8ef038df070986a68088b5c00422cbb"
+  }
+}

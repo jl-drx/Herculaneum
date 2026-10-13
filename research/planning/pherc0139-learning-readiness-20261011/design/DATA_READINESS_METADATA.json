@@ -1,0 +1,470 @@
+{
+  "scope": "Metadata only; no new source or target pixel access",
+  "teacher_tile_native_width_nominal": 65.81443298969072,
+  "teacher_singlepixel_overlap_union_native_width_nominal": 98.72164948453609,
+  "supports": {
+    "4": {
+      "native_support": [
+        2416,
+        1824,
+        2448,
+        1856
+      ],
+      "teacher_source_union": [
+        9420,
+        7108,
+        9560,
+        7248
+      ],
+      "conservative_inference_tiles_xy": [
+        [
+          9216,
+          6912
+        ],
+        [
+          9216,
+          7040
+        ],
+        [
+          9216,
+          7168
+        ],
+        [
+          9344,
+          6912
+        ],
+        [
+          9344,
+          7040
+        ],
+        [
+          9344,
+          7168
+        ],
+        [
+          9472,
+          6912
+        ],
+        [
+          9472,
+          7040
+        ],
+        [
+          9472,
+          7168
+        ]
+      ],
+      "conservative_input_union_bbox": [
+        9216,
+        6912,
+        9728,
+        7424
+      ],
+      "input_bbox_area": 262144,
+      "boundingbox_is_conservative": true
+    },
+    "5": {
+      "native_support": [
+        2336,
+        1904,
+        2368,
+        1936
+      ],
+      "teacher_source_union": [
+        9112,
+        7420,
+        9248,
+        7556
+      ],
+      "conservative_inference_tiles_xy": [
+        [
+          8960,
+          7168
+        ],
+        [
+          8960,
+          7296
+        ],
+        [
+          8960,
+          7424
+        ],
+        [
+          8960,
+          7552
+        ],
+        [
+          9088,
+          7168
+        ],
+        [
+          9088,
+          7296
+        ],
+        [
+          9088,
+          7424
+        ],
+        [
+          9088,
+          7552
+        ],
+        [
+          9216,
+          7168
+        ],
+        [
+          9216,
+          7296
+        ],
+        [
+          9216,
+          7424
+        ],
+        [
+          9216,
+          7552
+        ]
+      ],
+      "conservative_input_union_bbox": [
+        8960,
+        7168,
+        9472,
+        7808
+      ],
+      "input_bbox_area": 327680,
+      "boundingbox_is_conservative": true
+    },
+    "6": {
+      "native_support": [
+        2496,
+        1904,
+        2528,
+        1936
+      ],
+      "teacher_source_union": [
+        9728,
+        7416,
+        9872,
+        7560
+      ],
+      "conservative_inference_tiles_xy": [
+        [
+          9600,
+          7168
+        ],
+        [
+          9600,
+          7296
+        ],
+        [
+          9600,
+          7424
+        ],
+        [
+          9600,
+          7552
+        ],
+        [
+          9728,
+          7168
+        ],
+        [
+          9728,
+          7296
+        ],
+        [
+          9728,
+          7424
+        ],
+        [
+          9728,
+          7552
+        ],
+        [
+          9856,
+          7168
+        ],
+        [
+          9856,
+          7296
+        ],
+        [
+          9856,
+          7424
+        ],
+        [
+          9856,
+          7552
+        ]
+      ],
+      "conservative_input_union_bbox": [
+        9600,
+        7168,
+        10112,
+        7808
+      ],
+      "input_bbox_area": 327680,
+      "boundingbox_is_conservative": true
+    },
+    "7": {
+      "native_support": [
+        2416,
+        1984,
+        2448,
+        2016
+      ],
+      "teacher_source_union": [
+        9424,
+        7736,
+        9556,
+        7868
+      ],
+      "conservative_inference_tiles_xy": [
+        [
+          9216,
+          7552
+        ],
+        [
+          9216,
+          7680
+        ],
+        [
+          9216,
+          7808
+        ],
+        [
+          9344,
+          7552
+        ],
+        [
+          9344,
+          7680
+        ],
+        [
+          9344,
+          7808
+        ],
+        [
+          9472,
+          7552
+        ],
+        [
+          9472,
+          7680
+        ],
+        [
+          9472,
+          7808
+        ]
+      ],
+      "conservative_input_union_bbox": [
+        9216,
+        7552,
+        9728,
+        8064
+      ],
+      "input_bbox_area": 262144,
+      "boundingbox_is_conservative": true
+    }
+  },
+  "pairs": [
+    {
+      "supports": [
+        4,
+        5
+      ],
+      "shared_contributing_teacher_tiles": 1,
+      "shared_tiles_xy": [
+        [
+          9216,
+          7168
+        ]
+      ],
+      "teacher_context_bbox_overlap_fine_pixels": 65536
+    },
+    {
+      "supports": [
+        4,
+        6
+      ],
+      "shared_contributing_teacher_tiles": 0,
+      "shared_tiles_xy": [],
+      "teacher_context_bbox_overlap_fine_pixels": 32768
+    },
+    {
+      "supports": [
+        4,
+        7
+      ],
+      "shared_contributing_teacher_tiles": 0,
+      "shared_tiles_xy": [],
+      "teacher_context_bbox_overlap_fine_pixels": 0
+    },
+    {
+      "supports": [
+        5,
+        6
+      ],
+      "shared_contributing_teacher_tiles": 0,
+      "shared_tiles_xy": [],
+      "teacher_context_bbox_overlap_fine_pixels": 0
+    },
+    {
+      "supports": [
+        5,
+        7
+      ],
+      "shared_contributing_teacher_tiles": 1,
+      "shared_tiles_xy": [
+        [
+          9216,
+          7552
+        ]
+      ],
+      "teacher_context_bbox_overlap_fine_pixels": 65536
+    },
+    {
+      "supports": [
+        6,
+        7
+      ],
+      "shared_contributing_teacher_tiles": 0,
+      "shared_tiles_xy": [],
+      "teacher_context_bbox_overlap_fine_pixels": 32768
+    }
+  ],
+  "retained_ct": [
+    {
+      "site": "site1",
+      "native_xywh": [
+        2296,
+        1784,
+        272,
+        272
+      ],
+      "fine_level2_bbox": [
+        2238,
+        1740,
+        2505,
+        2007
+      ],
+      "bytes": 23412736,
+      "fine_bytes": 16072704,
+      "native_bytes": 7340032,
+      "chunks": 25
+    },
+    {
+      "site": "site2",
+      "native_xywh": [
+        3832,
+        3064,
+        272,
+        272
+      ],
+      "fine_level2_bbox": [
+        3733,
+        2984,
+        3999,
+        3250
+      ],
+      "bytes": 23412736,
+      "fine_bytes": 16072704,
+      "native_bytes": 7340032,
+      "chunks": 25
+    },
+    {
+      "site": "site3",
+      "native_xywh": [
+        5496,
+        4344,
+        272,
+        272
+      ],
+      "fine_level2_bbox": [
+        5351,
+        4228,
+        5617,
+        4494
+      ],
+      "bytes": 23412736,
+      "fine_bytes": 16072704,
+      "native_bytes": 7340032,
+      "chunks": 25
+    }
+  ],
+  "prospective_teacher_full_footprint_upperbounds": [
+    {
+      "site": "site1",
+      "fullfine_bbox": [
+        8952,
+        6960,
+        10020,
+        8028
+      ],
+      "tile_indices": [
+        194,
+        195,
+        225,
+        226
+      ],
+      "new_tile_indices": [],
+      "all_compressed_bytes": 428618,
+      "new_compressed_bytes": 0,
+      "caveat": "Current TIFF-header upper bound for original retained geometry domain. No new pixels fetched/decoded. Future shifted queries may extend this bbox; freeze exact chosen transfer/operator/context first."
+    },
+    {
+      "site": "site2",
+      "fullfine_bbox": [
+        14932,
+        11936,
+        15996,
+        13000
+      ],
+      "tile_indices": [
+        355,
+        356,
+        386,
+        387
+      ],
+      "new_tile_indices": [
+        355,
+        356,
+        386,
+        387
+      ],
+      "all_compressed_bytes": 584743,
+      "new_compressed_bytes": 584743,
+      "caveat": "Current TIFF-header upper bound for original retained geometry domain. No new pixels fetched/decoded. Future shifted queries may extend this bbox; freeze exact chosen transfer/operator/context first."
+    },
+    {
+      "site": "site3",
+      "fullfine_bbox": [
+        21404,
+        16912,
+        22468,
+        17976
+      ],
+      "tile_indices": [
+        516,
+        517,
+        547,
+        548
+      ],
+      "new_tile_indices": [
+        516,
+        517,
+        547,
+        548
+      ],
+      "all_compressed_bytes": 361019,
+      "new_compressed_bytes": 361019,
+      "caveat": "Current TIFF-header upper bound for original retained geometry domain. No new pixels fetched/decoded. Future shifted queries may extend this bbox; freeze exact chosen transfer/operator/context first."
+    }
+  ],
+  "source_metadata_sha256": {
+    "/workspace/herculaneum-lab/reports/pherc0139-supervision-20261011/SOURCE_FOOTPRINT.json": "e5b7f233d8f9dbb99b7caa43e3c011e17a1e5d8b5e11a80c7edca72a4d873530",
+    "/workspace/herculaneum-lab/reports/pherc0139-supervision-20261011/provenance/TEACHER_TIFF_HEADER.json": "c046f39cba8875d9f26b0b2518c2aa9b326ff17270370dd6eb5113eeea3110b3",
+    "/workspace/herculaneum-lab/reports/pherc0139-correspondence-20261011/ct-study/REQUEST_PLAN.json": "e11259d6eb906df0af167d22ea3259b1462f53245c33a96cfb4f7e6c06107b91"
+  }
+}

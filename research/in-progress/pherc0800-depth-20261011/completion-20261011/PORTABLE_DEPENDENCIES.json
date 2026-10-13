@@ -1,0 +1,163 @@
+{
+  "schema_version": 2,
+  "payload_scope": "Self-contained completed-map review: 48 aligned crops, inherited support, source metadata/protocol, metrics and fixed PNG panels. No CT input volumes, checkpoints or batch logits are duplicated.",
+  "private_repository": "jl-drx/Herculaneum",
+  "checkpoint_dependency": {
+    "ref": "refs/heads/codex/plinius-pherc0800-phase52-checkpoints",
+    "commit": "02812de445f6ab0069174805bb14b6014bed159c",
+    "index_sha256": "d238edb1539c64359bd062dd7647eefac9b531e7daf61589215bdd0824655ff2",
+    "listed_archives": [
+      {
+        "name": "generation-0000.tar.gz",
+        "bytes": 245853791,
+        "sha256": "7f4f609417f2c6c5f32b9e9859d323bc90d7733d6bc91f66d80274c8b66f3844"
+      },
+      {
+        "name": "generation-0001.tar.gz",
+        "bytes": 829,
+        "sha256": "8d1e8c291b5d89d47fcac87f16700e927770ff923c40275304adf5b6e80642e9"
+      },
+      {
+        "name": "generation-0002.tar.gz",
+        "bytes": 9173490,
+        "sha256": "143a13a3682730b0e55404d7990bdfcdc8599c83b6b16ef57e4bd073c7f67d96"
+      },
+      {
+        "name": "generation-0003.tar.gz",
+        "bytes": 387991578,
+        "sha256": "ab7fdbb528038f0fdcdbb266f09976c1566ff7e6887b3a86ecc9faaf59eff69c"
+      },
+      {
+        "name": "generation-0004.tar.gz",
+        "bytes": 120873458,
+        "sha256": "bc4088ae7bf0c239490070d382aae3476c94ade593156b3340cf00095da6cc3a"
+      },
+      {
+        "name": "generation-0005.tar.gz",
+        "bytes": 5663809,
+        "sha256": "ef8457f38a28da47af7cb99095d7cb4fb63af807b9e3bc19c2c29f65f5135e33"
+      },
+      {
+        "name": "generation-0006.tar.gz",
+        "bytes": 8963304,
+        "sha256": "3796e42fc1d60f0f5e1532ee5545defd856be1e775012a80f5e4ceb22417cd5c"
+      },
+      {
+        "name": "generation-0007.tar.gz",
+        "bytes": 5519543,
+        "sha256": "0242e171cc98aac74c970cf533585e4bd4c67ef8e269813e97239de362db563b"
+      },
+      {
+        "name": "generation-0008.tar.gz",
+        "bytes": 8509817,
+        "sha256": "e85f370f2c8e95862309cbf98ee8779994ec487a6af7359f02b8a30dfa1f06b4"
+      },
+      {
+        "name": "generation-0009.tar.gz",
+        "bytes": 5453160,
+        "sha256": "4b5a96042d98a780e11b369eb109bb4076be619b0cdd6498a070ad9c3e4e7f46"
+      },
+      {
+        "name": "generation-0010.tar.gz",
+        "bytes": 8836109,
+        "sha256": "5d912cd3009511ec8923dc9e3988306848de508cbd181af0bd2b781f43267a3e"
+      },
+      {
+        "name": "generation-0011.tar.gz",
+        "bytes": 5440592,
+        "sha256": "16af24fe3b17b1b6df94572298752b23e0d61825ef7535549075a63009d206c8"
+      },
+      {
+        "name": "generation-0012.tar.gz",
+        "bytes": 8334600,
+        "sha256": "f854b1c24744edf3a8636dd9c4835814a24da46444c593ffaf6b4b8a36f0ff66"
+      },
+      {
+        "name": "generation-0013.tar.gz",
+        "bytes": 5636740,
+        "sha256": "b8f22d3494ded73de8ee1092d6e4c05d25baf66d8089d5c22c63c520732af1b5"
+      },
+      {
+        "name": "generation-0014.tar.gz",
+        "bytes": 9052458,
+        "sha256": "c0eb9de2ec6f7ea75bf6124a8310275174ad2e580bda24881a2d07cad5522922"
+      },
+      {
+        "name": "generation-0015.tar.gz",
+        "bytes": 5432193,
+        "sha256": "2a24cf54e5b57684ea04c26207bbe486e02da89a1341387667531072e43b779b"
+      },
+      {
+        "name": "generation-0016.tar.gz",
+        "bytes": 10220241,
+        "sha256": "471a3c0a3323d17708f604187af8e37fc138b5f288c96c7c93e0015bef840dcc"
+      },
+      {
+        "name": "generation-0017.tar.gz",
+        "bytes": 5562120,
+        "sha256": "2a644afa23cbb8102e4bf4b1df9e98019a2cac9397e5ff74d32edaa504b0c174"
+      },
+      {
+        "name": "generation-0018.tar.gz",
+        "bytes": 9107669,
+        "sha256": "ac88d6cb70ee987801ab73780a00a866e9bc220a57f39836dab45bb8fff98563"
+      },
+      {
+        "name": "generation-0019.tar.gz",
+        "bytes": 5704119,
+        "sha256": "6f146b4e3b0fa2ae3464558fbf053f136aeb464b7c50e06f52fb4617e9189c7b"
+      },
+      {
+        "name": "generation-0020.tar.gz",
+        "bytes": 6747183,
+        "sha256": "53302bd33d8b5a5e56fa8be2195de6bb775959fdf3bc5de01cff8007f4d61e5d"
+      }
+    ],
+    "total_archive_bytes": 878076803,
+    "members": 7080,
+    "fetch_scope": "Only these 21 object IDs from the pinned checkpoint commit, no other LFS objects.",
+    "restore_destination": "/workspace/herculaneum-lab",
+    "restore_tool": {
+      "repository_commit": "12f5ba4b3cc335d1dee36e1d38af050789c9ac46",
+      "path": "research/tools/restore_phase52_backup.py",
+      "sha256": "ddc0eb3a235ccd6daa1878dd8125d594bf66ff7eee2ce688344a38c8c5798d58"
+    },
+    "required_for_saved_map_review": false,
+    "purpose": "Optional full production evidence: 3,096 raw-logit batches and their receipts, production inputs and original study source. Independent pixel/metric review uses saved-inputs and does not need these archives."
+  },
+  "tested_reporting_runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "Pillow": "12.3.0",
+    "threads": 1,
+    "gpu_required": false,
+    "model_weights_required": false,
+    "network_required_after_artifact_restore": false
+  },
+  "replay_entrypoints": [
+    "verify_saved_maps.py --packet /path/to/completion-review"
+  ],
+  "replay_note": "Portable saved-map checker resolves every historical pin only through SAVED_INPUTS_MANIFEST.json and the supplied packet directory; it does not fall back to historical absolute paths. The optional legacy/full-recovery verifiers retain their original absolute study paths and are historical evidence; consult their documentation only if restoring the full checkpoint.",
+  "no_inference": true,
+  "no_new_paid_resource": true,
+  "gpu_spend_GBP": 0,
+  "saved_map_review": {
+    "self_contained": true,
+    "manifest": "SAVED_INPUTS_MANIFEST.json",
+    "manifest_sha256": "b346436dfc1c6a234161cea533d520214ce4ab6af71d787c0f81977307b02ea1",
+    "saved_maps": 48,
+    "added_input_files": 54,
+    "added_input_bytes": 151726060,
+    "checker": "verify_saved_maps.py",
+    "command": "python verify_saved_maps.py --packet /path/to/completion-review",
+    "scope": "Checks saved source hashes, independently recomputes all 672 metric scores, and checks all exact panels and overview tiles. No inference, models, original absolute directories or remote access required.",
+    "output_policy": "Read-only; verification result is printed to stdout.",
+    "checker_sha256": "89defa798b34c9d3d3a766d529eb63a8ad057e4b475976554984aa2635f033b4",
+    "verification": "verification/portable-saved-map-check/README.md",
+    "tested_relocated_replay": "PASS; minimal packet under a different directory, Python audit guard denied original workspace evidence paths and writes; not OS-level filesystem isolation."
+  },
+  "optional_original_path_verifiers": [
+    "verification/recovery/verify_completion.py",
+    "verification/independent-reporting-check-v2/verify.py"
+  ]
+}

@@ -1,0 +1,2362 @@
+{
+  "batch_size": 4,
+  "cases": [
+    {
+      "batch4_seconds": 0.4451770599989686,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 2.682209014892578e-07,
+      "model": "dnative",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.38757092699961504,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 2.086162567138672e-07,
+      "model": "dnative",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.40686715400079265,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 1.7881393432617188e-07,
+      "model": "dnative",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.43341787999816006,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 2.086162567138672e-07,
+      "model": "dnative",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.4064649299980374,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 2.086162567138672e-07,
+      "model": "dnative",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.38687846699758666,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 1.7881393432617188e-07,
+      "model": "dnative",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.39582453799812356,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 2.384185791015625e-07,
+      "model": "dnative",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.393875054003729,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 2.384185791015625e-07,
+      "model": "dnative",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.4175586490018759,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 2.980232238769531e-07,
+      "model": "hybrid_3d2d-seed42",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.3729457640001783,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 2.682209014892578e-07,
+      "model": "hybrid_3d2d-seed42",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.4135474989961949,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 2.682209014892578e-07,
+      "model": "hybrid_3d2d-seed42",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.43877103200065903,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 2.384185791015625e-07,
+      "model": "hybrid_3d2d-seed42",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.4430947190048755,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 2.384185791015625e-07,
+      "model": "hybrid_3d2d-seed42",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.4000355639946065,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 2.682209014892578e-07,
+      "model": "hybrid_3d2d-seed42",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.4285655610001413,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 2.682209014892578e-07,
+      "model": "hybrid_3d2d-seed42",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.42192246099875774,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 2.980232238769531e-07,
+      "model": "hybrid_3d2d-seed42",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.4374658910019207,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 4.76837158203125e-07,
+      "model": "hybrid_3d2d-seed43",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.37158664100570604,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 3.8743019104003906e-07,
+      "model": "hybrid_3d2d-seed43",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.38891372900252463,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 4.172325134277344e-07,
+      "model": "hybrid_3d2d-seed43",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.3761634140028036,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 4.470348358154297e-07,
+      "model": "hybrid_3d2d-seed43",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.4214751920007984,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 5.662441253662109e-07,
+      "model": "hybrid_3d2d-seed43",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.38164755499747116,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              1792
+            ],
+            [
+              896,
+              1856
+            ],
+            [
+              896,
+              1920
+            ],
+            [
+              960,
+              448
+            ]
+          ],
+          "original_batch_index": 35
+        },
+        {
+          "cohort_yx": [
+            [
+              1472,
+              1792
+            ],
+            [
+              1472,
+              1856
+            ],
+            [
+              1472,
+              1920
+            ],
+            [
+              1472,
+              1984
+            ]
+          ],
+          "original_batch_index": 91
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 5.662441253662109e-07,
+      "model": "hybrid_3d2d-seed43",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.42008352499397006,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 4.470348358154297e-07,
+      "model": "hybrid_3d2d-seed43",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 0.42131304500071565,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              704
+            ],
+            [
+              960,
+              768
+            ],
+            [
+              960,
+              832
+            ]
+          ],
+          "original_batch_index": 34
+        },
+        {
+          "cohort_yx": [
+            [
+              1536,
+              2112
+            ],
+            [
+              1536,
+              2176
+            ],
+            [
+              1536,
+              2240
+            ],
+            [
+              1600,
+              704
+            ]
+          ],
+          "original_batch_index": 98
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 3.8743019104003906e-07,
+      "model": "hybrid_3d2d-seed43",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 7.246167826000601,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              864,
+              512
+            ],
+            [
+              864,
+              544
+            ],
+            [
+              864,
+              576
+            ],
+            [
+              864,
+              608
+            ]
+          ],
+          "original_batch_index": 134
+        },
+        {
+          "cohort_yx": [
+            [
+              1376,
+              1664
+            ],
+            [
+              1376,
+              1696
+            ],
+            [
+              1376,
+              1728
+            ],
+            [
+              1376,
+              1760
+            ]
+          ],
+          "original_batch_index": 335
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 1.1920928955078125e-07,
+      "model": "hecate",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 5.895085506002943,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              864,
+              512
+            ],
+            [
+              864,
+              544
+            ],
+            [
+              864,
+              576
+            ],
+            [
+              864,
+              608
+            ]
+          ],
+          "original_batch_index": 134
+        },
+        {
+          "cohort_yx": [
+            [
+              1376,
+              1664
+            ],
+            [
+              1376,
+              1696
+            ],
+            [
+              1376,
+              1728
+            ],
+            [
+              1376,
+              1760
+            ]
+          ],
+          "original_batch_index": 335
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 2.086162567138672e-07,
+      "model": "hecate",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 6.048807521001436,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              640
+            ],
+            [
+              896,
+              672
+            ],
+            [
+              896,
+              704
+            ],
+            [
+              896,
+              736
+            ]
+          ],
+          "original_batch_index": 132
+        },
+        {
+          "cohort_yx": [
+            [
+              1408,
+              1920
+            ],
+            [
+              1408,
+              1952
+            ],
+            [
+              1408,
+              1984
+            ],
+            [
+              1408,
+              2016
+            ]
+          ],
+          "original_batch_index": 334
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 9.685754776000977e-08,
+      "model": "hecate",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 5.9768659100009245,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              640
+            ],
+            [
+              896,
+              672
+            ],
+            [
+              896,
+              704
+            ],
+            [
+              896,
+              736
+            ]
+          ],
+          "original_batch_index": 132
+        },
+        {
+          "cohort_yx": [
+            [
+              1408,
+              1920
+            ],
+            [
+              1408,
+              1952
+            ],
+            [
+              1408,
+              1984
+            ],
+            [
+              1408,
+              2016
+            ]
+          ],
+          "original_batch_index": 334
+        }
+      ],
+      "depth": -15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 5.364418029785156e-07,
+      "model": "hecate",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 5.829420841000683,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              864,
+              512
+            ],
+            [
+              864,
+              544
+            ],
+            [
+              864,
+              576
+            ],
+            [
+              864,
+              608
+            ]
+          ],
+          "original_batch_index": 134
+        },
+        {
+          "cohort_yx": [
+            [
+              1376,
+              1664
+            ],
+            [
+              1376,
+              1696
+            ],
+            [
+              1376,
+              1728
+            ],
+            [
+              1376,
+              1760
+            ]
+          ],
+          "original_batch_index": 335
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 1.7881393432617188e-07,
+      "model": "hecate",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 6.445956826995825,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              864,
+              512
+            ],
+            [
+              864,
+              544
+            ],
+            [
+              864,
+              576
+            ],
+            [
+              864,
+              608
+            ]
+          ],
+          "original_batch_index": 134
+        },
+        {
+          "cohort_yx": [
+            [
+              1376,
+              1664
+            ],
+            [
+              1376,
+              1696
+            ],
+            [
+              1376,
+              1728
+            ],
+            [
+              1376,
+              1760
+            ]
+          ],
+          "original_batch_index": 335
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 1.4901161193847656e-07,
+      "model": "hecate",
+      "new_model_calls": 9,
+      "phase": "plain",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 5.836243386998831,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              640
+            ],
+            [
+              896,
+              672
+            ],
+            [
+              896,
+              704
+            ],
+            [
+              896,
+              736
+            ]
+          ],
+          "original_batch_index": 132
+        },
+        {
+          "cohort_yx": [
+            [
+              1408,
+              1920
+            ],
+            [
+              1408,
+              1952
+            ],
+            [
+              1408,
+              1984
+            ],
+            [
+              1408,
+              2016
+            ]
+          ],
+          "original_batch_index": 334
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "forward",
+      "max_probability_difference": 4.172325134277344e-07,
+      "model": "hecate",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "batch4_seconds": 6.017567783004779,
+      "cache_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 2,
+        "reused_forwards": 0
+      },
+      "cohorts": [
+        {
+          "cohort_yx": [
+            [
+              896,
+              640
+            ],
+            [
+              896,
+              672
+            ],
+            [
+              896,
+              704
+            ],
+            [
+              896,
+              736
+            ]
+          ],
+          "original_batch_index": 132
+        },
+        {
+          "cohort_yx": [
+            [
+              1408,
+              1920
+            ],
+            [
+              1408,
+              1952
+            ],
+            [
+              1408,
+              1984
+            ],
+            [
+              1408,
+              2016
+            ]
+          ],
+          "original_batch_index": 334
+        }
+      ],
+      "depth": 15,
+      "direct_cached_replay_exact": true,
+      "direction": "reverse",
+      "max_probability_difference": 2.5331974029541016e-07,
+      "model": "hecate",
+      "new_model_calls": 9,
+      "phase": "padded",
+      "replay_counts": {
+        "model_calls": 2,
+        "model_tiles": 8,
+        "new_forwards": 0,
+        "reused_forwards": 2
+      },
+      "status": "PASS"
+    }
+  ],
+  "counts_by_model": [
+    {
+      "calls": 72,
+      "model": "dnative",
+      "tiles": 192
+    },
+    {
+      "calls": 72,
+      "model": "hybrid_3d2d-seed42",
+      "tiles": 192
+    },
+    {
+      "calls": 72,
+      "model": "hybrid_3d2d-seed43",
+      "tiles": 192
+    },
+    {
+      "calls": 72,
+      "model": "hecate",
+      "tiles": 192
+    }
+  ],
+  "fail_closed_tests": [
+    {
+      "case": "changed_depth",
+      "rejected": true
+    },
+    {
+      "case": "changed_order",
+      "rejected": true
+    },
+    {
+      "case": "changed_model",
+      "rejected": true
+    },
+    {
+      "case": "changed_cohort",
+      "rejected": true
+    },
+    {
+      "case": "changed_input",
+      "rejected": true
+    },
+    {
+      "case": "missing_receipt",
+      "rejected": true
+    },
+    {
+      "case": "missing_logits",
+      "rejected": true
+    },
+    {
+      "case": "changed_logits",
+      "rejected": true
+    }
+  ],
+  "gpu_spend_GBP": 0,
+  "injected_stop": {
+    "receipts": 2,
+    "status": "INJECTED_STOP_AFTER_TWO_COMMITTED_BATCHES"
+  },
+  "new_forward_calls": 288,
+  "precision": "fp32 CPU",
+  "probability_tolerance": 1e-05,
+  "status": "PASS",
+  "threads": 4,
+  "tile_evaluations": 768,
+  "worker_baseline_replays": [
+    {
+      "batches": 57,
+      "direction": "forward",
+      "model": "dnative",
+      "new_forwards": 0,
+      "phase": "plain",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 57,
+      "direction": "reverse",
+      "model": "dnative",
+      "new_forwards": 0,
+      "phase": "plain",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 65,
+      "direction": "forward",
+      "model": "dnative",
+      "new_forwards": 0,
+      "phase": "padded",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 65,
+      "direction": "reverse",
+      "model": "dnative",
+      "new_forwards": 0,
+      "phase": "padded",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 57,
+      "direction": "forward",
+      "model": "hybrid_3d2d-seed42",
+      "new_forwards": 0,
+      "phase": "plain",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 57,
+      "direction": "reverse",
+      "model": "hybrid_3d2d-seed42",
+      "new_forwards": 0,
+      "phase": "plain",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 65,
+      "direction": "forward",
+      "model": "hybrid_3d2d-seed42",
+      "new_forwards": 0,
+      "phase": "padded",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 65,
+      "direction": "reverse",
+      "model": "hybrid_3d2d-seed42",
+      "new_forwards": 0,
+      "phase": "padded",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 57,
+      "direction": "forward",
+      "model": "hybrid_3d2d-seed43",
+      "new_forwards": 0,
+      "phase": "plain",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 57,
+      "direction": "reverse",
+      "model": "hybrid_3d2d-seed43",
+      "new_forwards": 0,
+      "phase": "plain",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 65,
+      "direction": "forward",
+      "model": "hybrid_3d2d-seed43",
+      "new_forwards": 0,
+      "phase": "padded",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 65,
+      "direction": "reverse",
+      "model": "hybrid_3d2d-seed43",
+      "new_forwards": 0,
+      "phase": "padded",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 204,
+      "direction": "forward",
+      "model": "hecate",
+      "new_forwards": 0,
+      "phase": "plain",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 204,
+      "direction": "reverse",
+      "model": "hecate",
+      "new_forwards": 0,
+      "phase": "plain",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 204,
+      "direction": "forward",
+      "model": "hecate",
+      "new_forwards": 0,
+      "phase": "padded",
+      "status": "PASS",
+      "values": 786432
+    },
+    {
+      "batches": 204,
+      "direction": "reverse",
+      "model": "hecate",
+      "new_forwards": 0,
+      "phase": "padded",
+      "status": "PASS",
+      "values": 786432
+    }
+  ]
+}

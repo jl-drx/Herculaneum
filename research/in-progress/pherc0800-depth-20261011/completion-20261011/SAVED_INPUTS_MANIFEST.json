@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "status": "PINNED_COMPLETE_SAVED_MAP_REVIEW_INPUTS",
+  "created_at_utc": "2026-10-11T08:00:38.481172+00:00",
+  "source_assessment_plan_sha256": "0706ea76bdec21fc925f0a5ee6615c8a872050aae593275e06c7566b0982d143",
+  "files": [
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/dnative-plain-forward-d-15/aligned.npy",
+      "path": "saved-inputs/maps/dnative-plain-forward-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "7c567030504448e74dfd528cdaf3137bf7cda588895172356455011edcf280da",
+      "role": "saved_map",
+      "map_key": "dnative-plain-forward-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/dnative-plain-forward.npy",
+      "path": "saved-inputs/maps/dnative-plain-forward-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "020980b3a57b0246f0bc493a0e01c8eec9872dce3c60b695bcf5a4bdaab3d324",
+      "role": "saved_map",
+      "map_key": "dnative-plain-forward-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/dnative-plain-forward-d+15/aligned.npy",
+      "path": "saved-inputs/maps/dnative-plain-forward-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "0eee6de9072b35d362d2fd2e9e4431538fba4f91d624a51eaa06f372af6cc15c",
+      "role": "saved_map",
+      "map_key": "dnative-plain-forward-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/dnative-plain-reverse-d-15/aligned.npy",
+      "path": "saved-inputs/maps/dnative-plain-reverse-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "cc173efd13f80b0fe3a13fc16590997ea23e0481dcf0c593ae7226e660ea53c7",
+      "role": "saved_map",
+      "map_key": "dnative-plain-reverse-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/dnative-plain-reverse.npy",
+      "path": "saved-inputs/maps/dnative-plain-reverse-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "6780649ad6904791bd035b4f65fe110936ceee9fee1bf5f344b94be054ff2011",
+      "role": "saved_map",
+      "map_key": "dnative-plain-reverse-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/dnative-plain-reverse-d+15/aligned.npy",
+      "path": "saved-inputs/maps/dnative-plain-reverse-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "66a0b6f74b2a3eb76741885fc1d27df4542f0c182be93a7d60c3bd05d466ff28",
+      "role": "saved_map",
+      "map_key": "dnative-plain-reverse-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/dnative-padded-forward-d-15/aligned.npy",
+      "path": "saved-inputs/maps/dnative-padded-forward-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "1a0f11508d5011b71977e96c8dec963f89ac8a8aed15168ac7d983fd477954b5",
+      "role": "saved_map",
+      "map_key": "dnative-padded-forward-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/dnative-padded-forward.npy",
+      "path": "saved-inputs/maps/dnative-padded-forward-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "e901d0cbfabc0045b6b9dc241cdadacc9d96656cb5efce1f5699939bddcde0fb",
+      "role": "saved_map",
+      "map_key": "dnative-padded-forward-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/dnative-padded-forward-d+15/aligned.npy",
+      "path": "saved-inputs/maps/dnative-padded-forward-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "39b0c1322d36719a5c5b5818487508d84576f07525a37c9867bf3a55d8d196e2",
+      "role": "saved_map",
+      "map_key": "dnative-padded-forward-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/dnative-padded-reverse-d-15/aligned.npy",
+      "path": "saved-inputs/maps/dnative-padded-reverse-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "e8dfcc3d67f27ecc51f8a66fd2f4c409bc41510e3039d68ea2e546ca8fc0f77a",
+      "role": "saved_map",
+      "map_key": "dnative-padded-reverse-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/dnative-padded-reverse.npy",
+      "path": "saved-inputs/maps/dnative-padded-reverse-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "c4bdcc84a0e4eb8b6d3d865b47284eea902fec7ffdaf89b759998287aba43698",
+      "role": "saved_map",
+      "map_key": "dnative-padded-reverse-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/dnative-padded-reverse-d+15/aligned.npy",
+      "path": "saved-inputs/maps/dnative-padded-reverse-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "0554eb2319283c4fa98764cf1f001b254e454805265b26b6093eac0fae5f9cdc",
+      "role": "saved_map",
+      "map_key": "dnative-padded-reverse-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed42-plain-forward-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-plain-forward-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "a6a55fab3105db0b3e7eb27ecdbcbc974c2b14f69bedc591c8ad6a95b1651250",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-plain-forward-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hybrid_3d2d-seed42-plain-forward.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-plain-forward-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "dab7b8b4065dcf11a21c14abfca7db9259f50137aab76acc3003961e15ccb8f7",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-plain-forward-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed42-plain-forward-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-plain-forward-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "241190eb071063c5855441a65f95e5919ef7423188907e704a31c86d16c62646",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-plain-forward-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed42-plain-reverse-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-plain-reverse-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "102c0cd5a6870534464ec8aed15d0670dc398310a42f578eba1bc4bd9affe052",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-plain-reverse-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hybrid_3d2d-seed42-plain-reverse.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-plain-reverse-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "f9a376fb4ee663343ab987e5b00885fb3801b6e64aa7a3381da74adb676653e9",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-plain-reverse-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed42-plain-reverse-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-plain-reverse-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "471298dd29f7afa99cd90d1c847f9c58b321b0e78687cc0e32ab5dac7d23b323",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-plain-reverse-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed42-padded-forward-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-padded-forward-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "cbd248cd261b33fc685f284234bcc8647a3f53fb77025ad6e819f22d977a26d7",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-padded-forward-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hybrid_3d2d-seed42-padded-forward.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-padded-forward-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "05eb8aa0f98834fb994fb9aa1559c1c6de352fa20e68866f34a65ad2a25090c0",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-padded-forward-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed42-padded-forward-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-padded-forward-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "478c117348fbc09bad6d1fbc5c92bc61ed0684e23146a6e70ae803dd7a9bbeeb",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-padded-forward-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-padded-reverse-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "448a4fc6655a5262fc53e2859aba7961480a3f696f153a8a10f984db2e8585a8",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-padded-reverse-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hybrid_3d2d-seed42-padded-reverse.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-padded-reverse-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "3ddf5fb5927722a282ecaa851d2d59799ed786d4b7fa0fefbcca4ac08f034c2b",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-padded-reverse-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed42-padded-reverse-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed42-padded-reverse-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "23cafd0303a8c28d1bf4cd1f7cf09abe40785e3ff84337f17daf1654b7f7c703",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed42-padded-reverse-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed43-plain-forward-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-plain-forward-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "2ff9aaf7e163d8a76b939a3e5388a409f3d94480841dec94f63e005ea30633da",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-plain-forward-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hybrid_3d2d-seed43-plain-forward.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-plain-forward-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "b119e1d48c9a4a49fbffe119f35c0baab749a0e7b6e7af646b27095bc496b62d",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-plain-forward-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed43-plain-forward-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-plain-forward-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "619ded010784cb8188fea9c43bc682b26095281be6b5c9b2bf87d9342dd9921e",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-plain-forward-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed43-plain-reverse-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-plain-reverse-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "1f8379ecd4f3c46c84bd9e643da58a66948f48a48ea0c84721da6ef8d7dd1e38",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-plain-reverse-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hybrid_3d2d-seed43-plain-reverse.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-plain-reverse-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "14594e4176e5e98f73ed65946c0d79185d304d9cc710b0925f1bafcee3de4d59",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-plain-reverse-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed43-plain-reverse-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-plain-reverse-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "67adcec8258d87585174f0e0294dbcf623feac4b41d3ce292de7cad2fb4be067",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-plain-reverse-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed43-padded-forward-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-padded-forward-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "1aa88317c5777089ef68fe5588440668e3f1335eb795f25b2a6e99d9506ac765",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-padded-forward-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hybrid_3d2d-seed43-padded-forward.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-padded-forward-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "e82bf97715c66018665955a60b80b21e9286f9039f3a3c259cb796d096eb237c",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-padded-forward-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed43-padded-forward-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-padded-forward-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "a720b86df6b60f9c7dfb3f55d4ac33643887a028c72f9a1b37fc7def9a070eaa",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-padded-forward-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed43-padded-reverse-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-padded-reverse-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "fabacefa2482b6953f7c61c41fde22cff3b653256ff941e944cd590f42b98155",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-padded-reverse-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hybrid_3d2d-seed43-padded-reverse.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-padded-reverse-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "b3726eebeea5b0c02bb9c247484bb8ad726e1ccdaf61b8c2cd949bafd6e4febb",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-padded-reverse-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hybrid_3d2d-seed43-padded-reverse-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hybrid_3d2d-seed43-padded-reverse-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "d21ec347f8a00a019f5a61165e6c33eefcddc21adfde1b54ea554bee5e89ef1c",
+      "role": "saved_map",
+      "map_key": "hybrid_3d2d-seed43-padded-reverse-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hecate-plain-forward-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hecate-plain-forward-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "01f6ceacdd10f42eb1d29992ef7d0f97fa181f6ae7e9e3b611129421d62f581f",
+      "role": "saved_map",
+      "map_key": "hecate-plain-forward-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hecate-plain-forward.npy",
+      "path": "saved-inputs/maps/hecate-plain-forward-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "3ddb1a046f04594e9751df7429a7c7c09adb091ffab5e730e227ba2147be1dfe",
+      "role": "saved_map",
+      "map_key": "hecate-plain-forward-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hecate-plain-forward-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hecate-plain-forward-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "3622508a6b39691b7b6c75d6266f0cc860ff08baf4dfabec1ee6b7c11a4f4785",
+      "role": "saved_map",
+      "map_key": "hecate-plain-forward-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hecate-plain-reverse-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hecate-plain-reverse-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "fc5d632926c94eab63c67056d29b8bdd3869138f35a913bfcae1a47af1bc9651",
+      "role": "saved_map",
+      "map_key": "hecate-plain-reverse-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hecate-plain-reverse.npy",
+      "path": "saved-inputs/maps/hecate-plain-reverse-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "f0d4f3e13e950bd95ec3bdd57e0d09cba7c5f7b96aa96dada1eacb6d87cb3f21",
+      "role": "saved_map",
+      "map_key": "hecate-plain-reverse-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hecate-plain-reverse-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hecate-plain-reverse-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "e37a2228bed0465847adacc4a3e2127a1bade844538845ac4a18b7cd894e10a2",
+      "role": "saved_map",
+      "map_key": "hecate-plain-reverse-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hecate-padded-forward-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hecate-padded-forward-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "b0632599bcba2b4892202585d4d2cf83ea5cd8488084d6d82fdfa4b4ad3624d1",
+      "role": "saved_map",
+      "map_key": "hecate-padded-forward-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hecate-padded-forward.npy",
+      "path": "saved-inputs/maps/hecate-padded-forward-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "10844bf08faa90241d188a098f81114b4f5fc3cbc44cae2e63981bb667b5d8e1",
+      "role": "saved_map",
+      "map_key": "hecate-padded-forward-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hecate-padded-forward-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hecate-padded-forward-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "63a9e98cb8e18f7ac24d4d97aefa80090940283b6b50e254a20693b53af13381",
+      "role": "saved_map",
+      "map_key": "hecate-padded-forward-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hecate-padded-reverse-d-15/aligned.npy",
+      "path": "saved-inputs/maps/hecate-padded-reverse-d-15.npy",
+      "size_bytes": 3145856,
+      "sha256": "c2fd977d5cc9990dc886459c6c672183385fa680714d82688ce8e8ea50005b38",
+      "role": "saved_map",
+      "map_key": "hecate-padded-reverse-d-15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/baseline-crops/hecate-padded-reverse.npy",
+      "path": "saved-inputs/maps/hecate-padded-reverse-d+00.npy",
+      "size_bytes": 3145856,
+      "sha256": "ecbbab4fe7d621674f0a93676d48da5abecb6af825a64bfd4db11d06eb9dcc1a",
+      "role": "saved_map",
+      "map_key": "hecate-padded-reverse-d+00"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/inference/hecate-padded-reverse-d+15/aligned.npy",
+      "path": "saved-inputs/maps/hecate-padded-reverse-d+15.npy",
+      "size_bytes": 3145856,
+      "sha256": "418ee4c9bef6f276cc042bbf7140b0dfaa48aed189979de351a1e3d9f0635e24",
+      "role": "saved_map",
+      "map_key": "hecate-padded-reverse-d+15"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/PROTOCOL.md",
+      "path": "saved-inputs/metadata/PROTOCOL.md",
+      "size_bytes": 7919,
+      "sha256": "f0f42f3c8d3206cb2726ca80f617f4ae56ee98e00dab7b669673218913642f00",
+      "role": "source_metadata"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/PLAN.json",
+      "path": "saved-inputs/metadata/PLAN.json",
+      "size_bytes": 633,
+      "sha256": "7c56e8a7d48fd6508d60f6794cab04ce7604b7735037eb1dbc954ae199e7d1ab",
+      "role": "source_metadata"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/INFERENCE_GO.json",
+      "path": "saved-inputs/metadata/INFERENCE_GO.json",
+      "size_bytes": 610038,
+      "sha256": "6e9d6f48614767d232a4601785c6278b5d09a8d73380967fc9a7038990b421e8",
+      "role": "source_metadata"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/INFERENCE_RESULTS.json",
+      "path": "saved-inputs/metadata/INFERENCE_RESULTS.json",
+      "size_bytes": 89161,
+      "sha256": "6f08b3ca758d2e8c517031d2489f91512c8462159775822f4ab50db4fd54a066",
+      "role": "source_metadata"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/BASELINES.json",
+      "path": "saved-inputs/metadata/BASELINES.json",
+      "size_bytes": 12118,
+      "sha256": "70405a56937d8f88729e55b90cbe99d907c7f5252eabdf45bd64b31251ab2b2b",
+      "role": "source_metadata"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/work/output-support.npz",
+      "path": "saved-inputs/metadata/output-support.npz",
+      "size_bytes": 5103,
+      "sha256": "7bab141db190e56d4298b68863a91cd63520fc8e47895528f8855cff52075d06",
+      "role": "source_metadata"
+    },
+    {
+      "original_path": "/workspace/herculaneum-lab/reports/fiftysecond-experiment/completion-review/assess_complete.py",
+      "path": "assess_complete.py",
+      "size_bytes": 9147,
+      "sha256": "98c19154a858236ff57a2dff99c435f70d89ac8e6ec34d6b891f8327e1e4cf5e",
+      "role": "historical_reporting_code"
+    }
+  ],
+  "added_input_files": 54,
+  "added_input_bytes": 151726060,
+  "scope": "Self-contained saved-map recomputation and fixed-panel verification. No model weights, CT input volumes or per-batch logits; full inference receipt recovery remains a separate optional checkpoint dependency."
+}

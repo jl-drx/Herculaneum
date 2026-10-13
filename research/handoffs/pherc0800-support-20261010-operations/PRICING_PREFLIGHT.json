@@ -1,0 +1,33 @@
+{
+  "observed_at_utc": "2026-10-10",
+  "actions_workflow_id": 380092244,
+  "actions_state": "active",
+  "repository_private": true,
+  "account_usage_and_admin_policy": "HTTP403: unavailable to integration; no allowance or zero-charge guarantee",
+  "standard_linux_USD_per_minute": 0.006,
+  "max_job_minutes": 3,
+  "runner_max_USD_before_tax": 0.018,
+  "artifact_USD_per_GB_month": 0.25,
+  "retention_days": 1,
+  "estimated_artifact_upper_bytes": 2000000,
+  "artifact_one_day_estimate_USD_before_tax": 1.7e-05,
+  "LFS_objects_requested": 0,
+  "GPU_work": false,
+  "source_pages": [
+    {
+      "name": "runner",
+      "sha256": "1b6bfc20168b855f22a19d26e385ce3f553967c9e3ad274e80be2ccd1f575fed",
+      "bytes": 168328
+    },
+    {
+      "name": "storage",
+      "sha256": "5d329f77c0fa77f70ead5734f499ce437f1890e27bec6aca60564ad3cd0dff3f",
+      "bytes": 226118
+    },
+    {
+      "name": "lfs",
+      "sha256": "304c73d84ad3d363365cba49952182bb50923af7aec349139e728130fdb1173f",
+      "bytes": 176706
+    }
+  ]
+}

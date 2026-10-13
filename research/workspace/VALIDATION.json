@@ -1,0 +1,316 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-10-09T21:32:19.975736+00:00",
+  "manifest_sha256": "b5b4904eda36f91ce243af24fbfcd6aebbd64072be7d3f88340dcdd3151109c9",
+  "scope": "Portability of the indexed snapshot, not a completed PHerc343 reproduction or a replay of every historical experiment.",
+  "restore_boundary_tests": {
+    "status": "PASS",
+    "tests": 6,
+    "command": "python -B -m unittest discover -s tests -p test_workspace_restore.py -v"
+  },
+  "archive_verification": {
+    "status": "PASS",
+    "scope": "Every compressed object and every regular archive member verified against manifest; local LFS cache, not remote readback.",
+    "bundles": [
+      {
+        "name": "core-001.tar.gz",
+        "files": 10323,
+        "expanded_bytes": 629058879,
+        "status": "PASS"
+      },
+      {
+        "name": "core-002.tar.gz",
+        "files": 2841,
+        "expanded_bytes": 346093615,
+        "status": "PASS"
+      },
+      {
+        "name": "history-001.tar.gz",
+        "files": 270,
+        "expanded_bytes": 575321476,
+        "status": "PASS"
+      },
+      {
+        "name": "history-002.tar.gz",
+        "files": 345,
+        "expanded_bytes": 521033181,
+        "status": "PASS"
+      },
+      {
+        "name": "history-003.tar.gz",
+        "files": 180,
+        "expanded_bytes": 628869067,
+        "status": "PASS"
+      },
+      {
+        "name": "history-004.tar.gz",
+        "files": 114,
+        "expanded_bytes": 628719200,
+        "status": "PASS"
+      },
+      {
+        "name": "history-005.tar.gz",
+        "files": 219,
+        "expanded_bytes": 628328965,
+        "status": "PASS"
+      },
+      {
+        "name": "history-006.tar.gz",
+        "files": 189,
+        "expanded_bytes": 628880652,
+        "status": "PASS"
+      },
+      {
+        "name": "history-007.tar.gz",
+        "files": 147,
+        "expanded_bytes": 523815309,
+        "status": "PASS"
+      },
+      {
+        "name": "history-008.tar.gz",
+        "files": 145,
+        "expanded_bytes": 586190728,
+        "status": "PASS"
+      },
+      {
+        "name": "history-009.tar.gz",
+        "files": 250,
+        "expanded_bytes": 629114686,
+        "status": "PASS"
+      },
+      {
+        "name": "history-010.tar.gz",
+        "files": 228,
+        "expanded_bytes": 628449953,
+        "status": "PASS"
+      },
+      {
+        "name": "history-011.tar.gz",
+        "files": 4158,
+        "expanded_bytes": 629087565,
+        "status": "PASS"
+      },
+      {
+        "name": "history-012.tar.gz",
+        "files": 2321,
+        "expanded_bytes": 511720059,
+        "status": "PASS"
+      },
+      {
+        "name": "history-013.tar.gz",
+        "files": 74,
+        "expanded_bytes": 625699445,
+        "status": "PASS"
+      },
+      {
+        "name": "history-014.tar.gz",
+        "files": 188,
+        "expanded_bytes": 593163337,
+        "status": "PASS"
+      },
+      {
+        "name": "history-015.tar.gz",
+        "files": 86,
+        "expanded_bytes": 625526134,
+        "status": "PASS"
+      },
+      {
+        "name": "history-016.tar.gz",
+        "files": 989,
+        "expanded_bytes": 596475800,
+        "status": "PASS"
+      },
+      {
+        "name": "history-017.tar.gz",
+        "files": 116,
+        "expanded_bytes": 624427182,
+        "status": "PASS"
+      },
+      {
+        "name": "history-018.tar.gz",
+        "files": 586,
+        "expanded_bytes": 486268893,
+        "status": "PASS"
+      },
+      {
+        "name": "history-019.tar.gz",
+        "files": 471,
+        "expanded_bytes": 355611332,
+        "status": "PASS"
+      },
+      {
+        "name": "pherc343-inputs-001.tar.gz",
+        "files": 647,
+        "expanded_bytes": 629095695,
+        "status": "PASS"
+      },
+      {
+        "name": "pherc343-inputs-002.tar.gz",
+        "files": 715,
+        "expanded_bytes": 628839608,
+        "status": "PASS"
+      },
+      {
+        "name": "pherc343-inputs-003.tar.gz",
+        "files": 695,
+        "expanded_bytes": 628555325,
+        "status": "PASS"
+      },
+      {
+        "name": "pherc343-inputs-004.tar.gz",
+        "files": 68,
+        "expanded_bytes": 18951912,
+        "status": "PASS"
+      },
+      {
+        "name": "pherc343-models-001.tar.gz",
+        "files": 3,
+        "expanded_bytes": 549615357,
+        "status": "PASS"
+      },
+      {
+        "name": "pherc343-models-002.tar.gz",
+        "files": 1,
+        "expanded_bytes": 522576086,
+        "status": "PASS"
+      },
+      {
+        "name": "pherc343-reference-001.tar.gz",
+        "files": 18,
+        "expanded_bytes": 10662341,
+        "status": "PASS"
+      },
+      {
+        "name": "pherc343-results-001.tar.gz",
+        "files": 30,
+        "expanded_bytes": 38435378,
+        "status": "PASS"
+      }
+    ],
+    "files": 26417,
+    "elapsed_seconds": 225.91766324699984
+  },
+  "github_upload": {
+    "status": "PASS",
+    "objects": 29,
+    "bytes": 11287516856,
+    "mechanism": "Native git lfs push --object-id origin; all uploads returned success."
+  },
+  "remote_object_availability": {
+    "status": "PASS",
+    "objects_available": 29,
+    "bytes": 11287516856,
+    "checked_at_utc": "2026-10-09T21:29:14.055811+00:00",
+    "scope": "Authenticated remote Git LFS download availability metadata for all 29 objects; this does not download or rehash their full remote bytes."
+  },
+  "isolated_restore": {
+    "status": "PASS",
+    "verified_files": 15341,
+    "groups": [
+      "core",
+      "pherc343-inputs",
+      "pherc343-models",
+      "pherc343-reference",
+      "pherc343-results"
+    ],
+    "source": "Local hash-verified Git LFS cache objects",
+    "host": "Same Linux host, separate directory; not the user second device",
+    "expanded_bytes": 4001884196,
+    "input_views": [
+      {
+        "phase": "plain",
+        "relative_link": "../concat_w047-w048_R5B2_z9500-11000_66.zarr/0",
+        "status": "PASS"
+      },
+      {
+        "phase": "padded",
+        "relative_link": "../concat_w047-w048_R5B2_z9500-11000_66_padded.zarr/0",
+        "status": "PASS"
+      }
+    ]
+  },
+  "clean_runtime": {
+    "status": "PASS",
+    "python": "3.14.7",
+    "torch": "2.13.0+cpu",
+    "numpy": "2.4.4",
+    "zarr": "3.2.1",
+    "packages_checked": 61,
+    "hash_locked_install": true,
+    "uv_pip_check": "PASS",
+    "cuda_available": false
+  },
+  "relocated_real_tile_checks": [
+    {
+      "status": "PASS",
+      "mode": "smoke",
+      "model": "seed42",
+      "phase": "plain",
+      "threads": 4,
+      "checkpoint_sha256": "e635558ae6a1a807a7e5ec1e83adfd45bc3c0ac53883ea43f1d4e085d62a9cab",
+      "shape": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "decoded_sha256": "2335e97f463f68ebd06a57aae15d46b393c4368f6c170232f3f9e811f4fe76f1",
+      "elapsed_seconds": 24.43303040000046,
+      "torch": "2.13.0+cpu",
+      "device": "cpu",
+      "precision": "fp32",
+      "depth": "+1",
+      "direction": "reverse",
+      "max_probability_error_vs_cloud_tile": 0.0,
+      "scope": "One fixed real tile; validates relocated runtime/input compatibility, not full-map reproduction or ink accuracy."
+    },
+    {
+      "status": "PASS",
+      "mode": "smoke",
+      "model": "hecate",
+      "phase": "plain",
+      "threads": 4,
+      "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+      "shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "decoded_sha256": "df5adb9c174a110675bad02a0c51438ae107186460e7f3d39563f39f6e0f22b9",
+      "elapsed_seconds": 51.85685944799934,
+      "torch": "2.13.0+cpu",
+      "device": "cpu",
+      "precision": "fp32",
+      "depth": "+1",
+      "direction": "reverse",
+      "max_probability_error_vs_cloud_tile": 9.387731552124023e-06,
+      "scope": "One fixed real tile; validates relocated runtime/input compatibility, not full-map reproduction or ink accuracy."
+    }
+  ],
+  "fresh_clone_download": {
+    "status": "PASS",
+    "commit": "fb54739c39f7358ae2956a30e06c609e170685c6",
+    "source": "Fresh HTTPS clone from GitHub with GIT_LFS_SKIP_SMUDGE=1; empty independent LFS cache",
+    "group": "pherc343-reference",
+    "bundle": "pherc343-reference-001.tar.gz",
+    "download_bytes": 9780724,
+    "archive_sha256": "58eac58201435f29c5321d2793b74c4853fdceac263e6c6cc74ac7686263c232",
+    "verified_files": 18,
+    "expanded_bytes": 10662341,
+    "native_git_lfs_download": true,
+    "compressed_and_member_hash_checks": "PASS",
+    "separate_restored_file_readback": "PASS",
+    "drop_cache_confirmed": true,
+    "scope": "Same cloud host; real GitHub download of this one bundle, not all 29 and not a physical-device test."
+  },
+  "not_performed": [
+    "A run on the user physical second device",
+    "A full-map run through the new portable CLI",
+    "An independent replay of every historical experiment",
+    "A full remote byte readback of all 11.29 GB",
+    "R2 credential transfer or GPU launch"
+  ],
+  "gpu_spend_GBP": 0,
+  "updated_at_utc": "2026-10-09T21:33:10.866966+00:00"
+}

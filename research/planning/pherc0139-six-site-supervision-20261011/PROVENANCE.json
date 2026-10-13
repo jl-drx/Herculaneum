@@ -1,0 +1,304 @@
+{
+  "sites": [
+    {
+      "winding": "w040",
+      "canvas_xy": [
+        31040,
+        24880
+      ],
+      "teacher_filename": "PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "threshold": 48,
+      "threshold_source": "own-calibration",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "teacher_asset": {
+        "type": "ink-detection",
+        "origins": [
+          {
+            "path": "PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+            "access_roots": [
+              {
+                "type": "s3",
+                "url": "s3://vesuvius-challenge-open-data",
+                "usage": "public-read"
+              }
+            ],
+            "copy_info": {
+              "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+              "date": "2026-06-25T17:56:10.379920Z",
+              "workflow_execution": "s3copy-pherc0139-9ea32914"
+            }
+          }
+        ],
+        "properties": null,
+        "parameters": {
+          "target_volume": "20260102150214",
+          "model_id": "20260417190342"
+        },
+        "creation_info": {
+          "process": "Run ink-detection using partitioned workflow",
+          "workflow": "ink-detection-partitioned",
+          "workflow_execution": "ink-detect-pherc0139-e06ef362",
+          "date": "2026-06-19T14:28:00.467952Z",
+          "derived_from": {
+            "data_type": "layers-zarr",
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/"
+          },
+          "provenance": {
+            "workflow_template_ref": "ink-detection-partitioned",
+            "infra_revision": "main@sha1:4595b302b9048885e99a268fc4bcbbf5808cb51c",
+            "atlas_version": "0.1.0",
+            "atlas_git_sha": "e7d830461f848059c7d595e544d6ea5e37c6bea2",
+            "atlas_git_dirty": true,
+            "images": {
+              "reduce-ink-detection": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+              "run-ink-detection-partition": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42",
+              "cleanup-zarr": "amazon/aws-cli:latest",
+              "calculate-partition-count": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+              "check-if-zarr": "python:3.11",
+              "validate-model": "python:3.11",
+              "aggregate-profiling": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu"
+            },
+            "parameters": {
+              "model": "new_canon_autoresearch_recipe",
+              "model-type": "resnet3d-152-3d-decoder",
+              "s3-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+              "start-layer": "23",
+              "end-layer": "85",
+              "num-parts": "",
+              "mmap-read-workers": "6",
+              "surface-volume-zarr": "",
+              "surface-volume-zarr-prefix": "s3://scrollprize-reconstruction/tmp/ink-detection-workflow/",
+              "target-duration-per-partition": "750",
+              "surface-volume-chunk-size": "1024",
+              "use-zarr-compression": "false",
+              "tile-size": "256",
+              "stride": "128",
+              "batch-size": "",
+              "output-path": "s3://vesuvius-challenge/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+              "force-reverse": "false",
+              "pixel-resolution-um": "",
+              "add-scale-bar": "false",
+              "scale-bar-length-um": "10000",
+              "cleanup-zarr": "true",
+              "wandb-api-key": "",
+              "profiling-level": "basic",
+              "profiling-sample-interval-ms": "1000",
+              "profiling-detailed-partitions": "first",
+              "profiling-keep-raw-traces": "false",
+              "profiling-output-prefix": ""
+            }
+          }
+        }
+      },
+      "source_depth": [
+        23,
+        85
+      ],
+      "historical_binary_identity_verified": false,
+      "historical_manual_overrides_reproduced": false,
+      "teacher_training_ancestry_independent": false,
+      "current_native_annotation_release_in_catalog": true
+    },
+    {
+      "winding": "w041",
+      "canvas_xy": [
+        31200,
+        24080
+      ],
+      "teacher_filename": "PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "threshold": 46,
+      "threshold_source": "own-calibration",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "teacher_asset": {
+        "type": "ink-detection",
+        "origins": [
+          {
+            "path": "PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+            "access_roots": [
+              {
+                "type": "s3",
+                "url": "s3://vesuvius-challenge-open-data",
+                "usage": "public-read"
+              }
+            ],
+            "copy_info": {
+              "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+              "date": "2026-06-25T17:56:19.175255Z",
+              "workflow_execution": "s3copy-pherc0139-1fb911dd"
+            }
+          }
+        ],
+        "properties": null,
+        "parameters": {
+          "target_volume": "20260102150214",
+          "model_id": "20260417190342"
+        },
+        "creation_info": {
+          "process": "Run ink-detection using partitioned workflow",
+          "workflow": "ink-detection-partitioned",
+          "workflow_execution": "ink-detect-pherc0139-51ff6ac0",
+          "date": "2026-06-19T14:57:16.930268Z",
+          "derived_from": {
+            "data_type": "layers-zarr",
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/"
+          },
+          "provenance": {
+            "workflow_template_ref": "ink-detection-partitioned",
+            "infra_revision": "main@sha1:4595b302b9048885e99a268fc4bcbbf5808cb51c",
+            "atlas_version": "0.1.0",
+            "atlas_git_sha": "e7d830461f848059c7d595e544d6ea5e37c6bea2",
+            "atlas_git_dirty": true,
+            "images": {
+              "run-ink-detection-partition": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42",
+              "aggregate-profiling": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+              "validate-model": "python:3.11",
+              "check-if-zarr": "python:3.11",
+              "calculate-partition-count": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+              "reduce-ink-detection": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+              "cleanup-zarr": "amazon/aws-cli:latest"
+            },
+            "parameters": {
+              "model": "new_canon_autoresearch_recipe",
+              "model-type": "resnet3d-152-3d-decoder",
+              "s3-path": "s3://vesuvius-challenge/PHerc0139/segments/20260108000000-w041_2026010816/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+              "start-layer": "23",
+              "end-layer": "85",
+              "num-parts": "",
+              "mmap-read-workers": "6",
+              "surface-volume-zarr": "",
+              "surface-volume-zarr-prefix": "s3://scrollprize-reconstruction/tmp/ink-detection-workflow/",
+              "target-duration-per-partition": "750",
+              "surface-volume-chunk-size": "1024",
+              "use-zarr-compression": "false",
+              "tile-size": "256",
+              "stride": "128",
+              "batch-size": "",
+              "output-path": "s3://vesuvius-challenge/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+              "force-reverse": "false",
+              "pixel-resolution-um": "",
+              "add-scale-bar": "false",
+              "scale-bar-length-um": "10000",
+              "cleanup-zarr": "true",
+              "wandb-api-key": "",
+              "profiling-level": "basic",
+              "profiling-sample-interval-ms": "1000",
+              "profiling-detailed-partitions": "first",
+              "profiling-keep-raw-traces": "false",
+              "profiling-output-prefix": ""
+            }
+          }
+        }
+      },
+      "source_depth": [
+        23,
+        85
+      ],
+      "historical_binary_identity_verified": false,
+      "historical_manual_overrides_reproduced": false,
+      "teacher_training_ancestry_independent": false,
+      "current_native_annotation_release_in_catalog": true
+    },
+    {
+      "winding": "w043",
+      "canvas_xy": [
+        31600,
+        23760
+      ],
+      "teacher_filename": "PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "threshold": 47,
+      "threshold_source": "median-of-native9-calibration",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "teacher_asset": {
+        "type": "ink-detection",
+        "origins": [
+          {
+            "path": "PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+            "access_roots": [
+              {
+                "type": "s3",
+                "url": "s3://vesuvius-challenge-open-data",
+                "usage": "public-read"
+              }
+            ],
+            "copy_info": {
+              "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+              "date": "2026-06-25T17:56:28.567175Z",
+              "workflow_execution": "s3copy-pherc0139-376fd994"
+            }
+          }
+        ],
+        "properties": null,
+        "parameters": {
+          "target_volume": "20260102150214",
+          "model_id": "20260417190342"
+        },
+        "creation_info": {
+          "process": "Run ink-detection using partitioned workflow",
+          "workflow": "ink-detection-partitioned",
+          "workflow_execution": "ink-detect-pherc0139-66a4c08e",
+          "date": "2026-06-19T14:57:17.281909Z",
+          "derived_from": {
+            "data_type": "layers-zarr",
+            "source_path": "s3://vesuvius-challenge/PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/"
+          },
+          "provenance": {
+            "workflow_template_ref": "ink-detection-partitioned",
+            "infra_revision": "main@sha1:4595b302b9048885e99a268fc4bcbbf5808cb51c",
+            "atlas_version": "0.1.0",
+            "atlas_git_sha": "e7d830461f848059c7d595e544d6ea5e37c6bea2",
+            "atlas_git_dirty": true,
+            "images": {
+              "validate-model": "python:3.11",
+              "calculate-partition-count": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+              "aggregate-profiling": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+              "run-ink-detection-partition": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42",
+              "check-if-zarr": "python:3.11",
+              "reduce-ink-detection": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/ink-detection:v42-cpu",
+              "cleanup-zarr": "amazon/aws-cli:latest"
+            },
+            "parameters": {
+              "model": "new_canon_autoresearch_recipe",
+              "model-type": "resnet3d-152-3d-decoder",
+              "s3-path": "s3://vesuvius-challenge/PHerc0139/segments/20260112000000-w043_2026011217/surface-volumes/2.399um-0.22m-78keV-volume-20260102150214.zarr/",
+              "start-layer": "23",
+              "end-layer": "85",
+              "num-parts": "",
+              "mmap-read-workers": "6",
+              "surface-volume-zarr": "",
+              "surface-volume-zarr-prefix": "s3://scrollprize-reconstruction/tmp/ink-detection-workflow/",
+              "target-duration-per-partition": "750",
+              "surface-volume-chunk-size": "1024",
+              "use-zarr-compression": "false",
+              "tile-size": "256",
+              "stride": "128",
+              "batch-size": "",
+              "output-path": "s3://vesuvius-challenge/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+              "force-reverse": "false",
+              "pixel-resolution-um": "",
+              "add-scale-bar": "false",
+              "scale-bar-length-um": "10000",
+              "cleanup-zarr": "true",
+              "wandb-api-key": "",
+              "profiling-level": "basic",
+              "profiling-sample-interval-ms": "1000",
+              "profiling-detailed-partitions": "first",
+              "profiling-keep-raw-traces": "false",
+              "profiling-output-prefix": ""
+            }
+          }
+        }
+      },
+      "source_depth": [
+        23,
+        85
+      ],
+      "historical_binary_identity_verified": false,
+      "historical_manual_overrides_reproduced": false,
+      "teacher_training_ancestry_independent": false,
+      "current_native_annotation_release_in_catalog": false
+    }
+  ],
+  "author_report_pin": "217e7521670db49cde97872ea6a8bdfb80c449f1",
+  "source_v42_pin": "d4615b134ce1b62368bed1029ed47e5569ca03fb",
+  "scope": "Current teacher-only conditional numeric sensitivity; no annotation accuracy or historical merged-label reproduction."
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PROVISIONAL_LOCAL_CANDIDATES_ONLY",
+  "reviewer": "Lead assistant; no external or second expert adjudication",
+  "fixed_serial_planes_viewed": [
+    72,
+    76,
+    80,
+    84,
+    88,
+    92,
+    96,
+    100,
+    104,
+    108,
+    112,
+    116,
+    120
+  ],
+  "additional_views": [
+    "path-review/PHerc0814-06-paths.png",
+    "path-review/PHerc0814-06-cross-cuts.png"
+  ],
+  "source_sha256": "52542fcd01069065819e6341e20d64f680c6007967f9d42d83f65b41e0e4ba55",
+  "candidate_paths": [
+    {
+      "id": "0814-C-short",
+      "length_mm": 0.22585371407914204
+    },
+    {
+      "id": "0814-D-short",
+      "length_mm": 0.22988091650770118
+    }
+  ],
+  "accepted_for_geometry_accuracy": false,
+  "whole_physical_sheet_identity": "unknown",
+  "recto_face": "unknown",
+  "confirmed_tear": "none",
+  "decision": "Retain the original rejected paths. New short candidates follow locally visible ridges over X=32..56, with approximate centres; do not extend the polylines across X~64..80 or assign intervening voxels as truth. Serial and orthogonal context help review but do not establish an independently adjudicated 3D surface.",
+  "next_required": "Separate identity/face adjudication and a supported contiguous corridor before G1 scoring; no further brightness-based retracing of this case.",
+  "native_surface_or_ink_model_fields_read": 0,
+  "paid_compute": false
+}

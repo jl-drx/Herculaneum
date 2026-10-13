@@ -1,0 +1,18 @@
+{
+  "status": "RUNNING",
+  "started_at_utc": "2026-10-09T19:34:31.072092+00:00",
+  "supervisor_pid": 3222,
+  "run_directory": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261009T193431Z",
+  "gpu_spend_GBP": 0,
+  "stages": [
+    {
+      "script": "run_fixed_depth.py",
+      "started_at_utc": "2026-10-09T19:34:31.072631+00:00",
+      "log": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/pipeline-20261009T193431Z/run_fixed_depth.py.log",
+      "pid": 3223,
+      "log_bytes": 19265
+    }
+  ],
+  "scope": "Fixed d=+1 four-model reading-side reproduction; review still required.",
+  "updated_at_utc": "2026-10-10T08:59:10.648186+00:00"
+}

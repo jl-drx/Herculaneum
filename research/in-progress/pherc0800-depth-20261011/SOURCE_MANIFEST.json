@@ -1,0 +1,72 @@
+{
+  "source": "/workspace/herculaneum-lab/reports/fiftysecond-experiment",
+  "files": [
+    {
+      "path": "source/PROTOCOL.md",
+      "bytes": 7919,
+      "sha256": "f0f42f3c8d3206cb2726ca80f617f4ae56ee98e00dab7b669673218913642f00"
+    },
+    {
+      "path": "source/PLAN.json",
+      "bytes": 633,
+      "sha256": "7c56e8a7d48fd6508d60f6794cab04ce7604b7735037eb1dbc954ae199e7d1ab"
+    },
+    {
+      "path": "source/EXECUTION_QUALIFICATION_DESIGN.md",
+      "bytes": 3087,
+      "sha256": "e81b9e40e194af819fa57ed2f47b087118aa651a207a28f5142d7ffeb4eacb84"
+    },
+    {
+      "path": "source/EXECUTION_NOTES.md",
+      "bytes": 3585,
+      "sha256": "5155726e21cc3f992bf284b6884aecb7259ac1a8839cf0223eb99f71b9016ba0"
+    },
+    {
+      "path": "source/common.py",
+      "bytes": 899,
+      "sha256": "b71a59d62c6e89b32efa12f7d4662c924466f171af429d5b6884147aa5698860"
+    },
+    {
+      "path": "source/worker.py",
+      "bytes": 9916,
+      "sha256": "8844b7e0172b8a0eac926f568371f305f4b42276741c158fea7b2ffe0b0e77c2"
+    },
+    {
+      "path": "source/prepare_execution.py",
+      "bytes": 1747,
+      "sha256": "061b2bf03d1046f8c9385c41bec25cb36a04514b242347a96e1fcb413b63acc9"
+    },
+    {
+      "path": "source/qualify_execution.py",
+      "bytes": 8916,
+      "sha256": "35cf542aba71d2ab3d7e41f380d89a2e4ffffd7ed099391c0102d868edbf1c93"
+    },
+    {
+      "path": "source/freeze_inference.py",
+      "bytes": 1297,
+      "sha256": "b52c3e0fa560a25274d03bf425ecd52b27e7fc128a813ca2912e51d4d8bf7282"
+    },
+    {
+      "path": "source/INPUT_GO.json",
+      "bytes": 609556,
+      "sha256": "02fc8f2f9aabb621853dea1730f384fa5f55a714ddbe512991f6650d6adb9c5a"
+    },
+    {
+      "path": "source/BATCH_QUALIFICATION.json",
+      "bytes": 47608,
+      "sha256": "4b88f665af3ae40861007e724bc085f23a03e477c21e9d2ff55969f57bf2926e"
+    },
+    {
+      "path": "source/INFERENCE_GO.json",
+      "bytes": 610038,
+      "sha256": "6e9d6f48614767d232a4601785c6278b5d09a8d73380967fc9a7038990b421e8"
+    },
+    {
+      "path": "source/QUALIFICATION_SUMMARY.json",
+      "bytes": 557,
+      "sha256": "4bfe07a5db2b67c11dd73ba37573f907da12b312daf8b572f60550168d136668"
+    }
+  ],
+  "file_count": 13,
+  "scope": "Exact qualified launch source/GO copies. Prepared arrays and raw qualification evidence are in the separate private checkpoint chain; previous inputs/runtime remain prerequisites."
+}

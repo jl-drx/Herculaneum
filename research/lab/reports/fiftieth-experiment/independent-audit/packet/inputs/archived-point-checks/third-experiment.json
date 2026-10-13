@@ -1,0 +1,683 @@
+{
+  "retrieved_at_utc": "2026-10-08T06:59:31.832291+00:00",
+  "sample_id": "PHerc0800",
+  "target_volume_id": "20250521135224",
+  "segment_id": "20251028222030",
+  "scientific_role": "Data integrity/source-render consistency diagnostic only, no model inference or letter reading.",
+  "export_provenance": {
+    "repo": "https://github.com/ScrollPrize/villa",
+    "commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+    "subdir": "volume-cartographer",
+    "dockerfile": "Dockerfile",
+    "image-repo": "585768151128.dkr.ecr.us-east-1.amazonaws.com/scrollprize/volume-cartographer",
+    "build-platform": "linux/arm64",
+    "binary-path": "vc_render_tifxyz",
+    "volume-path": "s3://scrollprize-volumes/esrf/20250506/SCROLLS_HEL_4.320um_1.0m_116keV_binmean_2_PHerc0800_TA_B_0001_masked.zarr/",
+    "scale": "1",
+    "segmentation-path": "s3://vesuvius-challenge/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz/",
+    "output": "s3://vesuvius-challenge/PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/",
+    "render-mode": "zarr",
+    "group-idx": "0",
+    "zarr-compressor": "none",
+    "zarr-compression-level": "",
+    "zarr-separator": "/",
+    "num-parts": "",
+    "target-duration-per-partition": "1800",
+    "max-parts": "20",
+    "auto-render-rate": "460",
+    "accum-type": "max",
+    "composite": "false",
+    "composite-start": "",
+    "composite-end": "",
+    "scale-segmentation": "",
+    "affine-transform": "",
+    "affines": "",
+    "affine-invert": "",
+    "rotate": "0",
+    "flip": "-1",
+    "flip-normals": "true",
+    "num-slices": "31",
+    "affine-matrix": "",
+    "crop-x": "0",
+    "crop-y": "0",
+    "crop-width": "0",
+    "crop-height": "0",
+    "voxel-size": "8.64",
+    "voxel-unit": "micrometer",
+    "memory": "15Gi",
+    "cache-gb": "8",
+    "render-threads": "8",
+    "cpu-requests": "8"
+  },
+  "source_commit": "530584554c031c982ba3aa243e1ea39c4bef9818",
+  "export_commit_retrieved_from_full_metadata": true,
+  "metadata_provenance": {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/metadata.json",
+    "byte_count": 1391330,
+    "sha256": "7ec8dcaa3000b9716724c26a1991ee416491d8a6b3615238ca90ae11540abdd3",
+    "decoded_byte_count": 17537378,
+    "headers": {
+      "x-amz-id-2": "ElVjsYMCfLcHh0myYarVttTf2kzJjAJr1DRXTxGFYffcRd1FtkeCTK2S7E+lGKyqeFF7QAOG+7g=",
+      "x-amz-request-id": "GGW0TTVTN8GQX783",
+      "date": "Wed, 07 Oct 2026 22:49:38 GMT",
+      "last-modified": "Mon, 05 Oct 2026 15:58:43 GMT",
+      "etag": "\"b4788ae14c64e13e57346c07c3f0b8a5\"",
+      "x-amz-storage-class": "INTELLIGENT_TIERING",
+      "x-amz-server-side-encryption": "AES256",
+      "content-encoding": "gzip",
+      "accept-ranges": "bytes",
+      "content-type": "application/json",
+      "content-length": "1391330",
+      "server": "envoy",
+      "x-envoy-upstream-service-time": "213",
+      "connection": "close"
+    }
+  },
+  "full_metadata_context_path": "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-native-consistency/target-segment-export-metadata.json",
+  "native_array_metadata": {
+    "shape": [
+      24298,
+      9867,
+      9867
+    ],
+    "chunks": [
+      128,
+      128,
+      128
+    ],
+    "fill_value": 0,
+    "order": "C",
+    "filters": null,
+    "dimension_separator": "/",
+    "compressor": null,
+    "zarr_format": 2,
+    "dtype": "|u1"
+  },
+  "native_array_metadata_source": {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/0/.zarray",
+    "final_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/0/.zarray",
+    "retrieved_at_utc": "2026-10-08T06:59:31.326305+00:00",
+    "sha256": "0dc78ab465bc614b960cfb86b235e6405ed8e54efc450eb7d1e7d213f5409d18",
+    "size_bytes": 239,
+    "etag": "\"8c5d4ee5dde890bcc735ef7ce7329eaa\"",
+    "last_modified": "Tue, 27 Jan 2026 09:51:55 GMT",
+    "content_encoding": null
+  },
+  "native_chunk_sources": [
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/0/93/49/26",
+      "final_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0800/volumes/20250521135224-8.640um-1.2m-116keV-masked.zarr/0/93/49/26",
+      "retrieved_at_utc": "2026-10-08T06:59:31.824325+00:00",
+      "sha256": "e1b76914d28dd93b535b31d2354327a5bb6b7fefe896126c32de0bb077a245b3",
+      "size_bytes": 2097152,
+      "etag": "\"5c2226d989b399bcdfad7ac60386fc63\"",
+      "last_modified": "Tue, 27 Jan 2026 11:53:51 GMT",
+      "content_encoding": null,
+      "file": "ct-chunk-93-49-26.bin",
+      "chunk_index_zyx": [
+        93,
+        49,
+        26
+      ],
+      "missing": false
+    }
+  ],
+  "downloaded_native_chunk_bytes": 2097152,
+  "native_chunk_decoded_bytes": 2097152,
+  "max_native_budget_bytes": 16777216,
+  "fixed_depth_offsets_voxels": [
+    -15,
+    -14,
+    -13,
+    -12,
+    -11,
+    -10,
+    -9,
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "sampling_convention": "Recorded31slice export: flipped nearest cached grid normal; centered layer offsets-15..15; source bilinear pixel coordinates with halfpixel; trilinear nativeCT interpolation; clip0..255 then truncate uint8. No fitted offsets/transforms. Reverse control reverses the fixed31samples.",
+  "implementation_precision_note": "Python retains the archived float32 normal/position operations and emulates float32 fused trilinear operations. One residual of one intensity count remains unresolved; numerical equality is not claimed at all 93 values.",
+  "points": [
+    {
+      "surface_xy": [
+        1280,
+        1280
+      ],
+      "grid_xy": [
+        64.0250015258789,
+        64.0250015258789
+      ],
+      "normal_grid_xy": [
+        64,
+        64
+      ],
+      "base_ct_xyz": [
+        3418.66845703125,
+        6300.1337890625,
+        11988.3916015625
+      ],
+      "cached_map_ct_xyz": [
+        3418.66845703125,
+        6300.1337890625,
+        11988.392578125
+      ],
+      "cached_vs_archived_base_max_abs_error_voxels": 0.0009765625,
+      "normal_xyz_flipped": [
+        0.76413893699646,
+        -0.601337194442749,
+        0.23342101275920868
+      ],
+      "surface_local_roi_xy": [
+        768,
+        768
+      ],
+      "observed_profile_uint8": [
+        120,
+        113,
+        78,
+        53,
+        44,
+        54,
+        75,
+        97,
+        115,
+        133,
+        143,
+        143,
+        141,
+        134,
+        134,
+        138,
+        126,
+        110,
+        99,
+        101,
+        104,
+        102,
+        92,
+        89,
+        101,
+        124,
+        140,
+        140,
+        133,
+        131,
+        129
+      ],
+      "source_ct_profile_float": [
+        120.60820007324219,
+        113.26619720458984,
+        78.78846740722656,
+        53.62474822998047,
+        44.377254486083984,
+        54.11527633666992,
+        75.77558135986328,
+        97.97309875488281,
+        115.95718383789062,
+        133.9552459716797,
+        143.24884033203125,
+        143.7635040283203,
+        141.20272827148438,
+        134.48585510253906,
+        134.7222137451172,
+        138.36228942871094,
+        126.92755889892578,
+        110.68791198730469,
+        99.020263671875,
+        101.27778625488281,
+        104.51949310302734,
+        102.0699462890625,
+        92.00459289550781,
+        89.07454681396484,
+        101.97389221191406,
+        124.85242462158203,
+        140.28829956054688,
+        140.72897338867188,
+        133.8365936279297,
+        131.0863800048828,
+        129.2876434326172
+      ],
+      "archived_forward_prediction_uint8": [
+        120,
+        113,
+        78,
+        53,
+        44,
+        54,
+        75,
+        97,
+        115,
+        133,
+        143,
+        143,
+        141,
+        134,
+        134,
+        138,
+        126,
+        110,
+        99,
+        101,
+        104,
+        102,
+        92,
+        89,
+        101,
+        124,
+        140,
+        140,
+        133,
+        131,
+        129
+      ],
+      "forward": {
+        "mean_abs_error": 0.0,
+        "max_abs_error": 0,
+        "exact_matches": 31,
+        "within_one_intensity_count": 31
+      },
+      "reverse_order_diagnostic": {
+        "mean_abs_error": 37.29032258064516,
+        "max_abs_error": 96,
+        "exact_matches": 1
+      }
+    },
+    {
+      "surface_xy": [
+        1279,
+        1280
+      ],
+      "grid_xy": [
+        63.974998474121094,
+        64.0250015258789
+      ],
+      "normal_grid_xy": [
+        64,
+        64
+      ],
+      "base_ct_xyz": [
+        3418.0576171875,
+        6299.35107421875,
+        11988.375
+      ],
+      "cached_map_ct_xyz": [
+        3418.0576171875,
+        6299.3505859375,
+        11988.3759765625
+      ],
+      "cached_vs_archived_base_max_abs_error_voxels": 0.0009765625,
+      "normal_xyz_flipped": [
+        0.76413893699646,
+        -0.601337194442749,
+        0.23342101275920868
+      ],
+      "surface_local_roi_xy": [
+        767,
+        768
+      ],
+      "observed_profile_uint8": [
+        115,
+        114,
+        92,
+        63,
+        50,
+        60,
+        78,
+        92,
+        108,
+        124,
+        135,
+        138,
+        137,
+        137,
+        141,
+        140,
+        125,
+        105,
+        96,
+        99,
+        114,
+        116,
+        116,
+        110,
+        118,
+        128,
+        142,
+        153,
+        158,
+        157,
+        142
+      ],
+      "source_ct_profile_float": [
+        115.99866485595703,
+        114.72583770751953,
+        92.173583984375,
+        63.171688079833984,
+        50.71885299682617,
+        60.05995559692383,
+        78.24176025390625,
+        92.7615966796875,
+        108.03308868408203,
+        124.16992950439453,
+        135.3446502685547,
+        138.59262084960938,
+        137.09487915039062,
+        137.21580505371094,
+        141.35061645507812,
+        140.48643493652344,
+        125.77027130126953,
+        105.94331359863281,
+        96.00813293457031,
+        99.95799255371094,
+        114.0710220336914,
+        116.97660827636719,
+        116.1036148071289,
+        110.90909576416016,
+        118.83454895019531,
+        128.1244354248047,
+        142.2843475341797,
+        153.71273803710938,
+        158.91554260253906,
+        157.26380920410156,
+        142.03994750976562
+      ],
+      "archived_forward_prediction_uint8": [
+        115,
+        114,
+        92,
+        63,
+        50,
+        60,
+        78,
+        92,
+        108,
+        124,
+        135,
+        138,
+        137,
+        137,
+        141,
+        140,
+        125,
+        105,
+        96,
+        99,
+        114,
+        116,
+        116,
+        110,
+        118,
+        128,
+        142,
+        153,
+        158,
+        157,
+        142
+      ],
+      "forward": {
+        "mean_abs_error": 0.0,
+        "max_abs_error": 0,
+        "exact_matches": 31,
+        "within_one_intensity_count": 31
+      },
+      "reverse_order_diagnostic": {
+        "mean_abs_error": 39.29032258064516,
+        "max_abs_error": 92,
+        "exact_matches": 1
+      }
+    },
+    {
+      "surface_xy": [
+        1280,
+        1281
+      ],
+      "grid_xy": [
+        64.0250015258789,
+        64.07499694824219
+      ],
+      "normal_grid_xy": [
+        64,
+        64
+      ],
+      "base_ct_xyz": [
+        3418.87744140625,
+        6299.9990234375,
+        11987.4267578125
+      ],
+      "cached_map_ct_xyz": [
+        3418.87744140625,
+        6299.9990234375,
+        11987.4267578125
+      ],
+      "cached_vs_archived_base_max_abs_error_voxels": 0.0,
+      "normal_xyz_flipped": [
+        0.76413893699646,
+        -0.601337194442749,
+        0.23342101275920868
+      ],
+      "surface_local_roi_xy": [
+        768,
+        769
+      ],
+      "observed_profile_uint8": [
+        113,
+        113,
+        82,
+        56,
+        44,
+        48,
+        68,
+        88,
+        105,
+        122,
+        137,
+        142,
+        136,
+        132,
+        139,
+        149,
+        137,
+        120,
+        108,
+        109,
+        111,
+        109,
+        103,
+        100,
+        110,
+        130,
+        138,
+        134,
+        124,
+        126,
+        131
+      ],
+      "source_ct_profile_float": [
+        113.94700622558594,
+        113.7513656616211,
+        82.9384765625,
+        56.52887725830078,
+        44.7119026184082,
+        48.69761276245117,
+        68.66313171386719,
+        88.2975845336914,
+        105.3066177368164,
+        122.2439956665039,
+        137.75538635253906,
+        142.68060302734375,
+        136.37550354003906,
+        132.24920654296875,
+        139.9810333251953,
+        149.50440979003906,
+        137.56170654296875,
+        120.96552276611328,
+        108.54947662353516,
+        109.24147033691406,
+        111.51261138916016,
+        109.81643676757812,
+        103.3250961303711,
+        100.03679656982422,
+        110.32949829101562,
+        130.17214965820312,
+        138.87123107910156,
+        134.34771728515625,
+        125.00161743164062,
+        126.48014068603516,
+        131.183349609375
+      ],
+      "archived_forward_prediction_uint8": [
+        113,
+        113,
+        82,
+        56,
+        44,
+        48,
+        68,
+        88,
+        105,
+        122,
+        137,
+        142,
+        136,
+        132,
+        139,
+        149,
+        137,
+        120,
+        108,
+        109,
+        111,
+        109,
+        103,
+        100,
+        110,
+        130,
+        138,
+        134,
+        125,
+        126,
+        131
+      ],
+      "forward": {
+        "mean_abs_error": 0.03225806451612903,
+        "max_abs_error": 1,
+        "exact_matches": 30,
+        "within_one_intensity_count": 31
+      },
+      "reverse_order_diagnostic": {
+        "mean_abs_error": 32.096774193548384,
+        "max_abs_error": 94,
+        "exact_matches": 1
+      }
+    }
+  ],
+  "all_profiles_within_one_intensity_count": true,
+  "status": "supports_recorded_source_render_mapping_at_tested_points",
+  "input_files_sha256": {
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.meta.json": "f7c101ec939bc37cc888e3c4990e85cac4fbfebeba51b2c18b0ded523b1138ef",
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.x.tif": "4d76b0c52c98dfc85c0a242af02ec9e6b923c462f99158771fb3ffd6778d2209",
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.y.tif": "bf68dadf590e676266493e544ae1e5336310a0b8be6a63be3ff233e4a03e2c0c",
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.z.tif": "11dd2d78632ba5fabf23d3d917904e4e3af5f740a1079ce63d659c49c12e896d",
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-ct-coordinates.xyz.npy": "fc5e87c8bbfcfe9c85c446c3a6bceba8e7c80bed97d3a30aaf36bfbb65f4567c",
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-larger1536/surface.npy": "67b986675272364c0d677b3cf0741c42087d5950536b7f89adbc36b1c05f56b0",
+    "/workspace/herculaneum-lab/data/experiments/pherc0800-larger1536/provenance.json": "537f42b286d37bd98c889fa8196fdceee10b714f79a69e2f321513b5a87feb49"
+  },
+  "point_selection": {
+    "frozen_at_utc": "2026-10-08T06:59:29.820175+00:00",
+    "segment_id": "20251028222030",
+    "selection_rule": "Requested integer ROI center(1280,1280), left neighbor and lower neighbor; all three have valid bilinear geometry. No detector map or source profile was inspected to choose points. If center were invalid, nearest valid adjacent triplet by squared distance thenY,X would have been used; fallback not needed.",
+    "points_surface_xy": [
+      [
+        1280,
+        1280
+      ],
+      [
+        1279,
+        1280
+      ],
+      [
+        1280,
+        1281
+      ]
+    ],
+    "roi_origin_xy": [
+      512,
+      512
+    ],
+    "points_local_roi_xy": [
+      [
+        768,
+        768
+      ],
+      [
+        767,
+        768
+      ],
+      [
+        768,
+        769
+      ]
+    ],
+    "native_payload_cap_bytes": 16777216,
+    "input_geometry_sha256": {
+      "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.meta.json": "f7c101ec939bc37cc888e3c4990e85cac4fbfebeba51b2c18b0ded523b1138ef",
+      "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.x.tif": "4d76b0c52c98dfc85c0a242af02ec9e6b923c462f99158771fb3ffd6778d2209",
+      "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.y.tif": "bf68dadf590e676266493e544ae1e5336310a0b8be6a63be3ff233e4a03e2c0c",
+      "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/mesh.z.tif": "11dd2d78632ba5fabf23d3d917904e4e3af5f740a1079ce63d659c49c12e896d",
+      "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-valid-mask.npy": "d7e70bff345925045b78039773dc40669922d723f423f446cec597b2bd9032bd",
+      "/workspace/herculaneum-lab/data/experiments/pherc0800-larger-geometry/20251028222030/full-surface-ct-coordinates.xyz.npy": "fc5e87c8bbfcfe9c85c446c3a6bceba8e7c80bed97d3a30aaf36bfbb65f4567c"
+    },
+    "geometry_selection_json_sha256": "1a2e44b6b11321aa49ccce0a2effcffd65d757c6c333733d1ba8ae024e2d7ff4"
+  },
+  "point_selection_sha256": "c85fb498124a5ad83e4e79a6f64fc0fe36a6c01389a4adf90dadf97236bf4223",
+  "sampling_helper_sha256": "2c9cd25a8fdf85b80c9a692def5a756b3fa05c99c8605e2a20c5f79101f83188",
+  "adapted_from_helper": {
+    "path": "/workspace/herculaneum-lab/data/experiments/pherc0800-native-ct-consistency/check_native_ct.py",
+    "sha256": "e8af04367bf0ab4ea39a6f953fddd86d258765317f3647268425852f7f37ba07"
+  },
+  "limitations": [
+    "Three selected31layer profiles cannot validate all surface pixels or every render partition.",
+    "A reproducible intensity profile cannot prove ink presence, text legibility or absence of prediction hallucinations.",
+    "The native public volume is compared to the archived export of an internal volume path; identity is tested at these points, not assumed globally."
+  ],
+  "exact_quantized_matches_total": 92,
+  "quantized_values_compared_total": 93,
+  "values_within_one_intensity_count_total": 93,
+  "unresolved_residual": {
+    "surface_xy": [
+      1280,
+      1281
+    ],
+    "depth_index": 28,
+    "observed_uint8": 124,
+    "predicted_uint8": 125,
+    "cause": "Unresolved; no parameter fitting or transform modification was performed"
+  },
+  "profile_plot": {
+    "path": "/workspace/herculaneum-lab/reports/third-experiment/native-ct-consistency.png",
+    "sha256": "ef6fd472a840e5141ff908ab0f92762bd4b273aabaabbf0766f3cb72c9e462fc"
+  }
+}

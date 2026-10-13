@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scope": "All six whole-crop top-10% pair distances verified independently with cKDTree; no inference or accuracy claim.",
+  "checks": [
+    {
+      "pair": "dnative phase",
+      "selected_A": 905490,
+      "selected_B": 907750,
+      "mean": 2.2511898026676964,
+      "p95": 8.602325267042627,
+      "within8": 0.9460170744082416,
+      "status": "PASS"
+    },
+    {
+      "pair": "seed42 phase",
+      "selected_A": 906752,
+      "selected_B": 909465,
+      "mean": 8.55906384886067,
+      "p95": 45.880278987817846,
+      "within8": 0.7634517241056548,
+      "status": "PASS"
+    },
+    {
+      "pair": "seed43 phase",
+      "selected_A": 900879,
+      "selected_B": 913950,
+      "mean": 9.877727583178377,
+      "p95": 58.42088667591412,
+      "within8": 0.7612166215108972,
+      "status": "PASS"
+    },
+    {
+      "pair": "dnative / seed42",
+      "selected_A": 910953,
+      "selected_B": 905875,
+      "mean": 26.78478938906726,
+      "p95": 133.4053971921676,
+      "within8": 0.5947547043528612,
+      "status": "PASS"
+    },
+    {
+      "pair": "dnative / seed43",
+      "selected_A": 910953,
+      "selected_B": 905889,
+      "mean": 29.458880160020716,
+      "p95": 147.85009290959937,
+      "within8": 0.5730349694690017,
+      "status": "PASS"
+    },
+    {
+      "pair": "seed42 / seed43",
+      "selected_A": 905875,
+      "selected_B": 905889,
+      "mean": 24.58192159670172,
+      "p95": 108.55873986004075,
+      "within8": 0.536343033640143,
+      "status": "PASS"
+    }
+  ]
+}

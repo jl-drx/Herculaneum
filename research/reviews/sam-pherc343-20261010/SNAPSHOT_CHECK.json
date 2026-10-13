@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "bundle": "pherc343-results-001.tar.gz",
+      "bytes": 37569445,
+      "sha256": "621d774c4b9e20e4ea8d3b5fa9e8d5394fbc15803a97e38d046cd9789fa9cf06",
+      "status": "PASS"
+    },
+    {
+      "bundle": "pherc343-reference-001.tar.gz",
+      "bytes": 9780724,
+      "sha256": "58eac58201435f29c5321d2793b74c4853fdceac263e6c6cc74ac7686263c232",
+      "status": "PASS"
+    },
+    {
+      "path": "reports/fortysixth-experiment/REAL_INPUT_VERIFICATION.json",
+      "sha256": "338005c42d9b173ccf659833c75da88479ebce35d1b180fc2e1c500860b38d1d",
+      "status": "PASS"
+    },
+    {
+      "path": "reports/fortyfifth-experiment/ph343-mesh-replay/concat_w047-w048_R5B2_z9500-11000_node_source.npz",
+      "sha256": "1aafffec612e4f5c57f7b4320b0cc2820337450cc6baaa8420312094d9e7a63a",
+      "status": "PASS"
+    },
+    {
+      "path": "reports/fortyfifth-experiment/source-evidence/pherc343/inputs/concat_w047-w048_R5B2_z9500-11000_letter_boxes.json",
+      "sha256": "d431a5db05dccc811d2fbf5205c1c068c9121a46d7a676ef1967f4c192d3aad1",
+      "status": "PASS"
+    }
+  ],
+  "original_review_files_preserved": 10,
+  "scope": "Local retained archives, source metadata and input-verification receipt match snapshot manifest; CT interiors were not newly re-read during this review."
+}

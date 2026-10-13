@@ -1,0 +1,19 @@
+# Independent score and support review
+
+11 October2026. The pre-acquisition score checks passed. They test arithmetic and support separation, not physical sheet identity or ink.
+
+- The positive shift convention is correct: a native template at(z,y,x) is compared with fine at(z+dz,y+dy,x+dx).
+- Native array indices6:14 correspond to global layers10:18. Fine indices0:20 supply every integer shift−6…+6. The32-square template and44-square search windows are correctly indexed, including the8-pixel core halo.
+- The fit is the mean of four separately centered and normalized Pearson correlations, as specified; it is not a pooled-pixel correlation. Independent checking optima remain diagnostics.
+- Independently calculated direct Pearson values matched all2197 entries for one support and115 further entries across supports/cases, maximum absolute difference1.11e−15. Three independently generated whole-site shift fixtures recovered their prescribed shifts. The endpoint(+6) fixture correctly fails the boundary criterion. A periodic-depth fixture fails the distinct-peak margin screen; constant template and constant search are rejected.
+- Actual mapped fine-query bounding boxes for all eight supports at each of three sites are pairwise disjoint, including trilinear interpolation and fine-Z Gaussian radius5. The boxes are conservative; disjoint boxes prove no shared fine voxels between these fitting/checking windows. Sharing transport chunks is not sharing scientific support.
+
+The original core-basis metric was inadequate for curved geometry. The independently supplied local bases differ in normal direction by up to30.7°,13.0°,22.7° from their respective core centers. The amended source uses the correct support-specific basis for physical competitor neighborhoods and normal/tangential checking discrepancies. The core basis only reports the fit displacement at the center. This is a single shift in surface coordinates, not one rigid XYZ translation.
+
+Independent scalar bookkeeping with all three sets of actual local bases reproduced competitor indices and physical residual/margin values, maximum metric difference4.17e−17. Local versus core metrics changed18,2,10 neighborhood-mask entries respectively across the eight supports at zero shift; using local geometry can affect the selected competitor. These are finite first-order metrics at support centers, not exact nonlinear transport over entire cores.
+
+The reviewer also identified that FP32 normal lengths can exceed1 by roughly1e−8. A strict distance>2 test can consequently classify precisely two depth steps as outside a2-voxel neighborhood. The author corrected this before CT acquisition with the documented1e−6 native-voxel arithmetic tolerance, preserving the prior code. Review of the final source confirms that the tolerance is applied to both competitor tests and all distance limits, without changing any NCC, fitted shift, or biological threshold. `CODE_FREEZE.json` pins final score SHA256`f6efc95fd824fbe3fce5bae7d7a2bf1a9f02164682805fed1ef83960e95563c9`.
+
+`RESULTS.json` and `SUMMARY_CHECK.json` preserve the independent synthetic/direct calculations on the local-basis version before that tolerance-only correction. `structural_scores_reviewed.py` pins exactly that reviewed source. The final tolerance changes are inspected separately above; no claim is made that the older fixture snapshot is byte-identical to the final source.
+
+The subsequent actual-data review should independently replay saved arrays and every decision with the final tolerance. A high score may follow bulk substrate or masked-support boundaries; fixed full-depth views must identify nonrepeating structure on the same lamina before a same-sheet claim. A failure may reflect acquisition/representation mismatch or weak structure, not proof of absent ink or impossible paired learning.

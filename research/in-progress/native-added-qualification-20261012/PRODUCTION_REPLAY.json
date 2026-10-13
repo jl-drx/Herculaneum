@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "production_case_results_equal": true,
+  "derived_files_byte_identical": [
+    "pherc0814-20250925161630-support.csv",
+    "pherc0814-20250925161630-patches.npz"
+  ],
+  "qualification_results_sha256": "a3793dad6353b79eb348bbca20d819521fa8de9794414d1efb2eda7704665364",
+  "implementation_sha256": "e35daf8aa2fd23d0df0a8ff112249bfd4870d2f59e1a4b862fd698b222877790",
+  "scope": "Fresh local production replay from restored raw source cache; not another-machine review or physical accuracy.",
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

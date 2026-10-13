@@ -1,0 +1,362 @@
+{
+  "20250728140407": {
+    "id": "20250728140407",
+    "sample_id": "PHerc0139",
+    "scan_id": "20250720065842",
+    "long_id": "20250728140407-9.362um-1.2m-113keV-masked.zarr",
+    "suffix": "masked.zarr",
+    "creation": {
+      "date": "2025-07-28T14:04:07Z",
+      "process": "mask_layers_zarr_export",
+      "metadata": {
+        "target_window_f32_min": -0.03,
+        "target_window_f32_max": 0.145,
+        "window_u16_min": 0,
+        "window_u16_max": 65535,
+        "workflow_name": "export-esrf-20250717-0139-3-dilation",
+        "workflow_creation": "2025-07-28T14:04:07Z"
+      },
+      "derived_from": {
+        "type": "scan",
+        "id": "20250720065842"
+      }
+    },
+    "properties": {
+      "energy_keV": 113.0,
+      "detector_distance_mm": 1200.0,
+      "pixel_size_um": 9.362,
+      "data_format": "uint8",
+      "transforms": null,
+      "shape": [
+        20974,
+        6621,
+        6621
+      ],
+      "z_direction_is_top_to_bottom": true,
+      "left_handed_coordinates": false,
+      "text_side": null,
+      "superseded_by": null,
+      "license": {
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    },
+    "data": [
+      {
+        "type": "ome-zarr",
+        "origins": [
+          {
+            "path": "PHerc0139/volumes/20250728140407-9.362um-1.2m-113keV-masked.zarr/",
+            "access_roots": [
+              {
+                "type": "s3",
+                "url": "s3://vesuvius-challenge-open-data",
+                "usage": "public-read"
+              }
+            ],
+            "copy_info": {
+              "source_path": "s3://scrollprize-volumes/esrf/20250717/SCROLLS_HEL_4.681um_113keV_1.2m_binmean_2_PHerc_0139_TA_0001_masked.zarr/",
+              "date": "2026-04-15T09:06:09.905571Z",
+              "workflow_execution": "s3sync-pherc0139-c3035079"
+            }
+          }
+        ],
+        "properties": null,
+        "parameters": null,
+        "creation_info": null
+      },
+      {
+        "type": "surface-prediction-zarr",
+        "origins": [
+          {
+            "path": "PHerc0139/representations/predictions/surfaces/20250728140407-surface-20250701154204-surface-recto-090.zarr/",
+            "access_roots": [
+              {
+                "type": "s3",
+                "url": "s3://vesuvius-challenge-open-data",
+                "usage": "public-read"
+              }
+            ],
+            "copy_info": {
+              "source_path": "s3://volpkgs/PHerc0139.volpkg/volumes/090_binmean_surf.zarr/",
+              "date": "2026-05-13T12:33:03.175647Z",
+              "workflow_execution": "s3sync-pherc0139-2986472c"
+            }
+          }
+        ],
+        "properties": null,
+        "parameters": {
+          "model_id": "20250701154204"
+        },
+        "creation_info": null
+      },
+      {
+        "type": "surface-prediction-zarr",
+        "origins": [
+          {
+            "path": "PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.zarr/",
+            "access_roots": [
+              {
+                "type": "s3",
+                "url": "s3://vesuvius-challenge-open-data",
+                "usage": "public-read"
+              }
+            ],
+            "copy_info": {
+              "source_path": "s3://scrollprize-reconstruction/surfaces/m7/PHerc0139/20250728140407/20250728140407-9.362um-1.2m-113keV-masked.zarr.ome.zarr/",
+              "date": "2026-05-13T17:19:39.941878Z",
+              "workflow_execution": "s3sync-pherc0139-eef5af7c"
+            }
+          }
+        ],
+        "properties": null,
+        "parameters": {
+          "model_id": "20260413222639",
+          "level": 0,
+          "threshold_value": 0.2,
+          "tta": "none"
+        },
+        "creation_info": {
+          "workflow_name": "surface-inference-9um-pherc0139-20250728140407",
+          "workflow_namespace": "wf-inference",
+          "workflow_uid": "2abd4b73-991b-46fd-bbae-a1d88365ea65",
+          "workflow_creation_timestamp": "2026-04-24T10:29:40Z",
+          "inference_cache_key": "surface-inference-9um-pherc0139-20250728140407",
+          "blend_key": "surface-inference-9um-pherc0139-20250728140407",
+          "generated_at": "2026-05-06T08:31:01Z",
+          "model_type": "auto",
+          "batch_size": 4,
+          "ome_num_levels": 6,
+          "ome_downsampling_algorithm": "nearest",
+          "zarr_compressor": "lz4",
+          "zarr_compression_level": 7
+        }
+      },
+      {
+        "type": "normal-grids",
+        "origins": [
+          {
+            "path": "PHerc0139/representations/predictions/surfaces/20250728140407-surface-20260413222639-surface-m7-L0-th0.2.normal-grids/",
+            "access_roots": [
+              {
+                "type": "s3",
+                "url": "s3://vesuvius-challenge-open-data",
+                "usage": "public-read"
+              }
+            ],
+            "copy_info": {
+              "source_path": "s3://scrollprize-reconstruction/surfaces/m7/PHerc0139/20250728140407/20250728140407-9.362um-1.2m-113keV-masked.zarr.ome.zarr/normal_grids/",
+              "date": "2026-07-07T10:00:19.930718Z",
+              "workflow_execution": "s3sync-pherc0139-9d638d1d"
+            }
+          }
+        ],
+        "properties": null,
+        "parameters": {
+          "model_id": "20260413222639",
+          "level": 0,
+          "threshold_value": 0.2
+        },
+        "creation_info": {
+          "grid_step": 64,
+          "input_level": 0,
+          "prune_min_length_px": 20.0,
+          "sparse_volume": 1,
+          "spiral_step": 20.0
+        }
+      }
+    ]
+  },
+  "20251107132835": {
+    "id": "20251107132835",
+    "sample_id": "PHerc0139",
+    "scan_id": "20250720065842",
+    "long_id": "20251107132835-9.362um-1.2m-113keV-pag0-masked.zarr",
+    "suffix": "masked.zarr",
+    "creation": {
+      "date": "2025-11-07T13:28:35Z",
+      "process": "mask_layers_zarr_export",
+      "metadata": {
+        "target_window_f32_min": -0.09,
+        "target_window_f32_max": 0.4,
+        "window_u16_min": 0,
+        "window_u16_max": 65535,
+        "workflow_name": "mask-layers-sam2long-tp7pt",
+        "workflow_creation": "2025-11-07T13:28:35Z",
+        "comment": "Export of the pag0 reconstruction. Voxel-aligned with 20250728140407 - identity transform, established by 3D cross-correlation of full-resolution blocks at three locations including one ~2300 px off the rotation axis, where the disabled detector distortion correction would have shown. The export's metadata.json reported target_window_f32 -0.03/0.145, the paganin1000 default that its workflow records regardless of the window actually applied; window_u16 0..65535 means the full range of this reconstruction's own 32-bit conversion was written, so the f32 window recorded here is derived from that conversion instead. Masking is unreliable at both z ends: an unmasked blob over z 1144-1310, and the full reconstruction disc including the sample holder from z 20448 to the end of the array."
+      },
+      "derived_from": {
+        "type": "volume",
+        "id": "20251105184744"
+      }
+    },
+    "properties": {
+      "energy_keV": 113.0,
+      "detector_distance_mm": 1200.0,
+      "pixel_size_um": 9.362,
+      "data_format": "uint8",
+      "transforms": [
+        {
+          "to_volume_id": "20250728140407",
+          "transformation_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "from_landmarks": null,
+          "to_landmarks": null
+        }
+      ],
+      "shape": [
+        20961,
+        6621,
+        6621
+      ],
+      "z_direction_is_top_to_bottom": true,
+      "left_handed_coordinates": false,
+      "text_side": null,
+      "superseded_by": null,
+      "license": {
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      "render_segments": false
+    },
+    "data": [
+      {
+        "type": "ome-zarr",
+        "origins": [
+          {
+            "path": "PHerc0139/volumes/20251107132835-9.362um-1.2m-113keV-pag0-masked.zarr/",
+            "access_roots": [
+              {
+                "type": "s3",
+                "url": "s3://vesuvius-challenge-open-data",
+                "usage": "public-read"
+              }
+            ],
+            "copy_info": {
+              "source_path": "s3://scrollprize-volumes/esrf/20250717/paganin-experiments/paganin0-v2/SCROLLS_HEL_4.681um_113keV_1.2m_binmean_2_PHerc_0139_TA_0001_masked.zarr/",
+              "date": "2026-09-29T14:43:25.093569Z",
+              "workflow_execution": "s3sync-pherc0139-6322499d"
+            }
+          }
+        ],
+        "properties": null,
+        "parameters": null,
+        "creation_info": null
+      }
+    ]
+  },
+  "20251107135911": {
+    "id": "20251107135911",
+    "sample_id": "PHerc0139",
+    "scan_id": "20250720065842",
+    "long_id": "20251107135911-9.362um-1.2m-113keV-pag50-masked.zarr",
+    "suffix": "masked.zarr",
+    "creation": {
+      "date": "2025-11-07T13:59:11Z",
+      "process": "mask_layers_zarr_export",
+      "metadata": {
+        "target_window_f32_min": -0.16,
+        "target_window_f32_max": 0.75,
+        "window_u16_min": 0,
+        "window_u16_max": 65535,
+        "workflow_name": "mask-layers-sam2long-rb6zw",
+        "workflow_creation": "2025-11-07T13:59:11Z",
+        "comment": "Export of the pag50 reconstruction. Voxel-aligned with 20250728140407 - identity transform, established by 3D cross-correlation of full-resolution blocks; it agrees with its pag0 sibling 20251107132835 to r=0.98 at zero shift. The export's metadata.json reported target_window_f32 -0.03/0.145, the paganin1000 default that its workflow records regardless of the window actually applied; window_u16 0..65535 means the full range of this reconstruction's own 32-bit conversion was written, so the f32 window recorded here is derived from that conversion instead. Masking is unreliable at both z ends, in the same places as 20251107132835: an unmasked blob over z 1144-1310, and the full reconstruction disc including the sample holder from z 20448 to the end."
+      },
+      "derived_from": {
+        "type": "volume",
+        "id": "20251105184555"
+      }
+    },
+    "properties": {
+      "energy_keV": 113.0,
+      "detector_distance_mm": 1200.0,
+      "pixel_size_um": 9.362,
+      "data_format": "uint8",
+      "transforms": [
+        {
+          "to_volume_id": "20250728140407",
+          "transformation_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "from_landmarks": null,
+          "to_landmarks": null
+        }
+      ],
+      "shape": [
+        20961,
+        6621,
+        6621
+      ],
+      "z_direction_is_top_to_bottom": true,
+      "left_handed_coordinates": false,
+      "text_side": null,
+      "superseded_by": null,
+      "license": {
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      "render_segments": false
+    },
+    "data": [
+      {
+        "type": "ome-zarr",
+        "origins": [
+          {
+            "path": "PHerc0139/volumes/20251107135911-9.362um-1.2m-113keV-pag50-masked.zarr/",
+            "access_roots": [
+              {
+                "type": "s3",
+                "url": "s3://vesuvius-challenge-open-data",
+                "usage": "public-read"
+              }
+            ],
+            "copy_info": {
+              "source_path": "s3://scrollprize-volumes/esrf/20250717/paganin-experiments/paganin50-v2/SCROLLS_HEL_4.681um_113keV_1.2m_binmean_2_PHerc_0139_TA_0001_masked.zarr/",
+              "date": "2026-09-29T14:43:25.128320Z",
+              "workflow_execution": "s3sync-pherc0139-98b1e1fc"
+            }
+          }
+        ],
+        "properties": null,
+        "parameters": null,
+        "creation_info": null
+      }
+    ]
+  }
+}

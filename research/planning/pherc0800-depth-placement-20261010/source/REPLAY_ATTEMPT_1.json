@@ -1,0 +1,8 @@
+{
+  "status": "FAIL_IMPLEMENTATION_INPUT_DTYPE_MISMATCH",
+  "passed_maps_before_failure": 12,
+  "failure_location": "replay_baseline_v1.py:49",
+  "failure": "Hecate prepared model-input identity assertion",
+  "diagnosis": "NumPy any returns bool; original torch.any on uint8 returns uint8. The reassembly helper constructed bool support, which failed the recorded input dtype/hash check. No prior input or receipt changed; no neural inference occurred.",
+  "correction": "Construct the support with original torch uint8 any and expand, preserving dtype and bytes."
+}

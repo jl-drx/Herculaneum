@@ -1,0 +1,54 @@
+{
+  "fatal_source_errors": [],
+  "renders": [
+    {
+      "command": [
+        "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/squashfs-root/AppRun",
+        "vc_render_tifxyz",
+        "--volume",
+        "/workspace/herculaneum-lab/reports/fortyninth-experiment/work/renderer-cache-31",
+        "--remote-url",
+        "http://127.0.0.1:41131",
+        "--group-idx",
+        "0",
+        "--scale",
+        "1",
+        "--segmentation",
+        "/workspace/herculaneum-lab/reports/fortyninth-experiment/work/target.tifxyz",
+        "--num-slices",
+        "31",
+        "--slice-step",
+        "1",
+        "--flip-normals",
+        "--crop-x",
+        "1216",
+        "--crop-y",
+        "1216",
+        "--crop-width",
+        "128",
+        "--crop-height",
+        "128",
+        "--cache-gb",
+        "1",
+        "--zarr-output",
+        "/workspace/herculaneum-lab/reports/fortyninth-experiment/work/target-31.zarr",
+        "--zarr-compressor",
+        "none",
+        "--pyramid",
+        "0",
+        "--timeout",
+        "3"
+      ],
+      "depth": 31,
+      "exit_code": 1,
+      "seconds": 4.334437130000879
+    }
+  ],
+  "script": {
+    "path": "/workspace/herculaneum-lab/reports/fortyninth-experiment/render_qualification.py",
+    "sha256": "d41871f9ccfdf17351657514b0fc6033d7e14c8f6d7dc82ef69a43dd9e5029b6",
+    "size_bytes": 6249
+  },
+  "status": "FAIL",
+  "transport": "Loopback finite whitelist; public upstream HTTPS through inherited proxy and TLS verification"
+}

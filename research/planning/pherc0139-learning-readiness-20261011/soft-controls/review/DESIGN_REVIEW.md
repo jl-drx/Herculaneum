@@ -1,0 +1,17 @@
+# Independent review of the finite soft-target control
+
+Protocol SHA-256: `dd87ce2618f75564d072fbc08ab3a1689bc37d1fbc0128620f5452b2e69e3052`.
+
+The frozen comparison is internally suitable for its narrow question: determine what the four explicitly specified target operators produce on the already inspected, retained source domain. It does not measure learner performance, establish a physical ink surface, validate the failed correspondence screen, or provide independent experimental replicates.
+
+The common mask is necessary. Applying every global-kernel displacement to every support can request teacher pixels outside the old crop. Those requests must remain invalid, with all four arms restricted together; no repaired crop, reflection or zero fill is appropriate. The teacher-negative fourth support must remain in the report even though active-union metrics there are undefined. Native eligibility must include all 28 retained CT planes, independently of the eight declared target-transfer planes.
+
+The equal weighting is correct for the stated control: one quarter of C's mass belongs to each of four kernels, and each kernel is internally uniform. Pooling 43 listed alternatives equally changes that question. Neither weighting is a posterior probability model; the four supports and their alternatives do not supply estimated registration probabilities.
+
+C preserves the pooled displacement distribution, but not each support's mean or covariance. Therefore B minus C combines local association, average displacement and spread. It is not an isolated measurement of useful uncertainty. D helps: B minus D measures score averaging beyond sampling at the mean projected coordinate. A small B–D difference means this particular score field behaves approximately linearly over these query sets; it does not prove that every geometric uncertainty method is equivalent to translation, or that coordinate averaging identifies the true ink surface. The score at a mean UV coordinate is itself coordinate-system dependent.
+
+Raw teacher/255 is an uncalibrated score. The source threshold 48 must not be silently promoted to probability 0.5. Target entropy is an algebraic description of the scores, not empirical ink uncertainty. The one-source-level comparison was declared on an already inspected packet; its strict crossing is descriptive and cannot serve as a detectable-learning-effect gate. A result barely above one level deserves the same caution as a result barely below it.
+
+A later learning comparison must preserve the physical split, input depth, architecture, exposure, masks, augmentation and optimisation across arms. It needs an endpoint whose construction does not simply favour one of these training targets. Teacher imitation can be measured honestly, but should not be called an ink-accuracy gain. These four small supports have shared teacher context and supply no such endpoint. The next consequential work after this finite control is qualification of an evaluation reference and a physical split, rather than another four-patch training run or a search over more operators on these targets.
+
+The independent replay is deliberately separate from the production implementation: it loads only retained crop, query field, validity mask, eligibility mask and candidate inventory; computes nested bilinear interpolation; saves every case; and then recomputes production summaries from saved candidate arrays. Floating-point differences at exactly 48 are retained, not rounded away.

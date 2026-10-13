@@ -1,12 +1,22 @@
 # Herculaneum research charter
 
-Updated 8 October 2026 after the user's explicit clarification. This charter supersedes prize-first priorities in earlier briefs and experiment recommendations; those historical records remain unchanged.
+Updated 12 October 2026 after the user's approval of the broader research programme. This charter supersedes prize-first priorities in earlier briefs and experiment recommendations; those historical records remain unchanged.
+
+## Current priority amendment, 12 October 2026
+
+The [active research plan](../CURRENT_PLAN.md) and [ranked programme](../planning/plinius-frontier-programme-20261012/README.md) now govern work selection. Pursue correct-sheet recovery and broad native ink learning in parallel, supported by targeted annotation and fresh physically separated evaluation. Distinguish topology/connected coverage from local surface placement. Do not select geometry solely by an ink detector's response. Strong released models and adequate GPU-scale training are eligible hypotheses even when a small CPU proxy fails.
+
+The native0139 nine-fit study, its full-depth inputs and locked evaluation remain unchanged. Its result is a baseline, not a ceiling or a universal admission gate. All already inspected evaluation support becomes development evidence for later studies. Reserve new confirmation support before viewing labels/scores; declare unknown upstream training and teacher ancestry.
+
+New paid compute requires explicit approval after a concrete workload, cost bound, environment, result delivery and independent shutdown are ready. The £10 total first-pilot cap remains. Keep GitHub work private; no new PR is required for routine research commits. Selective private Git LFS snapshots and checkpoint backup branches now exist; use their receipts to establish what is actually backed up.
+
+The evidence, immediate-action and H1–H3 sections below preserve the original 8 October starting position. Their sequence is historical and is superseded by the linked active plan; the objective and evidence-quality principles remain in force.
 
 ## Objective and roles
 
 Develop leading models and techniques for recovering defensible information from Herculaneum CT. A first-in-class claim requires a precisely defined task, strong contemporary baselines, independently supported evaluation, reproducible gains and an audited prior-art comparison. It is an ambition, not a present result.
 
-The user contributes architecture, research direction and high-level review. The lead agent owns implementation, experiment execution, evidence quality and decisions within authorized resource limits; specialist agents provide independent reviews. The current CPU research workflow is operational. Training, an independently validated new model and readable target text remain future outcomes.
+The user contributes architecture, research direction and high-level review. The lead agent owns implementation, experiment execution, evidence quality and decisions within authorized resource limits; specialist agents provide independent reviews when assigned. CPU training and inference are operational. An independently established improvement and readable new target text remain research goals.
 
 Prizes are optional downstream applications. Grand Prize restrictions on target resolution, human input or submission format should not veto an otherwise scientifically valuable and lawful experiment. Record the eligibility consequences of a branch so a compatible subset can be identified later. Actual asset licenses, access conditions, privacy/publication commitments and the approved compute budget remain binding. This clarification does not itself authorize public disclosure or external outreach.
 
@@ -38,4 +48,4 @@ Freeze the hypothesis, selection rule, code/environment, data/label versions, me
 
 The first paid GPU pilot remains capped at £10 total, including failures, retries and attributable overhead. No paid job may start without the agreed frozen workload, pinned CUDA environment, scoped worker credentials, current pricing, measured feasibility and independent shutdown. The cap is not a commitment to fit a full research training program inside £10. A larger budget should be proposed using measured pilot costs and a concrete study.
 
-Keep reusable code/configuration in GitHub and large private artifacts in R2 once worker/runtime access is verified. Current new research artifacts are still local to this cloud workspace; saved startup guidance does not constitute a backup. An award application may follow good research, but research decisions are governed by information value, validity and feasible cost.
+Keep reusable code/configuration in private GitHub and use selective, checksummed artifact bundles and the existing checkpoint backup branch for portable retained evidence. R2 is another option once worker/runtime access is verified. A local artifact or saved startup instruction alone is not a backup; distinguish successful remote verification from an intended upload. An award application may follow good research, but research decisions are governed by information value, validity and feasible cost.

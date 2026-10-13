@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "hybrid full/sparse numerator and denominator exact, spacing=9.366",
+    "Hecate full/sparse native output exact, spacing=9.366, terminal edge tiles included",
+    "hybrid full/sparse numerator and denominator exact, spacing=8.64",
+    "Hecate full/sparse native output exact, spacing=8.64, terminal edge tiles included",
+    "All 216 actual hybrid normalized input tensors match original reader exactly",
+    "Controlled interruption/resume and read-only exact replay, no duplicate forward",
+    "Reject changed binding",
+    "Reject changed normalized input",
+    "Reject changed raw input hash",
+    "Reject corrupted logits",
+    "Reject uncommitted logits during read-only replay",
+    "Uncommitted logits recomputed rather than trusted during writable resume"
+  ],
+  "code": [
+    {
+      "bytes": 8472,
+      "path": "/workspace/Herculaneum/research/in-progress/native-common-comparison-20261012/qualify.py",
+      "sha256": "0c02c3035cc61b0927c8c0e77682c7d4bd53a60ff831f4942a81c40c835e6210"
+    },
+    {
+      "bytes": 16609,
+      "path": "/workspace/Herculaneum/research/in-progress/native-common-comparison-20261012/runner.py",
+      "sha256": "9fb08ee0af8ecc0cf79944e576a27c40e8c0567af6f456e1d21809b1db70a569"
+    }
+  ],
+  "source": "Frozen original inference implementations",
+  "status": "PASS",
+  "trained_model_forwards": 0,
+  "utc": "2026-10-12T15:41:59.971828+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "frozen_utc": "2026-10-11T01:00:54.512342+00:00",
+  "purpose": "Coordinate payload and exact transformer implementation only; no CT pixels, labels or models.",
+  "requests": [
+    {
+      "name": "20260102150214-x.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/x.tif",
+      "max_bytes": 7722886,
+      "exact_bytes": 7722886
+    },
+    {
+      "name": "20260102150214-y.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/y.tif",
+      "max_bytes": 7722886,
+      "exact_bytes": 7722886
+    },
+    {
+      "name": "20260102150214-z.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20260102150214-2.399um.tifxyz/z.tif",
+      "max_bytes": 7722886,
+      "exact_bytes": 7722886
+    },
+    {
+      "name": "20250728140407-x.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/x.tif",
+      "max_bytes": 510854,
+      "exact_bytes": 510854
+    },
+    {
+      "name": "20250728140407-y.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/y.tif",
+      "max_bytes": 510854,
+      "exact_bytes": 510854
+    },
+    {
+      "name": "20250728140407-z.tif",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/mesh/20250831000000-on-20250728140407-9.362um.tifxyz/z.tif",
+      "max_bytes": 510854,
+      "exact_bytes": 510854
+    },
+    {
+      "name": "650bd56-vc_transform_geom.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/650bd56663efb7225fdba73fe267ba86b8e29368/volume-cartographer/apps/src/vc_transform_geom.cpp",
+      "max_bytes": 524288
+    },
+    {
+      "name": "d9a472e-vc_transform_geom.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/d9a472ea2f50d9ce4ce56303cc1d682d962490d9/volume-cartographer/apps/src/vc_transform_geom.cpp",
+      "max_bytes": 524288
+    },
+    {
+      "name": "d9a472e-QuadSurface.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/d9a472ea2f50d9ce4ce56303cc1d682d962490d9/volume-cartographer/core/src/QuadSurface.cpp",
+      "max_bytes": 524288
+    }
+  ],
+  "total_body_cap": 26274084
+}

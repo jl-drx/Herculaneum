@@ -1,0 +1,66 @@
+{
+  "checked_utc": "2026-10-11T13:04:31.415944+00:00",
+  "worker_alive": true,
+  "worker": {
+    "pid": 18909,
+    "start_ticks": "1558242",
+    "started_utc": "2026-10-11T09:33:02.995974+00:00",
+    "resume_command": "python native_learning.py run --run /workspace/herculaneum-lab/reports/pherc0139-native-learning-20261011 --source /workspace/herculaneum-lab/reports/pherc0139-native-reference-20261011"
+  },
+  "status": {
+    "utc": "2026-10-11T13:02:27.764200+00:00",
+    "phase": "training",
+    "arm": "w039-seed17",
+    "step": 2048,
+    "maximum_updates": 16384,
+    "train": {
+      "ap": 0.6632494094000494,
+      "auc": 0.7596311938601965,
+      "positives": 741254,
+      "negatives": 1371299,
+      "undefined_single_class": false,
+      "bce": 0.5404794569831854,
+      "prevalence": 0.3508806642957597,
+      "mean_probability": 0.35766244835804284,
+      "fraction_probability_ge_half": 0.2439825178350555
+    },
+    "lr": 0.001,
+    "seconds_per_update_including_training_checks": 0.6125042454165044,
+    "termination": null,
+    "held_out_predictions": 0,
+    "draws": 8192,
+    "unique_cores": 196,
+    "supervised_pixel_exposures": 110193316
+  },
+  "arms": [
+    {
+      "arm": "w035-seed17",
+      "step": 16384,
+      "best_step": 15872,
+      "last_committed_utc": "2026-10-11T12:41:19.241212+00:00",
+      "termination": "ceiling_without_confirmed_plateau",
+      "complete": true
+    },
+    {
+      "arm": "w039-seed17",
+      "step": 2048,
+      "best_step": 2048,
+      "last_committed_utc": "2026-10-11T13:02:27.762316+00:00",
+      "termination": null,
+      "complete": false
+    }
+  ],
+  "error": null,
+  "backup": {
+    "status": "PUSHED",
+    "utc": "2026-10-11T12:56:10.111705+00:00",
+    "remote_commit": "ac5a5132cd29b34df058e4984d6bd4fbc1d95c89",
+    "remote_ref": "refs/heads/codex/plinius-native0139-learning-checkpoints",
+    "generations": 23,
+    "files": 72,
+    "new_files": 2,
+    "archive_bytes": 1386956,
+    "archive_sha256": "a3493274d6518803fbbdc95c12b4e6ade2d26005df2671491ca992d23e563c62"
+  },
+  "backup_last_error": null
+}

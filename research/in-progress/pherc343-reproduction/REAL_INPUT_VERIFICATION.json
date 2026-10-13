@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "time_utc": "2026-10-09T19:35:15.547981+00:00",
+  "native_padding": "All66 planes over the full extent equal the unpadded source; added rows/columns are zero",
+  "hecate_phase_interior_different_voxels": 0,
+  "hecate_phase_interior_max_difference": 0,
+  "saved_qualification_outputs": [
+    {
+      "model": "dnative",
+      "shape_single": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "shape_batch": [
+        4,
+        1,
+        128,
+        128
+      ],
+      "max_error_all_batch_members": 1.7881393432617188e-07,
+      "values_checked": 65536,
+      "probability_min": 0.34021154046058655,
+      "probability_max": 0.5791575908660889
+    },
+    {
+      "model": "hybrid_3d2d-seed42",
+      "shape_single": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "shape_batch": [
+        4,
+        1,
+        128,
+        128
+      ],
+      "max_error_all_batch_members": 1.7881393432617188e-07,
+      "values_checked": 65536,
+      "probability_min": 0.23879650235176086,
+      "probability_max": 0.4554136395454407
+    },
+    {
+      "model": "hybrid_3d2d-seed43",
+      "shape_single": [
+        1,
+        1,
+        128,
+        128
+      ],
+      "shape_batch": [
+        4,
+        1,
+        128,
+        128
+      ],
+      "max_error_all_batch_members": 6.258487701416016e-07,
+      "values_checked": 65536,
+      "probability_min": 0.240397110581398,
+      "probability_max": 0.7525256276130676
+    },
+    {
+      "model": "hecate",
+      "shape_single": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "shape_batch": [
+        4,
+        1,
+        64,
+        64
+      ],
+      "max_error_all_batch_members": 9.387731552124023e-06,
+      "values_checked": 16384,
+      "probability_min": 0.12312149256467819,
+      "probability_max": 0.6759696006774902
+    }
+  ],
+  "additional_model_forwards": 0,
+  "scope": "Independent readback and cross-phase checks of prepared data and saved tile outputs. No ink accuracy or reading claim."
+}

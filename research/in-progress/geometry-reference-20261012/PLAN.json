@@ -1,0 +1,95 @@
+{
+  "created_utc": "2026-10-12T13:45:05.244451+00:00",
+  "status": "CT_REFERENCE_DEVELOPMENT_ONLY",
+  "selection": "The two relatively traceable candidates named in the prior all-12 CT review: PHerc0800-24 and PHerc0814-06. No model fields or ink maps used; this is selected development evidence, not random or fresh evaluation.",
+  "cases": [
+    {
+      "id": "PHerc0800-24",
+      "sample": "PHerc0800",
+      "ct_context_box_zyx": [
+        [
+          16992,
+          8032,
+          5472
+        ],
+        [
+          17184,
+          8224,
+          5664
+        ]
+      ],
+      "shape": [
+        192,
+        192,
+        192
+      ],
+      "dtype": "uint8",
+      "zero_fraction": 8.194534866898149e-06,
+      "minimum": 0,
+      "maximum": 255,
+      "file": "PHerc0800-24.npy",
+      "sha256": "744aba397ec8bb643332dbcb757b1b49d19e33846370e48048c4c85e9a888b15",
+      "bytes": 7078016,
+      "coordinate_spot_checks": 6,
+      "stratum": "pending_CT_only_review"
+    },
+    {
+      "id": "PHerc0814-06",
+      "sample": "PHerc0814",
+      "ct_context_box_zyx": [
+        [
+          4320,
+          1888,
+          1760
+        ],
+        [
+          4512,
+          2080,
+          1952
+        ]
+      ],
+      "shape": [
+        192,
+        192,
+        192
+      ],
+      "dtype": "uint8",
+      "zero_fraction": 0.00023029468677662038,
+      "minimum": 0,
+      "maximum": 255,
+      "file": "PHerc0814-06.npy",
+      "sha256": "52542fcd01069065819e6341e20d64f680c6007967f9d42d83f65b41e0e4ba55",
+      "bytes": 7078016,
+      "coordinate_spot_checks": 6,
+      "stratum": "pending_CT_only_review"
+    }
+  ],
+  "serial_y_indices": [
+    72,
+    76,
+    80,
+    84,
+    88,
+    92,
+    96,
+    100,
+    104,
+    108,
+    112,
+    116,
+    120
+  ],
+  "display": "Fixed uint8 0..255; nearest-neighbour enlargement; Y planes map row=Z and column=X.",
+  "tasks": [
+    "Inspect all 13 serial planes per case before choosing short candidate traces.",
+    "Record provisional visible-lamina identity separately from physical sheet/recto identity.",
+    "Retain uncertain joins; do not replace or extend candidates based on model scores.",
+    "Freeze candidate paths and tolerances before any surface-model comparison."
+  ],
+  "success": "Find at least one visually supportable short continuation and one distinct neighbouring CT lamina per parent; this qualifies a review task, not ground truth.",
+  "stop": "If reliable physical-sheet or recto identity cannot be established, do not score m7/F0 accuracy; use a reference-adjudication task and preserve ambiguity.",
+  "native0139": "No source or evaluation payload read by this geometry task.",
+  "reserve_payloads": "No PHerc0175 or PHerc1203 payload permitted.",
+  "script_sha256": "33cb8c9f291d413c2c9e638517d2c95d6b35ee2e07d91c62a237058b0bf40db6",
+  "source_receipt_sha256": "5bde933d210b74122c579196131bf16e4183facc27b59941c71cc1fa92bcaf23"
+}

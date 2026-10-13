@@ -1,0 +1,478 @@
+{
+  "protocol_sha256": "b9af6a0fa28752d5db33eda6048a32ba75c1a84d1d75620b920f1a014c42ba51",
+  "request_plan_sha256": "d6e2e4c31c3b0809cc68b6b0be2e80205985935c3bb0062e265ee33219eb3046",
+  "analysis_sha256": "c5efb4d1da7e397fa114e4f27d7a3fd9ecdcf0e567870ffcb829f3ac6fb5c8ef",
+  "scope": "Three fixed same-acquisition raw CT chunks, not surface/ink validation. No inference.",
+  "cubes": [
+    {
+      "site": "site1",
+      "volume": "20250728140407",
+      "nonzero_fraction": 0.9990296363830566,
+      "saturated255_fraction": 0.01805734634399414,
+      "mean": 107.99556875228882,
+      "std": 48.12026929427824,
+      "quantiles_0_1_10_50_90_99_100": [
+        0.0,
+        15.0,
+        40.0,
+        113.0,
+        159.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "site": "site1",
+      "volume": "20251107132835",
+      "nonzero_fraction": 0.8523993492126465,
+      "saturated255_fraction": 0.008181095123291016,
+      "mean": 72.43776321411133,
+      "std": 56.063223753777855,
+      "quantiles_0_1_10_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        69.0,
+        145.0,
+        242.0,
+        255.0
+      ]
+    },
+    {
+      "site": "site1",
+      "volume": "20251107135911",
+      "nonzero_fraction": 0.8169903755187988,
+      "saturated255_fraction": 0.0,
+      "mean": 61.97872257232666,
+      "std": 52.38188742715817,
+      "quantiles_0_1_10_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        57.0,
+        131.0,
+        221.0,
+        254.0
+      ]
+    },
+    {
+      "site": "site2",
+      "volume": "20250728140407",
+      "nonzero_fraction": 0.9991650581359863,
+      "saturated255_fraction": 0.019769668579101562,
+      "mean": 103.63881397247314,
+      "std": 53.85853316735295,
+      "quantiles_0_1_10_50_90_99_100": [
+        0.0,
+        17.0,
+        39.0,
+        102.0,
+        171.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "site": "site2",
+      "volume": "20251107132835",
+      "nonzero_fraction": 0.8025808334350586,
+      "saturated255_fraction": 0.032376766204833984,
+      "mean": 71.88705778121948,
+      "std": 68.8911627892143,
+      "quantiles_0_1_10_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        54.0,
+        174.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "site": "site2",
+      "volume": "20251107135911",
+      "nonzero_fraction": 0.7658357620239258,
+      "saturated255_fraction": 0.0,
+      "mean": 63.42774152755737,
+      "std": 65.10328474154885,
+      "quantiles_0_1_10_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        47.0,
+        158.0,
+        254.0,
+        254.0
+      ]
+    },
+    {
+      "site": "site3",
+      "volume": "20250728140407",
+      "nonzero_fraction": 0.9955101013183594,
+      "saturated255_fraction": 0.024787425994873047,
+      "mean": 81.47563743591309,
+      "std": 54.415672819619544,
+      "quantiles_0_1_10_50_90_99_100": [
+        0.0,
+        10.0,
+        35.0,
+        55.0,
+        155.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "site": "site3",
+      "volume": "20251107132835",
+      "nonzero_fraction": 0.8762760162353516,
+      "saturated255_fraction": 0.011750221252441406,
+      "mean": 61.12672805786133,
+      "std": 54.66377444565522,
+      "quantiles_0_1_10_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        48.0,
+        141.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "site": "site3",
+      "volume": "20251107135911",
+      "nonzero_fraction": 0.8558926582336426,
+      "saturated255_fraction": 0.0,
+      "mean": 55.293105125427246,
+      "std": 50.00879859939151,
+      "quantiles_0_1_10_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        45.0,
+        126.0,
+        239.0,
+        254.0
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "site": "site1",
+      "volume_a": "20250728140407",
+      "volume_b": "20251107132835",
+      "common_nonzero_count": 1787609,
+      "common_nonzero_fraction": 0.8523983955383301,
+      "nonzero_mask_agreement": 0.853367805480957,
+      "gradient_common_edges": 4945591,
+      "gradient_pearson_common_nonzero": 0.8105688213484926,
+      "phase_correlation": {
+        "status": "unique-integer-peak",
+        "shift_to_apply_to_b_zyx": [
+          0,
+          0,
+          0
+        ],
+        "peak": 0.4658312890168236,
+        "second_peak_outside_radius2": 0.009575853265385178,
+        "peak_ratio": 48.64645229064985,
+        "equal_peak_count": 1,
+        "scope": "Periodic integer diagnostic only; no subpixel or physical registration validation."
+      },
+      "all": {
+        "count": 2097152,
+        "pearson": 0.8316019523022052,
+        "spearman": 0.8464205615306754,
+        "mae_uint8": 39.247464656829834
+      },
+      "common_nonzero": {
+        "count": 1787609,
+        "pearson": 0.7926914132402636,
+        "spearman": 0.8032784497762528,
+        "mae_uint8": 37.65140922875192
+      }
+    },
+    {
+      "site": "site1",
+      "volume_a": "20250728140407",
+      "volume_b": "20251107135911",
+      "common_nonzero_count": 1713350,
+      "common_nonzero_fraction": 0.8169889450073242,
+      "nonzero_mask_agreement": 0.817957878112793,
+      "gradient_common_edges": 4679601,
+      "gradient_pearson_common_nonzero": 0.8345198477111372,
+      "phase_correlation": {
+        "status": "unique-integer-peak",
+        "shift_to_apply_to_b_zyx": [
+          0,
+          0,
+          0
+        ],
+        "peak": 0.4277606158878895,
+        "second_peak_outside_radius2": 0.010652374023023797,
+        "peak_ratio": 40.156364671700175,
+        "equal_peak_count": 1,
+        "scope": "Periodic integer diagnostic only; no subpixel or physical registration validation."
+      },
+      "all": {
+        "count": 2097152,
+        "pearson": 0.7767688035739679,
+        "spearman": 0.8052454818158328,
+        "mae_uint8": 48.263975620269775
+      },
+      "common_nonzero": {
+        "count": 1713350,
+        "pearson": 0.7204401482360239,
+        "spearman": 0.7439588428229238,
+        "mae_uint8": 46.905318819855836
+      }
+    },
+    {
+      "site": "site1",
+      "volume_a": "20251107132835",
+      "volume_b": "20251107135911",
+      "common_nonzero_count": 1709575,
+      "common_nonzero_fraction": 0.8151888847351074,
+      "nonzero_mask_agreement": 0.9609880447387695,
+      "gradient_common_edges": 4664017,
+      "gradient_pearson_common_nonzero": 0.9851583470604884,
+      "phase_correlation": {
+        "status": "unique-integer-peak",
+        "shift_to_apply_to_b_zyx": [
+          0,
+          0,
+          0
+        ],
+        "peak": 0.8870197276067946,
+        "second_peak_outside_radius2": 0.002867462392603075,
+        "peak_ratio": 309.3396202492338,
+        "equal_peak_count": 1,
+        "scope": "Periodic integer diagnostic only; no subpixel or physical registration validation."
+      },
+      "all": {
+        "count": 2097152,
+        "pearson": 0.986504720000197,
+        "spearman": 0.9872825716437321,
+        "mae_uint8": 10.958232879638672
+      },
+      "common_nonzero": {
+        "count": 1709575,
+        "pearson": 0.982147559201194,
+        "spearman": 0.9813519595293593,
+        "mae_uint8": 13.03920623546788
+      }
+    },
+    {
+      "site": "site2",
+      "volume_a": "20250728140407",
+      "volume_b": "20251107132835",
+      "common_nonzero_count": 1683121,
+      "common_nonzero_fraction": 0.802574634552002,
+      "nonzero_mask_agreement": 0.803403377532959,
+      "gradient_common_edges": 4454160,
+      "gradient_pearson_common_nonzero": 0.6587368376557634,
+      "phase_correlation": {
+        "status": "unique-integer-peak",
+        "shift_to_apply_to_b_zyx": [
+          1,
+          0,
+          0
+        ],
+        "peak": 0.438672907817989,
+        "second_peak_outside_radius2": 0.020923618603097986,
+        "peak_ratio": 20.96544178802028,
+        "equal_peak_count": 1,
+        "scope": "Periodic integer diagnostic only; no subpixel or physical registration validation."
+      },
+      "all": {
+        "count": 2097152,
+        "pearson": 0.7496114379623592,
+        "spearman": 0.7145683728695528,
+        "mae_uint8": 43.724563121795654
+      },
+      "common_nonzero": {
+        "count": 1683121,
+        "pearson": 0.7408126217881636,
+        "spearman": 0.7238590750849373,
+        "mae_uint8": 38.81144730533337
+      }
+    },
+    {
+      "site": "site2",
+      "volume_a": "20250728140407",
+      "volume_b": "20251107135911",
+      "common_nonzero_count": 1606071,
+      "common_nonzero_fraction": 0.7658343315124512,
+      "nonzero_mask_agreement": 0.7666678428649902,
+      "gradient_common_edges": 4200308,
+      "gradient_pearson_common_nonzero": 0.7072713516233461,
+      "phase_correlation": {
+        "status": "unique-integer-peak",
+        "shift_to_apply_to_b_zyx": [
+          1,
+          0,
+          0
+        ],
+        "peak": 0.42061548750838407,
+        "second_peak_outside_radius2": 0.01824083547011876,
+        "peak_ratio": 23.059003421055777,
+        "equal_peak_count": 1,
+        "scope": "Periodic integer diagnostic only; no subpixel or physical registration validation."
+      },
+      "all": {
+        "count": 2097152,
+        "pearson": 0.7278924294484517,
+        "spearman": 0.6799537427922973,
+        "mae_uint8": 48.2929425239563
+      },
+      "common_nonzero": {
+        "count": 1606071,
+        "pearson": 0.7171268871722793,
+        "spearman": 0.689422621770687,
+        "mae_uint8": 42.694804899658855
+      }
+    },
+    {
+      "site": "site2",
+      "volume_a": "20251107132835",
+      "volume_b": "20251107135911",
+      "common_nonzero_count": 1597671,
+      "common_nonzero_fraction": 0.7618288993835449,
+      "nonzero_mask_agreement": 0.9552412033081055,
+      "gradient_common_edges": 4164011,
+      "gradient_pearson_common_nonzero": 0.9827830887316107,
+      "phase_correlation": {
+        "status": "unique-integer-peak",
+        "shift_to_apply_to_b_zyx": [
+          0,
+          0,
+          0
+        ],
+        "peak": 0.9101662634169788,
+        "second_peak_outside_radius2": 0.002100194418178149,
+        "peak_ratio": 433.3723847368944,
+        "equal_peak_count": 1,
+        "scope": "Periodic integer diagnostic only; no subpixel or physical registration validation."
+      },
+      "all": {
+        "count": 2097152,
+        "pearson": 0.9876939998840369,
+        "spearman": 0.9831765149947705,
+        "mae_uint8": 9.69334888458252
+      },
+      "common_nonzero": {
+        "count": 1597671,
+        "pearson": 0.9838243187312247,
+        "spearman": 0.9746333883595313,
+        "mae_uint8": 12.15360546695784
+      }
+    },
+    {
+      "site": "site3",
+      "volume_a": "20250728140407",
+      "volume_b": "20251107132835",
+      "common_nonzero_count": 1837078,
+      "common_nonzero_fraction": 0.8759870529174805,
+      "nonzero_mask_agreement": 0.88018798828125,
+      "gradient_common_edges": 5144821,
+      "gradient_pearson_common_nonzero": 0.6273079129854313,
+      "phase_correlation": {
+        "status": "unique-integer-peak",
+        "shift_to_apply_to_b_zyx": [
+          0,
+          0,
+          0
+        ],
+        "peak": 0.19728979017659964,
+        "second_peak_outside_radius2": 0.03174289375287234,
+        "peak_ratio": 6.21524274732348,
+        "equal_peak_count": 1,
+        "scope": "Periodic integer diagnostic only; no subpixel or physical registration validation."
+      },
+      "all": {
+        "count": 2097152,
+        "pearson": 0.7904906626505993,
+        "spearman": 0.7113001223256429,
+        "mae_uint8": 28.123358726501465
+      },
+      "common_nonzero": {
+        "count": 1837078,
+        "pearson": 0.8043145230404899,
+        "spearman": 0.7348701424374426,
+        "mae_uint8": 25.49449506226736
+      }
+    },
+    {
+      "site": "site3",
+      "volume_a": "20250728140407",
+      "volume_b": "20251107135911",
+      "common_nonzero_count": 1794419,
+      "common_nonzero_fraction": 0.8556456565856934,
+      "nonzero_mask_agreement": 0.8598885536193848,
+      "gradient_common_edges": 5000445,
+      "gradient_pearson_common_nonzero": 0.6582129304792966,
+      "phase_correlation": {
+        "status": "unique-integer-peak",
+        "shift_to_apply_to_b_zyx": [
+          0,
+          0,
+          0
+        ],
+        "peak": 0.17845596428355776,
+        "second_peak_outside_radius2": 0.02909564812588855,
+        "peak_ratio": 6.133424610836295,
+        "equal_peak_count": 1,
+        "scope": "Periodic integer diagnostic only; no subpixel or physical registration validation."
+      },
+      "all": {
+        "count": 2097152,
+        "pearson": 0.7337984224779768,
+        "spearman": 0.6511426897493235,
+        "mae_uint8": 31.649675369262695
+      },
+      "common_nonzero": {
+        "count": 1794419,
+        "pearson": 0.7540871984752174,
+        "spearman": 0.6804396871008441,
+        "mae_uint8": 28.41710102267085
+      }
+    },
+    {
+      "site": "site3",
+      "volume_a": "20251107132835",
+      "volume_b": "20251107135911",
+      "common_nonzero_count": 1788104,
+      "common_nonzero_fraction": 0.8526344299316406,
+      "nonzero_mask_agreement": 0.9731001853942871,
+      "gradient_common_edges": 4973336,
+      "gradient_pearson_common_nonzero": 0.9816490583430397,
+      "phase_correlation": {
+        "status": "unique-integer-peak",
+        "shift_to_apply_to_b_zyx": [
+          0,
+          0,
+          0
+        ],
+        "peak": 0.8750543351810818,
+        "second_peak_outside_radius2": 0.003973385562575969,
+        "peak_ratio": 220.22890087056615,
+        "equal_peak_count": 1,
+        "scope": "Periodic integer diagnostic only; no subpixel or physical registration validation."
+      },
+      "all": {
+        "count": 2097152,
+        "pearson": 0.9856781769031623,
+        "spearman": 0.9784256250342711,
+        "mae_uint8": 7.217133522033691
+      },
+      "common_nonzero": {
+        "count": 1788104,
+        "pearson": 0.9825674504461339,
+        "spearman": 0.9682400573520736,
+        "mae_uint8": 8.214190561622814
+      }
+    }
+  ]
+}

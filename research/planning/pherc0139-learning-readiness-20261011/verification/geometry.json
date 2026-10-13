@@ -1,0 +1,1681 @@
+{
+  "status": "PASS",
+  "scope": "Independent full-context base/validity replay and conservative box/fold comparison; double-precision normals only used for additional endpoint enclosure, not an exact C++ normal replay",
+  "fixtures": [
+    "closed_boundary_contact",
+    "x_axis_separation",
+    "z_axis_separation",
+    "all28_rays_and_neighbors_at_norm_tolerance"
+  ],
+  "sources": [
+    {
+      "winding": "w035",
+      "mesh_shape": [
+        291,
+        262,
+        3
+      ],
+      "canvas_wh": [
+        5240,
+        5820
+      ],
+      "cores": 109,
+      "frame": "20250728140407"
+    },
+    {
+      "winding": "w039",
+      "mesh_shape": [
+        428,
+        386,
+        3
+      ],
+      "canvas_wh": [
+        7720,
+        8560
+      ],
+      "cores": 54,
+      "frame": "20250728140407"
+    },
+    {
+      "winding": "w044",
+      "mesh_shape": [
+        302,
+        408,
+        3
+      ],
+      "canvas_wh": [
+        8160,
+        6040
+      ],
+      "cores": 102,
+      "frame": "20250728140407"
+    }
+  ],
+  "core_count": 265,
+  "independent_base_extrema_max_difference": 9.094947017729282e-13,
+  "minimum_independent_endpoint_plus_one_margin": 0.010697376301777695,
+  "cross_winding_box_comparisons": 22512,
+  "intersections": 46,
+  "intersection_counts": {
+    "w035-w039": 46
+  },
+  "folds": [
+    {
+      "held_out": "w035",
+      "evaluation": 109,
+      "retained_training": 139,
+      "rejected_training": 17,
+      "retained_training_supervised_pixels": 1578067,
+      "all_IDs_and_reasons_match": true
+    },
+    {
+      "held_out": "w039",
+      "evaluation": 54,
+      "retained_training": 196,
+      "rejected_training": 15,
+      "retained_training_supervised_pixels": 2112553,
+      "all_IDs_and_reasons_match": true
+    },
+    {
+      "held_out": "w044",
+      "evaluation": 102,
+      "retained_training": 163,
+      "rejected_training": 0,
+      "retained_training_supervised_pixels": 1638213,
+      "all_IDs_and_reasons_match": true
+    }
+  ],
+  "source_result_sha256": "501c5834e923b6305868abcc7d939f8d1877f73d0b93a6020243aee416555993",
+  "core_replay": [
+    {
+      "core_id": "w035-x01152-y00640",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.42683777528372957
+    },
+    {
+      "core_id": "w035-x01280-y00640",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.0639338953551487
+    },
+    {
+      "core_id": "w035-x01408-y00640",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 3.0490151490539574
+    },
+    {
+      "core_id": "w035-x00640-y00768",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.19300169195184935
+    },
+    {
+      "core_id": "w035-x00768-y00768",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.19300169195184935
+    },
+    {
+      "core_id": "w035-x01024-y00768",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.23626434745665392
+    },
+    {
+      "core_id": "w035-x01152-y00768",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.8015613209536241
+    },
+    {
+      "core_id": "w035-x01280-y00768",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.265638889553884
+    },
+    {
+      "core_id": "w035-x01408-y00768",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 3.2811505481608947
+    },
+    {
+      "core_id": "w035-x01536-y00768",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 2.507053588868075
+    },
+    {
+      "core_id": "w035-x01664-y00768",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.4528637763214647
+    },
+    {
+      "core_id": "w035-x00512-y00896",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.010697376301777695
+    },
+    {
+      "core_id": "w035-x00640-y00896",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.02488063598957524
+    },
+    {
+      "core_id": "w035-x00768-y00896",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.02488063598957524
+    },
+    {
+      "core_id": "w035-x01152-y00896",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.0349060716075655
+    },
+    {
+      "core_id": "w035-x01280-y00896",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.1022790484644247
+    },
+    {
+      "core_id": "w035-x01408-y00896",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 3.0252879074678276
+    },
+    {
+      "core_id": "w035-x01536-y00896",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.492776908617998
+    },
+    {
+      "core_id": "w035-x01664-y00896",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.09844262109800184
+    },
+    {
+      "core_id": "w035-x00512-y01024",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.40894449581810477
+    },
+    {
+      "core_id": "w035-x00640-y01024",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.4280782499226916
+    },
+    {
+      "core_id": "w035-x00768-y01024",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.5182102511694211
+    },
+    {
+      "core_id": "w035-x01024-y01024",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.5431066163291689
+    },
+    {
+      "core_id": "w035-x01152-y01024",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.6688301508356744
+    },
+    {
+      "core_id": "w035-x01280-y01024",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.719726962493496
+    },
+    {
+      "core_id": "w035-x01408-y01024",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.350507605995972
+    },
+    {
+      "core_id": "w035-x01536-y01024",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.143586864226563
+    },
+    {
+      "core_id": "w035-x01664-y01024",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.11292782587315742
+    },
+    {
+      "core_id": "w035-x00512-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.14790120507905158
+    },
+    {
+      "core_id": "w035-x00640-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.14790120507905158
+    },
+    {
+      "core_id": "w035-x01024-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.5190065658589447
+    },
+    {
+      "core_id": "w035-x01152-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.5364425935918007
+    },
+    {
+      "core_id": "w035-x01280-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.1155722082148714
+    },
+    {
+      "core_id": "w035-x01408-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 3.05705930034037
+    },
+    {
+      "core_id": "w035-x01792-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.014961910181227722
+    },
+    {
+      "core_id": "w035-x01920-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.014961910181227722
+    },
+    {
+      "core_id": "w035-x02048-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.44356256825903984
+    },
+    {
+      "core_id": "w035-x02176-y01152",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.4910682087538589
+    },
+    {
+      "core_id": "w035-x00512-y01280",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.30411435676478504
+    },
+    {
+      "core_id": "w035-x00640-y01280",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.13495194516326592
+    },
+    {
+      "core_id": "w035-x01664-y01280",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.011662562497804174
+    },
+    {
+      "core_id": "w035-x01792-y01280",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.014961910181227722
+    },
+    {
+      "core_id": "w035-x01920-y01280",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.014961910181227722
+    },
+    {
+      "core_id": "w035-x02048-y01280",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.44356256825903984
+    },
+    {
+      "core_id": "w035-x02176-y01280",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.4910682087538589
+    },
+    {
+      "core_id": "w035-x01664-y01408",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.011662562497804174
+    },
+    {
+      "core_id": "w035-x01792-y01408",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.014984179020757438
+    },
+    {
+      "core_id": "w035-x01920-y01408",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.014984179020757438
+    },
+    {
+      "core_id": "w035-x02048-y01408",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.5520093186223676
+    },
+    {
+      "core_id": "w035-x02176-y01408",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.48401053670659167
+    },
+    {
+      "core_id": "w035-x01664-y01536",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.13265805870378244
+    },
+    {
+      "core_id": "w035-x01792-y01536",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.13265805870378244
+    },
+    {
+      "core_id": "w035-x01920-y01536",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.11990790872914658
+    },
+    {
+      "core_id": "w035-x02048-y01536",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.5520093186223676
+    },
+    {
+      "core_id": "w035-x02176-y01536",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.8781399537410834
+    },
+    {
+      "core_id": "w035-x01664-y01664",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.029021487215686648
+    },
+    {
+      "core_id": "w035-x01792-y01664",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.02923124162134627
+    },
+    {
+      "core_id": "w035-x01920-y01664",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.02923124162134627
+    },
+    {
+      "core_id": "w035-x02048-y01664",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.11428737225924124
+    },
+    {
+      "core_id": "w035-x02176-y01664",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.6812700285045139
+    },
+    {
+      "core_id": "w035-x02688-y01664",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 2.3389290921936663
+    },
+    {
+      "core_id": "w035-x02816-y01664",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.1045556130038676
+    },
+    {
+      "core_id": "w035-x01408-y01792",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 2.093864207444767
+    },
+    {
+      "core_id": "w035-x01536-y01792",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 3.097887766664826
+    },
+    {
+      "core_id": "w035-x01664-y01792",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.029021487215686648
+    },
+    {
+      "core_id": "w035-x02688-y01792",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.9680516997541417
+    },
+    {
+      "core_id": "w035-x02816-y01792",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 2.9793334561977645
+    },
+    {
+      "core_id": "w035-x01408-y01920",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 2.11752163284973
+    },
+    {
+      "core_id": "w035-x01536-y01920",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.2535302742944623
+    },
+    {
+      "core_id": "w035-x01664-y01920",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.016884138609384536
+    },
+    {
+      "core_id": "w035-x02688-y01920",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 1.6819497078331551
+    },
+    {
+      "core_id": "w035-x02816-y01920",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.72784886230329
+    },
+    {
+      "core_id": "w035-x01408-y02048",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.833518518199071
+    },
+    {
+      "core_id": "w035-x01536-y02048",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.7939133759500692
+    },
+    {
+      "core_id": "w035-x01664-y02048",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.2578676563070985
+    },
+    {
+      "core_id": "w035-x02560-y02048",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.5947759274686177
+    },
+    {
+      "core_id": "w035-x02688-y02048",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.7032101418922139
+    },
+    {
+      "core_id": "w035-x02816-y02048",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.7673325276709875
+    },
+    {
+      "core_id": "w035-x02560-y02176",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 3.3374517087186177
+    },
+    {
+      "core_id": "w035-x02688-y02176",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.6863369659363343
+    },
+    {
+      "core_id": "w035-x02816-y02176",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 1.9167738117448607
+    },
+    {
+      "core_id": "w035-x00640-y02304",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.13928815260123883
+    },
+    {
+      "core_id": "w035-x00768-y02304",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.13928815260123883
+    },
+    {
+      "core_id": "w035-x02304-y02304",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.3102107765889741
+    },
+    {
+      "core_id": "w035-x02432-y02304",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.2946334972261866
+    },
+    {
+      "core_id": "w035-x02560-y02304",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.7367211613654945
+    },
+    {
+      "core_id": "w035-x02688-y02304",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.7735861698224653
+    },
+    {
+      "core_id": "w035-x02816-y02304",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 2.235045880947837
+    },
+    {
+      "core_id": "w035-x00512-y02432",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.5465210064312487
+    },
+    {
+      "core_id": "w035-x00640-y02432",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.5883980282806078
+    },
+    {
+      "core_id": "w035-x00768-y02432",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.5883980282806078
+    },
+    {
+      "core_id": "w035-x02176-y02432",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.8669671922843918
+    },
+    {
+      "core_id": "w035-x02304-y02432",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.3950475442125025
+    },
+    {
+      "core_id": "w035-x02432-y02432",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 1.4368103164051718
+    },
+    {
+      "core_id": "w035-x02560-y02432",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 3.2013265238874737
+    },
+    {
+      "core_id": "w035-x02688-y02432",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.1948455283354633
+    },
+    {
+      "core_id": "w035-x00512-y02560",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.2038876594942849
+    },
+    {
+      "core_id": "w035-x00640-y02560",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.048958646917526494
+    },
+    {
+      "core_id": "w035-x00768-y02560",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.05236679595009264
+    },
+    {
+      "core_id": "w035-x02176-y02560",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.09109562409139471
+    },
+    {
+      "core_id": "w035-x02304-y02560",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.2528604213384824
+    },
+    {
+      "core_id": "w035-x02432-y02560",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 2.274467670348713
+    },
+    {
+      "core_id": "w035-x02560-y02560",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 3.028729142435168
+    },
+    {
+      "core_id": "w035-x02688-y02560",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 2.1948455283354633
+    },
+    {
+      "core_id": "w035-x00512-y02688",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.2038876594942849
+    },
+    {
+      "core_id": "w035-x00640-y02688",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.048958646917526494
+    },
+    {
+      "core_id": "w035-x00768-y02688",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.24436994122606848
+    },
+    {
+      "core_id": "w035-x02176-y02688",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.0116375329262155
+    },
+    {
+      "core_id": "w035-x02304-y02688",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.645009889789435
+    },
+    {
+      "core_id": "w039-x03968-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.13293730057648645
+    },
+    {
+      "core_id": "w039-x04096-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.050186343489258434
+    },
+    {
+      "core_id": "w039-x04224-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.050186343489258434
+    },
+    {
+      "core_id": "w039-x04352-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.13590659367037006
+    },
+    {
+      "core_id": "w039-x03968-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.06182908617074645
+    },
+    {
+      "core_id": "w039-x04096-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.09467743462892031
+    },
+    {
+      "core_id": "w039-x04224-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.09497798929305645
+    },
+    {
+      "core_id": "w039-x04352-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.032500591662028455
+    },
+    {
+      "core_id": "w039-x03968-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.04425905407879327
+    },
+    {
+      "core_id": "w039-x04096-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.037512702345338766
+    },
+    {
+      "core_id": "w039-x04224-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.09497798929305645
+    },
+    {
+      "core_id": "w039-x04352-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.032500591662028455
+    },
+    {
+      "core_id": "w039-x03968-y04224",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.163266706415925
+    },
+    {
+      "core_id": "w039-x04096-y04224",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.04849609114626219
+    },
+    {
+      "core_id": "w039-x04224-y04224",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.012375276738566754
+    },
+    {
+      "core_id": "w039-x02432-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.5151223736866086
+    },
+    {
+      "core_id": "w039-x02560-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.518652752746675
+    },
+    {
+      "core_id": "w039-x02688-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.6445407946293926
+    },
+    {
+      "core_id": "w039-x02816-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.4775916391881765
+    },
+    {
+      "core_id": "w039-x04096-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.1002897058324379
+    },
+    {
+      "core_id": "w039-x04224-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.3686622036238987
+    },
+    {
+      "core_id": "w039-x04352-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.3356322667477798
+    },
+    {
+      "core_id": "w039-x04864-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 2.6070478694218764
+    },
+    {
+      "core_id": "w039-x04992-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.803010047794487
+    },
+    {
+      "core_id": "w039-x02432-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.08277453749724373
+    },
+    {
+      "core_id": "w039-x02560-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.688208114011104
+    },
+    {
+      "core_id": "w039-x02688-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.9880076615154394
+    },
+    {
+      "core_id": "w039-x02816-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.682564473396269
+    },
+    {
+      "core_id": "w039-x02944-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.1482588819490047
+    },
+    {
+      "core_id": "w039-x04096-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.05012380244079395
+    },
+    {
+      "core_id": "w039-x04224-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.09467317304734024
+    },
+    {
+      "core_id": "w039-x04352-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.03713117480947403
+    },
+    {
+      "core_id": "w039-x04864-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.03981632453542261
+    },
+    {
+      "core_id": "w039-x04992-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.04194977547376766
+    },
+    {
+      "core_id": "w039-x05120-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.5807626302048448
+    },
+    {
+      "core_id": "w039-x02432-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.026672832556869253
+    },
+    {
+      "core_id": "w039-x02560-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.026672832556869253
+    },
+    {
+      "core_id": "w039-x02688-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.9028566821771165
+    },
+    {
+      "core_id": "w039-x02816-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.8645827000518693
+    },
+    {
+      "core_id": "w039-x02944-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.574429882174627
+    },
+    {
+      "core_id": "w039-x04096-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.05012380244079395
+    },
+    {
+      "core_id": "w039-x04224-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.01779073848229018
+    },
+    {
+      "core_id": "w039-x04736-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.03198139849519066
+    },
+    {
+      "core_id": "w039-x04864-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.05288436923092377
+    },
+    {
+      "core_id": "w039-x04992-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.05483167560851143
+    },
+    {
+      "core_id": "w039-x02432-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.018226570205115422
+    },
+    {
+      "core_id": "w039-x02560-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.018226570205115422
+    },
+    {
+      "core_id": "w039-x02688-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.46579074956753175
+    },
+    {
+      "core_id": "w039-x02816-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.7244752754777437
+    },
+    {
+      "core_id": "w039-x02944-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.1667940020734022
+    },
+    {
+      "core_id": "w039-x04096-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.05012380244079395
+    },
+    {
+      "core_id": "w039-x04224-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.01779073848229018
+    },
+    {
+      "core_id": "w039-x04864-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.05288436923092377
+    },
+    {
+      "core_id": "w039-x04992-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.05483167560851143
+    },
+    {
+      "core_id": "w044-x02816-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.17512955072015757
+    },
+    {
+      "core_id": "w044-x02944-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.9015423669998199
+    },
+    {
+      "core_id": "w044-x03072-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 1.4523605259209944
+    },
+    {
+      "core_id": "w044-x03200-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.1368502400837315
+    },
+    {
+      "core_id": "w044-x03328-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 1.4241699655694902
+    },
+    {
+      "core_id": "w044-x03456-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.1706553571821132
+    },
+    {
+      "core_id": "w044-x03584-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.33583396387894027
+    },
+    {
+      "core_id": "w044-x03712-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.5641170741582755
+    },
+    {
+      "core_id": "w044-x03840-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.0223639699615887
+    },
+    {
+      "core_id": "w044-x03968-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.34354302585597907
+    },
+    {
+      "core_id": "w044-x04096-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.29955387263362354
+    },
+    {
+      "core_id": "w044-x04224-y03840",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.046813126416964224
+    },
+    {
+      "core_id": "w044-x02816-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.3976076703002036
+    },
+    {
+      "core_id": "w044-x02944-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.29212382483819965
+    },
+    {
+      "core_id": "w044-x03072-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 2.0867818390725006
+    },
+    {
+      "core_id": "w044-x03200-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.5562110820728776
+    },
+    {
+      "core_id": "w044-x03328-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 2.8634613412486942
+    },
+    {
+      "core_id": "w044-x03456-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.687135012401086
+    },
+    {
+      "core_id": "w044-x03584-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.5285311916595674
+    },
+    {
+      "core_id": "w044-x03712-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.6971317246152466
+    },
+    {
+      "core_id": "w044-x03840-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.31551618319917907
+    },
+    {
+      "core_id": "w044-x03968-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.7092268976784908
+    },
+    {
+      "core_id": "w044-x04096-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.022350677798385732
+    },
+    {
+      "core_id": "w044-x04224-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.12145974183295039
+    },
+    {
+      "core_id": "w044-x04352-y03968",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.09559955471740977
+    },
+    {
+      "core_id": "w044-x02816-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.24447826223149605
+    },
+    {
+      "core_id": "w044-x02944-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.07238878740918153
+    },
+    {
+      "core_id": "w044-x03072-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.0867818390725006
+    },
+    {
+      "core_id": "w044-x03200-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 3.38100939936794
+    },
+    {
+      "core_id": "w044-x03328-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 1.5001667235401328
+    },
+    {
+      "core_id": "w044-x03456-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.6545031711593765
+    },
+    {
+      "core_id": "w044-x03584-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.7229926839954715
+    },
+    {
+      "core_id": "w044-x03712-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.7288426168061051
+    },
+    {
+      "core_id": "w044-x03840-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.3071640796943029
+    },
+    {
+      "core_id": "w044-x03968-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.4837318044856147
+    },
+    {
+      "core_id": "w044-x04096-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.35367140855942125
+    },
+    {
+      "core_id": "w044-x04224-y04096",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.053766303714837704
+    },
+    {
+      "core_id": "w044-x01920-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.4941272001651669
+    },
+    {
+      "core_id": "w044-x02048-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.7394282234945422
+    },
+    {
+      "core_id": "w044-x02176-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.24682838401349727
+    },
+    {
+      "core_id": "w044-x02304-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.10612087286699534
+    },
+    {
+      "core_id": "w044-x02432-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.018389830613159575
+    },
+    {
+      "core_id": "w044-x02560-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.018389830613159575
+    },
+    {
+      "core_id": "w044-x02688-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.01842658827354171
+    },
+    {
+      "core_id": "w044-x02816-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.07846782487558812
+    },
+    {
+      "core_id": "w044-x02944-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.1793381584511735
+    },
+    {
+      "core_id": "w044-x03072-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.1350476654488375
+    },
+    {
+      "core_id": "w044-x03200-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 3.3102178636290773
+    },
+    {
+      "core_id": "w044-x03328-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.2979551139624164
+    },
+    {
+      "core_id": "w044-x03456-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 3.3690122975267514
+    },
+    {
+      "core_id": "w044-x03584-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.1081053865391368
+    },
+    {
+      "core_id": "w044-x03712-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.5130127491811436
+    },
+    {
+      "core_id": "w044-x03840-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.6232529805520244
+    },
+    {
+      "core_id": "w044-x03968-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.15946831255041616
+    },
+    {
+      "core_id": "w044-x04096-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.28733231654132396
+    },
+    {
+      "core_id": "w044-x04224-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.03340985782324424
+    },
+    {
+      "core_id": "w044-x04352-y04352",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.35367140855942125
+    },
+    {
+      "core_id": "w044-x01920-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.4941272001651669
+    },
+    {
+      "core_id": "w044-x02048-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.6808563636996041
+    },
+    {
+      "core_id": "w044-x02176-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.24682838401349727
+    },
+    {
+      "core_id": "w044-x02304-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.10612087286699534
+    },
+    {
+      "core_id": "w044-x02432-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.018389830613159575
+    },
+    {
+      "core_id": "w044-x02560-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.018389830613159575
+    },
+    {
+      "core_id": "w044-x02688-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.01842658827354171
+    },
+    {
+      "core_id": "w044-x02816-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.4699305467593149
+    },
+    {
+      "core_id": "w044-x02944-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.8348673432938085
+    },
+    {
+      "core_id": "w044-x03072-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.49394128436779283
+    },
+    {
+      "core_id": "w044-x03200-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.880012671827899
+    },
+    {
+      "core_id": "w044-x03328-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.1559393239440396
+    },
+    {
+      "core_id": "w044-x03456-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 2.4864559103689317
+    },
+    {
+      "core_id": "w044-x03584-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.8337058451588746
+    },
+    {
+      "core_id": "w044-x03712-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.7159425731024385
+    },
+    {
+      "core_id": "w044-x03840-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.8937543675347115
+    },
+    {
+      "core_id": "w044-x03968-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.24898272446898773
+    },
+    {
+      "core_id": "w044-x04096-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.35388639055781823
+    },
+    {
+      "core_id": "w044-x04224-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.12260553094074567
+    },
+    {
+      "core_id": "w044-x04352-y04480",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.08617819656592474
+    },
+    {
+      "core_id": "w044-x01792-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 1.5871892058135018
+    },
+    {
+      "core_id": "w044-x01920-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.8473505928523082
+    },
+    {
+      "core_id": "w044-x02048-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 1.769157872674441
+    },
+    {
+      "core_id": "w044-x02176-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.1744586925751719
+    },
+    {
+      "core_id": "w044-x02304-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.4303210003035929
+    },
+    {
+      "core_id": "w044-x02432-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.026617688536134665
+    },
+    {
+      "core_id": "w044-x02560-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 4.547473508864641e-13,
+      "independent_endpoint_plus_one_margin": 0.026617688536134665
+    },
+    {
+      "core_id": "w044-x02688-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.026617688536134665
+    },
+    {
+      "core_id": "w044-x02816-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.13651959028993588
+    },
+    {
+      "core_id": "w044-x02944-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.6184080966258989
+    },
+    {
+      "core_id": "w044-x03072-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.7054875456069567
+    },
+    {
+      "core_id": "w044-x03200-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 1.5598211958058528
+    },
+    {
+      "core_id": "w044-x03328-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 2.113130364643439
+    },
+    {
+      "core_id": "w044-x03456-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.7790832365235474
+    },
+    {
+      "core_id": "w044-x03584-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.8336582887231998
+    },
+    {
+      "core_id": "w044-x03712-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.7159425731024385
+    },
+    {
+      "core_id": "w044-x03840-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.9072287561775738
+    },
+    {
+      "core_id": "w044-x03968-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.11469086666784278
+    },
+    {
+      "core_id": "w044-x04096-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.5345330993095558
+    },
+    {
+      "core_id": "w044-x04224-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.15946831255041616
+    },
+    {
+      "core_id": "w044-x04352-y04608",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.28723819822789665
+    },
+    {
+      "core_id": "w044-x01920-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 2.0411183810447255
+    },
+    {
+      "core_id": "w044-x02048-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 0.8733347407878682
+    },
+    {
+      "core_id": "w044-x02944-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 0.0,
+      "independent_endpoint_plus_one_margin": 1.6517447640899263
+    },
+    {
+      "core_id": "w044-x03072-y04736",
+      "geometry_valid_pixels": 65536,
+      "maximum_base_extrema_difference": 9.094947017729282e-13,
+      "independent_endpoint_plus_one_margin": 0.4379563792872432
+    }
+  ]
+}

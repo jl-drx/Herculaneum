@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "archive_sha256": "9b6ed93ae3adf35b7fc3487db0a289ecb9464800da37365ed006aa7507f1e8a0",
+  "archive_files_verified": 125,
+  "applied_paths": 117,
+  "baseline_files_verified": 2887,
+  "fresh_combined_copy": true,
+  "streams": [
+    {
+      "stream": "added",
+      "status": "LOCAL_CACHE_VERIFIED",
+      "present": 949,
+      "confirmed_missing": 0,
+      "pending": 16621,
+      "pending_body_bytes": 6060536045,
+      "request_plan_sha256": "ffd9817800e9ca6cc00287874bfe835e3e868a5643b39f0be857e89ff613b74a",
+      "network_requests": 0,
+      "paid_compute": false
+    },
+    {
+      "stream": "original",
+      "status": "LOCAL_CACHE_VERIFIED",
+      "present": 424,
+      "confirmed_missing": 0,
+      "pending": 357,
+      "pending_body_bytes": 163774464,
+      "request_plan_sha256": "56af587f14390531ccf88fbc861591d07b6df54706cec7da585ab2b7a3c89c07",
+      "network_requests": 0,
+      "paid_compute": false
+    }
+  ],
+  "qualification_scope": "The original frozen partial qualification is unchanged. New cache objects have not been qualified as new examples.",
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

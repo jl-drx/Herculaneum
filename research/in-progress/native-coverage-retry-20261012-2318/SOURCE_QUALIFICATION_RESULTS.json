@@ -1,0 +1,119 @@
+{
+  "status": "PARTIAL_POPULATION_QUALIFICATION",
+  "freeze_sha256": "4dd30a41c0f08421d4d91c3a0cd80adc3dde26ca1df6df3fb4e013ce558f6393",
+  "cases": [
+    {
+      "id": "pherc0814-20250925161630",
+      "candidates": 1290,
+      "restricted": 315,
+      "status": "COMPLETE_CASE_MECHANICALLY_QUALIFIED",
+      "confirmed_missing": 0,
+      "unresolved": 0,
+      "supervision_qualified": true,
+      "tiff_tiles_compared": 483,
+      "explicit_and_official_tiff_equal": true,
+      "independent_area_crops": 1290,
+      "independent_area_max_abs_error": 0.5000247926044779,
+      "prior_smoke_teacher_byte_identical": true,
+      "counts": [
+        {
+          "arm": "restricted_A",
+          "candidates": 315,
+          "technically_eligible": 315,
+          "zero_positive_patches": 42,
+          "zero_negative_patches": 0,
+          "supervised_occurrences": 4590154,
+          "positive_occurrences": 1016042,
+          "unique_supervised_uv": 3228214,
+          "unique_positive_uv": 728892
+        },
+        {
+          "arm": "broad_B",
+          "candidates": 1290,
+          "technically_eligible": 1290,
+          "zero_positive_patches": 249,
+          "zero_negative_patches": 0,
+          "supervised_occurrences": 18901887,
+          "positive_occurrences": 3717138,
+          "unique_supervised_uv": 13275129,
+          "unique_positive_uv": 2583784
+        }
+      ],
+      "outputs": {
+        "pherc0814-20250925161630-support.csv": "5a001f2ae0b417b21ec701ebfbcb6530c3d9d358d129675fc30632645ba3b458",
+        "pherc0814-20250925161630-patches.npz": "7cb46db1ce3d6e7af751c8fe1c689b7ca759fcd48f855f959208f6a416fd3033"
+      },
+      "interpretation": "Weak teacher and CT-support bookkeeping only; not physical registration, authenticated blanks/ink, independent sheet area or full-cohort admission."
+    },
+    {
+      "id": "pherc0814-20250925182632",
+      "candidates": 1467,
+      "restricted": 387,
+      "status": "TRANSPORT_UNKNOWN",
+      "confirmed_missing": 0,
+      "unresolved": 399,
+      "supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250925204843",
+      "candidates": 1798,
+      "restricted": 383,
+      "status": "TRANSPORT_UNKNOWN",
+      "confirmed_missing": 0,
+      "unresolved": 2660,
+      "supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250925212701",
+      "candidates": 385,
+      "restricted": 69,
+      "status": "TRANSPORT_UNKNOWN",
+      "confirmed_missing": 0,
+      "unresolved": 632,
+      "supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250925222237",
+      "candidates": 712,
+      "restricted": 183,
+      "status": "TRANSPORT_UNKNOWN",
+      "confirmed_missing": 0,
+      "unresolved": 1037,
+      "supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250926051122",
+      "candidates": 3077,
+      "restricted": 762,
+      "status": "TRANSPORT_UNKNOWN",
+      "confirmed_missing": 0,
+      "unresolved": 4685,
+      "supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250926165636",
+      "candidates": 1748,
+      "restricted": 434,
+      "status": "TRANSPORT_UNKNOWN",
+      "confirmed_missing": 0,
+      "unresolved": 2579,
+      "supervision_qualified": false
+    },
+    {
+      "id": "pherc0814-20250926203608",
+      "candidates": 1410,
+      "restricted": 353,
+      "status": "TRANSPORT_UNKNOWN",
+      "confirmed_missing": 0,
+      "unresolved": 2063,
+      "supervision_qualified": false
+    }
+  ],
+  "arithmetic_controls": 63,
+  "numpy_version": "2.4.4",
+  "opencv_version": "5.0.0",
+  "tifffile_version": "2026.7.14",
+  "full_cohort_admitted": false,
+  "new_model_forwards": 0,
+  "paid_compute": false
+}

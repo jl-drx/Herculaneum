@@ -1,0 +1,439 @@
+{
+  "created_utc": "2026-10-11T07:42:51.849565+00:00",
+  "purpose": "finite CT-based sensitivity sets fixed before target pixels; not calibrated confidence regions or probabilities",
+  "site": "site1",
+  "fit_translation_zyx": [
+    0,
+    -1,
+    0
+  ],
+  "prior_structural_screen": "FAIL; unchanged",
+  "input_files": [
+    {
+      "relative": "method-review/score-check/site1-independent-landscapes.npy",
+      "sha256": "9e5ae4cc7ee5d1a66dd01d6a568589ab4408b3c3233d55389978cb038976f8d4"
+    },
+    {
+      "relative": "method-review/score-check/REAL_DATA_REPLAY.json",
+      "sha256": "7e5e5c9546a0fd14d7e209304ea16fa660b19ee7d32d1ef81d5e1bd45ccc0511"
+    }
+  ],
+  "supports": [
+    {
+      "support": 4,
+      "centre_native_xy": [
+        2432,
+        1840
+      ],
+      "native_xy_half_open": [
+        2416,
+        1824,
+        2448,
+        1856
+      ],
+      "at_fit_score": 0.9490156031834497,
+      "score_threshold": 0.8990156031834496,
+      "candidates": [
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            -1
+          ],
+          "ncc": 0.9131111348266172
+        },
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            0
+          ],
+          "ncc": 0.9336388701139928
+        },
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            1
+          ],
+          "ncc": 0.9304608493238379
+        },
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            2
+          ],
+          "ncc": 0.9064023028007447
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            -1
+          ],
+          "ncc": 0.9260797087789087
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            0
+          ],
+          "ncc": 0.9490156031834497
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            1
+          ],
+          "ncc": 0.9440022449076737
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            2
+          ],
+          "ncc": 0.9142111844087513
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            -1
+          ],
+          "ncc": 0.9131941395911045
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            0
+          ],
+          "ncc": 0.9334587003944061
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            1
+          ],
+          "ncc": 0.926256729682561
+        }
+      ],
+      "nonzero_dz_candidates": 0
+    },
+    {
+      "support": 5,
+      "centre_native_xy": [
+        2352,
+        1920
+      ],
+      "native_xy_half_open": [
+        2336,
+        1904,
+        2368,
+        1936
+      ],
+      "at_fit_score": 0.8680609010435503,
+      "score_threshold": 0.8180609010435502,
+      "candidates": [
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            0
+          ],
+          "ncc": 0.8263739678502277
+        },
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            1
+          ],
+          "ncc": 0.8428583462876232
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            0
+          ],
+          "ncc": 0.8680609010435503
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            1
+          ],
+          "ncc": 0.8882303430535389
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            0
+          ],
+          "ncc": 0.8238108102601389
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            1
+          ],
+          "ncc": 0.8457914411941322
+        }
+      ],
+      "nonzero_dz_candidates": 0
+    },
+    {
+      "support": 6,
+      "centre_native_xy": [
+        2512,
+        1920
+      ],
+      "native_xy_half_open": [
+        2496,
+        1904,
+        2528,
+        1936
+      ],
+      "at_fit_score": 0.9377875055151513,
+      "score_threshold": 0.8877875055151513,
+      "candidates": [
+        {
+          "shift_zyx": [
+            0,
+            -3,
+            -1
+          ],
+          "ncc": 0.89686984229295
+        },
+        {
+          "shift_zyx": [
+            0,
+            -3,
+            0
+          ],
+          "ncc": 0.8994037029162347
+        },
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            -2
+          ],
+          "ncc": 0.8977659807711847
+        },
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            -1
+          ],
+          "ncc": 0.9155453969660068
+        },
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            0
+          ],
+          "ncc": 0.9209421781448954
+        },
+        {
+          "shift_zyx": [
+            0,
+            -2,
+            1
+          ],
+          "ncc": 0.9063522922639244
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            -2
+          ],
+          "ncc": 0.9067578496485046
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            -1
+          ],
+          "ncc": 0.9288723549177702
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            0
+          ],
+          "ncc": 0.9377875055151513
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            1
+          ],
+          "ncc": 0.9230635988077519
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            -2
+          ],
+          "ncc": 0.90019714741049
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            -1
+          ],
+          "ncc": 0.9236586697230605
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            0
+          ],
+          "ncc": 0.9339013763362242
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            1
+          ],
+          "ncc": 0.9194176148772466
+        },
+        {
+          "shift_zyx": [
+            0,
+            1,
+            -1
+          ],
+          "ncc": 0.8982764664826091
+        },
+        {
+          "shift_zyx": [
+            0,
+            1,
+            0
+          ],
+          "ncc": 0.906486409275202
+        },
+        {
+          "shift_zyx": [
+            0,
+            1,
+            1
+          ],
+          "ncc": 0.8932720171665227
+        },
+        {
+          "shift_zyx": [
+            1,
+            -1,
+            1
+          ],
+          "ncc": 0.8944875839772763
+        },
+        {
+          "shift_zyx": [
+            1,
+            -1,
+            2
+          ],
+          "ncc": 0.887914504159378
+        },
+        {
+          "shift_zyx": [
+            1,
+            0,
+            0
+          ],
+          "ncc": 0.8885850459158136
+        },
+        {
+          "shift_zyx": [
+            1,
+            0,
+            1
+          ],
+          "ncc": 0.8973448234275084
+        },
+        {
+          "shift_zyx": [
+            1,
+            0,
+            2
+          ],
+          "ncc": 0.8890727807935952
+        }
+      ],
+      "nonzero_dz_candidates": 5
+    },
+    {
+      "support": 7,
+      "centre_native_xy": [
+        2432,
+        2000
+      ],
+      "native_xy_half_open": [
+        2416,
+        1984,
+        2448,
+        2016
+      ],
+      "at_fit_score": 0.926213407071135,
+      "score_threshold": 0.8762134070711349,
+      "candidates": [
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            0
+          ],
+          "ncc": 0.926213407071135
+        },
+        {
+          "shift_zyx": [
+            0,
+            -1,
+            1
+          ],
+          "ncc": 0.8973804747370066
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            0
+          ],
+          "ncc": 0.9007716796520161
+        },
+        {
+          "shift_zyx": [
+            0,
+            0,
+            1
+          ],
+          "ncc": 0.8816783553803874
+        }
+      ],
+      "nonzero_dz_candidates": 0
+    }
+  ]
+}

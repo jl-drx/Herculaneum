@@ -1,0 +1,202 @@
+{
+  "created_at_utc": "2026-10-09T20:21:01.971337+00:00",
+  "scope": "Lightweight retained-metadata preparation. No new CT, model forwards, scientific-map inspection, region admission, or paid resources. This is a minimum exclusion inventory, not an exhaustive physical-overlap certificate.",
+  "sources": [
+    {
+      "source": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/NEXT_STUDY_DRAFT.md",
+      "bytes": 5938,
+      "sha256": "a3f215cb5b8d245f457e86fe8640d76408b3da09ea221985115195920eeddc13"
+    },
+    {
+      "source": "/workspace/herculaneum-lab/reports/fortyfifth-experiment/STRATEGY_REVIEW.md",
+      "bytes": 14542,
+      "sha256": "63f79126e1d2c3748c5b905fc3249e8391c99defae009c6da924322827a9ef2b"
+    },
+    {
+      "source": "/workspace/herculaneum-lab/reports/third-experiment/geometry-selection.json",
+      "bytes": 2349048,
+      "sha256": "1a2e44b6b11321aa49ccce0a2effcffd65d757c6c333733d1ba8ae024e2d7ff4"
+    },
+    {
+      "source": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/prior-acquisition-inventory.json",
+      "bytes": 2851,
+      "sha256": "b3ad7480d657688a52495ca2a1112a9d2823fbd3328466f0ce21b80761e3aac0"
+    },
+    {
+      "source": "/workspace/herculaneum-lab/reports/fourth-experiment/geometry-selection/selected-plan.json",
+      "bytes": 32472,
+      "sha256": "f7ae57e533af2b0411d874d1ab931ab33ffcd16494f59b869f1e5fd15fbe8d3a"
+    },
+    {
+      "source": "/workspace/herculaneum-lab/reports/fifth-experiment/context-selection-v2/result/selected-plan.json",
+      "bytes": 50415,
+      "sha256": "97d91ef2f871571c3b9aca88da7507c0fb59395f98deafd422f606501359de55"
+    },
+    {
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/PROTOCOL.md",
+      "bytes": 3172,
+      "sha256": "0118ccce63027f7d3694d2eea27e957e1e2c7e7e7107b2d29d1b5ffe6e65de7f"
+    },
+    {
+      "source": "/workspace/herculaneum-lab/reports/fortysixth-experiment/HECATE_WORK_ESTIMATE.json",
+      "bytes": 1163,
+      "sha256": "7a35d9f97546b081d4c746956eb7584f1fa28f24a140959e44275f6630badead"
+    }
+  ],
+  "known_exposed_extents": [
+    {
+      "segment_id": "20251029010146",
+      "bbox_source_xywh": [
+        0,
+        0,
+        980,
+        980
+      ],
+      "scope": "Previously acquired and inspected; exclude whole extent, not just selected positive-looking pixels."
+    },
+    {
+      "segment_id": "20251028222030",
+      "bbox_source_xywh": [
+        512,
+        512,
+        1536,
+        1536
+      ],
+      "scope": "Previously acquired and inspected; exclude whole extent, not just selected positive-looking pixels."
+    },
+    {
+      "segment_id": "20251028220955",
+      "bbox_source_xywh": [
+        768,
+        256,
+        768,
+        768
+      ],
+      "contains_earlier_bbox_source_xywh": [
+        1024,
+        384,
+        384,
+        384
+      ],
+      "scope": "Phase5 context contains the phase4 crop; not independent tissue or a fresh test."
+    }
+  ],
+  "retained_geometry_inventory": [
+    {
+      "segment_id": "20251028213516",
+      "surface_shape_zyx": [
+        31,
+        2160,
+        2240
+      ],
+      "geometry_valid_pixels": 2313200,
+      "nominal_valid_area_cm2": 1.7267945472,
+      "source_coordinate_bbox_xyz": [
+        [
+          2963.9150390625,
+          5307.39990234375,
+          11083.978515625
+        ],
+        [
+          4249.47314453125,
+          6947.47802734375,
+          13076.4970703125
+        ]
+      ],
+      "independence_status": "NOT_CERTIFIED; a different mesh identifier does not establish different tissue."
+    },
+    {
+      "segment_id": "20251028220042",
+      "surface_shape_zyx": [
+        31,
+        2040,
+        2000
+      ],
+      "geometry_valid_pixels": 2150800,
+      "nominal_valid_area_cm2": 1.6055635968,
+      "source_coordinate_bbox_xyz": [
+        [
+          2956.557861328125,
+          5489.14208984375,
+          11152.46484375
+        ],
+        [
+          4280.3896484375,
+          6844.609375,
+          13033.57421875
+        ]
+      ],
+      "independence_status": "NOT_CERTIFIED; a different mesh identifier does not establish different tissue."
+    },
+    {
+      "segment_id": "20251028220955",
+      "surface_shape_zyx": [
+        31,
+        2100,
+        2100
+      ],
+      "geometry_valid_pixels": 2067600,
+      "nominal_valid_area_cm2": 1.5434551295999999,
+      "source_coordinate_bbox_xyz": [
+        [
+          3084.121337890625,
+          5391.5546875,
+          10986.9150390625
+        ],
+        [
+          4298.77783203125,
+          6908.60888671875,
+          12902.1982421875
+        ]
+      ],
+      "independence_status": "NOT_CERTIFIED; a different mesh identifier does not establish different tissue."
+    },
+    {
+      "segment_id": "20251028222030",
+      "surface_shape_zyx": [
+        31,
+        2580,
+        2580
+      ],
+      "geometry_valid_pixels": 3159600,
+      "nominal_valid_area_cm2": 2.3586287616,
+      "source_coordinate_bbox_xyz": [
+        [
+          2926.48779296875,
+          5152.609375,
+          10860.5029296875
+        ],
+        [
+          4423.25830078125,
+          7032.42529296875,
+          13188.3173828125
+        ]
+      ],
+      "independence_status": "NOT_CERTIFIED; a different mesh identifier does not establish different tissue."
+    },
+    {
+      "segment_id": "20251028225813",
+      "surface_shape_zyx": [
+        31,
+        2300,
+        2260
+      ],
+      "geometry_valid_pixels": 2484000,
+      "nominal_valid_area_cm2": 1.854296064,
+      "source_coordinate_bbox_xyz": [
+        [
+          2891.90234375,
+          5365.10986328125,
+          11106.7626953125
+        ],
+        [
+          4252.41455078125,
+          6975.251953125,
+          13242.70703125
+        ]
+      ],
+      "independence_status": "NOT_CERTIFIED; a different mesh identifier does not establish different tissue."
+    }
+  ],
+  "fresh_assessment_field_certified": false
+}

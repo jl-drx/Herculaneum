@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "model": "dnative",
+  "phase": "padded",
+  "checkpoint": {
+    "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/dense_native-016000.rebuilt.pth",
+    "bytes": 272895087,
+    "sha256": "24e05e1f5ee4fd222fe5fb64f4e67ab5ae55fde8c503aa45ec1817f7bcc76244"
+  },
+  "output": {
+    "path": "/workspace/herculaneum-lab/reports/fortysixth-experiment/work/maps_padded/concat_w047-w048_R5B2_z9500-11000_66_padded__dnative__L66s26_reverse.tif",
+    "sha256": "0b16a486b577c2d76b57d8dfcd2dbf923024e89b1c85cb1e3a1a99c447399183",
+    "bytes": 6123766
+  },
+  "decoded_sha256": "8c8c1ef7ca2e9965ba960ff0a34b6c319c2dfa6e699d0af2b1ee7cbad4d8da2d",
+  "shape": [
+    2600,
+    6920
+  ],
+  "min": 0,
+  "max": 222,
+  "tile_forwards": 2870,
+  "elapsed_seconds": 390.345037779,
+  "device": "cpu",
+  "precision": "fp32",
+  "compile": false
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/herculaneum-lab/reports/fortysixth-experiment/render_surface.py", line 20, in <module>
+    elif attempt!=3:raise RuntimeError('Nontransient renderer failure; inspect retained log')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Nontransient renderer failure; inspect retained log

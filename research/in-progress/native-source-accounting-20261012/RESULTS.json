@@ -1,0 +1,260 @@
+{
+  "status": "PASS_OFFLINE_SOURCE_ACCOUNTING",
+  "freeze_sha256": "47e72f4a1c447040e7ebb5648341a78da9daa8eaa87cabdfa7adfd2bbabfff8f",
+  "original_equal_source_draws": [
+    {
+      "winding": "w035",
+      "candidates": 191,
+      "mean_supervised_per_draw": 9995.104712041884,
+      "equal_draw_quota": 0.2,
+      "equal_draw_dice_coefficient": 0.2,
+      "large_balanced_batch_bce_coefficient": 0.19369941912916278
+    },
+    {
+      "winding": "w039",
+      "candidates": 104,
+      "mean_supervised_per_draw": 9932.836538461539,
+      "equal_draw_quota": 0.2,
+      "equal_draw_dice_coefficient": 0.2,
+      "large_balanced_batch_bce_coefficient": 0.19249269749890155
+    },
+    {
+      "winding": "w040",
+      "candidates": 304,
+      "mean_supervised_per_draw": 9504.151315789473,
+      "equal_draw_quota": 0.2,
+      "equal_draw_dice_coefficient": 0.2,
+      "large_balanced_batch_bce_coefficient": 0.18418502279082222
+    },
+    {
+      "winding": "w041",
+      "candidates": 91,
+      "mean_supervised_per_draw": 10743.483516483517,
+      "equal_draw_quota": 0.2,
+      "equal_draw_dice_coefficient": 0.2,
+      "large_balanced_batch_bce_coefficient": 0.20820257281141247
+    },
+    {
+      "winding": "w044",
+      "candidates": 186,
+      "mean_supervised_per_draw": 11425.532258064517,
+      "equal_draw_quota": 0.2,
+      "equal_draw_dice_coefficient": 0.2,
+      "large_balanced_batch_bce_coefficient": 0.221420287769701
+    }
+  ],
+  "original_two_source_enumeration": [
+    {
+      "left": "w035",
+      "right": "w039",
+      "enumerated_pairs": 19864,
+      "expected_left_bce_coefficient": 0.5033052124382318,
+      "right_bce_coefficient": 0.4966947875617682,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.0596338173678471,
+      "maximum_left_bce_coefficient": 0.9367103081584816
+    },
+    {
+      "left": "w035",
+      "right": "w040",
+      "enumerated_pairs": 58064,
+      "expected_left_bce_coefficient": 0.51183939883564,
+      "right_bce_coefficient": 0.48816060116436,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.0596338173678471,
+      "maximum_left_bce_coefficient": 0.9403122130394858
+    },
+    {
+      "left": "w035",
+      "right": "w041",
+      "enumerated_pairs": 17381,
+      "expected_left_bce_coefficient": 0.48108400294810405,
+      "right_bce_coefficient": 0.518915997051896,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.0596338173678471,
+      "maximum_left_bce_coefficient": 0.9328702385697204
+    },
+    {
+      "left": "w035",
+      "right": "w044",
+      "enumerated_pairs": 35526,
+      "expected_left_bce_coefficient": 0.45989862439530355,
+      "right_bce_coefficient": 0.5401013756046966,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.0596338173678471,
+      "maximum_left_bce_coefficient": 0.9363890952734755
+    },
+    {
+      "left": "w039",
+      "right": "w040",
+      "enumerated_pairs": 31616,
+      "expected_left_bce_coefficient": 0.5085028568378996,
+      "right_bce_coefficient": 0.49149714316210036,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.06328969184151849,
+      "maximum_left_bce_coefficient": 0.9403122130394858
+    },
+    {
+      "left": "w039",
+      "right": "w041",
+      "enumerated_pairs": 9464,
+      "expected_left_bce_coefficient": 0.47784304088809837,
+      "right_bce_coefficient": 0.5221569591119016,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.06328969184151849,
+      "maximum_left_bce_coefficient": 0.9328702385697204
+    },
+    {
+      "left": "w039",
+      "right": "w044",
+      "enumerated_pairs": 19344,
+      "expected_left_bce_coefficient": 0.45665092164688414,
+      "right_bce_coefficient": 0.5433490783531159,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.06328969184151849,
+      "maximum_left_bce_coefficient": 0.9363890952734755
+    },
+    {
+      "left": "w040",
+      "right": "w041",
+      "enumerated_pairs": 27664,
+      "expected_left_bce_coefficient": 0.4692654794353959,
+      "right_bce_coefficient": 0.530734520564604,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.05968778696051423,
+      "maximum_left_bce_coefficient": 0.9328702385697204
+    },
+    {
+      "left": "w040",
+      "right": "w044",
+      "enumerated_pairs": 56544,
+      "expected_left_bce_coefficient": 0.4479175034623313,
+      "right_bce_coefficient": 0.5520824965376688,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.05968778696051423,
+      "maximum_left_bce_coefficient": 0.9363890952734755
+    },
+    {
+      "left": "w041",
+      "right": "w044",
+      "enumerated_pairs": 16926,
+      "expected_left_bce_coefficient": 0.47917624437003936,
+      "right_bce_coefficient": 0.5208237556299606,
+      "each_dice_coefficient": 0.5,
+      "minimum_left_bce_coefficient": 0.06712976143027956,
+      "maximum_left_bce_coefficient": 0.9363890952734755
+    }
+  ],
+  "complete_added_case": {
+    "id": "pherc0814-20250925161630",
+    "arms": [
+      {
+        "arm": "restricted_A",
+        "candidates": 315,
+        "mean_supervised_per_draw": 14571.91746031746,
+        "supervised_fraction_minimum": 0.67767333984375,
+        "zero_positive_draw_probability": 0.13333333333333333,
+        "raw_positive_fraction_one_patch": 0.23189847633480512,
+        "raw_positive_fraction_two_iid_patches": 0.22661255449879786,
+        "raw_positive_fraction_large_batch": 0.22135248621288087,
+        "two_patch_ordered_pairs": 99225
+      },
+      {
+        "arm": "broad_B",
+        "candidates": 1290,
+        "mean_supervised_per_draw": 14652.625581395348,
+        "supervised_fraction_minimum": 0.61749267578125,
+        "zero_positive_draw_probability": 0.1930232558139535,
+        "raw_positive_fraction_one_patch": 0.20705861560030117,
+        "raw_positive_fraction_two_iid_patches": 0.20181543971777022,
+        "raw_positive_fraction_large_batch": 0.19665433403553836,
+        "two_patch_ordered_pairs": 1664100
+      }
+    ]
+  },
+  "conditional_probe": {
+    "patch_ids": [
+      "pherc0814-20250925161630-x07968-y00288",
+      "pherc0814-20250925161630-x13920-y00288",
+      "pherc0814-20250925161630-x07680-y00384",
+      "pherc0814-20250925161630-x07776-y00384"
+    ],
+    "groups_are_arithmetic_probes_not_physical_sources": true,
+    "supervised_before": [
+      15346,
+      16382,
+      15405,
+      16347
+    ],
+    "supervised_after": [
+      15346,
+      16382,
+      1024,
+      1024
+    ],
+    "fixed_group_pooled_bce_gradient_ratio": 1.8794410228729248,
+    "ratio_max_absolute_error": 1.8189894035458565e-12,
+    "fixed_group_source_normalized_bce_plus_dice_gradients_bitwise_equal": true,
+    "changed_group_gradients_differ": true,
+    "source_normalized_losses": [
+      0.7284084558486938,
+      0.6991358399391174
+    ],
+    "accumulation": [
+      {
+        "microbatches": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "relative_gradient_l2": 0.0,
+        "loss_absolute_difference": 5.960464477539063e-08
+      },
+      {
+        "microbatches": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "relative_gradient_l2": 0.0,
+        "loss_absolute_difference": 5.960464477539063e-08
+      }
+    ],
+    "naive_microbatch_relative_gradient_l2": 0.02985072322189808,
+    "rejected_invalid_contracts": [
+      "missing_source",
+      "invalid_coefficient_sum",
+      "zero_support",
+      "unknown_source"
+    ]
+  },
+  "interpretation": "Source loss coefficients are not source draw quotas. Proposal only; the actual eight-source training objective and CUDA loader remain unqualified.",
+  "limitations": [
+    "No full-population source/class effect estimate from one added segment",
+    "BCE coefficient and class-mass bookkeeping is not model gradient magnitude or ink accuracy",
+    "Class fractions precede BCE target smoothing; Dice is nonlinear in predictions",
+    "Arithmetic census is unaugmented; final denominators must follow actual augmentation",
+    "Source coefficients do not fix within-source class, support, annotation quality or physical overlap",
+    "Complete accumulation consumption and actual loader require later end-to-end qualification"
+  ],
+  "numpy_version": "2.4.4",
+  "torch_version": "2.13.0+cpu",
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "full_cohort_admitted": false,
+  "paid_compute": false
+}

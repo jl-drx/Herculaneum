@@ -1,0 +1,410 @@
+{
+  "complete": true,
+  "requests": [
+    {
+      "winding": "w040",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "bytes": 66742237,
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\""
+    },
+    {
+      "winding": "w040",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        0,
+        8
+      ],
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "path": "metadata/w040-header.bin",
+      "bytes": 8,
+      "sha256": "e14e7408990dc136663693d7e57816e5e10b2c0668ede991ca62072d380c3d7a"
+    },
+    {
+      "winding": "w040",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        8,
+        10
+      ],
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "path": "metadata/w040-ifd-count.bin",
+      "bytes": 2,
+      "sha256": "46e04d129d7b45d054469ce34e24069a1426b3e34f1b68a3d1bff1e070aee192"
+    },
+    {
+      "winding": "w040",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        10,
+        194
+      ],
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "path": "metadata/w040-ifd.bin",
+      "bytes": 184,
+      "sha256": "036173a1dbc0d6aafe3a61024b5c7f1fb664d057937bc79aab31513173311f93"
+    },
+    {
+      "winding": "w040",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        194,
+        255
+      ],
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "path": "metadata/w040-tag-270.bin",
+      "bytes": 61,
+      "sha256": "c9b7b56eb0c60062c4ace78ae528457b286ac3bdf7807ce27b04c62f9210dec9"
+    },
+    {
+      "winding": "w040",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        270,
+        278
+      ],
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "path": "metadata/w040-tag-282.bin",
+      "bytes": 8,
+      "sha256": "64ed86b909d6d0502b64b28db0ea1272ffb358e20e9b1d88b63ccb07fa900cf5"
+    },
+    {
+      "winding": "w040",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        278,
+        286
+      ],
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "path": "metadata/w040-tag-283.bin",
+      "bytes": 8,
+      "sha256": "64ed86b909d6d0502b64b28db0ea1272ffb358e20e9b1d88b63ccb07fa900cf5"
+    },
+    {
+      "winding": "w040",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        286,
+        298
+      ],
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "path": "metadata/w040-tag-305.bin",
+      "bytes": 12,
+      "sha256": "15218e83e7d52d30092b80e5002207077670f9e2a0a206dadb0208ff605290bc"
+    },
+    {
+      "winding": "w040",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        298,
+        3398
+      ],
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "path": "metadata/w040-tag-324.bin",
+      "bytes": 3100,
+      "sha256": "8a3a01b388e440151494681ffa0e04ea4649aa7d1fd3377a0c3a3daff007f2ae"
+    },
+    {
+      "winding": "w040",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20250831000000-w040_2025083102/ink-detection/PHerc0139-20250831000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        3398,
+        6498
+      ],
+      "etag": "\"5bb72bf41bb6feacb28a626e6730ec7a-8\"",
+      "path": "metadata/w040-tag-325.bin",
+      "bytes": 3100,
+      "sha256": "5d812aa8347b1499a921b86f87f1ea72497b0a49e79bcf58dda107ab406e0b1d"
+    },
+    {
+      "winding": "w041",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "bytes": 69990284,
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\""
+    },
+    {
+      "winding": "w041",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        0,
+        8
+      ],
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\"",
+      "path": "metadata/w041-header.bin",
+      "bytes": 8,
+      "sha256": "e14e7408990dc136663693d7e57816e5e10b2c0668ede991ca62072d380c3d7a"
+    },
+    {
+      "winding": "w041",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        8,
+        10
+      ],
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\"",
+      "path": "metadata/w041-ifd-count.bin",
+      "bytes": 2,
+      "sha256": "46e04d129d7b45d054469ce34e24069a1426b3e34f1b68a3d1bff1e070aee192"
+    },
+    {
+      "winding": "w041",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        10,
+        194
+      ],
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\"",
+      "path": "metadata/w041-ifd.bin",
+      "bytes": 184,
+      "sha256": "5dc6ecdb67957a668384d2b06f389c88e57d734a6d1e83adc45543eff407d8af"
+    },
+    {
+      "winding": "w041",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        194,
+        255
+      ],
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\"",
+      "path": "metadata/w041-tag-270.bin",
+      "bytes": 61,
+      "sha256": "fce50f1fe9f0c6da124bb02a3e4441972d02d0b6a1fa8bc69aa85f2db4b70377"
+    },
+    {
+      "winding": "w041",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        270,
+        278
+      ],
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\"",
+      "path": "metadata/w041-tag-282.bin",
+      "bytes": 8,
+      "sha256": "64ed86b909d6d0502b64b28db0ea1272ffb358e20e9b1d88b63ccb07fa900cf5"
+    },
+    {
+      "winding": "w041",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        278,
+        286
+      ],
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\"",
+      "path": "metadata/w041-tag-283.bin",
+      "bytes": 8,
+      "sha256": "64ed86b909d6d0502b64b28db0ea1272ffb358e20e9b1d88b63ccb07fa900cf5"
+    },
+    {
+      "winding": "w041",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        286,
+        298
+      ],
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\"",
+      "path": "metadata/w041-tag-305.bin",
+      "bytes": 12,
+      "sha256": "15218e83e7d52d30092b80e5002207077670f9e2a0a206dadb0208ff605290bc"
+    },
+    {
+      "winding": "w041",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        298,
+        3274
+      ],
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\"",
+      "path": "metadata/w041-tag-324.bin",
+      "bytes": 2976,
+      "sha256": "374c189a8160c07bda4eef48af64345c3bd68015352c26a8849bf00879a8fb23"
+    },
+    {
+      "winding": "w041",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260108000000-w041_2026010816/ink-detection/PHerc0139-20260108000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        3274,
+        6250
+      ],
+      "etag": "\"52376706bcf51f1e707a9ecfb59df596-9\"",
+      "path": "metadata/w041-tag-325.bin",
+      "bytes": 2976,
+      "sha256": "aa187623dc9282e67de9e57255ebd03b6a52c913dbff625c315f440aad993984"
+    },
+    {
+      "winding": "w043",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "bytes": 77897247,
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\""
+    },
+    {
+      "winding": "w043",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        0,
+        8
+      ],
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\"",
+      "path": "metadata/w043-header.bin",
+      "bytes": 8,
+      "sha256": "e14e7408990dc136663693d7e57816e5e10b2c0668ede991ca62072d380c3d7a"
+    },
+    {
+      "winding": "w043",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        8,
+        10
+      ],
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\"",
+      "path": "metadata/w043-ifd-count.bin",
+      "bytes": 2,
+      "sha256": "46e04d129d7b45d054469ce34e24069a1426b3e34f1b68a3d1bff1e070aee192"
+    },
+    {
+      "winding": "w043",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        10,
+        194
+      ],
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\"",
+      "path": "metadata/w043-ifd.bin",
+      "bytes": 184,
+      "sha256": "bb18bcbe4bb769cf9cfb850b9a68b8f5997858c91cc8aefa6078c4696b187159"
+    },
+    {
+      "winding": "w043",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        194,
+        255
+      ],
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\"",
+      "path": "metadata/w043-tag-270.bin",
+      "bytes": 61,
+      "sha256": "ce50c793edfec648b150956e9c20ef2d252cf8bd99cc165564c0733d17b3b423"
+    },
+    {
+      "winding": "w043",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        270,
+        278
+      ],
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\"",
+      "path": "metadata/w043-tag-282.bin",
+      "bytes": 8,
+      "sha256": "64ed86b909d6d0502b64b28db0ea1272ffb358e20e9b1d88b63ccb07fa900cf5"
+    },
+    {
+      "winding": "w043",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        278,
+        286
+      ],
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\"",
+      "path": "metadata/w043-tag-283.bin",
+      "bytes": 8,
+      "sha256": "64ed86b909d6d0502b64b28db0ea1272ffb358e20e9b1d88b63ccb07fa900cf5"
+    },
+    {
+      "winding": "w043",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        286,
+        298
+      ],
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\"",
+      "path": "metadata/w043-tag-305.bin",
+      "bytes": 12,
+      "sha256": "15218e83e7d52d30092b80e5002207077670f9e2a0a206dadb0208ff605290bc"
+    },
+    {
+      "winding": "w043",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        298,
+        3274
+      ],
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\"",
+      "path": "metadata/w043-tag-324.bin",
+      "bytes": 2976,
+      "sha256": "2dd812690c1b189b46d569b83a77862da7ba4d1be4682cd37c616eb53620f3a3"
+    },
+    {
+      "winding": "w043",
+      "method": "GET",
+      "status": 206,
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260112000000-w043_2026011217/ink-detection/PHerc0139-20260112000000-2.399um-0.22m-78keV-volume-20260102150214-20260417190342-new_canon_autoresearch_recipe-tile256-stride128.tif",
+      "range_half_open": [
+        3274,
+        6250
+      ],
+      "etag": "\"9e90b15f151e97726c19a6c7cea6f6b2-10\"",
+      "path": "metadata/w043-tag-325.bin",
+      "bytes": 2976,
+      "sha256": "a0f602922c006a592dc07c144ed38cf8f689c3ce8164093989682a8f9c32829f"
+    }
+  ],
+  "header_body_bytes": 18953,
+  "cap_bytes": 262144,
+  "utc": "2026-10-11T12:49:03.606538+00:00"
+}

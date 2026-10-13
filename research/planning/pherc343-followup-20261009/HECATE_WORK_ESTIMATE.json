@@ -1,0 +1,39 @@
+{
+  "observed_at_utc": "2026-10-09T20:15:32.407892+00:00",
+  "batch4_seconds": 8.486036475999981,
+  "qualification_single_seconds": 2.2331940770000074,
+  "phases": [
+    {
+      "phase": "plain",
+      "total_origins": 13348,
+      "active_tiles": 8861,
+      "blank_tiles": 4487,
+      "batch_count_by_active_tiles_0_to_4": [
+        1067,
+        19,
+        72,
+        18,
+        2161
+      ],
+      "estimated_hours_active_tile_rate": 5.2218589731830445,
+      "estimated_hours_charge_nonempty_batch_at_batch4_rate": 5.350917444588877
+    },
+    {
+      "phase": "padded",
+      "total_origins": 14162,
+      "active_tiles": 8959,
+      "blank_tiles": 5203,
+      "batch_count_by_active_tiles_0_to_4": [
+        1249,
+        12,
+        77,
+        19,
+        2184
+      ],
+      "estimated_hours_active_tile_rate": 5.279611165866933,
+      "estimated_hours_charge_nonempty_batch_at_batch4_rate": 5.402776556386654
+    }
+  ],
+  "read_count_seconds": 2.096686559000318,
+  "scope": "Read-only exact occupancy count using released axis schedule and blank-skip rule; timing remains a one-batch extrapolation, not a completion guarantee; no model forwards."
+}
